@@ -1,0 +1,77 @@
+{
+  "last_audit": "2026-02-15",
+  "repos": [
+    {
+      "id": "microsoft-azure",
+      "name": "Azure Agent Skills",
+      "url": "https://github.com/microsoft/azure-agent-skills",
+      "author": "Microsoft",
+      "sync_method": "script",
+      "categories": ["cloud", "azure", "enterprise"],
+      "last_sync": "2026-02-15"
+    },
+    {
+      "id": "superpowers",
+      "name": "Superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "author": "obra",
+      "sync_method": "npx-skills",
+      "categories": ["workflow", "agentic", "best-practices"],
+      "last_sync": "2026-02-15"
+    },
+    {
+      "id": "vercel-agent-skills",
+      "name": "Vercel Agent Skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "author": "Vercel Labs",
+      "sync_method": "npx-skills",
+      "categories": ["frontend", "react", "nextjs"],
+      "last_sync": "2026-02-15"
+    },
+    {
+      "id": "vercel-skills",
+      "name": "Vercel Skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "author": "Vercel Labs",
+      "sync_method": "npx-skills",
+      "categories": ["search", "discovery"],
+      "last_sync": "2026-02-15"
+    },
+    {
+      "id": "infsh-skills",
+      "name": "Inference.sh Skills",
+      "url": "https://github.com/inference-sh-0/skills",
+      "author": "Inference.sh",
+      "sync_method": "npx-skills",
+      "categories": ["ai-tools", "multimedia"],
+      "last_sync": "2026-02-15"
+    },
+    {
+      "id": "browser-use",
+      "name": "Browser Use",
+      "url": "https://github.com/browser-use/browser-use",
+      "author": "Browser Use",
+      "sync_method": "npx-skills",
+      "categories": ["automation", "browser"],
+      "last_sync": "2026-02-15"
+    },
+    {
+      "id": "squirrel-scan",
+      "name": "Squirrel Scan Skills",
+      "url": "https://github.com/squirrelscan/skills",
+      "author": "SquirrelScan",
+      "sync_method": "npx-skills",
+      "categories": ["security", "audit"],
+      "last_sync": "2026-02-15"
+    },
+    {
+      "id": "interface-design",
+      "name": "Interface Design",
+      "url": "https://github.com/dammyjay93/interface-design",
+      "author": "dammyjay93",
+      "sync_method": "npx-skills",
+      "categories": ["design", "ui"],
+      "last_sync": "2026-02-15"
+    }
+  ]
+}
