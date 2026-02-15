@@ -1,35 +1,20 @@
 ---
 name: slo-implementation
-description: Define and implement Service Level Indicators (SLIs) and Service Level
-  Objectives (SLOs) with error budgets and alerting. Use when establishing reliability
-  targets, implementing SRE practices, or measuring service performance.
+description: Define and implement Service Level Indicators (SLIs) and Service Level Objectives (SLOs) with error budgets and alerting. Use when establishing reliability targets, implementing SRE practices, or measuring service performance.
 risk: safe
 source: community
 license: MIT
 ---
 
-
 # SLO Implementation
 
 Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets.
 
-## Do not use this skill when
-
-- The task is unrelated to slo implementation
-- You need a different domain or tool outside this scope
-
-## Instructions
-
-- Clarify goals, constraints, and required inputs.
-- Apply relevant best practices and validate outcomes.
-- Provide actionable steps and verification.
-- If detailed examples are required, open `resources/implementation-playbook.md`.
-
-## When to Use
+## Purpose
 
 Implement measurable reliability targets using SLIs, SLOs, and error budgets to balance reliability with innovation velocity.
 
-## Use this skill when
+## When to Use
 
 - Define service reliability targets
 - Measure user-perceived reliability
@@ -53,6 +38,7 @@ SLI (Service Level Indicator)
 ### Common SLI Types
 
 #### 1. Availability SLI
+
 ```promql
 # Successful requests / Total requests
 sum(rate(http_requests_total{status!~"5.."}[28d]))
@@ -61,6 +47,7 @@ sum(rate(http_requests_total[28d]))
 ```
 
 #### 2. Latency SLI
+
 ```promql
 # Requests below latency threshold / Total requests
 sum(rate(http_request_duration_seconds_bucket{le="0.5"}[28d]))
@@ -69,6 +56,7 @@ sum(rate(http_request_duration_seconds_count[28d]))
 ```
 
 #### 3. Durability SLI
+
 ```
 # Successful writes / Total writes
 sum(storage_writes_successful_total)
@@ -82,16 +70,17 @@ sum(storage_writes_total)
 
 ### Availability SLO Examples
 
-| SLO % | Downtime/Month | Downtime/Year |
-|-------|----------------|---------------|
-| 99%   | 7.2 hours      | 3.65 days     |
-| 99.9% | 43.2 minutes   | 8.76 hours    |
-| 99.95%| 21.6 minutes   | 4.38 hours    |
-| 99.99%| 4.32 minutes   | 52.56 minutes |
+| SLO %  | Downtime/Month | Downtime/Year |
+| ------ | -------------- | ------------- |
+| 99%    | 7.2 hours      | 3.65 days     |
+| 99.9%  | 43.2 minutes   | 8.76 hours    |
+| 99.95% | 21.6 minutes   | 4.38 hours    |
+| 99.99% | 4.32 minutes   | 52.56 minutes |
 
 ### Choose Appropriate SLOs
 
 **Consider:**
+
 - User expectations
 - Business requirements
 - Current performance
@@ -99,6 +88,7 @@ sum(storage_writes_total)
 - Competitor benchmarks
 
 **Example SLOs:**
+
 ```yaml
 slos:
   - name: api_availability
@@ -127,6 +117,7 @@ Error Budget = 1 - SLO Target
 ```
 
 **Example:**
+
 - SLO: 99.9% availability
 - Error Budget: 0.1% = 43.2 minutes/month
 - Current Error: 0.05% = 21.6 minutes/month
@@ -305,18 +296,21 @@ rules:
 ## SLO Review Process
 
 ### Weekly Review
+
 - Current SLO compliance
 - Error budget status
 - Trend analysis
 - Incident impact
 
 ### Monthly Review
+
 - SLO achievement
 - Error budget usage
 - Incident postmortems
 - SLO adjustments
 
 ### Quarterly Review
+
 - SLO relevance
 - Target adjustments
 - Process improvements

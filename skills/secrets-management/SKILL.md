@@ -1,23 +1,20 @@
 ---
 name: secrets-management
-description: Implement secure secrets management for CI/CD pipelines using Vault,
-  AWS Secrets Manager, or native platform solutions. Use when handling sensitive credentials,
-  rotating secrets, or securing CI/CD environments.
+description: Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions. Use when handling sensitive credentials, rotating secrets, or securing CI/CD environments.
 risk: safe
 source: community
 license: MIT
 ---
 
-
 # Secrets Management
 
 Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools.
 
-## When to Use
+## Purpose
 
 Implement secure secrets management in CI/CD pipelines without hardcoding sensitive information.
 
-## Use this skill when
+## When to Use
 
 - Store API keys and credentials
 - Manage database passwords
@@ -25,27 +22,10 @@ Implement secure secrets management in CI/CD pipelines without hardcoding sensit
 - Rotate secrets automatically
 - Implement least-privilege access
 
-## Do not use this skill when
-
-- You plan to hardcode secrets in source control
-- You cannot secure access to the secrets backend
-- You only need local development values without sharing
-
-## Instructions
-
-1. Identify secret types, owners, and rotation requirements.
-2. Choose a secrets backend and access model.
-3. Integrate CI/CD or runtime retrieval with least privilege.
-4. Validate rotation and audit logging.
-
-## Safety
-
-- Never commit secrets to source control.
-- Limit access and log secret usage for auditing.
-
 ## Secrets Management Tools
 
 ### HashiCorp Vault
+
 - Centralized secrets management
 - Dynamic secrets generation
 - Secret rotation
@@ -53,18 +33,21 @@ Implement secure secrets management in CI/CD pipelines without hardcoding sensit
 - Fine-grained access control
 
 ### AWS Secrets Manager
+
 - AWS-native solution
 - Automatic rotation
 - Integration with RDS
 - CloudFormation support
 
 ### Azure Key Vault
+
 - Azure-native solution
 - HSM-backed keys
 - Certificate management
 - RBAC integration
 
 ### Google Secret Manager
+
 - GCP-native solution
 - Versioning
 - IAM integration
@@ -99,22 +82,22 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-    - name: Import Secrets from Vault
-      uses: hashicorp/vault-action@v2
-      with:
-        url: https://vault.example.com:8200
-        token: ${{ secrets.VAULT_TOKEN }}
-        secrets: |
-          secret/data/database username | DB_USERNAME ;
-          secret/data/database password | DB_PASSWORD ;
-          secret/data/api key | API_KEY
+      - name: Import Secrets from Vault
+        uses: hashicorp/vault-action@v2
+        with:
+          url: https://vault.example.com:8200
+          token: ${{ secrets.VAULT_TOKEN }}
+          secrets: |
+            secret/data/database username | DB_USERNAME ;
+            secret/data/database password | DB_PASSWORD ;
+            secret/data/api key | API_KEY
 
-    - name: Use secrets
-      run: |
-        echo "Connecting to database as $DB_USERNAME"
-        # Use $DB_PASSWORD, $API_KEY
+      - name: Use secrets
+        run: |
+          echo "Connecting to database as $DB_USERNAME"
+          # Use $DB_PASSWORD, $API_KEY
 ```
 
 ### GitLab CI with Vault
@@ -205,9 +188,9 @@ deploy:
   runs-on: ubuntu-latest
   environment: production
   steps:
-  - name: Deploy
-    run: |
-      echo "Deploying with ${{ secrets.PROD_API_KEY }}"
+    - name: Deploy
+      run: |
+        echo "Deploying with ${{ secrets.PROD_API_KEY }}"
 ```
 
 **Reference:** See `references/github-secrets.md`
@@ -224,6 +207,7 @@ deploy:
 ```
 
 ### Protected and Masked Variables
+
 - Protected: Only available in protected branches
 - Masked: Hidden in job logs
 - File type: Stored as file
@@ -318,14 +302,14 @@ spec:
     name: database-credentials
     creationPolicy: Owner
   data:
-  - secretKey: username
-    remoteRef:
-      key: database/config
-      property: username
-  - secretKey: password
-    remoteRef:
-      key: database/config
-      property: password
+    - secretKey: username
+      remoteRef:
+        key: database/config
+        property: username
+    - secretKey: password
+      remoteRef:
+        key: database/config
+        property: password
 ```
 
 ## Secret Scanning

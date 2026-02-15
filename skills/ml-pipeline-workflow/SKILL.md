@@ -1,35 +1,20 @@
 ---
 name: ml-pipeline-workflow
-description: Build end-to-end MLOps pipelines from data preparation through model
-  training, validation, and production deployment. Use when creating ML pipelines,
-  implementing MLOps practices, or automating model training and deployment workflows.
+description: Build end-to-end MLOps pipelines from data preparation through model training, validation, and production deployment. Use when creating ML pipelines, implementing MLOps practices, or automating model training and deployment workflows.
 risk: safe
 source: community
 license: MIT
 ---
 
-
 # ML Pipeline Workflow
 
 Complete end-to-end MLOps pipeline orchestration from data preparation through model deployment.
-
-## Do not use this skill when
-
-- The task is unrelated to ml pipeline workflow
-- You need a different domain or tool outside this scope
-
-## Instructions
-
-- Clarify goals, constraints, and required inputs.
-- Apply relevant best practices and validate outcomes.
-- Provide actionable steps and verification.
-- If detailed examples are required, open `resources/implementation-playbook.md`.
 
 ## Overview
 
 This skill provides comprehensive guidance for building production ML pipelines that handle the full lifecycle: data ingestion → preparation → training → validation → deployment → monitoring.
 
-## Use this skill when
+## When to Use This Skill
 
 - Building new ML pipelines from scratch
 - Designing workflow orchestration for ML systems
@@ -75,6 +60,7 @@ This skill provides comprehensive guidance for building production ML pipelines 
 ### Reference Documentation
 
 See the `references/` directory for detailed guides:
+
 - **data-preparation.md** - Data cleaning, validation, and feature engineering
 - **model-training.md** - Training workflows and best practices
 - **model-validation.md** - Validation strategies and metrics
@@ -83,6 +69,7 @@ See the `references/` directory for detailed guides:
 ### Assets and Templates
 
 The `assets/` directory contains:
+
 - **pipeline-dag.yaml.template** - DAG template for workflow orchestration
 - **training-config.yaml** - Training configuration template
 - **validation-checklist.md** - Pre-deployment validation checklist
@@ -261,8 +248,3 @@ After setting up your pipeline:
 - **experiment-tracking-setup**: MLflow and Weights & Biases integration
 - **hyperparameter-tuning**: Automated hyperparameter optimization
 - **model-deployment-patterns**: Advanced deployment strategies
-
-
-## When to Use
-
-Use this skill when you need guidance or automation for ml-pipeline-workflow.

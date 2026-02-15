@@ -1,46 +1,25 @@
 ---
 name: memory-forensics
-description: Master memory forensics techniques including memory acquisition, process
-  analysis, and artifact extraction using Volatility and related tools. Use when analyzing
-  memory dumps, investigating incidents, or performing malware analysis from RAM captures.
-risk: offensive
+description: Master memory forensics techniques including memory acquisition, process analysis, and artifact extraction using Volatility and related tools. Use when analyzing memory dumps, investigating incidents, or performing malware analysis from RAM captures.
+risk: safe
 source: community
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Memory Forensics
+
+## When to Use
+
+Use this skill as needed to perform the specified automation task.
+
 Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis.
-
-## Use this skill when
-
-- Working on memory forensics tasks or workflows
-- Needing guidance, best practices, or checklists for memory forensics
-
-## Do not use this skill when
-
-- The task is unrelated to memory forensics
-- You need a different domain or tool outside this scope
-
-## Instructions
-
-- Clarify goals, constraints, and required inputs.
-- Apply relevant best practices and validate outcomes.
-- Provide actionable steps and verification.
-- If detailed examples are required, open `resources/implementation-playbook.md`.
 
 ## Memory Acquisition
 
 ### Live Acquisition Tools
 
 #### Windows
+
 ```powershell
 # WinPmem (Recommended)
 winpmem_mini_x64.exe memory.raw
@@ -56,6 +35,7 @@ DumpIt.exe
 ```
 
 #### Linux
+
 ```bash
 # LiME (Linux Memory Extractor)
 sudo insmod lime.ko "path=/tmp/memory.lime format=lime"
@@ -68,6 +48,7 @@ sudo cp /proc/kcore memory.elf
 ```
 
 #### macOS
+
 ```bash
 # osxpmem
 sudo ./osxpmem -o memory.raw
@@ -112,6 +93,7 @@ vol -f memory.raw -s /path/to/symbols windows.pslist
 ### Essential Plugins
 
 #### Process Analysis
+
 ```bash
 # List processes
 vol -f memory.raw windows.pslist
@@ -133,6 +115,7 @@ vol -f memory.raw windows.cmdline
 ```
 
 #### Network Analysis
+
 ```bash
 # Network connections
 vol -f memory.raw windows.netscan
@@ -142,6 +125,7 @@ vol -f memory.raw windows.netstat
 ```
 
 #### DLL and Module Analysis
+
 ```bash
 # Loaded DLLs per process
 vol -f memory.raw windows.dlllist --pid <PID>
@@ -157,6 +141,7 @@ vol -f memory.raw windows.moddump --pid <PID>
 ```
 
 #### Memory Injection Detection
+
 ```bash
 # Detect code injection
 vol -f memory.raw windows.malfind
@@ -169,6 +154,7 @@ vol -f memory.raw windows.vadyarascan --yara-rules rules.yar
 ```
 
 #### Registry Analysis
+
 ```bash
 # List registry hives
 vol -f memory.raw windows.registry.hivelist
@@ -181,6 +167,7 @@ vol -f memory.raw windows.registry.hivescan --dump
 ```
 
 #### File System Artifacts
+
 ```bash
 # Scan for file objects
 vol -f memory.raw windows.filescan
@@ -501,8 +488,3 @@ floss pid.1234.dmp
 - **Symbol issues**: Ensure correct symbol files for OS version
 - **Smear**: Memory may change during acquisition
 - **Encryption**: Some data may be encrypted in memory
-
-
-## When to Use
-
-Use this skill when you need guidance or automation for memory-forensics.

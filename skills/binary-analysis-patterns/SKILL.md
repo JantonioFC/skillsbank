@@ -1,40 +1,25 @@
 ---
 name: binary-analysis-patterns
-description: Master binary analysis patterns including disassembly, decompilation,
-  control flow analysis, and code pattern recognition. Use when analyzing executables,
-  understanding compiled code, or performing static analysis on binaries.
+description: Master binary analysis patterns including disassembly, decompilation, control flow analysis, and code pattern recognition. Use when analyzing executables, understanding compiled code, or performing static analysis on binaries.
 risk: safe
 source: community
 license: MIT
 ---
 
-
 # Binary Analysis Patterns
 
+## When to Use
+
+Use this skill as needed to perform the specified automation task.
+
 Comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic.
-
-## Use this skill when
-
-- Working on binary analysis patterns tasks or workflows
-- Needing guidance, best practices, or checklists for binary analysis patterns
-
-## Do not use this skill when
-
-- The task is unrelated to binary analysis patterns
-- You need a different domain or tool outside this scope
-
-## Instructions
-
-- Clarify goals, constraints, and required inputs.
-- Apply relevant best practices and validate outcomes.
-- Provide actionable steps and verification.
-- If detailed examples are required, open `resources/implementation-playbook.md`.
 
 ## Disassembly Fundamentals
 
 ### x86-64 Instruction Patterns
 
 #### Function Prologue/Epilogue
+
 ```asm
 ; Standard prologue
 push rbp           ; Save base pointer
@@ -58,6 +43,7 @@ ret
 #### Calling Conventions
 
 **System V AMD64 (Linux, macOS)**
+
 ```asm
 ; Arguments: RDI, RSI, RDX, RCX, R8, R9, then stack
 ; Return: RAX (and RDX for 128-bit)
@@ -76,6 +62,7 @@ call func
 ```
 
 **Microsoft x64 (Windows)**
+
 ```asm
 ; Arguments: RCX, RDX, R8, R9, then stack
 ; Shadow space: 32 bytes reserved on stack
@@ -95,6 +82,7 @@ add rsp, 0x28
 ### ARM Assembly Patterns
 
 #### ARM64 (AArch64) Calling Convention
+
 ```asm
 ; Arguments: X0-X7
 ; Return: X0 (and X1 for 128-bit)
@@ -111,6 +99,7 @@ ret
 ```
 
 #### ARM32 Calling Convention
+
 ```asm
 ; Arguments: R0-R3, then stack
 ; Return: R0 (and R1 for 64-bit)
@@ -454,8 +443,3 @@ def auto_rename():
 - **Tail call optimization**: `jmp` instead of `call` + `ret`
 - **Dead code**: Unreachable code from optimization
 - **Position-independent code**: RIP-relative addressing
-
-
-## When to Use
-
-Use this skill when you need guidance or automation for binary-analysis-patterns.

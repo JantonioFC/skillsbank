@@ -1,35 +1,20 @@
 ---
 name: distributed-tracing
-description: Implement distributed tracing with Jaeger and Tempo to track requests
-  across microservices and identify performance bottlenecks. Use when debugging microservices,
-  analyzing request flows, or implementing observability for distributed systems.
+description: Implement distributed tracing with Jaeger and Tempo to track requests across microservices and identify performance bottlenecks. Use when debugging microservices, analyzing request flows, or implementing observability for distributed systems.
 risk: safe
 source: community
 license: MIT
 ---
 
-
 # Distributed Tracing
 
 Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.
 
-## Do not use this skill when
-
-- The task is unrelated to distributed tracing
-- You need a different domain or tool outside this scope
-
-## Instructions
-
-- Clarify goals, constraints, and required inputs.
-- Apply relevant best practices and validate outcomes.
-- Provide actionable steps and verification.
-- If detailed examples are required, open `resources/implementation-playbook.md`.
-
-## When to Use
+## Purpose
 
 Track requests across distributed systems to understand latency, dependencies, and failure points.
 
-## Use this skill when
+## When to Use
 
 - Debug latency issues
 - Understand service dependencies
@@ -40,6 +25,7 @@ Track requests across distributed systems to understand latency, dependencies, a
 ## Distributed Tracing Concepts
 
 ### Trace Structure
+
 ```
 Trace (Request ID: abc123)
   ↓
@@ -52,6 +38,7 @@ Span (api-gateway) [80ms]
 ```
 
 ### Key Components
+
 - **Trace** - End-to-end request journey
 - **Span** - Single operation within a trace
 - **Context** - Metadata propagated between services
@@ -89,7 +76,7 @@ EOF
 ### Docker Compose
 
 ```yaml
-version: '3.8'
+version: "3.8"
 services:
   jaeger:
     image: jaegertracing/all-in-one:latest
@@ -98,10 +85,10 @@ services:
       - "6831:6831/udp"
       - "6832:6832/udp"
       - "5778:5778"
-      - "16686:16686"  # UI
-      - "14268:14268"  # Collector
-      - "14250:14250"  # gRPC
-      - "9411:9411"    # Zipkin
+      - "16686:16686" # UI
+      - "14268:14268" # Collector
+      - "14250:14250" # gRPC
+      - "9411:9411" # Zipkin
     environment:
       - COLLECTOR_ZIPKIN_HOST_PORT=:9411
 ```
@@ -113,6 +100,7 @@ services:
 ### OpenTelemetry (Recommended)
 
 #### Python (Flask)
+
 ```python
 from opentelemetry import trace
 from opentelemetry.exporter.jaeger.thrift import JaegerExporter
@@ -157,21 +145,24 @@ def fetch_users_from_db():
 ```
 
 #### Node.js (Express)
+
 ```javascript
-const { NodeTracerProvider } = require('@opentelemetry/sdk-trace-node');
-const { JaegerExporter } = require('@opentelemetry/exporter-jaeger');
-const { BatchSpanProcessor } = require('@opentelemetry/sdk-trace-base');
-const { registerInstrumentations } = require('@opentelemetry/instrumentation');
-const { HttpInstrumentation } = require('@opentelemetry/instrumentation-http');
-const { ExpressInstrumentation } = require('@opentelemetry/instrumentation-express');
+const { NodeTracerProvider } = require("@opentelemetry/sdk-trace-node");
+const { JaegerExporter } = require("@opentelemetry/exporter-jaeger");
+const { BatchSpanProcessor } = require("@opentelemetry/sdk-trace-base");
+const { registerInstrumentations } = require("@opentelemetry/instrumentation");
+const { HttpInstrumentation } = require("@opentelemetry/instrumentation-http");
+const {
+  ExpressInstrumentation,
+} = require("@opentelemetry/instrumentation-express");
 
 // Initialize tracer
 const provider = new NodeTracerProvider({
-  resource: { attributes: { 'service.name': 'my-service' } }
+  resource: { attributes: { "service.name": "my-service" } },
 });
 
 const exporter = new JaegerExporter({
-  endpoint: 'http://jaeger:14268/api/traces'
+  endpoint: "http://jaeger:14268/api/traces",
 });
 
 provider.addSpanProcessor(new BatchSpanProcessor(exporter));
@@ -179,22 +170,19 @@ provider.register();
 
 // Instrument libraries
 registerInstrumentations({
-  instrumentations: [
-    new HttpInstrumentation(),
-    new ExpressInstrumentation(),
-  ],
+  instrumentations: [new HttpInstrumentation(), new ExpressInstrumentation()],
 });
 
-const express = require('express');
+const express = require("express");
 const app = express();
 
-app.get('/api/users', async (req, res) => {
-  const tracer = trace.getTracer('my-service');
-  const span = tracer.startSpan('get_users');
+app.get("/api/users", async (req, res) => {
+  const tracer = trace.getTracer("my-service");
+  const span = tracer.startSpan("get_users");
 
   try {
     const users = await fetchUsers();
-    span.setAttributes({ 'user.count': users.length });
+    span.setAttributes({ "user.count": users.length });
     res.json({ users });
   } finally {
     span.end();
@@ -203,6 +191,7 @@ app.get('/api/users', async (req, res) => {
 ```
 
 #### Go
+
 ```go
 package main
 
@@ -258,6 +247,7 @@ func getUsers(ctx context.Context) ([]User, error) {
 ## Context Propagation
 
 ### HTTP Headers
+
 ```
 traceparent: 00-0af7651916cd43dd8448eb211c80319c-b7ad6b7169203331-01
 tracestate: congo=t61rcWkgMzE
@@ -266,6 +256,7 @@ tracestate: congo=t61rcWkgMzE
 ### Propagation in HTTP Requests
 
 #### Python
+
 ```python
 from opentelemetry.propagate import inject
 
@@ -276,13 +267,14 @@ response = requests.get('http://downstream-service/api', headers=headers)
 ```
 
 #### Node.js
+
 ```javascript
-const { propagation } = require('@opentelemetry/api');
+const { propagation } = require("@opentelemetry/api");
 
 const headers = {};
 propagation.inject(context.active(), headers);
 
-axios.get('http://downstream-service/api', { headers });
+axios.get("http://downstream-service/api", { headers });
 ```
 
 ## Tempo Setup (Grafana)
@@ -330,17 +322,17 @@ spec:
   template:
     spec:
       containers:
-      - name: tempo
-        image: grafana/tempo:latest
-        args:
-          - -config.file=/etc/tempo/tempo.yaml
-        volumeMounts:
-        - name: config
-          mountPath: /etc/tempo
+        - name: tempo
+          image: grafana/tempo:latest
+          args:
+            - -config.file=/etc/tempo/tempo.yaml
+          volumeMounts:
+            - name: config
+              mountPath: /etc/tempo
       volumes:
-      - name: config
-        configMap:
-          name: tempo-config
+        - name: config
+          configMap:
+            name: tempo-config
 ```
 
 **Reference:** See `assets/jaeger-config.yaml.template`
@@ -348,6 +340,7 @@ spec:
 ## Sampling Strategies
 
 ### Probabilistic Sampling
+
 ```yaml
 # Sample 1% of traces
 sampler:
@@ -356,6 +349,7 @@ sampler:
 ```
 
 ### Rate Limiting Sampling
+
 ```yaml
 # Sample max 100 traces per second
 sampler:
@@ -364,6 +358,7 @@ sampler:
 ```
 
 ### Adaptive Sampling
+
 ```python
 from opentelemetry.sdk.trace.sampling import ParentBased, TraceIdRatioBased
 
@@ -376,6 +371,7 @@ sampler = ParentBased(root=TraceIdRatioBased(0.01))
 ### Finding Slow Requests
 
 **Jaeger Query:**
+
 ```
 service=my-service
 duration > 1s
@@ -384,6 +380,7 @@ duration > 1s
 ### Finding Errors
 
 **Jaeger Query:**
+
 ```
 service=my-service
 error=true
@@ -393,6 +390,7 @@ tags.http.status_code >= 500
 ### Service Dependency Graph
 
 Jaeger automatically generates service dependency graphs showing:
+
 - Service relationships
 - Request rates
 - Error rates
@@ -414,6 +412,7 @@ Jaeger automatically generates service dependency graphs showing:
 ## Integration with Logging
 
 ### Correlated Logs
+
 ```python
 import logging
 from opentelemetry import trace
@@ -433,12 +432,14 @@ def process_request():
 ## Troubleshooting
 
 **No traces appearing:**
+
 - Check collector endpoint
 - Verify network connectivity
 - Check sampling configuration
 - Review application logs
 
 **High latency overhead:**
+
 - Reduce sampling rate
 - Use batch span processor
 - Check exporter configuration

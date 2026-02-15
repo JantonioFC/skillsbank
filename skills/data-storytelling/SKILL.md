@@ -1,31 +1,16 @@
 ---
 name: data-storytelling
-description: Transform data into compelling narratives using visualization, context,
-  and persuasive structure. Use when presenting analytics to stakeholders, creating
-  data reports, or building executive presentations.
+description: Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations.
 risk: safe
 source: community
 license: MIT
 ---
 
-
 # Data Storytelling
 
 Transform raw data into compelling narratives that drive decisions and inspire action.
 
-## Do not use this skill when
-
-- The task is unrelated to data storytelling
-- You need a different domain or tool outside this scope
-
-## Instructions
-
-- Clarify goals, constraints, and required inputs.
-- Apply relevant best practices and validate outcomes.
-- Provide actionable steps and verification.
-- If detailed examples are required, open `resources/implementation-playbook.md`.
-
-## Use this skill when
+## When to Use This Skill
 
 - Presenting analytics to executives
 - Creating quarterly business reviews
@@ -469,8 +454,3 @@ Present ranges:
 - [Storytelling with Data (Cole Nussbaumer)](https://www.storytellingwithdata.com/)
 - [The Pyramid Principle (Barbara Minto)](https://www.amazon.com/Pyramid-Principle-Logic-Writing-Thinking/dp/0273710516)
 - [Resonate (Nancy Duarte)](https://www.duarte.com/resonate/)
-
-
-## When to Use
-
-Use this skill when you need guidance or automation for data-storytelling.

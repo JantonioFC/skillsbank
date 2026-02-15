@@ -1,31 +1,16 @@
 ---
 name: saga-orchestration
-description: Implement saga patterns for distributed transactions and cross-aggregate
-  workflows. Use when coordinating multi-step business processes, handling compensating
-  transactions, or managing long-running workflows.
+description: Implement saga patterns for distributed transactions and cross-aggregate workflows. Use when coordinating multi-step business processes, handling compensating transactions, or managing long-running workflows.
 risk: safe
 source: community
 license: MIT
 ---
 
-
 # Saga Orchestration
 
 Patterns for managing distributed transactions and long-running business processes.
 
-## Do not use this skill when
-
-- The task is unrelated to saga orchestration
-- You need a different domain or tool outside this scope
-
-## Instructions
-
-- Clarify goals, constraints, and required inputs.
-- Apply relevant best practices and validate outcomes.
-- Provide actionable steps and verification.
-- If detailed examples are required, open `resources/implementation-playbook.md`.
-
-## Use this skill when
+## When to Use This Skill
 
 - Coordinating multi-service transactions
 - Implementing compensating transactions
@@ -500,8 +485,3 @@ class TimeoutSagaOrchestrator(SagaOrchestrator):
 
 - [Saga Pattern](https://microservices.io/patterns/data/saga.html)
 - [Designing Data-Intensive Applications](https://dataintensive.net/)
-
-
-## When to Use
-
-Use this skill when you need guidance or automation for saga-orchestration.
