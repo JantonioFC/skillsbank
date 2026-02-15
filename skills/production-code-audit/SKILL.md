@@ -1,10 +1,22 @@
 ---
 name: production-code-audit
-description: "Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations"
+description: Autonomously deep-scan entire codebase line-by-line, understand architecture
+  and patterns, then systematically transform it to production-grade, corporate-level
+  professional quality with optimizations
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Production Code Audit
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Production Code Audit
 ## Overview
 
 Autonomously analyze the entire codebase to understand its architecture, patterns, and purpose, then systematically transform it into production-grade, corporate-level professional code. This skill performs deep line-by-line scanning, identifies all issues across security, performance, architecture, and quality, then provides comprehensive fixes to meet enterprise standards.

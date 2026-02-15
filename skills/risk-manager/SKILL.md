@@ -1,11 +1,15 @@
 ---
 name: risk-manager
-description: Monitor portfolio risk, R-multiples, and position limits. Creates
-  hedging strategies, calculates expectancy, and implements stop-losses. Use
-  PROACTIVELY for risk assessment, trade tracking, or portfolio protection.
+description: Monitor portfolio risk, R-multiples, and position limits. Creates hedging
+  strategies, calculates expectancy, and implements stop-losses. Use PROACTIVELY for
+  risk assessment, trade tracking, or portfolio protection.
 metadata:
   model: inherit
+risk: safe
+source: community
+license: MIT
 ---
+
 
 ## Use this skill when
 
@@ -59,3 +63,8 @@ You are a risk manager specializing in portfolio protection and risk measurement
 - Risk dashboard template
 
 Use monte carlo simulations for stress testing. Track performance in R-multiples for objective analysis.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for risk-manager.

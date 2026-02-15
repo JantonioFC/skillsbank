@@ -1,8 +1,9 @@
 ---
 name: imagen
-description: |
-source: "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen"
+description: ''
+source: https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen
 risk: safe
+license: MIT
 ---
 
 # Imagen - AI Image Generation Skill

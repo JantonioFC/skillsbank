@@ -1,7 +1,14 @@
 ---
 name: hybrid-cloud-networking
-description: Configure secure, high-performance connectivity between on-premises infrastructure and cloud platforms using VPN and dedicated connections. Use when building hybrid cloud architectures, connecting data centers to cloud, or implementing secure cross-premises networking.
+description: Configure secure, high-performance connectivity between on-premises infrastructure
+  and cloud platforms using VPN and dedicated connections. Use when building hybrid
+  cloud architectures, connecting data centers to cloud, or implementing secure cross-premises
+  networking.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Hybrid Cloud Networking
 
@@ -19,7 +26,7 @@ Configure secure, high-performance connectivity between on-premises and cloud en
 - Provide actionable steps and verification.
 - If detailed examples are required, open `resources/implementation-playbook.md`.
 
-## Purpose
+## When to Use
 
 Establish secure, reliable network connectivity between on-premises data centers and cloud providers (AWS, Azure, GCP).
 

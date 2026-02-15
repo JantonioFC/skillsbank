@@ -1,8 +1,11 @@
 ---
 name: observe-whatsapp
-description: "Observe and troubleshoot WhatsApp in Kapso: debug message delivery, inspect webhook deliveries/retries, triage API errors, and run health checks. Use when investigating production issues, message failures, or webhook delivery problems."
-source: "https://github.com/gokapso/agent-skills/tree/master/skills/observe-whatsapp"
+description: 'Observe and troubleshoot WhatsApp in Kapso: debug message delivery,
+  inspect webhook deliveries/retries, triage API errors, and run health checks. Use
+  when investigating production issues, message failures, or webhook delivery problems.'
+source: https://github.com/gokapso/agent-skills/tree/master/skills/observe-whatsapp
 risk: safe
+license: MIT
 ---
 
 # Observe WhatsApp
@@ -107,3 +110,8 @@ node scripts/openapi-explore.mjs --spec platform schema WebhookDelivery
 ```
 <!-- FILEMAP:END -->
 
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for observe-whatsapp.

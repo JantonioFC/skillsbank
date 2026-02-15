@@ -1,10 +1,14 @@
 ---
 name: conductor-setup
-description: Initialize project with Conductor artifacts (product definition,
-  tech stack, workflow, style guides)
+description: Initialize project with Conductor artifacts (product definition, tech
+  stack, workflow, style guides)
 metadata:
-  argument-hint: "[--resume]"
+  argument-hint: '[--resume]'
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Conductor Setup
 
@@ -424,3 +428,8 @@ If `--resume` argument or resuming from state:
 - If file write fails: Halt and report error, do not update state
 - If user cancels: Save current state for future resume
 - If state file corrupted: Offer to start fresh or attempt recovery
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for conductor-setup.

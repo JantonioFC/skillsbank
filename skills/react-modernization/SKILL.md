@@ -1,7 +1,13 @@
 ---
 name: react-modernization
-description: Upgrade React applications to latest versions, migrate from class components to hooks, and adopt concurrent features. Use when modernizing React codebases, migrating to React Hooks, or upgrading to latest React versions.
+description: Upgrade React applications to latest versions, migrate from class components
+  to hooks, and adopt concurrent features. Use when modernizing React codebases, migrating
+  to React Hooks, or upgrading to latest React versions.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # React Modernization
 
@@ -32,3 +38,8 @@ Master React version upgrades, class to hooks migration, concurrent features ado
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for react-modernization.

@@ -5,10 +5,20 @@ allowed-tools: Read Write Edit Bash WebFetch
 metadata:
   version: 1.0.0
   tags: database, cdc, debezium, kafka, prometheus, grafana, monitoring
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Migration Observability and Real-time Monitoring
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Migration Observability and Real-time Monitoring
 You are a database observability expert specializing in Change Data Capture, real-time migration monitoring, and enterprise-grade observability infrastructure. Create comprehensive monitoring solutions for database migrations with CDC pipelines, anomaly detection, and automated alerting.
 
 ## Use this skill when
@@ -418,3 +428,8 @@ This plugin integrates with:
 - **sql-migrations**: Provides observability for SQL migrations
 - **nosql-migrations**: Monitors NoSQL transformations
 - **migration-integration**: Coordinates monitoring across workflows
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for database-migrations-migration-observability.

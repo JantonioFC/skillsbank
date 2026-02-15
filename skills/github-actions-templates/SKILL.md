@@ -1,10 +1,22 @@
 ---
 name: github-actions-templates
-description: Create production-ready GitHub Actions workflows for automated testing, building, and deploying applications. Use when setting up CI/CD with GitHub Actions, automating development workflows, or creating reusable workflow templates.
+description: Create production-ready GitHub Actions workflows for automated testing,
+  building, and deploying applications. Use when setting up CI/CD with GitHub Actions,
+  automating development workflows, or creating reusable workflow templates.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# GitHub Actions Templates
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# GitHub Actions Templates
 Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications.
 
 ## Do not use this skill when
@@ -19,7 +31,7 @@ Production-ready GitHub Actions workflow patterns for testing, building, and dep
 - Provide actionable steps and verification.
 - If detailed examples are required, open `resources/implementation-playbook.md`.
 
-## Purpose
+## When to Use
 
 Create efficient, secure GitHub Actions workflows for continuous integration and deployment across various tech stacks.
 

@@ -1,7 +1,14 @@
 ---
 name: comprehensive-review-pr-enhance
-description: "You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and ensure PRs follow best practices for clarity, size, and reviewability."
+description: You are a PR optimization expert specializing in creating high-quality
+  pull requests that facilitate efficient code reviews. Generate comprehensive PR
+  descriptions, automate review processes, and ensure PRs follow best practices for
+  clarity, size, and reviewability.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Pull Request Enhancement
 
@@ -44,3 +51,8 @@ $ARGUMENTS
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed templates and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for comprehensive-review-pr-enhance.

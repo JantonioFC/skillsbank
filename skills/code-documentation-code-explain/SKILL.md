@@ -1,7 +1,13 @@
 ---
 name: code-documentation-code-explain
-description: "You are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Transform difficult concepts into understandable explanations."
+description: You are a code education expert specializing in explaining complex code
+  through clear narratives, visual diagrams, and step-by-step breakdowns. Transform
+  difficult concepts into understandable explanations.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Code Explanation and Analysis
 
@@ -44,3 +50,8 @@ $ARGUMENTS
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed examples and templates.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for code-documentation-code-explain.

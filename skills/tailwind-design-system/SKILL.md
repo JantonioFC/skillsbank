@@ -1,7 +1,13 @@
 ---
 name: tailwind-design-system
-description: Build scalable design systems with Tailwind CSS, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.
+description: Build scalable design systems with Tailwind CSS, design tokens, component
+  libraries, and responsive patterns. Use when creating component libraries, implementing
+  design systems, or standardizing UI patterns.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Tailwind Design System
 
@@ -31,3 +37,8 @@ Build production-ready design systems with Tailwind CSS, including design tokens
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for tailwind-design-system.

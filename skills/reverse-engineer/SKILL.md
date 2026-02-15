@@ -1,17 +1,26 @@
 ---
 name: reverse-engineer
-description: Expert reverse engineer specializing in binary analysis,
-  disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra,
-  radare2, x64dbg, and modern RE toolchains. Handles executable analysis,
-  library inspection, protocol extraction, and vulnerability research. Use
-  PROACTIVELY for binary analysis, CTF challenges, security research, or
-  understanding undocumented software.
+description: Expert reverse engineer specializing in binary analysis, disassembly,
+  decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg,
+  and modern RE toolchains. Handles executable analysis, library inspection, protocol
+  extraction, and vulnerability research. Use PROACTIVELY for binary analysis, CTF
+  challenges, security research, or understanding undocumented software.
 metadata:
   model: opus
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Common RE scripting environments
-- IDAPython (IDA Pro scripting)
+
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Common RE scripting environments- IDAPython (IDA Pro scripting)
 - Ghidra scripting (Java/Python via Jython)
 - r2pipe (radare2 Python API)
 - pwntools (CTF/exploitation toolkit)
@@ -171,3 +180,8 @@ Response: For authorized analysis of the DLL:
    - Map data structures
    - Note any security considerations
 ```
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for reverse-engineer.

@@ -1,8 +1,14 @@
 ---
 name: azure-servicebus-ts
-description: Build messaging applications using Azure Service Bus SDK for JavaScript (@azure/service-bus). Use when implementing queues, topics/subscriptions, message sessions, dead-letter handling, or enterprise messaging patterns.
-package: @azure/service-bus
+description: Build messaging applications using Azure Service Bus SDK for JavaScript
+  (@azure/service-bus). Use when implementing queues, topics/subscriptions, message
+  sessions, dead-letter handling, or enterprise messaging patterns.
+package: '@azure/service-bus'
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure Service Bus SDK for TypeScript
 
@@ -231,3 +237,8 @@ For detailed patterns, see:
 
 - [Queues vs Topics Patterns](references/queues-topics.md) - Queue/topic patterns, sessions, receive modes, message settlement
 - [Error Handling and Reliability](references/error-handling.md) - ServiceBusError codes, DLQ handling, lock renewal, graceful shutdown
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-servicebus-ts.

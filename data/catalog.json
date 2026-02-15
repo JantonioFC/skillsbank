@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 856,
+  "total": 859,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -20550,6 +20550,58 @@
       "path": "skills/whatsapp-automation/SKILL.md"
     },
     {
+      "id": "wiki-ado-convert",
+      "name": "wiki-ado-convert",
+      "description": "Converts VitePress/GFM wiki markdown to Azure DevOps Wiki-compatible format. Generates a Node.js build script that transforms Mermaid syntax, strips front matter, fixes links, and outputs ADO-compatible copies to dist/ado-wiki/.",
+      "category": "infrastructure",
+      "tags": [
+        "wiki",
+        "ado",
+        "convert"
+      ],
+      "triggers": [
+        "wiki",
+        "ado",
+        "convert",
+        "converts",
+        "vitepress",
+        "gfm",
+        "markdown",
+        "azure",
+        "devops",
+        "compatible",
+        "format",
+        "generates"
+      ],
+      "path": "skills/wiki-ado-convert/SKILL.md"
+    },
+    {
+      "id": "wiki-agents-md",
+      "name": "wiki-agents-md",
+      "description": "Generates AGENTS.md files for repository folders — coding agent context files with build commands, testing instructions, code style, project structure, and boundaries. Only generates where AGENTS.md is missing.",
+      "category": "testing",
+      "tags": [
+        "wiki",
+        "agents",
+        "md"
+      ],
+      "triggers": [
+        "wiki",
+        "agents",
+        "md",
+        "generates",
+        "files",
+        "repository",
+        "folders",
+        "coding",
+        "agent",
+        "context",
+        "commands",
+        "testing"
+      ],
+      "path": "skills/wiki-agents-md/SKILL.md"
+    },
+    {
       "id": "wiki-architect",
       "name": "wiki-architect",
       "description": "Analyzes code repositories and generates hierarchical documentation structures with onboarding guides. Use when the user wants to create a wiki, generate documentation, map a codebase structure, or understand a project's architecture at a high level.",
@@ -20599,10 +20651,36 @@
       "path": "skills/wiki-changelog/SKILL.md"
     },
     {
+      "id": "wiki-llms-txt",
+      "name": "wiki-llms-txt",
+      "description": "Generates llms.txt and llms-full.txt files for LLM-friendly project documentation following the llms.txt specification. Use when the user wants to create LLM-readable summaries, llms.txt files, or make their wiki accessible to language models.",
+      "category": "data-ai",
+      "tags": [
+        "wiki",
+        "llms",
+        "txt"
+      ],
+      "triggers": [
+        "wiki",
+        "llms",
+        "txt",
+        "generates",
+        "full",
+        "files",
+        "llm",
+        "friendly",
+        "documentation",
+        "following",
+        "specification",
+        "user"
+      ],
+      "path": "skills/wiki-llms-txt/SKILL.md"
+    },
+    {
       "id": "wiki-onboarding",
       "name": "wiki-onboarding",
-      "description": "Generates two complementary onboarding guides — a Principal-Level architectural deep-dive and a Zero-to-Hero contributor walkthrough. Use when the user wants onboarding documentation for a codebase.",
-      "category": "security",
+      "description": "Generates four audience-tailored onboarding guides in an onboarding/ folder — Contributor, Staff Engineer, Executive, and Product Manager. Use when the user wants onboarding documentation for a codebase.",
+      "category": "business",
       "tags": [
         "wiki",
         "onboarding"
@@ -20611,15 +20689,15 @@
         "wiki",
         "onboarding",
         "generates",
-        "two",
-        "complementary",
+        "four",
+        "audience",
+        "tailored",
         "guides",
-        "principal",
-        "level",
-        "architectural",
-        "deep",
-        "dive",
-        "zero"
+        "folder",
+        "contributor",
+        "staff",
+        "engineer",
+        "executive"
       ],
       "path": "skills/wiki-onboarding/SKILL.md"
     },

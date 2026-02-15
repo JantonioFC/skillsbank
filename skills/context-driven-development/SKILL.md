@@ -1,11 +1,15 @@
 ---
 name: context-driven-development
-description: Use this skill when working with Conductor's context-driven
-  development methodology, managing project context artifacts, or understanding
-  the relationship between product.md, tech-stack.md, and workflow.md files.
+description: Use this skill when working with Conductor's context-driven development
+  methodology, managing project context artifacts, or understanding the relationship
+  between product.md, tech-stack.md, and workflow.md files.
 metadata:
   version: 1.0.0
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Context-Driven Development
 
@@ -398,3 +402,8 @@ If interrupted mid-task:
 8. **Preserve history**: Use git to track context evolution over time
 9. **Question staleness**: If context feels wrong, investigate and update
 10. **Keep it actionable**: Every context item should inform a decision or behavior
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for context-driven-development.

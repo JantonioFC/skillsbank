@@ -1,16 +1,25 @@
 ---
 name: minecraft-bukkit-pro
-description: Master Minecraft server plugin development with Bukkit, Spigot, and
-  Paper APIs. Specializes in event-driven architecture, command systems, world
-  manipulation, player management, and performance optimization. Use PROACTIVELY
-  for plugin architecture, gameplay mechanics, server-side features, or
-  cross-version compatibility.
+description: Master Minecraft server plugin development with Bukkit, Spigot, and Paper
+  APIs. Specializes in event-driven architecture, command systems, world manipulation,
+  player management, and performance optimization. Use PROACTIVELY for plugin architecture,
+  gameplay mechanics, server-side features, or cross-version compatibility.
 metadata:
   model: opus
+risk: offensive
+source: community
+license: MIT
 ---
 
-## Use this skill when
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+## Use this skill when
 - Working on minecraft bukkit pro tasks or workflows
 - Needing guidance, best practices, or checklists for minecraft bukkit pro
 
@@ -124,3 +133,8 @@ You are a Minecraft plugin development master specializing in Bukkit, Spigot, an
 - Performance tuning guidelines
 
 Always leverage WebSearch and WebFetch to ensure best practices and find existing solutions. Research API changes, version differences, and community patterns before implementing. Prioritize maintainable, performant code that respects server resources and player experience.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for minecraft-bukkit-pro.

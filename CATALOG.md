@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 856
+Total skills: 859
 
 ## architecture (64)
 
@@ -73,7 +73,7 @@ Total skills: 856
 | `workflow-patterns` | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding th... |  | skill, implementing, tasks, according, conductor, tdd, handling, phase, checkpoints, managing, git, commits |
 | `zapier-make-patterns` | No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code.... | zapier, make | zapier, make, no, code, automation, democratizes, building, formerly, integromat, let, non, developers |
 
-## business (38)
+## business (39)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -115,8 +115,9 @@ Total skills: 856
 | `startup-financial-modeling` | This skill should be used when the user asks to "create financial projections", "build a financial model", "forecast revenue", "calculate burn rate", "estima... | startup, financial, modeling | startup, financial, modeling, skill, should, used, user, asks, projections, model, forecast, revenue |
 | `team-composition-analysis` | This skill should be used when the user asks to "plan team structure", "determine hiring needs", "design org chart", "calculate compensation", "plan equity a... | team, composition | team, composition, analysis, skill, should, used, user, asks, plan, structure, determine, hiring |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
+| `wiki-onboarding` | Generates four audience-tailored onboarding guides in an onboarding/ folder — Contributor, Staff Engineer, Executive, and Product Manager. Use when the user ... | wiki, onboarding | wiki, onboarding, generates, four, audience, tailored, guides, folder, contributor, staff, engineer, executive |
 
-## data-ai (159)
+## data-ai (160)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -297,6 +298,7 @@ Use when creating container-based agents that run custom code in Azure ... | hos
 | `voice-ai-development` | Expert in building voice AI applications - from real-time voice agents to voice-enabled apps. Covers OpenAI Realtime API, Vapi for voice agents, Deepgram for... | voice, ai | voice, ai, development, building, applications, real, time, agents, enabled, apps, covers, openai |
 | `voice-ai-engine-development` | Build real-time conversational AI voice engines using async worker pipelines, streaming transcription, LLM agents, and TTS synthesis with interrupt handling ... | voice, ai, engine | voice, ai, engine, development, real, time, conversational, engines, async, worker, pipelines, streaming |
 | `web-artifacts-builder` | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use ... | web, artifacts, builder | web, artifacts, builder, suite, creating, elaborate, multi, component, claude, ai, html, frontend |
+| `wiki-llms-txt` | Generates llms.txt and llms-full.txt files for LLM-friendly project documentation following the llms.txt specification. Use when the user wants to create LLM... | wiki, llms, txt | wiki, llms, txt, generates, full, files, llm, friendly, documentation, following, specification, user |
 | `xlsx-official` | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work ... | xlsx, official | xlsx, official, spreadsheet, creation, editing, analysis, formulas, formatting, data, visualization, claude, work |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
@@ -590,7 +592,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `x-article-publisher-skill` | Publish articles to X/Twitter | x, article, publisher, skill | x, article, publisher, skill, publish, articles, twitter |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | video, summarization, transcription, youtube, content-analysis | video, summarization, transcription, youtube, content-analysis, summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (102)
+## infrastructure (103)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -701,10 +703,11 @@ Triggers: "azure-storage-file-share", "Share... | azure, storage, file, share, p
 | `vercel-deploy-claimable` | Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as 'Deploy my app', 'Deploy this to production', 'C... | vercel, deploy, claimable | vercel, deploy, claimable, applications, websites, skill, user, requests, deployment, actions, such, my |
 | `vercel-deployment` | Expert knowledge for deploying to Vercel with Next.js Use when: vercel, deploy, deployment, hosting, production. | vercel, deployment | vercel, deployment, knowledge, deploying, next, js, deploy, hosting |
 | `voice-agents` | Voice agents represent the frontier of AI interaction - humans speaking naturally with AI systems. The challenge isn't just speech recognition and synthesis,... | voice, agents | voice, agents, represent, frontier, ai, interaction, humans, speaking, naturally, challenge, isn, just |
+| `wiki-ado-convert` | Converts VitePress/GFM wiki markdown to Azure DevOps Wiki-compatible format. Generates a Node.js build script that transforms Mermaid syntax, strips front ma... | wiki, ado, convert | wiki, ado, convert, converts, vitepress, gfm, markdown, azure, devops, compatible, format, generates |
 | `wireshark-analysis` | This skill should be used when the user asks to "analyze network traffic with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow... | wireshark | wireshark, network, traffic, analysis, skill, should, used, user, asks, analyze, capture, packets |
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 
-## security (126)
+## security (125)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -832,12 +835,11 @@ Triggers: "keyvault secrets rust", "SecretClient rust"... | azure, keyvault, sec
 | `varlock-claude-skill` | Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git commits | varlock, claude, skill | varlock, claude, skill, secure, environment, variable, ensuring, secrets, never, exposed, sessions, terminals |
 | `vulnerability-scanner` | Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritization. | vulnerability, scanner | vulnerability, scanner, analysis, principles, owasp, 2025, supply, chain, security, attack, surface, mapping |
 | `web-design-guidelines` | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my si... | web, guidelines | web, guidelines, review, ui, code, interface, compliance, asked, my, check, accessibility, audit |
-| `wiki-onboarding` | Generates two complementary onboarding guides — a Principal-Level architectural deep-dive and a Zero-to-Hero contributor walkthrough. Use when the user wants... | wiki, onboarding | wiki, onboarding, generates, two, complementary, guides, principal, level, architectural, deep, dive, zero |
 | `wiki-researcher` | Conducts multi-turn iterative deep research on specific topics within a codebase with zero tolerance for shallow analysis. Use when the user wants an in-dept... | wiki, researcher | wiki, researcher, conducts, multi, turn, iterative, deep, research, specific, topics, within, codebase |
 | `wordpress-penetration-testing` | This skill should be used when the user asks to "pentest WordPress sites", "scan WordPress for vulnerabilities", "enumerate WordPress users, themes, or plugi... | wordpress, penetration | wordpress, penetration, testing, skill, should, used, user, asks, pentest, sites, scan, vulnerabilities |
 | `xss-html-injection` | This skill should be used when the user asks to "test for XSS vulnerabilities", "perform cross-site scripting attacks", "identify HTML injection flaws", "exp... | xss, html, injection | xss, html, injection, cross, site, scripting, testing, skill, should, used, user, asks |
 
-## testing (24)
+## testing (25)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -864,6 +866,7 @@ Triggers: "keyvault secrets rust", "SecretClient rust"... | azure, keyvault, sec
 | `test-fixing` | Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test sui... | fixing | fixing, test, run, tests, systematically, fix, all, failing, smart, error, grouping, user |
 | `unit-testing-test-generate` | Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus. | unit, generate | unit, generate, testing, test, maintainable, tests, languages, strong, coverage, edge, case |
 | `web3-testing` | Test smart contracts comprehensively using Hardhat and Foundry with unit tests, integration tests, and mainnet forking. Use when testing Solidity contracts, ... | web3 | web3, testing, test, smart, contracts, comprehensively, hardhat, foundry, unit, tests, integration, mainnet |
+| `wiki-agents-md` | Generates AGENTS.md files for repository folders — coding agent context files with build commands, testing instructions, code style, project structure, and b... | wiki, agents, md | wiki, agents, md, generates, files, repository, folders, coding, agent, context, commands, testing |
 | `wiki-qa` | Answers questions about a code repository using source file analysis. Use when the user asks a question about how something works, wants to understand a comp... | wiki, qa | wiki, qa, answers, questions, about, code, repository, source, file, analysis, user, asks |
 
 ## workflow (81)

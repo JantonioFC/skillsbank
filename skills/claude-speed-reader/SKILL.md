@@ -1,8 +1,10 @@
 ---
 name: claude-speed-reader
-description: "-Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting"
-source: "https://github.com/SeanZoR/claude-speed-reader"
+description: -Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style
+  ORP highlighting
+source: https://github.com/SeanZoR/claude-speed-reader
 risk: safe
+license: MIT
 ---
 
 # Claude Speed Reader

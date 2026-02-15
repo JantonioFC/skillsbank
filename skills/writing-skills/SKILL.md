@@ -8,7 +8,11 @@ metadata:
     agent skill, writing skill
   references: anti-rationalization, cso, standards, templates, testing, tier-1-simple,
     tier-2-expanded, tier-3-platform
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Writing Skills (Excellence)
 

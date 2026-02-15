@@ -1,7 +1,11 @@
 ---
 name: nodejs-best-practices
-description: Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.
+description: Node.js development principles and decision-making. Framework selection,
+  async patterns, security, and architecture. Teaches thinking, not copying.
 allowed-tools: Read, Write, Edit, Glob, Grep
+risk: safe
+source: community
+license: MIT
 ---
 
 # Node.js Best Practices
@@ -177,7 +181,7 @@ Logs get:
 
 ## 5. Async Patterns Principles
 
-### When to Use Each
+## When to Use Each
 
 | Pattern | Use When |
 |---------|----------|

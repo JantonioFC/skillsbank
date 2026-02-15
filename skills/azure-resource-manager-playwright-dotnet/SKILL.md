@@ -1,12 +1,29 @@
 ---
 name: azure-resource-manager-playwright-dotnet
-description: |
-  Azure Resource Manager SDK for Microsoft Playwright Testing in .NET. Use for MANAGEMENT PLANE operations: creating/managing Playwright Testing workspaces, checking name availability, and managing workspace quotas via Azure Resource Manager. NOT for running Playwright tests - use Azure.Developer.MicrosoftPlaywrightTesting.NUnit for that. Triggers: "Playwright workspace", "create Playwright Testing workspace", "manage Playwright resources", "ARM Playwright", "PlaywrightWorkspaceResource", "provision Playwright Testing".
+description: 'Azure Resource Manager SDK for Microsoft Playwright Testing in .NET.
+  Use for MANAGEMENT PLANE operations: creating/managing Playwright Testing workspaces,
+  checking name availability, and managing workspace quotas via Azure Resource Manager.
+  NOT for running Playwright tests - use Azure.Developer.MicrosoftPlaywrightTesting.NUnit
+  for that. Triggers: "Playwright workspace", "create Playwright Testing workspace",
+  "manage Playwright resources", "ARM Playwright", "PlaywrightWorkspaceResource",
+  "provision Playwright Testing".
+
+  '
 package: Azure.ResourceManager.Playwright
+risk: offensive
+source: microsoft
+license: MIT
 ---
 
-# Azure.ResourceManager.Playwright (.NET)
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Azure.ResourceManager.Playwright (.NET)
 Management plane SDK for provisioning and managing Microsoft Playwright Testing workspaces via Azure Resource Manager.
 
 > **⚠️ Management vs Test Execution**
@@ -295,3 +312,8 @@ Environment.SetEnvironmentVariable("PLAYWRIGHT_SERVICE_URL", serviceUrl.ToString
 - [Azure.ResourceManager.Playwright API Reference](https://learn.microsoft.com/en-us/dotnet/api/azure.resourcemanager.playwright)
 - [Microsoft Playwright Testing Overview](https://learn.microsoft.com/en-us/azure/playwright-testing/overview-what-is-microsoft-playwright-testing)
 - [Quickstart: Run Playwright Tests at Scale](https://learn.microsoft.com/en-us/azure/playwright-testing/quickstart-run-end-to-end-tests)
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-resource-manager-playwright-dotnet.

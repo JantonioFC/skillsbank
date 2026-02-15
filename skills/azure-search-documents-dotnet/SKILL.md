@@ -1,9 +1,19 @@
 ---
 name: azure-search-documents-dotnet
-description: |
-  Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search. Covers SearchClient (queries, document CRUD), SearchIndexClient (index management), and SearchIndexerClient (indexers, skillsets). Triggers: "Azure Search .NET", "SearchClient", "SearchIndexClient", "vector search C#", "semantic search .NET", "hybrid search", "Azure.Search.Documents".
+description: 'Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building
+  search applications with full-text, vector, semantic, and hybrid search. Covers
+  SearchClient (queries, document CRUD), SearchIndexClient (index management), and
+  SearchIndexerClient (indexers, skillsets). Triggers: "Azure Search .NET", "SearchClient",
+  "SearchIndexClient", "vector search C#", "semantic search .NET", "hybrid search",
+  "Azure.Search.Documents".
+
+  '
 package: Azure.Search.Documents
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure.Search.Documents (.NET)
 
@@ -337,3 +347,8 @@ catch (RequestFailedException ex)
 |------|----------|
 | [references/vector-search.md](references/vector-search.md) | Vector search, hybrid search, vectorizers |
 | [references/semantic-search.md](references/semantic-search.md) | Semantic ranking, captions, answers |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-search-documents-dotnet.

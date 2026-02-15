@@ -1,8 +1,9 @@
 ---
 name: fal-workflow
-description: "Generate workflow JSON files for chaining AI models"
-source: "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-workflow/SKILL.md"
+description: Generate workflow JSON files for chaining AI models
+source: https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-workflow/SKILL.md
 risk: safe
+license: MIT
 ---
 
 # Fal Workflow

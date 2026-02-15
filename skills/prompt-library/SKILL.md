@@ -1,10 +1,23 @@
 ---
 name: prompt-library
-description: "Curated collection of high-quality prompts for various use cases. Includes role-based prompts, task-specific templates, and prompt refinement techniques. Use when user needs prompt templates, role-play prompts, or ready-to-use prompt examples for coding, writing, analysis, or creative tasks."
+description: Curated collection of high-quality prompts for various use cases. Includes
+  role-based prompts, task-specific templates, and prompt refinement techniques. Use
+  when user needs prompt templates, role-play prompts, or ready-to-use prompt examples
+  for coding, writing, analysis, or creative tasks.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# 📝 Prompt Library
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# 📝 Prompt Library
 > A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices.
 
 ## When to Use This Skill

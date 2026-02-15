@@ -1,14 +1,24 @@
 ---
 name: backend-security-coder
-description: Expert in secure backend coding practices specializing in input
-  validation, authentication, and API security. Use PROACTIVELY for backend
-  security implementations or security code reviews.
+description: Expert in secure backend coding practices specializing in input validation,
+  authentication, and API security. Use PROACTIVELY for backend security implementations
+  or security code reviews.
 metadata:
   model: sonnet
+risk: offensive
+source: community
+license: MIT
 ---
 
-## Use this skill when
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+## Use this skill when
 - Working on backend security coder tasks or workflows
 - Needing guidance, best practices, or checklists for backend security coder
 

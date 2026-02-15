@@ -1,10 +1,11 @@
 ---
 name: linear-claude-skill
-description: "Manage Linear issues, projects, and teams"
-allowed-tools: 
+description: Manage Linear issues, projects, and teams
+allowed-tools:
 - WebFetch(domain: linear.app)
-source: "https://github.com/wrsmith108/linear-claude-skill"
+source: https://github.com/wrsmith108/linear-claude-skill
 risk: safe
+license: MIT
 ---
 
 ## When to Use This Skill

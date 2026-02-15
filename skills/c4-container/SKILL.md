@@ -1,13 +1,17 @@
 ---
 name: c4-container
-description: Expert C4 Container-level documentation specialist. Synthesizes
-  Component-level documentation into Container-level architecture, mapping
-  components to deployment units, documenting container interfaces as APIs, and
-  creating container diagrams. Use when synthesizing components into deployment
-  containers and documenting system deployment architecture.
+description: Expert C4 Container-level documentation specialist. Synthesizes Component-level
+  documentation into Container-level architecture, mapping components to deployment
+  units, documenting container interfaces as APIs, and creating container diagrams.
+  Use when synthesizing components into deployment containers and documenting system
+  deployment architecture.
 metadata:
   model: sonnet
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # C4 Container Level: System Deployment
 
@@ -38,7 +42,7 @@ metadata:
 - **Technology**: [Primary technologies: Node.js, Python, PostgreSQL, Redis, etc.]
 - **Deployment**: [Docker, Kubernetes, Cloud Service, etc.]
 
-## Purpose
+## When to Use
 
 [Detailed description of what this container does and how it's deployed]
 

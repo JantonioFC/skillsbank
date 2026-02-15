@@ -1,7 +1,13 @@
 ---
 name: javascript-typescript-typescript-scaffold
-description: "You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N"
+description: You are a TypeScript project architecture expert specializing in scaffolding
+  production-ready Node.js and frontend applications. Generate complete project structures
+  with modern tooling (pnpm, Vite, N
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # TypeScript Project Scaffolding
 
@@ -359,3 +365,8 @@ export default defineConfig({
 6. **Development Tools**: .env.example, .gitignore, linting config
 
 Focus on creating production-ready TypeScript projects with modern tooling, strict type safety, and comprehensive testing setup.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for javascript-typescript-typescript-scaffold.

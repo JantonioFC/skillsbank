@@ -1,7 +1,11 @@
 ---
 name: tailwind-patterns
-description: Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.
+description: Tailwind CSS v4 principles. CSS-first configuration, container queries,
+  modern patterns, design token architecture.
 allowed-tools: Read, Write, Edit, Glob, Grep
+risk: safe
+source: community
+license: MIT
 ---
 
 # Tailwind CSS Patterns (v4 - 2025)
@@ -83,7 +87,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep
 | Container breakpoint | `@sm:`, `@md:`, `@lg:` on children |
 | Named containers | `@container/card` for specificity |
 
-### When to Use
+## When to Use
 
 | Scenario | Use |
 |----------|-----|

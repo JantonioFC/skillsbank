@@ -1,7 +1,13 @@
 ---
 name: distributed-tracing
-description: Implement distributed tracing with Jaeger and Tempo to track requests across microservices and identify performance bottlenecks. Use when debugging microservices, analyzing request flows, or implementing observability for distributed systems.
+description: Implement distributed tracing with Jaeger and Tempo to track requests
+  across microservices and identify performance bottlenecks. Use when debugging microservices,
+  analyzing request flows, or implementing observability for distributed systems.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Distributed Tracing
 
@@ -19,7 +25,7 @@ Implement distributed tracing with Jaeger and Tempo for request flow visibility 
 - Provide actionable steps and verification.
 - If detailed examples are required, open `resources/implementation-playbook.md`.
 
-## Purpose
+## When to Use
 
 Track requests across distributed systems to understand latency, dependencies, and failure points.
 

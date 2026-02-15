@@ -1,7 +1,11 @@
 ---
 name: context-management-context-save
-description: "Use when working with context management context save"
+description: Use when working with context management context save
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Context Save Tool: Intelligent Context Management Specialist
 
@@ -175,3 +179,8 @@ def compress_context(context, compression_level='standard'):
 - Enhanced cross-domain knowledge transfer
 - Real-time collaborative context editing
 - Predictive context recommendation systems
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for context-management-context-save.

@@ -1,7 +1,12 @@
 ---
 name: executing-plans
-description: Use when you have a written implementation plan to execute in a separate session with review checkpoints
+description: Use when you have a written implementation plan to execute in a separate
+  session with review checkpoints
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Executing Plans
 
@@ -74,3 +79,8 @@ After all tasks complete and verified:
 - Reference skills when plan says to
 - Between batches: just report and wait
 - Stop when blocked, don't guess
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for executing-plans.

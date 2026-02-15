@@ -1,14 +1,28 @@
 ---
-name: Security Scanning Tools
-description: This skill should be used when the user asks to "perform vulnerability scanning", "scan networks for open ports", "assess web application security", "scan wireless networks", "detect malware", "check cloud security", or "evaluate system compliance". It provides comprehensive guidance on security scanning tools and methodologies.
+name: scanning-tools
+description: This skill should be used when the user asks to "perform vulnerability
+  scanning", "scan networks for open ports", "assess web application security", "scan
+  wireless networks", "detect malware", "check cloud security", or "evaluate system
+  compliance". It provides comprehensive guidance on security scanning tools and methodologies.
 metadata:
   author: zebbern
-  version: "1.1"
+  version: '1.1'
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Security Scanning Tools
 
-## Purpose
+
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Security Scanning Tools
+## When to Use
 
 Master essential security scanning tools for network discovery, vulnerability assessment, web application testing, wireless security, and compliance validation. This skill covers tool selection, configuration, and practical usage across different scanning categories.
 

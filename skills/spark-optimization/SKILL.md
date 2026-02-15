@@ -1,7 +1,13 @@
 ---
 name: spark-optimization
-description: Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines.
+description: Optimize Apache Spark jobs with partitioning, caching, shuffle optimization,
+  and memory tuning. Use when improving Spark performance, debugging slow jobs, or
+  scaling data processing pipelines.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Apache Spark Optimization
 
@@ -425,3 +431,8 @@ spark_configs = {
 - [Spark Performance Tuning](https://spark.apache.org/docs/latest/sql-performance-tuning.html)
 - [Spark Configuration](https://spark.apache.org/docs/latest/configuration.html)
 - [Databricks Optimization Guide](https://docs.databricks.com/en/optimizations/index.html)
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for spark-optimization.

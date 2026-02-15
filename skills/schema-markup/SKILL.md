@@ -1,12 +1,16 @@
 ---
 name: schema-markup
-description: >
-  Design, validate, and optimize schema.org structured data for eligibility,
-  correctness, and measurable SEO impact. Use when the user wants to add, fix,
-  audit, or scale schema markup (JSON-LD) for rich results. This skill evaluates
-  whether schema should be implemented, what types are valid, and how to deploy
-  safely according to Google guidelines.
+description: 'Design, validate, and optimize schema.org structured data for eligibility,
+  correctness, and measurable SEO impact. Use when the user wants to add, fix, audit,
+  or scale schema markup (JSON-LD) for rich results. This skill evaluates whether
+  schema should be implemented, what types are valid, and how to deploy safely according
+  to Google guidelines.
+
+  '''
 allowed-tools: Read, Glob, Grep
+risk: safe
+source: community
+license: MIT
 ---
 
 ---
@@ -33,7 +37,7 @@ You do **not** add schema that misrepresents content.
 
 Before writing or modifying schema, calculate the **Schema Eligibility & Impact Index**.
 
-### Purpose
+## When to Use
 
 The index answers:
 

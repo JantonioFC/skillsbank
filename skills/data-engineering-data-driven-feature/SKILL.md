@@ -1,7 +1,12 @@
 ---
 name: data-engineering-data-driven-feature
-description: "Build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation."
+description: Build features guided by data insights, A/B testing, and continuous measurement
+  using specialized agents for analysis, implementation, and experimentation.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Data-Driven Feature Development
 
@@ -180,3 +185,8 @@ monitoring:
 - Continuous learning loop feeds back into next feature development cycle
 
 Feature to develop with data-driven approach: $ARGUMENTS
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for data-engineering-data-driven-feature.

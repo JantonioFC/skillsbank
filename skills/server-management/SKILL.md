@@ -1,8 +1,13 @@
 ---
 name: server-management
-description: Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands.
+description: Server management principles and decision-making. Process management,
+  monitoring strategy, and scaling decisions. Teaches thinking, not commands.
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Server Management
 
@@ -159,3 +164,8 @@ When something's wrong:
 ---
 
 > **Remember:** A well-managed server is boring. That's the goal.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for server-management.

@@ -1,12 +1,15 @@
 ---
 name: tutorial-engineer
-description: Creates step-by-step tutorials and educational content from code.
-  Transforms complex concepts into progressive learning experiences with
-  hands-on examples. Use PROACTIVELY for onboarding guides, feature tutorials,
-  or concept explanations.
+description: Creates step-by-step tutorials and educational content from code. Transforms
+  complex concepts into progressive learning experiences with hands-on examples. Use
+  PROACTIVELY for onboarding guides, feature tutorials, or concept explanations.
 metadata:
   model: sonnet
+risk: safe
+source: community
+license: MIT
 ---
+
 
 ## Use this skill when
 
@@ -137,3 +140,8 @@ Generate tutorials in Markdown with:
 - Links to working code repositories
 
 Remember: Your goal is to create tutorials that transform learners from confused to confident, ensuring they not only understand the code but can apply concepts independently.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for tutorial-engineer.

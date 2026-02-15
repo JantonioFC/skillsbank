@@ -1,10 +1,22 @@
 ---
 name: paypal-integration
-description: Integrate PayPal payment processing with support for express checkout, subscriptions, and refund management. Use when implementing PayPal payments, processing online transactions, or building e-commerce checkout flows.
+description: Integrate PayPal payment processing with support for express checkout,
+  subscriptions, and refund management. Use when implementing PayPal payments, processing
+  online transactions, or building e-commerce checkout flows.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# PayPal Integration
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# PayPal Integration
 Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows.
 
 ## Do not use this skill when
@@ -477,3 +489,8 @@ def test_payment_flow():
 - **Wrong Environment**: Mixing sandbox and production URLs/credentials
 - **Missing Webhooks**: Not handling all payment states
 - **Hardcoded Values**: Not making configurable for different environments
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for paypal-integration.

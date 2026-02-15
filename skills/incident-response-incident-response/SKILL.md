@@ -1,10 +1,20 @@
 ---
 name: incident-response-incident-response
-description: "Use when working with incident response incident response"
+description: Use when working with incident response incident response
+risk: offensive
+source: community
+license: MIT
 ---
 
-## Use this skill when
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+## Use this skill when
 - Working on incident response incident response tasks or workflows
 - Needing guidance, best practices, or checklists for incident response incident response
 
@@ -166,3 +176,8 @@ Orchestrate multi-agent incident response with modern SRE practices for rapid re
 - Timestamp all significant events
 
 Production incident requiring immediate response: $ARGUMENTS
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for incident-response-incident-response.

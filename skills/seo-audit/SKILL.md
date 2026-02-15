@@ -1,12 +1,15 @@
 ---
 name: seo-audit
-description: >
-  Diagnose and audit SEO issues affecting crawlability, indexation, rankings,
+description: 'Diagnose and audit SEO issues affecting crawlability, indexation, rankings,
   and organic performance. Use when the user asks for an SEO audit, technical SEO
   review, ranking diagnosis, on-page SEO review, meta tag audit, or SEO health check.
   This skill identifies issues and prioritizes actions but does not execute changes.
-  For large-scale page creation, use programmatic-seo. For structured data, use
-  schema-markup.
+  For large-scale page creation, use programmatic-seo. For structured data, use schema-markup.
+
+  '''
+risk: safe
+source: community
+license: MIT
 ---
 
 # SEO Audit
@@ -219,7 +222,7 @@ If critical context is missing, **state assumptions explicitly** before proceedi
 ---
 ## 🔢 SEO Health Index & Scoring Layer (Additive)
 
-### Purpose
+## When to Use
 
 The **SEO Health Index** provides a **normalized, explainable score** that summarizes overall SEO health **without replacing detailed findings**.
 
@@ -484,4 +487,3 @@ Use these skills **only after the audit is complete** and findings are accepted.
 
 * **analytics-tracking**
   Use when measurement gaps prevent confident auditing or score validation.
-

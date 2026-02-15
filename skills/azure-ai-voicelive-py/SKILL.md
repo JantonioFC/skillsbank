@@ -1,8 +1,17 @@
 ---
 name: azure-ai-voicelive-py
-description: Build real-time voice AI applications using Azure AI Voice Live SDK (azure-ai-voicelive). Use this skill when creating Python applications that need real-time bidirectional audio communication with Azure AI, including voice assistants, voice-enabled chatbots, real-time speech-to-speech translation, voice-driven avatars, or any WebSocket-based audio streaming with AI models. Supports Server VAD (Voice Activity Detection), turn-based conversation, function calling, MCP tools, avatar integration, and transcription.
+description: Build real-time voice AI applications using Azure AI Voice Live SDK (azure-ai-voicelive).
+  Use this skill when creating Python applications that need real-time bidirectional
+  audio communication with Azure AI, including voice assistants, voice-enabled chatbots,
+  real-time speech-to-speech translation, voice-driven avatars, or any WebSocket-based
+  audio streaming with AI models. Supports Server VAD (Voice Activity Detection),
+  turn-based conversation, function calling, MCP tools, avatar integration, and transcription.
 package: azure-ai-voicelive
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure AI Voice Live SDK
 
@@ -307,3 +316,8 @@ except ConnectionError as e:
 - **Detailed API Reference**: See [references/api-reference.md](references/api-reference.md)
 - **Complete Examples**: See [references/examples.md](references/examples.md)
 - **All Models & Types**: See [references/models.md](references/models.md)
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-ai-voicelive-py.

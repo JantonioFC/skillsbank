@@ -1,7 +1,12 @@
 ---
 name: data-engineering-data-pipeline
-description: "You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing."
+description: You are a data pipeline architecture expert specializing in scalable,
+  reliable, and cost-effective data pipelines for batch and streaming data processing.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Data Pipeline Architecture
 
@@ -199,3 +204,8 @@ ingester.save_dead_letter_queue('s3://lake/dlq/orders')
 - Cost optimization reduces infrastructure costs by 30-50%
 - Schema evolution without downtime
 - End-to-end data lineage tracked
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for data-engineering-data-pipeline.

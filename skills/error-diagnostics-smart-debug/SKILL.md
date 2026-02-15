@@ -1,7 +1,11 @@
 ---
 name: error-diagnostics-smart-debug
-description: "Use when working with error diagnostics smart debug"
+description: Use when working with error diagnostics smart debug
+risk: safe
+source: community
+license: MIT
 ---
+
 
 ## Use this skill when
 
@@ -195,3 +199,8 @@ Focus on actionable insights. Use AI assistance throughout for pattern recogniti
 ---
 
 Issue to debug: $ARGUMENTS
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for error-diagnostics-smart-debug.

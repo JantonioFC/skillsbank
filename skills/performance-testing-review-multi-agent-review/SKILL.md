@@ -1,7 +1,11 @@
 ---
 name: performance-testing-review-multi-agent-review
-description: "Use when working with performance testing review multi agent review"
+description: Use when working with performance testing review multi agent review
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Multi-Agent Code Review Orchestration Tool
 
@@ -214,3 +218,8 @@ The tool is designed with a plugin-based architecture, allowing easy addition of
 ## Invocation
 
 Target for review: $ARGUMENTS
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for performance-testing-review-multi-agent-review.

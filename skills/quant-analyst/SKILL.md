@@ -1,12 +1,15 @@
 ---
 name: quant-analyst
-description: Build financial models, backtest trading strategies, and analyze
-  market data. Implements risk metrics, portfolio optimization, and statistical
-  arbitrage. Use PROACTIVELY for quantitative finance, trading algorithms, or
-  risk analysis.
+description: Build financial models, backtest trading strategies, and analyze market
+  data. Implements risk metrics, portfolio optimization, and statistical arbitrage.
+  Use PROACTIVELY for quantitative finance, trading algorithms, or risk analysis.
 metadata:
   model: inherit
+risk: safe
+source: community
+license: MIT
 ---
+
 
 ## Use this skill when
 
@@ -51,3 +54,8 @@ You are a quantitative analyst specializing in algorithmic trading and financial
 - Parameter sensitivity analysis
 
 Use pandas, numpy, and scipy. Include realistic assumptions about market microstructure.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for quant-analyst.

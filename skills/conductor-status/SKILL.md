@@ -2,8 +2,12 @@
 name: conductor-status
 description: Display project status, active tracks, and next actions
 metadata:
-  argument-hint: "[track-id] [--detailed]"
+  argument-hint: '[track-id] [--detailed]'
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Conductor Status
 
@@ -336,3 +340,8 @@ If invoked with `--json`:
   "blockers": []
 }
 ```
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for conductor-status.

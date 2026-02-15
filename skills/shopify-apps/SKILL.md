@@ -1,8 +1,14 @@
 ---
 name: shopify-apps
-description: "Expert patterns for Shopify app development including Remix/React Router apps, embedded apps with App Bridge, webhook handling, GraphQL Admin API, Polaris components, billing, and app extensions. Use when: shopify app, shopify, embedded app, polaris, app bridge."
+description: 'Expert patterns for Shopify app development including Remix/React Router
+  apps, embedded apps with App Bridge, webhook handling, GraphQL Admin API, Polaris
+  components, billing, and app extensions. Use when: shopify app, shopify, embedded
+  app, polaris, app bridge.'
 source: vibeship-spawner-skills (Apache 2.0)
+risk: safe
+license: MIT
 ---
+
 
 # Shopify Apps
 
@@ -40,3 +46,8 @@ Secure webhook processing with HMAC verification
 | Issue | high | ## Use GraphQL for all new code |
 | Issue | high | ## Use latest App Bridge via script tag |
 | Issue | high | ## Implement all GDPR handlers |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for shopify-apps.

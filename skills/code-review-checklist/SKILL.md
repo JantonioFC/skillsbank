@@ -1,10 +1,21 @@
 ---
 name: code-review-checklist
-description: "Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability"
+description: Comprehensive checklist for conducting thorough code reviews covering
+  functionality, security, performance, and maintainability
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Code Review Checklist
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Code Review Checklist
 ## Overview
 
 Provide a systematic checklist for conducting thorough code reviews. This skill helps reviewers ensure code quality, catch bugs, identify security issues, and maintain consistency across the codebase.

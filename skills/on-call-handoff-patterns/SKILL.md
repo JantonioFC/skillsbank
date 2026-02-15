@@ -1,9 +1,19 @@
 ---
 name: on-call-handoff-patterns
-description: Master on-call shift handoffs with context transfer, escalation procedures, and documentation. Use when transitioning on-call responsibilities, documenting shift summaries, or improving on-call processes.
+description: Master on-call shift handoffs with context transfer, escalation procedures,
+  and documentation. Use when transitioning on-call responsibilities, documenting
+  shift summaries, or improving on-call processes.
+risk: offensive
+source: community
+license: MIT
 ---
 
 # On-Call Handoff Patterns
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.
 
@@ -451,3 +461,8 @@ I'll be available on Slack until 17:00 today.
 - [Google SRE - Being On-Call](https://sre.google/sre-book/being-on-call/)
 - [PagerDuty On-Call Guide](https://www.pagerduty.com/resources/learn/on-call-management/)
 - [Increment On-Call Issue](https://increment.com/on-call/)
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for on-call-handoff-patterns.

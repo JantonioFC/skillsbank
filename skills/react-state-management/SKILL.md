@@ -1,10 +1,22 @@
 ---
 name: react-state-management
-description: Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions.
+description: Master modern React state management with Redux Toolkit, Zustand, Jotai,
+  and React Query. Use when setting up global state, managing server state, or choosing
+  between state management solutions.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# React State Management
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# React State Management
 Comprehensive guide to modern React state management patterns, from local component state to global stores and server state synchronization.
 
 ## Do not use this skill when
@@ -439,3 +451,8 @@ const todosSlice = createSlice({
 - [Zustand GitHub](https://github.com/pmndrs/zustand)
 - [Jotai Documentation](https://jotai.org/)
 - [TanStack Query](https://tanstack.com/query)
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for react-state-management.

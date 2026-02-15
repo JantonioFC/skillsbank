@@ -1,14 +1,29 @@
 ---
-name: Windows Privilege Escalation
-description: This skill should be used when the user asks to "escalate privileges on Windows," "find Windows privesc vectors," "enumerate Windows for privilege escalation," "exploit Windows misconfigurations," or "perform post-exploitation privilege escalation." It provides comprehensive guidance for discovering and exploiting privilege escalation vulnerabilities in Windows environments.
+name: windows-privilege-escalation
+description: This skill should be used when the user asks to "escalate privileges
+  on Windows," "find Windows privesc vectors," "enumerate Windows for privilege escalation,"
+  "exploit Windows misconfigurations," or "perform post-exploitation privilege escalation."
+  It provides comprehensive guidance for discovering and exploiting privilege escalation
+  vulnerabilities in Windows environments.
 metadata:
   author: zebbern
-  version: "1.1"
+  version: '1.1'
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Windows Privilege Escalation
 
-## Purpose
+
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Windows Privilege Escalation
+## When to Use
 
 Provide systematic methodologies for discovering and exploiting privilege escalation vulnerabilities on Windows systems during penetration testing engagements. This skill covers system enumeration, credential harvesting, service exploitation, token impersonation, kernel exploits, and various misconfigurations that enable escalation from standard user to Administrator or SYSTEM privileges.
 

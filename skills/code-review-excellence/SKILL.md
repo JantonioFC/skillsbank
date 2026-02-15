@@ -1,7 +1,13 @@
 ---
 name: code-review-excellence
-description: Master effective code review practices to provide constructive feedback, catch bugs early, and foster knowledge sharing while maintaining team morale. Use when reviewing pull requests, establishing review standards, or mentoring developers.
+description: Master effective code review practices to provide constructive feedback,
+  catch bugs early, and foster knowledge sharing while maintaining team morale. Use
+  when reviewing pull requests, establishing review standards, or mentoring developers.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Code Review Excellence
 
@@ -38,3 +44,8 @@ Transform code reviews from gatekeeping to knowledge sharing through constructiv
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed review patterns and templates.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for code-review-excellence.

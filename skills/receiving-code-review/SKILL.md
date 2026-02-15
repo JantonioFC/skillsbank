@@ -1,7 +1,13 @@
 ---
 name: receiving-code-review
-description: Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation
+description: Use when receiving code review feedback, before implementing suggestions,
+  especially if feedback seems unclear or technically questionable - requires technical
+  rigor and verification, not performative agreement or blind implementation
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Code Review Reception
 
@@ -211,3 +217,8 @@ When replying to inline review comments on GitHub, reply in the comment thread (
 Verify. Question. Then implement.
 
 No performative agreement. Technical rigor always.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for receiving-code-review.

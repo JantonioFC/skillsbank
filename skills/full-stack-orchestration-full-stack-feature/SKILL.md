@@ -1,10 +1,20 @@
 ---
 name: full-stack-orchestration-full-stack-feature
-description: "Use when working with full stack orchestration full stack feature"
+description: Use when working with full stack orchestration full stack feature
+risk: offensive
+source: community
+license: MIT
 ---
 
-## Use this skill when
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+## Use this skill when
 - Working on full stack orchestration full stack feature tasks or workflows
 - Needing guidance, best practices, or checklists for full stack orchestration full stack feature
 
@@ -133,3 +143,8 @@ Orchestrate full-stack feature development across backend, frontend, and infrast
 - Ensure consistent error handling and API responses across services
 
 Feature to implement: $ARGUMENTS
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for full-stack-orchestration-full-stack-feature.

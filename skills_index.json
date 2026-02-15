@@ -7479,6 +7479,24 @@
     "source": "unknown"
   },
   {
+    "id": "wiki-ado-convert",
+    "path": "skills/wiki-ado-convert",
+    "category": "uncategorized",
+    "name": "wiki-ado-convert",
+    "description": "Converts VitePress/GFM wiki markdown to Azure DevOps Wiki-compatible format. Generates a Node.js build script that transforms Mermaid syntax, strips front matter, fixes links, and outputs ADO-compatible copies to dist/ado-wiki/.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
+    "id": "wiki-agents-md",
+    "path": "skills/wiki-agents-md",
+    "category": "uncategorized",
+    "name": "wiki-agents-md",
+    "description": "Generates AGENTS.md files for repository folders \u2014 coding agent context files with build commands, testing instructions, code style, project structure, and boundaries. Only generates where AGENTS.md is missing.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
     "id": "wiki-architect",
     "path": "skills/wiki-architect",
     "category": "uncategorized",
@@ -7497,11 +7515,20 @@
     "source": "unknown"
   },
   {
+    "id": "wiki-llms-txt",
+    "path": "skills/wiki-llms-txt",
+    "category": "uncategorized",
+    "name": "wiki-llms-txt",
+    "description": "Generates llms.txt and llms-full.txt files for LLM-friendly project documentation following the llms.txt specification. Use when the user wants to create LLM-readable summaries, llms.txt files, or make their wiki accessible to language models.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
     "id": "wiki-onboarding",
     "path": "skills/wiki-onboarding",
     "category": "uncategorized",
     "name": "wiki-onboarding",
-    "description": "Generates two complementary onboarding guides \u2014 a Principal-Level architectural deep-dive and a Zero-to-Hero contributor walkthrough. Use when the user wants onboarding documentation for a codebase.",
+    "description": "Generates four audience-tailored onboarding guides in an onboarding/ folder \u2014 Contributor, Staff Engineer, Executive, and Product Manager. Use when the user wants onboarding documentation for a codebase.",
     "risk": "unknown",
     "source": "unknown"
   },

@@ -1,7 +1,14 @@
 ---
 name: multi-cloud-architecture
-description: Design multi-cloud architectures using a decision framework to select and integrate services across AWS, Azure, and GCP. Use when building multi-cloud systems, avoiding vendor lock-in, or leveraging best-of-breed services from multiple providers.
+description: Design multi-cloud architectures using a decision framework to select
+  and integrate services across AWS, Azure, and GCP. Use when building multi-cloud
+  systems, avoiding vendor lock-in, or leveraging best-of-breed services from multiple
+  providers.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Multi-Cloud Architecture
 
@@ -19,7 +26,7 @@ Decision framework and patterns for architecting applications across AWS, Azure,
 - Provide actionable steps and verification.
 - If detailed examples are required, open `resources/implementation-playbook.md`.
 
-## Purpose
+## When to Use
 
 Design cloud-agnostic architectures and make informed decisions about service selection across cloud providers.
 

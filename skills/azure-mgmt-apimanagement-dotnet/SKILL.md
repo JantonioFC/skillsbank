@@ -1,9 +1,18 @@
 ---
 name: azure-mgmt-apimanagement-dotnet
-description: |
-  Azure Resource Manager SDK for API Management in .NET. Use for MANAGEMENT PLANE operations: creating/managing APIM services, APIs, products, subscriptions, policies, users, groups, gateways, and backends via Azure Resource Manager. Triggers: "API Management", "APIM service", "create APIM", "manage APIs", "ApiManagementServiceResource", "API policies", "APIM products", "APIM subscriptions".
+description: 'Azure Resource Manager SDK for API Management in .NET. Use for MANAGEMENT
+  PLANE operations: creating/managing APIM services, APIs, products, subscriptions,
+  policies, users, groups, gateways, and backends via Azure Resource Manager. Triggers:
+  "API Management", "APIM service", "create APIM", "manage APIs", "ApiManagementServiceResource",
+  "API policies", "APIM products", "APIM subscriptions".
+
+  '
 package: Azure.ResourceManager.ApiManagement
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure.ResourceManager.ApiManagement (.NET)
 
@@ -308,3 +317,8 @@ catch (RequestFailedException ex)
 | [API Management Documentation](https://learn.microsoft.com/en-us/azure/api-management/) | Official Azure docs |
 | [Policy Reference](https://learn.microsoft.com/en-us/azure/api-management/api-management-policies) | Complete policy reference |
 | [SDK Reference](https://learn.microsoft.com/en-us/dotnet/api/azure.resourcemanager.apimanagement) | .NET API reference |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-mgmt-apimanagement-dotnet.

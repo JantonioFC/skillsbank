@@ -1,7 +1,13 @@
 ---
 name: defi-protocol-templates
-description: Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols.
+description: Implement DeFi protocols with production-ready templates for staking,
+  AMMs, governance, and lending systems. Use when building decentralized finance applications
+  or smart contract protocols.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # DeFi Protocol Templates
 
@@ -464,3 +470,8 @@ contract FlashLoanReceiver is IFlashLoanReceiver {
 - **Vesting**: Lock tokens with gradual release
 - **Multisig**: Require multiple signatures for critical operations
 - **Timelocks**: Delay execution of governance decisions
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for defi-protocol-templates.

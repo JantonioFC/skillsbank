@@ -1,15 +1,24 @@
 ---
 name: frontend-security-coder
-description: Expert in secure frontend coding practices specializing in XSS
-  prevention, output sanitization, and client-side security patterns. Use
-  PROACTIVELY for frontend security implementations or client-side security code
-  reviews.
+description: Expert in secure frontend coding practices specializing in XSS prevention,
+  output sanitization, and client-side security patterns. Use PROACTIVELY for frontend
+  security implementations or client-side security code reviews.
 metadata:
   model: sonnet
+risk: offensive
+source: community
+license: MIT
 ---
 
-## Use this skill when
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+## Use this skill when
 - Working on frontend security coder tasks or workflows
 - Needing guidance, best practices, or checklists for frontend security coder
 

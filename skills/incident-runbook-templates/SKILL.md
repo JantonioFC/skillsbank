@@ -1,10 +1,22 @@
 ---
 name: incident-runbook-templates
-description: Create structured incident response runbooks with step-by-step procedures, escalation paths, and recovery actions. Use when building runbooks, responding to incidents, or establishing incident response procedures.
+description: Create structured incident response runbooks with step-by-step procedures,
+  escalation paths, and recovery actions. Use when building runbooks, responding to
+  incidents, or establishing incident response procedures.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Incident Runbook Templates
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Incident Runbook Templates
 Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.
 
 ## Do not use this skill when
@@ -393,3 +405,8 @@ psql -c "VACUUM FULL large_table;"
 - [Google SRE Book - Incident Management](https://sre.google/sre-book/managing-incidents/)
 - [PagerDuty Incident Response](https://response.pagerduty.com/)
 - [Atlassian Incident Management](https://www.atlassian.com/incident-management)
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for incident-runbook-templates.

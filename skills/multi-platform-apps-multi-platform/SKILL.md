@@ -1,10 +1,21 @@
 ---
 name: multi-platform-apps-multi-platform
-description: "Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies."
+description: Build and deploy the same feature consistently across web, mobile, and
+  desktop platforms using API-first architecture and parallel implementation strategies.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Multi-Platform Feature Development Workflow
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Multi-Platform Feature Development Workflow
 Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies.
 
 [Extended thinking: This workflow orchestrates multiple specialized agents to ensure feature parity across platforms while maintaining platform-specific optimizations. The coordination strategy emphasizes shared contracts and parallel development with regular synchronization points. By establishing API contracts and data models upfront, teams can work independently while ensuring consistency. The workflow benefits include faster time-to-market, reduced integration issues, and maintainable cross-platform codebases.]
@@ -201,3 +212,8 @@ Build and deploy the same feature consistently across web, mobile, and desktop p
 **Desktop**: Code signing, auto-updates, OS-specific installers
 
 Initial feature specification: $ARGUMENTS
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for multi-platform-apps-multi-platform.

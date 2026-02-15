@@ -1,11 +1,15 @@
 ---
 name: track-management
-description: Use this skill when creating, managing, or working with Conductor
-  tracks - the logical work units for features, bugs, and refactors. Applies to
-  spec.md, plan.md, and track lifecycle operations.
+description: Use this skill when creating, managing, or working with Conductor tracks
+  - the logical work units for features, bugs, and refactors. Applies to spec.md,
+  plan.md, and track lifecycle operations.
 metadata:
   version: 1.0.0
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Track Management
 
@@ -36,3 +40,8 @@ Guide for creating, managing, and completing Conductor tracks - the logical work
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for track-management.

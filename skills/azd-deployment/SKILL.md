@@ -1,10 +1,26 @@
 ---
 name: azd-deployment
-description: Deploy containerized applications to Azure Container Apps using Azure Developer CLI (azd). Use when setting up azd projects, writing azure.yaml configuration, creating Bicep infrastructure for Container Apps, configuring remote builds with ACR, implementing idempotent deployments, managing environment variables across local/.azure/Bicep, or troubleshooting azd up failures. Triggers on requests for azd configuration, Container Apps deployment, multi-service deployments, and infrastructure-as-code with Bicep.
+description: Deploy containerized applications to Azure Container Apps using Azure
+  Developer CLI (azd). Use when setting up azd projects, writing azure.yaml configuration,
+  creating Bicep infrastructure for Container Apps, configuring remote builds with
+  ACR, implementing idempotent deployments, managing environment variables across
+  local/.azure/Bicep, or troubleshooting azd up failures. Triggers on requests for
+  azd configuration, Container Apps deployment, multi-service deployments, and infrastructure-as-code
+  with Bicep.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Azure Developer CLI (azd) Container Apps Deployment
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Azure Developer CLI (azd) Container Apps Deployment
 Deploy containerized frontend + backend applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure.
 
 ## Quick Start
@@ -294,3 +310,8 @@ az containerapp logs show -n <app> -g <rg> --follow  # Stream logs
 3. **Use `azd env set` for secrets** - Not main.parameters.json defaults
 4. **Service tags (`azd-service-name`)** - Required for azd to find Container Apps
 5. **`|| true` in hooks** - Prevent RBAC "already exists" errors from failing deploy
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azd-deployment.

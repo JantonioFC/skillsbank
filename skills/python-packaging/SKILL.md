@@ -1,7 +1,13 @@
 ---
 name: python-packaging
-description: Create distributable Python packages with proper project structure, setup.py/pyproject.toml, and publishing to PyPI. Use when packaging Python libraries, creating CLI tools, or distributing Python code.
+description: Create distributable Python packages with proper project structure, setup.py/pyproject.toml,
+  and publishing to PyPI. Use when packaging Python libraries, creating CLI tools,
+  or distributing Python code.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Python Packaging
 
@@ -34,3 +40,8 @@ Comprehensive guide to creating, structuring, and distributing Python packages u
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for python-packaging.

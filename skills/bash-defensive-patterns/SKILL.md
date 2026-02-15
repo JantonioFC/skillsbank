@@ -1,7 +1,13 @@
 ---
 name: bash-defensive-patterns
-description: Master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety.
+description: Master defensive Bash programming techniques for production-grade scripts.
+  Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring
+  fault tolerance and safety.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Bash Defensive Patterns
 
@@ -41,3 +47,8 @@ Refer to `resources/implementation-playbook.md` for detailed patterns, checklist
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns, checklists, and templates.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for bash-defensive-patterns.

@@ -1,7 +1,13 @@
 ---
 name: using-superpowers
-description: Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions
+description: Use when starting any conversation - establishes how to find and use
+  skills, requiring Skill tool invocation before ANY response including clarifying
+  questions
+risk: safe
+source: community
+license: MIT
 ---
+
 
 <EXTREMELY-IMPORTANT>
 If you think there is even a 1% chance a skill might apply to what you are doing, you ABSOLUTELY MUST invoke the skill.
@@ -85,3 +91,8 @@ The skill itself tells you which.
 ## User Instructions
 
 Instructions say WHAT, not HOW. "Add X" or "Fix Y" doesn't mean skip workflows.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for using-superpowers.

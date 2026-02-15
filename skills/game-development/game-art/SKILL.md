@@ -1,10 +1,19 @@
 ---
 name: game-art
-description: Game art principles. Visual style selection, asset pipeline, animation workflow.
+description: Game art principles. Visual style selection, asset pipeline, animation
+  workflow.
 allowed-tools: Read, Glob, Grep
+risk: offensive
+source: community
+license: MIT
 ---
 
 # Game Art Principles
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 > Visual design thinking for games - style selection, asset pipelines, and art direction.
 
@@ -183,3 +192,7 @@ assets/
 ---
 
 > **Remember:** Art serves gameplay. If it doesn't help the player, it's decoration.
+
+## When to Use
+
+Use this skill when you need guidance or automation for game-art.

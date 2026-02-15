@@ -1,10 +1,17 @@
 ---
 name: azure-ai-transcription-py
-description: |
-  Azure AI Transcription SDK for Python. Use for real-time and batch speech-to-text transcription with timestamps and diarization.
+description: 'Azure AI Transcription SDK for Python. Use for real-time and batch speech-to-text
+  transcription with timestamps and diarization.
+
   Triggers: "transcription", "speech to text", "Azure AI Transcription", "TranscriptionClient".
+
+  '
 package: azure-ai-transcription
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure AI Transcription SDK for Python
 
@@ -67,3 +74,8 @@ for event in stream:
 4. **Specify language** to improve recognition accuracy
 5. **Handle streaming backpressure** for real-time transcription
 6. **Close transcription sessions** when complete
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-ai-transcription-py.

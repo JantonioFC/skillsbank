@@ -1,8 +1,15 @@
 ---
 name: azure-mgmt-mongodbatlas-dotnet
-description: Manage MongoDB Atlas Organizations as Azure ARM resources using Azure.ResourceManager.MongoDBAtlas SDK. Use when creating, updating, listing, or deleting MongoDB Atlas organizations through Azure Marketplace integration. This SDK manages the Azure-side organization resource, not Atlas clusters/databases directly.
+description: Manage MongoDB Atlas Organizations as Azure ARM resources using Azure.ResourceManager.MongoDBAtlas
+  SDK. Use when creating, updating, listing, or deleting MongoDB Atlas organizations
+  through Azure Marketplace integration. This SDK manages the Azure-side organization
+  resource, not Atlas clusters/databases directly.
 package: Azure.ResourceManager.MongoDBAtlas
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure.ResourceManager.MongoDBAtlas SDK
 
@@ -352,3 +359,8 @@ var response = await orgResource.GetAsync();
 - [Microsoft Learn: MongoDB Atlas on Azure](https://learn.microsoft.com/en-us/azure/partner-solutions/mongodb-atlas/)
 - [API Reference](https://learn.microsoft.com/en-us/dotnet/api/azure.resourcemanager.mongodbatlas)
 - [Azure SDK for .NET](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/mongodbatlas)
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-mgmt-mongodbatlas-dotnet.

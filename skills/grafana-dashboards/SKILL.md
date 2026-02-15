@@ -1,7 +1,13 @@
 ---
 name: grafana-dashboards
-description: Create and manage production Grafana dashboards for real-time visualization of system and application metrics. Use when building monitoring dashboards, visualizing metrics, or creating operational observability interfaces.
+description: Create and manage production Grafana dashboards for real-time visualization
+  of system and application metrics. Use when building monitoring dashboards, visualizing
+  metrics, or creating operational observability interfaces.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Grafana Dashboards
 
@@ -19,7 +25,7 @@ Create and manage production-ready Grafana dashboards for comprehensive system o
 - Provide actionable steps and verification.
 - If detailed examples are required, open `resources/implementation-playbook.md`.
 
-## Purpose
+## When to Use
 
 Design effective Grafana dashboards for monitoring applications, infrastructure, and business metrics.
 

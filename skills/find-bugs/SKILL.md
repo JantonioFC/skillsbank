@@ -1,8 +1,11 @@
 ---
 name: find-bugs
-description: "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch."
-source: "https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/find-bugs"
+description: Find bugs, security vulnerabilities, and code quality issues in local
+  branch changes. Use when asked to review changes, find bugs, security review, or
+  audit code on the current branch.
+source: https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/find-bugs
 risk: safe
+license: MIT
 ---
 
 # Find Bugs

@@ -1,10 +1,22 @@
 ---
 name: event-store-design
-description: Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns.
+description: Design and implement event stores for event-sourced systems. Use when
+  building event sourcing infrastructure, choosing event store technologies, or implementing
+  event persistence patterns.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Event Store Design
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Event Store Design
 Comprehensive guide to designing event stores for event-sourced applications.
 
 ## Do not use this skill when
@@ -447,3 +459,8 @@ Capacity: On-demand or provisioned based on throughput needs
 - [EventStoreDB](https://www.eventstore.com/)
 - [Marten Events](https://martendb.io/events/)
 - [Event Sourcing Pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing)
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for event-store-design.

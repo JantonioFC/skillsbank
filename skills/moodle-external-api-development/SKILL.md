@@ -1,10 +1,23 @@
 ---
 name: moodle-external-api-development
-description: Create custom external web service APIs for Moodle LMS. Use when implementing web services for course management, user tracking, quiz operations, or custom plugin functionality. Covers parameter validation, database operations, error handling, service registration, and Moodle coding standards.
+description: Create custom external web service APIs for Moodle LMS. Use when implementing
+  web services for course management, user tracking, quiz operations, or custom plugin
+  functionality. Covers parameter validation, database operations, error handling,
+  service registration, and Moodle coding standards.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Moodle External API Development
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Moodle External API Development
 This skill guides you through creating custom external web service APIs for Moodle LMS, following Moodle's external API framework and coding standards.
 
 ## When to Use This Skill

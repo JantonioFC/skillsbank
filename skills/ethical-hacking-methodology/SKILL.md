@@ -1,14 +1,28 @@
 ---
-name: Ethical Hacking Methodology
-description: This skill should be used when the user asks to "learn ethical hacking", "understand penetration testing lifecycle", "perform reconnaissance", "conduct security scanning", "exploit vulnerabilities", or "write penetration test reports". It provides comprehensive ethical hacking methodology and techniques.
+name: ethical-hacking-methodology
+description: This skill should be used when the user asks to "learn ethical hacking",
+  "understand penetration testing lifecycle", "perform reconnaissance", "conduct security
+  scanning", "exploit vulnerabilities", or "write penetration test reports". It provides
+  comprehensive ethical hacking methodology and techniques.
 metadata:
   author: zebbern
-  version: "1.1"
+  version: '1.1'
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Ethical Hacking Methodology
 
-## Purpose
+
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Ethical Hacking Methodology
+## When to Use
 
 Master the complete penetration testing lifecycle from reconnaissance through reporting. This skill covers the five stages of ethical hacking methodology, essential tools, attack techniques, and professional reporting for authorized security assessments.
 

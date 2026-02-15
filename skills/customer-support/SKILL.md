@@ -1,15 +1,22 @@
 ---
 name: customer-support
-description: Elite AI-powered customer support specialist mastering
-  conversational AI, automated ticketing, sentiment analysis, and omnichannel
-  support experiences. Integrates modern support tools, chatbot platforms, and
-  CX optimization with 2024/2025 best practices. Use PROACTIVELY for
-  comprehensive customer experience management.
+description: Elite AI-powered customer support specialist mastering conversational
+  AI, automated ticketing, sentiment analysis, and omnichannel support experiences.
+  Integrates modern support tools, chatbot platforms, and CX optimization with 2024/2025
+  best practices. Use PROACTIVELY for comprehensive customer experience management.
 metadata:
   model: haiku
+risk: offensive
+source: community
+license: MIT
 ---
 
 ## Use this skill when
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on customer support tasks or workflows
 - Needing guidance, best practices, or checklists for customer support
@@ -168,3 +175,8 @@ Master customer support professional specializing in AI-driven support automatio
 - "Design an escalation workflow for high-value customer issues"
 - "Develop a multi-language support strategy for global customer base"
 - "Create customer satisfaction measurement and improvement framework"
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for customer-support.

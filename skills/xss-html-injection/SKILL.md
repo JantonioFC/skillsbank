@@ -1,14 +1,29 @@
 ---
-name: Cross-Site Scripting and HTML Injection Testing
-description: This skill should be used when the user asks to "test for XSS vulnerabilities", "perform cross-site scripting attacks", "identify HTML injection flaws", "exploit client-side injection vulnerabilities", "steal cookies via XSS", or "bypass content security policies". It provides comprehensive techniques for detecting, exploiting, and understanding XSS and HTML injection attack vectors in web applications.
+name: xss-html-injection
+description: This skill should be used when the user asks to "test for XSS vulnerabilities",
+  "perform cross-site scripting attacks", "identify HTML injection flaws", "exploit
+  client-side injection vulnerabilities", "steal cookies via XSS", or "bypass content
+  security policies". It provides comprehensive techniques for detecting, exploiting,
+  and understanding XSS and HTML injection attack vectors in web applications.
 metadata:
   author: zebbern
-  version: "1.1"
+  version: '1.1'
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Cross-Site Scripting and HTML Injection Testing
 
-## Purpose
+
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Cross-Site Scripting and HTML Injection Testing
+## When to Use
 
 Execute comprehensive client-side injection vulnerability assessments on web applications to identify XSS and HTML injection flaws, demonstrate exploitation techniques for session hijacking and credential theft, and validate input sanitization and output encoding mechanisms. This skill enables systematic detection and exploitation across stored, reflected, and DOM-based attack vectors.
 

@@ -1,10 +1,18 @@
 ---
 name: azure-containerregistry-py
-description: |
-  Azure Container Registry SDK for Python. Use for managing container images, artifacts, and repositories.
-  Triggers: "azure-containerregistry", "ContainerRegistryClient", "container images", "docker registry", "ACR".
+description: 'Azure Container Registry SDK for Python. Use for managing container
+  images, artifacts, and repositories.
+
+  Triggers: "azure-containerregistry", "ContainerRegistryClient", "container images",
+  "docker registry", "ACR".
+
+  '
 package: azure-containerregistry
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure Container Registry SDK for Python
 
@@ -250,3 +258,8 @@ for manifest in client.list_manifest_properties("my-image"):
 5. **Use async client** for high-throughput operations
 6. **Order by last_updated** to find recent/old images
 7. **Check manifest.tags** before deleting to avoid removing tagged images
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-containerregistry-py.

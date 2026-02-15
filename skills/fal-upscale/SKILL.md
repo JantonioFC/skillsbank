@@ -1,8 +1,9 @@
 ---
 name: fal-upscale
-description: "Upscale and enhance image and video resolution using AI"
-source: "https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-upscale/SKILL.md"
+description: Upscale and enhance image and video resolution using AI
+source: https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-upscale/SKILL.md
 risk: safe
+license: MIT
 ---
 
 # Fal Upscale

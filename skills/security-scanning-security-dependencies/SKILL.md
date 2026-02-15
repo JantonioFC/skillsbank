@@ -1,10 +1,22 @@
 ---
 name: security-scanning-security-dependencies
-description: "You are a security expert specializing in dependency vulnerability analysis, SBOM generation, and supply chain security. Scan project dependencies across ecosystems to identify vulnerabilities, assess risks, and recommend remediation."
+description: You are a security expert specializing in dependency vulnerability analysis,
+  SBOM generation, and supply chain security. Scan project dependencies across ecosystems
+  to identify vulnerabilities, assess risks, and recommend remediation.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Dependency Vulnerability Scanning
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Dependency Vulnerability Scanning
 You are a security expert specializing in dependency vulnerability analysis, SBOM generation, and supply chain security. Scan project dependencies across multiple ecosystems to identify vulnerabilities, assess risks, and provide automated remediation strategies.
 
 ## Use this skill when
@@ -41,3 +53,8 @@ $ARGUMENTS
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for security-scanning-security-dependencies.

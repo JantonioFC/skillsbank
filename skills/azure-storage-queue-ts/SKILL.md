@@ -1,9 +1,18 @@
 ---
 name: azure-storage-queue-ts
-description: |
-  Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues. Supports visibility timeout, message encoding, and batch operations. Triggers: "queue storage", "@azure/storage-queue", "QueueServiceClient", "QueueClient", "send message", "receive message", "dequeue", "visibility timeout".
-package: @azure/storage-queue
+description: 'Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue)
+  for message queue operations. Use for sending, receiving, peeking, and deleting
+  messages in queues. Supports visibility timeout, message encoding, and batch operations.
+  Triggers: "queue storage", "@azure/storage-queue", "QueueServiceClient", "QueueClient",
+  "send message", "receive message", "dequeue", "visibility timeout".
+
+  '
+package: '@azure/storage-queue'
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # @azure/storage-queue (TypeScript/JavaScript)
 
@@ -522,3 +531,8 @@ import {
 | DefaultAzureCredential | ✅ | ❌ |
 | Anonymous/SAS access | ✅ | ✅ |
 | All message operations | ✅ | ✅ |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-storage-queue-ts.

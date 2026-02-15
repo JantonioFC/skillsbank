@@ -1,7 +1,13 @@
 ---
 name: file-organizer
-description: Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures. Use when user wants to clean up directories, organize downloads, remove duplicates, or restructure projects.
+description: Intelligently organizes files and folders by understanding context, finding
+  duplicates, and suggesting better organizational structures. Use when user wants
+  to clean up directories, organize downloads, remove duplicates, or restructure projects.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # File Organizer
 

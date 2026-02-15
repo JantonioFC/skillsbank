@@ -1,9 +1,16 @@
 ---
 name: googlesheets-automation
-description: "Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting, and search rows programmatically."
+description: Automate Google Sheets operations (read, write, format, filter, manage
+  spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting,
+  and search rows programmatically.
 requires:
-  mcp: [rube]
+  mcp:
+  - rube
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Google Sheets Automation via Rube MCP
 
@@ -195,3 +202,8 @@ Google Sheets enforces strict rate limits:
 | Delete rows/cols | `GOOGLESHEETS_DELETE_DIMENSION` | `spreadsheet_id`, `sheet_name`, dimension |
 | Spreadsheet info | `GOOGLESHEETS_GET_SPREADSHEET_INFO` | `spreadsheet_id` |
 | Update tab props | `GOOGLESHEETS_UPDATE_SHEET_PROPERTIES` | `spreadsheetId`, properties |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for googlesheets-automation.

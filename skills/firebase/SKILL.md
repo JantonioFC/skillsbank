@@ -1,8 +1,17 @@
 ---
 name: firebase
-description: "Firebase gives you a complete backend in minutes - auth, database, storage, functions, hosting. But the ease of setup hides real complexity. Security rules are your last line of defense, and they're often wrong. Firestore queries are limited, and you learn this after you've designed your data model.  This skill covers Firebase Authentication, Firestore, Realtime Database, Cloud Functions, Cloud Storage, and Firebase Hosting. Key insight: Firebase is optimized for read-heavy, denormalized data. I"
+description: 'Firebase gives you a complete backend in minutes - auth, database, storage,
+  functions, hosting. But the ease of setup hides real complexity. Security rules
+  are your last line of defense, and they''re often wrong. Firestore queries are limited,
+  and you learn this after you''ve designed your data model.  This skill covers Firebase
+  Authentication, Firestore, Realtime Database, Cloud Functions, Cloud Storage, and
+  Firebase Hosting. Key insight: Firebase is optimized for read-heavy, denormalized
+  data. I'
 source: vibeship-spawner-skills (Apache 2.0)
+risk: safe
+license: MIT
 ---
+
 
 # Firebase
 
@@ -54,3 +63,8 @@ Design Firestore data structure around query patterns
 ## Related Skills
 
 Works well with: `nextjs-app-router`, `react-patterns`, `authentication-oauth`, `stripe`
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for firebase.

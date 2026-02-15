@@ -1,7 +1,12 @@
 ---
 name: tavily-web
-description: Web search, content extraction, crawling, and research capabilities using Tavily API
+description: Web search, content extraction, crawling, and research capabilities using
+  Tavily API
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # tavily-web
 

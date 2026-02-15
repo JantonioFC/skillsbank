@@ -1,7 +1,12 @@
 ---
 name: requesting-code-review
-description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements
+description: Use when completing tasks, implementing major features, or before merging
+  to verify work meets requirements
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Requesting Code Review
 
@@ -103,3 +108,8 @@ You: [Fix progress indicators]
 - Request clarification
 
 See template at: requesting-code-review/code-reviewer.md
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for requesting-code-review.

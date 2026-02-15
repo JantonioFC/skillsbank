@@ -1,9 +1,18 @@
 ---
 name: azure-mgmt-apicenter-dotnet
-description: |
-  Azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery. Use for creating API services, workspaces, APIs, versions, definitions, environments, deployments, and metadata schemas. Triggers: "API Center", "ApiCenterService", "ApiCenterWorkspace", "ApiCenterApi", "API inventory", "API governance", "API versioning", "API catalog", "API discovery".
+description: 'Azure API Center SDK for .NET. Centralized API inventory management
+  with governance, versioning, and discovery. Use for creating API services, workspaces,
+  APIs, versions, definitions, environments, deployments, and metadata schemas. Triggers:
+  "API Center", "ApiCenterService", "ApiCenterWorkspace", "ApiCenterApi", "API inventory",
+  "API governance", "API versioning", "API catalog", "API discovery".
+
+  '
 package: Azure.ResourceManager.ApiCenter
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure.ResourceManager.ApiCenter (.NET)
 
@@ -409,3 +418,8 @@ catch (RequestFailedException ex)
 | API Reference | https://learn.microsoft.com/dotnet/api/azure.resourcemanager.apicenter |
 | Product Documentation | https://learn.microsoft.com/azure/api-center/ |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/apicenter/Azure.ResourceManager.ApiCenter |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-mgmt-apicenter-dotnet.

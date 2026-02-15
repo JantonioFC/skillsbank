@@ -1,7 +1,12 @@
 ---
 name: c4-architecture-c4-architecture
-description: "Generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach."
+description: Generate comprehensive C4 architecture documentation for an existing
+  repository/codebase using a bottom-up analysis approach.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # C4 Architecture Documentation Workflow
 
@@ -387,3 +392,8 @@ This will:
 5. Create system context with personas and journeys
 
 All documentation written to: C4-Documentation/
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for c4-architecture-c4-architecture.

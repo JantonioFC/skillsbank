@@ -1,7 +1,13 @@
 ---
 name: cost-optimization
-description: Optimize cloud costs through resource rightsizing, tagging strategies, reserved instances, and spending analysis. Use when reducing cloud expenses, analyzing infrastructure costs, or implementing cost governance policies.
+description: Optimize cloud costs through resource rightsizing, tagging strategies,
+  reserved instances, and spending analysis. Use when reducing cloud expenses, analyzing
+  infrastructure costs, or implementing cost governance policies.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Cloud Cost Optimization
 
@@ -19,7 +25,7 @@ Strategies and patterns for optimizing cloud costs across AWS, Azure, and GCP.
 - Provide actionable steps and verification.
 - If detailed examples are required, open `resources/implementation-playbook.md`.
 
-## Purpose
+## When to Use
 
 Implement systematic cost optimization strategies to reduce cloud spending while maintaining performance and reliability.
 

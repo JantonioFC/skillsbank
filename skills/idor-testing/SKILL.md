@@ -1,14 +1,29 @@
 ---
-name: IDOR Vulnerability Testing
-description: This skill should be used when the user asks to "test for insecure direct object references," "find IDOR vulnerabilities," "exploit broken access control," "enumerate user IDs or object references," or "bypass authorization to access other users' data." It provides comprehensive guidance for detecting, exploiting, and remediating IDOR vulnerabilities in web applications.
+name: idor-testing
+description: This skill should be used when the user asks to "test for insecure direct
+  object references," "find IDOR vulnerabilities," "exploit broken access control,"
+  "enumerate user IDs or object references," or "bypass authorization to access other
+  users' data." It provides comprehensive guidance for detecting, exploiting, and
+  remediating IDOR vulnerabilities in web applications.
 metadata:
   author: zebbern
-  version: "1.1"
+  version: '1.1'
+risk: offensive
+source: community
+license: MIT
 ---
 
-# IDOR Vulnerability Testing
 
-## Purpose
+
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# IDOR Vulnerability Testing
+## When to Use
 
 Provide systematic methodologies for identifying and exploiting Insecure Direct Object Reference (IDOR) vulnerabilities in web applications. This skill covers both database object references and static file references, detection techniques using parameter manipulation and enumeration, exploitation via Burp Suite, and remediation strategies for securing applications against unauthorized access.
 

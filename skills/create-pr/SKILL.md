@@ -1,8 +1,11 @@
 ---
 name: create-pr
-description: "Create pull requests following Sentry conventions. Use when opening PRs, writing PR descriptions, or preparing changes for review. Follows Sentry's code review guidelines."
-source: "https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/create-pr"
+description: Create pull requests following Sentry conventions. Use when opening PRs,
+  writing PR descriptions, or preparing changes for review. Follows Sentry's code
+  review guidelines.
+source: https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/create-pr
 risk: safe
+license: MIT
 ---
 
 # Create Pull Request

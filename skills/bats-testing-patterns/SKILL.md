@@ -1,7 +1,13 @@
 ---
 name: bats-testing-patterns
-description: Master Bash Automated Testing System (Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring test-driven development of shell utilities.
+description: Master Bash Automated Testing System (Bats) for comprehensive shell script
+  testing. Use when writing tests for shell scripts, CI/CD pipelines, or requiring
+  test-driven development of shell utilities.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Bats Testing Patterns
 
@@ -32,3 +38,8 @@ Comprehensive guidance for writing comprehensive unit tests for shell scripts us
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for bats-testing-patterns.

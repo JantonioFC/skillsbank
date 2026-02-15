@@ -1,7 +1,14 @@
 ---
-name: mcp-builder
-description: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP), Node/TypeScript (MCP SDK), or C#/.NET (Microsoft MCP SDK).
+name: mcp-builder-ms
+description: Guide for creating high-quality MCP (Model Context Protocol) servers
+  that enable LLMs to interact with external services through well-designed tools.
+  Use when building MCP servers to integrate external APIs or services, whether in
+  Python (FastMCP), Node/TypeScript (MCP SDK), or C#/.NET (Microsoft MCP SDK).
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # MCP Server Development Guide
 
@@ -36,7 +43,7 @@ Before building a custom server, check if Microsoft already provides one:
 
 **Full ecosystem:** See [🔷 Microsoft MCP Patterns](./reference/microsoft_mcp_patterns.md) for complete server catalog and patterns.
 
-### When to Use Microsoft vs Custom
+## When to Use Microsoft vs Custom
 
 | Scenario | Recommendation |
 |----------|----------------|

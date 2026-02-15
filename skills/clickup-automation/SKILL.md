@@ -1,9 +1,16 @@
 ---
 name: clickup-automation
-description: "Automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas."
+description: Automate ClickUp project management including tasks, spaces, folders,
+  lists, comments, and team operations via Rube MCP (Composio). Always search tools
+  first for current schemas.
 requires:
-  mcp: [rube]
+  mcp:
+  - rube
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # ClickUp Automation via Rube MCP
 
@@ -232,3 +239,8 @@ Always resolve names to IDs through the hierarchy:
 | List user groups | `CLICKUP_GET_TEAMS` | `team_id` |
 | Get user details | `CLICKUP_GET_USER` | `team_id`, `user_id` |
 | Custom roles | `CLICKUP_GET_CUSTOM_ROLES` | `team_id` |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for clickup-automation.

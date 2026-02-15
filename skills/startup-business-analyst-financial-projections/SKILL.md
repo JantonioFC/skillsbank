@@ -1,9 +1,13 @@
 ---
 name: startup-business-analyst-financial-projections
-description: Create detailed 3-5 year financial model with revenue, costs, cash
-  flow, and scenarios
+description: Create detailed 3-5 year financial model with revenue, costs, cash flow,
+  and scenarios
 allowed-tools: Read Write Edit Glob Grep Bash WebSearch WebFetch
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Financial Projections
 
@@ -351,3 +355,8 @@ Growth assumptions?
 - Share with investors and board
 - Use for fundraising decks
 - Basis for budget and hiring decisions
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for startup-business-analyst-financial-projections.

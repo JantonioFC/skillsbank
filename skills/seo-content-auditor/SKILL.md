@@ -1,11 +1,15 @@
 ---
 name: seo-content-auditor
-description: Analyzes provided content for quality, E-E-A-T signals, and SEO
-  best practices. Scores content and provides improvement recommendations based
-  on established guidelines. Use PROACTIVELY for content review.
+description: Analyzes provided content for quality, E-E-A-T signals, and SEO best
+  practices. Scores content and provides improvement recommendations based on established
+  guidelines. Use PROACTIVELY for content review.
 metadata:
   model: sonnet
+risk: safe
+source: community
+license: MIT
 ---
+
 
 ## Use this skill when
 
@@ -81,3 +85,8 @@ You are an SEO content auditor analyzing provided content for optimization oppor
 - Trust signal opportunities
 
 Focus on actionable improvements based on SEO best practices and content quality standards.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for seo-content-auditor.

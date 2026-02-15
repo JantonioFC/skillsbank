@@ -1,8 +1,10 @@
 ---
 name: design-md
-description: "Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files"
-source: "https://github.com/google-labs-code/stitch-skills/tree/main/skills/design-md"
+description: Analyze Stitch projects and synthesize a semantic design system into
+  DESIGN.md files
+source: https://github.com/google-labs-code/stitch-skills/tree/main/skills/design-md
 risk: safe
+license: MIT
 ---
 
 # Stitch DESIGN.md Skill

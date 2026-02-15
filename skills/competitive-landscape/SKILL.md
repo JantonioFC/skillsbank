@@ -1,12 +1,15 @@
 ---
 name: competitive-landscape
-description: This skill should be used when the user asks to "analyze
-  competitors", "assess competitive landscape", "identify differentiation",
-  "evaluate market positioning", "apply Porter's Five Forces", or requests
-  competitive strategy analysis.
+description: This skill should be used when the user asks to "analyze competitors",
+  "assess competitive landscape", "identify differentiation", "evaluate market positioning",
+  "apply Porter's Five Forces", or requests competitive strategy analysis.
 metadata:
   version: 1.0.0
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Competitive Landscape Analysis
 
@@ -32,3 +35,8 @@ Comprehensive frameworks for analyzing competition, identifying differentiation 
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for competitive-landscape.

@@ -1,7 +1,12 @@
 ---
 name: firecrawl-scraper
-description: Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API
+description: Deep web scraping, screenshots, PDF parsing, and website crawling using
+  Firecrawl API
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # firecrawl-scraper
 

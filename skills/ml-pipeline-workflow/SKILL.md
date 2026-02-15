@@ -1,7 +1,13 @@
 ---
 name: ml-pipeline-workflow
-description: Build end-to-end MLOps pipelines from data preparation through model training, validation, and production deployment. Use when creating ML pipelines, implementing MLOps practices, or automating model training and deployment workflows.
+description: Build end-to-end MLOps pipelines from data preparation through model
+  training, validation, and production deployment. Use when creating ML pipelines,
+  implementing MLOps practices, or automating model training and deployment workflows.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # ML Pipeline Workflow
 
@@ -255,3 +261,8 @@ After setting up your pipeline:
 - **experiment-tracking-setup**: MLflow and Weights & Biases integration
 - **hyperparameter-tuning**: Automated hyperparameter optimization
 - **model-deployment-patterns**: Advanced deployment strategies
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for ml-pipeline-workflow.

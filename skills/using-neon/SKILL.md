@@ -1,8 +1,12 @@
 ---
 name: using-neon
-description: "Guides and best practices for working with Neon Serverless Postgres. Covers getting started, local development with Neon, choosing a connection method, Neon features, authentication (@neondatabase/auth), PostgREST-style data API (@neondatabase/neon-js), Neon CLI, and Neon's Platform API/SDKs. Use for any Neon-related questions."
-source: "https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres"
+description: Guides and best practices for working with Neon Serverless Postgres.
+  Covers getting started, local development with Neon, choosing a connection method,
+  Neon features, authentication (@neondatabase/auth), PostgREST-style data API (@neondatabase/neon-js),
+  Neon CLI, and Neon's Platform API/SDKs. Use for any Neon-related questions.
+source: https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres
 risk: safe
+license: MIT
 ---
 
 # Neon Serverless Postgres

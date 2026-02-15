@@ -1,9 +1,15 @@
 ---
 name: shopify-automation
-description: "Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas."
+description: 'Automate Shopify tasks via Rube MCP (Composio): products, orders, customers,
+  inventory, collections. Always search tools first for current schemas.'
 requires:
-  mcp: [rube]
+  mcp:
+  - rube
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Shopify Automation via Rube MCP
 
@@ -166,3 +172,8 @@ For advanced operations:
 | Fulfillment | SHOPIFY_GET_FULFILLMENT | order_id, fulfillment_id |
 | GraphQL | SHOPIFY_GRAPH_QL_QUERY | query |
 | Bulk query | SHOPIFY_BULK_QUERY_OPERATION | query |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for shopify-automation.

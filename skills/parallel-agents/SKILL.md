@@ -1,11 +1,23 @@
 ---
 name: parallel-agents
-description: Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives.
+description: Multi-agent orchestration patterns. Use when multiple independent tasks
+  can run with different domain expertise or when comprehensive analysis requires
+  multiple perspectives.
 allowed-tools: Read, Glob, Grep
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Native Parallel Agents
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Native Parallel Agents
 > Orchestration through Claude Code's built-in Agent Tool
 
 ## Overview

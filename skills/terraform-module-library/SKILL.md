@@ -1,7 +1,13 @@
 ---
 name: terraform-module-library
-description: Build reusable Terraform modules for AWS, Azure, and GCP infrastructure following infrastructure-as-code best practices. Use when creating infrastructure modules, standardizing cloud provisioning, or implementing reusable IaC components.
+description: Build reusable Terraform modules for AWS, Azure, and GCP infrastructure
+  following infrastructure-as-code best practices. Use when creating infrastructure
+  modules, standardizing cloud provisioning, or implementing reusable IaC components.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Terraform Module Library
 
@@ -19,7 +25,7 @@ Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructur
 - Provide actionable steps and verification.
 - If detailed examples are required, open `resources/implementation-playbook.md`.
 
-## Purpose
+## When to Use
 
 Create reusable, well-tested Terraform modules for common cloud infrastructure patterns across multiple cloud providers.
 

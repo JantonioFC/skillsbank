@@ -1,10 +1,29 @@
 ---
 name: loki-mode
-description: Multi-agent autonomous startup system for Claude Code. Triggers on "Loki Mode". Orchestrates 100+ specialized agents across engineering, QA, DevOps, security, data/ML, business operations, marketing, HR, and customer success. Takes PRD to fully deployed, revenue-generating product with zero human intervention. Features Task tool for subagent dispatch, parallel code review with 3 specialized reviewers, severity-based issue triage, distributed task queue with dead letter handling, automatic deployment to cloud providers, A/B testing, customer feedback loops, incident response, circuit breakers, and self-healing. Handles rate limits via distributed state checkpoints and auto-resume with exponential backoff. Requires --dangerously-skip-permissions flag.
+description: Multi-agent autonomous startup system for Claude Code. Triggers on "Loki
+  Mode". Orchestrates 100+ specialized agents across engineering, QA, DevOps, security,
+  data/ML, business operations, marketing, HR, and customer success. Takes PRD to
+  fully deployed, revenue-generating product with zero human intervention. Features
+  Task tool for subagent dispatch, parallel code review with 3 specialized reviewers,
+  severity-based issue triage, distributed task queue with dead letter handling, automatic
+  deployment to cloud providers, A/B testing, customer feedback loops, incident response,
+  circuit breakers, and self-healing. Handles rate limits via distributed state checkpoints
+  and auto-resume with exponential backoff. Requires --dangerously-skip-permissions
+  flag.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Loki Mode - Multi-Agent Autonomous Startup System
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Loki Mode - Multi-Agent Autonomous Startup System
 > **Version 2.35.0** | PRD to Production | Zero Human Intervention
 > Research-enhanced: OpenAI SDK, DeepMind, Anthropic, AWS Bedrock, Agent SDK, HN Production (2025)
 
@@ -719,3 +738,8 @@ Detailed documentation is split into reference files for progressive loading:
 ---
 
 **Version:** 2.32.0 | **Lines:** ~600 | **Research-Enhanced: Labs + HN Production Patterns**
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for loki-mode.

@@ -1,7 +1,13 @@
 ---
 name: slo-implementation
-description: Define and implement Service Level Indicators (SLIs) and Service Level Objectives (SLOs) with error budgets and alerting. Use when establishing reliability targets, implementing SRE practices, or measuring service performance.
+description: Define and implement Service Level Indicators (SLIs) and Service Level
+  Objectives (SLOs) with error budgets and alerting. Use when establishing reliability
+  targets, implementing SRE practices, or measuring service performance.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # SLO Implementation
 
@@ -19,7 +25,7 @@ Framework for defining and implementing Service Level Indicators (SLIs), Service
 - Provide actionable steps and verification.
 - If detailed examples are required, open `resources/implementation-playbook.md`.
 
-## Purpose
+## When to Use
 
 Implement measurable reliability targets using SLIs, SLOs, and error budgets to balance reliability with innovation velocity.
 

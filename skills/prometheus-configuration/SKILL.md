@@ -1,7 +1,13 @@
 ---
 name: prometheus-configuration
-description: Set up Prometheus for comprehensive metric collection, storage, and monitoring of infrastructure and applications. Use when implementing metrics collection, setting up monitoring infrastructure, or configuring alerting systems.
+description: Set up Prometheus for comprehensive metric collection, storage, and monitoring
+  of infrastructure and applications. Use when implementing metrics collection, setting
+  up monitoring infrastructure, or configuring alerting systems.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Prometheus Configuration
 
@@ -19,7 +25,7 @@ Complete guide to Prometheus setup, metric collection, scrape configuration, and
 - Provide actionable steps and verification.
 - If detailed examples are required, open `resources/implementation-playbook.md`.
 
-## Purpose
+## When to Use
 
 Configure Prometheus for comprehensive metric collection, alerting, and monitoring of infrastructure and applications.
 

@@ -1,7 +1,14 @@
 ---
 name: cicd-automation-workflow-automate
-description: "You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design automation that reduces manual work, improves consistency, and accelerates delivery while maintaining quality and security."
+description: You are a workflow automation expert specializing in creating efficient
+  CI/CD pipelines, GitHub Actions workflows, and automated development processes.
+  Design automation that reduces manual work, improves consistency, and accelerates
+  delivery while maintaining quality and security.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Workflow Automation
 
@@ -49,3 +56,8 @@ $ARGUMENTS
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed workflow patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for cicd-automation-workflow-automate.

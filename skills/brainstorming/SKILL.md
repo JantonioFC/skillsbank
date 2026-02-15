@@ -1,15 +1,19 @@
 ---
 name: brainstorming
-description: >
-  Use this skill before any creative or constructive work
-  (features, components, architecture, behavior changes, or functionality).
-  This skill transforms vague ideas into validated designs through
-  disciplined, incremental reasoning and collaboration.
+description: 'Use this skill before any creative or constructive work (features, components,
+  architecture, behavior changes, or functionality). This skill transforms vague ideas
+  into validated designs through disciplined, incremental reasoning and collaboration.
+
+  '
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Brainstorming Ideas Into Designs
 
-## Purpose
+## When to Use
 
 Turn raw ideas into **clear, validated designs and specifications**
 through structured dialogue **before any implementation begins**.

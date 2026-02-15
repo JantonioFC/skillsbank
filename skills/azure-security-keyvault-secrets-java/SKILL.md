@@ -1,8 +1,14 @@
 ---
 name: azure-security-keyvault-secrets-java
-description: Azure Key Vault Secrets Java SDK for secret management. Use when storing, retrieving, or managing passwords, API keys, connection strings, or other sensitive configuration data.
+description: Azure Key Vault Secrets Java SDK for secret management. Use when storing,
+  retrieving, or managing passwords, API keys, connection strings, or other sensitive
+  configuration data.
 package: com.azure:azure-security-keyvault-secrets
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure Key Vault Secrets (Java)
 
@@ -354,3 +360,8 @@ secretClient.setSecret(new KeyVaultSecret("cert-password", "CertP@ss!")
 - "store password", "store API key", "connection string"
 - "retrieve secret", "rotate secret"
 - "Azure secrets", "vault secrets"
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-security-keyvault-secrets-java.

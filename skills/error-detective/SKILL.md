@@ -1,12 +1,15 @@
 ---
 name: error-detective
-description: Search logs and codebases for error patterns, stack traces, and
-  anomalies. Correlates errors across systems and identifies root causes. Use
-  PROACTIVELY when debugging issues, analyzing logs, or investigating production
-  errors.
+description: Search logs and codebases for error patterns, stack traces, and anomalies.
+  Correlates errors across systems and identifies root causes. Use PROACTIVELY when
+  debugging issues, analyzing logs, or investigating production errors.
 metadata:
   model: sonnet
+risk: safe
+source: community
+license: MIT
 ---
+
 
 ## Use this skill when
 
@@ -51,3 +54,8 @@ You are an error detective specializing in log analysis and pattern recognition.
 - Code locations likely causing errors
 
 Focus on actionable findings. Include both immediate fixes and prevention strategies.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for error-detective.

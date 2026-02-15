@@ -1,9 +1,16 @@
 ---
 name: instagram-automation
-description: "Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for current schemas."
+description: 'Automate Instagram tasks via Rube MCP (Composio): create posts, carousels,
+  manage media, get insights, and publishing limits. Always search tools first for
+  current schemas.'
 requires:
-  mcp: [rube]
+  mcp:
+  - rube
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Instagram Automation via Rube MCP
 
@@ -190,3 +197,8 @@ Automate Instagram operations through Composio's Instagram toolkit via Rube MCP.
 | Get publishing limit | INSTAGRAM_GET_IG_USER_CONTENT_PUBLISHING_LIMIT | ig_user_id |
 | Get media comments | INSTAGRAM_GET_IG_MEDIA_COMMENTS | ig_media_id |
 | Get carousel children | INSTAGRAM_GET_IG_MEDIA_CHILDREN | ig_media_id |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for instagram-automation.

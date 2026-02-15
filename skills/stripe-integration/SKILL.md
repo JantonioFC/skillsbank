@@ -1,10 +1,22 @@
 ---
 name: stripe-integration
-description: Implement Stripe payment processing for robust, PCI-compliant payment flows including checkout, subscriptions, and webhooks. Use when integrating Stripe payments, building subscription systems, or implementing secure checkout flows.
+description: Implement Stripe payment processing for robust, PCI-compliant payment
+  flows including checkout, subscriptions, and webhooks. Use when integrating Stripe
+  payments, building subscription systems, or implementing secure checkout flows.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Stripe Integration
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Stripe Integration
 Master Stripe payment processing integration for robust, PCI-compliant payment flows including checkout, subscriptions, webhooks, and refunds.
 
 ## Do not use this skill when
@@ -452,3 +464,8 @@ def test_payment_flow():
 - **Hardcoded Amounts**: Use cents/smallest currency unit
 - **No Retry Logic**: Implement retries for API calls
 - **Ignoring Test Mode**: Test all edge cases with test cards
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for stripe-integration.

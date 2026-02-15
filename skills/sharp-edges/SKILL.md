@@ -1,8 +1,9 @@
 ---
 name: sharp-edges
-description: "Identify error-prone APIs and dangerous configurations"
-source: "https://github.com/trailofbits/skills/tree/main/plugins/sharp-edges"
+description: Identify error-prone APIs and dangerous configurations
+source: https://github.com/trailofbits/skills/tree/main/plugins/sharp-edges
 risk: safe
+license: MIT
 ---
 
 # Sharp Edges

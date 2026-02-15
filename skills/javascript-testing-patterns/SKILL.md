@@ -1,7 +1,14 @@
 ---
 name: javascript-testing-patterns
-description: Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fixtures, and test-driven development. Use when writing JavaScript/TypeScript tests, setting up test infrastructure, or implementing TDD/BDD workflows.
+description: Implement comprehensive testing strategies using Jest, Vitest, and Testing
+  Library for unit tests, integration tests, and end-to-end testing with mocking,
+  fixtures, and test-driven development. Use when writing JavaScript/TypeScript tests,
+  setting up test infrastructure, or implementing TDD/BDD workflows.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # JavaScript Testing Patterns
 
@@ -33,3 +40,8 @@ Comprehensive guide for implementing robust testing strategies in JavaScript/Typ
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for javascript-testing-patterns.

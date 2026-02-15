@@ -1,7 +1,13 @@
 ---
 name: deployment-pipeline-design
-description: Design multi-stage CI/CD pipelines with approval gates, security checks, and deployment orchestration. Use when architecting deployment workflows, setting up continuous delivery, or implementing GitOps practices.
+description: Design multi-stage CI/CD pipelines with approval gates, security checks,
+  and deployment orchestration. Use when architecting deployment workflows, setting
+  up continuous delivery, or implementing GitOps practices.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Deployment Pipeline Design
 
@@ -19,7 +25,7 @@ Architecture patterns for multi-stage CI/CD pipelines with approval gates and de
 - Provide actionable steps and verification.
 - If detailed examples are required, open `resources/implementation-playbook.md`.
 
-## Purpose
+## When to Use
 
 Design robust, secure deployment pipelines that balance speed with safety through proper stage organization and approval workflows.
 

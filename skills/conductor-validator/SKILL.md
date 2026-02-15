@@ -1,13 +1,17 @@
 ---
 name: conductor-validator
-description: Validates Conductor project artifacts for completeness,
-  consistency, and correctness. Use after setup, when diagnosing issues, or
-  before implementation to verify project context.
+description: Validates Conductor project artifacts for completeness, consistency,
+  and correctness. Use after setup, when diagnosing issues, or before implementation
+  to verify project context.
 allowed-tools: Read Glob Grep Bash
 metadata:
   model: opus
   color: cyan
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Check if conductor directory exists
 ls -la conductor/
@@ -60,3 +64,8 @@ ls conductor/index.md conductor/product.md conductor/tech-stack.md conductor/wor
 <type>_<name>_<YYYYMMDD>
 Example: feature_user_auth_20250115
 ```
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for conductor-validator.

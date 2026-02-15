@@ -1,8 +1,16 @@
 ---
 name: langgraph
-description: "Expert in LangGraph - the production-grade framework for building stateful, multi-actor AI applications. Covers graph construction, state management, cycles and branches, persistence with checkpointers, human-in-the-loop patterns, and the ReAct agent pattern. Used in production at LinkedIn, Uber, and 400+ companies. This is LangChain's recommended approach for building agents. Use when: langgraph, langchain agent, stateful agent, agent graph, react agent."
+description: 'Expert in LangGraph - the production-grade framework for building stateful,
+  multi-actor AI applications. Covers graph construction, state management, cycles
+  and branches, persistence with checkpointers, human-in-the-loop patterns, and the
+  ReAct agent pattern. Used in production at LinkedIn, Uber, and 400+ companies. This
+  is LangChain''s recommended approach for building agents. Use when: langgraph, langchain
+  agent, stateful agent, agent graph, react agent.'
 source: vibeship-spawner-skills (Apache 2.0)
+risk: safe
+license: MIT
 ---
+
 
 # LangGraph
 
@@ -285,3 +293,8 @@ Clear separation of concerns.
 ## Related Skills
 
 Works well with: `crewai`, `autonomous-agents`, `langfuse`, `structured-output`
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for langgraph.

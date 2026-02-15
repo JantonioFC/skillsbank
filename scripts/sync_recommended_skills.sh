@@ -5,9 +5,14 @@
 set -e
 
 # Paths
-GITHUB_REPO="/Users/nicco/Antigravity Projects/antigravity-awesome-skills/skills"
-LOCAL_LIBRARY="/Users/nicco/.gemini/antigravity/scratch/.agent/skills"
-BACKUP_DIR="/Users/nicco/.gemini/antigravity/scratch/.agent/skills_backup_$(date +%Y%m%d_%H%M%S)"
+# Determine script and project directory
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(dirname "$SCRIPT_DIR")"
+
+# Configure paths relative to repo root
+GITHUB_REPO="$REPO_ROOT/skills"
+LOCAL_LIBRARY="$HOME/.gemini/antigravity/scratch/.agent/skills"
+BACKUP_DIR="$HOME/.gemini/antigravity/scratch/.agent/skills_backup_$(date +%Y%m%d_%H%M%S)"
 
 # 35 Recommended Skills
 RECOMMENDED_SKILLS=(

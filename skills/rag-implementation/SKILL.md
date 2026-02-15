@@ -1,7 +1,13 @@
 ---
 name: rag-implementation
-description: Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases.
+description: Build Retrieval-Augmented Generation (RAG) systems for LLM applications
+  with vector databases and semantic search. Use when implementing knowledge-grounded
+  AI, building document Q&A systems, or integrating LLMs with external knowledge bases.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # RAG Implementation
 
@@ -419,3 +425,8 @@ def evaluate_rag_system(qa_chain, test_cases):
 - **Missing Information**: Ensure documents are properly indexed
 - **Slow Queries**: Optimize vector store, use caching, reduce k
 - **Hallucinations**: Improve grounding prompt, add verification step
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for rag-implementation.

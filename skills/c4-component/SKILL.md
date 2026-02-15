@@ -1,13 +1,16 @@
 ---
 name: c4-component
-description: Expert C4 Component-level documentation specialist. Synthesizes C4
-  Code-level documentation into Component-level architecture, defining component
-  boundaries, interfaces, and relationships. Creates component diagrams and
-  documentation. Use when synthesizing code-level documentation into logical
-  components.
+description: Expert C4 Component-level documentation specialist. Synthesizes C4 Code-level
+  documentation into Component-level architecture, defining component boundaries,
+  interfaces, and relationships. Creates component diagrams and documentation. Use
+  when synthesizing code-level documentation into logical components.
 metadata:
   model: sonnet
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # C4 Component Level: [Component Name]
 
@@ -35,7 +38,7 @@ metadata:
 - **Type**: [Component type: Application, Service, Library, etc.]
 - **Technology**: [Primary technologies used]
 
-## Purpose
+## When to Use
 
 [Detailed description of what this component does and what problems it solves]
 

@@ -1,12 +1,27 @@
 ---
 name: azure-postgres-ts
-description: |
-  Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package. Use for PostgreSQL queries, connection pooling, transactions, and Microsoft Entra ID (passwordless) authentication. Triggers: "PostgreSQL", "postgres", "pg client", "node-postgres", "Azure PostgreSQL connection", "PostgreSQL TypeScript", "pg Pool", "passwordless postgres".
+description: 'Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript
+  using the pg (node-postgres) package. Use for PostgreSQL queries, connection pooling,
+  transactions, and Microsoft Entra ID (passwordless) authentication. Triggers: "PostgreSQL",
+  "postgres", "pg client", "node-postgres", "Azure PostgreSQL connection", "PostgreSQL
+  TypeScript", "pg Pool", "passwordless postgres".
+
+  '
 package: pg
+risk: offensive
+source: microsoft
+license: MIT
 ---
 
-# Azure PostgreSQL for TypeScript (node-postgres)
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Azure PostgreSQL for TypeScript (node-postgres)
 Connect to Azure Database for PostgreSQL Flexible Server using the `pg` (node-postgres) package with support for password and Microsoft Entra ID (passwordless) authentication.
 
 ## Installation
@@ -475,3 +490,8 @@ import {
 | GitHub Repository | https://github.com/brianc/node-postgres |
 | Azure PostgreSQL Docs | https://learn.microsoft.com/azure/postgresql/flexible-server/ |
 | Passwordless Connection | https://learn.microsoft.com/azure/postgresql/flexible-server/how-to-connect-with-managed-identity |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-postgres-ts.

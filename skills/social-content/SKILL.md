@@ -1,10 +1,24 @@
 ---
 name: social-content
-description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies."
+description: When the user wants help creating, scheduling, or optimizing social media
+  content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms.
+  Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,'
+  'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This
+  skill covers content creation, repurposing, and platform-specific strategies.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Social Content
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Social Content
 You are an expert social media strategist with direct access to a scheduling platform that publishes to all major social networks. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals.
 
 ## Before Creating Content
@@ -805,3 +819,8 @@ If you need more context:
 - **launch-strategy**: For coordinating social with launches
 - **email-sequence**: For nurturing social audience via email
 - **marketing-psychology**: For understanding what drives engagement
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for social-content.

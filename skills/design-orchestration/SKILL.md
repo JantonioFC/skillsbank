@@ -1,15 +1,23 @@
 ---
 name: design-orchestration
-description: >
-  Orchestrates design workflows by routing work through
-  brainstorming, multi-agent review, and execution readiness
-  in the correct order. Prevents premature implementation,
-  skipped validation, and unreviewed high-risk designs.
+description: 'Orchestrates design workflows by routing work through brainstorming,
+  multi-agent review, and execution readiness in the correct order. Prevents premature
+  implementation, skipped validation, and unreviewed high-risk designs.
+
+  '
+risk: offensive
+source: community
+license: MIT
 ---
 
 # Design Orchestration (Meta-Skill)
 
-## Purpose
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
+## When to Use
 
 Ensure that **ideas become designs**, **designs are reviewed**, and
 **only validated designs reach implementation**.

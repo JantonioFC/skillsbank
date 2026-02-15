@@ -1,9 +1,15 @@
 ---
 name: asana-automation
-description: "Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas."
+description: 'Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections,
+  teams, workspaces. Always search tools first for current schemas.'
 requires:
-  mcp: [rube]
+  mcp:
+  - rube
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Asana Automation via Rube MCP
 
@@ -169,3 +175,8 @@ Automate Asana operations through Composio's Asana toolkit via Rube MCP.
 | Workspace users | ASANA_GET_USERS_FOR_WORKSPACE | workspace_gid |
 | Current user | ASANA_GET_CURRENT_USER | (none) |
 | Parallel requests | ASANA_SUBMIT_PARALLEL_REQUESTS | actions |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for asana-automation.

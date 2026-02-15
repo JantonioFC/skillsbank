@@ -1,7 +1,13 @@
 ---
 name: testing-patterns
-description: Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.
+description: Jest testing patterns, factory functions, mocking strategies, and TDD
+  workflow. Use when writing unit tests, creating test factories, or following TDD
+  red-green-refactor cycle.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Testing Patterns and Utilities
 
@@ -257,3 +263,8 @@ npm test ComponentName.test.tsx
 
 - **react-ui-patterns**: Test all UI states (loading, error, empty, success)
 - **systematic-debugging**: Write test that reproduces bug before fixing
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for testing-patterns.

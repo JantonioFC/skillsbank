@@ -1,9 +1,16 @@
 ---
 name: close-automation
-description: "Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas."
+description: 'Automate Close CRM tasks via Rube MCP (Composio): create leads, manage
+  calls/SMS, handle tasks, and track notes. Always search tools first for current
+  schemas.'
 requires:
-  mcp: [rube]
+  mcp:
+  - rube
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Close CRM Automation via Rube MCP
 
@@ -210,3 +217,8 @@ Close data model:
 | Create task | CLOSE_CREATE_TASK | lead_id, text, date, assigned_to |
 | Get note | CLOSE_GET_NOTE | note_id |
 | Delete call | CLOSE_DELETE_CALL | call_id |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for close-automation.

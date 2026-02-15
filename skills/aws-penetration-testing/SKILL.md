@@ -1,14 +1,28 @@
 ---
-name: AWS Penetration Testing
-description: This skill should be used when the user asks to "pentest AWS", "test AWS security", "enumerate IAM", "exploit cloud infrastructure", "AWS privilege escalation", "S3 bucket testing", "metadata SSRF", "Lambda exploitation", or needs guidance on Amazon Web Services security assessment.
+name: aws-penetration-testing
+description: This skill should be used when the user asks to "pentest AWS", "test
+  AWS security", "enumerate IAM", "exploit cloud infrastructure", "AWS privilege escalation",
+  "S3 bucket testing", "metadata SSRF", "Lambda exploitation", or needs guidance on
+  Amazon Web Services security assessment.
 metadata:
   author: zebbern
-  version: "1.1"
+  version: '1.1'
+risk: offensive
+source: community
+license: MIT
 ---
 
-# AWS Penetration Testing
 
-## Purpose
+
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# AWS Penetration Testing
+## When to Use
 
 Provide comprehensive techniques for penetration testing AWS cloud environments. Covers IAM enumeration, privilege escalation, SSRF to metadata endpoint, S3 bucket exploitation, Lambda code extraction, and persistence techniques for red team operations.
 

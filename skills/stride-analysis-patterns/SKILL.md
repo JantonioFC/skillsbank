@@ -1,7 +1,13 @@
 ---
 name: stride-analysis-patterns
-description: Apply STRIDE methodology to systematically identify threats. Use when analyzing system security, conducting threat modeling sessions, or creating security documentation.
+description: Apply STRIDE methodology to systematically identify threats. Use when
+  analyzing system security, conducting threat modeling sessions, or creating security
+  documentation.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # STRIDE Analysis Patterns
 
@@ -31,3 +37,8 @@ Systematic threat identification using the STRIDE methodology.
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for stride-analysis-patterns.

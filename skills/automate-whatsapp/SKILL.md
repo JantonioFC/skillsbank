@@ -1,8 +1,11 @@
 ---
 name: automate-whatsapp
-description: "Build WhatsApp automations with Kapso workflows: configure WhatsApp triggers, edit workflow graphs, manage executions, deploy functions, and use databases/integrations for state. Use when automating WhatsApp conversations and event handling."
-source: "https://github.com/gokapso/agent-skills/tree/master/skills/automate-whatsapp"
+description: 'Build WhatsApp automations with Kapso workflows: configure WhatsApp
+  triggers, edit workflow graphs, manage executions, deploy functions, and use databases/integrations
+  for state. Use when automating WhatsApp conversations and event handling.'
+source: https://github.com/gokapso/agent-skills/tree/master/skills/automate-whatsapp
 risk: safe
+license: MIT
 ---
 
 # Automate WhatsApp
@@ -255,3 +258,8 @@ Other references:
 ```
 <!-- FILEMAP:END -->
 
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for automate-whatsapp.

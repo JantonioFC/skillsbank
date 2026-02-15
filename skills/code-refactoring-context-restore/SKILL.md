@@ -1,7 +1,11 @@
 ---
 name: code-refactoring-context-restore
-description: "Use when working with code refactoring context restore"
+description: Use when working with code refactoring context restore
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Context Restoration: Advanced Semantic Memory Rehydration
 
@@ -177,3 +181,8 @@ context-restore project:ml-pipeline --query "model training strategy"
 - Quantum-inspired vector search algorithms
 - Self-healing context reconstruction
 - Adaptive learning context strategies
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for code-refactoring-context-restore.

@@ -1,8 +1,14 @@
 ---
 name: azure-communication-callautomation-java
-description: Build call automation workflows with Azure Communication Services Call Automation Java SDK. Use when implementing IVR systems, call routing, call recording, DTMF recognition, text-to-speech, or AI-powered call flows.
+description: Build call automation workflows with Azure Communication Services Call
+  Automation Java SDK. Use when implementing IVR systems, call routing, call recording,
+  DTMF recognition, text-to-speech, or AI-powered call flows.
 package: com.azure:azure-communication-callautomation
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure Communication Call Automation (Java)
 
@@ -252,3 +258,8 @@ CALLBACK_BASE_URL=https://your-app.com/api/callbacks
 - "text to speech call", "speech recognition call"
 - "answer incoming call", "transfer call Java"
 - "Azure Communication Services call automation"
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-communication-callautomation-java.

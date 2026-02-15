@@ -1,12 +1,15 @@
 ---
 name: startup-financial-modeling
-description: This skill should be used when the user asks to "create financial
-  projections", "build a financial model", "forecast revenue", "calculate burn
-  rate", "estimate runway", "model cash flow", or requests 3-5 year financial
-  planning for a startup.
+description: This skill should be used when the user asks to "create financial projections",
+  "build a financial model", "forecast revenue", "calculate burn rate", "estimate
+  runway", "model cash flow", or requests 3-5 year financial planning for a startup.
 metadata:
   version: 1.0.0
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Startup Financial Modeling
 
@@ -465,3 +468,8 @@ To create a startup financial model:
 9. **Integrate fundraising** - Model funding rounds and milestones
 
 For complete templates and formulas, reference the `references/` and `examples/` files.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for startup-financial-modeling.

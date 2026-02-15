@@ -1,9 +1,18 @@
 ---
 name: azure-eventhub-dotnet
-description: |
-  Azure Event Hubs SDK for .NET. Use for high-throughput event streaming: sending events (EventHubProducerClient, EventHubBufferedProducerClient), receiving events (EventProcessorClient with checkpointing), partition management, and real-time data ingestion. Triggers: "Event Hubs", "event streaming", "EventHubProducerClient", "EventProcessorClient", "send events", "receive events", "checkpointing", "partition".
+description: 'Azure Event Hubs SDK for .NET. Use for high-throughput event streaming:
+  sending events (EventHubProducerClient, EventHubBufferedProducerClient), receiving
+  events (EventProcessorClient with checkpointing), partition management, and real-time
+  data ingestion. Triggers: "Event Hubs", "event streaming", "EventHubProducerClient",
+  "EventProcessorClient", "send events", "receive events", "checkpointing", "partition".
+
+  '
 package: Azure.Messaging.EventHubs
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure.Messaging.EventHubs (.NET)
 
@@ -360,3 +369,8 @@ processor.ProcessEventAsync += async args =>
 | `Azure.Messaging.EventHubs.Processor` | Production processing | `dotnet add package Azure.Messaging.EventHubs.Processor` |
 | `Azure.ResourceManager.EventHubs` | Management plane (create hubs) | `dotnet add package Azure.ResourceManager.EventHubs` |
 | `Microsoft.Azure.WebJobs.Extensions.EventHubs` | Azure Functions binding | `dotnet add package Microsoft.Azure.WebJobs.Extensions.EventHubs` |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-eventhub-dotnet.

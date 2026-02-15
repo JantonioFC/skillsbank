@@ -1,7 +1,13 @@
 ---
 name: dependency-upgrade
-description: Manage major dependency version upgrades with compatibility analysis, staged rollout, and comprehensive testing. Use when upgrading framework versions, updating major dependencies, or managing breaking changes in libraries.
+description: Manage major dependency version upgrades with compatibility analysis,
+  staged rollout, and comprehensive testing. Use when upgrading framework versions,
+  updating major dependencies, or managing breaking changes in libraries.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Dependency Upgrade
 
@@ -419,3 +425,8 @@ Post-Upgrade:
 - Not reading breaking change notes
 - Skipping major versions
 - Not having rollback plan
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for dependency-upgrade.

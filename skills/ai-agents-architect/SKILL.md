@@ -1,8 +1,13 @@
 ---
 name: ai-agents-architect
-description: "Expert in designing and building autonomous AI agents. Masters tool use, memory systems, planning strategies, and multi-agent orchestration. Use when: build agent, AI agent, autonomous agent, tool use, function calling."
+description: 'Expert in designing and building autonomous AI agents. Masters tool
+  use, memory systems, planning strategies, and multi-agent orchestration. Use when:
+  build agent, AI agent, autonomous agent, tool use, function calling.'
 source: vibeship-spawner-skills (Apache 2.0)
+risk: safe
+license: MIT
 ---
+
 
 # AI Agents Architect
 
@@ -88,3 +93,8 @@ Dynamic tool discovery and management
 ## Related Skills
 
 Works well with: `rag-engineer`, `prompt-engineer`, `backend`, `mcp-builder`
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for ai-agents-architect.

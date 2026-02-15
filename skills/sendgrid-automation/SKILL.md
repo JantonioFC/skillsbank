@@ -1,9 +1,16 @@
 ---
 name: sendgrid-automation
-description: "Automate SendGrid email operations including sending emails, managing contacts/lists, sender identities, templates, and analytics via Rube MCP (Composio). Always search tools first for current schemas."
+description: Automate SendGrid email operations including sending emails, managing
+  contacts/lists, sender identities, templates, and analytics via Rube MCP (Composio).
+  Always search tools first for current schemas.
 requires:
-  mcp: [rube]
+  mcp:
+  - rube
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # SendGrid Automation via Rube MCP
 
@@ -226,3 +233,8 @@ Contact operations (`ADD_OR_UPDATE_A_CONTACT`, `IMPORT_CONTACTS`) are asynchrono
 | Suppression groups | `SENDGRID_GET_SUPPRESSION_GROUPS` | (none) |
 | Get template | `SENDGRID_RETRIEVE_A_SINGLE_TRANSACTIONAL_TEMPLATE` | `template_id` |
 | Duplicate template | `SENDGRID_DUPLICATE_A_TRANSACTIONAL_TEMPLATE` | `template_id`, `name` |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for sendgrid-automation.

@@ -1,7 +1,14 @@
 ---
 name: git-advanced-workflows
-description: Master advanced Git workflows including rebasing, cherry-picking, bisect, worktrees, and reflog to maintain clean history and recover from any situation. Use when managing complex Git histories, collaborating on feature branches, or troubleshooting repository issues.
+description: Master advanced Git workflows including rebasing, cherry-picking, bisect,
+  worktrees, and reflog to maintain clean history and recover from any situation.
+  Use when managing complex Git histories, collaborating on feature branches, or troubleshooting
+  repository issues.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Git Advanced Workflows
 
@@ -410,3 +417,8 @@ git branch recovered-branch abc123
 - **assets/git-workflow-checklist.md**: Pre-PR cleanup checklist
 - **assets/git-aliases.md**: Useful Git aliases for advanced workflows
 - **scripts/git-clean-branches.sh**: Clean up merged and stale branches
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for git-advanced-workflows.

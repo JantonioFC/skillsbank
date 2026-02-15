@@ -1,10 +1,22 @@
 ---
 name: memory-forensics
-description: Master memory forensics techniques including memory acquisition, process analysis, and artifact extraction using Volatility and related tools. Use when analyzing memory dumps, investigating incidents, or performing malware analysis from RAM captures.
+description: Master memory forensics techniques including memory acquisition, process
+  analysis, and artifact extraction using Volatility and related tools. Use when analyzing
+  memory dumps, investigating incidents, or performing malware analysis from RAM captures.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Memory Forensics
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Memory Forensics
 Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis.
 
 ## Use this skill when
@@ -489,3 +501,8 @@ floss pid.1234.dmp
 - **Symbol issues**: Ensure correct symbol files for OS version
 - **Smear**: Memory may change during acquisition
 - **Encryption**: Some data may be encrypted in memory
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for memory-forensics.

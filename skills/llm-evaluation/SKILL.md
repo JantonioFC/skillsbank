@@ -1,7 +1,13 @@
 ---
 name: llm-evaluation
-description: Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or establishing evaluation frameworks.
+description: Implement comprehensive evaluation strategies for LLM applications using
+  automated metrics, human feedback, and benchmarking. Use when testing LLM performance,
+  measuring AI application quality, or establishing evaluation frameworks.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # LLM Evaluation
 
@@ -481,3 +487,8 @@ class BenchmarkRunner:
 - **Data Contamination**: Testing on training data
 - **Ignoring Variance**: Not accounting for statistical uncertainty
 - **Metric Mismatch**: Using metrics not aligned with business goals
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for llm-evaluation.

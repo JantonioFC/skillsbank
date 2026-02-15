@@ -1,12 +1,28 @@
 ---
 name: azure-resource-manager-sql-dotnet
-description: |
-  Azure Resource Manager SDK for Azure SQL in .NET. Use for MANAGEMENT PLANE operations: creating/managing SQL servers, databases, elastic pools, firewall rules, and failover groups via Azure Resource Manager. NOT for data plane operations (executing queries) - use Microsoft.Data.SqlClient for that. Triggers: "SQL server", "create SQL database", "manage SQL resources", "ARM SQL", "SqlServerResource", "provision Azure SQL", "elastic pool", "firewall rule".
+description: 'Azure Resource Manager SDK for Azure SQL in .NET. Use for MANAGEMENT
+  PLANE operations: creating/managing SQL servers, databases, elastic pools, firewall
+  rules, and failover groups via Azure Resource Manager. NOT for data plane operations
+  (executing queries) - use Microsoft.Data.SqlClient for that. Triggers: "SQL server",
+  "create SQL database", "manage SQL resources", "ARM SQL", "SqlServerResource", "provision
+  Azure SQL", "elastic pool", "firewall rule".
+
+  '
 package: Azure.ResourceManager.Sql
+risk: offensive
+source: microsoft
+license: MIT
 ---
 
-# Azure.ResourceManager.Sql (.NET)
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Azure.ResourceManager.Sql (.NET)
 Management plane SDK for provisioning and managing Azure SQL resources via Azure Resource Manager.
 
 > **⚠️ Management vs Data Plane**
@@ -317,3 +333,8 @@ catch (RequestFailedException ex)
 | `Microsoft.Data.SqlClient` | Data plane (execute queries, stored procedures) | `dotnet add package Microsoft.Data.SqlClient` |
 | `Azure.ResourceManager.Sql` | Management plane (this SDK) | `dotnet add package Azure.ResourceManager.Sql` |
 | `Microsoft.EntityFrameworkCore.SqlServer` | ORM for SQL Server | `dotnet add package Microsoft.EntityFrameworkCore.SqlServer` |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-resource-manager-sql-dotnet.

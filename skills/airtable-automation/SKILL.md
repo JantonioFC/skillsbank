@@ -1,9 +1,15 @@
 ---
 name: airtable-automation
-description: "Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields, views. Always search tools first for current schemas."
+description: 'Automate Airtable tasks via Rube MCP (Composio): records, bases, tables,
+  fields, views. Always search tools first for current schemas.'
 requires:
-  mcp: [rube]
+  mcp:
+  - rube
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Airtable Automation via Rube MCP
 
@@ -168,3 +174,8 @@ Automate Airtable operations through Composio's Airtable toolkit via Rube MCP.
 | Update field | AIRTABLE_UPDATE_FIELD | baseId, tableIdOrName, fieldId |
 | Update table | AIRTABLE_UPDATE_TABLE | baseId, tableIdOrName, name |
 | List comments | AIRTABLE_LIST_COMMENTS | baseId, tableIdOrName, recordId |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for airtable-automation.

@@ -3,7 +3,11 @@ name: conductor-new-track
 description: Create a new track with specification and phased implementation plan
 metadata:
   argument-hint: <feature|bug|chore|refactor> <name>
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # New Track
 
@@ -431,3 +435,8 @@ Next steps:
 - If directory creation fails: Halt and report, do not register in tracks.md
 - If any file write fails: Clean up partial track, report error
 - If tracks.md update fails: Warn user to manually register track
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for conductor-new-track.

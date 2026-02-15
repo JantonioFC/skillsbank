@@ -1,10 +1,22 @@
 ---
 name: github-workflow-automation
-description: "Automate GitHub workflows with AI assistance. Includes PR reviews, issue triage, CI/CD integration, and Git operations. Use when automating GitHub workflows, setting up PR review automation, creating GitHub Actions, or triaging issues."
+description: Automate GitHub workflows with AI assistance. Includes PR reviews, issue
+  triage, CI/CD integration, and Git operations. Use when automating GitHub workflows,
+  setting up PR review automation, creating GitHub Actions, or triaging issues.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# 🔧 GitHub Workflow Automation
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# 🔧 GitHub Workflow Automation
 > Patterns for automating GitHub workflows with AI assistance, inspired by [Gemini CLI](https://github.com/google-gemini/gemini-cli) and modern DevOps practices.
 
 ## When to Use This Skill

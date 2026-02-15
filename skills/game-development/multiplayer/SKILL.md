@@ -2,7 +2,11 @@
 name: multiplayer
 description: Multiplayer game development principles. Architecture, networking, synchronization.
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Multiplayer Game Development
 
@@ -130,3 +134,8 @@ Server: Validate → did projectile actually hit?
 ---
 
 > **Remember:** Never trust the client. The server is the source of truth.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for multiplayer.

@@ -1,12 +1,27 @@
 ---
 name: m365-agents-dotnet
-description: |
-  Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth. Triggers: "Microsoft 365 Agents SDK", "Microsoft.Agents", "AddAgentApplicationOptions", "AgentApplication", "AddAgentAspNetAuthentication", "Copilot Studio client", "IAgentHttpAdapter".
-package: Microsoft.Agents.Hosting.AspNetCore, Microsoft.Agents.Authentication.Msal, Microsoft.Agents.CopilotStudio.Client
+description: 'Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot
+  Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth.
+  Triggers: "Microsoft 365 Agents SDK", "Microsoft.Agents", "AddAgentApplicationOptions",
+  "AgentApplication", "AddAgentAspNetAuthentication", "Copilot Studio client", "IAgentHttpAdapter".
+
+  '
+package: Microsoft.Agents.Hosting.AspNetCore, Microsoft.Agents.Authentication.Msal,
+  Microsoft.Agents.CopilotStudio.Client
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Microsoft 365 Agents SDK (.NET)
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Microsoft 365 Agents SDK (.NET)
 ## Overview
 Build enterprise agents for Microsoft 365, Teams, and Copilot Studio using the Microsoft.Agents SDK with ASP.NET Core hosting, agent routing, and MSAL-based authentication.
 
@@ -288,3 +303,8 @@ await foreach (var activity in client.AskQuestionAsync("Hello!", null))
 | Auth configuration options | https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/microsoft-authentication-library-configuration-options |
 | Copilot Studio integration | https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/integrate-with-mcs |
 | GitHub samples | https://github.com/microsoft/agents |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for m365-agents-dotnet.

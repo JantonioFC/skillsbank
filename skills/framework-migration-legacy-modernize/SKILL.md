@@ -1,10 +1,22 @@
 ---
 name: framework-migration-legacy-modernize
-description: "Orchestrate a comprehensive legacy system modernization using the strangler fig pattern, enabling gradual replacement of outdated components while maintaining continuous business operations through ex"
+description: Orchestrate a comprehensive legacy system modernization using the strangler
+  fig pattern, enabling gradual replacement of outdated components while maintaining
+  continuous business operations through ex
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Legacy Code Modernization Workflow
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Legacy Code Modernization Workflow
 Orchestrate a comprehensive legacy system modernization using the strangler fig pattern, enabling gradual replacement of outdated components while maintaining continuous business operations through expert agent coordination.
 
 [Extended thinking: The strangler fig pattern, named after the tropical fig tree that gradually envelops and replaces its host, represents the gold standard for risk-managed legacy modernization. This workflow implements a systematic approach where new functionality gradually replaces legacy components, allowing both systems to coexist during transition. By orchestrating specialized agents for assessment, testing, security, and implementation, we ensure each migration phase is validated before proceeding, minimizing disruption while maximizing modernization velocity.]
@@ -130,3 +142,8 @@ Orchestrate a comprehensive legacy system modernization using the strangler fig 
 - Complete documentation enabling new developer onboarding in <1 week
 
 Target: $ARGUMENTS
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for framework-migration-legacy-modernize.

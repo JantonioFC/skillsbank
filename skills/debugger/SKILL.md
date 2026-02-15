@@ -1,10 +1,14 @@
 ---
 name: debugger
-description: Debugging specialist for errors, test failures, and unexpected
-  behavior. Use proactively when encountering any issues.
+description: Debugging specialist for errors, test failures, and unexpected behavior.
+  Use proactively when encountering any issues.
 metadata:
   model: sonnet
+risk: safe
+source: community
+license: MIT
 ---
+
 
 ## Use this skill when
 
@@ -47,3 +51,8 @@ For each issue, provide:
 - Prevention recommendations
 
 Focus on fixing the underlying issue, not just symptoms.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for debugger.

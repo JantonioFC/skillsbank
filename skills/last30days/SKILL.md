@@ -1,12 +1,17 @@
 ---
 name: last30days
-description: Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool.
-argument-hint: "[topic] for [tool] or [topic]"
+description: Research a topic from the last 30 days on Reddit + X + Web, become an
+  expert, and write copy-paste-ready prompts for the user's target tool.
+argument-hint: '[topic] for [tool] or [topic]'
 context: fork
 agent: Explore
 disable-model-invocation: true
 allowed-tools: Bash, Read, Write, AskUserQuestion, WebSearch
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # last30days: Research Any Topic from the Last 30 Days
 
@@ -419,3 +424,8 @@ Want another prompt? Just tell me what you're creating next.
 
 💡 Unlock Reddit & X data: Add API keys to ~/.config/last30days/.env
 ```
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for last30days.

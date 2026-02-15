@@ -1,9 +1,18 @@
 ---
 name: azure-security-keyvault-keys-dotnet
-description: |
-  Azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification. Triggers: "Key Vault keys", "KeyClient", "CryptographyClient", "RSA key", "EC key", "encrypt decrypt .NET", "key rotation", "HSM".
+description: 'Azure Key Vault Keys SDK for .NET. Client library for managing cryptographic
+  keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption,
+  decryption, signing, and verification. Triggers: "Key Vault keys", "KeyClient",
+  "CryptographyClient", "RSA key", "EC key", "encrypt decrypt .NET", "key rotation",
+  "HSM".
+
+  '
 package: Azure.Security.KeyVault.Keys
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure.Security.KeyVault.Keys (.NET)
 
@@ -404,3 +413,8 @@ catch (RequestFailedException ex)
 | API Reference | https://learn.microsoft.com/dotnet/api/azure.security.keyvault.keys |
 | Quickstart | https://learn.microsoft.com/azure/key-vault/keys/quick-create-net |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/keyvault/Azure.Security.KeyVault.Keys |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-security-keyvault-keys-dotnet.

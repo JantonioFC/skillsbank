@@ -1,7 +1,13 @@
 ---
 name: postmortem-writing
-description: Write effective blameless postmortems with root cause analysis, timelines, and action items. Use when conducting incident reviews, writing postmortem documents, or improving incident response processes.
+description: Write effective blameless postmortems with root cause analysis, timelines,
+  and action items. Use when conducting incident reviews, writing postmortem documents,
+  or improving incident response processes.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Postmortem Writing
 
@@ -384,3 +390,8 @@ Don't full-flush cache in production; use targeted invalidation.
 - [Google SRE - Postmortem Culture](https://sre.google/sre-book/postmortem-culture/)
 - [Etsy's Blameless Postmortems](https://codeascraft.com/2012/05/22/blameless-postmortems/)
 - [PagerDuty Postmortem Guide](https://postmortems.pagerduty.com/)
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for postmortem-writing.

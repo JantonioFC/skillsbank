@@ -1,8 +1,15 @@
 ---
 name: email-systems
-description: "Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, landing in spam folders.  This skill covers transactional email that works, marketing automation that converts, deliverability that reaches inboxes, and the infrastructure decisions that scale. Use when: keywords, file_patterns, code_patterns."
+description: 'Email has the highest ROI of any marketing channel. $36 for every $1
+  spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization,
+  landing in spam folders.  This skill covers transactional email that works, marketing
+  automation that converts, deliverability that reaches inboxes, and the infrastructure
+  decisions that scale. Use when: keywords, file_patterns, code_patterns.'
 source: vibeship-spawner-skills (Apache 2.0)
+risk: safe
+license: MIT
 ---
+
 
 # Email Systems
 
@@ -52,3 +59,8 @@ Version email templates for rollback and A/B testing
 | Sending high volume from new IP immediately | high | # IP warm-up schedule: |
 | Emailing people who did not opt in | critical | # Permission requirements: |
 | Emails that are mostly or entirely images | medium | # Balance images and text: |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for email-systems.

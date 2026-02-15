@@ -1,14 +1,28 @@
 ---
-name: Privilege Escalation Methods
-description: This skill should be used when the user asks to "escalate privileges", "get root access", "become administrator", "privesc techniques", "abuse sudo", "exploit SUID binaries", "Kerberoasting", "pass-the-ticket", "token impersonation", or needs guidance on post-exploitation privilege escalation for Linux or Windows systems.
+name: privilege-escalation-methods
+description: This skill should be used when the user asks to "escalate privileges",
+  "get root access", "become administrator", "privesc techniques", "abuse sudo", "exploit
+  SUID binaries", "Kerberoasting", "pass-the-ticket", "token impersonation", or needs
+  guidance on post-exploitation privilege escalation for Linux or Windows systems.
 metadata:
   author: zebbern
-  version: "1.1"
+  version: '1.1'
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Privilege Escalation Methods
 
-## Purpose
+
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Privilege Escalation Methods
+## When to Use
 
 Provide comprehensive techniques for escalating privileges from a low-privileged user to root/administrator access on compromised Linux and Windows systems. Essential for penetration testing post-exploitation phase and red team operations.
 

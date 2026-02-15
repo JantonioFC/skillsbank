@@ -1,7 +1,13 @@
 ---
 name: application-performance-performance-optimization
-description: "Optimize end-to-end application performance with profiling, observability, and backend/frontend tuning. Use when coordinating performance optimization across the stack."
+description: Optimize end-to-end application performance with profiling, observability,
+  and backend/frontend tuning. Use when coordinating performance optimization across
+  the stack.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 Optimize application performance end-to-end using specialized performance and optimization agents:
 
@@ -152,3 +158,8 @@ Optimize application performance end-to-end using specialized performance and op
 - **Monitoring Coverage**: 100% of critical paths instrumented with alerting
 
 Performance optimization target: $ARGUMENTS
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for application-performance-performance-optimization.

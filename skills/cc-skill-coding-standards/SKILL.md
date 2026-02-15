@@ -1,9 +1,15 @@
 ---
-name: coding-standards
-description: Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
+name: cc-skill-coding-standards
+description: Universal coding standards, best practices, and patterns for TypeScript,
+  JavaScript, React, and Node.js development.
 author: affaan-m
-version: "1.0"
+version: '1.0'
+risk: safe
+source: community
+license: MIT
 ---
+
+
 
 # Coding Standards & Best Practices
 
@@ -520,3 +526,7 @@ setTimeout(callback, DEBOUNCE_DELAY_MS)
 ```
 
 **Remember**: Code quality is not negotiable. Clear, maintainable code enables rapid development and confident refactoring.
+
+## When to Use
+
+Use this skill when you need guidance or automation for coding-standards.

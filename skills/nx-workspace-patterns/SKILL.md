@@ -1,7 +1,13 @@
 ---
 name: nx-workspace-patterns
-description: Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands.
+description: Configure and optimize Nx monorepo workspaces. Use when setting up Nx,
+  configuring project boundaries, optimizing build caching, or implementing affected
+  commands.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Nx Workspace Patterns
 
@@ -462,3 +468,8 @@ nx migrate --run-migrations
 - [Nx Documentation](https://nx.dev/getting-started/intro)
 - [Module Boundaries](https://nx.dev/core-features/enforce-module-boundaries)
 - [Nx Cloud](https://nx.app/)
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for nx-workspace-patterns.

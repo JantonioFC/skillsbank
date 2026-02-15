@@ -1,7 +1,13 @@
 ---
 name: embedding-strategies
-description: Select and optimize embedding models for semantic search and RAG applications. Use when choosing embedding models, implementing chunking strategies, or optimizing embedding quality for specific domains.
+description: Select and optimize embedding models for semantic search and RAG applications.
+  Use when choosing embedding models, implementing chunking strategies, or optimizing
+  embedding quality for specific domains.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Embedding Strategies
 
@@ -489,3 +495,8 @@ def compute_embedding_similarity(
 - [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings)
 - [Sentence Transformers](https://www.sbert.net/)
 - [MTEB Benchmark](https://huggingface.co/spaces/mteb/leaderboard)
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for embedding-strategies.

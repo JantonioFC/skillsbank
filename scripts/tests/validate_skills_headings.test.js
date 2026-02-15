@@ -1,11 +1,11 @@
-const assert = require('assert');
-const { hasUseSection } = require('../validate-skills');
+const assert = require("assert");
+const { hasUseSection } = require("../validate-skills");
 
 const samples = [
-  ['## When to Use', true],
-  ['## Use this skill when', true],
-  ['## When to Use This Skill', true],
-  ['## Overview', false],
+  ["## When to Use", true],
+  ["## Use this skill when", true],
+  ["## When to Use This Skill", true],
+  ["## Overview", false],
 ];
 
 for (const [heading, expected] of samples) {
@@ -13,4 +13,31 @@ for (const [heading, expected] of samples) {
   assert.strictEqual(hasUseSection(content), expected, heading);
 }
 
-console.log('ok');
+// Regression test for YAML validity in frontmatter (Issue #79)
+const fs = require("fs");
+const path = require("path");
+const { listSkillIds, parseFrontmatter } = require("../../lib/skill-utils");
+
+const SKILLS_DIR = path.join(__dirname, "../../skills");
+const skillIds = listSkillIds(SKILLS_DIR);
+
+console.log(`Checking YAML validity for ${skillIds.length} skills...`);
+
+for (const skillId of skillIds) {
+  const skillPath = path.join(SKILLS_DIR, skillId, "SKILL.md");
+  const content = fs.readFileSync(skillPath, "utf8");
+  const { errors, hasFrontmatter } = parseFrontmatter(content);
+
+  if (!hasFrontmatter) {
+    console.warn(`[WARN] No frontmatter in ${skillId}`);
+    continue;
+  }
+
+  assert.strictEqual(
+    errors.length,
+    0,
+    `YAML parse errors in ${skillId}: ${errors.join(", ")}`,
+  );
+}
+
+console.log("ok");

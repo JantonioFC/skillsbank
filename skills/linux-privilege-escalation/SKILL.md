@@ -1,14 +1,30 @@
 ---
-name: Linux Privilege Escalation
-description: This skill should be used when the user asks to "escalate privileges on Linux", "find privesc vectors on Linux systems", "exploit sudo misconfigurations", "abuse SUID binaries", "exploit cron jobs for root access", "enumerate Linux systems for privilege escalation", or "gain root access from low-privilege shell". It provides comprehensive techniques for identifying and exploiting privilege escalation paths on Linux systems.
+name: linux-privilege-escalation
+description: This skill should be used when the user asks to "escalate privileges
+  on Linux", "find privesc vectors on Linux systems", "exploit sudo misconfigurations",
+  "abuse SUID binaries", "exploit cron jobs for root access", "enumerate Linux systems
+  for privilege escalation", or "gain root access from low-privilege shell". It provides
+  comprehensive techniques for identifying and exploiting privilege escalation paths
+  on Linux systems.
 metadata:
   author: zebbern
-  version: "1.1"
+  version: '1.1'
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Linux Privilege Escalation
 
-## Purpose
+
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Linux Privilege Escalation
+## When to Use
 
 Execute systematic privilege escalation assessments on Linux systems to identify and exploit misconfigurations, vulnerable services, and security weaknesses that allow elevation from low-privilege user access to root-level control. This skill enables comprehensive enumeration and exploitation of kernel vulnerabilities, sudo misconfigurations, SUID binaries, cron jobs, capabilities, PATH hijacking, and NFS weaknesses.
 

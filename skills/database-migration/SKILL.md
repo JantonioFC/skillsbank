@@ -1,7 +1,14 @@
 ---
 name: database-migration
-description: Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databases, changing schemas, performing data transformations, or implementing zero-downtime deployment strategies.
+description: Execute database migrations across ORMs and platforms with zero-downtime
+  strategies, data transformation, and rollback procedures. Use when migrating databases,
+  changing schemas, performing data transformations, or implementing zero-downtime
+  deployment strategies.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Database Migration
 
@@ -434,3 +441,8 @@ module.exports = {
 - Not considering index performance
 - Ignoring foreign key constraints
 - Migrating too much data at once
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for database-migration.

@@ -1,7 +1,12 @@
 ---
 name: concise-planning
-description: Use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist.
+description: Use when a user asks for a plan for a coding task, to generate a clear,
+  actionable, and atomic checklist.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Concise Planning
 
@@ -60,3 +65,8 @@ Use the following structure:
 - **Atomic**: Each step should be a single logical unit of work.
 - **Verb-first**: "Add...", "Refactor...", "Verify...".
 - **Concrete**: Name specific files or modules when possible.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for concise-planning.

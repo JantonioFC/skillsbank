@@ -1,10 +1,18 @@
 ---
 name: azure-servicebus-py
-description: |
-  Azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns.
-  Triggers: "service bus", "ServiceBusClient", "queue", "topic", "subscription", "message broker".
+description: 'Azure Service Bus SDK for Python messaging. Use for queues, topics,
+  subscriptions, and enterprise messaging patterns.
+
+  Triggers: "service bus", "ServiceBusClient", "queue", "topic", "subscription", "message
+  broker".
+
+  '
 package: azure-servicebus
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure Service Bus SDK for Python
 
@@ -265,3 +273,8 @@ with ServiceBusClient(
 | [references/patterns.md](references/patterns.md) | Competing consumers, sessions, retry patterns, request-response, transactions |
 | [references/dead-letter.md](references/dead-letter.md) | DLQ handling, poison messages, reprocessing strategies |
 | [scripts/setup_servicebus.py](scripts/setup_servicebus.py) | CLI for queue/topic/subscription management and DLQ monitoring |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-servicebus-py.

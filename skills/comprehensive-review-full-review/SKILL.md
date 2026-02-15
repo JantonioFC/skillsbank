@@ -1,10 +1,20 @@
 ---
 name: comprehensive-review-full-review
-description: "Use when working with comprehensive review full review"
+description: Use when working with comprehensive review full review
+risk: offensive
+source: community
+license: MIT
 ---
 
-## Use this skill when
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+## Use this skill when
 - Working on comprehensive review full review tasks or workflows
 - Needing guidance, best practices, or checklists for comprehensive review full review
 
@@ -144,3 +154,8 @@ Review is considered successful when:
 - Team has clear prioritized action plan for remediation
 
 Target: $ARGUMENTS
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for comprehensive-review-full-review.

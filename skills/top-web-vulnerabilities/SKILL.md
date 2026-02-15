@@ -1,14 +1,31 @@
 ---
-name: Top 100 Web Vulnerabilities Reference
-description: This skill should be used when the user asks to "identify web application vulnerabilities", "explain common security flaws", "understand vulnerability categories", "learn about injection attacks", "review access control weaknesses", "analyze API security issues", "assess security misconfigurations", "understand client-side vulnerabilities", "examine mobile and IoT security flaws", or "reference the OWASP-aligned vulnerability taxonomy". Use this skill to provide comprehensive vulnerability definitions, root causes, impacts, and mitigation strategies across all major web security categories.
+name: top-web-vulnerabilities
+description: This skill should be used when the user asks to "identify web application
+  vulnerabilities", "explain common security flaws", "understand vulnerability categories",
+  "learn about injection attacks", "review access control weaknesses", "analyze API
+  security issues", "assess security misconfigurations", "understand client-side vulnerabilities",
+  "examine mobile and IoT security flaws", or "reference the OWASP-aligned vulnerability
+  taxonomy". Use this skill to provide comprehensive vulnerability definitions, root
+  causes, impacts, and mitigation strategies across all major web security categories.
 metadata:
   author: zebbern
-  version: "1.1"
+  version: '1.1'
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Top 100 Web Vulnerabilities Reference
 
-## Purpose
+
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Top 100 Web Vulnerabilities Reference
+## When to Use
 
 Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic vulnerability identification, impact assessment, and remediation guidance across the full spectrum of web security threats. Content organized into 15 major vulnerability categories aligned with industry standards and real-world attack patterns.
 

@@ -1,7 +1,13 @@
 ---
 name: nft-standards
-description: Implement NFT standards (ERC-721, ERC-1155) with proper metadata handling, minting strategies, and marketplace integration. Use when creating NFT contracts, building NFT marketplaces, or implementing digital asset systems.
+description: Implement NFT standards (ERC-721, ERC-1155) with proper metadata handling,
+  minting strategies, and marketplace integration. Use when creating NFT contracts,
+  building NFT marketplaces, or implementing digital asset systems.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # NFT Standards
 
@@ -393,3 +399,8 @@ contract OptimizedNFT is ERC721A {
 - LooksRare: Royalty enforcement
 - Rarible: Protocol fees, lazy minting
 - Blur: Gas-optimized trading
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for nft-standards.

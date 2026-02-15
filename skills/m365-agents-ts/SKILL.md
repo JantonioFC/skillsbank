@@ -1,12 +1,28 @@
 ---
 name: m365-agents-ts
-description: |
-  Microsoft 365 Agents SDK for TypeScript/Node.js. Build multichannel agents for Teams/M365/Copilot Studio with AgentApplication routing, Express hosting, streaming responses, and Copilot Studio client integration. Triggers: "Microsoft 365 Agents SDK", "@microsoft/agents-hosting", "AgentApplication", "startServer", "streamingResponse", "Copilot Studio client", "@microsoft/agents-copilotstudio-client".
-package: @microsoft/agents-hosting, @microsoft/agents-hosting-express, @microsoft/agents-activity, @microsoft/agents-copilotstudio-client
+description: 'Microsoft 365 Agents SDK for TypeScript/Node.js. Build multichannel
+  agents for Teams/M365/Copilot Studio with AgentApplication routing, Express hosting,
+  streaming responses, and Copilot Studio client integration. Triggers: "Microsoft
+  365 Agents SDK", "@microsoft/agents-hosting", "AgentApplication", "startServer",
+  "streamingResponse", "Copilot Studio client", "@microsoft/agents-copilotstudio-client".
+
+  '
+package: '@microsoft/agents-hosting, @microsoft/agents-hosting-express, @microsoft/agents-activity,
+  @microsoft/agents-copilotstudio-client'
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Microsoft 365 Agents SDK (TypeScript)
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Microsoft 365 Agents SDK (TypeScript)
 Build enterprise agents for Microsoft 365, Teams, and Copilot Studio using the Microsoft 365 Agents SDK with Express hosting, AgentApplication routing, streaming responses, and Copilot Studio client integrations.
 
 ## Before implementation
@@ -180,3 +196,8 @@ window.WebChat.renderWebChat({
 | @microsoft/agents-copilotstudio-client | https://learn.microsoft.com/en-us/javascript/api/%40microsoft/agents-copilotstudio-client?view=agents-sdk-js-latest |
 | Integrate with Copilot Studio | https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/integrate-with-mcs |
 | GitHub samples | https://github.com/microsoft/Agents/tree/main/samples/nodejs |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for m365-agents-ts.

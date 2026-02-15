@@ -1,8 +1,10 @@
 ---
 name: aws-skills
-description: "AWS development with infrastructure automation and cloud architecture patterns"
-source: "https://github.com/zxkane/aws-skills"
+description: AWS development with infrastructure automation and cloud architecture
+  patterns
+source: https://github.com/zxkane/aws-skills
 risk: safe
+license: MIT
 ---
 
 # Aws Skills

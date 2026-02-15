@@ -1,7 +1,13 @@
 ---
 name: zustand-store-ts
-description: Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creating global stores, or implementing reactive state patterns with Zustand.
+description: Create Zustand stores with TypeScript, subscribeWithSelector middleware,
+  and proper state/action separation. Use when building React state management, creating
+  global stores, or implementing reactive state patterns with Zustand.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Zustand Store
 
@@ -66,3 +72,8 @@ useMyStore.subscribe(
 1. Create store in `src/frontend/src/store/`
 2. Export from `src/frontend/src/store/index.ts`
 3. Add tests in `src/frontend/src/store/*.test.ts`
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for zustand-store-ts.

@@ -1,15 +1,24 @@
 ---
 name: mobile-security-coder
-description: Expert in secure mobile coding practices specializing in input
-  validation, WebView security, and mobile-specific security patterns. Use
-  PROACTIVELY for mobile security implementations or mobile security code
-  reviews.
+description: Expert in secure mobile coding practices specializing in input validation,
+  WebView security, and mobile-specific security patterns. Use PROACTIVELY for mobile
+  security implementations or mobile security code reviews.
 metadata:
   model: sonnet
+risk: offensive
+source: community
+license: MIT
 ---
 
-## Use this skill when
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+## Use this skill when
 - Working on mobile security coder tasks or workflows
 - Needing guidance, best practices, or checklists for mobile security coder
 

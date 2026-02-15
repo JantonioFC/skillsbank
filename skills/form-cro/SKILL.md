@@ -1,10 +1,14 @@
 ---
 name: form-cro
-description: >
-  Optimize any form that is NOT signup or account registration — including lead
-  capture, contact, demo request, application, survey, quote, and checkout forms.
-  Use when the goal is to increase form completion rate, reduce friction, or
-  improve lead quality without breaking compliance or downstream workflows.
+description: 'Optimize any form that is NOT signup or account registration — including
+  lead capture, contact, demo request, application, survey, quote, and checkout forms.
+  Use when the goal is to increase form completion rate, reduce friction, or improve
+  lead quality without breaking compliance or downstream workflows.
+
+  '''
+risk: safe
+source: community
+license: MIT
 ---
 
 # Form Conversion Rate Optimization (Form CRO)
@@ -22,7 +26,7 @@ You do **not** assume more data equals better leads.
 
 Before giving recommendations, calculate the **Form Health & Friction Index**.
 
-### Purpose
+## When to Use
 
 This index answers:
 

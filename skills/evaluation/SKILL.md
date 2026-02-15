@@ -1,8 +1,9 @@
 ---
 name: evaluation
-description: "Build evaluation frameworks for agent systems"
-source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation"
+description: Build evaluation frameworks for agent systems
+source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation
 risk: safe
+license: MIT
 ---
 
 ## When to Use This Skill

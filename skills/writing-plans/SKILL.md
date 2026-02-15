@@ -1,7 +1,12 @@
 ---
 name: writing-plans
-description: Use when you have a spec or requirements for a multi-step task, before touching code
+description: Use when you have a spec or requirements for a multi-step task, before
+  touching code
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Writing Plans
 
@@ -114,3 +119,8 @@ After saving the plan, offer execution choice:
 **If Parallel Session chosen:**
 - Guide them to open new session in worktree
 - **REQUIRED SUB-SKILL:** New session uses superpowers:executing-plans
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for writing-plans.

@@ -1,8 +1,14 @@
 ---
 name: azure-security-keyvault-keys-java
-description: Azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys.
+description: Azure Key Vault Keys Java SDK for cryptographic key management. Use when
+  creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify
+  operations, or working with HSM-backed keys.
 package: com.azure:azure-security-keyvault-keys
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure Key Vault Keys (Java)
 
@@ -360,3 +366,8 @@ AZURE_KEYVAULT_URL=https://<vault-name>.vault.azure.net
 - "encrypt decrypt Java", "sign verify Java"
 - "RSA key", "EC key", "HSM key"
 - "key rotation", "wrap unwrap key"
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-security-keyvault-keys-java.

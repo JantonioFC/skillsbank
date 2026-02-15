@@ -1,14 +1,29 @@
 ---
-name: Broken Authentication Testing
-description: This skill should be used when the user asks to "test for broken authentication vulnerabilities", "assess session management security", "perform credential stuffing tests", "evaluate password policies", "test for session fixation", or "identify authentication bypass flaws". It provides comprehensive techniques for identifying authentication and session management weaknesses in web applications.
+name: broken-authentication
+description: This skill should be used when the user asks to "test for broken authentication
+  vulnerabilities", "assess session management security", "perform credential stuffing
+  tests", "evaluate password policies", "test for session fixation", or "identify
+  authentication bypass flaws". It provides comprehensive techniques for identifying
+  authentication and session management weaknesses in web applications.
 metadata:
   author: zebbern
-  version: "1.1"
+  version: '1.1'
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Broken Authentication Testing
 
-## Purpose
+
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Broken Authentication Testing
+## When to Use
 
 Identify and exploit authentication and session management vulnerabilities in web applications. Broken authentication consistently ranks in the OWASP Top 10 and can lead to account takeover, identity theft, and unauthorized access to sensitive systems. This skill covers testing methodologies for password policies, session handling, multi-factor authentication, and credential management.
 

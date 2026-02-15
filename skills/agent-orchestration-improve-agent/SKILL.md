@@ -1,7 +1,12 @@
 ---
 name: agent-orchestration-improve-agent
-description: "Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration."
+description: Systematic improvement of existing agents through performance analysis,
+  prompt engineering, and continuous iteration.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Agent Performance Optimization Workflow
 
@@ -347,3 +352,8 @@ Establish regular improvement cadence:
 - **Annually**: Strategic review and architecture updates
 
 Remember: Agent optimization is an iterative process. Each cycle builds upon previous learnings, gradually improving performance while maintaining stability and safety.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for agent-orchestration-improve-agent.

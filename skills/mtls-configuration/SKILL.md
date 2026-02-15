@@ -1,7 +1,13 @@
 ---
 name: mtls-configuration
-description: Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication.
+description: Configure mutual TLS (mTLS) for zero-trust service-to-service communication.
+  Use when implementing zero-trust networking, certificate management, or securing
+  internal service communication.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # mTLS Configuration
 
@@ -357,3 +363,8 @@ linkerd viz tap deploy/my-app --to deploy/my-backend
 - [SPIFFE/SPIRE](https://spiffe.io/)
 - [cert-manager](https://cert-manager.io/)
 - [Zero Trust Architecture (NIST)](https://www.nist.gov/publications/zero-trust-architecture)
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for mtls-configuration.

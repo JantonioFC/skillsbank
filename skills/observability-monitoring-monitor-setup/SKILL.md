@@ -1,7 +1,13 @@
 ---
 name: observability-monitoring-monitor-setup
-description: "You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions. Set up metrics collection, distributed tracing, log aggregation, and create insightful da"
+description: You are a monitoring and observability expert specializing in implementing
+  comprehensive monitoring solutions. Set up metrics collection, distributed tracing,
+  log aggregation, and create insightful da
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Monitoring and Observability Setup
 
@@ -46,3 +52,8 @@ Focus on creating a monitoring system that provides actionable insights, reduces
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for observability-monitoring-monitor-setup.

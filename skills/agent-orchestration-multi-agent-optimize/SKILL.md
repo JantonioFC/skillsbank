@@ -1,7 +1,13 @@
 ---
 name: agent-orchestration-multi-agent-optimize
-description: "Optimize multi-agent systems with coordinated profiling, workload distribution, and cost-aware orchestration. Use when improving agent performance, throughput, or reliability."
+description: Optimize multi-agent systems with coordinated profiling, workload distribution,
+  and cost-aware orchestration. Use when improving agent performance, throughput,
+  or reliability.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Multi-Agent Optimization Toolkit
 
@@ -237,3 +243,8 @@ class CostOptimizer:
 - Implement gradual, reversible changes
 
 Target Optimization: $ARGUMENTS
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for agent-orchestration-multi-agent-optimize.

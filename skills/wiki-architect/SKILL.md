@@ -1,7 +1,13 @@
 ---
 name: wiki-architect
-description: Analyzes code repositories and generates hierarchical documentation structures with onboarding guides. Use when the user wants to create a wiki, generate documentation, map a codebase structure, or understand a project's architecture at a high level.
+description: Analyzes code repositories and generates hierarchical documentation structures
+  with onboarding guides. Use when the user wants to create a wiki, generate documentation,
+  map a codebase structure, or understand a project's architecture at a high level.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Wiki Architect
 
@@ -14,31 +20,51 @@ You are a documentation architect that produces structured wiki catalogues and o
 - User asks for a table of contents or documentation plan
 - User asks for an onboarding guide or "zero to hero" path
 
+## Source Repository Resolution (MUST DO FIRST)
+
+Before any analysis, you MUST determine the source repository context:
+
+1. **Check for git remote**: Run `git remote get-url origin` to detect if a remote exists
+2. **Ask the user**: _"Is this a local-only repository, or do you have a source repository URL (e.g., GitHub, Azure DevOps)?"_
+   - Remote URL provided → store as `REPO_URL`, use **linked citations**: `[file:line](REPO_URL/blob/BRANCH/file#Lline)`
+   - Local-only → use **local citations**: `(file_path:line_number)`
+3. **Determine default branch**: Run `git rev-parse --abbrev-ref HEAD`
+4. **Do NOT proceed** until source repo context is resolved
+
 ## Procedure
 
-1. **Scan** the repository file tree and README
-2. **Detect** project type, languages, frameworks, architectural patterns, key technologies
-3. **Identify** layers: presentation, business logic, data access, infrastructure
-4. **Generate** a hierarchical JSON catalogue with:
-   - **Onboarding**: Principal-Level Guide, Zero to Hero Guide
+1. **Resolve source repo** (see above — MUST be first)
+2. **Scan** the repository file tree and README
+3. **Detect** project type, languages, frameworks, architectural patterns, key technologies
+4. **Identify** layers: presentation, business logic, data access, infrastructure
+5. **Generate** a hierarchical JSON catalogue with:
+   - **Onboarding**: Contributor Guide, Staff Engineer Guide, Executive Guide, Product Manager Guide (in `onboarding/` folder)
    - **Getting Started**: overview, setup, usage, quick reference
    - **Deep Dive**: architecture → subsystems → components → methods
-5. **Cite** real files in every section prompt using `file_path:line_number`
+6. **Cite** real files in every section prompt using linked or local citation format
 
 ## Onboarding Guide Architecture
 
 The catalogue MUST include an Onboarding section (always first, uncollapsed) containing:
 
-1. **Principal-Level Guide** — For senior/principal ICs. Dense, opinionated. Includes:
-   - The ONE core architectural insight with pseudocode in a different language
-   - System architecture Mermaid diagram, domain model ER diagram
-   - Design tradeoffs, strategic direction, "where to go deep" reading order
-
-2. **Zero-to-Hero Learning Path** — For newcomers. Progressive depth:
+1. **Contributor Guide** — For new contributors (assumes Python/JS). Progressive depth:
    - Part I: Language/framework/technology foundations with cross-language comparisons
    - Part II: This codebase's architecture and domain model
    - Part III: Dev setup, testing, codebase navigation, contributing
    - Appendices: 40+ term glossary, key file reference
+
+2. **Staff Engineer Guide** — For staff/principal ICs. Dense, opinionated. Includes:
+   - The ONE core architectural insight with pseudocode in a different language
+   - System architecture Mermaid diagram, domain model ER diagram
+   - Design tradeoffs, decision log, dependency rationale, "where to go deep" reading order
+
+3. **Executive Guide** — For VP/director-level leaders. NO code snippets. Includes:
+   - Capability map, risk assessment, technology investment thesis
+   - Cost/scaling model, dependency map, actionable recommendations
+
+4. **Product Manager Guide** — For PMs. ZERO engineering jargon. Includes:
+   - User journey maps, feature capability map, known limitations
+   - Data/privacy overview, configuration/feature flags, FAQ
 
 ## Language Detection
 
@@ -58,3 +84,8 @@ Detect primary language from file extensions and build files, then select a comp
 ## Output
 
 JSON code block following the catalogue schema with `items[].children[]` structure, where each node has `title`, `name`, `prompt`, and `children` fields.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for wiki-architect.

@@ -2,8 +2,12 @@
 name: conductor-revert
 description: Git-aware undo by logical work unit (track, phase, or task)
 metadata:
-  argument-hint: "[track-id | track-id:phase | track-id:task]"
+  argument-hint: '[track-id | track-id:phase | track-id:task]'
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Revert Track
 
@@ -370,3 +374,8 @@ Alternatively, if not yet pushed:
 
 (Use with caution - this discards the revert commits)
 ```
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for conductor-revert.

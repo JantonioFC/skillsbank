@@ -1,7 +1,14 @@
 ---
 name: architecture-decision-records
-description: Write and maintain Architecture Decision Records (ADRs) following best practices for technical decision documentation. Use when documenting significant technical decisions, reviewing past architectural choices, or establishing decision processes.
+description: Write and maintain Architecture Decision Records (ADRs) following best
+  practices for technical decision documentation. Use when documenting significant
+  technical decisions, reviewing past architectural choices, or establishing decision
+  processes.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Architecture Decision Records
 
@@ -439,3 +446,8 @@ adr link 2 "Complements" 1 "Is complemented by"
 - [MADR Template](https://adr.github.io/madr/)
 - [ADR GitHub Organization](https://adr.github.io/)
 - [adr-tools](https://github.com/npryce/adr-tools)
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for architecture-decision-records.

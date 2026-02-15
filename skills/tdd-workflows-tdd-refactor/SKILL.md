@@ -1,10 +1,20 @@
 ---
 name: tdd-workflows-tdd-refactor
-description: "Use when working with tdd workflows tdd refactor"
+description: Use when working with tdd workflows tdd refactor
+risk: offensive
+source: community
+license: MIT
 ---
 
-## Use this skill when
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+## Use this skill when
 - Working on tdd workflows tdd refactor tasks or workflows
 - Needing guidance, best practices, or checklists for tdd workflows tdd refactor
 
@@ -185,3 +195,8 @@ class OrderProcessor {
 **Applied:** Extract Method, Value Objects, Dependency Injection, Async patterns
 
 Code to refactor: $ARGUMENTS"
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for tdd-workflows-tdd-refactor.

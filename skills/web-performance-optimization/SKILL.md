@@ -1,7 +1,12 @@
 ---
 name: web-performance-optimization
-description: "Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance"
+description: Optimize website and web application performance including loading speed,
+  Core Web Vitals, bundle size, caching strategies, and runtime performance
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Web Performance Optimization
 

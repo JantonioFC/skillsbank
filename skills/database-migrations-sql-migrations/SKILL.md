@@ -1,13 +1,17 @@
 ---
 name: database-migrations-sql-migrations
-description: SQL database migrations with zero-downtime strategies for
-  PostgreSQL, MySQL, SQL Server
+description: SQL database migrations with zero-downtime strategies for PostgreSQL,
+  MySQL, SQL Server
 allowed-tools: Read Write Edit Bash Grep Glob
 metadata:
   version: 1.0.0
   tags: database, sql, migrations, postgresql, mysql, flyway, liquibase, alembic,
     zero-downtime
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # SQL Database Migration Strategy and Implementation
 
@@ -51,3 +55,8 @@ Focus on production-ready SQL migrations with zero-downtime deployment strategie
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for database-migrations-sql-migrations.

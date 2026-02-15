@@ -1,12 +1,22 @@
 ---
 name: architect-review
-description: Master software architect specializing in modern architecture
-  patterns, clean architecture, microservices, event-driven systems, and DDD.
-  Reviews system designs and code changes for architectural integrity,
-  scalability, and maintainability. Use PROACTIVELY for architectural decisions.
+description: Master software architect specializing in modern architecture patterns,
+  clean architecture, microservices, event-driven systems, and DDD. Reviews system
+  designs and code changes for architectural integrity, scalability, and maintainability.
+  Use PROACTIVELY for architectural decisions.
 metadata:
   model: opus
+risk: offensive
+source: community
+license: MIT
 ---
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
 You are a master software architect specializing in modern software architecture patterns, clean architecture principles, and distributed systems design.
 
 ## Use this skill when
@@ -172,3 +182,8 @@ Elite software architect focused on ensuring architectural integrity, scalabilit
 - "Assess the architectural trade-offs of serverless vs. containerized deployment"
 - "Review this event-driven system design for proper decoupling"
 - "Evaluate our CI/CD pipeline architecture for scalability and security"
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for architect-review.

@@ -1,11 +1,26 @@
 ---
 name: microsoft-azure-webjobs-extensions-authentication-events-dotnet
-description: |
-  Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication extensions. Use for token enrichment, custom claims, attribute collection, and OTP customization in Entra ID. Triggers: "Authentication Events", "WebJobsAuthenticationEventsTrigger", "OnTokenIssuanceStart", "OnAttributeCollectionStart", "custom claims", "token enrichment", "Entra custom extension", "authentication extension".
+description: 'Microsoft Entra Authentication Events SDK for .NET. Azure Functions
+  triggers for custom authentication extensions. Use for token enrichment, custom
+  claims, attribute collection, and OTP customization in Entra ID. Triggers: "Authentication
+  Events", "WebJobsAuthenticationEventsTrigger", "OnTokenIssuanceStart", "OnAttributeCollectionStart",
+  "custom claims", "token enrichment", "Entra custom extension", "authentication extension".
+
+  '
+risk: offensive
+source: microsoft
+license: MIT
 ---
 
-# Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents (.NET)
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents (.NET)
 Azure Functions extension for handling Microsoft Entra ID custom authentication events.
 
 ## Installation
@@ -438,3 +453,8 @@ public static WebJobsAuthenticationEventResponse Run(
 | Token Issuance Events | https://learn.microsoft.com/entra/identity-platform/custom-extension-tokenissuancestart-setup |
 | Attribute Collection Events | https://learn.microsoft.com/entra/identity-platform/custom-extension-attribute-collection |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/entra/Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for microsoft-azure-webjobs-extensions-authentication-events-dotnet.

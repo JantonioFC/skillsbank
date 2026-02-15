@@ -1,10 +1,21 @@
 ---
 name: test-driven-development
-description: Use when implementing any feature or bugfix, before writing implementation code
+description: Use when implementing any feature or bugfix, before writing implementation
+  code
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Test-Driven Development (TDD)
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Test-Driven Development (TDD)
 ## Overview
 
 Write the test first. Watch it fail. Write minimal code to pass.

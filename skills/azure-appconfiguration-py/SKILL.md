@@ -1,10 +1,18 @@
 ---
 name: azure-appconfiguration-py
-description: |
-  Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.
-  Triggers: "azure-appconfiguration", "AzureAppConfigurationClient", "feature flags", "configuration", "key-value settings".
+description: 'Azure App Configuration SDK for Python. Use for centralized configuration
+  management, feature flags, and dynamic settings.
+
+  Triggers: "azure-appconfiguration", "AzureAppConfigurationClient", "feature flags",
+  "configuration", "key-value settings".
+
+  '
 package: azure-appconfiguration
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure App Configuration SDK for Python
 
@@ -247,3 +255,8 @@ async def main():
 5. **Use Entra ID** instead of connection strings in production
 6. **Refresh settings periodically** in long-running applications
 7. **Use feature flags** for gradual rollouts and A/B testing
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-appconfiguration-py.

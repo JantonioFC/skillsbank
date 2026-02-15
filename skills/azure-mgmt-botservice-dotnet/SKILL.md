@@ -1,9 +1,17 @@
 ---
 name: azure-mgmt-botservice-dotnet
-description: |
-  Azure Resource Manager SDK for Bot Service in .NET. Management plane operations for creating and managing Azure Bot resources, channels (Teams, DirectLine, Slack), and connection settings. Triggers: "Bot Service", "BotResource", "Azure Bot", "DirectLine channel", "Teams channel", "bot management .NET", "create bot".
+description: 'Azure Resource Manager SDK for Bot Service in .NET. Management plane
+  operations for creating and managing Azure Bot resources, channels (Teams, DirectLine,
+  Slack), and connection settings. Triggers: "Bot Service", "BotResource", "Azure
+  Bot", "DirectLine channel", "Teams channel", "bot management .NET", "create bot".
+
+  '
 package: Azure.ResourceManager.BotService
+risk: safe
+source: microsoft
+license: MIT
 ---
+
 
 # Azure.ResourceManager.BotService (.NET)
 
@@ -332,3 +340,8 @@ catch (RequestFailedException ex)
 | API Reference | https://learn.microsoft.com/dotnet/api/azure.resourcemanager.botservice |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/botservice/Azure.ResourceManager.BotService |
 | Azure Bot Service Docs | https://learn.microsoft.com/azure/bot-service/ |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for azure-mgmt-botservice-dotnet.

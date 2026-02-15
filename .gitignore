@@ -29,3 +29,9 @@ scripts/*count*.py
 
 # Optional baseline for legacy JS validator (scripts/validate-skills.js)
 validation-baseline.json
+.venv_audit/
+*.log
+scripts/fix_names.py
+scripts/remediate_skills_metadata.py
+scripts/surgical_fix.py
+security_threat_scan.json

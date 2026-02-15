@@ -1,9 +1,16 @@
 ---
 name: mixpanel-automation
-description: "Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools first for current schemas."
+description: 'Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation,
+  funnels, cohorts, user profiles, JQL queries. Always search tools first for current
+  schemas.'
 requires:
-  mcp: [rube]
+  mcp:
+  - rube
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Mixpanel Automation via Rube MCP
 
@@ -222,3 +229,8 @@ Used in `where` and `on` parameters:
 | List cohorts | MIXPANEL_COHORTS_LIST | (none) |
 | JQL query | MIXPANEL_JQL_QUERY | script |
 | Query insight | MIXPANEL_QUERY_INSIGHT | bookmark_id |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for mixpanel-automation.

@@ -1,8 +1,13 @@
 ---
 name: database-design
-description: Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.
+description: Database design principles and decision-making. Schema design, indexing
+  strategy, ORM selection, serverless databases.
 allowed-tools: Read, Write, Edit, Glob, Grep
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Database Design
 
@@ -50,3 +55,8 @@ Before designing schema:
 ❌ Use SELECT * in production
 ❌ Store JSON when structured data is better
 ❌ Ignore N+1 queries
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for database-design.

@@ -1,7 +1,13 @@
 ---
 name: openapi-spec-generation
-description: Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.
+description: Generate and maintain OpenAPI 3.1 specifications from code, design-first
+  specs, and validation patterns. Use when creating API documentation, generating
+  SDKs, or ensuring API contract compliance.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # OpenAPI Spec Generation
 
@@ -31,3 +37,8 @@ Comprehensive patterns for creating, maintaining, and validating OpenAPI 3.1 spe
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for openapi-spec-generation.

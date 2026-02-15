@@ -1,7 +1,13 @@
 ---
 name: react-native-architecture
-description: Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns. Use when developing mobile apps, implementing native integrations, or architecting React Native projects.
+description: Build production React Native apps with Expo, navigation, native modules,
+  offline sync, and cross-platform patterns. Use when developing mobile apps, implementing
+  native integrations, or architecting React Native projects.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # React Native Architecture
 
@@ -31,3 +37,8 @@ Production-ready patterns for React Native development with Expo, including navi
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for react-native-architecture.

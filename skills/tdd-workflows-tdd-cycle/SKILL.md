@@ -1,7 +1,11 @@
 ---
 name: tdd-workflows-tdd-cycle
-description: "Use when working with tdd workflows tdd cycle"
+description: Use when working with tdd workflows tdd cycle
+risk: safe
+source: community
+license: MIT
 ---
+
 
 ## Use this skill when
 
@@ -219,3 +223,8 @@ Track and report:
 - Tests should be independent and isolated
 
 TDD implementation for: $ARGUMENTS
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for tdd-workflows-tdd-cycle.

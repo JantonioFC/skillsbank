@@ -1,8 +1,13 @@
 ---
 name: plan-writing
-description: Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work.
+description: Structured task planning with clear breakdowns, dependencies, and verification
+  criteria. Use when implementing features, refactoring, or any multi-step work.
 allowed-tools: Read, Glob, Grep
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Plan Writing
 

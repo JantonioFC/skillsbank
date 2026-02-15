@@ -1,9 +1,15 @@
 ---
 name: square-automation
-description: "Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas."
+description: 'Automate Square tasks via Rube MCP (Composio): payments, orders, invoices,
+  locations. Always search tools first for current schemas.'
 requires:
-  mcp: [rube]
+  mcp:
+  - rube
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Square Automation via Rube MCP
 
@@ -174,3 +180,8 @@ Automate Square payment processing, order management, and invoicing through Comp
 | List invoices | SQUARE_LIST_INVOICES | location_id, cursor |
 | Get invoice | SQUARE_GET_INVOICE | invoice_id |
 | Cancel invoice | SQUARE_CANCEL_INVOICE | invoice_id, version |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for square-automation.

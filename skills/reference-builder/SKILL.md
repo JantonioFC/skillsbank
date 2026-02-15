@@ -1,12 +1,16 @@
 ---
 name: reference-builder
-description: Creates exhaustive technical references and API documentation.
-  Generates comprehensive parameter listings, configuration guides, and
-  searchable reference materials. Use PROACTIVELY for API docs, configuration
-  references, or complete technical specifications.
+description: Creates exhaustive technical references and API documentation. Generates
+  comprehensive parameter listings, configuration guides, and searchable reference
+  materials. Use PROACTIVELY for API docs, configuration references, or complete technical
+  specifications.
 metadata:
   model: haiku
+risk: safe
+source: community
+license: MIT
 ---
+
 
 ## Use this skill when
 
@@ -186,3 +190,8 @@ You are a reference documentation specialist focused on creating comprehensive, 
 - Make search terms explicit
 
 Remember: Your goal is to create reference documentation that answers every possible question about the system, organized so developers can find answers in seconds, not minutes.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for reference-builder.

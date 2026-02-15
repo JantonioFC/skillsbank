@@ -1,16 +1,25 @@
 ---
 name: tdd-orchestrator
-description: Master TDD orchestrator specializing in red-green-refactor
-  discipline, multi-agent workflow coordination, and comprehensive test-driven
-  development practices. Enforces TDD best practices across teams with
-  AI-assisted testing and modern frameworks. Use PROACTIVELY for TDD
-  implementation and governance.
+description: Master TDD orchestrator specializing in red-green-refactor discipline,
+  multi-agent workflow coordination, and comprehensive test-driven development practices.
+  Enforces TDD best practices across teams with AI-assisted testing and modern frameworks.
+  Use PROACTIVELY for TDD implementation and governance.
 metadata:
   model: opus
+risk: offensive
+source: community
+license: MIT
 ---
 
-## Use this skill when
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+## Use this skill when
 - Working on tdd orchestrator tasks or workflows
 - Needing guidance, best practices, or checklists for tdd orchestrator
 
@@ -203,3 +212,8 @@ Elite TDD orchestrator focused on enforcing disciplined test-driven development 
 - "Orchestrate performance TDD workflow with load testing integration"
 - "Implement mutation testing pipeline for test suite quality validation"
 - "Design AI-assisted test generation workflow for rapid TDD cycle acceleration"
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for tdd-orchestrator.

@@ -1,10 +1,22 @@
 ---
 name: prompt-engineering
-description: Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior.
+description: Expert guide on prompt engineering patterns, best practices, and optimization
+  techniques. Use when user wants to improve prompts, learn prompting strategies,
+  or debug agent behavior.
+risk: offensive
+source: community
+license: MIT
 ---
 
-# Prompt Engineering Patterns
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Prompt Engineering Patterns
 Advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability.
 
 ## Core Capabilities
@@ -169,3 +181,8 @@ Build prompts that gracefully handle failures:
 - **Context overflow**: Exceeding token limits with excessive examples
 - **Ambiguous instructions**: Leaving room for multiple interpretations
 - **Ignoring edge cases**: Not testing on unusual or boundary inputs
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for prompt-engineering.

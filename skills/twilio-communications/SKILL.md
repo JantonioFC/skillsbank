@@ -1,11 +1,24 @@
 ---
 name: twilio-communications
-description: "Build communication features with Twilio: SMS messaging, voice calls, WhatsApp Business API, and user verification (2FA). Covers the full spectrum from simple notifications to complex IVR systems and multi-channel authentication. Critical focus on compliance, rate limits, and error handling. Use when: twilio, send SMS, text message, voice call, phone verification."
+description: 'Build communication features with Twilio: SMS messaging, voice calls,
+  WhatsApp Business API, and user verification (2FA). Covers the full spectrum from
+  simple notifications to complex IVR systems and multi-channel authentication. Critical
+  focus on compliance, rate limits, and error handling. Use when: twilio, send SMS,
+  text message, voice call, phone verification.'
 source: vibeship-spawner-skills (Apache 2.0)
+risk: offensive
+license: MIT
 ---
 
-# Twilio Communications
 
+
+
+> [!IMPORTANT]
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only. 
+> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
+
+# Twilio Communications
 ## Patterns
 
 ### SMS Sending Pattern
@@ -293,3 +306,8 @@ def menu_selection():
 | Issue | high | ## Track session windows per user |
 | Issue | critical | ## Never hardcode credentials |
 | Issue | medium | ## Implement application-level rate limiting too |
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for twilio-communications.

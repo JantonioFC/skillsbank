@@ -1,7 +1,13 @@
 ---
 name: airflow-dag-patterns
-description: Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating workflows, or scheduling batch jobs.
+description: Build production Apache Airflow DAGs with best practices for operators,
+  sensors, testing, and deployment. Use when creating data pipelines, orchestrating
+  workflows, or scheduling batch jobs.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Apache Airflow DAG Patterns
 
@@ -39,3 +45,8 @@ Refer to `resources/implementation-playbook.md` for detailed patterns, checklist
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns, checklists, and templates.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for airflow-dag-patterns.

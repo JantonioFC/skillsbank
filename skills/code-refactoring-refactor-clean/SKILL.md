@@ -1,7 +1,13 @@
 ---
 name: code-refactoring-refactor-clean
-description: "You are a code refactoring expert specializing in clean code principles, SOLID design patterns, and modern software engineering best practices. Analyze and refactor the provided code to improve its quality, maintainability, and performance."
+description: You are a code refactoring expert specializing in clean code principles,
+  SOLID design patterns, and modern software engineering best practices. Analyze and
+  refactor the provided code to improve its quality, maintainability, and performance.
+risk: safe
+source: community
+license: MIT
 ---
+
 
 # Refactor and Clean Code
 
@@ -49,3 +55,8 @@ $ARGUMENTS
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for code-refactoring-refactor-clean.
