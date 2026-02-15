@@ -9,9 +9,13 @@ license: MIT
 
 # Startup Metrics Framework
 
+## When to Use
+
+Use this skill as needed to perform the specified automation task.
+
 Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.
 
-## When to Use
+## Overview
 
 Track the right metrics at the right stage. Focus on unit economics, growth efficiency, and cash management metrics that matter for fundraising and operational excellence.
 

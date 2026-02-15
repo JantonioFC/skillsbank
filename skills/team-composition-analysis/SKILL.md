@@ -9,9 +9,13 @@ license: MIT
 
 # Team Composition Analysis
 
+## When to Use
+
+Use this skill as needed to perform the specified automation task.
+
 Design optimal team structures, hiring plans, compensation strategies, and equity allocation for early-stage startups from pre-seed through Series A.
 
-## When to Use
+## Overview
 
 Build the right team at the right time with appropriate compensation and equity. Plan role-by-role hiring aligned with revenue milestones, budget constraints, and market benchmarks.
 

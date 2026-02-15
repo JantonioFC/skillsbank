@@ -9,9 +9,13 @@ license: MIT
 
 # Startup Financial Modeling
 
+## When to Use
+
+Use this skill as needed to perform the specified automation task.
+
 Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups.
 
-## When to Use
+## Overview
 
 Financial modeling provides the quantitative foundation for startup strategy, fundraising, and operational planning. Create realistic projections using cohort-based revenue modeling, detailed cost structures, and scenario analysis to support decision-making and investor presentations.
 

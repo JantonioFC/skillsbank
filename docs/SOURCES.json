@@ -103,7 +103,7 @@
     {
       "id": "wshobson-agents",
       "name": "WShobson Agents",
-      "url": "https://github.com/wshobson/agents",
+      "url": "https://github.com/wshobson/agents/tree/main",
       "author": "wshobson",
       "sync_method": "npx-skills",
       "categories": [

@@ -9,9 +9,13 @@ license: MIT
 
 # Competitive Landscape Analysis
 
+## When to Use
+
+Use this skill as needed to perform the specified automation task.
+
 Comprehensive frameworks for analyzing competition, identifying differentiation opportunities, and developing winning market positioning strategies.
 
-## When to Use
+## Overview
 
 Understand competitive dynamics using proven frameworks (Porter's Five Forces, Blue Ocean Strategy, positioning maps) to identify opportunities and craft defensible competitive advantages.
 

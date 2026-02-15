@@ -8,9 +8,13 @@ license: MIT
 
 # SAST Configuration
 
+## When to Use
+
+Use this skill as needed to perform the specified automation task.
+
 Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages.
 
-## When to Use
+## Overview
 
 This skill provides comprehensive guidance for setting up and configuring SAST tools including Semgrep, SonarQube, and CodeQL. Use this skill when you need to:
 

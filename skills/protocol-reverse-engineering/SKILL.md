@@ -8,6 +8,10 @@ license: MIT
 
 # Protocol Reverse Engineering
 
+## When to Use
+
+Use this skill as needed to perform the specified automation task.
+
 Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging.
 
 ## Traffic Capture
@@ -332,7 +336,7 @@ export SSLKEYLOGFILE=/tmp/keys.log
 ```markdown
 # Protocol Name Specification
 
-## When to Use
+## Overview
 
 Brief description of protocol purpose and design.
 
