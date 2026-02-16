@@ -13,15 +13,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure.ResourceManager.Fabric (.NET)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Management plane SDK for provisioning and managing Microsoft Fabric capacity resources via Azure Resource Manager.
 
 > **Management Plane Only**
@@ -351,7 +349,6 @@ catch (RequestFailedException ex)
 - [GitHub Source](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/fabric/Azure.ResourceManager.Fabric)
 - [Microsoft Fabric Documentation](https://learn.microsoft.com/fabric/)
 - [Fabric Capacity Management](https://learn.microsoft.com/fabric/admin/service-admin-portal-capacity-settings)
-
 
 ## When to Use
 

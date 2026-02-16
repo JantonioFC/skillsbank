@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 859,
+  "total": 961,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -54,6 +54,31 @@
       "path": "skills/ab-test-setup/SKILL.md"
     },
     {
+      "id": "accessibility-compliance",
+      "name": "accessibility-compliance",
+      "description": "Implement WCAG 2.2 compliant interfaces with mobile accessibility, inclusive design patterns, and assistive technology support. Use when auditing accessibility, implementing ARIA patterns, building for screen readers, or ensuring inclusive user experiences.",
+      "category": "security",
+      "tags": [
+        "accessibility",
+        "compliance"
+      ],
+      "triggers": [
+        "accessibility",
+        "compliance",
+        "wcag",
+        "compliant",
+        "interfaces",
+        "mobile",
+        "inclusive",
+        "assistive",
+        "technology",
+        "auditing",
+        "implementing",
+        "aria"
+      ],
+      "path": "skills/accessibility-compliance/SKILL.md"
+    },
+    {
       "id": "accessibility-compliance-accessibility-audit",
       "name": "accessibility-compliance-accessibility-audit",
       "description": "You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility. Conduct audits, identify barriers, and provide remediation guidance.",
@@ -81,7 +106,7 @@
     },
     {
       "id": "active-directory-attacks",
-      "name": "Active Directory Attacks",
+      "name": "active-directory-attacks",
       "description": "This skill should be used when the user asks to \"attack Active Directory\", \"exploit AD\", \"Kerberoasting\", \"DCSync\", \"pass-the-hash\", \"BloodHound enumeration\", \"Golden Ticket\", \"Silver Ticket\", \"AS-REP roasting\", \"NTLM relay\", or needs guidance on Windows domain penetration testing.",
       "category": "security",
       "tags": [
@@ -152,6 +177,31 @@
         "cli"
       ],
       "path": "skills/address-github-comments/SKILL.md"
+    },
+    {
+      "id": "agent-browser",
+      "name": "agent-browser",
+      "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Triggers include requests to \"open a website\", \"fill out a form\", \"click a button\", \"take a screenshot\", \"scrape data from a page\", \"test this web app\", \"login to a site\", \"automate browser actions\", or any task requiring programmatic web interaction.",
+      "category": "data-ai",
+      "tags": [
+        "agent",
+        "browser"
+      ],
+      "triggers": [
+        "agent",
+        "browser",
+        "automation",
+        "cli",
+        "ai",
+        "agents",
+        "user",
+        "interact",
+        "websites",
+        "including",
+        "navigating",
+        "pages"
+      ],
+      "path": "skills/agent-browser/SKILL.md"
     },
     {
       "id": "agent-evaluation",
@@ -360,6 +410,80 @@
       "path": "skills/agent-tool-builder/SKILL.md"
     },
     {
+      "id": "agent-tools",
+      "name": "agent-tools",
+      "description": "Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok",
+      "category": "data-ai",
+      "tags": [
+        "agent"
+      ],
+      "triggers": [
+        "agent",
+        "run",
+        "150",
+        "ai",
+        "apps",
+        "via",
+        "inference",
+        "sh",
+        "cli",
+        "image",
+        "generation",
+        "video"
+      ],
+      "path": "skills/agent-tools/SKILL.md"
+    },
+    {
+      "id": "agent-ui",
+      "name": "agent-ui",
+      "description": "Batteries-included agent component for React/Next.js from ui.inference.sh. One component with runtime, tools, streaming, approvals, and widgets built in. Capabilities: drop-in agent, human-in-the-loop, client-side tools, form filling. Use for: building AI chat interfaces, agentic UIs, SaaS copilots, assistants. Triggers: agent component, agent ui, chat agent, shadcn agent, react agent, agentic ui, ai assistant ui, copilot ui, inference ui, human in the loop",
+      "category": "data-ai",
+      "tags": [
+        "agent",
+        "ui"
+      ],
+      "triggers": [
+        "agent",
+        "ui",
+        "batteries",
+        "included",
+        "component",
+        "react",
+        "next",
+        "js",
+        "inference",
+        "sh",
+        "one",
+        "runtime"
+      ],
+      "path": "skills/agent-ui/SKILL.md"
+    },
+    {
+      "id": "agentic-browser",
+      "name": "agentic-browser",
+      "description": "Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: E2E testing, web research, automation, product demos. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video",
+      "category": "data-ai",
+      "tags": [
+        "agentic",
+        "browser"
+      ],
+      "triggers": [
+        "agentic",
+        "browser",
+        "automation",
+        "ai",
+        "agents",
+        "via",
+        "inference",
+        "sh",
+        "navigate",
+        "web",
+        "pages",
+        "interact"
+      ],
+      "path": "skills/agentic-browser/SKILL.md"
+    },
+    {
       "id": "agents-v2-py",
       "name": "agents-v2-py",
       "description": "Build container-based Foundry Agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition.\nUse when creating hosted agents that run custom code in Azure AI Foundry with your own container images.\nTriggers: \"ImageBasedHostedAgentDefinition\", \"hosted agent\", \"container agent\", \"Foundry Agent\",\n\"create_version\", \"ProtocolVersionRecord\", \"AgentProtocol.RESPONSES\", \"custom agent image\".",
@@ -411,6 +535,82 @@
       "path": "skills/ai-agents-architect/SKILL.md"
     },
     {
+      "id": "ai-automation-workflows",
+      "name": "ai-automation-workflows",
+      "description": "Build automated AI workflows combining multiple models and services. Patterns: batch processing, scheduled tasks, event-driven pipelines, agent loops. Tools: inference.sh CLI, bash scripting, Python SDK, webhook integration. Use for: content automation, data processing, monitoring, scheduled generation. Triggers: ai automation, workflow automation, batch processing, ai pipeline, automated content, scheduled ai, ai cron, ai batch job, automated generation, ai workflow, content at scale, automation script, ai orchestration",
+      "category": "infrastructure",
+      "tags": [
+        "ai"
+      ],
+      "triggers": [
+        "ai",
+        "automation",
+        "automated",
+        "combining",
+        "multiple",
+        "models",
+        "batch",
+        "processing",
+        "scheduled",
+        "tasks",
+        "event",
+        "driven"
+      ],
+      "path": "skills/ai-automation-workflows/SKILL.md"
+    },
+    {
+      "id": "ai-avatar-video",
+      "name": "ai-avatar-video",
+      "description": "Create AI avatar and talking head videos with OmniHuman, Fabric, PixVerse via inference.sh CLI. Models: OmniHuman 1.5, OmniHuman 1.0, Fabric 1.0, PixVerse Lipsync. Capabilities: audio-driven avatars, lipsync videos, talking head generation, virtual presenters. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human",
+      "category": "data-ai",
+      "tags": [
+        "ai",
+        "avatar",
+        "video"
+      ],
+      "triggers": [
+        "ai",
+        "avatar",
+        "video",
+        "talking",
+        "head",
+        "videos",
+        "omnihuman",
+        "fabric",
+        "pixverse",
+        "via",
+        "inference",
+        "sh"
+      ],
+      "path": "skills/ai-avatar-video/SKILL.md"
+    },
+    {
+      "id": "ai-content-pipeline",
+      "name": "ai-content-pipeline",
+      "description": "Build multi-step AI content creation pipelines combining image, video, audio, and text. Workflow examples: generate image -> animate -> add voiceover -> merge with music. Tools: FLUX, Veo, Kokoro TTS, OmniHuman, media merger, upscaling. Use for: YouTube videos, social media content, marketing materials, automated content. Triggers: content pipeline, ai workflow, content creation, multi-step ai, content automation, ai video workflow, generate and edit, ai content factory, automated content creation, ai production pipeline, media pipeline, content at scale",
+      "category": "infrastructure",
+      "tags": [
+        "ai",
+        "content",
+        "pipeline"
+      ],
+      "triggers": [
+        "ai",
+        "content",
+        "pipeline",
+        "multi",
+        "step",
+        "creation",
+        "pipelines",
+        "combining",
+        "image",
+        "video",
+        "audio",
+        "text"
+      ],
+      "path": "skills/ai-content-pipeline/SKILL.md"
+    },
+    {
       "id": "ai-engineer",
       "name": "ai-engineer",
       "description": "Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations. Use PROACTIVELY for LLM features, chatbots, AI agents, or AI-powered applications.",
@@ -433,6 +633,110 @@
         "agent"
       ],
       "path": "skills/ai-engineer/SKILL.md"
+    },
+    {
+      "id": "ai-image-generation",
+      "name": "ai-image-generation",
+      "description": "Generate AI images with FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image",
+      "category": "data-ai",
+      "tags": [
+        "ai",
+        "image",
+        "generation"
+      ],
+      "triggers": [
+        "ai",
+        "image",
+        "generation",
+        "generate",
+        "images",
+        "flux",
+        "gemini",
+        "grok",
+        "seedream",
+        "reve",
+        "50",
+        "models"
+      ],
+      "path": "skills/ai-image-generation/SKILL.md"
+    },
+    {
+      "id": "ai-marketing-videos",
+      "name": "ai-marketing-videos",
+      "description": "Create AI marketing videos for ads, promos, product launches, and brand content. Models: Veo, Seedance, Wan, FLUX for visuals, Kokoro for voiceover. Types: product demos, testimonials, explainers, social ads, brand videos. Use for: Facebook ads, YouTube ads, product launches, brand awareness. Triggers: marketing video, ad video, promo video, commercial, brand video, product video, explainer video, ad creative, video ad, facebook ad video, youtube ad, instagram ad, tiktok ad, promotional video, launch video",
+      "category": "data-ai",
+      "tags": [
+        "ai",
+        "marketing",
+        "videos"
+      ],
+      "triggers": [
+        "ai",
+        "marketing",
+        "videos",
+        "ads",
+        "promos",
+        "product",
+        "launches",
+        "brand",
+        "content",
+        "models",
+        "veo",
+        "seedance"
+      ],
+      "path": "skills/ai-marketing-videos/SKILL.md"
+    },
+    {
+      "id": "ai-music-generation",
+      "name": "ai-music-generation",
+      "description": "Generate AI music and songs with Diffrythm, Tencent Song Generation via inference.sh CLI. Models: Diffrythm (fast song generation), Tencent Song Generation (full songs with vocals). Capabilities: text-to-music, song generation, instrumental, lyrics to song, soundtrack creation. Use for: background music, social media content, game soundtracks, podcasts, royalty-free music. Triggers: music generation, ai music, generate song, ai composer, text to music, song generator, create music with ai, suno alternative, udio alternative, ai song, ai soundtrack, generate soundtrack, ai jingle, music ai, beat generator",
+      "category": "data-ai",
+      "tags": [
+        "ai",
+        "music",
+        "generation"
+      ],
+      "triggers": [
+        "ai",
+        "music",
+        "generation",
+        "generate",
+        "songs",
+        "diffrythm",
+        "tencent",
+        "song",
+        "via",
+        "inference",
+        "sh",
+        "cli"
+      ],
+      "path": "skills/ai-music-generation/SKILL.md"
+    },
+    {
+      "id": "ai-podcast-creation",
+      "name": "ai-podcast-creation",
+      "description": "Create AI-powered podcasts with text-to-speech, music, and audio editing. Tools: Kokoro TTS, DIA TTS, Chatterbox, AI music generation, media merger. Capabilities: multi-voice conversations, background music, intro/outro, full episodes. Use for: podcast production, audiobooks, voice content, audio newsletters. Triggers: podcast, ai podcast, text to speech podcast, audio content, voice over, ai audiobook, multi voice, conversation ai, notebooklm alternative, audio generation, podcast automation, ai narrator, voice content, audio newsletter, podcast maker",
+      "category": "data-ai",
+      "tags": [
+        "ai",
+        "podcast",
+        "creation"
+      ],
+      "triggers": [
+        "ai",
+        "podcast",
+        "creation",
+        "powered",
+        "podcasts",
+        "text",
+        "speech",
+        "music",
+        "audio",
+        "editing",
+        "kokoro",
+        "tts"
+      ],
+      "path": "skills/ai-podcast-creation/SKILL.md"
     },
     {
       "id": "ai-product",
@@ -458,6 +762,137 @@
         "apart"
       ],
       "path": "skills/ai-product/SKILL.md"
+    },
+    {
+      "id": "ai-product-photography",
+      "name": "ai-product-photography",
+      "description": "Generate professional AI product photography and commercial images. Models: FLUX, Imagen 3, Grok, Seedream for product shots, lifestyle images, mockups. Capabilities: studio lighting, lifestyle scenes, packaging, e-commerce photos. Use for: e-commerce, Amazon listings, Shopify, marketing, advertising, mockups. Triggers: product photography, product shot, commercial photography, e-commerce images, amazon product photo, shopify images, product mockup, studio product shot, lifestyle product image, advertising photo, packshot, product render, product image ai",
+      "category": "data-ai",
+      "tags": [
+        "ai",
+        "product",
+        "photography"
+      ],
+      "triggers": [
+        "ai",
+        "product",
+        "photography",
+        "generate",
+        "professional",
+        "commercial",
+        "images",
+        "models",
+        "flux",
+        "imagen",
+        "grok",
+        "seedream"
+      ],
+      "path": "skills/ai-product-photography/SKILL.md"
+    },
+    {
+      "id": "ai-rag-pipeline",
+      "name": "ai-rag-pipeline",
+      "description": "Build RAG (Retrieval Augmented Generation) pipelines with web search and LLMs. Tools: Tavily Search, Exa Search, Exa Answer, Claude, GPT-4, Gemini via OpenRouter. Capabilities: research, fact-checking, grounded responses, knowledge retrieval. Use for: AI agents, research assistants, fact-checkers, knowledge bases. Triggers: rag, retrieval augmented generation, grounded ai, search and answer, research agent, fact checking, knowledge retrieval, ai research, search + llm, web grounded, perplexity alternative, ai with sources, citation, research pipeline",
+      "category": "infrastructure",
+      "tags": [
+        "ai",
+        "rag",
+        "pipeline"
+      ],
+      "triggers": [
+        "ai",
+        "rag",
+        "pipeline",
+        "retrieval",
+        "augmented",
+        "generation",
+        "pipelines",
+        "web",
+        "search",
+        "llms",
+        "tavily",
+        "exa"
+      ],
+      "path": "skills/ai-rag-pipeline/SKILL.md"
+    },
+    {
+      "id": "ai-social-media-content",
+      "name": "ai-social-media-content",
+      "description": "Create AI-powered social media content for TikTok, Instagram, YouTube, Twitter/X. Generate: images, videos, reels, shorts, thumbnails, captions, hashtags. Tools: FLUX, Veo, Seedance, Wan, Kokoro TTS, Claude for copywriting. Use for: content creators, social media managers, influencers, brands. Triggers: social media content, tiktok, instagram reels, youtube shorts, twitter post, content creator, ai influencer, social content, reels, shorts, viral content, thumbnail generator, caption generator, hashtag generator, ugc content",
+      "category": "data-ai",
+      "tags": [
+        "ai",
+        "social",
+        "media",
+        "content"
+      ],
+      "triggers": [
+        "ai",
+        "social",
+        "media",
+        "content",
+        "powered",
+        "tiktok",
+        "instagram",
+        "youtube",
+        "twitter",
+        "generate",
+        "images",
+        "videos"
+      ],
+      "path": "skills/ai-social-media-content/SKILL.md"
+    },
+    {
+      "id": "ai-video-generation",
+      "name": "ai-video-generation",
+      "description": "Generate AI videos with Google Veo, Seedance, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 1.5 Pro, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative",
+      "category": "data-ai",
+      "tags": [
+        "ai",
+        "video",
+        "generation"
+      ],
+      "triggers": [
+        "ai",
+        "video",
+        "generation",
+        "generate",
+        "videos",
+        "google",
+        "veo",
+        "seedance",
+        "wan",
+        "grok",
+        "40",
+        "models"
+      ],
+      "path": "skills/ai-video-generation/SKILL.md"
+    },
+    {
+      "id": "ai-voice-cloning",
+      "name": "ai-voice-cloning",
+      "description": "AI voice generation, text-to-speech, and voice synthesis via inference.sh CLI. Models: Kokoro TTS, DIA, Chatterbox, Higgs, VibeVoice for natural speech. Capabilities: multiple voices, emotions, accents, long-form narration, conversation. Use for: voiceovers, audiobooks, podcasts, video narration, accessibility. Triggers: voice cloning, tts, text to speech, ai voice, voice generation, voice synthesis, voice over, narration, speech synthesis, ai narrator, elevenlabs alternative, natural voice, realistic speech, voice ai",
+      "category": "data-ai",
+      "tags": [
+        "ai",
+        "voice",
+        "cloning"
+      ],
+      "triggers": [
+        "ai",
+        "voice",
+        "cloning",
+        "generation",
+        "text",
+        "speech",
+        "synthesis",
+        "via",
+        "inference",
+        "sh",
+        "cli",
+        "models"
+      ],
+      "path": "skills/ai-voice-cloning/SKILL.md"
     },
     {
       "id": "ai-wrapper-product",
@@ -609,7 +1044,7 @@
     {
       "id": "analytics-tracking",
       "name": "analytics-tracking",
-      "description": "Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data. Use when the user wants to set up, fix, or evaluate analytics tracking (GA4, GTM, product analytics, events, conversions, UTMs). This skill focuses on measurement strategy, signal quality, and validation— not just firing events.",
+      "description": "Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data. Use when the user wants to set up, fix, or evaluate analytics tracking (GA4, GTM, product analytics, events, conversions, UTMs). This skill focuses on measurement strategy, signal quality, and validation— not just firing events.\n'",
       "category": "data-ai",
       "tags": [
         "analytics",
@@ -883,7 +1318,7 @@
     },
     {
       "id": "api-fuzzing-bug-bounty",
-      "name": "API Fuzzing for Bug Bounty",
+      "name": "api-fuzzing-bug-bounty",
       "description": "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques.",
       "category": "security",
       "tags": [
@@ -1060,6 +1495,32 @@
         "apple"
       ],
       "path": "skills/app-store-optimization/SKILL.md"
+    },
+    {
+      "id": "app-store-screenshots",
+      "name": "app-store-screenshots",
+      "description": "App Store and Google Play screenshot creation with exact platform specs. Covers iOS/Android dimensions, gallery ordering, device mockups, and preview videos. Use for: app store optimization, ASO, app screenshots, app preview, play store listing. Triggers: app store screenshots, aso, app store optimization, play store screenshots, app preview, app listing, ios screenshots, android screenshots, app store images, app mockup, device mockup, app gallery, store listing",
+      "category": "development",
+      "tags": [
+        "app",
+        "store",
+        "screenshots"
+      ],
+      "triggers": [
+        "app",
+        "store",
+        "screenshots",
+        "google",
+        "play",
+        "screenshot",
+        "creation",
+        "exact",
+        "platform",
+        "specs",
+        "covers",
+        "ios"
+      ],
+      "path": "skills/app-store-screenshots/SKILL.md"
     },
     {
       "id": "application-performance-performance-optimization",
@@ -1311,6 +1772,31 @@
       "path": "skills/audio-transcriber/SKILL.md"
     },
     {
+      "id": "audit-website",
+      "name": "audit-website",
+      "description": "Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 230+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health.",
+      "category": "security",
+      "tags": [
+        "audit",
+        "website"
+      ],
+      "triggers": [
+        "audit",
+        "website",
+        "websites",
+        "seo",
+        "performance",
+        "security",
+        "technical",
+        "content",
+        "15",
+        "other",
+        "issue",
+        "cateories"
+      ],
+      "path": "skills/audit-website/SKILL.md"
+    },
+    {
       "id": "auth-implementation-patterns",
       "name": "auth-implementation-patterns",
       "description": "Master authentication and authorization patterns including JWT, OAuth2, session management, and RBAC to build secure, scalable access control systems. Use when implementing auth systems, securing APIs, or debugging security issues.",
@@ -1482,7 +1968,7 @@
     },
     {
       "id": "aws-penetration-testing",
-      "name": "AWS Penetration Testing",
+      "name": "aws-penetration-testing",
       "description": "This skill should be used when the user asks to \"pentest AWS\", \"test AWS security\", \"enumerate IAM\", \"exploit cloud infrastructure\", \"AWS privilege escalation\", \"S3 bucket testing\", \"metadata SSRF\", \"Lambda exploitation\", or needs guidance on Amazon Web Services security assessment.",
       "category": "security",
       "tags": [
@@ -1984,7 +2470,7 @@
     {
       "id": "azure-ai-projects-ts",
       "name": "azure-ai-projects-ts",
-      "description": "Build AI applications using Azure AI Projects SDK for JavaScript (@azure/ai-projects). Use when working with Foundry project clients, agents, connections, deployments, datasets, indexes, evaluations, or getting OpenAI clients.",
+      "description": "Build applications using Azure AI Projects SDK for JavaScript (@azure/ai-projects). Use when working with Foundry projects, agents, and AI services.",
       "category": "data-ai",
       "tags": [
         "azure",
@@ -2000,10 +2486,7 @@
         "javascript",
         "working",
         "foundry",
-        "clients",
-        "agents",
-        "connections",
-        "deployments"
+        "agents"
       ],
       "path": "skills/azure-ai-projects-ts/SKILL.md"
     },
@@ -3258,7 +3741,7 @@
     {
       "id": "azure-keyvault-secrets-ts",
       "name": "azure-keyvault-secrets-ts",
-      "description": "Manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets). Use when storing and retrieving application secrets or configuration values.",
+      "description": "Build applications using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets). Use when storing and retrieving secrets, managing secret versions, and securing application settings.",
       "category": "security",
       "tags": [
         "azure",
@@ -3271,14 +3754,14 @@
         "keyvault",
         "secrets",
         "ts",
+        "applications",
         "key",
         "vault",
         "sdk",
         "javascript",
         "storing",
         "retrieving",
-        "application",
-        "configuration"
+        "managing"
       ],
       "path": "skills/azure-keyvault-secrets-ts/SKILL.md"
     },
@@ -4211,8 +4694,8 @@
     {
       "id": "azure-search-documents-ts",
       "name": "azure-search-documents-ts",
-      "description": "Build search applications using Azure AI Search SDK for JavaScript (@azure/search-documents). Use when creating/managing indexes, implementing vector/hybrid search, semantic ranking, or building agentic retrieval with knowledge bases.",
-      "category": "data-ai",
+      "description": "Build applications using Azure Search Documents SDK for JavaScript (@azure/search-documents). Use when creating/managing indexes, uploading documents, and performing searches.",
+      "category": "development",
       "tags": [
         "azure",
         "search",
@@ -4225,13 +4708,13 @@
         "documents",
         "ts",
         "applications",
-        "ai",
         "sdk",
         "javascript",
         "creating",
         "managing",
         "indexes",
-        "implementing"
+        "uploading",
+        "performing"
       ],
       "path": "skills/azure-search-documents-ts/SKILL.md"
     },
@@ -4799,6 +5282,31 @@
       "path": "skills/backend-security-coder/SKILL.md"
     },
     {
+      "id": "background-removal",
+      "name": "background-removal",
+      "description": "Remove backgrounds from images with BiRefNet via inference.sh CLI. Model: BiRefNet (high accuracy background removal). Use for: product photos, portraits, e-commerce, transparent PNGs, photo editing. Triggers: remove background, background removal, remove bg, transparent background, cut out image, background remover, rembg, product photo editing, cutout, transparent png, bg removal, photo cutout",
+      "category": "business",
+      "tags": [
+        "background",
+        "removal"
+      ],
+      "triggers": [
+        "background",
+        "removal",
+        "remove",
+        "backgrounds",
+        "images",
+        "birefnet",
+        "via",
+        "inference",
+        "sh",
+        "cli",
+        "model",
+        "high"
+      ],
+      "path": "skills/background-removal/SKILL.md"
+    },
+    {
       "id": "backtesting-frameworks",
       "name": "backtesting-frameworks",
       "description": "Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs. Use when developing trading algorithms, validating strategies, or building backtesting infrastructure.",
@@ -5165,6 +5673,31 @@
       "path": "skills/blockrun/SKILL.md"
     },
     {
+      "id": "book-cover-design",
+      "name": "book-cover-design",
+      "description": "Book cover design with genre-specific conventions, typography rules, and AI image generation. Covers fiction and non-fiction genres, sizing, thumbnail testing, and iteration workflows. Use for: self-publishing, ebook covers, print covers, audiobook covers, cover mockups. Triggers: book cover, cover design, ebook cover, book art, novel cover, self publishing cover, kindle cover, audiobook cover, book jacket, cover illustration, fiction cover, nonfiction cover",
+      "category": "data-ai",
+      "tags": [
+        "book",
+        "cover"
+      ],
+      "triggers": [
+        "book",
+        "cover",
+        "genre",
+        "specific",
+        "conventions",
+        "typography",
+        "rules",
+        "ai",
+        "image",
+        "generation",
+        "covers",
+        "fiction"
+      ],
+      "path": "skills/book-cover-design/SKILL.md"
+    },
+    {
       "id": "box-automation",
       "name": "box-automation",
       "description": "Automate Box cloud storage operations including file upload/download, search, folder management, sharing, collaborations, and metadata queries via Rube MCP (Composio). Always search tools first for current schemas.",
@@ -5191,30 +5724,30 @@
     {
       "id": "brainstorming",
       "name": "brainstorming",
-      "description": "Use this skill before any creative or constructive work (features, components, architecture, behavior changes, or functionality). This skill transforms vague ideas into validated designs through disciplined, incremental reasoning and collaboration.",
-      "category": "architecture",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "category": "general",
       "tags": [
         "brainstorming"
       ],
       "triggers": [
         "brainstorming",
-        "skill",
+        "must",
         "before",
         "any",
         "creative",
-        "constructive",
         "work",
+        "creating",
         "features",
+        "building",
         "components",
-        "architecture",
-        "behavior",
-        "changes"
+        "adding",
+        "functionality"
       ],
       "path": "skills/brainstorming/SKILL.md"
     },
     {
       "id": "brand-guidelines-anthropic",
-      "name": "brand-guidelines",
+      "name": "brand-guidelines-anthropic",
       "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
       "category": "general",
       "tags": [
@@ -5240,7 +5773,7 @@
     },
     {
       "id": "brand-guidelines-community",
-      "name": "brand-guidelines",
+      "name": "brand-guidelines-community",
       "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
       "category": "general",
       "tags": [
@@ -5290,7 +5823,7 @@
     },
     {
       "id": "broken-authentication",
-      "name": "Broken Authentication Testing",
+      "name": "broken-authentication",
       "description": "This skill should be used when the user asks to \"test for broken authentication vulnerabilities\", \"assess session management security\", \"perform credential stuffing tests\", \"evaluate password policies\", \"test for session fixation\", or \"identify authentication bypass flaws\". It provides comprehensive techniques for identifying authentication and session management weaknesses in web applications.",
       "category": "security",
       "tags": [
@@ -5300,7 +5833,6 @@
       "triggers": [
         "broken",
         "authentication",
-        "testing",
         "skill",
         "should",
         "used",
@@ -5309,7 +5841,8 @@
         "test",
         "vulnerabilities",
         "assess",
-        "session"
+        "session",
+        "security"
       ],
       "path": "skills/broken-authentication/SKILL.md"
     },
@@ -5364,6 +5897,31 @@
       "path": "skills/browser-extension-builder/SKILL.md"
     },
     {
+      "id": "browser-use",
+      "name": "browser-use",
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or extract information from web pages.",
+      "category": "data-ai",
+      "tags": [
+        "browser",
+        "use"
+      ],
+      "triggers": [
+        "browser",
+        "use",
+        "automates",
+        "interactions",
+        "web",
+        "testing",
+        "form",
+        "filling",
+        "screenshots",
+        "data",
+        "extraction",
+        "user"
+      ],
+      "path": "skills/browser-use/SKILL.md"
+    },
+    {
       "id": "bullmq-specialist",
       "name": "bullmq-specialist",
       "description": "BullMQ expert for Redis-backed job queues, background processing, and reliable async execution in Node.js/TypeScript applications. Use when: bullmq, bull queue, redis queue, background job, job queue.",
@@ -5413,7 +5971,7 @@
     },
     {
       "id": "burp-suite-testing",
-      "name": "Burp Suite Web Application Testing",
+      "name": "burp-suite-testing",
       "description": "This skill should be used when the user asks to \"intercept HTTP traffic\", \"modify web requests\", \"use Burp Suite for testing\", \"perform web vulnerability scanning\", \"test with Burp Repeater\", \"analyze HTTP history\", or \"configure proxy for web testing\". It provides comprehensive guidance for using Burp Suite's core features for web application security testing.",
       "category": "security",
       "tags": [
@@ -5423,8 +5981,6 @@
       "triggers": [
         "burp",
         "suite",
-        "web",
-        "application",
         "testing",
         "skill",
         "should",
@@ -5432,7 +5988,9 @@
         "user",
         "asks",
         "intercept",
-        "http"
+        "http",
+        "traffic",
+        "modify"
       ],
       "path": "skills/burp-suite-testing/SKILL.md"
     },
@@ -5731,8 +6289,34 @@
       "path": "skills/canvas-design/SKILL.md"
     },
     {
+      "id": "case-study-writing",
+      "name": "case-study-writing",
+      "description": "B2B case study writing with STAR framework, data visualization, and research. Covers structure, customer quotes, metrics presentation, and distribution formats. Use for: customer success stories, portfolio pieces, sales enablement, marketing content. Triggers: case study, customer story, success story, b2b case study, client testimonial, customer case study, portfolio case study, use case, customer win, results story",
+      "category": "data-ai",
+      "tags": [
+        "case",
+        "study",
+        "writing"
+      ],
+      "triggers": [
+        "case",
+        "study",
+        "writing",
+        "b2b",
+        "star",
+        "framework",
+        "data",
+        "visualization",
+        "research",
+        "covers",
+        "structure",
+        "customer"
+      ],
+      "path": "skills/case-study-writing/SKILL.md"
+    },
+    {
       "id": "cc-skill-backend-patterns",
-      "name": "backend-patterns",
+      "name": "cc-skill-backend-patterns",
       "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.",
       "category": "data-ai",
       "tags": [
@@ -5758,7 +6342,7 @@
     },
     {
       "id": "cc-skill-clickhouse-io",
-      "name": "clickhouse-io",
+      "name": "cc-skill-clickhouse-io",
       "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.",
       "category": "data-ai",
       "tags": [
@@ -5785,7 +6369,7 @@
     },
     {
       "id": "cc-skill-coding-standards",
-      "name": "coding-standards",
+      "name": "cc-skill-coding-standards",
       "description": "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.",
       "category": "development",
       "tags": [
@@ -5834,7 +6418,7 @@
     },
     {
       "id": "cc-skill-frontend-patterns",
-      "name": "frontend-patterns",
+      "name": "cc-skill-frontend-patterns",
       "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
       "category": "development",
       "tags": [
@@ -5878,7 +6462,7 @@
     },
     {
       "id": "cc-skill-security-review",
-      "name": "security-review",
+      "name": "cc-skill-security-review",
       "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
       "category": "security",
       "tags": [
@@ -5948,6 +6532,56 @@
         "up"
       ],
       "path": "skills/changelog-automation/SKILL.md"
+    },
+    {
+      "id": "character-design-sheet",
+      "name": "character-design-sheet",
+      "description": "Character consistency across AI-generated images with reference sheets and LoRA techniques. Covers turnaround views, expression sheets, color palettes, and style consistency tricks. Use for: character design, game art, illustration, animation, comics, visual novels. Triggers: character design, character sheet, character consistency, character reference, turnaround sheet, expression sheet, character art, consistent character, character concept, reference sheet, character creation, oc design, character bible",
+      "category": "data-ai",
+      "tags": [
+        "character",
+        "sheet"
+      ],
+      "triggers": [
+        "character",
+        "sheet",
+        "consistency",
+        "ai",
+        "generated",
+        "images",
+        "reference",
+        "sheets",
+        "lora",
+        "techniques",
+        "covers",
+        "turnaround"
+      ],
+      "path": "skills/character-design-sheet/SKILL.md"
+    },
+    {
+      "id": "chat-ui",
+      "name": "chat-ui",
+      "description": "Chat UI building blocks for React/Next.js from ui.inference.sh. Components: container, messages, input, typing indicators, avatars. Capabilities: chat interfaces, message lists, input handling, streaming. Use for: building custom chat UIs, messaging interfaces, AI assistants. Triggers: chat ui, chat component, message list, chat input, shadcn chat, react chat, chat interface, messaging ui, conversation ui, chat building blocks",
+      "category": "data-ai",
+      "tags": [
+        "chat",
+        "ui"
+      ],
+      "triggers": [
+        "chat",
+        "ui",
+        "building",
+        "blocks",
+        "react",
+        "next",
+        "js",
+        "inference",
+        "sh",
+        "components",
+        "container",
+        "messages"
+      ],
+      "path": "skills/chat-ui/SKILL.md"
     },
     {
       "id": "cicd-automation-workflow-automate",
@@ -6051,7 +6685,7 @@
     },
     {
       "id": "claude-code-guide",
-      "name": "Claude Code Guide",
+      "name": "claude-code-guide",
       "description": "Master guide for using Claude Code effectively. Includes configuration templates, prompting strategies \"Thinking\" keywords, debugging techniques, and best practices for interacting with the agent.",
       "category": "general",
       "tags": [
@@ -6076,7 +6710,7 @@
     },
     {
       "id": "claude-d3js-skill",
-      "name": "d3-viz",
+      "name": "claude-d3js-skill",
       "description": "Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires fine-grained control over visual elements, transitions, or interactions. Use this for bespoke visualisations beyond standard charting libraries, whether in React, Vue, Svelte, vanilla JavaScript, or any other environment.",
       "category": "infrastructure",
       "tags": [
@@ -6088,15 +6722,15 @@
         "claude",
         "d3js",
         "skill",
-        "d3",
-        "viz",
         "creating",
         "interactive",
         "data",
         "visualisations",
+        "d3",
         "js",
         "should",
-        "used"
+        "used",
+        "custom"
       ],
       "path": "skills/claude-d3js-skill/SKILL.md"
     },
@@ -6167,6 +6801,27 @@
         "11"
       ],
       "path": "skills/claude-win11-speckit-update-skill/SKILL.md"
+    },
+    {
+      "id": "claude.ai/vercel-deploy-claimable",
+      "name": "vercel-deploy-claimable",
+      "description": "Vercel patterns for claimable deployments and ephemeral environments.",
+      "category": "architecture",
+      "tags": [
+        "claude.ai/vercel",
+        "deploy",
+        "claimable"
+      ],
+      "triggers": [
+        "claude.ai/vercel",
+        "deploy",
+        "claimable",
+        "vercel",
+        "deployments",
+        "ephemeral",
+        "environments"
+      ],
+      "path": "skills/claude.ai/vercel-deploy-claimable/SKILL.md"
     },
     {
       "id": "clean-code",
@@ -6291,7 +6946,7 @@
     },
     {
       "id": "cloud-penetration-testing",
-      "name": "Cloud Penetration Testing",
+      "name": "cloud-penetration-testing",
       "description": "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O365 security\", \"extract secrets from cloud environments\", or \"audit cloud infrastructure\". It provides comprehensive techniques for security assessment across major cloud platforms.",
       "category": "security",
       "tags": [
@@ -6739,6 +7394,50 @@
       "path": "skills/competitor-alternatives/SKILL.md"
     },
     {
+      "id": "competitor-teardown",
+      "name": "competitor-teardown",
+      "description": "Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, and visual deliverables. Use for: market research, competitive intelligence, investor decks, product strategy, sales enablement. Triggers: competitor analysis, competitive analysis, competitor teardown, market research, competitive intelligence, swot analysis, competitor comparison, market landscape, competitor review, competitive landscape, feature comparison, market positioning",
+      "category": "business",
+      "tags": [
+        "competitor",
+        "teardown"
+      ],
+      "triggers": [
+        "competitor",
+        "teardown",
+        "structured",
+        "competitive",
+        "analysis",
+        "feature",
+        "matrices",
+        "swot",
+        "positioning",
+        "maps",
+        "ux",
+        "review"
+      ],
+      "path": "skills/competitor-teardown/SKILL.md"
+    },
+    {
+      "id": "composition-patterns",
+      "name": "composition-patterns",
+      "description": "Advanced React composition patterns for building scalable and maintainable user interfaces.",
+      "category": "development",
+      "tags": [
+        "composition"
+      ],
+      "triggers": [
+        "composition",
+        "react",
+        "building",
+        "scalable",
+        "maintainable",
+        "user",
+        "interfaces"
+      ],
+      "path": "skills/composition-patterns/SKILL.md"
+    },
+    {
       "id": "comprehensive-review-full-review",
       "name": "comprehensive-review-full-review",
       "description": "Use when working with comprehensive review full review",
@@ -7085,6 +7784,31 @@
         "seo"
       ],
       "path": "skills/content-marketer/SKILL.md"
+    },
+    {
+      "id": "content-repurposing",
+      "name": "content-repurposing",
+      "description": "Content atomization — turn one piece of content into many formats. Covers blog-to-thread, blog-to-carousel, podcast-to-blog, video-to-quotes, and more. Use for: content marketing, social media, multi-platform distribution, content strategy. Triggers: content repurposing, repurpose content, content atomization, content recycling, one to many content, multi platform content, cross post, adapt content, reformat content, blog to thread, blog to video, podcast to blog, content multiplication",
+      "category": "business",
+      "tags": [
+        "content",
+        "repurposing"
+      ],
+      "triggers": [
+        "content",
+        "repurposing",
+        "atomization",
+        "turn",
+        "one",
+        "piece",
+        "many",
+        "formats",
+        "covers",
+        "blog",
+        "thread",
+        "carousel"
+      ],
+      "path": "skills/content-repurposing/SKILL.md"
     },
     {
       "id": "context-compression",
@@ -7599,6 +8323,31 @@
       "path": "skills/culture-index/SKILL.md"
     },
     {
+      "id": "customer-persona",
+      "name": "customer-persona",
+      "description": "Research-backed customer persona creation with market data and avatar generation. Covers demographics, psychographics, jobs-to-be-done, journey mapping, and anti-personas. Use for: marketing strategy, product development, UX research, sales enablement, content strategy. Triggers: customer persona, buyer persona, user persona, target audience, ideal customer, customer profile, audience research, user research, icp, ideal customer profile, target market, customer avatar, audience persona",
+      "category": "data-ai",
+      "tags": [
+        "customer",
+        "persona"
+      ],
+      "triggers": [
+        "customer",
+        "persona",
+        "research",
+        "backed",
+        "creation",
+        "market",
+        "data",
+        "avatar",
+        "generation",
+        "covers",
+        "demographics",
+        "psychographics"
+      ],
+      "path": "skills/customer-persona/SKILL.md"
+    },
+    {
       "id": "customer-support",
       "name": "customer-support",
       "description": "Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences. Integrates modern support tools, chatbot platforms, and CX optimization with 2024/2025 best practices. Use PROACTIVELY for comprehensive customer experience management.",
@@ -7800,6 +8549,31 @@
         "stakeholders"
       ],
       "path": "skills/data-storytelling/SKILL.md"
+    },
+    {
+      "id": "data-visualization",
+      "name": "data-visualization",
+      "description": "Data visualization with chart selection, color theory, and annotation best practices. Covers chart types (bar, line, scatter, heatmap), axes rules, and storytelling with data. Use for: charts, graphs, dashboards, reports, presentations, infographics, data stories. Triggers: data visualization, chart, graph, data chart, bar chart, line chart, scatter plot, data viz, visualization, dashboard chart, infographic data, data presentation, chart design, plot, heatmap, pie chart alternative",
+      "category": "data-ai",
+      "tags": [
+        "data",
+        "visualization"
+      ],
+      "triggers": [
+        "data",
+        "visualization",
+        "chart",
+        "selection",
+        "color",
+        "theory",
+        "annotation",
+        "covers",
+        "types",
+        "bar",
+        "line",
+        "scatter"
+      ],
+      "path": "skills/data-visualization/SKILL.md"
     },
     {
       "id": "database-admin",
@@ -8368,6 +9142,28 @@
       "path": "skills/design-orchestration/SKILL.md"
     },
     {
+      "id": "design-system-patterns",
+      "name": "design-system-patterns",
+      "description": "Build scalable design systems with design tokens, theming infrastructure, and component architecture patterns. Use when creating design tokens, implementing theme switching, building component libraries, or establishing design system foundations.",
+      "category": "architecture",
+      "tags": [],
+      "triggers": [
+        "scalable",
+        "tokens",
+        "theming",
+        "infrastructure",
+        "component",
+        "architecture",
+        "creating",
+        "implementing",
+        "theme",
+        "switching",
+        "building",
+        "libraries"
+      ],
+      "path": "skills/design-system-patterns/SKILL.md"
+    },
+    {
       "id": "devops-troubleshooter",
       "name": "devops-troubleshooter",
       "description": "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. Masters log analysis, distributed tracing, Kubernetes debugging, performance optimization, and root cause analysis. Handles production outages, system reliability, and preventive monitoring. Use PROACTIVELY for debugging, incident response, or system troubleshooting.",
@@ -8391,6 +9187,31 @@
         "distributed"
       ],
       "path": "skills/devops-troubleshooter/SKILL.md"
+    },
+    {
+      "id": "dialogue-audio",
+      "name": "dialogue-audio",
+      "description": "Multi-speaker dialogue audio creation with Dia TTS. Covers speaker tags, emotion control, pacing, conversation flow, and post-production. Use for: podcasts, audiobooks, explainers, character dialogue, conversational content. Triggers: dialogue audio, multi speaker, conversation audio, dia tts, two speakers, podcast audio, character voices, voice acting, dialogue generation, conversation tts, multi voice, speaker tags, dialogue recording",
+      "category": "general",
+      "tags": [
+        "dialogue",
+        "audio"
+      ],
+      "triggers": [
+        "dialogue",
+        "audio",
+        "multi",
+        "speaker",
+        "creation",
+        "dia",
+        "tts",
+        "covers",
+        "tags",
+        "emotion",
+        "control",
+        "pacing"
+      ],
+      "path": "skills/dialogue-audio/SKILL.md"
     },
     {
       "id": "discord-automation",
@@ -8690,8 +9511,32 @@
       "path": "skills/docusign-automation/SKILL.md"
     },
     {
-      "id": "docx-official",
+      "id": "docx",
       "name": "docx",
+      "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
+      "category": "general",
+      "tags": [
+        "docx"
+      ],
+      "triggers": [
+        "docx",
+        "document",
+        "creation",
+        "editing",
+        "analysis",
+        "tracked",
+        "changes",
+        "comments",
+        "formatting",
+        "preservation",
+        "text",
+        "extraction"
+      ],
+      "path": "skills/docx/SKILL.md"
+    },
+    {
+      "id": "docx-official",
+      "name": "docx-official",
       "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
       "category": "general",
       "tags": [
@@ -8882,6 +9727,30 @@
         "concurrency"
       ],
       "path": "skills/elixir-pro/SKILL.md"
+    },
+    {
+      "id": "email-design",
+      "name": "email-design",
+      "description": "Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails, transactional templates, and mobile optimization. Use for: email marketing, newsletter design, drip campaigns, email templates, transactional emails. Triggers: email design, email template, email marketing, newsletter design, email layout, email campaign, drip campaign, welcome email, promotional email, transactional email, email subject line, email header image, email banner",
+      "category": "development",
+      "tags": [
+        "email"
+      ],
+      "triggers": [
+        "email",
+        "marketing",
+        "layout",
+        "subject",
+        "line",
+        "formulas",
+        "deliverability",
+        "rules",
+        "covers",
+        "welcome",
+        "sequences",
+        "promotional"
+      ],
+      "path": "skills/email-design/SKILL.md"
     },
     {
       "id": "email-sequence",
@@ -9199,7 +10068,7 @@
     },
     {
       "id": "ethical-hacking-methodology",
-      "name": "Ethical Hacking Methodology",
+      "name": "ethical-hacking-methodology",
       "description": "This skill should be used when the user asks to \"learn ethical hacking\", \"understand penetration testing lifecycle\", \"perform reconnaissance\", \"conduct security scanning\", \"exploit vulnerabilities\", or \"write penetration test reports\". It provides comprehensive ethical hacking methodology and techniques.",
       "category": "security",
       "tags": [
@@ -9330,6 +10199,31 @@
         "checkpoints"
       ],
       "path": "skills/executing-plans/SKILL.md"
+    },
+    {
+      "id": "explainer-video-guide",
+      "name": "explainer-video-guide",
+      "description": "Explainer video production guide: scripting, voiceover, visuals, and assembly. Covers script formulas, pacing rules, scene planning, and multi-tool pipelines. Use for: product demos, how-it-works videos, onboarding videos, social explainers. Triggers: explainer video, how to make explainer, product video, demo video, video production, video script, animated explainer, product demo video, tutorial video, onboarding video, walkthrough video, video pipeline",
+      "category": "infrastructure",
+      "tags": [
+        "explainer",
+        "video"
+      ],
+      "triggers": [
+        "explainer",
+        "video",
+        "scripting",
+        "voiceover",
+        "visuals",
+        "assembly",
+        "covers",
+        "script",
+        "formulas",
+        "pacing",
+        "rules",
+        "scene"
+      ],
+      "path": "skills/explainer-video-guide/SKILL.md"
     },
     {
       "id": "expo-deployment",
@@ -9613,7 +10507,7 @@
     },
     {
       "id": "file-path-traversal",
-      "name": "File Path Traversal Testing",
+      "name": "file-path-traversal",
       "description": "This skill should be used when the user asks to \"test for directory traversal\", \"exploit path traversal vulnerabilities\", \"read arbitrary files through web applications\", \"find LFI vulnerabilities\", or \"access files outside web root\". It provides comprehensive file path traversal attack and testing methodologies.",
       "category": "security",
       "tags": [
@@ -9625,7 +10519,6 @@
         "file",
         "path",
         "traversal",
-        "testing",
         "skill",
         "should",
         "used",
@@ -9633,7 +10526,8 @@
         "asks",
         "test",
         "directory",
-        "exploit"
+        "exploit",
+        "vulnerabilities"
       ],
       "path": "skills/file-path-traversal/SKILL.md"
     },
@@ -9686,6 +10580,31 @@
         "review"
       ],
       "path": "skills/find-bugs/SKILL.md"
+    },
+    {
+      "id": "find-skills",
+      "name": "find-skills",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "category": "general",
+      "tags": [
+        "find",
+        "skills"
+      ],
+      "triggers": [
+        "find",
+        "skills",
+        "helps",
+        "users",
+        "discover",
+        "install",
+        "agent",
+        "ask",
+        "questions",
+        "like",
+        "how",
+        "do"
+      ],
+      "path": "skills/find-skills/SKILL.md"
     },
     {
       "id": "finishing-a-development-branch",
@@ -9833,9 +10752,34 @@
       "path": "skills/flutter-expert/SKILL.md"
     },
     {
+      "id": "flux-image",
+      "name": "flux-image",
+      "description": "Generate images with FLUX models (Black Forest Labs) via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA with custom style adaptation. Capabilities: text-to-image, image-to-image, LoRA fine-tuning, custom styles. Triggers: flux, flux.2, flux dev, flux schnell, flux pro, black forest labs, flux image, flux ai, flux model, flux lora",
+      "category": "data-ai",
+      "tags": [
+        "flux",
+        "image"
+      ],
+      "triggers": [
+        "flux",
+        "image",
+        "generate",
+        "images",
+        "models",
+        "black",
+        "forest",
+        "labs",
+        "via",
+        "inference",
+        "sh",
+        "cli"
+      ],
+      "path": "skills/flux-image/SKILL.md"
+    },
+    {
       "id": "form-cro",
       "name": "form-cro",
-      "description": "Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms. Use when the goal is to increase form completion rate, reduce friction, or improve lead quality without breaking compliance or downstream workflows.",
+      "description": "Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms. Use when the goal is to increase form completion rate, reduce friction, or improve lead quality without breaking compliance or downstream workflows.\n'",
       "category": "security",
       "tags": [
         "form",
@@ -11166,6 +12110,31 @@
       "path": "skills/google-drive-automation/SKILL.md"
     },
     {
+      "id": "google-veo",
+      "name": "google-veo",
+      "description": "Generate videos with Google Veo models via inference.sh CLI. Models: Veo 3.1, Veo 3.1 Fast, Veo 3, Veo 3 Fast, Veo 2. Capabilities: text-to-video, cinematic output, high quality video generation. Triggers: veo, google veo, veo 3, veo 2, veo 3.1, vertex ai video, google video generation, google video ai, veo model, veo video",
+      "category": "data-ai",
+      "tags": [
+        "google",
+        "veo"
+      ],
+      "triggers": [
+        "google",
+        "veo",
+        "generate",
+        "videos",
+        "models",
+        "via",
+        "inference",
+        "sh",
+        "cli",
+        "fast",
+        "capabilities",
+        "text"
+      ],
+      "path": "skills/google-veo/SKILL.md"
+    },
+    {
       "id": "googlesheets-automation",
       "name": "googlesheets-automation",
       "description": "Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting, and search rows programmatically.",
@@ -11388,7 +12357,7 @@
     },
     {
       "id": "html-injection-testing",
-      "name": "HTML Injection Testing",
+      "name": "html-injection-testing",
       "description": "This skill should be used when the user asks to \"test for HTML injection\", \"inject HTML into web pages\", \"perform HTML injection attacks\", \"deface web applications\", or \"test content injection vulnerabilities\". It provides comprehensive HTML injection attack techniques and testing methodologies.",
       "category": "security",
       "tags": [
@@ -11614,15 +12583,14 @@
     },
     {
       "id": "idor-testing",
-      "name": "IDOR Vulnerability Testing",
+      "name": "idor-testing",
       "description": "This skill should be used when the user asks to \"test for insecure direct object references,\" \"find IDOR vulnerabilities,\" \"exploit broken access control,\" \"enumerate user IDs or object references,\" or \"bypass authorization to access other users' data.\" It provides comprehensive guidance for detecting, exploiting, and remediating IDOR vulnerabilities in web applications.",
-      "category": "security",
+      "category": "data-ai",
       "tags": [
         "idor"
       ],
       "triggers": [
         "idor",
-        "vulnerability",
         "testing",
         "skill",
         "should",
@@ -11632,9 +12600,61 @@
         "test",
         "insecure",
         "direct",
-        "object"
+        "object",
+        "references"
       ],
       "path": "skills/idor-testing/SKILL.md"
+    },
+    {
+      "id": "image-to-video",
+      "name": "image-to-video",
+      "description": "Still-to-video conversion guide: model selection, motion prompting, and camera movement. Covers Wan 2.5 i2v, Seedance, Fabric, Grok Video with when to use each. Use for: animating images, creating video from stills, adding motion, product animations. Triggers: image to video, i2v, animate image, still to video, add motion to image, image animation, photo to video, animate still, wan i2v, image2video, bring image to life, animate photo, motion from image",
+      "category": "business",
+      "tags": [
+        "image",
+        "to",
+        "video"
+      ],
+      "triggers": [
+        "image",
+        "to",
+        "video",
+        "still",
+        "conversion",
+        "model",
+        "selection",
+        "motion",
+        "prompting",
+        "camera",
+        "movement",
+        "covers"
+      ],
+      "path": "skills/image-to-video/SKILL.md"
+    },
+    {
+      "id": "image-upscaling",
+      "name": "image-upscaling",
+      "description": "Upscale and enhance images with Real-ESRGAN, Thera, Topaz, FLUX Upscaler via inference.sh CLI. Models: Real-ESRGAN, Thera (any size), FLUX Dev Upscaler, Topaz Image Upscaler. Use for: enhance low-res images, upscale AI art, restore old photos, increase resolution. Triggers: upscale image, image upscaler, enhance image, increase resolution, real esrgan, ai upscale, super resolution, image enhancement, upscaling, enlarge image, higher resolution, 4k upscale, hd upscale",
+      "category": "data-ai",
+      "tags": [
+        "image",
+        "upscaling"
+      ],
+      "triggers": [
+        "image",
+        "upscaling",
+        "upscale",
+        "enhance",
+        "images",
+        "real",
+        "esrgan",
+        "thera",
+        "topaz",
+        "flux",
+        "upscaler",
+        "via"
+      ],
+      "path": "skills/image-upscaling/SKILL.md"
     },
     {
       "id": "imagen",
@@ -11743,7 +12763,7 @@
     },
     {
       "id": "infinite-gratitude",
-      "name": "Infinite Gratitude",
+      "name": "infinite-gratitude",
       "description": "Multi-agent research skill for parallel research execution (10 agents, battle-tested with real case studies).",
       "category": "general",
       "tags": [
@@ -11815,6 +12835,30 @@
       "path": "skills/instagram-automation/SKILL.md"
     },
     {
+      "id": "interaction-design",
+      "name": "interaction-design",
+      "description": "Design and implement microinteractions, motion design, transitions, and user feedback patterns. Use when adding polish to UI interactions, implementing loading states, or creating delightful user experiences.",
+      "category": "architecture",
+      "tags": [
+        "interaction"
+      ],
+      "triggers": [
+        "interaction",
+        "microinteractions",
+        "motion",
+        "transitions",
+        "user",
+        "feedback",
+        "adding",
+        "polish",
+        "ui",
+        "interactions",
+        "implementing",
+        "loading"
+      ],
+      "path": "skills/interaction-design/SKILL.md"
+    },
+    {
       "id": "interactive-portfolio",
       "name": "interactive-portfolio",
       "description": "Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, designer portfolios, creative portfolios, and portfolios that convert visitors into opportunities. Use when: portfolio, personal website, showcase work, developer portfolio, designer portfolio.",
@@ -11864,8 +12908,32 @@
       "path": "skills/intercom-automation/SKILL.md"
     },
     {
+      "id": "interface-design",
+      "name": "interface-design",
+      "description": "This skill is for interface design — dashboards, admin panels, apps, tools, and interactive products. NOT for marketing design (landing pages, marketing sites, campaigns).",
+      "category": "business",
+      "tags": [
+        "interface"
+      ],
+      "triggers": [
+        "interface",
+        "skill",
+        "dashboards",
+        "admin",
+        "panels",
+        "apps",
+        "interactive",
+        "products",
+        "marketing",
+        "landing",
+        "pages",
+        "sites"
+      ],
+      "path": "skills/interface-design/SKILL.md"
+    },
+    {
       "id": "internal-comms-anthropic",
-      "name": "internal-comms",
+      "name": "internal-comms-anthropic",
       "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
       "category": "security",
       "tags": [
@@ -11891,7 +12959,7 @@
     },
     {
       "id": "internal-comms-community",
-      "name": "internal-comms",
+      "name": "internal-comms-community",
       "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
       "category": "security",
       "tags": [
@@ -12061,6 +13129,31 @@
         "compatibility"
       ],
       "path": "skills/javascript-pro/SKILL.md"
+    },
+    {
+      "id": "javascript-sdk",
+      "name": "javascript-sdk",
+      "description": "JavaScript/TypeScript SDK for inference.sh - run AI apps, build agents, integrate 150+ models. Package: @inferencesh/sdk (npm install). Full TypeScript support, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, human approval. Use for: JavaScript integration, TypeScript, Node.js, React, Next.js, frontend apps. Triggers: javascript sdk, typescript sdk, npm install, node.js api, js client, react ai, next.js ai, frontend sdk, @inferencesh/sdk, typescript agent, browser sdk, js integration",
+      "category": "data-ai",
+      "tags": [
+        "javascript",
+        "sdk"
+      ],
+      "triggers": [
+        "javascript",
+        "sdk",
+        "typescript",
+        "inference",
+        "sh",
+        "run",
+        "ai",
+        "apps",
+        "agents",
+        "integrate",
+        "150",
+        "models"
+      ],
+      "path": "skills/javascript-sdk/SKILL.md"
     },
     {
       "id": "javascript-testing-patterns",
@@ -12309,9 +13402,34 @@
       "path": "skills/kubernetes-architect/SKILL.md"
     },
     {
+      "id": "landing-page-design",
+      "name": "landing-page-design",
+      "description": "Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof placement, mobile design, and F-pattern reading. Use for: startup landing pages, product pages, SaaS marketing, conversion optimization. Triggers: landing page, hero section, above the fold, conversion optimization, landing page design, cta button, hero image, landing page layout, saas landing page, product page design, conversion rate, landing page best practices",
+      "category": "development",
+      "tags": [
+        "landing",
+        "page"
+      ],
+      "triggers": [
+        "landing",
+        "page",
+        "conversion",
+        "optimization",
+        "layout",
+        "rules",
+        "hero",
+        "section",
+        "cta",
+        "psychology",
+        "covers",
+        "above"
+      ],
+      "path": "skills/landing-page-design/SKILL.md"
+    },
+    {
       "id": "langchain-architecture",
       "name": "langchain-architecture",
-      "description": "Design LLM applications using the LangChain framework with agents, memory, and tool integration patterns. Use when building LangChain applications, implementing AI agents, or creating complex LLM workflows.",
+      "description": "Design LLM applications using LangChain 1.x and LangGraph for agents, memory, and tool integration. Use when building LangChain applications, implementing AI agents, or creating complex LLM workflows.",
       "category": "data-ai",
       "tags": [
         "langchain",
@@ -12322,7 +13440,7 @@
         "architecture",
         "llm",
         "applications",
-        "framework",
+        "langgraph",
         "agents",
         "memory",
         "integration",
@@ -12547,6 +13665,31 @@
       "path": "skills/linkedin-automation/SKILL.md"
     },
     {
+      "id": "linkedin-content",
+      "name": "linkedin-content",
+      "description": "LinkedIn post writing with hook formulas, formatting rules, and engagement patterns. Covers post types, algorithm signals, character limits, and content pillars. Use for: LinkedIn posts, professional content, thought leadership, B2B content, personal branding. Triggers: linkedin post, linkedin content, linkedin writing, linkedin strategy, linkedin engagement, linkedin algorithm, linkedin hook, linkedin formatting, thought leadership, professional content, b2b content, linkedin growth",
+      "category": "architecture",
+      "tags": [
+        "linkedin",
+        "content"
+      ],
+      "triggers": [
+        "linkedin",
+        "content",
+        "post",
+        "writing",
+        "hook",
+        "formulas",
+        "formatting",
+        "rules",
+        "engagement",
+        "covers",
+        "types",
+        "algorithm"
+      ],
+      "path": "skills/linkedin-content/SKILL.md"
+    },
+    {
       "id": "linkerd-patterns",
       "name": "linkerd-patterns",
       "description": "Implement Linkerd service mesh patterns for lightweight, security-focused service mesh deployments. Use when setting up Linkerd, configuring traffic policies, or implementing zero-trust networking with minimal overhead.",
@@ -12598,7 +13741,7 @@
     },
     {
       "id": "linux-privilege-escalation",
-      "name": "Linux Privilege Escalation",
+      "name": "linux-privilege-escalation",
       "description": "This skill should be used when the user asks to \"escalate privileges on Linux\", \"find privesc vectors on Linux systems\", \"exploit sudo misconfigurations\", \"abuse SUID binaries\", \"exploit cron jobs for root access\", \"enumerate Linux systems for privilege escalation\", or \"gain root access from low-privilege shell\". It provides comprehensive techniques for identifying and exploiting privilege escalation paths on Linux systems.",
       "category": "general",
       "tags": [
@@ -12624,7 +13767,7 @@
     },
     {
       "id": "linux-shell-scripting",
-      "name": "Linux Production Shell Scripts",
+      "name": "linux-shell-scripting",
       "description": "This skill should be used when the user asks to \"create bash scripts\", \"automate Linux tasks\", \"monitor system resources\", \"backup files\", \"manage users\", or \"write production shell scripts\". It provides ready-to-use shell script templates for system administration.",
       "category": "general",
       "tags": [
@@ -12636,13 +13779,13 @@
         "linux",
         "shell",
         "scripting",
-        "scripts",
         "skill",
         "should",
         "used",
         "user",
         "asks",
         "bash",
+        "scripts",
         "automate",
         "tasks"
       ],
@@ -12778,6 +13921,55 @@
         "ai"
       ],
       "path": "skills/llm-evaluation/SKILL.md"
+    },
+    {
+      "id": "llm-models",
+      "name": "llm-models",
+      "description": "Access Claude, Gemini, Kimi, GLM and 100+ LLMs via inference.sh CLI using OpenRouter. Models: Claude Opus 4.5, Claude Sonnet 4.5, Claude Haiku 4.5, Gemini 3 Pro, Kimi K2, GLM-4.6, Intellect 3. One API for all models with automatic fallback and cost optimization. Use for: AI assistants, code generation, reasoning, agents, chat, content generation. Triggers: claude api, openrouter, llm api, claude sonnet, claude opus, gemini api, kimi, language model, gpt alternative, anthropic api, ai model api, llm access, chat api, claude alternative, openai alternative",
+      "category": "data-ai",
+      "tags": [
+        "llm",
+        "models"
+      ],
+      "triggers": [
+        "llm",
+        "models",
+        "access",
+        "claude",
+        "gemini",
+        "kimi",
+        "glm",
+        "100",
+        "llms",
+        "via",
+        "inference",
+        "sh"
+      ],
+      "path": "skills/llm-models/SKILL.md"
+    },
+    {
+      "id": "logo-design-guide",
+      "name": "logo-design-guide",
+      "description": "Logo design principles and AI image generation best practices for creating logos. Covers logo types, prompting techniques, scalability rules, and iteration workflows. Use for: brand identity, startup logos, app icons, favicons, logo concepts. Triggers: logo design, create logo, brand logo, logo generation, ai logo, logo maker, icon design, brand mark, logo concept, startup logo, app icon logo",
+      "category": "data-ai",
+      "tags": [
+        "logo"
+      ],
+      "triggers": [
+        "logo",
+        "principles",
+        "ai",
+        "image",
+        "generation",
+        "creating",
+        "logos",
+        "covers",
+        "types",
+        "prompting",
+        "techniques",
+        "scalability"
+      ],
+      "path": "skills/logo-design-guide/SKILL.md"
     },
     {
       "id": "loki-mode",
@@ -13102,9 +14294,9 @@
     },
     {
       "id": "mcp-builder-ms",
-      "name": "mcp-builder",
-      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP), Node/TypeScript (MCP SDK), or C#/.NET (Microsoft MCP SDK).",
-      "category": "development",
+      "name": "mcp-builder-ms",
+      "description": "Herramienta oficial de Microsoft para la construcción y depuración de servidores MCP (Model Context Protocol).",
+      "category": "general",
       "tags": [
         "mcp",
         "builder",
@@ -13114,15 +14306,15 @@
         "mcp",
         "builder",
         "ms",
-        "creating",
-        "high",
-        "quality",
-        "model",
-        "context",
-        "protocol",
-        "servers",
-        "enable",
-        "llms"
+        "herramienta",
+        "oficial",
+        "de",
+        "microsoft",
+        "para",
+        "la",
+        "construcci",
+        "depuraci",
+        "servidores"
       ],
       "path": "skills/mcp-builder-ms/SKILL.md"
     },
@@ -13220,7 +14412,7 @@
     },
     {
       "id": "metasploit-framework",
-      "name": "Metasploit Framework",
+      "name": "metasploit-framework",
       "description": "This skill should be used when the user asks to \"use Metasploit for penetration testing\", \"exploit vulnerabilities with msfconsole\", \"create payloads with msfvenom\", \"perform post-exploitation\", \"use auxiliary modules for scanning\", or \"develop custom exploits\". It provides comprehensive guidance for leveraging the Metasploit Framework in security assessments.",
       "category": "security",
       "tags": [
@@ -13495,6 +14687,31 @@
       "path": "skills/mlops-engineer/SKILL.md"
     },
     {
+      "id": "mobile-android-design",
+      "name": "mobile-android-design",
+      "description": "Master Material Design 3 and Jetpack Compose patterns for building native Android apps. Use when designing Android interfaces, implementing Compose UI, or following Google's Material Design guidelines.",
+      "category": "development",
+      "tags": [
+        "mobile",
+        "android"
+      ],
+      "triggers": [
+        "mobile",
+        "android",
+        "material",
+        "jetpack",
+        "compose",
+        "building",
+        "native",
+        "apps",
+        "designing",
+        "interfaces",
+        "implementing",
+        "ui"
+      ],
+      "path": "skills/mobile-android-design/SKILL.md"
+    },
+    {
       "id": "mobile-design",
       "name": "mobile-design",
       "description": "Mobile-first design and engineering doctrine for iOS and Android apps. Covers touch interaction, performance, platform conventions, offline behavior, and mobile-specific decision-making. Teaches principles and constraints, not fixed layouts. Use for React Native, Flutter, or native mobile apps.",
@@ -13541,6 +14758,31 @@
         "development"
       ],
       "path": "skills/mobile-developer/SKILL.md"
+    },
+    {
+      "id": "mobile-ios-design",
+      "name": "mobile-ios-design",
+      "description": "Master iOS Human Interface Guidelines and SwiftUI patterns for building native iOS apps. Use when designing iOS interfaces, implementing SwiftUI views, or ensuring apps follow Apple's design principles.",
+      "category": "development",
+      "tags": [
+        "mobile",
+        "ios"
+      ],
+      "triggers": [
+        "mobile",
+        "ios",
+        "human",
+        "interface",
+        "guidelines",
+        "swiftui",
+        "building",
+        "native",
+        "apps",
+        "designing",
+        "interfaces",
+        "implementing"
+      ],
+      "path": "skills/mobile-ios-design/SKILL.md"
     },
     {
       "id": "mobile-security-coder",
@@ -13814,6 +15056,30 @@
       "path": "skills/multi-platform-apps-multi-platform/SKILL.md"
     },
     {
+      "id": "multi-reviewer-patterns",
+      "name": "multi-reviewer-patterns",
+      "description": "Coordinate parallel code reviews across multiple quality dimensions with finding deduplication, severity calibration, and consolidated reporting. Use this skill when organizing multi-reviewer code reviews, calibrating finding severity, or consolidating review results.",
+      "category": "architecture",
+      "tags": [
+        "multi"
+      ],
+      "triggers": [
+        "multi",
+        "reviewer",
+        "coordinate",
+        "parallel",
+        "code",
+        "reviews",
+        "multiple",
+        "quality",
+        "dimensions",
+        "finding",
+        "deduplication",
+        "severity"
+      ],
+      "path": "skills/multi-reviewer-patterns/SKILL.md"
+    },
+    {
       "id": "n8n-code-python",
       "name": "n8n-code-python",
       "description": "Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes.",
@@ -13963,7 +15229,7 @@
     },
     {
       "id": "network-101",
-      "name": "Network 101",
+      "name": "network-101",
       "description": "This skill should be used when the user asks to \"set up a web server\", \"configure HTTP or HTTPS\", \"perform SNMP enumeration\", \"configure SMB shares\", \"test network services\", or needs guidance on configuring and testing network services for penetration testing labs.",
       "category": "infrastructure",
       "tags": [
@@ -14009,6 +15275,31 @@
         "connectivity"
       ],
       "path": "skills/network-engineer/SKILL.md"
+    },
+    {
+      "id": "newsletter-curation",
+      "name": "newsletter-curation",
+      "description": "Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, commentary style, and sending cadence. Use for: email newsletters, link roundups, weekly digests, curated content, creator newsletters. Triggers: newsletter, email newsletter, newsletter curation, weekly digest, link roundup, curated newsletter, newsletter writing, newsletter format, subscriber growth, newsletter strategy, content curation, newsletter template",
+      "category": "general",
+      "tags": [
+        "newsletter",
+        "curation"
+      ],
+      "triggers": [
+        "newsletter",
+        "curation",
+        "content",
+        "sourcing",
+        "editorial",
+        "structure",
+        "subscriber",
+        "growth",
+        "covers",
+        "issue",
+        "formatting",
+        "link"
+      ],
+      "path": "skills/newsletter-curation/SKILL.md"
     },
     {
       "id": "nextjs-app-router-patterns",
@@ -14416,6 +15707,31 @@
       "path": "skills/obsidian-clipper-template-creator/SKILL.md"
     },
     {
+      "id": "og-image-design",
+      "name": "og-image-design",
+      "description": "Open Graph and social sharing image design with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn previews, and dynamic generation. Use for: social sharing images, blog thumbnails, link previews, social cards. Triggers: og image, open graph, social sharing image, twitter card, social card, link preview image, og meta, sharing preview, social thumbnail, meta image, og:image, twitter:image, linkedin preview",
+      "category": "general",
+      "tags": [
+        "og",
+        "image"
+      ],
+      "triggers": [
+        "og",
+        "image",
+        "open",
+        "graph",
+        "social",
+        "sharing",
+        "platform",
+        "specs",
+        "text",
+        "placement",
+        "branding",
+        "covers"
+      ],
+      "path": "skills/og-image-design/SKILL.md"
+    },
+    {
       "id": "on-call-handoff-patterns",
       "name": "on-call-handoff-patterns",
       "description": "Master on-call shift handoffs with context transfer, escalation procedures, and documentation. Use when transitioning on-call responsibilities, documenting shift summaries, or improving on-call processes.",
@@ -14592,7 +15908,7 @@
     {
       "id": "page-cro",
       "name": "page-cro",
-      "description": "Analyze and optimize individual pages for conversion performance. Use when the user wants to improve conversion rates, diagnose why a page is underperforming, or increase the effectiveness of marketing pages (homepage, landing pages, pricing, feature pages, or blog posts). This skill focuses on diagnosis, prioritization, and testable recommendations— not blind optimization.",
+      "description": "Analyze and optimize individual pages for conversion performance. Use when the user wants to improve conversion rates, diagnose why a page is underperforming, or increase the effectiveness of marketing pages (homepage, landing pages, pricing, feature pages, or blog posts). This skill focuses on diagnosis, prioritization, and testable recommendations— not blind optimization.\n'",
       "category": "business",
       "tags": [
         "page",
@@ -14687,6 +16003,55 @@
         "expertise"
       ],
       "path": "skills/parallel-agents/SKILL.md"
+    },
+    {
+      "id": "parallel-debugging",
+      "name": "parallel-debugging",
+      "description": "Debug complex issues using competing hypotheses with parallel investigation, evidence collection, and root cause arbitration. Use this skill when debugging bugs with multiple potential causes, performing root cause analysis, or organizing parallel investigation workflows.",
+      "category": "general",
+      "tags": [
+        "parallel",
+        "debugging"
+      ],
+      "triggers": [
+        "parallel",
+        "debugging",
+        "debug",
+        "complex",
+        "issues",
+        "competing",
+        "hypotheses",
+        "investigation",
+        "evidence",
+        "collection",
+        "root",
+        "cause"
+      ],
+      "path": "skills/parallel-debugging/SKILL.md"
+    },
+    {
+      "id": "parallel-feature-development",
+      "name": "parallel-feature-development",
+      "description": "Coordinate parallel feature development with file ownership strategies, conflict avoidance rules, and integration patterns for multi-agent implementation. Use this skill when decomposing features for parallel development, establishing file ownership boundaries, or managing integration between parallel work streams.",
+      "category": "architecture",
+      "tags": [
+        "parallel"
+      ],
+      "triggers": [
+        "parallel",
+        "feature",
+        "development",
+        "coordinate",
+        "file",
+        "ownership",
+        "conflict",
+        "avoidance",
+        "rules",
+        "integration",
+        "multi",
+        "agent"
+      ],
+      "path": "skills/parallel-feature-development/SKILL.md"
     },
     {
       "id": "payment-integration",
@@ -14790,8 +16155,32 @@
       "path": "skills/pci-compliance/SKILL.md"
     },
     {
-      "id": "pdf-official",
+      "id": "pdf",
       "name": "pdf",
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+      "category": "workflow",
+      "tags": [
+        "pdf"
+      ],
+      "triggers": [
+        "pdf",
+        "manipulation",
+        "toolkit",
+        "extracting",
+        "text",
+        "tables",
+        "creating",
+        "new",
+        "pdfs",
+        "merging",
+        "splitting",
+        "documents"
+      ],
+      "path": "skills/pdf/SKILL.md"
+    },
+    {
+      "id": "pdf-official",
+      "name": "pdf-official",
       "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
       "category": "workflow",
       "tags": [
@@ -14816,7 +16205,7 @@
     },
     {
       "id": "pentest-checklist",
-      "name": "Pentest Checklist",
+      "name": "pentest-checklist",
       "description": "This skill should be used when the user asks to \"plan a penetration test\", \"create a security assessment checklist\", \"prepare for penetration testing\", \"define pentest scope\", \"follow security testing best practices\", or needs a structured methodology for penetration testing engagements.",
       "category": "security",
       "tags": [
@@ -14841,7 +16230,7 @@
     },
     {
       "id": "pentest-commands",
-      "name": "Pentest Commands",
+      "name": "pentest-commands",
       "description": "This skill should be used when the user asks to \"run pentest commands\", \"scan with nmap\", \"use metasploit exploits\", \"crack passwords with hydra or john\", \"scan web vulnerabilities with nikto\", \"enumerate networks\", or needs essential penetration testing command references.",
       "category": "testing",
       "tags": [
@@ -15027,6 +16416,32 @@
       "path": "skills/pipedrive-automation/SKILL.md"
     },
     {
+      "id": "pitch-deck-visuals",
+      "name": "pitch-deck-visuals",
+      "description": "Investor pitch deck structure with slide-by-slide framework, visual design rules, and data presentation. Covers the 12-slide framework, chart types, team slides, and common investor turn-offs. Use for: fundraising decks, investor presentations, startup pitch, demo day, grant proposals. Triggers: pitch deck, investor deck, startup pitch, fundraising deck, demo day, pitch presentation, investor presentation, seed deck, series a deck, pitch slides, startup presentation, vc pitch, investor meeting",
+      "category": "data-ai",
+      "tags": [
+        "pitch",
+        "deck",
+        "visuals"
+      ],
+      "triggers": [
+        "pitch",
+        "deck",
+        "visuals",
+        "investor",
+        "structure",
+        "slide",
+        "framework",
+        "visual",
+        "rules",
+        "data",
+        "presentation",
+        "covers"
+      ],
+      "path": "skills/pitch-deck-visuals/SKILL.md"
+    },
+    {
       "id": "plaid-fintech",
       "name": "plaid-fintech",
       "description": "Expert patterns for Plaid API integration including Link token flows, transactions sync, identity verification, Auth for ACH, balance checks, webhook handling, and fintech compliance best practices. Use when: plaid, bank account linking, bank connection, ach, account aggregation.",
@@ -15204,7 +16619,7 @@
     },
     {
       "id": "postgres-best-practices",
-      "name": "supabase-postgres-best-practices",
+      "name": "postgres-best-practices",
       "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.",
       "category": "data-ai",
       "tags": [
@@ -15216,9 +16631,9 @@
         "postgres",
         "best",
         "practices",
-        "supabase",
         "performance",
         "optimization",
+        "supabase",
         "skill",
         "writing",
         "reviewing",
@@ -15249,6 +16664,30 @@
         "features"
       ],
       "path": "skills/postgresql/SKILL.md"
+    },
+    {
+      "id": "postgresql-table-design",
+      "name": "postgresql-table-design",
+      "description": "Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features",
+      "category": "data-ai",
+      "tags": [
+        "postgresql",
+        "table"
+      ],
+      "triggers": [
+        "postgresql",
+        "table",
+        "specific",
+        "schema",
+        "covers",
+        "data",
+        "types",
+        "indexing",
+        "constraints",
+        "performance",
+        "features"
+      ],
+      "path": "skills/postgresql-table-design/SKILL.md"
     },
     {
       "id": "posthog-automation",
@@ -15345,8 +16784,32 @@
       "path": "skills/powershell-windows/SKILL.md"
     },
     {
-      "id": "pptx-official",
+      "id": "pptx",
       "name": "pptx",
+      "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
+      "category": "general",
+      "tags": [
+        "pptx"
+      ],
+      "triggers": [
+        "pptx",
+        "presentation",
+        "creation",
+        "editing",
+        "analysis",
+        "claude",
+        "work",
+        "presentations",
+        "files",
+        "creating",
+        "new",
+        "modifying"
+      ],
+      "path": "skills/pptx/SKILL.md"
+    },
+    {
+      "id": "pptx-official",
+      "name": "pptx-official",
       "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
       "category": "general",
       "tags": [
@@ -15368,6 +16831,32 @@
         "new"
       ],
       "path": "skills/pptx-official/SKILL.md"
+    },
+    {
+      "id": "press-release-writing",
+      "name": "press-release-writing",
+      "description": "Press release writing in AP style with inverted pyramid structure. Covers formatting, datelines, quotes, boilerplates, and fact-checking. Use for: product launches, funding announcements, partnerships, company news, events. Triggers: press release, pr writing, media release, news release, announcement, product launch announcement, funding announcement, company news, media advisory, ap style, press statement, news wire",
+      "category": "business",
+      "tags": [
+        "press",
+        "release",
+        "writing"
+      ],
+      "triggers": [
+        "press",
+        "release",
+        "writing",
+        "ap",
+        "style",
+        "inverted",
+        "pyramid",
+        "structure",
+        "covers",
+        "formatting",
+        "datelines",
+        "quotes"
+      ],
+      "path": "skills/press-release-writing/SKILL.md"
     },
     {
       "id": "pricing-strategy",
@@ -15416,7 +16905,7 @@
     },
     {
       "id": "privilege-escalation-methods",
-      "name": "Privilege Escalation Methods",
+      "name": "privilege-escalation-methods",
       "description": "This skill should be used when the user asks to \"escalate privileges\", \"get root access\", \"become administrator\", \"privesc techniques\", \"abuse sudo\", \"exploit SUID binaries\", \"Kerberoasting\", \"pass-the-ticket\", \"token impersonation\", or needs guidance on post-exploitation privilege escalation for Linux or Windows systems.",
       "category": "general",
       "tags": [
@@ -15439,6 +16928,57 @@
         "root"
       ],
       "path": "skills/privilege-escalation-methods/SKILL.md"
+    },
+    {
+      "id": "product-changelog",
+      "name": "product-changelog",
+      "description": "Product changelog and release notes that users actually read. Covers categorization, user-facing language, visuals, and distribution. Use for: release notes, changelogs, product updates, feature announcements, versioning. Triggers: changelog, release notes, product update, version notes, what's new, feature announcement, product changelog, update log, release announcement, version release, product release, ship notes",
+      "category": "business",
+      "tags": [
+        "product",
+        "changelog"
+      ],
+      "triggers": [
+        "product",
+        "changelog",
+        "release",
+        "notes",
+        "users",
+        "actually",
+        "read",
+        "covers",
+        "categorization",
+        "user",
+        "facing",
+        "language"
+      ],
+      "path": "skills/product-changelog/SKILL.md"
+    },
+    {
+      "id": "product-hunt-launch",
+      "name": "product-hunt-launch",
+      "description": "Product Hunt launch optimization with specific specs, timing, and gallery strategy. Covers taglines, gallery images, maker comments, and launch day tactics. Use for: product launches, startup launches, side project launches, Product Hunt optimization. Triggers: product hunt, ph launch, product hunt launch, launch strategy, product launch, startup launch, product hunt tips, product hunt gallery, ph optimization, launch day, product hunt maker",
+      "category": "business",
+      "tags": [
+        "product",
+        "hunt",
+        "launch"
+      ],
+      "triggers": [
+        "product",
+        "hunt",
+        "launch",
+        "optimization",
+        "specific",
+        "specs",
+        "timing",
+        "gallery",
+        "covers",
+        "taglines",
+        "images",
+        "maker"
+      ],
+      "path": "skills/product-hunt-launch/SKILL.md"
     },
     {
       "id": "product-manager-toolkit",
@@ -15464,6 +17004,31 @@
         "discovery"
       ],
       "path": "skills/product-manager-toolkit/SKILL.md"
+    },
+    {
+      "id": "product-photography",
+      "name": "product-photography",
+      "description": "AI product photography with studio lighting, lifestyle shots, and packshot conventions. Covers angles, backgrounds, shadow types, hero shots, and e-commerce image requirements. Use for: product photos, e-commerce images, Amazon listings, packshots, lifestyle photography. Triggers: product photography, product photo, packshot, e-commerce photography, product shot, product image, studio photography, lifestyle product, amazon product photo, product listing image, hero shot, product mockup, commercial photography",
+      "category": "data-ai",
+      "tags": [
+        "product",
+        "photography"
+      ],
+      "triggers": [
+        "product",
+        "photography",
+        "ai",
+        "studio",
+        "lighting",
+        "lifestyle",
+        "shots",
+        "packshot",
+        "conventions",
+        "covers",
+        "angles",
+        "backgrounds"
+      ],
+      "path": "skills/product-photography/SKILL.md"
     },
     {
       "id": "production-code-audit",
@@ -15494,7 +17059,7 @@
     {
       "id": "programmatic-seo",
       "name": "programmatic-seo",
-      "description": "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data. Use when the user mentions programmatic SEO, pages at scale, template pages, directory pages, location pages, comparison pages, integration pages, or keyword-pattern page generation. This skill focuses on feasibility, strategy, and page system design—not execution unless explicitly requested.",
+      "description": "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data. Use when the user mentions programmatic SEO, pages at scale, template pages, directory pages, location pages, comparison pages, integration pages, or keyword-pattern page generation. This skill focuses on feasibility, strategy, and page system design—not execution unless explicitly requested.\n'",
       "category": "data-ai",
       "tags": [
         "programmatic",
@@ -15619,8 +17184,8 @@
     {
       "id": "prompt-engineering",
       "name": "prompt-engineering",
-      "description": "Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior.",
-      "category": "architecture",
+      "description": "Master prompt engineering for AI models: LLMs, image generators, video models. Techniques: chain-of-thought, few-shot, system prompts, negative prompts. Models: Claude, GPT-4, Gemini, FLUX, Veo, Stable Diffusion prompting. Use for: better AI outputs, consistent results, complex tasks, optimization. Triggers: prompt engineering, how to prompt, better prompts, prompt tips, prompting guide, llm prompting, image prompt, ai prompting, prompt optimization, prompt template, prompt structure, effective prompts, prompt techniques",
+      "category": "data-ai",
       "tags": [
         "prompt",
         "engineering"
@@ -15628,16 +17193,16 @@
       "triggers": [
         "prompt",
         "engineering",
-        "optimization",
+        "ai",
+        "models",
+        "llms",
+        "image",
+        "generators",
+        "video",
         "techniques",
-        "user",
-        "wants",
-        "improve",
-        "prompts",
-        "learn",
-        "prompting",
-        "debug",
-        "agent"
+        "chain",
+        "thought",
+        "few"
       ],
       "path": "skills/prompt-engineering/SKILL.md"
     },
@@ -15762,6 +17327,132 @@
       "path": "skills/pypict-skill/SKILL.md"
     },
     {
+      "id": "python-anti-patterns",
+      "name": "python-anti-patterns",
+      "description": "Common Python anti-patterns to avoid. Use as a checklist when reviewing code, before finalizing implementations, or when debugging issues that might stem from known bad practices.",
+      "category": "development",
+      "tags": [
+        "python",
+        "anti"
+      ],
+      "triggers": [
+        "python",
+        "anti",
+        "common",
+        "avoid",
+        "checklist",
+        "reviewing",
+        "code",
+        "before",
+        "finalizing",
+        "implementations",
+        "debugging",
+        "issues"
+      ],
+      "path": "skills/python-anti-patterns/SKILL.md"
+    },
+    {
+      "id": "python-background-jobs",
+      "name": "python-background-jobs",
+      "description": "Python background job patterns including task queues, workers, and event-driven architecture. Use when implementing async task processing, job queues, long-running operations, or decoupling work from request/response cycles.",
+      "category": "development",
+      "tags": [
+        "python",
+        "background",
+        "jobs"
+      ],
+      "triggers": [
+        "python",
+        "background",
+        "jobs",
+        "job",
+        "including",
+        "task",
+        "queues",
+        "workers",
+        "event",
+        "driven",
+        "architecture",
+        "implementing"
+      ],
+      "path": "skills/python-background-jobs/SKILL.md"
+    },
+    {
+      "id": "python-code-style",
+      "name": "python-code-style",
+      "description": "Python code style, linting, formatting, naming conventions, and documentation standards. Use when writing new code, reviewing style, configuring linters, writing docstrings, or establishing project standards.",
+      "category": "development",
+      "tags": [
+        "python",
+        "code",
+        "style"
+      ],
+      "triggers": [
+        "python",
+        "code",
+        "style",
+        "linting",
+        "formatting",
+        "naming",
+        "conventions",
+        "documentation",
+        "standards",
+        "writing",
+        "new",
+        "reviewing"
+      ],
+      "path": "skills/python-code-style/SKILL.md"
+    },
+    {
+      "id": "python-configuration",
+      "name": "python-configuration",
+      "description": "Python configuration management via environment variables and typed settings. Use when externalizing config, setting up pydantic-settings, managing secrets, or implementing environment-specific behavior.",
+      "category": "security",
+      "tags": [
+        "python",
+        "configuration"
+      ],
+      "triggers": [
+        "python",
+        "configuration",
+        "via",
+        "environment",
+        "variables",
+        "typed",
+        "settings",
+        "externalizing",
+        "config",
+        "setting",
+        "up",
+        "pydantic"
+      ],
+      "path": "skills/python-configuration/SKILL.md"
+    },
+    {
+      "id": "python-design-patterns",
+      "name": "python-design-patterns",
+      "description": "Python design patterns including KISS, Separation of Concerns, Single Responsibility, and composition over inheritance. Use when making architecture decisions, refactoring code structure, or evaluating when abstractions are appropriate.",
+      "category": "development",
+      "tags": [
+        "python"
+      ],
+      "triggers": [
+        "python",
+        "including",
+        "kiss",
+        "separation",
+        "concerns",
+        "single",
+        "responsibility",
+        "composition",
+        "inheritance",
+        "making",
+        "architecture",
+        "decisions"
+      ],
+      "path": "skills/python-design-patterns/SKILL.md"
+    },
+    {
       "id": "python-development-python-scaffold",
       "name": "python-development-python-scaffold",
       "description": "You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint",
@@ -15784,6 +17475,82 @@
         "uv"
       ],
       "path": "skills/python-development-python-scaffold/SKILL.md"
+    },
+    {
+      "id": "python-error-handling",
+      "name": "python-error-handling",
+      "description": "Python error handling patterns including input validation, exception hierarchies, and partial failure handling. Use when implementing validation logic, designing exception strategies, handling batch processing failures, or building robust APIs.",
+      "category": "development",
+      "tags": [
+        "python",
+        "error",
+        "handling"
+      ],
+      "triggers": [
+        "python",
+        "error",
+        "handling",
+        "including",
+        "input",
+        "validation",
+        "exception",
+        "hierarchies",
+        "partial",
+        "failure",
+        "implementing",
+        "logic"
+      ],
+      "path": "skills/python-error-handling/SKILL.md"
+    },
+    {
+      "id": "python-executor",
+      "name": "python-executor",
+      "description": "Execute Python code in a safe sandboxed environment via [inference.sh](https://inference.sh). Pre-installed: NumPy, Pandas, Matplotlib, requests, BeautifulSoup, Selenium, Playwright, MoviePy, Pillow, OpenCV, trimesh, and 100+ more libraries. Use for: data processing, web scraping, image manipulation, video creation, 3D model processing, PDF generation, API calls, automation scripts. Triggers: python, execute code, run script, web scraping, data analysis, image processing, video editing, 3D models, automation, pandas, matplotlib",
+      "category": "data-ai",
+      "tags": [
+        "python",
+        "executor"
+      ],
+      "triggers": [
+        "python",
+        "executor",
+        "execute",
+        "code",
+        "safe",
+        "sandboxed",
+        "environment",
+        "via",
+        "inference",
+        "sh",
+        "https",
+        "pre"
+      ],
+      "path": "skills/python-executor/SKILL.md"
+    },
+    {
+      "id": "python-observability",
+      "name": "python-observability",
+      "description": "Python observability patterns including structured logging, metrics, and distributed tracing. Use when adding logging, implementing metrics collection, setting up tracing, or debugging production systems.",
+      "category": "infrastructure",
+      "tags": [
+        "python",
+        "observability"
+      ],
+      "triggers": [
+        "python",
+        "observability",
+        "including",
+        "structured",
+        "logging",
+        "metrics",
+        "distributed",
+        "tracing",
+        "adding",
+        "implementing",
+        "collection",
+        "setting"
+      ],
+      "path": "skills/python-observability/SKILL.md"
     },
     {
       "id": "python-packaging",
@@ -15885,6 +17652,106 @@
       "path": "skills/python-pro/SKILL.md"
     },
     {
+      "id": "python-project-structure",
+      "name": "python-project-structure",
+      "description": "Python project organization, module architecture, and public API design. Use when setting up new projects, organizing modules, defining public interfaces with __all__, or planning directory layouts.",
+      "category": "development",
+      "tags": [
+        "python",
+        "structure"
+      ],
+      "triggers": [
+        "python",
+        "structure",
+        "organization",
+        "module",
+        "architecture",
+        "public",
+        "api",
+        "setting",
+        "up",
+        "new",
+        "organizing",
+        "modules"
+      ],
+      "path": "skills/python-project-structure/SKILL.md"
+    },
+    {
+      "id": "python-resilience",
+      "name": "python-resilience",
+      "description": "Python resilience patterns including automatic retries, exponential backoff, timeouts, and fault-tolerant decorators. Use when adding retry logic, implementing timeouts, building fault-tolerant services, or handling transient failures.",
+      "category": "development",
+      "tags": [
+        "python",
+        "resilience"
+      ],
+      "triggers": [
+        "python",
+        "resilience",
+        "including",
+        "automatic",
+        "retries",
+        "exponential",
+        "backoff",
+        "timeouts",
+        "fault",
+        "tolerant",
+        "decorators",
+        "adding"
+      ],
+      "path": "skills/python-resilience/SKILL.md"
+    },
+    {
+      "id": "python-resource-management",
+      "name": "python-resource-management",
+      "description": "Python resource management with context managers, cleanup patterns, and streaming. Use when managing connections, file handles, implementing cleanup logic, or building streaming responses with accumulated state.",
+      "category": "development",
+      "tags": [
+        "python",
+        "resource"
+      ],
+      "triggers": [
+        "python",
+        "resource",
+        "context",
+        "managers",
+        "cleanup",
+        "streaming",
+        "managing",
+        "connections",
+        "file",
+        "implementing",
+        "logic",
+        "building"
+      ],
+      "path": "skills/python-resource-management/SKILL.md"
+    },
+    {
+      "id": "python-sdk",
+      "name": "python-sdk",
+      "description": "Python SDK for inference.sh - run AI apps, build agents, and integrate with 150+ models. Package: inferencesh (pip install inferencesh). Supports sync/async, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, and human approval. Use for: Python integration, AI apps, agent development, RAG pipelines, automation. Triggers: python sdk, inferencesh, pip install, python api, python client, async inference, python agent, tool builder python, programmatic ai, python integration, sdk python",
+      "category": "data-ai",
+      "tags": [
+        "python",
+        "sdk"
+      ],
+      "triggers": [
+        "python",
+        "sdk",
+        "inference",
+        "sh",
+        "run",
+        "ai",
+        "apps",
+        "agents",
+        "integrate",
+        "150",
+        "models",
+        "package"
+      ],
+      "path": "skills/python-sdk/SKILL.md"
+    },
+    {
       "id": "python-testing-patterns",
       "name": "python-testing-patterns",
       "description": "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.",
@@ -15907,6 +17774,32 @@
         "up"
       ],
       "path": "skills/python-testing-patterns/SKILL.md"
+    },
+    {
+      "id": "python-type-safety",
+      "name": "python-type-safety",
+      "description": "Python type safety with type hints, generics, protocols, and strict type checking. Use when adding type annotations, implementing generic classes, defining structural interfaces, or configuring mypy/pyright.",
+      "category": "development",
+      "tags": [
+        "python",
+        "type",
+        "safety"
+      ],
+      "triggers": [
+        "python",
+        "type",
+        "safety",
+        "hints",
+        "generics",
+        "protocols",
+        "strict",
+        "checking",
+        "adding",
+        "annotations",
+        "implementing",
+        "generic"
+      ],
+      "path": "skills/python-type-safety/SKILL.md"
     },
     {
       "id": "quant-analyst",
@@ -16007,7 +17900,7 @@
     },
     {
       "id": "react-best-practices",
-      "name": "vercel-react-best-practices",
+      "name": "react-best-practices",
       "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
       "category": "data-ai",
       "tags": [
@@ -16019,12 +17912,12 @@
         "react",
         "best",
         "practices",
-        "vercel",
         "next",
         "js",
         "performance",
         "optimization",
         "guidelines",
+        "vercel",
         "engineering",
         "skill",
         "should"
@@ -16108,6 +18001,53 @@
         "developing"
       ],
       "path": "skills/react-native-architecture/SKILL.md"
+    },
+    {
+      "id": "react-native-design",
+      "name": "react-native-design",
+      "description": "Master React Native styling, navigation, and Reanimated animations for cross-platform mobile development. Use when building React Native apps, implementing navigation patterns, or creating performant animations.",
+      "category": "development",
+      "tags": [
+        "react",
+        "native"
+      ],
+      "triggers": [
+        "react",
+        "native",
+        "styling",
+        "navigation",
+        "reanimated",
+        "animations",
+        "cross",
+        "platform",
+        "mobile",
+        "development",
+        "building",
+        "apps"
+      ],
+      "path": "skills/react-native-design/SKILL.md"
+    },
+    {
+      "id": "react-native-skills",
+      "name": "react-native-skills",
+      "description": "Vercel's patterns and best practices for developing React Native applications with AI agents.",
+      "category": "data-ai",
+      "tags": [
+        "react",
+        "native",
+        "skills"
+      ],
+      "triggers": [
+        "react",
+        "native",
+        "skills",
+        "vercel",
+        "developing",
+        "applications",
+        "ai",
+        "agents"
+      ],
+      "path": "skills/react-native-skills/SKILL.md"
     },
     {
       "id": "react-patterns",
@@ -16254,7 +18194,7 @@
     },
     {
       "id": "red-team-tools",
-      "name": "Red Team Tools and Methodology",
+      "name": "red-team-tools",
       "description": "This skill should be used when the user asks to \"follow red team methodology\", \"perform bug bounty hunting\", \"automate reconnaissance\", \"hunt for XSS vulnerabilities\", \"enumerate subdomains\", or needs security researcher techniques and tool configurations from top bug bounty hunters.",
       "category": "security",
       "tags": [
@@ -16264,13 +18204,13 @@
       "triggers": [
         "red",
         "team",
-        "methodology",
         "skill",
         "should",
         "used",
         "user",
         "asks",
         "follow",
+        "methodology",
         "perform",
         "bug",
         "bounty"
@@ -16350,6 +18290,56 @@
         "viral"
       ],
       "path": "skills/referral-program/SKILL.md"
+    },
+    {
+      "id": "related-skill",
+      "name": "related-skill",
+      "description": "Discover and install related skills from inference.sh skill registry. Helps find complementary skills for your AI workflow. Use for: skill discovery, workflow expansion, capability exploration. Triggers: related skills, find skills, skill discovery, complementary skills, expand workflow, more capabilities, similar skills, skill suggestions",
+      "category": "data-ai",
+      "tags": [
+        "related",
+        "skill"
+      ],
+      "triggers": [
+        "related",
+        "skill",
+        "discover",
+        "install",
+        "skills",
+        "inference",
+        "sh",
+        "registry",
+        "helps",
+        "find",
+        "complementary",
+        "ai"
+      ],
+      "path": "skills/related-skill/SKILL.md"
+    },
+    {
+      "id": "remote-browser",
+      "name": "remote-browser",
+      "description": "Controls a cloud browser from a sandboxed remote machine. Use when the agent is running in a sandbox (no GUI) and needs to navigate websites, interact with web pages, fill forms, take screenshots, or expose local dev servers via tunnels.",
+      "category": "infrastructure",
+      "tags": [
+        "remote",
+        "browser"
+      ],
+      "triggers": [
+        "remote",
+        "browser",
+        "controls",
+        "cloud",
+        "sandboxed",
+        "machine",
+        "agent",
+        "running",
+        "sandbox",
+        "no",
+        "gui",
+        "navigate"
+      ],
+      "path": "skills/remote-browser/SKILL.md"
     },
     {
       "id": "remotion-best-practices",
@@ -16445,6 +18435,30 @@
         "flair"
       ],
       "path": "skills/research-engineer/SKILL.md"
+    },
+    {
+      "id": "responsive-design",
+      "name": "responsive-design",
+      "description": "Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid layouts, or creating component-level responsive behavior.",
+      "category": "development",
+      "tags": [
+        "responsive"
+      ],
+      "triggers": [
+        "responsive",
+        "layouts",
+        "container",
+        "queries",
+        "fluid",
+        "typography",
+        "css",
+        "grid",
+        "mobile",
+        "first",
+        "breakpoint",
+        "building"
+      ],
+      "path": "skills/responsive-design/SKILL.md"
     },
     {
       "id": "reverse-engineer",
@@ -16742,7 +18756,7 @@
     },
     {
       "id": "scanning-tools",
-      "name": "Security Scanning Tools",
+      "name": "scanning-tools",
       "description": "This skill should be used when the user asks to \"perform vulnerability scanning\", \"scan networks for open ports\", \"assess web application security\", \"scan wireless networks\", \"detect malware\", \"check cloud security\", or \"evaluate system compliance\". It provides comprehensive guidance on security scanning tools and methodologies.",
       "category": "security",
       "tags": [
@@ -16750,7 +18764,6 @@
       ],
       "triggers": [
         "scanning",
-        "security",
         "skill",
         "should",
         "used",
@@ -16760,14 +18773,15 @@
         "vulnerability",
         "scan",
         "networks",
-        "open"
+        "open",
+        "ports"
       ],
       "path": "skills/scanning-tools/SKILL.md"
     },
     {
       "id": "schema-markup",
       "name": "schema-markup",
-      "description": "Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact. Use when the user wants to add, fix, audit, or scale schema markup (JSON-LD) for rich results. This skill evaluates whether schema should be implemented, what types are valid, and how to deploy safely according to Google guidelines.",
+      "description": "Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact. Use when the user wants to add, fix, audit, or scale schema markup (JSON-LD) for rich results. This skill evaluates whether schema should be implemented, what types are valid, and how to deploy safely according to Google guidelines.\n'",
       "category": "data-ai",
       "tags": [
         "schema",
@@ -17234,7 +19248,7 @@
     {
       "id": "seo-audit",
       "name": "seo-audit",
-      "description": "Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance. Use when the user asks for an SEO audit, technical SEO review, ranking diagnosis, on-page SEO review, meta tag audit, or SEO health check. This skill identifies issues and prioritizes actions but does not execute changes. For large-scale page creation, use programmatic-seo. For structured data, use schema-markup.",
+      "description": "Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance. Use when the user asks for an SEO audit, technical SEO review, ranking diagnosis, on-page SEO review, meta tag audit, or SEO health check. This skill identifies issues and prioritizes actions but does not execute changes. For large-scale page creation, use programmatic-seo. For structured data, use schema-markup.\n'",
       "category": "data-ai",
       "tags": [
         "seo",
@@ -17333,6 +19347,32 @@
         "established"
       ],
       "path": "skills/seo-content-auditor/SKILL.md"
+    },
+    {
+      "id": "seo-content-brief",
+      "name": "seo-content-brief",
+      "description": "SEO content brief creation with keyword research, search intent analysis, and content structure. Covers SERP analysis, heading hierarchy, word count targets, and internal linking strategy. Use for: content briefs, SEO writing, blog strategy, content planning, keyword targeting. Triggers: seo content brief, content brief, seo brief, keyword research, search intent, content strategy, blog brief, seo writing, content planning, keyword targeting, serp analysis, content outline, seo article, blog seo",
+      "category": "business",
+      "tags": [
+        "seo",
+        "content",
+        "brief"
+      ],
+      "triggers": [
+        "seo",
+        "content",
+        "brief",
+        "creation",
+        "keyword",
+        "research",
+        "search",
+        "intent",
+        "analysis",
+        "structure",
+        "covers",
+        "serp"
+      ],
+      "path": "skills/seo-content-brief/SKILL.md"
     },
     {
       "id": "seo-content-planner",
@@ -17662,7 +19702,7 @@
     },
     {
       "id": "shodan-reconnaissance",
-      "name": "Shodan Reconnaissance and Pentesting",
+      "name": "shodan-reconnaissance",
       "description": "This skill should be used when the user asks to \"search for exposed devices on the internet,\" \"perform Shodan reconnaissance,\" \"find vulnerable services using Shodan,\" \"scan IP ranges with Shodan,\" or \"discover IoT devices and open ports.\" It provides comprehensive guidance for using Shodan's search engine, CLI, and API for penetration testing reconnaissance.",
       "category": "development",
       "tags": [
@@ -17672,7 +19712,6 @@
       "triggers": [
         "shodan",
         "reconnaissance",
-        "pentesting",
         "skill",
         "should",
         "used",
@@ -17681,7 +19720,8 @@
         "search",
         "exposed",
         "devices",
-        "internet"
+        "internet",
+        "perform"
       ],
       "path": "skills/shodan-reconnaissance/SKILL.md"
     },
@@ -17812,35 +19852,33 @@
     {
       "id": "skill-creator",
       "name": "skill-creator",
-      "description": "This skill should be used when the user asks to create a new skill, build a skill, make a custom skill, develop a CLI skill, or wants to extend the CLI with new capabilities. Automates the entire skill creation workflow from brainstorming to installation.",
-      "category": "workflow",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "category": "general",
       "tags": [
-        "automation",
-        "scaffolding",
-        "skill-creation",
-        "meta-skill"
+        "skill",
+        "creator"
       ],
       "triggers": [
-        "automation",
-        "scaffolding",
-        "skill-creation",
-        "meta-skill",
         "skill",
         "creator",
+        "creating",
+        "effective",
+        "skills",
         "should",
         "used",
-        "user",
-        "asks",
+        "users",
+        "want",
         "new",
-        "custom"
+        "update",
+        "existing"
       ],
       "path": "skills/skill-creator/SKILL.md"
     },
     {
       "id": "skill-creator-ms",
-      "name": "skill-creator",
-      "description": "Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services. Use when creating new skills or updating existing skills.",
-      "category": "data-ai",
+      "name": "skill-creator-ms",
+      "description": "Microsoft's official templates and guidance for creating new agent skills.",
+      "category": "general",
       "tags": [
         "skill",
         "creator",
@@ -17850,15 +19888,13 @@
         "skill",
         "creator",
         "ms",
+        "microsoft",
+        "official",
+        "guidance",
         "creating",
-        "effective",
-        "skills",
-        "ai",
-        "coding",
-        "agents",
-        "working",
-        "azure",
-        "sdks"
+        "new",
+        "agent",
+        "skills"
       ],
       "path": "skills/skill-creator-ms/SKILL.md"
     },
@@ -18034,7 +20070,7 @@
     },
     {
       "id": "smtp-penetration-testing",
-      "name": "SMTP Penetration Testing",
+      "name": "smtp-penetration-testing",
       "description": "This skill should be used when the user asks to \"perform SMTP penetration testing\", \"enumerate email users\", \"test for open mail relays\", \"grab SMTP banners\", \"brute force email credentials\", or \"assess mail server security\". It provides comprehensive techniques for testing SMTP server security.",
       "category": "security",
       "tags": [
@@ -18081,6 +20117,32 @@
         "tiktok"
       ],
       "path": "skills/social-content/SKILL.md"
+    },
+    {
+      "id": "social-media-carousel",
+      "name": "social-media-carousel",
+      "description": "Multi-slide carousel design for Instagram, LinkedIn, and Twitter/X with layout rules and hooks. Covers slide structure, text hierarchy, swipe psychology, and platform-specific specs. Use for: carousel posts, Instagram carousels, LinkedIn carousels, slide posts, educational content. Triggers: carousel, instagram carousel, linkedin carousel, slide post, carousel design, swipe post, multi-image post, carousel template, educational carousel, carousel content, instagram slides, linkedin slides",
+      "category": "general",
+      "tags": [
+        "social",
+        "media",
+        "carousel"
+      ],
+      "triggers": [
+        "social",
+        "media",
+        "carousel",
+        "multi",
+        "slide",
+        "instagram",
+        "linkedin",
+        "twitter",
+        "layout",
+        "rules",
+        "hooks",
+        "covers"
+      ],
+      "path": "skills/social-media-carousel/SKILL.md"
     },
     {
       "id": "software-architecture",
@@ -18158,8 +20220,34 @@
       "path": "skills/spark-optimization/SKILL.md"
     },
     {
+      "id": "speech-to-text",
+      "name": "speech-to-text",
+      "description": "Transcribe audio to text with Whisper models via inference.sh CLI. Models: Fast Whisper Large V3, Whisper V3 Large. Capabilities: transcription, translation, multi-language, timestamps. Use for: meeting transcription, subtitles, podcast transcripts, voice notes. Triggers: speech to text, transcription, whisper, audio to text, transcribe audio, voice to text, stt, automatic transcription, subtitles generation, transcribe meeting, audio transcription, whisper ai",
+      "category": "data-ai",
+      "tags": [
+        "speech",
+        "to",
+        "text"
+      ],
+      "triggers": [
+        "speech",
+        "to",
+        "text",
+        "transcribe",
+        "audio",
+        "whisper",
+        "models",
+        "via",
+        "inference",
+        "sh",
+        "cli",
+        "fast"
+      ],
+      "path": "skills/speech-to-text/SKILL.md"
+    },
+    {
       "id": "sql-injection-testing",
-      "name": "SQL Injection Testing",
+      "name": "sql-injection-testing",
       "description": "This skill should be used when the user asks to \"test for SQL injection vulnerabilities\", \"perform SQLi attacks\", \"bypass authentication using SQL injection\", \"extract database information through injection\", \"detect SQL injection flaws\", or \"exploit database query vulnerabilities\". It provides comprehensive techniques for identifying, exploiting, and understanding SQL injection attack vectors across different database systems.",
       "category": "security",
       "tags": [
@@ -18233,7 +20321,7 @@
     },
     {
       "id": "sqlmap-database-pentesting",
-      "name": "SQLMap Database Penetration Testing",
+      "name": "sqlmap-database-pentesting",
       "description": "This skill should be used when the user asks to \"automate SQL injection testing,\" \"enumerate database structure,\" \"extract database credentials using sqlmap,\" \"dump tables and columns from a vulnerable database,\" or \"perform automated database penetration testing.\" It provides comprehensive guidance for using SQLMap to detect and exploit SQL injection vulnerabilities.",
       "category": "data-ai",
       "tags": [
@@ -18245,15 +20333,15 @@
         "sqlmap",
         "database",
         "pentesting",
-        "penetration",
-        "testing",
         "skill",
         "should",
         "used",
         "user",
         "asks",
         "automate",
-        "sql"
+        "sql",
+        "injection",
+        "testing"
       ],
       "path": "skills/sqlmap-database-pentesting/SKILL.md"
     },
@@ -18283,7 +20371,7 @@
     },
     {
       "id": "ssh-penetration-testing",
-      "name": "SSH Penetration Testing",
+      "name": "ssh-penetration-testing",
       "description": "This skill should be used when the user asks to \"pentest SSH services\", \"enumerate SSH configurations\", \"brute force SSH credentials\", \"exploit SSH vulnerabilities\", \"perform SSH tunneling\", or \"audit SSH security\". It provides comprehensive SSH penetration testing methodologies and techniques.",
       "category": "security",
       "tags": [
@@ -18487,6 +20575,31 @@
         "interfaces"
       ],
       "path": "skills/stitch-ui-design/SKILL.md"
+    },
+    {
+      "id": "storyboard-creation",
+      "name": "storyboard-creation",
+      "description": "Film and video storyboarding with shot vocabulary, continuity rules, and panel layout. Covers shot types, camera angles, movement, 180-degree rule, and annotation format. Use for: video planning, film pre-production, ad storyboards, music video planning, animation. Triggers: storyboard, storyboarding, shot list, film planning, video planning, pre production, shot composition, camera angles, scene planning, visual script, animatic, storyboard panels, video storyboard",
+      "category": "general",
+      "tags": [
+        "storyboard",
+        "creation"
+      ],
+      "triggers": [
+        "storyboard",
+        "creation",
+        "film",
+        "video",
+        "storyboarding",
+        "shot",
+        "vocabulary",
+        "continuity",
+        "rules",
+        "panel",
+        "layout",
+        "covers"
+      ],
+      "path": "skills/storyboard-creation/SKILL.md"
     },
     {
       "id": "stride-analysis-patterns",
@@ -18702,7 +20815,7 @@
     {
       "id": "tailwind-design-system",
       "name": "tailwind-design-system",
-      "description": "Build scalable design systems with Tailwind CSS, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.",
+      "description": "Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.",
       "category": "architecture",
       "tags": [
         "tailwind"
@@ -18711,6 +20824,7 @@
         "tailwind",
         "scalable",
         "css",
+        "v4",
         "tokens",
         "component",
         "libraries",
@@ -18743,6 +20857,58 @@
         "architecture"
       ],
       "path": "skills/tailwind-patterns/SKILL.md"
+    },
+    {
+      "id": "talking-head-production",
+      "name": "talking-head-production",
+      "description": "Talking head video production with AI avatars, lipsync, and voiceover. Covers portrait requirements, audio quality, OmniHuman, PixVerse lipsync, Dia TTS. Use for: spokesperson videos, course content, social media, presentations, demos. Triggers: talking head, avatar video, lipsync, lip sync, ai spokesperson, virtual presenter, ai presenter, omnihuman, talking avatar, video presenter, ai talking head, presenter video, ai face video",
+      "category": "data-ai",
+      "tags": [
+        "talking",
+        "head",
+        "production"
+      ],
+      "triggers": [
+        "talking",
+        "head",
+        "production",
+        "video",
+        "ai",
+        "avatars",
+        "lipsync",
+        "voiceover",
+        "covers",
+        "portrait",
+        "requirements",
+        "audio"
+      ],
+      "path": "skills/talking-head-production/SKILL.md"
+    },
+    {
+      "id": "task-coordination-strategies",
+      "name": "task-coordination-strategies",
+      "description": "Decompose complex tasks, design dependency graphs, and coordinate multi-agent work with proper task descriptions and workload balancing. Use this skill when breaking down work for agent teams, managing task dependencies, or monitoring team progress.",
+      "category": "infrastructure",
+      "tags": [
+        "task",
+        "coordination",
+        "strategies"
+      ],
+      "triggers": [
+        "task",
+        "coordination",
+        "strategies",
+        "decompose",
+        "complex",
+        "tasks",
+        "dependency",
+        "graphs",
+        "coordinate",
+        "multi",
+        "agent",
+        "work"
+      ],
+      "path": "skills/task-coordination-strategies/SKILL.md"
     },
     {
       "id": "tavily-web",
@@ -18944,6 +21110,32 @@
       "path": "skills/team-collaboration-standup-notes/SKILL.md"
     },
     {
+      "id": "team-communication-protocols",
+      "name": "team-communication-protocols",
+      "description": "Structured messaging protocols for agent team communication including message type selection, plan approval, shutdown procedures, and anti-patterns to avoid. Use this skill when establishing team communication norms, handling plan approvals, or managing team shutdown.",
+      "category": "architecture",
+      "tags": [
+        "team",
+        "communication",
+        "protocols"
+      ],
+      "triggers": [
+        "team",
+        "communication",
+        "protocols",
+        "structured",
+        "messaging",
+        "agent",
+        "including",
+        "message",
+        "type",
+        "selection",
+        "plan",
+        "approval"
+      ],
+      "path": "skills/team-communication-protocols/SKILL.md"
+    },
+    {
       "id": "team-composition-analysis",
       "name": "team-composition-analysis",
       "description": "This skill should be used when the user asks to \"plan team structure\", \"determine hiring needs\", \"design org chart\", \"calculate compensation\", \"plan equity allocation\", or requests organizational design and headcount planning for a startup.",
@@ -18967,6 +21159,57 @@
         "hiring"
       ],
       "path": "skills/team-composition-analysis/SKILL.md"
+    },
+    {
+      "id": "team-composition-patterns",
+      "name": "team-composition-patterns",
+      "description": "Design optimal agent team compositions with sizing heuristics, preset configurations, and agent type selection. Use this skill when deciding team size, selecting agent types, or configuring team presets for multi-agent workflows.",
+      "category": "architecture",
+      "tags": [
+        "team",
+        "composition"
+      ],
+      "triggers": [
+        "team",
+        "composition",
+        "optimal",
+        "agent",
+        "compositions",
+        "sizing",
+        "heuristics",
+        "preset",
+        "configurations",
+        "type",
+        "selection",
+        "skill"
+      ],
+      "path": "skills/team-composition-patterns/SKILL.md"
+    },
+    {
+      "id": "technical-blog-writing",
+      "name": "technical-blog-writing",
+      "description": "Technical blog post writing with structure, code examples, and developer audience conventions. Covers post types, code formatting, explanation depth, and developer-specific engagement patterns. Use for: engineering blogs, dev tutorials, technical writing, developer content, documentation posts. Triggers: technical blog, dev blog, engineering blog, technical writing, developer tutorial, tech post, code tutorial, programming blog, developer content, technical article, engineering post, coding tutorial, technical content",
+      "category": "architecture",
+      "tags": [
+        "technical",
+        "blog",
+        "writing"
+      ],
+      "triggers": [
+        "technical",
+        "blog",
+        "writing",
+        "post",
+        "structure",
+        "code",
+        "examples",
+        "developer",
+        "audience",
+        "conventions",
+        "covers",
+        "types"
+      ],
+      "path": "skills/technical-blog-writing/SKILL.md"
     },
     {
       "id": "telegram-automation",
@@ -19254,6 +21497,32 @@
       "path": "skills/testing-patterns/SKILL.md"
     },
     {
+      "id": "text-to-speech",
+      "name": "text-to-speech",
+      "description": "Convert text to natural speech with DIA TTS, Kokoro, Chatterbox, and more via inference.sh CLI. Models: DIA TTS (conversational), Kokoro TTS, Chatterbox, Higgs Audio, VibeVoice (podcasts). Capabilities: text-to-speech, voice cloning, multi-speaker dialogue, podcast generation, expressive speech. Use for: voiceovers, audiobooks, podcasts, accessibility, video narration, IVR, voice assistants. Triggers: text to speech, tts, voice generation, ai voice, speech synthesis, voice over, generate speech, ai narrator, voice cloning, text to audio, elevenlabs alternative, voice ai, ai voiceover, speech generator, natural voice",
+      "category": "data-ai",
+      "tags": [
+        "text",
+        "to",
+        "speech"
+      ],
+      "triggers": [
+        "text",
+        "to",
+        "speech",
+        "convert",
+        "natural",
+        "dia",
+        "tts",
+        "kokoro",
+        "chatterbox",
+        "via",
+        "inference",
+        "sh"
+      ],
+      "path": "skills/text-to-speech/SKILL.md"
+    },
+    {
       "id": "theme-factory",
       "name": "theme-factory",
       "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
@@ -19418,8 +21687,32 @@
       "path": "skills/tool-design/SKILL.md"
     },
     {
+      "id": "tools-ui",
+      "name": "tools-ui",
+      "description": "Tool lifecycle UI components for React/Next.js from ui.inference.sh. Display tool calls: pending, progress, approval required, results. Capabilities: tool status, progress indicators, approval flows, results display. Use for: showing agent tool calls, human-in-the-loop approvals, tool output. Triggers: tool ui, tool calls, tool status, tool approval, tool results, agent tools, mcp tools ui, function calling ui, tool lifecycle, tool pending",
+      "category": "development",
+      "tags": [
+        "ui"
+      ],
+      "triggers": [
+        "ui",
+        "lifecycle",
+        "components",
+        "react",
+        "next",
+        "js",
+        "inference",
+        "sh",
+        "display",
+        "calls",
+        "pending",
+        "progress"
+      ],
+      "path": "skills/tools-ui/SKILL.md"
+    },
+    {
       "id": "top-web-vulnerabilities",
-      "name": "Top 100 Web Vulnerabilities Reference",
+      "name": "top-web-vulnerabilities",
       "description": "This skill should be used when the user asks to \"identify web application vulnerabilities\", \"explain common security flaws\", \"understand vulnerability categories\", \"learn about injection attacks\", \"review access control weaknesses\", \"analyze API security issues\", \"assess security misconfigurations\", \"understand client-side vulnerabilities\", \"examine mobile and IoT security flaws\", or \"reference the OWASP-aligned vulnerability taxonomy\". Use this skill to provide comprehensive vulnerability definitions, root causes, impacts, and mitigation strategies across all major web security categories.",
       "category": "security",
       "tags": [
@@ -19431,15 +21724,15 @@
         "top",
         "web",
         "vulnerabilities",
-        "100",
-        "reference",
         "skill",
         "should",
         "used",
         "user",
         "asks",
         "identify",
-        "application"
+        "application",
+        "explain",
+        "common"
       ],
       "path": "skills/top-web-vulnerabilities/SKILL.md"
     },
@@ -19593,8 +21886,8 @@
     {
       "id": "twitter-automation",
       "name": "twitter-automation",
-      "description": "Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users, bookmarks, lists, media. Always search tools first for current schemas.",
-      "category": "workflow",
+      "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet",
+      "category": "development",
       "tags": [
         "twitter"
       ],
@@ -19602,17 +21895,43 @@
         "twitter",
         "automation",
         "automate",
-        "tasks",
+        "posting",
+        "engagement",
+        "user",
         "via",
-        "rube",
-        "mcp",
-        "composio",
-        "posts",
-        "search",
-        "users",
-        "bookmarks"
+        "inference",
+        "sh",
+        "cli",
+        "apps",
+        "post"
       ],
       "path": "skills/twitter-automation/SKILL.md"
+    },
+    {
+      "id": "twitter-thread-creation",
+      "name": "twitter-thread-creation",
+      "description": "Twitter/X thread writing with hook tweets, thread structure, and engagement optimization. Covers tweet formatting, character limits, media attachments, and posting strategies. Use for: Twitter threads, X posts, tweet storms, Twitter content, social media writing. Triggers: twitter thread, tweet thread, x thread, twitter post, tweet writing, thread creation, tweet storm, twitter content, x post, twitter writing, twitter hook, tweet formatting, thread structure",
+      "category": "general",
+      "tags": [
+        "twitter",
+        "thread",
+        "creation"
+      ],
+      "triggers": [
+        "twitter",
+        "thread",
+        "creation",
+        "writing",
+        "hook",
+        "tweets",
+        "structure",
+        "engagement",
+        "optimization",
+        "covers",
+        "tweet",
+        "formatting"
+      ],
+      "path": "skills/twitter-thread-creation/SKILL.md"
     },
     {
       "id": "typescript-advanced-types",
@@ -20130,6 +22449,31 @@
       "path": "skills/vercel-automation/SKILL.md"
     },
     {
+      "id": "vercel-composition-patterns",
+      "name": "vercel-composition-patterns",
+      "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture. Includes React 19 API changes.",
+      "category": "development",
+      "tags": [
+        "vercel",
+        "composition"
+      ],
+      "triggers": [
+        "vercel",
+        "composition",
+        "react",
+        "scale",
+        "refactoring",
+        "components",
+        "boolean",
+        "prop",
+        "proliferation",
+        "building",
+        "flexible",
+        "component"
+      ],
+      "path": "skills/vercel-composition-patterns/SKILL.md"
+    },
+    {
       "id": "vercel-deploy-claimable",
       "name": "vercel-deploy-claimable",
       "description": "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as 'Deploy my app', 'Deploy this to production', 'Create a preview deployment', 'Deploy and give me the link', or 'Push this live'. No authentication required - returns preview URL and claimable deployment link.",
@@ -20175,6 +22519,60 @@
         "hosting"
       ],
       "path": "skills/vercel-deployment/SKILL.md"
+    },
+    {
+      "id": "vercel-react-best-practices",
+      "name": "vercel-react-best-practices",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "category": "data-ai",
+      "tags": [
+        "vercel",
+        "react",
+        "best",
+        "practices"
+      ],
+      "triggers": [
+        "vercel",
+        "react",
+        "best",
+        "practices",
+        "next",
+        "js",
+        "performance",
+        "optimization",
+        "guidelines",
+        "engineering",
+        "skill",
+        "should"
+      ],
+      "path": "skills/vercel-react-best-practices/SKILL.md"
+    },
+    {
+      "id": "vercel-react-native-skills",
+      "name": "vercel-react-native-skills",
+      "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.",
+      "category": "development",
+      "tags": [
+        "vercel",
+        "react",
+        "native",
+        "skills"
+      ],
+      "triggers": [
+        "vercel",
+        "react",
+        "native",
+        "skills",
+        "expo",
+        "building",
+        "performant",
+        "mobile",
+        "apps",
+        "components",
+        "optimizing",
+        "list"
+      ],
+      "path": "skills/vercel-react-native-skills/SKILL.md"
     },
     {
       "id": "verification-before-completion",
@@ -20225,6 +22623,57 @@
       "path": "skills/vexor/SKILL.md"
     },
     {
+      "id": "video-ad-specs",
+      "name": "video-ad-specs",
+      "description": "Video ad creation with exact platform-specific specs for TikTok, Instagram, YouTube, Facebook, LinkedIn. Covers dimensions, duration limits, AIDA framework, and caption requirements. Use for: video ads, social media ads, paid media creative, video marketing, ad production. Triggers: video ad, social media ad, tiktok ad, instagram ad, youtube ad, facebook ad, linkedin ad, video creative, ad specs, paid media, video marketing, ad production, reels ad, stories ad, pre roll, bumper ad",
+      "category": "business",
+      "tags": [
+        "video",
+        "ad",
+        "specs"
+      ],
+      "triggers": [
+        "video",
+        "ad",
+        "specs",
+        "creation",
+        "exact",
+        "platform",
+        "specific",
+        "tiktok",
+        "instagram",
+        "youtube",
+        "facebook",
+        "linkedin"
+      ],
+      "path": "skills/video-ad-specs/SKILL.md"
+    },
+    {
+      "id": "video-prompting-guide",
+      "name": "video-prompting-guide",
+      "description": "Best practices and techniques for writing effective AI video generation prompts. Covers: Veo, Seedance, Wan, Grok, Kling, Runway, Pika, Sora prompting strategies. Learn: shot types, camera movements, lighting, pacing, style keywords, negative prompts. Use for: improving video quality, getting consistent results, professional video prompts. Triggers: video prompt, how to prompt video, veo prompts, video generation tips, better ai video, video prompt engineering, video prompt guide, video prompt template, ai video tips, video prompt best practices, video prompt examples, cinematography prompts",
+      "category": "data-ai",
+      "tags": [
+        "video",
+        "prompting"
+      ],
+      "triggers": [
+        "video",
+        "prompting",
+        "techniques",
+        "writing",
+        "effective",
+        "ai",
+        "generation",
+        "prompts",
+        "covers",
+        "veo",
+        "seedance",
+        "wan"
+      ],
+      "path": "skills/video-prompting-guide/SKILL.md"
+    },
+    {
       "id": "viral-generator-builder",
       "name": "viral-generator-builder",
       "description": "Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers the psychology of sharing, viral mechanics, and building tools people can't resist sharing with friends. Use when: generator tool, quiz maker, name generator, avatar creator, viral tool.",
@@ -20249,6 +22698,31 @@
         "creators"
       ],
       "path": "skills/viral-generator-builder/SKILL.md"
+    },
+    {
+      "id": "visual-design-foundations",
+      "name": "visual-design-foundations",
+      "description": "Apply typography, color theory, spacing systems, and iconography principles to create cohesive visual designs. Use when establishing design tokens, building style guides, or improving visual hierarchy and consistency.",
+      "category": "general",
+      "tags": [
+        "visual",
+        "foundations"
+      ],
+      "triggers": [
+        "visual",
+        "foundations",
+        "apply",
+        "typography",
+        "color",
+        "theory",
+        "spacing",
+        "iconography",
+        "principles",
+        "cohesive",
+        "designs",
+        "establishing"
+      ],
+      "path": "skills/visual-design-foundations/SKILL.md"
     },
     {
       "id": "voice-agents",
@@ -20403,6 +22877,31 @@
       "path": "skills/web-artifacts-builder/SKILL.md"
     },
     {
+      "id": "web-component-design",
+      "name": "web-component-design",
+      "description": "Master React, Vue, and Svelte component patterns including CSS-in-JS, composition strategies, and reusable component architecture. Use when building UI component libraries, designing component APIs, or implementing frontend design systems.",
+      "category": "development",
+      "tags": [
+        "web",
+        "component"
+      ],
+      "triggers": [
+        "web",
+        "component",
+        "react",
+        "vue",
+        "svelte",
+        "including",
+        "css",
+        "js",
+        "composition",
+        "reusable",
+        "architecture",
+        "building"
+      ],
+      "path": "skills/web-component-design/SKILL.md"
+    },
+    {
       "id": "web-design-guidelines",
       "name": "web-design-guidelines",
       "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
@@ -20452,6 +22951,31 @@
         "bundle"
       ],
       "path": "skills/web-performance-optimization/SKILL.md"
+    },
+    {
+      "id": "web-search",
+      "name": "web-search",
+      "description": "Web search and content extraction with Tavily and Exa via inference.sh CLI. Apps: Tavily Search, Tavily Extract, Exa Search, Exa Answer, Exa Extract. Capabilities: AI-powered search, content extraction, direct answers, research. Use for: research, RAG pipelines, fact-checking, content aggregation, agents. Triggers: web search, tavily, exa, search api, content extraction, research, internet search, ai search, search assistant, web scraping, rag, perplexity alternative",
+      "category": "data-ai",
+      "tags": [
+        "web",
+        "search"
+      ],
+      "triggers": [
+        "web",
+        "search",
+        "content",
+        "extraction",
+        "tavily",
+        "exa",
+        "via",
+        "inference",
+        "sh",
+        "cli",
+        "apps",
+        "extract"
+      ],
+      "path": "skills/web-search/SKILL.md"
     },
     {
       "id": "web3-testing",
@@ -20548,6 +23072,31 @@
         "upload"
       ],
       "path": "skills/whatsapp-automation/SKILL.md"
+    },
+    {
+      "id": "widgets-ui",
+      "name": "widgets-ui",
+      "description": "Declarative UI widgets from JSON for React/Next.js from ui.inference.sh. Render rich interactive UIs from structured agent responses. Capabilities: forms, buttons, cards, layouts, inputs, selects, checkboxes. Use for: agent-generated UIs, dynamic forms, data display, interactive cards. Triggers: widgets, declarative ui, json ui, widget renderer, agent widgets, dynamic ui, form widgets, card widgets, shadcn widgets, structured output ui",
+      "category": "data-ai",
+      "tags": [
+        "widgets",
+        "ui"
+      ],
+      "triggers": [
+        "widgets",
+        "ui",
+        "declarative",
+        "json",
+        "react",
+        "next",
+        "js",
+        "inference",
+        "sh",
+        "render",
+        "rich",
+        "interactive"
+      ],
+      "path": "skills/widgets-ui/SKILL.md"
     },
     {
       "id": "wiki-ado-convert",
@@ -20804,7 +23353,7 @@
     },
     {
       "id": "windows-privilege-escalation",
-      "name": "Windows Privilege Escalation",
+      "name": "windows-privilege-escalation",
       "description": "This skill should be used when the user asks to \"escalate privileges on Windows,\" \"find Windows privesc vectors,\" \"enumerate Windows for privilege escalation,\" \"exploit Windows misconfigurations,\" or \"perform post-exploitation privilege escalation.\" It provides comprehensive guidance for discovering and exploiting privilege escalation vulnerabilities in Windows environments.",
       "category": "general",
       "tags": [
@@ -20830,7 +23379,7 @@
     },
     {
       "id": "wireshark-analysis",
-      "name": "Wireshark Network Traffic Analysis",
+      "name": "wireshark-analysis",
       "description": "This skill should be used when the user asks to \"analyze network traffic with Wireshark\", \"capture packets for troubleshooting\", \"filter PCAP files\", \"follow TCP/UDP streams\", \"detect network anomalies\", \"investigate suspicious traffic\", or \"perform protocol analysis\". It provides comprehensive techniques for network packet capture, filtering, and analysis using Wireshark.",
       "category": "infrastructure",
       "tags": [
@@ -20838,8 +23387,6 @@
       ],
       "triggers": [
         "wireshark",
-        "network",
-        "traffic",
         "analysis",
         "skill",
         "should",
@@ -20847,6 +23394,8 @@
         "user",
         "asks",
         "analyze",
+        "network",
+        "traffic",
         "capture",
         "packets"
       ],
@@ -20854,7 +23403,7 @@
     },
     {
       "id": "wordpress-penetration-testing",
-      "name": "WordPress Penetration Testing",
+      "name": "wordpress-penetration-testing",
       "description": "This skill should be used when the user asks to \"pentest WordPress sites\", \"scan WordPress for vulnerabilities\", \"enumerate WordPress users, themes, or plugins\", \"exploit WordPress vulnerabilities\", or \"use WPScan\". It provides comprehensive WordPress security assessment methodologies.",
       "category": "security",
       "tags": [
@@ -20993,8 +23542,8 @@
     {
       "id": "writing-skills",
       "name": "writing-skills",
-      "description": "Use when creating, updating, or improving agent skills.",
-      "category": "general",
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+      "category": "infrastructure",
       "tags": [
         "writing",
         "skills"
@@ -21003,9 +23552,13 @@
         "writing",
         "skills",
         "creating",
-        "updating",
-        "improving",
-        "agent"
+        "new",
+        "editing",
+        "existing",
+        "verifying",
+        "work",
+        "before",
+        "deployment"
       ],
       "path": "skills/writing-skills/SKILL.md"
     },
@@ -21032,33 +23585,8 @@
       "path": "skills/x-article-publisher-skill/SKILL.md"
     },
     {
-      "id": "xlsx-official",
-      "name": "xlsx",
-      "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
-      "category": "data-ai",
-      "tags": [
-        "xlsx",
-        "official"
-      ],
-      "triggers": [
-        "xlsx",
-        "official",
-        "spreadsheet",
-        "creation",
-        "editing",
-        "analysis",
-        "formulas",
-        "formatting",
-        "data",
-        "visualization",
-        "claude",
-        "work"
-      ],
-      "path": "skills/xlsx-official/SKILL.md"
-    },
-    {
       "id": "xss-html-injection",
-      "name": "Cross-Site Scripting and HTML Injection Testing",
+      "name": "xss-html-injection",
       "description": "This skill should be used when the user asks to \"test for XSS vulnerabilities\", \"perform cross-site scripting attacks\", \"identify HTML injection flaws\", \"exploit client-side injection vulnerabilities\", \"steal cookies via XSS\", or \"bypass content security policies\". It provides comprehensive techniques for detecting, exploiting, and understanding XSS and HTML injection attack vectors in web applications.",
       "category": "security",
       "tags": [
@@ -21070,15 +23598,15 @@
         "xss",
         "html",
         "injection",
-        "cross",
-        "site",
-        "scripting",
-        "testing",
         "skill",
         "should",
         "used",
         "user",
-        "asks"
+        "asks",
+        "test",
+        "vulnerabilities",
+        "perform",
+        "cross"
       ],
       "path": "skills/xss-html-injection/SKILL.md"
     },
@@ -21133,6 +23661,31 @@
         "summaries"
       ],
       "path": "skills/youtube-summarizer/SKILL.md"
+    },
+    {
+      "id": "youtube-thumbnail-design",
+      "name": "youtube-thumbnail-design",
+      "description": "YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face expression psychology, and A/B testing. Use for: YouTube thumbnails, video cover images, click-through optimization. Triggers: youtube thumbnail, thumbnail design, video thumbnail, click through rate, ctr optimization, youtube cover, video cover image, thumbnail maker, thumbnail tips, youtube design, video preview image",
+      "category": "development",
+      "tags": [
+        "youtube",
+        "thumbnail"
+      ],
+      "triggers": [
+        "youtube",
+        "thumbnail",
+        "specific",
+        "dimensions",
+        "contrast",
+        "rules",
+        "mobile",
+        "preview",
+        "optimization",
+        "covers",
+        "safe",
+        "zones"
+      ],
+      "path": "skills/youtube-thumbnail-design/SKILL.md"
     },
     {
       "id": "zapier-make-patterns",

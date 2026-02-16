@@ -13,15 +13,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure.Identity (.NET)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Authentication library for Azure SDK clients using Microsoft Entra ID (formerly Azure AD).
 
 ## Installation
@@ -352,7 +350,6 @@ All credential implementations are thread-safe. A single credential instance can
 | Credential Chains | https://learn.microsoft.com/dotnet/azure/sdk/authentication/credential-chains |
 | Best Practices | https://learn.microsoft.com/dotnet/azure/sdk/authentication/best-practices |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/identity/Azure.Identity |
-
 
 ## When to Use
 

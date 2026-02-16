@@ -15,15 +15,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure.ResourceManager.Playwright (.NET)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Management plane SDK for provisioning and managing Microsoft Playwright Testing workspaces via Azure Resource Manager.
 
 > **⚠️ Management vs Test Execution**
@@ -312,7 +310,6 @@ Environment.SetEnvironmentVariable("PLAYWRIGHT_SERVICE_URL", serviceUrl.ToString
 - [Azure.ResourceManager.Playwright API Reference](https://learn.microsoft.com/en-us/dotnet/api/azure.resourcemanager.playwright)
 - [Microsoft Playwright Testing Overview](https://learn.microsoft.com/en-us/azure/playwright-testing/overview-what-is-microsoft-playwright-testing)
 - [Quickstart: Run Playwright Tests at Scale](https://learn.microsoft.com/en-us/azure/playwright-testing/quickstart-run-end-to-end-tests)
-
 
 ## When to Use
 

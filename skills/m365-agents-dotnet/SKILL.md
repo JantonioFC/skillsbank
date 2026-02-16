@@ -13,15 +13,13 @@ source: community
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Microsoft 365 Agents SDK (.NET)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 ## Overview
 Build enterprise agents for Microsoft 365, Teams, and Copilot Studio using the Microsoft.Agents SDK with ASP.NET Core hosting, agent routing, and MSAL-based authentication.
 
@@ -303,7 +301,6 @@ await foreach (var activity in client.AskQuestionAsync("Hello!", null))
 | Auth configuration options | https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/microsoft-authentication-library-configuration-options |
 | Copilot Studio integration | https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/integrate-with-mcs |
 | GitHub samples | https://github.com/microsoft/agents |
-
 
 ## When to Use
 

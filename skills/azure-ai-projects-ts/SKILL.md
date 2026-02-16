@@ -1,8 +1,6 @@
 ---
 name: azure-ai-projects-ts
-description: Build AI applications using Azure AI Projects SDK for JavaScript (@azure/ai-projects).
-  Use when working with Foundry project clients, agents, connections, deployments,
-  datasets, indexes, evaluations, or getting OpenAI clients.
+description: "Build applications using Azure AI Projects SDK for JavaScript (@azure/ai-projects). Use when working with Foundry projects, agents, and AI services."
 package: '@azure/ai-projects'
 risk: safe
 source: microsoft

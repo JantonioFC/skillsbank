@@ -13,15 +13,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure.Messaging.ServiceBus (.NET)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Enterprise messaging SDK for reliable message delivery with queues, topics, subscriptions, and sessions.
 
 ## Installation
@@ -346,7 +344,6 @@ catch (ServiceBusException ex)
 | API Reference | https://learn.microsoft.com/dotnet/api/azure.messaging.servicebus |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/servicebus/Azure.Messaging.ServiceBus |
 | Troubleshooting | https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/servicebus/Azure.Messaging.ServiceBus/TROUBLESHOOTING.md |
-
 
 ## When to Use
 

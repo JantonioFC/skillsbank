@@ -12,15 +12,13 @@ source: community
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure Developer CLI (azd) Container Apps Deployment
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Deploy containerized frontend + backend applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure.
 
 ## Quick Start
@@ -310,7 +308,6 @@ az containerapp logs show -n <app> -g <rg> --follow  # Stream logs
 3. **Use `azd env set` for secrets** - Not main.parameters.json defaults
 4. **Service tags (`azd-service-name`)** - Required for azd to find Container Apps
 5. **`|| true` in hooks** - Prevent RBAC "already exists" errors from failing deploy
-
 
 ## When to Use
 

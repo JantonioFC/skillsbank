@@ -8,15 +8,13 @@ source: community
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Wiki Onboarding Guide Generator
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Generate four audience-tailored onboarding documents in an `onboarding/` folder, each giving a different stakeholder exactly the understanding they need.
 
 ## Source Repository Resolution (MUST DO FIRST)
@@ -230,7 +228,6 @@ After generating each guide, verify:
 - Mermaid diagrams render (no syntax errors)
 - No bare HTML-like tags (generics like `List<T>`) outside code fences — wrap in backticks
 - Each guide is appropriate for its audience — no code in Executive/PM guides
-
 
 ## When to Use
 

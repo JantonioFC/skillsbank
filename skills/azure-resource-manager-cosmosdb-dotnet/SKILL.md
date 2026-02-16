@@ -14,15 +14,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure.ResourceManager.CosmosDB (.NET)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Management plane SDK for provisioning and managing Azure Cosmos DB resources via Azure Resource Manager.
 
 > **⚠️ Management vs Data Plane**
@@ -264,7 +262,6 @@ catch (RequestFailedException ex)
 |-----|---------|---------|
 | `Microsoft.Azure.Cosmos` | Data plane (document CRUD, queries) | `dotnet add package Microsoft.Azure.Cosmos` |
 | `Azure.ResourceManager.CosmosDB` | Management plane (this SDK) | `dotnet add package Azure.ResourceManager.CosmosDB` |
-
 
 ## When to Use
 

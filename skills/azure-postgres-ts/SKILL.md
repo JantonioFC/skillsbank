@@ -13,15 +13,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure PostgreSQL for TypeScript (node-postgres)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Connect to Azure Database for PostgreSQL Flexible Server using the `pg` (node-postgres) package with support for password and Microsoft Entra ID (passwordless) authentication.
 
 ## Installation
@@ -490,7 +488,6 @@ import {
 | GitHub Repository | https://github.com/brianc/node-postgres |
 | Azure PostgreSQL Docs | https://learn.microsoft.com/azure/postgresql/flexible-server/ |
 | Passwordless Connection | https://learn.microsoft.com/azure/postgresql/flexible-server/how-to-connect-with-managed-identity |
-
 
 ## When to Use
 

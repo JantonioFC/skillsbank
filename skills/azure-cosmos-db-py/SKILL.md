@@ -12,15 +12,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Cosmos DB Service Implementation
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles.
 
 ## Installation
@@ -252,7 +250,6 @@ async def test_get_project_by_id_returns_project(mock_cosmos_container):
 - Partition key queries avoid cross-partition scans
 - Async wrapping prevents blocking FastAPI event loop
 - Minimal document conversion overhead
-
 
 ## When to Use
 

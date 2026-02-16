@@ -12,15 +12,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents (.NET)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Azure Functions extension for handling Microsoft Entra ID custom authentication events.
 
 ## Installation
@@ -453,7 +451,6 @@ public static WebJobsAuthenticationEventResponse Run(
 | Token Issuance Events | https://learn.microsoft.com/entra/identity-platform/custom-extension-tokenissuancestart-setup |
 | Attribute Collection Events | https://learn.microsoft.com/entra/identity-platform/custom-extension-attribute-collection |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/entra/Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents |
-
 
 ## When to Use
 

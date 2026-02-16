@@ -13,15 +13,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure Cosmos DB SDK for Python
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Client library for Azure Cosmos DB NoSQL API — globally distributed, multi-model database.
 
 ## Installation
@@ -292,7 +290,6 @@ except CosmosHttpResponseError as e:
 | [references/partitioning.md](references/partitioning.md) | Partition key strategies, hierarchical keys, hot partition detection and mitigation |
 | [references/query-patterns.md](references/query-patterns.md) | Query optimization, aggregations, pagination, transactions, change feed |
 | [scripts/setup_cosmos_container.py](scripts/setup_cosmos_container.py) | CLI tool for creating containers with partitioning, throughput, and indexing |
-
 
 ## When to Use
 

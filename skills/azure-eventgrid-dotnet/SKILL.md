@@ -12,15 +12,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure.Messaging.EventGrid (.NET)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Client library for publishing events to Azure Event Grid topics, domains, and namespaces.
 
 ## Installation
@@ -500,7 +498,6 @@ catch (RequestFailedException)
 | Quickstart | https://learn.microsoft.com/azure/event-grid/custom-event-quickstart |
 | Pull Delivery | https://learn.microsoft.com/azure/event-grid/pull-delivery-overview |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/eventgrid/Azure.Messaging.EventGrid |
-
 
 ## When to Use
 

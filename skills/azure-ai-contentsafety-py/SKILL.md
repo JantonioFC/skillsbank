@@ -13,15 +13,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure AI Content Safety SDK for Python
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Detect harmful user-generated and AI-generated content in applications.
 
 ## Installation
@@ -226,7 +224,6 @@ request = AnalyzeTextOptions(
 5. **Log analysis results** for audit and improvement
 6. **Consider 8-severity mode** for finer-grained control
 7. **Pre-moderate AI outputs** before showing to users
-
 
 ## When to Use
 

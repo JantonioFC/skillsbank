@@ -14,15 +14,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure.ResourceManager.Redis (.NET)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Management plane SDK for provisioning and managing Azure Cache for Redis resources via Azure Resource Manager.
 
 > **⚠️ Management vs Data Plane**
@@ -370,7 +368,6 @@ var value = await db.StringGetAsync("key");
 | `StackExchange.Redis` | Data plane (get/set, pub/sub, streams) | `dotnet add package StackExchange.Redis` |
 | `Azure.ResourceManager.Redis` | Management plane (this SDK) | `dotnet add package Azure.ResourceManager.Redis` |
 | `Microsoft.Azure.StackExchangeRedis` | Azure-specific Redis extensions | `dotnet add package Microsoft.Azure.StackExchangeRedis` |
-
 
 ## When to Use
 

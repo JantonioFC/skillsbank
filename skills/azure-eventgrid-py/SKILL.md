@@ -13,15 +13,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure Event Grid SDK for Python
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Event routing service for building event-driven applications with pub/sub semantics.
 
 ## Installation
@@ -180,7 +178,6 @@ async with EventGridPublisherClient(
 4. **Use async client** for high-throughput scenarios
 5. **Handle retries** — Event Grid has built-in retry
 6. **Set appropriate event types** for routing and filtering
-
 
 ## When to Use
 

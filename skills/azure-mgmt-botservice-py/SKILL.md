@@ -12,15 +12,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure Bot Service Management SDK for Python
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Manage Azure Bot Service resources including bots, channels, and connections.
 
 ## Installation
@@ -332,7 +330,6 @@ for conn in connections:
 5. **Rotate Direct Line keys** periodically
 6. **Use managed identity** when possible for bot connections
 7. **Configure proper CORS** for Web Chat channel
-
 
 ## When to Use
 

@@ -13,15 +13,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure Tables SDK for Python
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 NoSQL key-value store for structured data (Azure Storage Tables or Cosmos DB Table API).
 
 ## Installation
@@ -255,7 +253,6 @@ asyncio.run(table_operations())
 5. **Use parameterized queries** to prevent injection
 6. **Keep entities small** — max 1MB per entity
 7. **Use async client** for high-throughput scenarios
-
 
 ## When to Use
 

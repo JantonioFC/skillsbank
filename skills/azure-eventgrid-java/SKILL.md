@@ -9,15 +9,13 @@ source: microsoft
 license: MIT
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Azure Event Grid SDK for Java
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Build event-driven applications using the Azure Event Grid SDK for Java.
 
 ## Installation
@@ -315,7 +313,6 @@ EVENT_GRID_ACCESS_KEY=<your-access-key>
 - "event-driven messaging"
 - "pub/sub Azure"
 - "webhook events"
-
 
 ## When to Use
 
