@@ -1,15 +1,6 @@
 [
   {
     "id": "2d-games",
-    "path": "skills/game-development/2d-games",
-    "category": "game-development",
-    "name": "2d-games",
-    "description": "2D game development principles. Sprites, tilemaps, physics, camera.",
-    "risk": "safe",
-    "source": "community"
-  },
-  {
-    "id": "2d-games",
     "path": "skills/2d-games",
     "category": "uncategorized",
     "name": "2d-games",
@@ -18,11 +9,11 @@
     "source": "unknown"
   },
   {
-    "id": "3d-games",
-    "path": "skills/game-development/3d-games",
+    "id": "2d-games",
+    "path": "skills/game-development/2d-games",
     "category": "game-development",
-    "name": "3d-games",
-    "description": "3D game development principles. Rendering, shaders, physics, cameras.",
+    "name": "2d-games",
+    "description": "2D game development principles. Sprites, tilemaps, physics, camera.",
     "risk": "safe",
     "source": "community"
   },
@@ -34,6 +25,15 @@
     "description": "3D game development principles. Rendering, shaders, physics, cameras.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "3d-games",
+    "path": "skills/game-development/3d-games",
+    "category": "game-development",
+    "name": "3d-games",
+    "description": "3D game development principles. Rendering, shaders, physics, cameras.",
+    "risk": "safe",
+    "source": "community"
   },
   {
     "id": "3d-web-experience",
@@ -127,8 +127,8 @@
   },
   {
     "id": "agent-framework",
-    "path": "skills/microsoft-foundry/agent/create/agent-framework",
-    "category": "create",
+    "path": "skills/agent-framework",
+    "category": "uncategorized",
     "name": "agent-framework",
     "description": "Create AI agents and workflows using Microsoft Agent Framework SDK. Supports single-agent and multi-agent workflow patterns.\nUSE FOR: create agent, build agent, scaffold agent, new agent, agent framework, workflow pattern, multi-agent, MCP tools, create workflow.\nDO NOT USE FOR: deploying agents (use agent/deploy), evaluating agents (use agent/evaluate), Azure AI Foundry agents without Agent Framework SDK.",
     "risk": "unknown",
@@ -136,8 +136,8 @@
   },
   {
     "id": "agent-framework",
-    "path": "skills/agent-framework",
-    "category": "uncategorized",
+    "path": "skills/microsoft-foundry/agent/create/agent-framework",
+    "category": "create",
     "name": "agent-framework",
     "description": "Create AI agents and workflows using Microsoft Agent Framework SDK. Supports single-agent and multi-agent workflow patterns.\nUSE FOR: create agent, build agent, scaffold agent, new agent, agent framework, workflow pattern, multi-agent, MCP tools, create workflow.\nDO NOT USE FOR: deploying agents (use agent/deploy), evaluating agents (use agent/evaluate), Azure AI Foundry agents without Agent Framework SDK.",
     "risk": "unknown",
@@ -2485,7 +2485,7 @@
   },
   {
     "id": "capacity",
-    "path": "skills/microsoft-foundry/models/deploy-model/capacity",
+    "path": "skills/deploy-model/capacity",
     "category": "deploy-model",
     "name": "capacity",
     "description": "Discovers available Azure OpenAI model capacity across regions and projects. Analyzes quota limits, compares availability, and recommends optimal deployment locations based on capacity requirements.\nUSE FOR: find capacity, check quota, where can I deploy, capacity discovery, best region for capacity, multi-project capacity search, quota analysis, model availability, region comparison, check TPM availability.\nDO NOT USE FOR: actual deployment (hand off to preset or customize after discovery), quota increase requests (direct user to Azure Portal), listing existing deployments.",
@@ -2494,7 +2494,7 @@
   },
   {
     "id": "capacity",
-    "path": "skills/deploy-model/capacity",
+    "path": "skills/microsoft-foundry/models/deploy-model/capacity",
     "category": "deploy-model",
     "name": "capacity",
     "description": "Discovers available Azure OpenAI model capacity across regions and projects. Analyzes quota limits, compares availability, and recommends optimal deployment locations based on capacity requirements.\nUSE FOR: find capacity, check quota, where can I deploy, capacity discovery, best region for capacity, multi-project capacity search, quota analysis, model availability, region comparison, check TPM availability.\nDO NOT USE FOR: actual deployment (hand off to preset or customize after discovery), quota increase requests (direct user to Azure Portal), listing existing deployments.",
@@ -3457,7 +3457,7 @@
   },
   {
     "id": "customize",
-    "path": "skills/microsoft-foundry/models/deploy-model/customize",
+    "path": "skills/deploy-model/customize",
     "category": "deploy-model",
     "name": "customize",
     "description": "Interactive guided deployment flow for Azure OpenAI models with full customization control. Step-by-step selection of model version, SKU (GlobalStandard/Standard/ProvisionedManaged), capacity, RAI policy (content filter), and advanced options (dynamic quota, priority processing, spillover). USE FOR: custom deployment, customize model deployment, choose version, select SKU, set capacity, configure content filter, RAI policy, deployment options, detailed deployment, advanced deployment, PTU deployment, provisioned throughput. DO NOT USE FOR: quick deployment to optimal region (use preset).",
@@ -3466,7 +3466,7 @@
   },
   {
     "id": "customize",
-    "path": "skills/deploy-model/customize",
+    "path": "skills/microsoft-foundry/models/deploy-model/customize",
     "category": "deploy-model",
     "name": "customize",
     "description": "Interactive guided deployment flow for Azure OpenAI models with full customization control. Step-by-step selection of model version, SKU (GlobalStandard/Standard/ProvisionedManaged), capacity, RAI policy (content filter), and advanced options (dynamic quota, priority processing, spillover). USE FOR: custom deployment, customize model deployment, choose version, select SKU, set capacity, configure content filter, RAI policy, deployment options, detailed deployment, advanced deployment, PTU deployment, provisioned throughput. DO NOT USE FOR: quick deployment to optimal region (use preset).",
@@ -3763,8 +3763,8 @@
   },
   {
     "id": "deploy-model",
-    "path": "skills/microsoft-foundry/models/deploy-model",
-    "category": "models",
+    "path": "skills/deploy-model",
+    "category": "uncategorized",
     "name": "deploy-model",
     "description": "Unified Azure OpenAI model deployment skill with intelligent intent-based routing. Handles quick preset deployments, fully customized deployments (version/SKU/capacity/RAI policy), and capacity discovery across regions and projects.\nUSE FOR: deploy model, deploy gpt, create deployment, model deployment, deploy openai model, set up model, provision model, find capacity, check model availability, where can I deploy, best region for model, capacity analysis.\nDO NOT USE FOR: listing existing deployments (use foundry_models_deployments_list MCP tool), deleting deployments, agent creation (use agent/create), project creation (use project/create).",
     "risk": "unknown",
@@ -3772,8 +3772,8 @@
   },
   {
     "id": "deploy-model",
-    "path": "skills/deploy-model",
-    "category": "uncategorized",
+    "path": "skills/microsoft-foundry/models/deploy-model",
+    "category": "models",
     "name": "deploy-model",
     "description": "Unified Azure OpenAI model deployment skill with intelligent intent-based routing. Handles quick preset deployments, fully customized deployments (version/SKU/capacity/RAI policy), and capacity discovery across regions and projects.\nUSE FOR: deploy model, deploy gpt, create deployment, model deployment, deploy openai model, set up model, provision model, find capacity, check model availability, where can I deploy, best region for model, capacity analysis.\nDO NOT USE FOR: listing existing deployments (use foundry_models_deployments_list MCP tool), deleting deployments, agent creation (use agent/create), project creation (use project/create).",
     "risk": "unknown",
@@ -4897,21 +4897,21 @@
   },
   {
     "id": "game-art",
-    "path": "skills/game-art",
-    "category": "uncategorized",
-    "name": "game-art",
-    "description": "Game art principles. Visual style selection, asset pipeline, animation workflow.",
-    "risk": "unknown",
-    "source": "unknown"
-  },
-  {
-    "id": "game-art",
     "path": "skills/game-development/game-art",
     "category": "game-development",
     "name": "game-art",
     "description": "Game art principles. Visual style selection, asset pipeline, animation workflow.",
     "risk": "offensive",
     "source": "community"
+  },
+  {
+    "id": "game-art",
+    "path": "skills/game-art",
+    "category": "uncategorized",
+    "name": "game-art",
+    "description": "Game art principles. Visual style selection, asset pipeline, animation workflow.",
+    "risk": "unknown",
+    "source": "unknown"
   },
   {
     "id": "game-audio",
@@ -4933,21 +4933,21 @@
   },
   {
     "id": "game-design",
-    "path": "skills/game-development/game-design",
-    "category": "game-development",
-    "name": "game-design",
-    "description": "Game design principles. GDD structure, balancing, player psychology, progression.",
-    "risk": "safe",
-    "source": "community"
-  },
-  {
-    "id": "game-design",
     "path": "skills/game-design",
     "category": "uncategorized",
     "name": "game-design",
     "description": "Game design principles. GDD structure, balancing, player psychology, progression.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "game-design",
+    "path": "skills/game-development/game-design",
+    "category": "game-development",
+    "name": "game-design",
+    "description": "Game design principles. GDD structure, balancing, player psychology, progression.",
+    "risk": "safe",
+    "source": "community"
   },
   {
     "id": "game-development",
@@ -6337,21 +6337,21 @@
   },
   {
     "id": "mobile-games",
-    "path": "skills/game-development/mobile-games",
-    "category": "game-development",
-    "name": "mobile-games",
-    "description": "Mobile game development principles. Touch input, battery, performance, app stores.",
-    "risk": "safe",
-    "source": "community"
-  },
-  {
-    "id": "mobile-games",
     "path": "skills/mobile-games",
     "category": "uncategorized",
     "name": "mobile-games",
     "description": "Mobile game development principles. Touch input, battery, performance, app stores.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "mobile-games",
+    "path": "skills/game-development/mobile-games",
+    "category": "game-development",
+    "name": "mobile-games",
+    "description": "Mobile game development principles. Touch input, battery, performance, app stores.",
+    "risk": "safe",
+    "source": "community"
   },
   {
     "id": "mobile-ios-design",
@@ -6481,21 +6481,21 @@
   },
   {
     "id": "multiplayer",
-    "path": "skills/game-development/multiplayer",
-    "category": "game-development",
-    "name": "multiplayer",
-    "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
-    "risk": "safe",
-    "source": "community"
-  },
-  {
-    "id": "multiplayer",
     "path": "skills/multiplayer",
     "category": "uncategorized",
     "name": "multiplayer",
     "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "multiplayer",
+    "path": "skills/game-development/multiplayer",
+    "category": "game-development",
+    "name": "multiplayer",
+    "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
+    "risk": "safe",
+    "source": "community"
   },
   {
     "id": "n8n-code-python",
@@ -7210,7 +7210,7 @@
   },
   {
     "id": "preset",
-    "path": "skills/microsoft-foundry/models/deploy-model/preset",
+    "path": "skills/deploy-model/preset",
     "category": "deploy-model",
     "name": "preset",
     "description": "Intelligently deploys Azure OpenAI models to optimal regions by analyzing capacity across all available regions. Automatically checks current region first and shows alternatives if needed. USE FOR: quick deployment, optimal region, best region, automatic region selection, fast setup, multi-region capacity check, high availability deployment, deploy to best location. DO NOT USE FOR: custom SKU selection (use customize), specific version selection (use customize), custom capacity configuration (use customize), PTU deployments (use customize).",
@@ -7228,7 +7228,7 @@
   },
   {
     "id": "preset",
-    "path": "skills/deploy-model/preset",
+    "path": "skills/microsoft-foundry/models/deploy-model/preset",
     "category": "deploy-model",
     "name": "preset",
     "description": "Intelligently deploys Azure OpenAI models to optimal regions by analyzing capacity across all available regions. Automatically checks current region first and shows alternatives if needed. USE FOR: quick deployment, optimal region, best region, automatic region selection, fast setup, multi-region capacity check, high availability deployment, deploy to best location. DO NOT USE FOR: custom SKU selection (use customize), specific version selection (use customize), custom capacity configuration (use customize), PTU deployments (use customize).",
@@ -8074,8 +8074,8 @@
   },
   {
     "id": "sample-skill",
-    "path": "skills/sample-skill",
-    "category": "uncategorized",
+    "path": "skills/skill-tester/assets/sample-skill",
+    "category": "assets",
     "name": "sample-skill",
     "description": "Sample text processor demonstrating basic skill structure and functionality for the claude-skills ecosystem",
     "risk": "safe",
@@ -8083,8 +8083,8 @@
   },
   {
     "id": "sample-skill",
-    "path": "skills/skill-tester/assets/sample-skill",
-    "category": "assets",
+    "path": "skills/sample-skill",
+    "category": "uncategorized",
     "name": "sample-skill",
     "description": "Sample text processor demonstrating basic skill structure and functionality for the claude-skills ecosystem",
     "risk": "safe",
