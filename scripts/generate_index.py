@@ -38,6 +38,52 @@ def parse_frontmatter(content):
         print(f"⚠️ YAML parsing error: {e}")
         return {}
 
+CATEGORY_RULES = [
+    ("security", ["security", "sast", "compliance", "privacy", "threat", "vulnerability",
+                   "owasp", "pci", "gdpr", "secrets", "risk", "malware", "forensics",
+                   "attack", "incident", "auth", "mtls", "zero", "trust", "pentest",
+                   "penetration", "exploit", "xss", "injection", "hacking"]),
+    ("infrastructure", ["kubernetes", "k8s", "helm", "terraform", "cloud", "network",
+                         "devops", "gitops", "prometheus", "grafana", "observability",
+                         "monitoring", "logging", "tracing", "deployment", "istio",
+                         "linkerd", "mesh", "slo", "sre", "oncall", "pipeline",
+                         "cicd", "ci", "cd", "kafka", "docker", "aws", "azure", "gcp"]),
+    ("data-ai", ["data", "database", "db", "sql", "postgres", "mysql", "analytics",
+                  "etl", "warehouse", "dbt", "ml", "ai", "llm", "rag", "vector",
+                  "embedding", "spark", "airflow", "cdc"]),
+    ("development", ["python", "javascript", "typescript", "java", "golang", "go",
+                      "rust", "csharp", "dotnet", "php", "ruby", "node", "react",
+                      "frontend", "backend", "mobile", "ios", "android", "flutter",
+                      "fastapi", "django", "nextjs", "vue", "api", "swift", "scala",
+                      "haskell", "elixir", "laravel", "angular", "springboot", "fp-ts",
+                      "functional"]),
+    ("architecture", ["architecture", "c4", "microservices", "event", "cqrs", "saga",
+                       "domain", "ddd", "adr", "architect"]),
+    ("testing", ["testing", "tdd", "unit", "e2e", "qa", "test"]),
+    ("business", ["business", "market", "sales", "finance", "startup", "legal", "hr",
+                   "product", "customer", "seo", "marketing", "kpi", "contract",
+                   "employment", "email", "content", "brand", "pricing", "ceo", "cto",
+                   "revenue", "analyst"]),
+    ("workflow", ["workflow", "orchestration", "conductor", "automation", "process",
+                   "collaboration", "agent"]),
+]
+
+
+def detect_category(skill_id, name, description):
+    """Detect category using keyword matching (mirrors build-catalog.js logic)."""
+    haystack = set()
+    for text in [skill_id, name, description]:
+        if text:
+            haystack.update(re.split(r'[\s\-_/]+', text.lower()))
+
+    for cat_name, keywords in CATEGORY_RULES:
+        for keyword in keywords:
+            if keyword in haystack:
+                return cat_name
+
+    return "general"
+
+
 def generate_index(skills_dir, output_file):
     print(f"🏗️ Generating index from: {skills_dir}")
     skills = []
@@ -45,17 +91,20 @@ def generate_index(skills_dir, output_file):
     for root, dirs, files in os.walk(skills_dir):
         # Skip .disabled or hidden directories
         dirs[:] = [d for d in dirs if not d.startswith('.')]
-        
+
         if "SKILL.md" in files:
             skill_path = os.path.join(root, "SKILL.md")
             dir_name = os.path.basename(root)
             parent_dir = os.path.basename(os.path.dirname(root))
-            
+
+            # Use parent dir as category hint if nested, otherwise detect later
+            folder_category = parent_dir if parent_dir != "skills" else None
+
             # Default values
             skill_info = {
                 "id": dir_name,
                 "path": os.path.relpath(root, os.path.dirname(skills_dir)),
-                "category": parent_dir if parent_dir != "skills" else "uncategorized",
+                "category": "general",
                 "name": dir_name.replace("-", " ").title(),
                 "description": "",
                 "risk": "unknown",
@@ -96,6 +145,15 @@ def generate_index(skills_dir, output_file):
                 
                 if desc_lines:
                     skill_info["description"] = " ".join(desc_lines)[:250].strip()
+
+            # Assign category: use folder parent if it's a known category, otherwise detect
+            known_categories = {cat for cat, _ in CATEGORY_RULES}
+            if folder_category and folder_category in known_categories:
+                skill_info["category"] = folder_category
+            else:
+                skill_info["category"] = detect_category(
+                    skill_info["id"], skill_info["name"], skill_info["description"]
+                )
 
             skills.append(skill_info)
 
