@@ -318,6 +318,132 @@ const CATEGORY_RULES = [
   },
 ];
 
+const SUBCATEGORY_RULES = {
+  infrastructure: [
+    {
+      name: "containers",
+      tokens: new Set(["kubernetes", "k8s", "helm", "docker", "container", "istio"]),
+      prefixes: [],
+    },
+    {
+      name: "observability",
+      tokens: new Set(["observability", "monitoring", "tracing", "prometheus", "grafana", "diagnostics"]),
+      prefixes: [],
+    },
+    {
+      name: "messaging",
+      tokens: new Set(["servicebus", "eventhub", "eventgrid", "kafka", "queue", "messaging"]),
+      prefixes: [],
+    },
+    {
+      name: "ci-cd",
+      tokens: new Set(["cicd", "pipeline", "deploy", "gitops"]),
+      prefixes: ["github-actions", "gitlab-ci"],
+    },
+    {
+      name: "cloud-services",
+      tokens: new Set(["aws", "gcp", "serverless", "azd"]),
+      prefixes: ["azure-mgmt", "azure-identity", "azure-resource"],
+    },
+    { name: "infra-general", tokens: new Set(), prefixes: [] },
+  ],
+  general: [
+    {
+      name: "game-dev",
+      tokens: new Set(["game", "games", "unity", "vr", "ar", "threejs"]),
+      prefixes: [],
+    },
+    {
+      name: "code-quality",
+      tokens: new Set(["review", "refactor", "lint", "debug", "standards", "tech-debt"]),
+      prefixes: ["clean-code"],
+    },
+    {
+      name: "docs-formats",
+      tokens: new Set(["docx", "pptx", "xlsx", "pdf", "wiki", "readme", "changelog"]),
+      prefixes: [],
+    },
+    {
+      name: "design-ux",
+      tokens: new Set(["design", "ux", "ui", "brand", "visual", "canvas", "carousel", "thumbnail"]),
+      prefixes: [],
+    },
+    {
+      name: "agent-tools",
+      tokens: new Set(["context", "memory", "planning", "skill", "eval", "superpowers", "dispatching"]),
+      prefixes: [],
+    },
+    { name: "general-misc", tokens: new Set(), prefixes: [] },
+  ],
+  development: [
+    {
+      name: "python",
+      tokens: new Set(["python", "django", "fastapi", "pydantic"]),
+      prefixes: [],
+    },
+    {
+      name: "frontend",
+      tokens: new Set(["react", "angular", "vue", "nextjs", "frontend", "responsive", "zustand"]),
+      prefixes: [],
+    },
+    {
+      name: "fp-ts",
+      tokens: new Set(["functional"]),
+      prefixes: ["fp-"],
+    },
+    {
+      name: "mobile",
+      tokens: new Set(["ios", "android", "flutter", "mobile", "expo", "swiftui", "swift"]),
+      prefixes: [],
+    },
+    {
+      name: "azure-sdk",
+      tokens: new Set(),
+      prefixes: [
+        "azure-communication", "azure-storage", "azure-keyvault",
+        "azure-ai", "azure-cosmos", "azure-monitor", "azure-servicebus",
+        "azure-eventhub", "azure-eventgrid", "azure-search",
+        "azure-appconfiguration", "azure-data", "azure-security",
+        "azure-postgres", "azure-containerregistry", "azure-messaging",
+        "azure-web",
+      ],
+    },
+    { name: "dev-general", tokens: new Set(), prefixes: [] },
+  ],
+};
+
+function detectSubcategory(skillId, name, description, category) {
+  const rules = SUBCATEGORY_RULES[category];
+  if (!rules) return null;
+
+  const haystack = new Set(
+    normalizeTokens([
+      ...tokenize(skillId),
+      ...tokenize(name),
+      ...tokenize(description),
+    ]),
+  );
+
+  for (const rule of rules) {
+    // prefix match on skill id
+    for (const prefix of rule.prefixes) {
+      if (skillId.startsWith(prefix)) return rule.name;
+    }
+    // token match
+    if (rule.tokens.size > 0) {
+      for (const token of rule.tokens) {
+        if (haystack.has(token)) return rule.name;
+      }
+    }
+    // fallback: entry with no tokens and no prefixes acts as catch-all
+    if (rule.tokens.size === 0 && rule.prefixes.length === 0) {
+      return rule.name;
+    }
+  }
+
+  return null;
+}
+
 const BUNDLE_RULES = {
   "core-dev": {
     description:
@@ -579,22 +705,56 @@ function renderCatalogMarkdown(catalog) {
     );
     lines.push(`## ${category} (${grouped.length})`);
     lines.push("");
-    lines.push("| Skill | Description | Tags | Triggers |");
-    lines.push("| --- | --- | --- | --- |");
 
-    for (const skill of grouped) {
-      const description = truncate(skill.description, 160).replace(
-        /\|/g,
-        "\\|",
-      );
-      const tags = skill.tags.join(", ");
-      const triggers = skill.triggers.join(", ");
-      lines.push(
-        `| \`${skill.id}\` | ${description} | ${tags} | ${triggers} |`,
-      );
+    // Check if this category has subcategories
+    const hasSubcategories = grouped.some((skill) => skill.subcategory);
+
+    if (hasSubcategories) {
+      const subcategories = Array.from(
+        new Set(grouped.map((skill) => skill.subcategory || "(uncategorized)")),
+      ).sort();
+
+      for (const sub of subcategories) {
+        const subGrouped = grouped.filter(
+          (skill) => (skill.subcategory || "(uncategorized)") === sub,
+        );
+        lines.push(`### ${sub} (${subGrouped.length})`);
+        lines.push("");
+        lines.push("| Skill | Description | Tags | Triggers |");
+        lines.push("| --- | --- | --- | --- |");
+
+        for (const skill of subGrouped) {
+          const description = truncate(skill.description, 160).replace(
+            /\|/g,
+            "\\|",
+          );
+          const tags = skill.tags.join(", ");
+          const triggers = skill.triggers.join(", ");
+          lines.push(
+            `| \`${skill.id}\` | ${description} | ${tags} | ${triggers} |`,
+          );
+        }
+
+        lines.push("");
+      }
+    } else {
+      lines.push("| Skill | Description | Tags | Triggers |");
+      lines.push("| --- | --- | --- | --- |");
+
+      for (const skill of grouped) {
+        const description = truncate(skill.description, 160).replace(
+          /\|/g,
+          "\\|",
+        );
+        const tags = skill.tags.join(", ");
+        const triggers = skill.triggers.join(", ");
+        lines.push(
+          `| \`${skill.id}\` | ${description} | ${tags} | ${triggers} |`,
+        );
+      }
+
+      lines.push("");
     }
-
-    lines.push("");
   }
 
   return lines.join("\n");
@@ -610,11 +770,14 @@ function buildCatalog() {
     const category = detectCategory(skill, tags);
     const triggers = buildTriggers(skill, tags);
 
+    const subcategory = detectSubcategory(skill.id, skill.name, skill.description, category);
+
     catalogSkills.push({
       id: skill.id,
       name: skill.name,
       description: skill.description,
       category,
+      subcategory,
       tags,
       triggers,
       path: path.relative(ROOT, skill.path),

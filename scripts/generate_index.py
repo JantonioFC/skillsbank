@@ -69,6 +69,122 @@ CATEGORY_RULES = [
 ]
 
 
+SUBCATEGORY_RULES = {
+    "infrastructure": [
+        ("containers", {
+            "tokens": {"kubernetes", "k8s", "helm", "docker", "container", "istio"},
+            "prefixes": [],
+        }),
+        ("observability", {
+            "tokens": {"observability", "monitoring", "tracing", "prometheus", "grafana", "diagnostics"},
+            "prefixes": [],
+        }),
+        ("messaging", {
+            "tokens": {"servicebus", "eventhub", "eventgrid", "kafka", "queue", "messaging"},
+            "prefixes": [],
+        }),
+        ("ci-cd", {
+            "tokens": {"cicd", "pipeline", "deploy", "gitops"},
+            "prefixes": ["github-actions", "gitlab-ci"],
+        }),
+        ("cloud-services", {
+            "tokens": {"aws", "gcp", "serverless", "azd"},
+            "prefixes": ["azure-mgmt", "azure-identity", "azure-resource"],
+        }),
+        # fallback — must be last
+        ("infra-general", {
+            "tokens": set(),
+            "prefixes": [],
+        }),
+    ],
+    "general": [
+        ("game-dev", {
+            "tokens": {"game", "games", "unity", "vr", "ar", "threejs"},
+            "prefixes": [],
+        }),
+        ("code-quality", {
+            "tokens": {"review", "refactor", "lint", "debug", "standards", "tech-debt"},
+            "prefixes": ["clean-code"],
+        }),
+        ("docs-formats", {
+            "tokens": {"docx", "pptx", "xlsx", "pdf", "wiki", "readme", "changelog"},
+            "prefixes": [],
+        }),
+        ("design-ux", {
+            "tokens": {"design", "ux", "ui", "brand", "visual", "canvas", "carousel", "thumbnail"},
+            "prefixes": [],
+        }),
+        ("agent-tools", {
+            "tokens": {"context", "memory", "planning", "skill", "eval", "superpowers", "dispatching"},
+            "prefixes": [],
+        }),
+        # fallback — must be last
+        ("general-misc", {
+            "tokens": set(),
+            "prefixes": [],
+        }),
+    ],
+    "development": [
+        ("python", {
+            "tokens": {"python", "django", "fastapi", "pydantic"},
+            "prefixes": [],
+        }),
+        ("frontend", {
+            "tokens": {"react", "angular", "vue", "nextjs", "frontend", "responsive", "zustand"},
+            "prefixes": [],
+        }),
+        ("fp-ts", {
+            "tokens": {"functional"},
+            "prefixes": ["fp-"],
+        }),
+        ("mobile", {
+            "tokens": {"ios", "android", "flutter", "mobile", "expo", "swiftui", "swift"},
+            "prefixes": [],
+        }),
+        ("azure-sdk", {
+            "tokens": set(),
+            "prefixes": ["azure-communication", "azure-storage", "azure-keyvault",
+                         "azure-ai", "azure-cosmos", "azure-monitor", "azure-servicebus",
+                         "azure-eventhub", "azure-eventgrid", "azure-search",
+                         "azure-appconfiguration", "azure-data", "azure-security",
+                         "azure-postgres", "azure-containerregistry", "azure-messaging",
+                         "azure-web"],
+        }),
+        # fallback — must be last
+        ("dev-general", {
+            "tokens": set(),
+            "prefixes": [],
+        }),
+    ],
+}
+
+
+def detect_subcategory(skill_id, name, description, category):
+    """Detect subcategory using keyword + prefix matching. Returns None for categories without rules."""
+    rules = SUBCATEGORY_RULES.get(category)
+    if not rules:
+        return None
+
+    haystack = set()
+    for text in [skill_id, name, description]:
+        if text:
+            haystack.update(re.split(r'[\s\-_/]+', text.lower()))
+
+    for sub_name, rule in rules:
+        # prefix match on skill_id
+        for prefix in rule["prefixes"]:
+            if skill_id.startswith(prefix):
+                return sub_name
+        # token match
+        if rule["tokens"] and rule["tokens"] & haystack:
+            return sub_name
+        # fallback: entry with no tokens and no prefixes acts as catch-all
+        if not rule["tokens"] and not rule["prefixes"]:
+            return sub_name
+
+    return None
+
+
 def detect_category(skill_id, name, description):
     """Detect category using keyword matching (mirrors build-catalog.js logic)."""
     haystack = set()
@@ -105,6 +221,7 @@ def generate_index(skills_dir, output_file):
                 "id": dir_name,
                 "path": os.path.relpath(root, os.path.dirname(skills_dir)),
                 "category": "general",
+                "subcategory": None,
                 "name": dir_name.replace("-", " ").title(),
                 "description": "",
                 "risk": "unknown",
@@ -154,6 +271,12 @@ def generate_index(skills_dir, output_file):
                 skill_info["category"] = detect_category(
                     skill_info["id"], skill_info["name"], skill_info["description"]
                 )
+
+            # Assign subcategory based on category
+            skill_info["subcategory"] = detect_subcategory(
+                skill_info["id"], skill_info["name"], skill_info["description"],
+                skill_info["category"]
+            )
 
             skills.append(skill_info)
 
