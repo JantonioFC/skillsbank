@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 961+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 864+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 961+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
+> **The Ultimate Collection of 864+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -16,7 +16,7 @@
 
 If this project helps you, you can [support it here](https://buymeacoffee.com/sickn33) or simply ⭐ the repo.
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **961 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **864 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -32,13 +32,14 @@ This repository provides essential skills to transform your AI assistant into a 
 ## Table of Contents
 
 - [🚀 New Here? Start Here!](#new-here-start-here)
+- [📖 Complete Usage Guide](docs/USAGE.md) - **Start here if confused after installation!**
 - [🔌 Compatibility & Invocation](#compatibility--invocation)
 - [🛠️ Installation](#installation)
 - [🧯 Troubleshooting](#troubleshooting)
 - [🎁 Curated Collections (Bundles)](#curated-collections)
 - [🧭 Antigravity Workflows](#antigravity-workflows)
 - [📦 Features & Categories](#features--categories)
-- [📚 Browse 961+ Skills](#browse-961-skills)
+- [📚 Browse 864+ Skills](#browse-864-skills)
 - [🤝 How to Contribute](#how-to-contribute)
 - [🤝 Community](#community)
 - [☕ Support the Project](#support-the-project)
@@ -52,11 +53,11 @@ This repository provides essential skills to transform your AI assistant into a 
 
 ## New Here? Start Here!
 
-**Welcome to the V5.2.0 Workflows Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
+**Welcome to the V5.4.0 Workflows Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 5.2.0) is a massive upgrade to your AI's capabilities.
+**Antigravity Awesome Skills** (Release 5.4.0) is a massive upgrade to your AI's capabilities.
 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
@@ -94,7 +95,9 @@ Once installed, just ask your agent naturally:
 > "Use the **@brainstorming** skill to help me plan a SaaS."
 > "Run **@lint-and-validate** on this file."
 
-👉 **[Read the Full Getting Started Guide](docs/GETTING_STARTED.md)**
+👉 **NEW:** [**Complete Usage Guide - Read This First!**](docs/USAGE.md) (answers: "What do I do after installation?", "How do I execute skills?", "What should prompts look like?")
+
+👉 **[Full Getting Started Guide](docs/GETTING_STARTED.md)**
 
 ---
 
@@ -110,11 +113,12 @@ These skills follow the universal **SKILL.md** format and work with any AI codin
 | **Antigravity** | IDE  | `(Agent Mode) Use skill...`       | `.agent/skills/`  |
 | **Cursor**      | IDE  | `@skill-name (in Chat)`           | `.cursor/skills/` |
 | **Copilot**     | Ext  | `(Paste content manually)`        | N/A               |
-| **OpenCode**    | CLI  | `opencode run @skill-name`        | `.agent/skills/`  |
+| **OpenCode**    | CLI  | `opencode run @skill-name`        | `.agents/skills/`  |
 | **AdaL CLI**    | CLI  | `(Auto) Skills load on-demand`    | `.adal/skills/`   |
 
 > [!TIP]
 > **Universal Path**: We recommend cloning to `.agent/skills/`. Most modern tools (Antigravity, recent CLIs) look here by default.
+> **OpenCode Path Update**: opencode path is changed to `.agents/skills` for global skills. See [Place Files](https://opencode.ai/docs/skills/#place-files) directive on OpenCode Docs.
 
 > [!WARNING]
 > **Windows Users**: this repository uses **symlinks** for official skills.
@@ -144,8 +148,8 @@ npx antigravity-awesome-skills --gemini
 # Codex CLI
 npx antigravity-awesome-skills --codex
 
-# OpenCode (Universal)
-npx antigravity-awesome-skills
+# OpenCode
+npx antigravity-awesome-skills --path .agents/skills
 
 # Custom path
 npx antigravity-awesome-skills --path ./my-skills
@@ -171,8 +175,8 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .codex/skill
 # Cursor specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .cursor/skills
 
-# OpenCode specific (Universal path)
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+# OpenCode
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .agents/skills
 ```
 
 ---
@@ -218,26 +222,34 @@ npx antigravity-awesome-skills
 
 **Bundles** are curated groups of skills for a specific role or goal (for example: `Web Wizard`, `Security Engineer`, `OSS Maintainer`).
 
-They help you avoid picking from 700+ skills one by one.
+They help you avoid picking from 860+ skills one by one.
 
-What bundles are:
+### ⚠️ Important: Bundles Are NOT Separate Installations!
 
-- Recommended starting sets for common workflows.
-- A shortcut for onboarding and faster execution.
+**Common confusion:** "Do I need to install each bundle separately?"
 
-What bundles are not:
+**Answer: NO!** Here's what bundles actually are:
 
-- Not a separate install.
-- Not a locked preset.
+**What bundles ARE:**
+- ✅ Recommended skill lists organized by role
+- ✅ Curated starting points to help you decide what to use
+- ✅ Time-saving shortcuts for discovering relevant skills
 
-How to use bundles:
+**What bundles are NOT:**
+- ❌ Separate installations or downloads
+- ❌ Different git commands
+- ❌ Something you need to "activate"
 
-1. Install the repository once.
-2. Pick one bundle in [docs/BUNDLES.md](docs/BUNDLES.md).
-3. Start with 3-5 skills from that bundle in your prompt.
-4. Add more only when needed.
+### How to use bundles:
 
-Examples:
+1. **Install the repository once** (you already have all skills)
+2. **Browse bundles** in [docs/BUNDLES.md](docs/BUNDLES.md) to find your role
+3. **Pick 3-5 skills** from that bundle to start using in your prompts
+4. **Reference them in your conversations** with your AI (e.g., "Use @brainstorming...")
+
+For detailed examples of how to actually use skills, see the [**Usage Guide**](docs/USAGE.md).
+
+### Examples:
 
 - Building a SaaS MVP: `Essentials` + `Full-Stack Developer` + `QA & Testing`.
 - Hardening production: `Security Developer` + `DevOps & Cloud` + `Observability & Monitoring`.
@@ -280,7 +292,7 @@ The repository is organized into specialized domains to transform your AI into a
 
 Counts change as new skills are added. For the current full registry, see [CATALOG.md](CATALOG.md).
 
-## Browse 961+ Skills
+## Browse 864+ Skills
 
 We have moved the full skill registry to a dedicated catalog to keep this README clean.
 
@@ -379,6 +391,7 @@ This collection would not be possible without the incredible work of the Claude 
 - **[whatiskadudoing/fp-ts-skills](https://github.com/whatiskadudoing/fp-ts-skills)**: Practical fp-ts skills for TypeScript – fp-ts-pragmatic, fp-ts-react, fp-ts-errors (v4.4.0).
 - **[webzler/agentMemory](https://github.com/webzler/agentMemory)**: Source for the agent-memory-mcp skill.
 - **[sstklen/claude-api-cost-optimization](https://github.com/sstklen/claude-api-cost-optimization)**: Save 50-90% on Claude API costs with smart optimization strategies (MIT).
+- **[Wittlesus/cursorrules-pro](https://github.com/Wittlesus/cursorrules-pro)**: Professional .cursorrules configurations for 8 frameworks - Next.js, React, Python, Go, Rust, and more. Works with Cursor, Claude Code, and Windsurf.
 
 ### Inspirations
 
@@ -437,6 +450,8 @@ We officially thank the following contributors for their help in making this rep
 - [@ericgandrade](https://github.com/ericgandrade)
 - [@sohamganatra](https://github.com/sohamganatra)
 - [@Nguyen-Van-Chan](https://github.com/Nguyen-Van-Chan)
+- [@8hrsk](https://github.com/8hrsk)
+- [@Wittlesus](https://github.com/Wittlesus)
 
 ---
 

@@ -2,6 +2,8 @@
 
 **New here? This guide will help you supercharge your AI Agent in 5 minutes.**
 
+> **💡 Confused about what to do after installation?** Check out the [**Complete Usage Guide**](USAGE.md) for detailed explanations and examples!
+
 ---
 
 ## 🤔 What Are "Skills"?
