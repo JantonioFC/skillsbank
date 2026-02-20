@@ -8,6 +8,7 @@ Este documento lista las habilidades de la categoría "Infrastructure" con una b
 | `airflow-dag-patterns` | Construye DAGs de Apache Airflow de producción con mejores prácticas para operadores, sensores y despliegue. |
 | `api-testing-observability-api-mock` | Experto en mocking de API para crear servicios simulados realistas para desarrollo y pruebas. |
 | `application-performance-performance-optimization` | Optimiza el rendimiento de aplicaciones de extremo a extremo con perfilado y ajuste backend/frontend. |
+| `aspire-ts` | Orquesta aplicaciones JavaScript/TypeScript con .NET Aspire: AddViteApp, AddNodeApp, descubrimiento de servicios, integración Azure, OpenTelemetry y despliegue multi-contenedor. |
 | `aws-serverless` | Habilidad especializada para construir aplicaciones serverless en AWS (Lambda, API Gateway, DynamoDB). |
 | `aws-skills` | Desarrollo AWS con automatización de infraestructura y patrones de arquitectura en la nube. |
 | `backend-architect` | Arquitecto backend experto en diseño de API escalables, microservicios y sistemas distribuidos. |

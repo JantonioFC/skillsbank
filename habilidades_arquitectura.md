@@ -24,6 +24,10 @@ Este documento lista las habilidades de la categoría "Architecture" con una bre
 | `core-components` | Biblioteca de componentes centrales y patrones de sistema de diseño. Úsalo al construir interfaces de usuario (UI), usar tokens de diseño o trabajar con la biblioteca de componentes. |
 | `cpp-pro` | Escribe código C++ idiomático con características modernas, RAII, punteros inteligentes y algoritmos STL. Maneja plantillas, semántica de movimiento y optimización de rendimiento. |
 | `cqrs-implementation` | Implementa Segregación de Responsabilidad de Comando y Consulta (CQRS) para arquitecturas escalables. Úsalo al separar modelos de lectura y escritura u optimizar el rendimiento de consultas. |
+| `ddd-context-mapping` | Mapea relaciones entre contextos acotados (bounded contexts) y define contratos de integración usando patrones de Context Mapping de DDD. |
+| `ddd-strategic-design` | Diseña artefactos estratégicos de DDD incluyendo subdominios, contextos acotados y lenguaje ubicuo para dominios de negocio complejos. |
+| `ddd-tactical-patterns` | Aplica patrones tácticos de DDD en código usando entidades, objetos de valor, agregados, repositorios y eventos de dominio con invariantes explícitas. |
+| `domain-driven-design` | Planifica y dirige trabajo de Domain-Driven Design desde el modelado estratégico hasta la implementación táctica y patrones de arquitectura orientada a eventos. |
 | `doc-coauthoring` | Guía a los usuarios a través de un flujo de trabajo estructurado para la co-autoría de documentación. Úsalo cuando el usuario quiera escribir documentación, propuestas o especificaciones técnicas. |
 | `docs-architect` | Crea documentación técnica completa a partir de bases de código existentes. Analiza arquitectura, patrones de diseño y detalles de implementación para producir documentación detallada. |
 | `elixir-pro` | Escribe código Elixir idiomático con patrones OTP, árboles de supervisión y Phoenix LiveView. Domina concurrencia, tolerancia a fallos y sistemas distribuidos. |

@@ -580,7 +580,17 @@ function deriveTags(skill) {
   return normalizeTokens(tags);
 }
 
+const CATEGORY_OVERRIDES = {
+  "ai-seo": "business",
+  "churn-prevention": "business",
+  "ad-creative": "business",
+};
+
 function detectCategory(skill, tags) {
+  if (CATEGORY_OVERRIDES[skill.id]) {
+    return CATEGORY_OVERRIDES[skill.id];
+  }
+
   const haystack = normalizeTokens([
     ...tags,
     ...tokenize(skill.name),

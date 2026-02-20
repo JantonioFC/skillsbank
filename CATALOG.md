@@ -2,9 +2,9 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1145
+Total skills: 1153
 
-## architecture (79)
+## architecture (83)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -36,9 +36,13 @@ Total skills: 1145
 | `cpp-pro` | Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization. Use... | cpp | cpp, pro, write, idiomatic, code, features, raii, smart, pointers, stl, algorithms, move |
 | `cqrs-implementation` | Implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or bu... | cqrs | cqrs, command, query, responsibility, segregation, scalable, architectures, separating, read, write, models, optimizing |
 | `cto-advisor` | Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Includes tech debt analyzer, team scaling calculator, e... | cto, advisor | cto, advisor, technical, leadership, guidance, engineering, teams, architecture, decisions, technology, includes, tech |
+| `ddd-context-mapping` | Map relationships between bounded contexts and define integration contracts using DDD context mapping patterns. | ddd, context-map, anti-corruption-layer, integration | ddd, context-map, anti-corruption-layer, integration, context, mapping, map, relationships, between, bounded, contexts, define |
+| `ddd-strategic-design` | Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains. | ddd, strategic-design, bounded-context, ubiquitous-language | ddd, strategic-design, bounded-context, ubiquitous-language, strategic, artifacts, including, subdomains, bounded, contexts, ubiquitous, language |
+| `ddd-tactical-patterns` | Apply DDD tactical patterns in code using entities, value objects, aggregates, repositories, and domain events with explicit invariants. | ddd, tactical, aggregates, value-objects, domain-events | ddd, tactical, aggregates, value-objects, domain-events, apply, code, entities, value, objects, repositories, domain |
 | `design-system-patterns` | Build scalable design systems with design tokens, theming infrastructure, and component architecture patterns. Use when creating design tokens, implementing ... |  | scalable, tokens, theming, infrastructure, component, architecture, creating, implementing, theme, switching, building, libraries |
 | `doc-coauthoring` | Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision do... | doc, coauthoring | doc, coauthoring, users, through, structured, co, authoring, documentation, user, wants, write, proposals |
 | `docs-architect` | Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-for... | docs | docs, architect, creates, technical, documentation, existing, codebases, analyzes, architecture, details, produce, long |
+| `domain-driven-design` | Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns. | ddd, domain, bounded-context, architecture | ddd, domain, bounded-context, architecture, driven, plan, route, work, strategic, modeling, tactical, evented |
 | `elixir-pro` | Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems. Use PR... | elixir | elixir, pro, write, idiomatic, code, otp, supervision, trees, phoenix, liveview, masters, concurrency |
 | `email-systems` | Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, ... | email | email, highest, roi, any, marketing, channel, 36, every, spent, yet, most, startups |
 | `error-detective` | Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes. Use PROACTIVELY when ... | error, detective | error, detective, search, logs, codebases, stack, traces, anomalies, correlates, errors, identifies, root |
@@ -88,12 +92,15 @@ Total skills: 1145
 | `workflow-patterns` | Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding th... |  | skill, implementing, tasks, according, conductor, tdd, handling, phase, checkpoints, managing, git, commits |
 | `zapier-make-patterns` | No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code.... | zapier, make | zapier, make, no, code, automation, democratizes, building, formerly, integromat, let, non, developers |
 
-## business (58)
+## business (61)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
+| `ad-creative` | When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising plat... | ad, creative | ad, creative, user, wants, generate, iterate, scale, headlines, descriptions, primary, text, full |
 | `agile-product-owner` | Agile product ownership for backlog management and sprint execution. Covers user story writing, acceptance criteria, sprint planning, and velocity tracking. ... | agile, product, owner | agile, product, owner, ownership, backlog, sprint, execution, covers, user, story, writing, acceptance |
+| `ai-seo` | When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,... | ai, seo | ai, seo, user, wants, optimize, content, search, engines, get, cited, llms, appear |
 | `background-removal` | Remove backgrounds from images with BiRefNet via inference.sh CLI. Model: BiRefNet (high accuracy background removal). Use for: product photos, portraits, e-... | background, removal | background, removal, remove, backgrounds, images, birefnet, via, inference, sh, cli, model, high |
+| `churn-prevention` | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when ... | churn, prevention | churn, prevention, user, wants, reduce, cancellation, flows, set, up, save, offers, recover |
 | `cold-email` | Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaig... | cold, email | cold, email, write, b2b, emails, follow, up, sequences, get, replies, user, wants |
 | `competitive-landscape` | This skill should be used when the user asks to "analyze competitors", "assess competitive landscape", "identify differentiation", "evaluate market positioni... | competitive, landscape | competitive, landscape, skill, should, used, user, asks, analyze, competitors, assess, identify, differentiation |
 | `competitor-teardown` | Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, ... | competitor, teardown | competitor, teardown, structured, competitive, analysis, feature, matrices, swot, positioning, maps, ux, review |
@@ -852,7 +859,7 @@ Triggers: "queue storage", "QueueServic... | azure, storage, queue, py | azure, 
 | `writing-plans` | Use when you have a spec or requirements for a multi-step task, before touching code | writing, plans | writing, plans, spec, requirements, multi, step, task, before, touching, code |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | video, summarization, transcription, youtube, content-analysis | video, summarization, transcription, youtube, content-analysis, summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (143)
+## infrastructure (144)
 
 ### ci-cd (30)
 
@@ -923,11 +930,12 @@ USE FOR: run azd ... | azure, deploy | azure, deploy, execute, deployment, final
 | `helm-chart-scaffolding` | Design, organize, and manage Helm charts for templating and packaging Kubernetes applications with reusable configurations. Use when creating Helm charts, pa... | helm, chart | helm, chart, scaffolding, organize, charts, templating, packaging, kubernetes, applications, reusable, configurations, creating |
 | `istio-traffic-management` | Configure Istio traffic management including routing, load balancing, circuit breakers, and canary deployments. Use when implementing service mesh traffic po... | istio, traffic | istio, traffic, configure, including, routing, load, balancing, circuit, breakers, canary, deployments, implementing |
 
-### infra-general (48)
+### infra-general (49)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
 | `airflow-dag-patterns` | Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating wor... | airflow, dag | airflow, dag, apache, dags, operators, sensors, testing, deployment, creating, data, pipelines, orchestrating |
+| `aspire-ts` | Orchestrate JavaScript/TypeScript applications with .NET Aspire. Use when building Node.js APIs, React/Vue/Svelte frontends, or Vite apps that need service d... | aspire, ts | aspire, ts, orchestrate, javascript, typescript, applications, net, building, node, js, apis, react |
 | `azure-microsoft-playwright-testing-ts` | Run Playwright tests at scale using Azure Playwright Workspaces (formerly Microsoft Playwright Testing). Use when scaling browser tests across cloud-hosted b... | azure, microsoft, playwright, ts | azure, microsoft, playwright, ts, testing, run, tests, scale, workspaces, formerly, scaling, browser |
 | `azure-storage-file-share-py` | Azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud.
 Triggers: "azure-storage-file-share", "Share... | azure, storage, file, share, py | azure, storage, file, share, py, sdk, python, smb, shares, directories, operations, cloud |

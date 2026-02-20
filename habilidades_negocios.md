@@ -4,6 +4,9 @@ Este documento lista las habilidades de la categoría "Business" con una breve d
 
 | Habilidad | Descripción |
 | --- | --- |
+| `ad-creative` | Genera, itera y escala creatividades publicitarias: titulares, descripciones, texto principal y variaciones completas de anuncios para cualquier plataforma de publicidad pagada. |
+| `ai-seo` | Optimiza contenido para motores de búsqueda con IA, para que sea citado por LLMs y aparezca en respuestas generadas por IA (Google AI Overviews, ChatGPT, Perplexity, etc.). |
+| `churn-prevention` | Reduce el abandono de clientes implementando flujos de cancelación, ofertas de retención, recuperación de pagos fallidos (dunning) y estrategias de retención. |
 | `competitive-landscape` | Analiza el panorama competitivo, identifica diferenciadores y evalúa el posicionamiento de mercado cuando el usuario lo solicita. |
 | `conductor-setup` | Inicializa un proyecto con artefactos de Conductor (definición de producto, stack tecnológico, flujo de trabajo, guías de estilo). |
 | `content-creator` | Crea contenido de marketing optimizado para SEO con una voz de marca consistente. Incluye analizador de voz de marca y optimizador SEO. |

@@ -25,6 +25,7 @@
         "app-store-screenshots",
         "application-performance-performance-optimization",
         "architecture-patterns",
+        "aspire-ts",
         "async-python-patterns",
         "autonomous-agents",
         "aws-serverless",
@@ -474,6 +475,7 @@
     "k8s-core": {
       "description": "Kubernetes and service mesh essentials.",
       "skills": [
+        "aspire-ts",
         "azd-deployment",
         "azure-cosmos-db-py",
         "azure-identity-dotnet",
@@ -517,8 +519,10 @@
     "data-core": {
       "description": "Data engineering and analytics foundations.",
       "skills": [
+        "ad-creative",
         "agent-browser",
         "ai-automation-workflows",
+        "ai-seo",
         "airflow-dag-patterns",
         "analytics-tracking",
         "analyzing-financial-statements",
@@ -669,10 +673,12 @@
         "ai-automation-workflows",
         "ai-content-pipeline",
         "ai-rag-pipeline",
+        "ai-seo",
         "airflow-dag-patterns",
         "api-testing-observability-api-mock",
         "appinsights-instrumentation",
         "application-performance-performance-optimization",
+        "aspire-ts",
         "aws-serverless",
         "azd-deployment",
         "azure-ai-anomalydetector-java",

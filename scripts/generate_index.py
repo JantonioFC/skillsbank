@@ -38,6 +38,12 @@ def parse_frontmatter(content):
         print(f"⚠️ YAML parsing error: {e}")
         return {}
 
+CATEGORY_OVERRIDES = {
+    "ai-seo": "business",
+    "churn-prevention": "business",
+    "ad-creative": "business",
+}
+
 CATEGORY_RULES = [
     ("security", ["security", "sast", "compliance", "privacy", "threat", "vulnerability",
                    "owasp", "pci", "gdpr", "secrets", "risk", "malware", "forensics",
@@ -263,9 +269,11 @@ def generate_index(skills_dir, output_file):
                 if desc_lines:
                     skill_info["description"] = " ".join(desc_lines)[:250].strip()
 
-            # Assign category: use folder parent if it's a known category, otherwise detect
+            # Assign category: check explicit override, then folder parent, then detect
             known_categories = {cat for cat, _ in CATEGORY_RULES}
-            if folder_category and folder_category in known_categories:
+            if skill_info["id"] in CATEGORY_OVERRIDES:
+                skill_info["category"] = CATEGORY_OVERRIDES[skill_info["id"]]
+            elif folder_category and folder_category in known_categories:
                 skill_info["category"] = folder_category
             else:
                 skill_info["category"] = detect_category(

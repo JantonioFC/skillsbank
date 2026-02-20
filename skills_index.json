@@ -100,6 +100,16 @@
     "source": "community"
   },
   {
+    "id": "ad-creative",
+    "path": "skills/ad-creative",
+    "category": "business",
+    "subcategory": null,
+    "name": "ad-creative",
+    "description": "When the user wants to generate, iterate, or scale ad creative \u2014 headlines, descriptions, primary text, or full ad variations \u2014 for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' or 'ad performance optimization.' This skill covers generating ad creative at scale, iterating based on performance data, and enforcing platform character limits. For campaign strategy and targeting, see paid-ads. For landing page copy, see copywriting.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
     "id": "address-github-comments",
     "path": "skills/address-github-comments",
     "category": "general",
@@ -398,6 +408,16 @@
     "description": "Build RAG (Retrieval Augmented Generation) pipelines with web search and LLMs. Tools: Tavily Search, Exa Search, Exa Answer, Claude, GPT-4, Gemini via OpenRouter. Capabilities: research, fact-checking, grounded responses, knowledge retrieval. Use for: AI agents, research assistants, fact-checkers, knowledge bases. Triggers: rag, retrieval augmented generation, grounded ai, search and answer, research agent, fact checking, knowledge retrieval, ai research, search + llm, web grounded, perplexity alternative, ai with sources, citation, research pipeline",
     "risk": "safe",
     "source": "community"
+  },
+  {
+    "id": "ai-seo",
+    "path": "skills/ai-seo",
+    "category": "business",
+    "subcategory": null,
+    "name": "ai-seo",
+    "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' or 'zero-click search.' This skill covers content optimization for AI answer engines, monitoring AI visibility, and getting cited as a source. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup.",
+    "risk": "unknown",
+    "source": "unknown"
   },
   {
     "id": "ai-social-media-content",
@@ -788,6 +808,16 @@
     "description": "Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.",
     "risk": "safe",
     "source": "community"
+  },
+  {
+    "id": "aspire-ts",
+    "path": "skills/aspire-ts",
+    "category": "infrastructure",
+    "subcategory": "infra-general",
+    "name": "aspire-ts",
+    "description": "Orchestrate JavaScript/TypeScript applications with .NET Aspire. Use when building Node.js APIs, React/Vue/Svelte frontends, or Vite apps that need service discovery, telemetry, and deployment orchestration via Aspire's AppHost. Covers AddViteApp, AddNodeApp, AddJavaScriptApp, package managers, OpenTelemetry, and polyglot integration patterns.",
+    "risk": "unknown",
+    "source": "unknown"
   },
   {
     "id": "async-python-patterns",
@@ -2920,6 +2950,16 @@
     "source": "community"
   },
   {
+    "id": "churn-prevention",
+    "path": "skills/churn-prevention",
+    "category": "business",
+    "subcategory": null,
+    "name": "churn-prevention",
+    "description": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' or 'involuntary churn.' This skill covers voluntary churn (cancel flows, save offers, exit surveys) and involuntary churn (dunning, payment recovery). For post-cancel win-back email sequences, see email-sequence. For in-app upgrade paywalls, see paywall-upgrade-cro.",
+    "risk": "unknown",
+    "source": "unknown"
+  },
+  {
     "id": "cicd-automation-workflow-automate",
     "path": "skills/cicd-automation-workflow-automate",
     "category": "infrastructure",
@@ -4100,6 +4140,36 @@
     "source": "community"
   },
   {
+    "id": "ddd-context-mapping",
+    "path": "skills/ddd-context-mapping",
+    "category": "architecture",
+    "subcategory": null,
+    "name": "ddd-context-mapping",
+    "description": "Map relationships between bounded contexts and define integration contracts using DDD context mapping patterns.",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
+    "id": "ddd-strategic-design",
+    "path": "skills/ddd-strategic-design",
+    "category": "architecture",
+    "subcategory": null,
+    "name": "ddd-strategic-design",
+    "description": "Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains.",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
+    "id": "ddd-tactical-patterns",
+    "path": "skills/ddd-tactical-patterns",
+    "category": "architecture",
+    "subcategory": null,
+    "name": "ddd-tactical-patterns",
+    "description": "Apply DDD tactical patterns in code using entities, value objects, aggregates, repositories, and domain events with explicit invariants.",
+    "risk": "safe",
+    "source": "self"
+  },
+  {
     "id": "debugger",
     "path": "skills/debugger",
     "category": "testing",
@@ -4488,6 +4558,16 @@
     "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
     "risk": "safe",
     "source": "community"
+  },
+  {
+    "id": "domain-driven-design",
+    "path": "skills/domain-driven-design",
+    "category": "architecture",
+    "subcategory": null,
+    "name": "domain-driven-design",
+    "description": "Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns.",
+    "risk": "safe",
+    "source": "self"
   },
   {
     "id": "dotnet-architect",
