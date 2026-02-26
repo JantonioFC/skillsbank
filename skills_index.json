@@ -21,16 +21,6 @@
   },
   {
     "id": "2d-games",
-    "path": "skills/game-development/2d-games",
-    "category": "general",
-    "subcategory": "game-dev",
-    "name": "2d-games",
-    "description": "2D game development principles. Sprites, tilemaps, physics, camera.",
-    "risk": "unknown",
-    "source": "community"
-  },
-  {
-    "id": "2d-games",
     "path": "skills/2d-games",
     "category": "general",
     "subcategory": "game-dev",
@@ -40,12 +30,12 @@
     "source": "unknown"
   },
   {
-    "id": "3d-games",
-    "path": "skills/game-development/3d-games",
+    "id": "2d-games",
+    "path": "skills/game-development/2d-games",
     "category": "general",
     "subcategory": "game-dev",
-    "name": "3d-games",
-    "description": "3D game development principles. Rendering, shaders, physics, cameras.",
+    "name": "2d-games",
+    "description": "2D game development principles. Sprites, tilemaps, physics, camera.",
     "risk": "unknown",
     "source": "community"
   },
@@ -58,6 +48,16 @@
     "description": "3D game development principles. Rendering, shaders, physics, cameras.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "3d-games",
+    "path": "skills/game-development/3d-games",
+    "category": "general",
+    "subcategory": "game-dev",
+    "name": "3d-games",
+    "description": "3D game development principles. Rendering, shaders, physics, cameras.",
+    "risk": "unknown",
+    "source": "community"
   },
   {
     "id": "3d-web-experience",
@@ -171,7 +171,7 @@
   },
   {
     "id": "agent-framework",
-    "path": "skills/microsoft-foundry/agent/create/agent-framework",
+    "path": "skills/agent-framework",
     "category": "infrastructure",
     "subcategory": "infra-general",
     "name": "agent-framework",
@@ -181,7 +181,7 @@
   },
   {
     "id": "agent-framework",
-    "path": "skills/agent-framework",
+    "path": "skills/microsoft-foundry/agent/create/agent-framework",
     "category": "infrastructure",
     "subcategory": "infra-general",
     "name": "agent-framework",
@@ -2981,7 +2981,7 @@
   },
   {
     "id": "capacity",
-    "path": "skills/microsoft-foundry/models/deploy-model/capacity",
+    "path": "skills/deploy-model/capacity",
     "category": "infrastructure",
     "subcategory": "infra-general",
     "name": "capacity",
@@ -2991,7 +2991,7 @@
   },
   {
     "id": "capacity",
-    "path": "skills/deploy-model/capacity",
+    "path": "skills/microsoft-foundry/models/deploy-model/capacity",
     "category": "infrastructure",
     "subcategory": "infra-general",
     "name": "capacity",
@@ -4131,7 +4131,7 @@
   },
   {
     "id": "customize",
-    "path": "skills/microsoft-foundry/models/deploy-model/customize",
+    "path": "skills/deploy-model/customize",
     "category": "infrastructure",
     "subcategory": "infra-general",
     "name": "customize",
@@ -4141,7 +4141,7 @@
   },
   {
     "id": "customize",
-    "path": "skills/deploy-model/customize",
+    "path": "skills/microsoft-foundry/models/deploy-model/customize",
     "category": "infrastructure",
     "subcategory": "infra-general",
     "name": "customize",
@@ -4531,7 +4531,7 @@
   },
   {
     "id": "deploy-model",
-    "path": "skills/microsoft-foundry/models/deploy-model",
+    "path": "skills/deploy-model",
     "category": "infrastructure",
     "subcategory": "ci-cd",
     "name": "deploy-model",
@@ -4541,7 +4541,7 @@
   },
   {
     "id": "deploy-model",
-    "path": "skills/deploy-model",
+    "path": "skills/microsoft-foundry/models/deploy-model",
     "category": "infrastructure",
     "subcategory": "ci-cd",
     "name": "deploy-model",
@@ -5841,16 +5841,6 @@
   },
   {
     "id": "game-art",
-    "path": "skills/game-art",
-    "category": "general",
-    "subcategory": "game-dev",
-    "name": "game-art",
-    "description": "Game art principles. Visual style selection, asset pipeline, animation workflow.",
-    "risk": "unknown",
-    "source": "unknown"
-  },
-  {
-    "id": "game-art",
     "path": "skills/game-development/game-art",
     "category": "general",
     "subcategory": "game-dev",
@@ -5858,6 +5848,16 @@
     "description": "Game art principles. Visual style selection, asset pipeline, animation workflow.",
     "risk": "unknown",
     "source": "community"
+  },
+  {
+    "id": "game-art",
+    "path": "skills/game-art",
+    "category": "general",
+    "subcategory": "game-dev",
+    "name": "game-art",
+    "description": "Game art principles. Visual style selection, asset pipeline, animation workflow.",
+    "risk": "unknown",
+    "source": "unknown"
   },
   {
     "id": "game-audio",
@@ -5881,16 +5881,6 @@
   },
   {
     "id": "game-design",
-    "path": "skills/game-development/game-design",
-    "category": "general",
-    "subcategory": "game-dev",
-    "name": "game-design",
-    "description": "Game design principles. GDD structure, balancing, player psychology, progression.",
-    "risk": "unknown",
-    "source": "community"
-  },
-  {
-    "id": "game-design",
     "path": "skills/game-design",
     "category": "general",
     "subcategory": "game-dev",
@@ -5898,6 +5888,16 @@
     "description": "Game design principles. GDD structure, balancing, player psychology, progression.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "game-design",
+    "path": "skills/game-development/game-design",
+    "category": "general",
+    "subcategory": "game-dev",
+    "name": "game-design",
+    "description": "Game design principles. GDD structure, balancing, player psychology, progression.",
+    "risk": "unknown",
+    "source": "community"
   },
   {
     "id": "game-development",
@@ -7681,16 +7681,6 @@
   },
   {
     "id": "mobile-games",
-    "path": "skills/game-development/mobile-games",
-    "category": "development",
-    "subcategory": "mobile",
-    "name": "mobile-games",
-    "description": "Mobile game development principles. Touch input, battery, performance, app stores.",
-    "risk": "unknown",
-    "source": "community"
-  },
-  {
-    "id": "mobile-games",
     "path": "skills/mobile-games",
     "category": "development",
     "subcategory": "mobile",
@@ -7698,6 +7688,16 @@
     "description": "Mobile game development principles. Touch input, battery, performance, app stores.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "mobile-games",
+    "path": "skills/game-development/mobile-games",
+    "category": "development",
+    "subcategory": "mobile",
+    "name": "mobile-games",
+    "description": "Mobile game development principles. Touch input, battery, performance, app stores.",
+    "risk": "unknown",
+    "source": "community"
   },
   {
     "id": "mobile-ios-design",
@@ -7841,16 +7841,6 @@
   },
   {
     "id": "multiplayer",
-    "path": "skills/game-development/multiplayer",
-    "category": "general",
-    "subcategory": "game-dev",
-    "name": "multiplayer",
-    "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
-    "risk": "unknown",
-    "source": "community"
-  },
-  {
-    "id": "multiplayer",
     "path": "skills/multiplayer",
     "category": "general",
     "subcategory": "game-dev",
@@ -7858,6 +7848,16 @@
     "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
     "risk": "unknown",
     "source": "unknown"
+  },
+  {
+    "id": "multiplayer",
+    "path": "skills/game-development/multiplayer",
+    "category": "general",
+    "subcategory": "game-dev",
+    "name": "multiplayer",
+    "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
+    "risk": "unknown",
+    "source": "community"
   },
   {
     "id": "n8n-code-python",
@@ -8701,7 +8701,7 @@
   },
   {
     "id": "preset",
-    "path": "skills/microsoft-foundry/models/deploy-model/preset",
+    "path": "skills/deploy-model/preset",
     "category": "infrastructure",
     "subcategory": "ci-cd",
     "name": "preset",
@@ -8721,7 +8721,7 @@
   },
   {
     "id": "preset",
-    "path": "skills/deploy-model/preset",
+    "path": "skills/microsoft-foundry/models/deploy-model/preset",
     "category": "infrastructure",
     "subcategory": "ci-cd",
     "name": "preset",
@@ -9711,7 +9711,7 @@
   },
   {
     "id": "sample-skill",
-    "path": "skills/sample-skill",
+    "path": "skills/skill-tester/assets/sample-skill",
     "category": "general",
     "subcategory": "agent-tools",
     "name": "sample-skill",
@@ -9721,7 +9721,7 @@
   },
   {
     "id": "sample-skill",
-    "path": "skills/skill-tester/assets/sample-skill",
+    "path": "skills/sample-skill",
     "category": "general",
     "subcategory": "agent-tools",
     "name": "sample-skill",
