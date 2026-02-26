@@ -1,13 +1,12 @@
 ---
 name: database-migrations-migration-observability
-description: Migration monitoring, CDC, and observability infrastructure
+description: "Migration monitoring, CDC, and observability infrastructure"
 allowed-tools: Read Write Edit Bash WebFetch
 metadata:
   version: 1.0.0
   tags: database, cdc, debezium, kafka, prometheus, grafana, monitoring
-risk: offensive
+risk: unknown
 source: community
-license: MIT
 ---
 
 

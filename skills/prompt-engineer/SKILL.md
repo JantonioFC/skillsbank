@@ -19,7 +19,6 @@ tags:
 - ai-enhancement
 risk: safe
 source: community
-license: MIT
 ---
 
 ## Purpose

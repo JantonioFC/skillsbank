@@ -1,9 +1,8 @@
 ---
 name: pci-compliance
-description: Implement PCI DSS compliance requirements for secure handling of payment card data and payment systems. Use when securing payment processing, achieving PCI compliance, or implementing payment card security measures.
-risk: safe
+description: "Implement PCI DSS compliance requirements for secure handling of payment card data and payment systems. Use when securing payment processing, achieving PCI compliance, or implementing payment card ..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 # PCI Compliance

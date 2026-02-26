@@ -1,10 +1,8 @@
 ---
 name: api-documentation-generator
-description: Generate comprehensive, developer-friendly API documentation from code,
-  including endpoints, parameters, examples, and best practices
-risk: safe
+description: "Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

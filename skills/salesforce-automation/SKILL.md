@@ -3,11 +3,9 @@ name: salesforce-automation
 description: 'Automate Salesforce tasks via Rube MCP (Composio): leads, contacts,
   accounts, opportunities, SOQL queries. Always search tools first for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -195,7 +193,5 @@ SELECT Id, Name FROM Opportunity WHERE CloseDate = NEXT_MONTH
 | Create record | SALESFORCE_CREATE_A_RECORD | object_type, fields |
 | Transfer ownership | SALESFORCE_MASS_TRANSFER_OWNERSHIP | records, new_owner |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for salesforce-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

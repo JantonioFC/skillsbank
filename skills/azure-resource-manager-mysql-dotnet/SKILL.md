@@ -8,9 +8,8 @@ description: 'Azure MySQL Flexible Server SDK for .NET. Database management for 
 
   '
 package: Azure.ResourceManager.MySql
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -400,7 +399,5 @@ string connectionString = $"Server={server.Data.FullyQualifiedDomainName};" +
 | Product Documentation | https://learn.microsoft.com/azure/mysql/flexible-server/ |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/mysql/Azure.ResourceManager.MySql |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-resource-manager-mysql-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

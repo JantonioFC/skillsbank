@@ -4,11 +4,9 @@ description: 'Automate Wrike project management via Rube MCP (Composio): create 
   manage projects, assign work, and track progress. Always search tools first for
   current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -239,7 +237,5 @@ Automate Wrike project management operations through Composio's Wrike toolkit vi
 | Get contacts | WRIKE_GET_CONTACTS | (none) |
 | Invite user | WRIKE_CREATE_INVITATION | email, role |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for wrike-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

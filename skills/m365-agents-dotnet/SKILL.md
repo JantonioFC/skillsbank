@@ -1,16 +1,10 @@
 ---
 name: m365-agents-dotnet
-description: 'Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot
-  Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth.
-  Triggers: "Microsoft 365 Agents SDK", "Microsoft.Agents", "AddAgentApplicationOptions",
-  "AgentApplication", "AddAgentAspNetAuthentication", "Copilot Studio client", "IAgentHttpAdapter".
-
-  '
-package: Microsoft.Agents.Hosting.AspNetCore, Microsoft.Agents.Authentication.Msal,
-  Microsoft.Agents.CopilotStudio.Client
-risk: offensive
+description: |
+  Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth. Triggers: "Microsoft 365 Agents SDK", "Microsoft.Agents", "AddAgentApplicationOptions", "AgentApplication", "AddAgentAspNetAuthentication", "Copilot Studio client", "IAgentHttpAdapter".
+package: Microsoft.Agents.Hosting.AspNetCore, Microsoft.Agents.Authentication.Msal, Microsoft.Agents.CopilotStudio.Client
+risk: unknown
 source: community
-license: MIT
 ---
 
 # Microsoft 365 Agents SDK (.NET)
@@ -289,7 +283,7 @@ await foreach (var activity in client.AskQuestionAsync("Hello!", null))
 
 | File | Contents |
 | --- | --- |
-| [references/acceptance-criteria.md](references/acceptance-criteria.md) | Import paths, hosting pipeline, Copilot Studio client patterns, anti-patterns |
+| references/acceptance-criteria.md | Import paths, hosting pipeline, Copilot Studio client patterns, anti-patterns |
 
 ## Reference Links
 
@@ -303,5 +297,4 @@ await foreach (var activity in client.AskQuestionAsync("Hello!", null))
 | GitHub samples | https://github.com/microsoft/agents |
 
 ## When to Use
-
-Use this skill when you need guidance or automation for m365-agents-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

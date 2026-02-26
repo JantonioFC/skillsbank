@@ -1,9 +1,8 @@
 ---
 name: code-refactoring-context-restore
-description: Use when working with code refactoring context restore
-risk: safe
+description: "Use when working with code refactoring context restore"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

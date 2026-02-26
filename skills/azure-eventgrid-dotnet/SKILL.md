@@ -7,9 +7,8 @@ description: 'Azure Event Grid SDK for .NET. Client library for publishing and c
 
   '
 package: Azure.Messaging.EventGrid
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Azure.Messaging.EventGrid (.NET)
@@ -500,5 +499,4 @@ catch (RequestFailedException)
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/eventgrid/Azure.Messaging.EventGrid |
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-eventgrid-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

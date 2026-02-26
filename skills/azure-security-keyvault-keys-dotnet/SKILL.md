@@ -8,9 +8,8 @@ description: 'Azure Key Vault Keys SDK for .NET. Client library for managing cry
 
   '
 package: Azure.Security.KeyVault.Keys
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -414,7 +413,5 @@ catch (RequestFailedException ex)
 | Quickstart | https://learn.microsoft.com/azure/key-vault/keys/quick-create-net |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/keyvault/Azure.Security.KeyVault.Keys |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-security-keyvault-keys-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,13 +1,9 @@
 ---
 name: azure-ai-translation-ts
-description: Build translation applications using Azure Translation SDKs for JavaScript
-  (@azure-rest/ai-translation-text, @azure-rest/ai-translation-document). Use when
-  implementing text translation, transliteration, language detection, or batch document
-  translation.
-package: '@azure-rest/ai-translation-text, @azure-rest/ai-translation-document'
-risk: safe
-source: microsoft
-license: MIT
+description: "Build translation applications using Azure Translation SDKs for JavaScript (@azure-rest/ai-translation-text, @azure-rest/ai-translation-document). Use when implementing text translation, transliter..."
+package: "@azure-rest/ai-translation-text, @azure-rest/ai-translation-document"
+risk: unknown
+source: community
 ---
 
 
@@ -292,7 +288,5 @@ import type {
 4. **Handle errors** - Always check `isUnexpected(response)` before accessing body
 5. **Regional endpoints** - Use regional endpoints for lower latency
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-translation-ts.
+This skill is applicable to execute the workflow or actions described in the overview.

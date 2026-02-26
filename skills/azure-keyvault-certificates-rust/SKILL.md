@@ -8,9 +8,8 @@ description: 'Azure Key Vault Certificates SDK for Rust. Use for creating, impor
 
   '
 package: azure_security_keyvault_certificates
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -184,7 +183,5 @@ Assign these Key Vault roles:
 | Source Code | https://github.com/Azure/azure-sdk-for-rust/tree/main/sdk/keyvault/azure_security_keyvault_certificates |
 | crates.io | https://crates.io/crates/azure_security_keyvault_certificates |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-keyvault-certificates-rust.
+This skill is applicable to execute the workflow or actions described in the overview.

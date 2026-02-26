@@ -1,13 +1,8 @@
 ---
 name: telegram-bot-builder
-description: 'Expert in building Telegram bots that solve real problems - from simple
-  automation to complex AI-powered bots. Covers bot architecture, the Telegram Bot
-  API, user experience, monetization strategies, and scaling bots to thousands of
-  users. Use when: telegram bot, bot api, telegram automation, chat bot telegram,
-  tg bot.'
+description: "Expert in building Telegram bots that solve real problems - from simple automation to complex AI-powered bots. Covers bot architecture, the Telegram Bot API, user experience, monetization strategie..."
 source: vibeship-spawner-skills (Apache 2.0)
-risk: offensive
-license: MIT
+risk: unknown
 ---
 
 
@@ -266,7 +261,5 @@ Quality over quantity.
 
 Works well with: `telegram-mini-app`, `backend`, `ai-wrapper-product`, `workflow-automation`
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for telegram-bot-builder.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -8,9 +8,8 @@ description: 'Azure Queue Storage SDK for Python. Use for reliable message queui
 
   '
 package: azure-storage-queue
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -220,7 +219,5 @@ queue_client.send_message(b"Binary content")
 6. **Set `time_to_live`** to prevent stale messages
 7. **Consider Service Bus** for advanced features (sessions, topics)
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-storage-queue-py.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,11 +1,9 @@
 ---
 name: i18n-localization
-description: Internationalization and localization patterns. Detecting hardcoded strings,
-  managing translations, locale files, RTL support.
+description: "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support."
 allowed-tools: Read, Glob, Grep
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -158,7 +156,5 @@ Before shipping:
 |--------|---------|---------|
 | `scripts/i18n_checker.py` | Detect hardcoded strings & missing translations | `python scripts/i18n_checker.py <project_path>` |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for i18n-localization.
+This skill is applicable to execute the workflow or actions described in the overview.

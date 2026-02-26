@@ -4,11 +4,9 @@ description: Automate Google Sheets operations (read, write, format, filter, man
   spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting,
   and search rows programmatically.
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -203,7 +201,5 @@ Google Sheets enforces strict rate limits:
 | Spreadsheet info | `GOOGLESHEETS_GET_SPREADSHEET_INFO` | `spreadsheet_id` |
 | Update tab props | `GOOGLESHEETS_UPDATE_SHEET_PROPERTIES` | `spreadsheetId`, properties |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for googlesheets-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

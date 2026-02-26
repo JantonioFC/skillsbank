@@ -1,9 +1,8 @@
 ---
 name: memory-forensics
-description: Master memory forensics techniques including memory acquisition, process analysis, and artifact extraction using Volatility and related tools. Use when analyzing memory dumps, investigating incidents, or performing malware analysis from RAM captures.
-risk: safe
+description: "Master memory forensics techniques including memory acquisition, process analysis, and artifact extraction using Volatility and related tools. Use when analyzing memory dumps, investigating inciden..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 # Memory Forensics

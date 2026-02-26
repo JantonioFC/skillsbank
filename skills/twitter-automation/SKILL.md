@@ -1,10 +1,10 @@
 ---
 name: twitter-automation
-description: "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
-allowed-tools: Bash(infsh *)
-risk: safe
+description: "Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users, bookmarks, lists, media. Always search tools first for current schemas."
+requires:
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 # Twitter/X Automation
@@ -49,111 +49,30 @@ infsh app run x/post-tweet --input '{"text": "Hello from inference.sh!"}'
 infsh app run x/post-tweet --input '{"text": "Just shipped a new feature! 🚀"}'
 ```
 
-### Post with Media
+| Task | Tool Slug | Key Params |
+|------|-----------|------------|
+| Create post | TWITTER_CREATION_OF_A_POST | text |
+| Delete post | TWITTER_POST_DELETE_BY_POST_ID | id |
+| Look up post | TWITTER_POST_LOOKUP_BY_POST_ID | id |
+| Recent search | TWITTER_RECENT_SEARCH | query |
+| Archive search | TWITTER_FULL_ARCHIVE_SEARCH | query |
+| Search counts | TWITTER_RECENT_SEARCH_COUNTS | query |
+| My profile | TWITTER_USER_LOOKUP_ME | (none) |
+| User by name | TWITTER_USER_LOOKUP_BY_USERNAME | username |
+| User by ID | TWITTER_USER_LOOKUP_BY_ID | id |
+| Users by IDs | TWITTER_USER_LOOKUP_BY_IDS | ids |
+| Upload media | TWITTER_UPLOAD_MEDIA | media |
+| Upload video | TWITTER_UPLOAD_LARGE_MEDIA | media |
+| List bookmarks | TWITTER_BOOKMARKS_BY_USER | id |
+| Add bookmark | TWITTER_ADD_POST_TO_BOOKMARKS | tweet_id |
+| Remove bookmark | TWITTER_REMOVE_A_BOOKMARKED_POST | tweet_id |
+| Unlike post | TWITTER_UNLIKE_POST | tweet_id |
+| Liked posts | TWITTER_RETURNS_POST_OBJECTS_LIKED_BY_THE_PROVIDED_USER_ID | id |
+| Owned lists | TWITTER_GET_A_USER_S_OWNED_LISTS | id |
+| List memberships | TWITTER_GET_A_USER_S_LIST_MEMBERSHIPS | id |
+| Pinned lists | TWITTER_GET_A_USER_S_PINNED_LISTS | id |
+| Followed lists | TWITTER_GET_USER_S_FOLLOWED_LISTS | id |
+| List details | TWITTER_LIST_LOOKUP_BY_LIST_ID | list_id |
 
-```bash
-infsh app sample x/post-create --save input.json
-
-# Edit input.json:
-# {
-#   "text": "Check out this AI-generated image!",
-#   "media_url": "https://your-image-url.jpg"
-# }
-
-infsh app run x/post-create --input input.json
-```
-
-### Like a Tweet
-
-```bash
-infsh app run x/post-like --input '{"tweet_id": "1234567890"}'
-```
-
-### Retweet
-
-```bash
-infsh app run x/post-retweet --input '{"tweet_id": "1234567890"}'
-```
-
-### Send a DM
-
-```bash
-infsh app run x/dm-send --input '{
-  "recipient_id": "user_id_here",
-  "text": "Hey! Thanks for the follow."
-}'
-```
-
-### Follow a User
-
-```bash
-infsh app run x/user-follow --input '{"username": "elonmusk"}'
-```
-
-### Get User Profile
-
-```bash
-infsh app run x/user-get --input '{"username": "OpenAI"}'
-```
-
-### Get Tweet Details
-
-```bash
-infsh app run x/post-get --input '{"tweet_id": "1234567890"}'
-```
-
-### Delete a Tweet
-
-```bash
-infsh app run x/post-delete --input '{"tweet_id": "1234567890"}'
-```
-
-## Workflow: Generate AI Image and Post
-
-```bash
-# 1. Generate image
-infsh app run falai/flux-dev-lora --input '{"prompt": "sunset over mountains"}' > image.json
-
-# 2. Post to Twitter with the image URL
-infsh app run x/post-create --input '{
-  "text": "AI-generated art of a sunset 🌅",
-  "media_url": "<image-url-from-step-1>"
-}'
-```
-
-## Workflow: Generate and Post Video
-
-```bash
-# 1. Generate video
-infsh app run google/veo-3-1-fast --input '{"prompt": "waves on a beach"}' > video.json
-
-# 2. Post to Twitter
-infsh app run x/post-create --input '{
-  "text": "AI-generated video 🎬",
-  "media_url": "<video-url-from-step-1>"
-}'
-```
-
-## Related Skills
-
-```bash
-# Full platform skill (all 150+ apps)
-npx skills add inference-sh/skills@inference-sh
-
-# Image generation (create images to post)
-npx skills add inference-sh/skills@ai-image-generation
-
-# Video generation (create videos to post)
-npx skills add inference-sh/skills@ai-video-generation
-
-# AI avatars (create presenter videos)
-npx skills add inference-sh/skills@ai-avatar-video
-```
-
-Browse all apps: `infsh app list`
-
-## Documentation
-
-- [X.com Integration](https://inference.sh/docs/integrations/x) - Setting up Twitter/X integration
-- [X.com Integration Example](https://inference.sh/docs/examples/x-integration) - Complete Twitter workflow
-- [Apps Overview](https://inference.sh/docs/apps/overview) - Understanding the app ecosystem
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

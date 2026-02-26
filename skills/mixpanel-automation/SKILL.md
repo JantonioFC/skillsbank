@@ -4,11 +4,9 @@ description: 'Automate Mixpanel tasks via Rube MCP (Composio): events, segmentat
   funnels, cohorts, user profiles, JQL queries. Always search tools first for current
   schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -230,7 +228,5 @@ Used in `where` and `on` parameters:
 | JQL query | MIXPANEL_JQL_QUERY | script |
 | Query insight | MIXPANEL_QUERY_INSIGHT | bookmark_id |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for mixpanel-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

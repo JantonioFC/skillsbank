@@ -4,8 +4,7 @@ description: Specialized skill for building production-ready Discord bots. Cover
   Discord.js (JavaScript) and Pycord (Python), gateway intents, slash commands, interactive
   components, rate limiting, and sharding.
 source: vibeship-spawner-skills (Apache 2.0)
-risk: safe
-license: MIT
+risk: unknown
 ---
 
 
@@ -281,7 +280,5 @@ cause missed heartbeats and disconnections.
 | Issue | medium | ## Never block the event loop |
 | Issue | medium | ## Show modal immediately |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for discord-bot-architect.
+This skill is applicable to execute the workflow or actions described in the overview.

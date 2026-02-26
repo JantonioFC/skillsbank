@@ -8,9 +8,8 @@ description: 'Azure Event Hubs SDK for .NET. Use for high-throughput event strea
 
   '
 package: Azure.Messaging.EventHubs
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -370,7 +369,5 @@ processor.ProcessEventAsync += async args =>
 | `Azure.ResourceManager.EventHubs` | Management plane (create hubs) | `dotnet add package Azure.ResourceManager.EventHubs` |
 | `Microsoft.Azure.WebJobs.Extensions.EventHubs` | Azure Functions binding | `dotnet add package Microsoft.Azure.WebJobs.Extensions.EventHubs` |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-eventhub-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

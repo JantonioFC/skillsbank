@@ -4,11 +4,9 @@ description: Automate Mailchimp email marketing including campaigns, audiences, 
   segments, and analytics via Rube MCP (Composio). Always search tools first for current
   schemas.
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -237,7 +235,5 @@ subscriber_hash = hashlib.md5(email.lower().encode()).hexdigest()
 | Member recent activity | `MAILCHIMP_VIEW_RECENT_ACTIVITY` | `list_id`, `subscriber_hash` |
 | Campaign content | `MAILCHIMP_GET_CAMPAIGN_CONTENT` | `campaign_id` |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for mailchimp-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

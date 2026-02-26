@@ -5,9 +5,8 @@ description: Expert Haskell engineer specializing in advanced type systems, pure
   concurrency, and architecture guidance.
 metadata:
   model: sonnet
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 

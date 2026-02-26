@@ -4,11 +4,9 @@ description: Automate Confluence page creation, content search, space management
   labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first
   for current schemas.
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -214,7 +212,5 @@ Confluence uses two pagination styles:
 | Page versions | `CONFLUENCE_GET_PAGE_VERSIONS` | `id` |
 | Space labels | `CONFLUENCE_GET_LABELS_FOR_SPACE` | space ID |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for confluence-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

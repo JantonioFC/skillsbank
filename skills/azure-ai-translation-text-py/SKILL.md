@@ -7,9 +7,8 @@ description: 'Azure AI Text Translation SDK for real-time text translation, tran
 
   '
 package: azure-ai-translation-text
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -280,7 +279,5 @@ async def translate_text():
 6. **Use html text_type** when translating HTML content
 7. **Include alignment** for applications needing word mapping
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-translation-text-py.
+This skill is applicable to execute the workflow or actions described in the overview.

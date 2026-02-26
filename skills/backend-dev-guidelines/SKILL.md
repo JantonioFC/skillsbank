@@ -1,12 +1,8 @@
 ---
 name: backend-dev-guidelines
-description: Opinionated backend development standards for Node.js + Express + TypeScript
-  microservices. Covers layered architecture, BaseController pattern, dependency injection,
-  Prisma repositories, Zod validation, unifiedConfig, Sentry error tracking, async
-  safety, and testing discipline.
-risk: offensive
+description: "Opinionated backend development standards for Node.js + Express + TypeScript microservices. Covers layered architecture, BaseController pattern, dependency injection, Prisma repositories, Zod valid..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -354,7 +350,5 @@ Before finalizing backend work:
 **Intended Use:** Long-lived Node.js microservices with real traffic and real risk
 ---
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for backend-dev-guidelines.
+This skill is applicable to execute the workflow or actions described in the overview.

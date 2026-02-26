@@ -1,12 +1,9 @@
 ---
 name: azure-ai-contentsafety-ts
-description: Analyze text and images for harmful content using Azure AI Content Safety
-  (@azure-rest/ai-content-safety). Use when moderating user-generated content, detecting
-  hate speech, violence, sexual content, or self-harm, or managing custom blocklists.
-package: '@azure-rest/ai-content-safety'
-risk: safe
-source: microsoft
-license: MIT
+description: "Analyze text and images for harmful content using Azure AI Content Safety (@azure-rest/ai-content-safety). Use when moderating user-generated content, detecting hate speech, violence, sexual conten..."
+package: "@azure-rest/ai-content-safety"
+risk: unknown
+source: community
 ---
 
 
@@ -305,7 +302,5 @@ import ContentSafetyClient, {
 4. **Log moderation decisions** - Keep audit trail for compliance
 5. **Handle edge cases** - Empty text, very long text, unsupported image formats
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-contentsafety-ts.
+This skill is applicable to execute the workflow or actions described in the overview.

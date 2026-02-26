@@ -1,12 +1,8 @@
 ---
 name: autonomous-agent-patterns
-description: Design patterns for building autonomous coding agents. Covers tool integration,
-  permission systems, browser automation, and human-in-the-loop workflows. Use when
-  building AI agents, designing tool APIs, implementing permission systems, or creating
-  autonomous coding assistants.
-risk: offensive
+description: "Design patterns for building autonomous coding agents. Covers tool integration, permission systems, browser automation, and human-in-the-loop workflows. Use when building AI agents, designing tool ..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 

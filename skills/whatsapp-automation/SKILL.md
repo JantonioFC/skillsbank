@@ -4,11 +4,9 @@ description: 'Automate WhatsApp Business tasks via Rube MCP (Composio): send mes
   manage templates, upload media, and handle contacts. Always search tools first for
   current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -220,7 +218,5 @@ Automate WhatsApp Business operations through Composio's WhatsApp toolkit via Ru
 | List templates | WHATSAPP_GET_MESSAGE_TEMPLATES | (none) |
 | Check template status | WHATSAPP_GET_TEMPLATE_STATUS | template_id |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for whatsapp-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

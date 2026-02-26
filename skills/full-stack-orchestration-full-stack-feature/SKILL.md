@@ -1,9 +1,8 @@
 ---
 name: full-stack-orchestration-full-stack-feature
-description: Use when working with full stack orchestration full stack feature
-risk: offensive
+description: "Use when working with full stack orchestration full stack feature"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

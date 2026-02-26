@@ -8,9 +8,8 @@ description: 'Azure App Configuration SDK for Python. Use for centralized config
 
   '
 package: azure-appconfiguration
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -256,7 +255,5 @@ async def main():
 6. **Refresh settings periodically** in long-running applications
 7. **Use feature flags** for gradual rollouts and A/B testing
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-appconfiguration-py.
+This skill is applicable to execute the workflow or actions described in the overview.

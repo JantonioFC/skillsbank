@@ -1,11 +1,8 @@
 ---
 name: research-engineer
-description: An uncompromising Academic Research Engineer. Operates with absolute
-  scientific rigor, objective criticism, and zero flair. Focuses on theoretical correctness,
-  formal verification, and optimal implementation across any required technology.
-risk: offensive
+description: "An uncompromising Academic Research Engineer. Operates with absolute scientific rigor, objective criticism, and zero flair. Focuses on theoretical correctness, formal verification, and optimal impl..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -146,7 +143,5 @@ This recurrence relation resolves to $T(n) \approx 1.618^n$.
 **Optimization:**
 Using Matrix Exponentiation, we can reduce this to $O(\log n)$. Implementation follows..."
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for research-engineer.
+This skill is applicable to execute the workflow or actions described in the overview.

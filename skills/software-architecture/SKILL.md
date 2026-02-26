@@ -1,11 +1,8 @@
 ---
 name: software-architecture
-description: Guide for quality focused software architecture. This skill should be
-  used when users want to write code, design architecture, analyze code, in any case
-  that relates to software development.
-risk: safe
+description: "Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -80,7 +77,5 @@ This skill provides guidance for quality focused software development and archit
 - Keep functions focused and under 50 lines when possible
 - Keep files focused and under 200 lines of code when possible
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for software-architecture.
+This skill is applicable to execute the workflow or actions described in the overview.

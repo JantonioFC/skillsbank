@@ -1,15 +1,8 @@
 ---
 name: voice-agents
-description: 'Voice agents represent the frontier of AI interaction - humans speaking
-  naturally with AI systems. The challenge isn''t just speech recognition and synthesis,
-  it''s achieving natural conversation flow with sub-800ms latency while handling
-  interruptions, background noise, and emotional nuance.  This skill covers two architectures:
-  speech-to-speech (OpenAI Realtime API, lowest latency, most natural) and pipeline
-  (STT→LLM→TTS, more control, easier to debug). Key insight: latency is the constraint.
-  Hu'
+description: "Voice agents represent the frontier of AI interaction - humans speaking naturally with AI systems. The challenge isn't just speech recognition and synthesis, it's achieving natural conversation flo..."
 source: vibeship-spawner-skills (Apache 2.0)
-risk: safe
-license: MIT
+risk: unknown
 ---
 
 
@@ -76,7 +69,5 @@ Detect when user starts/stops speaking
 
 Works well with: `agent-tool-builder`, `multi-agent-orchestration`, `llm-architect`, `backend`
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for voice-agents.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,10 +1,8 @@
 ---
 name: security-scanning-security-hardening
-description: Coordinate multi-layer security scanning and hardening across application,
-  infrastructure, and compliance controls.
-risk: offensive
+description: "Coordinate multi-layer security scanning and hardening across application, infrastructure, and compliance controls."
+risk: unknown
 source: community
-license: MIT
 ---
 
 

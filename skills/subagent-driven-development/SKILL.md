@@ -1,9 +1,8 @@
 ---
 name: subagent-driven-development
-description: Use when executing implementation plans with independent tasks in the current session
-risk: safe
+description: "Use when executing implementation plans with independent tasks in the current session"
+risk: unknown
 source: community
-license: MIT
 ---
 
 # Subagent-Driven Development

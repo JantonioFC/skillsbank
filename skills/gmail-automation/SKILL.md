@@ -3,11 +3,9 @@ name: gmail-automation
 description: 'Automate Gmail tasks via Rube MCP (Composio): send/reply, search, labels,
   drafts, attachments. Always search tools first for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: offensive
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -282,5 +280,4 @@ Automate Gmail operations through Composio's Gmail toolkit via Rube MCP.
 | Get profile | GMAIL_GET_PROFILE | (none) |
 
 ## When to Use
-
-Use this skill when you need guidance or automation for gmail-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

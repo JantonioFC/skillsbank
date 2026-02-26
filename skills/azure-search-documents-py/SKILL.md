@@ -8,9 +8,8 @@ description: 'Azure AI Search SDK for Python. Use for vector search, hybrid sear
 
   '
 package: azure-search-documents
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -317,9 +316,9 @@ indexer_client.create_or_update_indexer(indexer)
 
 | File | Contents |
 |------|----------|
-| [references/vector-search.md](references/vector-search.md) | HNSW configuration, integrated vectorization, multi-vector queries |
-| [references/semantic-ranking.md](references/semantic-ranking.md) | Semantic configuration, captions, answers, hybrid patterns |
-| [scripts/setup_vector_index.py](scripts/setup_vector_index.py) | CLI script to create vector-enabled search index |
+| references/vector-search.md | HNSW configuration, integrated vectorization, multi-vector queries |
+| references/semantic-ranking.md | Semantic configuration, captions, answers, hybrid patterns |
+| scripts/setup_vector_index.py | CLI script to create vector-enabled search index |
 
 
 ---
@@ -478,7 +477,7 @@ results = search_client.search(
 
 ## Agentic Retrieval (Knowledge Bases)
 
-For LLM-powered Q&A with answer synthesis, see [references/agentic-retrieval.md](references/agentic-retrieval.md).
+For LLM-powered Q&A with answer synthesis, see references/agentic-retrieval.md.
 
 Key concepts:
 - **Knowledge Source**: Points to a search index
@@ -535,7 +534,5 @@ except HttpResponseError as e:
     print(f"Search error: {e.message}")
 ```
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-search-documents-py.
+This skill is applicable to execute the workflow or actions described in the overview.

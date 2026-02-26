@@ -1,12 +1,9 @@
 ---
 name: app-builder
-description: Main application building orchestrator. Creates full-stack applications
-  from natural language requests. Determines project type, selects tech stack, coordinates
-  agents.
+description: "Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents."
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash, Agent
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -80,7 +77,5 @@ App Builder Process:
 6. Start preview
 ```
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for app-builder.
+This skill is applicable to execute the workflow or actions described in the overview.

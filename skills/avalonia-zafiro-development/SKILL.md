@@ -1,10 +1,8 @@
 ---
 name: avalonia-zafiro-development
-description: Mandatory skills, conventions, and behavioral rules for Avalonia UI development
-  using the Zafiro toolkit.
-risk: safe
+description: "Mandatory skills, conventions, and behavioral rules for Avalonia UI development using the Zafiro toolkit."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -33,7 +31,5 @@ This skill defines the mandatory conventions and behavioral rules for developing
 2.  **Reusable Extensions**: If a helper is missing, propose a new reusable extension method instead of inlining complex logic.
 3.  **Reactive Pipelines**: Ensure DynamicData operators are used instead of plain Rx where applicable.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for avalonia-zafiro-development.
+This skill is applicable to execute the workflow or actions described in the overview.

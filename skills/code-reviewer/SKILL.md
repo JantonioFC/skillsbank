@@ -6,9 +6,8 @@ description: Elite code review expert specializing in modern AI-powered code ana
   2024/2025 best practices. Use PROACTIVELY for code quality assurance.
 metadata:
   model: opus
-risk: offensive
+risk: unknown
 source: community
-license: MIT
 ---
 
 

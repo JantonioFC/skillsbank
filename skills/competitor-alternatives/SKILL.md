@@ -1,15 +1,8 @@
 ---
 name: competitor-alternatives
-description: 'When the user wants to create competitor comparison or alternative pages
-  for SEO and sales enablement. Also use when the user mentions ''alternative page,''
-  ''vs page,'' ''competitor comparison,'' ''comparison page,'' ''[Product] vs [Product],''
-  ''[Product] alternative,'' or ''competitive landing pages.'' Covers four formats:
-  singular alternative, plural alternatives, you vs competitor, and competitor vs
-  competitor. Emphasizes deep research, modular content architecture, and varied section
-  types beyond feature tables.'
-risk: safe
+description: "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'compa..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -759,7 +752,5 @@ If you need more context:
 - **seo-audit**: For optimizing competitor pages
 - **schema-markup**: For FAQ and comparison schema
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for competitor-alternatives.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -8,9 +8,8 @@ description: 'Azure Monitor OpenTelemetry Exporter for Python. Use for low-level
 
   '
 package: azure-monitor-opentelemetry-exporter
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 

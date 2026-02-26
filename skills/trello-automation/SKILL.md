@@ -3,11 +3,9 @@ name: trello-automation
 description: Automate Trello boards, cards, and workflows via Rube MCP (Composio).
   Create cards, manage lists, assign members, and search across boards programmatically.
 requires:
-  mcp:
-  - rube
-risk: offensive
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -193,5 +191,4 @@ Most list endpoints return all items. For boards with 1000+ cards, use `limit` a
 | Batch read | TRELLO_GET_BATCH | urls (comma-separated paths) |
 
 ## When to Use
-
-Use this skill when you need guidance or automation for trello-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

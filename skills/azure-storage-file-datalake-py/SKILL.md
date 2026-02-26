@@ -8,9 +8,8 @@ description: 'Azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical 
 
   '
 package: azure-storage-file-datalake
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -218,7 +217,5 @@ asyncio.run(datalake_operations())
 6. **Set metadata** for custom file attributes
 7. **Consider Blob API** for simple object storage use cases
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-storage-file-datalake-py.
+This skill is applicable to execute the workflow or actions described in the overview.

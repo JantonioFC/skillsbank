@@ -8,9 +8,8 @@ description: 'Azure AI Content Understanding SDK for Python. Use for multimodal 
 
   '
 package: azure-ai-contentunderstanding
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -280,7 +279,5 @@ from azure.ai.contentunderstanding.models import (
 6. **Handle long-running operations** — video/audio analysis can take minutes
 7. **Use URL sources** when possible to avoid upload overhead
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-contentunderstanding-py.
+This skill is applicable to execute the workflow or actions described in the overview.

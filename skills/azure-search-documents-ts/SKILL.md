@@ -1,10 +1,9 @@
 ---
 name: azure-search-documents-ts
-description: "Build applications using Azure Search Documents SDK for JavaScript (@azure/search-documents). Use when creating/managing indexes, uploading documents, and performing searches."
-package: '@azure/search-documents'
-risk: safe
-source: microsoft
-license: MIT
+description: "Build search applications using Azure AI Search SDK for JavaScript (@azure/search-documents). Use when creating/managing indexes, implementing vector/hybrid search, semantic ranking, or building ag..."
+package: "@azure/search-documents"
+risk: unknown
+source: community
 ---
 
 
@@ -269,7 +268,5 @@ import {
 5. **Index incrementally** - Use `mergeOrUploadDocuments` for updates
 6. **Monitor query performance** - Use `includeTotalCount: true` sparingly in production
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-search-documents-ts.
+This skill is applicable to execute the workflow or actions described in the overview.

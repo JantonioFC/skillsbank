@@ -1,11 +1,8 @@
 ---
 name: pydantic-models-py
-description: Create Pydantic models following the multi-model pattern with Base, Create,
-  Update, Response, and InDB variants. Use when defining API request/response schemas,
-  database models, or data validation in Python applications using Pydantic v2.
-risk: safe
+description: "Create Pydantic models following the multi-model pattern with Base, Create, Update, Response, and InDB variants. Use when defining API request/response schemas, database models, or data validation ..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -15,7 +12,7 @@ Create Pydantic models following the multi-model pattern for clean API contracts
 
 ## Quick Start
 
-Copy the template from [assets/template.py](assets/template.py) and replace placeholders:
+Copy the template from assets/template.py and replace placeholders:
 - `{{ResourceName}}` → PascalCase name (e.g., `Project`)
 - `{{resource_name}}` → snake_case name (e.g., `project`)
 
@@ -63,7 +60,5 @@ class MyInDB(MyResponse):
 2. Export from `src/backend/app/models/__init__.py`
 3. Add corresponding TypeScript types
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for pydantic-models-py.
+This skill is applicable to execute the workflow or actions described in the overview.

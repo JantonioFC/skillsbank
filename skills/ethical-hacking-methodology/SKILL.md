@@ -1,15 +1,11 @@
 ---
 name: ethical-hacking-methodology
-description: This skill should be used when the user asks to "learn ethical hacking",
-  "understand penetration testing lifecycle", "perform reconnaissance", "conduct security
-  scanning", "exploit vulnerabilities", or "write penetration test reports". It provides
-  comprehensive ethical hacking methodology and techniques.
+description: "This skill should be used when the user asks to \"learn ethical hacking\", \"understand penetration testing lifecycle\", \"perform reconnaissance\", \"conduct security scanning\", \"exploit ..."
 metadata:
   author: zebbern
-  version: '1.1'
-risk: offensive
+  version: "1.1"
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -478,3 +474,6 @@ umount /mnt/usb
 2. Check payload compatibility
 3. Adjust exploit parameters
 4. Try alternative exploits
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

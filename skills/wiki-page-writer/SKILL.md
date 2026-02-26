@@ -1,12 +1,8 @@
 ---
 name: wiki-page-writer
-description: Generates rich technical documentation pages with dark-mode Mermaid diagrams,
-  source code citations, and first-principles depth. Use when writing documentation,
-  generating wiki pages, creating technical deep-dives, or documenting specific components
-  or systems.
-risk: safe
+description: "Generates rich technical documentation pages with dark-mode Mermaid diagrams, source code citations, and first-principles depth. Use when writing documentation, generating wiki pages, creating tech..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -108,7 +104,5 @@ description: "One-line description"
 - No `<br/>` in Mermaid blocks
 - All hex colors must be 3 or 6 digits
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for wiki-page-writer.
+This skill is applicable to execute the workflow or actions described in the overview.

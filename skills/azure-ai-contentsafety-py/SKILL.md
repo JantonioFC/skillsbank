@@ -8,9 +8,8 @@ description: 'Azure AI Content Safety SDK for Python. Use for detecting harmful 
 
   '
 package: azure-ai-contentsafety
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Azure AI Content Safety SDK for Python
@@ -226,5 +225,4 @@ request = AnalyzeTextOptions(
 7. **Pre-moderate AI outputs** before showing to users
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-contentsafety-py.
+This skill is applicable to execute the workflow or actions described in the overview.

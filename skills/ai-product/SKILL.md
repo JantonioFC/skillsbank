@@ -1,13 +1,8 @@
 ---
 name: ai-product
-description: 'Every product will be AI-powered. The question is whether you''ll build
-  it right or ship a demo that falls apart in production.  This skill covers LLM integration
-  patterns, RAG architecture, prompt engineering that scales, AI UX that users trust,
-  and cost optimization that doesn''t bankrupt you. Use when: keywords, file_patterns,
-  code_patterns.'
+description: "Every product will be AI-powered. The question is whether you'll build it right or ship a demo that falls apart in production.  This skill covers LLM integration patterns, RAG architecture, prompt ..."
 source: vibeship-spawner-skills (Apache 2.0)
-risk: offensive
-license: MIT
+risk: unknown
 ---
 
 
@@ -66,7 +61,5 @@ Version prompts in code and test with regression suite
 | Not validating facts from LLM responses | critical | # For factual claims: |
 | Making LLM calls in synchronous request handlers | high | # Async patterns: |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for ai-product.
+This skill is applicable to execute the workflow or actions described in the overview.

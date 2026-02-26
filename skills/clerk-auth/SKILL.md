@@ -4,8 +4,7 @@ description: 'Expert patterns for Clerk auth implementation, middleware, organiz
   webhooks, and user sync Use when: adding authentication, clerk auth, user authentication,
   sign in, sign up.'
 source: vibeship-spawner-skills (Apache 2.0)
-risk: safe
-license: MIT
+risk: unknown
 ---
 
 
@@ -60,7 +59,5 @@ Key functions:
 | Issue | medium | See docs |
 | Issue | medium | See docs |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for clerk-auth.
+This skill is applicable to execute the workflow or actions described in the overview.

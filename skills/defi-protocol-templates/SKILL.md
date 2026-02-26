@@ -1,9 +1,8 @@
 ---
 name: defi-protocol-templates
-description: Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols.
-risk: safe
+description: "Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols."
+risk: unknown
 source: community
-license: MIT
 ---
 
 # DeFi Protocol Templates

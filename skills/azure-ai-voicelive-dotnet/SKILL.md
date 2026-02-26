@@ -8,9 +8,8 @@ description: 'Azure AI Voice Live SDK for .NET. Build real-time voice AI applica
 
   '
 package: Azure.AI.VoiceLive
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -273,7 +272,5 @@ if (serverEvent is SessionUpdateError error)
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/ai/Azure.AI.VoiceLive |
 | Quickstart | https://learn.microsoft.com/azure/ai-services/speech-service/voice-live-quickstart |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-voicelive-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -4,11 +4,9 @@ description: Automate GitLab project management, issues, merge requests, pipelin
   branches, and user operations via Rube MCP (Composio). Always search tools first
   for current schemas.
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -260,7 +258,5 @@ When using project paths as identifiers:
 | List project members | `GITLAB_LIST_ALL_PROJECT_MEMBERS` | `id`, `query`, `state` |
 | List project users | `GITLAB_LIST_PROJECT_USERS` | `id`, `search` |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for gitlab-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

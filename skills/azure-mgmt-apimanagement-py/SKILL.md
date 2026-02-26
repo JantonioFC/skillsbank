@@ -8,9 +8,8 @@ description: 'Azure API Management SDK for Python. Use for managing APIM service
 
   '
 package: azure-mgmt-apimanagement
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -285,7 +284,5 @@ user = client.user.create_or_update(
 5. **Use backends** to abstract backend services
 6. **Version your APIs** using APIM's versioning features
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-mgmt-apimanagement-py.
+This skill is applicable to execute the workflow or actions described in the overview.

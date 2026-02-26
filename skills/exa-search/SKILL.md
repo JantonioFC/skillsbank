@@ -1,10 +1,8 @@
 ---
 name: exa-search
-description: Semantic search, similar content discovery, and structured research using
-  Exa API
-risk: safe
+description: "Semantic search, similar content discovery, and structured research using Exa API"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

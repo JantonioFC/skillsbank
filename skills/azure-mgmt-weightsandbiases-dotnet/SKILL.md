@@ -8,9 +8,8 @@ description: 'Azure Weights & Biases SDK for .NET. ML experiment tracking and mo
 
   '
 package: Azure.ResourceManager.WeightsAndBiases
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -336,7 +335,5 @@ run.finish()
 | Azure Marketplace | https://azuremarketplace.microsoft.com/marketplace/apps/wandb.wandb-pay-as-you-go |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/weightsandbiases |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-mgmt-weightsandbiases-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

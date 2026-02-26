@@ -1,11 +1,8 @@
 ---
 name: brand-guidelines-community
-description: Applies Anthropic's official brand colors and typography to any sort
-  of artifact that may benefit from having Anthropic's look-and-feel. Use it when
-  brand colors or style guidelines, visual formatting, or company design standards
-  apply.
+description: "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatt..."
 license: Complete terms in LICENSE.txt
-risk: safe
+risk: unknown
 source: community
 ---
 
@@ -79,7 +76,5 @@ To access Anthropic's official brand identity and style resources, use this skil
 - Applied via python-pptx's RGBColor class
 - Maintains color fidelity across different systems
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for brand-guidelines.
+This skill is applicable to execute the workflow or actions described in the overview.

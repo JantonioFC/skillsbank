@@ -19,7 +19,6 @@ tags:
 - speech-to-text
 risk: safe
 source: community
-license: MIT
 ---
 
 ## Purpose

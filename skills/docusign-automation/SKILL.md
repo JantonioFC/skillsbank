@@ -3,11 +3,9 @@ name: docusign-automation
 description: 'Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes,
   signatures, document management. Always search tools first for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -213,7 +211,5 @@ created (draft) -> sent -> delivered -> signed -> completed
 | Get envelope status | DOCUSIGN_GET_ENVELOPE | envelopeId |
 | Add template to envelope | DOCUSIGN_ADD_TEMPLATES_TO_DOCUMENT_IN_ENVELOPE | envelopeId, documentId, templateId |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for docusign-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

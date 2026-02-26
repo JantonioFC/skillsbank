@@ -8,9 +8,8 @@ description: 'Azure AI Projects SDK for .NET. High-level client for Azure AI Fou
 
   '
 package: Azure.AI.Projects
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -356,7 +355,5 @@ catch (RequestFailedException ex)
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/ai/Azure.AI.Projects |
 | Samples | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/ai/Azure.AI.Projects/samples |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-projects-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -6,9 +6,8 @@ description: 'Core principles of SEO including E-E-A-T, Core Web Vitals, technic
 
   '
 allowed-tools: Read, Glob, Grep
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -177,7 +176,5 @@ SEO fundamentals should be validated using **multiple signals**, not single metr
 > Sustainable SEO is built on _useful content_, _technical clarity_, and _trust over time_.
 > There are no permanent shortcuts.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for seo-fundamentals.
+This skill is applicable to execute the workflow or actions described in the overview.

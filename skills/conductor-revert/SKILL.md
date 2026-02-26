@@ -1,11 +1,10 @@
 ---
 name: conductor-revert
-description: Git-aware undo by logical work unit (track, phase, or task)
+description: "Git-aware undo by logical work unit (track, phase, or task)"
 metadata:
-  argument-hint: '[track-id | track-id:phase | track-id:task]'
-risk: safe
+  argument-hint: "[track-id | track-id:phase | track-id:task]"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

@@ -8,9 +8,8 @@ description: 'Azure Cosmos DB SDK for Java. NoSQL database operations with globa
 
   '
 package: azure-cosmos
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -265,7 +264,5 @@ try {
 | Performance Guide | https://learn.microsoft.com/azure/cosmos-db/performance-tips-java-sdk-v4-sql |
 | Troubleshooting | https://learn.microsoft.com/azure/cosmos-db/troubleshoot-java-sdk-v4-sql |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-cosmos-java.
+This skill is applicable to execute the workflow or actions described in the overview.

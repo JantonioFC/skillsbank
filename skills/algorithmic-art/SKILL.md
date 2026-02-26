@@ -1,11 +1,8 @@
 ---
 name: algorithmic-art
-description: Creating algorithmic art using p5.js with seeded randomness and interactive
-  parameter exploration. Use this when users request creating art using code, generative
-  art, algorithmic art, flow fields, or particle systems. Create original algorithmic
-  art rather than copying existing artists' work to avoid copyright violations.
+description: "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields,..."
 license: Complete terms in LICENSE.txt
-risk: safe
+risk: unknown
 source: community
 ---
 
@@ -411,5 +408,4 @@ This skill includes helpful templates and documentation:
 - But DO keep the exact UI structure and Anthropic branding from the template
 
 ## When to Use
-
-Use this skill when you need guidance or automation for algorithmic-art.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,10 +1,8 @@
 ---
 name: environment-setup-guide
-description: Guide developers through setting up development environments with proper
-  tools, dependencies, and configurations
-risk: safe
+description: "Guide developers through setting up development environments with proper tools, dependencies, and configurations"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

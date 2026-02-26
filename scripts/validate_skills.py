@@ -12,22 +12,37 @@ WHEN_TO_USE_PATTERNS = [
 def has_when_to_use_section(content):
     return any(pattern.search(content) for pattern in WHEN_TO_USE_PATTERNS)
 
-def parse_frontmatter(content):
+def parse_frontmatter(content, rel_path=None):
     """
     Simple frontmatter parser using regex to avoid external dependencies.
     Returns a dict of key-values.
     """
     fm_match = re.search(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
     if not fm_match:
-        return None
+        return None, []
     
     fm_text = fm_match.group(1)
     metadata = {}
-    for line in fm_text.split('\n'):
+    lines = fm_text.split('\n')
+    fm_errors = []
+
+    for i, line in enumerate(lines):
         if ':' in line:
             key, val = line.split(':', 1)
             metadata[key.strip()] = val.strip().strip('"').strip("'")
-    return metadata
+            
+            # Check for multi-line description issue (problem identification for the user)
+            if key.strip() == "description":
+                stripped_val = val.strip()
+                if (stripped_val.startswith('"') and stripped_val.endswith('"')) or \
+                   (stripped_val.startswith("'") and stripped_val.endswith("'")):
+                    if i + 1 < len(lines) and lines[i+1].startswith('  '):
+                        fm_errors.append(f"description is wrapped in quotes but followed by indented lines. This causes YAML truncation.")
+                
+                # Check for literal indicators wrapped in quotes
+                if stripped_val in ['"|"', "'>'", '"|"', "'>'"]:
+                    fm_errors.append(f"description uses a block indicator {stripped_val} inside quotes. Remove quotes for proper YAML block behavior.")
+    return metadata, fm_errors
 
 def validate_skills(skills_dir, strict_mode=False):
     print(f"🔍 Validating skills in: {skills_dir}")
@@ -40,7 +55,7 @@ def validate_skills(skills_dir, strict_mode=False):
     # Pre-compiled regex
     security_disclaimer_pattern = re.compile(r"AUTHORIZED USE ONLY", re.IGNORECASE)
 
-    valid_risk_levels = ["none", "safe", "critical", "offensive"]
+    valid_risk_levels = ["none", "safe", "critical", "offensive", "unknown"]
 
     for root, dirs, files in os.walk(skills_dir):
         # Skip .disabled or hidden directories
@@ -59,19 +74,27 @@ def validate_skills(skills_dir, strict_mode=False):
                 continue
             
             # 1. Frontmatter Check
-            metadata = parse_frontmatter(content)
+            metadata, fm_errors = parse_frontmatter(content, rel_path)
             if not metadata:
                 errors.append(f"❌ {rel_path}: Missing or malformed YAML frontmatter")
                 continue # Cannot proceed without metadata
+            
+            if fm_errors:
+                for fe in fm_errors:
+                    errors.append(f"❌ {rel_path}: YAML Structure Error - {fe}")
 
             # 2. Metadata Schema Checks
             if "name" not in metadata:
                 errors.append(f"❌ {rel_path}: Missing 'name' in frontmatter")
             elif metadata["name"] != os.path.basename(root):
-                warnings.append(f"⚠️  {rel_path}: Name '{metadata['name']}' does not match folder name '{os.path.basename(root)}'")
+                errors.append(f"❌ {rel_path}: Name '{metadata['name']}' does not match folder name '{os.path.basename(root)}'")
 
             if "description" not in metadata:
                 errors.append(f"❌ {rel_path}: Missing 'description' in frontmatter")
+            else:
+                # agentskills-ref checks for short descriptions
+                if len(metadata["description"]) > 200:
+                    errors.append(f"❌ {rel_path}: Description is oversized ({len(metadata['description'])} chars). Must be concise.")
 
             # Risk Validation (Quality Bar)
             if "risk" not in metadata:
@@ -97,6 +120,22 @@ def validate_skills(skills_dir, strict_mode=False):
             if metadata.get("risk") == "offensive":
                 if not security_disclaimer_pattern.search(content):
                     errors.append(f"🚨 {rel_path}: OFFENSIVE SKILL MISSING SECURITY DISCLAIMER! (Must contain 'AUTHORIZED USE ONLY')")
+
+            # 5. Dangling Links Validation
+            # Look for markdown links: [text](href)
+            links = re.findall(r'\[[^\]]*\]\(([^)]+)\)', content)
+            for link in links:
+                link_clean = link.split('#')[0].strip()
+                # Skip empty anchors, external links, and edge cases
+                if not link_clean or link_clean.startswith(('http://', 'https://', 'mailto:', '<', '>')):
+                    continue
+                if os.path.isabs(link_clean):
+                    continue
+                
+                # Check if file exists relative to this skill file
+                target_path = os.path.normpath(os.path.join(root, link_clean))
+                if not os.path.exists(target_path):
+                    errors.append(f"❌ {rel_path}: Dangling link detected. Path '{link_clean}' (from '...({link})') does not exist locally.")
 
     # Reporting
     print(f"\n📊 Checked {skill_count} skills.")

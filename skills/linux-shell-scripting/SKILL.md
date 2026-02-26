@@ -1,15 +1,11 @@
 ---
 name: linux-shell-scripting
-description: This skill should be used when the user asks to "create bash scripts",
-  "automate Linux tasks", "monitor system resources", "backup files", "manage users",
-  or "write production shell scripts". It provides ready-to-use shell script templates
-  for system administration.
+description: "This skill should be used when the user asks to \"create bash scripts\", \"automate Linux tasks\", \"monitor system resources\", \"backup files\", \"manage users\", or \"write production she..."
 metadata:
   author: zebbern
-  version: '1.1'
-risk: safe
+  version: "1.1"
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -510,3 +506,6 @@ Minute(0-59) Hour(0-23) Day(1-31) Month(1-12) Weekday(0-7, 0/7=Sun)
 - Quote variables to handle spaces properly
 - Many scripts require root/sudo privileges
 - Use `bash -x script.sh` for debugging
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

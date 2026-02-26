@@ -1,10 +1,9 @@
 ---
 name: azure-appconfiguration-ts
-description: "Build applications using Azure App Configuration SDK for JavaScript (@azure/app-configuration). Use when working with configuration settings, feature flags, Key Vault references, dynamic refresh, or centralized configuration management."
-package: '@azure/app-configuration'
-risk: safe
-source: microsoft
-license: MIT
+description: "Build applications using Azure App Configuration SDK for JavaScript (@azure/app-configuration). Use when working with configuration settings, feature flags, Key Vault references, dynamic refresh, o..."
+package: "@azure/app-configuration"
+risk: unknown
+source: community
 ---
 
 
@@ -352,7 +351,5 @@ import {
 6. **Sentinel pattern** - Use a sentinel key to trigger full refresh
 7. **RBAC roles** - `App Configuration Data Reader` for read-only access
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-appconfiguration-ts.
+This skill is applicable to execute the workflow or actions described in the overview.

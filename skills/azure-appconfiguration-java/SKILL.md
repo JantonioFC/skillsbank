@@ -8,9 +8,8 @@ description: 'Azure App Configuration SDK for Java. Centralized application conf
 
   '
 package: com.azure:azure-data-appconfiguration
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -477,7 +476,5 @@ try {
 | Samples | https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/appconfiguration/azure-data-appconfiguration/src/samples |
 | Troubleshooting | https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/appconfiguration/azure-data-appconfiguration/TROUBLESHOOTING.md |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-appconfiguration-java.
+This skill is applicable to execute the workflow or actions described in the overview.

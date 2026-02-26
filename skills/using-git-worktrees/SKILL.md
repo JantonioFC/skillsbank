@@ -1,9 +1,8 @@
 ---
 name: using-git-worktrees
-description: Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification
-risk: safe
+description: "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verifi..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 # Using Git Worktrees
@@ -219,3 +218,7 @@ Ready to implement auth feature
 
 **Pairs with:**
 - **finishing-a-development-branch** - REQUIRED for cleanup after work complete
+- **executing-plans** or **subagent-driven-development** - Work happens in this worktree
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

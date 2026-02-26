@@ -6,9 +6,8 @@ description: Expert web researcher using advanced search techniques and synthesi
   gathering, or trend analysis.
 metadata:
   model: haiku
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 

@@ -1,17 +1,10 @@
 ---
 name: m365-agents-ts
-description: 'Microsoft 365 Agents SDK for TypeScript/Node.js. Build multichannel
-  agents for Teams/M365/Copilot Studio with AgentApplication routing, Express hosting,
-  streaming responses, and Copilot Studio client integration. Triggers: "Microsoft
-  365 Agents SDK", "@microsoft/agents-hosting", "AgentApplication", "startServer",
-  "streamingResponse", "Copilot Studio client", "@microsoft/agents-copilotstudio-client".
-
-  '
-package: '@microsoft/agents-hosting, @microsoft/agents-hosting-express, @microsoft/agents-activity,
-  @microsoft/agents-copilotstudio-client'
-risk: offensive
+description: |
+  Microsoft 365 Agents SDK for TypeScript/Node.js. Build multichannel agents for Teams/M365/Copilot Studio with AgentApplication routing, Express hosting, streaming responses, and Copilot Studio client integration. Triggers: "Microsoft 365 Agents SDK", "@microsoft/agents-hosting", "AgentApplication", "startServer", "streamingResponse", "Copilot Studio client", "@microsoft/agents-copilotstudio-client".
+package: "@microsoft/agents-hosting, @microsoft/agents-hosting-express, @microsoft/agents-activity, @microsoft/agents-copilotstudio-client"
+risk: unknown
 source: community
-license: MIT
 ---
 
 # Microsoft 365 Agents SDK (TypeScript)
@@ -182,7 +175,7 @@ window.WebChat.renderWebChat({
 
 | File | Contents |
 | --- | --- |
-| [references/acceptance-criteria.md](references/acceptance-criteria.md) | Import paths, hosting pipeline, streaming, and Copilot Studio patterns |
+| references/acceptance-criteria.md | Import paths, hosting pipeline, streaming, and Copilot Studio patterns |
 
 ## Reference Links
 
@@ -196,5 +189,4 @@ window.WebChat.renderWebChat({
 | GitHub samples | https://github.com/microsoft/Agents/tree/main/samples/nodejs |
 
 ## When to Use
-
-Use this skill when you need guidance or automation for m365-agents-ts.
+This skill is applicable to execute the workflow or actions described in the overview.

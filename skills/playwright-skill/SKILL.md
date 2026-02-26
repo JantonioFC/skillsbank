@@ -1,13 +1,8 @@
 ---
 name: playwright-skill
-description: Complete browser automation with Playwright. Auto-detects dev servers,
-  writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check
-  responsive design, validate UX, test login flows, check links, automate any browser
-  task. Use when user wants to test websites, automate browser interactions, validate
-  web functionality, or perform any browser-based testing.
-risk: safe
+description: "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login ..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -460,7 +455,5 @@ User: "Use 3001"
 - Code executes reliably with proper module resolution via `run.js`
 - Progressive disclosure - API_REFERENCE.md loaded only when advanced features needed
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for playwright-skill.
+This skill is applicable to execute the workflow or actions described in the overview.

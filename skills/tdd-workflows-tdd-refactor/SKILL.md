@@ -1,9 +1,8 @@
 ---
 name: tdd-workflows-tdd-refactor
-description: Use when working with tdd workflows tdd refactor
-risk: offensive
+description: "Use when working with tdd workflows tdd refactor"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

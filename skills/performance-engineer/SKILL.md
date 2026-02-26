@@ -7,9 +7,8 @@ description: Expert performance engineer specializing in modern observability, a
   Use PROACTIVELY for performance optimization, observability, or scalability challenges.
 metadata:
   model: inherit
-risk: offensive
+risk: unknown
 source: community
-license: MIT
 ---
 
 

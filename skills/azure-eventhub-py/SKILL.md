@@ -8,9 +8,8 @@ description: 'Azure Event Hubs SDK for Python streaming. Use for high-throughput
 
   '
 package: azure-eventhub
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -243,11 +242,9 @@ with producer:
 
 | File | Contents |
 |------|----------|
-| [references/checkpointing.md](references/checkpointing.md) | Checkpoint store patterns, blob checkpointing, checkpoint strategies |
-| [references/partitions.md](references/partitions.md) | Partition management, load balancing, starting positions |
-| [scripts/setup_consumer.py](scripts/setup_consumer.py) | CLI for Event Hub info, consumer setup, and event sending/receiving |
-
+| references/checkpointing.md | Checkpoint store patterns, blob checkpointing, checkpoint strategies |
+| references/partitions.md | Partition management, load balancing, starting positions |
+| scripts/setup_consumer.py | CLI for Event Hub info, consumer setup, and event sending/receiving |
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-eventhub-py.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -8,9 +8,8 @@ description: 'Azure Monitor OpenTelemetry Distro for Python. Use for one-line Ap
 
   '
 package: azure-monitor-opentelemetry
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -231,7 +230,5 @@ configure_azure_monitor(
 6. **Add custom attributes** to spans for better debugging
 7. **Use AAD authentication** for production workloads
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-monitor-opentelemetry-py.
+This skill is applicable to execute the workflow or actions described in the overview.

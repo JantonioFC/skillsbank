@@ -4,11 +4,9 @@ description: Automate OneDrive file management, search, uploads, downloads, shar
   permissions, and folder operations via Rube MCP (Composio). Always search tools
   first for current schemas.
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -244,7 +242,5 @@ Most OneDrive tools accept either paths or IDs:
 | Track changes | `ONE_DRIVE_LIST_SITE_DRIVE_ITEMS_DELTA` | `site_id`, `token` |
 | Version history | `ONE_DRIVE_GET_ITEM_VERSIONS` | `item_id` |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for one-drive-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

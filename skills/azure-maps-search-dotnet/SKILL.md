@@ -8,9 +8,8 @@ description: 'Azure Maps SDK for .NET. Location-based services including geocodi
 
   '
 package: Azure.Maps.Search
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -502,7 +501,5 @@ catch (RequestFailedException ex)
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/maps |
 | Pricing | https://azure.microsoft.com/pricing/details/azure-maps/ |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-maps-search-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

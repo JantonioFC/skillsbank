@@ -1,9 +1,8 @@
 ---
 name: tdd-workflows-tdd-cycle
-description: Use when working with tdd workflows tdd cycle
-risk: safe
+description: "Use when working with tdd workflows tdd cycle"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

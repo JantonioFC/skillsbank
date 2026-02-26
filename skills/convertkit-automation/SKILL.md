@@ -3,11 +3,9 @@ name: convertkit-automation
 description: 'Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers,
   tags, broadcasts, and broadcast stats. Always search tools first for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -200,7 +198,5 @@ Kit uses cursor-based pagination:
 | Get broadcast stats | KIT_GET_BROADCAST_STATS | id |
 | Delete broadcast | KIT_DELETE_BROADCAST | id |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for convertkit-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

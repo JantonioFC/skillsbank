@@ -1,11 +1,8 @@
 ---
 name: prisma-expert
-description: Prisma ORM expert for schema design, migrations, query optimization,
-  relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues,
-  migration problems, query performance, relation design, or database connection issues.
-risk: safe
+description: "Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, migration problems, query performance, re..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -360,7 +357,5 @@ const updateWithVersion = await prisma.post.update({
 4. **Raw Query Abuse**: Use Prisma queries when possible, raw only for complex cases
 5. **Migration in Production Dev Mode**: Never use `migrate dev` in production
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for prisma-expert.
+This skill is applicable to execute the workflow or actions described in the overview.

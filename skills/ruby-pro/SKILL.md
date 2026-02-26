@@ -1,13 +1,14 @@
 ---
 name: ruby-pro
-description: Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance
-  optimization. Specializes in Ruby on Rails, gem development, and testing frameworks.
-  Use PROACTIVELY for Ruby refactoring, optimization, or complex Ruby features.
+description: |
+  Write idiomatic Ruby code with metaprogramming, Rails patterns, and
+  performance optimization. Specializes in Ruby on Rails, gem development, and
+  testing frameworks. Use PROACTIVELY for Ruby refactoring, optimization, or
+  complex Ruby features.
 metadata:
   model: inherit
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 

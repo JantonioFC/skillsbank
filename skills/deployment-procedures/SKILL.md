@@ -1,11 +1,9 @@
 ---
 name: deployment-procedures
-description: Production deployment principles and decision-making. Safe deployment
-  workflows, rollback strategies, and verification. Teaches thinking, not scripts.
+description: "Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts."
 allowed-tools: Read, Glob, Grep, Bash
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -245,7 +243,5 @@ Before deploying:
 
 > **Remember:** Every deployment is a risk. Minimize risk through preparation, not speed.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for deployment-procedures.
+This skill is applicable to execute the workflow or actions described in the overview.

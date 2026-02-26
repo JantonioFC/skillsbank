@@ -7,9 +7,8 @@ description: 'Azure Resource Manager SDK for Bot Service in .NET. Management pla
 
   '
 package: Azure.ResourceManager.BotService
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -341,7 +340,5 @@ catch (RequestFailedException ex)
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/botservice/Azure.ResourceManager.BotService |
 | Azure Bot Service Docs | https://learn.microsoft.com/azure/bot-service/ |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-mgmt-botservice-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

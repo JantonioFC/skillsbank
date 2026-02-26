@@ -1,14 +1,14 @@
 ---
 name: api-documenter
-description: Master API documentation with OpenAPI 3.1, AI-powered tools, and modern
-  developer experience practices. Create interactive docs, generate SDKs, and build
-  comprehensive developer portals. Use PROACTIVELY for API documentation or developer
-  portal creation.
+description: |
+  Master API documentation with OpenAPI 3.1, AI-powered tools, and
+  modern developer experience practices. Create interactive docs, generate SDKs,
+  and build comprehensive developer portals. Use PROACTIVELY for API
+  documentation or developer portal creation.
 metadata:
   model: sonnet
-risk: offensive
+risk: unknown
 source: community
-license: MIT
 ---
 
 

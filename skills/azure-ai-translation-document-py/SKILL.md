@@ -8,9 +8,8 @@ description: 'Azure AI Document Translation SDK for batch translation of documen
 
   '
 package: azure-ai-translation-document
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -256,7 +255,5 @@ async def translate_documents():
 6. **Use async client** for multiple concurrent jobs
 7. **Check supported formats** before submitting documents
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-translation-document-py.
+This skill is applicable to execute the workflow or actions described in the overview.

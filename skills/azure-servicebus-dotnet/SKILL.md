@@ -8,9 +8,8 @@ description: 'Azure Service Bus SDK for .NET. Enterprise messaging with queues, 
 
   '
 package: Azure.Messaging.ServiceBus
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Azure.Messaging.ServiceBus (.NET)
@@ -346,5 +345,4 @@ catch (ServiceBusException ex)
 | Troubleshooting | https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/servicebus/Azure.Messaging.ServiceBus/TROUBLESHOOTING.md |
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-servicebus-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

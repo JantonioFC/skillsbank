@@ -4,11 +4,9 @@ description: 'Automate Sentry tasks via Rube MCP (Composio): manage issues/event
   configure alerts, track releases, monitor projects and teams. Always search tools
   first for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -238,7 +236,5 @@ Automate Sentry error tracking and monitoring operations through Composio's Sent
 | List releases | SENTRY_LIST_ORGANIZATION_RELEASES | organization_id_or_slug |
 | Update monitor | SENTRY_UPDATE_A_MONITOR | organization_id_or_slug, monitor_id_or_slug |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for sentry-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

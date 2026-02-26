@@ -4,11 +4,9 @@ description: 'Automate YouTube tasks via Rube MCP (Composio): upload videos, man
   playlists, search content, get analytics, and handle comments. Always search tools
   first for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -224,7 +222,5 @@ Automate YouTube operations through Composio's YouTube toolkit via Rube MCP.
 | List comments | YOUTUBE_LIST_COMMENT_THREADS | videoId |
 | Channel activities | YOUTUBE_GET_CHANNEL_ACTIVITIES | (check schema) |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for youtube-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

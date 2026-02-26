@@ -1,11 +1,8 @@
 ---
 name: github-workflow-automation
-description: Automate GitHub workflows with AI assistance. Includes PR reviews, issue
-  triage, CI/CD integration, and Git operations. Use when automating GitHub workflows,
-  setting up PR review automation, creating GitHub Actions, or triaging issues.
-risk: offensive
+description: "Automate GitHub workflows with AI assistance. Includes PR reviews, issue triage, CI/CD integration, and Git operations. Use when automating GitHub workflows, setting up PR review automation, creati..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 

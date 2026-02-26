@@ -1,9 +1,7 @@
 ---
 name: planning-with-files
-version: 2.1.2
-description: Implements Manus-style file-based planning for complex tasks. Creates
-  task_plan.md, findings.md, and progress.md. Use when starting complex multi-step
-  tasks, research projects, or any task requiring >5 tool calls.
+version: "2.1.2"
+description: "Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requirin..."
 user-invocable: true
 allowed-tools:
 - Read
@@ -32,12 +30,11 @@ hooks:
       command: echo '[planning-with-files] File updated. If this completes a phase,
         update task_plan.md status.'
   Stop:
-  - hooks:
-    - type: command
-      command: ${CLAUDE_PLUGIN_ROOT}/scripts/check-complete.sh
-risk: safe
+    - hooks:
+        - type: command
+          command: "${CLAUDE_PLUGIN_ROOT}/scripts/check-complete.sh"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

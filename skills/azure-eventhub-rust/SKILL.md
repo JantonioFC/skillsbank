@@ -8,9 +8,8 @@ description: 'Azure Event Hubs SDK for Rust. Use for sending and receiving event
 
   '
 package: azure_messaging_eventhubs
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -134,7 +133,5 @@ cargo add azure_messaging_eventhubs_checkpointstore_blob
 | Source Code | https://github.com/Azure/azure-sdk-for-rust/tree/main/sdk/eventhubs/azure_messaging_eventhubs |
 | crates.io | https://crates.io/crates/azure_messaging_eventhubs |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-eventhub-rust.
+This skill is applicable to execute the workflow or actions described in the overview.

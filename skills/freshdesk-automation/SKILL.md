@@ -4,11 +4,9 @@ description: Automate Freshdesk helpdesk operations including tickets, contacts,
   notes, and replies via Rube MCP (Composio). Always search tools first for current
   schemas.
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -225,7 +223,5 @@ Freshdesk uses page-based pagination:
 | List ticket fields | `FRESHDESK_LIST_TICKET_FIELDS` | (none) |
 | List company fields | `FRESHDESK_LIST_COMPANY_FIELDS` | (none) |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for freshdesk-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

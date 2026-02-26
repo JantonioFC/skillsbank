@@ -8,9 +8,8 @@ description: 'Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, q
 
   '
 package: azure_data_cosmos
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -142,7 +141,5 @@ cargo add azure_data_cosmos --features key_auth
 | Source Code | https://github.com/Azure/azure-sdk-for-rust/tree/main/sdk/cosmos/azure_data_cosmos |
 | crates.io | https://crates.io/crates/azure_data_cosmos |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-cosmos-rust.
+This skill is applicable to execute the workflow or actions described in the overview.

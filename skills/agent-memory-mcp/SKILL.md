@@ -1,11 +1,9 @@
 ---
 name: agent-memory-mcp
 author: Amit Rathiesh
-description: A hybrid memory system that provides persistent, searchable knowledge
-  management for AI agents (Architecture, Patterns, Decisions).
-risk: safe
+description: "A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions)."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -86,7 +84,5 @@ npm run start-dashboard <absolute_path_to_target_workspace>
 
 Access at: `http://localhost:3333`
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for agent-memory-mcp.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,9 +1,8 @@
 ---
 name: multi-cloud-architecture
-description: Design multi-cloud architectures using a decision framework to select and integrate services across AWS, Azure, and GCP. Use when building multi-cloud systems, avoiding vendor lock-in, or leveraging best-of-breed services from multiple providers.
-risk: safe
+description: "Design multi-cloud architectures using a decision framework to select and integrate services across AWS, Azure, and GCP. Use when building multi-cloud systems, avoiding vendor lock-in, or leveragin..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 # Multi-Cloud Architecture

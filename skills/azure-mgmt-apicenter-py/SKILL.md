@@ -8,9 +8,8 @@ description: 'Azure API Center Management SDK for Python. Use for managing API i
 
   '
 package: azure-mgmt-apicenter
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -249,7 +248,5 @@ metadata = client.metadata_schemas.create_or_update(
 5. **Use lifecycle stages** to track API maturity
 6. **Add contacts** for API ownership and support
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-mgmt-apicenter-py.
+This skill is applicable to execute the workflow or actions described in the overview.

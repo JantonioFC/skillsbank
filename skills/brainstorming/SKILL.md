@@ -1,9 +1,8 @@
 ---
 name: brainstorming
-description: "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
-risk: safe
+description: "Use before creative or constructive work (features, architecture, behavior). Transforms vague ideas into validated designs through disciplined reasoning and collaboration."
+risk: unknown
 source: community
-license: MIT
 ---
 
 # Brainstorming Ideas Into Designs
@@ -91,9 +90,51 @@ digraph brainstorming {
 
 ## Key Principles
 
-- **One question at a time** - Don't overwhelm with multiple questions
-- **Multiple choice preferred** - Easier to answer than open-ended when possible
-- **YAGNI ruthlessly** - Remove unnecessary features from all designs
-- **Explore alternatives** - Always propose 2-3 approaches before settling
-- **Incremental validation** - Present design, get approval before moving on
-- **Be flexible** - Go back and clarify when something doesn't make sense
+Persist the document according to the project’s standard workflow.
+
+---
+
+### 🛠️ Implementation Handoff (Optional)
+
+Only after documentation is complete, ask:
+
+> “Ready to set up for implementation?”
+
+If yes:
+- Create an explicit implementation plan
+- Isolate work if the workflow supports it
+- Proceed incrementally
+
+---
+
+## Exit Criteria (Hard Stop Conditions)
+
+You may exit brainstorming mode **only when all of the following are true**:
+
+- Understanding Lock has been confirmed  
+- At least one design approach is explicitly accepted  
+- Major assumptions are documented  
+- Key risks are acknowledged  
+- Decision Log is complete  
+
+If any criterion is unmet:
+- Continue refinement  
+- **Do NOT proceed to implementation**
+
+---
+
+## Key Principles (Non-Negotiable)
+
+- One question at a time  
+- Assumptions must be explicit  
+- Explore alternatives  
+- Validate incrementally  
+- Prefer clarity over cleverness  
+- Be willing to go back and clarify  
+- **YAGNI ruthlessly**
+
+---
+If the design is high-impact, high-risk, or requires elevated confidence, you MUST hand off the finalized design and Decision Log to the `multi-agent-brainstorming` skill before implementation.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

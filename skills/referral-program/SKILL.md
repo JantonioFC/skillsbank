@@ -1,12 +1,8 @@
 ---
 name: referral-program
-description: When the user wants to create, optimize, or analyze a referral program,
-  affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,'
-  'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' or 'partner
-  program.' This skill covers program design, incentive structure, and growth optimization.
-risk: safe
+description: "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -608,7 +604,5 @@ If you need more context:
 - **analytics-tracking**: For tracking referral attribution
 - **pricing-strategy**: For structuring rewards relative to LTV
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for referral-program.
+This skill is applicable to execute the workflow or actions described in the overview.

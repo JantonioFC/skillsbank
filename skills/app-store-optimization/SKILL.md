@@ -1,10 +1,8 @@
 ---
 name: app-store-optimization
-description: Complete App Store Optimization (ASO) toolkit for researching, optimizing,
-  and tracking mobile app performance on Apple App Store and Google Play Store
-risk: safe
+description: "Complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play Store"
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -407,7 +405,5 @@ This skill is based on current Apple App Store and Google Play Store requirement
 - iOS/Android version adoption rates (affects device testing)
 - Store algorithm changes (follow ASO blogs and communities)
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for app-store-optimization.
+This skill is applicable to execute the workflow or actions described in the overview.

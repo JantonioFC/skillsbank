@@ -8,9 +8,8 @@ description: 'Azure AI Document Intelligence SDK for .NET. Extract text, tables,
 
   '
 package: Azure.AI.DocumentIntelligence
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -345,7 +344,5 @@ catch (RequestFailedException ex)
 | Document Intelligence Studio | https://documentintelligence.ai.azure.com/ |
 | Prebuilt Models | https://aka.ms/azsdk/formrecognizer/models |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-document-intelligence-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

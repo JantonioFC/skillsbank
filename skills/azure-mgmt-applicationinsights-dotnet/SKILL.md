@@ -8,9 +8,8 @@ description: 'Azure Application Insights SDK for .NET. Application performance m
 
   '
 package: Azure.ResourceManager.ApplicationInsights
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -494,7 +493,5 @@ builder.Services.AddApplicationInsightsTelemetry(options =>
 | Product Documentation | https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/applicationinsights/Azure.ResourceManager.ApplicationInsights |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-mgmt-applicationinsights-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

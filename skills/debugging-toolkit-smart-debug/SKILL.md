@@ -1,9 +1,8 @@
 ---
 name: debugging-toolkit-smart-debug
-description: Use when working with debugging toolkit smart debug
-risk: safe
+description: "Use when working with debugging toolkit smart debug"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

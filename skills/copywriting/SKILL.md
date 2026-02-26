@@ -2,13 +2,10 @@
 name: copywriting
 description: 'Use this skill when writing, rewriting, or improving marketing copy
   for any page (homepage, landing page, pricing, feature, product, or about page).
-  This skill produces clear, compelling, and testable copy while enforcing alignment,
-  honesty, and conversion best practices.
-
-  '
-risk: safe
+  This skill produces clear, compelling, and testable copy while enforcing
+  alignment, honesty, and conversion best practices.
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -228,3 +225,6 @@ It persuades **the right person** to take **the right action**.
 
 If the copy feels clever but unclear,  
 rewrite it until it feels obvious.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

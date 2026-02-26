@@ -1,9 +1,8 @@
 ---
 name: microservices-patterns
-description: Design microservices architectures with service boundaries, event-driven communication, and resilience patterns. Use when building distributed systems, decomposing monoliths, or implementing microservices.
-risk: safe
+description: "Design microservices architectures with service boundaries, event-driven communication, and resilience patterns. Use when building distributed systems, decomposing monoliths, or implementing micros..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 # Microservices Patterns

@@ -8,9 +8,8 @@ description: 'Azure Identity SDK for Rust authentication. Use for DeveloperTools
 
   '
 package: azure_identity
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -122,7 +121,5 @@ let credential = ClientSecretCredential::new(
 | Source Code | https://github.com/Azure/azure-sdk-for-rust/tree/main/sdk/identity/azure_identity |
 | crates.io | https://crates.io/crates/azure_identity |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-identity-rust.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,10 +1,6 @@
 ---
 name: stitch-ui-design
-description: Expert guide for creating effective prompts for Google Stitch AI UI design
-  tool. Use when user wants to design UI/UX in Stitch, create app interfaces, generate
-  mobile/web designs, or needs help crafting Stitch prompts. Covers prompt structure,
-  specificity techniques, iteration strategies, and design-to-code workflows for Stitch
-  by Google.
+description: "Expert guide for creating effective prompts for Google Stitch AI UI design tool. Use when user wants to design UI/UX in Stitch, create app interfaces, generate mobile/web designs, or needs help cra..."
 risk: safe
 source: self
 license: MIT
@@ -382,7 +378,5 @@ Effective Stitch prompts are specific, context-rich, and visually descriptive. B
 
 **Remember:** Stitch is a starting point, not a final product. Use it to accelerate the design process, explore ideas quickly, and establish visual direction—then refine with human judgment and production standards.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for stitch-ui-design.
+This skill is applicable to execute the workflow or actions described in the overview.

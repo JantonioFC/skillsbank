@@ -1,10 +1,8 @@
 ---
 name: codex-review
-description: Professional code review with auto CHANGELOG generation, integrated with
-  Codex AI
-risk: safe
+description: "Professional code review with auto CHANGELOG generation, integrated with Codex AI"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

@@ -1,9 +1,8 @@
 ---
 name: error-debugging-multi-agent-review
-description: Use when working with error debugging multi agent review
-risk: safe
+description: "Use when working with error debugging multi agent review"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

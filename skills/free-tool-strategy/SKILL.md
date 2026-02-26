@@ -1,14 +1,8 @@
 ---
 name: free-tool-strategy
-description: When the user wants to plan, evaluate, or build a free tool for marketing
-  purposes — lead generation, SEO value, or brand awareness. Also use when the user
-  mentions "engineering as marketing," "free tool," "marketing tool," "calculator,"
-  "generator," "interactive tool," "lead gen tool," "build a tool for leads," or "free
-  resource." This skill bridges engineering and marketing — useful for founders and
-  technical marketers.
-risk: safe
+description: "When the user wants to plan, evaluate, or build a free tool for marketing purposes \u2014 lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as mar..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -584,7 +578,5 @@ If you need more context:
 - **email-sequence**: For nurturing leads from the tool
 - **programmatic-seo**: For building tool-based pages at scale
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for free-tool-strategy.
+This skill is applicable to execute the workflow or actions described in the overview.

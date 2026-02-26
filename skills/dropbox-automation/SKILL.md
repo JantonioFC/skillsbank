@@ -4,11 +4,9 @@ description: Automate Dropbox file management, sharing, search, uploads, downloa
   and folder operations via Rube MCP (Composio). Always search tools first for current
   schemas.
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -236,7 +234,5 @@ Several Dropbox operations run asynchronously:
 | Copy file/folder | `DROPBOX_COPY_FILE_OR_FOLDER` | `from_path`, `to_path` |
 | Check batch status | `DROPBOX_CHECK_MOVE_BATCH` | `async_job_id` |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for dropbox-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

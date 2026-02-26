@@ -8,9 +8,8 @@ description: 'Azure Event Grid SDK for Python. Use for publishing events, handli
 
   '
 package: azure-eventgrid
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Azure Event Grid SDK for Python
@@ -180,5 +179,4 @@ async with EventGridPublisherClient(
 6. **Set appropriate event types** for routing and filtering
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-eventgrid-py.
+This skill is applicable to execute the workflow or actions described in the overview.

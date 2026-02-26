@@ -9,9 +9,8 @@ description: 'Senior embedded software engineer specializing in firmware and dri
   '
 metadata:
   model: inherit
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 

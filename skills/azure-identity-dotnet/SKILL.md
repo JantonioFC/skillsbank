@@ -8,9 +8,8 @@ description: 'Azure Identity SDK for .NET. Authentication library for Azure SDK 
 
   '
 package: Azure.Identity
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Azure.Identity (.NET)
@@ -352,5 +351,4 @@ All credential implementations are thread-safe. A single credential instance can
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/identity/Azure.Identity |
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-identity-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

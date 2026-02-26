@@ -8,9 +8,8 @@ description: 'Azure Monitor Ingestion SDK for Python. Use for sending custom log
 
   '
 package: azure-monitor-ingestion
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -211,7 +210,5 @@ Stream names follow patterns:
 7. **Monitor ingestion** — Check Log Analytics for ingestion status
 8. **Use context manager** — Ensures proper client cleanup
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-monitor-ingestion-py.
+This skill is applicable to execute the workflow or actions described in the overview.

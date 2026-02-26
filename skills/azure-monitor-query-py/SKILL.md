@@ -8,9 +8,8 @@ description: 'Azure Monitor Query SDK for Python. Use for querying Log Analytics
 
   '
 package: azure-monitor-query
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -259,7 +258,5 @@ AppExceptions
 6. **Use aggregations** to summarize metric data
 7. **Filter by dimensions** to narrow metric results
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-monitor-query-py.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,11 +1,9 @@
 ---
 name: performance-profiling
-description: Performance profiling principles. Measurement, analysis, and optimization
-  techniques.
+description: "Performance profiling principles. Measurement, analysis, and optimization techniques."
 allowed-tools: Read, Glob, Grep, Bash
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -147,7 +145,5 @@ license: MIT
 
 > **Remember:** The fastest code is code that doesn't run. Remove before optimizing.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for performance-profiling.
+This skill is applicable to execute the workflow or actions described in the overview.

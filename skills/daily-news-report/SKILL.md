@@ -1,16 +1,12 @@
 ---
 name: daily-news-report
-description: Scrapes content based on a preset URL list, filters high-quality technical
-  information, and generates daily Markdown reports.
-argument-hint:
-- optional: date
+description: "Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports."
+argument-hint: [optional: date]
 disable-model-invocation: false
 user-invocable: true
-allowed-tools: Task, WebFetch, Read, Write, Bash(mkdir*), Bash(date*), Bash(ls*),
-  mcp__chrome-devtools__*
-risk: safe
+allowed-tools: Task, WebFetch, Read, Write, Bash(mkdir*), Bash(date*), Bash(ls*), mcp__chrome-devtools__*
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -304,7 +300,7 @@ Task Call:
   1. Point one
   2. Point two
   3. Point three
-- **Source**: [Link](URL)
+- **Source**: Link
 - **Keywords**: `keyword1` `keyword2` `keyword3`
 - **Score**: ⭐⭐⭐⭐⭐ (5/5)
 
@@ -362,7 +358,5 @@ To ensure usability across different Agent environments, the following checks mu
 3.  **User Alert**:
     -   MUST include a clear warning in the generated report header indicating the current degraded mode.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for daily-news-report.
+This skill is applicable to execute the workflow or actions described in the overview.

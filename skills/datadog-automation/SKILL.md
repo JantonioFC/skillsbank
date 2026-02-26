@@ -4,11 +4,9 @@ description: 'Automate Datadog tasks via Rube MCP (Composio): query metrics, sea
   logs, manage monitors/dashboards, create events and downtimes. Always search tools
   first for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -241,7 +239,5 @@ logs("service:web status:error").index("main").rollup("count").last("5m") > 10
 | List hosts | DATADOG_LIST_HOSTS | filter, sort_field |
 | Get trace | DATADOG_GET_TRACE_BY_ID | trace_id |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for datadog-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

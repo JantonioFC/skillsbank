@@ -4,11 +4,9 @@ description: 'Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS c
   inspect campaign messages, track tags, and monitor send jobs. Always search tools
   first for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -196,7 +194,5 @@ fields__template=['name', 'html', 'text']
 | Get campaign tags | KLAVIYO_GET_CAMPAIGN_RELATIONSHIPS_TAGS | id |
 | Get send job status | KLAVIYO_GET_CAMPAIGN_SEND_JOB | id |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for klaviyo-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

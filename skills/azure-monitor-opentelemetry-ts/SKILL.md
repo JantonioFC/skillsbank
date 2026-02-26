@@ -1,12 +1,9 @@
 ---
 name: azure-monitor-opentelemetry-ts
-description: Instrument applications with Azure Monitor and OpenTelemetry for JavaScript
-  (@azure/monitor-opentelemetry). Use when adding distributed tracing, metrics, and
-  logs to Node.js applications with Application Insights.
-package: '@azure/monitor-opentelemetry'
-risk: safe
-source: microsoft
-license: MIT
+description: "Instrument applications with Azure Monitor and OpenTelemetry for JavaScript (@azure/monitor-opentelemetry). Use when adding distributed tracing, metrics, and logs to Node.js applications with Appli..."
+package: "@azure/monitor-opentelemetry"
+risk: unknown
+source: community
 ---
 
 
@@ -324,7 +321,5 @@ import {
 5. **Add custom dimensions** - Use span processors for enrichment
 6. **Graceful shutdown** - Call `shutdownAzureMonitor()` to flush telemetry
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-monitor-opentelemetry-ts.
+This skill is applicable to execute the workflow or actions described in the overview.

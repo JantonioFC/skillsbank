@@ -8,9 +8,8 @@ description: 'Azure AI Projects SDK for Java. High-level SDK for Azure AI Foundr
 
   '
 package: com.azure:azure-ai-projects
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -159,7 +158,5 @@ try {
 | GitHub Source | https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/ai/azure-ai-projects |
 | Samples | https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/ai/azure-ai-projects/src/samples |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-projects-java.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,16 +1,11 @@
 ---
 name: windows-privilege-escalation
-description: This skill should be used when the user asks to "escalate privileges
-  on Windows," "find Windows privesc vectors," "enumerate Windows for privilege escalation,"
-  "exploit Windows misconfigurations," or "perform post-exploitation privilege escalation."
-  It provides comprehensive guidance for discovering and exploiting privilege escalation
-  vulnerabilities in Windows environments.
+description: "This skill should be used when the user asks to \"escalate privileges on Windows,\" \"find Windows privesc vectors,\" \"enumerate Windows for privilege escalation,\" \"exploit Windows miscon..."
 metadata:
   author: zebbern
-  version: '1.1'
-risk: offensive
+  version: "1.1"
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -509,3 +504,6 @@ runas /user:Administrator cmd.exe
 | Token impersonation fails | Wrong privilege/version | Check `whoami /priv`; verify Windows version compatibility |
 | Can't find kernel exploit | System patched | Run Windows Exploit Suggester: `python wes.py systeminfo.txt` |
 | PowerShell blocked | Execution policy/AMSI | Use `powershell -ep bypass -c "cmd"` or `-enc <base64>` |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

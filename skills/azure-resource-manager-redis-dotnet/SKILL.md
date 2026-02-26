@@ -9,9 +9,8 @@ description: 'Azure Resource Manager SDK for Redis in .NET. Use for MANAGEMENT P
 
   '
 package: Azure.ResourceManager.Redis
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Azure.ResourceManager.Redis (.NET)
@@ -370,5 +369,4 @@ var value = await db.StringGetAsync("key");
 | `Microsoft.Azure.StackExchangeRedis` | Azure-specific Redis extensions | `dotnet add package Microsoft.Azure.StackExchangeRedis` |
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-resource-manager-redis-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

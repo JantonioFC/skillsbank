@@ -9,9 +9,8 @@ description: 'Azure Resource Manager SDK for Cosmos DB in .NET. Use for MANAGEME
 
   '
 package: Azure.ResourceManager.CosmosDB
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Azure.ResourceManager.CosmosDB (.NET)
@@ -252,9 +251,9 @@ catch (RequestFailedException ex)
 
 | File | When to Read |
 |------|--------------|
-| [references/account-management.md](references/account-management.md) | Account CRUD, failover, keys, connection strings, networking |
-| [references/sql-resources.md](references/sql-resources.md) | SQL databases, containers, stored procedures, triggers, UDFs |
-| [references/throughput.md](references/throughput.md) | Manual/autoscale throughput, migration between modes |
+| references/account-management.md | Account CRUD, failover, keys, connection strings, networking |
+| references/sql-resources.md | SQL databases, containers, stored procedures, triggers, UDFs |
+| references/throughput.md | Manual/autoscale throughput, migration between modes |
 
 ## Related SDKs
 
@@ -264,5 +263,4 @@ catch (RequestFailedException ex)
 | `Azure.ResourceManager.CosmosDB` | Management plane (this SDK) | `dotnet add package Azure.ResourceManager.CosmosDB` |
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-resource-manager-cosmosdb-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -5,9 +5,8 @@ description: Write efficient C code with proper memory management, pointer arith
   code. Use PROACTIVELY for C optimization, memory issues, or system programming.
 metadata:
   model: opus
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 

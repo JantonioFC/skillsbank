@@ -1,11 +1,8 @@
 ---
 name: git-pr-workflows-git-workflow
-description: Orchestrate a comprehensive git workflow from code review through PR
-  creation, leveraging specialized agents for quality assurance, testing, and deployment
-  readiness. This workflow implements modern g
-risk: safe
+description: "Orchestrate a comprehensive git workflow from code review through PR creation, leveraging specialized agents for quality assurance, testing, and deployment readiness. This workflow implements modern g"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

@@ -1,7 +1,13 @@
 ---
 name: skill-creator
-description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
-license: Complete terms in LICENSE.txt
+description: "This skill should be used when the user asks to create a new skill, build a skill, make a custom skill, develop a CLI skill, or wants to extend the CLI with new capabilities. Automates the entire s..."
+version: 1.3.0
+author: Eric Andrade
+created: 2025-02-01
+updated: 2026-02-04
+platforms: [github-copilot-cli, claude-code, codex]
+category: meta
+tags: [automation, scaffolding, skill-creation, meta-skill]
 risk: safe
 source: community
 ---

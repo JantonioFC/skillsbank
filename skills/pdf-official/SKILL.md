@@ -1,11 +1,8 @@
 ---
 name: pdf-official
-description: Comprehensive PDF manipulation toolkit for extracting text and tables,
-  creating new PDFs, merging/splitting documents, and handling forms. When Claude
-  needs to fill in a PDF form or programmatically process, generate, or analyze PDF
-  documents at scale.
+description: "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmaticall..."
 license: Proprietary. LICENSE.txt has complete terms
-risk: safe
+risk: unknown
 source: community
 ---
 
@@ -300,7 +297,5 @@ with open("encrypted.pdf", "wb") as output:
 - If you need to fill out a PDF form, follow the instructions in forms.md
 - For troubleshooting guides, see reference.md
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for pdf.
+This skill is applicable to execute the workflow or actions described in the overview.

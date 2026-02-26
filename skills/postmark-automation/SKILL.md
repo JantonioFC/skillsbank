@@ -4,11 +4,9 @@ description: 'Automate Postmark email delivery tasks via Rube MCP (Composio): se
   templated emails, manage templates, monitor delivery stats and bounces. Always search
   tools first for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -193,7 +191,5 @@ Automate Postmark transactional email operations through Composio's Postmark too
 | Get server config | POSTMARK_GET_SERVER | (none) |
 | Edit server config | POSTMARK_EDIT_SERVER | Name, TrackOpens, TrackLinks |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for postmark-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

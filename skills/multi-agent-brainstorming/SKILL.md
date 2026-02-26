@@ -1,14 +1,13 @@
 ---
 name: multi-agent-brainstorming
-description: 'Use this skill when a design or idea requires higher confidence, risk
-  reduction, or formal review. This skill orchestrates a structured, sequential multi-agent
-  design review where each agent has a strict, non-overlapping role. It prevents blind
-  spots, false confidence, and premature convergence.
-
-  '
-risk: safe
+description: 
+  Use this skill when a design or idea requires higher confidence,
+  risk reduction, or formal review. This skill orchestrates a
+  structured, sequential multi-agent design review where each agent
+  has a strict, non-overlapping role. It prevents blind spots,
+  false confidence, and premature convergence.
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -258,3 +257,6 @@ This skill exists to answer one question with confidence:
 
 If the answer is unclear, **do not exit this skill**.
 
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

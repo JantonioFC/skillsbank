@@ -8,9 +8,8 @@ description: 'Azure AI VoiceLive SDK for Java. Real-time bidirectional voice con
 
   '
 package: com.azure:azure-ai-voicelive
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -232,7 +231,5 @@ session.receiveEvents()
 | GitHub Source | https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/ai/azure-ai-voicelive |
 | Samples | https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/ai/azure-ai-voicelive/src/samples |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-voicelive-java.
+This skill is applicable to execute the workflow or actions described in the overview.

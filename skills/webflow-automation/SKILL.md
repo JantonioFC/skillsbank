@@ -4,11 +4,9 @@ description: Automate Webflow CMS collections, site publishing, page management,
   uploads, and ecommerce orders via Rube MCP (Composio). Always search tools first
   for current schemas.
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -242,7 +240,5 @@ Typical CMS content creation flow:
 | List orders | `WEBFLOW_LIST_ORDERS` | `site_id`, `status` |
 | Get order | `WEBFLOW_GET_ORDER` | `site_id`, `order_id` |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for webflow-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

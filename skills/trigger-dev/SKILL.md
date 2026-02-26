@@ -1,11 +1,8 @@
 ---
 name: trigger-dev
-description: 'Trigger.dev expert for background jobs, AI workflows, and reliable async
-  execution with excellent developer experience and TypeScript-first design. Use when:
-  trigger.dev, trigger dev, background task, ai background job, long running task.'
+description: "Trigger.dev expert for background jobs, AI workflows, and reliable async execution with excellent developer experience and TypeScript-first design. Use when: trigger.dev, trigger dev, background ta..."
 source: vibeship-spawner-skills (Apache 2.0)
-risk: offensive
-license: MIT
+risk: unknown
 ---
 
 
@@ -77,7 +74,5 @@ Tasks that run on a schedule
 
 Works well with: `nextjs-app-router`, `vercel-deployment`, `ai-agents-architect`, `llm-architect`, `email-systems`, `stripe-integration`
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for trigger-dev.
+This skill is applicable to execute the workflow or actions described in the overview.

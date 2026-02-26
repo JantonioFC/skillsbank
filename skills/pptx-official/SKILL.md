@@ -1,11 +1,8 @@
 ---
 name: pptx-official
-description: 'Presentation creation, editing, and analysis. When Claude needs to work
-  with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying
-  or editing content, (3) Working with layouts, (4) Adding comments or speaker notes,
-  or any other presentation tasks'
+description: "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layo..."
 license: Proprietary. LICENSE.txt has complete terms
-risk: safe
+risk: unknown
 source: community
 ---
 
@@ -491,5 +488,4 @@ Required dependencies (should already be installed):
 - **defusedxml**: `pip install defusedxml` (for secure XML parsing)
 
 ## When to Use
-
-Use this skill when you need guidance or automation for pptx.
+This skill is applicable to execute the workflow or actions described in the overview.

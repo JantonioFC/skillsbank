@@ -3,11 +3,9 @@ name: stripe-automation
 description: 'Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions,
   invoices, products, refunds. Always search tools first for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -203,7 +201,5 @@ Stripe uses smallest currency unit:
 | Checkout session | STRIPE_CREATE_CHECKOUT_SESSION | line_items |
 | List payment intents | STRIPE_LIST_PAYMENT_INTENTS | customer |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for stripe-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

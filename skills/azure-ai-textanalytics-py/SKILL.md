@@ -9,9 +9,8 @@ description: 'Azure AI Text Analytics SDK for sentiment analysis, entity recogni
 
   '
 package: azure-ai-textanalytics
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -235,7 +234,5 @@ async def analyze():
 5. **Specify language** when known to improve accuracy
 6. **Use context manager** or close client explicitly
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-textanalytics-py.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -8,9 +8,8 @@ description: 'Azure Web PubSub Service SDK for Python. Use for real-time messagi
 
   '
 package: azure-messaging-webpubsubservice
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -252,7 +251,5 @@ async def broadcast():
 6. **Use JSON** content type for structured data
 7. **Close connections** gracefully with reasons
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-messaging-webpubsubservice-py.
+This skill is applicable to execute the workflow or actions described in the overview.

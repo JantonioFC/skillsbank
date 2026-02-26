@@ -1,12 +1,9 @@
 ---
 name: azure-identity-ts
-description: Authenticate to Azure services using Azure Identity SDK for JavaScript
-  (@azure/identity). Use when configuring authentication with DefaultAzureCredential,
-  managed identity, service principals, or interactive browser login.
-package: '@azure/identity'
-risk: safe
-source: microsoft
-license: MIT
+description: "Authenticate to Azure services using Azure Identity SDK for JavaScript (@azure/identity). Use when configuring authentication with DefaultAzureCredential, managed identity, service principals, or i..."
+package: "@azure/identity"
+risk: unknown
+source: community
 ---
 
 
@@ -308,7 +305,5 @@ AzureLogger.log = (...args) => {
 5. **Handle token refresh** - Azure SDK handles this automatically
 6. **Use ChainedTokenCredential** - For custom fallback scenarios
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-identity-ts.
+This skill is applicable to execute the workflow or actions described in the overview.

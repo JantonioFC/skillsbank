@@ -8,9 +8,8 @@ description: 'Azure API Center SDK for .NET. Centralized API inventory managemen
 
   '
 package: Azure.ResourceManager.ApiCenter
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -419,7 +418,5 @@ catch (RequestFailedException ex)
 | Product Documentation | https://learn.microsoft.com/azure/api-center/ |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/apicenter/Azure.ResourceManager.ApiCenter |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-mgmt-apicenter-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

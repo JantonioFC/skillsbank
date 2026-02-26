@@ -8,9 +8,8 @@ description: 'Design, validate, and optimize schema.org structured data for elig
 
   '''
 allowed-tools: Read, Glob, Grep
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 ---
@@ -362,3 +361,6 @@ Where and how to add it
 - **seo-audit** – Full SEO review including schema
 - **programmatic-seo** – Templated schema at scale
 - **analytics-tracking** – Measure rich result impact
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

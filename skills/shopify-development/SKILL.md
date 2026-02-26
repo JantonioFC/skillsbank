@@ -9,11 +9,8 @@ description: 'Build Shopify apps, extensions, themes using GraphQL Admin API, Sh
   "shopify theme", "liquid template", "polaris", "shopify graphql", "shopify webhook",
 
   "shopify billing", "app subscription", "metafields", "shopify functions"
-
-  '
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -375,7 +372,5 @@ For detailed implementation guides, read these files:
 
 API Version: 2026-01 (quarterly releases, 12-month deprecation window)
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for shopify-development.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -6,9 +6,8 @@ description: Master software architect specializing in modern architecture patte
   Use PROACTIVELY for architectural decisions.
 metadata:
   model: opus
-risk: offensive
+risk: unknown
 source: community
-license: MIT
 ---
 
 

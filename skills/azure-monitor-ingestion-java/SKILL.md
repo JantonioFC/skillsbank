@@ -8,9 +8,8 @@ description: 'Azure Monitor Ingestion SDK for Java. Send custom logs to Azure Mo
 
   '
 package: com.azure:azure-monitor-ingestion
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -219,7 +218,7 @@ try {
 
 ## Querying Uploaded Logs
 
-Use [azure-monitor-query](../query/SKILL.md) to query ingested logs:
+Use azure-monitor-query to query ingested logs:
 
 ```java
 // See azure-monitor-query skill for LogsQueryClient usage
@@ -237,7 +236,5 @@ String query = "MyTable_CL | where TimeGenerated > ago(1h) | limit 10";
 | DCR Overview | https://learn.microsoft.com/azure/azure-monitor/essentials/data-collection-rule-overview |
 | Troubleshooting | https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/monitor/azure-monitor-ingestion/TROUBLESHOOTING.md |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-monitor-ingestion-java.
+This skill is applicable to execute the workflow or actions described in the overview.

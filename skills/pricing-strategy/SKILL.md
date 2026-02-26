@@ -1,10 +1,8 @@
 ---
 name: pricing-strategy
-description: Design pricing, packaging, and monetization strategies based on value,
-  customer willingness to pay, and growth objectives.
-risk: safe
+description: "Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -360,7 +358,5 @@ ab-test-setup – Safe experimentation
 
 marketing-psychology – Behavioral pricing effects
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for pricing-strategy.
+This skill is applicable to execute the workflow or actions described in the overview.

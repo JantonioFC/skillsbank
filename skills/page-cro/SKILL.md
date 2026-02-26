@@ -1,15 +1,14 @@
 ---
 name: page-cro
-description: 'Analyze and optimize individual pages for conversion performance. Use
-  when the user wants to improve conversion rates, diagnose why a page is underperforming,
-  or increase the effectiveness of marketing pages (homepage, landing pages, pricing,
-  feature pages, or blog posts). This skill focuses on diagnosis, prioritization,
-  and testable recommendations— not blind optimization.
-
-  '''
-risk: safe
+description: >
+  Analyze and optimize individual pages for conversion performance.
+  Use when the user wants to improve conversion rates, diagnose why a page
+  is underperforming, or increase the effectiveness of marketing pages
+  (homepage, landing pages, pricing, feature pages, or blog posts).
+  This skill focuses on diagnosis, prioritization, and testable recommendations—
+  not blind optimization.
+risk: unknown
 source: community
-license: MIT
 ---
 
 # Page Conversion Rate Optimization (CRO)
@@ -345,3 +344,6 @@ Fix fundamentals first.
 * **ab-test-setup** – For test execution and instrumentation
 
 ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

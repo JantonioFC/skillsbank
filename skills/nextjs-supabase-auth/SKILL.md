@@ -4,8 +4,7 @@ description: 'Expert integration of Supabase Auth with Next.js App Router Use wh
   supabase auth next, authentication next.js, login supabase, auth middleware, protected
   route.'
 source: vibeship-spawner-skills (Apache 2.0)
-risk: safe
-license: MIT
+risk: unknown
 ---
 
 
@@ -60,7 +59,5 @@ Handle OAuth callback and exchange code for session
 
 Works well with: `nextjs-app-router`, `supabase-backend`
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for nextjs-supabase-auth.
+This skill is applicable to execute the workflow or actions described in the overview.

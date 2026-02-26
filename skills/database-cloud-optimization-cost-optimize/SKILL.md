@@ -1,12 +1,8 @@
 ---
 name: database-cloud-optimization-cost-optimize
-description: You are a cloud cost optimization expert specializing in reducing infrastructure
-  expenses while maintaining performance and reliability. Analyze cloud spending,
-  identify savings opportunities, and implement cost-effective architectures across
-  AWS, Azure, and GCP.
-risk: safe
+description: "You are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spending, identify savings opportunities, and ..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 

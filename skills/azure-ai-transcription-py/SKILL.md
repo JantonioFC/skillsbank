@@ -7,9 +7,8 @@ description: 'Azure AI Transcription SDK for Python. Use for real-time and batch
 
   '
 package: azure-ai-transcription
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -75,7 +74,5 @@ for event in stream:
 5. **Handle streaming backpressure** for real-time transcription
 6. **Close transcription sessions** when complete
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-transcription-py.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -6,9 +6,8 @@ description: "Azure Resource Manager SDK for Arize AI Observability and Evaluati
   \ \ninto .NET applications. Triggers: \"Arize AI\", \"ML observability\", \"ArizeAIObservabilityEval\"\
   , \"Arize organization\".\n"
 package: Azure.ResourceManager.ArizeAIObservabilityEval
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -234,7 +233,5 @@ var data = await org.GetAsync();
 - [Azure SDK for .NET](https://github.com/Azure/azure-sdk-for-net)
 - [Arize AI](https://arize.com/)
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-mgmt-arizeaiobservabilityeval-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

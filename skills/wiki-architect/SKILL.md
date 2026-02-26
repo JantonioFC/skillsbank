@@ -1,11 +1,8 @@
 ---
 name: wiki-architect
-description: Analyzes code repositories and generates hierarchical documentation structures
-  with onboarding guides. Use when the user wants to create a wiki, generate documentation,
-  map a codebase structure, or understand a project's architecture at a high level.
-risk: safe
+description: "Analyzes code repositories and generates hierarchical documentation structures with onboarding guides. Use when the user wants to create a wiki, generate documentation, map a codebase structure, or..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -85,7 +82,5 @@ Detect primary language from file extensions and build files, then select a comp
 
 JSON code block following the catalogue schema with `items[].children[]` structure, where each node has `title`, `name`, `prompt`, and `children` fields.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for wiki-architect.
+This skill is applicable to execute the workflow or actions described in the overview.

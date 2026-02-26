@@ -9,9 +9,8 @@ description: 'Azure AI Vision Image Analysis SDK for captions, tags, objects, OC
 
   '
 package: azure-ai-vision-imageanalysis
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -268,7 +267,5 @@ except HttpResponseError as e:
 6. **Use smart_crops_aspect_ratios** matching your thumbnail requirements
 7. **Cache results** when analyzing the same image multiple times
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-vision-imageanalysis-py.
+This skill is applicable to execute the workflow or actions described in the overview.

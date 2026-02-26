@@ -4,11 +4,9 @@ description: 'Automate TikTok tasks via Rube MCP (Composio): upload/publish vide
   post photos, manage content, and view user profiles/stats. Always search tools first
   for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -184,7 +182,5 @@ Automate TikTok content creation and profile operations through Composio's TikTo
 | Get basic info | TIKTOK_GET_USER_BASIC_INFO | (none) |
 | Check publish status | TIKTOK_FETCH_PUBLISH_STATUS | publish_id |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for tiktok-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,12 +1,9 @@
 ---
 name: azure-eventgrid-java
-description: Build event-driven applications with Azure Event Grid SDK for Java. Use
-  when publishing events, implementing pub/sub patterns, or integrating with Azure
-  services via events.
+description: "Build event-driven applications with Azure Event Grid SDK for Java. Use when publishing events, implementing pub/sub patterns, or integrating with Azure services via events."
 package: com.azure:azure-messaging-eventgrid
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Azure Event Grid SDK for Java
@@ -315,5 +312,4 @@ EVENT_GRID_ACCESS_KEY=<your-access-key>
 - "webhook events"
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-eventgrid-java.
+This skill is applicable to execute the workflow or actions described in the overview.

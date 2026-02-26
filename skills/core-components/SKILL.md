@@ -1,10 +1,8 @@
 ---
 name: core-components
-description: Core component library and design system patterns. Use when building
-  UI, using design tokens, or working with the component library.
-risk: safe
+description: "Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -268,7 +266,5 @@ const Card = ({ padding = '$4', variant = 'elevated', children }: CardProps) => 
 - **testing-patterns**: Mock core components in tests
 - **storybook**: Document component variants
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for core-components.
+This skill is applicable to execute the workflow or actions described in the overview.

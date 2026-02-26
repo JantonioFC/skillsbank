@@ -4,8 +4,7 @@ description: 'Persistent memory systems for LLM conversations including short-te
   long-term, and entity-based memory Use when: conversation memory, remember, memory
   persistence, long-term memory, chat history.'
 source: vibeship-spawner-skills (Apache 2.0)
-risk: safe
-license: MIT
+risk: unknown
 ---
 
 
@@ -65,7 +64,5 @@ Include relevant memories in prompts
 
 Works well with: `context-window-management`, `rag-implementation`, `prompt-caching`, `llm-npc-dialogue`
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for conversation-memory.
+This skill is applicable to execute the workflow or actions described in the overview.

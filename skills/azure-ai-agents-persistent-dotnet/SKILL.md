@@ -8,9 +8,8 @@ description: 'Azure AI Agents Persistent SDK for .NET. Low-level SDK for creatin
 
   '
 package: Azure.AI.Agents.Persistent
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -357,7 +356,5 @@ catch (RequestFailedException ex)
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/ai/Azure.AI.Agents.Persistent |
 | Samples | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/ai/Azure.AI.Agents.Persistent/samples |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-agents-persistent-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

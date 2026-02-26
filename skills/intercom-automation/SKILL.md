@@ -3,11 +3,9 @@ name: intercom-automation
 description: 'Automate Intercom tasks via Rube MCP (Composio): conversations, contacts,
   companies, segments, admins. Always search tools first for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -253,7 +251,5 @@ Automate Intercom operations through Composio's Intercom toolkit via Rube MCP.
 | Get counts | INTERCOM_GET_COUNTS | type, count |
 | List companies | INTERCOM_LIST_ALL_COMPANIES | page, per_page |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for intercom-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -8,9 +8,8 @@ description: 'Azure Resource Manager SDK for Durable Task Scheduler in .NET. Use
 
   '
 package: Azure.ResourceManager.DurableTask
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Azure.ResourceManager.DurableTask (.NET)
@@ -390,5 +389,4 @@ await scheduler.DeleteAsync(WaitUntil.Completed);
 - [NuGet: Azure.ResourceManager.DurableTask](https://www.nuget.org/packages/Azure.ResourceManager.DurableTask)
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-resource-manager-durabletask-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

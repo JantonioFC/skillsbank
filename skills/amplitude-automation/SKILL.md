@@ -3,11 +3,9 @@ name: amplitude-automation
 description: 'Automate Amplitude tasks via Rube MCP (Composio): events, user activity,
   cohorts, user identification. Always search tools first for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -221,7 +219,5 @@ For cohort membership updates:
 | Check cohort status | AMPLITUDE_CHECK_COHORT_STATUS | request_id |
 | List event categories | AMPLITUDE_GET_EVENT_CATEGORIES | (none) |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for amplitude-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,10 +1,9 @@
 ---
 name: vr-ar
-description: VR/AR development principles. Comfort, interaction, performance requirements.
+description: "VR/AR development principles. Comfort, interaction, performance requirements."
 allowed-tools: Read, Write, Edit, Glob, Grep
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -126,7 +125,5 @@ license: MIT
 
 > **Remember:** Comfort is not optional. Sick players don't play.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for vr-ar.
+This skill is applicable to execute the workflow or actions described in the overview.

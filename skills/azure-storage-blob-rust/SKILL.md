@@ -8,9 +8,8 @@ description: 'Azure Blob Storage SDK for Rust. Use for uploading, downloading, a
 
   '
 package: azure_storage_blob
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -139,7 +138,5 @@ For Entra ID auth, assign one of these roles:
 | Source Code | https://github.com/Azure/azure-sdk-for-rust/tree/main/sdk/storage/azure_storage_blob |
 | crates.io | https://crates.io/crates/azure_storage_blob |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-storage-blob-rust.
+This skill is applicable to execute the workflow or actions described in the overview.

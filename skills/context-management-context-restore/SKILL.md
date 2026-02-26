@@ -1,9 +1,8 @@
 ---
 name: context-management-context-restore
-description: Use when working with context management context restore
-risk: safe
+description: "Use when working with context management context restore"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

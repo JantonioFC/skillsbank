@@ -1,15 +1,11 @@
 ---
 name: api-fuzzing-bug-bounty
-description: This skill should be used when the user asks to "test API security",
-  "fuzz APIs", "find IDOR vulnerabilities", "test REST API", "test GraphQL", "API
-  penetration testing", "bug bounty API testing", or needs guidance on API security
-  assessment techniques.
+description: "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug b..."
 metadata:
   author: zebbern
-  version: '1.1'
-risk: offensive
+  version: "1.1"
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -445,3 +441,6 @@ curl -X POST https://target.com/graphql \
 | GraphQL introspection disabled | Use clairvoyance for schema reconstruction |
 | Rate limited | Use IP rotation or batch requests |
 | Can't find endpoints | Check Swagger, archive.org, JS files |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

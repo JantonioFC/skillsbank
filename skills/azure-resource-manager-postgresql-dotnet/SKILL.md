@@ -8,9 +8,8 @@ description: 'Azure PostgreSQL Flexible Server SDK for .NET. Database management
 
   '
 package: Azure.ResourceManager.PostgreSql
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -440,7 +439,5 @@ string connectionString = $"Host={server.Data.FullyQualifiedDomainName};" +
 | Product Documentation | https://learn.microsoft.com/azure/postgresql/flexible-server/ |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/postgresql/Azure.ResourceManager.PostgreSql |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-resource-manager-postgresql-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

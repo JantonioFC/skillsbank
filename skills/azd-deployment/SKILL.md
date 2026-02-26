@@ -1,15 +1,8 @@
 ---
 name: azd-deployment
-description: Deploy containerized applications to Azure Container Apps using Azure
-  Developer CLI (azd). Use when setting up azd projects, writing azure.yaml configuration,
-  creating Bicep infrastructure for Container Apps, configuring remote builds with
-  ACR, implementing idempotent deployments, managing environment variables across
-  local/.azure/Bicep, or troubleshooting azd up failures. Triggers on requests for
-  azd configuration, Container Apps deployment, multi-service deployments, and infrastructure-as-code
-  with Bicep.
-risk: offensive
+description: "Deploy containerized applications to Azure Container Apps using Azure Developer CLI (azd). Use when setting up azd projects, writing azure.yaml configuration, creating Bicep infrastructure for Cont..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 # Azure Developer CLI (azd) Container Apps Deployment
@@ -297,9 +290,9 @@ az containerapp logs show -n <app> -g <rg> --follow  # Stream logs
 
 ## Reference Files
 
-- **Bicep patterns**: See [references/bicep-patterns.md](references/bicep-patterns.md) for Container Apps modules
-- **Troubleshooting**: See [references/troubleshooting.md](references/troubleshooting.md) for common issues
-- **azure.yaml schema**: See [references/azure-yaml-schema.md](references/azure-yaml-schema.md) for full options
+- **Bicep patterns**: See references/bicep-patterns.md for Container Apps modules
+- **Troubleshooting**: See references/troubleshooting.md for common issues
+- **azure.yaml schema**: See references/azure-yaml-schema.md for full options
 
 ## Critical Reminders
 
@@ -310,5 +303,4 @@ az containerapp logs show -n <app> -g <rg> --follow  # Stream logs
 5. **`|| true` in hooks** - Prevent RBAC "already exists" errors from failing deploy
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azd-deployment.
+This skill is applicable to execute the workflow or actions described in the overview.

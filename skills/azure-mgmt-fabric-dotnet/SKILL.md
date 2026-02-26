@@ -8,9 +8,8 @@ description: 'Azure Resource Manager SDK for Fabric in .NET. Use for MANAGEMENT 
 
   '
 package: Azure.ResourceManager.Fabric
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Azure.ResourceManager.Fabric (.NET)
@@ -351,5 +350,4 @@ catch (RequestFailedException ex)
 - [Fabric Capacity Management](https://learn.microsoft.com/fabric/admin/service-admin-portal-capacity-settings)
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-mgmt-fabric-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

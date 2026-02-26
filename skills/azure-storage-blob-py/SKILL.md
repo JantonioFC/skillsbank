@@ -8,9 +8,8 @@ description: 'Azure Blob Storage SDK for Python. Use for uploading, downloading,
 
   '
 package: azure-storage-blob
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -226,7 +225,5 @@ async def download_async():
 6. **Use `walk_blobs()`** for hierarchical listing
 7. **Set appropriate content types** for web-served blobs
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-storage-blob-py.
+This skill is applicable to execute the workflow or actions described in the overview.

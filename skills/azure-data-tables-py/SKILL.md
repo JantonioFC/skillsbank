@@ -8,9 +8,8 @@ description: 'Azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL
 
   '
 package: azure-data-tables
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Azure Tables SDK for Python
@@ -255,5 +254,4 @@ asyncio.run(table_operations())
 7. **Use async client** for high-throughput scenarios
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-data-tables-py.
+This skill is applicable to execute the workflow or actions described in the overview.

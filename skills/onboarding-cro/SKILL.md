@@ -1,13 +1,8 @@
 ---
 name: onboarding-cro
-description: When the user wants to optimize post-signup onboarding, user activation,
-  first-run experience, or time-to-value. Also use when the user mentions "onboarding
-  flow," "activation rate," "user activation," "first-run experience," "empty states,"
-  "onboarding checklist," "aha moment," or "new user experience." For signup/registration
-  optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.
-risk: safe
+description: "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"u..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -440,7 +435,5 @@ If you need more context:
 - **paywall-upgrade-cro**: For converting to paid during/after onboarding
 - **ab-test-setup**: For testing onboarding changes
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for onboarding-cro.
+This skill is applicable to execute the workflow or actions described in the overview.

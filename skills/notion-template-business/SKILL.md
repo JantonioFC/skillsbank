@@ -1,12 +1,8 @@
 ---
 name: notion-template-business
-description: 'Expert in building and selling Notion templates as a business - not
-  just making templates, but building a sustainable digital product business. Covers
-  template design, pricing, marketplaces, marketing, and scaling to real revenue.
-  Use when: notion template, sell templates, digital product, notion business, gumroad.'
+description: "Expert in building and selling Notion templates as a business - not just making templates, but building a sustainable digital product business. Covers template design, pricing, marketplaces, market..."
 source: vibeship-spawner-skills (Apache 2.0)
-risk: safe
-license: MIT
+risk: unknown
 ---
 
 
@@ -221,7 +217,5 @@ Email/chat for premium.
 
 Works well with: `micro-saas-launcher`, `copywriting`, `landing-page-design`, `seo`
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for notion-template-business.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -10,9 +10,8 @@ description: 'Azure Resource Manager SDK for Microsoft Playwright Testing in .NE
 
   '
 package: Azure.ResourceManager.Playwright
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Azure.ResourceManager.Playwright (.NET)
@@ -312,5 +311,4 @@ Environment.SetEnvironmentVariable("PLAYWRIGHT_SERVICE_URL", serviceUrl.ToString
 - [Quickstart: Run Playwright Tests at Scale](https://learn.microsoft.com/en-us/azure/playwright-testing/quickstart-run-end-to-end-tests)
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-resource-manager-playwright-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

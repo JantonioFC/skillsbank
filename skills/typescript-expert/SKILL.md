@@ -11,9 +11,8 @@ bundle:
 - typescript-build-expert
 displayName: TypeScript
 color: blue
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -432,7 +431,5 @@ Slow language server? → Exclude node_modules, limit files in tsconfig
 
 Always validate changes don't break existing functionality before considering the issue resolved.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for typescript-expert.
+This skill is applicable to execute the workflow or actions described in the overview.

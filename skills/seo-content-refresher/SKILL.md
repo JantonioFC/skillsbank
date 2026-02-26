@@ -1,13 +1,13 @@
 ---
 name: seo-content-refresher
-description: Identifies outdated elements in provided content and suggests updates
-  to maintain freshness. Finds statistics, dates, and examples that need updating.
-  Use PROACTIVELY for older content.
+description: |
+  Identifies outdated elements in provided content and suggests
+  updates to maintain freshness. Finds statistics, dates, and examples that need
+  updating. Use PROACTIVELY for older content.
 metadata:
   model: haiku
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 

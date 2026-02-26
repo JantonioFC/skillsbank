@@ -8,9 +8,8 @@ description: 'Azure Machine Learning SDK v2 for Python. Use for ML workspaces, j
 
   '
 package: azure-ai-ml
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -278,7 +277,5 @@ print(f"Default: {default_ds.name}")
 6. **Use pipelines** for multi-step workflows
 7. **Tag resources** for organization and cost tracking
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-ml-py.
+This skill is applicable to execute the workflow or actions described in the overview.

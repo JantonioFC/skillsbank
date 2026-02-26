@@ -1,13 +1,8 @@
 ---
 name: viral-generator-builder
-description: 'Expert in building shareable generator tools that go viral - name generators,
-  quiz makers, avatar creators, personality tests, and calculator tools. Covers the
-  psychology of sharing, viral mechanics, and building tools people can''t resist
-  sharing with friends. Use when: generator tool, quiz maker, name generator, avatar
-  creator, viral tool.'
+description: "Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers the psychology of sharing, viral mechanic..."
 source: vibeship-spawner-skills (Apache 2.0)
-risk: safe
-license: MIT
+risk: unknown
 ---
 
 
@@ -205,7 +200,5 @@ Your branding subtle but present.
 
 Works well with: `viral-hooks`, `landing-page-design`, `seo`, `frontend`
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for viral-generator-builder.
+This skill is applicable to execute the workflow or actions described in the overview.

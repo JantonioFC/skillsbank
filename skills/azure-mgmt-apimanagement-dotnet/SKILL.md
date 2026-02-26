@@ -8,9 +8,8 @@ description: 'Azure Resource Manager SDK for API Management in .NET. Use for MAN
 
   '
 package: Azure.ResourceManager.ApiManagement
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -305,10 +304,10 @@ catch (RequestFailedException ex)
 
 | File | When to Read |
 |------|--------------|
-| [references/service-management.md](references/service-management.md) | Service CRUD, SKUs, networking, backup/restore |
-| [references/apis-operations.md](references/apis-operations.md) | APIs, operations, schemas, versioning |
-| [references/products-subscriptions.md](references/products-subscriptions.md) | Products, subscriptions, access control |
-| [references/policies.md](references/policies.md) | Policy XML patterns, scopes, common policies |
+| references/service-management.md | Service CRUD, SKUs, networking, backup/restore |
+| references/apis-operations.md | APIs, operations, schemas, versioning |
+| references/products-subscriptions.md | Products, subscriptions, access control |
+| references/policies.md | Policy XML patterns, scopes, common policies |
 
 ## Related Resources
 
@@ -318,7 +317,5 @@ catch (RequestFailedException ex)
 | [Policy Reference](https://learn.microsoft.com/en-us/azure/api-management/api-management-policies) | Complete policy reference |
 | [SDK Reference](https://learn.microsoft.com/en-us/dotnet/api/azure.resourcemanager.apimanagement) | .NET API reference |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-mgmt-apimanagement-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

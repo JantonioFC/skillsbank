@@ -1,10 +1,8 @@
 ---
 name: prompt-engineering
-description: "Master prompt engineering for AI models: LLMs, image generators, video models. Techniques: chain-of-thought, few-shot, system prompts, negative prompts. Models: Claude, GPT-4, Gemini, FLUX, Veo, Stable Diffusion prompting. Use for: better AI outputs, consistent results, complex tasks, optimization. Triggers: prompt engineering, how to prompt, better prompts, prompt tips, prompting guide, llm prompting, image prompt, ai prompting, prompt optimization, prompt template, prompt structure, effective prompts, prompt techniques"
-allowed-tools: Bash(infsh *)
-risk: safe
+description: "Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior."
+risk: unknown
 source: community
-license: MIT
 ---
 
 # Prompt Engineering Guide
@@ -337,8 +335,11 @@ npx skills add inference-sh/skills@llm-models
 # Image generation
 npx skills add inference-sh/skills@ai-image-generation
 
-# Full platform skill
-npx skills add inference-sh/skills@inference-sh
-```
+- **Over-engineering**: Starting with complex prompts before trying simple ones
+- **Example pollution**: Using examples that don't match the target task
+- **Context overflow**: Exceeding token limits with excessive examples
+- **Ambiguous instructions**: Leaving room for multiple interpretations
+- **Ignoring edge cases**: Not testing on unusual or boundary inputs
 
-Browse all apps: `infsh app list`
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -10,9 +10,8 @@ description: 'Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetr
 
   '
 package: com.azure:azure-monitor-opentelemetry-exporter
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -292,7 +291,5 @@ The `azure-monitor-opentelemetry-autoconfigure` package provides:
 | OpenTelemetry Java | https://opentelemetry.io/docs/languages/java/ |
 | Application Insights | https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-monitor-opentelemetry-exporter-java.
+This skill is applicable to execute the workflow or actions described in the overview.

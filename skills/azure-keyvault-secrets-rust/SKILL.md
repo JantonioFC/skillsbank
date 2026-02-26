@@ -8,9 +8,8 @@ description: 'Azure Key Vault Secrets SDK for Rust. Use for storing and retrievi
 
   '
 package: azure_security_keyvault_secrets
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -149,7 +148,5 @@ Assign these Key Vault roles:
 | Source Code | https://github.com/Azure/azure-sdk-for-rust/tree/main/sdk/keyvault/azure_security_keyvault_secrets |
 | crates.io | https://crates.io/crates/azure_security_keyvault_secrets |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-keyvault-secrets-rust.
+This skill is applicable to execute the workflow or actions described in the overview.

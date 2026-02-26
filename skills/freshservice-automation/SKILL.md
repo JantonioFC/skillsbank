@@ -4,11 +4,9 @@ description: 'Automate Freshservice ITSM tasks via Rube MCP (Composio): create/u
   tickets, bulk operations, service requests, and outbound emails. Always search tools
   first for current schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -219,7 +217,5 @@ Automate Freshservice IT Service Management operations through Composio's Freshs
 | Outbound email ticket | FRESHSERVICE_CREATE_TICKET_OUTBOUND_EMAIL | email, subject, description |
 | Service request | FRESHSERVICE_CREATE_SERVICE_REQUEST | item_display_id, email, quantity |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for freshservice-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

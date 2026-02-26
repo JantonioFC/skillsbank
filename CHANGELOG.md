@@ -7,6 +7,388 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [6.3.1] - 2026-02-25 - "Validation & Multi-Protocol Hotfix"
+
+> **"Hotfix release to restore missing skills, correct industrial risk labels, and harden validation across the registry."**
+
+This release fixes critical validation errors introduced in previous PRs, ensures full compliance with the strict CI registry checks, and restores two high-demand developer skills.
+
+## 🚀 New Skills
+
+### 🧩 [chrome-extension-developer](skills/chrome-extension-developer/)
+
+**Expert in building Chrome Extensions using Manifest V3.**
+Senior expertise in modern extension architecture, focusing on Manifest V3, service workers, and production-ready security practices.
+
+- **Key Feature 1**: Comprehensive coverage of Manifest V3 service workers and lifecycle.
+- **Key Feature 2**: Production-ready patterns for cross-context message passing.
+
+> **Try it:** `Help me design a Manifest V3 extension that monitors network requests using declarativeNetRequest.`
+
+### ☁️ [cloudflare-workers-expert](skills/cloudflare-workers-expert/)
+
+**Senior expertise for serverless edge computing on Cloudflare.**
+Specialized in edge architectures, performance optimization, and the full Cloudflare developer ecosystem (Wrangler, KV, D1, R2).
+
+- **Key Feature 1**: Optimized patterns for 0ms cold starts and edge-side storage.
+- **Key Feature 2**: Implementation guides for Durable Objects and R2 storage integration.
+
+> **Try it:** `Build a Cloudflare Worker that modifies response headers and caches fragmented data in KV.`
+
+---
+
+## 📦 Improvements
+
+- **Registry Update**: Now tracking 946+ high-performance skills.
+- **Validation Hardening**: Resolved missing "When to Use" sections for 11 critical skills (Andru.ia, Logistics, Energy).
+- **Risk Label Corrections**: Corrected risk levels to `safe` for `linkedin-cli`, `00-andruia-consultant`, and `20-andruia-niche-intelligence`.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@itsmeares** for PR #139 validation fixes and "When to Use" improvements.
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+## [6.3.0] - 2026-02-25 - "Agent Discovery & Operational Excellence"
+
+> **Feature release: AgentFolio discovery skill, LinkedIn CLI automation, Evos operational skills, Andru.ia consulting roles, and hardened validation for new contributors.**
+
+## 🚀 New Skills
+
+### 🔍 [agentfolio](skills/agentfolio/)
+
+**Discover and research autonomous AI agents.**
+Skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.
+
+- **Key Feature 1**: Discover agents for specific use cases.
+- **Key Feature 2**: Collect concrete examples and benchmarks for agent capabilities.
+
+> **Try it:** `Use AgentFolio to find 3 autonomous AI agents focused on code review.`
+
+### 💼 [linkedin-cli](skills/linkedin-cli/)
+
+**Automate LinkedIn operations via CLI.**
+CLI-based LinkedIn automation skill using `@linkedapi/linkedin-cli` for profile enrichment, outreach, Sales Navigator, and workflow execution.
+
+- **Key Feature 1**: Fetch profiles and search people/companies.
+- **Key Feature 2**: Manage connections and send messages via Sales Navigator.
+
+> **Try it:** `Use linkedin-cli to search for PMs in San Francisco.`
+
+### 🚀 [appdeploy](skills/appdeploy/)
+
+**Deploy full-stack web apps.**
+Deploy web apps with backend APIs, database, and file storage via an HTTP API to get an instant public URL.
+
+- **Key Feature 1**: Chat-native deployment orchestrator.
+- **Key Feature 2**: Support for frontend-only and frontend+backend architectures.
+
+> **Try it:** `Deploy this React-Vite dashboard using appdeploy.`
+
+### 🐹 [grpc-golang](skills/grpc-golang/)
+
+**Production-grade gRPC patterns in Go.**
+Build robust microservices communication using Protobuf with mTLS, streaming, and observability configurations.
+
+- **Key Feature 1**: Standardize API contracts with Protobuf and Buf.
+- **Key Feature 2**: Implement service-to-service authentication and structured metrics.
+
+> **Try it:** `Use grpc-golang to define a user service streaming endpoint with mTLS.`
+
+### 📦 [logistics-exception-management](skills/logistics-exception-management/)
+
+**Expertise for handling freight and carrier disputes.**
+Deeply codified operational playbook for handling shipping exceptions, delays, damages, and claims. Part of the Evos operational domain expertise suite. Additional skills: `carrier-relationship-management`, `customs-trade-compliance`, `inventory-demand-planning`, `production-scheduling`, `returns-reverse-logistics`, `energy-procurement`, `quality-nonconformance`.
+
+- **Key Feature 1**: Provides escalation protocols and severity classification for exceptions.
+- **Key Feature 2**: Delivers templates and decision frameworks for claim management across various delivery modes.
+
+> **Try it:** `We have a delayed LTL shipment for a key customer, how should we handle it per logistics-exception-management?`
+
+### 🏗️ [00-andruia-consultant](skills/00-andruia-consultant/)
+
+**Spanish-language solutions architect.**
+Diagnóstica y traza la hoja de ruta óptima para proyectos de IA en español. Additional skills: `20-andruia-niche-intelligence`.
+
+- **Key Feature 1**: Proporciona entrevistas de diagnóstico para proyectos desde cero o existentes.
+- **Key Feature 2**: Propone el escuadrón de expertos necesario y genera artefactos de backlog en español.
+
+> **Try it:** `Actúa como 00-andruia-consultant y diagnostica este nuevo workspace.`
+
+## 📦 Improvements
+
+- **Validation & Quality Bar**:
+  - Normalised `risk:` labels for new skills to conform to the allowed set (`none`, `safe`, `critical`, `offensive`, `unknown`).
+  - Added explicit `## When to Use` sections to new operational and contributor skills to keep the registry strictly compatible with `python3 scripts/validate_skills.py --strict`.
+- **Interactive Web App**:
+  - Auto-updating local web app launcher and **Interactive Prompt Builder** enhancements (PR #137) now ship as part of the v6.3.0 baseline.
+- **Registry**:
+  - Validation Chain (`npm run chain` + `npm run validate:strict`) runs clean at 6.3.0 with all new skills indexed in `skills_index.json`, `data/catalog.json`, and `CATALOG.md`.
+
+## 👥 Credits
+
+- **@bobrenze-bot** for proposing the AgentFolio integration (Issue #136).
+- **@vprudnikoff** for the `linkedin-cli` skill (PR #131).
+- **@Onsraa** for the Bevy ECS documentation update around Require Components (PR #132).
+- **@Abdulrahmansoliman** for the AdaL CLI README instructions (PR #133).
+- **@avimak** for the `appdeploy` deployment skill (PR #134).
+- **@HuynhNhatKhanh** for the gRPC Go production patterns skill (PR #135).
+- **@zinzied** for the auto-updating web app launcher & Interactive Prompt Builder (PR #137).
+- **@nocodemf** for the Evos operational domain skills (PR #138).
+
+---
+
+## [6.2.0] - 2026-02-24 - "Interactive Web App & AWS IaC"
+
+> **Feature release: Interactive Skills Web App, AWS Infrastructure as Code skills, and Chrome Extension / Cloudflare Workers developer skills.**
+
+## 🚀 New Skills
+
+- **AWS Infrastructure as Code** (PR #124): `cdk-patterns`, `cloudformation-best-practices`, `terraform-aws-modules`.
+- **Browser & Edge** (PR #128): `chrome-extension-developer`, `cloudflare-workers-expert`.
+
+## 📦 Improvements
+
+- **Interactive Skills Web App** (PR #126): Added a local web UI for browsing skills, including `START_APP.bat`, setup script, and `web-app/` project with catalog export.
+- **Shopify Development Skill** (PR #125): Fixed markdown syntax issues in `skills/shopify-development/SKILL.md` to keep the registry strictly valid.
+- **Community Sources** (PR #127): Added SSOJet skills and integration guides to Credits & Sources.
+- **Registry**: Now tracking 930 skills.
+
+## 👥 Credits
+
+- **@ssumanbiswas** for AWS Infrastructure as Code skills (PR #124).
+- **@thuanlm** for the Shopify development skill fix (PR #125).
+- **@zinzied** for the Interactive Skills Web App (PR #126).
+- **@code-vj** for the SSOJet documentation link (PR #127).
+- **@GeekLuffy** for Chrome Extension and Cloudflare Workers skills (PR #128).
+
+---
+
+## [6.1.1] - 2026-02-23 - "AWS Cost Optimization & Registry 927"
+
+> **Patch release: AWS cost optimization skills (PR #107) and registry count 927.**
+
+- **New skills** (PR #107): `aws-cost-optimizer`, `aws-cost-cleanup`.
+- **Registry**: Now tracking 927 skills.
+
+---
+
+## [6.1.0] - 2026-02-23 - "Issues Fix & Community Expansion"
+
+> **Bugfixes for #116 and #120, plus Game Dev bundle, Android skills, Workflow Bundles, LibreOffice, Data Structure Protocol, and Kiro IDE support.**
+
+This release fixes the YAML syntax error in database-migrations-sql-migrations (issue #116), adds a typo alias so `shopify—development` (em dash) resolves to `shopify-development` (issue #120), and ships a large set of community PRs: Game Development Expansion (Bevy ECS, GLSL, Godot 4), Android Modern Development (Compose + Coroutines), Workflow Bundles and LibreOffice skills, Data Structure Protocol, and Kiro CLI/IDE support.
+
+## New Skills
+
+- **Game Development Expansion** (PR #121): `bevy-ecs-expert`, `shader-programming-glsl`, `godot-4-migration`.
+- **Android Modern Development** (PR #118): `android-jetpack-compose-expert`, `kotlin-coroutines-expert`.
+- **Workflow Bundles & LibreOffice** (PR #113): Workflow bundles readme, LibreOffice skills (Base, Calc, Draw, Impress, Writer), plus office-productivity, WordPress suite, and many domain skills (ai-agent-development, cloud-devops, database, e2e-testing, security-audit, terraform-infrastructure, etc.).
+- **Data Structure Protocol** (PR #114): `data-structure-protocol`.
+- **Kiro CLI and Kiro IDE** (PR #122): Documentation and support for Kiro.
+
+## Improvements
+
+- **YAML fix** (PR #119, fixes #116): Resolved invalid YAML in `database-migrations-sql-migrations/SKILL.md` (description block mapping); removed non-standard frontmatter and standardized section headers.
+- **Skill matching** (fixes #120): Added typo alias `shopify—development` → `shopify-development` so em-dash input resolves correctly.
+- **Registry**: Now tracking 925 skills.
+
+## Credits
+
+- **@nikolasdehor** for YAML fix (PR #119), Game Development Expansion (PR #121), Android Modern Development (PR #118)
+- **@ssumanbiswas** for Kiro CLI and Kiro IDE support (PR #122)
+- **@munir-abbasi** for Workflow Bundles and LibreOffice Skills (PR #113)
+- **@k-kolomeitsev** for Data Structure Protocol (PR #114)
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+---
+
+## [6.0.0] - 2026-02-22 - "Codex YAML Fix & Community PRs"
+
+> **Major release: Codex frontmatter fixes, AWS Security & Compliance skills, Antigravity Workspace Manager CLI, and validation fixes.**
+
+This release addresses Codex invalid YAML warnings (issue #108) via frontmatter fixes, adds AWS Security & Compliance skills and the official Antigravity Workspace Manager CLI companion, and fixes validation for nerdzao-elite skills.
+
+## New Skills
+
+- **AWS Security & Compliance** (PR #106): `aws-compliance-checker`, `aws-iam-best-practices`, `aws-secrets-rotation`, `aws-security-audit`.
+- **nerdzao-elite**, **nerdzao-elite-gemini-high**: Elite workflow skills (validation fixes in-repo).
+
+## Improvements
+
+- **Frontmatter**: Fixed YAML frontmatter in code-reviewer, architect-review, c-pro, design-orchestration, haskell-pro, multi-agent-brainstorming, performance-engineer, search-specialist (PR #111) — reduces Codex "invalid YAML" warnings (fixes #108).
+- **Antigravity Workspace Manager**: Official CLI companion to auto-provision skill subsets across environments (PR #110); documented in Community Contributors.
+- **Registry**: Now tracking 889 skills.
+- **Validation**: Added frontmatter and "When to Use" for nerdzao-elite / nerdzao-elite-gemini-high.
+
+## Credits
+
+- **@Vonfry** for frontmatter YAML fixes (PR #111)
+- **@ssumanbiswas** for AWS Security & Compliance skills (PR #106)
+- **@amartelr** for Antigravity Workspace Manager CLI (PR #110)
+- **@fernandorych** for branch sync (PR #109)
+- **@Rodrigolmti** for reporting Codex YAML issue (#108)
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+## [5.10.0] - 2026-02-21 - "AWS Kiro CLI Integration"
+
+> **Native support and integration guide for AWS Kiro CLI, expanding the repository's reach to the AWS developer community.**
+
+This release adds comprehensive support for Kiro CLI, AWS's recently launched agentic IDE, enabling 883+ skills to enhance Kiro's autonomous operations across serverless, IaC, and AWS architectures. It also includes an important bugfix for the npm installer CLI.
+
+## 🚀 Improvements
+
+- **Integration Guide**: Added `docs/KIRO_INTEGRATION.md` detailing Kiro capabilities, installation instructions, AWS-recommended skills, and MCP usage.
+- **Documentation**: Updated `README.md`, `docs/GETTING_STARTED.md`, and `docs/FAQ.md` to formally support Kiro CLI and add invocation examples.
+- **Installer**: Added the `--kiro` flag to the CLI installer (`bin/install.js`) which correctly targets `~/.kiro/skills`.
+
+## 🐛 Bug Fixes
+
+- **Installer Path Consistency**: Fixed Issue #105 where the published `v5.9.0` npm install script contained an older version of `bin/install.js`, causing `--antigravity` installs to mistakenly target `.agent/skills` instead of the global `~/.gemini/antigravity/skills`. This release (`5.10.0`) properly bundles the corrected npm install script.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@ssumanbiswas** for the Kiro CLI support (PR #104)
+
+---
+
+## [5.9.0] - 2026-02-20 - "Apple HIG & Quality Bar"
+
+> **Extensive Apple design guidelines and strict validation for the entire registry.**
+
+This release adds the official Apple Human Interface Guidelines skills suite, enforces strict agentskills-ref metadata validation across all skills, and addresses critical path resolution bugs in the CLI installer along with dangling link validation to prevent agent token waste.
+
+## 🚀 New Skills
+
+### 🍎 [apple-hig-skills](skills/hig-platforms/)
+
+**Comprehensive platform and UX guidelines for Apple ecosystems.**
+Official guidelines covering iOS, macOS, visionOS, watchOS, and tvOS natively formatted for AI consumption.
+
+- **Key Feature 1**: Deep dives into spatial layout, interactions, and modalities.
+- **Key Feature 2**: Component-level guidelines for status bars, dialogs, charts, and input mechanisms (Pencil, Digital Crown).
+
+> **Try it:** `Use @hig-platforms to review if our iPad app navigation follows standard iOS paradigms.`
+
+### 👁️ [manifest](skills/manifest/)
+
+**Observability plugin setup guide for AI agents.**
+Walks through a 6-step setup for the Manifest observability platform, including troubleshooting for common errors.
+
+- **Key Feature**: Complete configuration wizard from obtaining API keys to verifying traces.
+
+> **Try it:** `Use @manifest to add observability to our local python agent.`
+
+---
+
+## 📦 Improvements
+
+- **Registry Update**: Now tracking 883 skills.
+- **CLI Installer**: Fixed the default `.agent/skills` path to properly default to `~/.gemini/antigravity/skills` and added an explicit `--antigravity` flag (fixes #101).
+- **Validation**: Enforced strict folder-to-name matching and concise (<200 char) descriptions based on `agentskills-ref` (fixes #97).
+- **Validation**: Added build-time Markdown dangling link validation to `validate_skills.py` to prevent agents from hallucinating relative paths (fixes #102).
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@raintree-technology** for the Apple HIG Skills (PR #90)
+- **@sergeyklay** for the skill quality validations (PR #97)
+- **@SebConejo** for the manifest observability skill (PR #103)
+- **@community** for identifying installer and link bugs (Issues #101, #102)
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+## [5.8.0] - 2026-02-19 - "Domain-Driven Design Suite"
+
+> **First full DDD skill suite: strategic design, context mapping, and tactical patterns for complex domains.**
+
+This release introduces a comprehensive Domain-Driven Design skill suite (4 new skills) contributed by the community, plus playbook fixes for saga-orchestration and event-store-design, and new DDD-themed bundle and workflow entries.
+
+## 🚀 New Skills
+
+### 🏗️ [domain-driven-design](skills/domain-driven-design/)
+
+**Entry point and router for all DDD adoption decisions.**
+Covers viability checks, routing to strategic/tactical/evented sub-skills, and output requirements.
+
+- **Key Feature**: Viability check gate — avoids over-engineering simple systems.
+- **Key Feature**: Routing map to `@ddd-strategic-design`, `@ddd-context-mapping`, `@ddd-tactical-patterns`, CQRS, event sourcing, sagas, projections.
+
+> **Try it:** `Use @domain-driven-design to assess if this billing platform should adopt full DDD.`
+
+### 🗺️ [ddd-strategic-design](skills/ddd-strategic-design/)
+
+**Subdomains, bounded contexts, and ubiquitous language.**
+Produces subdomain classification tables, bounded context catalogs, and glossaries.
+
+### 🔗 [ddd-context-mapping](skills/ddd-context-mapping/)
+
+**Cross-context integration contracts and anti-corruption layers.**
+Defines upstream/downstream ownership, translation rules, and versioning policies.
+
+### 🧩 [ddd-tactical-patterns](skills/ddd-tactical-patterns/)
+
+**Aggregates, value objects, repositories, and domain events in code.**
+Includes a TypeScript aggregate example with invariant enforcement.
+
+---
+
+## 📦 Improvements
+
+- **Registry Update**: Now tracking 868 skills.
+- **saga-orchestration** and **event-store-design**: Added missing `resources/implementation-playbook.md`.
+- **docs/BUNDLES.md**: Added DDD & Evented Architecture bundle section.
+- **docs/WORKFLOWS.md** + **data/workflows.json**: New "Design a DDD Core Domain" workflow entry.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **[@rcigor](https://github.com/rcigor)** for the full DDD skill suite (PR #98)
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+---
+
+## [5.7.0] - 2026-02-18 - "Yandex Direct Audit"
+
+> **First agentic skill for the Russian PPC market, offering comprehensive Yandex Direct account auditing.**
+
+### Added
+
+- **New External Skill**: `yandex-direct-audit` (Silverov/yandex-direct-skill)
+  - 55 automated checks for Yandex Direct (API v5).
+  - A-F scoring system.
+  - Comprehensive campaign, ad, and keyword analysis.
+
+### Registry
+
+- **Total Skills**: 864.
+- **Generated Files**: Synced artifacts.
+
+### Credits
+
+- **[@Silverov](https://github.com/Silverov)** - Yandex Direct Audit skill (PR #95).
+
+---
+
 ## [5.6.0] - 2026-02-17 - "Autonomous Agents & Trusted Workflows"
 
 > **DBOS for reliable workflows, Crypto BD agents, and improved usage documentation.**
@@ -122,6 +504,8 @@ This release significantly upgrades our 3D visualization capabilities with a com
 - **[@Krishna-hehe](https://github.com/Krishna-hehe)** - Advanced Three.js skill overhaul (PR #78).
 
 ---
+
+## [5.2.0] - 2026-02-13 - "Podcast Generation & Azure AI Skills"
 
 > **New AI capabilities: Podcast Generation, Azure Identity, and Self-Evolving Agents.**
 

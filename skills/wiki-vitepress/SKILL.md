@@ -1,11 +1,8 @@
 ---
 name: wiki-vitepress
-description: Packages generated wiki Markdown into a VitePress static site with dark
-  theme, dark-mode Mermaid diagrams with click-to-zoom, and production build output.
-  Use when the user wants to create a browsable website from generated wiki pages.
-risk: safe
+description: "Packages generated wiki Markdown into a VitePress static site with dark theme, dark-mode Mermaid diagrams with click-to-zoom, and production build output. Use when the user wants to create a browsa..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -153,7 +150,5 @@ Output goes to `wiki-site/.vitepress/dist/`.
 - Node text in Mermaid uses inline `style` with highest specificity — CSS alone won't fix it
 - `enhanceApp()` runs during SSR where `document` doesn't exist — use `setup()` only
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for wiki-vitepress.
+This skill is applicable to execute the workflow or actions described in the overview.

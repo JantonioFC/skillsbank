@@ -7,9 +7,8 @@ description: 'Azure OpenAI SDK for .NET. Client library for Azure OpenAI and Ope
 
   '
 package: Azure.AI.OpenAI
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -462,7 +461,5 @@ catch (RequestFailedException ex)
 | Quickstart | https://learn.microsoft.com/azure/ai-services/openai/quickstart |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/openai/Azure.AI.OpenAI |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-ai-openai-dotnet.
+This skill is applicable to execute the workflow or actions described in the overview.

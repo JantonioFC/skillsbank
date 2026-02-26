@@ -10,9 +10,8 @@ description: 'Azure Monitor Query SDK for Java. Execute Kusto queries against Lo
 
   '
 package: com.azure:azure-monitor-query
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -425,7 +424,5 @@ try {
 | Log Analytics Limits | https://learn.microsoft.com/azure/azure-monitor/service-limits#la-query-api |
 | Troubleshooting | https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/monitor/azure-monitor-query/TROUBLESHOOTING.md |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-monitor-query-java.
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -19,7 +19,6 @@ tags:
 - content-analysis
 risk: safe
 source: community
-license: MIT
 ---
 
 # youtube-summarizer

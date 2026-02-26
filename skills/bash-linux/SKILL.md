@@ -1,11 +1,9 @@
 ---
 name: bash-linux
-description: Bash/Linux terminal patterns. Critical commands, piping, error handling,
-  scripting. Use when working on macOS or Linux systems.
+description: "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems."
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -203,7 +201,5 @@ trap cleanup EXIT
 
 > **Remember:** Bash is text-based. Use `&&` for success chains, `set -e` for safety, and quote your variables!
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for bash-linux.
+This skill is applicable to execute the workflow or actions described in the overview.

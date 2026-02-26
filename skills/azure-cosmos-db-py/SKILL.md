@@ -1,15 +1,9 @@
 ---
 name: azure-cosmos-db-py
-description: Build Azure Cosmos DB NoSQL services with Python/FastAPI following production-grade
-  patterns. Use when implementing database client setup with dual auth (DefaultAzureCredential
-  + emulator), service layer classes with CRUD operations, partition key strategies,
-  parameterized queries, or TDD patterns for Cosmos. Triggers on phrases like "Cosmos
-  DB", "NoSQL database", "document store", "add persistence", "database service layer",
-  or "Python Cosmos SDK".
+description: "Build Azure Cosmos DB NoSQL services with Python/FastAPI following production-grade patterns. Use when implementing database client setup with dual auth (DefaultAzureCredential + emulator), service..."
 package: azure-cosmos
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Cosmos DB Service Implementation
@@ -121,7 +115,7 @@ async def get_container():
     return _cosmos_container
 ```
 
-**Full implementation**: See [references/client-setup.md](references/client-setup.md)
+**Full implementation**: See references/client-setup.md
 
 ### 2. Pydantic Model Hierarchy
 
@@ -161,7 +155,7 @@ class ProjectService:
         return self._doc_to_model(doc)
 ```
 
-**Full patterns**: See [references/service-layer.md](references/service-layer.md)
+**Full patterns**: See references/service-layer.md
 
 ## Core Principles
 
@@ -204,25 +198,25 @@ async def test_get_project_by_id_returns_project(mock_cosmos_container):
     assert result.name == "Test"
 ```
 
-**Full testing guide**: See [references/testing.md](references/testing.md)
+**Full testing guide**: See references/testing.md
 
 ## Reference Files
 
 | File | When to Read |
 |------|--------------|
-| [references/client-setup.md](references/client-setup.md) | Setting up Cosmos client with dual auth, SSL config, singleton pattern |
-| [references/service-layer.md](references/service-layer.md) | Implementing full service class with CRUD, conversions, graceful degradation |
-| [references/testing.md](references/testing.md) | Writing pytest tests, mocking Cosmos, integration test setup |
-| [references/partitioning.md](references/partitioning.md) | Choosing partition keys, cross-partition queries, move operations |
-| [references/error-handling.md](references/error-handling.md) | Handling CosmosResourceNotFoundError, logging, HTTP error mapping |
+| references/client-setup.md | Setting up Cosmos client with dual auth, SSL config, singleton pattern |
+| references/service-layer.md | Implementing full service class with CRUD, conversions, graceful degradation |
+| references/testing.md | Writing pytest tests, mocking Cosmos, integration test setup |
+| references/partitioning.md | Choosing partition keys, cross-partition queries, move operations |
+| references/error-handling.md | Handling CosmosResourceNotFoundError, logging, HTTP error mapping |
 
 ## Template Files
 
 | File | Purpose |
 |------|---------|
-| [assets/cosmos_client_template.py](assets/cosmos_client_template.py) | Ready-to-use client module |
-| [assets/service_template.py](assets/service_template.py) | Service class skeleton |
-| [assets/conftest_template.py](assets/conftest_template.py) | pytest fixtures for Cosmos mocking |
+| assets/cosmos_client_template.py | Ready-to-use client module |
+| assets/service_template.py | Service class skeleton |
+| assets/conftest_template.py | pytest fixtures for Cosmos mocking |
 
 ## Quality Attributes (NFRs)
 
@@ -252,5 +246,4 @@ async def test_get_project_by_id_returns_project(mock_cosmos_container):
 - Minimal document conversion overhead
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-cosmos-db-py.
+This skill is applicable to execute the workflow or actions described in the overview.

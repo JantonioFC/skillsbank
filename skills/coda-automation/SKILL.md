@@ -4,11 +4,9 @@ description: 'Automate Coda tasks via Rube MCP (Composio): manage docs, pages, t
   rows, formulas, permissions, and publishing. Always search tools first for current
   schemas.'
 requires:
-  mcp:
-  - rube
-risk: safe
+  mcp: [rube]
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -247,7 +245,5 @@ Automate Coda document and data operations through Composio's Coda toolkit via R
 | Unpublish doc | CODA_UNPUBLISH_DOC | docId |
 | List packs | CODA_LIST_PACKS | (none) |
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for coda-automation.
+This skill is applicable to execute the workflow or actions described in the overview.

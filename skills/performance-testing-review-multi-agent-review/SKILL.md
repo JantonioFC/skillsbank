@@ -1,9 +1,8 @@
 ---
 name: performance-testing-review-multi-agent-review
-description: Use when working with performance testing review multi agent review
-risk: safe
+description: "Use when working with performance testing review multi agent review"
+risk: unknown
 source: community
-license: MIT
 ---
 
 

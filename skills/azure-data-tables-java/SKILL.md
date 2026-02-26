@@ -1,12 +1,9 @@
 ---
 name: azure-data-tables-java
-description: Build table storage applications with Azure Tables SDK for Java. Use
-  when working with Azure Table Storage or Cosmos DB Table API for NoSQL key-value
-  data, schemaless storage, or structured data at scale.
+description: "Build table storage applications with Azure Tables SDK for Java. Use when working with Azure Table Storage or Cosmos DB Table API for NoSQL key-value data, schemaless storage, or structured data at..."
 package: com.azure:azure-data-tables
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -339,7 +336,5 @@ COSMOS_TABLE_ENDPOINT=https://<account>.table.cosmosdb.azure.com
 - "partition key row key"
 - "table entity CRUD"
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-data-tables-java.
+This skill is applicable to execute the workflow or actions described in the overview.

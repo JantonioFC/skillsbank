@@ -62,7 +62,7 @@ description: "Brief description of what this skill does"
 
 - **What it is:** One-sentence summary
 - **Format:** String in quotes
-- **Length:** Keep it under 150 characters
+- **Length:** Keep it under 200 characters (validator enforces this)
 - **Example:** `"Stripe payment integration patterns including checkout, subscriptions, and webhooks"`
 
 ### Optional Fields

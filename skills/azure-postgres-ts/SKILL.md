@@ -8,9 +8,8 @@ description: 'Connect to Azure Database for PostgreSQL Flexible Server from Node
 
   '
 package: pg
-risk: offensive
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 # Azure PostgreSQL for TypeScript (node-postgres)
@@ -490,5 +489,4 @@ import {
 | Passwordless Connection | https://learn.microsoft.com/azure/postgresql/flexible-server/how-to-connect-with-managed-identity |
 
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-postgres-ts.
+This skill is applicable to execute the workflow or actions described in the overview.

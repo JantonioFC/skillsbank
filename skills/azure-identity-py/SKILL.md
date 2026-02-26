@@ -8,9 +8,8 @@ description: 'Azure Identity SDK for Python authentication. Use for DefaultAzure
 
   '
 package: azure-identity
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -199,7 +198,5 @@ async def main():
 6. **Set AZURE_CLIENT_ID** for user-assigned managed identities
 7. **Exclude unused credentials** to speed up authentication
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-identity-py.
+This skill is applicable to execute the workflow or actions described in the overview.

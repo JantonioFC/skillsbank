@@ -1,9 +1,15 @@
 ---
 name: writing-skills
-description: Use when creating new skills, editing existing skills, or verifying skills work before deployment
-risk: safe
+description: "Use when creating, updating, or improving agent skills."
+metadata:
+  category: meta
+  author: ozy
+  triggers: new skill, create skill, update skill, skill documentation, skill template,
+    agent skill, writing skill
+  references: anti-rationalization, cso, standards, templates, testing, tier-1-simple,
+    tier-2-expanded, tier-3-platform
+risk: unknown
 source: community
-license: MIT
 ---
 
 # Writing Skills
@@ -135,8 +141,38 @@ Link to file for heavy reference or reusable tools
 ## Common Mistakes
 What goes wrong + fixes
 
-## Real-World Impact (optional)
-Concrete results
+| Mistake | Fix |
+|---------|-----|
+| Description summarizes workflow | Use "Use when..." triggers only |
+| No `metadata.triggers` | Add 3+ keywords |
+| Generic name ("helper") | Use gerund (`creating-skills`) |
+| Long monolithic SKILL.md | Split into `references/` |
+
+See [gotchas.md](gotchas.md) for more.
+
+## ✅ Pre-Deploy Checklist
+
+Before deploying any skill:
+
+- [ ] `name` field matches directory name exactly
+- [ ] `SKILL.md` filename is ALL CAPS
+- [ ] Description starts with "Use when..."
+- [ ] `metadata.triggers` has 3+ keywords
+- [ ] Total lines < 500 (use `references/` for more)
+- [ ] No `@` force-loading in cross-references
+- [ ] Tested with real scenarios
+
+## 🔗 Related Skills
+
+- **opencode-expert**: For OpenCode environment configuration
+- Use `/write-skill` command for guided skill creation
+
+## Examples
+
+**Create a Tier 1 skill:**
+```bash
+mkdir -p ~/.config/opencode/skills/my-technique
+touch ~/.config/opencode/skills/my-technique/SKILL.md
 ```
 
 

@@ -8,9 +8,8 @@ description: 'Azure Key Vault SDK for Python. Use for secrets, keys, and certifi
 
   '
 package: azure-keyvault-secrets, azure-keyvault-keys, azure-keyvault-certificates
-risk: safe
-source: microsoft
-license: MIT
+risk: unknown
+source: community
 ---
 
 
@@ -254,7 +253,5 @@ except HttpResponseError as e:
 7. **Cache secrets** appropriately to reduce API calls
 8. **Use async clients** for high-throughput scenarios
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for azure-keyvault-py.
+This skill is applicable to execute the workflow or actions described in the overview.

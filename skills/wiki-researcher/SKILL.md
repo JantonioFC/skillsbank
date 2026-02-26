@@ -1,12 +1,8 @@
 ---
 name: wiki-researcher
-description: Conducts multi-turn iterative deep research on specific topics within
-  a codebase with zero tolerance for shallow analysis. Use when the user wants an
-  in-depth investigation, needs to understand how something works across multiple
-  files, or asks for comprehensive analysis of a specific system or pattern.
-risk: safe
+description: "Conducts multi-turn iterative deep research on specific topics within a codebase with zero tolerance for shallow analysis. Use when the user wants an in-depth investigation, needs to understand how..."
+risk: unknown
 source: community
-license: MIT
 ---
 
 
@@ -84,7 +80,5 @@ Each iteration takes a different lens and builds on all prior findings:
 - Stay focused on the specific topic
 - Flag what you HAVEN'T explored — boundaries of your knowledge at all times
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for wiki-researcher.
+This skill is applicable to execute the workflow or actions described in the overview.

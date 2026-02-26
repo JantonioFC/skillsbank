@@ -4,12 +4,10 @@ description: 'Diagnose and audit SEO issues affecting crawlability, indexation, 
   and organic performance. Use when the user asks for an SEO audit, technical SEO
   review, ranking diagnosis, on-page SEO review, meta tag audit, or SEO health check.
   This skill identifies issues and prioritizes actions but does not execute changes.
-  For large-scale page creation, use programmatic-seo. For structured data, use schema-markup.
-
-  '''
-risk: safe
+  For large-scale page creation, use programmatic-seo. For structured data, use
+  schema-markup.
+risk: unknown
 source: community
-license: MIT
 ---
 
 # SEO Audit
@@ -487,3 +485,7 @@ Use these skills **only after the audit is complete** and findings are accepted.
 
 * **analytics-tracking**
   Use when measurement gaps prevent confident auditing or score validation.
+
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.
