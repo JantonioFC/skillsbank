@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 1230+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 954+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 1230+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
+> **The Ultimate Collection of 954+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -17,7 +17,7 @@
 
 If this project helps you, you can [support it here](https://buymeacoffee.com/sickn33) or simply ⭐ the repo.
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **1230 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **954+ high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -42,25 +42,24 @@ This repository provides essential skills to transform your AI assistant into a 
 - [🎁 Curated Collections (Bundles)](#curated-collections)
 - [🧭 Antigravity Workflows](#antigravity-workflows)
 - [📦 Features & Categories](#features--categories)
-- [📚 Browse 1230+ Skills](#browse-1230-skills)
+- [📚 Browse 954+ Skills](#browse-954-skills)
 - [🤝 How to Contribute](#how-to-contribute)
-- [🤝 Community](#community)
+- [💬 Community](#community)
 - [☕ Support the Project](#support-the-project)
-- [👥 Contributors & Credits](#credits--sources)
+- [🏆 Credits & Sources](#credits--sources)
 - [👥 Repo Contributors](#repo-contributors)
 - [⚖️ License](#license)
 - [🌟 Star History](#star-history)
-- [🏷️ GitHub Topics](#github-topics)
 
 ---
 
 ## New Here? Start Here!
 
-**Welcome to the V6.3.1 Interactive Web Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
+**Welcome to the V6.5.0 Interactive Web Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 6.3.1) is a massive upgrade to your AI's capabilities.
+**Antigravity Awesome Skills** (Release 6.5.0) is a massive upgrade to your AI's capabilities.
 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
@@ -194,9 +193,6 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 # Kiro CLI/IDE global
 git clone https://github.com/sickn33/antigravity-awesome-skills.git ~/.kiro/skills
 
-# Kiro CLI/IDE workspace
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .kiro/skills
-
 # Claude Code specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .claude/skills
 
@@ -205,9 +201,6 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .gemini/skil
 
 # Codex CLI specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .codex/skills
-
-# Kiro CLI specific
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .kiro/skills
 
 # Cursor specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .cursor/skills
@@ -258,7 +251,10 @@ Install to the tool-specific path. Use installer flags: `--antigravity` (default
 
 **Good news!** You no longer need to manually run `git pull` or `npx antigravity-awesome-skills` to update your skills.
 
-Simply double-click **`START_APP.bat`** (or run it in your terminal). It will automatically fetch and merge the latest skills from the original repository every time you open the Web App, ensuring you always have the most up-to-date catalog!
+- **Windows:** Double-click **`START_APP.bat`** (or run it in your terminal).
+- **macOS/Linux:** Run `cd web-app && npm run app:dev` from the repo root.
+
+Both methods automatically fetch and merge the latest skills from the original repository every time you open the Web App, ensuring you always have the most up-to-date catalog.
 
 ### Reinstall from scratch
 
@@ -273,7 +269,7 @@ npx antigravity-awesome-skills
 
 **Bundles** are curated groups of skills for a specific role or goal (for example: `Web Wizard`, `Security Engineer`, `OSS Maintainer`).
 
-They help you avoid picking from 946+ skills one by one.
+They help you avoid picking from 950+ skills one by one.
 
 ### ⚠️ Important: Bundles Are NOT Separate Installations!
 
@@ -345,27 +341,62 @@ The repository is organized into specialized domains to transform your AI into a
 
 Counts change as new skills are added. For the current full registry, see [CATALOG.md](CATALOG.md).
 
-## Browse 1230+ Skills
+## Browse 954+ Skills
 
 We have moved the full skill registry to a dedicated catalog to keep this README clean, and we've also introduced an interactive **Web App**!
 
 ### 🌐 Interactive Skills Web App
 
-You can now easily search, filter, and discover the perfect skills for your agent using our local Web App.
+A modern web interface to explore, search, and use the 950+ skills directly from your browser.
 
-To launch the app:
+#### ✨ Features
 
-1. Double-click the `START_APP.bat` file in the root directory (Windows) or run it from your terminal.
-2. The app will automatically configure everything and open in your default browser.
+- 🔍 **Full-text search** – Search skills by name, description, or content
+- 🏷️ **Category filters** – Frontend, Backend, Security, DevOps, etc.
+- 📝 **Markdown rendering** – View complete documentation with syntax highlighting
+- 📋 **Copy buttons** – Copy `@skill-name` or full content in 1 click
+- 🛠️ **Prompt Builder** – Add custom context before copying
+- 🌙 **Dark mode** – Adaptive light/dark interface
+- ⚡ **Auto-update** – Automatically syncs with upstream repo
 
-#### 🛠️ New: Interactive Prompt Builder
+#### 🚀 Quick Start
 
-The web app is no longer just a static catalog! When you click on any skill, you will see an **Interactive Prompt Builder** box.
-Instead of manually copying `@skill-name` and writing your requirements separately in your IDE:
+**Windows:**
 
-1. Type your specific project constraints into the text box (e.g., "Use React 19 and Tailwind").
-2. Click **Copy Prompt**.
-3. Your clipboard now has a fully formatted, ready-to-run prompt combining the skill invocation and your custom context!
+```bash
+# Double-click or terminal
+START_APP.bat
+```
+
+**macOS/Linux:**
+
+```bash
+# 1. Install dependencies (first time)
+cd web-app && npm install
+
+# 2. Setup assets and launch
+npm run app:dev
+```
+
+**Available npm commands:**
+
+```bash
+npm run app:setup      # Copy skills to web-app/public/
+npm run app:dev        # Start dev server
+npm run app:build      # Production build
+npm run app:preview    # Preview production build
+```
+
+The app automatically opens at `http://localhost:5173` (or alternative port).
+
+#### 🛠️ Interactive Prompt Builder
+
+On each skill page you'll find the **Interactive Prompt Builder**. Instead of manually copying `@skill-name` and writing your requirements separately in your IDE:
+
+1. Type your specific project constraints into the text box (e.g., "Use React 19, TypeScript and Tailwind").
+2. Click **Copy Prompt** — copies a fully formatted, ready-to-run prompt combining `@skill-name` + your custom context.
+3. Or click **Copy Full Content** — copies the full skill documentation.
+4. Paste into your AI assistant (Claude, Cursor, Gemini, etc.).
 
 👉 **[View the Complete Skill Catalog (CATALOG.md)](CATALOG.md)**
 
@@ -378,8 +409,9 @@ We welcome contributions from the community! To add a new skill:
 1. **Fork** the repository.
 2. **Create a new directory** inside `skills/` for your skill.
 3. **Add a `SKILL.md`** with the required frontmatter (name, description, risk, source). See [docs/SKILL_ANATOMY.md](docs/SKILL_ANATOMY.md) and [docs/QUALITY_BAR.md](docs/QUALITY_BAR.md).
-4. **Run validation**: `npm run validate` (or `npm run validate:strict` for CI). Optionally run `python3 scripts/validate_references.py` if you touch workflows or bundles.
-5. **Submit a Pull Request**.
+4. **Add date tracking** (optional): Include `date_added: "YYYY-MM-DD"` in frontmatter. See [docs/SKILLS_DATE_TRACKING.md](docs/SKILLS_DATE_TRACKING.md) for details.
+5. **Run validation**: `npm run validate` (or `npm run validate:strict` for CI). Optionally run `python3 scripts/validate_references.py` if you touch workflows or bundles.
+6. **Submit a Pull Request**.
 
 Please ensure your skill follows the Antigravity/Claude Code best practices. Maintainers: see [docs/AUDIT.md](docs/AUDIT.md) for coherence checks and [.github/MAINTENANCE.md](.github/MAINTENANCE.md) for the full validation chain.
 
@@ -445,7 +477,6 @@ This collection would not be possible without the incredible work of the Claude 
 
 - **[rmyndharis/antigravity-skills](https://github.com/rmyndharis/antigravity-skills)**: For the massive contribution of 300+ Enterprise skills and the catalog generation logic.
 - **[amartelr/antigravity-workspace-manager](https://github.com/amartelr/antigravity-workspace-manager)**: Official Workspace Manager CLI companion to dynamically auto-provision subsets of skills across unlimited local development environments.
-
 - **[obra/superpowers](https://github.com/obra/superpowers)**: The original "Superpowers" by Jesse Vincent.
 - **[guanyang/antigravity-skills](https://github.com/guanyang/antigravity-skills)**: Core Antigravity extensions.
 - **[diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase)**: Infrastructure and Backend/Frontend Guidelines.
@@ -465,7 +496,9 @@ This collection would not be possible without the incredible work of the Claude 
 - **[webzler/agentMemory](https://github.com/webzler/agentMemory)**: Source for the agent-memory-mcp skill.
 - **[sstklen/claude-api-cost-optimization](https://github.com/sstklen/claude-api-cost-optimization)**: Save 50-90% on Claude API costs with smart optimization strategies (MIT).
 - **[Wittlesus/cursorrules-pro](https://github.com/Wittlesus/cursorrules-pro)**: Professional .cursorrules configurations for 8 frameworks - Next.js, React, Python, Go, Rust, and more. Works with Cursor, Claude Code, and Windsurf.
-- **[SSOJet/skills](https://github.com/ssojet/skills)**: Production-ready SSOJet skills and integration guides for popular frameworks and platforms — Node.js, Next.js, React, Java, .NET Core, Go, iOS, Android, and more. Works seamlessly with SSOJet SAML, OIDC, and enterprise SSO flows.Works with Cursor,Antigravity, Claude Code, and Windsurf.
+- **[nedcodes-ok/rule-porter](https://github.com/nedcodes-ok/rule-porter)**: Bidirectional rule converter between Cursor (.mdc), Claude Code (CLAUDE.md), GitHub Copilot, Windsurf, and legacy .cursorrules formats. Zero dependencies.
+- **[SSOJet/skills](https://github.com/ssojet/skills)**: Production-ready SSOJet skills and integration guides for popular frameworks and platforms — Node.js, Next.js, React, Java, .NET Core, Go, iOS, Android, and more. Works seamlessly with SSOJet SAML, OIDC, and enterprise SSO flows. Works with Cursor, Antigravity, Claude Code, and Windsurf.
+- **[MojoAuth/skills](https://github.com/MojoAuth/skills)**: Production-ready MojoAuth guides and examples for popular frameworks like Node.js, Next.js, React, Java, .NET Core, Go, iOS, and Android.
 
 ### Inspirations
 
@@ -477,7 +510,7 @@ This collection would not be possible without the incredible work of the Claude 
 ## Repo Contributors
 
 <a href="https://github.com/sickn33/antigravity-awesome-skills/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=sickn33/antigravity-awesome-skills" />
+  <img src="https://contrib.rocks/image?repo=sickn33/antigravity-awesome-skills" alt="Repository contributors" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
@@ -547,16 +580,6 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=sickn33/antigravity-awesome-skills&type=date&legend=top-left)](https://www.star-history.com/#sickn33/antigravity-awesome-skills&type=date&legend=top-left)
 
-If Antigravity Awesome Skills has been useful, consider ⭐ starring the repo or [buying me a book](https://buymeacoffee.com/sickn33).
+If Antigravity Awesome Skills has been useful, consider ⭐ starring the repo!
 
----
-
-## GitHub Topics
-
-For repository maintainers, add these topics to maximize discoverability:
-
-```text
-claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode,
-agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp,
-ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, rules.md, CLAUDE.md, GEMINI.md, CURSOR.md
-```
+<!-- GitHub Topics (for maintainers): claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode, agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp, ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, rules.md, CLAUDE.md, GEMINI.md, CURSOR.md -->

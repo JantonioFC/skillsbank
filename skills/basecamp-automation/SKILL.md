@@ -1,23 +1,13 @@
 ---
 name: basecamp-automation
-description: Automate Basecamp project management, to-dos, messages, people, and to-do
-  list organization via Rube MCP (Composio). Always search tools first for current
-  schemas.
-requires:
-  mcp: [rube]
+description: "Automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas."
 risk: unknown
 source: community
+date_added: "2026-02-27"
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Basecamp Automation via Rube MCP
+
 Automate Basecamp operations including project management, to-do list creation, task management, message board posting, people management, and to-do group organization through Composio's Basecamp toolkit.
 
 ## Prerequisites

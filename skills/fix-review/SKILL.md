@@ -1,9 +1,9 @@
 ---
 name: fix-review
-description: Verify fix commits address audit findings without new bugs
-source: https://github.com/trailofbits/skills/tree/main/plugins/fix-review
+description: "Verify fix commits address audit findings without new bugs"
 risk: safe
-license: MIT
+source: "https://github.com/trailofbits/skills/tree/main/plugins/fix-review"
+date_added: "2026-02-27"
 ---
 
 # Fix Review

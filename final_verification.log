@@ -1,0 +1,75 @@
+🔍 Validating skills in: /home/juan/Escritorio/antigravity-awesome-skills/skills
+⚙️  Mode: STRICT (CI)
+
+📊 Checked 859 skills.
+
+⚠️  Found 49 Warnings:
+⚠️  brand-guidelines-community/SKILL.md: Name 'brand-guidelines' does not match folder name 'brand-guidelines-community'
+⚠️  internal-comms-anthropic/SKILL.md: Name 'internal-comms' does not match folder name 'internal-comms-anthropic'
+⚠️  brand-guidelines-anthropic/SKILL.md: Name 'brand-guidelines' does not match folder name 'brand-guidelines-anthropic'
+⚠️  ssh-penetration-testing/SKILL.md: Name 'SSH Penetration Testing' does not match folder name 'ssh-penetration-testing'
+⚠️  xlsx-official/SKILL.md: Name 'xlsx' does not match folder name 'xlsx-official'
+⚠️  burp-suite-testing/SKILL.md: Name 'Burp Suite Web Application Testing' does not match folder name 'burp-suite-testing'
+⚠️  wordpress-penetration-testing/SKILL.md: Name 'WordPress Penetration Testing' does not match folder name 'wordpress-penetration-testing'
+⚠️  ethical-hacking-methodology/SKILL.md: Name 'Ethical Hacking Methodology' does not match folder name 'ethical-hacking-methodology'
+⚠️  file-path-traversal/SKILL.md: Name 'File Path Traversal Testing' does not match folder name 'file-path-traversal'
+⚠️  wireshark-analysis/SKILL.md: Name 'Wireshark Network Traffic Analysis' does not match folder name 'wireshark-analysis'
+⚠️  sqlmap-database-pentesting/SKILL.md: Name 'SQLMap Database Penetration Testing' does not match folder name 'sqlmap-database-pentesting'
+⚠️  aws-penetration-testing/SKILL.md: Name 'AWS Penetration Testing' does not match folder name 'aws-penetration-testing'
+⚠️  linux-privilege-escalation/SKILL.md: Name 'Linux Privilege Escalation' does not match folder name 'linux-privilege-escalation'
+⚠️  scanning-tools/SKILL.md: Name 'Security Scanning Tools' does not match folder name 'scanning-tools'
+⚠️  internal-comms-community/SKILL.md: Name 'internal-comms' does not match folder name 'internal-comms-community'
+⚠️  pentest-checklist/SKILL.md: Name 'Pentest Checklist' does not match folder name 'pentest-checklist'
+⚠️  sql-injection-testing/SKILL.md: Name 'SQL Injection Testing' does not match folder name 'sql-injection-testing'
+⚠️  mcp-builder-ms/SKILL.md: Name 'mcp-builder' does not match folder name 'mcp-builder-ms'
+⚠️  linux-shell-scripting/SKILL.md: Name 'Linux Production Shell Scripts' does not match folder name 'linux-shell-scripting'
+⚠️  react-best-practices/SKILL.md: Name 'vercel-react-best-practices' does not match folder name 'react-best-practices'
+⚠️  html-injection-testing/SKILL.md: Name 'HTML Injection Testing' does not match folder name 'html-injection-testing'
+⚠️  idor-testing/SKILL.md: Name 'IDOR Vulnerability Testing' does not match folder name 'idor-testing'
+⚠️  cc-skill-frontend-patterns/SKILL.md: Name 'frontend-patterns' does not match folder name 'cc-skill-frontend-patterns'
+⚠️  privilege-escalation-methods/SKILL.md: Name 'Privilege Escalation Methods' does not match folder name 'privilege-escalation-methods'
+⚠️  cc-skill-backend-patterns/SKILL.md: Name 'backend-patterns' does not match folder name 'cc-skill-backend-patterns'
+⚠️  cc-skill-security-review/SKILL.md: Name 'security-review' does not match folder name 'cc-skill-security-review'
+⚠️  claude-code-guide/SKILL.md: Name 'Claude Code Guide' does not match folder name 'claude-code-guide'
+⚠️  skill-creator-ms/SKILL.md: Name 'skill-creator' does not match folder name 'skill-creator-ms'
+⚠️  claude-d3js-skill/SKILL.md: Name 'd3-viz' does not match folder name 'claude-d3js-skill'
+⚠️  api-fuzzing-bug-bounty/SKILL.md: Name 'API Fuzzing for Bug Bounty' does not match folder name 'api-fuzzing-bug-bounty'
+⚠️  pentest-commands/SKILL.md: Name 'Pentest Commands' does not match folder name 'pentest-commands'
+⚠️  smtp-penetration-testing/SKILL.md: Name 'SMTP Penetration Testing' does not match folder name 'smtp-penetration-testing'
+⚠️  pptx-official/SKILL.md: Name 'pptx' does not match folder name 'pptx-official'
+⚠️  postgres-best-practices/SKILL.md: Name 'supabase-postgres-best-practices' does not match folder name 'postgres-best-practices'
+⚠️  top-web-vulnerabilities/SKILL.md: Name 'Top 100 Web Vulnerabilities Reference' does not match folder name 'top-web-vulnerabilities'
+⚠️  cc-skill-clickhouse-io/SKILL.md: Name 'clickhouse-io' does not match folder name 'cc-skill-clickhouse-io'
+⚠️  shodan-reconnaissance/SKILL.md: Name 'Shodan Reconnaissance and Pentesting' does not match folder name 'shodan-reconnaissance'
+⚠️  red-team-tools/SKILL.md: Name 'Red Team Tools and Methodology' does not match folder name 'red-team-tools'
+⚠️  cc-skill-coding-standards/SKILL.md: Name 'coding-standards' does not match folder name 'cc-skill-coding-standards'
+⚠️  pdf-official/SKILL.md: Name 'pdf' does not match folder name 'pdf-official'
+⚠️  windows-privilege-escalation/SKILL.md: Name 'Windows Privilege Escalation' does not match folder name 'windows-privilege-escalation'
+⚠️  network-101/SKILL.md: Name 'Network 101' does not match folder name 'network-101'
+⚠️  infinite-gratitude/SKILL.md: Name 'Infinite Gratitude' does not match folder name 'infinite-gratitude'
+⚠️  broken-authentication/SKILL.md: Name 'Broken Authentication Testing' does not match folder name 'broken-authentication'
+⚠️  xss-html-injection/SKILL.md: Name 'Cross-Site Scripting and HTML Injection Testing' does not match folder name 'xss-html-injection'
+⚠️  cloud-penetration-testing/SKILL.md: Name 'Cloud Penetration Testing' does not match folder name 'cloud-penetration-testing'
+⚠️  metasploit-framework/SKILL.md: Name 'Metasploit Framework' does not match folder name 'metasploit-framework'
+⚠️  docx-official/SKILL.md: Name 'docx' does not match folder name 'docx-official'
+⚠️  active-directory-attacks/SKILL.md: Name 'Active Directory Attacks' does not match folder name 'active-directory-attacks'
+
+❌ Found 18 Critical Errors:
+❌  seo-audit/SKILL.md: Missing '## When to Use' section
+❌  form-cro/SKILL.md: Missing '## When to Use' section
+❌  nodejs-best-practices/SKILL.md: Missing '## When to Use' section
+❌ azure-ai-contentsafety-ts/SKILL.md: Missing or malformed YAML frontmatter
+❌ azure-eventhub-ts/SKILL.md: Missing or malformed YAML frontmatter
+❌  content-creator/SKILL.md: Missing '## When to Use' section
+❌  analytics-tracking/SKILL.md: Missing '## When to Use' section
+❌  schema-markup/SKILL.md: Missing '## When to Use' section
+❌  mcp-builder-ms/SKILL.md: Missing '## When to Use' section
+❌  context-compression/SKILL.md: Missing '## When to Use' section
+❌  python-patterns/SKILL.md: Missing '## When to Use' section
+❌  tailwind-patterns/SKILL.md: Missing '## When to Use' section
+❌ azure-cosmos-ts/SKILL.md: Missing or malformed YAML frontmatter
+❌ azure-search-documents-ts/SKILL.md: Missing or malformed YAML frontmatter
+❌ azure-keyvault-keys-ts/SKILL.md: Missing or malformed YAML frontmatter
+❌ azure-web-pubsub-ts/SKILL.md: Missing or malformed YAML frontmatter
+❌  programmatic-seo/SKILL.md: Missing '## When to Use' section
+❌  page-cro/SKILL.md: Missing '## When to Use' section

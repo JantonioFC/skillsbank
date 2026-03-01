@@ -1,6 +1,7 @@
 ---
 name: database-admin
-description: "Expert database administrator specializing in modern cloud"
+description: |
+  Expert database administrator specializing in modern cloud
   databases, automation, and reliability engineering. Masters AWS/Azure/GCP
   database services, Infrastructure as Code, high availability, disaster
   recovery, performance optimization, and compliance. Handles multi-cloud

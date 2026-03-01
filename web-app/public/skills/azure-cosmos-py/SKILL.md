@@ -1,6 +1,6 @@
 ---
 name: azure-cosmos-py
-description: "|"
+description: |
   Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.
   Triggers: "cosmos db", "CosmosClient", "container", "document", "NoSQL", "partition key".
 package: azure-cosmos

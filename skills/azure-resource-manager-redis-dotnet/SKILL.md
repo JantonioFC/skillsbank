@@ -1,24 +1,12 @@
 ---
 name: azure-resource-manager-redis-dotnet
-description: 'Azure Resource Manager SDK for Redis in .NET. Use for MANAGEMENT PLANE
-  operations: creating/managing Azure Cache for Redis instances, firewall rules, access
-  keys, patch schedules, linked servers (geo-replication), and private endpoints via
-  Azure Resource Manager. NOT for data plane operations (get/set keys, pub/sub) -
-  use StackExchange.Redis for that. Triggers: "Redis cache", "create Redis", "manage
-  Redis", "ARM Redis", "RedisResource", "provision Redis", "Azure Cache for Redis".
-
-  '
-package: Azure.ResourceManager.Redis
+description: |
 risk: unknown
 source: community
+date_added: "2026-02-27"
 ---
 
 # Azure.ResourceManager.Redis (.NET)
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Management plane SDK for provisioning and managing Azure Cache for Redis resources via Azure Resource Manager.
 

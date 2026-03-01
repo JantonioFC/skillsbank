@@ -1,23 +1,12 @@
 ---
 name: azure-servicebus-dotnet
-description: 'Azure Service Bus SDK for .NET. Enterprise messaging with queues, topics,
-  subscriptions, and sessions. Use for reliable message delivery, pub/sub patterns,
-  dead letter handling, and background processing. Triggers: "Service Bus", "ServiceBusClient",
-  "ServiceBusSender", "ServiceBusReceiver", "ServiceBusProcessor", "message queue",
-  "pub/sub .NET", "dead letter queue".
-
-  '
-package: Azure.Messaging.ServiceBus
+description: |
 risk: unknown
 source: community
+date_added: "2026-02-27"
 ---
 
 # Azure.Messaging.ServiceBus (.NET)
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Enterprise messaging SDK for reliable message delivery with queues, topics, subscriptions, and sessions.
 

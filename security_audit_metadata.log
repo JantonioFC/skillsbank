@@ -1,0 +1,1995 @@
+🔍 Validating skills in: /home/juan/Escritorio/antigravity-awesome-skills/skills
+⚙️  Mode: STRICT (CI)
+
+📊 Checked 859 skills.
+
+⚠️  Found 49 Warnings:
+⚠️  brand-guidelines-community/SKILL.md: Name 'brand-guidelines' does not match folder name 'brand-guidelines-community'
+⚠️  internal-comms-anthropic/SKILL.md: Name 'internal-comms' does not match folder name 'internal-comms-anthropic'
+⚠️  brand-guidelines-anthropic/SKILL.md: Name 'brand-guidelines' does not match folder name 'brand-guidelines-anthropic'
+⚠️  ssh-penetration-testing/SKILL.md: Name 'SSH Penetration Testing' does not match folder name 'ssh-penetration-testing'
+⚠️  xlsx-official/SKILL.md: Name 'xlsx' does not match folder name 'xlsx-official'
+⚠️  burp-suite-testing/SKILL.md: Name 'Burp Suite Web Application Testing' does not match folder name 'burp-suite-testing'
+⚠️  wordpress-penetration-testing/SKILL.md: Name 'WordPress Penetration Testing' does not match folder name 'wordpress-penetration-testing'
+⚠️  ethical-hacking-methodology/SKILL.md: Name 'Ethical Hacking Methodology' does not match folder name 'ethical-hacking-methodology'
+⚠️  file-path-traversal/SKILL.md: Name 'File Path Traversal Testing' does not match folder name 'file-path-traversal'
+⚠️  wireshark-analysis/SKILL.md: Name 'Wireshark Network Traffic Analysis' does not match folder name 'wireshark-analysis'
+⚠️  sqlmap-database-pentesting/SKILL.md: Name 'SQLMap Database Penetration Testing' does not match folder name 'sqlmap-database-pentesting'
+⚠️  aws-penetration-testing/SKILL.md: Name 'AWS Penetration Testing' does not match folder name 'aws-penetration-testing'
+⚠️  linux-privilege-escalation/SKILL.md: Name 'Linux Privilege Escalation' does not match folder name 'linux-privilege-escalation'
+⚠️  scanning-tools/SKILL.md: Name 'Security Scanning Tools' does not match folder name 'scanning-tools'
+⚠️  internal-comms-community/SKILL.md: Name 'internal-comms' does not match folder name 'internal-comms-community'
+⚠️  pentest-checklist/SKILL.md: Name 'Pentest Checklist' does not match folder name 'pentest-checklist'
+⚠️  sql-injection-testing/SKILL.md: Name 'SQL Injection Testing' does not match folder name 'sql-injection-testing'
+⚠️  mcp-builder-ms/SKILL.md: Name 'mcp-builder' does not match folder name 'mcp-builder-ms'
+⚠️  linux-shell-scripting/SKILL.md: Name 'Linux Production Shell Scripts' does not match folder name 'linux-shell-scripting'
+⚠️  react-best-practices/SKILL.md: Name 'vercel-react-best-practices' does not match folder name 'react-best-practices'
+⚠️  html-injection-testing/SKILL.md: Name 'HTML Injection Testing' does not match folder name 'html-injection-testing'
+⚠️  idor-testing/SKILL.md: Name 'IDOR Vulnerability Testing' does not match folder name 'idor-testing'
+⚠️  cc-skill-frontend-patterns/SKILL.md: Name 'frontend-patterns' does not match folder name 'cc-skill-frontend-patterns'
+⚠️  privilege-escalation-methods/SKILL.md: Name 'Privilege Escalation Methods' does not match folder name 'privilege-escalation-methods'
+⚠️  cc-skill-backend-patterns/SKILL.md: Name 'backend-patterns' does not match folder name 'cc-skill-backend-patterns'
+⚠️  cc-skill-security-review/SKILL.md: Name 'security-review' does not match folder name 'cc-skill-security-review'
+⚠️  claude-code-guide/SKILL.md: Name 'Claude Code Guide' does not match folder name 'claude-code-guide'
+⚠️  skill-creator-ms/SKILL.md: Name 'skill-creator' does not match folder name 'skill-creator-ms'
+⚠️  claude-d3js-skill/SKILL.md: Name 'd3-viz' does not match folder name 'claude-d3js-skill'
+⚠️  api-fuzzing-bug-bounty/SKILL.md: Name 'API Fuzzing for Bug Bounty' does not match folder name 'api-fuzzing-bug-bounty'
+⚠️  pentest-commands/SKILL.md: Name 'Pentest Commands' does not match folder name 'pentest-commands'
+⚠️  smtp-penetration-testing/SKILL.md: Name 'SMTP Penetration Testing' does not match folder name 'smtp-penetration-testing'
+⚠️  pptx-official/SKILL.md: Name 'pptx' does not match folder name 'pptx-official'
+⚠️  postgres-best-practices/SKILL.md: Name 'supabase-postgres-best-practices' does not match folder name 'postgres-best-practices'
+⚠️  top-web-vulnerabilities/SKILL.md: Name 'Top 100 Web Vulnerabilities Reference' does not match folder name 'top-web-vulnerabilities'
+⚠️  cc-skill-clickhouse-io/SKILL.md: Name 'clickhouse-io' does not match folder name 'cc-skill-clickhouse-io'
+⚠️  shodan-reconnaissance/SKILL.md: Name 'Shodan Reconnaissance and Pentesting' does not match folder name 'shodan-reconnaissance'
+⚠️  red-team-tools/SKILL.md: Name 'Red Team Tools and Methodology' does not match folder name 'red-team-tools'
+⚠️  cc-skill-coding-standards/SKILL.md: Name 'coding-standards' does not match folder name 'cc-skill-coding-standards'
+⚠️  pdf-official/SKILL.md: Name 'pdf' does not match folder name 'pdf-official'
+⚠️  windows-privilege-escalation/SKILL.md: Name 'Windows Privilege Escalation' does not match folder name 'windows-privilege-escalation'
+⚠️  network-101/SKILL.md: Name 'Network 101' does not match folder name 'network-101'
+⚠️  infinite-gratitude/SKILL.md: Name 'Infinite Gratitude' does not match folder name 'infinite-gratitude'
+⚠️  broken-authentication/SKILL.md: Name 'Broken Authentication Testing' does not match folder name 'broken-authentication'
+⚠️  xss-html-injection/SKILL.md: Name 'Cross-Site Scripting and HTML Injection Testing' does not match folder name 'xss-html-injection'
+⚠️  cloud-penetration-testing/SKILL.md: Name 'Cloud Penetration Testing' does not match folder name 'cloud-penetration-testing'
+⚠️  metasploit-framework/SKILL.md: Name 'Metasploit Framework' does not match folder name 'metasploit-framework'
+⚠️  docx-official/SKILL.md: Name 'docx' does not match folder name 'docx-official'
+⚠️  active-directory-attacks/SKILL.md: Name 'Active Directory Attacks' does not match folder name 'active-directory-attacks'
+
+❌ Found 1938 Critical Errors:
+❌  database-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  database-architect/SKILL.md: Missing 'source' attribution
+❌  seo-audit/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  seo-audit/SKILL.md: Missing 'source' attribution
+❌  seo-audit/SKILL.md: Missing '## When to Use' section
+❌  seo-snippet-hunter/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  seo-snippet-hunter/SKILL.md: Missing 'source' attribution
+❌  todoist-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  todoist-automation/SKILL.md: Missing 'source' attribution
+❌  todoist-automation/SKILL.md: Missing '## When to Use' section
+❌  seo-keyword-strategist/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  seo-keyword-strategist/SKILL.md: Missing 'source' attribution
+❌  brand-guidelines-community/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  brand-guidelines-community/SKILL.md: Missing 'source' attribution
+❌  brand-guidelines-community/SKILL.md: Missing '## When to Use' section
+❌  code-review-excellence/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  code-review-excellence/SKILL.md: Missing 'source' attribution
+❌  form-cro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  form-cro/SKILL.md: Missing 'source' attribution
+❌  form-cro/SKILL.md: Missing '## When to Use' section
+❌  monday-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  monday-automation/SKILL.md: Missing 'source' attribution
+❌  monday-automation/SKILL.md: Missing '## When to Use' section
+❌  azure-resource-manager-mysql-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-resource-manager-mysql-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-resource-manager-mysql-dotnet/SKILL.md: Missing '## When to Use' section
+❌  internal-comms-anthropic/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  internal-comms-anthropic/SKILL.md: Missing 'source' attribution
+❌  seo-content-auditor/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  seo-content-auditor/SKILL.md: Missing 'source' attribution
+❌  database-optimizer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  database-optimizer/SKILL.md: Missing 'source' attribution
+❌  startup-metrics-framework/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  startup-metrics-framework/SKILL.md: Missing 'source' attribution
+❌  cal-com-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cal-com-automation/SKILL.md: Missing 'source' attribution
+❌  cal-com-automation/SKILL.md: Missing '## When to Use' section
+❌  web3-testing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  web3-testing/SKILL.md: Missing 'source' attribution
+❌  k8s-manifest-generator/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  k8s-manifest-generator/SKILL.md: Missing 'source' attribution
+❌  workflow-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  workflow-automation/SKILL.md: Missing '## When to Use' section
+❌  nodejs-best-practices/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  nodejs-best-practices/SKILL.md: Missing 'source' attribution
+❌  nodejs-best-practices/SKILL.md: Missing '## When to Use' section
+❌  llm-application-dev-langchain-agent/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  llm-application-dev-langchain-agent/SKILL.md: Missing 'source' attribution
+❌  terraform-specialist/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  terraform-specialist/SKILL.md: Missing 'source' attribution
+❌  brand-guidelines-anthropic/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  brand-guidelines-anthropic/SKILL.md: Missing 'source' attribution
+❌  brand-guidelines-anthropic/SKILL.md: Missing '## When to Use' section
+❌  stripe-integration/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  stripe-integration/SKILL.md: Missing 'source' attribution
+❌  azure-ai-contentsafety-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-contentsafety-ts/SKILL.md: Missing 'source' attribution
+❌  azure-ai-contentsafety-ts/SKILL.md: Missing '## When to Use' section
+❌  tutorial-engineer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  tutorial-engineer/SKILL.md: Missing 'source' attribution
+❌  web-artifacts-builder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  web-artifacts-builder/SKILL.md: Missing 'source' attribution
+❌  web-artifacts-builder/SKILL.md: Missing '## When to Use' section
+❌  database-admin/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  database-admin/SKILL.md: Missing 'source' attribution
+❌  c-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  c-pro/SKILL.md: Missing 'source' attribution
+❌  slack-bot-builder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  slack-bot-builder/SKILL.md: Missing '## When to Use' section
+❌  ui-visual-validator/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ui-visual-validator/SKILL.md: Missing 'source' attribution
+❌  azure-eventhub-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-eventhub-java/SKILL.md: Missing 'source' attribution
+❌  azure-eventhub-java/SKILL.md: Missing '## When to Use' section
+❌  binary-analysis-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  binary-analysis-patterns/SKILL.md: Missing 'source' attribution
+❌  hybrid-cloud-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  hybrid-cloud-architect/SKILL.md: Missing 'source' attribution
+❌  copywriting/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  copywriting/SKILL.md: Missing 'source' attribution
+❌  copywriting/SKILL.md: Missing '## When to Use' section
+❌  startup-financial-modeling/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  startup-financial-modeling/SKILL.md: Missing 'source' attribution
+❌  employment-contract-templates/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  employment-contract-templates/SKILL.md: Missing 'source' attribution
+❌  competitive-landscape/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  competitive-landscape/SKILL.md: Missing 'source' attribution
+❌  cc-skill-project-guidelines-example/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cc-skill-project-guidelines-example/SKILL.md: Missing 'source' attribution
+❌  react-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  react-patterns/SKILL.md: Missing 'source' attribution
+❌  react-patterns/SKILL.md: Missing '## When to Use' section
+❌  typescript-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  typescript-pro/SKILL.md: Missing 'source' attribution
+❌  distributed-debugging-debug-trace/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  distributed-debugging-debug-trace/SKILL.md: Missing 'source' attribution
+❌  ssh-penetration-testing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ssh-penetration-testing/SKILL.md: Missing 'source' attribution
+❌  ssh-penetration-testing/SKILL.md: Missing '## When to Use' section
+❌  software-architecture/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  software-architecture/SKILL.md: Missing 'source' attribution
+❌  software-architecture/SKILL.md: Missing '## When to Use' section
+❌  tailwind-design-system/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  tailwind-design-system/SKILL.md: Missing 'source' attribution
+❌  threat-modeling-expert/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  threat-modeling-expert/SKILL.md: Missing 'source' attribution
+❌  data-engineering-data-pipeline/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  data-engineering-data-pipeline/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-applicationinsights-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-mgmt-applicationinsights-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-applicationinsights-dotnet/SKILL.md: Missing '## When to Use' section
+❌  ui-ux-pro-max/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ui-ux-pro-max/SKILL.md: Missing 'source' attribution
+❌  ui-ux-pro-max/SKILL.md: Missing '## When to Use' section
+❌  box-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  box-automation/SKILL.md: Missing 'source' attribution
+❌  box-automation/SKILL.md: Missing '## When to Use' section
+❌  accessibility-compliance-accessibility-audit/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  accessibility-compliance-accessibility-audit/SKILL.md: Missing 'source' attribution
+❌  prisma-expert/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  prisma-expert/SKILL.md: Missing 'source' attribution
+❌  prisma-expert/SKILL.md: Missing '## When to Use' section
+❌  embedding-strategies/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  embedding-strategies/SKILL.md: Missing 'source' attribution
+❌  deployment-engineer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  deployment-engineer/SKILL.md: Missing 'source' attribution
+❌  azure-ai-transcription-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-transcription-py/SKILL.md: Missing 'source' attribution
+❌  azure-ai-transcription-py/SKILL.md: Missing '## When to Use' section
+❌  fastapi-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  fastapi-pro/SKILL.md: Missing 'source' attribution
+❌  azure-eventhub-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-eventhub-ts/SKILL.md: Missing 'source' attribution
+❌  azure-eventhub-ts/SKILL.md: Missing '## When to Use' section
+❌  risk-metrics-calculation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  risk-metrics-calculation/SKILL.md: Missing 'source' attribution
+❌  xlsx-official/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  xlsx-official/SKILL.md: Missing 'source' attribution
+❌  xlsx-official/SKILL.md: Missing '## When to Use' section
+❌  burp-suite-testing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  burp-suite-testing/SKILL.md: Missing 'source' attribution
+❌  burp-suite-testing/SKILL.md: Missing '## When to Use' section
+❌  prompt-engineering-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  prompt-engineering-patterns/SKILL.md: Missing 'source' attribution
+❌  startup-analyst/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  startup-analyst/SKILL.md: Missing 'source' attribution
+❌  full-stack-orchestration-full-stack-feature/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  full-stack-orchestration-full-stack-feature/SKILL.md: Missing 'source' attribution
+❌  prometheus-configuration/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  prometheus-configuration/SKILL.md: Missing 'source' attribution
+❌  content-creator/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  content-creator/SKILL.md: Missing 'source' attribution
+❌  content-creator/SKILL.md: Missing '## When to Use' section
+❌  email-sequence/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  email-sequence/SKILL.md: Missing 'source' attribution
+❌  email-sequence/SKILL.md: Missing '## When to Use' section
+❌  azure-compute-batch-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-compute-batch-java/SKILL.md: Missing 'source' attribution
+❌  azure-compute-batch-java/SKILL.md: Missing '## When to Use' section
+❌  wordpress-penetration-testing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wordpress-penetration-testing/SKILL.md: Missing 'source' attribution
+❌  wordpress-penetration-testing/SKILL.md: Missing '## When to Use' section
+❌  workflow-orchestration-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  workflow-orchestration-patterns/SKILL.md: Missing 'source' attribution
+❌  modern-javascript-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  modern-javascript-patterns/SKILL.md: Missing 'source' attribution
+❌  scroll-experience/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  scroll-experience/SKILL.md: Missing '## When to Use' section
+❌  azure-monitor-opentelemetry-exporter-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-monitor-opentelemetry-exporter-java/SKILL.md: Missing 'source' attribution
+❌  azure-monitor-opentelemetry-exporter-java/SKILL.md: Missing '## When to Use' section
+❌  analytics-tracking/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  analytics-tracking/SKILL.md: Missing 'source' attribution
+❌  analytics-tracking/SKILL.md: Missing '## When to Use' section
+❌  agents-v2-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  agents-v2-py/SKILL.md: Missing 'source' attribution
+❌  agents-v2-py/SKILL.md: Missing '## When to Use' section
+❌  helm-chart-scaffolding/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  helm-chart-scaffolding/SKILL.md: Missing 'source' attribution
+❌  ethical-hacking-methodology/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ethical-hacking-methodology/SKILL.md: Missing 'source' attribution
+❌  ethical-hacking-methodology/SKILL.md: Missing '## When to Use' section
+❌  wiki-onboarding/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wiki-onboarding/SKILL.md: Missing 'source' attribution
+❌  wiki-onboarding/SKILL.md: Missing '## When to Use' section
+❌  context-management-context-save/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  context-management-context-save/SKILL.md: Missing 'source' attribution
+❌  azure-communication-callingserver-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-communication-callingserver-java/SKILL.md: Missing 'source' attribution
+❌  azure-communication-callingserver-java/SKILL.md: Missing '## When to Use' section
+❌  dbt-transformation-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  dbt-transformation-patterns/SKILL.md: Missing 'source' attribution
+❌  notion-template-business/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  notion-template-business/SKILL.md: Missing '## When to Use' section
+❌  python-packaging/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  python-packaging/SKILL.md: Missing 'source' attribution
+❌  file-path-traversal/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  file-path-traversal/SKILL.md: Missing 'source' attribution
+❌  file-path-traversal/SKILL.md: Missing '## When to Use' section
+❌  temporal-python-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  temporal-python-pro/SKILL.md: Missing 'source' attribution
+❌  backend-dev-guidelines/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  backend-dev-guidelines/SKILL.md: Missing 'source' attribution
+❌  backend-dev-guidelines/SKILL.md: Missing '## When to Use' section
+❌  react-modernization/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  react-modernization/SKILL.md: Missing 'source' attribution
+❌  product-manager-toolkit/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  product-manager-toolkit/SKILL.md: Missing 'source' attribution
+❌  product-manager-toolkit/SKILL.md: Missing '## When to Use' section
+❌  rust-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  rust-pro/SKILL.md: Missing 'source' attribution
+❌  seo-fundamentals/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  seo-fundamentals/SKILL.md: Missing 'source' attribution
+❌  seo-fundamentals/SKILL.md: Missing '## When to Use' section
+❌  inngest/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  inngest/SKILL.md: Missing '## When to Use' section
+❌  browser-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  browser-automation/SKILL.md: Missing '## When to Use' section
+❌  bun-development/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  bun-development/SKILL.md: Missing 'source' attribution
+❌  error-diagnostics-error-trace/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  error-diagnostics-error-trace/SKILL.md: Missing 'source' attribution
+❌  code-review-ai-ai-review/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  code-review-ai-ai-review/SKILL.md: Missing 'source' attribution
+❌  c4-container/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  c4-container/SKILL.md: Missing 'source' attribution
+❌  azure-maps-search-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-maps-search-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-maps-search-dotnet/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-translation-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-translation-ts/SKILL.md: Missing 'source' attribution
+❌  azure-ai-translation-ts/SKILL.md: Missing '## When to Use' section
+❌  slack-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  slack-automation/SKILL.md: Missing 'source' attribution
+❌  slack-automation/SKILL.md: Missing '## When to Use' section
+❌  observability-engineer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  observability-engineer/SKILL.md: Missing 'source' attribution
+❌  schema-markup/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  schema-markup/SKILL.md: Missing 'source' attribution
+❌  schema-markup/SKILL.md: Missing '## When to Use' section
+❌  docker-expert/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  docker-expert/SKILL.md: Missing 'source' attribution
+❌  docker-expert/SKILL.md: Missing '## When to Use' section
+❌  network-engineer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  network-engineer/SKILL.md: Missing 'source' attribution
+❌  php-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  php-pro/SKILL.md: Missing 'source' attribution
+❌  airtable-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  airtable-automation/SKILL.md: Missing 'source' attribution
+❌  airtable-automation/SKILL.md: Missing '## When to Use' section
+❌  architecture/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  architecture/SKILL.md: Missing 'source' attribution
+❌  architecture/SKILL.md: Missing '## When to Use' section
+❌  coda-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  coda-automation/SKILL.md: Missing 'source' attribution
+❌  coda-automation/SKILL.md: Missing '## When to Use' section
+❌  git-pr-workflows-pr-enhance/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  git-pr-workflows-pr-enhance/SKILL.md: Missing 'source' attribution
+❌  debugging-strategies/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  debugging-strategies/SKILL.md: Missing 'source' attribution
+❌  hybrid-search-implementation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  hybrid-search-implementation/SKILL.md: Missing 'source' attribution
+❌  wireshark-analysis/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wireshark-analysis/SKILL.md: Missing 'source' attribution
+❌  wireshark-analysis/SKILL.md: Missing '## When to Use' section
+❌  conductor-manage/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  conductor-manage/SKILL.md: Missing 'source' attribution
+❌  sqlmap-database-pentesting/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  sqlmap-database-pentesting/SKILL.md: Missing 'source' attribution
+❌  sqlmap-database-pentesting/SKILL.md: Missing '## When to Use' section
+❌  agent-memory-mcp/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  agent-memory-mcp/SKILL.md: Missing 'source' attribution
+❌  agent-memory-mcp/SKILL.md: Missing '## When to Use' section
+❌  freshservice-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  freshservice-automation/SKILL.md: Missing 'source' attribution
+❌  freshservice-automation/SKILL.md: Missing '## When to Use' section
+❌  frontend-dev-guidelines/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  frontend-dev-guidelines/SKILL.md: Missing 'source' attribution
+❌  frontend-dev-guidelines/SKILL.md: Missing '## When to Use' section
+❌  m365-agents-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  m365-agents-ts/SKILL.md: Missing 'source' attribution
+❌  m365-agents-ts/SKILL.md: Missing '## When to Use' section
+❌  architecture-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  architecture-patterns/SKILL.md: Missing 'source' attribution
+❌  defi-protocol-templates/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  defi-protocol-templates/SKILL.md: Missing 'source' attribution
+❌  azure-identity-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-identity-ts/SKILL.md: Missing 'source' attribution
+❌  azure-identity-ts/SKILL.md: Missing '## When to Use' section
+❌  testing-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  testing-patterns/SKILL.md: Missing 'source' attribution
+❌  testing-patterns/SKILL.md: Missing '## When to Use' section
+❌  backend-development-feature-development/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  backend-development-feature-development/SKILL.md: Missing 'source' attribution
+❌  git-pr-workflows-git-workflow/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  git-pr-workflows-git-workflow/SKILL.md: Missing 'source' attribution
+❌  tdd-orchestrator/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  tdd-orchestrator/SKILL.md: Missing 'source' attribution
+❌  ui-ux-designer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ui-ux-designer/SKILL.md: Missing 'source' attribution
+❌  nosql-expert/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  nosql-expert/SKILL.md: Missing 'source' attribution
+❌  zendesk-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  zendesk-automation/SKILL.md: Missing 'source' attribution
+❌  zendesk-automation/SKILL.md: Missing '## When to Use' section
+❌  computer-vision-expert/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  computer-vision-expert/SKILL.md: Missing 'source' attribution
+❌  api-testing-observability-api-mock/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  api-testing-observability-api-mock/SKILL.md: Missing 'source' attribution
+❌  error-handling-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  error-handling-patterns/SKILL.md: Missing 'source' attribution
+❌  wiki-researcher/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wiki-researcher/SKILL.md: Missing 'source' attribution
+❌  wiki-researcher/SKILL.md: Missing '## When to Use' section
+❌  nft-standards/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  nft-standards/SKILL.md: Missing 'source' attribution
+❌  postgresql/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  postgresql/SKILL.md: Missing 'source' attribution
+❌  github-actions-templates/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  github-actions-templates/SKILL.md: Missing 'source' attribution
+❌  framework-migration-code-migrate/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  framework-migration-code-migrate/SKILL.md: Missing 'source' attribution
+❌  azure-eventhub-rust/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-eventhub-rust/SKILL.md: Missing 'source' attribution
+❌  azure-eventhub-rust/SKILL.md: Missing '## When to Use' section
+❌  aws-penetration-testing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  aws-penetration-testing/SKILL.md: Missing 'source' attribution
+❌  aws-penetration-testing/SKILL.md: Missing '## When to Use' section
+❌  cc-skill-continuous-learning/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cc-skill-continuous-learning/SKILL.md: Missing 'source' attribution
+❌  cc-skill-continuous-learning/SKILL.md: Missing '## When to Use' section
+❌  kaizen/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  kaizen/SKILL.md: Missing 'source' attribution
+❌  vector-database-engineer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  vector-database-engineer/SKILL.md: Missing 'source' attribution
+❌  mlops-engineer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  mlops-engineer/SKILL.md: Missing 'source' attribution
+❌  asana-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  asana-automation/SKILL.md: Missing 'source' attribution
+❌  asana-automation/SKILL.md: Missing '## When to Use' section
+❌  security-requirement-extraction/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  security-requirement-extraction/SKILL.md: Missing 'source' attribution
+❌  azure-identity-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-identity-py/SKILL.md: Missing 'source' attribution
+❌  azure-identity-py/SKILL.md: Missing '## When to Use' section
+❌  react-ui-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  react-ui-patterns/SKILL.md: Missing 'source' attribution
+❌  react-ui-patterns/SKILL.md: Missing '## When to Use' section
+❌  firebase/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  firebase/SKILL.md: Missing '## When to Use' section
+❌  crewai/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  crewai/SKILL.md: Missing '## When to Use' section
+❌  azd-deployment/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azd-deployment/SKILL.md: Missing 'source' attribution
+❌  azd-deployment/SKILL.md: Missing '## When to Use' section
+❌  linkedin-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  linkedin-automation/SKILL.md: Missing 'source' attribution
+❌  linkedin-automation/SKILL.md: Missing '## When to Use' section
+❌  mobile-design/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  mobile-design/SKILL.md: Missing 'source' attribution
+❌  mobile-design/SKILL.md: Missing '## When to Use' section
+❌  agent-orchestration-multi-agent-optimize/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  agent-orchestration-multi-agent-optimize/SKILL.md: Missing 'source' attribution
+❌  turborepo-caching/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  turborepo-caching/SKILL.md: Missing 'source' attribution
+❌  linux-privilege-escalation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  linux-privilege-escalation/SKILL.md: Missing 'source' attribution
+❌  linux-privilege-escalation/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-agents-persistent-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-agents-persistent-java/SKILL.md: Missing 'source' attribution
+❌  azure-ai-agents-persistent-java/SKILL.md: Missing '## When to Use' section
+❌  mtls-configuration/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  mtls-configuration/SKILL.md: Missing 'source' attribution
+❌  azure-eventhub-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-eventhub-py/SKILL.md: Missing 'source' attribution
+❌  azure-eventhub-py/SKILL.md: Missing '## When to Use' section
+❌  data-engineer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  data-engineer/SKILL.md: Missing 'source' attribution
+❌  scanning-tools/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  scanning-tools/SKILL.md: Missing 'source' attribution
+❌  scanning-tools/SKILL.md: Missing '## When to Use' section
+❌  react-state-management/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  react-state-management/SKILL.md: Missing 'source' attribution
+❌  error-diagnostics-smart-debug/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  error-diagnostics-smart-debug/SKILL.md: Missing 'source' attribution
+❌  comprehensive-review-full-review/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  comprehensive-review-full-review/SKILL.md: Missing 'source' attribution
+❌  agent-orchestration-improve-agent/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  agent-orchestration-improve-agent/SKILL.md: Missing 'source' attribution
+❌  azure-messaging-webpubsub-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-messaging-webpubsub-java/SKILL.md: Missing 'source' attribution
+❌  azure-messaging-webpubsub-java/SKILL.md: Missing '## When to Use' section
+❌  internal-comms-community/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  internal-comms-community/SKILL.md: Missing 'source' attribution
+❌  hubspot-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  hubspot-automation/SKILL.md: Missing 'source' attribution
+❌  hubspot-automation/SKILL.md: Missing '## When to Use' section
+❌  pentest-checklist/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  pentest-checklist/SKILL.md: Missing 'source' attribution
+❌  pentest-checklist/SKILL.md: Missing '## When to Use' section
+❌  context-driven-development/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  context-driven-development/SKILL.md: Missing 'source' attribution
+❌  gcp-cloud-run/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  gcp-cloud-run/SKILL.md: Missing '## When to Use' section
+❌  wiki-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wiki-architect/SKILL.md: Missing 'source' attribution
+❌  wiki-architect/SKILL.md: Missing '## When to Use' section
+❌  launch-strategy/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  launch-strategy/SKILL.md: Missing 'source' attribution
+❌  launch-strategy/SKILL.md: Missing '## When to Use' section
+❌  code-review-checklist/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  code-review-checklist/SKILL.md: Missing 'source' attribution
+❌  framework-migration-deps-upgrade/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  framework-migration-deps-upgrade/SKILL.md: Missing 'source' attribution
+❌  referral-program/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  referral-program/SKILL.md: Missing 'source' attribution
+❌  referral-program/SKILL.md: Missing '## When to Use' section
+❌  firecrawl-scraper/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  firecrawl-scraper/SKILL.md: Missing 'source' attribution
+❌  stitch-ui-design/SKILL.md: Missing '## When to Use' section
+❌  sql-injection-testing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  sql-injection-testing/SKILL.md: Missing 'source' attribution
+❌  sql-injection-testing/SKILL.md: Missing '## When to Use' section
+❌  discord-bot-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  discord-bot-architect/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-voicelive-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-voicelive-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-ai-voicelive-dotnet/SKILL.md: Missing '## When to Use' section
+❌  seo-content-planner/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  seo-content-planner/SKILL.md: Missing 'source' attribution
+❌  code-refactoring-context-restore/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  code-refactoring-context-restore/SKILL.md: Missing 'source' attribution
+❌  posix-shell-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  posix-shell-pro/SKILL.md: Missing 'source' attribution
+❌  zustand-store-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  zustand-store-ts/SKILL.md: Missing 'source' attribution
+❌  zustand-store-ts/SKILL.md: Missing '## When to Use' section
+❌  tdd-workflows-tdd-cycle/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  tdd-workflows-tdd-cycle/SKILL.md: Missing 'source' attribution
+❌  using-git-worktrees/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  using-git-worktrees/SKILL.md: Missing 'source' attribution
+❌  using-git-worktrees/SKILL.md: Missing '## When to Use' section
+❌  debugger/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  debugger/SKILL.md: Missing 'source' attribution
+❌  context-window-management/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  context-window-management/SKILL.md: Missing '## When to Use' section
+❌  julia-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  julia-pro/SKILL.md: Missing 'source' attribution
+❌  seo-content-refresher/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  seo-content-refresher/SKILL.md: Missing 'source' attribution
+❌  gdpr-data-handling/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  gdpr-data-handling/SKILL.md: Missing 'source' attribution
+❌  azure-ai-translation-document-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-translation-document-py/SKILL.md: Missing 'source' attribution
+❌  azure-ai-translation-document-py/SKILL.md: Missing '## When to Use' section
+❌  azure-functions/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-functions/SKILL.md: Missing '## When to Use' section
+❌  azure-eventhub-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-eventhub-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-eventhub-dotnet/SKILL.md: Missing '## When to Use' section
+❌  performance-testing-review-multi-agent-review/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  performance-testing-review-multi-agent-review/SKILL.md: Missing 'source' attribution
+❌  uv-package-manager/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  uv-package-manager/SKILL.md: Missing 'source' attribution
+❌  frontend-security-coder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  frontend-security-coder/SKILL.md: Missing 'source' attribution
+❌  discord-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  discord-automation/SKILL.md: Missing 'source' attribution
+❌  discord-automation/SKILL.md: Missing '## When to Use' section
+❌  dependency-management-deps-audit/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  dependency-management-deps-audit/SKILL.md: Missing 'source' attribution
+❌  mcp-builder-ms/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  mcp-builder-ms/SKILL.md: Missing 'source' attribution
+❌  mcp-builder-ms/SKILL.md: Missing '## When to Use' section
+❌  finishing-a-development-branch/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  finishing-a-development-branch/SKILL.md: Missing 'source' attribution
+❌  finishing-a-development-branch/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-voicelive-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-voicelive-py/SKILL.md: Missing 'source' attribution
+❌  azure-ai-voicelive-py/SKILL.md: Missing '## When to Use' section
+❌  async-python-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  async-python-patterns/SKILL.md: Missing 'source' attribution
+❌  frontend-developer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  frontend-developer/SKILL.md: Missing 'source' attribution
+❌  square-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  square-automation/SKILL.md: Missing 'source' attribution
+❌  square-automation/SKILL.md: Missing '## When to Use' section
+❌  test-automator/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  test-automator/SKILL.md: Missing 'source' attribution
+❌  azure-ai-contentsafety-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-contentsafety-py/SKILL.md: Missing 'source' attribution
+❌  azure-ai-contentsafety-py/SKILL.md: Missing '## When to Use' section
+❌  sendgrid-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  sendgrid-automation/SKILL.md: Missing 'source' attribution
+❌  sendgrid-automation/SKILL.md: Missing '## When to Use' section
+❌  wcag-audit-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wcag-audit-patterns/SKILL.md: Missing 'source' attribution
+❌  seo-cannibalization-detector/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  seo-cannibalization-detector/SKILL.md: Missing 'source' attribution
+❌  postmark-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  postmark-automation/SKILL.md: Missing 'source' attribution
+❌  postmark-automation/SKILL.md: Missing '## When to Use' section
+❌  m365-agents-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  m365-agents-py/SKILL.md: Missing 'source' attribution
+❌  m365-agents-py/SKILL.md: Missing '## When to Use' section
+❌  nestjs-expert/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  nestjs-expert/SKILL.md: Missing 'source' attribution
+❌  nestjs-expert/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-vision-imageanalysis-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-vision-imageanalysis-py/SKILL.md: Missing 'source' attribution
+❌  azure-ai-vision-imageanalysis-py/SKILL.md: Missing '## When to Use' section
+❌  senior-fullstack/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  senior-fullstack/SKILL.md: Missing 'source' attribution
+❌  senior-fullstack/SKILL.md: Missing '## When to Use' section
+❌  obsidian-clipper-template-creator/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  obsidian-clipper-template-creator/SKILL.md: Missing 'source' attribution
+❌  obsidian-clipper-template-creator/SKILL.md: Missing '## When to Use' section
+❌  startup-business-analyst-market-opportunity/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  startup-business-analyst-market-opportunity/SKILL.md: Missing 'source' attribution
+❌  linux-shell-scripting/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  linux-shell-scripting/SKILL.md: Missing 'source' attribution
+❌  linux-shell-scripting/SKILL.md: Missing '## When to Use' section
+❌  geo-fundamentals/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  geo-fundamentals/SKILL.md: Missing 'source' attribution
+❌  geo-fundamentals/SKILL.md: Missing '## When to Use' section
+❌  scala-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  scala-pro/SKILL.md: Missing 'source' attribution
+❌  ai-wrapper-product/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ai-wrapper-product/SKILL.md: Missing '## When to Use' section
+❌  data-storytelling/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  data-storytelling/SKILL.md: Missing 'source' attribution
+❌  dotnet-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  dotnet-architect/SKILL.md: Missing 'source' attribution
+❌  data-quality-frameworks/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  data-quality-frameworks/SKILL.md: Missing 'source' attribution
+❌  busybox-on-windows/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  busybox-on-windows/SKILL.md: Missing 'source' attribution
+❌  busybox-on-windows/SKILL.md: Missing '## When to Use' section
+❌  hosted-agents-v2-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  hosted-agents-v2-py/SKILL.md: Missing 'source' attribution
+❌  hosted-agents-v2-py/SKILL.md: Missing '## When to Use' section
+❌  zoom-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  zoom-automation/SKILL.md: Missing 'source' attribution
+❌  zoom-automation/SKILL.md: Missing '## When to Use' section
+❌  whatsapp-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  whatsapp-automation/SKILL.md: Missing 'source' attribution
+❌  whatsapp-automation/SKILL.md: Missing '## When to Use' section
+❌  azure-resource-manager-playwright-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-resource-manager-playwright-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-resource-manager-playwright-dotnet/SKILL.md: Missing '## When to Use' section
+❌  cqrs-implementation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cqrs-implementation/SKILL.md: Missing 'source' attribution
+❌  solidity-security/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  solidity-security/SKILL.md: Missing 'source' attribution
+❌  langchain-architecture/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  langchain-architecture/SKILL.md: Missing 'source' attribution
+❌  hybrid-cloud-networking/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  hybrid-cloud-networking/SKILL.md: Missing 'source' attribution
+❌  server-management/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  server-management/SKILL.md: Missing 'source' attribution
+❌  server-management/SKILL.md: Missing '## When to Use' section
+❌  close-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  close-automation/SKILL.md: Missing 'source' attribution
+❌  close-automation/SKILL.md: Missing '## When to Use' section
+❌  auth-implementation-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  auth-implementation-patterns/SKILL.md: Missing 'source' attribution
+❌  deployment-pipeline-design/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  deployment-pipeline-design/SKILL.md: Missing 'source' attribution
+❌  secrets-management/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  secrets-management/SKILL.md: Missing 'source' attribution
+❌  react-best-practices/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  react-best-practices/SKILL.md: Missing 'source' attribution
+❌  react-best-practices/SKILL.md: Missing '## When to Use' section
+❌  onboarding-cro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  onboarding-cro/SKILL.md: Missing 'source' attribution
+❌  onboarding-cro/SKILL.md: Missing '## When to Use' section
+❌  frontend-ui-dark-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  frontend-ui-dark-ts/SKILL.md: Missing 'source' attribution
+❌  frontend-ui-dark-ts/SKILL.md: Missing '## When to Use' section
+❌  gitlab-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  gitlab-automation/SKILL.md: Missing 'source' attribution
+❌  gitlab-automation/SKILL.md: Missing '## When to Use' section
+❌  bullmq-specialist/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  bullmq-specialist/SKILL.md: Missing '## When to Use' section
+❌  nextjs-app-router-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  nextjs-app-router-patterns/SKILL.md: Missing 'source' attribution
+❌  customer-support/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  customer-support/SKILL.md: Missing 'source' attribution
+❌  prompt-library/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  prompt-library/SKILL.md: Missing 'source' attribution
+❌  seo-meta-optimizer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  seo-meta-optimizer/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-fabric-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-mgmt-fabric-py/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-fabric-py/SKILL.md: Missing '## When to Use' section
+❌  calendly-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  calendly-automation/SKILL.md: Missing 'source' attribution
+❌  calendly-automation/SKILL.md: Missing '## When to Use' section
+❌  cloud-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cloud-architect/SKILL.md: Missing 'source' attribution
+❌  github-issue-creator/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  github-issue-creator/SKILL.md: Missing 'source' attribution
+❌  github-issue-creator/SKILL.md: Missing '## When to Use' section
+❌  database-migrations-sql-migrations/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  database-migrations-sql-migrations/SKILL.md: Missing 'source' attribution
+❌  azure-ai-contentsafety-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-contentsafety-java/SKILL.md: Missing 'source' attribution
+❌  azure-ai-contentsafety-java/SKILL.md: Missing '## When to Use' section
+❌  loki-mode/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  loki-mode/SKILL.md: Missing 'source' attribution
+❌  loki-mode/SKILL.md: Missing '## When to Use' section
+❌  last30days/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  last30days/SKILL.md: Missing 'source' attribution
+❌  last30days/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-contentunderstanding-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-contentunderstanding-py/SKILL.md: Missing 'source' attribution
+❌  azure-ai-contentunderstanding-py/SKILL.md: Missing '## When to Use' section
+❌  machine-learning-ops-ml-pipeline/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  machine-learning-ops-ml-pipeline/SKILL.md: Missing 'source' attribution
+❌  framework-migration-legacy-modernize/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  framework-migration-legacy-modernize/SKILL.md: Missing 'source' attribution
+❌  competitor-alternatives/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  competitor-alternatives/SKILL.md: Missing 'source' attribution
+❌  competitor-alternatives/SKILL.md: Missing '## When to Use' section
+❌  typescript-advanced-types/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  typescript-advanced-types/SKILL.md: Missing 'source' attribution
+❌  python-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  python-pro/SKILL.md: Missing 'source' attribution
+❌  azure-monitor-query-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-monitor-query-java/SKILL.md: Missing 'source' attribution
+❌  azure-monitor-query-java/SKILL.md: Missing '## When to Use' section
+❌  clickup-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  clickup-automation/SKILL.md: Missing 'source' attribution
+❌  clickup-automation/SKILL.md: Missing '## When to Use' section
+❌  go-concurrency-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  go-concurrency-patterns/SKILL.md: Missing 'source' attribution
+❌  rag-implementation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  rag-implementation/SKILL.md: Missing 'source' attribution
+❌  signup-flow-cro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  signup-flow-cro/SKILL.md: Missing 'source' attribution
+❌  signup-flow-cro/SKILL.md: Missing '## When to Use' section
+❌  jira-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  jira-automation/SKILL.md: Missing 'source' attribution
+❌  jira-automation/SKILL.md: Missing '## When to Use' section
+❌  llm-application-dev-ai-assistant/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  llm-application-dev-ai-assistant/SKILL.md: Missing 'source' attribution
+❌  marketing-ideas/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  marketing-ideas/SKILL.md: Missing 'source' attribution
+❌  marketing-ideas/SKILL.md: Missing '## When to Use' section
+❌  error-diagnostics-error-analysis/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  error-diagnostics-error-analysis/SKILL.md: Missing 'source' attribution
+❌  blockchain-developer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  blockchain-developer/SKILL.md: Missing 'source' attribution
+❌  code-refactoring-tech-debt/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  code-refactoring-tech-debt/SKILL.md: Missing 'source' attribution
+❌  track-management/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  track-management/SKILL.md: Missing 'source' attribution
+❌  conversation-memory/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  conversation-memory/SKILL.md: Missing '## When to Use' section
+❌  azure-mgmt-arizeaiobservabilityeval-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-mgmt-arizeaiobservabilityeval-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-arizeaiobservabilityeval-dotnet/SKILL.md: Missing '## When to Use' section
+❌  azure-storage-blob-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-storage-blob-ts/SKILL.md: Missing 'source' attribution
+❌  azure-storage-blob-ts/SKILL.md: Missing '## When to Use' section
+❌  linkerd-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  linkerd-patterns/SKILL.md: Missing 'source' attribution
+❌  spark-optimization/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  spark-optimization/SKILL.md: Missing 'source' attribution
+❌  verification-before-completion/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  verification-before-completion/SKILL.md: Missing 'source' attribution
+❌  verification-before-completion/SKILL.md: Missing '## When to Use' section
+❌  azure-appconfiguration-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-appconfiguration-java/SKILL.md: Missing 'source' attribution
+❌  azure-appconfiguration-java/SKILL.md: Missing '## When to Use' section
+❌  frontend-design/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  frontend-design/SKILL.md: Missing 'source' attribution
+❌  frontend-design/SKILL.md: Missing '## When to Use' section
+❌  azure-containerregistry-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-containerregistry-py/SKILL.md: Missing 'source' attribution
+❌  azure-containerregistry-py/SKILL.md: Missing '## When to Use' section
+❌  javascript-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  javascript-pro/SKILL.md: Missing 'source' attribution
+❌  security-scanning-security-sast/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  security-scanning-security-sast/SKILL.md: Missing 'source' attribution
+❌  azure-security-keyvault-secrets-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-security-keyvault-secrets-java/SKILL.md: Missing 'source' attribution
+❌  azure-security-keyvault-secrets-java/SKILL.md: Missing '## When to Use' section
+❌  bamboohr-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  bamboohr-automation/SKILL.md: Missing 'source' attribution
+❌  bamboohr-automation/SKILL.md: Missing '## When to Use' section
+❌  wiki-llms-txt/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wiki-llms-txt/SKILL.md: Missing 'source' attribution
+❌  wiki-llms-txt/SKILL.md: Missing '## When to Use' section
+❌  protocol-reverse-engineering/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  protocol-reverse-engineering/SKILL.md: Missing 'source' attribution
+❌  graphql-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  graphql-architect/SKILL.md: Missing 'source' attribution
+❌  conductor-revert/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  conductor-revert/SKILL.md: Missing 'source' attribution
+❌  agent-manager-skill/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  agent-manager-skill/SKILL.md: Missing 'source' attribution
+❌  azure-storage-file-share-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-storage-file-share-py/SKILL.md: Missing 'source' attribution
+❌  azure-storage-file-share-py/SKILL.md: Missing '## When to Use' section
+❌  outlook-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  outlook-automation/SKILL.md: Missing 'source' attribution
+❌  outlook-automation/SKILL.md: Missing '## When to Use' section
+❌  csharp-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  csharp-pro/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-botservice-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-mgmt-botservice-py/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-botservice-py/SKILL.md: Missing '## When to Use' section
+❌  html-injection-testing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  html-injection-testing/SKILL.md: Missing 'source' attribution
+❌  html-injection-testing/SKILL.md: Missing '## When to Use' section
+❌  plan-writing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  plan-writing/SKILL.md: Missing 'source' attribution
+❌  voice-ai-development/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  voice-ai-development/SKILL.md: Missing '## When to Use' section
+❌  idor-testing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  idor-testing/SKILL.md: Missing 'source' attribution
+❌  idor-testing/SKILL.md: Missing '## When to Use' section
+❌  agent-memory-systems/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  agent-memory-systems/SKILL.md: Missing '## When to Use' section
+❌  cc-skill-frontend-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cc-skill-frontend-patterns/SKILL.md: Missing 'source' attribution
+❌  cc-skill-frontend-patterns/SKILL.md: Missing '## When to Use' section
+❌  content-marketer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  content-marketer/SKILL.md: Missing 'source' attribution
+❌  screen-reader-testing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  screen-reader-testing/SKILL.md: Missing 'source' attribution
+❌  temporal-python-testing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  temporal-python-testing/SKILL.md: Missing 'source' attribution
+❌  zapier-make-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  zapier-make-patterns/SKILL.md: Missing '## When to Use' section
+❌  frontend-slides/SKILL.md: Missing '## When to Use' section
+❌  llm-application-dev-prompt-optimize/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  llm-application-dev-prompt-optimize/SKILL.md: Missing 'source' attribution
+❌  risk-manager/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  risk-manager/SKILL.md: Missing 'source' attribution
+❌  subagent-driven-development/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  subagent-driven-development/SKILL.md: Missing 'source' attribution
+❌  gitops-workflow/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  gitops-workflow/SKILL.md: Missing 'source' attribution
+❌  nextjs-best-practices/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  nextjs-best-practices/SKILL.md: Missing 'source' attribution
+❌  nextjs-best-practices/SKILL.md: Missing '## When to Use' section
+❌  twitter-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  twitter-automation/SKILL.md: Missing 'source' attribution
+❌  twitter-automation/SKILL.md: Missing '## When to Use' section
+❌  ios-developer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ios-developer/SKILL.md: Missing 'source' attribution
+❌  prompt-caching/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  prompt-caching/SKILL.md: Missing '## When to Use' section
+❌  privilege-escalation-methods/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  privilege-escalation-methods/SKILL.md: Missing 'source' attribution
+❌  privilege-escalation-methods/SKILL.md: Missing '## When to Use' section
+❌  api-documentation-generator/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  api-documentation-generator/SKILL.md: Missing 'source' attribution
+❌  projection-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  projection-patterns/SKILL.md: Missing 'source' attribution
+❌  address-github-comments/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  address-github-comments/SKILL.md: Missing 'source' attribution
+❌  address-github-comments/SKILL.md: Missing '## When to Use' section
+❌  lint-and-validate/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  lint-and-validate/SKILL.md: Missing 'source' attribution
+❌  lint-and-validate/SKILL.md: Missing '## When to Use' section
+❌  pipedrive-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  pipedrive-automation/SKILL.md: Missing 'source' attribution
+❌  pipedrive-automation/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-voicelive-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-voicelive-java/SKILL.md: Missing 'source' attribution
+❌  azure-ai-voicelive-java/SKILL.md: Missing '## When to Use' section
+❌  context-compression/SKILL.md: Missing '## When to Use' section
+❌  azure-communication-sms-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-communication-sms-java/SKILL.md: Missing 'source' attribution
+❌  azure-communication-sms-java/SKILL.md: Missing '## When to Use' section
+❌  anti-reversing-techniques/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  anti-reversing-techniques/SKILL.md: Missing 'source' attribution
+❌  game-development/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  game-development/SKILL.md: Missing 'source' attribution
+❌  game-development/pc-games/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  game-development/pc-games/SKILL.md: Missing 'source' attribution
+❌  game-development/pc-games/SKILL.md: Missing '## When to Use' section
+❌  game-development/vr-ar/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  game-development/vr-ar/SKILL.md: Missing 'source' attribution
+❌  game-development/vr-ar/SKILL.md: Missing '## When to Use' section
+❌  game-development/game-art/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  game-development/game-art/SKILL.md: Missing 'source' attribution
+❌  game-development/game-art/SKILL.md: Missing '## When to Use' section
+❌  game-development/web-games/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  game-development/web-games/SKILL.md: Missing 'source' attribution
+❌  game-development/web-games/SKILL.md: Missing '## When to Use' section
+❌  game-development/mobile-games/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  game-development/mobile-games/SKILL.md: Missing 'source' attribution
+❌  game-development/mobile-games/SKILL.md: Missing '## When to Use' section
+❌  game-development/game-audio/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  game-development/game-audio/SKILL.md: Missing 'source' attribution
+❌  game-development/game-audio/SKILL.md: Missing '## When to Use' section
+❌  game-development/3d-games/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  game-development/3d-games/SKILL.md: Missing 'source' attribution
+❌  game-development/3d-games/SKILL.md: Missing '## When to Use' section
+❌  game-development/2d-games/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  game-development/2d-games/SKILL.md: Missing 'source' attribution
+❌  game-development/2d-games/SKILL.md: Missing '## When to Use' section
+❌  game-development/game-design/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  game-development/game-design/SKILL.md: Missing 'source' attribution
+❌  game-development/game-design/SKILL.md: Missing '## When to Use' section
+❌  game-development/multiplayer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  game-development/multiplayer/SKILL.md: Missing 'source' attribution
+❌  game-development/multiplayer/SKILL.md: Missing '## When to Use' section
+❌  azure-resource-manager-redis-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-resource-manager-redis-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-resource-manager-redis-dotnet/SKILL.md: Missing '## When to Use' section
+❌  cc-skill-backend-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cc-skill-backend-patterns/SKILL.md: Missing 'source' attribution
+❌  cc-skill-backend-patterns/SKILL.md: Missing '## When to Use' section
+❌  webflow-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  webflow-automation/SKILL.md: Missing 'source' attribution
+❌  webflow-automation/SKILL.md: Missing '## When to Use' section
+❌  golang-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  golang-pro/SKILL.md: Missing 'source' attribution
+❌  azure-resource-manager-durabletask-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-resource-manager-durabletask-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-resource-manager-durabletask-dotnet/SKILL.md: Missing '## When to Use' section
+❌  web-design-guidelines/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  web-design-guidelines/SKILL.md: Missing 'source' attribution
+❌  web-design-guidelines/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-projects-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-projects-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-ai-projects-dotnet/SKILL.md: Missing '## When to Use' section
+❌  azure-search-documents-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-search-documents-py/SKILL.md: Missing 'source' attribution
+❌  azure-search-documents-py/SKILL.md: Missing '## When to Use' section
+❌  bazel-build-optimization/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  bazel-build-optimization/SKILL.md: Missing 'source' attribution
+❌  azure-monitor-opentelemetry-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-monitor-opentelemetry-ts/SKILL.md: Missing 'source' attribution
+❌  azure-monitor-opentelemetry-ts/SKILL.md: Missing '## When to Use' section
+❌  concise-planning/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  concise-planning/SKILL.md: Missing 'source' attribution
+❌  concise-planning/SKILL.md: Missing '## When to Use' section
+❌  interactive-portfolio/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  interactive-portfolio/SKILL.md: Missing '## When to Use' section
+❌  gemini-api-dev/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  gemini-api-dev/SKILL.md: Missing 'source' attribution
+❌  gemini-api-dev/SKILL.md: Missing '## When to Use' section
+❌  reddit-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  reddit-automation/SKILL.md: Missing 'source' attribution
+❌  reddit-automation/SKILL.md: Missing '## When to Use' section
+❌  behavioral-modes/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  behavioral-modes/SKILL.md: Missing 'source' attribution
+❌  behavioral-modes/SKILL.md: Missing '## When to Use' section
+❌  aws-serverless/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  aws-serverless/SKILL.md: Missing '## When to Use' section
+❌  hr-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  hr-pro/SKILL.md: Missing 'source' attribution
+❌  tdd-workflows-tdd-green/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  tdd-workflows-tdd-green/SKILL.md: Missing 'source' attribution
+❌  workflow-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  workflow-patterns/SKILL.md: Missing 'source' attribution
+❌  devops-troubleshooter/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  devops-troubleshooter/SKILL.md: Missing 'source' attribution
+❌  trigger-dev/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  trigger-dev/SKILL.md: Missing '## When to Use' section
+❌  azure-appconfiguration-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-appconfiguration-ts/SKILL.md: Missing 'source' attribution
+❌  azure-appconfiguration-ts/SKILL.md: Missing '## When to Use' section
+❌  seo-authority-builder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  seo-authority-builder/SKILL.md: Missing 'source' attribution
+❌  prompt-engineer/SKILL.md: Missing 'source' attribution
+❌  wiki-page-writer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wiki-page-writer/SKILL.md: Missing 'source' attribution
+❌  wiki-page-writer/SKILL.md: Missing '## When to Use' section
+❌  azure-cosmos-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-cosmos-java/SKILL.md: Missing 'source' attribution
+❌  azure-cosmos-java/SKILL.md: Missing '## When to Use' section
+❌  api-documenter/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  api-documenter/SKILL.md: Missing 'source' attribution
+❌  voice-ai-engine-development/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  voice-ai-engine-development/SKILL.md: Missing 'source' attribution
+❌  git-pushing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  git-pushing/SKILL.md: Missing 'source' attribution
+❌  slo-implementation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  slo-implementation/SKILL.md: Missing 'source' attribution
+❌  free-tool-strategy/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  free-tool-strategy/SKILL.md: Missing 'source' attribution
+❌  free-tool-strategy/SKILL.md: Missing '## When to Use' section
+❌  vercel-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  vercel-automation/SKILL.md: Missing 'source' attribution
+❌  vercel-automation/SKILL.md: Missing '## When to Use' section
+❌  azure-postgres-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-postgres-ts/SKILL.md: Missing 'source' attribution
+❌  azure-postgres-ts/SKILL.md: Missing '## When to Use' section
+❌  mermaid-expert/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  mermaid-expert/SKILL.md: Missing 'source' attribution
+❌  angular-migration/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  angular-migration/SKILL.md: Missing 'source' attribution
+❌  tiktok-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  tiktok-automation/SKILL.md: Missing 'source' attribution
+❌  tiktok-automation/SKILL.md: Missing '## When to Use' section
+❌  tdd-workflows-tdd-red/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  tdd-workflows-tdd-red/SKILL.md: Missing 'source' attribution
+❌  api-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  api-patterns/SKILL.md: Missing 'source' attribution
+❌  api-patterns/SKILL.md: Missing '## When to Use' section
+❌  azure-data-tables-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-data-tables-java/SKILL.md: Missing 'source' attribution
+❌  azure-data-tables-java/SKILL.md: Missing '## When to Use' section
+❌  executing-plans/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  executing-plans/SKILL.md: Missing 'source' attribution
+❌  executing-plans/SKILL.md: Missing '## When to Use' section
+❌  mcp-builder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  mcp-builder/SKILL.md: Missing 'source' attribution
+❌  mcp-builder/SKILL.md: Missing '## When to Use' section
+❌  context7-auto-research/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  context7-auto-research/SKILL.md: Missing 'source' attribution
+❌  voice-agents/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  voice-agents/SKILL.md: Missing '## When to Use' section
+❌  skill-creator/SKILL.md: Missing 'source' attribution
+❌  monorepo-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  monorepo-architect/SKILL.md: Missing 'source' attribution
+❌  instagram-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  instagram-automation/SKILL.md: Missing 'source' attribution
+❌  instagram-automation/SKILL.md: Missing '## When to Use' section
+❌  viral-generator-builder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  viral-generator-builder/SKILL.md: Missing '## When to Use' section
+❌  avalonia-layout-zafiro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  avalonia-layout-zafiro/SKILL.md: Missing 'source' attribution
+❌  avalonia-layout-zafiro/SKILL.md: Missing '## When to Use' section
+❌  event-store-design/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  event-store-design/SKILL.md: Missing 'source' attribution
+❌  c4-component/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  c4-component/SKILL.md: Missing 'source' attribution
+❌  reverse-engineer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  reverse-engineer/SKILL.md: Missing 'source' attribution
+❌  bats-testing-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  bats-testing-patterns/SKILL.md: Missing 'source' attribution
+❌  haskell-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  haskell-pro/SKILL.md: Missing 'source' attribution
+❌  cc-skill-security-review/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cc-skill-security-review/SKILL.md: Missing 'source' attribution
+❌  cc-skill-security-review/SKILL.md: Missing '## When to Use' section
+❌  java-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  java-pro/SKILL.md: Missing 'source' attribution
+❌  multi-cloud-architecture/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  multi-cloud-architecture/SKILL.md: Missing 'source' attribution
+❌  search-specialist/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  search-specialist/SKILL.md: Missing 'source' attribution
+❌  nx-workspace-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  nx-workspace-patterns/SKILL.md: Missing 'source' attribution
+❌  python-testing-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  python-testing-patterns/SKILL.md: Missing 'source' attribution
+❌  canva-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  canva-automation/SKILL.md: Missing 'source' attribution
+❌  canva-automation/SKILL.md: Missing '## When to Use' section
+❌  theme-factory/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  theme-factory/SKILL.md: Missing 'source' attribution
+❌  theme-factory/SKILL.md: Missing '## When to Use' section
+❌  brainstorming/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  brainstorming/SKILL.md: Missing 'source' attribution
+❌  brainstorming/SKILL.md: Missing '## When to Use' section
+❌  skill-developer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  skill-developer/SKILL.md: Missing 'source' attribution
+❌  conductor-new-track/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  conductor-new-track/SKILL.md: Missing 'source' attribution
+❌  team-composition-analysis/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  team-composition-analysis/SKILL.md: Missing 'source' attribution
+❌  seo-structure-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  seo-structure-architect/SKILL.md: Missing 'source' attribution
+❌  claude-code-guide/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  claude-code-guide/SKILL.md: Missing 'source' attribution
+❌  claude-code-guide/SKILL.md: Missing '## When to Use' section
+❌  upstash-qstash/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  upstash-qstash/SKILL.md: Missing '## When to Use' section
+❌  debugging-toolkit-smart-debug/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  debugging-toolkit-smart-debug/SKILL.md: Missing 'source' attribution
+❌  mobile-security-coder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  mobile-security-coder/SKILL.md: Missing 'source' attribution
+❌  skill-creator-ms/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  skill-creator-ms/SKILL.md: Missing 'source' attribution
+❌  skill-creator-ms/SKILL.md: Missing '## When to Use' section
+❌  documentation-templates/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  documentation-templates/SKILL.md: Missing 'source' attribution
+❌  documentation-templates/SKILL.md: Missing '## When to Use' section
+❌  azure-monitor-ingestion-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-monitor-ingestion-py/SKILL.md: Missing 'source' attribution
+❌  azure-monitor-ingestion-py/SKILL.md: Missing '## When to Use' section
+❌  azure-messaging-webpubsubservice-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-messaging-webpubsubservice-py/SKILL.md: Missing 'source' attribution
+❌  azure-messaging-webpubsubservice-py/SKILL.md: Missing '## When to Use' section
+❌  azure-storage-queue-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-storage-queue-ts/SKILL.md: Missing 'source' attribution
+❌  azure-storage-queue-ts/SKILL.md: Missing '## When to Use' section
+❌  azure-storage-file-share-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-storage-file-share-ts/SKILL.md: Missing 'source' attribution
+❌  azure-storage-file-share-ts/SKILL.md: Missing '## When to Use' section
+❌  stripe-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  stripe-automation/SKILL.md: Missing 'source' attribution
+❌  stripe-automation/SKILL.md: Missing '## When to Use' section
+❌  cost-optimization/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cost-optimization/SKILL.md: Missing 'source' attribution
+❌  ml-pipeline-workflow/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ml-pipeline-workflow/SKILL.md: Missing 'source' attribution
+❌  browser-extension-builder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  browser-extension-builder/SKILL.md: Missing '## When to Use' section
+❌  azure-storage-blob-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-storage-blob-py/SKILL.md: Missing 'source' attribution
+❌  azure-storage-blob-py/SKILL.md: Missing '## When to Use' section
+❌  slack-gif-creator/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  slack-gif-creator/SKILL.md: Missing 'source' attribution
+❌  slack-gif-creator/SKILL.md: Missing '## When to Use' section
+❌  notion-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  notion-automation/SKILL.md: Missing 'source' attribution
+❌  notion-automation/SKILL.md: Missing '## When to Use' section
+❌  code-documentation-doc-generate/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  code-documentation-doc-generate/SKILL.md: Missing 'source' attribution
+❌  azure-identity-rust/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-identity-rust/SKILL.md: Missing 'source' attribution
+❌  azure-identity-rust/SKILL.md: Missing '## When to Use' section
+❌  mobile-developer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  mobile-developer/SKILL.md: Missing 'source' attribution
+❌  team-collaboration-standup-notes/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  team-collaboration-standup-notes/SKILL.md: Missing 'source' attribution
+❌  using-superpowers/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  using-superpowers/SKILL.md: Missing 'source' attribution
+❌  using-superpowers/SKILL.md: Missing '## When to Use' section
+❌  vulnerability-scanner/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  vulnerability-scanner/SKILL.md: Missing 'source' attribution
+❌  vulnerability-scanner/SKILL.md: Missing '## When to Use' section
+❌  documentation-generation-doc-generate/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  documentation-generation-doc-generate/SKILL.md: Missing 'source' attribution
+❌  sql-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  sql-pro/SKILL.md: Missing 'source' attribution
+❌  azure-ai-document-intelligence-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-document-intelligence-ts/SKILL.md: Missing 'source' attribution
+❌  azure-ai-document-intelligence-ts/SKILL.md: Missing '## When to Use' section
+❌  service-mesh-observability/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  service-mesh-observability/SKILL.md: Missing 'source' attribution
+❌  azure-ai-textanalytics-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-textanalytics-py/SKILL.md: Missing 'source' attribution
+❌  azure-ai-textanalytics-py/SKILL.md: Missing '## When to Use' section
+❌  google-calendar-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  google-calendar-automation/SKILL.md: Missing 'source' attribution
+❌  google-calendar-automation/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-translation-text-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-translation-text-py/SKILL.md: Missing 'source' attribution
+❌  azure-ai-translation-text-py/SKILL.md: Missing '## When to Use' section
+❌  personal-tool-builder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  personal-tool-builder/SKILL.md: Missing '## When to Use' section
+❌  fastapi-templates/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  fastapi-templates/SKILL.md: Missing 'source' attribution
+❌  frontend-mobile-security-xss-scan/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  frontend-mobile-security-xss-scan/SKILL.md: Missing 'source' attribution
+❌  bash-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  bash-pro/SKILL.md: Missing 'source' attribution
+❌  design-orchestration/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  design-orchestration/SKILL.md: Missing 'source' attribution
+❌  design-orchestration/SKILL.md: Missing '## When to Use' section
+❌  azure-keyvault-keys-rust/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-keyvault-keys-rust/SKILL.md: Missing 'source' attribution
+❌  azure-keyvault-keys-rust/SKILL.md: Missing '## When to Use' section
+❌  database-cloud-optimization-cost-optimize/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  database-cloud-optimization-cost-optimize/SKILL.md: Missing 'source' attribution
+❌  cpp-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cpp-pro/SKILL.md: Missing 'source' attribution
+❌  azure-ai-anomalydetector-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-anomalydetector-java/SKILL.md: Missing 'source' attribution
+❌  azure-ai-anomalydetector-java/SKILL.md: Missing '## When to Use' section
+❌  github-workflow-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  github-workflow-automation/SKILL.md: Missing 'source' attribution
+❌  writing-skills/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  writing-skills/SKILL.md: Missing 'source' attribution
+❌  webapp-testing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  webapp-testing/SKILL.md: Missing 'source' attribution
+❌  webapp-testing/SKILL.md: Missing '## When to Use' section
+❌  azure-identity-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-identity-java/SKILL.md: Missing 'source' attribution
+❌  azure-identity-java/SKILL.md: Missing '## When to Use' section
+❌  microsoft-teams-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  microsoft-teams-automation/SKILL.md: Missing 'source' attribution
+❌  microsoft-teams-automation/SKILL.md: Missing '## When to Use' section
+❌  claude-d3js-skill/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  claude-d3js-skill/SKILL.md: Missing 'source' attribution
+❌  git-advanced-workflows/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  git-advanced-workflows/SKILL.md: Missing 'source' attribution
+❌  3d-web-experience/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  3d-web-experience/SKILL.md: Missing '## When to Use' section
+❌  azure-resource-manager-postgresql-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-resource-manager-postgresql-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-resource-manager-postgresql-dotnet/SKILL.md: Missing '## When to Use' section
+❌  api-fuzzing-bug-bounty/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  api-fuzzing-bug-bounty/SKILL.md: Missing 'source' attribution
+❌  api-fuzzing-bug-bounty/SKILL.md: Missing '## When to Use' section
+❌  core-components/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  core-components/SKILL.md: Missing 'source' attribution
+❌  core-components/SKILL.md: Missing '## When to Use' section
+❌  javascript-mastery/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  javascript-mastery/SKILL.md: Missing 'source' attribution
+❌  stride-analysis-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  stride-analysis-patterns/SKILL.md: Missing 'source' attribution
+❌  dispatching-parallel-agents/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  dispatching-parallel-agents/SKILL.md: Missing 'source' attribution
+❌  legacy-modernizer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  legacy-modernizer/SKILL.md: Missing 'source' attribution
+❌  red-team-tactics/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  red-team-tactics/SKILL.md: Missing 'source' attribution
+❌  red-team-tactics/SKILL.md: Missing '## When to Use' section
+❌  brevo-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  brevo-automation/SKILL.md: Missing 'source' attribution
+❌  brevo-automation/SKILL.md: Missing '## When to Use' section
+❌  azure-cosmos-db-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-cosmos-db-py/SKILL.md: Missing 'source' attribution
+❌  azure-cosmos-db-py/SKILL.md: Missing '## When to Use' section
+❌  azure-resource-manager-sql-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-resource-manager-sql-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-resource-manager-sql-dotnet/SKILL.md: Missing '## When to Use' section
+❌  powershell-windows/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  powershell-windows/SKILL.md: Missing 'source' attribution
+❌  powershell-windows/SKILL.md: Missing '## When to Use' section
+❌  azure-keyvault-certificates-rust/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-keyvault-certificates-rust/SKILL.md: Missing 'source' attribution
+❌  azure-keyvault-certificates-rust/SKILL.md: Missing '## When to Use' section
+❌  monorepo-management/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  monorepo-management/SKILL.md: Missing 'source' attribution
+❌  payment-integration/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  payment-integration/SKILL.md: Missing 'source' attribution
+❌  social-content/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  social-content/SKILL.md: Missing 'source' attribution
+❌  social-content/SKILL.md: Missing '## When to Use' section
+❌  bitbucket-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  bitbucket-automation/SKILL.md: Missing 'source' attribution
+❌  bitbucket-automation/SKILL.md: Missing '## When to Use' section
+❌  changelog-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  changelog-automation/SKILL.md: Missing 'source' attribution
+❌  ai-agents-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ai-agents-architect/SKILL.md: Missing '## When to Use' section
+❌  azure-search-documents-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-search-documents-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-search-documents-dotnet/SKILL.md: Missing '## When to Use' section
+❌  azure-storage-queue-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-storage-queue-py/SKILL.md: Missing 'source' attribution
+❌  azure-storage-queue-py/SKILL.md: Missing '## When to Use' section
+❌  email-systems/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  email-systems/SKILL.md: Missing '## When to Use' section
+❌  pci-compliance/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  pci-compliance/SKILL.md: Missing 'source' attribution
+❌  sales-automator/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  sales-automator/SKILL.md: Missing 'source' attribution
+❌  terraform-module-library/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  terraform-module-library/SKILL.md: Missing 'source' attribution
+❌  salesforce-development/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  salesforce-development/SKILL.md: Missing '## When to Use' section
+❌  context-manager/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  context-manager/SKILL.md: Missing 'source' attribution
+❌  llm-evaluation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  llm-evaluation/SKILL.md: Missing 'source' attribution
+❌  pricing-strategy/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  pricing-strategy/SKILL.md: Missing 'source' attribution
+❌  pricing-strategy/SKILL.md: Missing '## When to Use' section
+❌  quant-analyst/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  quant-analyst/SKILL.md: Missing 'source' attribution
+❌  bash-linux/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  bash-linux/SKILL.md: Missing 'source' attribution
+❌  bash-linux/SKILL.md: Missing '## When to Use' section
+❌  moodle-external-api-development/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  moodle-external-api-development/SKILL.md: Missing 'source' attribution
+❌  azure-microsoft-playwright-testing-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-microsoft-playwright-testing-ts/SKILL.md: Missing 'source' attribution
+❌  azure-microsoft-playwright-testing-ts/SKILL.md: Missing '## When to Use' section
+❌  incident-responder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  incident-responder/SKILL.md: Missing 'source' attribution
+❌  render-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  render-automation/SKILL.md: Missing 'source' attribution
+❌  render-automation/SKILL.md: Missing '## When to Use' section
+❌  paid-ads/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  paid-ads/SKILL.md: Missing 'source' attribution
+❌  paid-ads/SKILL.md: Missing '## When to Use' section
+❌  wiki-agents-md/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wiki-agents-md/SKILL.md: Missing 'source' attribution
+❌  wiki-agents-md/SKILL.md: Missing '## When to Use' section
+❌  observability-monitoring-monitor-setup/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  observability-monitoring-monitor-setup/SKILL.md: Missing 'source' attribution
+❌  research-engineer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  research-engineer/SKILL.md: Missing 'source' attribution
+❌  research-engineer/SKILL.md: Missing '## When to Use' section
+❌  security-compliance-compliance-check/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  security-compliance-compliance-check/SKILL.md: Missing 'source' attribution
+❌  intercom-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  intercom-automation/SKILL.md: Missing 'source' attribution
+❌  intercom-automation/SKILL.md: Missing '## When to Use' section
+❌  supabase-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  supabase-automation/SKILL.md: Missing 'source' attribution
+❌  supabase-automation/SKILL.md: Missing '## When to Use' section
+❌  notebooklm/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  notebooklm/SKILL.md: Missing 'source' attribution
+❌  sast-configuration/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  sast-configuration/SKILL.md: Missing 'source' attribution
+❌  azure-eventgrid-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-eventgrid-java/SKILL.md: Missing 'source' attribution
+❌  azure-eventgrid-java/SKILL.md: Missing '## When to Use' section
+❌  python-performance-optimization/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  python-performance-optimization/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-apicenter-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-mgmt-apicenter-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-apicenter-dotnet/SKILL.md: Missing '## When to Use' section
+❌  azure-mgmt-apimanagement-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-mgmt-apimanagement-py/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-apimanagement-py/SKILL.md: Missing '## When to Use' section
+❌  service-mesh-expert/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  service-mesh-expert/SKILL.md: Missing 'source' attribution
+❌  security-scanning-security-dependencies/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  security-scanning-security-dependencies/SKILL.md: Missing 'source' attribution
+❌  azure-security-keyvault-keys-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-security-keyvault-keys-java/SKILL.md: Missing 'source' attribution
+❌  azure-security-keyvault-keys-java/SKILL.md: Missing '## When to Use' section
+❌  threat-mitigation-mapping/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  threat-mitigation-mapping/SKILL.md: Missing 'source' attribution
+❌  performance-engineer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  performance-engineer/SKILL.md: Missing 'source' attribution
+❌  pentest-commands/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  pentest-commands/SKILL.md: Missing 'source' attribution
+❌  pentest-commands/SKILL.md: Missing '## When to Use' section
+❌  azure-mgmt-mongodbatlas-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-mgmt-mongodbatlas-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-mongodbatlas-dotnet/SKILL.md: Missing '## When to Use' section
+❌  performance-testing-review-ai-review/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  performance-testing-review-ai-review/SKILL.md: Missing 'source' attribution
+❌  azure-monitor-ingestion-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-monitor-ingestion-java/SKILL.md: Missing 'source' attribution
+❌  azure-monitor-ingestion-java/SKILL.md: Missing '## When to Use' section
+❌  requesting-code-review/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  requesting-code-review/SKILL.md: Missing 'source' attribution
+❌  requesting-code-review/SKILL.md: Missing '## When to Use' section
+❌  outlook-calendar-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  outlook-calendar-automation/SKILL.md: Missing 'source' attribution
+❌  outlook-calendar-automation/SKILL.md: Missing '## When to Use' section
+❌  azure-cosmos-rust/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-cosmos-rust/SKILL.md: Missing 'source' attribution
+❌  azure-cosmos-rust/SKILL.md: Missing '## When to Use' section
+❌  salesforce-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  salesforce-automation/SKILL.md: Missing 'source' attribution
+❌  salesforce-automation/SKILL.md: Missing '## When to Use' section
+❌  azure-servicebus-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-servicebus-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-servicebus-dotnet/SKILL.md: Missing '## When to Use' section
+❌  systems-programming-rust-project/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  systems-programming-rust-project/SKILL.md: Missing 'source' attribution
+❌  c4-context/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  c4-context/SKILL.md: Missing 'source' attribution
+❌  azure-keyvault-secrets-rust/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-keyvault-secrets-rust/SKILL.md: Missing 'source' attribution
+❌  azure-keyvault-secrets-rust/SKILL.md: Missing '## When to Use' section
+❌  data-scientist/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  data-scientist/SKILL.md: Missing 'source' attribution
+❌  file-organizer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  file-organizer/SKILL.md: Missing 'source' attribution
+❌  azure-data-tables-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-data-tables-py/SKILL.md: Missing 'source' attribution
+❌  azure-data-tables-py/SKILL.md: Missing '## When to Use' section
+❌  zoho-crm-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  zoho-crm-automation/SKILL.md: Missing 'source' attribution
+❌  zoho-crm-automation/SKILL.md: Missing '## When to Use' section
+❌  django-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  django-pro/SKILL.md: Missing 'source' attribution
+❌  ab-test-setup/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ab-test-setup/SKILL.md: Missing 'source' attribution
+❌  ab-test-setup/SKILL.md: Missing '## When to Use' section
+❌  react-flow-node-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  react-flow-node-ts/SKILL.md: Missing 'source' attribution
+❌  react-flow-node-ts/SKILL.md: Missing '## When to Use' section
+❌  azure-storage-blob-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-storage-blob-java/SKILL.md: Missing 'source' attribution
+❌  azure-storage-blob-java/SKILL.md: Missing '## When to Use' section
+❌  azure-servicebus-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-servicebus-ts/SKILL.md: Missing 'source' attribution
+❌  azure-servicebus-ts/SKILL.md: Missing '## When to Use' section
+❌  kpi-dashboard-design/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  kpi-dashboard-design/SKILL.md: Missing 'source' attribution
+❌  youtube-summarizer/SKILL.md: Missing 'source' attribution
+❌  smtp-penetration-testing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  smtp-penetration-testing/SKILL.md: Missing 'source' attribution
+❌  smtp-penetration-testing/SKILL.md: Missing '## When to Use' section
+❌  playwright-skill/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  playwright-skill/SKILL.md: Missing 'source' attribution
+❌  playwright-skill/SKILL.md: Missing '## When to Use' section
+❌  app-store-optimization/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  app-store-optimization/SKILL.md: Missing 'source' attribution
+❌  app-store-optimization/SKILL.md: Missing '## When to Use' section
+❌  datadog-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  datadog-automation/SKILL.md: Missing 'source' attribution
+❌  datadog-automation/SKILL.md: Missing '## When to Use' section
+❌  pptx-official/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  pptx-official/SKILL.md: Missing 'source' attribution
+❌  pptx-official/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-projects-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-projects-py/SKILL.md: Missing 'source' attribution
+❌  azure-ai-projects-py/SKILL.md: Missing '## When to Use' section
+❌  deployment-validation-config-validate/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  deployment-validation-config-validate/SKILL.md: Missing 'source' attribution
+❌  paywall-upgrade-cro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  paywall-upgrade-cro/SKILL.md: Missing 'source' attribution
+❌  paywall-upgrade-cro/SKILL.md: Missing '## When to Use' section
+❌  database-migrations-migration-observability/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  database-migrations-migration-observability/SKILL.md: Missing 'source' attribution
+❌  seo-content-writer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  seo-content-writer/SKILL.md: Missing 'source' attribution
+❌  neon-postgres/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  neon-postgres/SKILL.md: Missing '## When to Use' section
+❌  file-uploads/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  file-uploads/SKILL.md: Missing '## When to Use' section
+❌  azure-security-keyvault-keys-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-security-keyvault-keys-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-security-keyvault-keys-dotnet/SKILL.md: Missing '## When to Use' section
+❌  market-sizing-analysis/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  market-sizing-analysis/SKILL.md: Missing 'source' attribution
+❌  azure-keyvault-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-keyvault-py/SKILL.md: Missing 'source' attribution
+❌  azure-keyvault-py/SKILL.md: Missing '## When to Use' section
+❌  conductor-setup/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  conductor-setup/SKILL.md: Missing 'source' attribution
+❌  popup-cro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  popup-cro/SKILL.md: Missing 'source' attribution
+❌  popup-cro/SKILL.md: Missing '## When to Use' section
+❌  k8s-security-policies/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  k8s-security-policies/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-fabric-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-mgmt-fabric-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-fabric-dotnet/SKILL.md: Missing '## When to Use' section
+❌  e2e-testing-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  e2e-testing-patterns/SKILL.md: Missing 'source' attribution
+❌  docusign-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  docusign-automation/SKILL.md: Missing 'source' attribution
+❌  docusign-automation/SKILL.md: Missing '## When to Use' section
+❌  pagerduty-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  pagerduty-automation/SKILL.md: Missing 'source' attribution
+❌  pagerduty-automation/SKILL.md: Missing '## When to Use' section
+❌  database-design/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  database-design/SKILL.md: Missing 'source' attribution
+❌  database-design/SKILL.md: Missing '## When to Use' section
+❌  autonomous-agents/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  autonomous-agents/SKILL.md: Missing '## When to Use' section
+❌  azure-speech-to-text-rest-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-speech-to-text-rest-py/SKILL.md: Missing 'source' attribution
+❌  azure-speech-to-text-rest-py/SKILL.md: Missing '## When to Use' section
+❌  segment-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  segment-automation/SKILL.md: Missing 'source' attribution
+❌  segment-automation/SKILL.md: Missing '## When to Use' section
+❌  comprehensive-review-pr-enhance/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  comprehensive-review-pr-enhance/SKILL.md: Missing 'source' attribution
+❌  langfuse/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  langfuse/SKILL.md: Missing '## When to Use' section
+❌  rag-engineer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  rag-engineer/SKILL.md: Missing '## When to Use' section
+❌  azure-communication-chat-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-communication-chat-java/SKILL.md: Missing 'source' attribution
+❌  azure-communication-chat-java/SKILL.md: Missing '## When to Use' section
+❌  plaid-fintech/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  plaid-fintech/SKILL.md: Missing '## When to Use' section
+❌  unit-testing-test-generate/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  unit-testing-test-generate/SKILL.md: Missing 'source' attribution
+❌  code-reviewer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  code-reviewer/SKILL.md: Missing 'source' attribution
+❌  ai-product/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ai-product/SKILL.md: Missing '## When to Use' section
+❌  application-performance-performance-optimization/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  application-performance-performance-optimization/SKILL.md: Missing 'source' attribution
+❌  python-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  python-patterns/SKILL.md: Missing 'source' attribution
+❌  python-patterns/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-openai-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-openai-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-ai-openai-dotnet/SKILL.md: Missing '## When to Use' section
+❌  memory-forensics/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  memory-forensics/SKILL.md: Missing 'source' attribution
+❌  audio-transcriber/SKILL.md: Missing 'source' attribution
+❌  reference-builder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  reference-builder/SKILL.md: Missing 'source' attribution
+❌  one-drive-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  one-drive-automation/SKILL.md: Missing 'source' attribution
+❌  one-drive-automation/SKILL.md: Missing '## When to Use' section
+❌  error-debugging-error-analysis/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  error-debugging-error-analysis/SKILL.md: Missing 'source' attribution
+❌  planning-with-files/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  planning-with-files/SKILL.md: Missing 'source' attribution
+❌  godot-gdscript-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  godot-gdscript-patterns/SKILL.md: Missing 'source' attribution
+❌  attack-tree-construction/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  attack-tree-construction/SKILL.md: Missing 'source' attribution
+❌  api-design-principles/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  api-design-principles/SKILL.md: Missing 'source' attribution
+❌  sentry-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  sentry-automation/SKILL.md: Missing 'source' attribution
+❌  sentry-automation/SKILL.md: Missing '## When to Use' section
+❌  postgres-best-practices/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  postgres-best-practices/SKILL.md: Missing 'source' attribution
+❌  postgres-best-practices/SKILL.md: Missing '## When to Use' section
+❌  code-refactoring-refactor-clean/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  code-refactoring-refactor-clean/SKILL.md: Missing 'source' attribution
+❌  top-web-vulnerabilities/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  top-web-vulnerabilities/SKILL.md: Missing 'source' attribution
+❌  top-web-vulnerabilities/SKILL.md: Missing '## When to Use' section
+❌  multi-platform-apps-multi-platform/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  multi-platform-apps-multi-platform/SKILL.md: Missing 'source' attribution
+❌  azure-ai-projects-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-projects-java/SKILL.md: Missing 'source' attribution
+❌  azure-ai-projects-java/SKILL.md: Missing '## When to Use' section
+❌  azure-eventgrid-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-eventgrid-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-eventgrid-dotnet/SKILL.md: Missing '## When to Use' section
+❌  javascript-testing-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  javascript-testing-patterns/SKILL.md: Missing 'source' attribution
+❌  conductor-implement/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  conductor-implement/SKILL.md: Missing 'source' attribution
+❌  bash-defensive-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  bash-defensive-patterns/SKILL.md: Missing 'source' attribution
+❌  context-management-context-restore/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  context-management-context-restore/SKILL.md: Missing 'source' attribution
+❌  google-drive-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  google-drive-automation/SKILL.md: Missing 'source' attribution
+❌  google-drive-automation/SKILL.md: Missing '## When to Use' section
+❌  twilio-communications/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  twilio-communications/SKILL.md: Missing '## When to Use' section
+❌  dx-optimizer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  dx-optimizer/SKILL.md: Missing 'source' attribution
+❌  cicd-automation-workflow-automate/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cicd-automation-workflow-automate/SKILL.md: Missing 'source' attribution
+❌  minecraft-bukkit-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  minecraft-bukkit-pro/SKILL.md: Missing 'source' attribution
+❌  fastapi-router-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  fastapi-router-py/SKILL.md: Missing 'source' attribution
+❌  fastapi-router-py/SKILL.md: Missing '## When to Use' section
+❌  codex-review/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  codex-review/SKILL.md: Missing 'source' attribution
+❌  architecture-decision-records/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  architecture-decision-records/SKILL.md: Missing 'source' attribution
+❌  azure-identity-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-identity-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-identity-dotnet/SKILL.md: Missing '## When to Use' section
+❌  error-detective/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  error-detective/SKILL.md: Missing 'source' attribution
+❌  ruby-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ruby-pro/SKILL.md: Missing 'source' attribution
+❌  airflow-dag-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  airflow-dag-patterns/SKILL.md: Missing 'source' attribution
+❌  frontend-mobile-development-component-scaffold/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  frontend-mobile-development-component-scaffold/SKILL.md: Missing 'source' attribution
+❌  azure-storage-blob-rust/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-storage-blob-rust/SKILL.md: Missing 'source' attribution
+❌  azure-storage-blob-rust/SKILL.md: Missing '## When to Use' section
+❌  environment-setup-guide/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  environment-setup-guide/SKILL.md: Missing 'source' attribution
+❌  angular-best-practices/SKILL.md: Missing '## When to Use' section
+❌  tailwind-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  tailwind-patterns/SKILL.md: Missing 'source' attribution
+❌  tailwind-patterns/SKILL.md: Missing '## When to Use' section
+❌  production-code-audit/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  production-code-audit/SKILL.md: Missing 'source' attribution
+❌  codebase-cleanup-tech-debt/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  codebase-cleanup-tech-debt/SKILL.md: Missing 'source' attribution
+❌  startup-business-analyst-business-case/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  startup-business-analyst-business-case/SKILL.md: Missing 'source' attribution
+❌  firmware-analyst/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  firmware-analyst/SKILL.md: Missing 'source' attribution
+❌  test-driven-development/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  test-driven-development/SKILL.md: Missing 'source' attribution
+❌  cc-skill-clickhouse-io/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cc-skill-clickhouse-io/SKILL.md: Missing 'source' attribution
+❌  cc-skill-clickhouse-io/SKILL.md: Missing '## When to Use' section
+❌  exa-search/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  exa-search/SKILL.md: Missing 'source' attribution
+❌  architect-review/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  architect-review/SKILL.md: Missing 'source' attribution
+❌  javascript-typescript-typescript-scaffold/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  javascript-typescript-typescript-scaffold/SKILL.md: Missing 'source' attribution
+❌  billing-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  billing-automation/SKILL.md: Missing 'source' attribution
+❌  postmortem-writing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  postmortem-writing/SKILL.md: Missing 'source' attribution
+❌  on-call-handoff-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  on-call-handoff-patterns/SKILL.md: Missing 'source' attribution
+❌  istio-traffic-management/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  istio-traffic-management/SKILL.md: Missing 'source' attribution
+❌  arm-cortex-expert/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  arm-cortex-expert/SKILL.md: Missing 'source' attribution
+❌  amplitude-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  amplitude-automation/SKILL.md: Missing 'source' attribution
+❌  amplitude-automation/SKILL.md: Missing '## When to Use' section
+❌  dropbox-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  dropbox-automation/SKILL.md: Missing 'source' attribution
+❌  dropbox-automation/SKILL.md: Missing '## When to Use' section
+❌  graphql/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  graphql/SKILL.md: Missing '## When to Use' section
+❌  m365-agents-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  m365-agents-dotnet/SKILL.md: Missing 'source' attribution
+❌  m365-agents-dotnet/SKILL.md: Missing '## When to Use' section
+❌  multi-agent-brainstorming/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  multi-agent-brainstorming/SKILL.md: Missing 'source' attribution
+❌  multi-agent-brainstorming/SKILL.md: Missing '## When to Use' section
+❌  agent-evaluation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  agent-evaluation/SKILL.md: Missing '## When to Use' section
+❌  nextjs-supabase-auth/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  nextjs-supabase-auth/SKILL.md: Missing '## When to Use' section
+❌  shodan-reconnaissance/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  shodan-reconnaissance/SKILL.md: Missing 'source' attribution
+❌  shodan-reconnaissance/SKILL.md: Missing '## When to Use' section
+❌  conductor-validator/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  conductor-validator/SKILL.md: Missing 'source' attribution
+❌  dotnet-backend-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  dotnet-backend-patterns/SKILL.md: Missing 'source' attribution
+❌  incident-response-incident-response/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  incident-response-incident-response/SKILL.md: Missing 'source' attribution
+❌  legal-advisor/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  legal-advisor/SKILL.md: Missing 'source' attribution
+❌  wiki-changelog/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wiki-changelog/SKILL.md: Missing 'source' attribution
+❌  wiki-changelog/SKILL.md: Missing '## When to Use' section
+❌  vector-index-tuning/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  vector-index-tuning/SKILL.md: Missing 'source' attribution
+❌  unity-ecs-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  unity-ecs-patterns/SKILL.md: Missing 'source' attribution
+❌  hubspot-integration/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  hubspot-integration/SKILL.md: Missing '## When to Use' section
+❌  google-analytics-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  google-analytics-automation/SKILL.md: Missing 'source' attribution
+❌  google-analytics-automation/SKILL.md: Missing '## When to Use' section
+❌  deployment-procedures/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  deployment-procedures/SKILL.md: Missing 'source' attribution
+❌  deployment-procedures/SKILL.md: Missing '## When to Use' section
+❌  performance-profiling/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  performance-profiling/SKILL.md: Missing 'source' attribution
+❌  performance-profiling/SKILL.md: Missing '## When to Use' section
+❌  micro-saas-launcher/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  micro-saas-launcher/SKILL.md: Missing '## When to Use' section
+❌  azure-resource-manager-cosmosdb-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-resource-manager-cosmosdb-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-resource-manager-cosmosdb-dotnet/SKILL.md: Missing '## When to Use' section
+❌  database-migration/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  database-migration/SKILL.md: Missing 'source' attribution
+❌  error-debugging-error-trace/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  error-debugging-error-trace/SKILL.md: Missing 'source' attribution
+❌  red-team-tools/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  red-team-tools/SKILL.md: Missing 'source' attribution
+❌  red-team-tools/SKILL.md: Missing '## When to Use' section
+❌  telegram-bot-builder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  telegram-bot-builder/SKILL.md: Missing '## When to Use' section
+❌  azure-storage-file-datalake-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-storage-file-datalake-py/SKILL.md: Missing 'source' attribution
+❌  azure-storage-file-datalake-py/SKILL.md: Missing '## When to Use' section
+❌  wiki-ado-convert/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wiki-ado-convert/SKILL.md: Missing 'source' attribution
+❌  wiki-ado-convert/SKILL.md: Missing '## When to Use' section
+❌  cc-skill-coding-standards/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cc-skill-coding-standards/SKILL.md: Missing 'source' attribution
+❌  cc-skill-coding-standards/SKILL.md: Missing '## When to Use' section
+❌  klaviyo-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  klaviyo-automation/SKILL.md: Missing 'source' attribution
+❌  klaviyo-automation/SKILL.md: Missing '## When to Use' section
+❌  docs-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  docs-architect/SKILL.md: Missing 'source' attribution
+❌  backend-security-coder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  backend-security-coder/SKILL.md: Missing 'source' attribution
+❌  autonomous-agent-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  autonomous-agent-patterns/SKILL.md: Missing 'source' attribution
+❌  mixpanel-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  mixpanel-automation/SKILL.md: Missing 'source' attribution
+❌  mixpanel-automation/SKILL.md: Missing '## When to Use' section
+❌  canvas-design/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  canvas-design/SKILL.md: Missing 'source' attribution
+❌  canvas-design/SKILL.md: Missing '## When to Use' section
+❌  podcast-generation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  podcast-generation/SKILL.md: Missing 'source' attribution
+❌  podcast-generation/SKILL.md: Missing '## When to Use' section
+❌  microservices-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  microservices-patterns/SKILL.md: Missing 'source' attribution
+❌  computer-use-agents/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  computer-use-agents/SKILL.md: Missing '## When to Use' section
+❌  dependency-upgrade/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  dependency-upgrade/SKILL.md: Missing 'source' attribution
+❌  openapi-spec-generation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  openapi-spec-generation/SKILL.md: Missing 'source' attribution
+❌  copilot-sdk/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  copilot-sdk/SKILL.md: Missing 'source' attribution
+❌  copilot-sdk/SKILL.md: Missing '## When to Use' section
+❌  telegram-mini-app/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  telegram-mini-app/SKILL.md: Missing '## When to Use' section
+❌  telegram-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  telegram-automation/SKILL.md: Missing 'source' attribution
+❌  telegram-automation/SKILL.md: Missing '## When to Use' section
+❌  miro-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  miro-automation/SKILL.md: Missing 'source' attribution
+❌  miro-automation/SKILL.md: Missing '## When to Use' section
+❌  segment-cdp/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  segment-cdp/SKILL.md: Missing '## When to Use' section
+❌  saga-orchestration/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  saga-orchestration/SKILL.md: Missing 'source' attribution
+❌  agent-tool-builder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  agent-tool-builder/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-document-intelligence-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-document-intelligence-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-ai-document-intelligence-dotnet/SKILL.md: Missing '## When to Use' section
+❌  azure-mgmt-apicenter-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-mgmt-apicenter-py/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-apicenter-py/SKILL.md: Missing '## When to Use' section
+❌  avalonia-viewmodels-zafiro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  avalonia-viewmodels-zafiro/SKILL.md: Missing 'source' attribution
+❌  avalonia-viewmodels-zafiro/SKILL.md: Missing '## When to Use' section
+❌  c4-code/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  c4-code/SKILL.md: Missing 'source' attribution
+❌  gmail-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  gmail-automation/SKILL.md: Missing 'source' attribution
+❌  gmail-automation/SKILL.md: Missing '## When to Use' section
+❌  mailchimp-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  mailchimp-automation/SKILL.md: Missing 'source' attribution
+❌  mailchimp-automation/SKILL.md: Missing '## When to Use' section
+❌  azure-keyvault-secrets-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-keyvault-secrets-ts/SKILL.md: Missing 'source' attribution
+❌  azure-keyvault-secrets-ts/SKILL.md: Missing '## When to Use' section
+❌  doc-coauthoring/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  doc-coauthoring/SKILL.md: Missing 'source' attribution
+❌  doc-coauthoring/SKILL.md: Missing '## When to Use' section
+❌  azure-monitor-query-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-monitor-query-py/SKILL.md: Missing 'source' attribution
+❌  azure-monitor-query-py/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-formrecognizer-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-formrecognizer-java/SKILL.md: Missing 'source' attribution
+❌  azure-ai-formrecognizer-java/SKILL.md: Missing '## When to Use' section
+❌  basecamp-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  basecamp-automation/SKILL.md: Missing 'source' attribution
+❌  basecamp-automation/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-voicelive-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-voicelive-ts/SKILL.md: Missing 'source' attribution
+❌  azure-ai-voicelive-ts/SKILL.md: Missing '## When to Use' section
+❌  azure-mgmt-botservice-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-mgmt-botservice-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-botservice-dotnet/SKILL.md: Missing '## When to Use' section
+❌  code-documentation-code-explain/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  code-documentation-code-explain/SKILL.md: Missing 'source' attribution
+❌  azure-cosmos-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-cosmos-py/SKILL.md: Missing 'source' attribution
+❌  azure-cosmos-py/SKILL.md: Missing '## When to Use' section
+❌  parallel-agents/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  parallel-agents/SKILL.md: Missing 'source' attribution
+❌  senior-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  senior-architect/SKILL.md: Missing 'source' attribution
+❌  senior-architect/SKILL.md: Missing '## When to Use' section
+❌  nodejs-backend-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  nodejs-backend-patterns/SKILL.md: Missing 'source' attribution
+❌  github-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  github-automation/SKILL.md: Missing 'source' attribution
+❌  github-automation/SKILL.md: Missing '## When to Use' section
+❌  similarity-search-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  similarity-search-patterns/SKILL.md: Missing 'source' attribution
+❌  wiki-qa/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wiki-qa/SKILL.md: Missing 'source' attribution
+❌  wiki-qa/SKILL.md: Missing '## When to Use' section
+❌  convertkit-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  convertkit-automation/SKILL.md: Missing 'source' attribution
+❌  convertkit-automation/SKILL.md: Missing '## When to Use' section
+❌  shopify-apps/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  shopify-apps/SKILL.md: Missing '## When to Use' section
+❌  pdf-official/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  pdf-official/SKILL.md: Missing 'source' attribution
+❌  pdf-official/SKILL.md: Missing '## When to Use' section
+❌  startup-business-analyst-financial-projections/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  startup-business-analyst-financial-projections/SKILL.md: Missing 'source' attribution
+❌  tdd-workflow/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  tdd-workflow/SKILL.md: Missing 'source' attribution
+❌  tdd-workflow/SKILL.md: Missing '## When to Use' section
+❌  backtesting-frameworks/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  backtesting-frameworks/SKILL.md: Missing 'source' attribution
+❌  llm-app-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  llm-app-patterns/SKILL.md: Missing 'source' attribution
+❌  confluence-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  confluence-automation/SKILL.md: Missing 'source' attribution
+❌  confluence-automation/SKILL.md: Missing '## When to Use' section
+❌  test-fixing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  test-fixing/SKILL.md: Missing 'source' attribution
+❌  daily-news-report/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  daily-news-report/SKILL.md: Missing 'source' attribution
+❌  daily-news-report/SKILL.md: Missing '## When to Use' section
+❌  linear-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  linear-automation/SKILL.md: Missing 'source' attribution
+❌  linear-automation/SKILL.md: Missing '## When to Use' section
+❌  windows-privilege-escalation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  windows-privilege-escalation/SKILL.md: Missing 'source' attribution
+❌  windows-privilege-escalation/SKILL.md: Missing '## When to Use' section
+❌  data-engineering-data-driven-feature/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  data-engineering-data-driven-feature/SKILL.md: Missing 'source' attribution
+❌  distributed-tracing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  distributed-tracing/SKILL.md: Missing 'source' attribution
+❌  codebase-cleanup-refactor-clean/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  codebase-cleanup-refactor-clean/SKILL.md: Missing 'source' attribution
+❌  grafana-dashboards/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  grafana-dashboards/SKILL.md: Missing 'source' attribution
+❌  microsoft-azure-webjobs-extensions-authentication-events-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  microsoft-azure-webjobs-extensions-authentication-events-dotnet/SKILL.md: Missing 'source' attribution
+❌  microsoft-azure-webjobs-extensions-authentication-events-dotnet/SKILL.md: Missing '## When to Use' section
+❌  wrike-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wrike-automation/SKILL.md: Missing 'source' attribution
+❌  wrike-automation/SKILL.md: Missing '## When to Use' section
+❌  azure-communication-callautomation-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-communication-callautomation-java/SKILL.md: Missing 'source' attribution
+❌  azure-communication-callautomation-java/SKILL.md: Missing '## When to Use' section
+❌  azure-appconfiguration-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-appconfiguration-py/SKILL.md: Missing 'source' attribution
+❌  azure-appconfiguration-py/SKILL.md: Missing '## When to Use' section
+❌  backend-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  backend-architect/SKILL.md: Missing 'source' attribution
+❌  azure-ai-ml-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-ml-py/SKILL.md: Missing 'source' attribution
+❌  azure-ai-ml-py/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-projects-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-projects-ts/SKILL.md: Missing 'source' attribution
+❌  azure-ai-projects-ts/SKILL.md: Missing '## When to Use' section
+❌  azure-cosmos-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-cosmos-ts/SKILL.md: Missing 'source' attribution
+❌  azure-cosmos-ts/SKILL.md: Missing '## When to Use' section
+❌  unity-developer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  unity-developer/SKILL.md: Missing 'source' attribution
+❌  receiving-code-review/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  receiving-code-review/SKILL.md: Missing 'source' attribution
+❌  receiving-code-review/SKILL.md: Missing '## When to Use' section
+❌  azure-monitor-opentelemetry-exporter-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-monitor-opentelemetry-exporter-py/SKILL.md: Missing 'source' attribution
+❌  googlesheets-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  googlesheets-automation/SKILL.md: Missing 'source' attribution
+❌  googlesheets-automation/SKILL.md: Missing '## When to Use' section
+❌  ai-engineer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ai-engineer/SKILL.md: Missing 'source' attribution
+❌  posthog-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  posthog-automation/SKILL.md: Missing 'source' attribution
+❌  posthog-automation/SKILL.md: Missing '## When to Use' section
+❌  web-performance-optimization/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  web-performance-optimization/SKILL.md: Missing 'source' attribution
+❌  ml-engineer/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  ml-engineer/SKILL.md: Missing 'source' attribution
+❌  youtube-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  youtube-automation/SKILL.md: Missing 'source' attribution
+❌  youtube-automation/SKILL.md: Missing '## When to Use' section
+❌  malware-analyst/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  malware-analyst/SKILL.md: Missing 'source' attribution
+❌  kubernetes-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  kubernetes-architect/SKILL.md: Missing 'source' attribution
+❌  make-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  make-automation/SKILL.md: Missing 'source' attribution
+❌  make-automation/SKILL.md: Missing '## When to Use' section
+❌  gitlab-ci-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  gitlab-ci-patterns/SKILL.md: Missing 'source' attribution
+❌  writing-plans/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  writing-plans/SKILL.md: Missing 'source' attribution
+❌  writing-plans/SKILL.md: Missing '## When to Use' section
+❌  tdd-workflows-tdd-refactor/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  tdd-workflows-tdd-refactor/SKILL.md: Missing 'source' attribution
+❌  helpdesk-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  helpdesk-automation/SKILL.md: Missing 'source' attribution
+❌  helpdesk-automation/SKILL.md: Missing '## When to Use' section
+❌  azure-search-documents-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-search-documents-ts/SKILL.md: Missing 'source' attribution
+❌  azure-search-documents-ts/SKILL.md: Missing '## When to Use' section
+❌  i18n-localization/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  i18n-localization/SKILL.md: Missing 'source' attribution
+❌  i18n-localization/SKILL.md: Missing '## When to Use' section
+❌  pydantic-models-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  pydantic-models-py/SKILL.md: Missing 'source' attribution
+❌  pydantic-models-py/SKILL.md: Missing '## When to Use' section
+❌  tavily-web/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  tavily-web/SKILL.md: Missing 'source' attribution
+❌  event-sourcing-architect/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  event-sourcing-architect/SKILL.md: Missing 'source' attribution
+❌  langgraph/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  langgraph/SKILL.md: Missing '## When to Use' section
+❌  azure-keyvault-keys-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-keyvault-keys-ts/SKILL.md: Missing 'source' attribution
+❌  azure-keyvault-keys-ts/SKILL.md: Missing '## When to Use' section
+❌  wiki-vitepress/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  wiki-vitepress/SKILL.md: Missing 'source' attribution
+❌  wiki-vitepress/SKILL.md: Missing '## When to Use' section
+❌  network-101/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  network-101/SKILL.md: Missing 'source' attribution
+❌  network-101/SKILL.md: Missing '## When to Use' section
+❌  rust-async-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  rust-async-patterns/SKILL.md: Missing 'source' attribution
+❌  azure-web-pubsub-ts/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-web-pubsub-ts/SKILL.md: Missing 'source' attribution
+❌  azure-web-pubsub-ts/SKILL.md: Missing '## When to Use' section
+❌  codebase-cleanup-deps-audit/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  codebase-cleanup-deps-audit/SKILL.md: Missing 'source' attribution
+❌  business-analyst/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  business-analyst/SKILL.md: Missing 'source' attribution
+❌  shellcheck-configuration/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  shellcheck-configuration/SKILL.md: Missing 'source' attribution
+❌  avalonia-zafiro-development/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  avalonia-zafiro-development/SKILL.md: Missing 'source' attribution
+❌  avalonia-zafiro-development/SKILL.md: Missing '## When to Use' section
+❌  incident-response-smart-fix/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  incident-response-smart-fix/SKILL.md: Missing 'source' attribution
+❌  shopify-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  shopify-automation/SKILL.md: Missing 'source' attribution
+❌  shopify-automation/SKILL.md: Missing '## When to Use' section
+❌  systematic-debugging/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  systematic-debugging/SKILL.md: Missing 'source' attribution
+❌  cc-skill-strategic-compact/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cc-skill-strategic-compact/SKILL.md: Missing 'source' attribution
+❌  cc-skill-strategic-compact/SKILL.md: Missing '## When to Use' section
+❌  broken-authentication/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  broken-authentication/SKILL.md: Missing 'source' attribution
+❌  broken-authentication/SKILL.md: Missing '## When to Use' section
+❌  api-security-best-practices/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  api-security-best-practices/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-apimanagement-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-mgmt-apimanagement-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-apimanagement-dotnet/SKILL.md: Missing '## When to Use' section
+❌  programmatic-seo/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  programmatic-seo/SKILL.md: Missing 'source' attribution
+❌  programmatic-seo/SKILL.md: Missing '## When to Use' section
+❌  trello-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  trello-automation/SKILL.md: Missing 'source' attribution
+❌  trello-automation/SKILL.md: Missing '## When to Use' section
+❌  circleci-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  circleci-automation/SKILL.md: Missing 'source' attribution
+❌  circleci-automation/SKILL.md: Missing '## When to Use' section
+❌  copy-editing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  copy-editing/SKILL.md: Missing 'source' attribution
+❌  azure-ai-vision-imageanalysis-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-vision-imageanalysis-java/SKILL.md: Missing 'source' attribution
+❌  azure-ai-vision-imageanalysis-java/SKILL.md: Missing '## When to Use' section
+❌  azure-eventgrid-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-eventgrid-py/SKILL.md: Missing 'source' attribution
+❌  azure-eventgrid-py/SKILL.md: Missing '## When to Use' section
+❌  algolia-search/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  algolia-search/SKILL.md: Missing '## When to Use' section
+❌  azure-monitor-opentelemetry-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-monitor-opentelemetry-py/SKILL.md: Missing 'source' attribution
+❌  azure-monitor-opentelemetry-py/SKILL.md: Missing '## When to Use' section
+❌  incident-runbook-templates/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  incident-runbook-templates/SKILL.md: Missing 'source' attribution
+❌  xss-html-injection/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  xss-html-injection/SKILL.md: Missing 'source' attribution
+❌  xss-html-injection/SKILL.md: Missing '## When to Use' section
+❌  sql-optimization-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  sql-optimization-patterns/SKILL.md: Missing 'source' attribution
+❌  azure-servicebus-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-servicebus-py/SKILL.md: Missing 'source' attribution
+❌  azure-servicebus-py/SKILL.md: Missing '## When to Use' section
+❌  paypal-integration/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  paypal-integration/SKILL.md: Missing 'source' attribution
+❌  react-native-architecture/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  react-native-architecture/SKILL.md: Missing 'source' attribution
+❌  security-auditor/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  security-auditor/SKILL.md: Missing 'source' attribution
+❌  angular-ui-patterns/SKILL.md: Missing '## When to Use' section
+❌  agent-framework-azure-ai-py/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  agent-framework-azure-ai-py/SKILL.md: Missing 'source' attribution
+❌  agent-framework-azure-ai-py/SKILL.md: Missing '## When to Use' section
+❌  azure-ai-agents-persistent-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-ai-agents-persistent-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-ai-agents-persistent-dotnet/SKILL.md: Missing '## When to Use' section
+❌  cloud-penetration-testing/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  cloud-penetration-testing/SKILL.md: Missing 'source' attribution
+❌  cloud-penetration-testing/SKILL.md: Missing '## When to Use' section
+❌  metasploit-framework/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  metasploit-framework/SKILL.md: Missing 'source' attribution
+❌  metasploit-framework/SKILL.md: Missing '## When to Use' section
+❌  shopify-development/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  shopify-development/SKILL.md: Missing 'source' attribution
+❌  shopify-development/SKILL.md: Missing '## When to Use' section
+❌  marketing-psychology/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  marketing-psychology/SKILL.md: Missing 'source' attribution
+❌  marketing-psychology/SKILL.md: Missing '## When to Use' section
+❌  flutter-expert/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  flutter-expert/SKILL.md: Missing 'source' attribution
+❌  blockrun/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  blockrun/SKILL.md: Missing 'source' attribution
+❌  prompt-engineering/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  prompt-engineering/SKILL.md: Missing 'source' attribution
+❌  prompt-engineering/SKILL.md: Missing '## When to Use' section
+❌  conductor-status/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  conductor-status/SKILL.md: Missing 'source' attribution
+❌  typescript-expert/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  typescript-expert/SKILL.md: Missing 'source' attribution
+❌  typescript-expert/SKILL.md: Missing '## When to Use' section
+❌  team-collaboration-issue/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  team-collaboration-issue/SKILL.md: Missing 'source' attribution
+❌  page-cro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  page-cro/SKILL.md: Missing 'source' attribution
+❌  page-cro/SKILL.md: Missing '## When to Use' section
+❌  remotion-best-practices/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  remotion-best-practices/SKILL.md: Missing 'source' attribution
+❌  error-debugging-multi-agent-review/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  error-debugging-multi-agent-review/SKILL.md: Missing 'source' attribution
+❌  clerk-auth/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  clerk-auth/SKILL.md: Missing '## When to Use' section
+❌  git-pr-workflows-onboard/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  git-pr-workflows-onboard/SKILL.md: Missing 'source' attribution
+❌  figma-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  figma-automation/SKILL.md: Missing 'source' attribution
+❌  figma-automation/SKILL.md: Missing '## When to Use' section
+❌  algorithmic-art/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  algorithmic-art/SKILL.md: Missing 'source' attribution
+❌  algorithmic-art/SKILL.md: Missing '## When to Use' section
+❌  azure-mgmt-weightsandbiases-dotnet/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-mgmt-weightsandbiases-dotnet/SKILL.md: Missing 'source' attribution
+❌  azure-mgmt-weightsandbiases-dotnet/SKILL.md: Missing '## When to Use' section
+❌  memory-safety-patterns/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  memory-safety-patterns/SKILL.md: Missing 'source' attribution
+❌  docx-official/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  docx-official/SKILL.md: Missing 'source' attribution
+❌  docx-official/SKILL.md: Missing '## When to Use' section
+❌  python-development-python-scaffold/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  python-development-python-scaffold/SKILL.md: Missing 'source' attribution
+❌  security-scanning-security-hardening/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  security-scanning-security-hardening/SKILL.md: Missing 'source' attribution
+❌  app-builder/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  app-builder/SKILL.md: Missing 'source' attribution
+❌  app-builder/SKILL.md: Missing '## When to Use' section
+❌  app-builder/templates/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  app-builder/templates/SKILL.md: Missing 'source' attribution
+❌  app-builder/templates/SKILL.md: Missing '## When to Use' section
+❌  azure-communication-common-java/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  azure-communication-common-java/SKILL.md: Missing 'source' attribution
+❌  azure-communication-common-java/SKILL.md: Missing '## When to Use' section
+❌  active-directory-attacks/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  active-directory-attacks/SKILL.md: Missing 'source' attribution
+❌  active-directory-attacks/SKILL.md: Missing '## When to Use' section
+❌  c4-architecture-c4-architecture/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  c4-architecture-c4-architecture/SKILL.md: Missing 'source' attribution
+❌  observability-monitoring-slo-implement/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  observability-monitoring-slo-implement/SKILL.md: Missing 'source' attribution
+❌  activecampaign-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  activecampaign-automation/SKILL.md: Missing 'source' attribution
+❌  activecampaign-automation/SKILL.md: Missing '## When to Use' section
+❌  elixir-pro/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  elixir-pro/SKILL.md: Missing 'source' attribution
+❌  freshdesk-automation/SKILL.md: Missing 'risk' label (defaulting to 'unknown')
+❌  freshdesk-automation/SKILL.md: Missing 'source' attribution
+❌  freshdesk-automation/SKILL.md: Missing '## When to Use' section

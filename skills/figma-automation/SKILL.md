@@ -1,22 +1,13 @@
 ---
 name: figma-automation
-description: 'Automate Figma tasks via Rube MCP (Composio): files, components, design
-  tokens, comments, exports. Always search tools first for current schemas.'
-requires:
-  mcp: [rube]
+description: "Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas."
 risk: unknown
 source: community
+date_added: "2026-02-27"
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Figma Automation via Rube MCP
+
 Automate Figma operations through Composio's Figma toolkit via Rube MCP.
 
 ## Prerequisites

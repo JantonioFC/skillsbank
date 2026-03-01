@@ -1,23 +1,13 @@
 ---
 name: cal-com-automation
-description: 'Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check
-  availability, configure webhooks, and handle teams. Always search tools first for
-  current schemas.'
-requires:
-  mcp: [rube]
+description: "Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas."
 risk: unknown
 source: community
+date_added: "2026-02-27"
 ---
 
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Cal.com Automation via Rube MCP
+
 Automate Cal.com scheduling operations through Composio's Cal toolkit via Rube MCP.
 
 ## Prerequisites

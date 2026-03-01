@@ -41,6 +41,7 @@ const ALLOWED_FIELDS = new Set([
   "metadata",
   "allowed-tools",
   "package",
+  "date_added",
 ]);
 
 const USE_SECTION_PATTERNS = [

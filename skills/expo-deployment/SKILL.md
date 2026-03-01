@@ -1,9 +1,9 @@
 ---
 name: expo-deployment
-description: Deploy Expo apps to production
-source: https://github.com/expo/skills/tree/main/plugins/expo-deployment
+description: "Deploy Expo apps to production"
 risk: safe
-license: MIT
+source: "https://github.com/expo/skills/tree/main/plugins/expo-deployment"
+date_added: "2026-02-27"
 ---
 
 # Expo Deployment

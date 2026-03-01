@@ -1,6 +1,6 @@
 ---
 name: schema-markup
-description: ">"
+description: >
   Design, validate, and optimize schema.org structured data for eligibility,
   correctness, and measurable SEO impact. Use when the user wants to add, fix,
   audit, or scale schema markup (JSON-LD) for rich results. This skill evaluates

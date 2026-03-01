@@ -56,6 +56,7 @@ def validate_skills(skills_dir, strict_mode=False):
     security_disclaimer_pattern = re.compile(r"AUTHORIZED USE ONLY", re.IGNORECASE)
 
     valid_risk_levels = ["none", "safe", "critical", "offensive", "unknown"]
+    date_pattern = re.compile(r'^\d{4}-\d{2}-\d{2}$')  # YYYY-MM-DD format
 
     for root, dirs, files in os.walk(skills_dir):
         # Skip .disabled or hidden directories
@@ -109,6 +110,15 @@ def validate_skills(skills_dir, strict_mode=False):
                 msg = f"⚠️  {rel_path}: Missing 'source' attribution"
                 if strict_mode: errors.append(msg.replace("⚠️", "❌"))
                 else: warnings.append(msg)
+
+            # Date Added Validation (optional field)
+            if "date_added" in metadata:
+                if not date_pattern.match(metadata["date_added"]):
+                    errors.append(f"❌ {rel_path}: Invalid 'date_added' format. Must be YYYY-MM-DD (e.g., '2024-01-15'), got '{metadata['date_added']}'")
+            else:
+                msg = f"ℹ️  {rel_path}: Missing 'date_added' field (optional, but recommended)"
+                if strict_mode: warnings.append(msg)
+                # In normal mode, we just silently skip this
 
             # 3. Content Checks (Triggers)
             if not has_when_to_use_section(content):

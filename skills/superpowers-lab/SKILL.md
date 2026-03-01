@@ -1,9 +1,9 @@
 ---
 name: superpowers-lab
-description: Lab environment for Claude superpowers
-source: https://github.com/obra/superpowers-lab
+description: "Lab environment for Claude superpowers"
 risk: safe
-license: MIT
+source: "https://github.com/obra/superpowers-lab"
+date_added: "2026-02-27"
 ---
 
 # Superpowers Lab

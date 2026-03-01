@@ -1,6 +1,6 @@
 ---
 name: seo-audit
-description: ">"
+description: >
   Diagnose and audit SEO issues affecting crawlability, indexation, rankings,
   and organic performance. Use when the user asks for an SEO audit, technical SEO
   review, ranking diagnosis, on-page SEO review, meta tag audit, or SEO health check.

@@ -1,12 +1,10 @@
 ---
 name: conductor-manage
-description: 'Manage track lifecycle: archive, restore, delete, rename, and cleanup'
-metadata:
-  argument-hint: "[--archive | --restore | --delete | --rename | --list | --cleanup]"
+description: "Manage track lifecycle: archive, restore, delete, rename, and cleanup"
 risk: unknown
 source: community
+date_added: "2026-02-27"
 ---
-
 
 # Track Manager
 
@@ -40,8 +38,3 @@ Manage the complete track lifecycle including archiving, restoring, deleting, re
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed modes, prompts, and workflows.
-
-
-## When to Use
-
-Use this skill when you need guidance or automation for conductor-manage.

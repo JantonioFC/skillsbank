@@ -28,16 +28,21 @@ const destSkills = path.join(WEB_APP_PUBLIC, 'skills');
 
 console.log(`Copying skills directory...`);
 
-// Recursive copy function
+// Recursive copy function (follows symlinks to copy resolved content)
 function copyFolderSync(from, to) {
-    if (!fs.existsSync(to)) fs.mkdirSync(to);
+    if (!fs.existsSync(to)) fs.mkdirSync(to, { recursive: true });
 
     fs.readdirSync(from).forEach(element => {
-        if (fs.lstatSync(path.join(from, element)).isFile()) {
-            fs.copyFileSync(path.join(from, element), path.join(to, element));
-        } else {
-            copyFolderSync(path.join(from, element), path.join(to, element));
+        const srcPath = path.join(from, element);
+        const destPath = path.join(to, element);
+        const stat = fs.statSync(srcPath); // statSync follows symlinks
+
+        if (stat.isFile()) {
+            fs.copyFileSync(srcPath, destPath);
+        } else if (stat.isDirectory()) {
+            copyFolderSync(srcPath, destPath);
         }
+        // Skip other types (e.g. sockets, FIFOs)
     });
 }
 

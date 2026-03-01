@@ -1,6 +1,6 @@
 ---
 name: azure-security-keyvault-keys-dotnet
-description: "|"
+description: |
   Azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification. Triggers: "Key Vault keys", "KeyClient", "CryptographyClient", "RSA key", "EC key", "encrypt decrypt .NET", "key rotation", "HSM".
 package: Azure.Security.KeyVault.Keys
 risk: unknown

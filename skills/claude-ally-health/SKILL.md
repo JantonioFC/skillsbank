@@ -1,10 +1,9 @@
 ---
 name: claude-ally-health
-description: A health assistant skill for medical information analysis, symptom tracking,
-  and wellness guidance.
-source: https://github.com/huifer/Claude-Ally-Health
+description: "A health assistant skill for medical information analysis, symptom tracking, and wellness guidance."
 risk: safe
-license: MIT
+source: "https://github.com/huifer/Claude-Ally-Health"
+date_added: "2026-02-27"
 ---
 
 # Claude Ally Health

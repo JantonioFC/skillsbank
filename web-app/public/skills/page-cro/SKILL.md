@@ -1,6 +1,6 @@
 ---
 name: page-cro
-description: ">"
+description: >
   Analyze and optimize individual pages for conversion performance.
   Use when the user wants to improve conversion rates, diagnose why a page
   is underperforming, or increase the effectiveness of marketing pages

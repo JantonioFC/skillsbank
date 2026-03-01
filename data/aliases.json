@@ -112,6 +112,7 @@
     "security/aws-iam-practices": "security/aws-iam-best-practices",
     "aws-secrets-rotation": "security/aws-secrets-rotation",
     "aws-security-audit": "security/aws-security-audit",
+    "seo-forensic-response": "seo-forensic-incident-response",
     "startup-business-case": "startup-business-analyst-business-case",
     "startup-business-projections": "startup-business-analyst-financial-projections",
     "startup-business-opportunity": "startup-business-analyst-market-opportunity",

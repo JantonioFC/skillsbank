@@ -1,0 +1,2 @@
+usage: validate_skills.py [-h] [--strict]
+validate_skills.py: error: unrecognized arguments: --path skills/brainstorming

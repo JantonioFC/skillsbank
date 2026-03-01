@@ -1,14 +1,10 @@
 ---
 name: haskell-pro
-description: Expert Haskell engineer specializing in advanced type systems, pure functional
-  design, and high-reliability software. Use PROACTIVELY for type-level programming,
-  concurrency, and architecture guidance.
-metadata:
-  model: sonnet
+description: "Expert Haskell engineer specializing in advanced type systems, pure"
 risk: unknown
 source: community
+date_added: "2026-02-27"
 ---
-
 
 ## Use this skill when
 
@@ -57,8 +53,3 @@ You are a Haskell expert specializing in strongly typed functional programming a
 - QuickCheck/Hspec tests with property-based reasoning
 
 Provide modern, maintainable Haskell that balances rigor with practicality.
-
-
-## When to Use
-
-Use this skill when you need guidance or automation for haskell-pro.
