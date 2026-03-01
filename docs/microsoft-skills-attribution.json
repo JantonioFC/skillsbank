@@ -2,618 +2,488 @@
   "source": "microsoft/skills",
   "repository": "https://github.com/microsoft/skills",
   "license": "MIT",
-  "synced_skills": 143,
+  "synced_skills": 167,
   "structure": "flat (frontmatter name as directory name)",
   "skills": [
     {
-      "flat_name": "azure-maps-search-dotnet",
-      "original_path": "dotnet/general/maps",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-mgmt-applicationinsights-dotnet",
-      "original_path": "dotnet/monitoring/applicationinsights",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-resource-manager-cosmosdb-dotnet",
-      "original_path": "dotnet/data/cosmosdb",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-mgmt-fabric-dotnet",
-      "original_path": "dotnet/data/fabric",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-resource-manager-mysql-dotnet",
-      "original_path": "dotnet/data/mysql",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-resource-manager-redis-dotnet",
-      "original_path": "dotnet/data/redis",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-resource-manager-postgresql-dotnet",
-      "original_path": "dotnet/data/postgresql",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-resource-manager-sql-dotnet",
-      "original_path": "dotnet/data/sql",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-mgmt-mongodbatlas-dotnet",
-      "original_path": "dotnet/partner/mongodbatlas",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-mgmt-arizeaiobservabilityeval-dotnet",
-      "original_path": "dotnet/partner/arize-ai-observability-eval",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "m365-agents-dotnet",
-      "original_path": "dotnet/m365/m365-agents",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-identity-dotnet",
-      "original_path": "dotnet/entra/azure-identity",
-      "source": "microsoft/skills"
+      "flat_name": "azure-mgmt-weightsandbiases-dotnet",
+      "original_path": "plugins/azure-mgmt-weightsandbiases-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
       "flat_name": "microsoft-azure-webjobs-extensions-authentication-events-dotnet",
-      "original_path": "dotnet/entra/authentication-events",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-security-keyvault-keys-dotnet",
-      "original_path": "dotnet/entra/keyvault",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-mgmt-apimanagement-dotnet",
-      "original_path": "dotnet/integration/apimanagement",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-mgmt-apicenter-dotnet",
-      "original_path": "dotnet/integration/apicenter",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-eventgrid-dotnet",
-      "original_path": "dotnet/messaging/eventgrid",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-servicebus-dotnet",
-      "original_path": "dotnet/messaging/servicebus",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-eventhub-dotnet",
-      "original_path": "dotnet/messaging/eventhubs",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-mgmt-botservice-dotnet",
-      "original_path": "dotnet/compute/botservice",
-      "source": "microsoft/skills"
+      "original_path": "plugins/microsoft-azure-webjobs-extensions-authentication-events-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
       "flat_name": "azure-resource-manager-durabletask-dotnet",
-      "original_path": "dotnet/compute/durabletask",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-resource-manager-playwright-dotnet",
-      "original_path": "dotnet/compute/playwright",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-openai-dotnet",
-      "original_path": "dotnet/foundry/openai",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-mgmt-weightsandbiases-dotnet",
-      "original_path": "dotnet/foundry/weightsandbiases",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-document-intelligence-dotnet",
-      "original_path": "dotnet/foundry/document-intelligence",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-voicelive-dotnet",
-      "original_path": "dotnet/foundry/voicelive",
-      "source": "microsoft/skills"
+      "original_path": "plugins/azure-resource-manager-durabletask-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
       "flat_name": "azure-search-documents-dotnet",
-      "original_path": "dotnet/foundry/search-documents",
-      "source": "microsoft/skills"
+      "original_path": "plugins/azure-search-documents-dotnet",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-mgmt-arizeaiobservabilityeval-dotnet",
+      "original_path": "plugins/azure-mgmt-arizeaiobservabilityeval-dotnet",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-voicelive-dotnet",
+      "original_path": "plugins/azure-ai-voicelive-dotnet",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-mgmt-apicenter-dotnet",
+      "original_path": "plugins/azure-mgmt-apicenter-dotnet",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-servicebus-dotnet",
+      "original_path": "plugins/azure-servicebus-dotnet",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-mgmt-mongodbatlas-dotnet",
+      "original_path": "plugins/azure-mgmt-mongodbatlas-dotnet",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-resource-manager-cosmosdb-dotnet",
+      "original_path": "plugins/azure-resource-manager-cosmosdb-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
       "flat_name": "azure-ai-projects-dotnet",
-      "original_path": "dotnet/foundry/projects",
-      "source": "microsoft/skills"
+      "original_path": "plugins/azure-ai-projects-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-monitor-query-py",
-      "original_path": "python/monitoring/query",
-      "source": "microsoft/skills"
+      "flat_name": "azure-resource-manager-postgresql-dotnet",
+      "original_path": "plugins/azure-resource-manager-postgresql-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-monitor-ingestion-py",
-      "original_path": "python/monitoring/ingestion",
-      "source": "microsoft/skills"
+      "flat_name": "azure-resource-manager-sql-dotnet",
+      "original_path": "plugins/azure-resource-manager-sql-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-monitor-opentelemetry-exporter-py",
-      "original_path": "python/monitoring/opentelemetry-exporter",
-      "source": "microsoft/skills"
+      "flat_name": "azure-security-keyvault-keys-dotnet",
+      "original_path": "plugins/azure-security-keyvault-keys-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-monitor-opentelemetry-py",
-      "original_path": "python/monitoring/opentelemetry",
-      "source": "microsoft/skills"
+      "flat_name": "azure-ai-document-intelligence-dotnet",
+      "original_path": "plugins/azure-ai-document-intelligence-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-storage-queue-py",
-      "original_path": "python/data/queue",
-      "source": "microsoft/skills"
+      "flat_name": "m365-agents-dotnet",
+      "original_path": "plugins/m365-agents-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-storage-blob-py",
-      "original_path": "python/data/blob",
-      "source": "microsoft/skills"
+      "flat_name": "azure-eventgrid-dotnet",
+      "original_path": "plugins/azure-eventgrid-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-cosmos-db-py",
-      "original_path": "python/data/cosmos-db",
-      "source": "microsoft/skills"
+      "flat_name": "azure-identity-dotnet",
+      "original_path": "plugins/azure-identity-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-storage-file-share-py",
-      "original_path": "python/data/fileshare",
-      "source": "microsoft/skills"
+      "flat_name": "azure-eventhub-dotnet",
+      "original_path": "plugins/azure-eventhub-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-cosmos-py",
-      "original_path": "python/data/cosmos",
-      "source": "microsoft/skills"
+      "flat_name": "azure-maps-search-dotnet",
+      "original_path": "plugins/azure-maps-search-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-data-tables-py",
-      "original_path": "python/data/tables",
-      "source": "microsoft/skills"
+      "flat_name": "azure-mgmt-botservice-dotnet",
+      "original_path": "plugins/azure-mgmt-botservice-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-storage-file-datalake-py",
-      "original_path": "python/data/datalake",
-      "source": "microsoft/skills"
+      "flat_name": "azure-ai-agents-persistent-dotnet",
+      "original_path": "plugins/azure-ai-agents-persistent-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "m365-agents-py",
-      "original_path": "python/m365/m365-agents",
-      "source": "microsoft/skills"
+      "flat_name": "azure-mgmt-applicationinsights-dotnet",
+      "original_path": "plugins/azure-mgmt-applicationinsights-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-identity-py",
-      "original_path": "python/entra/azure-identity",
-      "source": "microsoft/skills"
+      "flat_name": "azure-mgmt-apimanagement-dotnet",
+      "original_path": "plugins/azure-mgmt-apimanagement-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-keyvault-py",
-      "original_path": "python/entra/keyvault",
-      "source": "microsoft/skills"
+      "flat_name": "azure-ai-openai-dotnet",
+      "original_path": "plugins/azure-ai-openai-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-mgmt-apimanagement-py",
-      "original_path": "python/integration/apimanagement",
-      "source": "microsoft/skills"
+      "flat_name": "azure-mgmt-fabric-dotnet",
+      "original_path": "plugins/azure-mgmt-fabric-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-mgmt-apicenter-py",
-      "original_path": "python/integration/apicenter",
-      "source": "microsoft/skills"
+      "flat_name": "azure-resource-manager-mysql-dotnet",
+      "original_path": "plugins/azure-resource-manager-mysql-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-appconfiguration-py",
-      "original_path": "python/integration/appconfiguration",
-      "source": "microsoft/skills"
+      "flat_name": "azure-resource-manager-redis-dotnet",
+      "original_path": "plugins/azure-resource-manager-redis-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-messaging-webpubsubservice-py",
-      "original_path": "python/messaging/webpubsub-service",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-eventhub-py",
-      "original_path": "python/messaging/eventhub",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-eventgrid-py",
-      "original_path": "python/messaging/eventgrid",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-servicebus-py",
-      "original_path": "python/messaging/servicebus",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-mgmt-botservice-py",
-      "original_path": "python/compute/botservice",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-containerregistry-py",
-      "original_path": "python/compute/containerregistry",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-mgmt-fabric-py",
-      "original_path": "python/compute/fabric",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-contentsafety-py",
-      "original_path": "python/foundry/contentsafety",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-textanalytics-py",
-      "original_path": "python/foundry/textanalytics",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-ml-py",
-      "original_path": "python/foundry/ml",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-translation-document-py",
-      "original_path": "python/foundry/translation-document",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-vision-imageanalysis-py",
-      "original_path": "python/foundry/vision-imageanalysis",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-voicelive-py",
-      "original_path": "python/foundry/voicelive",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-translation-text-py",
-      "original_path": "python/foundry/translation-text",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-search-documents-py",
-      "original_path": "python/foundry/search-documents",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-projects-py",
-      "original_path": "python/foundry/projects",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "agents-v2-py",
-      "original_path": "python/foundry/agents-v2",
-      "source": "microsoft/skills"
+      "flat_name": "azure-resource-manager-playwright-dotnet",
+      "original_path": "plugins/azure-resource-manager-playwright-dotnet",
+      "source": "microsoft/skills (plugin)"
     },
     {
       "flat_name": "azure-ai-contentunderstanding-py",
-      "original_path": "python/foundry/contentunderstanding",
-      "source": "microsoft/skills"
+      "original_path": "plugins/azure-ai-contentunderstanding-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-speech-to-text-rest-py",
-      "original_path": "python/foundry/speech-to-text-rest",
-      "source": "microsoft/skills"
+      "flat_name": "azure-cosmos-db-py",
+      "original_path": "plugins/azure-cosmos-db-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-servicebus-py",
+      "original_path": "plugins/azure-servicebus-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "fastapi-router-py",
+      "original_path": "plugins/fastapi-router-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-storage-queue-py",
+      "original_path": "plugins/azure-storage-queue-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-eventhub-py",
+      "original_path": "plugins/azure-eventhub-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-storage-file-datalake-py",
+      "original_path": "plugins/azure-storage-file-datalake-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-textanalytics-py",
+      "original_path": "plugins/azure-ai-textanalytics-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-containerregistry-py",
+      "original_path": "plugins/azure-containerregistry-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-monitor-query-py",
+      "original_path": "plugins/azure-monitor-query-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-keyvault-py",
+      "original_path": "plugins/azure-keyvault-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-monitor-opentelemetry-py",
+      "original_path": "plugins/azure-monitor-opentelemetry-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-voicelive-py",
+      "original_path": "plugins/azure-ai-voicelive-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-ml-py",
+      "original_path": "plugins/azure-ai-ml-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "m365-agents-py",
+      "original_path": "plugins/m365-agents-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-search-documents-py",
+      "original_path": "plugins/azure-search-documents-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-translation-document-py",
+      "original_path": "plugins/azure-ai-translation-document-py",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "pydantic-models-py",
+      "original_path": "plugins/pydantic-models-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
       "flat_name": "agent-framework-azure-ai-py",
-      "original_path": "python/foundry/agent-framework",
-      "source": "microsoft/skills"
+      "original_path": "plugins/agent-framework-azure-ai-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
       "flat_name": "azure-ai-transcription-py",
-      "original_path": "python/foundry/transcription",
-      "source": "microsoft/skills"
+      "original_path": "plugins/azure-ai-transcription-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-monitor-opentelemetry-ts",
-      "original_path": "typescript/monitoring/opentelemetry",
-      "source": "microsoft/skills"
+      "flat_name": "azure-speech-to-text-rest-py",
+      "original_path": "plugins/azure-speech-to-text-rest-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-storage-queue-ts",
-      "original_path": "typescript/data/queue",
-      "source": "microsoft/skills"
+      "flat_name": "azure-mgmt-apicenter-py",
+      "original_path": "plugins/azure-mgmt-apicenter-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-cosmos-ts",
-      "original_path": "typescript/data/cosmosdb",
-      "source": "microsoft/skills"
+      "flat_name": "azure-storage-blob-py",
+      "original_path": "plugins/azure-storage-blob-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-storage-blob-ts",
-      "original_path": "typescript/data/blob",
-      "source": "microsoft/skills"
+      "flat_name": "azure-appconfiguration-py",
+      "original_path": "plugins/azure-appconfiguration-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-storage-file-share-ts",
-      "original_path": "typescript/data/fileshare",
-      "source": "microsoft/skills"
+      "flat_name": "azure-monitor-opentelemetry-exporter-py",
+      "original_path": "plugins/azure-monitor-opentelemetry-exporter-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-postgres-ts",
-      "original_path": "typescript/data/postgres",
-      "source": "microsoft/skills"
+      "flat_name": "azure-ai-projects-py",
+      "original_path": "plugins/azure-ai-projects-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "react-flow-node-ts",
-      "original_path": "typescript/frontend/react-flow-node",
-      "source": "microsoft/skills"
+      "flat_name": "azure-eventgrid-py",
+      "original_path": "plugins/azure-eventgrid-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "frontend-ui-dark-ts",
-      "original_path": "typescript/frontend/frontend-ui-dark",
-      "source": "microsoft/skills"
+      "flat_name": "azure-ai-vision-imageanalysis-py",
+      "original_path": "plugins/azure-ai-vision-imageanalysis-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "zustand-store-ts",
-      "original_path": "typescript/frontend/zustand-store",
-      "source": "microsoft/skills"
+      "flat_name": "azure-mgmt-apimanagement-py",
+      "original_path": "plugins/azure-mgmt-apimanagement-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "m365-agents-ts",
-      "original_path": "typescript/m365/m365-agents",
-      "source": "microsoft/skills"
+      "flat_name": "agents-v2-py",
+      "original_path": "plugins/agents-v2-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-identity-ts",
-      "original_path": "typescript/entra/azure-identity",
-      "source": "microsoft/skills"
+      "flat_name": "azure-mgmt-fabric-py",
+      "original_path": "plugins/azure-mgmt-fabric-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-keyvault-secrets-ts",
-      "original_path": "typescript/entra/keyvault-secrets",
-      "source": "microsoft/skills"
+      "flat_name": "hosted-agents-v2-py",
+      "original_path": "plugins/hosted-agents-v2-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-keyvault-keys-ts",
-      "original_path": "typescript/entra/keyvault-keys",
-      "source": "microsoft/skills"
+      "flat_name": "azure-identity-py",
+      "original_path": "plugins/azure-identity-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-appconfiguration-ts",
-      "original_path": "typescript/integration/appconfiguration",
-      "source": "microsoft/skills"
+      "flat_name": "azure-monitor-ingestion-py",
+      "original_path": "plugins/azure-monitor-ingestion-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-servicebus-ts",
-      "original_path": "typescript/messaging/servicebus",
-      "source": "microsoft/skills"
+      "flat_name": "azure-ai-contentsafety-py",
+      "original_path": "plugins/azure-ai-contentsafety-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-eventhub-ts",
-      "original_path": "typescript/messaging/eventhubs",
-      "source": "microsoft/skills"
+      "flat_name": "azure-ai-translation-text-py",
+      "original_path": "plugins/azure-ai-translation-text-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-web-pubsub-ts",
-      "original_path": "typescript/messaging/webpubsub",
-      "source": "microsoft/skills"
+      "flat_name": "azure-messaging-webpubsubservice-py",
+      "original_path": "plugins/azure-messaging-webpubsubservice-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-microsoft-playwright-testing-ts",
-      "original_path": "typescript/compute/playwright",
-      "source": "microsoft/skills"
+      "flat_name": "azure-data-tables-py",
+      "original_path": "plugins/azure-data-tables-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-ai-contentsafety-ts",
-      "original_path": "typescript/foundry/contentsafety",
-      "source": "microsoft/skills"
+      "flat_name": "azure-mgmt-botservice-py",
+      "original_path": "plugins/azure-mgmt-botservice-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-ai-translation-ts",
-      "original_path": "typescript/foundry/translation",
-      "source": "microsoft/skills"
+      "flat_name": "azure-storage-file-share-py",
+      "original_path": "plugins/azure-storage-file-share-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-ai-document-intelligence-ts",
-      "original_path": "typescript/foundry/document-intelligence",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-voicelive-ts",
-      "original_path": "typescript/foundry/voicelive",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-search-documents-ts",
-      "original_path": "typescript/foundry/search-documents",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-projects-ts",
-      "original_path": "typescript/foundry/projects",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-communication-callautomation-java",
-      "original_path": "java/communication/callautomation",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-communication-callingserver-java",
-      "original_path": "java/communication/callingserver",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-communication-sms-java",
-      "original_path": "java/communication/sms",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-communication-common-java",
-      "original_path": "java/communication/common",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-communication-chat-java",
-      "original_path": "java/communication/chat",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-monitor-query-java",
-      "original_path": "java/monitoring/query",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-monitor-ingestion-java",
-      "original_path": "java/monitoring/ingestion",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-monitor-opentelemetry-exporter-java",
-      "original_path": "java/monitoring/opentelemetry-exporter",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-storage-blob-java",
-      "original_path": "java/data/blob",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-cosmos-java",
-      "original_path": "java/data/cosmos",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-data-tables-java",
-      "original_path": "java/data/tables",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-identity-java",
-      "original_path": "java/entra/azure-identity",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-security-keyvault-secrets-java",
-      "original_path": "java/entra/keyvault-secrets",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-security-keyvault-keys-java",
-      "original_path": "java/entra/keyvault-keys",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-appconfiguration-java",
-      "original_path": "java/integration/appconfiguration",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-eventgrid-java",
-      "original_path": "java/messaging/eventgrid",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-eventhub-java",
-      "original_path": "java/messaging/eventhubs",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-messaging-webpubsub-java",
-      "original_path": "java/messaging/webpubsub",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-compute-batch-java",
-      "original_path": "java/compute/batch",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-contentsafety-java",
-      "original_path": "java/foundry/contentsafety",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-formrecognizer-java",
-      "original_path": "java/foundry/formrecognizer",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-vision-imageanalysis-java",
-      "original_path": "java/foundry/vision-imageanalysis",
-      "source": "microsoft/skills"
-    },
-    {
-      "flat_name": "azure-ai-voicelive-java",
-      "original_path": "java/foundry/voicelive",
-      "source": "microsoft/skills"
+      "flat_name": "azure-cosmos-py",
+      "original_path": "plugins/azure-cosmos-py",
+      "source": "microsoft/skills (plugin)"
     },
     {
       "flat_name": "azure-ai-anomalydetector-java",
-      "original_path": "java/foundry/anomalydetector",
-      "source": "microsoft/skills"
+      "original_path": "plugins/azure-ai-anomalydetector-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-security-keyvault-secrets-java",
+      "original_path": "plugins/azure-security-keyvault-secrets-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-security-keyvault-keys-java",
+      "original_path": "plugins/azure-security-keyvault-keys-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-messaging-webpubsub-java",
+      "original_path": "plugins/azure-messaging-webpubsub-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-communication-common-java",
+      "original_path": "plugins/azure-communication-common-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-cosmos-java",
+      "original_path": "plugins/azure-cosmos-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-communication-chat-java",
+      "original_path": "plugins/azure-communication-chat-java",
+      "source": "microsoft/skills (plugin)"
     },
     {
       "flat_name": "azure-ai-projects-java",
-      "original_path": "java/foundry/projects",
-      "source": "microsoft/skills"
+      "original_path": "plugins/azure-ai-projects-java",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-cosmos-rust",
-      "original_path": "rust/data/azure-cosmos-rust",
-      "source": "microsoft/skills"
+      "flat_name": "azure-appconfiguration-java",
+      "original_path": "plugins/azure-appconfiguration-java",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-storage-blob-rust",
-      "original_path": "rust/data/azure-storage-blob-rust",
-      "source": "microsoft/skills"
+      "flat_name": "azure-identity-java",
+      "original_path": "plugins/azure-identity-java",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-keyvault-certificates-rust",
-      "original_path": "rust/entra/azure-keyvault-certificates-rust",
-      "source": "microsoft/skills"
+      "flat_name": "azure-communication-callingserver-java",
+      "original_path": "plugins/azure-communication-callingserver-java",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-keyvault-secrets-rust",
-      "original_path": "rust/entra/azure-keyvault-secrets-rust",
-      "source": "microsoft/skills"
+      "flat_name": "azure-compute-batch-java",
+      "original_path": "plugins/azure-compute-batch-java",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-identity-rust",
-      "original_path": "rust/entra/azure-identity-rust",
-      "source": "microsoft/skills"
+      "flat_name": "azure-communication-callautomation-java",
+      "original_path": "plugins/azure-communication-callautomation-java",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-keyvault-keys-rust",
-      "original_path": "rust/entra/azure-keyvault-keys-rust",
-      "source": "microsoft/skills"
+      "flat_name": "azure-eventhub-java",
+      "original_path": "plugins/azure-eventhub-java",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azure-eventhub-rust",
-      "original_path": "rust/messaging/azure-eventhub-rust",
-      "source": "microsoft/skills"
+      "flat_name": "azure-data-tables-java",
+      "original_path": "plugins/azure-data-tables-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-communication-sms-java",
+      "original_path": "plugins/azure-communication-sms-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-storage-blob-java",
+      "original_path": "plugins/azure-storage-blob-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-eventgrid-java",
+      "original_path": "plugins/azure-eventgrid-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-formrecognizer-java",
+      "original_path": "plugins/azure-ai-formrecognizer-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-contentsafety-java",
+      "original_path": "plugins/azure-ai-contentsafety-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-monitor-query-java",
+      "original_path": "plugins/azure-monitor-query-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-agents-persistent-java",
+      "original_path": "plugins/azure-ai-agents-persistent-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-vision-imageanalysis-java",
+      "original_path": "plugins/azure-ai-vision-imageanalysis-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-monitor-ingestion-java",
+      "original_path": "plugins/azure-monitor-ingestion-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-monitor-opentelemetry-exporter-java",
+      "original_path": "plugins/azure-monitor-opentelemetry-exporter-java",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-voicelive-java",
+      "original_path": "plugins/azure-ai-voicelive-java",
+      "source": "microsoft/skills (plugin)"
     },
     {
       "flat_name": "wiki-page-writer",
@@ -666,13 +536,278 @@
       "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "copilot-sdk",
-      "original_path": ".github/skills/copilot-sdk",
-      "source": "microsoft/skills (.github/skills)"
+      "flat_name": "azure-eventhub-rust",
+      "original_path": "plugins/azure-eventhub-rust",
+      "source": "microsoft/skills (plugin)"
     },
     {
-      "flat_name": "azd-deployment",
-      "original_path": ".github/skills/azd-deployment",
+      "flat_name": "azure-cosmos-rust",
+      "original_path": "plugins/azure-cosmos-rust",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-keyvault-certificates-rust",
+      "original_path": "plugins/azure-keyvault-certificates-rust",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-keyvault-secrets-rust",
+      "original_path": "plugins/azure-keyvault-secrets-rust",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-identity-rust",
+      "original_path": "plugins/azure-identity-rust",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-storage-blob-rust",
+      "original_path": "plugins/azure-storage-blob-rust",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-keyvault-keys-rust",
+      "original_path": "plugins/azure-keyvault-keys-rust",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-aigateway-ms",
+      "original_path": "plugins/azure-aigateway",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-postgres-ms",
+      "original_path": "plugins/azure-postgres",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "appinsights-instrumentation-ms",
+      "original_path": "plugins/appinsights-instrumentation",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-deploy-ms",
+      "original_path": "plugins/azure-deploy",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-resource-visualizer-ms",
+      "original_path": "plugins/azure-resource-visualizer",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "entra-app-registration-ms",
+      "original_path": "plugins/entra-app-registration",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-rbac-ms",
+      "original_path": "plugins/azure-rbac",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-validate-ms",
+      "original_path": "plugins/azure-validate",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-ms",
+      "original_path": "plugins/azure-ai",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-kusto-ms",
+      "original_path": "plugins/azure-kusto",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "microsoft-foundry-ms",
+      "original_path": "plugins/microsoft-foundry",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-prepare-ms",
+      "original_path": "plugins/azure-prepare",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-observability-ms",
+      "original_path": "plugins/azure-observability",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-resource-lookup-ms",
+      "original_path": "plugins/azure-resource-lookup",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-cost-optimization-ms",
+      "original_path": "plugins/azure-cost-optimization",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-compliance-ms",
+      "original_path": "plugins/azure-compliance",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-storage-ms",
+      "original_path": "plugins/azure-storage",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-diagnostics-ms",
+      "original_path": "plugins/azure-diagnostics",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "agent-framework-ms",
+      "original_path": "plugins/agent-framework",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "deploy-model-ms",
+      "original_path": "plugins/deploy-model",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "customize-ms",
+      "original_path": "plugins/customize",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "preset-ms",
+      "original_path": "plugins/preset",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "capacity-ms",
+      "original_path": "plugins/capacity",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-eventhub-ts",
+      "original_path": "plugins/azure-eventhub-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-translation-ts",
+      "original_path": "plugins/azure-ai-translation-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-microsoft-playwright-testing-ts",
+      "original_path": "plugins/azure-microsoft-playwright-testing-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-storage-queue-ts",
+      "original_path": "plugins/azure-storage-queue-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-web-pubsub-ts",
+      "original_path": "plugins/azure-web-pubsub-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-postgres-ts",
+      "original_path": "plugins/azure-postgres-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-appconfiguration-ts",
+      "original_path": "plugins/azure-appconfiguration-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-keyvault-keys-ts",
+      "original_path": "plugins/azure-keyvault-keys-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-keyvault-secrets-ts",
+      "original_path": "plugins/azure-keyvault-secrets-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-search-documents-ts",
+      "original_path": "plugins/azure-search-documents-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-storage-file-share-ts",
+      "original_path": "plugins/azure-storage-file-share-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-monitor-opentelemetry-ts",
+      "original_path": "plugins/azure-monitor-opentelemetry-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "react-flow-node-ts",
+      "original_path": "plugins/react-flow-node-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-document-intelligence-ts",
+      "original_path": "plugins/azure-ai-document-intelligence-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-servicebus-ts",
+      "original_path": "plugins/azure-servicebus-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-contentsafety-ts",
+      "original_path": "plugins/azure-ai-contentsafety-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-voicelive-ts",
+      "original_path": "plugins/azure-ai-voicelive-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "zustand-store-ts",
+      "original_path": "plugins/zustand-store-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-storage-blob-ts",
+      "original_path": "plugins/azure-storage-blob-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-cosmos-ts",
+      "original_path": "plugins/azure-cosmos-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "frontend-ui-dark-ts",
+      "original_path": "plugins/frontend-ui-dark-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-ai-projects-ts",
+      "original_path": "plugins/azure-ai-projects-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "m365-agents-ts",
+      "original_path": "plugins/m365-agents-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "azure-identity-ts",
+      "original_path": "plugins/azure-identity-ts",
+      "source": "microsoft/skills (plugin)"
+    },
+    {
+      "flat_name": "copilot-sdk",
+      "original_path": ".github/skills/copilot-sdk",
       "source": "microsoft/skills (.github/skills)"
     },
     {
@@ -681,33 +816,13 @@
       "source": "microsoft/skills (.github/skills)"
     },
     {
-      "flat_name": "fastapi-router-py",
-      "original_path": ".github/skills/fastapi-router-py",
+      "flat_name": "frontend-design-review",
+      "original_path": ".github/skills/frontend-design-review",
       "source": "microsoft/skills (.github/skills)"
     },
     {
       "flat_name": "skill-creator-ms",
       "original_path": ".github/skills/skill-creator",
-      "source": "microsoft/skills (.github/skills)"
-    },
-    {
-      "flat_name": "pydantic-models-py",
-      "original_path": ".github/skills/pydantic-models-py",
-      "source": "microsoft/skills (.github/skills)"
-    },
-    {
-      "flat_name": "azure-ai-agents-persistent-java",
-      "original_path": ".github/skills/azure-ai-agents-persistent-java",
-      "source": "microsoft/skills (.github/skills)"
-    },
-    {
-      "flat_name": "azure-ai-agents-persistent-dotnet",
-      "original_path": ".github/skills/azure-ai-agents-persistent-dotnet",
-      "source": "microsoft/skills (.github/skills)"
-    },
-    {
-      "flat_name": "hosted-agents-v2-py",
-      "original_path": ".github/skills/hosted-agents-v2-py",
       "source": "microsoft/skills (.github/skills)"
     },
     {
@@ -718,6 +833,11 @@
     {
       "flat_name": "podcast-generation",
       "original_path": ".github/skills/podcast-generation",
+      "source": "microsoft/skills (.github/skills)"
+    },
+    {
+      "flat_name": "continual-learning",
+      "original_path": ".github/skills/continual-learning",
       "source": "microsoft/skills (.github/skills)"
     }
   ]

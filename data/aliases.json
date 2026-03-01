@@ -22,6 +22,7 @@
     "azure-monitor-py": "azure-monitor-opentelemetry-exporter-py",
     "azure-monitor-ts": "azure-monitor-opentelemetry-ts",
     "azure-resource-dotnet": "azure-resource-manager-cosmosdb-dotnet",
+    "azure-resource-ms": "azure-resource-visualizer-ms",
     "azure-search-dotnet": "azure-search-documents-dotnet",
     "azure-security-dotnet": "azure-security-keyvault-keys-dotnet",
     "azure-security-java": "azure-security-keyvault-keys-java",
