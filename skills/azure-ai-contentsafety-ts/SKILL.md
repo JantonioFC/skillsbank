@@ -1,11 +1,8 @@
 ---
 name: azure-ai-contentsafety-ts
-description: "Analyze text and images for harmful content using Azure AI Content Safety (@azure-rest/ai-content-safety). Use when moderating user-generated content, detecting hate speech, violence, sexual conten..."
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: Analyze text and images for harmful content using Azure AI Content Safety (@azure-rest/ai-content-safety). Use when moderating user-generated content, detecting hate speech, violence, sexual content, or self-harm, or managing custom blocklists.
+package: "@azure-rest/ai-content-safety"
 ---
-
 
 # Azure AI Content Safety REST SDK for TypeScript
 
@@ -301,6 +298,3 @@ import ContentSafetyClient, {
 3. **Use blocklists for domain-specific terms** - Supplement AI detection with custom rules
 4. **Log moderation decisions** - Keep audit trail for compliance
 5. **Handle edge cases** - Empty text, very long text, unsupported image formats
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.

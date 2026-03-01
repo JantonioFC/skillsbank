@@ -1,17 +1,10 @@
 ---
 name: azure-eventhub-ts
-description: "Build event streaming applications using Azure Event Hubs SDK for JavaScript (@azure/event-hubs). Use when implementing high-throughput event ingestion, real-time analytics, IoT telemetry, or event..."
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: Build event streaming applications using Azure Event Hubs SDK for JavaScript (@azure/event-hubs). Use when implementing high-throughput event ingestion, real-time analytics, IoT telemetry, or event-driven architectures with partitioned consumers.
+package: "@azure/event-hubs"
 ---
 
 # Azure Event Hubs SDK for TypeScript
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 High-throughput event streaming and real-time data ingestion.
 
@@ -273,6 +266,3 @@ consumer.subscribe({
 5. **Handle errors gracefully** - Don't checkpoint on processing failures
 6. **Close clients** - Always close producer/consumer when done
 7. **Monitor lag** - Track `lastEnqueuedSequenceNumber` vs processed sequence
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.

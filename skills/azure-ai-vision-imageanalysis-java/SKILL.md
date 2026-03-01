@@ -1,11 +1,8 @@
 ---
 name: azure-ai-vision-imageanalysis-java
-description: "Build image analysis applications with Azure AI Vision SDK for Java. Use when implementing image captioning, OCR text extraction, object detection, tagging, or smart cropping."
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: Build image analysis applications with Azure AI Vision SDK for Java. Use when implementing image captioning, OCR text extraction, object detection, tagging, or smart cropping.
+package: com.azure:azure-ai-vision-imageanalysis
 ---
-
 
 # Azure AI Vision Image Analysis SDK for Java
 
@@ -290,6 +287,3 @@ Caption and Dense Captions require GPU-supported regions. Check [supported regio
 - "object detection image"
 - "smart crop thumbnail"
 - "detect people image"
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.

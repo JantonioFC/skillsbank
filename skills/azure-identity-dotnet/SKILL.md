@@ -1,9 +1,8 @@
 ---
 name: azure-identity-dotnet
 description: |
-risk: unknown
-source: community
-date_added: "2026-02-27"
+  Azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials. Triggers: "Azure Identity", "DefaultAzureCredential", "ManagedIdentityCredential", "ClientSecretCredential", "authentication .NET", "Azure auth", "credential chain".
+package: Azure.Identity
 ---
 
 # Azure.Identity (.NET)
@@ -338,6 +337,3 @@ All credential implementations are thread-safe. A single credential instance can
 | Credential Chains | https://learn.microsoft.com/dotnet/azure/sdk/authentication/credential-chains |
 | Best Practices | https://learn.microsoft.com/dotnet/azure/sdk/authentication/best-practices |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/identity/Azure.Identity |
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.

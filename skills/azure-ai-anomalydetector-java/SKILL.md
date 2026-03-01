@@ -1,11 +1,8 @@
 ---
 name: azure-ai-anomalydetector-java
-description: "Build anomaly detection applications with Azure AI Anomaly Detector SDK for Java. Use when implementing univariate/multivariate anomaly detection, time-series analysis, or AI-powered monitoring."
-risk: unknown
-source: community
-date_added: "2026-02-27"
+description: Build anomaly detection applications with Azure AI Anomaly Detector SDK for Java. Use when implementing univariate/multivariate anomaly detection, time-series analysis, or AI-powered monitoring.
+package: com.azure:azure-ai-anomalydetector
 ---
-
 
 # Azure AI Anomaly Detector SDK for Java
 
@@ -257,6 +254,3 @@ AZURE_ANOMALY_DETECTOR_API_KEY=<your-api-key>
 - "streaming anomaly detection"
 - "change point detection"
 - "Azure AI Anomaly Detector"
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.

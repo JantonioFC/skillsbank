@@ -1,9 +1,8 @@
 ---
 name: azure-eventgrid-dotnet
 description: |
-risk: unknown
-source: community
-date_added: "2026-02-27"
+  Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents. Triggers: "Event Grid", "EventGridPublisherClient", "CloudEvent", "EventGridEvent", "publish events .NET", "event-driven", "pub/sub".
+package: Azure.Messaging.EventGrid
 ---
 
 # Azure.Messaging.EventGrid (.NET)
@@ -487,6 +486,3 @@ catch (RequestFailedException)
 | Quickstart | https://learn.microsoft.com/azure/event-grid/custom-event-quickstart |
 | Pull Delivery | https://learn.microsoft.com/azure/event-grid/pull-delivery-overview |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/eventgrid/Azure.Messaging.EventGrid |
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
