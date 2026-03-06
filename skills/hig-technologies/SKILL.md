@@ -1,10 +1,13 @@
 ---
 name: hig-technologies
-description: 'Apple HIG guidance for Apple technology integrations: Siri, Apple Pay, HealthKit, HomeKit, ARKit, machine learning, generative AI, iCloud, Sign in with Apple, SharePlay, CarPlay, Game Center,...'
+description: 'Apple HIG guidance for Apple technology integrations: Siri, Apple Pay,
+  HealthKit, HomeKit, ARKit, machine learning, generative AI, iCloud, Sign in with
+  Apple, SharePlay, CarPlay, Game Center,...'
 risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
+
 
 # Apple HIG: Technologies
 

@@ -1,18 +1,22 @@
 ---
-name: Functional Programming Fundamentals
-description: Core FP concepts including pure functions, currying, composition, and pointfree style - the foundation for mastering functional TypeScript
+name: fp-fundamentals
+description: Core FP concepts including pure functions, currying, composition, and
+  pointfree style - the foundation for mastering functional TypeScript
 version: 1.0.0
 author: Claude
 tags:
-  - functional-programming
-  - typescript
-  - javascript
-  - pure-functions
-  - currying
-  - composition
-  - pointfree
-  - fp-fundamentals
+- functional-programming
+- typescript
+- javascript
+- pure-functions
+- currying
+- composition
+- pointfree
+- fp-fundamentals
+risk: unknown
+source: community
 ---
+
 
 # Functional Programming Fundamentals
 
@@ -1177,3 +1181,6 @@ With these fundamentals mastered, you're ready for:
 4. **Monads and Functors**: The algebraic structures behind fp-ts
 
 Remember: FP is about building complex behavior from simple, composable pieces. Start small, practice composition, and gradually adopt more advanced patterns as they prove useful in your code.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

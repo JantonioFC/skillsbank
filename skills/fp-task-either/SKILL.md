@@ -1,17 +1,21 @@
 ---
-name: fp-ts-task-either
-description: Functional async patterns using TaskEither for type-safe error handling in TypeScript
+name: fp-task-either
+description: Functional async patterns using TaskEither for type-safe error handling
+  in TypeScript
 version: 1.0.0
 author: kadu
 tags:
-  - fp-ts
-  - functional-programming
-  - typescript
-  - async
-  - error-handling
-  - task-either
-  - monads
+- fp-ts
+- functional-programming
+- typescript
+- async
+- error-handling
+- task-either
+- monads
+risk: unknown
+source: community
 ---
+
 
 # fp-ts TaskEither Async Patterns
 

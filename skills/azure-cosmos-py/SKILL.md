@@ -1,10 +1,12 @@
 ---
 name: azure-cosmos-py
-description: Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.
+description: Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries,
+  containers, and globally distributed data.
 risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
+
 
 # Azure Cosmos DB SDK for Python
 
@@ -278,3 +280,6 @@ except CosmosHttpResponseError as e:
 | [references/partitioning.md](references/partitioning.md) | Partition key strategies, hierarchical keys, hot partition detection and mitigation |
 | [references/query-patterns.md](references/query-patterns.md) | Query optimization, aggregations, pagination, transactions, change feed |
 | [scripts/setup_cosmos_container.py](scripts/setup_cosmos_container.py) | CLI tool for creating containers with partitioning, throughput, and indexing |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

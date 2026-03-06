@@ -1,19 +1,24 @@
 ---
 name: marketing-strategy-pmm
-description: Product marketing skill for positioning, GTM strategy, competitive intelligence, and product launches. Covers April Dunford positioning, ICP definition, competitive battlecards, launch playbooks, and international market entry.
+description: Product marketing skill for positioning, GTM strategy, competitive intelligence,
+  and product launches. Covers April Dunford positioning, ICP definition, competitive
+  battlecards, launch playbooks, and international market entry.
 triggers:
-  - product marketing
-  - PMM
-  - positioning
-  - GTM strategy
-  - go-to-market
-  - competitive analysis
-  - battlecard
-  - product launch
-  - market entry
-  - sales enablement
-  - win loss analysis
+- product marketing
+- PMM
+- positioning
+- GTM strategy
+- go-to-market
+- competitive analysis
+- battlecard
+- product launch
+- market entry
+- sales enablement
+- win loss analysis
+risk: unknown
+source: community
 ---
+
 
 # Marketing Strategy & PMM
 
@@ -376,3 +381,6 @@ Enter new markets systematically:
 | 2 | Create assets, publish content |
 | 3 | Support launches, optimize campaigns |
 | 4 | Monthly report, plan next month |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

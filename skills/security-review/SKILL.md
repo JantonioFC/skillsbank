@@ -1,7 +1,12 @@
 ---
 name: security-review
-description: Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.
+description: Use this skill when adding authentication, handling user input, working
+  with secrets, creating API endpoints, or implementing payment/sensitive features.
+  Provides comprehensive security checklist and patterns.
+risk: unknown
+source: community
 ---
+
 
 # Security Review Skill
 
@@ -492,3 +497,6 @@ Before ANY production deployment:
 ---
 
 **Remember**: Security is not optional. One vulnerability can compromise the entire platform. When in doubt, err on the side of caution.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

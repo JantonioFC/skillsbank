@@ -1,10 +1,11 @@
 ---
 name: conductor-new-track
-description: "Create a new track with specification and phased implementation plan"
+description: Create a new track with specification and phased implementation plan
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 # New Track

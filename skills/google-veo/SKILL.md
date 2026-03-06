@@ -1,11 +1,15 @@
 ---
 name: google-veo
-description: "Generate videos with Google Veo models via inference.sh CLI. Models: Veo 3.1, Veo 3.1 Fast, Veo 3, Veo 3 Fast, Veo 2. Capabilities: text-to-video, cinematic output, high quality video generation. Triggers: veo, google veo, veo 3, veo 2, veo 3.1, vertex ai video, google video generation, google video ai, veo model, veo video"
+description: 'Generate videos with Google Veo models via inference.sh CLI. Models:
+  Veo 3.1, Veo 3.1 Fast, Veo 3, Veo 3 Fast, Veo 2. Capabilities: text-to-video, cinematic
+  output, high quality video generation. Triggers: veo, google veo, veo 3, veo 2,
+  veo 3.1, vertex ai video, google video generation, go...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # Google Veo Video Generation
 

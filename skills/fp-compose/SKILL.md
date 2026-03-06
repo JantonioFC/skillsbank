@@ -1,17 +1,21 @@
 ---
-name: Function Composition - Building from Small Pieces
-description: Practical patterns for composing functions in TypeScript using pipe, flow, and functional design principles
+name: fp-compose
+description: Practical patterns for composing functions in TypeScript using pipe,
+  flow, and functional design principles
 version: 1.0.0
 author: Claude
 tags:
-  - functional-programming
-  - typescript
-  - composition
-  - pipe
-  - flow
-  - fp-ts
-  - practical-patterns
+- functional-programming
+- typescript
+- composition
+- pipe
+- flow
+- fp-ts
+- practical-patterns
+risk: unknown
+source: community
 ---
+
 
 # Function Composition - Building from Small Pieces
 

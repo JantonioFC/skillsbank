@@ -1,10 +1,13 @@
 ---
 name: autonomous-agents
-description: "Autonomous agents are AI systems that can independently decompose goals, plan actions, execute tools, and self-correct without constant human guidance. The challenge isn't making them capable - it'..."
+description: Autonomous agents are AI systems that can independently decompose goals,
+  plan actions, execute tools, and self-correct without constant human guidance. The
+  challenge isn't making them capable - it'...
 risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
-date_added: "2026-02-27"
+source: vibeship-spawner-skills (Apache 2.0)
+date_added: '2026-02-27'
 ---
+
 
 
 # Autonomous Agents

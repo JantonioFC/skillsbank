@@ -1,10 +1,12 @@
 ---
 name: writing-plans
-description: "Use when you have a spec or requirements for a multi-step task, before touching code"
+description: Use when you have a spec or requirements for a multi-step task, before
+  touching code
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Writing Plans
 

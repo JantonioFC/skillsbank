@@ -1,7 +1,12 @@
 ---
 name: fastapi-router-py
-description: Create FastAPI routers with CRUD operations, authentication dependencies, and proper response models. Use when building REST API endpoints, creating new routes, implementing CRUD operations, or adding authenticated endpoints in FastAPI applications.
+description: Create FastAPI routers with CRUD operations, authentication dependencies,
+  and proper response models. Use when building REST API endpoints, creating new routes,
+  implementing CRUD operations, or adding authenticated endpoints in FastAPI applications.
+risk: unknown
+source: community
 ---
+
 
 # FastAPI Router
 
@@ -50,3 +55,6 @@ async def list_items() -> list[Item]:
 3. Create corresponding Pydantic models
 4. Create service layer if needed
 5. Add frontend API functions
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

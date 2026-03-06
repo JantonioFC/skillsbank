@@ -1,9 +1,11 @@
 ---
 name: rag-architect
-description: "Comprehensive tools and knowledge for designing, implementing, and optimizing production-grade RAG pipelines"
+description: Comprehensive tools and knowledge for designing, implementing, and optimizing
+  production-grade RAG pipelines
 risk: safe
 source: alirezarezvani/claude-skills
 ---
+
 
 # RAG Architect - POWERFUL
 
@@ -318,3 +320,6 @@ The RAG (Retrieval-Augmented Generation) Architect skill provides comprehensive 
 Building effective RAG systems requires careful consideration of each component in the pipeline. The key to success is understanding the tradeoffs between different approaches and choosing the right combination of techniques for your specific use case. Start with simple approaches and gradually add sophistication based on evaluation results and production requirements.
 
 This skill provides the foundation for making informed decisions throughout the RAG development lifecycle, from initial design to production deployment and ongoing maintenance.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

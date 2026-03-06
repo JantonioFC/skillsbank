@@ -1,7 +1,12 @@
 ---
 name: configure-ecc
-description: Interactive installer for Everything Claude Code — guides users through selecting and installing skills and rules to user-level or project-level directories, verifies paths, and optionally optimizes installed files.
+description: Interactive installer for Everything Claude Code — guides users through
+  selecting and installing skills and rules to user-level or project-level directories,
+  verifies paths, and optionally optimizes installed files.
+risk: unknown
+source: community
 ---
+
 
 # Configure Everything Claude Code (ECC)
 
@@ -296,3 +301,6 @@ Then print a summary report:
 ### "Path reference errors after project-level install"
 - Some skills assume `~/.claude/` paths. Run Step 4 verification to find and fix these.
 - For `continuous-learning-v2`, the `~/.claude/homunculus/` directory is always user-level — this is expected and not an error.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

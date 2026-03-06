@@ -1,10 +1,13 @@
 ---
 name: upstash-qstash
-description: "Upstash QStash expert for serverless message queues, scheduled jobs, and reliable HTTP-based task delivery without managing infrastructure. Use when: qstash, upstash queue, serverless cron, schedul..."
+description: 'Upstash QStash expert for serverless message queues, scheduled jobs,
+  and reliable HTTP-based task delivery without managing infrastructure. Use when:
+  qstash, upstash queue, serverless cron, schedul...'
 risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
-date_added: "2026-02-27"
+source: vibeship-spawner-skills (Apache 2.0)
+date_added: '2026-02-27'
 ---
+
 
 
 

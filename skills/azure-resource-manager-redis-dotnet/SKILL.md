@@ -6,6 +6,7 @@ source: community
 date_added: '2026-02-27'
 ---
 
+
 # Azure.ResourceManager.Redis (.NET)
 
 Management plane SDK for provisioning and managing Azure Cache for Redis resources via Azure Resource Manager.
@@ -355,3 +356,6 @@ var value = await db.StringGetAsync("key");
 | `StackExchange.Redis` | Data plane (get/set, pub/sub, streams) | `dotnet add package StackExchange.Redis` |
 | `Azure.ResourceManager.Redis` | Management plane (this SDK) | `dotnet add package Azure.ResourceManager.Redis` |
 | `Microsoft.Azure.StackExchangeRedis` | Azure-specific Redis extensions | `dotnet add package Microsoft.Azure.StackExchangeRedis` |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

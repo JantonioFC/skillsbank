@@ -1,7 +1,11 @@
 ---
 name: golang-testing
-description: Go testing patterns including table-driven tests, subtests, benchmarks, fuzzing, and test coverage. Follows TDD methodology with idiomatic Go practices.
+description: Go testing patterns including table-driven tests, subtests, benchmarks,
+  fuzzing, and test coverage. Follows TDD methodology with idiomatic Go practices.
+risk: unknown
+source: community
 ---
+
 
 # Go Testing Patterns
 
@@ -717,3 +721,6 @@ test:
 ```
 
 **Remember**: Tests are documentation. They show how your code is meant to be used. Write them clearly and keep them up to date.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

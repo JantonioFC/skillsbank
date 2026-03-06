@@ -1,10 +1,13 @@
 ---
 name: reddit-automation
-description: "Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content. Always search tools first for current schemas."
+description: 'Automate Reddit tasks via Rube MCP (Composio): search subreddits, create
+  posts, manage comments, and browse top content. Always search tools first for current
+  schemas.'
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Reddit Automation via Rube MCP
 

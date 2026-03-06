@@ -1,20 +1,25 @@
 ---
 name: quality-manager-qmr
-description: Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech companies. Provides quality system governance, management review leadership, regulatory compliance oversight, and quality performance monitoring per ISO 13485 Clause 5.5.2.
+description: Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech
+  companies. Provides quality system governance, management review leadership, regulatory
+  compliance oversight, and quality performance monitoring per ISO 13485 Clause 5.5.2.
 triggers:
-  - management review
-  - quality policy
-  - quality objectives
-  - QMR responsibilities
-  - quality system effectiveness
-  - quality KPIs
-  - cost of quality
-  - quality performance
-  - management accountability
-  - regulatory oversight
-  - quality culture
-  - quality governance
+- management review
+- quality policy
+- quality objectives
+- QMR responsibilities
+- quality system effectiveness
+- quality KPIs
+- cost of quality
+- quality performance
+- management accountability
+- regulatory oversight
+- quality culture
+- quality governance
+risk: unknown
+source: community
 ---
+
 
 # Senior Quality Manager Responsible Person (QMR)
 
@@ -486,3 +491,6 @@ immediately    Yes─┴─No
 | [capa-officer](../capa-officer/) | CAPA system oversight |
 | [qms-audit-expert](../qms-audit-expert/) | Internal audit program |
 | [quality-documentation-manager](../quality-documentation-manager/) | Document control oversight |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

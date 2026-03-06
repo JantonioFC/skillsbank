@@ -1,7 +1,12 @@
 ---
 name: azure-observability
-description: Azure Observability Services including Azure Monitor, Application Insights, Log Analytics, Alerts, and Workbooks. Provides metrics, APM, distributed tracing, KQL queries, and interactive reports.
+description: Azure Observability Services including Azure Monitor, Application Insights,
+  Log Analytics, Alerts, and Workbooks. Provides metrics, APM, distributed tracing,
+  KQL queries, and interactive reports.
+risk: unknown
+source: community
 ---
+
 
 # Azure Observability Services
 
@@ -103,3 +108,6 @@ For deep documentation on specific services:
 - Application Insights setup -> `appinsights-instrumentation` skill
 - KQL query patterns -> [Log Analytics KQL documentation](https://learn.microsoft.com/azure/azure-monitor/logs/log-query-overview)
 - Alert configuration -> [Azure Monitor alerts documentation](https://learn.microsoft.com/azure/azure-monitor/alerts/alerts-overview)
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

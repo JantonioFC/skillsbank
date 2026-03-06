@@ -1,10 +1,13 @@
 ---
 name: azure-ai-openai-dotnet
-description: Azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants.
+description: Azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI
+  services. Use for chat completions, embeddings, image generation, audio transcription,
+  and assistants.
 risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
+
 
 # Azure.AI.OpenAI (.NET)
 
@@ -454,3 +457,6 @@ catch (RequestFailedException ex)
 | Migration Guide (1.0→2.0) | https://learn.microsoft.com/azure/ai-services/openai/how-to/dotnet-migration |
 | Quickstart | https://learn.microsoft.com/azure/ai-services/openai/quickstart |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/openai/Azure.AI.OpenAI |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,11 +1,15 @@
 ---
 name: product-photography
-description: "AI product photography with studio lighting, lifestyle shots, and packshot conventions. Covers angles, backgrounds, shadow types, hero shots, and e-commerce image requirements. Use for: product photos, e-commerce images, Amazon listings, packshots, lifestyle photography. Triggers: product photography, product photo, packshot, e-commerce photography, product shot, product image, studio photography, lifestyle product, amazon product photo, product listing image, hero shot, product mockup, commercial photography"
+description: 'AI product photography with studio lighting, lifestyle shots, and packshot
+  conventions. Covers angles, backgrounds, shadow types, hero shots, and e-commerce
+  image requirements. Use for: product photos, e-commerce images, Amazon listings,
+  packshots, lifestyle photography. Triggers: product ...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # Product Photography
 

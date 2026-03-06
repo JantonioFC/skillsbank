@@ -1,8 +1,13 @@
 ---
 name: azure-identity-java
-description: Azure Identity Java SDK for authentication with Azure services. Use when implementing DefaultAzureCredential, managed identity, service principal, or any Azure authentication pattern in Java applications.
+description: Azure Identity Java SDK for authentication with Azure services. Use when
+  implementing DefaultAzureCredential, managed identity, service principal, or any
+  Azure authentication pattern in Java applications.
 package: com.azure:azure-identity
+risk: unknown
+source: community
 ---
+
 
 # Azure Identity (Java)
 
@@ -364,3 +369,6 @@ AZURE_AUTHORITY_HOST=https://login.microsoftonline.com/
 - "managed identity Java", "service principal Java"
 - "Azure login Java", "Azure credentials Java"
 - "AZURE_CLIENT_ID", "AZURE_TENANT_ID"
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

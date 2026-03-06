@@ -1,7 +1,13 @@
 ---
 name: cold-email
-description: Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences.
+description: Write B2B cold emails and follow-up sequences that get replies. Use when
+  the user wants to write cold outreach emails, prospecting emails, cold email campaigns,
+  sales development emails, or SDR emails. Covers subject lines, opening lines, body
+  copy, CTAs, personalization, and multi-touch f...
+risk: unknown
+source: community
 ---
+
 
 # Cold Email Writing
 
@@ -153,3 +159,6 @@ Use this data to inform your writing — not as a checklist to satisfy.
 - **email-sequence**: For lifecycle/nurture email sequences (not cold outreach)
 - **social-content**: For LinkedIn and social posts
 - **product-marketing-context**: For establishing foundational positioning
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

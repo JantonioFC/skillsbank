@@ -1,7 +1,12 @@
 ---
 name: springboot-patterns
-description: Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work.
+description: Spring Boot architecture patterns, REST API design, layered services,
+  data access, caching, async processing, and logging. Use for Java Spring Boot backend
+  work.
+risk: unknown
+source: community
 ---
+
 
 # Spring Boot Development Patterns
 
@@ -302,3 +307,6 @@ Use Spring’s `@Scheduled` or integrate with queues (e.g., Kafka, SQS, RabbitMQ
 - Enforce null-safety via `@NonNull` and `Optional` where appropriate
 
 **Remember**: Keep controllers thin, services focused, repositories simple, and errors handled centrally. Optimize for maintainability and testability.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

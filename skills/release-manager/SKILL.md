@@ -1,9 +1,11 @@
 ---
 name: release-manager
-description: "Comprehensive tools for managing software releases end-to-end, including changelog generation, semantic version bumping, and release coordination"
+description: Comprehensive tools for managing software releases end-to-end, including
+  changelog generation, semantic version bumping, and release coordination
 risk: safe
 source: alirezarezvani/claude-skills
 ---
+
 
 # Release Manager
 
@@ -490,3 +492,6 @@ def monitor_deployment():
 7. **Iteration**: Continuously improve based on feedback and metrics
 
 The Release Manager skill transforms chaotic deployments into predictable, reliable releases that build confidence across your entire organization.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,10 +1,12 @@
 ---
 name: popup-cro
-description: "Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust."
+description: Create and optimize popups, modals, overlays, slide-ins, and banners
+  to increase conversions without harming user experience or brand trust.
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Popup CRO
 

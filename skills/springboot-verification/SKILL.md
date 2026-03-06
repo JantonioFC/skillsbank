@@ -1,7 +1,11 @@
 ---
 name: springboot-verification
-description: "Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR."
+description: 'Verification loop for Spring Boot projects: build, static analysis,
+  tests with coverage, security scans, and diff review before release or PR.'
+risk: unknown
+source: community
 ---
+
 
 # Spring Boot Verification Loop
 
@@ -220,3 +224,6 @@ Issues to Fix:
 - Keep a short loop: `mvn -T 4 test` + spotbugs for quick feedback
 
 **Remember**: Fast feedback beats late surprises. Keep the gate strict—treat warnings as defects in production systems.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

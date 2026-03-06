@@ -1,8 +1,12 @@
 ---
 name: eval-harness
-description: Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles
+description: Formal evaluation framework for Claude Code sessions implementing eval-driven
+  development (EDD) principles
 tools: Read, Write, Edit, Bash, Grep, Glob
+risk: unknown
+source: community
 ---
+
 
 # Eval Harness Skill
 
@@ -225,3 +229,6 @@ Capability: 5/5 passed (pass@3: 100%)
 Regression: 3/3 passed (pass^3: 100%)
 Status: SHIP IT
 ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

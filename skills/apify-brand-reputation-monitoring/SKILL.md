@@ -1,7 +1,12 @@
 ---
 name: apify-brand-reputation-monitoring
-description: "Track reviews, ratings, sentiment, and brand mentions across Google Maps, Booking.com, TripAdvisor, Facebook, Instagram, YouTube, and TikTok. Use when user asks to monitor brand reputation, analyze..."
+description: Track reviews, ratings, sentiment, and brand mentions across Google Maps,
+  Booking.com, TripAdvisor, Facebook, Instagram, YouTube, and TikTok. Use when user
+  asks to monitor brand reputation, analyze...
+risk: unknown
+source: community
 ---
+
 
 # Brand Reputation Monitoring
 
@@ -119,3 +124,6 @@ After completion, report:
 `Actor not found` - Check Actor ID spelling
 `Run FAILED` - Ask user to check Apify console link in error output
 `Timeout` - Reduce input size or increase `--timeout`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

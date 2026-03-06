@@ -1,7 +1,13 @@
 ---
 name: senior-pm
-description: Senior Project Manager for enterprise software, SaaS, and digital transformation projects. Specializes in portfolio management, quantitative risk analysis, resource optimization, stakeholder alignment, and executive reporting. Uses advanced methodologies including EMV analysis, Monte Carlo simulation, WSJF prioritization, and multi-dimensional health scoring.
+description: Senior Project Manager for enterprise software, SaaS, and digital transformation
+  projects. Specializes in portfolio management, quantitative risk analysis, resource
+  optimization, stakeholder alignment, and executive reporting. Uses advanced methodologies
+  including EMV analysis, Monte Carlo...
+risk: unknown
+source: community
 ---
+
 
 # Senior Project Management Expert
 
@@ -414,3 +420,6 @@ Reference: `assets/expected_output.json`
 - Customer impact assessment of portfolio decisions
 
 This skill represents the pinnacle of enterprise project management capability, providing both strategic oversight and tactical execution support for complex digital transformation initiatives. The combination of quantitative analysis, sophisticated prioritization, and executive-level communication enables senior project managers to drive significant business value while managing enterprise-level risks and complexities.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

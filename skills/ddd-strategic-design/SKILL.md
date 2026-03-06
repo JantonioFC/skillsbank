@@ -1,11 +1,13 @@
 ---
 name: ddd-strategic-design
-description: "Design DDD strategic artifacts including subdomains, bounded contexts, and ubiquitous language for complex business domains."
+description: Design DDD strategic artifacts including subdomains, bounded contexts,
+  and ubiquitous language for complex business domains.
 risk: safe
 source: self
-tags: "[ddd, strategic-design, bounded-context, ubiquitous-language]"
-date_added: "2026-02-27"
+tags: '[ddd, strategic-design, bounded-context, ubiquitous-language]'
+date_added: '2026-02-27'
 ---
+
 
 # DDD Strategic Design
 
@@ -50,3 +52,6 @@ classify subdomains, and propose team ownership.
 - This skill does not produce executable code.
 - It cannot infer business truth without stakeholder input.
 - It should be followed by tactical design before implementation.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

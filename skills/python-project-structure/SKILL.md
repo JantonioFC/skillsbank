@@ -1,10 +1,13 @@
 ---
 name: python-project-structure
-description: Python project organization, module architecture, and public API design. Use when setting up new projects, organizing modules, defining public interfaces with __all__, or planning directory layouts.
+description: Python project organization, module architecture, and public API design.
+  Use when setting up new projects, organizing modules, defining public interfaces
+  with __all__, or planning directory layouts.
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # Python Project Structure & Module Architecture
 

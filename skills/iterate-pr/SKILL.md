@@ -1,10 +1,13 @@
 ---
 name: iterate-pr
-description: "Iterate on a PR until CI passes. Use when you need to fix CI failures, address review feedback, or continuously push fixes until all checks are green. Automates the feedback-fix-push-wait cycle."
+description: Iterate on a PR until CI passes. Use when you need to fix CI failures,
+  address review feedback, or continuously push fixes until all checks are green.
+  Automates the feedback-fix-push-wait cycle.
 risk: safe
-source: "https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/iterate-pr"
-date_added: "2026-02-27"
+source: https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/iterate-pr
+date_added: '2026-02-27'
 ---
+
 
 # Iterate on PR Until CI Passes
 

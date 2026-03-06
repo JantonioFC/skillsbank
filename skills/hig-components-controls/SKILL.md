@@ -1,10 +1,13 @@
 ---
 name: hig-components-controls
-description: Apple HIG guidance for selection and input controls including pickers, toggles, sliders, steppers, segmented controls, combo boxes, text fields, text views, labels, token fields, virtual...
+description: Apple HIG guidance for selection and input controls including pickers,
+  toggles, sliders, steppers, segmented controls, combo boxes, text fields, text views,
+  labels, token fields, virtual...
 risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
+
 
 # Apple HIG: Selection and Input Controls
 

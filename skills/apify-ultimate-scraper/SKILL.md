@@ -1,7 +1,12 @@
 ---
 name: apify-ultimate-scraper
-description: "Universal AI-powered web scraper for any platform. Scrape data from Instagram, Facebook, TikTok, YouTube, Google Maps, Google Search, Google Trends, Booking.com, and TripAdvisor. Use for lead gener..."
+description: Universal AI-powered web scraper for any platform. Scrape data from Instagram,
+  Facebook, TikTok, YouTube, Google Maps, Google Search, Google Trends, Booking.com,
+  and TripAdvisor. Use for lead gener...
+risk: unknown
+source: community
 ---
+
 
 # Universal Web Scraper
 
@@ -228,3 +233,6 @@ After completion, report:
 `Actor not found` - Check Actor ID spelling
 `Run FAILED` - Ask user to check Apify console link in error output
 `Timeout` - Reduce input size or increase `--timeout`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

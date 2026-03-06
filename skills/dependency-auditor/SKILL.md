@@ -1,9 +1,11 @@
 ---
 name: dependency-auditor
-description: "Comprehensive toolkit for auditing and managing dependencies including vulnerability scanning, license compliance, and upgrade planning"
+description: Comprehensive toolkit for auditing and managing dependencies including
+  vulnerability scanning, license compliance, and upgrade planning
 risk: safe
 source: alirezarezvani/claude-skills
 ---
+
 
 # Dependency Auditor
 
@@ -338,3 +340,6 @@ For detailed usage instructions, see [README.md](README.md).
 ---
 
 *This skill provides comprehensive dependency management capabilities essential for maintaining secure, compliant, and efficient software projects. Regular use helps teams stay ahead of security threats, maintain legal compliance, and optimize their dependency ecosystems.*
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

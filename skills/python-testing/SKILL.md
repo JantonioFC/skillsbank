@@ -1,7 +1,11 @@
 ---
 name: python-testing
-description: Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements.
+description: Python testing strategies using pytest, TDD methodology, fixtures, mocking,
+  parametrization, and coverage requirements.
+risk: unknown
+source: community
 ---
+
 
 # Python Testing Patterns
 
@@ -813,3 +817,6 @@ pytest --pdb
 | `assert` | Simple and readable assertions |
 
 **Remember**: Tests are code too. Keep them clean, readable, and maintainable. Good tests catch bugs; great tests prevent them.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

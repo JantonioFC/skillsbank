@@ -1,8 +1,13 @@
 ---
 name: azure-ai-projects-ts
-description: Build AI applications using Azure AI Projects SDK for JavaScript (@azure/ai-projects). Use when working with Foundry project clients, agents, connections, deployments, datasets, indexes, evaluations, or getting OpenAI clients.
-package: "@azure/ai-projects"
+description: Build AI applications using Azure AI Projects SDK for JavaScript (@azure/ai-projects).
+  Use when working with Foundry project clients, agents, connections, deployments,
+  datasets, indexes, evaluations, or getting OpenAI clients.
+package: '@azure/ai-projects'
+risk: unknown
+source: community
 ---
+
 
 # Azure AI Projects SDK for TypeScript
 
@@ -287,3 +292,6 @@ import {
 3. **Clean up resources** - Delete agents, conversations when done
 4. **Use connections** - Get credentials from project connections, don't hardcode
 5. **Filter deployments** - Use `modelPublisher` filter to find specific models
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

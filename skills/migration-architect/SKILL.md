@@ -1,9 +1,11 @@
 ---
 name: migration-architect
-description: "Zero-downtime migration planning, compatibility validation, and rollback strategy generation for complex system migrations"
+description: Zero-downtime migration planning, compatibility validation, and rollback
+  strategy generation for complex system migrations
 risk: safe
 source: alirezarezvani/claude-skills
 ---
+
 
 # Migration Architect
 
@@ -478,3 +480,6 @@ resource "aws_instance" "green_environment" {
 ```
 
 This Migration Architect skill provides a comprehensive framework for planning, executing, and validating complex system migrations while minimizing business impact and technical risk. The combination of automated tools, proven patterns, and detailed procedures enables organizations to confidently undertake even the most complex migration projects.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

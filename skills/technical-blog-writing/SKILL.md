@@ -1,11 +1,15 @@
 ---
 name: technical-blog-writing
-description: "Technical blog post writing with structure, code examples, and developer audience conventions. Covers post types, code formatting, explanation depth, and developer-specific engagement patterns. Use for: engineering blogs, dev tutorials, technical writing, developer content, documentation posts. Triggers: technical blog, dev blog, engineering blog, technical writing, developer tutorial, tech post, code tutorial, programming blog, developer content, technical article, engineering post, coding tutorial, technical content"
+description: 'Technical blog post writing with structure, code examples, and developer
+  audience conventions. Covers post types, code formatting, explanation depth, and
+  developer-specific engagement patterns. Use for: engineering blogs, dev tutorials,
+  technical writing, developer content, documentation p...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # Technical Blog Writing
 

@@ -1,7 +1,13 @@
 ---
 name: senior-secops
-description: Comprehensive SecOps skill for application security, vulnerability management, compliance, and secure development practices. Includes security scanning, vulnerability assessment, compliance checking, and security automation. Use when implementing security controls, conducting security audits, responding to vulnerabilities, or ensuring compliance requirements.
+description: Comprehensive SecOps skill for application security, vulnerability management,
+  compliance, and secure development practices. Includes security scanning, vulnerability
+  assessment, compliance checking, and security automation. Use when implementing
+  security controls, conducting security audi...
+risk: unknown
+source: community
 ---
+
 
 # Senior SecOps Engineer
 
@@ -503,3 +509,6 @@ app.use((req, res, next) => {
 - Vanta (SOC 2 automation)
 - Drata (compliance management)
 - AWS Config (configuration compliance)
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

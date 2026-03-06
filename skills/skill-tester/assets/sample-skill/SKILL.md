@@ -1,9 +1,11 @@
 ---
 name: sample-skill
-description: "Sample text processor demonstrating basic skill structure and functionality for the claude-skills ecosystem"
+description: Sample text processor demonstrating basic skill structure and functionality
+  for the claude-skills ecosystem
 risk: safe
 source: alirezarezvani/claude-skills
 ---
+
 
 # Sample Text Processor
 
@@ -168,3 +170,6 @@ As a BASIC tier skill, some advanced features are intentionally omitted:
 - Parallel processing for very large datasets
 
 This skill demonstrates the essential structure and quality standards required for BASIC tier skills in the claude-skills ecosystem while remaining simple and focused on core functionality.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

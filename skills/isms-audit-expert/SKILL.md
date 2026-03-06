@@ -1,17 +1,21 @@
 ---
 name: isms-audit-expert
-description: Information Security Management System auditing for ISO 27001 compliance, security control assessment, and certification support
+description: Information Security Management System auditing for ISO 27001 compliance,
+  security control assessment, and certification support
 triggers:
-  - ISMS audit
-  - ISO 27001 audit
-  - security audit
-  - internal audit ISO 27001
-  - security control assessment
-  - certification audit
-  - surveillance audit
-  - audit finding
-  - nonconformity
+- ISMS audit
+- ISO 27001 audit
+- security audit
+- internal audit ISO 27001
+- security control assessment
+- certification audit
+- surveillance audit
+- audit finding
+- nonconformity
+risk: unknown
+source: community
 ---
+
 
 # ISMS Audit Expert
 
@@ -286,3 +290,6 @@ python scripts/isms_audit_scheduler.py --controls controls.csv --format markdown
 | HIPAA | Access controls, audit logging, encryption |
 | PCI DSS | Network security, access control, monitoring |
 | SOC 2 | Trust Services Criteria mapped to ISO 27002 |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

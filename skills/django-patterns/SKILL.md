@@ -1,7 +1,11 @@
 ---
 name: django-patterns
-description: Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps.
+description: Django architecture patterns, REST API design with DRF, ORM best practices,
+  caching, signals, middleware, and production-grade Django apps.
+risk: unknown
+source: community
 ---
+
 
 # Django Development Patterns
 
@@ -731,3 +735,6 @@ Product.objects.filter(stock=0).delete()
 | Middleware | Request/response processing |
 
 Remember: Django provides many shortcuts, but for production applications, structure and organization matter more than concise code. Build for maintainability.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

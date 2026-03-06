@@ -1,11 +1,13 @@
 ---
 name: wordpress-woocommerce-development
-description: "WooCommerce store development workflow covering store setup, payment integration, shipping configuration, and customization."
+description: WooCommerce store development workflow covering store setup, payment
+  integration, shipping configuration, and customization.
 category: granular-workflow-bundle
 risk: safe
 source: personal
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # WordPress WooCommerce Development Workflow
 

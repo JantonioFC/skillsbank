@@ -1,10 +1,11 @@
 ---
 name: context-compression
-description: "Design and evaluate compression strategies for long-running sessions"
+description: Design and evaluate compression strategies for long-running sessions
 risk: safe
-source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-compression"
-date_added: "2026-02-27"
+source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-compression
+date_added: '2026-02-27'
 ---
+
 # Context Compression Strategies
 
 When agent sessions generate millions of tokens of conversation history, compression becomes mandatory. The naive approach is aggressive compression to minimize tokens per request. The correct optimization target is tokens per task: total tokens consumed to complete a task, including re-fetching costs when compression loses critical information.

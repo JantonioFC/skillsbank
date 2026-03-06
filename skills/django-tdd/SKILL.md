@@ -1,7 +1,11 @@
 ---
 name: django-tdd
-description: Django testing strategies with pytest-django, TDD methodology, factory_boy, mocking, coverage, and testing Django REST Framework APIs.
+description: Django testing strategies with pytest-django, TDD methodology, factory_boy,
+  mocking, coverage, and testing Django REST Framework APIs.
+risk: unknown
+source: community
 ---
+
 
 # Django Testing with TDD
 
@@ -726,3 +730,6 @@ open htmlcov/index.html
 | `mail.outbox` | Check sent emails |
 
 Remember: Tests are documentation. Good tests explain how your code should work. Keep them simple, readable, and maintainable.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,10 +1,13 @@
 ---
 name: laravel-security-audit
-description: "Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices."
+description: Security auditor for Laravel applications. Analyzes code for vulnerabilities,
+  misconfigurations, and insecure practices using OWASP standards and Laravel security
+  best practices.
 risk: safe
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Laravel Security Audit
 
@@ -222,3 +225,6 @@ Refactored Example:
 $post = Post::where('user_id', auth()->id())
     ->findOrFail($id);
 ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

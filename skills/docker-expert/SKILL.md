@@ -1,11 +1,14 @@
 ---
 name: docker-expert
-description: "Docker containerization expert with deep knowledge of multi-stage builds, image optimization, container security, Docker Compose orchestration, and production deployment patterns. Use PROACTIVELY f..."
+description: Docker containerization expert with deep knowledge of multi-stage builds,
+  image optimization, container security, Docker Compose orchestration, and production
+  deployment patterns. Use PROACTIVELY f...
 category: devops
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 

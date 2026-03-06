@@ -1,10 +1,11 @@
 ---
 name: security-bluebook-builder
-description: "Build security Blue Books for sensitive apps"
+description: Build security Blue Books for sensitive apps
 risk: safe
-source: "https://github.com/SHADOWPR0/security-bluebook-builder"
-date_added: "2026-02-27"
+source: https://github.com/SHADOWPR0/security-bluebook-builder
+date_added: '2026-02-27'
 ---
+
 
 # Security Bluebook Builder
 

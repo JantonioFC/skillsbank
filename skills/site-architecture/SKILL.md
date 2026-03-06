@@ -1,9 +1,15 @@
 ---
 name: site-architecture
-description: When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions "sitemap," "site map," "visual sitemap," "site structure," "page hierarchy," "information architecture," "IA," "navigation design," "URL structure," "breadcrumbs," "internal linking strategy," or "website planning." NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema-markup.
+description: When the user wants to plan, map, or restructure their website's page
+  hierarchy, navigation, URL structure, or internal linking. Also use when the user
+  mentions "sitemap," "site map," "visual sitemap," "site structure," "page hierarchy,"
+  "information architecture," "IA," "navigation design...
 metadata:
   version: 1.1.0
+risk: unknown
+source: community
 ---
+
 
 # Site Architecture
 
@@ -355,3 +361,6 @@ Mermaid diagram showing page relationships and navigation zones. Use `graph TD` 
 - **page-cro**: For optimizing individual pages for conversion
 - **schema-markup**: For implementing breadcrumb and site navigation structured data
 - **competitor-alternatives**: For comparison page frameworks and URL patterns
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

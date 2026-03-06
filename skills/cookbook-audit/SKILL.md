@@ -1,7 +1,11 @@
 ---
 name: cookbook-audit
-description: Audit an Anthropic Cookbook notebook based on a rubric. Use whenever a notebook review or audit is requested.
+description: Audit an Anthropic Cookbook notebook based on a rubric. Use whenever
+  a notebook review or audit is requested.
+risk: unknown
+source: community
 ---
+
 
 # Cookbook Audit
 

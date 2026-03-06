@@ -1,10 +1,12 @@
 ---
 name: microsoft-azure-webjobs-extensions-authentication-events-dotnet
-description: Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication extensions.
+description: Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers
+  for custom authentication extensions.
 risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
+
 
 # Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents (.NET)
 
@@ -440,3 +442,6 @@ public static WebJobsAuthenticationEventResponse Run(
 | Token Issuance Events | https://learn.microsoft.com/entra/identity-platform/custom-extension-tokenissuancestart-setup |
 | Attribute Collection Events | https://learn.microsoft.com/entra/identity-platform/custom-extension-attribute-collection |
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/entra/Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

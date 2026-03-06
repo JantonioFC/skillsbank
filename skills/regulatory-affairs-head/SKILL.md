@@ -1,20 +1,25 @@
 ---
 name: regulatory-affairs-head
-description: Senior Regulatory Affairs Manager for HealthTech and MedTech companies. Provides regulatory strategy development, submission management, pathway analysis, global compliance coordination, and cross-functional team leadership.
+description: Senior Regulatory Affairs Manager for HealthTech and MedTech companies.
+  Provides regulatory strategy development, submission management, pathway analysis,
+  global compliance coordination, and cross-functional team leadership.
 triggers:
-  - regulatory strategy
-  - FDA submission
-  - EU MDR
-  - 510(k)
-  - PMA approval
-  - CE marking
-  - regulatory pathway
-  - market access
-  - clinical evidence
-  - regulatory intelligence
-  - submission planning
-  - notified body
+- regulatory strategy
+- FDA submission
+- EU MDR
+- 510(k)
+- PMA approval
+- CE marking
+- regulatory pathway
+- market access
+- clinical evidence
+- regulatory intelligence
+- submission planning
+- notified body
+risk: unknown
+source: community
 ---
+
 
 # Head of Regulatory Affairs
 
@@ -455,3 +460,6 @@ Is predicate device available?
 | [fda-consultant-specialist](../fda-consultant-specialist/) | FDA submission deep expertise |
 | [quality-manager-qms-iso13485](../quality-manager-qms-iso13485/) | QMS for regulatory compliance |
 | [risk-management-specialist](../risk-management-specialist/) | ISO 14971 risk management |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,10 +1,11 @@
 ---
 name: search-specialist
-description: "Expert web researcher using advanced search techniques and"
+description: Expert web researcher using advanced search techniques and
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 ## Use this skill when
 
@@ -76,3 +77,6 @@ You are a search specialist expert at finding and synthesizing information from 
 - Recommendations for further research
 
 Focus on actionable insights. Always provide direct quotes for important claims.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

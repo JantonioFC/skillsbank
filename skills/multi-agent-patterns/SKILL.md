@@ -1,10 +1,11 @@
 ---
 name: multi-agent-patterns
-description: "Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures"
+description: Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures
 risk: safe
-source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/multi-agent-patterns"
-date_added: "2026-02-27"
+source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/multi-agent-patterns
+date_added: '2026-02-27'
 ---
+
 
 ## When to Use This Skill
 

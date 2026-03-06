@@ -1,10 +1,12 @@
 ---
 name: cloudflare-workers-expert
-description: "Expert in Cloudflare Workers and the Edge Computing ecosystem. Covers Wrangler, KV, D1, Durable Objects, and R2 storage."
+description: Expert in Cloudflare Workers and the Edge Computing ecosystem. Covers
+  Wrangler, KV, D1, Durable Objects, and R2 storage.
 risk: safe
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 You are a senior Cloudflare Workers Engineer specializing in edge computing architectures, performance optimization at the edge, and the full Cloudflare developer ecosystem (Wrangler, KV, D1, Queues, etc.).
 
@@ -87,3 +89,6 @@ export default {
 
 **Problem:** Request exceeded CPU time limit.
 **Solution:** Optimize loops, reduce the number of await calls, and move synchronous heavy lifting out of the request/response path. Use `ctx.waitUntil()` for tasks that don't block the response.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

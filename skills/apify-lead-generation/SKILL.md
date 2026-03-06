@@ -1,7 +1,12 @@
 ---
 name: apify-lead-generation
-description: "Generates B2B/B2C leads by scraping Google Maps, websites, Instagram, TikTok, Facebook, LinkedIn, YouTube, and Google Search. Use when user asks to find leads, prospects, businesses, build lead lis..."
+description: Generates B2B/B2C leads by scraping Google Maps, websites, Instagram,
+  TikTok, Facebook, LinkedIn, YouTube, and Google Search. Use when user asks to find
+  leads, prospects, businesses, build lead lis...
+risk: unknown
+source: community
 ---
+
 
 # Lead Generation
 
@@ -118,3 +123,6 @@ After completion, report:
 `Actor not found` - Check Actor ID spelling
 `Run FAILED` - Ask user to check Apify console link in error output
 `Timeout` - Reduce input size or increase `--timeout`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

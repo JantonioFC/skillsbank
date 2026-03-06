@@ -1,7 +1,11 @@
 ---
 name: sales-engineer
-description: Analyzes RFP responses for coverage gaps, builds competitive feature matrices, and plans proof-of-concept engagements for pre-sales engineering
+description: Analyzes RFP responses for coverage gaps, builds competitive feature
+  matrices, and plans proof-of-concept engagements for pre-sales engineering
+risk: unknown
+source: community
 ---
+
 
 # Sales Engineer Skill
 
@@ -245,3 +249,6 @@ python scripts/poc_planner.py poc_data.json --format json
 **Tools:** 3 Python automation scripts
 **References:** 3 knowledge base documents
 **Templates:** 5 asset files
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

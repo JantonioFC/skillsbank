@@ -1,7 +1,12 @@
 ---
 name: wiki-qa
-description: Answers questions about a code repository using source file analysis. Use when the user asks a question about how something works, wants to understand a component, or needs help navigating the codebase.
+description: Answers questions about a code repository using source file analysis.
+  Use when the user asks a question about how something works, wants to understand
+  a component, or needs help navigating the codebase.
+risk: unknown
+source: community
 ---
+
 
 # Wiki Q&A
 
@@ -48,3 +53,6 @@ Before answering any question, you MUST determine the source repository context:
 - ONLY use information from actual source files
 - NEVER invent, guess, or use external knowledge
 - Think step by step before answering
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

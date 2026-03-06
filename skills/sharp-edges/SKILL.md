@@ -1,10 +1,11 @@
 ---
 name: sharp-edges
-description: "Identify error-prone APIs and dangerous configurations"
+description: Identify error-prone APIs and dangerous configurations
 risk: safe
-source: "https://github.com/trailofbits/skills/tree/main/plugins/sharp-edges"
-date_added: "2026-02-27"
+source: https://github.com/trailofbits/skills/tree/main/plugins/sharp-edges
+date_added: '2026-02-27'
 ---
+
 
 # Sharp Edges
 

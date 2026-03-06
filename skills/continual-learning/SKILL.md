@@ -1,7 +1,12 @@
 ---
 name: continual-learning
-description: Guide for implementing continual learning in AI coding agents — hooks, memory scoping, reflection patterns. Use when setting up learning infrastructure for agents.
+description: Guide for implementing continual learning in AI coding agents — hooks,
+  memory scoping, reflection patterns. Use when setting up learning infrastructure
+  for agents.
+risk: unknown
+source: community
 ---
+
 
 # Continual Learning for AI Coding Agents
 
@@ -77,3 +82,6 @@ This prevents unbounded growth while preserving what matters.
 2. **Scope correctly** — global for tool patterns, local for project conventions
 3. **Be specific** — `"Use semantic_configuration_name="` beats `"use the right parameter"`
 4. **Let it compound** — small improvements per session create exponential gains over weeks
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,10 +1,12 @@
 ---
 name: posthog-automation
-description: "Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always search tools first for current schemas."
+description: 'Automate PostHog tasks via Rube MCP (Composio): events, feature flags,
+  projects, user profiles, annotations. Always search tools first for current schemas.'
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # PostHog Automation via Rube MCP
 

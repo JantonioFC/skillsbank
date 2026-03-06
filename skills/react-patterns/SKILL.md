@@ -1,10 +1,12 @@
 ---
 name: react-patterns
-description: "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices."
+description: Modern React patterns and principles. Hooks, composition, performance,
+  TypeScript best practices.
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 # React Patterns

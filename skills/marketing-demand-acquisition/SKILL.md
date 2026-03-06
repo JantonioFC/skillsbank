@@ -1,29 +1,33 @@
 ---
 name: marketing-demand-acquisition
-description: Multi-channel demand generation, paid media optimization, SEO strategy, and partnership programs for Series A+ startups
+description: Multi-channel demand generation, paid media optimization, SEO strategy,
+  and partnership programs for Series A+ startups
 triggers:
-  - demand gen
-  - demand generation
-  - paid ads
-  - paid media
-  - LinkedIn ads
-  - Google ads
-  - Meta ads
-  - CAC
-  - customer acquisition cost
-  - lead generation
-  - MQL
-  - SQL
-  - pipeline generation
-  - acquisition strategy
-  - HubSpot campaigns
+- demand gen
+- demand generation
+- paid ads
+- paid media
+- LinkedIn ads
+- Google ads
+- Meta ads
+- CAC
+- customer acquisition cost
+- lead generation
+- MQL
+- SQL
+- pipeline generation
+- acquisition strategy
+- HubSpot campaigns
 metadata:
   version: 1.1.0
   author: Alireza Rezvani
   category: marketing
   domain: demand-generation
   updated: 2025-01
+risk: unknown
+source: community
 ---
+
 
 # Marketing Demand & Acquisition
 
@@ -308,3 +312,6 @@ Required:
 | First demo scheduled | 3 business days |
 
 **Validation:** Test lead through workflow, verify notifications and routing.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

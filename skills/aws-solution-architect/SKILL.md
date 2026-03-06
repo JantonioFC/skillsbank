@@ -1,7 +1,13 @@
 ---
 name: aws-solution-architect
-description: Design AWS architectures for startups using serverless patterns and IaC templates. Use when asked to design serverless architecture, create CloudFormation templates, optimize AWS costs, set up CI/CD pipelines, or migrate to AWS. Covers Lambda, API Gateway, DynamoDB, ECS, Aurora, and cost optimization.
+description: Design AWS architectures for startups using serverless patterns and IaC
+  templates. Use when asked to design serverless architecture, create CloudFormation
+  templates, optimize AWS costs, set up CI/CD pipelines, or migrate to AWS. Covers
+  Lambda, API Gateway, DynamoDB, ECS, Aurora, and cost o...
+risk: unknown
+source: community
 ---
+
 
 # AWS Solution Architect
 
@@ -304,3 +310,6 @@ Provide these details for architecture design:
 - DynamoDB: 400KB item size, eventually consistent by default
 - Regional availability varies by service
 - Some services have AWS-specific lock-in
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

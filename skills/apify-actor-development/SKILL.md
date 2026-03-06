@@ -1,7 +1,12 @@
 ---
 name: apify-actor-development
-description: "Develop, debug, and deploy Apify Actors - serverless cloud programs for web scraping, automation, and data processing. Use when creating new Actors, modifying existing ones, or troubleshooting Acto..."
+description: Develop, debug, and deploy Apify Actors - serverless cloud programs for
+  web scraping, automation, and data processing. Use when creating new Actors, modifying
+  existing ones, or troubleshooting Acto...
+risk: unknown
+source: community
 ---
+
 
 # Apify Actor Development
 
@@ -216,3 +221,6 @@ Otherwise, the MCP Server url: `https://mcp.apify.com/?tools=docs`.
 - [https://crawlee.dev/llms.txt](https://crawlee.dev/llms.txt) - Crawlee quick reference documentation
 - [https://crawlee.dev/llms-full.txt](https://crawlee.dev/llms-full.txt) - Crawlee complete documentation
 - [whitepaper.actor](https://raw.githubusercontent.com/apify/actor-whitepaper/refs/heads/master/README.md) - Complete Actor specification
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

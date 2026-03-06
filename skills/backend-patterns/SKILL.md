@@ -1,7 +1,11 @@
 ---
 name: backend-patterns
-description: Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
+description: Backend architecture patterns, API design, database optimization, and
+  server-side best practices for Node.js, Express, and Next.js API routes.
+risk: unknown
+source: community
 ---
+
 
 # Backend Development Patterns
 
@@ -585,3 +589,6 @@ export async function GET(request: Request) {
 ```
 
 **Remember**: Backend patterns enable scalable, maintainable server-side applications. Choose patterns that fit your complexity level.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,7 +1,13 @@
 ---
 name: aspire-ts
-description: Orchestrate JavaScript/TypeScript applications with .NET Aspire. Use when building Node.js APIs, React/Vue/Svelte frontends, or Vite apps that need service discovery, telemetry, and deployment orchestration via Aspire's AppHost. Covers AddViteApp, AddNodeApp, AddJavaScriptApp, package managers, OpenTelemetry, and polyglot integration patterns.
+description: Orchestrate JavaScript/TypeScript applications with .NET Aspire. Use
+  when building Node.js APIs, React/Vue/Svelte frontends, or Vite apps that need service
+  discovery, telemetry, and deployment orchestration via Aspire's AppHost. Covers
+  AddViteApp, AddNodeApp, AddJavaScriptApp, package mana...
+risk: unknown
+source: community
 ---
+
 
 # .NET Aspire for JavaScript/TypeScript
 
@@ -455,3 +461,6 @@ var app = builder.AddViteApp("frontend", "./frontend")
 - [Aspire Service Discovery](https://aspire.dev/fundamentals/service-discovery/)
 - [Aspire Dashboard](https://aspire.dev/dashboard/overview/)
 - [Aspire CLI](https://aspire.dev/reference/cli/overview/)
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

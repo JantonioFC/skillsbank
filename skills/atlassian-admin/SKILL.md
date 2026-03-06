@@ -1,7 +1,13 @@
 ---
 name: atlassian-admin
-description: Atlassian Administrator for managing and organizing Atlassian products, users, customization of the Atlassian suite, permissions, security, integrations, system configuration, and all administrative features. Use for user provisioning, global settings, security policies, system optimization, and org-wide Atlassian governance.
+description: Atlassian Administrator for managing and organizing Atlassian products,
+  users, customization of the Atlassian suite, permissions, security, integrations,
+  system configuration, and all administrative features. Use for user provisioning,
+  global settings, security policies, system optimizatio...
+risk: unknown
+source: community
 ---
+
 
 # Atlassian Administrator Expert
 
@@ -412,3 +418,6 @@ System administrator with deep expertise in Atlassian Cloud/Data Center manageme
 - Provide Confluence Expert with template management
 - Ensure Senior PM has visibility into org health
 - Enable Scrum Master with team provisioning
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

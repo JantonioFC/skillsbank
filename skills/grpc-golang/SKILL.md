@@ -1,10 +1,13 @@
 ---
 name: grpc-golang
-description: "Build production-ready gRPC services in Go with mTLS, streaming, and observability. Use when designing Protobuf contracts with Buf or implementing secure service-to-service transport."
+description: Build production-ready gRPC services in Go with mTLS, streaming, and
+  observability. Use when designing Protobuf contracts with Buf or implementing secure
+  service-to-service transport.
 risk: safe
 source: self
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # gRPC Golang (gRPC-Go)
 
@@ -102,3 +105,6 @@ message GetUserResponse {
 - @go-concurrency-patterns - Advanced goroutine lifecycle management for streaming handlers.
 - @api-design-principles - Resource naming and versioning strategy before writing `.proto` files.
 - @docker-expert - Containerizing gRPC services and configuring TLS cert injection via Docker secrets.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,7 +1,11 @@
 ---
 name: financial-analyst
-description: Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction for strategic decision-making
+description: Performs financial ratio analysis, DCF valuation, budget variance analysis,
+  and rolling forecast construction for strategic decision-making
+risk: unknown
+source: community
 ---
+
 
 # Financial Analyst Skill
 
@@ -176,3 +180,6 @@ All scripts accept JSON input files. See `assets/sample_financial_data.json` for
 ## Dependencies
 
 **None** - All scripts use Python standard library only (`math`, `statistics`, `json`, `argparse`, `datetime`). No numpy, pandas, or scipy required.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

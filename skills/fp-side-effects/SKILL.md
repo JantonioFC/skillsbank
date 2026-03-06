@@ -1,19 +1,24 @@
 ---
-name: Managing Side Effects Functionally
-description: Master functional approaches to side effects including IO types, effect isolation, idempotent operations, and quarantining impure code - essential patterns for reliable TypeScript applications
+name: fp-side-effects
+description: Master functional approaches to side effects including IO types, effect
+  isolation, idempotent operations, and quarantining impure code - essential patterns
+  for reliable TypeScript applications
 version: 1.0.0
 author: Claude
 tags:
-  - functional-programming
-  - typescript
-  - javascript
-  - side-effects
-  - io-monad
-  - purity
-  - dependency-injection
-  - idempotence
-  - fp-ts
+- functional-programming
+- typescript
+- javascript
+- side-effects
+- io-monad
+- purity
+- dependency-injection
+- idempotence
+- fp-ts
+risk: unknown
+source: community
 ---
+
 
 # Managing Side Effects Functionally
 
@@ -2040,3 +2045,6 @@ With side effect management understood, you're ready for:
 4. **Testing strategies**: Property-based testing for pure functions
 
 Remember: The functional approach to side effects isn't about purity for its own sake - it's about making your code more predictable, testable, and maintainable. Start with the "pure core, impure shell" pattern and gradually adopt more sophisticated effect handling as needed.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

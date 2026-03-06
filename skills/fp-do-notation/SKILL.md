@@ -1,18 +1,22 @@
 ---
-name: fp-ts Do Notation
-description: Master Do notation in fp-ts to write readable, sequential functional code without callback hell. Covers bind, apS, let, bindTo and real-world patterns.
+name: fp-do-notation
+description: Master Do notation in fp-ts to write readable, sequential functional
+  code without callback hell. Covers bind, apS, let, bindTo and real-world patterns.
 version: 1.0.0
 author: fp-ts-skills
 tags:
-  - fp-ts
-  - functional-programming
-  - typescript
-  - do-notation
-  - monads
-  - taskEither
-  - readerTaskEither
-  - composition
+- fp-ts
+- functional-programming
+- typescript
+- do-notation
+- monads
+- taskEither
+- readerTaskEither
+- composition
+risk: unknown
+source: community
 ---
+
 
 # fp-ts Do Notation Guide
 

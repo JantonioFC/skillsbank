@@ -6,6 +6,7 @@ source: community
 date_added: '2026-02-27'
 ---
 
+
 # Azure.ResourceManager.Sql (.NET)
 
 Management plane SDK for provisioning and managing Azure SQL resources via Azure Resource Manager.
@@ -318,3 +319,6 @@ catch (RequestFailedException ex)
 | `Microsoft.Data.SqlClient` | Data plane (execute queries, stored procedures) | `dotnet add package Microsoft.Data.SqlClient` |
 | `Azure.ResourceManager.Sql` | Management plane (this SDK) | `dotnet add package Azure.ResourceManager.Sql` |
 | `Microsoft.EntityFrameworkCore.SqlServer` | ORM for SQL Server | `dotnet add package Microsoft.EntityFrameworkCore.SqlServer` |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

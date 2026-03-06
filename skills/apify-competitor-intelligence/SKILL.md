@@ -1,7 +1,11 @@
 ---
 name: apify-competitor-intelligence
-description: Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.
+description: Analyze competitor strategies, content, pricing, ads, and market positioning
+  across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.
+risk: unknown
+source: community
 ---
+
 
 # Competitor Intelligence
 
@@ -129,3 +133,6 @@ After completion, report:
 `Actor not found` - Check Actor ID spelling
 `Run FAILED` - Ask user to check Apify console link in error output
 `Timeout` - Reduce input size or increase `--timeout`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

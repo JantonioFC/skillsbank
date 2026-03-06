@@ -1,7 +1,12 @@
 ---
 name: wiki-agents-md
-description: Generates AGENTS.md files for repository folders — coding agent context files with build commands, testing instructions, code style, project structure, and boundaries. Only generates where AGENTS.md is missing.
+description: Generates AGENTS.md files for repository folders — coding agent context
+  files with build commands, testing instructions, code style, project structure,
+  and boundaries. Only generates where AGENTS.md is missing.
+risk: unknown
+source: community
 ---
+
 
 # AGENTS.md Generator
 
@@ -370,3 +375,6 @@ This ensures Claude Code (and similar tools that look for `CLAUDE.md`) are redir
 - ❌ **Overwriting existing files** — if AGENTS.md exists, do not touch it
 - ❌ **Padding empty sections** — if there are no tests, don't write a testing section
 - ❌ **Describing what agents should "think" or "feel"** — describe what they should DO
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

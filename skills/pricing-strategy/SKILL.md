@@ -1,10 +1,12 @@
 ---
 name: pricing-strategy
-description: "Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives."
+description: Design pricing, packaging, and monetization strategies based on value,
+  customer willingness to pay, and growth objectives.
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 # Pricing Strategy

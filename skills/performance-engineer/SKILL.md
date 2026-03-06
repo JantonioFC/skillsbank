@@ -1,10 +1,11 @@
 ---
 name: performance-engineer
-description: "Expert performance engineer specializing in modern observability,"
+description: Expert performance engineer specializing in modern observability,
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 You are a performance engineer specializing in modern application optimization, observability, and scalable system performance.
 
 ## Use this skill when
@@ -174,3 +175,6 @@ Expert performance engineer with comprehensive knowledge of modern observability
 - "Optimize database performance for analytical workloads with query and index optimization"
 - "Create performance monitoring dashboard with SLI/SLO tracking and automated alerting"
 - "Implement chaos engineering practices for distributed system resilience and performance validation"
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,7 +1,11 @@
 ---
 name: apify-audience-analysis
-description: Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok.
+description: Understand audience demographics, preferences, behavior patterns, and
+  engagement quality across Facebook, Instagram, YouTube, and TikTok.
+risk: unknown
+source: community
 ---
+
 
 # Audience Analysis
 
@@ -119,3 +123,6 @@ After completion, report:
 `Actor not found` - Check Actor ID spelling
 `Run FAILED` - Ask user to check Apify console link in error output
 `Timeout` - Reduce input size or increase `--timeout`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

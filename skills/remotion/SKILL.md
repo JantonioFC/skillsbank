@@ -1,9 +1,12 @@
 ---
-name: remotion-best-practices
+name: remotion
 description: Best practices for Remotion - Video creation in React
 metadata:
   tags: remotion, video, react, animation, composition
+risk: unknown
+source: community
 ---
+
 
 ## When to use
 
@@ -59,3 +62,6 @@ Read individual rule files for detailed explanations and code examples:
 - [rules/parameters.md](rules/parameters.md) - Make a video parametrizable by adding a Zod schema
 - [rules/maps.md](rules/maps.md) - Add a map using Mapbox and animate it
 - [rules/voiceover.md](rules/voiceover.md) - Adding AI-generated voiceover to Remotion compositions using ElevenLabs TTS
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

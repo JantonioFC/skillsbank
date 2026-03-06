@@ -1,9 +1,15 @@
 ---
 name: churn-prevention
-description: "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' or 'involuntary churn.' This skill covers voluntary churn (cancel flows, save offers, exit surveys) and involuntary churn (dunning, payment recovery). For post-cancel win-back email sequences, see email-sequence. For in-app upgrade paywalls, see paywall-upgrade-cro."
+description: When the user wants to reduce churn, build cancellation flows, set up
+  save offers, recover failed payments, or implement retention strategies. Also use
+  when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,'
+  'failed payment recovery,' 'win-back,' 'retention,'...
 metadata:
   version: 1.0.0
+risk: unknown
+source: community
 ---
+
 
 # Churn Prevention
 
@@ -422,3 +428,6 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 - **onboarding-cro**: For activation to prevent early churn
 - **analytics-tracking**: For setting up churn signal events
 - **ab-test-setup**: For testing cancel flow variations with statistical rigor
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

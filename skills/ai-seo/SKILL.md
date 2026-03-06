@@ -1,9 +1,15 @@
 ---
 name: ai-seo
-description: "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' or 'zero-click search.' This skill covers content optimization for AI answer engines, monitoring AI visibility, and getting cited as a source. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup."
+description: When the user wants to optimize content for AI search engines, get cited
+  by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI
+  SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,'
+  'LLM optimization,' 'AI Overviews,' 'optimize...
 metadata:
   version: 1.0.0
+risk: unknown
+source: community
 ---
+
 
 # AI SEO
 
@@ -396,3 +402,6 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 - **competitor-alternatives**: For building comparison pages that get cited
 - **programmatic-seo**: For building SEO pages at scale
 - **copywriting**: For writing content that's both human-readable and AI-extractable
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

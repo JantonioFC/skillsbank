@@ -1,7 +1,11 @@
 ---
 name: continuous-learning
-description: Automatically extract reusable patterns from Claude Code sessions and save them as learned skills for future use.
+description: Automatically extract reusable patterns from Claude Code sessions and
+  save them as learned skills for future use.
+risk: unknown
+source: community
 ---
+
 
 # Continuous Learning Skill
 
@@ -108,3 +112,6 @@ Homunculus v2 takes a more sophisticated approach:
 5. **Evolution path** - Cluster related instincts into skills/commands
 
 See: `/Users/affoon/Documents/tasks/12-continuous-learning-v2.md` for full spec.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

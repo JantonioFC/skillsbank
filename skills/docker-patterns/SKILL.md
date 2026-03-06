@@ -1,7 +1,11 @@
 ---
 name: docker-patterns
-description: Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration.
+description: Docker and Docker Compose patterns for local development, container security,
+  networking, volume strategies, and multi-service orchestration.
+risk: unknown
+source: community
 ---
+
 
 # Docker Patterns
 
@@ -361,3 +365,6 @@ docker network inspect <project>_default
 # BAD: Putting secrets in docker-compose.yml
 # Use .env files (gitignored) or Docker secrets
 ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

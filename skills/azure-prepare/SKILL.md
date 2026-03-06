@@ -1,10 +1,15 @@
 ---
 name: azure-prepare
-description: |
-  Default entry point for Azure application development. Invoke this skill for ANY application work related to Azure: creating apps, building features, adding components, updating code, migrating, or modernizing. Analyzes your project and prepares it for Azure deployment.
-  USE FOR: create an app, build a web app, create API, create frontend, create backend, add a feature, build a service, make an application, develop a project, migrate my app, modernize my code, update my application, add database, add authentication, add caching, deploy to Azure, host on Azure.
-  DO NOT USE FOR: only validating an already-prepared app (use azure-validate), only running azd up/deploy (use azure-deploy).
+description: 'Default entry point for Azure application development. Invoke this skill
+  for ANY application work related to Azure: creating apps, building features, adding
+  components, updating code, migrating, or modernizing. Analyzes your project and
+  prepares it for Azure deployment.
+
+  USE FOR: create an ...'
+risk: unknown
+source: community
 ---
+
 
 # Azure Prepare
 
@@ -115,3 +120,6 @@ Execute the approved plan. Update `.azure/plan.md` status after each step.
 > Skipping validation leads to deployment failures. Be patient and follow the complete workflow for the highest success outcome.
 
 **→ Invoke azure-validate now**
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

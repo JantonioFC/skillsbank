@@ -1,10 +1,13 @@
 ---
 name: browser-automation
-description: "Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system comes down to understanding selectors, waiting strategies, an..."
+description: Browser automation powers web testing, scraping, and AI agent interactions.
+  The difference between a flaky script and a reliable system comes down to understanding
+  selectors, waiting strategies, an...
 risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
-date_added: "2026-02-27"
+source: vibeship-spawner-skills (Apache 2.0)
+date_added: '2026-02-27'
 ---
+
 
 
 # Browser Automation

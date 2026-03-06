@@ -1,7 +1,11 @@
 ---
 name: apify-trend-analysis
-description: Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.
+description: Discover and track emerging trends across Google Trends, Instagram, Facebook,
+  YouTube, and TikTok to inform content strategy.
+risk: unknown
+source: community
 ---
+
 
 # Trend Analysis
 
@@ -120,3 +124,6 @@ After completion, report:
 `Actor not found` - Check Actor ID spelling
 `Run FAILED` - Ask user to check Apify console link in error output
 `Timeout` - Reduce input size or increase `--timeout`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

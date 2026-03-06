@@ -1,7 +1,12 @@
 ---
 name: apify-ecommerce
-description: "Scrape e-commerce data for pricing intelligence, customer reviews, and seller discovery across Amazon, Walmart, eBay, IKEA, and 50+ marketplaces. Use when user asks to monitor prices, track competi..."
+description: Scrape e-commerce data for pricing intelligence, customer reviews, and
+  seller discovery across Amazon, Walmart, eBay, IKEA, and 50+ marketplaces. Use when
+  user asks to monitor prices, track competi...
+risk: unknown
+source: community
 ---
+
 
 # E-commerce Data Extraction
 
@@ -261,3 +266,6 @@ Report:
 | `Timeout` | Reduce `maxProductResults` or increase `--timeout` |
 | `No results` | Verify URLs are valid and accessible |
 | `Invalid marketplace` | Check marketplace value matches supported list exactly |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

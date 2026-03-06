@@ -1,10 +1,13 @@
 ---
 name: segment-automation
-description: "Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always search tools first for current schemas."
+description: 'Automate Segment tasks via Rube MCP (Composio): track events, identify
+  users, manage groups, page views, aliases, batch operations. Always search tools
+  first for current schemas.'
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Segment Automation via Rube MCP
 

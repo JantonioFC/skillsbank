@@ -1,10 +1,12 @@
 ---
 name: i18n-localization
-description: "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support."
+description: Internationalization and localization patterns. Detecting hardcoded strings,
+  managing translations, locale files, RTL support.
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 # i18n & Localization

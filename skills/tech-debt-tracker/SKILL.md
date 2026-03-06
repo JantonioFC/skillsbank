@@ -1,9 +1,11 @@
 ---
 name: tech-debt-tracker
-description: "Comprehensive framework for identifying, analyzing, prioritizing, and tracking technical debt across codebases"
+description: Comprehensive framework for identifying, analyzing, prioritizing, and
+  tracking technical debt across codebases
 risk: safe
 source: alirezarezvani/claude-skills
 ---
+
 
 # Tech Debt Tracker
 
@@ -575,3 +577,6 @@ Maintain healthy balance between new features and debt reduction:
 **Solution**: Start simple, iterate based on actual usage patterns.
 
 Technical debt management is not just about writing better code - it's about creating sustainable development practices that balance short-term delivery pressure with long-term system health. Use these tools and frameworks to make informed decisions about when and how to invest in debt reduction.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

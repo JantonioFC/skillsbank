@@ -1,16 +1,20 @@
 ---
 name: tdd-guide
-description: Test-driven development workflow with test generation, coverage analysis, and multi-framework support
+description: Test-driven development workflow with test generation, coverage analysis,
+  and multi-framework support
 triggers:
-  - generate tests
-  - analyze coverage
-  - TDD workflow
-  - red green refactor
-  - Jest tests
-  - Pytest tests
-  - JUnit tests
-  - coverage report
+- generate tests
+- analyze coverage
+- TDD workflow
+- red green refactor
+- Jest tests
+- Pytest tests
+- JUnit tests
+- coverage report
+risk: unknown
+source: community
 ---
+
 
 # TDD Guide
 
@@ -116,3 +120,6 @@ Test-driven development skill for generating tests, analyzing coverage, and guid
 - E2E testing: Playwright, Cypress, Selenium
 - Performance testing: k6, JMeter, Locust
 - Security testing: OWASP ZAP, Burp Suite
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

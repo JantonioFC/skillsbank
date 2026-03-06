@@ -1,8 +1,14 @@
 ---
 name: azure-cosmos-db-py
-description: Build Azure Cosmos DB NoSQL services with Python/FastAPI following production-grade patterns. Use when implementing database client setup with dual auth (DefaultAzureCredential + emulator), service layer classes with CRUD operations, partition key strategies, parameterized queries, or TDD patterns for Cosmos. Triggers on phrases like "Cosmos DB", "NoSQL database", "document store", "add persistence", "database service layer", or "Python Cosmos SDK".
+description: Build Azure Cosmos DB NoSQL services with Python/FastAPI following production-grade
+  patterns. Use when implementing database client setup with dual auth (DefaultAzureCredential
+  + emulator), service layer classes with CRUD operations, partition key strategies,
+  parameterized queries, or TDD ...
 package: azure-cosmos
+risk: unknown
+source: community
 ---
+
 
 # Cosmos DB Service Implementation
 
@@ -237,3 +243,6 @@ async def test_get_project_by_id_returns_project(mock_cosmos_container):
 - Partition key queries avoid cross-partition scans
 - Async wrapping prevents blocking FastAPI event loop
 - Minimal document conversion overhead
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

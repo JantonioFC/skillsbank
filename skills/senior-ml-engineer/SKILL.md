@@ -1,18 +1,23 @@
 ---
 name: senior-ml-engineer
-description: ML engineering skill for productionizing models, building MLOps pipelines, and integrating LLMs. Covers model deployment, feature stores, drift monitoring, RAG systems, and cost optimization.
+description: ML engineering skill for productionizing models, building MLOps pipelines,
+  and integrating LLMs. Covers model deployment, feature stores, drift monitoring,
+  RAG systems, and cost optimization.
 triggers:
-  - MLOps pipeline
-  - model deployment
-  - feature store
-  - model monitoring
-  - drift detection
-  - RAG system
-  - LLM integration
-  - model serving
-  - A/B testing ML
-  - automated retraining
+- MLOps pipeline
+- model deployment
+- feature store
+- model monitoring
+- drift detection
+- RAG system
+- LLM integration
+- model serving
+- A/B testing ML
+- automated retraining
+risk: unknown
+source: community
 ---
+
 
 # Senior ML Engineer
 
@@ -302,3 +307,6 @@ Sets up drift detection, alerting, and performance dashboards.
 | Data | Spark, Airflow, dbt, Kafka |
 | Deployment | Docker, Kubernetes, Triton |
 | Databases | PostgreSQL, BigQuery, Pinecone, Redis |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

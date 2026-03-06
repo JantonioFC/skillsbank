@@ -1,10 +1,13 @@
 ---
 name: zoom-automation
-description: "Automate Zoom meeting creation, management, recordings, webinars, and participant tracking via Rube MCP (Composio). Always search tools first for current schemas."
+description: Automate Zoom meeting creation, management, recordings, webinars, and
+  participant tracking via Rube MCP (Composio). Always search tools first for current
+  schemas.
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Zoom Automation via Rube MCP
 

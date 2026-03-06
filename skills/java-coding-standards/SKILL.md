@@ -1,7 +1,11 @@
 ---
 name: java-coding-standards
-description: "Java coding standards for Spring Boot services: naming, immutability, Optional usage, streams, exceptions, generics, and project layout."
+description: 'Java coding standards for Spring Boot services: naming, immutability,
+  Optional usage, streams, exceptions, generics, and project layout.'
+risk: unknown
+source: community
 ---
+
 
 # Java Coding Standards
 
@@ -136,3 +140,6 @@ log.error("failed_fetch_market slug={}", slug, ex);
 - Favor deterministic tests; no hidden sleeps
 
 **Remember**: Keep code intentional, typed, and observable. Optimize for maintainability over micro-optimizations unless proven necessary.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,7 +1,13 @@
 ---
 name: senior-devops
-description: Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring. Use when setting up pipelines, deploying applications, managing infrastructure, implementing monitoring, or optimizing deployment processes.
+description: Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization,
+  and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as
+  code, deployment automation, and monitoring. Use when setting up pipelines, deploying
+  applications, managing infrastructure, ...
+risk: unknown
+source: community
 ---
+
 
 # Senior Devops
 
@@ -207,3 +213,6 @@ Check the comprehensive troubleshooting section in `references/deployment_strate
 - Workflow Guide: `references/infrastructure_as_code.md`
 - Technical Guide: `references/deployment_strategies.md`
 - Tool Scripts: `scripts/` directory
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

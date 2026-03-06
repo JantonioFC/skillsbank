@@ -6,6 +6,7 @@ source: community
 date_added: '2026-02-27'
 ---
 
+
 # Azure.ResourceManager.Playwright (.NET)
 
 Management plane SDK for provisioning and managing Microsoft Playwright Testing workspaces via Azure Resource Manager.
@@ -296,3 +297,6 @@ Environment.SetEnvironmentVariable("PLAYWRIGHT_SERVICE_URL", serviceUrl.ToString
 - [Azure.ResourceManager.Playwright API Reference](https://learn.microsoft.com/en-us/dotnet/api/azure.resourcemanager.playwright)
 - [Microsoft Playwright Testing Overview](https://learn.microsoft.com/en-us/azure/playwright-testing/overview-what-is-microsoft-playwright-testing)
 - [Quickstart: Run Playwright Tests at Scale](https://learn.microsoft.com/en-us/azure/playwright-testing/quickstart-run-end-to-end-tests)
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

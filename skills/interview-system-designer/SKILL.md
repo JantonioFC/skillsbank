@@ -1,7 +1,13 @@
 ---
 name: interview-system-designer
-description: This skill should be used when the user asks to "design interview processes", "create hiring pipelines", "calibrate interview loops", "generate interview questions", "design competency matrices", "analyze interviewer bias", "create scoring rubrics", "build question banks", or "optimize hiring systems". Use for designing role-specific interview loops, competency assessments, and hiring calibration systems.
+description: This skill should be used when the user asks to "design interview processes",
+  "create hiring pipelines", "calibrate interview loops", "generate interview questions",
+  "design competency matrices", "analyze interviewer bias", "create scoring rubrics",
+  "build question banks", or "optimize hir...
+risk: unknown
+source: community
 ---
+
 
 # Interview System Designer
 
@@ -456,3 +462,6 @@ python hiring_calibrator.py --input historical_data.json --trend-analysis --peri
 - Candidate experience enhancement initiatives
 
 This comprehensive interview system design framework provides the structure and tools necessary to build fair, effective, and scalable hiring processes that consistently identify top talent while minimizing bias and maximizing candidate experience.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

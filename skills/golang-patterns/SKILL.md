@@ -1,7 +1,11 @@
 ---
 name: golang-patterns
-description: Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications.
+description: Idiomatic Go patterns, best practices, and conventions for building robust,
+  efficient, and maintainable Go applications.
+risk: unknown
+source: community
 ---
+
 
 # Go Development Patterns
 
@@ -671,3 +675,6 @@ func (c *Counter) Increment() { c.n++ }        // Pointer receiver
 ```
 
 **Remember**: Go code should be boring in the best way - predictable, consistent, and easy to understand. When in doubt, keep it simple.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

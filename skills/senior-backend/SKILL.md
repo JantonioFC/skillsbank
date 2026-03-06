@@ -1,7 +1,13 @@
 ---
 name: senior-backend
-description: This skill should be used when the user asks to "design REST APIs", "optimize database queries", "implement authentication", "build microservices", "review backend code", "set up GraphQL", "handle database migrations", or "load test APIs". Use for Node.js/Express/Fastify development, PostgreSQL optimization, API security, and backend architecture patterns.
+description: This skill should be used when the user asks to "design REST APIs", "optimize
+  database queries", "implement authentication", "build microservices", "review backend
+  code", "set up GraphQL", "handle database migrations", or "load test APIs". Use
+  for Node.js/Express/Fastify development, Postg...
+risk: unknown
+source: community
 ---
+
 
 # Senior Backend Engineer
 
@@ -432,3 +438,6 @@ python scripts/database_migration_tool.py --connection $DATABASE_URL --migrate f
 python scripts/api_load_tester.py https://api.example.com/endpoint --concurrency 50
 python scripts/api_load_tester.py https://api.example.com/endpoint --compare baseline.json
 ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

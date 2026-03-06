@@ -1,7 +1,11 @@
 ---
 name: analyzing-financial-statements
-description: This skill calculates key financial ratios and metrics from financial statement data for investment analysis
+description: This skill calculates key financial ratios and metrics from financial
+  statement data for investment analysis
+risk: unknown
+source: community
 ---
+
 
 # Financial Ratio Calculator Skill
 
@@ -67,3 +71,6 @@ Results include:
 - Industry benchmarks are general guidelines
 - Some ratios may not apply to all industries
 - Historical data doesn't guarantee future performance
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

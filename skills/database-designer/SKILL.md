@@ -1,9 +1,11 @@
 ---
 name: database-designer
-description: "Expert-level database design skill providing schema analysis, index optimization, and migration management for modern database systems"
+description: Expert-level database design skill providing schema analysis, index optimization,
+  and migration management for modern database systems
 risk: safe
 source: alirezarezvani/claude-skills
 ---
+
 
 # Database Designer - POWERFUL Tier Skill
 
@@ -538,3 +540,6 @@ def get_user(user_id):
 Effective database design requires balancing multiple competing concerns: performance, scalability, maintainability, and business requirements. This skill provides the tools and knowledge to make informed decisions throughout the database lifecycle, from initial schema design through production optimization and evolution.
 
 The included tools automate common analysis and optimization tasks, while the comprehensive guides provide the theoretical foundation for making sound architectural decisions. Whether building a new system or optimizing an existing one, these resources provide expert-level guidance for creating robust, scalable database solutions.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

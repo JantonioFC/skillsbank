@@ -1,8 +1,13 @@
 ---
 name: intelligent-routing
-description: Automatic agent selection and intelligent task routing. Analyzes user requests and automatically selects the best specialist agent(s) without requiring explicit user mentions.
+description: Automatic agent selection and intelligent task routing. Analyzes user
+  requests and automatically selects the best specialist agent(s) without requiring
+  explicit user mentions.
 version: 1.0.0
+risk: unknown
+source: community
 ---
+
 
 # Intelligent Agent Routing
 
@@ -333,3 +338,6 @@ Show selection reasoning:
 ---
 
 **Next Steps**: Integrate this skill into GEMINI.md TIER 0 rules.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

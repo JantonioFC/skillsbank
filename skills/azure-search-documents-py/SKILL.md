@@ -1,10 +1,12 @@
 ---
 name: azure-search-documents-py
-description: Azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets.
+description: Azure AI Search SDK for Python. Use for vector search, hybrid search,
+  semantic ranking, indexing, and skillsets.
 risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
+
 
 # Azure AI Search SDK for Python
 
@@ -526,3 +528,6 @@ except ResourceNotFoundError:
 except HttpResponseError as e:
     print(f"Search error: {e.message}")
 ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

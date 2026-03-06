@@ -1,7 +1,11 @@
 ---
 name: django-verification
-description: "Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR."
+description: 'Verification loop for Django projects: migrations, linting, tests with
+  coverage, security scans, and deployment readiness checks before release or PR.'
+risk: unknown
+source: community
 ---
+
 
 # Django Verification Loop
 
@@ -458,3 +462,6 @@ jobs:
 | Diff stats | `git diff --stat` |
 
 Remember: Automated verification catches common issues but doesn't replace manual code review and testing in staging environment.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

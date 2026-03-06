@@ -1,10 +1,13 @@
 ---
 name: tailwind-design-system
-description: "Build scalable design systems with Tailwind CSS, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI..."
+description: Build scalable design systems with Tailwind CSS, design tokens, component
+  libraries, and responsive patterns. Use when creating component libraries, implementing
+  design systems, or standardizing UI...
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Tailwind Design System (v4)
 

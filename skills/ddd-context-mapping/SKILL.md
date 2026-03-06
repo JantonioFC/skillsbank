@@ -1,11 +1,13 @@
 ---
 name: ddd-context-mapping
-description: "Map relationships between bounded contexts and define integration contracts using DDD context mapping patterns."
+description: Map relationships between bounded contexts and define integration contracts
+  using DDD context mapping patterns.
 risk: safe
 source: self
-tags: "[ddd, context-map, anti-corruption-layer, integration]"
-date_added: "2026-02-27"
+tags: '[ddd, context-map, anti-corruption-layer, integration]'
+date_added: '2026-02-27'
 ---
+
 
 # DDD Context Mapping
 
@@ -50,3 +52,6 @@ Inventory, and Fraud contexts, including ACL and contract ownership.
 - This skill does not replace API-level schema design.
 - It does not guarantee organizational alignment by itself.
 - It should be revisited when team ownership changes.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

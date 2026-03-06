@@ -1,7 +1,11 @@
 ---
 name: revenue-operations
-description: Analyzes pipeline coverage, tracks forecast accuracy with MAPE, and calculates GTM efficiency metrics for SaaS revenue optimization
+description: Analyzes pipeline coverage, tracks forecast accuracy with MAPE, and calculates
+  GTM efficiency metrics for SaaS revenue optimization
+risk: unknown
+source: community
 ---
+
 
 # Revenue Operations
 
@@ -284,3 +288,6 @@ Combine all three tools for a comprehensive QBR analysis.
 | [GTM Dashboard Template](assets/gtm_dashboard_template.md) | GTM efficiency dashboard for leadership review |
 | [Sample Pipeline Data](assets/sample_pipeline_data.json) | Example input for pipeline_analyzer.py |
 | [Expected Output](assets/expected_output.json) | Reference output from pipeline_analyzer.py |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

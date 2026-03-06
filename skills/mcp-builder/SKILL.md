@@ -1,10 +1,13 @@
 ---
 name: mcp-builder
-description: "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate exte..."
+description: Guide for creating high-quality MCP (Model Context Protocol) servers
+  that enable LLMs to interact with external services through well-designed tools.
+  Use when building MCP servers to integrate exte...
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 # MCP Server Development Guide

@@ -1,7 +1,12 @@
 ---
 name: wiki-onboarding
-description: Generates four audience-tailored onboarding guides in an onboarding/ folder — Contributor, Staff Engineer, Executive, and Product Manager. Use when the user wants onboarding documentation for a codebase.
+description: Generates four audience-tailored onboarding guides in an onboarding/
+  folder — Contributor, Staff Engineer, Executive, and Product Manager. Use when the
+  user wants onboarding documentation for a codebase.
+risk: unknown
+source: community
 ---
+
 
 # Wiki Onboarding Guide Generator
 
@@ -218,3 +223,6 @@ After generating each guide, verify:
 - Mermaid diagrams render (no syntax errors)
 - No bare HTML-like tags (generics like `List<T>`) outside code fences — wrap in backticks
 - Each guide is appropriate for its audience — no code in Executive/PM guides
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

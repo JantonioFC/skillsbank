@@ -1,10 +1,13 @@
 ---
 name: dbos-python
-description: "DBOS Python SDK for building reliable, fault-tolerant applications with durable workflows. Use this skill when writing Python code with DBOS, creating workflows and steps, using queues, using DBOSC..."
+description: DBOS Python SDK for building reliable, fault-tolerant applications with
+  durable workflows. Use this skill when writing Python code with DBOS, creating workflows
+  and steps, using queues, using DBOSC...
 risk: safe
-source: "https://docs.dbos.dev/"
-date_added: "2026-02-27"
+source: https://docs.dbos.dev/
+date_added: '2026-02-27'
 ---
+
 
 # DBOS Python Best Practices
 

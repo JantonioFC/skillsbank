@@ -1,7 +1,11 @@
 ---
 name: strategic-compact
-description: Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.
+description: Suggests manual context compaction at logical intervals to preserve context
+  through task phases rather than arbitrary auto-compaction.
+risk: unknown
+source: community
 ---
+
 
 # Strategic Compact Skill
 
@@ -61,3 +65,6 @@ Environment variables:
 
 - [The Longform Guide](https://x.com/affaanmustafa/status/2014040193557471352) - Token optimization section
 - Memory persistence hooks - For state that survives compaction
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

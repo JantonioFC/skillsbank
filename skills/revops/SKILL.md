@@ -1,9 +1,15 @@
 ---
 name: revops
-description: "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' or 'data hygiene.' For cold outreach emails, see cold-email. For email drip campaigns, see email-sequence. For pricing decisions, see pricing-strategy."
+description: When the user wants help with revenue operations, lead lifecycle management,
+  or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,'
+  'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,'
+  'deal desk,' 'CRM automation,' 'marketing-t...
 metadata:
   version: 1.1.0
+risk: unknown
+source: community
 ---
+
 
 # RevOps
 
@@ -341,3 +347,6 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key RevOp
 - **analytics-tracking**: For tracking pipeline metrics and attribution
 - **launch-strategy**: For go-to-market launch planning
 - **sales-enablement**: For sales collateral, decks, and objection handling
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

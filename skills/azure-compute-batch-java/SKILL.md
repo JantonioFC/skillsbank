@@ -1,10 +1,12 @@
 ---
 name: azure-compute-batch-java
-description: Azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes.
+description: Azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs
+  with pools, jobs, tasks, and compute nodes.
 risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
+
 
 # Azure Batch SDK for Java
 
@@ -378,3 +380,6 @@ try {
 | Product Docs | https://learn.microsoft.com/azure/batch/ |
 | REST API | https://learn.microsoft.com/rest/api/batchservice/ |
 | Samples | https://github.com/azure/azure-batch-samples |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

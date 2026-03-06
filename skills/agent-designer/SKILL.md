@@ -1,9 +1,11 @@
 ---
 name: agent-designer
-description: "Comprehensive toolkit for designing, architecting, and evaluating multi-agent systems with structured architecture patterns and evaluation frameworks"
+description: Comprehensive toolkit for designing, architecting, and evaluating multi-agent
+  systems with structured architecture patterns and evaluation frameworks
 risk: safe
 source: alirezarezvani/claude-skills
 ---
+
 
 # Agent Designer - Multi-Agent System Architecture
 
@@ -279,3 +281,6 @@ Agent Designer is a comprehensive toolkit for designing, architecting, and evalu
 - **Knowledge Base Updates:** Continuous learning and adaptation
 
 This skill provides the foundation for designing robust, scalable multi-agent systems that can handle complex tasks while maintaining safety, reliability, and performance at scale.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,11 +1,14 @@
 ---
 name: remote-browser
-description: Controls a cloud browser from a sandboxed remote machine. Use when the agent is running in a sandbox (no GUI) and needs to navigate websites, interact with web pages, fill forms, take screenshots, or expose local dev servers via tunnels.
+description: Controls a cloud browser from a sandboxed remote machine. Use when the
+  agent is running in a sandbox (no GUI) and needs to navigate websites, interact
+  with web pages, fill forms, take screenshots, or expose local dev servers via tunnels.
 allowed-tools: Bash(browser-use:*)
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # Remote Browser Automation for Sandboxed Agents
 

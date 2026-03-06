@@ -1,10 +1,13 @@
 ---
 name: observability-engineer
-description: Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows.
+description: Build production-ready monitoring, logging, and tracing systems. Implements
+  comprehensive observability strategies, SLI/SLO management, and incident response
+  workflows.
 risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
+
 
 
 > [!IMPORTANT]

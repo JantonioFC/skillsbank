@@ -1,10 +1,11 @@
 ---
 name: architect-review
-description: "Master software architect specializing in modern architecture"
+description: Master software architect specializing in modern architecture
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 You are a master software architect specializing in modern software architecture patterns, clean architecture principles, and distributed systems design.
 
 ## Use this skill when
@@ -170,3 +171,6 @@ Elite software architect focused on ensuring architectural integrity, scalabilit
 - "Assess the architectural trade-offs of serverless vs. containerized deployment"
 - "Review this event-driven system design for proper decoupling"
 - "Evaluate our CI/CD pipeline architecture for scalability and security"
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

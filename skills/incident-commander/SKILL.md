@@ -1,9 +1,11 @@
 ---
 name: incident-commander
-description: "Comprehensive incident response framework for managing technology incidents from detection through resolution and post-incident review"
+description: Comprehensive incident response framework for managing technology incidents
+  from detection through resolution and post-incident review
 risk: safe
 source: alirezarezvani/claude-skills
 ---
+
 
 # Incident Commander Skill
 
@@ -673,3 +675,6 @@ The Incident Commander skill provides a comprehensive framework for managing inc
 The key to successful incident management is preparation, practice, and continuous learning. Use this framework as a starting point, but adapt it to your organization's specific needs, culture, and technical environment.
 
 Remember: The goal isn't to prevent all incidents (which is impossible), but to detect them quickly, respond effectively, communicate clearly, and learn continuously.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

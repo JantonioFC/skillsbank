@@ -6,6 +6,7 @@ source: community
 date_added: '2026-02-27'
 ---
 
+
 # Azure.ResourceManager.ApiManagement (.NET)
 
 Management plane SDK for provisioning and managing Azure API Management resources via Azure Resource Manager.
@@ -309,3 +310,6 @@ catch (RequestFailedException ex)
 | [API Management Documentation](https://learn.microsoft.com/en-us/azure/api-management/) | Official Azure docs |
 | [Policy Reference](https://learn.microsoft.com/en-us/azure/api-management/api-management-policies) | Complete policy reference |
 | [SDK Reference](https://learn.microsoft.com/en-us/dotnet/api/azure.resourcemanager.apimanagement) | .NET API reference |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

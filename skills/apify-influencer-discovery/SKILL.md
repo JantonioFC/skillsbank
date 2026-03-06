@@ -1,7 +1,11 @@
 ---
 name: apify-influencer-discovery
-description: Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, YouTube, and TikTok.
+description: Find and evaluate influencers for brand partnerships, verify authenticity,
+  and track collaboration performance across Instagram, Facebook, YouTube, and TikTok.
+risk: unknown
+source: community
 ---
+
 
 # Influencer Discovery
 
@@ -116,3 +120,6 @@ After completion, report:
 `Actor not found` - Check Actor ID spelling
 `Run FAILED` - Ask user to check Apify console link in error output
 `Timeout` - Reduce input size or increase `--timeout`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

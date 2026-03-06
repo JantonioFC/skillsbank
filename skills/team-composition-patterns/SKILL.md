@@ -1,11 +1,14 @@
 ---
 name: team-composition-patterns
-description: Design optimal agent team compositions with sizing heuristics, preset configurations, and agent type selection. Use this skill when deciding team size, selecting agent types, or configuring team presets for multi-agent workflows.
+description: Design optimal agent team compositions with sizing heuristics, preset
+  configurations, and agent type selection. Use this skill when deciding team size,
+  selecting agent types, or configuring team presets for multi-agent workflows.
 version: 1.0.2
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # Team Composition Patterns
 

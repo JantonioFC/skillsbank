@@ -1,20 +1,24 @@
 ---
-name: fp-ts-validation
-description: Validation patterns using fp-ts with error accumulation, form validation, and API input validation
+name: fp-validation
+description: Validation patterns using fp-ts with error accumulation, form validation,
+  and API input validation
 version: 1.0.0
 author: kadu
 tags:
-  - fp-ts
-  - validation
-  - either
-  - error-accumulation
-  - form-validation
-  - api-validation
-  - io-ts
-  - zod
-  - typescript
-  - functional-programming
+- fp-ts
+- validation
+- either
+- error-accumulation
+- form-validation
+- api-validation
+- io-ts
+- zod
+- typescript
+- functional-programming
+risk: unknown
+source: community
 ---
+
 
 # fp-ts Validation Patterns
 
@@ -910,3 +914,6 @@ const validatePassword = all(
   hasNumber('password')
 )
 ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

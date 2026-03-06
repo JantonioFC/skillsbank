@@ -9,6 +9,7 @@ risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
+
 # SAST Security Plugin
 
 Static Application Security Testing (SAST) for comprehensive code vulnerability detection across multiple languages, frameworks, and security patterns.
@@ -494,3 +495,6 @@ sast:
 - **security-owasp.md** - OWASP Top 10 assessment
 - **security-api.md** - API security testing
 - **security-scan.md** - Comprehensive security scanning
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

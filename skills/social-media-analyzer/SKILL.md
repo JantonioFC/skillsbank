@@ -1,18 +1,24 @@
 ---
 name: social-media-analyzer
-description: Social media campaign analysis and performance tracking. Calculates engagement rates, ROI, and benchmarks across platforms. Use for analyzing social media performance, calculating engagement rate, measuring campaign ROI, comparing platform metrics, or benchmarking against industry standards.
+description: Social media campaign analysis and performance tracking. Calculates engagement
+  rates, ROI, and benchmarks across platforms. Use for analyzing social media performance,
+  calculating engagement rate, measuring campaign ROI, comparing platform metrics,
+  or benchmarking against industry standards.
 triggers:
-  - analyze social media
-  - calculate engagement rate
-  - social media ROI
-  - campaign performance
-  - compare platforms
-  - benchmark engagement
-  - Instagram analytics
-  - Facebook metrics
-  - TikTok performance
-  - LinkedIn engagement
+- analyze social media
+- calculate engagement rate
+- social media ROI
+- campaign performance
+- compare platforms
+- benchmark engagement
+- Instagram analytics
+- Facebook metrics
+- TikTok performance
+- LinkedIn engagement
+risk: unknown
+source: community
 ---
+
 
 # Social Media Analyzer
 
@@ -278,3 +284,6 @@ The sample campaign shows:
 - Content type performance by platform
 - Optimal posting times and frequency
 - ROI calculation formulas
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

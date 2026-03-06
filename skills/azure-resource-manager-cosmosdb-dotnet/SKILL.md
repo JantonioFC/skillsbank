@@ -6,6 +6,7 @@ source: community
 date_added: '2026-02-27'
 ---
 
+
 # Azure.ResourceManager.CosmosDB (.NET)
 
 Management plane SDK for provisioning and managing Azure Cosmos DB resources via Azure Resource Manager.
@@ -249,3 +250,6 @@ catch (RequestFailedException ex)
 |-----|---------|---------|
 | `Microsoft.Azure.Cosmos` | Data plane (document CRUD, queries) | `dotnet add package Microsoft.Azure.Cosmos` |
 | `Azure.ResourceManager.CosmosDB` | Management plane (this SDK) | `dotnet add package Azure.ResourceManager.CosmosDB` |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

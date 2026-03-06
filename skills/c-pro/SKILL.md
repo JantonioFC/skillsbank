@@ -1,10 +1,11 @@
 ---
 name: c-pro
-description: "Write efficient C code with proper memory management, pointer"
+description: Write efficient C code with proper memory management, pointer
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 ## Use this skill when
 
@@ -52,3 +53,6 @@ You are a C programming expert specializing in systems programming and performan
 - Performance benchmarks if applicable
 
 Follow C99/C11 standards. Include error handling for all system calls.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

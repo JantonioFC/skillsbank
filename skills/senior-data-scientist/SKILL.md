@@ -1,7 +1,13 @@
 ---
 name: senior-data-scientist
-description: World-class data science skill for statistical modeling, experimentation, causal inference, and advanced analytics. Expertise in Python (NumPy, Pandas, Scikit-learn), R, SQL, statistical methods, A/B testing, time series, and business intelligence. Includes experiment design, feature engineering, model evaluation, and stakeholder communication. Use when designing experiments, building predictive models, performing causal analysis, or driving data-driven decisions.
+description: World-class data science skill for statistical modeling, experimentation,
+  causal inference, and advanced analytics. Expertise in Python (NumPy, Pandas, Scikit-learn),
+  R, SQL, statistical methods, A/B testing, time series, and business intelligence.
+  Includes experiment design, feature engin...
+risk: unknown
+source: community
 ---
+
 
 # Senior Data Scientist
 
@@ -224,3 +230,6 @@ As a world-class senior professional:
    - Monitor proactively
    - Optimize performance
    - Respond to incidents
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

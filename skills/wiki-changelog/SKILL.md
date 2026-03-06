@@ -1,7 +1,12 @@
 ---
 name: wiki-changelog
-description: Analyzes git commit history and generates structured changelogs categorized by change type. Use when the user asks about recent changes, wants a changelog, or needs to understand what changed in the repository.
+description: Analyzes git commit history and generates structured changelogs categorized
+  by change type. Use when the user asks about recent changes, wants a changelog,
+  or needs to understand what changed in the repository.
+risk: unknown
+source: community
 ---
+
 
 # Wiki Changelog
 
@@ -36,3 +41,6 @@ Before generating any changelog, you MUST determine the source repository contex
 - Use project terminology from README
 - Highlight breaking changes prominently with migration notes
 - When `REPO_URL` is available, link commit hashes: `[abc1234](REPO_URL/commit/abc1234)` and changed files: `[file_path](REPO_URL/blob/BRANCH/file_path)`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

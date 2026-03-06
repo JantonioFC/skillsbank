@@ -1,7 +1,13 @@
 ---
 name: senior-frontend
-description: Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.
+description: Frontend development skill for React, Next.js, TypeScript, and Tailwind
+  CSS applications. Use when building React components, optimizing Next.js performance,
+  analyzing bundle sizes, scaffolding frontend projects, implementing accessibility,
+  or reviewing frontend code quality.
+risk: unknown
+source: community
 ---
+
 
 # Senior Frontend
 
@@ -471,3 +477,6 @@ function List<T>({ items, renderItem }: ListProps<T>) {
 - React Patterns: `references/react_patterns.md`
 - Next.js Optimization: `references/nextjs_optimization_guide.md`
 - Best Practices: `references/frontend_best_practices.md`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

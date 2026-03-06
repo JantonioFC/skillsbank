@@ -1,11 +1,15 @@
 ---
 name: related-skill
-description: "Discover and install related skills from inference.sh skill registry. Helps find complementary skills for your AI workflow. Use for: skill discovery, workflow expansion, capability exploration. Triggers: related skills, find skills, skill discovery, complementary skills, expand workflow, more capabilities, similar skills, skill suggestions"
+description: 'Discover and install related skills from inference.sh skill registry.
+  Helps find complementary skills for your AI workflow. Use for: skill discovery,
+  workflow expansion, capability exploration. Triggers: related skills, find skills,
+  skill discovery, complementary skills, expand workflow, m...'
 allowed-tools: Bash(npx skills *)
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # Related Skills Discovery
 

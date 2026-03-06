@@ -1,6 +1,7 @@
 ---
 name: campaign-analytics
-description: Analyzes campaign performance with multi-touch attribution, funnel conversion, and ROI calculation for marketing optimization
+description: Analyzes campaign performance with multi-touch attribution, funnel conversion,
+  and ROI calculation for marketing optimization
 license: MIT
 metadata:
   version: 1.0.0
@@ -10,7 +11,10 @@ metadata:
   updated: 2026-02-06
   python-tools: attribution_analyzer.py, funnel_analyzer.py, campaign_roi_calculator.py
   tech-stack: marketing-analytics, attribution-modeling
+risk: unknown
+source: community
 ---
+
 
 # Campaign Analytics
 
@@ -214,3 +218,6 @@ Calculates comprehensive ROI metrics with industry benchmarking:
 - **Single-currency** -- All monetary values assumed to be in the same currency. No currency conversion support.
 - **Simplified time-decay** -- Uses exponential decay based on configurable half-life. Does not account for weekday/weekend or seasonal patterns.
 - **No cross-device tracking** -- Attribution operates on provided journey data as-is. Cross-device identity resolution must be handled upstream.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,7 +1,12 @@
 ---
 name: apify-actorization
-description: "Convert existing projects into Apify Actors - serverless cloud programs. Actorize JavaScript/TypeScript (SDK with Actor.init/exit), Python (async context manager), or any language (CLI wrapper). Us..."
+description: Convert existing projects into Apify Actors - serverless cloud programs.
+  Actorize JavaScript/TypeScript (SDK with Actor.init/exit), Python (async context
+  manager), or any language (CLI wrapper). Us...
+risk: unknown
+source: community
 ---
+
 
 # Apify Actorization
 

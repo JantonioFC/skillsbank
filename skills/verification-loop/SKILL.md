@@ -1,7 +1,10 @@
 ---
 name: verification-loop
-description: "A comprehensive verification system for Claude Code sessions."
+description: A comprehensive verification system for Claude Code sessions.
+risk: unknown
+source: community
 ---
+
 
 # Verification Loop Skill
 

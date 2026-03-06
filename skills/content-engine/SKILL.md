@@ -1,8 +1,14 @@
 ---
 name: content-engine
-description: Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threads, scripts, content calendars, or one source asset adapted cleanly across platforms.
+description: Create platform-native content systems for X, LinkedIn, TikTok, YouTube,
+  newsletters, and repurposed multi-platform campaigns. Use when the user wants social
+  posts, threads, scripts, content calendars, or one source asset adapted cleanly
+  across platforms.
 origin: ECC
+risk: unknown
+source: community
 ---
+
 
 # Content Engine
 
@@ -86,3 +92,6 @@ Before delivering:
 - no generic hype language
 - no duplicated copy across platforms unless requested
 - the CTA matches the content and audience
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

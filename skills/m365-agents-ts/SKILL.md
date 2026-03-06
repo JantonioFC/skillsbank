@@ -6,6 +6,7 @@ source: community
 date_added: '2026-02-27'
 ---
 
+
 # Microsoft 365 Agents SDK (TypeScript)
 
 Build enterprise agents for Microsoft 365, Teams, and Copilot Studio using the Microsoft 365 Agents SDK with Express hosting, AgentApplication routing, streaming responses, and Copilot Studio client integrations.
@@ -181,3 +182,6 @@ window.WebChat.renderWebChat({
 | @microsoft/agents-copilotstudio-client | https://learn.microsoft.com/en-us/javascript/api/%40microsoft/agents-copilotstudio-client?view=agents-sdk-js-latest |
 | Integrate with Copilot Studio | https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/integrate-with-mcs |
 | GitHub samples | https://github.com/microsoft/Agents/tree/main/samples/nodejs |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

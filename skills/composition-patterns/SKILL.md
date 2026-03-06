@@ -1,10 +1,12 @@
 ---
 name: composition-patterns
-description: "Advanced React composition patterns for building scalable and maintainable user interfaces."
+description: Advanced React composition patterns for building scalable and maintainable
+  user interfaces.
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # Composition Patterns
 

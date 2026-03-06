@@ -1,7 +1,13 @@
 ---
 name: confluence-expert
-description: Atlassian Confluence expert for creating and managing spaces, knowledge bases, documentation, planning, product discovery, page layouts, macros, templates, and all Confluence features. Use for documentation strategy, space architecture, content organization, and collaborative knowledge management.
+description: Atlassian Confluence expert for creating and managing spaces, knowledge
+  bases, documentation, planning, product discovery, page layouts, macros, templates,
+  and all Confluence features. Use for documentation strategy, space architecture,
+  content organization, and collaborative knowledge man...
+risk: unknown
+source: community
 ---
+
 
 # Atlassian Confluence Expert
 
@@ -496,3 +502,6 @@ Expected outcomes and impacts
 - Support Scrum Master with ceremony templates
 - Link to Jira issues for Jira Expert
 - Provide templates for Template Creator
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

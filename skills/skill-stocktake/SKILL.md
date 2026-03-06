@@ -1,10 +1,13 @@
 ---
 name: skill-stocktake
-description: "Use when auditing Claude skills and commands for quality. Supports Quick Scan (changed skills only) and Full Stocktake modes with sequential subagent batch evaluation."
+description: Use when auditing Claude skills and commands for quality. Supports Quick
+  Scan (changed skills only) and Full Stocktake modes with sequential subagent batch
+  evaluation.
 risk: safe
 source: community
 origin: ECC
 ---
+
 
 # skill-stocktake
 
@@ -177,3 +180,6 @@ Obtain via Bash: `date -u +%Y-%m-%dT%H:%M:%SZ`. Never use a date-only approximat
 - Evaluation is blind: the same checklist applies to all skills regardless of origin (ECC, self-authored, auto-extracted)
 - Archive / delete operations always require explicit user confirmation
 - No verdict branching by skill origin
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

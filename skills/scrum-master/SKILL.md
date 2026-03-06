@@ -1,6 +1,9 @@
 ---
 name: scrum-master
-description: Advanced Scrum Master with data-driven team health analysis, velocity forecasting, retrospective insights, and team development expertise. Features comprehensive sprint health scoring, Monte Carlo forecasting, and psychological safety frameworks for high-performing agile teams.
+description: Advanced Scrum Master with data-driven team health analysis, velocity
+  forecasting, retrospective insights, and team development expertise. Features comprehensive
+  sprint health scoring, Monte Carlo forecasting, and psychological safety frameworks
+  for high-performing agile teams.
 license: MIT
 metadata:
   version: 2.0.0
@@ -10,7 +13,10 @@ metadata:
   updated: 2026-02-15
   python-tools: velocity_analyzer.py, sprint_health_scorer.py, retrospective_analyzer.py
   tech-stack: scrum, agile-coaching, team-dynamics, data-analysis
+risk: unknown
+source: community
 ---
+
 
 # Scrum Master Expert
 
@@ -493,3 +499,6 @@ The methodology transforms traditional Scrum mastery through data-driven insight
 ---
 
 *This skill combines traditional Scrum expertise with modern analytics and behavioral science. Success requires commitment to data collection, psychological safety building, and evidence-based coaching approaches. Adapt techniques based on your specific team and organizational context.*
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

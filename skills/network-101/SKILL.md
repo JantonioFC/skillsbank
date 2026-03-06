@@ -1,10 +1,13 @@
 ---
 name: network-101
-description: "This skill should be used when the user asks to \"set up a web server\", \"configure HTTP or HTTPS\", \"perform SNMP enumeration\", \"configure SMB shares\", \"test network services\", or ne..."
+description: This skill should be used when the user asks to "set up a web server",
+  "configure HTTP or HTTPS", "perform SNMP enumeration", "configure SMB shares", "test
+  network services", or ne...
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 

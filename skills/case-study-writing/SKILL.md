@@ -1,11 +1,15 @@
 ---
 name: case-study-writing
-description: "B2B case study writing with STAR framework, data visualization, and research. Covers structure, customer quotes, metrics presentation, and distribution formats. Use for: customer success stories, portfolio pieces, sales enablement, marketing content. Triggers: case study, customer story, success story, b2b case study, client testimonial, customer case study, portfolio case study, use case, customer win, results story"
+description: 'B2B case study writing with STAR framework, data visualization, and
+  research. Covers structure, customer quotes, metrics presentation, and distribution
+  formats. Use for: customer success stories, portfolio pieces, sales enablement,
+  marketing content. Triggers: case study, customer story, s...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # Case Study Writing
 

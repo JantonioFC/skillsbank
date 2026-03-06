@@ -1,8 +1,14 @@
 ---
 name: azure-ai-projects-py
-description: Build AI applications using the Azure AI Projects Python SDK (azure-ai-projects). Use when working with Foundry project clients, creating versioned agents with PromptAgentDefinition, running evaluations, managing connections/deployments/datasets/indexes, or using OpenAI-compatible clients. This is the high-level Foundry SDK - for low-level agent operations, use azure-ai-agents-python skill.
+description: Build AI applications using the Azure AI Projects Python SDK (azure-ai-projects).
+  Use when working with Foundry project clients, creating versioned agents with PromptAgentDefinition,
+  running evaluations, managing connections/deployments/datasets/indexes, or using
+  OpenAI-compatible clients....
 package: azure-ai-projects
+risk: unknown
+source: community
 ---
+
 
 # Azure AI Projects Python SDK (Foundry SDK)
 
@@ -293,3 +299,6 @@ agent = client.agents.create_agent(
 - [references/async-patterns.md](references/async-patterns.md): Async client usage
 - [references/api-reference.md](references/api-reference.md): Complete API reference for all 373 SDK exports (v2.0.0b4)
 - [scripts/run_batch_evaluation.py](scripts/run_batch_evaluation.py): CLI tool for batch evaluations
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,10 +1,13 @@
 ---
 name: telegram-bot-builder
-description: "Expert in building Telegram bots that solve real problems - from simple automation to complex AI-powered bots. Covers bot architecture, the Telegram Bot API, user experience, monetization strategie..."
+description: Expert in building Telegram bots that solve real problems - from simple
+  automation to complex AI-powered bots. Covers bot architecture, the Telegram Bot
+  API, user experience, monetization strategie...
 risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
-date_added: "2026-02-27"
+source: vibeship-spawner-skills (Apache 2.0)
+date_added: '2026-02-27'
 ---
+
 
 
 

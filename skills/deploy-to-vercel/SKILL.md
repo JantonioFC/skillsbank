@@ -1,10 +1,15 @@
 ---
 name: deploy-to-vercel
-description: Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "create a preview deployment".
+description: Deploy applications and websites to Vercel. Use when the user requests
+  deployment actions like "deploy my app", "deploy and give me the link", "push this
+  live", or "create a preview deployment".
 metadata:
   author: vercel
-  version: "3.0.0"
+  version: 3.0.0
+risk: unknown
+source: community
 ---
+
 
 # Deploy to Vercel
 
@@ -231,3 +236,6 @@ If deployment fails due to network issues (timeouts, DNS errors, connection rese
 ### CLI Auth Failure
 
 If `vercel login` or `vercel deploy` fails with authentication errors, fall back to the no-auth deploy script.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

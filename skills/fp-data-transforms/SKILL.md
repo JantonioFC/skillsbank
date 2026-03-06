@@ -1,19 +1,23 @@
 ---
-name: Practical Data Transformations
-description: Everyday data transformations using functional patterns - arrays, objects, grouping, aggregation, and null-safe access
+name: fp-data-transforms
+description: Everyday data transformations using functional patterns - arrays, objects,
+  grouping, aggregation, and null-safe access
 version: 1.0.0
 author: Claude
 tags:
-  - functional-programming
-  - typescript
-  - data-transformation
-  - fp-ts
-  - arrays
-  - objects
-  - grouping
-  - aggregation
-  - null-safety
+- functional-programming
+- typescript
+- data-transformation
+- fp-ts
+- arrays
+- objects
+- grouping
+- aggregation
+- null-safety
+risk: unknown
+source: community
 ---
+
 
 # Practical Data Transformations
 

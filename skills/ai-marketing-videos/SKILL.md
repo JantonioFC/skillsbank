@@ -1,11 +1,15 @@
 ---
 name: ai-marketing-videos
-description: "Create AI marketing videos for ads, promos, product launches, and brand content. Models: Veo, Seedance, Wan, FLUX for visuals, Kokoro for voiceover. Types: product demos, testimonials, explainers, social ads, brand videos. Use for: Facebook ads, YouTube ads, product launches, brand awareness. Triggers: marketing video, ad video, promo video, commercial, brand video, product video, explainer video, ad creative, video ad, facebook ad video, youtube ad, instagram ad, tiktok ad, promotional video, launch video"
+description: 'Create AI marketing videos for ads, promos, product launches, and brand
+  content. Models: Veo, Seedance, Wan, FLUX for visuals, Kokoro for voiceover. Types:
+  product demos, testimonials, explainers, social ads, brand videos. Use for: Facebook
+  ads, YouTube ads, product launches, brand awarene...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # AI Marketing Videos
 

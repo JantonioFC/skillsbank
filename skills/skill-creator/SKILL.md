@@ -1,12 +1,15 @@
 ---
 name: skill-creator
-description: "This skill should be used when the user asks to create a new skill, build a skill, make a custom skill, develop a CLI skill, or wants to extend the CLI with new capabilities. Automates the entire s..."
+description: This skill should be used when the user asks to create a new skill, build
+  a skill, make a custom skill, develop a CLI skill, or wants to extend the CLI with
+  new capabilities. Automates the entire s...
 category: meta
 risk: safe
 source: community
-tags: "[automation, scaffolding, skill-creation, meta-skill]"
-date_added: "2026-02-27"
+tags: '[automation, scaffolding, skill-creation, meta-skill]'
+date_added: '2026-02-27'
 ---
+
 
 # Skill Creator
 

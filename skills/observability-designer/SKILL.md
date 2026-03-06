@@ -1,9 +1,11 @@
 ---
 name: observability-designer
-description: "Design comprehensive observability strategies for production systems including SLI/SLO frameworks, alerting optimization, and dashboard generation"
+description: Design comprehensive observability strategies for production systems
+  including SLI/SLO frameworks, alerting optimization, and dashboard generation
 risk: safe
 source: alirezarezvani/claude-skills
 ---
+
 
 # Observability Designer (POWERFUL)
 
@@ -269,3 +271,6 @@ Creates comprehensive dashboard specifications:
 - **Customer Satisfaction:** User-reported reliability and performance satisfaction
 
 This comprehensive observability design skill enables organizations to build robust, scalable monitoring and alerting systems that provide actionable insights while maintaining cost efficiency and operational excellence.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

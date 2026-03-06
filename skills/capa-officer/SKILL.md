@@ -1,20 +1,26 @@
 ---
 name: capa-officer
-description: CAPA system management for medical device QMS. Covers root cause analysis, corrective action planning, effectiveness verification, and CAPA metrics. Use for CAPA investigations, 5-Why analysis, fishbone diagrams, root cause determination, corrective action tracking, effectiveness verification, or CAPA program optimization.
+description: CAPA system management for medical device QMS. Covers root cause analysis,
+  corrective action planning, effectiveness verification, and CAPA metrics. Use for
+  CAPA investigations, 5-Why analysis, fishbone diagrams, root cause determination,
+  corrective action tracking, effectiveness verificat...
 triggers:
-  - CAPA investigation
-  - root cause analysis
-  - 5 Why analysis
-  - fishbone diagram
-  - corrective action
-  - preventive action
-  - effectiveness verification
-  - CAPA metrics
-  - nonconformance investigation
-  - quality issue investigation
-  - CAPA tracking
-  - audit finding CAPA
+- CAPA investigation
+- root cause analysis
+- 5 Why analysis
+- fishbone diagram
+- corrective action
+- preventive action
+- effectiveness verification
+- CAPA metrics
+- nonconformance investigation
+- quality issue investigation
+- CAPA tracking
+- audit finding CAPA
+risk: unknown
+source: community
 ---
+
 
 # CAPA Officer
 
@@ -432,3 +438,6 @@ Required CAPA elements:
 | Root cause analysis superficial | Inadequate investigation training |
 | Effectiveness not verified | No verification procedure |
 | Actions do not address root cause | Symptom treatment vs. cause elimination |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

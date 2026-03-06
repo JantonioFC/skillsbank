@@ -1,20 +1,25 @@
 ---
 name: senior-security
-description: Security engineering toolkit for threat modeling, vulnerability analysis, secure architecture, and penetration testing. Includes STRIDE analysis, OWASP guidance, cryptography patterns, and security scanning tools.
+description: Security engineering toolkit for threat modeling, vulnerability analysis,
+  secure architecture, and penetration testing. Includes STRIDE analysis, OWASP guidance,
+  cryptography patterns, and security scanning tools.
 triggers:
-  - security architecture
-  - threat modeling
-  - STRIDE analysis
-  - penetration testing
-  - vulnerability assessment
-  - secure coding
-  - OWASP
-  - application security
-  - cryptography implementation
-  - secret scanning
-  - security audit
-  - zero trust
+- security architecture
+- threat modeling
+- STRIDE analysis
+- penetration testing
+- vulnerability assessment
+- secure coding
+- OWASP
+- application security
+- cryptography implementation
+- secret scanning
+- security audit
+- zero trust
+risk: unknown
+source: community
 ---
+
 
 # Senior Security Engineer
 
@@ -433,3 +438,6 @@ See: [references/cryptography-implementation.md](references/cryptography-impleme
 | [senior-secops](../senior-secops/) | Security monitoring, incident response |
 | [senior-backend](../senior-backend/) | Secure API development |
 | [senior-architect](../senior-architect/) | Security architecture decisions |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

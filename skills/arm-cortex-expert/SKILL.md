@@ -1,10 +1,12 @@
 ---
 name: arm-cortex-expert
-description: Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD).
+description: Senior embedded software engineer specializing in firmware and driver
+  development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD).
 risk: unknown
 source: community
 date_added: '2026-02-27'
 ---
+
 
 # @arm-cortex-expert
 
@@ -300,3 +302,6 @@ __set_BASEPRI(basepri);
 - **STM32**: `HAL_SPI_Transmit()` / `HAL_SPI_Receive()` or LL drivers
 - **nRF52**: `nrfx_spi_xfer()` or `nrf_drv_spi_transfer()`
 - **SAMD**: Configure SERCOM in SPI master mode with `SERCOM_SPI_MODE_MASTER`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

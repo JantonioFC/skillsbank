@@ -1,10 +1,13 @@
 ---
 name: git-pr-workflows-git-workflow
-description: "Orchestrate a comprehensive git workflow from code review through PR creation, leveraging specialized agents for quality assurance, testing, and deployment readiness. This workflow implements modern g"
+description: Orchestrate a comprehensive git workflow from code review through PR
+  creation, leveraging specialized agents for quality assurance, testing, and deployment
+  readiness. This workflow implements modern g
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 # Complete Git Workflow with Multi-Agent Orchestration

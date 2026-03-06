@@ -1,9 +1,11 @@
 ---
 name: api-design-reviewer
-description: "Comprehensive API design analysis and review focusing on REST conventions, breaking change detection, and design scorecards"
+description: Comprehensive API design analysis and review focusing on REST conventions,
+  breaking change detection, and design scorecards
 risk: safe
 source: alirezarezvani/claude-skills
 ---
+
 
 # API Design Reviewer
 
@@ -421,3 +423,6 @@ fi
 The API Design Reviewer skill provides a comprehensive framework for building, reviewing, and maintaining high-quality REST APIs. By following these guidelines and using the provided tools, development teams can create APIs that are consistent, well-documented, secure, and maintainable.
 
 Regular use of the linting, breaking change detection, and scoring tools ensures continuous improvement and helps maintain API quality throughout the development lifecycle.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

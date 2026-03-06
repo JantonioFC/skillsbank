@@ -1,10 +1,12 @@
 ---
 name: game-development
-description: "Game development orchestrator. Routes to platform-specific skills based on project needs."
+description: Game development orchestrator. Routes to platform-specific skills based
+  on project needs.
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 # Game Development

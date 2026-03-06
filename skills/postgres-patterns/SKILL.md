@@ -1,7 +1,11 @@
 ---
 name: postgres-patterns
-description: PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices.
+description: PostgreSQL database patterns for query optimization, schema design, indexing,
+  and security. Based on Supabase best practices.
+risk: unknown
+source: community
 ---
+
 
 # PostgreSQL Patterns
 
@@ -144,3 +148,6 @@ SELECT pg_reload_conf();
 ---
 
 *Based on [Supabase Agent Skills](https://github.com/supabase/agent-skills) (MIT License)*
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

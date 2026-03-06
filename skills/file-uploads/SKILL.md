@@ -1,10 +1,13 @@
 ---
 name: file-uploads
-description: "Expert at handling file uploads and cloud storage. Covers S3, Cloudflare R2, presigned URLs, multipart uploads, and image optimization. Knows how to handle large files without blocking. Use when: f..."
+description: 'Expert at handling file uploads and cloud storage. Covers S3, Cloudflare
+  R2, presigned URLs, multipart uploads, and image optimization. Knows how to handle
+  large files without blocking. Use when: f...'
 risk: unknown
-source: "vibeship-spawner-skills (Apache 2.0)"
-date_added: "2026-02-27"
+source: vibeship-spawner-skills (Apache 2.0)
+date_added: '2026-02-27'
 ---
+
 
 
 # File Uploads & Storage

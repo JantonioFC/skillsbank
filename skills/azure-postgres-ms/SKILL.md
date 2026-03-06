@@ -1,7 +1,13 @@
 ---
-name: azure-postgres
-description: Create new Azure Database for PostgreSQL Flexible Server instances and configure passwordless authentication with Microsoft Entra ID. Set up developer access, managed identities for apps, group-based permissions, and migrate from password-based to Entra ID authentication. Trigger phrases include "passwordless for postgres", "entra id postgres", "azure ad postgres authentication", "postgres managed identity", "migrate postgres to passwordless".
+name: azure-postgres-ms
+description: Create new Azure Database for PostgreSQL Flexible Server instances and
+  configure passwordless authentication with Microsoft Entra ID. Set up developer
+  access, managed identities for apps, group-based permissions, and migrate from password-based
+  to Entra ID authentication. Trigger phrases i...
+risk: unknown
+source: community
 ---
+
 
 # Azure Database for PostgreSQL
 
@@ -122,3 +128,6 @@ Use these patterns based on your scenario:
 - [SQL Functions](./references/sql-functions.md) - Entra ID role management functions
 - [Permission Templates](./references/permission-templates.md) - Common permission patterns
 - [Troubleshooting](./references/troubleshooting.md) - Connection and auth issues
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

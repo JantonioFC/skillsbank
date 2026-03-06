@@ -1,7 +1,11 @@
 ---
 name: applying-brand-guidelines
-description: This skill applies consistent corporate branding and styling to all generated documents including colors, fonts, layouts, and messaging
+description: This skill applies consistent corporate branding and styling to all generated
+  documents including colors, fonts, layouts, and messaging
+risk: unknown
+source: community
 ---
+
 
 # Corporate Brand Guidelines Skill
 
@@ -169,3 +173,6 @@ When creating any document:
 - Internal documents may use simplified formatting
 - Special projects may have exceptions (request approval)
 - Brand guidelines updated quarterly - check for latest version
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,10 +1,12 @@
 ---
 name: performance-profiling
-description: "Performance profiling principles. Measurement, analysis, and optimization techniques."
+description: Performance profiling principles. Measurement, analysis, and optimization
+  techniques.
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 # Performance Profiling

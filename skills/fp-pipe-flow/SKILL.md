@@ -1,17 +1,21 @@
 ---
-name: fp-ts Pipe and Flow Composition
-description: Master function composition in fp-ts using pipe and flow for building elegant, type-safe data transformation pipelines
+name: fp-pipe-flow
+description: Master function composition in fp-ts using pipe and flow for building
+  elegant, type-safe data transformation pipelines
 version: 1.0.0
 author: Claude
 tags:
-  - fp-ts
-  - functional-programming
-  - typescript
-  - composition
-  - pipe
-  - flow
-  - data-transformation
+- fp-ts
+- functional-programming
+- typescript
+- composition
+- pipe
+- flow
+- data-transformation
+risk: unknown
+source: community
 ---
+
 
 # fp-ts Pipe and Flow Composition
 
@@ -709,3 +713,6 @@ Remember:
 - Extract named functions for clarity
 - Use Do notation for complex dependencies
 - Let TypeScript infer types when possible
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

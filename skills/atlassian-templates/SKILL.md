@@ -1,7 +1,13 @@
 ---
 name: atlassian-templates
-description: Atlassian Template and Files Creator/Modifier expert for creating, modifying, and managing Jira and Confluence templates, blueprints, custom layouts, reusable components, and standardized content structures. Use for building org-wide templates, custom blueprints, page layouts, and automated content generation.
+description: Atlassian Template and Files Creator/Modifier expert for creating, modifying,
+  and managing Jira and Confluence templates, blueprints, custom layouts, reusable
+  components, and standardized content structures. Use for building org-wide templates,
+  custom blueprints, page layouts, and automate...
+risk: unknown
+source: community
 ---
+
 
 # Atlassian Template & Files Creator Expert
 
@@ -749,3 +755,6 @@ Use emojis or numeric scale (1-10) to capture team sentiment.
 - Provide Jira Expert with issue templates
 - Supply Senior PM with reporting templates
 - Give Scrum Master sprint ceremony templates
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

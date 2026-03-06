@@ -1,17 +1,22 @@
 ---
 name: frontend-design-review
-description: >
-  Review and create distinctive, production-grade frontend interfaces with high design quality and design system compliance.
-  Evaluates using three pillars: frictionless insight-to-action, quality craft, and trustworthy building.
-  USE FOR: PR reviews, design reviews, accessibility audits, design system compliance checks, creative frontend design,
-  UI code review, component reviews, responsive design checks, theme testing, and creating memorable UI.
-  DO NOT USE FOR: Backend API reviews, database schema reviews, infrastructure or DevOps work, pure business logic
-  without UI, or non-frontend code.
-acknowledgments: |
-  Design review principles and quality pillar framework created by @Quirinevwm (https://github.com/Quirinevwm).
-  Creative frontend guidance inspired by Anthropic's frontend-design skill
-  (https://github.com/anthropics/skills/tree/main/skills/frontend-design). Licensed under respective terms.
+description: 'Review and create distinctive, production-grade frontend interfaces
+  with high design quality and design system compliance. Evaluates using three pillars:
+  frictionless insight-to-action, quality craft, and trustworthy building. USE FOR:
+  PR reviews, design reviews, accessibility audits, desi...'
+acknowledgments: 'Design review principles and quality pillar framework created by
+  @Quirinevwm (https://github.com/Quirinevwm).
+
+  Creative frontend guidance inspired by Anthropic''s frontend-design skill
+
+  (https://github.com/anthropics/skills/tree/main/skills/frontend-design). Licensed
+  under respective terms.
+
+  '
+risk: unknown
+source: community
 ---
+
 
 # Frontend Design Review
 
@@ -136,3 +141,6 @@ See [references/pattern-examples.md](references/pattern-examples.md) for good/ba
 ## Acknowledgments
 
 Creative frontend principles inspired by [Anthropic's frontend-design skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design). Design review principles and quality pillar framework created by [@Quirinevwm](https://github.com/Quirinevwm) for systematic UI evaluation.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

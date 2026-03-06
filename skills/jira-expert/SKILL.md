@@ -1,7 +1,13 @@
 ---
 name: jira-expert
-description: Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting, and all Jira features. Use for Jira project setup, configuration, advanced search, dashboard creation, workflow design, and technical Jira operations.
+description: Atlassian Jira expert for creating and managing projects, planning, product
+  discovery, JQL queries, workflows, custom fields, automation, reporting, and all
+  Jira features. Use for Jira project setup, configuration, advanced search, dashboard
+  creation, workflow design, and technical Jira op...
+risk: unknown
+source: community
 ---
+
 
 # Atlassian Jira Expert
 
@@ -317,3 +323,6 @@ priority = Blocker AND status != Done
 - Configure sprint boards for Scrum Master
 - Create documentation pages for Confluence Expert
 - Support template creation for Template Creator
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

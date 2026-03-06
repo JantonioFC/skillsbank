@@ -1,10 +1,13 @@
 ---
 name: sql-injection-testing
-description: "This skill should be used when the user asks to \"test for SQL injection vulnerabilities\", \"perform SQLi attacks\", \"bypass authentication using SQL injection\", \"extract database inform..."
+description: This skill should be used when the user asks to "test for SQL injection
+  vulnerabilities", "perform SQLi attacks", "bypass authentication using SQL injection",
+  "extract database inform...
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 

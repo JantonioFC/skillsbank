@@ -1,10 +1,15 @@
 ---
-name: azure-validate
-description: |
-  Pre-deployment validation checkpoint. Run deep checks to ensure your application is ready for Azure deployment. Validates configuration, infrastructure, permissions, and prerequisites.
-  USE FOR: validate my app, check deployment readiness, run preflight checks, verify configuration, check if ready to deploy, validate azure.yaml, validate Bicep, test before deploying, troubleshoot deployment errors.
-  DO NOT USE FOR: creating or building apps (use azure-prepare), executing deployments (use azure-deploy).
+name: azure-validate-ms
+description: 'Pre-deployment validation checkpoint. Run deep checks to ensure your
+  application is ready for Azure deployment. Validates configuration, infrastructure,
+  permissions, and prerequisites.
+
+  USE FOR: validate my app, check deployment readiness, run preflight checks, verify
+  configuration, check i...'
+risk: unknown
+source: community
 ---
+
 
 # Azure Validate
 
@@ -62,3 +67,6 @@ description: |
 > After ALL validations pass, you **MUST** invoke **azure-deploy** to execute the deployment. Do NOT attempt to run `azd up`, `azd deploy`, or any deployment commands directly. Let azure-deploy handle execution.
 >
 > If any validation failed, fix the issues and re-run azure-validate before proceeding.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

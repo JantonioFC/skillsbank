@@ -1,11 +1,12 @@
 ---
 name: writing-skills
-description: "Use when creating, updating, or improving agent skills."
+description: Use when creating, updating, or improving agent skills.
 category: meta
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Writing Skills
 

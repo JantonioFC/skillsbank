@@ -1,10 +1,11 @@
 ---
 name: conductor-implement
-description: "Execute tasks from a track's implementation plan following TDD workflow"
+description: Execute tasks from a track's implementation plan following TDD workflow
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 # Implement Track

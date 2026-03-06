@@ -1,11 +1,13 @@
 ---
 name: writer
-description: "Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer."
+description: Document creation, format conversion (ODT/DOCX/PDF), mail merge, and
+  automation with LibreOffice Writer.
 category: document-processing
 risk: safe
 source: personal
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # LibreOffice Writer
 

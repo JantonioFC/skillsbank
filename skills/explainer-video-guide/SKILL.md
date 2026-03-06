@@ -1,11 +1,15 @@
 ---
 name: explainer-video-guide
-description: "Explainer video production guide: scripting, voiceover, visuals, and assembly. Covers script formulas, pacing rules, scene planning, and multi-tool pipelines. Use for: product demos, how-it-works videos, onboarding videos, social explainers. Triggers: explainer video, how to make explainer, product video, demo video, video production, video script, animated explainer, product demo video, tutorial video, onboarding video, walkthrough video, video pipeline"
+description: 'Explainer video production guide: scripting, voiceover, visuals, and
+  assembly. Covers script formulas, pacing rules, scene planning, and multi-tool pipelines.
+  Use for: product demos, how-it-works videos, onboarding videos, social explainers.
+  Triggers: explainer video, how to make explainer...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # Explainer Video Guide
 

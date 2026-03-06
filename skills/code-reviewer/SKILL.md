@@ -1,10 +1,11 @@
 ---
 name: code-reviewer
-description: "Elite code review expert specializing in modern AI-powered code"
+description: Elite code review expert specializing in modern AI-powered code
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 ## Use this skill when
 
@@ -173,3 +174,6 @@ Master code reviewer focused on ensuring code quality, security, performance, an
 - "Analyze this caching strategy for race conditions and data consistency"
 - "Review this CI/CD pipeline for security and deployment best practices"
 - "Assess this error handling implementation for observability and debugging"
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,7 +1,12 @@
 ---
 name: deployment-patterns
-description: Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications.
+description: Deployment workflows, CI/CD pipeline patterns, Docker containerization,
+  health checks, rollback strategies, and production readiness checklists for web
+  applications.
+risk: unknown
+source: community
 ---
+
 
 # Deployment Patterns
 
@@ -424,3 +429,6 @@ Before any production deployment:
 - [ ] Database migration tested against production-sized data
 - [ ] Runbook for common failure scenarios
 - [ ] On-call rotation and escalation path defined
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

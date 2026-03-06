@@ -1,11 +1,15 @@
 ---
 name: background-removal
-description: "Remove backgrounds from images with BiRefNet via inference.sh CLI. Model: BiRefNet (high accuracy background removal). Use for: product photos, portraits, e-commerce, transparent PNGs, photo editing. Triggers: remove background, background removal, remove bg, transparent background, cut out image, background remover, rembg, product photo editing, cutout, transparent png, bg removal, photo cutout"
+description: 'Remove backgrounds from images with BiRefNet via inference.sh CLI. Model:
+  BiRefNet (high accuracy background removal). Use for: product photos, portraits,
+  e-commerce, transparent PNGs, photo editing. Triggers: remove background, background
+  removal, remove bg, transparent background, cut ou...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # Background Removal
 

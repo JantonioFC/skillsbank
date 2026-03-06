@@ -1,13 +1,17 @@
 ---
 name: fp-immutable
-description: Practical immutability patterns in TypeScript - spread operators, nested updates, readonly types, and when mutation is actually fine
+description: Practical immutability patterns in TypeScript - spread operators, nested
+  updates, readonly types, and when mutation is actually fine
 version: 1.0.0
 tags:
-  - typescript
-  - immutability
-  - functional-programming
-  - patterns
+- typescript
+- immutability
+- functional-programming
+- patterns
+risk: unknown
+source: community
 ---
+
 
 # Practical Immutability in TypeScript
 
@@ -478,3 +482,6 @@ const MyComponent = () => {
 | Merge objects | `{...defaults, ...overrides}` |
 | Deep update | Use Immer or nested spread |
 | Prevent mutation | `readonly` types or `Object.freeze()` |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

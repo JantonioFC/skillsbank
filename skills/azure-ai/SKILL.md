@@ -1,7 +1,13 @@
 ---
 name: azure-ai
-description: "Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. USE FOR: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech. DO NOT USE FOR: Function apps/Functions (use azure-functions), databases (azure-postgres/azure-kusto), general Azure resources."
+description: 'Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps
+  with search, vector/hybrid search, speech-to-text, text-to-speech, transcription,
+  OCR. USE FOR: AI Search, query search, vector search, hybrid search, semantic search,
+  speech-to-text, text-to-speech, transcribe, OCR, co...'
+risk: unknown
+source: community
 ---
+
 
 # Azure AI Services
 
@@ -65,3 +71,6 @@ For deep documentation on specific services:
 
 - AI Search indexing and queries -> [Azure AI Search documentation](https://learn.microsoft.com/azure/search/search-what-is-azure-search)
 - Speech transcription patterns -> [Azure AI Speech documentation](https://learn.microsoft.com/azure/ai-services/speech-service/overview)
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

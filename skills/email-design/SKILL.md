@@ -1,11 +1,15 @@
 ---
 name: email-design
-description: "Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails, transactional templates, and mobile optimization. Use for: email marketing, newsletter design, drip campaigns, email templates, transactional emails. Triggers: email design, email template, email marketing, newsletter design, email layout, email campaign, drip campaign, welcome email, promotional email, transactional email, email subject line, email header image, email banner"
+description: 'Email marketing design with layout patterns, subject line formulas,
+  and deliverability rules. Covers welcome sequences, promotional emails, transactional
+  templates, and mobile optimization. Use for: email marketing, newsletter design,
+  drip campaigns, email templates, transactional emails. ...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # Email Design
 

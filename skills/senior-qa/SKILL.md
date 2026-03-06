@@ -1,7 +1,13 @@
 ---
 name: senior-qa
-description: This skill should be used when the user asks to "generate tests", "write unit tests", "analyze test coverage", "scaffold E2E tests", "set up Playwright", "configure Jest", "implement testing patterns", or "improve test quality". Use for React/Next.js testing with Jest, React Testing Library, and Playwright.
+description: This skill should be used when the user asks to "generate tests", "write
+  unit tests", "analyze test coverage", "scaffold E2E tests", "set up Playwright",
+  "configure Jest", "implement testing patterns", or "improve test quality". Use for
+  React/Next.js testing with Jest, React Testing Librar...
+risk: unknown
+source: community
 ---
+
 
 # Senior QA Engineer
 
@@ -393,3 +399,6 @@ npx playwright codegen             # Generate tests
 npm test -- --coverage --coverageReporters=lcov,json
 python scripts/coverage_analyzer.py coverage/coverage-final.json
 ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

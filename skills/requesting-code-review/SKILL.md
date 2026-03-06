@@ -1,10 +1,12 @@
 ---
 name: requesting-code-review
-description: "Use when completing tasks, implementing major features, or before merging to verify work meets requirements"
+description: Use when completing tasks, implementing major features, or before merging
+  to verify work meets requirements
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Requesting Code Review
 

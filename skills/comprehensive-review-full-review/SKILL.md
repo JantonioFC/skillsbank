@@ -1,10 +1,11 @@
 ---
 name: comprehensive-review-full-review
-description: "Use when working with comprehensive review full review"
+description: Use when working with comprehensive review full review
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 

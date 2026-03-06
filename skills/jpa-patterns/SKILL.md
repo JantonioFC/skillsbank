@@ -1,7 +1,11 @@
 ---
 name: jpa-patterns
-description: JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditing, indexing, pagination, and pooling in Spring Boot.
+description: JPA/Hibernate patterns for entity design, relationships, query optimization,
+  transactions, auditing, indexing, pagination, and pooling in Spring Boot.
+risk: unknown
+source: community
 ---
+
 
 # JPA/Hibernate Patterns
 
@@ -139,3 +143,6 @@ spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 - Assert SQL efficiency using logs: set `logging.level.org.hibernate.SQL=DEBUG` and `logging.level.org.hibernate.orm.jdbc.bind=TRACE` for parameter values
 
 **Remember**: Keep entities lean, queries intentional, and transactions short. Prevent N+1 with fetch strategies and projections, and index for your read/write paths.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

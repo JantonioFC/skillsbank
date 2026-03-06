@@ -1,7 +1,10 @@
 ---
 name: project-guidelines-example
-description: "Example project-specific skill template based on a real production application."
+description: Example project-specific skill template based on a real production application.
+risk: unknown
+source: community
 ---
+
 
 # Project Guidelines Skill (Example)
 

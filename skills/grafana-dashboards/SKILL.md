@@ -1,10 +1,13 @@
 ---
 name: grafana-dashboards
-description: "Create and manage production Grafana dashboards for real-time visualization of system and application metrics. Use when building monitoring dashboards, visualizing metrics, or creating operational ..."
+description: Create and manage production Grafana dashboards for real-time visualization
+  of system and application metrics. Use when building monitoring dashboards, visualizing
+  metrics, or creating operational ...
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Grafana Dashboards
 

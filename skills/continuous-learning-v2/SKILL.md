@@ -1,8 +1,12 @@
 ---
 name: continuous-learning-v2
-description: Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents.
+description: Instinct-based learning system that observes sessions via hooks, creates
+  atomic instincts with confidence scoring, and evolves them into skills/commands/agents.
 version: 2.0.0
+risk: unknown
+source: community
 ---
+
 
 # Continuous Learning v2 - Instinct-Based Architecture
 
@@ -282,3 +286,6 @@ v2 is fully compatible with v1:
 ---
 
 *Instinct-based learning: teaching Claude your patterns, one observation at a time.*
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

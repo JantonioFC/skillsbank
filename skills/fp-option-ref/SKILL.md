@@ -1,9 +1,18 @@
 ---
 name: fp-option-ref
-description: Quick reference for Option type. Use when user needs to handle nullable values, optional data, or wants to avoid null checks.
+description: Quick reference for Option type. Use when user needs to handle nullable
+  values, optional data, or wants to avoid null checks.
 version: 1.0.0
-tags: [fp-ts, option, nullable, maybe, quick-reference]
+tags:
+- fp-ts
+- option
+- nullable
+- maybe
+- quick-reference
+risk: unknown
+source: community
 ---
+
 
 # Option Quick Reference
 
@@ -77,3 +86,6 @@ pipe(
 ```
 
 Use Option when you need to **chain** operations on optional values.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

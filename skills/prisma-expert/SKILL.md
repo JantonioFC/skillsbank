@@ -1,10 +1,13 @@
 ---
 name: prisma-expert
-description: "Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, migration problems, query performance, re..."
+description: Prisma ORM expert for schema design, migrations, query optimization,
+  relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues,
+  migration problems, query performance, re...
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 # Prisma Expert

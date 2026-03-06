@@ -1,10 +1,12 @@
 ---
 name: context-fundamentals
-description: "Understand what context is, why it matters, and the anatomy of context in agent systems"
+description: Understand what context is, why it matters, and the anatomy of context
+  in agent systems
 risk: safe
-source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-fundamentals"
-date_added: "2026-02-27"
+source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-fundamentals
+date_added: '2026-02-27'
 ---
+
 
 ## When to Use This Skill
 

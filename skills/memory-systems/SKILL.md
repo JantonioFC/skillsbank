@@ -1,10 +1,11 @@
 ---
 name: memory-systems
-description: "Design short-term, long-term, and graph-based memory architectures"
+description: Design short-term, long-term, and graph-based memory architectures
 risk: safe
-source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/memory-systems"
-date_added: "2026-02-27"
+source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/memory-systems
+date_added: '2026-02-27'
 ---
+
 
 ## When to Use This Skill
 

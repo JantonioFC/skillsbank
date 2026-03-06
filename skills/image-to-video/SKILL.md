@@ -1,11 +1,15 @@
 ---
 name: image-to-video
-description: "Still-to-video conversion guide: model selection, motion prompting, and camera movement. Covers Wan 2.5 i2v, Seedance, Fabric, Grok Video with when to use each. Use for: animating images, creating video from stills, adding motion, product animations. Triggers: image to video, i2v, animate image, still to video, add motion to image, image animation, photo to video, animate still, wan i2v, image2video, bring image to life, animate photo, motion from image"
+description: 'Still-to-video conversion guide: model selection, motion prompting,
+  and camera movement. Covers Wan 2.5 i2v, Seedance, Fabric, Grok Video with when
+  to use each. Use for: animating images, creating video from stills, adding motion,
+  product animations. Triggers: image to video, i2v, animate ...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # Image to Video
 

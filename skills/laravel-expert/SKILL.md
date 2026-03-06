@@ -1,10 +1,13 @@
 ---
 name: laravel-expert
-description: "Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and modern standards (Laravel 10/11+)."
+description: Senior Laravel Engineer role for production-grade, maintainable, and
+  idiomatic Laravel solutions. Focuses on clean architecture, security, performance,
+  and modern standards (Laravel 10/11+).
 risk: safe
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Laravel Expert
 
@@ -184,3 +187,6 @@ When refactoring:
 - Do not introduce microservice architecture unless requested
 - Do not assume cloud infrastructure
 - Keep solutions pragmatic and realistic
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

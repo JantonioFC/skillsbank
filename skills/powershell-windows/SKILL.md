@@ -1,10 +1,12 @@
 ---
 name: powershell-windows
-description: "PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling."
+description: PowerShell Windows patterns. Critical pitfalls, operator syntax, error
+  handling.
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 
 # PowerShell Windows Patterns

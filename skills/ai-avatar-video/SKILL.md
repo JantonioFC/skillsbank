@@ -1,11 +1,15 @@
 ---
 name: ai-avatar-video
-description: "Create AI avatar and talking head videos with OmniHuman, Fabric, PixVerse via inference.sh CLI. Models: OmniHuman 1.5, OmniHuman 1.0, Fabric 1.0, PixVerse Lipsync. Capabilities: audio-driven avatars, lipsync videos, talking head generation, virtual presenters. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human"
+description: 'Create AI avatar and talking head videos with OmniHuman, Fabric, PixVerse
+  via inference.sh CLI. Models: OmniHuman 1.5, OmniHuman 1.0, Fabric 1.0, PixVerse
+  Lipsync. Capabilities: audio-driven avatars, lipsync videos, talking head generation,
+  virtual presenters. Use for: AI presenters, expla...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
+
 
 # AI Avatar & Talking Head Videos
 

@@ -1,8 +1,13 @@
 ---
-name: preset
-description: |
-  Intelligently deploys Azure OpenAI models to optimal regions by analyzing capacity across all available regions. Automatically checks current region first and shows alternatives if needed. USE FOR: quick deployment, optimal region, best region, automatic region selection, fast setup, multi-region capacity check, high availability deployment, deploy to best location. DO NOT USE FOR: custom SKU selection (use customize), specific version selection (use customize), custom capacity configuration (use customize), PTU deployments (use customize).
+name: preset-ms
+description: 'Intelligently deploys Azure OpenAI models to optimal regions by analyzing
+  capacity across all available regions. Automatically checks current region first
+  and shows alternatives if needed. USE FOR: quick deployment, optimal region, best
+  region, automatic region selection, fast setup, multi...'
+risk: unknown
+source: community
 ---
+
 
 # Deploy Model to Optimal Region
 
@@ -98,3 +103,6 @@ az cognitiveservices account deployment delete --name <acct> --resource-group <r
 - **azure-quick-review** - Review Azure resources for compliance
 - **azure-cost-estimation** - Estimate costs for Azure deployments
 - **azure-validate** - Validate Azure infrastructure before deployment
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.
