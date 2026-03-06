@@ -2,7 +2,16 @@
 
 Este documento centraliza los orígenes de las **953 habilidades** importadas en el catálogo de Antigravity Awesome Skills. El inventario detallado y estructurado se encuentra en [SOURCES.json](SOURCES.json).
 
-## 🌍 Catálogo de Repositorios
+| Skill / Category            | Original Source                                                            | License        | Notes                         |
+| :-------------------------- | :------------------------------------------------------------------------- | :------------- | :---------------------------- |
+| `cloud-penetration-testing` | [HackTricks](https://book.hacktricks.xyz/)                                 | MIT / CC-BY-SA | Adapted for agentic use.      |
+| `active-directory-attacks`  | [HackTricks](https://book.hacktricks.xyz/)                                 | MIT / CC-BY-SA | Adapted for agentic use.      |
+| `owasp-top-10`              | [OWASP](https://owasp.org/)                                                | CC-BY-SA       | Methodology adapted.          |
+| `burp-suite-testing`        | [PortSwigger](https://portswigger.net/burp)                                | N/A            | Usage guide only (no binary). |
+| `crewai`                    | [CrewAI](https://github.com/joaomdmoura/crewAI)                            | MIT            | Framework guides.             |
+| `langgraph`                 | [LangGraph](https://github.com/langchain-ai/langgraph)                     | MIT            | Framework guides.             |
+| `react-patterns`            | [React Docs](https://react.dev/)                                           | CC-BY          | Official patterns.            |
+| **All Official Skills**     | [Anthropic / Google / OpenAI / Microsoft / Supabase / Apify / Vercel Labs] | Proprietary    | Usage encouraged by vendors.  |
 
 | Repositorio | Autor | Especialidad | Método |
 | :--- | :--- | :--- | :--- |

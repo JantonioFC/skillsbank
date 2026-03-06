@@ -10,6 +10,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "10-andruia-skill-smith",
+    "path": "skills/10-andruia-skill-smith",
+    "category": "andruia",
+    "name": "10-andruia-skill-smith",
+    "description": "Ingeniero de Sistemas de Andru.ia. Dise\u00f1a, redacta y despliega nuevas habilidades (skills) dentro del repositorio siguiendo el Est\u00e1ndar de Diamante.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": "2026-02-25"
+  },
+  {
     "id": "20-andruia-niche-intelligence",
     "path": "skills/20-andruia-niche-intelligence",
     "category": "andruia",
@@ -300,11 +310,11 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "agentic-browser",
-    "path": "skills/agentic-browser",
+    "id": "agentmail",
+    "path": "skills/agentmail",
     "category": "uncategorized",
-    "name": "agentic-browser",
-    "description": "Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: E2E testing, web research, automation, product demos. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video",
+    "name": "agentmail",
+    "description": "Email infrastructure for AI agents. Create accounts, send/receive emails, manage webhooks, and check karma balance via the AgentMail API.",
     "risk": "safe",
     "source": "community",
     "date_added": null
@@ -384,7 +394,7 @@
     "path": "skills/ai-engineer",
     "category": "uncategorized",
     "name": "ai-engineer",
-    "description": "You are an AI engineer specializing in production-grade LLM applications, generative AI systems, and intelligent agent architectures.",
+    "description": "Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -444,7 +454,7 @@
     "path": "skills/ai-product",
     "category": "uncategorized",
     "name": "ai-product",
-    "description": "Every product will be AI-powered. The question is whether you'll build it right or ship a demo that falls apart in production.  This skill covers LLM integration patterns, RAG architecture, prompt ...",
+    "description": "Every product will be AI-powered. The question is whether you'll build it right or ship a demo that falls apart in production. This skill covers LLM integration patterns, RAG architecture, prompt ...",
     "risk": "unknown",
     "source": "vibeship-spawner-skills (Apache 2.0)",
     "date_added": "2026-02-27"
@@ -574,7 +584,7 @@
     "path": "skills/analytics-tracking",
     "category": "uncategorized",
     "name": "analytics-tracking",
-    "description": "You are an expert in **analytics implementation and measurement design**. Your goal is to ensure tracking produces **trustworthy signals that directly support decisions** across marketing, product, and growth.",
+    "description": "Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -607,14 +617,14 @@
     "description": "Automated end-to-end UI testing and verification on an Android Emulator using ADB.",
     "risk": "safe",
     "source": "community",
-    "date_added": null
+    "date_added": "2026-02-28"
   },
   {
     "id": "angular",
     "path": "skills/angular",
     "category": "uncategorized",
     "name": "angular",
-    "description": "Master modern Angular development with Signals, Standalone Components, Zoneless applications, SSR/Hydration, and the latest reactive patterns.",
+    "description": "Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns.",
     "risk": "safe",
     "source": "self",
     "date_added": "2026-02-27"
@@ -734,7 +744,7 @@
     "path": "skills/api-documenter",
     "category": "uncategorized",
     "name": "api-documenter",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build comprehensive developer portals.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -788,6 +798,126 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "apify-actor-development",
+    "path": "skills/apify-actor-development",
+    "category": "uncategorized",
+    "name": "apify-actor-development",
+    "description": "Develop, debug, and deploy Apify Actors - serverless cloud programs for web scraping, automation, and data processing. Use when creating new Actors, modifying existing ones, or troubleshooting Acto...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "apify-actorization",
+    "path": "skills/apify-actorization",
+    "category": "uncategorized",
+    "name": "apify-actorization",
+    "description": "Convert existing projects into Apify Actors - serverless cloud programs. Actorize JavaScript/TypeScript (SDK with Actor.init/exit), Python (async context manager), or any language (CLI wrapper). Us...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "apify-audience-analysis",
+    "path": "skills/apify-audience-analysis",
+    "category": "uncategorized",
+    "name": "apify-audience-analysis",
+    "description": "Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "apify-brand-reputation-monitoring",
+    "path": "skills/apify-brand-reputation-monitoring",
+    "category": "uncategorized",
+    "name": "apify-brand-reputation-monitoring",
+    "description": "Track reviews, ratings, sentiment, and brand mentions across Google Maps, Booking.com, TripAdvisor, Facebook, Instagram, YouTube, and TikTok. Use when user asks to monitor brand reputation, analyze...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "apify-competitor-intelligence",
+    "path": "skills/apify-competitor-intelligence",
+    "category": "uncategorized",
+    "name": "apify-competitor-intelligence",
+    "description": "Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "apify-content-analytics",
+    "path": "skills/apify-content-analytics",
+    "category": "uncategorized",
+    "name": "apify-content-analytics",
+    "description": "Track engagement metrics, measure campaign ROI, and analyze content performance across Instagram, Facebook, YouTube, and TikTok.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "apify-ecommerce",
+    "path": "skills/apify-ecommerce",
+    "category": "uncategorized",
+    "name": "apify-ecommerce",
+    "description": "Scrape e-commerce data for pricing intelligence, customer reviews, and seller discovery across Amazon, Walmart, eBay, IKEA, and 50+ marketplaces. Use when user asks to monitor prices, track competi...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "apify-influencer-discovery",
+    "path": "skills/apify-influencer-discovery",
+    "category": "uncategorized",
+    "name": "apify-influencer-discovery",
+    "description": "Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, YouTube, and TikTok.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "apify-lead-generation",
+    "path": "skills/apify-lead-generation",
+    "category": "uncategorized",
+    "name": "apify-lead-generation",
+    "description": "Generates B2B/B2C leads by scraping Google Maps, websites, Instagram, TikTok, Facebook, LinkedIn, YouTube, and Google Search. Use when user asks to find leads, prospects, businesses, build lead lis...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "apify-market-research",
+    "path": "skills/apify-market-research",
+    "category": "uncategorized",
+    "name": "apify-market-research",
+    "description": "Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "apify-trend-analysis",
+    "path": "skills/apify-trend-analysis",
+    "category": "uncategorized",
+    "name": "apify-trend-analysis",
+    "description": "Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "apify-ultimate-scraper",
+    "path": "skills/apify-ultimate-scraper",
+    "category": "uncategorized",
+    "name": "apify-ultimate-scraper",
+    "description": "Universal AI-powered web scraper for any platform. Scrape data from Instagram, Facebook, TikTok, YouTube, Google Maps, Google Search, Google Trends, Booking.com, and TripAdvisor. Use for lead gener...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "app-builder",
@@ -914,7 +1044,7 @@
     "path": "skills/arm-cortex-expert",
     "category": "uncategorized",
     "name": "arm-cortex-expert",
-    "description": "- Working on @arm-cortex-expert tasks or workflows - Needing guidance, best practices, or checklists for @arm-cortex-expert",
+    "description": "Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD).",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -1204,7 +1334,7 @@
     "path": "skills/azure-ai-agents-persistent-dotnet",
     "category": "uncategorized",
     "name": "azure-ai-agents-persistent-dotnet",
-    "description": "Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools. Use for agent CRUD, conversation threads, streaming responses, function calling, file search, and code interpreter. Triggers: \"PersistentAgentsClient\", \"persistent agents\", \"agent threads\", \"agent runs\", \"streaming agents\", \"function calling agents .NET\".\n",
+    "description": "Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1214,7 +1344,7 @@
     "path": "skills/azure-ai-agents-persistent-java",
     "category": "uncategorized",
     "name": "azure-ai-agents-persistent-java",
-    "description": "Azure AI Agents Persistent SDK for Java. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.\nTriggers: \"PersistentAgentsClient\", \"persistent agents java\", \"agent threads java\", \"agent runs java\", \"streaming agents java\".\n",
+    "description": "Azure AI Agents Persistent SDK for Java. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1244,7 +1374,7 @@
     "path": "skills/azure-ai-contentsafety-py",
     "category": "uncategorized",
     "name": "azure-ai-contentsafety-py",
-    "description": "Azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification.\nTriggers: \"azure-ai-contentsafety\", \"ContentSafetyClient\", \"content moderation\", \"harmful content\", \"text analysis\", \"image analysis\".\n",
+    "description": "Azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1264,7 +1394,7 @@
     "path": "skills/azure-ai-contentunderstanding-py",
     "category": "uncategorized",
     "name": "azure-ai-contentunderstanding-py",
-    "description": "Azure AI Content Understanding SDK for Python. Use for multimodal content extraction from documents, images, audio, and video.\nTriggers: \"azure-ai-contentunderstanding\", \"ContentUnderstandingClient\", \"multimodal analysis\", \"document extraction\", \"video analysis\", \"audio transcription\".\n",
+    "description": "Azure AI Content Understanding SDK for Python. Use for multimodal content extraction from documents, images, audio, and video.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1274,7 +1404,7 @@
     "path": "skills/azure-ai-document-intelligence-dotnet",
     "category": "uncategorized",
     "name": "azure-ai-document-intelligence-dotnet",
-    "description": "Azure AI Document Intelligence SDK for .NET. Extract text, tables, and structured data from documents using prebuilt and custom models. Use for invoice processing, receipt extraction, ID document analysis, and custom document models. Triggers: \"Document Intelligence\", \"DocumentIntelligenceClient\", \"form recognizer\", \"invoice extraction\", \"receipt OCR\", \"document analysis .NET\".\n",
+    "description": "Azure AI Document Intelligence SDK for .NET. Extract text, tables, and structured data from documents using prebuilt and custom models.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1304,7 +1434,7 @@
     "path": "skills/azure-ai-ml-py",
     "category": "uncategorized",
     "name": "azure-ai-ml-py",
-    "description": "Azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines.\nTriggers: \"azure-ai-ml\", \"MLClient\", \"workspace\", \"model registry\", \"training jobs\", \"datasets\".\n",
+    "description": "Azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1314,7 +1444,7 @@
     "path": "skills/azure-ai-openai-dotnet",
     "category": "uncategorized",
     "name": "azure-ai-openai-dotnet",
-    "description": "Azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants. Triggers: \"Azure OpenAI\", \"AzureOpenAIClient\", \"ChatClient\", \"chat completions .NET\", \"GPT-4\", \"embeddings\", \"DALL-E\", \"Whisper\", \"OpenAI .NET\".\n",
+    "description": "Azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1324,7 +1454,7 @@
     "path": "skills/azure-ai-projects-dotnet",
     "category": "uncategorized",
     "name": "azure-ai-projects-dotnet",
-    "description": "Azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections, datasets, deployments, evaluations, and indexes. Use for AI Foundry project management, versioned agents, and orchestration. Triggers: \"AI Projects\", \"AIProjectClient\", \"Foundry project\", \"versioned agents\", \"evaluations\", \"datasets\", \"connections\", \"deployments .NET\".\n",
+    "description": "Azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections, datasets, deployments, evaluations, and indexes.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1334,7 +1464,7 @@
     "path": "skills/azure-ai-projects-java",
     "category": "uncategorized",
     "name": "azure-ai-projects-java",
-    "description": "Azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations.\nTriggers: \"AIProjectClient java\", \"azure ai projects java\", \"Foundry project java\", \"ConnectionsClient\", \"DatasetsClient\", \"IndexesClient\".\n",
+    "description": "Azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1364,7 +1494,7 @@
     "path": "skills/azure-ai-textanalytics-py",
     "category": "uncategorized",
     "name": "azure-ai-textanalytics-py",
-    "description": "Azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phrases, language detection, PII, and healthcare NLP. Use for natural language processing on text.\nTriggers: \"text analytics\", \"sentiment analysis\", \"entity recognition\", \"key phrase\", \"PII detection\", \"TextAnalyticsClient\".\n",
+    "description": "Azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phrases, language detection, PII, and healthcare NLP. Use for natural language processing on text.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1374,7 +1504,7 @@
     "path": "skills/azure-ai-transcription-py",
     "category": "uncategorized",
     "name": "azure-ai-transcription-py",
-    "description": "Azure AI Transcription SDK for Python. Use for real-time and batch speech-to-text transcription with timestamps and diarization.\nTriggers: \"transcription\", \"speech to text\", \"Azure AI Transcription\", \"TranscriptionClient\".\n",
+    "description": "Azure AI Transcription SDK for Python. Use for real-time and batch speech-to-text transcription with timestamps and diarization.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1384,7 +1514,7 @@
     "path": "skills/azure-ai-translation-document-py",
     "category": "uncategorized",
     "name": "azure-ai-translation-document-py",
-    "description": "Azure AI Document Translation SDK for batch translation of documents with format preservation. Use for translating Word, PDF, Excel, PowerPoint, and other document formats at scale.\nTriggers: \"document translation\", \"batch translation\", \"translate documents\", \"DocumentTranslationClient\".\n",
+    "description": "Azure AI Document Translation SDK for batch translation of documents with format preservation. Use for translating Word, PDF, Excel, PowerPoint, and other document formats at scale.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1394,7 +1524,7 @@
     "path": "skills/azure-ai-translation-text-py",
     "category": "uncategorized",
     "name": "azure-ai-translation-text-py",
-    "description": "Azure AI Text Translation SDK for real-time text translation, transliteration, language detection, and dictionary lookup. Use for translating text content in applications.\nTriggers: \"text translation\", \"translator\", \"translate text\", \"transliterate\", \"TextTranslationClient\".\n",
+    "description": "Azure AI Text Translation SDK for real-time text translation, transliteration, language detection, and dictionary lookup. Use for translating text content in applications.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1424,7 +1554,7 @@
     "path": "skills/azure-ai-vision-imageanalysis-py",
     "category": "uncategorized",
     "name": "azure-ai-vision-imageanalysis-py",
-    "description": "Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks.\nTriggers: \"image analysis\", \"computer vision\", \"OCR\", \"object detection\", \"ImageAnalysisClient\", \"image caption\".\n",
+    "description": "Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1434,7 +1564,7 @@
     "path": "skills/azure-ai-voicelive-dotnet",
     "category": "uncategorized",
     "name": "azure-ai-voicelive-dotnet",
-    "description": "Azure AI Voice Live SDK for .NET. Build real-time voice AI applications with bidirectional WebSocket communication. Use for voice assistants, conversational AI, real-time speech-to-speech, and voice-enabled chatbots. Triggers: \"voice live\", \"real-time voice\", \"VoiceLiveClient\", \"VoiceLiveSession\", \"voice assistant .NET\", \"bidirectional audio\", \"speech-to-speech\".\n",
+    "description": "Azure AI Voice Live SDK for .NET. Build real-time voice AI applications with bidirectional WebSocket communication.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1444,7 +1574,7 @@
     "path": "skills/azure-ai-voicelive-java",
     "category": "uncategorized",
     "name": "azure-ai-voicelive-java",
-    "description": "Azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket.\nTriggers: \"VoiceLiveClient java\", \"voice assistant java\", \"real-time voice java\", \"audio streaming java\", \"voice activity detection java\".\n",
+    "description": "Azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1464,7 +1594,7 @@
     "path": "skills/azure-ai-voicelive-ts",
     "category": "uncategorized",
     "name": "azure-ai-voicelive-ts",
-    "description": "Azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice AI applications with bidirectional WebSocket communication. Use for voice assistants, conversational AI, real-time speech-to-speech, and voice-enabled chatbots in Node.js or browser environments. Triggers: \"voice live\", \"real-time voice\", \"VoiceLiveClient\", \"VoiceLiveSession\", \"voice assistant TypeScript\", \"bidirectional audio\", \"speech-to-speech JavaScript\".\n",
+    "description": "Azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice AI applications with bidirectional WebSocket communication.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1494,7 +1624,7 @@
     "path": "skills/azure-appconfiguration-java",
     "category": "uncategorized",
     "name": "azure-appconfiguration-java",
-    "description": "Azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots.\nTriggers: \"ConfigurationClient java\", \"app configuration java\", \"feature flag java\", \"configuration setting java\", \"azure config java\".\n",
+    "description": "Azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1504,7 +1634,7 @@
     "path": "skills/azure-appconfiguration-py",
     "category": "uncategorized",
     "name": "azure-appconfiguration-py",
-    "description": "Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.\nTriggers: \"azure-appconfiguration\", \"AzureAppConfigurationClient\", \"feature flags\", \"configuration\", \"key-value settings\".\n",
+    "description": "Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1594,7 +1724,7 @@
     "path": "skills/azure-compute-batch-java",
     "category": "uncategorized",
     "name": "azure-compute-batch-java",
-    "description": "Azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes.\nTriggers: \"BatchClient java\", \"azure batch java\", \"batch pool java\", \"batch job java\", \"HPC java\", \"parallel computing java\".",
+    "description": "Azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1604,7 +1734,7 @@
     "path": "skills/azure-containerregistry-py",
     "category": "uncategorized",
     "name": "azure-containerregistry-py",
-    "description": "Azure Container Registry SDK for Python. Use for managing container images, artifacts, and repositories.\nTriggers: \"azure-containerregistry\", \"ContainerRegistryClient\", \"container images\", \"docker registry\", \"ACR\".\n",
+    "description": "Azure Container Registry SDK for Python. Use for managing container images, artifacts, and repositories.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1624,7 +1754,7 @@
     "path": "skills/azure-cosmos-java",
     "category": "uncategorized",
     "name": "azure-cosmos-java",
-    "description": "Azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.\nTriggers: \"CosmosClient java\", \"CosmosAsyncClient\", \"cosmos database java\", \"cosmosdb java\", \"document database java\".\n",
+    "description": "Azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1634,7 +1764,7 @@
     "path": "skills/azure-cosmos-py",
     "category": "uncategorized",
     "name": "azure-cosmos-py",
-    "description": "Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.\nTriggers: \"cosmos db\", \"CosmosClient\", \"container\", \"document\", \"NoSQL\", \"partition key\".\n",
+    "description": "Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1644,7 +1774,7 @@
     "path": "skills/azure-cosmos-rust",
     "category": "uncategorized",
     "name": "azure-cosmos-rust",
-    "description": "Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.\nTriggers: \"cosmos db rust\", \"CosmosClient rust\", \"container\", \"document rust\", \"NoSQL rust\", \"partition key\".\n",
+    "description": "Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1654,7 +1784,7 @@
     "path": "skills/azure-cosmos-ts",
     "category": "uncategorized",
     "name": "azure-cosmos-ts",
-    "description": "Azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations. Use for CRUD operations on documents, queries, bulk operations, and container management. Triggers: \"Cosmos DB\", \"@azure/cosmos\", \"CosmosClient\", \"document CRUD\", \"NoSQL queries\", \"bulk operations\", \"partition key\", \"container.items\".\n",
+    "description": "Azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations. Use for CRUD operations on documents, queries, bulk operations, and container management.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1694,7 +1824,7 @@
     "path": "skills/azure-data-tables-py",
     "category": "uncategorized",
     "name": "azure-data-tables-py",
-    "description": "Azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations.\nTriggers: \"table storage\", \"TableServiceClient\", \"TableClient\", \"entities\", \"PartitionKey\", \"RowKey\".\n",
+    "description": "Azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1744,7 +1874,7 @@
     "path": "skills/azure-eventgrid-dotnet",
     "category": "uncategorized",
     "name": "azure-eventgrid-dotnet",
-    "description": "Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents. Triggers: \"Event Grid\", \"EventGridPublisherClient\", \"CloudEvent\", \"EventGridEvent\", \"publish events .NET\", \"event-driven\", \"pub/sub\".\n",
+    "description": "Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1764,7 +1894,7 @@
     "path": "skills/azure-eventgrid-py",
     "category": "uncategorized",
     "name": "azure-eventgrid-py",
-    "description": "Azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.\nTriggers: \"event grid\", \"EventGridPublisherClient\", \"CloudEvent\", \"EventGridEvent\", \"publish events\".\n",
+    "description": "Azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1774,7 +1904,7 @@
     "path": "skills/azure-eventhub-dotnet",
     "category": "uncategorized",
     "name": "azure-eventhub-dotnet",
-    "description": "Azure Event Hubs SDK for .NET. Use for high-throughput event streaming: sending events (EventHubProducerClient, EventHubBufferedProducerClient), receiving events (EventProcessorClient with checkpointing), partition management, and real-time data ingestion. Triggers: \"Event Hubs\", \"event streaming\", \"EventHubProducerClient\", \"EventProcessorClient\", \"send events\", \"receive events\", \"checkpointing\", \"partition\".\n",
+    "description": "Azure Event Hubs SDK for .NET.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1794,7 +1924,7 @@
     "path": "skills/azure-eventhub-py",
     "category": "uncategorized",
     "name": "azure-eventhub-py",
-    "description": "Azure Event Hubs SDK for Python streaming. Use for high-throughput event ingestion, producers, consumers, and checkpointing.\nTriggers: \"event hubs\", \"EventHubProducerClient\", \"EventHubConsumerClient\", \"streaming\", \"partitions\".\n",
+    "description": "Azure Event Hubs SDK for Python streaming. Use for high-throughput event ingestion, producers, consumers, and checkpointing.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1804,7 +1934,7 @@
     "path": "skills/azure-eventhub-rust",
     "category": "uncategorized",
     "name": "azure-eventhub-rust",
-    "description": "Azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion.\nTriggers: \"event hubs rust\", \"ProducerClient rust\", \"ConsumerClient rust\", \"send event rust\", \"streaming rust\".\n",
+    "description": "Azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1834,7 +1964,7 @@
     "path": "skills/azure-identity-dotnet",
     "category": "uncategorized",
     "name": "azure-identity-dotnet",
-    "description": "Azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials. Triggers: \"Azure Identity\", \"DefaultAzureCredential\", \"ManagedIdentityCredential\", \"ClientSecretCredential\", \"authentication .NET\", \"Azure auth\", \"credential chain\".\n",
+    "description": "Azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1854,7 +1984,7 @@
     "path": "skills/azure-identity-py",
     "category": "uncategorized",
     "name": "azure-identity-py",
-    "description": "Azure Identity SDK for Python authentication. Use for DefaultAzureCredential, managed identity, service principals, and token caching.\nTriggers: \"azure-identity\", \"DefaultAzureCredential\", \"authentication\", \"managed identity\", \"service principal\", \"credential\".\n",
+    "description": "Azure Identity SDK for Python authentication. Use for DefaultAzureCredential, managed identity, service principals, and token caching.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1864,7 +1994,7 @@
     "path": "skills/azure-identity-rust",
     "category": "uncategorized",
     "name": "azure-identity-rust",
-    "description": "Azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecretCredential, and token-based authentication.\nTriggers: \"azure-identity\", \"DeveloperToolsCredential\", \"authentication rust\", \"managed identity rust\", \"credential rust\".\n",
+    "description": "Azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecretCredential, and token-based authentication.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1884,7 +2014,7 @@
     "path": "skills/azure-keyvault-certificates-rust",
     "category": "uncategorized",
     "name": "azure-keyvault-certificates-rust",
-    "description": "Azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates.\nTriggers: \"keyvault certificates rust\", \"CertificateClient rust\", \"create certificate rust\", \"import certificate rust\".\n",
+    "description": "Azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1894,7 +2024,7 @@
     "path": "skills/azure-keyvault-keys-rust",
     "category": "uncategorized",
     "name": "azure-keyvault-keys-rust",
-    "description": "Azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys.\nTriggers: \"keyvault keys rust\", \"KeyClient rust\", \"create key rust\", \"encrypt rust\", \"sign rust\".\n",
+    "description": "Azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys. Triggers: \"keyvault keys rust\", \"KeyClient rust\", \"create key rust\", \"encrypt rust\", \"sign rust\".",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1914,7 +2044,7 @@
     "path": "skills/azure-keyvault-py",
     "category": "uncategorized",
     "name": "azure-keyvault-py",
-    "description": "Azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage.\nTriggers: \"key vault\", \"SecretClient\", \"KeyClient\", \"CertificateClient\", \"secrets\", \"encryption keys\".\n",
+    "description": "Azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1924,7 +2054,7 @@
     "path": "skills/azure-keyvault-secrets-rust",
     "category": "uncategorized",
     "name": "azure-keyvault-secrets-rust",
-    "description": "Azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys.\nTriggers: \"keyvault secrets rust\", \"SecretClient rust\", \"get secret rust\", \"set secret rust\".\n",
+    "description": "Azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys. Triggers: \"keyvault secrets rust\", \"SecretClient rust\", \"get secret rust\", \"set secret rust\".",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1964,7 +2094,7 @@
     "path": "skills/azure-maps-search-dotnet",
     "category": "uncategorized",
     "name": "azure-maps-search-dotnet",
-    "description": "Azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather. Use for address search, directions, map tiles, IP geolocation, and weather data. Triggers: \"Azure Maps\", \"MapsSearchClient\", \"MapsRoutingClient\", \"MapsRenderingClient\", \"geocoding .NET\", \"route directions\", \"map tiles\", \"geolocation\".\n",
+    "description": "Azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather. Use for address search, directions, map tiles, IP geolocation, and weather data.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1984,7 +2114,7 @@
     "path": "skills/azure-messaging-webpubsubservice-py",
     "category": "uncategorized",
     "name": "azure-messaging-webpubsubservice-py",
-    "description": "Azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.\nTriggers: \"azure-messaging-webpubsubservice\", \"WebPubSubServiceClient\", \"real-time\", \"WebSocket\", \"pub/sub\".\n",
+    "description": "Azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -1994,7 +2124,7 @@
     "path": "skills/azure-mgmt-apicenter-dotnet",
     "category": "uncategorized",
     "name": "azure-mgmt-apicenter-dotnet",
-    "description": "Azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery. Use for creating API services, workspaces, APIs, versions, definitions, environments, deployments, and metadata schemas. Triggers: \"API Center\", \"ApiCenterService\", \"ApiCenterWorkspace\", \"ApiCenterApi\", \"API inventory\", \"API governance\", \"API versioning\", \"API catalog\", \"API discovery\".\n",
+    "description": "Azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2004,7 +2134,7 @@
     "path": "skills/azure-mgmt-apicenter-py",
     "category": "uncategorized",
     "name": "azure-mgmt-apicenter-py",
-    "description": "Azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization.\nTriggers: \"azure-mgmt-apicenter\", \"ApiCenterMgmtClient\", \"API Center\", \"API inventory\", \"API governance\".\n",
+    "description": "Azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2014,7 +2144,7 @@
     "path": "skills/azure-mgmt-apimanagement-dotnet",
     "category": "uncategorized",
     "name": "azure-mgmt-apimanagement-dotnet",
-    "description": "Azure Resource Manager SDK for API Management in .NET. Use for MANAGEMENT PLANE operations: creating/managing APIM services, APIs, products, subscriptions, policies, users, groups, gateways, and backends via Azure Resource Manager. Triggers: \"API Management\", \"APIM service\", \"create APIM\", \"manage APIs\", \"ApiManagementServiceResource\", \"API policies\", \"APIM products\", \"APIM subscriptions\".\n",
+    "description": "Azure Resource Manager SDK for API Management in .NET.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2024,7 +2154,7 @@
     "path": "skills/azure-mgmt-apimanagement-py",
     "category": "uncategorized",
     "name": "azure-mgmt-apimanagement-py",
-    "description": "Azure API Management SDK for Python. Use for managing APIM services, APIs, products, subscriptions, and policies.\nTriggers: \"azure-mgmt-apimanagement\", \"ApiManagementClient\", \"APIM\", \"API gateway\", \"API Management\".\n",
+    "description": "Azure API Management SDK for Python. Use for managing APIM services, APIs, products, subscriptions, and policies.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2034,7 +2164,7 @@
     "path": "skills/azure-mgmt-applicationinsights-dotnet",
     "category": "uncategorized",
     "name": "azure-mgmt-applicationinsights-dotnet",
-    "description": "Azure Application Insights SDK for .NET. Application performance monitoring and observability resource management. Use for creating Application Insights components, web tests, workbooks, analytics items, and API keys. Triggers: \"Application Insights\", \"ApplicationInsights\", \"App Insights\", \"APM\", \"application monitoring\", \"web tests\", \"availability tests\", \"workbooks\".\n",
+    "description": "Azure Application Insights SDK for .NET. Application performance monitoring and observability resource management.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2044,7 +2174,7 @@
     "path": "skills/azure-mgmt-arizeaiobservabilityeval-dotnet",
     "category": "uncategorized",
     "name": "azure-mgmt-arizeaiobservabilityeval-dotnet",
-    "description": "Azure Resource Manager SDK for Arize AI Observability and Evaluation (.NET). Use when managing Arize AI organizations \non Azure via Azure Marketplace, creating/updating/deleting Arize resources, or integrating Arize ML observability \ninto .NET applications. Triggers: \"Arize AI\", \"ML observability\", \"ArizeAIObservabilityEval\", \"Arize organization\".\n",
+    "description": "Azure Resource Manager SDK for Arize AI Observability and Evaluation (.NET).",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2054,7 +2184,7 @@
     "path": "skills/azure-mgmt-botservice-dotnet",
     "category": "uncategorized",
     "name": "azure-mgmt-botservice-dotnet",
-    "description": "Azure Resource Manager SDK for Bot Service in .NET. Management plane operations for creating and managing Azure Bot resources, channels (Teams, DirectLine, Slack), and connection settings. Triggers: \"Bot Service\", \"BotResource\", \"Azure Bot\", \"DirectLine channel\", \"Teams channel\", \"bot management .NET\", \"create bot\".\n",
+    "description": "Azure Resource Manager SDK for Bot Service in .NET. Management plane operations for creating and managing Azure Bot resources, channels (Teams, DirectLine, Slack), and connection settings.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2064,7 +2194,7 @@
     "path": "skills/azure-mgmt-botservice-py",
     "category": "uncategorized",
     "name": "azure-mgmt-botservice-py",
-    "description": "Azure Bot Service Management SDK for Python. Use for creating, managing, and configuring Azure Bot Service resources.\nTriggers: \"azure-mgmt-botservice\", \"AzureBotService\", \"bot management\", \"conversational AI\", \"bot channels\".",
+    "description": "Azure Bot Service Management SDK for Python. Use for creating, managing, and configuring Azure Bot Service resources.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2074,7 +2204,7 @@
     "path": "skills/azure-mgmt-fabric-dotnet",
     "category": "uncategorized",
     "name": "azure-mgmt-fabric-dotnet",
-    "description": "Azure Resource Manager SDK for Fabric in .NET. Use for MANAGEMENT PLANE operations: provisioning, scaling, suspending/resuming Microsoft Fabric capacities, checking name availability, and listing SKUs via Azure Resource Manager. Triggers: \"Fabric capacity\", \"create capacity\", \"suspend capacity\", \"resume capacity\", \"Fabric SKU\", \"provision Fabric\", \"ARM Fabric\", \"FabricCapacityResource\".\n",
+    "description": "Azure Resource Manager SDK for Fabric in .NET.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2084,7 +2214,7 @@
     "path": "skills/azure-mgmt-fabric-py",
     "category": "uncategorized",
     "name": "azure-mgmt-fabric-py",
-    "description": "Azure Fabric Management SDK for Python. Use for managing Microsoft Fabric capacities and resources.\nTriggers: \"azure-mgmt-fabric\", \"FabricMgmtClient\", \"Fabric capacity\", \"Microsoft Fabric\", \"Power BI capacity\".",
+    "description": "Azure Fabric Management SDK for Python. Use for managing Microsoft Fabric capacities and resources.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2104,7 +2234,7 @@
     "path": "skills/azure-mgmt-weightsandbiases-dotnet",
     "category": "uncategorized",
     "name": "azure-mgmt-weightsandbiases-dotnet",
-    "description": "Azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace. Use for creating W&B instances, managing SSO, marketplace integration, and ML observability. Triggers: \"Weights and Biases\", \"W&B\", \"WeightsAndBiases\", \"ML experiment tracking\", \"model registry\", \"experiment management\", \"wandb\".\n",
+    "description": "Azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace. Use for creating W&B instances, managing SSO, marketplace integration, and ML observability.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2124,7 +2254,7 @@
     "path": "skills/azure-monitor-ingestion-java",
     "category": "uncategorized",
     "name": "azure-monitor-ingestion-java",
-    "description": "Azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).\nTriggers: \"LogsIngestionClient java\", \"azure monitor ingestion java\", \"custom logs java\", \"DCR java\", \"data collection rule java\".\n",
+    "description": "Azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2134,7 +2264,7 @@
     "path": "skills/azure-monitor-ingestion-py",
     "category": "uncategorized",
     "name": "azure-monitor-ingestion-py",
-    "description": "Azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.\nTriggers: \"azure-monitor-ingestion\", \"LogsIngestionClient\", \"custom logs\", \"DCR\", \"data collection rule\", \"Log Analytics\".\n",
+    "description": "Azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2144,7 +2274,7 @@
     "path": "skills/azure-monitor-opentelemetry-exporter-java",
     "category": "uncategorized",
     "name": "azure-monitor-opentelemetry-exporter-java",
-    "description": "Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights.\nTriggers: \"AzureMonitorExporter java\", \"opentelemetry azure java\", \"application insights java otel\", \"azure monitor tracing java\".\nNote: This package is DEPRECATED. Migrate to azure-monitor-opentelemetry-autoconfigure.\n",
+    "description": "Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2154,7 +2284,7 @@
     "path": "skills/azure-monitor-opentelemetry-exporter-py",
     "category": "uncategorized",
     "name": "azure-monitor-opentelemetry-exporter-py",
-    "description": "Azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights.\nTriggers: \"azure-monitor-opentelemetry-exporter\", \"AzureMonitorTraceExporter\", \"AzureMonitorMetricExporter\", \"AzureMonitorLogExporter\".\n",
+    "description": "Azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2164,7 +2294,7 @@
     "path": "skills/azure-monitor-opentelemetry-py",
     "category": "uncategorized",
     "name": "azure-monitor-opentelemetry-py",
-    "description": "Azure Monitor OpenTelemetry Distro for Python. Use for one-line Application Insights setup with auto-instrumentation.\nTriggers: \"azure-monitor-opentelemetry\", \"configure_azure_monitor\", \"Application Insights\", \"OpenTelemetry distro\", \"auto-instrumentation\".\n",
+    "description": "Azure Monitor OpenTelemetry Distro for Python. Use for one-line Application Insights setup with auto-instrumentation.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2184,7 +2314,7 @@
     "path": "skills/azure-monitor-query-java",
     "category": "uncategorized",
     "name": "azure-monitor-query-java",
-    "description": "Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources.\nTriggers: \"LogsQueryClient java\", \"MetricsQueryClient java\", \"kusto query java\", \"log analytics java\", \"azure monitor query java\".\nNote: This package is deprecated. Migrate to azure-monitor-query-logs and azure-monitor-query-metrics.\n",
+    "description": "Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2194,7 +2324,7 @@
     "path": "skills/azure-monitor-query-py",
     "category": "uncategorized",
     "name": "azure-monitor-query-py",
-    "description": "Azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics.\nTriggers: \"azure-monitor-query\", \"LogsQueryClient\", \"MetricsQueryClient\", \"Log Analytics\", \"Kusto queries\", \"Azure metrics\".\n",
+    "description": "Azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2244,7 +2374,7 @@
     "path": "skills/azure-postgres-ts",
     "category": "uncategorized",
     "name": "azure-postgres-ts",
-    "description": "Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package. Use for PostgreSQL queries, connection pooling, transactions, and Microsoft Entra ID (passwordless) authentication. Triggers: \"PostgreSQL\", \"postgres\", \"pg client\", \"node-postgres\", \"Azure PostgreSQL connection\", \"PostgreSQL TypeScript\", \"pg Pool\", \"passwordless postgres\".\n",
+    "description": "Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2314,7 +2444,7 @@
     "path": "skills/azure-resource-manager-cosmosdb-dotnet",
     "category": "uncategorized",
     "name": "azure-resource-manager-cosmosdb-dotnet",
-    "description": "Azure Resource Manager SDK for Cosmos DB in .NET. Use for MANAGEMENT PLANE operations: creating/managing Cosmos DB accounts, databases, containers, throughput settings, and RBAC via Azure Resource Manager. NOT for data plane operations (CRUD on documents) - use Microsoft.Azure.Cosmos for that. Triggers: \"Cosmos DB account\", \"create Cosmos account\", \"manage Cosmos resources\", \"ARM Cosmos\", \"CosmosDBAccountResource\", \"provision Cosmos DB\".\n",
+    "description": "Azure Resource Manager SDK for Cosmos DB in .NET.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2324,7 +2454,7 @@
     "path": "skills/azure-resource-manager-durabletask-dotnet",
     "category": "uncategorized",
     "name": "azure-resource-manager-durabletask-dotnet",
-    "description": "Azure Resource Manager SDK for Durable Task Scheduler in .NET. Use for MANAGEMENT PLANE operations: creating/managing Durable Task Schedulers, Task Hubs, and retention policies via Azure Resource Manager. Triggers: \"Durable Task Scheduler\", \"create scheduler\", \"task hub\", \"DurableTaskSchedulerResource\", \"provision Durable Task\", \"orchestration scheduler\".\n",
+    "description": "Azure Resource Manager SDK for Durable Task Scheduler in .NET.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2334,7 +2464,7 @@
     "path": "skills/azure-resource-manager-mysql-dotnet",
     "category": "uncategorized",
     "name": "azure-resource-manager-mysql-dotnet",
-    "description": "Azure MySQL Flexible Server SDK for .NET. Database management for MySQL Flexible Server deployments. Use for creating servers, databases, firewall rules, configurations, backups, and high availability. Triggers: \"MySQL\", \"MySqlFlexibleServer\", \"MySQL Flexible Server\", \"Azure Database for MySQL\", \"MySQL database management\", \"MySQL firewall\", \"MySQL backup\".\n",
+    "description": "Azure MySQL Flexible Server SDK for .NET. Database management for MySQL Flexible Server deployments.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2344,7 +2474,7 @@
     "path": "skills/azure-resource-manager-playwright-dotnet",
     "category": "uncategorized",
     "name": "azure-resource-manager-playwright-dotnet",
-    "description": "Azure Resource Manager SDK for Microsoft Playwright Testing in .NET. Use for MANAGEMENT PLANE operations: creating/managing Playwright Testing workspaces, checking name availability, and managing workspace quotas via Azure Resource Manager. NOT for running Playwright tests - use Azure.Developer.MicrosoftPlaywrightTesting.NUnit for that. Triggers: \"Playwright workspace\", \"create Playwright Testing workspace\", \"manage Playwright resources\", \"ARM Playwright\", \"PlaywrightWorkspaceResource\", \"provision Playwright Testing\".\n",
+    "description": "Azure Resource Manager SDK for Microsoft Playwright Testing in .NET.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2354,7 +2484,7 @@
     "path": "skills/azure-resource-manager-postgresql-dotnet",
     "category": "uncategorized",
     "name": "azure-resource-manager-postgresql-dotnet",
-    "description": "Azure PostgreSQL Flexible Server SDK for .NET. Database management for PostgreSQL Flexible Server deployments. Use for creating servers, databases, firewall rules, configurations, backups, and high availability. Triggers: \"PostgreSQL\", \"PostgreSqlFlexibleServer\", \"PostgreSQL Flexible Server\", \"Azure Database for PostgreSQL\", \"PostgreSQL database management\", \"PostgreSQL firewall\", \"PostgreSQL backup\", \"Postgres\".\n",
+    "description": "Azure PostgreSQL Flexible Server SDK for .NET. Database management for PostgreSQL Flexible Server deployments.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2364,7 +2494,7 @@
     "path": "skills/azure-resource-manager-redis-dotnet",
     "category": "uncategorized",
     "name": "azure-resource-manager-redis-dotnet",
-    "description": "Azure Resource Manager SDK for Redis in .NET. Use for MANAGEMENT PLANE operations: creating/managing Azure Cache for Redis instances, firewall rules, access keys, patch schedules, linked servers (geo-replication), and private endpoints via Azure Resource Manager. NOT for data plane operations (get/set keys, pub/sub) - use StackExchange.Redis for that. Triggers: \"Redis cache\", \"create Redis\", \"manage Redis\", \"ARM Redis\", \"RedisResource\", \"provision Redis\", \"Azure Cache for Redis\".\n",
+    "description": "Azure Resource Manager SDK for Redis in .NET.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2374,7 +2504,7 @@
     "path": "skills/azure-resource-manager-sql-dotnet",
     "category": "uncategorized",
     "name": "azure-resource-manager-sql-dotnet",
-    "description": "Azure Resource Manager SDK for Azure SQL in .NET. Use for MANAGEMENT PLANE operations: creating/managing SQL servers, databases, elastic pools, firewall rules, and failover groups via Azure Resource Manager. NOT for data plane operations (executing queries) - use Microsoft.Data.SqlClient for that. Triggers: \"SQL server\", \"create SQL database\", \"manage SQL resources\", \"ARM SQL\", \"SqlServerResource\", \"provision Azure SQL\", \"elastic pool\", \"firewall rule\".\n",
+    "description": "Azure Resource Manager SDK for Azure SQL in .NET.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2404,7 +2534,7 @@
     "path": "skills/azure-search-documents-dotnet",
     "category": "uncategorized",
     "name": "azure-search-documents-dotnet",
-    "description": "Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search. Covers SearchClient (queries, document CRUD), SearchIndexClient (index management), and SearchIndexerClient (indexers, skillsets). Triggers: \"Azure Search .NET\", \"SearchClient\", \"SearchIndexClient\", \"vector search C#\", \"semantic search .NET\", \"hybrid search\", \"Azure.Search.Documents\".\n",
+    "description": "Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2414,7 +2544,7 @@
     "path": "skills/azure-search-documents-py",
     "category": "uncategorized",
     "name": "azure-search-documents-py",
-    "description": "Azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets.\nTriggers: \"azure-search-documents\", \"SearchClient\", \"SearchIndexClient\", \"vector search\", \"hybrid search\", \"semantic search\".\n",
+    "description": "Azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2434,7 +2564,7 @@
     "path": "skills/azure-security-keyvault-keys-dotnet",
     "category": "uncategorized",
     "name": "azure-security-keyvault-keys-dotnet",
-    "description": "Azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification. Triggers: \"Key Vault keys\", \"KeyClient\", \"CryptographyClient\", \"RSA key\", \"EC key\", \"encrypt decrypt .NET\", \"key rotation\", \"HSM\".\n",
+    "description": "Azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2464,7 +2594,7 @@
     "path": "skills/azure-servicebus-dotnet",
     "category": "uncategorized",
     "name": "azure-servicebus-dotnet",
-    "description": "Azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions. Use for reliable message delivery, pub/sub patterns, dead letter handling, and background processing. Triggers: \"Service Bus\", \"ServiceBusClient\", \"ServiceBusSender\", \"ServiceBusReceiver\", \"ServiceBusProcessor\", \"message queue\", \"pub/sub .NET\", \"dead letter queue\".\n",
+    "description": "Azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2474,7 +2604,7 @@
     "path": "skills/azure-servicebus-py",
     "category": "uncategorized",
     "name": "azure-servicebus-py",
-    "description": "Azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns.\nTriggers: \"service bus\", \"ServiceBusClient\", \"queue\", \"topic\", \"subscription\", \"message broker\".\n",
+    "description": "Azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2494,7 +2624,7 @@
     "path": "skills/azure-speech-to-text-rest-py",
     "category": "uncategorized",
     "name": "azure-speech-to-text-rest-py",
-    "description": "Azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.\nTriggers: \"speech to text REST\", \"short audio transcription\", \"speech recognition REST API\", \"STT REST\", \"recognize speech REST\".\nDO NOT USE FOR: Long audio (>60 seconds), real-time streaming, batch transcription, custom speech models, speech translation. Use Speech SDK or Batch Transcription API instead.",
+    "description": "Azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2534,7 +2664,7 @@
     "path": "skills/azure-storage-blob-py",
     "category": "uncategorized",
     "name": "azure-storage-blob-py",
-    "description": "Azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifecycle.\nTriggers: \"blob storage\", \"BlobServiceClient\", \"ContainerClient\", \"BlobClient\", \"upload blob\", \"download blob\".\n",
+    "description": "Azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifecycle.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2544,7 +2674,7 @@
     "path": "skills/azure-storage-blob-rust",
     "category": "uncategorized",
     "name": "azure-storage-blob-rust",
-    "description": "Azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers.\nTriggers: \"blob storage rust\", \"BlobClient rust\", \"upload blob rust\", \"download blob rust\", \"container rust\".\n",
+    "description": "Azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2554,7 +2684,7 @@
     "path": "skills/azure-storage-blob-ts",
     "category": "uncategorized",
     "name": "azure-storage-blob-ts",
-    "description": "Azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers. Supports block blobs, append blobs, page blobs, SAS tokens, and streaming. Triggers: \"blob storage\", \"@azure/storage-blob\", \"BlobServiceClient\", \"ContainerClient\", \"upload blob\", \"download blob\", \"SAS token\", \"block blob\".\n",
+    "description": "Azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2564,7 +2694,7 @@
     "path": "skills/azure-storage-file-datalake-py",
     "category": "uncategorized",
     "name": "azure-storage-file-datalake-py",
-    "description": "Azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical file systems, big data analytics, and file/directory operations.\nTriggers: \"data lake\", \"DataLakeServiceClient\", \"FileSystemClient\", \"ADLS Gen2\", \"hierarchical namespace\".\n",
+    "description": "Azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical file systems, big data analytics, and file/directory operations.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2574,7 +2704,7 @@
     "path": "skills/azure-storage-file-share-py",
     "category": "uncategorized",
     "name": "azure-storage-file-share-py",
-    "description": "Azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud.\nTriggers: \"azure-storage-file-share\", \"ShareServiceClient\", \"ShareClient\", \"file share\", \"SMB\".",
+    "description": "Azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2584,7 +2714,7 @@
     "path": "skills/azure-storage-file-share-ts",
     "category": "uncategorized",
     "name": "azure-storage-file-share-ts",
-    "description": "Azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB file share operations. Use for creating shares, managing directories, uploading/downloading files, and handling file metadata. Supports Azure Files SMB protocol scenarios. Triggers: \"file share\", \"@azure/storage-file-share\", \"ShareServiceClient\", \"ShareClient\", \"SMB\", \"Azure Files\".\n",
+    "description": "Azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB file share operations.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2594,7 +2724,7 @@
     "path": "skills/azure-storage-queue-py",
     "category": "uncategorized",
     "name": "azure-storage-queue-py",
-    "description": "Azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing.\nTriggers: \"queue storage\", \"QueueServiceClient\", \"QueueClient\", \"message queue\", \"dequeue\".\n",
+    "description": "Azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2604,7 +2734,7 @@
     "path": "skills/azure-storage-queue-ts",
     "category": "uncategorized",
     "name": "azure-storage-queue-ts",
-    "description": "Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues. Supports visibility timeout, message encoding, and batch operations. Triggers: \"queue storage\", \"@azure/storage-queue\", \"QueueServiceClient\", \"QueueClient\", \"send message\", \"receive message\", \"dequeue\", \"visibility timeout\".\n",
+    "description": "Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -2644,7 +2774,7 @@
     "path": "skills/backend-architect",
     "category": "uncategorized",
     "name": "backend-architect",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -2684,7 +2814,7 @@
     "path": "skills/backend-security-coder",
     "category": "uncategorized",
     "name": "backend-security-coder",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -2764,7 +2894,7 @@
     "path": "skills/bash-pro",
     "category": "uncategorized",
     "name": "bash-pro",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Master of defensive Bash scripting for production automation, CI/CD\npipelines, and system utilities. Expert in safe, portable, and testable shell\nscripts.\n",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -2864,7 +2994,7 @@
     "path": "skills/blockchain-developer",
     "category": "uncategorized",
     "name": "blockchain-developer",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -3014,7 +3144,7 @@
     "path": "skills/business-analyst",
     "category": "uncategorized",
     "name": "business-analyst",
-    "description": "- Working on business analyst tasks or workflows - Needing guidance, best practices, or checklists for business analyst",
+    "description": "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -3054,7 +3184,7 @@
     "path": "skills/c4-code",
     "category": "uncategorized",
     "name": "c4-code",
-    "description": "- Working on c4 code level: [directory name] tasks or workflows - Needing guidance, best practices, or checklists for c4 code level: [directory name]",
+    "description": "Expert C4 Code-level documentation specialist. Analyzes code directories to create comprehensive C4 code-level documentation including function signatures, arguments, dependencies, and code structure.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -3064,7 +3194,7 @@
     "path": "skills/c4-component",
     "category": "uncategorized",
     "name": "c4-component",
-    "description": "- Working on c4 component level: [component name] tasks or workflows - Needing guidance, best practices, or checklists for c4 component level: [component name]",
+    "description": "Expert C4 Component-level documentation specialist. Synthesizes C4 Code-level documentation into Component-level architecture, defining component boundaries, interfaces, and relationships.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -3074,7 +3204,7 @@
     "path": "skills/c4-container",
     "category": "uncategorized",
     "name": "c4-container",
-    "description": "- Working on c4 container level: system deployment tasks or workflows - Needing guidance, best practices, or checklists for c4 container level: system deployment",
+    "description": "Expert C4 Container-level documentation specialist.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -3084,7 +3214,7 @@
     "path": "skills/c4-context",
     "category": "uncategorized",
     "name": "c4-context",
-    "description": "- Working on c4 context level: system context tasks or workflows - Needing guidance, best practices, or checklists for c4 context level: system context",
+    "description": "Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -3204,7 +3334,7 @@
     "path": "skills/carrier-relationship-management",
     "category": "uncategorized",
     "name": "carrier-relationship-management",
-    "description": "Use this skill when building and managing a carrier network, conducting freight RFPs, negotiating linehaul and accessorial rates, tracking carrier KPIs via scorecards, or ensuring regulatory compliance of transportation partners.",
+    "description": "Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships.",
     "risk": "safe",
     "source": "https://github.com/ai-evos/agent-skills",
     "date_added": "2026-02-27"
@@ -3514,7 +3644,7 @@
     "path": "skills/cloud-architect",
     "category": "uncategorized",
     "name": "cloud-architect",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -3660,6 +3790,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "codebase-audit-pre-push",
+    "path": "skills/codebase-audit-pre-push",
+    "category": "development",
+    "name": "codebase-audit-pre-push",
+    "description": "Deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-05"
+  },
+  {
     "id": "codebase-cleanup-deps-audit",
     "path": "skills/codebase-cleanup-deps-audit",
     "category": "uncategorized",
@@ -3734,7 +3874,7 @@
     "path": "skills/competitive-landscape",
     "category": "uncategorized",
     "name": "competitive-landscape",
-    "description": "Use this skill as needed to perform the specified automation task.",
+    "description": "This skill should be used when the user asks to \\\\\\\"analyze competitors\", \"assess competitive landscape\", \"identify differentiation\", \"evaluate market positioning\", \"apply Porter's Five Forces\",...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -3864,7 +4004,7 @@
     "path": "skills/conductor-setup",
     "category": "uncategorized",
     "name": "conductor-setup",
-    "description": "Initialize or resume Conductor project setup. This command creates foundational project documentation through interactive Q&A.",
+    "description": "Initialize project with Conductor artifacts (product definition,\ntech stack, workflow, style guides)\n",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -3884,7 +4024,7 @@
     "path": "skills/conductor-validator",
     "category": "uncategorized",
     "name": "conductor-validator",
-    "description": "ls -la conductor/",
+    "description": "Validates Conductor project artifacts for completeness,\nconsistency, and correctness. Use after setup, when diagnosing issues, or\nbefore implementation to verify project context.\n",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -3954,7 +4094,7 @@
     "path": "skills/content-marketer",
     "category": "uncategorized",
     "name": "content-marketer",
-    "description": "- Working on content marketer tasks or workflows - Needing guidance, best practices, or checklists for content marketer",
+    "description": "Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4004,7 +4144,7 @@
     "path": "skills/context-driven-development",
     "category": "uncategorized",
     "name": "context-driven-development",
-    "description": "Guide for implementing and maintaining context as a managed artifact alongside code, enabling consistent AI interactions and team alignment through structured project documentation.",
+    "description": "Use this skill when working with Conductor's context-driven development methodology, managing project context artifacts, or understanding the relationship between product.md, tech-stack.md, and...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4044,7 +4184,7 @@
     "path": "skills/context-manager",
     "category": "uncategorized",
     "name": "context-manager",
-    "description": "- Working on context manager tasks or workflows - Needing guidance, best practices, or checklists for context manager",
+    "description": "Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4224,7 +4364,7 @@
     "path": "skills/cpp-pro",
     "category": "uncategorized",
     "name": "cpp-pro",
-    "description": "- Working on cpp pro tasks or workflows - Needing guidance, best practices, or checklists for cpp pro",
+    "description": "Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4284,7 +4424,7 @@
     "path": "skills/crypto-bd-agent",
     "category": "uncategorized",
     "name": "crypto-bd-agent",
-    "description": "> Production-tested patterns for building AI agents that autonomously discover, > evaluate, and acquire token listings for cryptocurrency exchanges.",
+    "description": "Autonomous crypto business development patterns \u2014 multi-chain token discovery, 100-point scoring with wallet forensics, x402 micropayments, ERC-8004 on-chain identity, LLM cascade routing, and...",
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4294,7 +4434,7 @@
     "path": "skills/csharp-pro",
     "category": "uncategorized",
     "name": "csharp-pro",
-    "description": "- Working on csharp pro tasks or workflows - Needing guidance, best practices, or checklists for csharp pro",
+    "description": "Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4344,7 +4484,7 @@
     "path": "skills/customer-support",
     "category": "uncategorized",
     "name": "customer-support",
-    "description": "> **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly pr",
+    "description": "Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4394,7 +4534,7 @@
     "path": "skills/customs-trade-compliance",
     "category": "uncategorized",
     "name": "customs-trade-compliance",
-    "description": "Use this skill when navigating international trade regulations, classifying goods under HS codes, determining appropriate Incoterms, managing import/export documentation, or optimizing customs duty payments through Free Trade Agreements.",
+    "description": "Codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across multiple jurisdictions.",
     "risk": "safe",
     "source": "https://github.com/ai-evos/agent-skills",
     "date_added": "2026-02-27"
@@ -4414,7 +4554,7 @@
     "path": "skills/data-engineer",
     "category": "uncategorized",
     "name": "data-engineer",
-    "description": "You are a data engineer specializing in scalable data pipelines, modern data architecture, and analytics infrastructure.",
+    "description": "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4454,7 +4594,7 @@
     "path": "skills/data-scientist",
     "category": "uncategorized",
     "name": "data-scientist",
-    "description": "- Working on data scientist tasks or workflows - Needing guidance, best practices, or checklists for data scientist",
+    "description": "Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4504,7 +4644,7 @@
     "path": "skills/database-admin",
     "category": "uncategorized",
     "name": "database-admin",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert database administrator specializing in modern cloud databases, automation, and reliability engineering.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4514,7 +4654,7 @@
     "path": "skills/database-architect",
     "category": "uncategorized",
     "name": "database-architect",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4594,7 +4734,7 @@
     "path": "skills/database-optimizer",
     "category": "uncategorized",
     "name": "database-optimizer",
-    "description": "- Working on database optimizer tasks or workflows - Needing guidance, best practices, or checklists for database optimizer",
+    "description": "Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4684,7 +4824,7 @@
     "path": "skills/debugger",
     "category": "uncategorized",
     "name": "debugger",
-    "description": "- Working on debugger tasks or workflows - Needing guidance, best practices, or checklists for debugger",
+    "description": "Debugging specialist for errors, test failures, and unexpected\nbehavior. Use proactively when encountering any issues.\n",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4804,7 +4944,7 @@
     "path": "skills/deployment-engineer",
     "category": "uncategorized",
     "name": "deployment-engineer",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4864,7 +5004,7 @@
     "path": "skills/design-orchestration",
     "category": "uncategorized",
     "name": "design-orchestration",
-    "description": "> **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly pr",
+    "description": "Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4894,7 +5034,7 @@
     "path": "skills/devops-troubleshooter",
     "category": "uncategorized",
     "name": "devops-troubleshooter",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -4974,7 +5114,7 @@
     "path": "skills/django-pro",
     "category": "uncategorized",
     "name": "django-pro",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -5044,7 +5184,7 @@
     "path": "skills/docs-architect",
     "category": "uncategorized",
     "name": "docs-architect",
-    "description": "- Working on docs architect tasks or workflows - Needing guidance, best practices, or checklists for docs architect",
+    "description": "Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -5124,7 +5264,7 @@
     "path": "skills/dotnet-architect",
     "category": "uncategorized",
     "name": "dotnet-architect",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -5160,6 +5300,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "drizzle-orm-expert",
+    "path": "skills/drizzle-orm-expert",
+    "category": "uncategorized",
+    "name": "drizzle-orm-expert",
+    "description": "Expert in Drizzle ORM for TypeScript \u2014 schema design, relational queries, migrations, and serverless database integration. Use when building type-safe database layers with Drizzle.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-04"
+  },
+  {
     "id": "dropbox-automation",
     "path": "skills/dropbox-automation",
     "category": "uncategorized",
@@ -5174,7 +5324,7 @@
     "path": "skills/dx-optimizer",
     "category": "uncategorized",
     "name": "dx-optimizer",
-    "description": "- Working on dx optimizer tasks or workflows - Needing guidance, best practices, or checklists for dx optimizer",
+    "description": "Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -5204,7 +5354,7 @@
     "path": "skills/elixir-pro",
     "category": "uncategorized",
     "name": "elixir-pro",
-    "description": "- Working on elixir pro tasks or workflows - Needing guidance, best practices, or checklists for elixir pro",
+    "description": "Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -5234,7 +5384,7 @@
     "path": "skills/email-systems",
     "category": "uncategorized",
     "name": "email-systems",
-    "description": "Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, landing in spam folders.  This skill cov...",
+    "description": "Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, landing in spam folders. This skill cov...",
     "risk": "unknown",
     "source": "vibeship-spawner-skills (Apache 2.0)",
     "date_added": "2026-02-27"
@@ -5264,7 +5414,7 @@
     "path": "skills/energy-procurement",
     "category": "uncategorized",
     "name": "energy-procurement",
-    "description": "Use this skill when managing energy procurement tasks, such as optimizing electricity or gas tariffs, evaluating Power Purchase Agreements (PPAs), or developing long-term energy cost management strategies for commercial or industrial facilities.",
+    "description": "Codified expertise for electricity and gas procurement, tariff optimisation, demand charge management, renewable PPA evaluation, and multi-facility energy cost management.",
     "risk": "safe",
     "source": "https://github.com/ai-evos/agent-skills",
     "date_added": "2026-02-27"
@@ -5334,7 +5484,7 @@
     "path": "skills/error-detective",
     "category": "uncategorized",
     "name": "error-detective",
-    "description": "- Working on error detective tasks or workflows - Needing guidance, best practices, or checklists for error detective",
+    "description": "Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -5534,7 +5684,7 @@
     "path": "skills/fastapi-pro",
     "category": "uncategorized",
     "name": "fastapi-pro",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -5560,11 +5710,21 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "fda-consultant-specialist",
-    "path": "skills/fda-consultant-specialist",
+    "id": "fda-food-safety-auditor",
+    "path": "skills/fda-food-safety-auditor",
     "category": "uncategorized",
-    "name": "fda-consultant-specialist",
-    "description": "FDA regulatory consultant for medical device companies. Provides 510(k)/PMA/De Novo pathway guidance, QSR (21 CFR 820) compliance, HIPAA assessments, and device cybersecurity. Use when user mentions FDA submission, 510(k), PMA, De Novo, QSR, premarket, predicate device, substantial equivalence, HIPAA medical device, or FDA cybersecurity.",
+    "name": "fda-food-safety-auditor",
+    "description": "Expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "fda-medtech-compliance-auditor",
+    "path": "skills/fda-medtech-compliance-auditor",
+    "category": "uncategorized",
+    "name": "fda-medtech-compliance-auditor",
+    "description": "Expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -5684,7 +5844,7 @@
     "path": "skills/firmware-analyst",
     "category": "uncategorized",
     "name": "firmware-analyst",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -5704,7 +5864,7 @@
     "path": "skills/flutter-expert",
     "category": "uncategorized",
     "name": "flutter-expert",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -5724,7 +5884,7 @@
     "path": "skills/form-cro",
     "category": "uncategorized",
     "name": "form-cro",
-    "description": "You are an expert in **form optimization and friction reduction**. Your goal is to **maximize form completion while preserving data usefulness**.",
+    "description": "Optimize any form that is NOT signup or account registration \u2014 including lead capture, contact, demo request, application, survey, quote, and checkout forms.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6014,7 +6174,7 @@
     "path": "skills/frontend-developer",
     "category": "uncategorized",
     "name": "frontend-developer",
-    "description": "You are a frontend development expert specializing in modern React applications, Next.js, and cutting-edge frontend architecture.",
+    "description": "Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6054,7 +6214,7 @@
     "path": "skills/frontend-security-coder",
     "category": "uncategorized",
     "name": "frontend-security-coder",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6228,6 +6388,16 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "gemini-api-integration",
+    "path": "skills/gemini-api-integration",
+    "category": "uncategorized",
+    "name": "gemini-api-integration",
+    "description": "Use when integrating Google Gemini API into projects. Covers model selection, multimodal inputs, streaming, function calling, and production best practices.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-04"
   },
   {
     "id": "geo-fundamentals",
@@ -6434,7 +6604,7 @@
     "path": "skills/golang-pro",
     "category": "uncategorized",
     "name": "golang-pro",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6524,7 +6694,7 @@
     "path": "skills/graphql-architect",
     "category": "uncategorized",
     "name": "graphql-architect",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6584,7 +6754,7 @@
     "path": "skills/hig-components-content",
     "category": "uncategorized",
     "name": "hig-components-content",
-    "description": "Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.",
+    "description": "Apple Human Interface Guidelines for content display components.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6594,7 +6764,7 @@
     "path": "skills/hig-components-controls",
     "category": "uncategorized",
     "name": "hig-components-controls",
-    "description": "Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.",
+    "description": "Apple HIG guidance for selection and input controls including pickers, toggles, sliders, steppers, segmented controls, combo boxes, text fields, text views, labels, token fields, virtual...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6604,7 +6774,7 @@
     "path": "skills/hig-components-dialogs",
     "category": "uncategorized",
     "name": "hig-components-dialogs",
-    "description": "Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.",
+    "description": "Apple HIG guidance for presentation components including alerts, action sheets, popovers, sheets, and digit entry views.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6614,7 +6784,7 @@
     "path": "skills/hig-components-layout",
     "category": "uncategorized",
     "name": "hig-components-layout",
-    "description": "Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.",
+    "description": "Apple Human Interface Guidelines for layout and navigation components.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6624,7 +6794,7 @@
     "path": "skills/hig-components-menus",
     "category": "uncategorized",
     "name": "hig-components-menus",
-    "description": "Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.",
+    "description": "Apple HIG guidance for menu and button components including menus, context menus, dock menus, edit menus, the menu bar, toolbars, action buttons, pop-up buttons, pull-down buttons, disclosure...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6634,7 +6804,7 @@
     "path": "skills/hig-components-search",
     "category": "uncategorized",
     "name": "hig-components-search",
-    "description": "Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.",
+    "description": "Apple HIG guidance for navigation-related components including search fields, page controls, and path controls.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6644,7 +6814,7 @@
     "path": "skills/hig-components-status",
     "category": "uncategorized",
     "name": "hig-components-status",
-    "description": "Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.",
+    "description": "Apple HIG guidance for status and progress UI components including progress indicators, status bars, and activity rings.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6654,7 +6824,7 @@
     "path": "skills/hig-components-system",
     "category": "uncategorized",
     "name": "hig-components-system",
-    "description": "Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.",
+    "description": "Apple HIG guidance for system experience components: widgets, live activities, notifications, complications, home screen quick actions, top shelf, watch faces, app clips, and app shortcuts.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6664,7 +6834,7 @@
     "path": "skills/hig-foundations",
     "category": "uncategorized",
     "name": "hig-foundations",
-    "description": "Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.",
+    "description": "Apple Human Interface Guidelines design foundations.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6674,7 +6844,7 @@
     "path": "skills/hig-inputs",
     "category": "uncategorized",
     "name": "hig-inputs",
-    "description": "Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.",
+    "description": "Apple HIG guidance for input methods and interaction patterns: gestures, Apple Pencil, keyboards, game controllers, pointers, Digital Crown, eye tracking, focus system, remotes, spatial...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6684,7 +6854,7 @@
     "path": "skills/hig-patterns",
     "category": "uncategorized",
     "name": "hig-patterns",
-    "description": "Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.",
+    "description": "Apple Human Interface Guidelines interaction and UX patterns.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6694,7 +6864,7 @@
     "path": "skills/hig-platforms",
     "category": "uncategorized",
     "name": "hig-platforms",
-    "description": "Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.",
+    "description": "Apple Human Interface Guidelines for platform-specific design.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6704,7 +6874,7 @@
     "path": "skills/hig-project-context",
     "category": "uncategorized",
     "name": "hig-project-context",
-    "description": "Create and maintain `.claude/apple-design-context.md` so other HIG skills can skip redundant questions.",
+    "description": "Create or update a shared Apple design context document that other HIG skills use to tailor guidance.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6714,7 +6884,7 @@
     "path": "skills/hig-technologies",
     "category": "uncategorized",
     "name": "hig-technologies",
-    "description": "Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.",
+    "description": "Apple HIG guidance for Apple technology integrations: Siri, Apple Pay, HealthKit, HomeKit, ARKit, machine learning, generative AI, iCloud, Sign in with Apple, SharePlay, CarPlay, Game Center,...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6734,7 +6904,7 @@
     "path": "skills/hr-pro",
     "category": "uncategorized",
     "name": "hr-pro",
-    "description": "> **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > You must have explicit, written permission from the system owner before using this tool. > Misuse of this tool is illegal and strictly pr",
+    "description": "Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6794,7 +6964,7 @@
     "path": "skills/hybrid-cloud-architect",
     "category": "uncategorized",
     "name": "hybrid-cloud-architect",
-    "description": "- Working on hybrid cloud architect tasks or workflows - Needing guidance, best practices, or checklists for hybrid cloud architect",
+    "description": "Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware).",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -6864,7 +7034,7 @@
     "path": "skills/imagen",
     "category": "uncategorized",
     "name": "imagen",
-    "description": "This skill generates images using Google Gemini's image generation model (`gemini-3-pro-image-preview`). It enables seamless image creation during any Claude Code session - whether you're building frontend UIs, creating documentation, or need visual",
+    "description": "AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.",
     "risk": "safe",
     "source": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen",
     "date_added": "2026-02-27"
@@ -6894,7 +7064,7 @@
     "path": "skills/incident-responder",
     "category": "uncategorized",
     "name": "incident-responder",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -7054,7 +7224,7 @@
     "path": "skills/inventory-demand-planning",
     "category": "uncategorized",
     "name": "inventory-demand-planning",
-    "description": "Use this skill when forecasting product demand, calculating optimal safety stock levels, planning inventory replenishment cycles, estimating the impact of retail promotions, or conducting ABC/XYZ inventory segmentation.",
+    "description": "Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers.",
     "risk": "safe",
     "source": "https://github.com/ai-evos/agent-skills",
     "date_added": "2026-02-27"
@@ -7084,7 +7254,7 @@
     "path": "skills/ios-developer",
     "category": "uncategorized",
     "name": "ios-developer",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -7144,7 +7314,7 @@
     "path": "skills/java-pro",
     "category": "uncategorized",
     "name": "java-pro",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -7164,7 +7334,7 @@
     "path": "skills/javascript-pro",
     "category": "uncategorized",
     "name": "javascript-pro",
-    "description": "You are a JavaScript expert specializing in modern JS and async programming.",
+    "description": "Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -7234,7 +7404,7 @@
     "path": "skills/julia-pro",
     "category": "uncategorized",
     "name": "julia-pro",
-    "description": "- Working on julia pro tasks or workflows - Needing guidance, best practices, or checklists for julia pro",
+    "description": "Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -7304,7 +7474,7 @@
     "path": "skills/kubernetes-architect",
     "category": "uncategorized",
     "name": "kubernetes-architect",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -7404,7 +7574,7 @@
     "path": "skills/legacy-modernizer",
     "category": "uncategorized",
     "name": "legacy-modernizer",
-    "description": "- Working on legacy modernizer tasks or workflows - Needing guidance, best practices, or checklists for legacy modernizer",
+    "description": "Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical debt, dependency updates, and backward compatibility.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -7414,10 +7584,40 @@
     "path": "skills/legal-advisor",
     "category": "uncategorized",
     "name": "legal-advisor",
-    "description": "- Working on legal advisor tasks or workflows - Needing guidance, best practices, or checklists for legal advisor",
+    "description": "Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "lightning-architecture-review",
+    "path": "skills/lightning-architecture-review",
+    "category": "uncategorized",
+    "name": "lightning-architecture-review",
+    "description": "Review Bitcoin Lightning Network protocol designs, compare channel factory approaches, and analyze Layer 2 scaling tradeoffs. Covers trust models, on-chain footprint, consensus requirements, HTLC/PTLC compatibility, liveness, and watchtower support.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-03-03"
+  },
+  {
+    "id": "lightning-channel-factories",
+    "path": "skills/lightning-channel-factories",
+    "category": "uncategorized",
+    "name": "lightning-channel-factories",
+    "description": "Technical reference on Lightning Network channel factories, multi-party channels, LSP architectures, and Bitcoin Layer 2 scaling without soft forks. Covers Decker-Wattenhofer, timeout trees, MuSig2 key aggregation, HTLC/PTLC forwarding, and watchtower breach detection.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-03-03"
+  },
+  {
+    "id": "lightning-factory-explainer",
+    "path": "skills/lightning-factory-explainer",
+    "category": "uncategorized",
+    "name": "lightning-factory-explainer",
+    "description": "Explain Bitcoin Lightning channel factories and the SuperScalar protocol \u2014 scalable Lightning onboarding using shared UTXOs, Decker-Wattenhofer trees, timeout-signature trees, MuSig2, and Taproot. No soft fork required.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-03-03"
   },
   {
     "id": "linear-automation",
@@ -7580,14 +7780,14 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "llm-models",
-    "path": "skills/llm-models",
+    "id": "llm-prompt-optimizer",
+    "path": "skills/llm-prompt-optimizer",
     "category": "uncategorized",
-    "name": "llm-models",
-    "description": "Access Claude, Gemini, Kimi, GLM and 100+ LLMs via inference.sh CLI using OpenRouter. Models: Claude Opus 4.5, Claude Sonnet 4.5, Claude Haiku 4.5, Gemini 3 Pro, Kimi K2, GLM-4.6, Intellect 3. One API for all models with automatic fallback and cost optimization. Use for: AI assistants, code generation, reasoning, agents, chat, content generation. Triggers: claude api, openrouter, llm api, claude sonnet, claude opus, gemini api, kimi, language model, gpt alternative, anthropic api, ai model api, llm access, chat api, claude alternative, openai alternative",
+    "name": "llm-prompt-optimizer",
+    "description": "Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage.",
     "risk": "safe",
     "source": "community",
-    "date_added": null
+    "date_added": "2026-03-04"
   },
   {
     "id": "local-legal-seo-audit",
@@ -7604,7 +7804,7 @@
     "path": "skills/logistics-exception-management",
     "category": "uncategorized",
     "name": "logistics-exception-management",
-    "description": "Use this skill when dealing with deviations from planned logistics operations, such as transit delays, damaged shipments, lost cargo, or when initiating and managing claims and disputes with freight carriers.",
+    "description": "Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed by logistics professionals with 15+ years operational experience.",
     "risk": "safe",
     "source": "https://github.com/ai-evos/agent-skills",
     "date_added": "2026-02-27"
@@ -7634,7 +7834,7 @@
     "path": "skills/m365-agents-dotnet",
     "category": "uncategorized",
     "name": "m365-agents-dotnet",
-    "description": "Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth. Triggers: \"Microsoft 365 Agents SDK\", \"Microsoft.Agents\", \"AddAgentApplicationOptions\", \"AgentApplication\", \"AddAgentAspNetAuthentication\", \"Copilot Studio client\", \"IAgentHttpAdapter\".\n",
+    "description": "Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -7644,7 +7844,7 @@
     "path": "skills/m365-agents-py",
     "category": "uncategorized",
     "name": "m365-agents-py",
-    "description": "Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth. Triggers: \"Microsoft 365 Agents SDK\", \"microsoft_agents\", \"AgentApplication\", \"start_agent_process\", \"TurnContext\", \"Copilot Studio client\", \"CloudAdapter\".\n",
+    "description": "Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -7654,7 +7854,7 @@
     "path": "skills/m365-agents-ts",
     "category": "uncategorized",
     "name": "m365-agents-ts",
-    "description": "Microsoft 365 Agents SDK for TypeScript/Node.js. Build multichannel agents for Teams/M365/Copilot Studio with AgentApplication routing, Express hosting, streaming responses, and Copilot Studio client integration. Triggers: \"Microsoft 365 Agents SDK\", \"@microsoft/agents-hosting\", \"AgentApplication\", \"startServer\", \"streamingResponse\", \"Copilot Studio client\", \"@microsoft/agents-copilotstudio-client\".\n",
+    "description": "Microsoft 365 Agents SDK for TypeScript/Node.js.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -7704,7 +7904,7 @@
     "path": "skills/malware-analyst",
     "category": "uncategorized",
     "name": "malware-analyst",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert malware analyst specializing in defensive malware research, threat intelligence, and incident response. Masters sandbox analysis, behavioral analysis, and malware family identification.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -7744,7 +7944,7 @@
     "path": "skills/market-sizing-analysis",
     "category": "uncategorized",
     "name": "market-sizing-analysis",
-    "description": "Use this skill as needed to perform market sizing analysis tasks.",
+    "description": "This skill should be used when the user asks to \\\\\\\"calculate TAM\\\\\\\", \"determine SAM\", \"estimate SOM\", \"size the market\", \"calculate market opportunity\", \"what's the total addressable market\", or...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -7854,7 +8054,7 @@
     "path": "skills/mermaid-expert",
     "category": "uncategorized",
     "name": "mermaid-expert",
-    "description": "- Working on mermaid expert tasks or workflows - Needing guidance, best practices, or checklists for mermaid expert",
+    "description": "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -7894,7 +8094,7 @@
     "path": "skills/microsoft-azure-webjobs-extensions-authentication-events-dotnet",
     "category": "uncategorized",
     "name": "microsoft-azure-webjobs-extensions-authentication-events-dotnet",
-    "description": "Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication extensions. Use for token enrichment, custom claims, attribute collection, and OTP customization in Entra ID. Triggers: \"Authentication Events\", \"WebJobsAuthenticationEventsTrigger\", \"OnTokenIssuanceStart\", \"OnAttributeCollectionStart\", \"custom claims\", \"token enrichment\", \"Entra custom extension\", \"authentication extension\".",
+    "description": "Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication extensions.",
     "risk": "unknown",
     "source": "unknown",
     "date_added": null
@@ -7944,7 +8144,7 @@
     "path": "skills/minecraft-bukkit-pro",
     "category": "uncategorized",
     "name": "minecraft-bukkit-pro",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -7974,7 +8174,7 @@
     "path": "skills/ml-engineer",
     "category": "uncategorized",
     "name": "ml-engineer",
-    "description": "- Working on ml engineer tasks or workflows - Needing guidance, best practices, or checklists for ml engineer",
+    "description": "Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -7994,7 +8194,7 @@
     "path": "skills/mlops-engineer",
     "category": "uncategorized",
     "name": "mlops-engineer",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -8024,7 +8224,7 @@
     "path": "skills/mobile-developer",
     "category": "uncategorized",
     "name": "mobile-developer",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync, and app store optimization.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -8064,7 +8264,7 @@
     "path": "skills/mobile-security-coder",
     "category": "uncategorized",
     "name": "mobile-security-coder",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific security patterns.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -8144,7 +8344,7 @@
     "path": "skills/multi-agent-brainstorming",
     "category": "uncategorized",
     "name": "multi-agent-brainstorming",
-    "description": "Transform a single-agent design into a **robust, review-validated design** by simulating a formal peer-review process using multiple constrained agents.",
+    "description": "Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -8304,7 +8504,7 @@
     "path": "skills/network-engineer",
     "category": "uncategorized",
     "name": "network-engineer",
-    "description": "- Working on network engineer tasks or workflows - Needing guidance, best practices, or checklists for network engineer",
+    "description": "Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -8454,7 +8654,7 @@
     "path": "skills/observability-engineer",
     "category": "uncategorized",
     "name": "observability-engineer",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -8498,6 +8698,246 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "odoo-accounting-setup",
+    "path": "skills/odoo-accounting-setup",
+    "category": "uncategorized",
+    "name": "odoo-accounting-setup",
+    "description": "Expert guide for configuring Odoo Accounting: chart of accounts, journals, fiscal positions, taxes, payment terms, and bank reconciliation.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-automated-tests",
+    "path": "skills/odoo-automated-tests",
+    "category": "uncategorized",
+    "name": "odoo-automated-tests",
+    "description": "Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-backup-strategy",
+    "path": "skills/odoo-backup-strategy",
+    "category": "uncategorized",
+    "name": "odoo-backup-strategy",
+    "description": "Complete Odoo backup and restore strategy: database dumps, filestore backup, automated scheduling, cloud storage upload, and tested restore procedures.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-docker-deployment",
+    "path": "skills/odoo-docker-deployment",
+    "category": "uncategorized",
+    "name": "odoo-docker-deployment",
+    "description": "Production-ready Docker and docker-compose setup for Odoo with PostgreSQL, persistent volumes, environment-based configuration, and Nginx reverse proxy.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-ecommerce-configurator",
+    "path": "skills/odoo-ecommerce-configurator",
+    "category": "uncategorized",
+    "name": "odoo-ecommerce-configurator",
+    "description": "Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-edi-connector",
+    "path": "skills/odoo-edi-connector",
+    "category": "uncategorized",
+    "name": "odoo-edi-connector",
+    "description": "Guide for implementing EDI (Electronic Data Interchange) with Odoo: X12, EDIFACT document mapping, partner onboarding, and automated order processing.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "odoo-hr-payroll-setup",
+    "path": "skills/odoo-hr-payroll-setup",
+    "category": "uncategorized",
+    "name": "odoo-hr-payroll-setup",
+    "description": "Expert guide for Odoo HR and Payroll: salary structures, payslip rules, leave policies, employee contracts, and payroll journal entries.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-inventory-optimizer",
+    "path": "skills/odoo-inventory-optimizer",
+    "category": "uncategorized",
+    "name": "odoo-inventory-optimizer",
+    "description": "Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reordering rules, putaway strategies, routes, and multi-warehouse configuration.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-l10n-compliance",
+    "path": "skills/odoo-l10n-compliance",
+    "category": "uncategorized",
+    "name": "odoo-l10n-compliance",
+    "description": "Country-specific Odoo localization: tax configuration, e-invoicing (CFDI, FatturaPA, SAF-T), fiscal reporting, and country chart of accounts setup.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "odoo-manufacturing-advisor",
+    "path": "skills/odoo-manufacturing-advisor",
+    "category": "uncategorized",
+    "name": "odoo-manufacturing-advisor",
+    "description": "Expert guide for Odoo Manufacturing: Bills of Materials (BoM), Work Centers, routings, MRP planning, and production order workflows.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-migration-helper",
+    "path": "skills/odoo-migration-helper",
+    "category": "uncategorized",
+    "name": "odoo-migration-helper",
+    "description": "Step-by-step guide for migrating Odoo custom modules between versions (v14\u2192v15\u2192v16\u2192v17). Covers API changes, deprecated methods, and view migration.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-module-developer",
+    "path": "skills/odoo-module-developer",
+    "category": "uncategorized",
+    "name": "odoo-module-developer",
+    "description": "Expert guide for creating custom Odoo modules. Covers __manifest__.py, model inheritance, ORM patterns, and module structure best practices.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-orm-expert",
+    "path": "skills/odoo-orm-expert",
+    "category": "uncategorized",
+    "name": "odoo-orm-expert",
+    "description": "Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-performance-tuner",
+    "path": "skills/odoo-performance-tuner",
+    "category": "uncategorized",
+    "name": "odoo-performance-tuner",
+    "description": "Expert guide for diagnosing and fixing Odoo performance issues: slow queries, worker configuration, memory limits, PostgreSQL tuning, and profiling tools.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-project-timesheet",
+    "path": "skills/odoo-project-timesheet",
+    "category": "uncategorized",
+    "name": "odoo-project-timesheet",
+    "description": "Expert guide for Odoo Project and Timesheets: task stages, billable time tracking, timesheet approval, budget alerts, and invoicing from timesheets.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-purchase-workflow",
+    "path": "skills/odoo-purchase-workflow",
+    "category": "uncategorized",
+    "name": "odoo-purchase-workflow",
+    "description": "Expert guide for Odoo Purchase: RFQ \u2192 PO \u2192 Receipt \u2192 Vendor Bill workflow, purchase agreements, vendor price lists, and 3-way matching.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-qweb-templates",
+    "path": "skills/odoo-qweb-templates",
+    "category": "uncategorized",
+    "name": "odoo-qweb-templates",
+    "description": "Expert in Odoo QWeb templating for PDF reports, email templates, and website pages. Covers t-if, t-foreach, t-field, and report actions.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-rpc-api",
+    "path": "skills/odoo-rpc-api",
+    "category": "uncategorized",
+    "name": "odoo-rpc-api",
+    "description": "Expert on Odoo's external JSON-RPC and XML-RPC APIs. Covers authentication, model calls, record CRUD, and real-world integration examples in Python, JavaScript, and curl.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-sales-crm-expert",
+    "path": "skills/odoo-sales-crm-expert",
+    "category": "uncategorized",
+    "name": "odoo-sales-crm-expert",
+    "description": "Expert guide for Odoo Sales and CRM: pipeline stages, quotation templates, pricelists, sales teams, lead scoring, and forecasting.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-security-rules",
+    "path": "skills/odoo-security-rules",
+    "category": "uncategorized",
+    "name": "odoo-security-rules",
+    "description": "Expert in Odoo access control: ir.model.access.csv, record rules (ir.rule), groups, and multi-company security patterns.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-shopify-integration",
+    "path": "skills/odoo-shopify-integration",
+    "category": "uncategorized",
+    "name": "odoo-shopify-integration",
+    "description": "Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "odoo-upgrade-advisor",
+    "path": "skills/odoo-upgrade-advisor",
+    "category": "uncategorized",
+    "name": "odoo-upgrade-advisor",
+    "description": "Step-by-step Odoo version upgrade advisor: pre-upgrade checklist, community vs enterprise upgrade path, OCA module compatibility, and post-upgrade validation.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
+  },
+  {
+    "id": "odoo-woocommerce-bridge",
+    "path": "skills/odoo-woocommerce-bridge",
+    "category": "uncategorized",
+    "name": "odoo-woocommerce-bridge",
+    "description": "Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "odoo-xml-views-builder",
+    "path": "skills/odoo-xml-views-builder",
+    "category": "uncategorized",
+    "name": "odoo-xml-views-builder",
+    "description": "Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph. Generates correct XML for Odoo 14-17 with proper visibility syntax.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
   },
   {
     "id": "office-productivity",
@@ -8604,7 +9044,7 @@
     "path": "skills/page-cro",
     "category": "uncategorized",
     "name": "page-cro",
-    "description": "You are an expert in **page-level conversion optimization**. Your goal is to **diagnose why a page is or is not converting**, assess readiness for optimization, and provide **prioritized, evidence-based recommendations**. You do **not** guarantee con",
+    "description": "Analyze and optimize individual pages for conversion performance.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -8664,7 +9104,7 @@
     "path": "skills/payment-integration",
     "category": "uncategorized",
     "name": "payment-integration",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -8814,7 +9254,7 @@
     "path": "skills/php-pro",
     "category": "uncategorized",
     "name": "php-pro",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Write idiomatic PHP code with generators, iterators, SPL data\nstructures, and modern OOP features. Use PROACTIVELY for high-performance PHP\napplications.\n",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -8904,7 +9344,7 @@
     "path": "skills/posix-shell-pro",
     "category": "uncategorized",
     "name": "posix-shell-pro",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix).",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -9204,17 +9644,27 @@
     "path": "skills/production-scheduling",
     "category": "uncategorized",
     "name": "production-scheduling",
-    "description": "Use this skill when planning manufacturing operations, sequencing jobs to minimize changeover times, balancing production lines, resolving factory bottlenecks, or responding to unexpected equipment downtime and supply disruptions.",
+    "description": "Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch manufacturing.",
     "risk": "safe",
     "source": "https://github.com/ai-evos/agent-skills",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "professional-proofreader",
+    "path": "skills/professional-proofreader",
+    "category": "uncategorized",
+    "name": "professional-proofreader",
+    "description": "Use when a user asks to \"proofread\", \"review and correct\", \"fix grammar\", \"improve readability while keeping my voice\", and to proofread a document file and save an updated version.\n",
+    "risk": "safe",
+    "source": "original",
+    "date_added": "2026-03-04"
   },
   {
     "id": "programmatic-seo",
     "path": "skills/programmatic-seo",
     "category": "uncategorized",
     "name": "programmatic-seo",
-    "description": "---",
+    "description": "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -9464,7 +9914,7 @@
     "path": "skills/python-pro",
     "category": "uncategorized",
     "name": "python-pro",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -9584,7 +10034,7 @@
     "path": "skills/quality-nonconformance",
     "category": "uncategorized",
     "name": "quality-nonconformance",
-    "description": "Use this skill when investigating product defects or process deviations, performing root cause analysis (RCA), managing Corrective and Preventive Actions (CAPA), interpreting Statistical Process Control (SPC) data, or auditing supplier quality.",
+    "description": "Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing.",
     "risk": "safe",
     "source": "https://github.com/ai-evos/agent-skills",
     "date_added": "2026-02-27"
@@ -9594,7 +10044,7 @@
     "path": "skills/quant-analyst",
     "category": "uncategorized",
     "name": "quant-analyst",
-    "description": "- Working on quant analyst tasks or workflows - Needing guidance, best practices, or checklists for quant analyst",
+    "description": "Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -9814,7 +10264,7 @@
     "path": "skills/reference-builder",
     "category": "uncategorized",
     "name": "reference-builder",
-    "description": "- Working on reference builder tasks or workflows - Needing guidance, best practices, or checklists for reference builder",
+    "description": "Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -9944,7 +10394,7 @@
     "path": "skills/returns-reverse-logistics",
     "category": "uncategorized",
     "name": "returns-reverse-logistics",
-    "description": "Use this skill when managing the product return lifecycle, including authorization, physical inspection, making disposition decisions (e.g., restock vs. liquidator), detecting return fraud, or processing warranty claims.",
+    "description": "Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management.",
     "risk": "safe",
     "source": "https://github.com/ai-evos/agent-skills",
     "date_added": "2026-02-27"
@@ -9964,7 +10414,7 @@
     "path": "skills/reverse-engineer",
     "category": "uncategorized",
     "name": "reverse-engineer",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -9994,7 +10444,7 @@
     "path": "skills/risk-manager",
     "category": "uncategorized",
     "name": "risk-manager",
-    "description": "- Working on risk manager tasks or workflows - Needing guidance, best practices, or checklists for risk manager",
+    "description": "Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10014,7 +10464,7 @@
     "path": "skills/ruby-pro",
     "category": "uncategorized",
     "name": "ruby-pro",
-    "description": "- Working on ruby pro tasks or workflows - Needing guidance, best practices, or checklists for ruby pro",
+    "description": "Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10034,10 +10484,20 @@
     "path": "skills/rust-pro",
     "category": "uncategorized",
     "name": "rust-pro",
-    "description": "You are a Rust expert specializing in modern Rust 1.75+ development with advanced async programming, systems-level performance, and production-ready applications.",
+    "description": "Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "saas-mvp-launcher",
+    "path": "skills/saas-mvp-launcher",
+    "category": "uncategorized",
+    "name": "saas-mvp-launcher",
+    "description": "Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-03-04"
   },
   {
     "id": "saga-orchestration",
@@ -10054,7 +10514,7 @@
     "path": "skills/sales-automator",
     "category": "uncategorized",
     "name": "sales-automator",
-    "description": "- Working on sales automator tasks or workflows - Needing guidance, best practices, or checklists for sales automator",
+    "description": "Draft cold emails, follow-ups, and proposal templates. Creates\npricing pages, case studies, and sales scripts. Use PROACTIVELY for sales\noutreach or lead nurturing.\n",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10134,7 +10594,7 @@
     "path": "skills/scala-pro",
     "category": "uncategorized",
     "name": "scala-pro",
-    "description": "- Working on scala pro tasks or workflows - Needing guidance, best practices, or checklists for scala pro",
+    "description": "Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10154,7 +10614,7 @@
     "path": "skills/schema-markup",
     "category": "uncategorized",
     "name": "schema-markup",
-    "description": "---",
+    "description": "Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10244,7 +10704,7 @@
     "path": "skills/security-auditor",
     "category": "uncategorized",
     "name": "security-auditor",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10324,7 +10784,7 @@
     "path": "skills/security-scanning-security-sast",
     "category": "uncategorized",
     "name": "security-scanning-security-sast",
-    "description": "Static Application Security Testing (SAST) for comprehensive code vulnerability detection across multiple languages, frameworks, and security patterns.",
+    "description": "Static Application Security Testing (SAST) for code vulnerability\nanalysis across multiple languages and frameworks\n",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10514,7 +10974,7 @@
     "path": "skills/seo-audit",
     "category": "uncategorized",
     "name": "seo-audit",
-    "description": "You are an **SEO diagnostic specialist**. Your role is to **identify, explain, and prioritize SEO issues** that affect organic visibility\u2014**not to implement fixes unless explicitly requested**.",
+    "description": "Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10524,7 +10984,7 @@
     "path": "skills/seo-authority-builder",
     "category": "uncategorized",
     "name": "seo-authority-builder",
-    "description": "- Working on seo authority builder tasks or workflows - Needing guidance, best practices, or checklists for seo authority builder",
+    "description": "Analyzes content for E-E-A-T signals and suggests improvements to\nbuild authority and trust. Identifies missing credibility elements. Use\nPROACTIVELY for YMYL topics.\n",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10534,7 +10994,7 @@
     "path": "skills/seo-cannibalization-detector",
     "category": "uncategorized",
     "name": "seo-cannibalization-detector",
-    "description": "- Working on seo cannibalization detector tasks or workflows - Needing guidance, best practices, or checklists for seo cannibalization detector",
+    "description": "Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10544,7 +11004,7 @@
     "path": "skills/seo-content-auditor",
     "category": "uncategorized",
     "name": "seo-content-auditor",
-    "description": "- Working on seo content auditor tasks or workflows - Needing guidance, best practices, or checklists for seo content auditor",
+    "description": "Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10564,7 +11024,7 @@
     "path": "skills/seo-content-planner",
     "category": "uncategorized",
     "name": "seo-content-planner",
-    "description": "- Working on seo content planner tasks or workflows - Needing guidance, best practices, or checklists for seo content planner",
+    "description": "Creates comprehensive content outlines and topic clusters for SEO.\nPlans content calendars and identifies topic gaps. Use PROACTIVELY for content\nstrategy and planning.\n",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10574,7 +11034,7 @@
     "path": "skills/seo-content-refresher",
     "category": "uncategorized",
     "name": "seo-content-refresher",
-    "description": "- Working on seo content refresher tasks or workflows - Needing guidance, best practices, or checklists for seo content refresher",
+    "description": "Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10584,7 +11044,7 @@
     "path": "skills/seo-content-writer",
     "category": "uncategorized",
     "name": "seo-content-writer",
-    "description": "- Working on seo content writer tasks or workflows - Needing guidance, best practices, or checklists for seo content writer",
+    "description": "Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10604,7 +11064,7 @@
     "path": "skills/seo-fundamentals",
     "category": "uncategorized",
     "name": "seo-fundamentals",
-    "description": "---",
+    "description": "Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10614,7 +11074,7 @@
     "path": "skills/seo-keyword-strategist",
     "category": "uncategorized",
     "name": "seo-keyword-strategist",
-    "description": "- Working on seo keyword strategist tasks or workflows - Needing guidance, best practices, or checklists for seo keyword strategist",
+    "description": "Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10624,7 +11084,7 @@
     "path": "skills/seo-meta-optimizer",
     "category": "uncategorized",
     "name": "seo-meta-optimizer",
-    "description": "- Working on seo meta optimizer tasks or workflows - Needing guidance, best practices, or checklists for seo meta optimizer",
+    "description": "Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10634,7 +11094,7 @@
     "path": "skills/seo-snippet-hunter",
     "category": "uncategorized",
     "name": "seo-snippet-hunter",
-    "description": "- Working on seo snippet hunter tasks or workflows - Needing guidance, best practices, or checklists for seo snippet hunter",
+    "description": "Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks based on best practices. Use PROACTIVELY for question-based content.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10644,7 +11104,7 @@
     "path": "skills/seo-structure-architect",
     "category": "uncategorized",
     "name": "seo-structure-architect",
-    "description": "- Working on seo structure architect tasks or workflows - Needing guidance, best practices, or checklists for seo structure architect",
+    "description": "Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10744,7 +11204,7 @@
     "path": "skills/shopify-development",
     "category": "uncategorized",
     "name": "shopify-development",
-    "description": "Use this skill when the user asks about:",
+    "description": "Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10818,6 +11278,16 @@
     "risk": "safe",
     "source": "https://github.com/robzolkos/skill-rails-upgrade",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "skill-router",
+    "path": "skills/skill-router",
+    "category": "uncategorized",
+    "name": "skill-router",
+    "description": "Use when the user is unsure which skill to use or where to start. Interviews the user with targeted questions and recommends the best skill(s) from the installed library for their goal.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null
   },
   {
     "id": "skill-seekers",
@@ -11034,7 +11504,7 @@
     "path": "skills/sql-pro",
     "category": "uncategorized",
     "name": "sql-pro",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11074,7 +11544,7 @@
     "path": "skills/startup-analyst",
     "category": "uncategorized",
     "name": "startup-analyst",
-    "description": "- Working on startup analyst tasks or workflows - Needing guidance, best practices, or checklists for startup analyst",
+    "description": "Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11084,7 +11554,7 @@
     "path": "skills/startup-business-analyst-business-case",
     "category": "uncategorized",
     "name": "startup-business-analyst-business-case",
-    "description": "Generate a comprehensive, investor-ready business case document covering market opportunity, solution, competitive landscape, financial projections, team, risks, and funding ask for startup fundraising and strategic planning.",
+    "description": "Generate comprehensive investor-ready business case document with\nmarket, solution, financials, and strategy\n",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11094,7 +11564,7 @@
     "path": "skills/startup-business-analyst-financial-projections",
     "category": "uncategorized",
     "name": "startup-business-analyst-financial-projections",
-    "description": "Create a comprehensive 3-5 year financial model with revenue projections, cost structure, headcount planning, cash flow analysis, and three-scenario modeling (conservative, base, optimistic) for startup financial planning and fundraising.",
+    "description": "Create detailed 3-5 year financial model with revenue, costs, cash\nflow, and scenarios\n",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11104,7 +11574,7 @@
     "path": "skills/startup-business-analyst-market-opportunity",
     "category": "uncategorized",
     "name": "startup-business-analyst-market-opportunity",
-    "description": "Generate a comprehensive market opportunity analysis for a startup, including Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) calculations using both bottom-up and top-down methodologies.",
+    "description": "Generate comprehensive market opportunity analysis with TAM/SAM/SOM\ncalculations\n",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11114,7 +11584,7 @@
     "path": "skills/startup-financial-modeling",
     "category": "uncategorized",
     "name": "startup-financial-modeling",
-    "description": "Use this skill as needed to perform the specified automation task.",
+    "description": "This skill should be used when the user asks to \\\\\\\"create financial projections\", \"build a financial model\", \"forecast revenue\", \"calculate burn rate\", \"estimate runway\", \"model cash flow\", or...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11124,7 +11594,7 @@
     "path": "skills/startup-metrics-framework",
     "category": "uncategorized",
     "name": "startup-metrics-framework",
-    "description": "Use this skill as needed to perform the specified automation task.",
+    "description": "This skill should be used when the user asks about \\\\\\\"key startup metrics\", \"SaaS metrics\", \"CAC and LTV\", \"unit economics\", \"burn multiple\", \"rule of 40\", \"marketplace metrics\", or requests...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11344,7 +11814,7 @@
     "path": "skills/tdd-orchestrator",
     "category": "uncategorized",
     "name": "tdd-orchestrator",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination, and comprehensive test-driven development practices.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11434,7 +11904,7 @@
     "path": "skills/team-composition-analysis",
     "category": "uncategorized",
     "name": "team-composition-analysis",
-    "description": "Use this skill as needed to perform the specified automation task.",
+    "description": "This skill should be used when the user asks to \\\\\\\"plan team structure\", \"determine hiring needs\", \"design org chart\", \"calculate compensation\", \"plan equity allocation\", or requests...",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11544,7 +12014,7 @@
     "path": "skills/temporal-python-pro",
     "category": "uncategorized",
     "name": "temporal-python-pro",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed transactions. Covers async/await, testing strategies, and production deployment.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11604,7 +12074,7 @@
     "path": "skills/terraform-specialist",
     "category": "uncategorized",
     "name": "terraform-specialist",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11614,7 +12084,7 @@
     "path": "skills/test-automator",
     "category": "uncategorized",
     "name": "test-automator",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Master AI-powered test automation with modern frameworks, self-healing tests, and comprehensive quality engineering. Build scalable testing strategies with advanced CI/CD integration.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11764,7 +12234,7 @@
     "path": "skills/track-management",
     "category": "uncategorized",
     "name": "track-management",
-    "description": "Guide for creating, managing, and completing Conductor tracks - the logical work units that organize features, bugs, and refactors through specification, planning, and implementation phases.",
+    "description": "Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors. Applies to spec.md, plan.md, and track lifecycle operations.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11804,10 +12274,10 @@
     "path": "skills/tutorial-engineer",
     "category": "uncategorized",
     "name": "tutorial-engineer",
-    "description": "- Working on tutorial engineer tasks or workflows - Needing guidance, best practices, or checklists for tutorial engineer",
-    "risk": "unknown",
+    "description": "Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples.",
+    "risk": "safe",
     "source": "community",
-    "date_added": "2026-02-27"
+    "date_added": "2026-03-02"
   },
   {
     "id": "twilio-communications",
@@ -11854,7 +12324,7 @@
     "path": "skills/typescript-expert",
     "category": "framework",
     "name": "typescript-expert",
-    "description": "You are an advanced TypeScript expert with deep, practical knowledge of type-level programming, performance optimization, and real-world problem solving based on current best practices.",
+    "description": "TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11864,7 +12334,7 @@
     "path": "skills/typescript-pro",
     "category": "uncategorized",
     "name": "typescript-pro",
-    "description": "You are a TypeScript expert specializing in advanced typing and enterprise-grade development.",
+    "description": "Master TypeScript with advanced types, generics, and strict type safety. Handles complex type systems, decorators, and enterprise-grade patterns.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11894,7 +12364,7 @@
     "path": "skills/ui-ux-designer",
     "category": "uncategorized",
     "name": "ui-ux-designer",
-    "description": "- Working on ui ux designer tasks or workflows - Needing guidance, best practices, or checklists for ui ux designer",
+    "description": "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11914,7 +12384,7 @@
     "path": "skills/ui-visual-validator",
     "category": "uncategorized",
     "name": "ui-visual-validator",
-    "description": "- Working on ui visual validator tasks or workflows - Needing guidance, best practices, or checklists for ui visual validator",
+    "description": "Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -11934,7 +12404,7 @@
     "path": "skills/unity-developer",
     "category": "uncategorized",
     "name": "unity-developer",
-    "description": "> [!IMPORTANT] > **\u26a0\ufe0f AUTHORIZED USE ONLY** > This skill is for educational purposes or authorized security assessments only. > Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.",
+    "description": "Build Unity games with optimized C# scripts, efficient rendering, and proper asset management. Masters Unity 6 LTS, URP/HDRP pipelines, and cross-platform deployment.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -12167,7 +12637,17 @@
     "description": "Audit rapidly generated or AI-produced code for structural flaws, fragility, and production risks.",
     "risk": "safe",
     "source": "original",
-    "date_added": null
+    "date_added": "2026-02-28"
+  },
+  {
+    "id": "videodb",
+    "path": "skills/videodb",
+    "category": "media",
+    "name": "videodb",
+    "description": "Video and audio perception, indexing, and editing. Ingest files/URLs/live streams, build visual/spoken indexes, search with timestamps, edit timelines, add overlays/subtitles, generate media, and create real-time alerts.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-02-27"
   },
   {
     "id": "video-ad-specs",
@@ -12614,7 +13094,7 @@
     "path": "skills/workflow-patterns",
     "category": "uncategorized",
     "name": "workflow-patterns",
-    "description": "Guide for implementing tasks using Conductor's TDD workflow, managing phase checkpoints, handling git commits, and executing the verification protocol that ensures quality throughout implementation.",
+    "description": "Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -12668,6 +13148,16 @@
     "risk": "safe",
     "source": "https://github.com/wshuyi/x-article-publisher-skill",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "x-twitter-scraper",
+    "path": "skills/x-twitter-scraper",
+    "category": "data",
+    "name": "x-twitter-scraper",
+    "description": "X (Twitter) data platform skill \u2014 tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-02-28"
   },
   {
     "id": "xlsx-official",

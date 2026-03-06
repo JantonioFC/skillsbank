@@ -1,9 +1,9 @@
 ---
 name: backend-architect
-description: |
+description: Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 

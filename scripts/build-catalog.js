@@ -801,7 +801,8 @@ function buildCatalog() {
       subcategory,
       tags,
       triggers,
-      path: path.relative(ROOT, skill.path),
+      // Normalize separators for deterministic cross-platform output.
+      path: path.relative(ROOT, skill.path).split(path.sep).join("/"),
     });
   }
 
