@@ -1,9 +1,13 @@
 ---
 name: vertex-ai-api-dev
-description: Guides the usage of Gemini API on Google Cloud Vertex AI with the Gen AI SDK. Use when the user asks about using Gemini in an enterprise environment or explicitly mentions Vertex AI. Covers SDK usage (Python, JS/TS, Go, Java, C#), capabilities like Live API, tools, multimedia generation, caching, and batch prediction.
+description: Guides the usage of Gemini API on Google Cloud Vertex AI with the Gen
+  AI SDK. Use when the user asks about using Gemini in an enterprise environment or
+  explicitly mentions Vertex AI. Covers SDK usage (Python, JS/TS, Go, Java, C#), capabilities
+  like Live API, tools, multimedia generation, caching,...
 compatibility: Requires active Google Cloud credentials and Vertex AI API enabled.
+risk: unknown
+source: community
 ---
-
 # Gemini API in Vertex AI
 
 Access Google's most advanced AI models built for enterprise use cases using the Gemini API in Vertex AI.
@@ -223,3 +227,6 @@ Depending on the specific user request, refer to the following reference files f
 - **Advanced Features**: Content Caching, Batch Prediction, and Thinking/Reasoning. See [references/advanced_features.md](references/advanced_features.md)
 - **Safety**: Adjusting Responsible AI filters and thresholds. See [references/safety.md](references/safety.md)
 - **Model Tuning**: Supervised Fine-Tuning and Preference Tuning. See [references/model_tuning.md](references/model_tuning.md)
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.
