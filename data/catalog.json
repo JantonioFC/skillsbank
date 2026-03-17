@@ -62,6 +62,7 @@
       "name": "10-andruia-skill-smith",
       "description": "Ingeniero de Sistemas de Andru.ia. Diseña, redacta y despliega nuevas habilidades (skills) dentro del repositorio siguiendo el Estándar de Diamante.",
       "category": "general",
+      "subcategory": "agent-tools",
       "tags": [
         "10",
         "andruia",
@@ -651,6 +652,7 @@
       "name": "agentmail",
       "description": "Email infrastructure for AI agents. Create accounts, send/receive emails, manage webhooks, and check karma balance via the AgentMail API.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "agentmail"
       ],
@@ -1321,6 +1323,7 @@
       "name": "angular",
       "description": "Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns.",
       "category": "architecture",
+      "subcategory": null,
       "tags": [
         "angular"
       ],
@@ -1643,6 +1646,7 @@
       "name": "api-documenter",
       "description": "Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build comprehensive developer portals.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "api",
         "documenter"
@@ -1823,6 +1827,7 @@
       "name": "apify-actor-development",
       "description": "Develop, debug, and deploy Apify Actors - serverless cloud programs for web scraping, automation, and data processing. Use when creating new Actors, modifying existing ones, or troubleshooting Acto...",
       "category": "infrastructure",
+      "subcategory": "ci-cd",
       "tags": [
         "apify",
         "actor"
@@ -1848,6 +1853,7 @@
       "name": "apify-actorization",
       "description": "Convert existing projects into Apify Actors - serverless cloud programs. Actorize JavaScript/TypeScript (SDK with Actor.init/exit), Python (async context manager), or any language (CLI wrapper). Us...",
       "category": "infrastructure",
+      "subcategory": "cloud-services",
       "tags": [
         "apify",
         "actorization"
@@ -1873,6 +1879,7 @@
       "name": "apify-audience-analysis",
       "description": "Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok.",
       "category": "architecture",
+      "subcategory": null,
       "tags": [
         "apify",
         "audience"
@@ -1898,6 +1905,7 @@
       "name": "apify-brand-reputation-monitoring",
       "description": "Track reviews, ratings, sentiment, and brand mentions across Google Maps, Booking.com, TripAdvisor, Facebook, Instagram, YouTube, and TikTok. Use when user asks to monitor brand reputation, analyze...",
       "category": "infrastructure",
+      "subcategory": "observability",
       "tags": [
         "apify",
         "brand",
@@ -1925,6 +1933,7 @@
       "name": "apify-competitor-intelligence",
       "description": "Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.",
       "category": "business",
+      "subcategory": null,
       "tags": [
         "apify",
         "competitor",
@@ -1951,6 +1960,7 @@
       "name": "apify-content-analytics",
       "description": "Track engagement metrics, measure campaign ROI, and analyze content performance across Instagram, Facebook, YouTube, and TikTok.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "apify",
         "content",
@@ -1977,6 +1987,7 @@
       "name": "apify-ecommerce",
       "description": "Scrape e-commerce data for pricing intelligence, customer reviews, and seller discovery across Amazon, Walmart, eBay, IKEA, and 50+ marketplaces. Use when user asks to monitor prices, track competi...",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "apify",
         "ecommerce"
@@ -2002,6 +2013,7 @@
       "name": "apify-influencer-discovery",
       "description": "Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, YouTube, and TikTok.",
       "category": "workflow",
+      "subcategory": null,
       "tags": [
         "apify",
         "influencer",
@@ -2028,6 +2040,7 @@
       "name": "apify-lead-generation",
       "description": "Generates B2B/B2C leads by scraping Google Maps, websites, Instagram, TikTok, Facebook, LinkedIn, YouTube, and Google Search. Use when user asks to find leads, prospects, businesses, build lead lis...",
       "category": "general",
+      "subcategory": "general-misc",
       "tags": [
         "apify",
         "lead",
@@ -2054,6 +2067,7 @@
       "name": "apify-market-research",
       "description": "Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor.",
       "category": "business",
+      "subcategory": null,
       "tags": [
         "apify",
         "market",
@@ -2080,6 +2094,7 @@
       "name": "apify-trend-analysis",
       "description": "Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.",
       "category": "general",
+      "subcategory": "general-misc",
       "tags": [
         "apify",
         "trend"
@@ -2105,6 +2120,7 @@
       "name": "apify-ultimate-scraper",
       "description": "Universal AI-powered web scraper for any platform. Scrape data from Instagram, Facebook, TikTok, YouTube, Google Maps, Google Search, Google Trends, Booking.com, and TripAdvisor. Use for lead gener...",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "apify",
         "ultimate",
@@ -3697,6 +3713,7 @@
       "name": "azure-appconfiguration-py",
       "description": "Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.",
       "category": "development",
+      "subcategory": "python",
       "tags": [
         "azure",
         "appconfiguration",
@@ -3911,6 +3928,7 @@
       "name": "azure-containerregistry-py",
       "description": "Azure Container Registry SDK for Python. Use for managing container images, artifacts, and repositories.",
       "category": "development",
+      "subcategory": "python",
       "tags": [
         "azure",
         "containerregistry",
@@ -3963,6 +3981,7 @@
       "name": "azure-cosmos-java",
       "description": "Azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "cosmos",
@@ -3989,6 +4008,7 @@
       "name": "azure-cosmos-py",
       "description": "Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "cosmos",
@@ -4015,6 +4035,7 @@
       "name": "azure-cosmos-rust",
       "description": "Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "cosmos",
@@ -4041,6 +4062,7 @@
       "name": "azure-cosmos-ts",
       "description": "Azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations. Use for CRUD operations on documents, queries, bulk operations, and container management.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "cosmos",
@@ -4173,6 +4195,7 @@
       "name": "azure-eventgrid-py",
       "description": "Azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.",
       "category": "development",
+      "subcategory": "python",
       "tags": [
         "azure",
         "eventgrid",
@@ -4199,6 +4222,7 @@
       "name": "azure-eventhub-dotnet",
       "description": "Azure Event Hubs SDK for .NET.",
       "category": "development",
+      "subcategory": "azure-sdk",
       "tags": [
         "azure",
         "eventhub",
@@ -4246,6 +4270,7 @@
       "name": "azure-eventhub-py",
       "description": "Azure Event Hubs SDK for Python streaming. Use for high-throughput event ingestion, producers, consumers, and checkpointing.",
       "category": "development",
+      "subcategory": "python",
       "tags": [
         "azure",
         "eventhub",
@@ -4272,6 +4297,7 @@
       "name": "azure-eventhub-rust",
       "description": "Azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "eventhub",
@@ -4349,6 +4375,7 @@
       "name": "azure-identity-dotnet",
       "description": "Azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials.",
       "category": "infrastructure",
+      "subcategory": "cloud-services",
       "tags": [
         "azure",
         "identity",
@@ -4400,6 +4427,7 @@
       "name": "azure-identity-py",
       "description": "Azure Identity SDK for Python authentication. Use for DefaultAzureCredential, managed identity, service principals, and token caching.",
       "category": "infrastructure",
+      "subcategory": "cloud-services",
       "tags": [
         "azure",
         "identity",
@@ -4552,6 +4580,7 @@
       "name": "azure-keyvault-py",
       "description": "Azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "azure",
         "keyvault",
@@ -4632,6 +4661,7 @@
       "name": "azure-maps-search-dotnet",
       "description": "Azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather. Use for address search, directions, map tiles, IP geolocation, and weather data.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "maps",
@@ -4686,6 +4716,7 @@
       "name": "azure-messaging-webpubsubservice-py",
       "description": "Azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.",
       "category": "infrastructure",
+      "subcategory": "messaging",
       "tags": [
         "azure",
         "messaging",
@@ -4740,6 +4771,7 @@
       "name": "azure-mgmt-apicenter-py",
       "description": "Azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization.",
       "category": "development",
+      "subcategory": "python",
       "tags": [
         "azure",
         "mgmt",
@@ -4767,6 +4799,7 @@
       "name": "azure-mgmt-apimanagement-dotnet",
       "description": "Azure Resource Manager SDK for API Management in .NET.",
       "category": "development",
+      "subcategory": "dev-general",
       "tags": [
         "azure",
         "mgmt",
@@ -4791,6 +4824,7 @@
       "name": "azure-mgmt-apimanagement-py",
       "description": "Azure API Management SDK for Python. Use for managing APIM services, APIs, products, subscriptions, and policies.",
       "category": "development",
+      "subcategory": "python",
       "tags": [
         "azure",
         "mgmt",
@@ -4818,6 +4852,7 @@
       "name": "azure-mgmt-applicationinsights-dotnet",
       "description": "Azure Application Insights SDK for .NET. Application performance monitoring and observability resource management.",
       "category": "infrastructure",
+      "subcategory": "observability",
       "tags": [
         "azure",
         "mgmt",
@@ -4845,6 +4880,7 @@
       "name": "azure-mgmt-arizeaiobservabilityeval-dotnet",
       "description": "Azure Resource Manager SDK for Arize AI Observability and Evaluation (.NET).",
       "category": "infrastructure",
+      "subcategory": "observability",
       "tags": [
         "azure",
         "mgmt",
@@ -4872,6 +4908,7 @@
       "name": "azure-mgmt-botservice-dotnet",
       "description": "Azure Resource Manager SDK for Bot Service in .NET. Management plane operations for creating and managing Azure Bot resources, channels (Teams, DirectLine, Slack), and connection settings.",
       "category": "infrastructure",
+      "subcategory": "cloud-services",
       "tags": [
         "azure",
         "mgmt",
@@ -4899,6 +4936,7 @@
       "name": "azure-mgmt-botservice-py",
       "description": "Azure Bot Service Management SDK for Python. Use for creating, managing, and configuring Azure Bot Service resources.",
       "category": "infrastructure",
+      "subcategory": "cloud-services",
       "tags": [
         "azure",
         "mgmt",
@@ -4948,6 +4986,7 @@
       "name": "azure-mgmt-fabric-py",
       "description": "Azure Fabric Management SDK for Python. Use for managing Microsoft Fabric capacities and resources.",
       "category": "development",
+      "subcategory": "python",
       "tags": [
         "azure",
         "mgmt",
@@ -5000,6 +5039,7 @@
       "name": "azure-mgmt-weightsandbiases-dotnet",
       "description": "Azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace. Use for creating W&B instances, managing SSO, marketplace integration, and ML observability.",
       "category": "infrastructure",
+      "subcategory": "observability",
       "tags": [
         "azure",
         "mgmt",
@@ -5054,6 +5094,7 @@
       "name": "azure-monitor-ingestion-java",
       "description": "Azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "monitor",
@@ -5081,6 +5122,7 @@
       "name": "azure-monitor-ingestion-py",
       "description": "Azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "monitor",
@@ -5108,6 +5150,7 @@
       "name": "azure-monitor-opentelemetry-exporter-java",
       "description": "Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights.",
       "category": "development",
+      "subcategory": "azure-sdk",
       "tags": [
         "azure",
         "monitor",
@@ -5135,6 +5178,7 @@
       "name": "azure-monitor-opentelemetry-exporter-py",
       "description": "Azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights.",
       "category": "development",
+      "subcategory": "python",
       "tags": [
         "azure",
         "monitor",
@@ -5162,6 +5206,7 @@
       "name": "azure-monitor-opentelemetry-py",
       "description": "Azure Monitor OpenTelemetry Distro for Python. Use for one-line Application Insights setup with auto-instrumentation.",
       "category": "development",
+      "subcategory": "python",
       "tags": [
         "azure",
         "monitor",
@@ -5216,6 +5261,7 @@
       "name": "azure-monitor-query-java",
       "description": "Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "monitor",
@@ -5243,6 +5289,7 @@
       "name": "azure-monitor-query-py",
       "description": "Azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "monitor",
@@ -5295,6 +5342,7 @@
       "name": "azure-resource-manager-cosmosdb-dotnet",
       "description": "Azure Resource Manager SDK for Cosmos DB in .NET.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "resource",
@@ -5398,6 +5446,7 @@
       "name": "azure-resource-manager-postgresql-dotnet",
       "description": "Azure PostgreSQL Flexible Server SDK for .NET. Database management for PostgreSQL Flexible Server deployments.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "resource",
@@ -5425,6 +5474,7 @@
       "name": "azure-resource-manager-redis-dotnet",
       "description": "Azure Resource Manager SDK for Redis in .NET.",
       "category": "development",
+      "subcategory": "dev-general",
       "tags": [
         "azure",
         "resource",
@@ -5471,6 +5521,7 @@
       "name": "azure-search-documents-dotnet",
       "description": "Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "search",
@@ -5498,6 +5549,7 @@
       "name": "azure-search-documents-py",
       "description": "Azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "search",
@@ -5636,6 +5688,7 @@
       "name": "azure-servicebus-dotnet",
       "description": "Azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions.",
       "category": "infrastructure",
+      "subcategory": "messaging",
       "tags": [
         "azure",
         "servicebus",
@@ -5662,6 +5715,7 @@
       "name": "azure-servicebus-py",
       "description": "Azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns.",
       "category": "infrastructure",
+      "subcategory": "messaging",
       "tags": [
         "azure",
         "servicebus",
@@ -5713,6 +5767,7 @@
       "name": "azure-speech-to-text-rest-py",
       "description": "Azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.",
       "category": "development",
+      "subcategory": "python",
       "tags": [
         "azure",
         "speech",
@@ -5769,6 +5824,7 @@
       "name": "azure-storage-blob-py",
       "description": "Azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifecycle.",
       "category": "development",
+      "subcategory": "python",
       "tags": [
         "azure",
         "storage",
@@ -5821,6 +5877,7 @@
       "name": "azure-storage-blob-ts",
       "description": "Azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers.",
       "category": "development",
+      "subcategory": "azure-sdk",
       "tags": [
         "azure",
         "storage",
@@ -5848,6 +5905,7 @@
       "name": "azure-storage-file-datalake-py",
       "description": "Azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical file systems, big data analytics, and file/directory operations.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "azure",
         "storage",
@@ -5876,6 +5934,7 @@
       "name": "azure-storage-file-share-py",
       "description": "Azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "azure",
         "storage",
@@ -5904,6 +5963,7 @@
       "name": "azure-storage-file-share-ts",
       "description": "Azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB file share operations.",
       "category": "development",
+      "subcategory": "azure-sdk",
       "tags": [
         "azure",
         "storage",
@@ -5930,6 +5990,7 @@
       "name": "azure-storage-queue-py",
       "description": "Azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing.",
       "category": "development",
+      "subcategory": "python",
       "tags": [
         "azure",
         "storage",
@@ -5957,6 +6018,7 @@
       "name": "azure-storage-queue-ts",
       "description": "Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues.",
       "category": "development",
+      "subcategory": "azure-sdk",
       "tags": [
         "azure",
         "storage",
@@ -6253,6 +6315,7 @@
       "name": "bash-pro",
       "description": "Master of defensive Bash scripting for production automation, CI/CD\npipelines, and system utilities. Expert in safe, portable, and testable shell\nscripts.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "bash"
       ],
@@ -7054,6 +7117,7 @@
       "name": "business-analyst",
       "description": "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "business",
         "analyst"
@@ -8567,6 +8631,7 @@
       "name": "codebase-audit-pre-push",
       "description": "Deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "codebase",
         "audit",
@@ -8747,6 +8812,7 @@
       "name": "competitive-landscape",
       "description": "This skill should be used when the user asks to \\\\\\\"analyze competitors\", \"assess competitive landscape\", \"identify differentiation\", \"evaluate market positioning\", \"apply Porter's Five Forces\",...",
       "category": "business",
+      "subcategory": null,
       "tags": [
         "competitive",
         "landscape"
@@ -9143,6 +9209,7 @@
       "name": "content-marketer",
       "description": "Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "content",
         "marketer"
@@ -9243,6 +9310,7 @@
       "name": "context-driven-development",
       "description": "Use this skill when working with Conductor's context-driven development methodology, managing project context artifacts, or understanding the relationship between product.md, tech-stack.md, and...",
       "category": "business",
+      "subcategory": null,
       "tags": [
         "driven"
       ],
@@ -9348,6 +9416,7 @@
       "name": "context-manager",
       "description": "Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "manager"
       ],
@@ -9815,6 +9884,7 @@
       "name": "crypto-bd-agent",
       "description": "Autonomous crypto business development patterns — multi-chain token discovery, 100-point scoring with wallet forensics, x402 micropayments, ERC-8004 on-chain identity, LLM cascade routing, and...",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "crypto",
         "bd",
@@ -9865,6 +9935,7 @@
       "name": "customer-support",
       "description": "Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "customer",
         "support"
@@ -9958,6 +10029,7 @@
       "name": "data-engineer",
       "description": "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "data"
       ],
@@ -10158,6 +10230,7 @@
       "name": "database-admin",
       "description": "Expert database administrator specializing in modern cloud databases, automation, and reliability engineering.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "database",
         "admin"
@@ -10587,6 +10660,7 @@
       "name": "debugger",
       "description": "Debugging specialist for errors, test failures, and unexpected\nbehavior. Use proactively when encountering any issues.",
       "category": "testing",
+      "subcategory": null,
       "tags": [
         "debugger"
       ],
@@ -10987,6 +11061,7 @@
       "name": "devops-troubleshooter",
       "description": "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "devops",
         "troubleshooter"
@@ -11220,6 +11295,7 @@
       "name": "django-pro",
       "description": "Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "django"
       ],
@@ -11293,6 +11369,7 @@
       "name": "docs-architect",
       "description": "Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.",
       "category": "architecture",
+      "subcategory": null,
       "tags": [
         "docs"
       ],
@@ -11538,6 +11615,7 @@
       "name": "drizzle-orm-expert",
       "description": "Expert in Drizzle ORM for TypeScript — schema design, relational queries, migrations, and serverless database integration. Use when building type-safe database layers with Drizzle.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "drizzle",
         "orm"
@@ -11735,6 +11813,7 @@
       "name": "elixir-pro",
       "description": "Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems.",
       "category": "architecture",
+      "subcategory": null,
       "tags": [
         "elixir"
       ],
@@ -12072,6 +12151,7 @@
       "name": "error-detective",
       "description": "Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes.",
       "category": "architecture",
+      "subcategory": null,
       "tags": [
         "error",
         "detective"
@@ -12754,6 +12834,7 @@
       "name": "fda-food-safety-auditor",
       "description": "Expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "fda",
         "food",
@@ -12781,6 +12862,7 @@
       "name": "fda-medtech-compliance-auditor",
       "description": "Expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "fda",
         "medtech",
@@ -13076,6 +13158,7 @@
       "name": "firmware-analyst",
       "description": "Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "firmware",
         "analyst"
@@ -13211,6 +13294,7 @@
       "name": "flutter-expert",
       "description": "Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "flutter"
       ],
@@ -14422,6 +14506,7 @@
       "name": "gemini-api-integration",
       "description": "Use when integrating Google Gemini API into projects. Covers model selection, multimodal inputs, streaming, function calling, and production best practices.",
       "category": "development",
+      "subcategory": "dev-general",
       "tags": [
         "gemini",
         "api",
@@ -15277,6 +15362,7 @@
       "name": "graphql-architect",
       "description": "Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "graphql"
       ],
@@ -15685,6 +15771,7 @@
       "name": "hig-inputs",
       "description": "Apple HIG guidance for input methods and interaction patterns: gestures, Apple Pencil, keyboards, game controllers, pointers, Digital Crown, eye tracking, focus system, remotes, spatial...",
       "category": "architecture",
+      "subcategory": null,
       "tags": [
         "hig",
         "inputs"
@@ -15772,6 +15859,7 @@
       "name": "hig-technologies",
       "description": "Apple HIG guidance for Apple technology integrations: Siri, Apple Pay, HealthKit, HomeKit, ARKit, machine learning, generative AI, iCloud, Sign in with Apple, SharePlay, CarPlay, Game Center,...",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "hig",
         "technologies"
@@ -16358,6 +16446,7 @@
       "name": "imagen",
       "description": "AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "imagen"
       ],
@@ -16726,6 +16815,7 @@
       "name": "ios-developer",
       "description": "Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "ios"
       ],
@@ -16817,6 +16907,7 @@
       "name": "java-pro",
       "description": "Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "java"
       ],
@@ -17478,6 +17569,7 @@
       "name": "legal-advisor",
       "description": "Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "legal",
         "advisor"
@@ -17809,6 +17901,7 @@
       "name": "lightning-architecture-review",
       "description": "Review Bitcoin Lightning Network protocol designs, compare channel factory approaches, and analyze Layer 2 scaling tradeoffs. Covers trust models, on-chain footprint, consensus requirements, HTLC/PTLC compatibility, liveness, and watchtower support.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "lightning",
         "architecture"
@@ -17834,6 +17927,7 @@
       "name": "lightning-channel-factories",
       "description": "Technical reference on Lightning Network channel factories, multi-party channels, LSP architectures, and Bitcoin Layer 2 scaling without soft forks. Covers Decker-Wattenhofer, timeout trees, MuSig2 key aggregation, HTLC/PTLC forwarding, and watchtower breach detection.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "lightning",
         "channel",
@@ -17860,6 +17954,7 @@
       "name": "lightning-factory-explainer",
       "description": "Explain Bitcoin Lightning channel factories and the SuperScalar protocol — scalable Lightning onboarding using shared UTXOs, Decker-Wattenhofer trees, timeout-signature trees, MuSig2, and Taproot. No soft fork required.",
       "category": "general",
+      "subcategory": "general-misc",
       "tags": [
         "lightning",
         "factory",
@@ -18260,6 +18355,7 @@
       "name": "llm-prompt-optimizer",
       "description": "Use when improving prompts for any LLM. Applies proven prompt engineering techniques to boost output quality, reduce hallucinations, and cut token usage.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "llm",
         "prompt",
@@ -18414,6 +18510,7 @@
       "name": "m365-agents-dotnet",
       "description": "Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "m365",
         "agents",
@@ -18440,6 +18537,7 @@
       "name": "m365-agents-py",
       "description": "Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "m365",
         "agents",
@@ -18466,6 +18564,7 @@
       "name": "m365-agents-ts",
       "description": "Microsoft 365 Agents SDK for TypeScript/Node.js.",
       "category": "development",
+      "subcategory": "dev-general",
       "tags": [
         "m365",
         "agents",
@@ -19467,6 +19566,7 @@
       "name": "ml-engineer",
       "description": "Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring.",
       "category": "infrastructure",
+      "subcategory": "observability",
       "tags": [
         "ml"
       ],
@@ -19516,6 +19616,7 @@
       "name": "mlops-engineer",
       "description": "Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "mlops"
       ],
@@ -19837,6 +19938,7 @@
       "name": "multi-agent-brainstorming",
       "description": "Simulate a structured peer-review process using multiple specialized agents to validate designs, surface hidden assumptions, and identify failure modes before implementation.",
       "category": "workflow",
+      "subcategory": null,
       "tags": [
         "multi",
         "agent",
@@ -20292,6 +20394,7 @@
       "name": "network-engineer",
       "description": "Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "network"
       ],
@@ -20643,6 +20746,7 @@
       "name": "observability-engineer",
       "description": "Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "observability"
       ],
@@ -20762,6 +20866,7 @@
       "name": "odoo-accounting-setup",
       "description": "Expert guide for configuring Odoo Accounting: chart of accounts, journals, fiscal positions, taxes, payment terms, and bank reconciliation.",
       "category": "general",
+      "subcategory": "general-misc",
       "tags": [
         "odoo",
         "accounting",
@@ -20788,6 +20893,7 @@
       "name": "odoo-automated-tests",
       "description": "Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "odoo",
         "automated",
@@ -20814,6 +20920,7 @@
       "name": "odoo-backup-strategy",
       "description": "Complete Odoo backup and restore strategy: database dumps, filestore backup, automated scheduling, cloud storage upload, and tested restore procedures.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "odoo",
         "backup"
@@ -20839,6 +20946,7 @@
       "name": "odoo-docker-deployment",
       "description": "Production-ready Docker and docker-compose setup for Odoo with PostgreSQL, persistent volumes, environment-based configuration, and Nginx reverse proxy.",
       "category": "infrastructure",
+      "subcategory": "containers",
       "tags": [
         "odoo",
         "docker",
@@ -20865,6 +20973,7 @@
       "name": "odoo-ecommerce-configurator",
       "description": "Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow.",
       "category": "business",
+      "subcategory": null,
       "tags": [
         "odoo",
         "ecommerce",
@@ -20891,6 +21000,7 @@
       "name": "odoo-edi-connector",
       "description": "Guide for implementing EDI (Electronic Data Interchange) with Odoo: X12, EDIFACT document mapping, partner onboarding, and automated order processing.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "odoo",
         "edi",
@@ -20917,6 +21027,7 @@
       "name": "odoo-hr-payroll-setup",
       "description": "Expert guide for Odoo HR and Payroll: salary structures, payslip rules, leave policies, employee contracts, and payroll journal entries.",
       "category": "business",
+      "subcategory": null,
       "tags": [
         "odoo",
         "hr",
@@ -20944,6 +21055,7 @@
       "name": "odoo-inventory-optimizer",
       "description": "Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reordering rules, putaway strategies, routes, and multi-warehouse configuration.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "odoo",
         "inventory",
@@ -20970,6 +21082,7 @@
       "name": "odoo-l10n-compliance",
       "description": "Country-specific Odoo localization: tax configuration, e-invoicing (CFDI, FatturaPA, SAF-T), fiscal reporting, and country chart of accounts setup.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "odoo",
         "l10n",
@@ -20996,6 +21109,7 @@
       "name": "odoo-manufacturing-advisor",
       "description": "Expert guide for Odoo Manufacturing: Bills of Materials (BoM), Work Centers, routings, MRP planning, and production order workflows.",
       "category": "general",
+      "subcategory": "agent-tools",
       "tags": [
         "odoo",
         "manufacturing",
@@ -21022,6 +21136,7 @@
       "name": "odoo-migration-helper",
       "description": "Step-by-step guide for migrating Odoo custom modules between versions (v14→v15→v16→v17). Covers API changes, deprecated methods, and view migration.",
       "category": "development",
+      "subcategory": "dev-general",
       "tags": [
         "odoo",
         "migration",
@@ -21048,6 +21163,7 @@
       "name": "odoo-module-developer",
       "description": "Expert guide for creating custom Odoo modules. Covers __manifest__.py, model inheritance, ORM patterns, and module structure best practices.",
       "category": "architecture",
+      "subcategory": null,
       "tags": [
         "odoo",
         "module"
@@ -21073,6 +21189,7 @@
       "name": "odoo-orm-expert",
       "description": "Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques.",
       "category": "architecture",
+      "subcategory": null,
       "tags": [
         "odoo",
         "orm"
@@ -21098,6 +21215,7 @@
       "name": "odoo-performance-tuner",
       "description": "Expert guide for diagnosing and fixing Odoo performance issues: slow queries, worker configuration, memory limits, PostgreSQL tuning, and profiling tools.",
       "category": "general",
+      "subcategory": "agent-tools",
       "tags": [
         "odoo",
         "performance",
@@ -21124,6 +21242,7 @@
       "name": "odoo-project-timesheet",
       "description": "Expert guide for Odoo Project and Timesheets: task stages, billable time tracking, timesheet approval, budget alerts, and invoicing from timesheets.",
       "category": "general",
+      "subcategory": "general-misc",
       "tags": [
         "odoo",
         "timesheet"
@@ -21149,6 +21268,7 @@
       "name": "odoo-purchase-workflow",
       "description": "Expert guide for Odoo Purchase: RFQ → PO → Receipt → Vendor Bill workflow, purchase agreements, vendor price lists, and 3-way matching.",
       "category": "workflow",
+      "subcategory": null,
       "tags": [
         "odoo",
         "purchase"
@@ -21174,6 +21294,7 @@
       "name": "odoo-qweb-templates",
       "description": "Expert in Odoo QWeb templating for PDF reports, email templates, and website pages. Covers t-if, t-foreach, t-field, and report actions.",
       "category": "general",
+      "subcategory": "docs-formats",
       "tags": [
         "odoo",
         "qweb"
@@ -21199,6 +21320,7 @@
       "name": "odoo-rpc-api",
       "description": "Expert on Odoo's external JSON-RPC and XML-RPC APIs. Covers authentication, model calls, record CRUD, and real-world integration examples in Python, JavaScript, and curl.",
       "category": "development",
+      "subcategory": "python",
       "tags": [
         "odoo",
         "rpc",
@@ -21225,6 +21347,7 @@
       "name": "odoo-sales-crm-expert",
       "description": "Expert guide for Odoo Sales and CRM: pipeline stages, quotation templates, pricelists, sales teams, lead scoring, and forecasting.",
       "category": "infrastructure",
+      "subcategory": "ci-cd",
       "tags": [
         "odoo",
         "sales",
@@ -21250,6 +21373,7 @@
       "name": "odoo-security-rules",
       "description": "Expert in Odoo access control: ir.model.access.csv, record rules (ir.rule), groups, and multi-company security patterns.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "odoo",
         "security",
@@ -21276,6 +21400,7 @@
       "name": "odoo-shopify-integration",
       "description": "Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules.",
       "category": "development",
+      "subcategory": "dev-general",
       "tags": [
         "odoo",
         "shopify",
@@ -21302,6 +21427,7 @@
       "name": "odoo-upgrade-advisor",
       "description": "Step-by-step Odoo version upgrade advisor: pre-upgrade checklist, community vs enterprise upgrade path, OCA module compatibility, and post-upgrade validation.",
       "category": "general",
+      "subcategory": "general-misc",
       "tags": [
         "odoo",
         "upgrade",
@@ -21328,6 +21454,7 @@
       "name": "odoo-woocommerce-bridge",
       "description": "Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API.",
       "category": "development",
+      "subcategory": "dev-general",
       "tags": [
         "odoo",
         "woocommerce",
@@ -21354,6 +21481,7 @@
       "name": "odoo-xml-views-builder",
       "description": "Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph. Generates correct XML for Odoo 14-17 with proper visibility syntax.",
       "category": "general",
+      "subcategory": "general-misc",
       "tags": [
         "odoo",
         "xml",
@@ -21747,6 +21875,7 @@
       "name": "payment-integration",
       "description": "Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "payment",
         "integration"
@@ -22054,6 +22183,7 @@
       "name": "php-pro",
       "description": "Write idiomatic PHP code with generators, iterators, SPL data\nstructures, and modern OOP features. Use PROACTIVELY for high-performance PHP\napplications.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "php"
       ],
@@ -22852,6 +22982,7 @@
       "name": "professional-proofreader",
       "description": "Use when a user asks to \"proofread\", \"review and correct\", \"fix grammar\", \"improve readability while keeping my voice\", and to proofread a document file and save an updated version.",
       "category": "general",
+      "subcategory": "code-quality",
       "tags": [
         "professional",
         "proofreader"
@@ -22877,6 +23008,7 @@
       "name": "programmatic-seo",
       "description": "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "programmatic",
         "seo"
@@ -23438,6 +23570,7 @@
       "name": "quant-analyst",
       "description": "Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "quant",
         "analyst"
@@ -23911,6 +24044,7 @@
       "name": "reference-builder",
       "description": "Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials.",
       "category": "development",
+      "subcategory": "dev-general",
       "tags": [
         "reference",
         "builder"
@@ -24365,6 +24499,7 @@
       "name": "saas-mvp-launcher",
       "description": "Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "saas",
         "mvp",
@@ -24570,6 +24705,7 @@
       "name": "scala-pro",
       "description": "Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "scala"
       ],
@@ -24642,6 +24778,7 @@
       "name": "schema-markup",
       "description": "Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact.",
       "category": "data-ai",
+      "subcategory": null,
       "tags": [
         "schema",
         "markup"
@@ -25446,6 +25583,7 @@
       "name": "seo-authority-builder",
       "description": "Analyzes content for E-E-A-T signals and suggests improvements to\nbuild authority and trust. Identifies missing credibility elements. Use\nPROACTIVELY for YMYL topics.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "seo",
         "authority",
@@ -26009,6 +26147,7 @@
       "name": "shopify-development",
       "description": "Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.",
       "category": "development",
+      "subcategory": "dev-general",
       "tags": [
         "shopify"
       ],
@@ -26262,6 +26401,7 @@
       "name": "skill-router",
       "description": "Use when the user is unsure which skill to use or where to start. Interviews the user with targeted questions and recommends the best skill(s) from the installed library for their goal.",
       "category": "general",
+      "subcategory": "agent-tools",
       "tags": [
         "skill",
         "router"
@@ -26817,6 +26957,7 @@
       "name": "sql-pro",
       "description": "Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "sql"
       ],
@@ -27123,6 +27264,7 @@
       "name": "startup-metrics-framework",
       "description": "This skill should be used when the user asks about \\\\\\\"key startup metrics\", \"SaaS metrics\", \"CAC and LTV\", \"unit economics\", \"burn multiple\", \"rule of 40\", \"marketplace metrics\", or requests...",
       "category": "testing",
+      "subcategory": null,
       "tags": [
         "startup",
         "metrics",
@@ -27975,6 +28117,7 @@
       "name": "temporal-python-pro",
       "description": "Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed transactions. Covers async/await, testing strategies, and production deployment.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "temporal",
         "python"
@@ -28137,6 +28280,7 @@
       "name": "test-automator",
       "description": "Master AI-powered test automation with modern frameworks, self-healing tests, and comprehensive quality engineering. Build scalable testing strategies with advanced CI/CD integration.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "automator"
       ],
@@ -28720,6 +28864,7 @@
       "name": "track-management",
       "description": "Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors. Applies to spec.md, plan.md, and track lifecycle operations.",
       "category": "workflow",
+      "subcategory": null,
       "tags": [
         "track"
       ],
@@ -28960,6 +29105,7 @@
       "name": "typescript-pro",
       "description": "Master TypeScript with advanced types, generics, and strict type safety. Handles complex type systems, decorators, and enterprise-grade patterns.",
       "category": "development",
+      "subcategory": "dev-general",
       "tags": [
         "typescript"
       ],
@@ -29055,6 +29201,7 @@
       "name": "ui-visual-validator",
       "description": "Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification.",
       "category": "security",
+      "subcategory": null,
       "tags": [
         "ui",
         "visual",
@@ -29157,6 +29304,7 @@
       "name": "unity-developer",
       "description": "Build Unity games with optimized C# scripts, efficient rendering, and proper asset management. Masters Unity 6 LTS, URP/HDRP pipelines, and cross-platform deployment.",
       "category": "infrastructure",
+      "subcategory": "infra-general",
       "tags": [
         "unity"
       ],
@@ -29688,10 +29836,64 @@
       "path": "skills/vibe-code-auditor/SKILL.md"
     },
     {
+      "id": "video-ad-specs",
+      "name": "video-ad-specs",
+      "description": "Video ad creation with exact platform-specific specs for TikTok, Instagram, YouTube, Facebook, LinkedIn. Covers dimensions, duration limits, AIDA framework, and caption requirements. Use for: video ads, social media ads, paid media creative, video marketing, ad production. Triggers: video ...",
+      "category": "business",
+      "subcategory": null,
+      "tags": [
+        "video",
+        "ad",
+        "specs"
+      ],
+      "triggers": [
+        "video",
+        "ad",
+        "specs",
+        "creation",
+        "exact",
+        "platform",
+        "specific",
+        "tiktok",
+        "instagram",
+        "youtube",
+        "facebook",
+        "linkedin"
+      ],
+      "path": "skills/video-ad-specs/SKILL.md"
+    },
+    {
+      "id": "video-prompting-guide",
+      "name": "video-prompting-guide",
+      "description": "Best practices and techniques for writing effective AI video generation prompts. Covers: Veo, Seedance, Wan, Grok, Kling, Runway, Pika, Sora prompting strategies. Learn: shot types, camera movements, lighting, pacing, style keywords, negative prompts. Use for: improving video quality, gett...",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "video",
+        "prompting"
+      ],
+      "triggers": [
+        "video",
+        "prompting",
+        "techniques",
+        "writing",
+        "effective",
+        "ai",
+        "generation",
+        "prompts",
+        "covers",
+        "veo",
+        "seedance",
+        "wan"
+      ],
+      "path": "skills/video-prompting-guide/SKILL.md"
+    },
+    {
       "id": "videodb",
       "name": "videodb",
       "description": "Video and audio perception, indexing, and editing. Ingest files/URLs/live streams, build visual/spoken indexes, search with timestamps, edit timelines, add overlays/subtitles, generate media, and create real-time alerts.",
       "category": "general",
+      "subcategory": "design-ux",
       "tags": [
         "[video",
         "editing",
@@ -30750,6 +30952,7 @@
       "name": "x-twitter-scraper",
       "description": "X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server.",
       "category": "infrastructure",
+      "subcategory": "observability",
       "tags": [
         "[twitter",
         "x-api",
