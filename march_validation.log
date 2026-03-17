@@ -1,0 +1,446 @@
+🔍 Validating skills in: /home/juan/Escritorio/antigravity-awesome-skills/skills
+⚙️  Mode: Standard (Dev)
+
+📊 Checked 1614 skills.
+
+⚠️  Found 414 Warnings:
+⚠️  senior-prompt-engineer/SKILL.md: Missing '## When to Use' section
+⚠️ churn-prevention/SKILL.md: Dangling link detected. Path '../../tools/integrations/posthog.md' (from '...(../../tools/integrations/posthog.md)') does not exist locally.
+⚠️ churn-prevention/SKILL.md: Dangling link detected. Path '../../tools/REGISTRY.md' (from '...(../../tools/REGISTRY.md)') does not exist locally.
+⚠️  microsoft-foundry/SKILL.md: Missing '## When to Use' section
+⚠️  microsoft-foundry/models/deploy-model/SKILL.md: Missing '## When to Use' section
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/cli-commands.md' (from '...(references/cli-commands.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/BICEP-EXAMPLE.bicep' (from '...(references/BICEP-EXAMPLE.bicep)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/api-permissions.md' (from '...(references/api-permissions.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/oauth-flows.md' (from '...(references/oauth-flows.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/console-app-example.md' (from '...(references/console-app-example.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/first-app-registration.md' (from '...(references/first-app-registration.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/console-app-example.md' (from '...(references/console-app-example.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/oauth-flows.md' (from '...(references/oauth-flows.md#client-credentials-flow)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/cli-commands.md' (from '...(references/cli-commands.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/console-app-example.md' (from '...(references/console-app-example.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-py.md' (from '...(references/sdk/azure-identity-py.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-dotnet.md' (from '...(references/sdk/azure-identity-dotnet.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-ts.md' (from '...(references/sdk/azure-identity-ts.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-java.md' (from '...(references/sdk/azure-identity-java.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-rust.md' (from '...(references/sdk/azure-identity-rust.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-keyvault-py.md' (from '...(references/sdk/azure-keyvault-py.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-keyvault-secrets-ts.md' (from '...(references/sdk/azure-keyvault-secrets-ts.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/sdk/microsoft-azure-webjobs-extensions-authentication-events-dotnet.md' (from '...(references/sdk/microsoft-azure-webjobs-extensions-authentication-events-dotnet.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/oauth-flows.md' (from '...(references/oauth-flows.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/cli-commands.md' (from '...(references/cli-commands.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/console-app-example.md' (from '...(references/console-app-example.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/first-app-registration.md' (from '...(references/first-app-registration.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/api-permissions.md' (from '...(references/api-permissions.md)') does not exist locally.
+⚠️ entra-app-registration-ms/SKILL.md: Dangling link detected. Path 'references/troubleshooting.md' (from '...(references/troubleshooting.md)') does not exist locally.
+⚠️  api-design/SKILL.md: Missing '## When to Use' section
+⚠️ wiki-onboarding/SKILL.md: Dangling link detected. Path 'REPO_URL/blob/BRANCH/file' (from '...(REPO_URL/blob/BRANCH/file#Lline)') does not exist locally.
+⚠️ wiki-onboarding/SKILL.md: Dangling link detected. Path './contributor-guide.md' (from '...(./contributor-guide.md)') does not exist locally.
+⚠️ wiki-onboarding/SKILL.md: Dangling link detected. Path './staff-engineer-guide.md' (from '...(./staff-engineer-guide.md)') does not exist locally.
+⚠️ wiki-onboarding/SKILL.md: Dangling link detected. Path './executive-guide.md' (from '...(./executive-guide.md)') does not exist locally.
+⚠️ wiki-onboarding/SKILL.md: Dangling link detected. Path './product-manager-guide.md' (from '...(./product-manager-guide.md)') does not exist locally.
+⚠️ ai-rag-pipeline/SKILL.md: Dangling link detected. Path 'URL' (from '...(URL)') does not exist locally.
+⚠️ atlassian-templates/SKILL.md: Dangling link detected. Path 'link' (from '...(link)') does not exist locally.
+⚠️ atlassian-templates/SKILL.md: Dangling link detected. Path 'link' (from '...(link)') does not exist locally.
+⚠️ atlassian-templates/SKILL.md: Dangling link detected. Path 'link' (from '...(link)') does not exist locally.
+⚠️ customize-ms/SKILL.md: Dangling link detected. Path 'references/customize-workflow.md' (from '...(references/customize-workflow.md)') does not exist locally.
+⚠️ customize-ms/SKILL.md: Dangling link detected. Path 'references/customize-guides.md' (from '...(references/customize-guides.md)') does not exist locally.
+⚠️ customize-ms/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ azure-cost-optimization-ms/SKILL.md: Dangling link detected. Path './references/azure-redis.md' (from '...(./references/azure-redis.md)') does not exist locally.
+⚠️ azure-cost-optimization-ms/SKILL.md: Dangling link detected. Path './references/azure-quick-review.md' (from '...(./references/azure-quick-review.md)') does not exist locally.
+⚠️ azure-cost-optimization-ms/SKILL.md: Dangling link detected. Path './references/azure-redis.md' (from '...(./references/azure-redis.md)') does not exist locally.
+⚠️ azure-cost-optimization-ms/SKILL.md: Dangling link detected. Path './templates/redis-subscription-level-report.md' (from '...(./templates/redis-subscription-level-report.md)') does not exist locally.
+⚠️ azure-cost-optimization-ms/SKILL.md: Dangling link detected. Path './templates/redis-detailed-cache-analysis.md' (from '...(./templates/redis-detailed-cache-analysis.md)') does not exist locally.
+⚠️ azure-cost-optimization-ms/SKILL.md: Dangling link detected. Path './references/azure-quick-review.md' (from '...(./references/azure-quick-review.md)') does not exist locally.
+⚠️ azure-cost-optimization-ms/SKILL.md: Dangling link detected. Path 'references/azure-resource-graph.md' (from '...(references/azure-resource-graph.md)') does not exist locally.
+⚠️ azure-cost-optimization-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-resource-manager-redis-dotnet.md' (from '...(references/sdk/azure-resource-manager-redis-dotnet.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/azure-context.md' (from '...(references/azure-context.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/global-rules.md' (from '...(references/global-rules.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/analyze.md' (from '...(references/analyze.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/requirements.md' (from '...(references/requirements.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/scan.md' (from '...(references/scan.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/recipe-selection.md' (from '...(references/recipe-selection.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/architecture.md' (from '...(references/architecture.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/plan-template.md' (from '...(references/plan-template.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/global-rules.md' (from '...(references/global-rules.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/research.md' (from '...(references/research.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/azure-context.md' (from '...(references/azure-context.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/generate.md' (from '...(references/generate.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/security.md' (from '...(references/security.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azd-deployment.md' (from '...(references/sdk/azd-deployment.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-py.md' (from '...(references/sdk/azure-identity-py.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-dotnet.md' (from '...(references/sdk/azure-identity-dotnet.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-ts.md' (from '...(references/sdk/azure-identity-ts.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-java.md' (from '...(references/sdk/azure-identity-java.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-appconfiguration-py.md' (from '...(references/sdk/azure-appconfiguration-py.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-appconfiguration-ts.md' (from '...(references/sdk/azure-appconfiguration-ts.md)') does not exist locally.
+⚠️ azure-prepare-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-appconfiguration-java.md' (from '...(references/sdk/azure-appconfiguration-java.md)') does not exist locally.
+⚠️ m365-agents-ts/SKILL.md: Dangling link detected. Path 'references/acceptance-criteria.md' (from '...(references/acceptance-criteria.md)') does not exist locally.
+⚠️ wiki-researcher/SKILL.md: Dangling link detected. Path 'REPO_URL/blob/BRANCH/file' (from '...(REPO_URL/blob/BRANCH/file#Lline)') does not exist locally.
+⚠️ wiki-researcher/SKILL.md: Dangling link detected. Path 'REPO_URL/blob/BRANCH/file_path' (from '...(REPO_URL/blob/BRANCH/file_path#Lline_number)') does not exist locally.
+⚠️  fp-compose/SKILL.md: Missing '## When to Use' section
+⚠️ azure-eventhub-py/SKILL.md: Dangling link detected. Path 'references/checkpointing.md' (from '...(references/checkpointing.md)') does not exist locally.
+⚠️ azure-eventhub-py/SKILL.md: Dangling link detected. Path 'references/partitions.md' (from '...(references/partitions.md)') does not exist locally.
+⚠️ azure-eventhub-py/SKILL.md: Dangling link detected. Path 'scripts/setup_consumer.py' (from '...(scripts/setup_consumer.py)') does not exist locally.
+⚠️ github-pr/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ wiki-architect/SKILL.md: Dangling link detected. Path 'REPO_URL/blob/BRANCH/file' (from '...(REPO_URL/blob/BRANCH/file#Lline)') does not exist locally.
+⚠️  audit-context-building/SKILL.md: Missing '## When to Use' section
+⚠️ azure-deploy-ms/SKILL.md: Dangling link detected. Path 'references/pre-deploy-checklist.md' (from '...(references/pre-deploy-checklist.md)') does not exist locally.
+⚠️ azure-deploy-ms/SKILL.md: Dangling link detected. Path 'references/global-rules.md' (from '...(references/global-rules.md)') does not exist locally.
+⚠️ azure-deploy-ms/SKILL.md: Dangling link detected. Path 'references/pre-deploy-checklist.md' (from '...(references/pre-deploy-checklist.md)') does not exist locally.
+⚠️ azure-deploy-ms/SKILL.md: Dangling link detected. Path 'references/recipes/README.md' (from '...(references/recipes/README.md)') does not exist locally.
+⚠️ azure-deploy-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azd-deployment.md' (from '...(references/sdk/azd-deployment.md)') does not exist locally.
+⚠️ azure-deploy-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-py.md' (from '...(references/sdk/azure-identity-py.md)') does not exist locally.
+⚠️ azure-deploy-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-dotnet.md' (from '...(references/sdk/azure-identity-dotnet.md)') does not exist locally.
+⚠️ azure-deploy-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-ts.md' (from '...(references/sdk/azure-identity-ts.md)') does not exist locally.
+⚠️ azure-deploy-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-java.md' (from '...(references/sdk/azure-identity-java.md)') does not exist locally.
+⚠️ azure-deploy-ms/SKILL.md: Dangling link detected. Path 'references/troubleshooting.md' (from '...(references/troubleshooting.md)') does not exist locally.
+⚠️ zustand-store-ts/SKILL.md: Dangling link detected. Path 'assets/template.ts' (from '...(assets/template.ts)') does not exist locally.
+⚠️  azure-eventhub-dotnet/SKILL.md: Missing '## When to Use' section
+⚠️  mcp-builder-ms/SKILL.md: Missing '## When to Use' section
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/microsoft_mcp_patterns.md' (from '...(./reference/microsoft_mcp_patterns.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/microsoft_mcp_patterns.md' (from '...(./reference/microsoft_mcp_patterns.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/mcp_best_practices.md' (from '...(./reference/mcp_best_practices.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/node_mcp_server.md' (from '...(./reference/node_mcp_server.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/python_mcp_server.md' (from '...(./reference/python_mcp_server.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/microsoft_mcp_patterns.md' (from '...(./reference/microsoft_mcp_patterns.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/node_mcp_server.md' (from '...(./reference/node_mcp_server.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/python_mcp_server.md' (from '...(./reference/python_mcp_server.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/microsoft_mcp_patterns.md' (from '...(./reference/microsoft_mcp_patterns.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/evaluation.md' (from '...(./reference/evaluation.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/mcp_best_practices.md' (from '...(./reference/mcp_best_practices.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/microsoft_mcp_patterns.md' (from '...(./reference/microsoft_mcp_patterns.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/microsoft_mcp_patterns.md' (from '...(./reference/microsoft_mcp_patterns.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/python_mcp_server.md' (from '...(./reference/python_mcp_server.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/node_mcp_server.md' (from '...(./reference/node_mcp_server.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/microsoft_mcp_patterns.md' (from '...(./reference/microsoft_mcp_patterns.md)') does not exist locally.
+⚠️ mcp-builder-ms/SKILL.md: Dangling link detected. Path './reference/evaluation.md' (from '...(./reference/evaluation.md)') does not exist locally.
+⚠️ azure-ai-voicelive-py/SKILL.md: Dangling link detected. Path 'references/api-reference.md' (from '...(references/api-reference.md)') does not exist locally.
+⚠️ azure-ai-voicelive-py/SKILL.md: Dangling link detected. Path 'references/examples.md' (from '...(references/examples.md)') does not exist locally.
+⚠️ azure-ai-voicelive-py/SKILL.md: Dangling link detected. Path 'references/models.md' (from '...(references/models.md)') does not exist locally.
+⚠️  filesystem-context/SKILL.md: Missing '## When to Use' section
+⚠️ m365-agents-py/SKILL.md: Dangling link detected. Path 'storage=STORAGE, adapter=ADAPTER, authorization=AUTHORIZATION, **agents_sdk_config' (from '...(
+    storage=STORAGE, adapter=ADAPTER, authorization=AUTHORIZATION, **agents_sdk_config
+)') does not exist locally.
+⚠️ m365-agents-py/SKILL.md: Dangling link detected. Path 'storage=STORAGE, adapter=ADAPTER, authorization=AUTHORIZATION, **agents_sdk_config' (from '...(
+    storage=STORAGE, adapter=ADAPTER, authorization=AUTHORIZATION, **agents_sdk_config
+)') does not exist locally.
+⚠️ m365-agents-py/SKILL.md: Dangling link detected. Path 'references/acceptance-criteria.md' (from '...(references/acceptance-criteria.md)') does not exist locally.
+⚠️ langchain-architecture/SKILL.md: Dangling link detected. Path 'left, right' (from '...(left, right)') does not exist locally.
+⚠️ langchain-architecture/SKILL.md: Dangling link detected. Path 'operand' (from '...(operand)') does not exist locally.
+⚠️ frontend-ui-dark-ts/SKILL.md: Dangling link detected. Path './references/design-tokens.md' (from '...(./references/design-tokens.md)') does not exist locally.
+⚠️ frontend-ui-dark-ts/SKILL.md: Dangling link detected. Path './references/components.md' (from '...(./references/components.md)') does not exist locally.
+⚠️ frontend-ui-dark-ts/SKILL.md: Dangling link detected. Path './references/patterns.md' (from '...(./references/patterns.md)') does not exist locally.
+⚠️  fp-do-notation/SKILL.md: Missing '## When to Use' section
+⚠️  templates/SKILL.md: Missing '## When to Use' section
+⚠️ github-issue-creator/SKILL.md: Dangling link detected. Path 'attachment-name.png' (from '...(attachment-name.png)') does not exist locally.
+⚠️  tailwind-4/SKILL.md: Missing '## When to Use' section
+⚠️  microsoft-foundry-ms/SKILL.md: Missing '## When to Use' section
+⚠️ microsoft-foundry-ms/SKILL.md: Dangling link detected. Path 'project/create/create-foundry-project.md' (from '...(project/create/create-foundry-project.md)') does not exist locally.
+⚠️ microsoft-foundry-ms/SKILL.md: Dangling link detected. Path 'resource/create/create-foundry-resource.md' (from '...(resource/create/create-foundry-resource.md)') does not exist locally.
+⚠️ microsoft-foundry-ms/SKILL.md: Dangling link detected. Path 'models/deploy-model/SKILL.md' (from '...(models/deploy-model/SKILL.md)') does not exist locally.
+⚠️ microsoft-foundry-ms/SKILL.md: Dangling link detected. Path 'agent/create/agent-framework/SKILL.md' (from '...(agent/create/agent-framework/SKILL.md)') does not exist locally.
+⚠️ microsoft-foundry-ms/SKILL.md: Dangling link detected. Path 'quota/quota.md' (from '...(quota/quota.md)') does not exist locally.
+⚠️ microsoft-foundry-ms/SKILL.md: Dangling link detected. Path 'rbac/rbac.md' (from '...(rbac/rbac.md)') does not exist locally.
+⚠️ microsoft-foundry-ms/SKILL.md: Dangling link detected. Path 'references/sdk/foundry-sdk-py.md' (from '...(references/sdk/foundry-sdk-py.md)') does not exist locally.
+⚠️ azure-compliance-ms/SKILL.md: Dangling link detected. Path 'references/azure-quick-review.md' (from '...(references/azure-quick-review.md)') does not exist locally.
+⚠️ azure-compliance-ms/SKILL.md: Dangling link detected. Path 'references/azure-keyvault-expiration-audit.md' (from '...(references/azure-keyvault-expiration-audit.md)') does not exist locally.
+⚠️ azure-compliance-ms/SKILL.md: Dangling link detected. Path 'references/azure-resource-graph.md' (from '...(references/azure-resource-graph.md)') does not exist locally.
+⚠️ azure-compliance-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-keyvault-py.md' (from '...(references/sdk/azure-keyvault-py.md)') does not exist locally.
+⚠️ azure-compliance-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-keyvault-secrets-ts.md' (from '...(references/sdk/azure-keyvault-secrets-ts.md)') does not exist locally.
+⚠️ azure-compliance-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-keyvault-secrets-rust.md' (from '...(references/sdk/azure-keyvault-secrets-rust.md)') does not exist locally.
+⚠️ azure-compliance-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-security-keyvault-secrets-java.md' (from '...(references/sdk/azure-security-keyvault-secrets-java.md)') does not exist locally.
+⚠️ azure-compliance-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-security-keyvault-keys-dotnet.md' (from '...(references/sdk/azure-security-keyvault-keys-dotnet.md)') does not exist locally.
+⚠️ azure-compliance-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-security-keyvault-keys-java.md' (from '...(references/sdk/azure-security-keyvault-keys-java.md)') does not exist locally.
+⚠️ azure-compliance-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-keyvault-keys-ts.md' (from '...(references/sdk/azure-keyvault-keys-ts.md)') does not exist locally.
+⚠️ azure-compliance-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-keyvault-keys-rust.md' (from '...(references/sdk/azure-keyvault-keys-rust.md)') does not exist locally.
+⚠️ azure-compliance-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-keyvault-certificates-rust.md' (from '...(references/sdk/azure-keyvault-certificates-rust.md)') does not exist locally.
+⚠️  sales-enablement/SKILL.md: Missing '## When to Use' section
+⚠️ track-management/SKILL.md: Dangling link detected. Path 'tracks/user-auth_20250115/' (from '...(tracks/user-auth_20250115/)') does not exist locally.
+⚠️ track-management/SKILL.md: Dangling link detected. Path 'tracks/fix-login_20250114/' (from '...(tracks/fix-login_20250114/)') does not exist locally.
+⚠️ track-management/SKILL.md: Dangling link detected. Path 'tracks/setup-ci_20250110/' (from '...(tracks/setup-ci_20250110/)') does not exist locally.
+⚠️ track-management/SKILL.md: Dangling link detected. Path 'tracks/old-feature_20241201/' (from '...(tracks/old-feature_20241201/)') does not exist locally.
+⚠️ azure-aigateway-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-ai-contentsafety-py.md' (from '...(references/sdk/azure-ai-contentsafety-py.md)') does not exist locally.
+⚠️ azure-aigateway-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-ai-contentsafety-ts.md' (from '...(references/sdk/azure-ai-contentsafety-ts.md)') does not exist locally.
+⚠️ azure-aigateway-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-mgmt-apimanagement-py.md' (from '...(references/sdk/azure-mgmt-apimanagement-py.md)') does not exist locally.
+⚠️ azure-aigateway-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-mgmt-apimanagement-dotnet.md' (from '...(references/sdk/azure-mgmt-apimanagement-dotnet.md)') does not exist locally.
+⚠️ wiki-llms-txt/SKILL.md: Dangling link detected. Path '{relative-path-to-md}' (from '...({relative-path-to-md})') does not exist locally.
+⚠️ wiki-llms-txt/SKILL.md: Dangling link detected. Path '{relative-path-to-md}' (from '...({relative-path-to-md})') does not exist locally.
+⚠️ wiki-llms-txt/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ wiki-llms-txt/SKILL.md: Dangling link detected. Path 'URL' (from '...(URL)') does not exist locally.
+⚠️ wiki-llms-txt/SKILL.md: Dangling link detected. Path './wiki/onboarding/contributor-guide.md' (from '...(./wiki/onboarding/contributor-guide.md)') does not exist locally.
+⚠️ wiki-llms-txt/SKILL.md: Dangling link detected. Path './onboarding/contributor-guide.md' (from '...(./onboarding/contributor-guide.md)') does not exist locally.
+⚠️ azure-validate-ms/SKILL.md: Dangling link detected. Path 'references/global-rules.md' (from '...(references/global-rules.md)') does not exist locally.
+⚠️ azure-validate-ms/SKILL.md: Dangling link detected. Path 'references/recipes/README.md' (from '...(references/recipes/README.md)') does not exist locally.
+⚠️  context-compression/SKILL.md: Missing '## When to Use' section
+⚠️ azure-search-documents-py/SKILL.md: Dangling link detected. Path 'references/vector-search.md' (from '...(references/vector-search.md)') does not exist locally.
+⚠️ azure-search-documents-py/SKILL.md: Dangling link detected. Path 'references/semantic-ranking.md' (from '...(references/semantic-ranking.md)') does not exist locally.
+⚠️ azure-search-documents-py/SKILL.md: Dangling link detected. Path 'scripts/setup_vector_index.py' (from '...(scripts/setup_vector_index.py)') does not exist locally.
+⚠️ azure-search-documents-py/SKILL.md: Dangling link detected. Path 'references/agentic-retrieval.md' (from '...(references/agentic-retrieval.md)') does not exist locally.
+⚠️ wiki-page-writer/SKILL.md: Dangling link detected. Path 'REPO_URL/blob/BRANCH/file' (from '...(REPO_URL/blob/BRANCH/file#Lline)') does not exist locally.
+⚠️ wiki-page-writer/SKILL.md: Dangling link detected. Path 'REPO_URL/blob/BRANCH/src/path/file.ts' (from '...(REPO_URL/blob/BRANCH/src/path/file.ts#L42)') does not exist locally.
+⚠️ wiki-page-writer/SKILL.md: Dangling link detected. Path 'REPO_URL/blob/BRANCH/src/path/file.ts' (from '...(REPO_URL/blob/BRANCH/src/path/file.ts#L42-L58)') does not exist locally.
+⚠️ wiki-page-writer/SKILL.md: Dangling link detected. Path '../NN-section/page-name.md' (from '...(../NN-section/page-name.md)') does not exist locally.
+⚠️ wiki-page-writer/SKILL.md: Dangling link detected. Path '../NN-section/page-name.md' (from '...(../NN-section/page-name.md#heading-anchor)') does not exist locally.
+⚠️ wiki-page-writer/SKILL.md: Dangling link detected. Path '../02-architecture/authentication.md' (from '...(../02-architecture/authentication.md)') does not exist locally.
+⚠️ wiki-page-writer/SKILL.md: Dangling link detected. Path '../03-data-layer/models.md' (from '...(../03-data-layer/models.md)') does not exist locally.
+⚠️ wiki-page-writer/SKILL.md: Dangling link detected. Path '../onboarding/contributor-guide.md' (from '...(../onboarding/contributor-guide.md)') does not exist locally.
+⚠️ wiki-page-writer/SKILL.md: Dangling link detected. Path '../02-architecture/overview.md' (from '...(../02-architecture/overview.md#error-handling)') does not exist locally.
+⚠️  information-security-manager-iso27001/SKILL.md: Missing '## When to Use' section
+⚠️ azure-observability-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-monitor-opentelemetry-py.md' (from '...(references/sdk/azure-monitor-opentelemetry-py.md)') does not exist locally.
+⚠️ azure-observability-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-monitor-opentelemetry-ts.md' (from '...(references/sdk/azure-monitor-opentelemetry-ts.md)') does not exist locally.
+⚠️ azure-observability-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-monitor-opentelemetry-exporter-py.md' (from '...(references/sdk/azure-monitor-opentelemetry-exporter-py.md)') does not exist locally.
+⚠️ azure-observability-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-monitor-query-py.md' (from '...(references/sdk/azure-monitor-query-py.md)') does not exist locally.
+⚠️ azure-observability-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-monitor-query-java.md' (from '...(references/sdk/azure-monitor-query-java.md)') does not exist locally.
+⚠️ azure-observability-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-monitor-ingestion-py.md' (from '...(references/sdk/azure-monitor-ingestion-py.md)') does not exist locally.
+⚠️ azure-observability-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-monitor-ingestion-java.md' (from '...(references/sdk/azure-monitor-ingestion-java.md)') does not exist locally.
+⚠️ azure-observability-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-mgmt-applicationinsights-dotnet.md' (from '...(references/sdk/azure-mgmt-applicationinsights-dotnet.md)') does not exist locally.
+⚠️ preset/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ preset/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️  fp-task-either/SKILL.md: Missing '## When to Use' section
+⚠️ skill-creator/SKILL.md: Dangling link detected. Path 'assets/' (from '...(assets/)') does not exist locally.
+⚠️ skill-creator/SKILL.md: Dangling link detected. Path 'skills/{skill-name}/SKILL.md' (from '...(skills/{skill-name}/SKILL.md)') does not exist locally.
+⚠️ skill-creator/SKILL.md: Dangling link detected. Path 'assets/' (from '...(assets/)') does not exist locally.
+⚠️ azure-resource-lookup-ms/SKILL.md: Dangling link detected. Path 'references/azure-resource-graph.md' (from '...(references/azure-resource-graph.md)') does not exist locally.
+⚠️ azure-storage-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-storage-blob-py.md' (from '...(references/sdk/azure-storage-blob-py.md)') does not exist locally.
+⚠️ azure-storage-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-storage-blob-ts.md' (from '...(references/sdk/azure-storage-blob-ts.md)') does not exist locally.
+⚠️ azure-storage-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-storage-blob-java.md' (from '...(references/sdk/azure-storage-blob-java.md)') does not exist locally.
+⚠️ azure-storage-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-storage-blob-rust.md' (from '...(references/sdk/azure-storage-blob-rust.md)') does not exist locally.
+⚠️ azure-storage-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-storage-queue-py.md' (from '...(references/sdk/azure-storage-queue-py.md)') does not exist locally.
+⚠️ azure-storage-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-storage-queue-ts.md' (from '...(references/sdk/azure-storage-queue-ts.md)') does not exist locally.
+⚠️ azure-storage-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-storage-file-share-py.md' (from '...(references/sdk/azure-storage-file-share-py.md)') does not exist locally.
+⚠️ azure-storage-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-storage-file-share-ts.md' (from '...(references/sdk/azure-storage-file-share-ts.md)') does not exist locally.
+⚠️ azure-storage-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-storage-file-datalake-py.md' (from '...(references/sdk/azure-storage-file-datalake-py.md)') does not exist locally.
+⚠️ azure-storage-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-data-tables-py.md' (from '...(references/sdk/azure-data-tables-py.md)') does not exist locally.
+⚠️ azure-storage-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-data-tables-java.md' (from '...(references/sdk/azure-data-tables-java.md)') does not exist locally.
+⚠️ azure-storage-ms/SKILL.md: Dangling link detected. Path 'references/sdk-usage.md' (from '...(references/sdk-usage.md)') does not exist locally.
+⚠️ azure-storage-ms/SKILL.md: Dangling link detected. Path 'references/sdk-usage.md' (from '...(references/sdk-usage.md)') does not exist locally.
+⚠️  deploy-model/SKILL.md: Missing '## When to Use' section
+⚠️ deploy-model/SKILL.md: Dangling link detected. Path '../../quota/quota.md' (from '...(../../quota/quota.md)') does not exist locally.
+⚠️ deploy-model/preset/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ deploy-model/preset/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ deploy-model/capacity/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ deploy-model/capacity/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ deploy-model/capacity/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ deploy-model/customize/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️  risk-management-specialist/SKILL.md: Missing '## When to Use' section
+⚠️  game-audio/SKILL.md: Missing '## When to Use' section
+⚠️ fp-backend/SKILL.md: Dangling link detected. Path 'message, {
+            ...meta,
+            requestId: ctx.requestId,
+            userId: O.toUndefined(ctx.userId' (from '...(message, {
+            ...meta,
+            requestId: ctx.requestId,
+            userId: O.toUndefined(ctx.userId)') does not exist locally.
+⚠️ skill-creator-ms/SKILL.md: Dangling link detected. Path 'references/tools.md' (from '...(references/tools.md)') does not exist locally.
+⚠️ skill-creator-ms/SKILL.md: Dangling link detected. Path 'references/streaming.md' (from '...(references/streaming.md)') does not exist locally.
+⚠️ skill-creator-ms/SKILL.md: Dangling link detected. Path 'references/streaming.md' (from '...(references/streaming.md)') does not exist locally.
+⚠️ skill-creator-ms/SKILL.md: Dangling link detected. Path 'references/tools.md' (from '...(references/tools.md)') does not exist locally.
+⚠️ capacity/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ capacity/SKILL.md: Dangling link detected. Path '../SKILL.md' (from '...(../SKILL.md#project-selection-all-modes)') does not exist locally.
+⚠️ capacity/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ capacity/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ preset-ms/SKILL.md: Dangling link detected. Path 'references/workflow.md' (from '...(references/workflow.md)') does not exist locally.
+⚠️ preset-ms/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ preset-ms/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ agent-framework-ms/SKILL.md: Dangling link detected. Path 'references/agent-as-server.md' (from '...(references/agent-as-server.md)') does not exist locally.
+⚠️ agent-framework-ms/SKILL.md: Dangling link detected. Path 'references/debug-setup.md' (from '...(references/debug-setup.md)') does not exist locally.
+⚠️ agent-framework-ms/SKILL.md: Dangling link detected. Path 'references/agent-samples.md' (from '...(references/agent-samples.md)') does not exist locally.
+⚠️ agent-framework-ms/SKILL.md: Dangling link detected. Path 'references/workflow-basics.md' (from '...(references/workflow-basics.md)') does not exist locally.
+⚠️ agent-framework-ms/SKILL.md: Dangling link detected. Path 'references/workflow-agents.md' (from '...(references/workflow-agents.md)') does not exist locally.
+⚠️ agent-framework-ms/SKILL.md: Dangling link detected. Path 'references/workflow-foundry.md' (from '...(references/workflow-foundry.md)') does not exist locally.
+⚠️  deploy-model-ms/SKILL.md: Missing '## When to Use' section
+⚠️ deploy-model-ms/SKILL.md: Dangling link detected. Path 'preset/SKILL.md' (from '...(preset/SKILL.md)') does not exist locally.
+⚠️ deploy-model-ms/SKILL.md: Dangling link detected. Path 'customize/SKILL.md' (from '...(customize/SKILL.md)') does not exist locally.
+⚠️ deploy-model-ms/SKILL.md: Dangling link detected. Path 'capacity/SKILL.md' (from '...(capacity/SKILL.md)') does not exist locally.
+⚠️ deploy-model-ms/SKILL.md: Dangling link detected. Path '../../quota/quota.md' (from '...(../../quota/quota.md)') does not exist locally.
+⚠️ deploy-model-ms/SKILL.md: Dangling link detected. Path 'preset/SKILL.md' (from '...(preset/SKILL.md)') does not exist locally.
+⚠️ deploy-model-ms/SKILL.md: Dangling link detected. Path 'customize/SKILL.md' (from '...(customize/SKILL.md)') does not exist locally.
+⚠️ deploy-model-ms/SKILL.md: Dangling link detected. Path 'capacity/SKILL.md' (from '...(capacity/SKILL.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-search-documents-py.md' (from '...(references/sdk/azure-search-documents-py.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-search-documents-ts.md' (from '...(references/sdk/azure-search-documents-ts.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-search-documents-dotnet.md' (from '...(references/sdk/azure-search-documents-dotnet.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-ai-openai-dotnet.md' (from '...(references/sdk/azure-ai-openai-dotnet.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-ai-vision-imageanalysis-py.md' (from '...(references/sdk/azure-ai-vision-imageanalysis-py.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-ai-vision-imageanalysis-java.md' (from '...(references/sdk/azure-ai-vision-imageanalysis-java.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-ai-transcription-py.md' (from '...(references/sdk/azure-ai-transcription-py.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-ai-translation-text-py.md' (from '...(references/sdk/azure-ai-translation-text-py.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-ai-translation-ts.md' (from '...(references/sdk/azure-ai-translation-ts.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-ai-document-intelligence-dotnet.md' (from '...(references/sdk/azure-ai-document-intelligence-dotnet.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-ai-document-intelligence-ts.md' (from '...(references/sdk/azure-ai-document-intelligence-ts.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-ai-contentsafety-py.md' (from '...(references/sdk/azure-ai-contentsafety-py.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-ai-contentsafety-ts.md' (from '...(references/sdk/azure-ai-contentsafety-ts.md)') does not exist locally.
+⚠️ azure-ai-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-ai-contentsafety-java.md' (from '...(references/sdk/azure-ai-contentsafety-java.md)') does not exist locally.
+⚠️ azure-diagnostics-ms/SKILL.md: Dangling link detected. Path 'references/container-apps/README.md' (from '...(references/container-apps/README.md)') does not exist locally.
+⚠️ azure-diagnostics-ms/SKILL.md: Dangling link detected. Path 'references/kql-queries.md' (from '...(references/kql-queries.md)') does not exist locally.
+⚠️ azure-diagnostics-ms/SKILL.md: Dangling link detected. Path 'references/kql-queries.md' (from '...(references/kql-queries.md)') does not exist locally.
+⚠️ azure-diagnostics-ms/SKILL.md: Dangling link detected. Path 'references/azure-resource-graph.md' (from '...(references/azure-resource-graph.md)') does not exist locally.
+⚠️ azure-cosmos-db-py/SKILL.md: Dangling link detected. Path 'references/client-setup.md' (from '...(references/client-setup.md)') does not exist locally.
+⚠️ azure-cosmos-db-py/SKILL.md: Dangling link detected. Path 'references/service-layer.md' (from '...(references/service-layer.md)') does not exist locally.
+⚠️ azure-cosmos-db-py/SKILL.md: Dangling link detected. Path 'references/testing.md' (from '...(references/testing.md)') does not exist locally.
+⚠️ azure-cosmos-db-py/SKILL.md: Dangling link detected. Path 'references/client-setup.md' (from '...(references/client-setup.md)') does not exist locally.
+⚠️ azure-cosmos-db-py/SKILL.md: Dangling link detected. Path 'references/service-layer.md' (from '...(references/service-layer.md)') does not exist locally.
+⚠️ azure-cosmos-db-py/SKILL.md: Dangling link detected. Path 'references/testing.md' (from '...(references/testing.md)') does not exist locally.
+⚠️ azure-cosmos-db-py/SKILL.md: Dangling link detected. Path 'references/partitioning.md' (from '...(references/partitioning.md)') does not exist locally.
+⚠️ azure-cosmos-db-py/SKILL.md: Dangling link detected. Path 'references/error-handling.md' (from '...(references/error-handling.md)') does not exist locally.
+⚠️ azure-cosmos-db-py/SKILL.md: Dangling link detected. Path 'assets/cosmos_client_template.py' (from '...(assets/cosmos_client_template.py)') does not exist locally.
+⚠️ azure-cosmos-db-py/SKILL.md: Dangling link detected. Path 'assets/service_template.py' (from '...(assets/service_template.py)') does not exist locally.
+⚠️ azure-cosmos-db-py/SKILL.md: Dangling link detected. Path 'assets/conftest_template.py' (from '...(assets/conftest_template.py)') does not exist locally.
+⚠️ azure-resource-manager-sql-dotnet/SKILL.md: Dangling link detected. Path 'references/server-management.md' (from '...(references/server-management.md)') does not exist locally.
+⚠️ azure-resource-manager-sql-dotnet/SKILL.md: Dangling link detected. Path 'references/database-operations.md' (from '...(references/database-operations.md)') does not exist locally.
+⚠️ azure-resource-manager-sql-dotnet/SKILL.md: Dangling link detected. Path 'references/elastic-pools.md' (from '...(references/elastic-pools.md)') does not exist locally.
+⚠️ azure-search-documents-dotnet/SKILL.md: Dangling link detected. Path 'references/vector-search.md' (from '...(references/vector-search.md)') does not exist locally.
+⚠️ azure-search-documents-dotnet/SKILL.md: Dangling link detected. Path 'references/semantic-search.md' (from '...(references/semantic-search.md)') does not exist locally.
+⚠️ azure-search-documents-dotnet/SKILL.md: Dangling link detected. Path 'references/vector-search.md' (from '...(references/vector-search.md)') does not exist locally.
+⚠️ azure-search-documents-dotnet/SKILL.md: Dangling link detected. Path 'references/semantic-search.md' (from '...(references/semantic-search.md)') does not exist locally.
+⚠️  agile-product-owner/SKILL.md: Missing '## When to Use' section
+⚠️  ms365-tenant-manager/SKILL.md: Missing '## When to Use' section
+⚠️ newsletter-curation/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ newsletter-curation/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ newsletter-curation/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ newsletter-curation/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ newsletter-curation/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ newsletter-curation/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ newsletter-curation/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ newsletter-curation/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ newsletter-curation/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ newsletter-curation/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ newsletter-curation/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ newsletter-curation/SKILL.md: Dangling link detected. Path 'url' (from '...(url)') does not exist locally.
+⚠️ azure-monitor-ingestion-java/SKILL.md: Dangling link detected. Path '../query/SKILL.md' (from '...(../query/SKILL.md)') does not exist locally.
+⚠️ ad-creative/SKILL.md: Dangling link detected. Path '../../tools/REGISTRY.md' (from '...(../../tools/REGISTRY.md)') does not exist locally.
+⚠️ ad-creative/SKILL.md: Dangling link detected. Path '../../tools/integrations/google-ads.md' (from '...(../../tools/integrations/google-ads.md)') does not exist locally.
+⚠️ ad-creative/SKILL.md: Dangling link detected. Path '../../tools/integrations/meta-ads.md' (from '...(../../tools/integrations/meta-ads.md)') does not exist locally.
+⚠️ ad-creative/SKILL.md: Dangling link detected. Path '../../tools/integrations/linkedin-ads.md' (from '...(../../tools/integrations/linkedin-ads.md)') does not exist locally.
+⚠️ ad-creative/SKILL.md: Dangling link detected. Path '../../tools/integrations/tiktok-ads.md' (from '...(../../tools/integrations/tiktok-ads.md)') does not exist locally.
+⚠️ react-flow-node-ts/SKILL.md: Dangling link detected. Path 'assets/' (from '...(assets/)') does not exist locally.
+⚠️ react-flow-node-ts/SKILL.md: Dangling link detected. Path 'assets/template.tsx' (from '...(assets/template.tsx)') does not exist locally.
+⚠️ react-flow-node-ts/SKILL.md: Dangling link detected. Path 'assets/types.template.ts' (from '...(assets/types.template.ts)') does not exist locally.
+⚠️ azure-servicebus-ts/SKILL.md: Dangling link detected. Path 'references/queues-topics.md' (from '...(references/queues-topics.md)') does not exist locally.
+⚠️ azure-servicebus-ts/SKILL.md: Dangling link detected. Path 'references/error-handling.md' (from '...(references/error-handling.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/agents.md' (from '...(references/agents.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/tools.md' (from '...(references/tools.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/connections.md' (from '...(references/connections.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/deployments.md' (from '...(references/deployments.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/datasets-indexes.md' (from '...(references/datasets-indexes.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/evaluation.md' (from '...(references/evaluation.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/async-patterns.md' (from '...(references/async-patterns.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/agents.md' (from '...(references/agents.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/tools.md' (from '...(references/tools.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/evaluation.md' (from '...(references/evaluation.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/built-in-evaluators.md' (from '...(references/built-in-evaluators.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/custom-evaluators.md' (from '...(references/custom-evaluators.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/connections.md' (from '...(references/connections.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/deployments.md' (from '...(references/deployments.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/datasets-indexes.md' (from '...(references/datasets-indexes.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/async-patterns.md' (from '...(references/async-patterns.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'references/api-reference.md' (from '...(references/api-reference.md)') does not exist locally.
+⚠️ azure-ai-projects-py/SKILL.md: Dangling link detected. Path 'scripts/run_batch_evaluation.py' (from '...(scripts/run_batch_evaluation.py)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path './references/entra-rbac-overview.md' (from '...(./references/entra-rbac-overview.md)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path './references/entra-rbac-overview.md' (from '...(./references/entra-rbac-overview.md#pattern-1-developer-user-access)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path './references/entra-rbac-overview.md' (from '...(./references/entra-rbac-overview.md#pattern-2-managed-identity-for-applications)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path './references/entra-rbac-overview.md' (from '...(./references/entra-rbac-overview.md#pattern-3-group-based-access-control)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path './references/troubleshooting.md' (from '...(./references/troubleshooting.md)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path './references/entra-rbac-overview.md' (from '...(./references/entra-rbac-overview.md#pattern-5-migration-from-password-auth)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path './references/entra-rbac-overview.md' (from '...(./references/entra-rbac-overview.md)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path './references/permission-templates.md' (from '...(./references/permission-templates.md)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-postgres-ts.md' (from '...(references/sdk/azure-postgres-ts.md)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-py.md' (from '...(references/sdk/azure-identity-py.md)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-identity-ts.md' (from '...(references/sdk/azure-identity-ts.md)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-resource-manager-postgresql-dotnet.md' (from '...(references/sdk/azure-resource-manager-postgresql-dotnet.md)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path './references/entra-rbac-overview.md' (from '...(./references/entra-rbac-overview.md)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path './references/sql-functions.md' (from '...(./references/sql-functions.md)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path './references/permission-templates.md' (from '...(./references/permission-templates.md)') does not exist locally.
+⚠️ azure-postgres-ms/SKILL.md: Dangling link detected. Path './references/troubleshooting.md' (from '...(./references/troubleshooting.md)') does not exist locally.
+⚠️ azure-speech-to-text-rest-py/SKILL.md: Dangling link detected. Path 'references/pronunciation-assessment.md' (from '...(references/pronunciation-assessment.md)') does not exist locally.
+⚠️ frontend-design-review/SKILL.md: Dangling link detected. Path 'references/review-output-format.md' (from '...(references/review-output-format.md)') does not exist locally.
+⚠️ frontend-design-review/SKILL.md: Dangling link detected. Path 'references/review-type-modifiers.md' (from '...(references/review-type-modifiers.md)') does not exist locally.
+⚠️ frontend-design-review/SKILL.md: Dangling link detected. Path 'references/quick-checklist.md' (from '...(references/quick-checklist.md)') does not exist locally.
+⚠️ frontend-design-review/SKILL.md: Dangling link detected. Path 'references/pattern-examples.md' (from '...(references/pattern-examples.md)') does not exist locally.
+⚠️ customize/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ product-changelog/SKILL.md: Dangling link detected. Path 'screenshot.png' (from '...(screenshot.png)') does not exist locally.
+⚠️ product-changelog/SKILL.md: Dangling link detected. Path 'link' (from '...(link)') does not exist locally.
+⚠️ product-changelog/SKILL.md: Dangling link detected. Path 'link' (from '...(link)') does not exist locally.
+⚠️ fastapi-router-py/SKILL.md: Dangling link detected. Path 'assets/template.py' (from '...(assets/template.py)') does not exist locally.
+⚠️ ai-seo/SKILL.md: Dangling link detected. Path '../../tools/REGISTRY.md' (from '...(../../tools/REGISTRY.md)') does not exist locally.
+⚠️  product-strategist/SKILL.md: Missing '## When to Use' section
+⚠️ m365-agents-dotnet/SKILL.md: Dangling link detected. Path 'references/acceptance-criteria.md' (from '...(references/acceptance-criteria.md)') does not exist locally.
+⚠️ wiki-changelog/SKILL.md: Dangling link detected. Path 'REPO_URL/commit/abc1234' (from '...(REPO_URL/commit/abc1234)') does not exist locally.
+⚠️ wiki-changelog/SKILL.md: Dangling link detected. Path 'REPO_URL/blob/BRANCH/file_path' (from '...(REPO_URL/blob/BRANCH/file_path)') does not exist locally.
+⚠️ remotion/SKILL.md: Dangling link detected. Path './rules/sound-effects.md' (from '...(./rules/sound-effects.md)') does not exist locally.
+⚠️ golang-testing/SKILL.md: Dangling link detected. Path 't *testing.T, got, want T' (from '...(t *testing.T, got, want T)') does not exist locally.
+⚠️ azure-resource-manager-cosmosdb-dotnet/SKILL.md: Dangling link detected. Path 'references/account-management.md' (from '...(references/account-management.md)') does not exist locally.
+⚠️ azure-resource-manager-cosmosdb-dotnet/SKILL.md: Dangling link detected. Path 'references/sql-resources.md' (from '...(references/sql-resources.md)') does not exist locally.
+⚠️ azure-resource-manager-cosmosdb-dotnet/SKILL.md: Dangling link detected. Path 'references/throughput.md' (from '...(references/throughput.md)') does not exist locally.
+⚠️ wiki-ado-convert/SKILL.md: Dangling link detected. Path '../../src/file.cs' (from '...(../../src/file.cs)') does not exist locally.
+⚠️ wiki-ado-convert/SKILL.md: Dangling link detected. Path '../path' (from '...(../path)') does not exist locally.
+⚠️ wiki-ado-convert/SKILL.md: Dangling link detected. Path 'URL' (from '...(URL)') does not exist locally.
+⚠️ content-repurposing/SKILL.md: Dangling link detected. Path 'link' (from '...(link)') does not exist locally.
+⚠️ podcast-generation/SKILL.md: Dangling link detected. Path 'references/architecture.md' (from '...(references/architecture.md)') does not exist locally.
+⚠️ podcast-generation/SKILL.md: Dangling link detected. Path 'references/code-examples.md' (from '...(references/code-examples.md)') does not exist locally.
+⚠️ podcast-generation/SKILL.md: Dangling link detected. Path 'scripts/pcm_to_wav.py' (from '...(scripts/pcm_to_wav.py)') does not exist locally.
+⚠️  fp-algebraic-types/SKILL.md: Missing '## When to Use' section
+⚠️ azure-cosmos-py/SKILL.md: Dangling link detected. Path 'references/partitioning.md' (from '...(references/partitioning.md)') does not exist locally.
+⚠️ azure-cosmos-py/SKILL.md: Dangling link detected. Path 'references/query-patterns.md' (from '...(references/query-patterns.md)') does not exist locally.
+⚠️ azure-cosmos-py/SKILL.md: Dangling link detected. Path 'scripts/setup_cosmos_container.py' (from '...(scripts/setup_cosmos_container.py)') does not exist locally.
+⚠️ wiki-qa/SKILL.md: Dangling link detected. Path 'REPO_URL/blob/BRANCH/file' (from '...(REPO_URL/blob/BRANCH/file#Lline)') does not exist locally.
+⚠️ wiki-qa/SKILL.md: Dangling link detected. Path 'REPO_URL/blob/BRANCH/src/path/file.ts' (from '...(REPO_URL/blob/BRANCH/src/path/file.ts#L42)') does not exist locally.
+⚠️  cookbook-audit/SKILL.md: Missing '## When to Use' section
+⚠️ appinsights-instrumentation-ms/SKILL.md: Dangling link detected. Path 'references/auto.md' (from '...(references/auto.md)') does not exist locally.
+⚠️ appinsights-instrumentation-ms/SKILL.md: Dangling link detected. Path 'examples/appinsights.bicep' (from '...(examples/appinsights.bicep)') does not exist locally.
+⚠️ appinsights-instrumentation-ms/SKILL.md: Dangling link detected. Path 'scripts/appinsights.ps1' (from '...(scripts/appinsights.ps1)') does not exist locally.
+⚠️ appinsights-instrumentation-ms/SKILL.md: Dangling link detected. Path 'references/aspnetcore.md' (from '...(references/aspnetcore.md)') does not exist locally.
+⚠️ appinsights-instrumentation-ms/SKILL.md: Dangling link detected. Path 'references/nodejs.md' (from '...(references/nodejs.md)') does not exist locally.
+⚠️ appinsights-instrumentation-ms/SKILL.md: Dangling link detected. Path 'references/python.md' (from '...(references/python.md)') does not exist locally.
+⚠️ appinsights-instrumentation-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-monitor-opentelemetry-py.md' (from '...(references/sdk/azure-monitor-opentelemetry-py.md)') does not exist locally.
+⚠️ appinsights-instrumentation-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-monitor-opentelemetry-ts.md' (from '...(references/sdk/azure-monitor-opentelemetry-ts.md)') does not exist locally.
+⚠️ appinsights-instrumentation-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-monitor-opentelemetry-exporter-py.md' (from '...(references/sdk/azure-monitor-opentelemetry-exporter-py.md)') does not exist locally.
+⚠️ appinsights-instrumentation-ms/SKILL.md: Dangling link detected. Path 'references/sdk/azure-monitor-opentelemetry-exporter-java.md' (from '...(references/sdk/azure-monitor-opentelemetry-exporter-java.md)') does not exist locally.
+⚠️ azure-resource-visualizer-ms/SKILL.md: Dangling link detected. Path 'references/azure-resource-graph.md' (from '...(references/azure-resource-graph.md)') does not exist locally.
+⚠️ azure-resource-visualizer-ms/SKILL.md: Dangling link detected. Path './assets/example-diagram.md' (from '...(./assets/example-diagram.md)') does not exist locally.
+⚠️ azure-resource-visualizer-ms/SKILL.md: Dangling link detected. Path './assets/template-architecture.md' (from '...(./assets/template-architecture.md)') does not exist locally.
+⚠️  fda-consultant-specialist/SKILL.md: Missing '## When to Use' section
+⚠️ pydantic-models-py/SKILL.md: Dangling link detected. Path 'assets/template.py' (from '...(assets/template.py)') does not exist locally.
+⚠️ capacity-ms/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ capacity-ms/SKILL.md: Dangling link detected. Path '../SKILL.md' (from '...(../SKILL.md#project-selection-all-modes)') does not exist locally.
+⚠️ capacity-ms/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ capacity-ms/SKILL.md: Dangling link detected. Path '../../../quota/quota.md' (from '...(../../../quota/quota.md)') does not exist locally.
+⚠️ azure-mgmt-apimanagement-dotnet/SKILL.md: Dangling link detected. Path 'references/service-management.md' (from '...(references/service-management.md)') does not exist locally.
+⚠️ azure-mgmt-apimanagement-dotnet/SKILL.md: Dangling link detected. Path 'references/apis-operations.md' (from '...(references/apis-operations.md)') does not exist locally.
+⚠️ azure-mgmt-apimanagement-dotnet/SKILL.md: Dangling link detected. Path 'references/products-subscriptions.md' (from '...(references/products-subscriptions.md)') does not exist locally.
+⚠️ azure-mgmt-apimanagement-dotnet/SKILL.md: Dangling link detected. Path 'references/policies.md' (from '...(references/policies.md)') does not exist locally.
+⚠️  fp-data-transforms/SKILL.md: Missing '## When to Use' section
+⚠️ azure-servicebus-py/SKILL.md: Dangling link detected. Path 'references/patterns.md' (from '...(references/patterns.md)') does not exist locally.
+⚠️ azure-servicebus-py/SKILL.md: Dangling link detected. Path 'references/dead-letter.md' (from '...(references/dead-letter.md)') does not exist locally.
+⚠️ azure-servicebus-py/SKILL.md: Dangling link detected. Path 'scripts/setup_servicebus.py' (from '...(scripts/setup_servicebus.py)') does not exist locally.
+⚠️ agent-framework-azure-ai-py/SKILL.md: Dangling link detected. Path 'references/tools.md' (from '...(references/tools.md)') does not exist locally.
+⚠️ agent-framework-azure-ai-py/SKILL.md: Dangling link detected. Path 'references/mcp.md' (from '...(references/mcp.md)') does not exist locally.
+⚠️ agent-framework-azure-ai-py/SKILL.md: Dangling link detected. Path 'references/threads.md' (from '...(references/threads.md)') does not exist locally.
+⚠️ agent-framework-azure-ai-py/SKILL.md: Dangling link detected. Path 'references/advanced.md' (from '...(references/advanced.md)') does not exist locally.
+⚠️  hugging-face-evaluation/SKILL.md: Missing '## When to Use' section
+⚠️ revops/SKILL.md: Dangling link detected. Path '../../tools/REGISTRY.md' (from '...(../../tools/REGISTRY.md)') does not exist locally.
+⚠️ revops/SKILL.md: Dangling link detected. Path '../../tools/integrations/hubspot.md' (from '...(../../tools/integrations/hubspot.md)') does not exist locally.
+⚠️ revops/SKILL.md: Dangling link detected. Path '../../tools/integrations/salesforce.md' (from '...(../../tools/integrations/salesforce.md)') does not exist locally.
+⚠️ revops/SKILL.md: Dangling link detected. Path '../../tools/integrations/calendly.md' (from '...(../../tools/integrations/calendly.md)') does not exist locally.
+⚠️ revops/SKILL.md: Dangling link detected. Path '../../tools/integrations/savvycal.md' (from '...(../../tools/integrations/savvycal.md)') does not exist locally.
+⚠️ revops/SKILL.md: Dangling link detected. Path '../../tools/integrations/clearbit.md' (from '...(../../tools/integrations/clearbit.md)') does not exist locally.
+⚠️ revops/SKILL.md: Dangling link detected. Path '../../tools/integrations/apollo.md' (from '...(../../tools/integrations/apollo.md)') does not exist locally.
+⚠️ revops/SKILL.md: Dangling link detected. Path '../../tools/integrations/activecampaign.md' (from '...(../../tools/integrations/activecampaign.md)') does not exist locally.
+⚠️ revops/SKILL.md: Dangling link detected. Path '../../tools/integrations/zapier.md' (from '...(../../tools/integrations/zapier.md)') does not exist locally.
+⚠️  fp-async/SKILL.md: Missing '## When to Use' section
+
+❌ Found 14 Critical Errors:
+❌ fp-errors/SKILL.md: Missing 'description' in frontmatter
+❌ fp-refactor/SKILL.md: Missing 'description' in frontmatter
+❌ fp-taskeither-ref/SKILL.md: Missing 'description' in frontmatter
+❌ fp-either-ref/SKILL.md: Missing 'description' in frontmatter
+❌ fp-pragmatic/SKILL.md: Missing 'description' in frontmatter
+❌ fp-option-ref/SKILL.md: Missing 'description' in frontmatter
+❌ fp-backend/SKILL.md: Missing 'description' in frontmatter
+❌ fp-react/SKILL.md: Missing 'description' in frontmatter
+❌ fp-types-ref/SKILL.md: Missing 'description' in frontmatter
+❌ senior-frontend/SKILL.md: Missing 'description' in frontmatter
+❌ remotion/SKILL.md: Missing 'description' in frontmatter
+❌ fp-data-transforms/SKILL.md: Missing 'description' in frontmatter
+❌ fp-pipe-ref/SKILL.md: Missing 'description' in frontmatter
+❌ fp-async/SKILL.md: Missing 'description' in frontmatter

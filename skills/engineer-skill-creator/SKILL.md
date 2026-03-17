@@ -1,8 +1,11 @@
 ---
 name: engineer-skill-creator
-description: Transform extracted engineer expertise into an actionable skill with progressive disclosure, allowing agents to find and apply relevant patterns for specific tasks.
+description: Transform extracted engineer expertise into an actionable skill with
+  progressive disclosure, allowing agents to find and apply relevant patterns for
+  specific tasks.
+risk: unknown
+source: community
 ---
-
 # Engineer Skill Creator
 
 Transform extracted engineer profiles into ready-to-use skills with progressive disclosure, enabling AI agents to efficiently find and apply the right expertise for any coding task.
@@ -561,3 +564,6 @@ The Engineer Skill Creator transforms extracted expertise into actionable, query
 ---
 
 **"Progressive disclosure: Show only what's needed, when it's needed."**
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

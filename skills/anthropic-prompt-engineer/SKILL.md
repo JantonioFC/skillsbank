@@ -1,8 +1,10 @@
 ---
 name: anthropic-prompt-engineer
-description: Master Anthropic's prompt engineering techniques to generate new prompts or improve existing ones using best practices for Claude AI models.
+description: Master Anthropic's prompt engineering techniques to generate new prompts
+  or improve existing ones using best practices for Claude AI models.
+risk: unknown
+source: community
 ---
-
 # Anthropic Prompt Engineer
 
 Master the art and science of prompt engineering with Anthropic's proven techniques. Generate new prompts from scratch or improve existing ones using best practices for Claude AI models (Claude 4.x, Sonnet, Opus, Haiku).
@@ -134,3 +136,6 @@ Apply Anthropic's proven techniques for best results.
 ---
 
 **Remember:** Good prompts are engineered, not guessed.
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

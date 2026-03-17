@@ -1,8 +1,12 @@
 ---
 name: github-ecosystem
-description: Generate comprehensive GitHub ecosystem configuration including CI/CD workflows, issue templates, PR templates, CODEOWNERS, dependabot, and Copilot instructions. Language-agnostic with Python, Go, and TypeScript support. Auto-detects project language from pyproject.toml, go.mod, or package.json. Use when setting up GitHub repos, adding CI/CD pipelines, creating issue/PR templates, configuring dependabot, adding CODEOWNERS, setting up Copilot instructions, or enhancing existing projects with GitHub tooling. Works on new or existing repositories with smart merging.
+description: Generate comprehensive GitHub ecosystem configuration including CI/CD
+  workflows, issue templates, PR templates, CODEOWNERS, dependabot, and Copilot instructions.
+  Language-agnostic with Python, Go, and TypeScript support. Auto-detects project
+  language from pyproject.toml, go.mod, or package.json. ...
+risk: unknown
+source: community
 ---
-
 # GitHub Ecosystem Configuration Generator
 
 Generates production-ready GitHub configuration for any project.
@@ -109,3 +113,6 @@ After generation:
 2. Add any required secrets (e.g., PYPI_API_TOKEN for publishing)
 3. Customize version matrices if needed
 4. Update CODEOWNERS with actual team handles
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

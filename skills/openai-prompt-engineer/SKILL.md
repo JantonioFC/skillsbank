@@ -1,8 +1,11 @@
 ---
 name: openai-prompt-engineer
-description: Generate and improve prompts using best practices for OpenAI GPT-5 and other LLMs. Apply advanced techniques like chain-of-thought, few-shot prompting, and progressive disclosure.
+description: Generate and improve prompts using best practices for OpenAI GPT-5 and
+  other LLMs. Apply advanced techniques like chain-of-thought, few-shot prompting,
+  and progressive disclosure.
+risk: unknown
+source: community
 ---
-
 # OpenAI Prompt Engineer
 
 A comprehensive skill for crafting, analyzing, and improving prompts for OpenAI's GPT-5 and other modern Large Language Models (LLMs), with focus on GPT-5-specific optimizations and universal prompting techniques.

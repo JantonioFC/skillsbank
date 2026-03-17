@@ -1,9 +1,13 @@
 ---
 name: docs-seeker
-description: "Searching internet for technical documentation using llms.txt standard, GitHub repositories via Repomix, and parallel exploration. Use when user needs: (1) Latest documentation for libraries/frameworks, (2) Documentation in llms.txt format, (3) GitHub repository analysis, (4) Documentation without direct llms.txt support, (5) Multiple documentation sources in parallel"
+description: 'Searching internet for technical documentation using llms.txt standard,
+  GitHub repositories via Repomix, and parallel exploration. Use when user needs:
+  (1) Latest documentation for libraries/frameworks, (2) Documentation in llms.txt
+  format, (3) GitHub repository analysis, (4) Documentation withou...'
 version: 1.0.0
+risk: unknown
+source: community
 ---
-
 # Documentation Discovery & Analysis
 
 ## Overview
@@ -205,3 +209,6 @@ For comprehensive guides, examples, and best practices:
 - [Best Practices](./references/best-practices.md) — 8 essential principles for effective discovery
 - [Performance](./references/performance.md) — Optimization techniques and benchmarks
 - [Limitations](./references/limitations.md) — Boundaries and success criteria
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.
