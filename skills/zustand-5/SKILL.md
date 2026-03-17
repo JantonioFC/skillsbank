@@ -1,13 +1,17 @@
 ---
 name: zustand-5
-description: >
-  Zustand 5 state management patterns.
-  Trigger: When managing React state with Zustand.
+description: 'Zustand 5 state management patterns. Trigger: When managing React state
+  with Zustand.
+
+  '
 license: Apache-2.0
 metadata:
   author: gentleman-programming
-  version: "1.0"
+  version: '1.0'
+risk: unknown
+source: community
 ---
+
 
 ## Basic Store
 
@@ -220,3 +224,6 @@ const unsubscribe = useCounterStore.subscribe(
 
 ## Keywords
 zustand, state management, react, store, persist, middleware
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

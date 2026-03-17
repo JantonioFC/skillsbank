@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 ## When to Use
 
 Use this skill when navigating international trade regulations, classifying goods under HS codes, determining appropriate Incoterms, managing import/export documentation, or optimizing customs duty payments through Free Trade Agreements.

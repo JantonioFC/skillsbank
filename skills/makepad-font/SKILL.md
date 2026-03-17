@@ -1,13 +1,18 @@
 ---
 name: makepad-font
-description: |
-  CRITICAL: Use for Makepad font and text rendering. Triggers on:
+description: 'CRITICAL: Use for Makepad font and text rendering. Triggers on:
+
   makepad font, makepad text, makepad glyph, makepad typography,
+
   font atlas, text layout, font family, font size, text shaping,
+
   makepad 字体, makepad 文字, makepad 排版, makepad 字形
+
+  '
 risk: unknown
 source: community
 ---
+
 
 # Makepad Font Skill
 

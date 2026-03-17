@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # UX Researcher & Designer
 
 Generate user personas from research data, create journey maps, plan usability tests, and synthesize research findings into actionable design recommendations.

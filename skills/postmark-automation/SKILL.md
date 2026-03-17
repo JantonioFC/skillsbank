@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Postmark Automation via Rube MCP
 
 Automate Postmark transactional email operations through Composio's Postmark toolkit via Rube MCP.

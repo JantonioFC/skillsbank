@@ -7,6 +7,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Microsoft 365 Agents SDK (TypeScript)
 
 Build enterprise agents for Microsoft 365, Teams, and Copilot Studio using the Microsoft 365 Agents SDK with Express hosting, AgentApplication routing, streaming responses, and Copilot Studio client integrations.

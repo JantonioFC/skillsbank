@@ -11,6 +11,7 @@ source: community
 ---
 
 
+
 # Azure Prepare
 
 > **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**

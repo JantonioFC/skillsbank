@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Memory Safety Patterns
 
 Cross-language patterns for memory-safe programming including RAII, ownership, smart pointers, and resource management.

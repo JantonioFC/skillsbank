@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure Event Hubs SDK for TypeScript
 
 High-throughput event streaming and real-time data ingestion.

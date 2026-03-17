@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Zoom Automation via Rube MCP
 
 Automate Zoom operations including meeting scheduling, webinar management, cloud recording retrieval, participant tracking, and usage reporting through Composio's Zoom toolkit.

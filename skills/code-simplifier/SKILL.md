@@ -1,7 +1,13 @@
 ---
 name: code-simplifier
-description: Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to "simplify code", "clean up code", "refactor for clarity", "improve readability", or review recently modified code for elegance. Focuses on project-specific best practices.
+description: Simplifies and refines code for clarity, consistency, and maintainability
+  while preserving all functionality. Use when asked to "simplify code", "clean up
+  code", "refactor for clarity", "improve readability", or review recently modified
+  code for elegance. Focuses on project-specific best p...
+risk: unknown
+source: community
 ---
+
 
 <!--
 Based on Anthropic's code-simplifier agent:
@@ -117,3 +123,6 @@ if (items.length > 0) {
   // ...
 }
 ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

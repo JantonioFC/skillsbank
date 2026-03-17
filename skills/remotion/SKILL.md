@@ -1,23 +1,9 @@
 ---
 name: remotion
-<<<<<<< HEAD
-description: Best practices for Remotion - Video creation in React
-metadata:
-  tags: remotion, video, react, animation, composition
-=======
-description: Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays
-allowed-tools:
-  - "stitch*:*"
-  - "remotion*:*"
-  - "Bash"
-  - "Read"
-  - "Write"
-  - "web_fetch"
->>>>>>> origin/main
 risk: unknown
 source: community
+description: Remotion
 ---
-
 <<<<<<< HEAD
 
 ## When to use

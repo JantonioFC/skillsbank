@@ -1,22 +1,9 @@
 ---
 name: fp-pragmatic
-<<<<<<< HEAD
-description: A practical, jargon-free guide to functional programming - the 80/20
-  approach that gets results without the academic overhead
-version: 1.0.0
-author: kadu
-tags:
-- fp-ts
-- functional-programming
-- typescript
-- pragmatic
-- beginner-friendly
-- best-practices
 risk: unknown
 source: community
+description: Fp pragmatic
 ---
-
-
 =======
 description: A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead
 version: 1.0.0

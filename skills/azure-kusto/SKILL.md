@@ -12,6 +12,7 @@ source: community
 ---
 
 
+
 # Azure Data Explorer (Kusto) Query & Analytics
 
 Execute KQL queries and manage Azure Data Explorer resources for fast, scalable big data analytics on log, telemetry, and time series data.

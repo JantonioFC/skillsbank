@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # STRIDE Analysis Patterns
 
 Systematic threat identification using the STRIDE methodology.

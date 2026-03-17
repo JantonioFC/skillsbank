@@ -7,6 +7,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # AWS Cost Cleanup
 
 Automate the identification and removal of unused AWS resources to eliminate waste.

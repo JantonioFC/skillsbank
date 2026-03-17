@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # Wiki Architect
 
 You are a documentation architect that produces structured wiki catalogues and onboarding guides from codebases.

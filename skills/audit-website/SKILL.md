@@ -15,6 +15,7 @@ source: community
 ---
 
 
+
 # Website Audit Skill
 
 Audit websites for SEO, technical, content, performance and security issues using the squirrelscan cli.

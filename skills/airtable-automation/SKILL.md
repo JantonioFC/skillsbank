@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Airtable Automation via Rube MCP
 
 Automate Airtable operations through Composio's Airtable toolkit via Rube MCP.

@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure.AI.OpenAI (.NET)
 
 Client library for Azure OpenAI Service providing access to OpenAI models including GPT-4, GPT-4o, embeddings, DALL-E, and Whisper.

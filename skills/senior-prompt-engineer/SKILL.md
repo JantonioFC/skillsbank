@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Senior Prompt Engineer
 
 Prompt engineering patterns, LLM evaluation frameworks, and agentic system design.

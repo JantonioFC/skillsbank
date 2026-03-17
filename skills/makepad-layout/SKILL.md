@@ -1,12 +1,18 @@
 ---
 name: makepad-layout
-description: |
-  CRITICAL: Use for Makepad layout system. Triggers on:
+description: 'CRITICAL: Use for Makepad layout system. Triggers on:
+
   makepad layout, makepad width, makepad height, makepad flex,
+
   makepad padding, makepad margin, makepad flow, makepad align,
+
   Fit, Fill, Size, Walk, "how to center in makepad",
-  makepad 布局, makepad 宽度, makepad 对齐, makepad 居中
+
+  makepad 布局, makepad 宽度, makepad 对齐, makepad 居中'
+risk: unknown
+source: community
 ---
+
 
 # Makepad Layout Skill
 
@@ -174,3 +180,6 @@ Refer to the local files for detailed documentation:
 2. `Fill` takes all available space, `Fit` shrinks to content
 3. Unlike CSS flexbox, there's no flex-grow/shrink - use Fill/Fit
 4. Alignment applies to children, not the element itself
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

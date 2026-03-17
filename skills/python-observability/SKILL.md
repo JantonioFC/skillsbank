@@ -9,6 +9,7 @@ license: MIT
 ---
 
 
+
 # Python Observability
 
 Instrument Python applications with structured logs, metrics, and traces. When something breaks in production, you need to answer "what, where, and why" without deploying new code.

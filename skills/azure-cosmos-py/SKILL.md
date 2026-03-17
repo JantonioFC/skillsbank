@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure Cosmos DB SDK for Python
 
 Client library for Azure Cosmos DB NoSQL API — globally distributed, multi-model database.

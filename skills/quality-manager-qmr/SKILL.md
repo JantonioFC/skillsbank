@@ -21,6 +21,7 @@ source: community
 ---
 
 
+
 # Senior Quality Manager Responsible Person (QMR)
 
 Quality system accountability, management review leadership, and regulatory compliance oversight per ISO 13485 Clause 5.5.2 requirements.

@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure Tables SDK for Java
 
 Build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos DB Table API.

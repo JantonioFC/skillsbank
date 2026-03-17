@@ -1,7 +1,10 @@
 ---
 name: django-access-review
 description: django-access-review
+risk: unknown
+source: community
 ---
+
 
 ---
 name: django-access-review
@@ -342,3 +345,6 @@ Use this to guide your review, not as a pass/fail checklist:
 □ I've verified my findings by checking parent classes and middleware
 □ I've only reported issues I've confirmed through investigation
 ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

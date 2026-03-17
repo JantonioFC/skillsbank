@@ -1,10 +1,12 @@
 ---
 name: create-issue-gate
-description: Use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution.
+description: Use when starting a new implementation task and an issue must be created
+  with strict acceptance criteria gating before execution.
 risk: safe
 source: community
-date_added: "2026-03-12"
+date_added: '2026-03-12'
 ---
+
 
 # Create Issue Gate
 
@@ -87,3 +89,6 @@ Execution workflows (for example `closed-loop-delivery`) may start only when:
 - execution gate is `allowed`
 
 If issue is `draft`, stop and request user-provided acceptance criteria.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

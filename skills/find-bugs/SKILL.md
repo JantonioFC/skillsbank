@@ -1,7 +1,12 @@
 ---
 name: find-bugs
-description: Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.
+description: Find bugs, security vulnerabilities, and code quality issues in local
+  branch changes. Use when asked to review changes, find bugs, security review, or
+  audit code on the current branch.
+risk: unknown
+source: community
 ---
+
 
 # Find Bugs
 
@@ -73,3 +78,6 @@ For each issue:
 If you find nothing significant, say so - don't invent issues.
 
 Do not make changes - just report findings. I'll decide what to address.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

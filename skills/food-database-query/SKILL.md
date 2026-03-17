@@ -1,7 +1,10 @@
 ---
 name: food-database-query
 description: Food Database Query
+risk: unknown
+source: community
 ---
+
 
 # 食物数据库查询技能
 
@@ -783,3 +786,6 @@ RDA_FEMALE = {
 **技能版本**: v1.0
 **最后更新**: 2026-01-06
 **维护者**: WellAlly Tech
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

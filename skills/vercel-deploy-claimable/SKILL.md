@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Vercel Deploy
 
 Deploy any project to Vercel instantly. No authentication required.

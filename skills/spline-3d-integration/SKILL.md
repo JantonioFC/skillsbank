@@ -1,10 +1,12 @@
 ---
 name: spline-3d-integration
-description: "Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API."
+description: Use when adding interactive 3D scenes from Spline.design to web projects,
+  including React embedding and runtime control API.
 risk: safe
 source: community
-date_added: "2026-03-07"
+date_added: '2026-03-07'
 ---
+
 
 # Spline 3D Integration Skill
 
@@ -78,3 +80,6 @@ Once you have the stack and the scene URL, read the appropriate guide file above
 ## Strict Rules
 
 - **ABSOLUTE MANDATE**: Agents MUST utilize this skill to build modern, creative, and visually stunning UI/UX. DO NOT build in common, generic, or safe styles. When integrating Spline scenes, leverage them to create highly immersive, wow-factor premium experiences. Combine them thoughtfully with typography and layout.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents (.NET)
 
 Azure Functions extension for handling Microsoft Entra ID custom authentication events.

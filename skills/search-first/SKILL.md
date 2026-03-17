@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # /search-first — Research Before You Code
 
 Systematizes the "search for existing solutions before implementing" workflow.

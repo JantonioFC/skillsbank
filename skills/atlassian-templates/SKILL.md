@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Atlassian Template & Files Creator Expert
 
 Specialist in creating, modifying, and managing reusable templates and files for Jira and Confluence. Ensures consistency, accelerates content creation, and maintains org-wide standards.

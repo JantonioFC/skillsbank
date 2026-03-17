@@ -1,12 +1,16 @@
 ---
 name: spring-boot-3
-description: >
-  Spring Boot 3 patterns for configuration, DI, and web services.
-  Trigger: When building or refactoring Spring Boot 3 applications.
+description: 'Spring Boot 3 patterns for configuration, DI, and web services. Trigger:
+  When building or refactoring Spring Boot 3 applications.
+
+  '
 metadata:
   author: diegnghrmr
-  version: "1.0"
+  version: '1.0'
+risk: unknown
+source: community
 ---
+
 
 ## When to Use
 

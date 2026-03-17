@@ -1,7 +1,10 @@
 ---
 name: speckit-updater
 description: SpecKit Safe Update
+risk: unknown
+source: community
 ---
+
 
 # SpecKit Safe Update
 
@@ -163,3 +166,6 @@ pwsh -NoProfile -Command "& '{skill_path}/scripts/update-wrapper.ps1' [parameter
 | 4 | Git error |
 | 5 | User cancelled |
 | 6 | Rollback required (automatic) |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

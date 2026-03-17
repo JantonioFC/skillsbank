@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Regex vs LLM for Structured Text Parsing
 
 A practical decision framework for parsing structured text (quizzes, forms, invoices, documents). The key insight: regex handles 95-98% of cases cheaply and deterministically. Reserve expensive LLM calls for the remaining edge cases.

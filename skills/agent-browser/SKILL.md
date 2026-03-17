@@ -11,6 +11,7 @@ license: MIT
 ---
 
 
+
 # Browser Automation with agent-browser
 
 ## When to Use

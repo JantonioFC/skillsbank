@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Shopify Development Skill
 
 Use this skill when the user asks about:

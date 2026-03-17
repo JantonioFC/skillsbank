@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure AI Anomaly Detector SDK for Java
 
 Build anomaly detection applications using the Azure AI Anomaly Detector SDK for Java.

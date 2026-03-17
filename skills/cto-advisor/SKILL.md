@@ -19,6 +19,7 @@ source: community
 ---
 
 
+
 # CTO Advisor
 
 Strategic frameworks and tools for technology leadership, team scaling, and engineering excellence.

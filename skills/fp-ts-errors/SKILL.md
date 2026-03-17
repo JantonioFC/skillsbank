@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Practical Error Handling with fp-ts
 
 This skill teaches you how to handle errors without try/catch spaghetti. No academic jargon - just practical patterns for real problems.

@@ -10,6 +10,7 @@ source: community
 ---
 
 
+
 # Investor Outreach
 
 Write investor communication that is short, personalized, and easy to act on.

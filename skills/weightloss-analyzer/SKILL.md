@@ -1,7 +1,10 @@
 ---
 name: weightloss-analyzer
 description: 分析减肥数据、计算代谢率、追踪能量缺口、管理减肥阶段
+risk: unknown
+source: community
 ---
+
 
 # 减肥分析技能
 
@@ -318,3 +321,6 @@ description: 分析减肥数据、计算代谢率、追踪能量缺口、管理�
 **技能版本**: v1.0
 **最后更新**: 2026-01-14
 **维护者**: WellAlly Tech
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

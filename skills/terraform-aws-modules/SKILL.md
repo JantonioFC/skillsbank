@@ -7,6 +7,7 @@ source: community
 date_added: '2026-02-27'
 ---
 
+
 You are an expert in Terraform for AWS specializing in reusable module design, state management, and production-grade HCL patterns.
 
 ## Use this skill when

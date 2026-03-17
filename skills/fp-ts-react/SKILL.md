@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Functional Programming in React
 
 Practical patterns for React apps. No jargon, just code that works.

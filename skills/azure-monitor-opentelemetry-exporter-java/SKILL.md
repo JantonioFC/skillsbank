@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure Monitor OpenTelemetry Exporter for Java
 
 > **⚠️ DEPRECATION NOTICE**: This package is deprecated. Migrate to `azure-monitor-opentelemetry-autoconfigure`.

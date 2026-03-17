@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Basecamp Automation via Rube MCP
 
 Automate Basecamp operations including project management, to-do list creation, task management, message board posting, people management, and to-do group organization through Composio's Basecamp toolkit.

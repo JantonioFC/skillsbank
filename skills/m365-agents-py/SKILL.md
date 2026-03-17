@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Microsoft 365 Agents SDK (Python)
 
 Build enterprise agents for Microsoft 365, Teams, and Copilot Studio using the Microsoft Agents SDK with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based authentication.

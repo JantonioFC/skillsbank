@@ -9,6 +9,7 @@ license: MIT
 ---
 
 
+
 # Web Component Design
 
 Build reusable, maintainable UI components using modern frameworks with clean composition patterns and styling approaches.

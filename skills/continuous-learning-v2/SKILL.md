@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # Continuous Learning v2 - Instinct-Based Architecture
 
 An advanced learning system that turns your Claude Code sessions into reusable knowledge through atomic "instincts" - small learned behaviors with confidence scoring.

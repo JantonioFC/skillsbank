@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Swift Protocol-Based Dependency Injection for Testing
 
 Patterns for making Swift code testable by abstracting external dependencies (file system, network, iCloud) behind small, focused protocols. Enables deterministic tests without I/O.

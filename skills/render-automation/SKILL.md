@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Render Automation via Rube MCP
 
 Automate Render cloud platform operations through Composio's Render toolkit via Rube MCP.

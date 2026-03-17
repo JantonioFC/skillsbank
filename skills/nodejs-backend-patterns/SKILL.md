@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Node.js Backend Patterns
 
 Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.

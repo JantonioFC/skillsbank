@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Iterative Retrieval Pattern
 
 Solves the "context problem" in multi-agent workflows where subagents don't know what context they need until they start working.

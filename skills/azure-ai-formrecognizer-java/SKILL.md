@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure Document Intelligence (Form Recognizer) SDK for Java
 
 Build document analysis applications using the Azure AI Document Intelligence SDK for Java.

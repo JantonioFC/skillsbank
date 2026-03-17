@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Projection Patterns
 
 Comprehensive guide to building projections and read models for event-sourced systems.

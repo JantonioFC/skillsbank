@@ -9,6 +9,7 @@ license: MIT
 ---
 
 
+
 # Python Resilience Patterns
 
 Build fault-tolerant Python applications that gracefully handle transient failures, network issues, and service outages. Resilience patterns keep systems running when dependencies are unreliable.

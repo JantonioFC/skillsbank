@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Podcast Generation with GPT Realtime Mini
 
 Generate real audio narratives from text content using Azure OpenAI's Realtime API.

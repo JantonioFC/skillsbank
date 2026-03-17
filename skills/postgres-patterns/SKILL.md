@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # PostgreSQL Patterns
 
 Quick reference for PostgreSQL best practices. For detailed guidance, use the `database-reviewer` agent.

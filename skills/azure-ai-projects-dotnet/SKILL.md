@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure.AI.Projects (.NET)
 
 High-level SDK for Azure AI Foundry project operations including agents, connections, datasets, deployments, evaluations, and indexes.

@@ -18,6 +18,7 @@ source: community
 ---
 
 
+
 # fp-ts Do Notation Guide
 
 Do notation is fp-ts's answer to callback hell. It provides a way to write sequential, imperative-looking code while maintaining functional purity and type safety.

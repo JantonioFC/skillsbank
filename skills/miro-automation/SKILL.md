@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Miro Automation via Rube MCP
 
 Automate Miro whiteboard operations through Composio's Miro toolkit via Rube MCP.

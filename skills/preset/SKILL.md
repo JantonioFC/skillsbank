@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Deploy Model to Optimal Region
 
 Automates intelligent Azure OpenAI model deployment by checking capacity across regions and deploying to the best available option.

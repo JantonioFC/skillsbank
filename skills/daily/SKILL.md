@@ -3,11 +3,12 @@ name: daily
 description: Documentation and capabilities reference for Daily
 metadata:
   mintlify-proj: daily
-  version: "1.0"
+  version: '1.0'
 risk: safe
 source: community
-date_added: "2026-03-07"
+date_added: '2026-03-07'
 ---
+
 
 ## Capabilities
 
@@ -301,3 +302,6 @@ Pipecat integrates with:
 ---
 
 > For additional documentation and navigation, see: https://docs.pipecat.ai/llms.txt
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

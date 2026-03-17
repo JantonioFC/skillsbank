@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Atlassian Jira Expert
 
 Master-level expertise in Jira configuration, project management, JQL, workflows, automation, and reporting. Handles all technical and operational aspects of Jira.

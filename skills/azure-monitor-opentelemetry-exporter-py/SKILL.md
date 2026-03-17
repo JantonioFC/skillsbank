@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure Monitor OpenTelemetry Exporter for Python
 
 Low-level exporter for sending OpenTelemetry traces, metrics, and logs to Application Insights.

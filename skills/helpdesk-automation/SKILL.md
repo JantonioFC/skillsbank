@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # HelpDesk Automation via Rube MCP
 
 Automate HelpDesk ticketing operations through Composio's HelpDesk toolkit via Rube MCP.

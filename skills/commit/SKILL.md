@@ -1,7 +1,13 @@
 ---
 name: commit
-description: ALWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, git commit, save changes, or commit message task.
+description: ALWAYS use this skill when committing code changes — never commit directly
+  without it. Creates commits following Sentry conventions with proper conventional
+  commit format and issue references. Trigger on any commit, git commit, save changes,
+  or commit message task.
+risk: unknown
+source: community
 ---
+
 
 # Sentry Commit Messages
 
@@ -158,3 +164,6 @@ Reason: Caused performance regression in production.
 ## References
 
 - [Sentry Commit Messages](https://develop.sentry.dev/engineering-practices/commit-messages/)
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

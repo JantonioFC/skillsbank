@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Close CRM Automation via Rube MCP
 
 Automate Close CRM operations through Composio's Close toolkit via Rube MCP.

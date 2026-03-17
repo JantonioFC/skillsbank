@@ -7,6 +7,7 @@ source: self
 ---
 
 
+
 # Odoo Purchase Workflow
 
 ## Overview

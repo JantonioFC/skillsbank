@@ -1,6 +1,8 @@
 ---
 name: cred-omega
-description: CISO operacional enterprise para gestao total de credenciais e segredos. Descobre, classifica, protege e governa TODAS as API keys, tokens, secrets, service accounts e credenciais em qualquer...
+description: CISO operacional enterprise para gestao total de credenciais e segredos.
+  Descobre, classifica, protege e governa TODAS as API keys, tokens, secrets, service
+  accounts e credenciais em qualquer...
 risk: critical
 source: community
 date_added: '2026-03-06'
@@ -18,6 +20,7 @@ tools:
 - gemini-cli
 - codex-cli
 ---
+
 
 # CRED-OMEGA: Security Engine for All API Keys (Enterprise)
 

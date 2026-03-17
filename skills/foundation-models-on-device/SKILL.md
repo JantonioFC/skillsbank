@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # FoundationModels: On-Device LLM (iOS 26)
 
 Patterns for integrating Apple's on-device language model into apps using the FoundationModels framework. Covers text generation, structured output with `@Generable`, custom tool calling, and snapshot streaming — all running on-device for privacy and offline support.

@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Multi-Cloud Architecture
 
 Decision framework and patterns for architecting applications across AWS, Azure, and GCP.

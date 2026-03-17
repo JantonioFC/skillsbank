@@ -1,7 +1,13 @@
 ---
 name: context-degradation
-description: This skill should be used when the user asks to "diagnose context problems", "fix lost-in-middle issues", "debug agent failures", "understand context poisoning", or mentions context degradation, attention patterns, context clash, context confusion, or agent performance...
+description: This skill should be used when the user asks to "diagnose context problems",
+  "fix lost-in-middle issues", "debug agent failures", "understand context poisoning",
+  or mentions context degradation, attention patterns, context clash, context confusion,
+  or agent performance...
+risk: unknown
+source: community
 ---
+
 
 # Context Degradation Patterns
 
@@ -229,3 +235,6 @@ External resources:
 **Last Updated**: 2025-12-20
 **Author**: Agent Skills for Context Engineering Contributors
 **Version**: 1.0.0
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

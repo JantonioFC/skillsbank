@@ -2,7 +2,10 @@
 name: rehabilitation-analyzer
 description: 分析康复训练数据、识别康复模式、评估康复进展，并提供个性化康复建议
 allowed-tools: Read, Grep, Glob, Write, Edit
+risk: unknown
+source: community
 ---
+
 
 # 康复训练分析技能
 
@@ -634,3 +637,6 @@ allowed-tools: Read, Grep, Glob, Write, Edit
 **技能版本**: v1.0
 **最后更新**: 2026-01-06
 **维护者**: WellAlly Tech
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

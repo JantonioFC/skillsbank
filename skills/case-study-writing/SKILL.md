@@ -11,6 +11,7 @@ license: MIT
 ---
 
 
+
 # Case Study Writing
 
 ## When to Use

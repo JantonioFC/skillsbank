@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # OSS Hunter 🎯
 
 A precision skill for agents to find, analyze, and strategize for high-impact Open Source contributions. This skill helps you become a top-tier contributor by identifying the most "mergeable" and influential issues in trending repositories.

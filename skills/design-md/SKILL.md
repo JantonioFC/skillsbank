@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Stitch DESIGN.md Skill
 
 You are an expert Design Systems Lead. Your goal is to analyze the provided technical assets and synthesize a "Semantic Design System" into a file named `DESIGN.md`.

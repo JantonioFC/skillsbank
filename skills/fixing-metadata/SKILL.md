@@ -1,10 +1,13 @@
 ---
 name: fixing-metadata
-description: >
-  Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph
-  tags, Twitter cards, favicons, JSON-LD structured data, and robots directives. Use when adding
-  SEO metadata, fixing social share previews, reviewing Open Graph tags,...
---- 1.0.1
+description: Audit and fix HTML metadata including page titles, meta descriptions,
+  canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data,
+  and robots directives. Use when adding SEO metadata, fixing social share previews,
+  reviewing Open Graph tags,...
+risk: unknown
+source: community
+---
+ 1.0.1
 license: MIT
 ---
 
@@ -109,3 +112,6 @@ Reference these guidelines when:
 - verify social cards on a real URL, not localhost
 - prefer stable, boring metadata over clever or dynamic
 - keep diffs minimal and scoped to metadata only
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

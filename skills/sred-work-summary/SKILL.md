@@ -1,7 +1,11 @@
 ---
 name: sred-work-summary
-description: Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects.
+description: Go back through the previous year of work and create a Notion doc that
+  groups relevant links into projects that can then be documented as SRED projects.
+risk: unknown
+source: community
 ---
+
 
 # SRED Work Summary
 
@@ -139,3 +143,5 @@ Ensure:
 
 This is an example Working Summary document for the year 2025: https://www.notion.so/sentry/Work-Summary-Feb-2025-Jan-2026-3068b10e4b5d81d3a40cfa6ad3fe1078?source=copy_link
 
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

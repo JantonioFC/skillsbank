@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 
 
 
+
 # API Patterns
 
 > API design principles and decision-making for 2025.

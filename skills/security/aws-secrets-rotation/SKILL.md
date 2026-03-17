@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # AWS Secrets Rotation
 
 Automate rotation of secrets, credentials, and API keys using AWS Secrets Manager and Lambda.

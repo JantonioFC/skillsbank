@@ -1,11 +1,13 @@
 ---
 name: api-endpoint-builder
-description: "Builds production-ready REST API endpoints with validation, error handling, authentication, and documentation. Follows best practices for security and scalability."
+description: Builds production-ready REST API endpoints with validation, error handling,
+  authentication, and documentation. Follows best practices for security and scalability.
 category: development
 risk: safe
 source: community
-date_added: "2026-03-05"
+date_added: '2026-03-05'
 ---
+
 
 # API Endpoint Builder
 

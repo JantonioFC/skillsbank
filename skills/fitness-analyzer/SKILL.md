@@ -2,7 +2,10 @@
 name: fitness-analyzer
 description: 分析运动数据、识别运动模式、评估健身进展，并提供个性化训练建议。支持与慢性病数据的关联分析。
 allowed-tools: Read, Grep, Glob, Write
+risk: unknown
+source: community
 ---
+
 
 # 运动分析器技能
 
@@ -429,3 +432,6 @@ r = Σ[(xi - x̄)(yi - ȳ)] / √[Σ(xi - x̄)² × Σ(yi - ȳ)²]
 **技能版本**: v1.0
 **最后更新**: 2026-01-02
 **维护者**: WellAlly Tech
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Canva Automation via Rube MCP
 
 Automate Canva design operations through Composio's Canva toolkit via Rube MCP.

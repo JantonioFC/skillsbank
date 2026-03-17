@@ -1,11 +1,16 @@
 ---
 name: robius-widget-patterns
-description: |
-  CRITICAL: Use for Robius widget patterns. Triggers on:
+description: 'CRITICAL: Use for Robius widget patterns. Triggers on:
+
   apply_over, TextOrImage, modal, 可复用, 模态,
+
   collapsible, drag drop, reusable widget, widget design,
-  pageflip, 组件设计, 组件模式
+
+  pageflip, 组件设计, 组件模式'
+risk: unknown
+source: community
 ---
+
 
 # Robius Widget Patterns Skill
 
@@ -424,3 +429,6 @@ impl Widget for ItemsList {
   - Chat line variants (UserLine, BotLine, ErrorLine, etc.)
   - `CommandTextInput` with action buttons
   - Sidebar navigation with radio buttons
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

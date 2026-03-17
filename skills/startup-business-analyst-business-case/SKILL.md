@@ -12,6 +12,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Business Case Generator
 
 Generate a comprehensive, investor-ready business case document covering market opportunity, solution, competitive landscape, financial projections, team, risks, and funding ask for startup fundraising and strategic planning.

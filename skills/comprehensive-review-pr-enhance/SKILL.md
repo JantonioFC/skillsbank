@@ -1,11 +1,13 @@
 ---
 name: comprehensive-review-pr-enhance
-description: >
-  Generate structured PR descriptions from diffs, add review checklists,
-  risk assessments, and test coverage summaries. Use when the user says
-  "write a PR description", "improve this PR", "summarize my changes",
-  "PR review", "pull request", or asks to document a diff for reviewers.
+description: Generate structured PR descriptions from diffs, add review checklists,
+  risk assessments, and test coverage summaries. Use when the user says "write a PR
+  description", "improve this PR", "summarize my changes", "PR review", "pull request",
+  or asks to document a diff for reviewers.
+risk: unknown
+source: community
 ---
+
 
 # Pull Request Enhancement
 
@@ -68,3 +70,6 @@ git cherry-pick <commits-for-part-1>
 ## Resources
 
 - `resources/implementation-playbook.md` — Python helpers for automated PR analysis, coverage reports, and risk scoring
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

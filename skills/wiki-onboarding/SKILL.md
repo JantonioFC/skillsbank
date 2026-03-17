@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # Wiki Onboarding Guide Generator
 
 Generate four audience-tailored onboarding documents in an `onboarding/` folder, each giving a different stakeholder exactly the understanding they need.

@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # @azure/storage-file-share (TypeScript/JavaScript)
 
 SDK for Azure File Share operations — SMB file shares, directories, and file operations.

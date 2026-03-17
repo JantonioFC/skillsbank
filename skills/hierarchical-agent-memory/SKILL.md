@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Hierarchical Agent Memory (HAM)
 
 Scoped memory system that gives AI coding agents a cheat sheet for each directory instead of re-reading your entire project every prompt. Root CLAUDE.md holds global context (~200 tokens), subdirectory CLAUDE.md files hold scoped context (~250 tokens each), and a `.memory/` layer stores decisions, patterns, and an inbox for unconfirmed inferences.

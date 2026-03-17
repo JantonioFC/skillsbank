@@ -1,10 +1,13 @@
 ---
 name: skill-scanner
 description: Scan agent skills for security issues. Use when asked to "scan a skill",
-  "audit a skill", "review skill security", "check skill for injection", "validate SKILL.md",
-  or assess whether an agent skill is safe to install. Checks for prompt injection,
-  malicious scripts,...
+  "audit a skill", "review skill security", "check skill for injection", "validate
+  SKILL.md", or assess whether an agent skill is safe to install. Checks for prompt
+  injection, malicious scripts,...
+risk: unknown
+source: community
 ---
+
 
 # Skill Security Scanner
 
@@ -195,3 +198,6 @@ Example assessments:
 | `references/prompt-injection-patterns.md` | Injection patterns, jailbreaks, obfuscation techniques, false positive guide |
 | `references/dangerous-code-patterns.md` | Script security patterns: exfiltration, shells, credential theft, eval/exec |
 | `references/permission-analysis.md` | Tool risk tiers, least privilege methodology, common skill permission profiles |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

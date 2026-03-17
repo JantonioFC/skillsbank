@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Microsoft Teams Automation via Rube MCP
 
 Automate Microsoft Teams operations through Composio's Microsoft Teams toolkit via Rube MCP.

@@ -20,6 +20,7 @@ source: community
 ---
 
 
+
 # fp-ts Validation Patterns
 
 This skill covers validation patterns using fp-ts, focusing on error accumulation, form validation, and API input validation.

@@ -1,7 +1,13 @@
 ---
 name: cirq
-description: Google quantum computing framework. Use when targeting Google Quantum AI hardware, designing noise-aware circuits, or running quantum characterization experiments. Best for Google hardware, noise modeling, and low-level circuit design. For IBM hardware use qiskit; for quantum...
---- Apache-2.0 license
+description: Google quantum computing framework. Use when targeting Google Quantum
+  AI hardware, designing noise-aware circuits, or running quantum characterization
+  experiments. Best for Google hardware, noise modeling, and low-level circuit design.
+  For IBM hardware use qiskit; for quantum...
+risk: unknown
+source: community
+---
+ Apache-2.0 license
 metadata:
     skill-author: K-Dense Inc.
 ---
@@ -342,3 +348,5 @@ results = noise_comparison_study(circuit, noise_levels)
 - Use noise models selectively on critical operations only
 - See `simulation.md` for performance optimization
 
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

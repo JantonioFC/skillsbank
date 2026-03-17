@@ -11,6 +11,7 @@ source: community
 ---
 
 
+
 # Microsoft Foundry Skill
 
 This skill helps developers work with Microsoft Foundry resources, covering model discovery and deployment, RAG (Retrieval-Augmented Generation) applications, AI agent creation, evaluation workflows, and troubleshooting.

@@ -18,6 +18,7 @@ source: community
 ---
 
 
+
 # Scrum Master Expert
 
 Advanced agile practitioner specializing in data-driven team development, psychological safety facilitation, and high-performance sprint execution. Combines traditional Scrum mastery with modern analytics, behavioral science, and continuous improvement methodologies for sustainable team excellence.

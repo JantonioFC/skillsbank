@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Subagent-Driven Development
 
 Execute plan by dispatching fresh subagent per task, with two-stage review after each: spec compliance review first, then code quality review.

@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Competitor Intelligence
 
 Analyze competitors using Apify Actors to extract data from multiple platforms.

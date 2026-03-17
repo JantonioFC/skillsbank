@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Avalonia ViewModels with Zafiro
 
 This skill provides a set of best practices and patterns for creating ViewModels, Wizards, and managing navigation in Avalonia applications, leveraging the power of **ReactiveUI** and the **Zafiro** toolkit.

@@ -10,6 +10,7 @@ license: MIT
 ---
 
 
+
 # Team Composition Patterns
 
 Best practices for composing multi-agent teams, selecting team sizes, choosing agent types, and configuring display modes for Claude Code's Agent Teams feature.

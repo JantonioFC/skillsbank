@@ -20,6 +20,7 @@ source: community
 ---
 
 
+
 # Managing Side Effects Functionally
 
 This skill covers functional programming techniques for handling side effects. Side effects are unavoidable in real programs - they're how we interact with the world. The goal isn't to eliminate them, but to control, isolate, and make them predictable.

@@ -1,11 +1,16 @@
 ---
 name: makepad-animation
-description: |
-  CRITICAL: Use for Makepad animation system. Triggers on:
+description: 'CRITICAL: Use for Makepad animation system. Triggers on:
+
   makepad animation, makepad animator, makepad hover, makepad state,
+
   makepad transition, "from: { all: Forward", makepad pressed,
-  makepad 动画, makepad 状态, makepad 过渡, makepad 悬停效果
+
+  makepad 动画, makepad 状态, makepad 过渡, makepad 悬停效果'
+risk: unknown
+source: community
 ---
+
 
 # Makepad Animation Skill
 
@@ -302,3 +307,6 @@ fn handle_event(&mut self, cx: &mut Cx, event: &Event, scope: &mut Scope) {
 3. `from` defines HOW to animate, `apply` defines WHAT to animate
 4. Makepad tweens between old and new values automatically
 5. Use `id!(state.value)` macro to reference animation states in Rust
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

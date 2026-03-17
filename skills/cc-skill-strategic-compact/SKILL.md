@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 
 
 
+
 # cc-skill-strategic-compact
 
 Development skill skill.

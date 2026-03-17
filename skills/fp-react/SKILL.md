@@ -1,26 +1,9 @@
 ---
 name: fp-react
-<<<<<<< HEAD
-description: Practical patterns for using fp-ts with React - hooks, state, forms,
-  data fetching. Works with React 18/19, Next.js 14/15.
-version: 2.0.0
-author: fp-ts-skills
-tags:
-- fp-ts
-- react
-- typescript
-- hooks
-- state-management
-- forms
-- data-fetching
-- remote-data
-- react-19
-- next-js
 risk: unknown
 source: community
+description: Fp react
 ---
-
-
 =======
 description: Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Works with React 18/19, Next.js 14/15.
 version: 2.0.0

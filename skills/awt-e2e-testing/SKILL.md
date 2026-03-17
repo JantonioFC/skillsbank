@@ -1,7 +1,13 @@
 ---
 name: awt-e2e-testing
-description: "AI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g"
+description: 'AI-powered E2E web testing — eyes and hands for AI coding tools. Declarative
+  YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection
+  (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill
+  awt -g'
+risk: unknown
+source: community
 ---
+
 
 # AWT — AI-Powered E2E Testing (Beta)
 
@@ -26,3 +32,6 @@ AWT gives AI coding tools the ability to see and interact with web applications 
 Built with the help of AI coding tools — and designed to help AI coding tools test better.
 
 Actively developed by a solo developer at AILoopLab. Feedback welcome!
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

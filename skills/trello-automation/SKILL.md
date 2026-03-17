@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Trello Automation via Rube MCP
 
 Automate Trello board management, card creation, and team workflows through Composio's Rube MCP integration.

@@ -1,13 +1,18 @@
 ---
 name: sdd-design
-description: >
-  Create technical design document with architecture decisions and approach.
-  Trigger: When the orchestrator launches you to write or update the technical design for a change.
+description: 'Create technical design document with architecture decisions and approach.
+  Trigger: When the orchestrator launches you to write or update the technical design
+  for a change.
+
+  '
 license: MIT
 metadata:
   author: gentleman-programming
-  version: "2.0"
+  version: '2.0'
+risk: unknown
+source: community
 ---
+
 
 ## Purpose
 
@@ -147,3 +152,6 @@ Ready for tasks (sdd-tasks).
 - Apply any `rules.design` from `openspec/config.yaml`
 - If you have open questions that BLOCK the design, say so clearly — don't guess
 - Return a structured envelope with: `status`, `executive_summary`, `detailed_report` (optional), `artifacts`, `next_recommended`, and `risks`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

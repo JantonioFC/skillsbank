@@ -11,6 +11,7 @@ license: MIT
 ---
 
 
+
 # YouTube Thumbnail Design
 
 ## When to Use

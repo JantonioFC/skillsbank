@@ -9,6 +9,7 @@ license: MIT
 ---
 
 
+
 # Visual Design Foundations
 
 Build cohesive, accessible visual systems using typography, color, spacing, and iconography fundamentals.

@@ -18,6 +18,7 @@ source: community
 ---
 
 
+
 # Functional Programming Fundamentals
 
 This skill covers the foundational concepts of functional programming. Master these before diving into fp-ts types like Option, Either, and Task. These concepts apply universally across functional programming languages and libraries.

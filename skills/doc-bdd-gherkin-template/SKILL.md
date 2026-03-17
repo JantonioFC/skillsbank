@@ -1,12 +1,14 @@
 ---
 id: doc-bdd-gherkin-template
 name: doc-bdd-gherkin-template
-description: Genera especificaciones BDD en formato Gherkin para definir comportamiento esperado del sistema.
+description: Genera especificaciones BDD en formato Gherkin para definir comportamiento
+  esperado del sistema.
 category: documentacion-de-codigo
 risk: safe
 source: personal
 date_added: '2026-03-11'
 ---
+
 
 # doc-bdd-gherkin-template
 
@@ -176,3 +178,6 @@ Este documento se considera finalizado solo cuando se marcan todos los puntos:
 * [ ] La IA ha generado y validado los esqueletos de codigo (step definitions) correspondientes.
 * [ ] Se han incluido escenarios para los 3 flujos: Camino Feliz (Exito), Casos de Borde (Limites) y Errores Tecnicos (Resiliencia).
 * [ ] Las etiquetas @tags estan correctamente aplicadas para el pipeline de CI/CD.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

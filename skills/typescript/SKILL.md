@@ -1,13 +1,17 @@
 ---
 name: typescript
-description: >
-  TypeScript strict patterns and best practices.
-  Trigger: When writing TypeScript code - types, interfaces, generics.
+description: 'TypeScript strict patterns and best practices. Trigger: When writing
+  TypeScript code - types, interfaces, generics.
+
+  '
 license: Apache-2.0
 metadata:
   author: gentleman-programming
-  version: "1.0"
+  version: '1.0'
+risk: unknown
+source: community
 ---
+
 
 ## Const Types Pattern (REQUIRED)
 
@@ -108,3 +112,6 @@ import { createUser, type Config } from "./utils";
 
 ## Keywords
 typescript, ts, types, interfaces, generics, strict mode, utility types
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

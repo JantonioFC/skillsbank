@@ -29,6 +29,7 @@ source: community
 ---
 
 
+
 # Marketing Demand & Acquisition
 
 Acquisition playbook for Series A+ startups scaling internationally (EU/US/Canada) with hybrid PLG/Sales-Led motion.

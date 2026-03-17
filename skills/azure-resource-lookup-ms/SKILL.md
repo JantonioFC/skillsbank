@@ -13,6 +13,7 @@ source: community
 ---
 
 
+
 # Azure Resource Lookup
 
 List, find, and discover Azure resources of any type across subscriptions and resource groups. Use Azure Resource Graph (ARG) for fast, cross-cutting queries when dedicated MCP tools don't cover the resource type.

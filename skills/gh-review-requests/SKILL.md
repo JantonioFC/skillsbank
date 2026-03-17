@@ -1,8 +1,14 @@
 ---
 name: gh-review-requests
-description: Fetch unread GitHub notifications for open PRs where review is requested from a specified team or opened by a team member. Use when asked to "find PRs I need to review", "show my review requests", "what needs my review", "fetch GitHub review requests", or "check team review queue".
+description: Fetch unread GitHub notifications for open PRs where review is requested
+  from a specified team or opened by a team member. Use when asked to "find PRs I
+  need to review", "show my review requests", "what needs my review", "fetch GitHub
+  review requests", or "check team review queue".
 allowed-tools: Bash
+risk: unknown
+source: community
 ---
+
 
 # GitHub Review Requests
 
@@ -75,3 +81,6 @@ Then for each `review_requested` notification, check:
 - `gh api repos/{repo}/pulls/{number}` — skip if `state == "closed"` or `merged_at` is set
 - `gh api repos/{repo}/pulls/{number}/requested_reviewers` — check `teams[].name`
 - `gh api orgs/{org}/teams/{slug}/members` — check if author is a member
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

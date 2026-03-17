@@ -1,7 +1,12 @@
 ---
 name: fixing-accessibility
-description: Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.
+description: Audit and fix HTML accessibility issues including ARIA labels, keyboard
+  navigation, focus management, color contrast, and form errors. Use when adding interactive
+  controls, forms, dialogs, or reviewing WCAG compliance.
+risk: unknown
+source: community
 ---
+
 
 # fixing-accessibility
 
@@ -134,3 +139,6 @@ Reference these guidelines when:
 - prefer native HTML before adding aria
 - quote the exact snippet, state the failure, propose a small fix
 - for complex widgets (menu, dialog, combobox), prefer established accessible primitives over custom behavior
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Asana Automation via Rube MCP
 
 Automate Asana operations through Composio's Asana toolkit via Rube MCP.

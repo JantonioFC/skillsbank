@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Senior QA Engineer
 
 Test automation, coverage analysis, and quality assurance patterns for React and Next.js applications.

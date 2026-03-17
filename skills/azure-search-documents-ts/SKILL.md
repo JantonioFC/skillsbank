@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure AI Search SDK for TypeScript
 
 Build search applications with vector, hybrid, and semantic search capabilities.

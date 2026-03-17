@@ -1,13 +1,18 @@
 ---
 name: sdd-explore
-description: >
-  Explore and investigate ideas before committing to a change.
-  Trigger: When the orchestrator launches you to think through a feature, investigate the codebase, or clarify requirements.
+description: 'Explore and investigate ideas before committing to a change. Trigger:
+  When the orchestrator launches you to think through a feature, investigate the codebase,
+  or clarify requirements.
+
+  '
 license: MIT
 metadata:
   author: gentleman-programming
-  version: "2.0"
+  version: '2.0'
+risk: unknown
+source: community
 ---
+
 
 ## Purpose
 
@@ -124,3 +129,6 @@ Return EXACTLY this format to the orchestrator (and write the same content to `e
 - If you can't find enough information, say so clearly
 - If the request is too vague to explore, say what clarification is needed
 - Return a structured envelope with: `status`, `executive_summary`, `detailed_report` (optional), `artifacts`, `next_recommended`, and `risks`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

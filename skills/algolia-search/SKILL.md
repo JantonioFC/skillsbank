@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Algolia Search Integration
 
 ## Patterns

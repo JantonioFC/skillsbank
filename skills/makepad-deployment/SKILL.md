@@ -1,12 +1,18 @@
 ---
 name: makepad-deployment
-description: |
-  CRITICAL: Use for Makepad packaging and deployment. Triggers on:
+description: 'CRITICAL: Use for Makepad packaging and deployment. Triggers on:
+
   deploy, package, APK, IPA, 打包, 部署,
+
   cargo-packager, cargo-makepad, WASM, Android, iOS,
+
   distribution, installer, .deb, .dmg, .nsis,
-  GitHub Actions, CI, action, marketplace
+
+  GitHub Actions, CI, action, marketplace'
+risk: unknown
+source: community
 ---
+
 
 # Makepad Packaging & Deployment
 
@@ -408,3 +414,6 @@ cargo makepad android install-toolchain --full-ndk
 - [robius-packaging-commands](https://github.com/project-robius/robius-packaging-commands)
 - [cargo-makepad](https://github.com/makepad/makepad)
 - [makepad-packaging-action](https://github.com/marketplace/actions/makepad-packaging-action)
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

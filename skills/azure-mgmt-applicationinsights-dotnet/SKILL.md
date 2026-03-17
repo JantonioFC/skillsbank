@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure.ResourceManager.ApplicationInsights (.NET)
 
 Azure Resource Manager SDK for managing Application Insights resources for application performance monitoring.

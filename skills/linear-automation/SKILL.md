@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Linear Automation via Rube MCP
 
 Automate Linear operations through Composio's Linear toolkit via Rube MCP.

@@ -1,3 +1,10 @@
+---
+name: magic-ui-generator
+risk: unknown
+source: community
+description: Community provided skill
+---
+
 --- 
 name: magic-ui-generator
 description: Utilizes Magic by 21st.dev to generate, compare, and integrate multiple production-ready UI component variations.

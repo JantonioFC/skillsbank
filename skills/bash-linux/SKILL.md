@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Bash Linux Patterns
 
 > Essential patterns for Bash on Linux/macOS.

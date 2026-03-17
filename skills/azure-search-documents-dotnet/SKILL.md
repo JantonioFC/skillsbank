@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure.Search.Documents (.NET)
 
 Build search applications with full-text, vector, semantic, and hybrid search capabilities.

@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure Database for PostgreSQL
 
 Configure passwordless authentication with Microsoft Entra ID for existing Azure Database for PostgreSQL Flexible Server. This skill focuses on setting up Entra ID authentication, managing user access, and migrating from password-based authentication.

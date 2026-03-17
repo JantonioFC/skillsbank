@@ -1,11 +1,14 @@
 ---
 name: explain-like-socrates
-description: >
-  Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates.
+description: 'Explains concepts using Socratic-style dialogue. Use when the user asks
+  to explain, teach or help understand a concept like socrates.
+
+  '
 risk: safe
 source: original
-date_added: "2026-03-11"
+date_added: '2026-03-11'
 ---
+
 
 # EXPLAIN LIKE SOCRATES
 
@@ -159,3 +162,6 @@ Optionally invite reflection with a prompt such as:
 - "Does the picture feel clearer?"
 
 Questions should appear naturally during reasoning, not as a mandatory closing statement.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

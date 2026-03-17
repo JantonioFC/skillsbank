@@ -21,6 +21,7 @@ source: community
 ---
 
 
+
 # Risk Management Specialist
 
 ISO 14971:2019 risk management implementation throughout the medical device lifecycle.

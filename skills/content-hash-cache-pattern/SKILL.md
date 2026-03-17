@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Content-Hash File Cache Pattern
 
 Cache expensive file processing results (PDF parsing, text extraction, image analysis) using SHA-256 content hashes as cache keys. Unlike path-based caching, this approach survives file moves/renames and auto-invalidates when content changes.

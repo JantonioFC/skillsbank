@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Telegram Automation via Rube MCP
 
 Automate Telegram operations through Composio's Telegram toolkit via Rube MCP.

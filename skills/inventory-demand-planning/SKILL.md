@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 ## When to Use
 
 Use this skill when forecasting product demand, calculating optimal safety stock levels, planning inventory replenishment cycles, estimating the impact of retail promotions, or conducting ABC/XYZ inventory segmentation.

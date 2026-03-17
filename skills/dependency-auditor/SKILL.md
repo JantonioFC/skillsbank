@@ -7,6 +7,7 @@ source: alirezarezvani/claude-skills
 ---
 
 
+
 # Dependency Auditor
 
 > **Skill Type:** POWERFUL  

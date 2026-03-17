@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Hybrid Search Implementation
 
 Patterns for combining vector similarity and keyword-based search.

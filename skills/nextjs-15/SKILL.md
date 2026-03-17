@@ -1,13 +1,17 @@
 ---
 name: nextjs-15
-description: >
-  Next.js 15 App Router patterns.
-  Trigger: When working with Next.js - routing, Server Actions, data fetching.
+description: 'Next.js 15 App Router patterns. Trigger: When working with Next.js -
+  routing, Server Actions, data fetching.
+
+  '
 license: Apache-2.0
 metadata:
   author: gentleman-programming
-  version: "1.0"
+  version: '1.0'
+risk: unknown
+source: community
 ---
+
 
 ## App Router File Conventions
 
@@ -148,3 +152,6 @@ export async function getSecretData() {
 
 ## Keywords
 nextjs, next.js, app router, server components, server actions, streaming
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

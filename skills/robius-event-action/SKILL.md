@@ -1,11 +1,16 @@
 ---
 name: robius-event-action
-description: |
-  CRITICAL: Use for Robius event and action patterns. Triggers on:
+description: 'CRITICAL: Use for Robius event and action patterns. Triggers on:
+
   custom action, MatchEvent, post_action, cx.widget_action,
+
   handle_actions, DefaultNone, widget action, event handling,
-  事件处理, 自定义动作
+
+  事件处理, 自定义动作'
+risk: unknown
+source: community
 ---
+
 
 # Robius Event and Action Patterns Skill
 
@@ -357,3 +362,6 @@ if let ItemAction::Selected(item_id) = action.as_widget_action().cast() {
   - External link handling
   - Platform-conditional actions (#[cfg])
   - UiRunner event handling
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

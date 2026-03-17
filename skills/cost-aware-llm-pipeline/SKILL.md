@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Cost-Aware LLM Pipeline
 
 Patterns for controlling LLM API costs while maintaining quality. Combines model routing, budget tracking, retry logic, and prompt caching into a composable pipeline.

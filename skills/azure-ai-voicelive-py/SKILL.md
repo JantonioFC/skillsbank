@@ -10,6 +10,7 @@ source: community
 ---
 
 
+
 # Azure AI Voice Live SDK
 
 Build real-time voice AI applications with bidirectional WebSocket communication.

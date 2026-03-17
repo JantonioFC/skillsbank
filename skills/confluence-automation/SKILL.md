@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Confluence Automation via Rube MCP
 
 Automate Confluence operations including page creation and updates, content search with CQL, space management, label tagging, and page hierarchy navigation through Composio's Confluence toolkit.

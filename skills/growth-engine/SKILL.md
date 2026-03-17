@@ -1,7 +1,8 @@
 ---
 name: growth-engine
-description: 'Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica. Ativar para: criar estrategia de growth,
-  SEO...'
+description: 'Motor de crescimento para produtos digitais -- growth hacking, SEO,
+  ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica.
+  Ativar para: criar estrategia de growth, SEO...'
 risk: none
 source: community
 date_added: '2026-03-06'
@@ -19,6 +20,7 @@ tools:
 - gemini-cli
 - codex-cli
 ---
+
 
 # GROWTH-ENGINE -- Crescimento Exponencial
 

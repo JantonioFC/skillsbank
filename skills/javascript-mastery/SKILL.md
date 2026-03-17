@@ -10,6 +10,7 @@ date_added: '2026-02-27'
 
 
 
+
 # 🧠 JavaScript Mastery
 
 > 33+ essential JavaScript concepts every developer should know, inspired by [33-js-concepts](https://github.com/leonardomso/33-js-concepts).

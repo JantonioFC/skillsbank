@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure AI Projects SDK for TypeScript
 
 High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations.

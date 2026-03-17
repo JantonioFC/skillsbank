@@ -9,6 +9,7 @@ license: MIT
 ---
 
 
+
 # Android Mobile Design
 
 Master Material Design 3 (Material You) and Jetpack Compose to build modern, adaptive Android applications that integrate seamlessly with the Android ecosystem.

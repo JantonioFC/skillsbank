@@ -11,6 +11,7 @@ source: community
 ---
 
 
+
 ## Overview
 
 Microsoft Entra ID (formerly Azure Active Directory) is Microsoft's cloud-based identity and access management service. App registrations allow applications to authenticate users and access Azure resources securely.

@@ -10,6 +10,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Box Automation via Rube MCP
 
 Automate Box operations including file upload/download, content search, folder management, collaboration, metadata queries, and sign requests through Composio's Box toolkit.

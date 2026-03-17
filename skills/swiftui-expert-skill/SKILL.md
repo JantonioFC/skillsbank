@@ -1,7 +1,13 @@
 ---
 name: swiftui-expert-skill
-description: Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, and iOS 26+ Liquid Glass adoption. Use when building new SwiftUI features, refactoring existing views, reviewing code quality, or adopting modern SwiftUI patterns.
+description: Write, review, or improve SwiftUI code following best practices for state
+  management, view composition, performance, and iOS 26+ Liquid Glass adoption. Use
+  when building new SwiftUI features, refactoring existing views, reviewing code quality,
+  or adopting modern SwiftUI patterns.
+risk: unknown
+source: community
 ---
+
 
 # SwiftUI Expert Skill
 
@@ -240,3 +246,6 @@ This skill focuses on **facts and best practices**, not architectural opinions:
 - We do encourage separating business logic for testability
 - We optimize for performance and maintainability
 - We follow Apple's Human Interface Guidelines and API design patterns
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

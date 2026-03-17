@@ -8,6 +8,7 @@ source: personal
 date_added: '2026-03-11'
 ---
 
+
 # doc-user-story-template
 
 Genera Historias de Usuario (User Stories) con criterios de aceptacion cuando el usuario necesita definir requisitos desde la perspectiva del usuario final.
@@ -129,3 +130,6 @@ Especificaciones granulares para el equipo de implementacion y subagentes de cod
 * **Historial de Cambios:**
   * *YYYY-MM-DD:* [Descripcion del cambio] - [Autor].
 * **Post-Mortem / Lecciones Aprendidas:** [Opcional: Notas tras el despliegue sobre dificultades encontradas].
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -1,10 +1,12 @@
 ---
-name: "yes-md"
-description: "6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest."
+name: yes-md
+description: '6-layer AI governance: safety gates, evidence-based debugging, anti-slack
+  detection, and machine-enforced hooks. Makes AI safe, thorough, and honest.'
 risk: safe
 source: community
-date_added: "2026-03-11"
+date_added: '2026-03-11'
 ---
+
 
 # YES.md — AI Governance Engine
 

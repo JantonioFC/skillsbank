@@ -10,6 +10,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Brevo Automation via Rube MCP
 
 Automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP.

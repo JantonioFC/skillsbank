@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Bats Testing Patterns
 
 Comprehensive guidance for writing comprehensive unit tests for shell scripts using Bats (Bash Automated Testing System), including test patterns, fixtures, and best practices for production-grade shell testing.

@@ -1,13 +1,17 @@
 ---
 name: stitch-loop
-description: Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern
+description: Teaches agents to iteratively build websites using Stitch with an autonomous
+  baton-passing loop pattern
 allowed-tools:
-  - "stitch*:*"
-  - "chrome*:*"
-  - "Read"
-  - "Write"
-  - "Bash"
+- stitch*:*
+- chrome*:*
+- Read
+- Write
+- Bash
+risk: unknown
+source: community
 ---
+
 
 # Stitch Build Loop
 
@@ -261,3 +265,6 @@ This skill works best with the `design-md` skill:
 | Inconsistent styles | Ensure `.stitch/DESIGN.md` is up-to-date and copied correctly |
 | Loop stalls | Verify `.stitch/next-prompt.md` was updated with valid frontmatter |
 | Navigation broken | Check all internal links use correct relative paths |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

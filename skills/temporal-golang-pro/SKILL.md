@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Temporal Go SDK (temporal-golang-pro)
 
 ## Overview

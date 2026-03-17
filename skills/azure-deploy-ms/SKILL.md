@@ -10,6 +10,7 @@ source: community
 ---
 
 
+
 # Azure Deploy
 
 > **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**

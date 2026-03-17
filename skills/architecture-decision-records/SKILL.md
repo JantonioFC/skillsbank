@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Architecture Decision Records
 
 Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions.

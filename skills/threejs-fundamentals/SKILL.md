@@ -1,7 +1,12 @@
 ---
 name: threejs-fundamentals
-description: Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creating cameras, configuring renderers, managing object hierarchies, or working with transforms.
+description: Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate
+  systems. Use when setting up 3D scenes, creating cameras, configuring renderers,
+  managing object hierarchies, or working with transforms.
+risk: unknown
+source: community
 ---
+
 
 # Three.js Fundamentals
 
@@ -486,3 +491,6 @@ scene.add(lod);
 - `threejs-geometry` - Geometry creation and manipulation
 - `threejs-materials` - Material types and properties
 - `threejs-lighting` - Light types and shadows
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

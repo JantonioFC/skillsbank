@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure Monitor Ingestion SDK for Python
 
 Send custom logs to Azure Monitor Log Analytics workspace using the Logs Ingestion API.

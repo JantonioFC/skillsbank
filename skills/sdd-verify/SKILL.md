@@ -1,13 +1,18 @@
 ---
 name: sdd-verify
-description: >
-  Validate that implementation matches specs, design, and tasks.
-  Trigger: When the orchestrator launches you to verify a completed (or partially completed) change.
+description: 'Validate that implementation matches specs, design, and tasks. Trigger:
+  When the orchestrator launches you to verify a completed (or partially completed)
+  change.
+
+  '
 license: MIT
 metadata:
   author: gentleman-programming
-  version: "2.0"
+  version: '2.0'
+risk: unknown
+source: community
 ---
+
 
 ## Purpose
 
@@ -278,3 +283,6 @@ Return to the orchestrator the same content you wrote to `verify-report.md`:
 - In `openspec` mode, ALWAYS save the report to `openspec/changes/{change-name}/verify-report.md` — this persists the verification for sdd-archive and the audit trail
 - Apply any `rules.verify` from `openspec/config.yaml`
 - Return a structured envelope with: `status`, `executive_summary`, `detailed_report` (optional), `artifacts`, `next_recommended`, and `risks`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

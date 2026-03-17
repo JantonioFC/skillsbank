@@ -1,13 +1,18 @@
 ---
 name: sdd-spec
-description: >
-  Write specifications with requirements and scenarios (delta specs for changes).
-  Trigger: When the orchestrator launches you to write or update specs for a change.
+description: 'Write specifications with requirements and scenarios (delta specs for
+  changes). Trigger: When the orchestrator launches you to write or update specs for
+  a change.
+
+  '
 license: MIT
 metadata:
   author: gentleman-programming
-  version: "2.0"
+  version: '2.0'
+risk: unknown
+source: community
 ---
+
 
 ## Purpose
 
@@ -164,3 +169,6 @@ Ready for design (sdd-design). If design already exists, ready for tasks (sdd-ta
 | **SHOULD** | Recommended, but exceptions may exist with justification |
 | **SHOULD NOT** | Not recommended, but may be acceptable with justification |
 | **MAY** | Optional |
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

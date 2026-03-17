@@ -1,8 +1,13 @@
 ---
 name: create-branch
-description: Create a git branch following Sentry naming conventions. Use when asked to "create a branch", "new branch", "start a branch", "make a branch", "switch to a new branch", or when starting new work on the default branch.
+description: Create a git branch following Sentry naming conventions. Use when asked
+  to "create a branch", "new branch", "start a branch", "make a branch", "switch to
+  a new branch", or when starting new work on the default branch.
 argument-hint: '[optional description of the work]'
+risk: unknown
+source: community
 ---
+
 
 # Create Branch
 
@@ -105,3 +110,6 @@ Restore any stashed changes after the branch is created.
 ## References
 
 - [Sentry Branch Naming](https://develop.sentry.dev/sdk/getting-started/standards/code-submission/#branch-naming)
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

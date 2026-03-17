@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 ## When to Use
 
 Use this skill when managing energy procurement tasks, such as optimizing electricity or gas tariffs, evaluating Power Purchase Agreements (PPAs), or developing long-term energy cost management strategies for commercial or industrial facilities.

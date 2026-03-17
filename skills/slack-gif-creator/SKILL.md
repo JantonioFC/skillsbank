@@ -10,6 +10,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Slack GIF Creator
 
 A toolkit providing utilities and knowledge for creating animated GIFs optimized for Slack.

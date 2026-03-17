@@ -1,7 +1,13 @@
 ---
 name: gha-security-review
-description: GitHub Actions security review for workflow exploitation vulnerabilities. Use when asked to "review GitHub Actions", "audit workflows", "check CI security", "GHA security", "workflow security review", or review .github/workflows/ for pwn requests, expression injection,...
+description: GitHub Actions security review for workflow exploitation vulnerabilities.
+  Use when asked to "review GitHub Actions", "audit workflows", "check CI security",
+  "GHA security", "workflow security review", or review .github/workflows/ for pwn
+  requests, expression injection,...
+risk: unknown
+source: community
 ---
+
 
 <!--
 Attack patterns and real-world examples sourced from the HackerBot Claw campaign analysis
@@ -183,3 +189,6 @@ If any link is broken, mark MEDIUM (needs verification) or drop the finding.
 ````
 
 If no findings: "No exploitable vulnerabilities identified. All workflows reviewed and cleared."
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

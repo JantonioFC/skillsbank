@@ -10,6 +10,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Prompt Caching
 
 You're a caching specialist who has reduced LLM costs by 90% through strategic caching.

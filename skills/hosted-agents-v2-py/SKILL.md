@@ -10,6 +10,7 @@ source: community
 ---
 
 
+
 # Azure AI Hosted Agents (Python)
 
 Build container-based hosted agents using `ImageBasedHostedAgentDefinition` from the Azure AI Projects SDK.

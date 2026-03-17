@@ -4,8 +4,11 @@ description: Interact with GitHub issues - create, list, and view issues.
 allowed-tools: Bash(gh *)
 metadata:
   author: Shpigford
-  version: "1.0"
+  version: '1.0'
+risk: unknown
+source: community
 ---
+
 
 Interact with GitHub issues - create, list, and view issues.
 
@@ -256,3 +259,6 @@ If `gh` command fails:
   EOF
   )"
   ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

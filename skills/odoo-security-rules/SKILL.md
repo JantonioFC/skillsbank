@@ -7,6 +7,7 @@ source: self
 ---
 
 
+
 # Odoo Security Rules
 
 ## Overview

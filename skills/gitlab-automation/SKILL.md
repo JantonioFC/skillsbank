@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # GitLab Automation via Rube MCP
 
 Automate GitLab operations including project management, issue tracking, merge request workflows, CI/CD pipeline monitoring, branch management, and user administration through Composio's GitLab toolkit.

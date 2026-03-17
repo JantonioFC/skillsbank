@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure AI VoiceLive SDK for Java
 
 Real-time, bidirectional voice conversations with AI assistants using WebSocket technology.

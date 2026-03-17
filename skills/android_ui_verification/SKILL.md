@@ -8,6 +8,7 @@ date_added: '2026-02-28'
 ---
 
 
+
 # Android UI Verification Skill
 
 This skill provides a systematic approach to testing React Native applications on an Android emulator using ADB commands. It allows for autonomous interaction, state verification, and visual regression checking.

@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # DeFi Protocol Templates
 
 Production-ready templates for common DeFi protocols including staking, AMMs, governance, lending, and flash loans.

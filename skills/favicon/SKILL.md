@@ -1,13 +1,17 @@
 ---
 name: favicon
-argument-hint: [path to source image]
+argument-hint:
+- path to source image
 description: Generate favicons from a source image
 allowed-tools: Bash(magick *), Bash(which *), Bash(cp *), Bash(mkdir *)
 context: fork
 metadata:
   author: Shpigford
-  version: "1.0"
+  version: '1.0'
+risk: unknown
+source: community
 ---
+
 
 Generate a complete set of favicons from the source image at `$1` and update the project's HTML with the appropriate link tags.
 
@@ -229,3 +233,6 @@ Report completion with:
 - If the source image doesn't exist, report the exact path that was tried and stop
 - If ImageMagick commands fail, report the specific error message
 - If the layout file cannot be found for HTML updates, generate files anyway and instruct on manual HTML addition
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

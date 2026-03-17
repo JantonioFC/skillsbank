@@ -8,6 +8,7 @@ license: MIT
 ---
 
 
+
 # PostgreSQL Table Design
 
 ## When to Use

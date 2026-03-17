@@ -10,6 +10,7 @@ source: community
 ---
 
 
+
 # Market Research
 
 Produce research that supports decisions, not research theater.

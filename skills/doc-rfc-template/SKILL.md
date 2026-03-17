@@ -8,6 +8,7 @@ source: personal
 date_added: '2026-03-11'
 ---
 
+
 # doc-rfc-template
 
 Genera un RFC (Request for Comments) técnico completo cuando el usuario necesita proponer y documentar un cambio arquitectónico o técnico significativo.
@@ -151,3 +152,6 @@ Lista de dudas que el autor tiene y sobre las que espera que los revisores comen
 * \[Enlace a Documentación Oficial de la tecnología elegida\].
 * \[Enlace a Código de prueba o Proof of Concept (PoC)\].
 * \[Enlace a ADRs relacionados\].
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

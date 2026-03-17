@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Next.js Best Practices
 
 > Principles for Next.js App Router development.

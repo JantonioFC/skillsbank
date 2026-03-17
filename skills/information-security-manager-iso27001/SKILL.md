@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Information Security Manager - ISO 27001
 
 Implement and manage Information Security Management Systems (ISMS) aligned with ISO 27001:2022 and healthcare regulatory requirements.

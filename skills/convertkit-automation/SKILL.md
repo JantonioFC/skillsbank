@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # ConvertKit (Kit) Automation via Rube MCP
 
 Automate ConvertKit (now known as Kit) email marketing operations through Composio's Kit toolkit via Rube MCP.

@@ -10,6 +10,7 @@ license: MIT
 ---
 
 
+
 # Task Coordination Strategies
 
 Strategies for decomposing complex tasks into parallelizable units, designing dependency graphs, writing effective task descriptions, and monitoring workload across agent teams.

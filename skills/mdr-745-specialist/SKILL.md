@@ -20,6 +20,7 @@ source: community
 ---
 
 
+
 # MDR 2017/745 Specialist
 
 EU MDR compliance patterns for medical device classification, technical documentation, and clinical evidence.

@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure Identity SDK for Python
 
 Authentication library for Azure SDK clients using Microsoft Entra ID (formerly Azure AD).

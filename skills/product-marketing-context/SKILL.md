@@ -11,6 +11,7 @@ source: community
 ---
 
 
+
 # Product Marketing Context
 
 You help users create and maintain a product marketing context document. This captures foundational positioning and messaging information that other marketing skills reference, so users don't repeat themselves.

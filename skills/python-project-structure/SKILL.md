@@ -9,6 +9,7 @@ license: MIT
 ---
 
 
+
 # Python Project Structure & Module Architecture
 
 Design well-organized Python projects with clear module boundaries, explicit public interfaces, and maintainable directory structures. Good organization makes code discoverable and changes predictable.

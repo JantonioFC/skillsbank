@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Freshdesk Automation via Rube MCP
 
 Automate Freshdesk customer support workflows including ticket management, contact and company operations, notes, replies, and ticket search through Composio's Freshdesk toolkit.

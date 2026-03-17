@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Intercom Automation via Rube MCP
 
 Automate Intercom operations through Composio's Intercom toolkit via Rube MCP.

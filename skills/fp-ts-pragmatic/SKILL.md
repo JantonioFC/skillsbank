@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Pragmatic Functional Programming
 
 **Read this first.** This guide cuts through the academic jargon and shows you what actually matters. No category theory. No abstract nonsense. Just patterns that make your code better.

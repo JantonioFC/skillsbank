@@ -7,6 +7,7 @@ source: alirezarezvani/claude-skills
 ---
 
 
+
 # Database Designer - POWERFUL Tier Skill
 
 ## Overview

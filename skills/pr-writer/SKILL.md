@@ -1,7 +1,13 @@
 ---
 name: pr-writer
-description: ALWAYS use this skill when creating or updating pull requests — never create or edit a PR directly without it. Follows Sentry conventions for PR titles, descriptions, and issue references. Trigger on any create PR, open PR, submit PR, make PR,...
+description: ALWAYS use this skill when creating or updating pull requests — never
+  create or edit a PR directly without it. Follows Sentry conventions for PR titles,
+  descriptions, and issue references. Trigger on any create PR, open PR, submit PR,
+  make PR,...
+risk: unknown
+source: community
 ---
+
 
 # PR Writer
 
@@ -181,3 +187,6 @@ Note: `gh pr edit` is currently broken due to GitHub's Projects (classic) deprec
 
 - [Sentry Code Review Guidelines](https://develop.sentry.dev/engineering-practices/code-review/)
 - [Sentry Commit Messages](https://develop.sentry.dev/engineering-practices/commit-messages/)
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

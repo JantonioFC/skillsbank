@@ -21,6 +21,7 @@ source: community
 ---
 
 
+
 # Head of Regulatory Affairs
 
 Regulatory strategy development, submission management, and global market access for medical device organizations.

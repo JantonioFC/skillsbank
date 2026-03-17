@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Calendly Automation via Rube MCP
 
 Automate Calendly operations including event listing, invitee management, scheduling link creation, availability queries, and organization administration through Composio's Calendly toolkit.

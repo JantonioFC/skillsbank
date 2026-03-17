@@ -1,10 +1,16 @@
 ---
 name: google-slides-automation
-description: |
-  Read and write Google Slides presentations - get text, find presentations, create presentations, add slides,
-  replace text, and manage slide content. Use when user asks to: read a presentation, create slides, find slides,
-  add a slide, replace text in a presentation, or...
---- Apache-2.0
+description: 'Read and write Google Slides presentations - get text, find presentations,
+  create presentations, add slides,
+
+  replace text, and manage slide content. Use when user asks to: read a presentation,
+  create slides, find slides,
+
+  add a slide, replace text in a presentation, or...'
+risk: unknown
+source: community
+---
+ Apache-2.0
 metadata:
   author: sanjay3290
   version: "1.0"
@@ -139,3 +145,6 @@ Tokens stored securely using the system keyring:
 Service name: `google-slides-skill-oauth`
 
 Automatically refreshes expired tokens using Google's cloud function.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

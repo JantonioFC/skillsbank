@@ -1,13 +1,17 @@
 ---
 name: zod-4
-description: >
-  Zod 4 schema validation patterns.
-  Trigger: When using Zod for validation - breaking changes from v3.
+description: 'Zod 4 schema validation patterns. Trigger: When using Zod for validation
+  - breaking changes from v3.
+
+  '
 license: Apache-2.0
 metadata:
   author: gentleman-programming
-  version: "1.0"
+  version: '1.0'
+risk: unknown
+source: community
 ---
+
 
 ## Breaking Changes from Zod 3
 
@@ -214,3 +218,6 @@ function Form() {
 
 ## Keywords
 zod, validation, schema, typescript, forms, parsing
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

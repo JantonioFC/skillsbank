@@ -1,7 +1,13 @@
 ---
 name: blog-writing-guide
-description: Write, review, and improve blog posts for the Sentry engineering blog following Sentry's specific writing standards, voice, and quality bar. Use this skill whenever someone asks to write a blog post, draft a technical article, review blog content, improve a draft, write a...
+description: Write, review, and improve blog posts for the Sentry engineering blog
+  following Sentry's specific writing standards, voice, and quality bar. Use this
+  skill whenever someone asks to write a blog post, draft a technical article, review
+  blog content, improve a draft, write a...
+risk: unknown
+source: community
 ---
+
 
 # Sentry Blog Writing Skill
 
@@ -153,3 +159,6 @@ Run through both checklists:
 - Post doesn't duplicate what's in the changelog
 
 When providing feedback, be specific and constructive. Quote the weak passage, explain why it's weak, and rewrite it to show the standard.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

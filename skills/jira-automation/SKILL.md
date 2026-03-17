@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Jira Automation via Rube MCP
 
 Automate Jira operations through Composio's Jira toolkit via Rube MCP.

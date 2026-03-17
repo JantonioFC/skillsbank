@@ -10,6 +10,7 @@ date_added: '2026-02-27'
 
 
 
+
 # 🤖 LLM Application Patterns
 
 > Production-ready patterns for building LLM applications, inspired by [Dify](https://github.com/langgenius/dify) and industry best practices.

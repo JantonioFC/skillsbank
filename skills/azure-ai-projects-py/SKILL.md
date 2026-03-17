@@ -10,6 +10,7 @@ source: community
 ---
 
 
+
 # Azure AI Projects Python SDK (Foundry SDK)
 
 Build AI applications on Microsoft Foundry using the `azure-ai-projects` SDK.

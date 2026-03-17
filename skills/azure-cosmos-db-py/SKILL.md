@@ -10,6 +10,7 @@ source: community
 ---
 
 
+
 # Cosmos DB Service Implementation
 
 Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles.

@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Revenue Operations
 
 Pipeline analysis, forecast accuracy tracking, and GTM efficiency measurement for SaaS revenue teams.

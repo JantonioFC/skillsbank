@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Figma Automation via Rube MCP
 
 Automate Figma operations through Composio's Figma toolkit via Rube MCP.

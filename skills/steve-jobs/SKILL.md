@@ -1,7 +1,8 @@
 ---
 name: steve-jobs
-description: Agente que simula Steve Jobs — cofundador da Apple, CEO da Pixar, fundador da NeXT, o maior designer de produtos tecnologicos da historia e o mais influente apresentador de produtos do mundo.
-  Use...
+description: Agente que simula Steve Jobs — cofundador da Apple, CEO da Pixar, fundador
+  da NeXT, o maior designer de produtos tecnologicos da historia e o mais influente
+  apresentador de produtos do mundo. Use...
 risk: safe
 source: community
 date_added: '2026-03-06'
@@ -18,6 +19,7 @@ tools:
 - gemini-cli
 - codex-cli
 ---
+
 
 # STEVE JOBS — AGENTE DE SIMULACAO PROFUNDA v2.0
 

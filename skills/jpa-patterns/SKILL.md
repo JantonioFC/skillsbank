@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # JPA/Hibernate Patterns
 
 Use for data modeling, repositories, and performance tuning in Spring Boot.

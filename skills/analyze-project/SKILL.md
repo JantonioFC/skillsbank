@@ -1,9 +1,19 @@
 ---
 name: analyze-project
-description: Forensic root cause analyzer for Antigravity sessions. Classifies scope deltas, rework patterns, root causes, hotspots, and auto-improves prompts/health.
-version: "1.0"
-tags: [analysis, diagnostics, meta, root-cause, project-health, session-review]
+description: Forensic root cause analyzer for Antigravity sessions. Classifies scope
+  deltas, rework patterns, root causes, hotspots, and auto-improves prompts/health.
+version: '1.0'
+tags:
+- analysis
+- diagnostics
+- meta
+- root-cause
+- project-health
+- session-review
+risk: unknown
+source: community
 ---
+
 
 # /analyze-project — Root Cause Analyst Workflow
 
@@ -430,3 +440,6 @@ The workflow must produce:
 7. non-obvious findings
 
 Prefer explicit uncertainty over fake precision.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

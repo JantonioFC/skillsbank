@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Microsoft 365 Tenant Manager
 
 Expert guidance and automation for Microsoft 365 Global Administrators managing tenant setup, user lifecycle, security policies, and organizational optimization.

@@ -1,7 +1,13 @@
 ---
 name: context-optimization
-description: This skill should be used when the user asks to "optimize context", "reduce token costs", "improve context efficiency", "implement KV-cache optimization", "partition context", or mentions context limits, observation masking, context budgeting, or extending effective context...
+description: This skill should be used when the user asks to "optimize context", "reduce
+  token costs", "improve context efficiency", "implement KV-cache optimization", "partition
+  context", or mentions context limits, observation masking, context budgeting, or
+  extending effective context...
+risk: unknown
+source: community
 ---
+
 
 # Context Optimization Techniques
 
@@ -177,3 +183,6 @@ External resources:
 **Last Updated**: 2025-12-20
 **Author**: Agent Skills for Context Engineering Contributors
 **Version**: 1.0.0
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

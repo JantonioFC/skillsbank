@@ -7,6 +7,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure.ResourceManager.Playwright (.NET)
 
 Management plane SDK for provisioning and managing Microsoft Playwright Testing workspaces via Azure Resource Manager.

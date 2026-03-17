@@ -1,7 +1,11 @@
 ---
 name: threejs-lighting
-description: Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance.
+description: Three.js lighting - light types, shadows, environment lighting. Use when
+  adding lights, configuring shadows, setting up IBL, or optimizing lighting performance.
+risk: unknown
+source: community
 ---
+
 
 # Three.js Lighting
 
@@ -479,3 +483,6 @@ decorMesh.castShadow = false; // Small objects often don't need to cast
 - `threejs-materials` - Material light response
 - `threejs-textures` - Lightmaps and environment maps
 - `threejs-postprocessing` - Bloom and other light effects
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Coda Automation via Rube MCP
 
 Automate Coda document and data operations through Composio's Coda toolkit via Rube MCP.

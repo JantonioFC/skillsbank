@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Sales Engineer Skill
 
 A production-ready skill package for pre-sales engineering that bridges technical expertise and sales execution. Provides automated analysis for RFP/RFI responses, competitive positioning, and proof-of-concept planning.

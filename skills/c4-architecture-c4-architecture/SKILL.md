@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 
 
 
+
 # C4 Architecture Documentation Workflow
 
 Generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach.

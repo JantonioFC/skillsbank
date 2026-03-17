@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Corporate Brand Guidelines Skill
 
 This skill ensures all generated documents adhere to corporate brand standards for consistent, professional communication.

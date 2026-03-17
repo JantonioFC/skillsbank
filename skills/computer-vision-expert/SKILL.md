@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Computer Vision Expert (SOTA 2026)
 
 **Role**: Advanced Vision Systems Architect & Spatial Intelligence Expert

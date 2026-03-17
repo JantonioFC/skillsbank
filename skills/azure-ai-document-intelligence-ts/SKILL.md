@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure Document Intelligence REST SDK for TypeScript
 
 Extract text, tables, and structured data from documents using prebuilt and custom models.

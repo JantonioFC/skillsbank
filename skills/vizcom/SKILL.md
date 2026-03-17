@@ -1,3 +1,10 @@
+---
+name: vizcom
+risk: unknown
+source: community
+description: Community provided skill
+---
+
 --- 
 name: vizcom
 description: AI-powered product design tool for transforming sketches into full-fidelity 3D renders.

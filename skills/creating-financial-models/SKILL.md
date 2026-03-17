@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # Financial Modeling Suite
 
 A comprehensive financial modeling toolkit for investment analysis, valuation, and risk assessment using industry-standard methodologies.

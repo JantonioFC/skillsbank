@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Segment Automation via Rube MCP
 
 Automate Segment customer data platform operations through Composio's Segment toolkit via Rube MCP.

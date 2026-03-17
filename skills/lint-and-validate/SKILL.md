@@ -10,6 +10,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Lint and Validate Skill
 
 > **MANDATORY:** Run appropriate validation tools after EVERY code change. Do not finish a task until the code is error-free.

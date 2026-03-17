@@ -1,10 +1,16 @@
 ---
 name: google-calendar-automation
-description: |
-  Interact with Google Calendar - list calendars, view events, create/update/delete events, and find free time.
-  Use when user asks to: check calendar, schedule a meeting, create an event, find available time, list upcoming events,
-  delete or update a calendar event, or...
---- Apache-2.0
+description: 'Interact with Google Calendar - list calendars, view events, create/update/delete
+  events, and find free time.
+
+  Use when user asks to: check calendar, schedule a meeting, create an event, find
+  available time, list upcoming events,
+
+  delete or update a calendar event, or...'
+risk: unknown
+source: community
+---
+ Apache-2.0
 metadata:
   author: sanjay3290
   version: "1.0"
@@ -157,3 +163,6 @@ Tokens stored securely using the system keyring:
 Service name: `google-calendar-skill-oauth`
 
 Tokens are automatically refreshed when expired using Google's cloud function.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

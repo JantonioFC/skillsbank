@@ -20,6 +20,7 @@ source: community
 ---
 
 
+
 # Marketing Strategy & PMM
 
 Product marketing patterns for positioning, GTM strategy, and competitive intelligence.

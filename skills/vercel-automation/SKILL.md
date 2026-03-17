@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Vercel Automation via Rube MCP
 
 Automate Vercel platform operations through Composio's Vercel toolkit via Rube MCP.

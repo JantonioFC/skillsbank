@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # GitHub Issue Creator
 
 Transform messy input (error logs, voice notes, screenshots) into clean, actionable GitHub issues.

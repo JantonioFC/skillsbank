@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Outlook Calendar Automation via Rube MCP
 
 Automate Outlook Calendar operations through Composio's Outlook toolkit via Rube MCP.

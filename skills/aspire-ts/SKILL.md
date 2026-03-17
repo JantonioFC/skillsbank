@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # .NET Aspire for JavaScript/TypeScript
 
 Orchestrate JavaScript and TypeScript applications using .NET Aspire's AppHost. Aspire treats JS/TS apps as first-class resources alongside .NET services, containers, and cloud infrastructure — providing service discovery, telemetry, health monitoring, and deployment from a single code-first model.

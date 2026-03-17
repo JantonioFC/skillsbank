@@ -1,10 +1,13 @@
 ---
 name: linkerd-patterns
-description: "Implement Linkerd service mesh patterns for lightweight, security-focused service mesh deployments. Use when setting up Linkerd, configuring traffic policies, or implementing zero-trust networking ..."
+description: Implement Linkerd service mesh patterns for lightweight, security-focused
+  service mesh deployments. Use when setting up Linkerd, configuring traffic policies,
+  or implementing zero-trust networking ...
 risk: unknown
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 <!-- security-allowlist: curl-pipe-bash -->
 
@@ -324,3 +327,6 @@ linkerd viz tap deploy/my-app --to deploy/my-backend
 - [Linkerd Documentation](https://linkerd.io/2.14/overview/)
 - [Service Profiles](https://linkerd.io/2.14/features/service-profiles/)
 - [Authorization Policy](https://linkerd.io/2.14/features/server-policy/)
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

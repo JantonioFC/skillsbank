@@ -11,6 +11,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 ## When to Use
 
 Use this skill once the project's niche or industry has been identified. It is essential for injecting domain-specific intelligence, regulatory requirements, and industry-standard UX patterns into the project.

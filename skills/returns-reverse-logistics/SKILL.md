@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 ## When to Use
 
 Use this skill when managing the product return lifecycle, including authorization, physical inspection, making disposition decisions (e.g., restock vs. liquidator), detecting return fraud, or processing warranty claims.

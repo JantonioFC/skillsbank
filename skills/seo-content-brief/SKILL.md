@@ -11,6 +11,7 @@ license: MIT
 ---
 
 
+
 # SEO Content Brief
 
 ## When to Use

@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # Security Scan Skill
 
 Audit your Claude Code configuration for security issues using [AgentShield](https://github.com/affaan-m/agentshield).

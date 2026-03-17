@@ -9,6 +9,7 @@ license: MIT
 ---
 
 
+
 # Python Type Safety
 
 Leverage Python's type system to catch errors at static analysis time. Type annotations serve as enforced documentation that tooling validates automatically.

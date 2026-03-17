@@ -1,12 +1,14 @@
 ---
 id: doc-prd-template
 name: doc-prd-template
-description: Genera documentos PRD (Product Requirements Document) para requisitos de producto.
+description: Genera documentos PRD (Product Requirements Document) para requisitos
+  de producto.
 category: documentacion-de-codigo
 risk: safe
 source: personal
 date_added: '2026-03-11'
 ---
+
 
 # doc-prd-template
 
@@ -139,3 +141,6 @@ Condiciones innegociables para dar el "Go" a producción.
 * **Estrategia de Lanzamiento:** (Ej. "Canary Release" al 5% de usuarios, luego incremento gradual).
 * **Canales de Soporte:** ¿Dónde reportan bugs los usuarios? (Ej. Canal de Slack \#soporte-proyecto).
 * **Ciclo de Feedback:** Planificación de la primera reunión de revisión post-lanzamiento (Retro).
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

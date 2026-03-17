@@ -7,6 +7,7 @@ source: self
 ---
 
 
+
 # Odoo HR & Payroll Setup
 
 ## Overview

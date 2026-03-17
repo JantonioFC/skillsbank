@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Instagram Automation via Rube MCP
 
 Automate Instagram operations through Composio's Instagram toolkit via Rube MCP.

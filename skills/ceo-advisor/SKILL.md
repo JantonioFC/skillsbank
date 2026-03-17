@@ -18,6 +18,7 @@ source: community
 ---
 
 
+
 # CEO Advisor
 
 Strategic frameworks and tools for chief executive leadership, organizational transformation, and stakeholder management.

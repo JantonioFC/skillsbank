@@ -1,11 +1,16 @@
 ---
 name: makepad-widgets
-description: |
-  CRITICAL: Use for Makepad widgets and UI components. Triggers on:
+description: 'CRITICAL: Use for Makepad widgets and UI components. Triggers on:
+
   makepad widget, makepad View, makepad Button, makepad Label, makepad Image,
+
   makepad TextInput, RoundedView, SolidView, ScrollView, "makepad component",
-  makepad Markdown, makepad Html, TextFlow, rich...
+
+  makepad Markdown, makepad Html, TextFlow, rich...'
+risk: unknown
+source: community
 ---
+
 
 # Makepad Widgets Skill
 
@@ -209,3 +214,6 @@ pub trait Widget: WidgetNode {
 2. View is the base container - most visual widgets inherit from it
 3. Draw shaders (`draw_bg`, `draw_text`) control appearance
 4. All widgets support animation through `animator` property
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

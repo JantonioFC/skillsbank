@@ -11,6 +11,7 @@ license: MIT
 ---
 
 
+
 # Parallel Feature Development
 
 Strategies for decomposing features into parallel work streams, establishing file ownership boundaries, avoiding conflicts, and integrating results from multiple implementer agents.

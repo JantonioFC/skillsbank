@@ -11,6 +11,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 ## Purpose
 
 This skill transforms raw, unstructured user prompts into highly optimized prompts using established prompting frameworks. It analyzes user intent, identifies task complexity, and intelligently selects the most appropriate framework(s) to maximize Claude/ChatGPT output quality.

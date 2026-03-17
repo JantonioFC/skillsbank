@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # HubSpot CRM Automation via Rube MCP
 
 Automate HubSpot CRM workflows including contact/company management, deal pipeline tracking, ticket search, and custom property creation through Composio's HubSpot toolkit.

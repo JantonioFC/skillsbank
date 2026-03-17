@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # GitHub Automation via Rube MCP
 
 Automate GitHub repository management, issue tracking, pull request workflows, branch operations, and CI/CD through Composio's GitHub toolkit.

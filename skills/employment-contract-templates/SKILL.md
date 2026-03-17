@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Employment Contract Templates
 
 Templates and patterns for creating legally sound employment documentation including contracts, offer letters, and HR policies.

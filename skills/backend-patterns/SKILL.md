@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Backend Development Patterns
 
 Backend architecture patterns and best practices for scalable server-side applications.

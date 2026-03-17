@@ -1,3 +1,10 @@
+---
+name: design-spells
+risk: unknown
+source: community
+description: Community provided skill
+---
+
 --- 
 name: design-spells
 description: Curated micro-interactions and design details that add "magic" and personality to websites and apps.

@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Outlook Automation via Rube MCP
 
 Automate Microsoft Outlook operations through Composio's Outlook toolkit via Rube MCP.

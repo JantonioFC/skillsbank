@@ -1,6 +1,8 @@
 ---
 name: devops-deploy
-description: 'DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infraestrutura como codigo e monitoramento. Ativar para: dockerizar aplicacao, configurar pipeline...'
+description: 'DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS
+  Lambda, SAM, Terraform, infraestrutura como codigo e monitoramento. Ativar para:
+  dockerizar aplicacao, configurar pipeline...'
 risk: critical
 source: community
 date_added: '2026-03-06'
@@ -19,6 +21,7 @@ tools:
 - gemini-cli
 - codex-cli
 ---
+
 
 # DEVOPS-DEPLOY — Da Ideia para Producao
 

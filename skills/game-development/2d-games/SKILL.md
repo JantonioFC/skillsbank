@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 
 
 
+
 # 2D Game Development
 
 > Principles for 2D game systems.

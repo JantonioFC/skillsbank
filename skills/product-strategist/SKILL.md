@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # Product Strategist
 
 Strategic toolkit for Head of Product to drive vision, alignment, and organizational excellence.

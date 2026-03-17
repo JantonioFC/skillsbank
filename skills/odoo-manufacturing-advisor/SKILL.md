@@ -7,6 +7,7 @@ source: self
 ---
 
 
+
 # Odoo Manufacturing Advisor
 
 ## Overview

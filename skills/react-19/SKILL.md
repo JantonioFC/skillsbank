@@ -1,13 +1,17 @@
 ---
 name: react-19
-description: >
-  React 19 patterns with React Compiler.
-  Trigger: When writing React components - no useMemo/useCallback needed.
+description: 'React 19 patterns with React Compiler. Trigger: When writing React components
+  - no useMemo/useCallback needed.
+
+  '
 license: Apache-2.0
 metadata:
   author: gentleman-programming
-  version: "1.0"
+  version: '1.0'
+risk: unknown
+source: community
 ---
+
 
 ## No Manual Memoization (REQUIRED)
 
@@ -122,3 +126,6 @@ const Input = forwardRef((props, ref) => <input ref={ref} {...props} />);
 
 ## Keywords
 react, react 19, compiler, useMemo, useCallback, server components, use hook
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

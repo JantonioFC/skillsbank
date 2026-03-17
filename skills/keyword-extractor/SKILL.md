@@ -1,11 +1,14 @@
 ---
 name: keyword-extractor
-description: >
-  Extracts up to 50 highly relevant SEO keywords from text. Use when user wants to generate or extract keywords for given text.
+description: 'Extracts up to 50 highly relevant SEO keywords from text. Use when user
+  wants to generate or extract keywords for given text.
+
+  '
 risk: safe
 source: original
-date_added: "2026-03-11"
+date_added: '2026-03-11'
 ---
+
 
 # Keyword Extractor
 
@@ -160,3 +163,6 @@ If any rule fails regenerate the list.
 If text is very short, infer likely topics and still generate keywords. Never exceed 50 keywords.
 
 ---
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

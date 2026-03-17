@@ -1,10 +1,13 @@
 ---
 name: closed-loop-delivery
-description: Use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification.
+description: Use when a coding task must be completed against explicit acceptance
+  criteria with minimal user re-intervention across implementation, review feedback,
+  deployment, and runtime verification.
 risk: safe
 source: community
-date_added: "2026-03-12"
+date_added: '2026-03-12'
 ---
+
 
 # Closed-Loop Delivery
 

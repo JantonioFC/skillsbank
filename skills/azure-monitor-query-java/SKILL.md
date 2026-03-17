@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure Monitor Query SDK for Java
 
 > **DEPRECATION NOTICE**: This package is deprecated in favor of:

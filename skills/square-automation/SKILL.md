@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Square Automation via Rube MCP
 
 Automate Square payment processing, order management, and invoicing through Composio's Square toolkit via Rube MCP.

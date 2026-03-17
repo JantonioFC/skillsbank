@@ -1,7 +1,12 @@
 ---
 name: threejs-animation
-description: Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.
+description: Three.js animation - keyframe animation, skeletal animation, morph targets,
+  animation mixing. Use when animating objects, playing GLTF animations, creating
+  procedural motion, or blending animations.
+risk: unknown
+source: community
 ---
+
 
 # Three.js Animation
 
@@ -550,3 +555,6 @@ function getClip(name) {
 - `threejs-loaders` - Loading animated GLTF models
 - `threejs-fundamentals` - Clock and animation loop
 - `threejs-shaders` - Vertex animation in shaders
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

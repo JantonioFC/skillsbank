@@ -8,6 +8,7 @@ source: personal
 date_added: '2026-03-11'
 ---
 
+
 # doc-dora-metrics-template
 
 Genera un reporte de métricas DORA y salud de ingeniería cuando el usuario necesita evaluar el rendimiento de su equipo y sistemas.
@@ -123,3 +124,6 @@ Resumen interpretativo sobre la evolución del equipo. ¿Estamos construyendo el
 * \[Enlace a Reporte de Cobertura de Código y Calidad Estática (SonarQube)\].
 * \[Enlace a Repositorio de ADRs (Architectural Decision Records) del periodo\].
 * \[Enlace a Historial de RFCs revisadas\].
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

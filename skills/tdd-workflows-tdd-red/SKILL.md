@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 
 
 
+
 Write comprehensive failing tests following TDD red phase principles.
 
 [Extended thinking: Generates failing tests that properly define expected behavior using test-automator agent.]

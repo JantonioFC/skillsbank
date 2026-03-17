@@ -1,13 +1,18 @@
 ---
 name: sdd-archive
-description: >
-  Sync delta specs to main specs and archive a completed change.
-  Trigger: When the orchestrator launches you to archive a change after implementation and verification.
+description: 'Sync delta specs to main specs and archive a completed change. Trigger:
+  When the orchestrator launches you to archive a change after implementation and
+  verification.
+
+  '
 license: MIT
 metadata:
   author: gentleman-programming
-  version: "2.0"
+  version: '2.0'
+risk: unknown
+source: community
 ---
+
 
 ## Purpose
 
@@ -119,3 +124,6 @@ Ready for the next change.
 - If `openspec/changes/archive/` doesn't exist, create it
 - Apply any `rules.archive` from `openspec/config.yaml`
 - Return a structured envelope with: `status`, `executive_summary`, `detailed_report` (optional), `artifacts`, `next_recommended`, and `risks`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

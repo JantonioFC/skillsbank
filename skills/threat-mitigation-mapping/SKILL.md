@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Threat Mitigation Mapping
 
 Connect threats to controls for effective security planning.

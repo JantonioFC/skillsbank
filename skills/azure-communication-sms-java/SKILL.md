@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure Communication SMS (Java)
 
 Send SMS messages to single or multiple recipients with delivery reporting.

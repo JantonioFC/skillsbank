@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # AppDeploy Skill
 
 Deploy web apps to AppDeploy via HTTP API.

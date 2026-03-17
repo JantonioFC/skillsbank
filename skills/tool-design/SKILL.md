@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 ## When to Use This Skill
 
 Build tools that agents can use effectively, including architectural reduction patterns

@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Tailwind CSS Patterns (v4 - 2025)
 
 > Modern utility-first CSS with CSS-native configuration.

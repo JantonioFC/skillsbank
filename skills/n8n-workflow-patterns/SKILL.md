@@ -1,7 +1,12 @@
 ---
 name: n8n-workflow-patterns
-description: Proven workflow architectural patterns from real n8n workflows. Use when building new workflows, designing workflow structure, choosing workflow patterns, planning workflow architecture, or asking about webhook processing, HTTP API integration,...
+description: Proven workflow architectural patterns from real n8n workflows. Use when
+  building new workflows, designing workflow structure, choosing workflow patterns,
+  planning workflow architecture, or asking about webhook processing, HTTP API integration,...
+risk: unknown
+source: community
 ---
+
 
 # n8n Workflow Patterns
 
@@ -409,3 +414,6 @@ Use `search_templates` and `get_template` from n8n-mcp tools to find examples!
 - n8n Expression Syntax - Write expressions correctly
 - n8n Validation Expert - Validate and fix errors
 - n8n Node Configuration - Configure specific operations
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

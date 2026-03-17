@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # AWS Solution Architect
 
 Design scalable, cost-effective AWS architectures for startups with infrastructure-as-code templates.

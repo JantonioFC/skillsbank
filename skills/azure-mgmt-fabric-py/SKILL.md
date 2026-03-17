@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure Fabric Management SDK for Python
 
 Manage Microsoft Fabric capacities and resources programmatically.

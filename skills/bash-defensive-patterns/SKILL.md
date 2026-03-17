@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Bash Defensive Patterns
 
 Comprehensive guidance for writing production-ready Bash scripts using defensive programming techniques, error handling, and safety best practices to prevent common pitfalls and ensure reliability.

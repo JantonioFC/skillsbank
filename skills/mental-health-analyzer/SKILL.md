@@ -2,7 +2,10 @@
 name: mental-health-analyzer
 description: 分析心理健康数据、识别心理模式、评估心理健康状况、提供个性化心理健康建议。支持与睡眠、运动、营养等其他健康数据的关联分析。
 allowed-tools: Read, Grep, Glob, Write, Edit
+risk: unknown
+source: community
 ---
+
 
 # 心理健康分析技能
 
@@ -979,3 +982,6 @@ allowed-tools: Read, Grep, Glob, Write, Edit
 **技能版本**: v1.0.0
 **最后更新**: 2025-01-06
 **维护者**: WellAlly Tech
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

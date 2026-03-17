@@ -1,12 +1,14 @@
 ---
 id: doc-fsd-template
 name: doc-fsd-template
-description: Genera documentos FSD (Functional Specification Document) con especificaciones funcionales detalladas.
+description: Genera documentos FSD (Functional Specification Document) con especificaciones
+  funcionales detalladas.
 category: documentacion-de-codigo
 risk: safe
 source: personal
 date_added: '2026-03-11'
 ---
+
 
 # doc-fsd-template
 
@@ -150,3 +152,6 @@ Define cuando una funcionalidad se considera "lista para el usuario".
 * **Glosario de Dominio:** Definicion de conceptos de negocio (Ej. Que es un "Usuario Premium" vs un "Usuario Activo"?).
 * **Librerias y SDKs:** Versiones especificas de dependencias mencionadas en la RFC que tienen impacto funcional.
 * **Historial de Cambios Funcionales:** Registro de modificaciones en la logica que afectan al desarrollo en curso.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

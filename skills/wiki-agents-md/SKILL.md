@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # AGENTS.md Generator
 
 Generate high-quality `AGENTS.md` files for repository folders. Each file provides coding agents with project-specific context — build commands, testing instructions, code style, structure, and operational boundaries.

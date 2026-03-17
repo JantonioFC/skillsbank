@@ -9,6 +9,7 @@ license: MIT
 ---
 
 
+
 # Responsive Design
 
 Master modern responsive design techniques to create interfaces that adapt seamlessly across all screen sizes and device contexts.

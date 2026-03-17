@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Sentry Automation via Rube MCP
 
 Automate Sentry error tracking and monitoring operations through Composio's Sentry toolkit via Rube MCP.

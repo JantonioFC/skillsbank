@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Mailchimp Automation via Rube MCP
 
 Automate Mailchimp email marketing workflows including campaign creation and sending, audience/list management, subscriber operations, segmentation, and performance analytics through Composio's Mailchimp toolkit.

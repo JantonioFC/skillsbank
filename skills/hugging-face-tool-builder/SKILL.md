@@ -1,7 +1,13 @@
 ---
 name: hugging-face-tool-builder
-description: Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated. This Skill creates a reusable script to...
+description: Use this skill when the user wants to build tool/scripts or achieve a
+  task where using data from the Hugging Face API would help. This is especially useful
+  when chaining or combining API calls or the task will be repeated/automated. This
+  Skill creates a reusable script to...
+risk: unknown
+source: community
 ---
+
 
 # Hugging Face API Tool Builder
 
@@ -108,3 +114,6 @@ Commands:
 ```
 
 The `hf` CLI command has replaced the now deprecated `huggingface_hub` CLI command.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

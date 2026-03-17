@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # Market Research
 
 Conduct market research using Apify Actors to extract data from multiple platforms.

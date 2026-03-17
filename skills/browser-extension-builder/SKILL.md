@@ -10,6 +10,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Browser Extension Builder
 
 **Role**: Browser Extension Architect

@@ -1,24 +1,9 @@
 ---
 name: fp-backend
-<<<<<<< HEAD
-description: Functional programming patterns for Node.js/Deno backend development
-  using fp-ts, ReaderTaskEither, and functional dependency injection
-version: 1.0.0
-author: kadu
-tags:
-- fp-ts
-- typescript
-- backend
-- functional-programming
-- node
-- deno
-- dependency-injection
-- reader-task-either
 risk: unknown
 source: community
+description: Fp backend
 ---
-
-
 =======
 description: Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection
 version: 1.0.0

@@ -1,23 +1,9 @@
 ---
 name: fp-errors
-<<<<<<< HEAD
-description: Stop throwing everywhere - handle errors as values using Either and TaskEither
-  for cleaner, more predictable code
-version: 1.0.0
-author: kadu
-tags:
-- fp-ts
-- error-handling
-- either
-- task-either
-- typescript
-- validation
-- practical
 risk: unknown
 source: community
+description: Fp errors
 ---
-
-
 =======
 description: Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code
 version: 1.0.0

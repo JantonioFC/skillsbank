@@ -1,11 +1,14 @@
 ---
 name: metasploit-framework
-description: "This skill should be used when the user asks to \"use Metasploit for penetration testing\", \"exploit vulnerabilities with msfconsole\", \"create payloads with msfvenom\", \"perform post-exp..."
+description: This skill should be used when the user asks to "use Metasploit for penetration
+  testing", "exploit vulnerabilities with msfconsole", "create payloads with msfvenom",
+  "perform post-exp...
 risk: offensive
 source: community
 author: zebbern
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Metasploit Framework
 

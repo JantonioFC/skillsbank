@@ -10,6 +10,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Architecture Decision Framework
 
 > "Requirements drive architecture. Trade-offs inform decisions. ADRs capture rationale."

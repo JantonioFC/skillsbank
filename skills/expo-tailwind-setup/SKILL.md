@@ -1,9 +1,13 @@
 ---
 name: expo-tailwind-setup
-description: Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling
+description: Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5
+  for universal styling
 version: 1.0.0
 license: MIT
+risk: unknown
+source: community
 ---
+
 
 # Tailwind CSS Setup for Expo with react-native-css
 
@@ -478,3 +482,6 @@ Add className to component props:
 ```tsx
 type Props = React.ComponentProps<typeof RNView> & { className?: string };
 ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -20,6 +20,7 @@ source: community
 ---
 
 
+
 # fp-ts Algebraic Data Types and Type Classes
 
 This skill covers algebraic data types (ADTs) and type classes in fp-ts for robust domain modeling in TypeScript.

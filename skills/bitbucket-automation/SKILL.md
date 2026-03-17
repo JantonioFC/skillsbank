@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Bitbucket Automation via Rube MCP
 
 Automate Bitbucket operations including repository management, pull request workflows, branch operations, issue tracking, and workspace administration through Composio's Bitbucket toolkit.

@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure AI Transcription SDK for Python
 
 Client library for Azure AI Transcription (speech-to-text) with real-time and batch transcription.

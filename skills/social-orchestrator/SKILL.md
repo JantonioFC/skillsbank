@@ -1,6 +1,8 @@
 ---
 name: social-orchestrator
-description: Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por...
+description: Orquestrador unificado de canais sociais — coordena Instagram, Telegram
+  e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas,
+  reutilizacao de conteudo por...
 risk: critical
 source: community
 date_added: '2026-03-06'
@@ -17,6 +19,7 @@ tools:
 - gemini-cli
 - codex-cli
 ---
+
 
 # SOCIAL-ORCHESTRATOR: Canais Unificados
 

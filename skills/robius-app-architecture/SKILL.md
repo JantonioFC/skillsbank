@@ -1,11 +1,16 @@
 ---
 name: robius-app-architecture
-description: |
-  CRITICAL: Use for Robius app architecture patterns. Triggers on:
+description: 'CRITICAL: Use for Robius app architecture patterns. Triggers on:
+
   Tokio, async, submit_async_request, 异步, 架构,
+
   SignalToUI, Cx::post_action, worker task,
-  app structure, MatchEvent, handle_startup
+
+  app structure, MatchEvent, handle_startup'
+risk: unknown
+source: community
 ---
+
 
 # Robius App Architecture Skill
 
@@ -326,3 +331,6 @@ impl AppMain for App {
   - `AbortOnDropHandle` for task cancellation
   - `ThreadToken` for non-Send types on WASM
   - `spawn()` platform-agnostic function
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

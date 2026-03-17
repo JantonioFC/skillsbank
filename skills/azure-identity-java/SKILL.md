@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure Identity (Java)
 
 Authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).

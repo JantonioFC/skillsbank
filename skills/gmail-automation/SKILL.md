@@ -1,10 +1,16 @@
 ---
 name: gmail-automation
-description: |
-  Interact with Gmail - search emails, read messages, send emails, create drafts, and manage labels.
-  Use when user asks to: search email, read email, send email, create email draft, mark as read,
-  archive email, star email, or manage Gmail labels. Lightweight alternative...
---- Apache-2.0
+description: 'Interact with Gmail - search emails, read messages, send emails, create
+  drafts, and manage labels.
+
+  Use when user asks to: search email, read email, send email, create email draft,
+  mark as read,
+
+  archive email, star email, or manage Gmail labels. Lightweight alternative...'
+risk: unknown
+source: community
+---
+ Apache-2.0
 metadata:
   author: sanjay3290
   version: "1.0"
@@ -180,3 +186,6 @@ Tokens stored securely using the system keyring:
 Service name: `gmail-skill-oauth`
 
 Tokens automatically refresh when expired using Google's cloud function.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

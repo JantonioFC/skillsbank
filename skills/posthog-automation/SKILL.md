@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # PostHog Automation via Rube MCP
 
 Automate PostHog product analytics and feature flag management through Composio's PostHog toolkit via Rube MCP.

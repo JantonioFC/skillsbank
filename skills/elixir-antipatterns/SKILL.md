@@ -1,13 +1,17 @@
 ---
 name: elixir-antipatterns
-description: >
-  Core catalog of 8 critical Elixir/Phoenix anti-patterns covering error handling,
-  separation of concerns, Ecto queries, and testing. 
-  Trigger: During Elixir code review, refactoring sessions, or when writing Phoenix/Ecto code.
+description: 'Core catalog of 8 critical Elixir/Phoenix anti-patterns covering error
+  handling, separation of concerns, Ecto queries, and testing.  Trigger: During Elixir
+  code review, refactoring sessions, or when writing Phoenix/Ecto code.
+
+  '
 metadata:
   author: tsardinasGitHub
-  version: "1.0"
+  version: '1.0'
+risk: unknown
+source: community
 ---
+
 
 # Elixir Anti-Patterns
 

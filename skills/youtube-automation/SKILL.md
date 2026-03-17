@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # YouTube Automation via Rube MCP
 
 Automate YouTube operations through Composio's YouTube toolkit via Rube MCP.

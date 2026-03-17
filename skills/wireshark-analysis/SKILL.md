@@ -1,11 +1,14 @@
 ---
 name: wireshark-analysis
-description: "This skill should be used when the user asks to \"analyze network traffic with Wireshark\", \"capture packets for troubleshooting\", \"filter PCAP files\", \"follow TCP/UDP streams\", \"dete..."
+description: This skill should be used when the user asks to "analyze network traffic
+  with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow
+  TCP/UDP streams", "dete...
 risk: unknown
 source: community
 author: zebbern
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Wireshark Network Traffic Analysis
 

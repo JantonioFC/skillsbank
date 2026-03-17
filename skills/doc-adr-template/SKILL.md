@@ -1,12 +1,14 @@
 ---
 id: doc-adr-template
 name: doc-adr-template
-description: Genera documentos ADR (Architectural Decision Record) para registrar decisiones arquitectónicas del proyecto.
+description: Genera documentos ADR (Architectural Decision Record) para registrar
+  decisiones arquitectónicas del proyecto.
 category: documentacion-de-codigo
 risk: safe
 source: personal
 date_added: '2026-03-11'
 ---
+
 
 # doc-adr-template
 
@@ -113,3 +115,6 @@ Como auditaremos que la decision fue la correcta y que se esta cumpliendo lo pro
 * **ADR Superado por:** (Si esta decision es reemplazada en el futuro, se debe colocar aqui el enlace al nuevo ADR para mantener la trazabilidad).
 * **Notas Post-Implementacion:** [Cualquier aprendizaje, incidente o ajuste realizado durante el despliegue real].
 * **Documentacion Relacionada:** [Enlace a Swagger, Diagramas de Arquitectura en Miro o Repositorios de Codigo].
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

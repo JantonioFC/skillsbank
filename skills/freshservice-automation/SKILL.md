@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Freshservice Automation via Rube MCP
 
 Automate Freshservice IT Service Management operations through Composio's Freshservice toolkit via Rube MCP.

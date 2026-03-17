@@ -1,24 +1,9 @@
 ---
 name: fp-async
-<<<<<<< HEAD
-description: Practical async patterns using TaskEither - clean pipelines instead of
-  try/catch hell, with real API examples
-version: 1.0.0
-author: kadu
-tags:
-- fp-ts
-- typescript
-- async
-- error-handling
-- practical
-- promises
-- api
-- fetch
 risk: unknown
 source: community
+description: Fp async
 ---
-
-
 =======
 description: Practical async patterns using TaskEither - clean pipelines instead of try/catch hell, with real API examples
 version: 1.0.0

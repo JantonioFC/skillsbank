@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Godot GDScript Patterns
 
 Production patterns for Godot 4.x game development with GDScript, covering architecture, signals, scenes, and optimization.

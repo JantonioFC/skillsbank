@@ -1,11 +1,13 @@
 ---
 name: differential-review
-description: >
-  Performs security-focused differential review of code changes (PRs, commits, diffs).
-  Adapts analysis depth to codebase size, uses git history for context, calculates
+description: Performs security-focused differential review of code changes (PRs, commits,
+  diffs). Adapts analysis depth to codebase size, uses git history for context, calculates
   blast radius, checks test coverage, and generates comprehensive markdown reports.
   Automatically...
+risk: unknown
+source: community
 ---
+
 
 # Differential Security Review
 
@@ -212,3 +214,6 @@ These patterns require adversarial analysis even in quick triage.
 **For first-time users:** Start with methodology.md to understand the complete workflow.
 
 **For experienced users:** Use this page's Quick Reference and Decision Tree to navigate directly to needed content.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

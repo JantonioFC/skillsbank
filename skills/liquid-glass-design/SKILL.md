@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Liquid Glass Design System (iOS 26)
 
 Patterns for implementing Apple's Liquid Glass — a dynamic material that blurs content behind it, reflects color and light from surrounding content, and reacts to touch and pointer interactions. Covers SwiftUI, UIKit, and WidgetKit integration.

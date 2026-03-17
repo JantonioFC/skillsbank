@@ -3,7 +3,10 @@ name: speed
 description: Launch RSVP speed reader for text
 trigger: command
 tools: Write, Bash, Read
+risk: unknown
+source: community
 ---
+
 
 # Speed Reader
 
@@ -33,3 +36,6 @@ Launch the RSVP speed reader to display text one word at a time with Spritz-styl
 
 ## Arguments
 $ARGUMENTS
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

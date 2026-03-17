@@ -16,6 +16,7 @@ source: community
 ---
 
 
+
 # Customer Success Manager
 
 Production-grade customer success analytics with multi-dimensional health scoring, churn risk prediction, and expansion opportunity identification. Three Python CLI tools provide deterministic, repeatable analysis using standard library only -- no external dependencies, no API calls, no ML models.

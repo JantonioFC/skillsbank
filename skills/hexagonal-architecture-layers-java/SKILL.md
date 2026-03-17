@@ -1,12 +1,17 @@
 ---
 name: hexagonal-architecture-layers-java
-description: >
-  Hexagonal architecture layering for Java services with strict boundaries.
-  Trigger: When structuring Java apps by Domain/Application/Infrastructure, or refactoring toward clean architecture.
+description: 'Hexagonal architecture layering for Java services with strict boundaries.
+  Trigger: When structuring Java apps by Domain/Application/Infrastructure, or refactoring
+  toward clean architecture.
+
+  '
 metadata:
   author: diegnghrmr
-  version: "1.0"
+  version: '1.0'
+risk: unknown
+source: community
 ---
+
 
 ## When to Use
 

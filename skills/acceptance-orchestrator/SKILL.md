@@ -1,10 +1,13 @@
 ---
 name: acceptance-orchestrator
-description: Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and acceptance verification with minimal human re-intervention.
+description: Use when a coding task should be driven end-to-end from issue intake
+  through implementation, review, deployment, and acceptance verification with minimal
+  human re-intervention.
 risk: safe
 source: community
-date_added: "2026-03-12"
+date_added: '2026-03-12'
 ---
+
 
 # Acceptance Orchestrator
 
@@ -104,3 +107,6 @@ When reporting status, always include:
 - `Need Human Input`: smallest next decision, if blocked
 
 Do not report "done" unless status is `accepted`.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -3,7 +3,10 @@ name: expo-dev-client
 description: Build and distribute Expo development clients locally or via TestFlight
 version: 1.0.0
 license: MIT
+risk: unknown
+source: community
 ---
+
 
 Use EAS Build to create development clients for testing native code changes on physical devices. Use this for creating custom Expo Go clients for testing branches of your app.
 
@@ -162,3 +165,6 @@ eas build -p ios --profile development --clear-cache
 eas --version
 eas update
 ```
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

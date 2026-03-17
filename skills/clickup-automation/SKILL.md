@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # ClickUp Automation via Rube MCP
 
 Automate ClickUp project management workflows including task creation and updates, workspace hierarchy navigation, comments, and team member management through Composio's ClickUp toolkit.

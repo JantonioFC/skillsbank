@@ -1,11 +1,16 @@
 ---
 name: molykit
-description: |
-  CRITICAL: Use for MolyKit AI chat toolkit. Triggers on:
+description: 'CRITICAL: Use for MolyKit AI chat toolkit. Triggers on:
+
   BotClient, OpenAI, SSE streaming, AI chat, molykit,
+
   PlatformSend, spawn(), ThreadToken, cross-platform async,
-  Chat widget, Messages, PromptInput, Avatar, LLM
+
+  Chat widget, Messages, PromptInput, Avatar, LLM'
+risk: unknown
+source: community
 ---
+
 
 # MolyKit Skill
 
@@ -362,3 +367,6 @@ fn send(&mut self, ...) -> BoxPlatformSendStream<...> {
 ## Reference Files
 
 - `llms.txt` - Complete MolyKit API reference
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

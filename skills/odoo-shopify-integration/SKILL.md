@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Odoo ↔ Shopify Integration
 
 ## Overview

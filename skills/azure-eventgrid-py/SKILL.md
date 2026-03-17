@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure Event Grid SDK for Python
 
 Event routing service for building event-driven applications with pub/sub semantics.

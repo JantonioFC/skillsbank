@@ -5,8 +5,11 @@ allowed-tools: Bash(chmod *), Bash(bundle *), Bash(npm *), Bash(script/server)
 context: fork
 metadata:
   author: Shpigford
-  version: "1.0"
+  version: '1.0'
+risk: unknown
+source: community
 ---
+
 
 Set up this Rails project for Conductor, the Mac app for parallel coding agents.
 
@@ -111,3 +114,6 @@ After creating the files:
 1. Confirm all Conductor files exist and scripts are executable
 2. Run `script/server` to verify it starts without errors
 3. Check that Rails configs properly reference `ENV['REDIS_URL']` or `ENV.fetch('REDIS_URL', ...)`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

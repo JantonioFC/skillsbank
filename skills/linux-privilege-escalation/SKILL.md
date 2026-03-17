@@ -1,11 +1,14 @@
 ---
 name: linux-privilege-escalation
-description: "This skill should be used when the user asks to \"escalate privileges on Linux\", \"find privesc vectors on Linux systems\", \"exploit sudo misconfigurations\", \"abuse SUID binaries\", \"ex..."
+description: This skill should be used when the user asks to "escalate privileges
+  on Linux", "find privesc vectors on Linux systems", "exploit sudo misconfigurations",
+  "abuse SUID binaries", "ex...
 risk: unknown
 source: community
 author: zebbern
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 <!-- security-allowlist: curl-pipe-bash -->
 

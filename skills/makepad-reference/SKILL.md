@@ -1,12 +1,18 @@
 ---
 name: makepad-reference
-description: |
-  CRITICAL: Use for Makepad troubleshooting and reference. Triggers on:
+description: 'CRITICAL: Use for Makepad troubleshooting and reference. Triggers on:
+
   troubleshoot, error, debug, fix, problem, issue,
+
   no matching field, parse error, widget not found, UI not updating,
+
   code quality, refactor, responsive layout, adaptive,
-  api docs, reference,...
+
+  api docs, reference,...'
+risk: unknown
+source: community
 ---
+
 
 # Makepad Reference
 
@@ -50,3 +56,6 @@ log!("State: {} / {}", self.counter, self.is_loading);
 - [Makepad Repository](https://github.com/makepad/makepad)
 - [Robrix](https://github.com/project-robius/robrix) - Production reference
 - [Moly](https://github.com/moxin-org/moly) - Production reference
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

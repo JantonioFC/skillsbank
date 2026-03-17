@@ -22,6 +22,7 @@ source: community
 ---
 
 
+
 # Agile Product Owner
 
 Backlog management and sprint execution toolkit for product owners, including user story generation, acceptance criteria patterns, sprint planning, and velocity tracking.

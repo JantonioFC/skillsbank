@@ -1,12 +1,20 @@
 ---
 name: product-manager
-description: "Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts."
-version: "1.0.0"
-author: "Digidai"
-tags: ["product-management", "saas", "frameworks", "metrics", "strategy"]
-source: "Digidai/product-manager-skills (MIT)"
-date_added: "2026-03-06"
+description: Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates,
+  and 32 SaaS metrics with formulas. Pure Markdown, zero scripts.
+version: 1.0.0
+author: Digidai
+tags:
+- product-management
+- saas
+- frameworks
+- metrics
+- strategy
+source: Digidai/product-manager-skills (MIT)
+date_added: '2026-03-06'
+risk: unknown
 ---
+
 
 # Product Manager Skills
 
@@ -40,3 +48,6 @@ Works with Claude Code, Cursor, Windsurf, OpenAI Codex, Gemini CLI, GitHub Copil
 ## Source
 
 GitHub: https://github.com/Digidai/product-manager-skills
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

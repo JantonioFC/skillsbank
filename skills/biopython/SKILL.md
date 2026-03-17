@@ -1,7 +1,13 @@
 ---
 name: biopython
-description: Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Best for batch processing, custom bioinformatics pipelines, BLAST automation. For quick lookups use gget;...
---- Unknown
+description: Comprehensive molecular biology toolkit. Use for sequence manipulation,
+  file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access
+  (Bio.Entrez). Best for batch processing, custom bioinformatics pipelines, BLAST
+  automation. For quick lookups use gget;...
+risk: unknown
+source: community
+---
+ Unknown
 metadata:
     skill-author: K-Dense Inc.
 ---

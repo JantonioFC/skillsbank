@@ -1,11 +1,14 @@
 ---
 name: top-web-vulnerabilities
-description: "This skill should be used when the user asks to \"identify web application vulnerabilities\", \"explain common security flaws\", \"understand vulnerability categories\", \"learn about inject..."
+description: This skill should be used when the user asks to "identify web application
+  vulnerabilities", "explain common security flaws", "understand vulnerability categories",
+  "learn about inject...
 risk: unknown
 source: community
 author: zebbern
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
+
 
 # Top 100 Web Vulnerabilities Reference
 

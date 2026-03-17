@@ -1,13 +1,18 @@
 ---
 name: sdd-apply
-description: >
-  Implement tasks from the change, writing actual code following the specs and design.
-  Trigger: When the orchestrator launches you to implement one or more tasks from a change.
+description: 'Implement tasks from the change, writing actual code following the specs
+  and design. Trigger: When the orchestrator launches you to implement one or more
+  tasks from a change.
+
+  '
 license: MIT
 metadata:
   author: gentleman-programming
-  version: "2.0"
+  version: '2.0'
+risk: unknown
+source: community
 ---
+
 
 ## Purpose
 
@@ -182,3 +187,6 @@ If none, say "None."}
 - If TDD mode is detected (Step 2), ALWAYS follow the RED → GREEN → REFACTOR cycle — never skip RED (writing the failing test first)
 - When running tests during TDD, run ONLY the relevant test file/suite, not the entire test suite (for speed)
 - Return a structured envelope with: `status`, `executive_summary`, `detailed_report` (optional), `artifacts`, `next_recommended`, and `risks`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

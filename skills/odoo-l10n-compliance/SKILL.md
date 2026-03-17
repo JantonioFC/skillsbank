@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Odoo Localization & Compliance (l10n)
 
 ## Overview

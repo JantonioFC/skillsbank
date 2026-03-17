@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 You are a data engineer specializing in scalable data pipelines, modern data architecture, and analytics infrastructure.
 
 ## Use this skill when

@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # Skill Creator
 
 Guide for creating skills that extend AI agent capabilities, with emphasis on Azure SDKs and Microsoft Foundry.

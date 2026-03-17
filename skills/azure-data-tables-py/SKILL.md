@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure Tables SDK for Python
 
 NoSQL key-value store for structured data (Azure Storage Tables or Cosmos DB Table API).

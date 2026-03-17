@@ -17,6 +17,7 @@ source: community
 ---
 
 
+
 # fp-ts Pipe and Flow Composition
 
 Function composition is the heart of functional programming. fp-ts provides two powerful utilities for composing functions: `pipe` and `flow`. This guide covers everything you need to build elegant, type-safe pipelines.

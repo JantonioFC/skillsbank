@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # Continual Learning for AI Coding Agents
 
 Your agent forgets everything between sessions. Continual learning fixes that.

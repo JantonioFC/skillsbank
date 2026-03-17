@@ -10,6 +10,7 @@ metadata:
 ---
 
 
+
 # Vibe Code Auditor
 
 ## Identity

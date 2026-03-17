@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Atlassian Confluence Expert
 
 Master-level expertise in Confluence space management, documentation architecture, content creation, macros, templates, and collaborative knowledge management.

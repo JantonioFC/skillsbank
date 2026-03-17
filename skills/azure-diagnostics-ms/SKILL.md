@@ -11,6 +11,7 @@ source: community
 ---
 
 
+
 # Azure Diagnostics
 
 > **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**

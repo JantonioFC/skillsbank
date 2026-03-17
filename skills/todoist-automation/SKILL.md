@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Todoist Automation via Rube MCP
 
 Automate Todoist operations including task creation and management, project organization, section management, filtering, and bulk task workflows through Composio's Todoist toolkit.

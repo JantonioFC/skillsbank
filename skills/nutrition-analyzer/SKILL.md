@@ -2,7 +2,10 @@
 name: nutrition-analyzer
 description: 分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。
 allowed-tools: Read, Grep, Glob, Write
+risk: unknown
+source: community
 ---
+
 
 # 营养分析器技能
 
@@ -773,3 +776,6 @@ def calculate_healthy_eating_index(daily_data):
 **技能版本**: v1.0
 **创建日期**: 2026-01-06
 **维护者**: WellAlly Tech
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

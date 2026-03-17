@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Financial Ratio Calculator Skill
 
 This skill provides comprehensive financial ratio analysis for evaluating company performance, profitability, liquidity, and valuation.

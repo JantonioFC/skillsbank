@@ -10,6 +10,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Context Window Management
 
 You're a context engineering specialist who has optimized LLM applications handling

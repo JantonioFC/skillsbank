@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # GDPR/DSGVO Expert
 
 Tools and guidance for EU General Data Protection Regulation (GDPR) and German Bundesdatenschutzgesetz (BDSG) compliance.

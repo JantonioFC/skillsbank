@@ -1,7 +1,10 @@
 ---
 name: sexual-health-analyzer
 description: Sexual Health Analyzer
+risk: unknown
+source: community
 ---
+
 
 # 性健康分析技能
 
@@ -1116,3 +1119,6 @@ description: Sexual Health Analyzer
 **版本**: v1.0.0
 **最后更新**: 2025-01-06
 **维护者**: WellAlly Tech
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

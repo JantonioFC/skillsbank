@@ -8,6 +8,7 @@ source: personal
 date_added: '2026-03-11'
 ---
 
+
 # doc-tdd-testing-template
 
 Genera un plan de pruebas unitarias y estrategia TDD completo cuando el usuario necesita definir su enfoque de testing.
@@ -147,3 +148,6 @@ Instrucciones específicas para que los agentes (Agent-Coder / Agent-Tester) gen
 2. **Nombramiento Semántico:** El nombre del test debe ser una oración clara: should\_return\_error\_when\_discount\_exceeds\_total().
 3. **Un solo Assert lógico:** Cada test debe validar un único concepto para facilitar la depuración cuando falle.
 4. **Independencia de Datos:** No asumas que la base de datos tiene datos previos. Crea tus propios datos dentro del bloque *Arrange*.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -11,6 +11,7 @@ source: community
 ---
 
 
+
 # Capacity Discovery
 
 Finds available Azure OpenAI model capacity across all accessible regions and projects. Recommends the best deployment location based on capacity requirements.

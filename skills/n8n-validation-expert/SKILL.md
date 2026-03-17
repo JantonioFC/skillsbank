@@ -1,7 +1,12 @@
 ---
 name: n8n-validation-expert
-description: Interpret validation errors and guide fixing them. Use when encountering validation errors, validation warnings, false positives, operator structure issues, or need help understanding validation results. Also use when asking about validation...
+description: Interpret validation errors and guide fixing them. Use when encountering
+  validation errors, validation warnings, false positives, operator structure issues,
+  or need help understanding validation results. Also use when asking about validation...
+risk: unknown
+source: community
 ---
+
 
 # n8n Validation Expert
 
@@ -687,3 +692,6 @@ For comprehensive error catalogs and false positive examples:
 - n8n MCP Tools Expert - Use validation tools correctly
 - n8n Expression Syntax - Fix expression errors
 - n8n Node Configuration - Understand required fields
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

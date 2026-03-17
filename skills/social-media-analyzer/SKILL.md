@@ -20,6 +20,7 @@ source: community
 ---
 
 
+
 # Social Media Analyzer
 
 Campaign performance analysis with engagement metrics, ROI calculations, and platform benchmarks.

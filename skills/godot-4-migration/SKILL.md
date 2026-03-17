@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Godot 4 Migration Guide
 
 ## Overview

@@ -10,6 +10,7 @@ license: MIT
 ---
 
 
+
 # Browser Automation with browser-use CLI
 
 ## When to Use

@@ -2,7 +2,10 @@
 name: tcm-constitution-analyzer
 description: 分析中医体质数据、识别体质类型、评估体质特征,并提供个性化养生建议。支持与营养、运动、睡眠等健康数据的关联分析。
 allowed-tools: Read, Grep, Glob, Write
+risk: unknown
+source: community
 ---
+
 
 # 中医体质辨识分析器技能
 
@@ -662,3 +665,6 @@ def determine_constitution_type(scores):
 **技能版本**: v1.0
 **创建日期**: 2026-01-08
 **维护者**: WellAlly Tech
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

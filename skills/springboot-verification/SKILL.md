@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Spring Boot Verification Loop
 
 Run before PRs, after major changes, and pre-deploy.

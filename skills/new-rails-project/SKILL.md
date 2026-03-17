@@ -1,13 +1,18 @@
 ---
 name: new-rails-project
-argument-hint: [project name]
+argument-hint:
+- project name
 description: Create a new Rails project
-allowed-tools: Bash(rails *), Bash(bundle *), Bash(bin/*), Bash(npm *), Bash(yarn *)
+allowed-tools: Bash(rails *), Bash(bundle *), Bash(bin/*), Bash(npm *), Bash(yarn
+  *)
 context: fork
 metadata:
   author: Shpigford
-  version: "1.0"
+  version: '1.0'
+risk: unknown
+source: community
 ---
+
 
 Generate a new Rails project named $1 in the current directory. You may reference @CLAUDE.md for general guidance, though the guidance here takes precedence.
 
@@ -56,3 +61,6 @@ Set up the following tech stack:
 
 # Verify
 Verify the boilerplate is working by running `bin/rails server` and accessing the application at `http://localhost:3000` via playwright MCP.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

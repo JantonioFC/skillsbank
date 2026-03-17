@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Saga Orchestration
 
 Patterns for managing distributed transactions and long-running business processes.

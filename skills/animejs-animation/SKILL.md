@@ -1,3 +1,10 @@
+---
+name: animejs-animation
+risk: unknown
+source: community
+description: Community provided skill
+---
+
 --- 
 name: animejs-animation
 description: Advanced JavaScript animation library skill for creating complex, high-performance web animations.

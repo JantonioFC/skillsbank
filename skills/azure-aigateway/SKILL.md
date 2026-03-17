@@ -11,6 +11,7 @@ source: community
 ---
 
 
+
 # Azure AI Gateway
 
 Bootstrap and configure Azure API Management (APIM) as an AI Gateway for securing, observing, and controlling AI models, tools (MCP Servers), and agents.

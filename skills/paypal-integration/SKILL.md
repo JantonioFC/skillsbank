@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # PayPal Integration
 
 Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows.

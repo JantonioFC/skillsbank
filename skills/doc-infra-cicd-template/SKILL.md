@@ -8,6 +8,7 @@ source: personal
 date_added: '2026-03-11'
 ---
 
+
 # doc-infra-cicd-template
 
 Genera una especificacion de infraestructura y pipeline CI/CD cuando el usuario necesita documentar la configuracion de entornos, despliegues o pipelines.
@@ -131,3 +132,6 @@ Directrices criticas para que los agentes de IA mantengan la integridad y seguri
 2. **Principio de Inmutabilidad:** No instales paquetes en servidores en ejecucion; genera una nueva imagen de contenedor o una nueva AMI (Amazon Machine Image).
 3. **Seguridad por Defecto:** Cada nuevo recurso (Bucket S3, Base de Datos RDS) debe crearse con cifrado en reposo activado y sin acceso publico de forma predeterminada.
 4. **Etiquetado y Control de Costos:** Cada recurso debe incluir etiquetas (tags) obligatorias de: Project, Environment, Owner y CostCenter para auditoria y optimizacion financiera automatica.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

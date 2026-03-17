@@ -1,11 +1,17 @@
 ---
 name: evolution
-description: |
-  CRITICAL: Use for makepad-skills self-evolution and contribution. Triggers on:
+description: 'CRITICAL: Use for makepad-skills self-evolution and contribution. Triggers
+  on:
+
   evolve, evolution, contribute, contribution, self-improve, self-improvement,
+
   add pattern, new pattern, capture learning, document solution,
-  hooks, hook system, auto-trigger, skill...
+
+  hooks, hook system, auto-trigger, skill...'
+risk: unknown
+source: community
 ---
+
 
 <!-- security-allowlist: curl-pipe-bash -->
 
@@ -418,3 +424,6 @@ If yes to any, evolve the appropriate skill!
 - [makepad-skills repository](https://github.com/ZhangHanDong/makepad-skills)
 - [Makepad documentation](https://github.com/makepad/makepad)
 - [Project Robius](https://github.com/project-robius)
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

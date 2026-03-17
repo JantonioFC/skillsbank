@@ -7,6 +7,7 @@ source: self
 ---
 
 
+
 # Odoo Accounting Setup
 
 ## Overview

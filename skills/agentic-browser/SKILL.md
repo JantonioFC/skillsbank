@@ -11,6 +11,7 @@ license: MIT
 ---
 
 
+
 # Browser Use
 
 Browser automation from [browser-use.com](https://browser-use.com).

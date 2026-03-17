@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure Communication CallingServer (Java) - DEPRECATED
 
 > **⚠️ DEPRECATED**: This SDK has been renamed to **Call Automation**. For new projects, use `azure-communication-callautomation` instead. This skill is for maintaining legacy code only.

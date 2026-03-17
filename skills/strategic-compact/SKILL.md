@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Strategic Compact Skill
 
 Suggests manual `/compact` at strategic points in your workflow rather than relying on arbitrary auto-compaction.

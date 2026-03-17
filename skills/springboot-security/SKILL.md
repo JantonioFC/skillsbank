@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Spring Boot Security Review
 
 Use when adding auth, handling input, creating endpoints, or dealing with secrets.

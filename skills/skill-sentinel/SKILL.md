@@ -1,6 +1,7 @@
 ---
 name: skill-sentinel
-description: Auditoria e evolucao do ecossistema de skills. Qualidade de codigo, seguranca, custos, gaps, duplicacoes, dependencias e relatorios de saude.
+description: Auditoria e evolucao do ecossistema de skills. Qualidade de codigo, seguranca,
+  custos, gaps, duplicacoes, dependencias e relatorios de saude.
 risk: safe
 source: community
 date_added: '2026-03-06'
@@ -17,6 +18,7 @@ tools:
 - gemini-cli
 - codex-cli
 ---
+
 
 # Skill Sentinel
 

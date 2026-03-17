@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Hugging Face CLI
 
 The `hf` CLI provides direct terminal access to the Hugging Face Hub for downloading, uploading, and managing repositories, cache, and compute resources.

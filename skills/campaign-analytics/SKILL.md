@@ -16,6 +16,7 @@ source: community
 ---
 
 
+
 # Campaign Analytics
 
 Production-grade campaign performance analysis with multi-touch attribution modeling, funnel conversion analysis, and ROI calculation. Three Python CLI tools provide deterministic, repeatable analytics using standard library only -- no external dependencies, no API calls, no ML models.

@@ -1,10 +1,14 @@
 ---
 name: makepad-splash
-description: |
-  CRITICAL: Use for Makepad Splash scripting language. Triggers on:
+description: 'CRITICAL: Use for Makepad Splash scripting language. Triggers on:
+
   splash language, makepad script, makepad scripting, script!, cx.eval,
-  makepad dynamic, makepad AI, splash 语言, makepad 脚本
+
+  makepad dynamic, makepad AI, splash 语言, makepad 脚本'
+risk: unknown
+source: community
 ---
+
 
 # Makepad Splash Skill
 
@@ -211,3 +215,6 @@ create_form([
 3. Splash syntax is similar to JavaScript/Rust hybrid
 4. Scripts run in a sandboxed environment
 5. HTTP and timer APIs enable async operations
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure Communication Chat (Java)
 
 Build real-time chat applications with thread management, messaging, participants, and read receipts.

@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure.AI.DocumentIntelligence (.NET)
 
 Extract text, tables, and structured data from documents using prebuilt and custom models.

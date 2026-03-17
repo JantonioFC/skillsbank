@@ -1,11 +1,16 @@
 ---
 name: robius-state-management
-description: |
-  CRITICAL: Use for Robius state management patterns. Triggers on:
+description: 'CRITICAL: Use for Robius state management patterns. Triggers on:
+
   AppState, persistence, theme switch, 状态管理,
+
   Scope::with_data, save state, load state, serde,
-  状态持久化, 主题切换
+
+  状态持久化, 主题切换'
+risk: unknown
+source: community
 ---
+
 
 # Robius State Management Skill
 
@@ -409,3 +414,6 @@ pub fn clear_ui_cache(_cx: &mut Cx) {
   - Submodule state managers (Search, Downloads, Chats)
   - Provider syncing status tracking
   - Store action forwarding to submodules
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 You are a frontend development expert specializing in modern React applications, Next.js, and cutting-edge frontend architecture.
 
 ## Use this skill when

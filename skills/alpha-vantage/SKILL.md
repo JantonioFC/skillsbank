@@ -1,11 +1,15 @@
 ---
 name: alpha-vantage
-description: Access real-time and historical stock market data, forex rates, cryptocurrency prices, commodities, economic indicators, and 50+ technical indicators via the Alpha Vantage API. Use when fetching stock prices (OHLCV), company fundamentals (income statement, balance sheet, cash...
+description: Access real-time and historical stock market data, forex rates, cryptocurrency
+  prices, commodities, economic indicators, and 50+ technical indicators via the Alpha
+  Vantage API. Use when fetching stock prices (OHLCV), company fundamentals (income
+  statement, balance sheet, cash...
 risk: unknown
 source: community
 metadata:
-    skill-author: K-Dense Inc.
+  skill-author: K-Dense Inc.
 ---
+
 
 # Alpha Vantage — Financial Market Data
 

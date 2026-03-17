@@ -1,10 +1,16 @@
 ---
 name: scientific-writing
-description: Core skill for the deep research and writing tool. Write scientific manuscripts in full paragraphs (never bullet points). Use two-stage process with (1) section outlines with key points using research-lookup then (2) convert to flowing prose. IMRAD...
+description: Core skill for the deep research and writing tool. Write scientific manuscripts
+  in full paragraphs (never bullet points). Use two-stage process with (1) section
+  outlines with key points using research-lookup then (2) convert to flowing prose.
+  IMRAD...
 license: MIT license
 metadata:
-    skill-author: K-Dense Inc.
+  skill-author: K-Dense Inc.
+risk: unknown
+source: community
 ---
+
 
 # Scientific Writing
 

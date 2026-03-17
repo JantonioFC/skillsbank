@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 
 
 
+
 # Green Phase: Simple function
 def product_list(request):
     products = Product.objects.all()

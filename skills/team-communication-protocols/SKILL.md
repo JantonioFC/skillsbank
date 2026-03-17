@@ -11,6 +11,7 @@ license: MIT
 ---
 
 
+
 # Team Communication Protocols
 
 Protocols for effective communication between agent teammates, including message type selection, plan approval workflows, shutdown procedures, and common anti-patterns to avoid.

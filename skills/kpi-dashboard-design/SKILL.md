@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # KPI Dashboard Design
 
 Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions.

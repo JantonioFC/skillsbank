@@ -7,6 +7,7 @@ source: alirezarezvani/claude-skills
 ---
 
 
+
 # Release Manager
 
 **Tier:** POWERFUL  

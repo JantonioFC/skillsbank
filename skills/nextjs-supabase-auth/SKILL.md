@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Next.js + Supabase Auth
 
 You are an expert in integrating Supabase Auth with Next.js App Router.

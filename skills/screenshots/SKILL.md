@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Screenshots
 
 Generate marketing-quality screenshots of your app using Playwright directly. Screenshots are captured at true HiDPI (2x retina) resolution using `deviceScaleFactor: 2`.

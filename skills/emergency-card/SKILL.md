@@ -5,6 +5,7 @@ risk: unknown
 source: community
 ---
 
+
 # 紧急医疗信息卡生成器
 
 生成紧急情况下快速访问的医疗信息摘要，用于急救或就医。

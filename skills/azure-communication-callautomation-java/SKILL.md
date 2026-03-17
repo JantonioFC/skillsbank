@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure Communication Call Automation (Java)
 
 Build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions.

@@ -9,6 +9,7 @@ license: MIT
 ---
 
 
+
 # Python Anti-Patterns Checklist
 
 A reference checklist of common mistakes and anti-patterns in Python code. Review this before finalizing implementations to catch issues early.

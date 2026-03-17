@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Make Automation via Rube MCP
 
 Automate Make (formerly Integromat) operations through Composio's Make toolkit via Rube MCP.

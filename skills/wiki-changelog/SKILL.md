@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # Wiki Changelog
 
 Generate structured changelogs from git history.

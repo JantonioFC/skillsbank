@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # @azure/cosmos (TypeScript/JavaScript)
 
 Data plane SDK for Azure Cosmos DB NoSQL API operations — CRUD on documents, queries, bulk operations.

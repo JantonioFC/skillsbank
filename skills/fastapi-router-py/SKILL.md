@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # FastAPI Router
 
 Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes.

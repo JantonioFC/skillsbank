@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Stripe Automation via Rube MCP
 
 Automate Stripe payment operations through Composio's Stripe toolkit via Rube MCP.

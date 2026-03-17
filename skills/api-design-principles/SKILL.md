@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # API Design Principles
 
 Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers and stand the test of time.

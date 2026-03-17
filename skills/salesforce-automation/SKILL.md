@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Salesforce Automation via Rube MCP
 
 Automate Salesforce CRM operations through Composio's Salesforce toolkit via Rube MCP.

@@ -10,6 +10,7 @@ source: community
 ---
 
 
+
 # Azure Resource Visualizer - Architecture Diagram Generator
 
 A user may ask for help understanding how individual resources fit together, or to create a diagram showing their relationships. Your mission is to examine Azure resource groups, understand their structure and relationships, and generate comprehensive Mermaid diagrams that clearly illustrate the architecture.

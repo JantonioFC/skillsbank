@@ -10,6 +10,7 @@ source: community
 ---
 
 
+
 # Azure Translation SDKs for TypeScript
 
 Text and document translation with REST-style clients.

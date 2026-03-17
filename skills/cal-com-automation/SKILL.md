@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Cal.com Automation via Rube MCP
 
 Automate Cal.com scheduling operations through Composio's Cal toolkit via Rube MCP.

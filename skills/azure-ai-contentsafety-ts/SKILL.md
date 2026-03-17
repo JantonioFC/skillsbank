@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Azure AI Content Safety REST SDK for TypeScript
 
 Analyze text and images for harmful content with customizable blocklists.

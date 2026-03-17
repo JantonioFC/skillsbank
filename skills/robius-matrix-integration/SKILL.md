@@ -1,11 +1,16 @@
 ---
 name: robius-matrix-integration
-description: |
-  CRITICAL: Use for Matrix SDK integration with Makepad. Triggers on:
+description: 'CRITICAL: Use for Matrix SDK integration with Makepad. Triggers on:
+
   Matrix SDK, sliding sync, MatrixRequest, timeline,
+
   matrix-sdk, matrix client, robrix, matrix room,
-  Matrix 集成, 聊天客户端
+
+  Matrix 集成, 聊天客户端'
+risk: unknown
+source: community
 ---
+
 
 # Robius Matrix SDK Integration Skill
 
@@ -426,3 +431,6 @@ async fn build_client(
   - Tool approval flow
   - MolyClient for local server
   - BotContext for multi-provider support
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

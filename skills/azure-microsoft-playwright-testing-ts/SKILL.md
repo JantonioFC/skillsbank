@@ -10,6 +10,7 @@ source: community
 ---
 
 
+
 # Azure Playwright Workspaces SDK for TypeScript
 
 Run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting.

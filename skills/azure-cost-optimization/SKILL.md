@@ -15,6 +15,7 @@ source: community
 ---
 
 
+
 # Azure Cost Optimization Skill
 
 Analyze Azure subscriptions to identify cost savings through orphaned resource cleanup, rightsizing, and optimization recommendations based on actual usage data.

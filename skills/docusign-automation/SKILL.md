@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # DocuSign Automation via Rube MCP
 
 Automate DocuSign e-signature workflows through Composio's DocuSign toolkit via Rube MCP.

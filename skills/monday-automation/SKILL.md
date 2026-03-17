@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Monday.com Automation via Rube MCP
 
 Automate Monday.com work management workflows including board creation, item management, column value updates, group organization, subitems, and update/comment threads through Composio's Monday toolkit.

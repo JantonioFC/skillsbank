@@ -1,12 +1,18 @@
 ---
 name: makepad-platform
-description: |
-  CRITICAL: Use for Makepad cross-platform support. Triggers on:
+description: 'CRITICAL: Use for Makepad cross-platform support. Triggers on:
+
   makepad platform, makepad os, makepad macos, makepad windows, makepad linux,
+
   makepad android, makepad ios, makepad web, makepad wasm, makepad metal,
+
   makepad d3d11, makepad opengl, makepad webgl, OsType, CxOs,
-  makepad 跨平台, makepad 平台支持
+
+  makepad 跨平台, makep...'
+risk: unknown
+source: community
 ---
+
 
 # Makepad Platform Skill
 
@@ -160,3 +166,6 @@ impl AppMain for App {
 3. Platform-specific code is in `platform/src/os/` directory
 4. Use `cx.os_type()` for runtime platform detection
 5. Use `#[cfg(target_os = "...")]` for compile-time platform detection
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

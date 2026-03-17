@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Mixpanel Automation via Rube MCP
 
 Automate Mixpanel product analytics through Composio's Mixpanel toolkit via Rube MCP.

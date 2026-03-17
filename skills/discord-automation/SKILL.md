@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Discord Automation via Rube MCP
 
 Automate Discord operations through Composio's Discord/Discordbot toolkits via Rube MCP.

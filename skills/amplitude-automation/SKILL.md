@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Amplitude Automation via Rube MCP
 
 Automate Amplitude product analytics through Composio's Amplitude toolkit via Rube MCP.

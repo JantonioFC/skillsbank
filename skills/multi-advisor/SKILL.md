@@ -1,6 +1,8 @@
 ---
 name: multi-advisor
-description: Conselho de especialistas — consulta multiplos agentes do ecossistema em paralelo para analise multi-perspectiva de qualquer topico. Ativa personas, especialistas e agentes tecnicos...
+description: Conselho de especialistas — consulta multiplos agentes do ecossistema
+  em paralelo para analise multi-perspectiva de qualquer topico. Ativa personas, especialistas
+  e agentes tecnicos...
 risk: none
 source: community
 date_added: '2026-03-06'
@@ -17,6 +19,7 @@ tools:
 - gemini-cli
 - codex-cli
 ---
+
 
 # MULTI-ADVISOR: Board de Especialistas em Paralelo
 

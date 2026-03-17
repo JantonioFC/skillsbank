@@ -1,13 +1,17 @@
 ---
 name: pytest
-description: >
-  Pytest testing patterns for Python.
-  Trigger: When writing Python tests - fixtures, mocking, markers.
+description: 'Pytest testing patterns for Python. Trigger: When writing Python tests
+  - fixtures, mocking, markers.
+
+  '
 license: Apache-2.0
 metadata:
   author: gentleman-programming
-  version: "1.0"
+  version: '1.0'
+risk: unknown
+source: community
 ---
+
 
 ## Basic Test Structure
 
@@ -184,3 +188,6 @@ pytest --tb=short               # Short traceback
 
 ## Keywords
 pytest, python, testing, fixtures, mocking, parametrize, markers
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

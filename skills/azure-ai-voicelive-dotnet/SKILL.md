@@ -8,6 +8,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure.AI.VoiceLive (.NET)
 
 Real-time voice AI SDK for building bidirectional voice assistants with Azure AI.

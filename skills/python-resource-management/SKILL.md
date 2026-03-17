@@ -9,6 +9,7 @@ license: MIT
 ---
 
 
+
 # Python Resource Management
 
 Manage resources deterministically using context managers. Resources like database connections, file handles, and network sockets should be released reliably, even when exceptions occur.

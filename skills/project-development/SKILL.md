@@ -1,7 +1,13 @@
 ---
 name: project-development
-description: This skill should be used when the user asks to "start an LLM project", "design batch pipeline", "evaluate task-model fit", "structure agent project", or mentions pipeline architecture, agent-assisted development, cost estimation, or choosing...
+description: This skill should be used when the user asks to "start an LLM project",
+  "design batch pipeline", "evaluate task-model fit", "structure agent project", or
+  mentions pipeline architecture, agent-assisted development, cost estimation, or
+  choosing...
+risk: unknown
+source: community
 ---
+
 
 # Project Development Methodology
 
@@ -340,3 +346,5 @@ External resources:
 **Author**: Agent Skills for Context Engineering Contributors
 **Version**: 1.0.0
 
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

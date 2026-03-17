@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Changelog Automation
 
 Patterns and tools for automating changelog generation, release notes, and version management following industry standards.

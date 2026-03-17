@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Azure.ResourceManager.BotService (.NET)
 
 Management plane SDK for provisioning and managing Azure Bot Service resources via Azure Resource Manager.

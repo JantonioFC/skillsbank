@@ -1,12 +1,20 @@
 ---
 name: sankhya-dashboard-html-jsp-custom-best-pratices
-description: "This skill should be used when the user asks for patterns, best practices, creation, or fixing of Sankhya dashboards using HTML, JSP, Java, and SQL."
+description: This skill should be used when the user asks for patterns, best practices,
+  creation, or fixing of Sankhya dashboards using HTML, JSP, Java, and SQL.
 category: code
 risk: safe
 source: community
-tags: [sankhya, dashboard, jsp, html, sql, best-practices]
-date_added: "2026-03-10"
+tags:
+- sankhya
+- dashboard
+- jsp
+- html
+- sql
+- best-practices
+date_added: '2026-03-10'
 ---
+
 
 # sankhya-dashboard-html-jsp-custom-best-pratices
 

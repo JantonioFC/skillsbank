@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # Game Art Principles
 
 > Visual design thinking for games - style selection, asset pipelines, and art direction.

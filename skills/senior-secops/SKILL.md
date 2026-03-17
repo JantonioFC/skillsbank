@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Senior SecOps Engineer
 
 Complete toolkit for Security Operations including vulnerability management, compliance verification, secure coding practices, and security automation.

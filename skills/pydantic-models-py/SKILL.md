@@ -8,6 +8,7 @@ source: community
 ---
 
 
+
 # Pydantic Models
 
 Create Pydantic models following the multi-model pattern for clean API contracts.

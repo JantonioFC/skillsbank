@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Gemini Deep Research Skill
 
 Run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports.

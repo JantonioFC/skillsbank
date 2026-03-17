@@ -9,6 +9,7 @@ source: community
 ---
 
 
+
 # Intelligent Agent Routing
 
 **Purpose**: Automatically analyze user requests and route them to the most appropriate specialist agent(s) without requiring explicit user mentions.

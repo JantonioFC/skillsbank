@@ -1,14 +1,30 @@
 ---
 name: tool-use-guardian
-description: "FREE — Intelligent tool-call reliability wrapper. Monitors, retries, fixes, and learns from tool failures. Auto-recovers from truncated JSON, timeouts, rate limits, and mid-chain failures."
+description: FREE — Intelligent tool-call reliability wrapper. Monitors, retries,
+  fixes, and learns from tool failures. Auto-recovers from truncated JSON, timeouts,
+  rate limits, and mid-chain failures.
 category: reliability
 risk: safe
 source: community
-date_added: "2026-03-13"
+date_added: '2026-03-13'
 author: christopherlhammer11-ai
-tags: [reliability, tool-use, error-handling, retries, recovery, agent-infrastructure]
-tools: [claude, cursor, codex, gemini, copilot, windsurf, antigravity]
+tags:
+- reliability
+- tool-use
+- error-handling
+- retries
+- recovery
+- agent-infrastructure
+tools:
+- claude
+- cursor
+- codex
+- gemini
+- copilot
+- windsurf
+- antigravity
 ---
+
 
 # Tool Use Guardian
 

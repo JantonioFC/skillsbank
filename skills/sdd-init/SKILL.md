@@ -1,13 +1,18 @@
 ---
 name: sdd-init
-description: >
-  Initialize Spec-Driven Development context in any project. Detects stack, conventions, and bootstraps the active persistence backend.
-  Trigger: When user wants to initialize SDD in a project, or says "sdd init", "iniciar sdd", "openspec init".
+description: 'Initialize Spec-Driven Development context in any project. Detects stack,
+  conventions, and bootstraps the active persistence backend. Trigger: When user wants
+  to initialize SDD in a project, or says "sdd init", "iniciar sdd", "openspec init".
+
+  '
 license: MIT
 metadata:
   author: gentleman-programming
-  version: "2.0"
+  version: '2.0'
+risk: unknown
+source: community
 ---
+
 
 ## Purpose
 
@@ -149,3 +154,6 @@ Ready for /sdd-explore <topic> or /sdd-new <change-name>.
 - If the project already has an `openspec/` directory, report what exists and ask the orchestrator if it should be updated
 - Keep config.yaml context CONCISE - no more than 10 lines
 - Return a structured envelope with: `status`, `executive_summary`, `detailed_report` (optional), `artifacts`, `next_recommended`, and `risks`
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

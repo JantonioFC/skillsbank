@@ -1,3 +1,10 @@
+---
+name: unsplash-integration
+risk: unknown
+source: community
+description: Community provided skill
+---
+
 --- 
 name: unsplash-integration
 description: Integration skill for searching and fetching high-quality, free-to-use professional photography from Unsplash.

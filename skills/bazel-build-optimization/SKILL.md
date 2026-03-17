@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Bazel Build Optimization
 
 Production patterns for Bazel in large-scale monorepos.

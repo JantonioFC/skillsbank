@@ -9,6 +9,7 @@ date_added: '2026-02-27'
 ---
 
 
+
 # Google Sheets Automation via Rube MCP
 
 Automate Google Sheets workflows including reading/writing data, managing spreadsheets and tabs, formatting cells, filtering rows, and upserting records through Composio's Google Sheets toolkit.

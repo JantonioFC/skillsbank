@@ -1,10 +1,16 @@
 ---
 name: google-docs-automation
-description: |
-  Interact with Google Docs - create documents, search by title, read content, and edit text.
-  Use when user asks to: create a Google Doc, find a document, read doc content, add text to a doc,
-  or replace text in a document. Lightweight alternative to full Google...
---- Apache-2.0
+description: 'Interact with Google Docs - create documents, search by title, read
+  content, and edit text.
+
+  Use when user asks to: create a Google Doc, find a document, read doc content, add
+  text to a doc,
+
+  or replace text in a document. Lightweight alternative to full Google...'
+risk: unknown
+source: community
+---
+ Apache-2.0
 metadata:
   author: sanjay3290
   version: "1.0"
@@ -80,3 +86,6 @@ Tokens stored securely using the system keyring:
 Service name: `google-docs-skill-oauth`
 
 Access tokens are automatically refreshed when expired using Google's cloud function.
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.

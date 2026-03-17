@@ -7,6 +7,7 @@ source: community
 ---
 
 
+
 # Swift Actors for Thread-Safe Persistence
 
 Patterns for building thread-safe data persistence layers using Swift actors. Combines in-memory caching with file-backed storage, leveraging the actor model to eliminate data races at compile time.

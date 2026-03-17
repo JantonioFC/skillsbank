@@ -1,7 +1,10 @@
 ---
 name: build
 description: build
+risk: unknown
+source: community
 ---
+
 
 ---
 name: build
@@ -640,3 +643,6 @@ When implementing phases:
 - Don't assume code works - verify it
 - If something doesn't work, fix it before moving on
 - The goal is working software, not just written code
+
+## When to Use
+This skill is applicable to execute the workflow or actions described in the overview.
