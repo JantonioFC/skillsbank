@@ -1,25 +1,15 @@
 ---
 name: wireshark-analysis
-description: This skill should be used when the user asks to "analyze network traffic
-  with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow
-  TCP/UDP streams", "dete...
+description: "This skill should be used when the user asks to \"analyze network traffic with Wireshark\", \"capture packets for troubleshooting\", \"filter PCAP files\", \"follow TCP/UDP streams\", \"dete..."
 risk: unknown
 source: community
-date_added: '2026-02-27'
+author: zebbern
+date_added: "2026-02-27"
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Wireshark Network Traffic Analysis
-## When to Use
+
+## Purpose
 
 Execute comprehensive network traffic analysis using Wireshark to capture, filter, and examine network packets for security investigations, performance optimization, and troubleshooting. This skill enables systematic analysis of network protocols, detection of anomalies, and reconstruction of network conversations from PCAP files.
 

@@ -1,19 +1,15 @@
 ---
 name: linux-shell-scripting
-description: This skill should be used when the user asks to "create bash scripts",
-  "automate Linux tasks", "monitor system resources", "backup files", "manage users",
-  or "write production she...
+description: "This skill should be used when the user asks to \"create bash scripts\", \"automate Linux tasks\", \"monitor system resources\", \"backup files\", \"manage users\", or \"write production she..."
 risk: unknown
 source: community
-date_added: '2026-02-27'
+author: zebbern
+date_added: "2026-02-27"
 ---
-
-
-
 
 # Linux Production Shell Scripts
 
-## When to Use
+## Purpose
 
 Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration testing environments.
 

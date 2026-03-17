@@ -1,25 +1,15 @@
 ---
 name: wordpress-penetration-testing
-description: This skill should be used when the user asks to "pentest WordPress sites",
-  "scan WordPress for vulnerabilities", "enumerate WordPress users, themes, or plugins",
-  "exploit WordPress vu...
+description: "This skill should be used when the user asks to \"pentest WordPress sites\", \"scan WordPress for vulnerabilities\", \"enumerate WordPress users, themes, or plugins\", \"exploit WordPress vu..."
 risk: unknown
 source: community
-date_added: '2026-02-27'
+author: zebbern
+date_added: "2026-02-27"
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # WordPress Penetration Testing
-## When to Use
+
+## Purpose
 
 Conduct comprehensive security assessments of WordPress installations including enumeration of users, themes, and plugins, vulnerability scanning, credential attacks, and exploitation techniques. WordPress powers approximately 35% of websites, making it a critical target for security testing.
 

@@ -1,5 +1,6 @@
 ---
 name: fp-refactor
+<<<<<<< HEAD
 description: Comprehensive guide for refactoring imperative TypeScript code to fp-ts
   functional patterns
 version: 1.0.0
@@ -19,6 +20,23 @@ source: community
 ---
 
 
+=======
+description: Comprehensive guide for refactoring imperative TypeScript code to fp-ts functional patterns
+version: 1.0.0
+author: fp-ts-skills
+tags:
+  - fp-ts
+  - refactoring
+  - functional-programming
+  - typescript
+  - migration
+  - either
+  - option
+  - task
+  - reader
+---
+
+>>>>>>> origin/main
 # Refactoring Imperative Code to fp-ts
 
 This skill provides comprehensive patterns and strategies for migrating existing imperative TypeScript code to fp-ts functional programming patterns.
@@ -1783,6 +1801,9 @@ Migrating to fp-ts is a journey, not a destination. Key principles:
 6. **Review benefits**: Ensure the added complexity provides value
 
 The goal is more maintainable, type-safe code—not functional programming for its own sake.
+<<<<<<< HEAD
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+=======
+>>>>>>> origin/main

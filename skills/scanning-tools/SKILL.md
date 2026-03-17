@@ -1,25 +1,15 @@
 ---
 name: scanning-tools
-description: This skill should be used when the user asks to "perform vulnerability
-  scanning", "scan networks for open ports", "assess web application security", "scan
-  wireless networks", "detec...
+description: "This skill should be used when the user asks to \"perform vulnerability scanning\", \"scan networks for open ports\", \"assess web application security\", \"scan wireless networks\", \"detec..."
 risk: unknown
 source: community
-date_added: '2026-02-27'
+author: zebbern
+date_added: "2026-02-27"
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Security Scanning Tools
-## When to Use
+
+## Purpose
 
 Master essential security scanning tools for network discovery, vulnerability assessment, web application testing, wireless security, and compliance validation. This skill covers tool selection, configuration, and practical usage across different scanning categories.
 

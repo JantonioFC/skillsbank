@@ -1,25 +1,15 @@
 ---
 name: privilege-escalation-methods
-description: This skill should be used when the user asks to "escalate privileges",
-  "get root access", "become administrator", "privesc techniques", "abuse sudo", "exploit
-  SUID binaries", "K...
+description: "This skill should be used when the user asks to \"escalate privileges\", \"get root access\", \"become administrator\", \"privesc techniques\", \"abuse sudo\", \"exploit SUID binaries\", \"K..."
 risk: unknown
 source: community
-date_added: '2026-02-27'
+author: zebbern
+date_added: "2026-02-27"
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Privilege Escalation Methods
-## When to Use
+
+## Purpose
 
 Provide comprehensive techniques for escalating privileges from a low-privileged user to root/administrator access on compromised Linux and Windows systems. Essential for penetration testing post-exploitation phase and red team operations.
 

@@ -1,5 +1,6 @@
 ---
 name: fp-types-ref
+<<<<<<< HEAD
 description: Quick reference for fp-ts types. Use when user asks which type to use,
   needs Option/Either/Task decision help, or wants fp-ts imports.
 version: 1.0.0
@@ -15,6 +16,13 @@ source: community
 ---
 
 
+=======
+description: Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports.
+version: 1.0.0
+tags: [fp-ts, typescript, quick-reference, option, either, task]
+---
+
+>>>>>>> origin/main
 # fp-ts Quick Reference
 
 ## Which Type Should I Use?
@@ -74,6 +82,9 @@ pipe(result, E.match(
   (val) => `success: ${val}`
 ))
 ```
+<<<<<<< HEAD
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+=======
+>>>>>>> origin/main

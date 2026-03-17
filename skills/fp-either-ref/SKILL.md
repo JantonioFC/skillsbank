@@ -1,5 +1,6 @@
 ---
 name: fp-either-ref
+<<<<<<< HEAD
 description: Quick reference for Either type. Use when user needs error handling,
   validation, or operations that can fail with typed errors.
 version: 1.0.0
@@ -14,6 +15,13 @@ source: community
 ---
 
 
+=======
+description: Quick reference for Either type. Use when user needs error handling, validation, or operations that can fail with typed errors.
+version: 1.0.0
+tags: [fp-ts, either, error-handling, validation, quick-reference]
+---
+
+>>>>>>> origin/main
 # Either Quick Reference
 
 Either = success or failure. `Right(value)` or `Left(error)`.
@@ -90,6 +98,9 @@ pipe(
 ```
 
 Use Either when **error type matters** and you want to chain operations.
+<<<<<<< HEAD
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+=======
+>>>>>>> origin/main
