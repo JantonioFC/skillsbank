@@ -7,7 +7,7 @@ description: 'CRITICAL: Use for Makepad packaging and deployment. Triggers on:
   cargo-packager, cargo-makepad, WASM, Android, iOS,
 
   distribution, installer, .deb, .dmg, .nsis,
-  GitHub Actions, CI, action, marketplace
+  GitHub Actions, CI, action, marketplace'
 risk: unknown
 source: community
 ---

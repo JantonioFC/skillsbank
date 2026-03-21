@@ -1,4 +1,5 @@
 ---
+name: project-guidelines-example
 description: Project Guidelines Example
 ---
 # プロジェクトガイドラインスキル（例）

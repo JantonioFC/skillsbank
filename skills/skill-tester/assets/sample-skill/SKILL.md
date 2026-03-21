@@ -1,4 +1,5 @@
 ---
+name: sample-skill
 description: Sample Skill
 ---
 # Sample Text Processor

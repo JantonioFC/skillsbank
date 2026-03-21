@@ -1,4 +1,5 @@
 ---
+name: claude-code
 description: Claude Code
 ---
 # Claude Code Expert

@@ -7,7 +7,7 @@ description: 'CRITICAL: Use for Makepad layout system. Triggers on:
   makepad padding, makepad margin, makepad flow, makepad align,
 
   Fit, Fill, Size, Walk, "how to center in makepad",
-  makepad 布局, makepad 宽度, makepad 对齐, makepad 居中
+  makepad 布局, makepad 宽度, makepad 对齐, makepad 居中'
 risk: unknown
 source: community
 ---
