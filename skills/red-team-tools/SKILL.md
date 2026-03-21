@@ -1,14 +1,23 @@
 ---
 name: red-team-tools
-description: "Implement proven methodologies and tool workflows from top security researchers for effective reconnaissance, vulnerability discovery, and bug bounty hunting. Automate common tasks while maintaining thorough coverage of attack surfaces."
-risk: unknown
+description: This skill should be used when the user asks to "follow red team methodology",
+  "perform bug bounty hunting", "automate reconnaissance", "hunt for XSS vulnerabilities",
+  "enumerate subdomains", or needs security researcher techniques and tool configurations
+  from top bug bounty hunters.
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
 # Red Team Tools and Methodology
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -312,4 +321,4 @@ amass enum -d target.com | httpx | nuclei -t ~/nuclei-templates/
 | Tools not found | Install Go tools with `go install` |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

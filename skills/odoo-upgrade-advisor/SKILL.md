@@ -4,7 +4,9 @@ description: 'Step-by-step Odoo version upgrade advisor: pre-upgrade checklist, 
   vs enterprise upgrade path, OCA module compatibility, and post-upgrade validation.'
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

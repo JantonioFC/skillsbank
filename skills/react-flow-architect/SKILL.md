@@ -1,14 +1,19 @@
 ---
 name: react-flow-architect
-description: "Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management."
-risk: unknown
+description: Build production-ready ReactFlow applications with hierarchical navigation,
+  performance optimization, and advanced state management.
+risk: offensive
 source: community
 date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
 # ReactFlow Architect
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management.
 

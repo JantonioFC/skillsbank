@@ -4,11 +4,13 @@ description: Transforms vague UI ideas into polished, Stitch-optimized prompts. 
   specificity, adds UI/UX keywords, injects design system context, and structures
   output for better generation results.
 allowed-tools:
-  - "Read"
-  - "Write"
-risk: unknown
+- Read
+- Write
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 # Enhance Prompt for Stitch

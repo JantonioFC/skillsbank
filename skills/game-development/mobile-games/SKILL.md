@@ -2,13 +2,11 @@
 name: mobile-games
 description: Mobile game development principles. Touch input, battery, performance,
   app stores.
-risk: unknown
+allowed-tools: Read, Write, Edit, Glob, Grep
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Mobile Game Development
 
@@ -114,4 +112,4 @@ date_added: '2026-02-27'
 > **Remember:** Mobile is the most constrained platform. Respect battery and attention.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

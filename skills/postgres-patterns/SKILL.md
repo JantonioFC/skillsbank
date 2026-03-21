@@ -1,76 +1,80 @@
 ---
 name: postgres-patterns
-description: PostgreSQL database patterns for query optimization, schema design, indexing,
-  and security. Based on Supabase best practices.
-risk: unknown
+description: 用于查询优化、模式设计、索引和安全性的PostgreSQL数据库模式。基于Supabase最佳实践。
+origin: ECC
+risk: safe
 source: community
+license: MIT
 ---
 
+# PostgreSQL 模式
 
+PostgreSQL 最佳实践快速参考。如需详细指导，请使用 `database-reviewer` 智能体。
 
-# PostgreSQL Patterns
+## 何时激活
 
-Quick reference for PostgreSQL best practices. For detailed guidance, use the `database-reviewer` agent.
+* 编写 SQL 查询或迁移时
+* 设计数据库模式时
+* 排查慢查询时
+* 实施行级安全性时
+* 设置连接池时
 
-## When to Activate
+## 快速参考
 
-- Writing SQL queries or migrations
-- Designing database schemas
-- Troubleshooting slow queries
-- Implementing Row Level Security
-- Setting up connection pooling
+### 索引速查表
 
-## Quick Reference
-
-### Index Cheat Sheet
-
-| Query Pattern | Index Type | Example |
+| 查询模式 | 索引类型 | 示例 |
 |--------------|------------|---------|
-| `WHERE col = value` | B-tree (default) | `CREATE INDEX idx ON t (col)` |
+| `WHERE col = value` | B-tree（默认） | `CREATE INDEX idx ON t (col)` |
 | `WHERE col > value` | B-tree | `CREATE INDEX idx ON t (col)` |
-| `WHERE a = x AND b > y` | Composite | `CREATE INDEX idx ON t (a, b)` |
+| `WHERE a = x AND b > y` | 复合索引 | `CREATE INDEX idx ON t (a, b)` |
 | `WHERE jsonb @> '{}'` | GIN | `CREATE INDEX idx ON t USING gin (col)` |
 | `WHERE tsv @@ query` | GIN | `CREATE INDEX idx ON t USING gin (col)` |
-| Time-series ranges | BRIN | `CREATE INDEX idx ON t USING brin (col)` |
+| 时间序列范围查询 | BRIN | `CREATE INDEX idx ON t USING brin (col)` |
 
-### Data Type Quick Reference
+### 数据类型快速参考
 
-| Use Case | Correct Type | Avoid |
+| 使用场景 | 正确类型 | 避免使用 |
 |----------|-------------|-------|
-| IDs | `bigint` | `int`, random UUID |
-| Strings | `text` | `varchar(255)` |
-| Timestamps | `timestamptz` | `timestamp` |
-| Money | `numeric(10,2)` | `float` |
-| Flags | `boolean` | `varchar`, `int` |
+| ID | `bigint` | `int`，随机 UUID |
+| 字符串 | `text` | `varchar(255)` |
+| 时间戳 | `timestamptz` | `timestamp` |
+| 货币 | `numeric(10,2)` | `float` |
+| 标志位 | `boolean` | `varchar`，`int` |
 
-### Common Patterns
+### 常见模式
 
-**Composite Index Order:**
+**复合索引顺序：**
+
 ```sql
 -- Equality columns first, then range columns
 CREATE INDEX idx ON orders (status, created_at);
 -- Works for: WHERE status = 'pending' AND created_at > '2024-01-01'
 ```
 
-**Covering Index:**
+**覆盖索引：**
+
 ```sql
 CREATE INDEX idx ON users (email) INCLUDE (name, created_at);
 -- Avoids table lookup for SELECT email, name, created_at
 ```
 
-**Partial Index:**
+**部分索引：**
+
 ```sql
 CREATE INDEX idx ON users (email) WHERE deleted_at IS NULL;
 -- Smaller index, only includes active users
 ```
 
-**RLS Policy (Optimized):**
+**RLS 策略（优化版）：**
+
 ```sql
 CREATE POLICY policy ON orders
   USING ((SELECT auth.uid()) = user_id);  -- Wrap in SELECT!
 ```
 
-**UPSERT:**
+**UPSERT：**
+
 ```sql
 INSERT INTO settings (user_id, key, value)
 VALUES (123, 'theme', 'dark')
@@ -78,13 +82,15 @@ ON CONFLICT (user_id, key)
 DO UPDATE SET value = EXCLUDED.value;
 ```
 
-**Cursor Pagination:**
+**游标分页：**
+
 ```sql
 SELECT * FROM products WHERE id > $last_id ORDER BY id LIMIT 20;
 -- O(1) vs OFFSET which is O(n)
 ```
 
-**Queue Processing:**
+**队列处理：**
+
 ```sql
 UPDATE jobs SET status = 'processing'
 WHERE id = (
@@ -94,7 +100,7 @@ WHERE id = (
 ) RETURNING *;
 ```
 
-### Anti-Pattern Detection
+### 反模式检测\*\*
 
 ```sql
 -- Find unindexed foreign keys
@@ -120,7 +126,7 @@ WHERE n_dead_tup > 1000
 ORDER BY n_dead_tup DESC;
 ```
 
-### Configuration Template
+### 配置模板
 
 ```sql
 -- Connection limits (adjust for RAM)
@@ -140,15 +146,15 @@ REVOKE ALL ON SCHEMA public FROM public;
 SELECT pg_reload_conf();
 ```
 
-## Related
+## 相关
 
-- Agent: `database-reviewer` - Full database review workflow
-- Skill: `clickhouse-io` - ClickHouse analytics patterns
-- Skill: `backend-patterns` - API and backend patterns
+* 智能体：`database-reviewer` - 完整的数据库审查工作流
+* 技能：`clickhouse-io` - ClickHouse 分析模式
+* 技能：`backend-patterns` - API 和后端模式
 
----
+***
 
-*Based on [Supabase Agent Skills](https://github.com/supabase/agent-skills) (MIT License)*
+*基于 Supabase 代理技能（致谢：Supabase 团队）（MIT 许可证）*
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

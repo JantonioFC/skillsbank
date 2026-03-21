@@ -4,7 +4,9 @@ description: Step-by-step guide for migrating Odoo custom modules between versio
   (v14→v15→v16→v17). Covers API changes, deprecated methods, and view migration.
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

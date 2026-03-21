@@ -1,9 +1,11 @@
 ---
 name: antigravity-design-expert
-risk: unknown
+risk: safe
 source: community
 description: Community provided skill
+license: MIT
 ---
+
 
 --- 
 name: antigravity-design-expert

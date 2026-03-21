@@ -4,24 +4,22 @@ Advanced patterns for high-performance data access with Dapper in .NET.
 
 ## Why Dapper?
 
-| Aspect           | Dapper                         | EF Core                |
-| ---------------- | ------------------------------ | ---------------------- |
-| Performance      | ~10x faster for simple queries | Good with optimization |
-| Control          | Full SQL control               | Abstracted             |
-| Learning curve   | Low (just SQL)                 | Higher                 |
-| Complex mappings | Manual                         | Automatic              |
-| Change tracking  | None                           | Built-in               |
-| Migrations       | External tools                 | Built-in               |
+| Aspect | Dapper | EF Core |
+|--------|--------|---------|
+| Performance | ~10x faster for simple queries | Good with optimization |
+| Control | Full SQL control | Abstracted |
+| Learning curve | Low (just SQL) | Higher |
+| Complex mappings | Manual | Automatic |
+| Change tracking | None | Built-in |
+| Migrations | External tools | Built-in |
 
 **Use Dapper when:**
-
 - Performance is critical (hot paths)
 - You need complex SQL (CTEs, window functions)
 - Read-heavy workloads
 - Legacy database schemas
 
 **Use EF Core when:**
-
 - Rich domain models with relationships
 - Need change tracking
 - Want LINQ-to-SQL translation
@@ -76,7 +74,7 @@ public class ProductRepository
     {
         // Connection opens automatically, closes on dispose
         using var connection = _factory.CreateConnection();
-
+        
         return await connection.QueryFirstOrDefaultAsync<Product>(
             new CommandDefinition(
                 "SELECT * FROM Products WHERE Id = @Id",
@@ -122,7 +120,7 @@ var inserted = await connection.QuerySingleAsync<Product>(
 // UPDATE
 var rowsAffected = await connection.ExecuteAsync(
     """
-    UPDATE Products
+    UPDATE Products 
     SET Name = @Name, Price = @Price, UpdatedAt = @UpdatedAt
     WHERE Id = @Id
     """,
@@ -192,7 +190,7 @@ public async Task<Product?> GetProductWithCategoryAsync(string id)
         """;
 
     using var connection = _factory.CreateConnection();
-
+    
     var result = await connection.QueryAsync<Product, Category, Product>(
         sql,
         (product, category) =>
@@ -220,7 +218,7 @@ public async Task<Order?> GetOrderWithItemsAsync(int orderId)
     var orderDictionary = new Dictionary<int, Order>();
 
     using var connection = _factory.CreateConnection();
-
+    
     await connection.QueryAsync<Order, OrderItem, Product, Order>(
         sql,
         (order, item, product) =>
@@ -256,9 +254,9 @@ public async Task<(IReadOnlyList<Product> Products, int TotalCount)> SearchWithC
     const string sql = """
         -- First result set: count
         SELECT COUNT(*) FROM Products WHERE CategoryId = @CategoryId;
-
+        
         -- Second result set: data
-        SELECT * FROM Products
+        SELECT * FROM Products 
         WHERE CategoryId = @CategoryId
         ORDER BY Name
         OFFSET @Offset ROWS FETCH NEXT @PageSize ROWS ONLY;
@@ -290,14 +288,14 @@ public async Task<IReadOnlyList<Product>> GetByIdsAsync(IEnumerable<string> ids)
     // Create DataTable matching TVP structure
     var table = new DataTable();
     table.Columns.Add("Id", typeof(string));
-
+    
     foreach (var id in ids)
     {
         table.Rows.Add(id);
     }
 
     using var connection = _factory.CreateConnection();
-
+    
     var results = await connection.QueryAsync<Product>(
         "SELECT p.* FROM Products p INNER JOIN @Ids i ON p.Id = i.Id",
         new { Ids = table.AsTableValuedParameter("dbo.StringIdList") });
@@ -315,7 +313,7 @@ public async Task<IReadOnlyList<Product>> GetByIdsAsync(IEnumerable<string> ids)
 public async Task<IReadOnlyList<Product>> GetTopProductsAsync(int categoryId, int count)
 {
     using var connection = _factory.CreateConnection();
-
+    
     var results = await connection.QueryAsync<Product>(
         "dbo.GetTopProductsByCategory",
         new { CategoryId = categoryId, TopN = count },
@@ -336,7 +334,7 @@ public async Task<(Order Order, string ConfirmationCode)> CreateOrderAsync(Order
     parameters.Add("ConfirmationCode", dbType: DbType.String, size: 20, direction: ParameterDirection.Output);
 
     using var connection = _factory.CreateConnection();
-
+    
     await connection.ExecuteAsync(
         "dbo.CreateOrder",
         parameters,
@@ -356,9 +354,9 @@ public async Task<Order> CreateOrderWithItemsAsync(Order order, List<OrderItem> 
 {
     using var connection = _factory.CreateConnection();
     await connection.OpenAsync();
-
+    
     using var transaction = await connection.BeginTransactionAsync();
-
+    
     try
     {
         // Insert order
@@ -386,7 +384,7 @@ public async Task<Order> CreateOrderWithItemsAsync(Order order, List<OrderItem> 
             transaction);
 
         await transaction.CommitAsync();
-
+        
         order.Items = items;
         return order;
     }
@@ -489,7 +487,7 @@ public abstract class DapperRepositoryBase<T> where T : class
     protected async Task<T?> GetByIdAsync<TId>(TId id, CancellationToken ct = default)
     {
         var sql = $"SELECT * FROM {TableName} WHERE Id = @Id";
-
+        
         using var connection = ConnectionFactory.CreateConnection();
         return await connection.QueryFirstOrDefaultAsync<T>(
             new CommandDefinition(sql, new { Id = id }, cancellationToken: ct));
@@ -498,17 +496,17 @@ public abstract class DapperRepositoryBase<T> where T : class
     protected async Task<IReadOnlyList<T>> GetAllAsync(CancellationToken ct = default)
     {
         var sql = $"SELECT * FROM {TableName}";
-
+        
         using var connection = ConnectionFactory.CreateConnection();
         var results = await connection.QueryAsync<T>(
             new CommandDefinition(sql, cancellationToken: ct));
-
+        
         return results.ToList();
     }
 
     protected async Task<int> ExecuteAsync(
-        string sql,
-        object? parameters = null,
+        string sql, 
+        object? parameters = null, 
         CancellationToken ct = default)
     {
         using var connection = ConnectionFactory.CreateConnection();

@@ -8,10 +8,9 @@ license: Apache-2.0
 metadata:
   author: gentleman-programming
   version: '1.0'
-risk: unknown
+risk: safe
 source: community
 ---
-
 
 ## Basic Test Structure
 
@@ -190,4 +189,4 @@ pytest --tb=short               # Short traceback
 pytest, python, testing, fixtures, mocking, parametrize, markers
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

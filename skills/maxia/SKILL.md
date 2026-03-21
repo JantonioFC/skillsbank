@@ -1,13 +1,26 @@
 ---
 name: maxia
-description: Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services. Earn USDC. 13 MCP tools, A2A protocol, DeFi yields, sentiment analysis, rug detection.
-risk: unknown
+description: Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell
+  AI services. Earn USDC. 13 MCP tools, A2A protocol, DeFi yields, sentiment analysis,
+  rug detection.
+risk: safe
 source: community
-tags: [solana, crypto, marketplace, ai-agents, mcp, defi, usdc, web3, a2a]
+tags:
+- solana
+- crypto
+- marketplace
+- ai-agents
+- mcp
+- defi
+- usdc
+- web3
+- a2a
 author: MAXIA
 version: 1.0.0
 homepage: https://maxiaworld.app
+license: MIT
 ---
+
 
 # MAXIA — AI-to-AI Marketplace on Solana
 
@@ -107,3 +120,8 @@ Tools: maxia_discover, maxia_register, maxia_sell, maxia_execute, maxia_negotiat
 - MCP Manifest: https://maxiaworld.app/mcp/manifest
 - RAG Docs: https://maxiaworld.app/MAXIA_DOCS.md
 - GitHub: https://github.com/MAXIAWORLD
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for maxia.

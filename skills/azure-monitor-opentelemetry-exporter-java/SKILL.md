@@ -1,13 +1,17 @@
 ---
 name: azure-monitor-opentelemetry-exporter-java
-description: Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces,
-  metrics, and logs to Azure Monitor/Application Insights.
-risk: unknown
+description: 'Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry
+  traces, metrics, and logs to Azure Monitor/Application Insights.
+
+  Triggers: "AzureMonitorExporter java", "opentelemetry azure java", "application
+  insights java otel", "azure monitor tracing java".
+
+  Note: This package is DEPRECATED....'
+package: com.azure:azure-monitor-opentelemetry-exporter
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure Monitor OpenTelemetry Exporter for Java
 
@@ -286,4 +290,4 @@ The `azure-monitor-opentelemetry-autoconfigure` package provides:
 | Application Insights | https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

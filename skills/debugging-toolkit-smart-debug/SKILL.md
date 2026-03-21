@@ -1,13 +1,10 @@
 ---
 name: debugging-toolkit-smart-debug
 description: Use when working with debugging toolkit smart debug
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 ## Use this skill when
 
@@ -202,7 +199,5 @@ Focus on actionable insights. Use AI assistance throughout for pattern recogniti
 
 Issue to debug: $ARGUMENTS
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for debugging-toolkit-smart-debug.
+- Use this skill when you need for functional programming or specific domain tasks.

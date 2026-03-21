@@ -8,10 +8,10 @@ description: 'Create high-quality Pull Requests with conventional commits and pr
 metadata:
   author: gentleman-programming
   version: '1.0'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
 
 ## When to Use
 

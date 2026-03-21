@@ -8,9 +8,10 @@ license: MIT
 metadata:
   author: gentleman-programming
   version: '2.0'
-risk: unknown
+risk: safe
 source: community
 ---
+
 
 
 ## Purpose

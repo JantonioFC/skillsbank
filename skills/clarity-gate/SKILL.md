@@ -1,6 +1,6 @@
 ---
 name: clarity-gate
-risk: unknown
+risk: safe
 source: community
 version: 2.1.3
 description: 'Pre-ingestion verification for epistemic quality in RAG systems. Ensures
@@ -31,9 +31,8 @@ outputs:
   extension: .cgd.md
   spec: docs/CLARITY_GATE_FORMAT_SPEC.md
 spec_version: '2.1'
-risk: unknown
-source: community
 ---
+
 
 
 # Clarity Gate v2.1

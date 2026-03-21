@@ -1,14 +1,21 @@
 ---
 name: azure-resource-manager-sql-dotnet
-description: Azure Resource Manager SDK for Azure SQL in .NET.
-risk: unknown
+description: 'Azure Resource Manager SDK for Azure SQL in .NET. Use for MANAGEMENT
+  PLANE operations: creating/managing SQL servers, databases, elastic pools, firewall
+  rules, and failover groups via Azure Resource Manager. NOT for data plane operations
+  (executing queries) - use Microsoft.Data.SqlClient for that...'
+package: Azure.ResourceManager.Sql
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
 # Azure.ResourceManager.Sql (.NET)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Management plane SDK for provisioning and managing Azure SQL resources via Azure Resource Manager.
 
@@ -322,4 +329,4 @@ catch (RequestFailedException ex)
 | `Microsoft.EntityFrameworkCore.SqlServer` | ORM for SQL Server | `dotnet add package Microsoft.EntityFrameworkCore.SqlServer` |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

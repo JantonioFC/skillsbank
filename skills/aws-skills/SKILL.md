@@ -5,7 +5,9 @@ description: AWS development with infrastructure automation and cloud architectu
 risk: safe
 source: https://github.com/zxkane/aws-skills
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

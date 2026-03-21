@@ -1,22 +1,34 @@
 ---
 name: deployment-pipeline-design
-description: "Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies."
-risk: unknown
+description: Design multi-stage CI/CD pipelines with approval gates, security checks,
+  and deployment orchestration. Use when architecting deployment workflows, setting
+  up continuous delivery, or implementing GitOps practices.
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Deployment Pipeline Design
 
 Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies.
 
+## Do not use this skill when
+
+- The task is unrelated to deployment pipeline design
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
 ## Purpose
 
 Design robust, secure deployment pipelines that balance speed with safety through proper stage organization and approval workflows.
 
-## When to Use
+## Use this skill when
 
 - Design CI/CD architecture
 - Implement deployment gates
@@ -85,21 +97,21 @@ deploy:production:
 ```yaml
 # Azure Pipelines
 stages:
-  - stage: Production
-    dependsOn: Staging
-    jobs:
-      - deployment: Deploy
-        environment:
-          name: production
-          resourceType: Kubernetes
-        strategy:
-          runOnce:
-            preDeploy:
-              steps:
-                - task: ManualValidation@0
-                  inputs:
-                    notifyUsers: "team-leads@example.com"
-                    instructions: "Review staging metrics before approving"
+- stage: Production
+  dependsOn: Staging
+  jobs:
+  - deployment: Deploy
+    environment:
+      name: production
+      resourceType: Kubernetes
+    strategy:
+      runOnce:
+        preDeploy:
+          steps:
+          - task: ManualValidation@0
+            inputs:
+              notifyUsers: 'team-leads@example.com'
+              instructions: 'Review staging metrics before approving'
 ```
 
 **Reference:** See `assets/approval-gate-template.yml`
@@ -123,7 +135,6 @@ spec:
 ```
 
 **Characteristics:**
-
 - Gradual rollout
 - Zero downtime
 - Easy rollback
@@ -146,7 +157,6 @@ kubectl label service my-app version=blue
 ```
 
 **Characteristics:**
-
 - Instant switchover
 - Easy rollback
 - Doubles infrastructure cost temporarily
@@ -164,17 +174,16 @@ spec:
   strategy:
     canary:
       steps:
-        - setWeight: 10
-        - pause: { duration: 5m }
-        - setWeight: 25
-        - pause: { duration: 5m }
-        - setWeight: 50
-        - pause: { duration: 5m }
-        - setWeight: 100
+      - setWeight: 10
+      - pause: {duration: 5m}
+      - setWeight: 25
+      - pause: {duration: 5m}
+      - setWeight: 50
+      - pause: {duration: 5m}
+      - setWeight: 100
 ```
 
 **Characteristics:**
-
 - Gradual traffic shift
 - Risk mitigation
 - Real user testing
@@ -196,7 +205,6 @@ else:
 ```
 
 **Characteristics:**
-
 - Deploy without releasing
 - A/B testing
 - Instant rollback
@@ -211,7 +219,7 @@ name: Production Pipeline
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
   build:
@@ -366,3 +374,6 @@ kubectl rollout undo deployment/my-app --to-revision=3
 - `github-actions-templates` - For GitHub Actions implementation
 - `gitlab-ci-patterns` - For GitLab CI implementation
 - `secrets-management` - For secrets handling
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

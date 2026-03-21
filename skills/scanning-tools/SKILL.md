@@ -1,14 +1,23 @@
 ---
 name: scanning-tools
-description: "Master essential security scanning tools for network discovery, vulnerability assessment, web application testing, wireless security, and compliance validation. This skill covers tool selection, configuration, and practical usage across different scanning categories."
-risk: unknown
+description: This skill should be used when the user asks to "perform vulnerability
+  scanning", "scan networks for open ports", "assess web application security", "scan
+  wireless networks", "detect malware", "check cloud security", or "evaluate system
+  compliance". It provides comprehensive guidance on security ...
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
 # Security Scanning Tools
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -591,4 +600,4 @@ gvm-cli socket --xml '<get_reports report_id="<id>" format_id="<pdf_format>"/>'
 5. Perform manual testing
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

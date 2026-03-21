@@ -17,7 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+license: MIT
 ---
+
 
 
 # SKILL DE AVALIAÇÃO DE IMÓVEL — PERITO AVALIADOR

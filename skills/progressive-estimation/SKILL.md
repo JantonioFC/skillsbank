@@ -15,7 +15,9 @@ tags:
 - ai-agents
 tools:
 - claude
+license: MIT
 ---
+
 
 
 # Progressive Estimation

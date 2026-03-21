@@ -1,18 +1,31 @@
 ---
 name: git-advanced-workflows
-description: "Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence."
-risk: unknown
+description: Master advanced Git workflows including rebasing, cherry-picking, bisect,
+  worktrees, and reflog to maintain clean history and recover from any situation.
+  Use when managing complex Git histories, collaborating on feature branches, or troubleshooting
+  repository issues.
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Git Advanced Workflows
 
 Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence.
 
-## When to Use This Skill
+## Do not use this skill when
+
+- The task is unrelated to git advanced workflows
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
+## Use this skill when
 
 - Cleaning up commit history before merging
 - Applying specific commits across branches
@@ -30,7 +43,6 @@ Master advanced Git techniques to maintain clean history, collaborate effectivel
 Interactive rebase is the Swiss Army knife of Git history editing.
 
 **Common Operations:**
-
 - `pick`: Keep commit as-is
 - `reword`: Change commit message
 - `edit`: Amend commit content
@@ -39,7 +51,6 @@ Interactive rebase is the Swiss Army knife of Git history editing.
 - `drop`: Remove commit entirely
 
 **Basic Usage:**
-
 ```bash
 # Rebase last 5 commits
 git rebase -i HEAD~5
@@ -93,7 +104,6 @@ git bisect reset
 ```
 
 **Automated Bisect:**
-
 ```bash
 # Use script to test automatically
 git bisect start HEAD v1.0.0
@@ -259,13 +269,11 @@ git branch recovery def456
 ### Rebase vs Merge Strategy
 
 **When to Rebase:**
-
 - Cleaning up local commits before pushing
 - Keeping feature branch up-to-date with main
 - Creating linear history for easier review
 
 **When to Merge:**
-
 - Integrating completed features into main
 - Preserving exact history of collaboration
 - Public branches used by others
@@ -408,3 +416,6 @@ git branch recovered-branch abc123
 - **assets/git-workflow-checklist.md**: Pre-PR cleanup checklist
 - **assets/git-aliases.md**: Useful Git aliases for advanced workflows
 - **scripts/git-clean-branches.sh**: Clean up merged and stale branches
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

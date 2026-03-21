@@ -1,14 +1,23 @@
 ---
 name: burp-suite-testing
-description: "Execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows."
-risk: unknown
+description: This skill should be used when the user asks to "intercept HTTP traffic",
+  "modify web requests", "use Burp Suite for testing", "perform web vulnerability
+  scanning", "test with Burp Repeater", "analyze HTTP history", or "configure proxy
+  for web testing". It provides comprehensive guidance for usin...
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
 # Burp Suite Web Application Testing
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -382,4 +391,4 @@ javascript:alert(1)
 - Verify target isn't using unsupported protocol
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

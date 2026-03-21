@@ -7,12 +7,17 @@ description: Searches and explores Burp Suite project files (.burp) from the com
 allowed-tools:
 - Bash
 - Read
-risk: unknown
+risk: offensive
 source: community
+license: MIT
 ---
 
-
 # Burp Project Parser
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Search and extract data from Burp Suite project files using the burpsuite-project-file-parser extension.
 

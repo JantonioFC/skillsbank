@@ -18,7 +18,9 @@ tools:
 - claude
 - cursor
 - gemini
+license: MIT
 ---
+
 
 
 # Uncle Bob Craft

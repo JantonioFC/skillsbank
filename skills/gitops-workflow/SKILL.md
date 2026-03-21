@@ -1,12 +1,13 @@
 ---
 name: gitops-workflow
-description: "Complete guide to implementing GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments."
-risk: unknown
+description: Implement GitOps workflows with ArgoCD and Flux for automated, declarative
+  Kubernetes deployments with continuous reconciliation. Use when implementing GitOps
+  practices, automating Kubernetes deployments, or setting up declarative infrastructure
+  management.
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # GitOps Workflow
 
@@ -16,7 +17,7 @@ Complete guide to implementing GitOps workflows with ArgoCD and Flux for automat
 
 Implement declarative, Git-based continuous delivery for Kubernetes using ArgoCD or Flux CD, following OpenGitOps principles.
 
-## When to Use This Skill
+## Use this skill when
 
 - Set up GitOps for Kubernetes clusters
 - Automate application deployments from Git
@@ -24,6 +25,24 @@ Implement declarative, Git-based continuous delivery for Kubernetes using ArgoCD
 - Manage multi-cluster deployments
 - Configure automated sync policies
 - Set up secret management in GitOps
+
+## Do not use this skill when
+
+- You need a one-off manual deployment
+- You cannot manage cluster access or repo permissions
+- You are not deploying to Kubernetes
+
+## Instructions
+
+1. Define repo layout and desired-state conventions.
+2. Install ArgoCD or Flux and connect clusters.
+3. Configure sync policies, environments, and promotion flow.
+4. Validate rollbacks and secret handling.
+
+## Safety
+
+- Avoid auto-sync to production without approvals.
+- Keep secrets out of Git and use sealed or external secret managers.
 
 ## OpenGitOps Principles
 
@@ -92,7 +111,7 @@ spec:
       prune: true
       selfHeal: true
     syncOptions:
-      - CreateNamespace=true
+    - CreateNamespace=true
 ```
 
 ### 4. App of Apps Pattern
@@ -170,12 +189,11 @@ spec:
 ### Auto-Sync Configuration
 
 **ArgoCD:**
-
 ```yaml
 syncPolicy:
   automated:
-    prune: true # Delete resources not in Git
-    selfHeal: true # Reconcile manual changes
+    prune: true      # Delete resources not in Git
+    selfHeal: true   # Reconcile manual changes
     allowEmpty: false
   retry:
     limit: 5
@@ -186,7 +204,6 @@ syncPolicy:
 ```
 
 **Flux:**
-
 ```yaml
 spec:
   interval: 1m
@@ -211,11 +228,11 @@ spec:
   strategy:
     canary:
       steps:
-        - setWeight: 20
-        - pause: { duration: 1m }
-        - setWeight: 50
-        - pause: { duration: 2m }
-        - setWeight: 100
+      - setWeight: 20
+      - pause: {duration: 1m}
+      - setWeight: 50
+      - pause: {duration: 2m}
+      - setWeight: 100
 ```
 
 ### Blue-Green Deployment
@@ -245,9 +262,9 @@ spec:
   target:
     name: db-credentials
   data:
-    - secretKey: password
-      remoteRef:
-        key: prod/db/password
+  - secretKey: password
+    remoteRef:
+      key: prod/db/password
 ```
 
 ### Sealed Secrets
@@ -275,14 +292,12 @@ kubeseal --format yaml < secret.yaml > sealed-secret.yaml
 ## Troubleshooting
 
 **Sync failures:**
-
 ```bash
 argocd app get my-app
 argocd app sync my-app --prune
 ```
 
 **Out of sync status:**
-
 ```bash
 argocd app diff my-app
 argocd app sync my-app --force
@@ -292,3 +307,6 @@ argocd app sync my-app --force
 
 - `k8s-manifest-generator` - For creating manifests
 - `helm-chart-scaffolding` - For packaging applications
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

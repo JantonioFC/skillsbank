@@ -4,9 +4,11 @@ description: Interactive guided deployment flow for Azure OpenAI models with ful
   customization control. Step-by-step selection of model version, SKU (GlobalStandard/Standard/ProvisionedManaged),
   capacity, RAI policy (content filter), and advanced options (dynamic quota, priority
   processing, spillover)...
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

@@ -1,13 +1,12 @@
 ---
 name: security-compliance-compliance-check
-description: "You are a compliance expert specializing in regulatory requirements for software systems including GDPR, HIPAA, SOC2, PCI-DSS, and other industry standards. Perform comprehensive compliance audits and provide implementation guidance for achieving and maintaining compliance."
-risk: unknown
+description: You are a compliance expert specializing in regulatory requirements for
+  software systems including GDPR, HIPAA, SOC2, PCI-DSS, and other industry standards.
+  Perform compliance audits and provide implementation guidance.
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Regulatory Compliance Check
 
@@ -60,7 +59,5 @@ Focus on practical implementation that balances compliance requirements with bus
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for security-compliance-compliance-check.
+- Use this skill when you need for functional programming or specific domain tasks.

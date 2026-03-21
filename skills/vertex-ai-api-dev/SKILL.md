@@ -5,9 +5,11 @@ description: Guides the usage of Gemini API on Google Cloud Vertex AI with the G
   explicitly mentions Vertex AI. Covers SDK usage (Python, JS/TS, Go, Java, C#), capabilities
   like Live API, tools, multimedia generation, caching,...
 compatibility: Requires active Google Cloud credentials and Vertex AI API enabled.
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Gemini API in Vertex AI
 
 Access Google's most advanced AI models built for enterprise use cases using the Gemini API in Vertex AI.

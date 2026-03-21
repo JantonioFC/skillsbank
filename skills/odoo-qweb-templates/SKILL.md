@@ -4,7 +4,9 @@ description: Expert in Odoo QWeb templating for PDF reports, email templates, an
   website pages. Covers t-if, t-foreach, t-field, and report actions.
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

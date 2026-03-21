@@ -1,14 +1,21 @@
 ---
 name: azure-resource-manager-durabletask-dotnet
-description: Azure Resource Manager SDK for Durable Task Scheduler in .NET.
-risk: unknown
+description: 'Azure Resource Manager SDK for Durable Task Scheduler in .NET. Use for
+  MANAGEMENT PLANE operations: creating/managing Durable Task Schedulers, Task Hubs,
+  and retention policies via Azure Resource Manager. Triggers: "Durable Task Scheduler",
+  "create scheduler", "task hub", "DurableTaskSchedulerRes...'
+package: Azure.ResourceManager.DurableTask
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
 # Azure.ResourceManager.DurableTask (.NET)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Management plane SDK for provisioning and managing Azure Durable Task Scheduler resources via Azure Resource Manager.
 
@@ -380,4 +387,4 @@ await scheduler.DeleteAsync(WaitUntil.Completed);
 - [NuGet: Azure.ResourceManager.DurableTask](https://www.nuget.org/packages/Azure.ResourceManager.DurableTask)
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

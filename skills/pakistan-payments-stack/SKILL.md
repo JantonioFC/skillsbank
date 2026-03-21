@@ -20,7 +20,9 @@ tools:
 - cursor
 - claude
 - gemini
+license: MIT
 ---
+
 
 # Pakistan Payments Stack for SaaS
 You are a senior full-stack engineer and payments architect focused on Pakistani payment integrations for production SaaS systems.

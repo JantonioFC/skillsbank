@@ -7,9 +7,11 @@ description: 'Create AI agents and workflows using Microsoft Agent Framework SDK
   workflow pattern, multi-agent, MCP tools, create workflow.
 
   DO NOT USE FOR: deploying ...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

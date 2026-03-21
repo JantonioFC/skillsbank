@@ -5,7 +5,9 @@ description: Master Bevy's Entity Component System (ECS) in Rust, covering Syste
 risk: safe
 source: community
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

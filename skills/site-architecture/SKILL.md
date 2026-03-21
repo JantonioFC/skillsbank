@@ -3,14 +3,13 @@ name: site-architecture
 description: When the user wants to plan, map, or restructure their website's page
   hierarchy, navigation, URL structure, or internal linking. Also use when the user
   mentions "sitemap," "site map," "visual sitemap," "site structure," "page hierarchy,"
-  "information architecture," "IA," "navigation design...
+  "information architecture," "IA," "navigation design," "URL...
 metadata:
   version: 1.1.0
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Site Architecture
 
@@ -193,7 +192,7 @@ Breadcrumbs should mirror the URL hierarchy. Every breadcrumb segment should be 
 
 - **Dates in blog URLs** — `/blog/2024/01/15/post-title` adds no value and makes URLs long. Use `/blog/post-title`.
 - **Over-nesting** — `/products/category/subcategory/item/detail` is too deep. Flatten where possible.
-- **Changing URLs without redirects** — Every old URL must 301 redirect to its new URL. No exceptions.
+- **Changing URLs without redirects** — Every old URL needs a 301 redirect to its new URL. Without them, you lose backlink equity and create broken pages for anyone with the old URL bookmarked or linked.
 - **IDs in URLs** — `/product/12345` is not human-readable. Use slugs.
 - **Query parameters for content** — `/blog?id=123` should be `/blog/post-title`.
 - **Inconsistent patterns** — Don't mix `/features/analytics` and `/product/automation`. Pick one parent.
@@ -364,4 +363,4 @@ Mermaid diagram showing page relationships and navigation zones. Use `graph TD` 
 - **competitor-alternatives**: For comparison page frameworks and URL patterns
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

@@ -4,7 +4,9 @@ description: 'Expert guide for Odoo Sales and CRM: pipeline stages, quotation te
   pricelists, sales teams, lead scoring, and forecasting.'
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

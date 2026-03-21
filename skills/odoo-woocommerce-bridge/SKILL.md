@@ -1,9 +1,12 @@
 ---
 name: odoo-woocommerce-bridge
-description: "Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API."
-risk: unknown
+description: 'Sync Odoo with WooCommerce: products, inventory, orders, and customers
+  via WooCommerce REST API and Odoo external API.'
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

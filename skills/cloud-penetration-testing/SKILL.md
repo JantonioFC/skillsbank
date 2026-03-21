@@ -1,16 +1,23 @@
 ---
 name: cloud-penetration-testing
-description: "Conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP)."
-risk: unknown
+description: This skill should be used when the user asks to "perform cloud penetration
+  testing", "assess Azure or AWS or GCP security", "enumerate cloud resources", "exploit
+  cloud misconfigurations", "test O365 security", "extract secrets from cloud environments",
+  or "audit cloud infrastructure". It provides...
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-<!-- security-allowlist: curl-pipe-bash -->
-
 # Cloud Penetration Testing
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -505,4 +512,4 @@ gcloud beta compute ssh instance-name --zone us-central1-a --project target-proj
 - [Advanced Cloud Scripts](references/advanced-cloud-scripts.md) - Azure Automation runbooks, Function Apps enumeration, AWS data exfiltration, GCP advanced exploitation
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

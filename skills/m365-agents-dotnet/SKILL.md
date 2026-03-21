@@ -1,15 +1,22 @@
 ---
 name: m365-agents-dotnet
-description: Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot
+description: 'Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot
   Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-based auth.
-risk: unknown
+  Triggers: "Microsoft 365 Agents SDK", "Microsoft.Agents", "AddAgentApplicationOptions",
+  "AgentApplication", "AddAgentAspNetAuthentic...'
+package: Microsoft.Agents.Hosting.AspNetCore, Microsoft.Agents.Authentication.Msal,
+  Microsoft.Agents.CopilotStudio.Client
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
 # Microsoft 365 Agents SDK (.NET)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 Build enterprise agents for Microsoft 365, Teams, and Copilot Studio using the Microsoft.Agents SDK with ASP.NET Core hosting, agent routing, and MSAL-based authentication.
@@ -294,4 +301,4 @@ await foreach (var activity in client.AskQuestionAsync("Hello!", null))
 | GitHub samples | https://github.com/microsoft/agents |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

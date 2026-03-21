@@ -1,9 +1,11 @@
 ---
 name: vizcom
-risk: unknown
+risk: safe
 source: community
 description: Community provided skill
+license: MIT
 ---
+
 
 --- 
 name: vizcom

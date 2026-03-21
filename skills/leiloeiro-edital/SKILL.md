@@ -17,7 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+license: MIT
 ---
+
 
 
 # SKILL DE EDITAL — ANÁLISE PERICIAL DE EDITAIS DE LEILÃO

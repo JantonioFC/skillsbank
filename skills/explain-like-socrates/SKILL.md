@@ -7,7 +7,9 @@ description: 'Explains concepts using Socratic-style dialogue. Use when the user
 risk: safe
 source: original
 date_added: '2026-03-11'
+license: MIT
 ---
+
 
 
 # EXPLAIN LIKE SOCRATES

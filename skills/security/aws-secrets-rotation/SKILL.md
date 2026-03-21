@@ -6,7 +6,9 @@ risk: safe
 source: community
 tags: '[aws, secrets-manager, security, automation, kiro-cli, credentials]'
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

@@ -2,10 +2,12 @@
 name: react-patterns
 description: Modern React patterns and principles. Hooks, composition, performance,
   TypeScript best practices.
-risk: unknown
+risk: safe
 source: community
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

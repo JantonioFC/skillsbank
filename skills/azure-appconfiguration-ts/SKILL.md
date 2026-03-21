@@ -1,11 +1,13 @@
 ---
 name: azure-appconfiguration-ts
-description: "Centralized configuration management with feature flags and dynamic refresh."
-risk: unknown
+description: Build applications using Azure App Configuration SDK for JavaScript (@azure/app-configuration).
+  Use when working with configuration settings, feature flags, Key Vault references,
+  dynamic refresh, or centralized configuration management.
+package: '@azure/app-configuration'
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Azure App Configuration SDK for TypeScript
 
@@ -352,4 +354,4 @@ import {
 7. **RBAC roles** - `App Configuration Data Reader` for read-only access
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

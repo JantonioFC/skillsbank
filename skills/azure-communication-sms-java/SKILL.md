@@ -4,11 +4,10 @@ description: Send SMS messages with Azure Communication Services SMS Java SDK. U
   when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery
   reports.
 package: com.azure:azure-communication-sms
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Azure Communication SMS (Java)
 
@@ -280,4 +279,4 @@ SMS_FROM_NUMBER=+14255550100
 - "delivery report SMS", "Azure Communication Services SMS"
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

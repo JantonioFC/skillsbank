@@ -7,7 +7,9 @@ category: documentacion-de-codigo
 risk: safe
 source: personal
 date_added: '2026-03-11'
+license: MIT
 ---
+
 
 
 # doc-prd-template

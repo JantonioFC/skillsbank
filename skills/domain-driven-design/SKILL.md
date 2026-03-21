@@ -6,7 +6,9 @@ risk: safe
 source: self
 tags: '[ddd, domain, bounded-context, architecture]'
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

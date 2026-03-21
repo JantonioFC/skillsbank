@@ -6,7 +6,9 @@ description: 'Observe and troubleshoot WhatsApp in Kapso: debug message delivery
 risk: safe
 source: https://github.com/gokapso/agent-skills/tree/master/skills/observe-whatsapp
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

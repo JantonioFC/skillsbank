@@ -17,7 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+license: MIT
 ---
+
 
 
 # Skill: Leiloeiros das Juntas Comerciais do Brasil

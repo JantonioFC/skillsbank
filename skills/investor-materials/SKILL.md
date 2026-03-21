@@ -3,13 +3,12 @@ name: investor-materials
 description: Create and update pitch decks, one-pagers, investor memos, accelerator
   applications, financial models, and fundraising materials. Use when the user needs
   investor-facing documents, projections, use-of-funds tables, milestone plans, or
-  materials that must stay internally consistent across m...
+  materials that must stay internally consistent across multiple...
 origin: ECC
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Investor Materials
 
@@ -103,4 +102,4 @@ Before delivering:
 - the final asset is defensible in a partner meeting
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

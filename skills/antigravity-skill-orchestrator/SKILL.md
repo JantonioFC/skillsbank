@@ -8,7 +8,9 @@ risk: safe
 source: community
 tags: '[orchestration, meta-skill, agent-memory, task-evaluation]'
 date_added: '2026-03-13'
+license: MIT
 ---
+
 
 
 # antigravity-skill-orchestrator

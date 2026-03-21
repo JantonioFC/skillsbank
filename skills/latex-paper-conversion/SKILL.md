@@ -6,7 +6,9 @@ description: This skill should be used when the user asks to convert an academic
 risk: safe
 source: community
 date_added: '2026-03-14'
+license: MIT
 ---
+
 
 
 # LaTeX Paper Conversion

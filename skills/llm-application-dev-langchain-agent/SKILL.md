@@ -2,13 +2,10 @@
 name: llm-application-dev-langchain-agent
 description: You are an expert LangChain agent developer specializing in production-grade
   AI systems using LangChain 0.1+ and LangGraph.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # LangChain/LangGraph Agent Development Expert
 
@@ -252,7 +249,5 @@ async def call_with_retry():
 
 Build production-ready, scalable, and observable LangChain agents following these patterns.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for llm-application-dev-langchain-agent.
+- Use this skill when you need for functional programming or specific domain tasks.

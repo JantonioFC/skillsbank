@@ -1,18 +1,35 @@
 ---
 name: paypal-integration
-description: "Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows."
-risk: unknown
+description: Integrate PayPal payment processing with support for express checkout,
+  subscriptions, and refund management. Use when implementing PayPal payments, processing
+  online transactions, or building e-commerce checkout flows.
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # PayPal Integration
 
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Master PayPal payment integration including Express Checkout, IPN handling, recurring billing, and refund workflows.
 
-## When to Use This Skill
+## Do not use this skill when
+
+- The task is unrelated to paypal integration
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
+## Use this skill when
 
 - Integrating PayPal as a payment option
 - Implementing express checkout flows
@@ -25,40 +42,32 @@ Master PayPal payment integration including Express Checkout, IPN handling, recu
 ## Core Concepts
 
 ### 1. Payment Products
-
 **PayPal Checkout**
-
 - One-time payments
 - Express checkout experience
 - Guest and PayPal account payments
 
 **PayPal Subscriptions**
-
 - Recurring billing
 - Subscription plans
 - Automatic renewals
 
 **PayPal Payouts**
-
 - Send money to multiple recipients
 - Marketplace and platform payments
 
 ### 2. Integration Methods
-
 **Client-Side (JavaScript SDK)**
-
 - Smart Payment Buttons
 - Hosted payment flow
 - Minimal backend code
 
 **Server-Side (REST API)**
-
 - Full control over payment flow
 - Custom checkout UI
 - Advanced features
 
 ### 3. IPN (Instant Payment Notification)
-
 - Webhook-like payment notifications
 - Asynchronous payment updates
 - Verification required
@@ -131,7 +140,6 @@ def capture_paypal_order(order_id):
 ## Express Checkout Implementation
 
 ### Server-Side Order Creation
-
 ```python
 import requests
 import json
@@ -203,7 +211,6 @@ class PayPalClient:
 ## IPN (Instant Payment Notification) Handling
 
 ### IPN Verification and Processing
-
 ```python
 from flask import Flask, request
 import requests
@@ -283,7 +290,6 @@ def handle_chargeback(ipn_data):
 ## Subscription/Recurring Billing
 
 ### Create Subscription Plan
-
 ```python
 def create_subscription_plan(name, amount, interval='MONTH'):
     """Create a subscription plan."""
@@ -481,3 +487,6 @@ def test_payment_flow():
 - **Wrong Environment**: Mixing sandbox and production URLs/credentials
 - **Missing Webhooks**: Not handling all payment states
 - **Hardcoded Values**: Not making configurable for different environments
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

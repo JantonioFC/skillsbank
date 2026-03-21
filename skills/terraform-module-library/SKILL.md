@@ -1,22 +1,34 @@
 ---
 name: terraform-module-library
-description: "Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure."
-risk: unknown
+description: Build reusable Terraform modules for AWS, Azure, and GCP infrastructure
+  following infrastructure-as-code best practices. Use when creating infrastructure
+  modules, standardizing cloud provisioning, or implementing reusable IaC components.
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Terraform Module Library
 
 Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure.
 
+## Do not use this skill when
+
+- The task is unrelated to terraform module library
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
 ## Purpose
 
 Create reusable, well-tested Terraform modules for common cloud infrastructure patterns across multiple cloud providers.
 
-## When to Use
+## Use this skill when
 
 - Build reusable infrastructure components
 - Standardize cloud resource provisioning
@@ -63,7 +75,6 @@ module-name/
 ## AWS VPC Module Example
 
 **main.tf:**
-
 ```hcl
 resource "aws_vpc" "main" {
   cidr_block           = var.cidr_block
@@ -107,7 +118,6 @@ resource "aws_internet_gateway" "main" {
 ```
 
 **variables.tf:**
-
 ```hcl
 variable "name" {
   description = "Name of the VPC"
@@ -148,7 +158,6 @@ variable "tags" {
 ```
 
 **outputs.tf:**
-
 ```hcl
 output "vpc_id" {
   description = "ID of the VPC"
@@ -255,3 +264,6 @@ func TestVPCModule(t *testing.T) {
 
 - `multi-cloud-architecture` - For architectural decisions
 - `cost-optimization` - For cost-effective designs
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

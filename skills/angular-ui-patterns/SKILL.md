@@ -6,7 +6,9 @@ description: Modern Angular UI patterns for loading states, error handling, and 
 risk: safe
 source: self
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

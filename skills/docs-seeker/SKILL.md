@@ -5,9 +5,11 @@ description: 'Searching internet for technical documentation using llms.txt stan
   (1) Latest documentation for libraries/frameworks, (2) Documentation in llms.txt
   format, (3) GitHub repository analysis, (4) Documentation withou...'
 version: 1.0.0
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Documentation Discovery & Analysis
 
 ## Overview

@@ -5,9 +5,11 @@ description: 'Unified Azure OpenAI model deployment skill with intelligent inten
   policy), and capacity discovery across regions and projects.
 
   USE FOR: deploy model, deploy gpt, create deployment, mod...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 
@@ -146,3 +148,8 @@ All deployment modes require:
 - **[preset/SKILL.md](preset/SKILL.md)** — Quick deployment to optimal region with sensible defaults
 - **[customize/SKILL.md](customize/SKILL.md)** — Interactive guided flow with full configuration control
 - **[capacity/SKILL.md](capacity/SKILL.md)** — Discover available capacity across regions and projects
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for deploy-model-ms.

@@ -5,7 +5,9 @@ description: Expert on Odoo's external JSON-RPC and XML-RPC APIs. Covers authent
   and curl.
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

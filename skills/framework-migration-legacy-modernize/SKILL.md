@@ -3,22 +3,18 @@ name: framework-migration-legacy-modernize
 description: Orchestrate a comprehensive legacy system modernization using the strangler
   fig pattern, enabling gradual replacement of outdated components while maintaining
   continuous business operations through ex
-risk: unknown
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Legacy Code Modernization Workflow
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Orchestrate a comprehensive legacy system modernization using the strangler fig pattern, enabling gradual replacement of outdated components while maintaining continuous business operations through expert agent coordination.
 
 [Extended thinking: The strangler fig pattern, named after the tropical fig tree that gradually envelops and replaces its host, represents the gold standard for risk-managed legacy modernization. This workflow implements a systematic approach where new functionality gradually replaces legacy components, allowing both systems to coexist during transition. By orchestrating specialized agents for assessment, testing, security, and implementation, we ensure each migration phase is validated before proceeding, minimizing disruption while maximizing modernization velocity.]
@@ -145,7 +141,5 @@ Orchestrate a comprehensive legacy system modernization using the strangler fig 
 
 Target: $ARGUMENTS
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for framework-migration-legacy-modernize.
+- Use this skill when you need for functional programming or specific domain tasks.

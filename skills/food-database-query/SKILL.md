@@ -1,9 +1,11 @@
 ---
 name: food-database-query
 description: Food Database Query
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 # 食物数据库查询技能

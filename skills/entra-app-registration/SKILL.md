@@ -1,16 +1,16 @@
 ---
 name: entra-app-registration
 description: 'Guides Microsoft Entra ID app registration, OAuth 2.0 authentication,
-  and MSAL integration.
-
-  USE FOR: create app registration, register Azure AD app, configure OAuth, set up
-  authentication, add API permissions, generate service principal, MSAL example, console
-  app auth, Entra ID setup, Azur...'
-risk: unknown
+  and MSAL integration. USE FOR: create app registration, register Azure AD app, configure
+  OAuth, set up authentication, add API permissions, generate service principal, MSAL
+  example, console app auth, Entra ID setup, Azure AD au...'
+license: MIT
+metadata:
+  author: Microsoft
+  version: 1.0.0
+risk: safe
 source: community
 ---
-
-
 
 ## Overview
 
@@ -196,4 +196,4 @@ MSAL is the recommended library for integrating Microsoft identity platform.
 - [Microsoft Graph API](https://learn.microsoft.com/graph/)
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

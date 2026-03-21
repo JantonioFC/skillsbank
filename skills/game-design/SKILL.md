@@ -3,11 +3,10 @@ name: game-design
 description: Game design principles. GDD structure, balancing, player psychology,
   progression.
 allowed-tools: Read, Glob, Grep
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Game Design Principles
 
@@ -134,4 +133,4 @@ Just Right → Flow → Engagement
 > **Remember:** Fun is discovered through iteration, not designed on paper.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

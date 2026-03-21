@@ -1,12 +1,12 @@
 ---
 name: webapp-testing
-description: "To test local web applications, write native Python Playwright scripts."
-risk: unknown
+description: Toolkit for interacting with and testing local web applications using
+  Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing
+  browser screenshots, and viewing browser logs.
+license: Complete terms in LICENSE.txt
+risk: offensive
 source: community
-date_added: '2026-02-27'
 ---
-
-
 
 # Web Application Testing
 
@@ -105,4 +105,4 @@ with sync_playwright() as p:
   - `console_logging.py` - Capturing console logs during automation
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

@@ -6,7 +6,9 @@ description: Deploy web apps with backend APIs, database, and file storage. Use 
 risk: safe
 source: AppDeploy (MIT)
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

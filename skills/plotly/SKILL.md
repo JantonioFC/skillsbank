@@ -5,10 +5,11 @@ description: Interactive visualization library. Use when you need hover info, zo
   For static publication figures use matplotlib or scientific-visualization.
 license: MIT license
 metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
+  skill-author: K-Dense Inc.
+risk: safe
 source: community
 ---
+
 
 
 # Plotly
@@ -267,3 +268,8 @@ app.run_server(debug=True)
 - Official documentation: https://plotly.com/python/
 - API reference: https://plotly.com/python-api-reference/
 - Community forum: https://community.plotly.com/
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for plotly.

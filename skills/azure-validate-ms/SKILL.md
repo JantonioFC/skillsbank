@@ -6,9 +6,11 @@ description: 'Pre-deployment validation checkpoint. Run deep checks to ensure yo
 
   USE FOR: validate my app, check deployment readiness, run preflight checks, verify
   configuration, check i...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

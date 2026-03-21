@@ -1,16 +1,16 @@
 ---
 name: receiving-code-review
-description: "Code review requires technical evaluation, not emotional performance."
-risk: unknown
+description: Use when receiving code review feedback, before implementing suggestions,
+  especially if feedback seems unclear or technically questionable - requires technical
+  rigor and verification, not performative agreement or blind implementation
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Code Review Reception
 
-## When to Use
+## Overview
 
 Code review requires technical evaluation, not emotional performance.
 
@@ -218,4 +218,4 @@ Verify. Question. Then implement.
 No performative agreement. Technical rigor always.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

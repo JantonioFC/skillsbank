@@ -4,7 +4,9 @@ description: Expert guide for creating custom Odoo modules. Covers __manifest__.
   model inheritance, ORM patterns, and module structure best practices.
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

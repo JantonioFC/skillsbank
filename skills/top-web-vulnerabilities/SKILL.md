@@ -1,14 +1,23 @@
 ---
 name: top-web-vulnerabilities
-description: "Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic vulnerability identification, impact assessment, and remediation guidance across the full spectrum of web security threats."
-risk: unknown
+description: This skill should be used when the user asks to "identify web application
+  vulnerabilities", "explain common security flaws", "understand vulnerability categories",
+  "learn about injection attacks", "review access control weaknesses", "analyze API
+  security issues", "assess security misconfiguration...
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
 # Top 100 Web Vulnerabilities Reference
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -545,4 +554,4 @@ Permissions-Policy: geolocation=(), microphone=()
 - Source: Kumar MS - Top 100 Web Vulnerabilities
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

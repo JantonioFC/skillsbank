@@ -6,7 +6,9 @@ description: Security auditor for Laravel applications. Analyzes code for vulner
 risk: safe
 source: community
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

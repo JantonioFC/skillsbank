@@ -1,13 +1,17 @@
 ---
 name: azure-identity-py
-description: Azure Identity SDK for Python authentication. Use for DefaultAzureCredential,
+description: 'Azure Identity SDK for Python authentication. Use for DefaultAzureCredential,
   managed identity, service principals, and token caching.
-risk: unknown
+
+  Triggers: "azure-identity", "DefaultAzureCredential", "authentication", "managed
+  identity", "service principal", "credential".
+
+  '
+package: azure-identity
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure Identity SDK for Python
 
@@ -195,4 +199,4 @@ async def main():
 7. **Exclude unused credentials** to speed up authentication
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

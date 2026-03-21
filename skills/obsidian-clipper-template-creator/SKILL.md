@@ -6,7 +6,9 @@ description: Guide for creating templates for the Obsidian Web Clipper. Use when
 risk: safe
 source: community
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 # Obsidian Web Clipper Template Creator

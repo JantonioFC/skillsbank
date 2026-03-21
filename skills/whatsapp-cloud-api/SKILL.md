@@ -17,7 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+license: MIT
 ---
+
 
 
 # WhatsApp Cloud API - Integracao Profissional

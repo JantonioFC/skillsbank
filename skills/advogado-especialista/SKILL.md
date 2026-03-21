@@ -18,7 +18,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+license: MIT
 ---
+
 
 
 # ADVOGADO ESPECIALISTA ELITE — JURISTA COMPLETO

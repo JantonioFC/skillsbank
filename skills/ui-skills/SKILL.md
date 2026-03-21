@@ -4,7 +4,9 @@ description: Opinionated, evolving constraints to guide agents when building int
 risk: safe
 source: https://github.com/ibelick/ui-skills
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

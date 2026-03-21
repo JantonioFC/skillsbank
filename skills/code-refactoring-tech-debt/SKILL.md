@@ -3,13 +3,10 @@ name: code-refactoring-tech-debt
 description: You are a technical debt expert specializing in identifying, quantifying,
   and prioritizing technical debt in software projects. Analyze the codebase to uncover
   debt, assess its impact, and create acti
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Technical Debt Analysis and Remediation
 
@@ -393,7 +390,5 @@ Track progress with clear KPIs:
 
 Focus on delivering measurable improvements that directly impact development velocity, system reliability, and team morale.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for code-refactoring-tech-debt.
+- Use this skill when you need for functional programming or specific domain tasks.

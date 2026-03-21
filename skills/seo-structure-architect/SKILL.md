@@ -2,14 +2,13 @@
 name: seo-structure-architect
 description: Analyzes and optimizes content structure including header hierarchy,
   suggests schema markup, and internal linking opportunities. Creates search-friendly
-  content organization.
-risk: unknown
+  content organization. Use PROACTIVELY for content structuring.
+metadata:
+  model: haiku
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 ## Use this skill when
 
@@ -111,7 +110,5 @@ H1: Primary Keyword Focus
 
 Focus on logical flow and scannable content. Create clear information hierarchy for users and search engines.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for seo-structure-architect.
+- Use this skill when you need for functional programming or specific domain tasks.

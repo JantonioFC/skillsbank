@@ -1,18 +1,20 @@
 ---
 name: fp-taskeither-ref
-risk: unknown
-source: community
-description: Fp taskeither ref
----
-=======
-description: Quick reference for TaskEither. Use when user needs async error handling, API calls, or Promise-based operations that can fail.
-risk: unknown
-source: community
+description: Quick reference for TaskEither. Use when user needs async error handling,
+  API calls, or Promise-based operations that can fail.
 version: 1.0.0
-tags: [fp-ts, taskeither, async, promise, error-handling, quick-reference]
+tags:
+- fp-ts
+- taskeither
+- async
+- promise
+- error-handling
+- quick-reference
+risk: safe
+source: community
+license: MIT
 ---
 
->>>>>>> origin/main
 # TaskEither Quick Reference
 
 TaskEither = async operation that can fail. Like `Promise<Either<E, A>>`.
@@ -109,9 +111,6 @@ const getUser = (id: string) => pipe(
 ```
 
 Use TaskEither when you need **typed errors** for async operations.
-<<<<<<< HEAD
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
-=======
->>>>>>> origin/main
+- Use this skill when you need for functional programming or specific domain tasks.

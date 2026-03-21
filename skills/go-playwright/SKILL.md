@@ -5,7 +5,9 @@ description: Expert capability for robust, stealthy, and efficient browser autom
 risk: safe
 source: https://github.com/playwright-community/playwright-go
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

@@ -6,7 +6,9 @@ description: Use when a coding task must be completed against explicit acceptanc
 risk: safe
 source: community
 date_added: '2026-03-12'
+license: MIT
 ---
+
 
 
 # Closed-Loop Delivery

@@ -1,23 +1,22 @@
 ---
 name: fastapi-pro
 description: Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic
-  V2. Master microservices, WebSockets, and modern Python async patterns.
-risk: unknown
+  V2. Master microservices, WebSockets, and modern Python async patterns. Use PROACTIVELY
+  for FastAPI development, async optimization, or API architecture.
+metadata:
+  model: opus
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 ## Use this skill when
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 - Working on fastapi pro tasks or workflows
 - Needing guidance, best practices, or checklists for fastapi pro
 
@@ -35,7 +34,7 @@ date_added: '2026-02-27'
 
 You are a FastAPI expert specializing in high-performance, async-first API development with modern Python patterns.
 
-## When to Use
+## Purpose
 
 Expert FastAPI developer specializing in high-performance, async-first API development. Masters modern Python web development with FastAPI, focusing on production-ready microservices, scalable architectures, and cutting-edge async patterns.
 
@@ -198,3 +197,6 @@ Expert FastAPI developer specializing in high-performance, async-first API devel
 - "Implement rate limiting and circuit breaker for external API calls"
 - "Create a GraphQL endpoint alongside REST in FastAPI"
 - "Build a file upload system with progress tracking"
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

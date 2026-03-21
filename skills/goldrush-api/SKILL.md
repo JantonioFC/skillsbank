@@ -1,14 +1,29 @@
 ---
 name: goldrush-api
-description: "Query blockchain data across 100+ chains: wallet balances, token prices, transactions, DEX pairs, and real-time OHLCV streams via the GoldRush API by Covalent."
+description: 'Query blockchain data across 100+ chains: wallet balances, token prices,
+  transactions, DEX pairs, and real-time OHLCV streams via the GoldRush API by Covalent.'
 category: blockchain
 risk: safe
 source: community
-date_added: "2026-03-17"
+date_added: '2026-03-17'
 author: covalenthq
-tags: [blockchain, crypto, web3, api, defi, wallet, multi-chain]
-tools: [claude, cursor, gemini, codex, copilot]
+tags:
+- blockchain
+- crypto
+- web3
+- api
+- defi
+- wallet
+- multi-chain
+tools:
+- claude
+- cursor
+- gemini
+- codex
+- copilot
+license: MIT
 ---
+
 
 # GoldRush API
 

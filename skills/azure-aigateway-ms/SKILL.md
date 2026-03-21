@@ -6,9 +6,11 @@ description: 'Configure Azure API Management (APIM) as AI Gateway to secure, obs
 
   USE FOR: AI Gateway, APIM, setup gateway, configure gateway, add gateway, model
   gateway, MCP server, r...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

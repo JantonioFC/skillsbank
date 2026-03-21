@@ -5,7 +5,9 @@ description: Use when adding interactive 3D scenes from Spline.design to web pro
 risk: safe
 source: community
 date_added: '2026-03-07'
+license: MIT
 ---
+
 
 
 # Spline 3D Integration Skill

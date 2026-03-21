@@ -6,7 +6,9 @@ description: Audit and improve local SEO for law firms, attorneys, forensic expe
 risk: safe
 source: original
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

@@ -3,22 +3,18 @@ name: frontend-mobile-security-xss-scan
 description: You are a frontend security specialist focusing on Cross-Site Scripting
   (XSS) vulnerability detection and prevention. Analyze React, Vue, Angular, and vanilla
   JavaScript code to identify injection poi
-risk: unknown
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # XSS Vulnerability Scanner for Frontend Code
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 You are a frontend security specialist focusing on Cross-Site Scripting (XSS) vulnerability detection and prevention. Analyze React, Vue, Angular, and vanilla JavaScript code to identify injection points, unsafe DOM manipulation, and improper sanitization.
 
 ## Use this skill when
@@ -335,7 +331,5 @@ class XSSReportGenerator {
 
 Focus on identifying XSS attack vectors, providing actionable fixes, and establishing secure coding patterns.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for frontend-mobile-security-xss-scan.
+- Use this skill when you need for functional programming or specific domain tasks.

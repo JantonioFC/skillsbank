@@ -2,11 +2,11 @@
 name: docker-patterns
 description: Docker and Docker Compose patterns for local development, container security,
   networking, volume strategies, and multi-service orchestration.
-risk: unknown
+origin: ECC
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Docker Patterns
 
@@ -368,4 +368,4 @@ docker network inspect <project>_default
 ```
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

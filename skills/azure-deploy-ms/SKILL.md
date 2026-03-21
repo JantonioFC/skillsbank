@@ -5,9 +5,11 @@ description: 'Execute deployment to Azure. Final step after preparation and vali
 
   USE FOR: run azd up, run azd deploy, execute deployment, provision infrastructure,
   push to production, go live, ship it, deploy web app, deploy contai...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

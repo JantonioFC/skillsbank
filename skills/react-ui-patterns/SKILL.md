@@ -2,13 +2,10 @@
 name: react-ui-patterns
 description: Modern React UI patterns for loading states, error handling, and data
   fetching. Use when building UI components, handling async data, or managing UI states.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # React UI Patterns
 
@@ -296,4 +293,4 @@ Before completing any UI component:
 - **formik-patterns**: Apply form submission patterns
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

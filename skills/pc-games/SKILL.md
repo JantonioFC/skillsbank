@@ -3,11 +3,10 @@ name: pc-games
 description: PC and console game development principles. Engine selection, platform
   features, optimization strategies.
 allowed-tools: Read, Write, Edit, Glob, Grep
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # PC/Console Game Development
 
@@ -149,4 +148,4 @@ Map ACTIONS, not buttons:
 > **Remember:** Engine is a tool. Master the principles, then adapt to any engine.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

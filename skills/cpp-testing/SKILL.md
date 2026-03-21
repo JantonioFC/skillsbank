@@ -1,49 +1,48 @@
 ---
 name: cpp-testing
-description: Use only when writing/updating/fixing C++ tests, configuring GoogleTest/CTest,
-  diagnosing failing or flaky tests, or adding coverage/sanitizers.
-risk: unknown
+description: 仅用于编写/更新/修复C++测试、配置GoogleTest/CTest、诊断失败或不稳定的测试，或添加覆盖率/消毒器时使用。
+origin: ECC
+risk: safe
 source: community
+license: MIT
 ---
 
+# C++ 测试（代理技能）
 
+针对现代 C++（C++17/20）的代理导向测试工作流，使用 GoogleTest/GoogleMock 和 CMake/CTest。
 
-# C++ Testing (Agent Skill)
+## 使用时机
 
-Agent-focused testing workflow for modern C++ (C++17/20) using GoogleTest/GoogleMock with CMake/CTest.
+* 编写新的 C++ 测试或修复现有测试
+* 为 C++ 组件设计单元/集成测试覆盖
+* 添加测试覆盖、CI 门控或回归保护
+* 配置 CMake/CTest 工作流以实现一致的执行
+* 调查测试失败或偶发性行为
+* 启用用于内存/竞态诊断的消毒剂
 
-## When to Use
+### 不适用时机
 
-- Writing new C++ tests or fixing existing tests
-- Designing unit/integration test coverage for C++ components
-- Adding test coverage, CI gating, or regression protection
-- Configuring CMake/CTest workflows for consistent execution
-- Investigating test failures or flaky behavior
-- Enabling sanitizers for memory/race diagnostics
+* 在不修改测试的情况下实现新的产品功能
+* 与测试覆盖或失败无关的大规模重构
+* 没有测试回归需要验证的性能调优
+* 非 C++ 项目或非测试任务
 
-### When NOT to Use
+## 核心概念
 
-- Implementing new product features without test changes
-- Large-scale refactors unrelated to test coverage or failures
-- Performance tuning without test regressions to validate
-- Non-C++ projects or non-test tasks
+* **TDD 循环**：红 → 绿 → 重构（先写测试，最小化修复，然后清理）。
+* **隔离**：优先使用依赖注入和仿制品，而非全局状态。
+* **测试布局**：`tests/unit`、`tests/integration`、`tests/testdata`。
+* **Mock 与 Fake**：Mock 用于交互，Fake 用于有状态行为。
+* **CTest 发现**：使用 `gtest_discover_tests()` 进行稳定的测试发现。
+* **CI 信号**：先运行子集，然后使用 `--output-on-failure` 运行完整套件。
 
-## Core Concepts
+## TDD 工作流
 
-- **TDD loop**: red → green → refactor (tests first, minimal fix, then cleanups).
-- **Isolation**: prefer dependency injection and fakes over global state.
-- **Test layout**: `tests/unit`, `tests/integration`, `tests/testdata`.
-- **Mocks vs fakes**: mock for interactions, fake for stateful behavior.
-- **CTest discovery**: use `gtest_discover_tests()` for stable test discovery.
-- **CI signal**: run subset first, then full suite with `--output-on-failure`.
+遵循 RED → GREEN → REFACTOR 循环：
 
-## TDD Workflow
-
-Follow the RED → GREEN → REFACTOR loop:
-
-1. **RED**: write a failing test that captures the new behavior
-2. **GREEN**: implement the smallest change to pass
-3. **REFACTOR**: clean up while tests stay green
+1. **RED**：编写一个捕获新行为的失败测试
+2. **GREEN**：实现最小的更改以使其通过
+3. **REFACTOR**：在测试保持通过的同时进行清理
 
 ```cpp
 // tests/add_test.cpp
@@ -63,9 +62,9 @@ int Add(int a, int b) { // GREEN
 // REFACTOR: simplify/rename once tests pass
 ```
 
-## Code Examples
+## 代码示例
 
-### Basic Unit Test (gtest)
+### 基础单元测试 (gtest)
 
 ```cpp
 // tests/calculator_test.cpp
@@ -78,7 +77,7 @@ TEST(CalculatorTest, AddsTwoNumbers) {
 }
 ```
 
-### Fixture (gtest)
+### 夹具 (gtest)
 
 ```cpp
 // tests/user_store_test.cpp
@@ -150,7 +149,7 @@ TEST(ServiceTest, SendsNotifications) {
 }
 ```
 
-### CMake/CTest Quickstart
+### CMake/CTest 快速入门
 
 ```cmake
 # CMakeLists.txt (excerpt)
@@ -165,6 +164,7 @@ include(FetchContent)
 set(GTEST_VERSION v1.17.0) # Adjust to project policy.
 FetchContent_Declare(
   googletest
+  # Google Test framework (official repository)
   URL https://github.com/google/googletest/archive/refs/tags/${GTEST_VERSION}.zip
 )
 FetchContent_MakeAvailable(googletest)
@@ -186,7 +186,7 @@ cmake --build build -j
 ctest --test-dir build --output-on-failure
 ```
 
-## Running Tests
+## 运行测试
 
 ```bash
 ctest --test-dir build --output-on-failure
@@ -199,16 +199,16 @@ ctest --test-dir build -R "UserStoreTest.*" --output-on-failure
 ./build/example_tests --gtest_filter=UserStoreTest.FindsExistingUser
 ```
 
-## Debugging Failures
+## 调试失败
 
-1. Re-run the single failing test with gtest filter.
-2. Add scoped logging around the failing assertion.
-3. Re-run with sanitizers enabled.
-4. Expand to full suite once the root cause is fixed.
+1. 使用 gtest 过滤器重新运行单个失败的测试。
+2. 在失败的断言周围添加作用域日志记录。
+3. 启用消毒剂后重新运行。
+4. 根本原因修复后，扩展到完整套件。
 
-## Coverage
+## 覆盖率
 
-Prefer target-level settings instead of global flags.
+优先使用目标级别的设置，而非全局标志。
 
 ```cmake
 option(ENABLE_COVERAGE "Enable coverage flags" OFF)
@@ -224,7 +224,7 @@ if(ENABLE_COVERAGE)
 endif()
 ```
 
-GCC + gcov + lcov:
+GCC + gcov + lcov：
 
 ```bash
 cmake -S . -B build-cov -DENABLE_COVERAGE=ON
@@ -235,7 +235,7 @@ lcov --remove coverage.info '/usr/*' --output-file coverage.info
 genhtml coverage.info --output-directory coverage
 ```
 
-Clang + llvm-cov:
+Clang + llvm-cov：
 
 ```bash
 cmake -S . -B build-llvm -DENABLE_COVERAGE=ON -DCMAKE_CXX_COMPILER=clang++
@@ -245,7 +245,7 @@ llvm-profdata merge -sparse build-llvm/default.profraw -o build-llvm/default.pro
 llvm-cov report build-llvm/example_tests -instr-profile=build-llvm/default.profdata
 ```
 
-## Sanitizers
+## 消毒剂
 
 ```cmake
 option(ENABLE_ASAN "Enable AddressSanitizer" OFF)
@@ -266,48 +266,48 @@ if(ENABLE_TSAN)
 endif()
 ```
 
-## Flaky Tests Guardrails
+## 偶发性测试防护
 
-- Never use `sleep` for synchronization; use condition variables or latches.
-- Make temp directories unique per test and always clean them.
-- Avoid real time, network, or filesystem dependencies in unit tests.
-- Use deterministic seeds for randomized inputs.
+* 切勿使用 `sleep` 进行同步；使用条件变量或门闩。
+* 为每个测试创建唯一的临时目录并始终清理它们。
+* 避免在单元测试中依赖真实时间、网络或文件系统。
+* 对随机化输入使用确定性种子。
 
-## Best Practices
+## 最佳实践
 
-### DO
+### 应该做
 
-- Keep tests deterministic and isolated
-- Prefer dependency injection over globals
-- Use `ASSERT_*` for preconditions, `EXPECT_*` for multiple checks
-- Separate unit vs integration tests in CTest labels or directories
-- Run sanitizers in CI for memory and race detection
+* 保持测试的确定性和隔离性
+* 优先使用依赖注入而非全局变量
+* 对前置条件使用 `ASSERT_*`，对多个检查使用 `EXPECT_*`
+* 在 CTest 标签或目录中分离单元测试与集成测试
+* 在 CI 中运行消毒剂以进行内存和竞态检测
 
-### DON'T
+### 不应该做
 
-- Don't depend on real time or network in unit tests
-- Don't use sleeps as synchronization when a condition variable can be used
-- Don't over-mock simple value objects
-- Don't use brittle string matching for non-critical logs
+* 不要在单元测试中依赖真实时间或网络
+* 当可以使用条件变量时，不要使用睡眠作为同步手段
+* 不要过度模拟简单的值对象
+* 不要对非关键日志使用脆弱的字符串匹配
 
-### Common Pitfalls
+### 常见陷阱
 
-- **Using fixed temp paths** → Generate unique temp directories per test and clean them.
-- **Relying on wall clock time** → Inject a clock or use fake time sources.
-- **Flaky concurrency tests** → Use condition variables/latches and bounded waits.
-- **Hidden global state** → Reset global state in fixtures or remove globals.
-- **Over-mocking** → Prefer fakes for stateful behavior and only mock interactions.
-- **Missing sanitizer runs** → Add ASan/UBSan/TSan builds in CI.
-- **Coverage on debug-only builds** → Ensure coverage targets use consistent flags.
+* **使用固定的临时路径** → 为每个测试生成唯一的临时目录并清理它们。
+* **依赖挂钟时间** → 注入时钟或使用模拟时间源。
+* **偶发性并发测试** → 使用条件变量/门闩和有界等待。
+* **隐藏的全局状态** → 在夹具中重置全局状态或移除全局变量。
+* **过度模拟** → 对有状态行为优先使用 Fake，仅对交互进行 Mock。
+* **缺少消毒剂运行** → 在 CI 中添加 ASan/UBSan/TSan 构建。
+* **仅在调试版本上计算覆盖率** → 确保覆盖率目标使用一致的标志。
 
-## Optional Appendix: Fuzzing / Property Testing
+## 可选附录：模糊测试 / 属性测试
 
-Only use if the project already supports LLVM/libFuzzer or a property-testing library.
+仅在项目已支持 LLVM/libFuzzer 或属性测试库时使用。
 
-- **libFuzzer**: best for pure functions with minimal I/O.
-- **RapidCheck**: property-based tests to validate invariants.
+* **libFuzzer**：最适合 I/O 最少的纯函数。
+* **RapidCheck**：基于属性的测试，用于验证不变量。
 
-Minimal libFuzzer harness (pseudocode: replace ParseConfig):
+最小的 libFuzzer 测试框架（伪代码：替换 ParseConfig）：
 
 ```cpp
 #include <cstddef>
@@ -321,7 +321,10 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size) {
 }
 ```
 
-## Alternatives to GoogleTest
+## GoogleTest 的替代方案
 
-- **Catch2**: header-only, expressive matchers
-- **doctest**: lightweight, minimal compile overhead
+* **Catch2**：仅头文件，表达性强的匹配器
+* **doctest**：轻量级，编译开销最小
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

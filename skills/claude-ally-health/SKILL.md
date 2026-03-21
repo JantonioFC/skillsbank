@@ -5,7 +5,9 @@ description: A health assistant skill for medical information analysis, symptom 
 risk: safe
 source: https://github.com/huifer/Claude-Ally-Health
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

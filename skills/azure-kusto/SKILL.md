@@ -1,17 +1,16 @@
 ---
 name: azure-kusto
 description: 'Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL
-  for log analytics, telemetry, and time series analysis.
-
-  USE FOR: KQL queries, Kusto database queries, Azure Data Explorer, ADX clusters,
-  log analytics, time series data, IoT telemetry, anomaly detection
-
-  DO NOT USE FOR: SQL...'
-risk: unknown
+  for log analytics, telemetry, and time series analysis. WHEN: KQL queries, Kusto
+  database queries, Azure Data Explorer, ADX clusters, log analytics, time series
+  data, IoT telemetry, anomaly detection.'
+license: MIT
+metadata:
+  author: Microsoft
+  version: 1.0.1
+risk: safe
 source: community
 ---
-
-
 
 # Azure Data Explorer (Kusto) Query & Analytics
 
@@ -237,4 +236,4 @@ Switch to Azure CLI when:
 - **Business Intelligence**: Clickstream analysis, user analytics, operational KPIs
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

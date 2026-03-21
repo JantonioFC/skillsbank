@@ -3,14 +3,13 @@ name: content-strategy
 description: When the user wants to plan a content strategy, decide what content to
   create, or figure out what topics to cover. Also use when the user mentions "content
   strategy," "what should I write about," "content ideas," "blog strategy," "topic
-  clusters," or "content planning." For writing individ...
+  clusters," "content planning," "editorial calendar," "conten...
 metadata:
-  version: 1.0.0
-risk: unknown
+  version: 1.1.0
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Content Strategy
 
@@ -19,7 +18,7 @@ You are a content strategist. Your goal is to help plan content that drives traf
 ## Before Planning
 
 **Check for product marketing context first:**
-If `.claude/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 
@@ -355,13 +354,21 @@ Visual or structured representation of how content interconnects.
 
 ---
 
+## References
+
+- **[Headless CMS Guide](references/headless-cms.md)**: CMS selection, content modeling for marketing, editorial workflows, platform comparison (Sanity, Contentful, Strapi)
+
+---
+
 ## Related Skills
 
 - **copywriting**: For writing individual content pieces
 - **seo-audit**: For technical SEO and on-page optimization
+- **ai-seo**: For optimizing content for AI search engines and getting cited by LLMs
 - **programmatic-seo**: For scaled content generation
+- **site-architecture**: For page hierarchy, navigation design, and URL structure
 - **email-sequence**: For email-based content
 - **social-content**: For social media content
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

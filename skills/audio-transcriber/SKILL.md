@@ -7,7 +7,9 @@ risk: safe
 source: community
 tags: '[audio, transcription, whisper, meeting-minutes, speech-to-text]'
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

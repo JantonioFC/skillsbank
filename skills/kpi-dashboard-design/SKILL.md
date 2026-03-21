@@ -1,18 +1,30 @@
 ---
 name: kpi-dashboard-design
-description: "Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions."
-risk: unknown
+description: Design effective KPI dashboards with metrics selection, visualization
+  best practices, and real-time monitoring patterns. Use when building business dashboards,
+  selecting metrics, or designing data visualization layouts.
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # KPI Dashboard Design
 
 Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions.
 
-## When to Use This Skill
+## Do not use this skill when
+
+- The task is unrelated to kpi dashboard design
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
+## Use this skill when
 
 - Designing executive dashboards
 - Selecting meaningful KPIs
@@ -431,3 +443,6 @@ for alert in alerts:
 - [Stephen Few's Dashboard Design](https://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf)
 - [Edward Tufte's Principles](https://www.edwardtufte.com/tufte/)
 - [Google Data Studio Gallery](https://datastudio.google.com/gallery)
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

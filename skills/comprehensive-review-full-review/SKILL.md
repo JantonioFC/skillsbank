@@ -1,22 +1,18 @@
 ---
 name: comprehensive-review-full-review
 description: Use when working with comprehensive review full review
-risk: unknown
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 ## Use this skill when
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 - Working on comprehensive review full review tasks or workflows
 - Needing guidance, best practices, or checklists for comprehensive review full review
 
@@ -157,7 +153,5 @@ Review is considered successful when:
 
 Target: $ARGUMENTS
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for comprehensive-review-full-review.
+- Use this skill when you need for functional programming or specific domain tasks.

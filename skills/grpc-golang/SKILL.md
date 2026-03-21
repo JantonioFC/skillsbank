@@ -6,7 +6,9 @@ description: Build production-ready gRPC services in Go with mTLS, streaming, an
 risk: safe
 source: self
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

@@ -1,10 +1,12 @@
 ---
 name: hig-components-layout
 description: Apple Human Interface Guidelines for layout and navigation components.
-risk: unknown
+risk: safe
 source: community
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

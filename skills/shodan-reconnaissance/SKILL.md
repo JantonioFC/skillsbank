@@ -1,14 +1,23 @@
 ---
 name: shodan-reconnaissance
-description: "Provide systematic methodologies for leveraging Shodan as a reconnaissance tool during penetration testing engagements."
-risk: unknown
+description: This skill should be used when the user asks to "search for exposed devices
+  on the internet," "perform Shodan reconnaissance," "find vulnerable services using
+  Shodan," "scan IP ranges with Shodan," or "discover IoT devices and open ports."
+  It provides comprehensive guidance for using Shodan's sea...
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
 # Shodan Reconnaissance and Pentesting
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -505,4 +514,4 @@ shodan download network_scan.json.gz 'net:192.168.1.0/24'
 | Downloaded File Won't Parse | Corrupted or wrong format | Verify with `gunzip -t file.gz`, re-download with `--limit` |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

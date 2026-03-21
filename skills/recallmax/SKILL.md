@@ -25,7 +25,9 @@ tools:
 - windsurf
 - antigravity
 - grok
+license: MIT
 ---
+
 
 
 # RecallMax — God-Tier Long-Context Memory

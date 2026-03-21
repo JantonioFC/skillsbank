@@ -20,7 +20,9 @@ tools:
 - cursor
 - gemini
 - copilot
+license: MIT
 ---
+
 
 
 # AI Engineering Toolkit

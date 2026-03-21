@@ -2,22 +2,19 @@
 name: red-team-tactics
 description: Red team tactics principles based on MITRE ATT&CK. Attack phases, detection
   evasion, reporting.
-risk: unknown
+allowed-tools: Read, Glob, Grep
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Red Team Tactics
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 > Adversary simulation principles based on MITRE ATT&CK framework.
 
 ---
@@ -211,4 +208,4 @@ For each successful technique:
 > **Remember:** Red team simulates attackers to improve defenses, not to cause harm.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

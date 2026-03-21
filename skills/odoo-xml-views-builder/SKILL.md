@@ -4,7 +4,9 @@ description: 'Expert at building Odoo XML views: Form, List, Kanban, Search, Cal
   and Graph. Generates correct XML for Odoo 14-17 with proper visibility syntax.'
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

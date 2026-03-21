@@ -5,9 +5,10 @@ description: Process multimedia files with FFmpeg (video/audio encoding, convers
   format conversion, batch processing, effects, composition). Use when converting
   media formats, encoding videos with specific codecs (H.264, H.2...
 license: MIT
-risk: unknown
+risk: safe
 source: community
 ---
+
 # Media Processing Skill
 
 Process video, audio, and images using FFmpeg and ImageMagick command-line tools for conversion, optimization, streaming, and manipulation tasks.

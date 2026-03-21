@@ -19,7 +19,9 @@ tools:
 - claude
 - cursor
 - antigravity
+license: MIT
 ---
+
 
 
 # Playwright Java – Advanced Test Automation

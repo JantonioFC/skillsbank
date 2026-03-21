@@ -6,7 +6,9 @@ description: Handle errors as values using fp-ts Either and TaskEither for clean
 risk: safe
 source: https://github.com/whatiskadudoing/fp-ts-skills
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

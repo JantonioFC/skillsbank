@@ -1,17 +1,19 @@
 ---
 name: wiki-qa
-description: "Answer repository questions grounded entirely in source code evidence. Use when user asks a question about the codebase, user wants to understand a specific file, function, or component, or user asks \"how does X work\" or \"where is Y defined\"."
-risk: unknown
+description: Answers questions about a code repository using source file analysis.
+  Use when the user asks a question about how something works, wants to understand
+  a component, or needs help navigating the codebase.
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Wiki Q&A
 
 Answer repository questions grounded entirely in source code evidence.
 
-## When to Use
+## When to Activate
+
 - User asks a question about the codebase
 - User wants to understand a specific file, function, or component
 - User asks "how does X work" or "where is Y defined"
@@ -53,4 +55,4 @@ Before answering any question, you MUST determine the source repository context:
 - Think step by step before answering
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

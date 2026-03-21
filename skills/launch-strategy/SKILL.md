@@ -1,17 +1,26 @@
 ---
 name: launch-strategy
-description: "You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users."
-risk: unknown
+description: When the user wants to plan a product launch, feature announcement, or
+  release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature
+  release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,'
+  'product update,' 'how do I launch this,' 'launch checkl...
+metadata:
+  version: 1.1.0
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Launch Strategy
 
 You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users.
+
+## Before Starting
+
+**Check for product marketing context first:**
+If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+
+---
 
 ## Core Philosophy
 
@@ -329,9 +338,8 @@ Even small changelog updates remind customers your product is evolving. This bui
 
 ---
 
-## Questions to Ask
+## Task-Specific Questions
 
-If you need more context:
 1. What are you launching? (New product, major feature, minor update)
 2. What's your current audience size and engagement?
 3. What owned channels do you have? (Email list size, blog traffic, community)
@@ -348,6 +356,7 @@ If you need more context:
 - **page-cro**: For optimizing launch landing pages
 - **marketing-psychology**: For psychology behind waitlists and exclusivity
 - **programmatic-seo**: For comparison pages mentioned in post-launch
+- **sales-enablement**: For launch sales collateral and enablement materials
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

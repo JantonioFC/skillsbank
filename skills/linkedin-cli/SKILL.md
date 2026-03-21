@@ -5,7 +5,9 @@ description: 'Use when automating LinkedIn via CLI: fetch profiles, search peopl
 risk: safe
 source: community
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

@@ -1,13 +1,15 @@
 ---
 name: c4-container
-description: Expert C4 Container-level documentation specialist.
-risk: unknown
+description: Expert C4 Container-level documentation specialist. Synthesizes Component-level
+  documentation into Container-level architecture, mapping components to deployment
+  units, documenting container interfaces as APIs, and creating container diagrams.
+  Use when synthesizing components into deployment cont...
+metadata:
+  model: sonnet
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # C4 Container Level: System Deployment
 
@@ -38,7 +40,7 @@ date_added: '2026-02-27'
 - **Technology**: [Primary technologies: Node.js, Python, PostgreSQL, Redis, etc.]
 - **Deployment**: [Docker, Kubernetes, Cloud Service, etc.]
 
-## When to Use
+## Purpose
 
 [Detailed description of what this container does and how it's deployed]
 
@@ -47,7 +49,7 @@ date_added: '2026-02-27'
 This container deploys the following components:
 
 - [Component Name]: [Description]
-  - Documentation: c4-component-name.md
+  - Documentation: [c4-component-name.md](./c4-component-name.md)
 
 ## Interfaces
 
@@ -169,3 +171,6 @@ When synthesizing containers, provide:
 - Links to deployment configurations (Dockerfiles, K8s manifests, etc.)
 - Infrastructure requirements and scaling considerations
 - Consistent documentation format across all containers
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

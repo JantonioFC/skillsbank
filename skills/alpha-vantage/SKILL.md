@@ -1,11 +1,14 @@
 ---
 name: alpha-vantage
-description: "Access 20+ years of global financial data: equities, options, forex, crypto, commodities, economic indicators, and 50+ technical indicators."
-risk: unknown
+description: 'Access 20+ years of global financial data: equities, options, forex,
+  crypto, commodities, economic indicators, and 50+ technical indicators.'
+risk: safe
 source: community
 metadata:
   skill-author: K-Dense Inc.
+license: MIT
 ---
+
 
 
 # Alpha Vantage — Financial Market Data

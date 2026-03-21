@@ -2,19 +2,16 @@
 name: security-scanning-security-hardening
 description: Coordinate multi-layer security scanning and hardening across application,
   infrastructure, and compliance controls.
-risk: unknown
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
 
-
-
-> [!IMPORTANT]
 > **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Implement comprehensive security hardening with defense-in-depth strategy through coordinated multi-agent orchestration:
 
@@ -159,7 +156,5 @@ Implement comprehensive security hardening with defense-in-depth strategy throug
 
 Security hardening target: $ARGUMENTS
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for security-scanning-security-hardening.
+- Use this skill when you need for functional programming or specific domain tasks.

@@ -2,14 +2,14 @@
 name: c4-component
 description: Expert C4 Component-level documentation specialist. Synthesizes C4 Code-level
   documentation into Component-level architecture, defining component boundaries,
-  interfaces, and relationships.
-risk: unknown
+  interfaces, and relationships. Creates component diagrams and documentation. Use
+  when synthesizing code-level documentation into logical co...
+metadata:
+  model: sonnet
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # C4 Component Level: [Component Name]
 
@@ -37,7 +37,7 @@ date_added: '2026-02-27'
 - **Type**: [Component type: Application, Service, Library, etc.]
 - **Technology**: [Primary technologies used]
 
-## When to Use
+## Purpose
 
 [Detailed description of what this component does and what problems it solves]
 
@@ -51,8 +51,8 @@ date_added: '2026-02-27'
 
 This component contains the following code-level elements:
 
-- c4-code-file-1.md - [Description]
-- c4-code-file-2.md - [Description]
+- [c4-code-file-1.md](./c4-code-file-1.md) - [Description]
+- [c4-code-file-2.md](./c4-code-file-2.md) - [Description]
 
 ## Interfaces
 
@@ -116,12 +116,12 @@ C4Component
 ### [Component 1]
 - **Name**: [Component name]
 - **Description**: [Short description]
-- **Documentation**: c4-component-name-1.md
+- **Documentation**: [c4-component-name-1.md](./c4-component-name-1.md)
 
 ### [Component 2]
 - **Name**: [Component name]
 - **Description**: [Short description]
-- **Documentation**: c4-component-name-2.md
+- **Documentation**: [c4-component-name-2.md](./c4-component-name-2.md)
 
 ## Component Relationships
 [Mermaid diagram showing all components and their relationships]
@@ -153,3 +153,6 @@ When synthesizing components, provide:
 - Mermaid component diagrams showing relationships
 - Master component index with all components
 - Consistent documentation format across all components
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

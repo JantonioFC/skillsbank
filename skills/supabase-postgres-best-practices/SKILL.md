@@ -15,9 +15,10 @@ metadata:
     (advanced features). Each rule includes detailed explanations, incorrect vs. correct
     SQL examples, query plan analysis, and specific performance metrics to guide automated
     optimization and code generation.
-risk: unknown
+risk: safe
 source: community
 ---
+
 # Supabase Postgres Best Practices
 
 Comprehensive performance optimization guide for Postgres, maintained by Supabase. Contains rules across 8 categories, prioritized by impact to guide automated query optimization and schema design.

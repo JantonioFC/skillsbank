@@ -9,9 +9,11 @@ description: 'Comprehensive Azure compliance and security auditing capabilities 
   expiration check,
 
   compliance assess...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

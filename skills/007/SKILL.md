@@ -20,7 +20,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+license: MIT
 ---
+
 
 
 # 007 — Licenca para Auditar

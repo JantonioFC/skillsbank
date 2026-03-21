@@ -3,11 +3,10 @@ name: wiki-ado-convert
 description: Converts VitePress/GFM wiki markdown to Azure DevOps Wiki-compatible
   format. Generates a Node.js build script that transforms Mermaid syntax, strips
   front matter, fixes links, and outputs ADO-compatible copies to dist/ado-wiki/.
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # ADO Wiki Converter
 
@@ -250,4 +249,4 @@ The converted ADO wiki must maintain the same quality standards:
 - Script uses zero external dependencies — only Node.js builtins
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

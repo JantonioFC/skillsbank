@@ -2,13 +2,10 @@
 name: tdd-workflows-tdd-red
 description: Generate failing tests for the TDD red phase to define expected behavior
   and edge cases.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 Write comprehensive failing tests following TDD red phase principles.
 
@@ -170,7 +167,5 @@ describe('AuthService', () => {
 
 Test requirements: $ARGUMENTS
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for tdd-workflows-tdd-red.
+- Use this skill when you need for functional programming or specific domain tasks.

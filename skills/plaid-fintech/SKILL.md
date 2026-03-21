@@ -1,10 +1,14 @@
 ---
 name: plaid-fintech
-description: "Create a linktoken for Plaid Link, exchange publictoken for accesstoken. Link tokens are short-lived, one-time use. Access tokens don't expire but may need updating when users change passwords."
-risk: unknown
+description: Create a linktoken for Plaid Link, exchange publictoken for accesstoken.
+  Link tokens are short-lived, one-time use. Access tokens don't expire but may need
+  updating when users change passwords.
+risk: safe
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

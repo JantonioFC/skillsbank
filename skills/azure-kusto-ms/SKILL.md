@@ -7,9 +7,11 @@ description: 'Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQ
   log analytics, time series data, IoT telemetry, anomaly detection
 
   DO NOT USE FOR: SQL...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

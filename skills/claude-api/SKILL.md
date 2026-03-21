@@ -5,9 +5,10 @@ description: 'Build apps with the Claude API or Anthropic SDK. TRIGGER when: cod
   Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other
   AI SDK, general programming, or ML/data-science tasks.'
 license: Complete terms in LICENSE.txt
-risk: unknown
+risk: safe
 source: community
 ---
+
 # Building LLM-Powered Applications with Claude
 
 This skill helps you build LLM-powered applications with Claude. Choose the right surface based on your needs, detect the project language, then read the relevant language-specific documentation.

@@ -6,7 +6,9 @@ description: Angular performance optimization and best practices guide. Use when
 risk: safe
 source: self
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

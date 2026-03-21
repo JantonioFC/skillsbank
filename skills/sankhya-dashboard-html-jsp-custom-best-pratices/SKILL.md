@@ -13,7 +13,9 @@ tags:
 - sql
 - best-practices
 date_added: '2026-03-10'
+license: MIT
 ---
+
 
 
 # sankhya-dashboard-html-jsp-custom-best-pratices

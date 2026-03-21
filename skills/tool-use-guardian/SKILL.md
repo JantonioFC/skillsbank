@@ -23,7 +23,9 @@ tools:
 - copilot
 - windsurf
 - antigravity
+license: MIT
 ---
+
 
 
 # Tool Use Guardian

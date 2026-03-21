@@ -1,10 +1,13 @@
 ---
 name: moodle-external-api-development
-description: "This skill guides you through creating custom external web service APIs for Moodle LMS, following Moodle's external API framework and coding standards."
-risk: unknown
+description: This skill guides you through creating custom external web service APIs
+  for Moodle LMS, following Moodle's external API framework and coding standards.
+risk: offensive
 source: community
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

@@ -1,13 +1,15 @@
 ---
 name: google-slides-automation
-description: "Lightweight Google Slides integration with standalone OAuth authentication. No MCP server required. Full read/write access."
+description: Lightweight Google Slides integration with standalone OAuth authentication.
+  No MCP server required. Full read/write access.
 license: Apache-2.0
-risk: unknown
+risk: safe
 source: community
 metadata:
   author: sanjay3290
-  version: "1.0"
+  version: '1.0'
 ---
+
 
 # Google Slides
 

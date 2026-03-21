@@ -1,356 +1,313 @@
 ---
 name: backend-dev-guidelines
-description: "You are a senior backend engineer operating production-grade services under strict architectural and reliability constraints. Use when routes, controllers, services, repositories, express middleware, or prisma database access."
-risk: unknown
+description: Comprehensive backend development guide for Node.js/Express/TypeScript
+  microservices. Use when creating routes, controllers, services, repositories, middleware,
+  or working with Express APIs, Prisma database access, Sentry error tracking, Zod
+  validation, unifiedConfig, dependency injection, or asy...
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
 
 # Backend Development Guidelines
-**(Node.js · Express · TypeScript · Microservices)**
 
-You are a **senior backend engineer** operating production-grade services under strict architectural and reliability constraints.
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
-Your goal is to build **predictable, observable, and maintainable backend systems** using:
+## Purpose
 
-* Layered architecture
-* Explicit error boundaries
-* Strong typing and validation
-* Centralized configuration
-* First-class observability
+Establish consistency and best practices across backend microservices (blog-api, auth-service, notifications-service) using modern Node.js/Express/TypeScript patterns.
 
-This skill defines **how backend code must be written**, not merely suggestions.
+## When to Use This Skill
 
----
-
-## 1. Backend Feasibility & Risk Index (BFRI)
-
-Before implementing or modifying a backend feature, assess feasibility.
-
-### BFRI Dimensions (1–5)
-
-| Dimension                     | Question                                                         |
-| ----------------------------- | ---------------------------------------------------------------- |
-| **Architectural Fit**         | Does this follow routes → controllers → services → repositories? |
-| **Business Logic Complexity** | How complex is the domain logic?                                 |
-| **Data Risk**                 | Does this affect critical data paths or transactions?            |
-| **Operational Risk**          | Does this impact auth, billing, messaging, or infra?             |
-| **Testability**               | Can this be reliably unit + integration tested?                  |
-
-### Score Formula
-
-```
-BFRI = (Architectural Fit + Testability) − (Complexity + Data Risk + Operational Risk)
-```
-
-**Range:** `-10 → +10`
-
-### Interpretation
-
-| BFRI     | Meaning   | Action                 |
-| -------- | --------- | ---------------------- |
-| **6–10** | Safe      | Proceed                |
-| **3–5**  | Moderate  | Add tests + monitoring |
-| **0–2**  | Risky     | Refactor or isolate    |
-| **< 0**  | Dangerous | Redesign before coding |
+Automatically activates when working on:
+- Creating or modifying routes, endpoints, APIs
+- Building controllers, services, repositories
+- Implementing middleware (auth, validation, error handling)
+- Database operations with Prisma
+- Error tracking with Sentry
+- Input validation with Zod
+- Configuration management
+- Backend testing and refactoring
 
 ---
 
-## When to Use
-Automatically applies when working on:
+## Quick Start
 
-* Routes, controllers, services, repositories
-* Express middleware
-* Prisma database access
-* Zod validation
-* Sentry error tracking
-* Configuration management
-* Backend refactors or migrations
+### New Backend Feature Checklist
 
----
+- [ ] **Route**: Clean definition, delegate to controller
+- [ ] **Controller**: Extend BaseController
+- [ ] **Service**: Business logic with DI
+- [ ] **Repository**: Database access (if complex)
+- [ ] **Validation**: Zod schema
+- [ ] **Sentry**: Error tracking
+- [ ] **Tests**: Unit + integration tests
+- [ ] **Config**: Use unifiedConfig
 
-## 3. Core Architecture Doctrine (Non-Negotiable)
+### New Microservice Checklist
 
-### 1. Layered Architecture Is Mandatory
-
-```
-Routes → Controllers → Services → Repositories → Database
-```
-
-* No layer skipping
-* No cross-layer leakage
-* Each layer has **one responsibility**
+- [ ] Directory structure (see [architecture-overview.md](architecture-overview.md))
+- [ ] instrument.ts for Sentry
+- [ ] unifiedConfig setup
+- [ ] BaseController class
+- [ ] Middleware stack
+- [ ] Error boundary
+- [ ] Testing framework
 
 ---
 
-### 2. Routes Only Route
+## Architecture Overview
 
-```ts
-// ❌ NEVER
-router.post('/create', async (req, res) => {
-  await prisma.user.create(...);
-});
+### Layered Architecture
 
-// ✅ ALWAYS
-router.post('/create', (req, res) =>
-  userController.create(req, res)
-);
+```
+HTTP Request
+    ↓
+Routes (routing only)
+    ↓
+Controllers (request handling)
+    ↓
+Services (business logic)
+    ↓
+Repositories (data access)
+    ↓
+Database (Prisma)
 ```
 
-Routes must contain **zero business logic**.
+**Key Principle:** Each layer has ONE responsibility.
+
+See [architecture-overview.md](architecture-overview.md) for complete details.
 
 ---
 
-### 3. Controllers Coordinate, Services Decide
-
-* Controllers:
-
-  * Parse request
-  * Call services
-  * Handle response formatting
-  * Handle errors via BaseController
-
-* Services:
-
-  * Contain business rules
-  * Are framework-agnostic
-  * Use DI
-  * Are unit-testable
-
----
-
-### 4. All Controllers Extend `BaseController`
-
-```ts
-export class UserController extends BaseController {
-  async getUser(req: Request, res: Response): Promise<void> {
-    try {
-      const user = await this.userService.getById(req.params.id);
-      this.handleSuccess(res, user);
-    } catch (error) {
-      this.handleError(error, res, 'getUser');
-    }
-  }
-}
-```
-
-No raw `res.json` calls outside BaseController helpers.
-
----
-
-### 5. All Errors Go to Sentry
-
-```ts
-catch (error) {
-  Sentry.captureException(error);
-  throw error;
-}
-```
-
-❌ `console.log`
-❌ silent failures
-❌ swallowed errors
-
----
-
-### 6. unifiedConfig Is the Only Config Source
-
-```ts
-// ❌ NEVER
-process.env.JWT_SECRET;
-
-// ✅ ALWAYS
-import { config } from '@/config/unifiedConfig';
-config.auth.jwtSecret;
-```
-
----
-
-### 7. Validate All External Input with Zod
-
-* Request bodies
-* Query params
-* Route params
-* Webhook payloads
-
-```ts
-const schema = z.object({
-  email: z.string().email(),
-});
-
-const input = schema.parse(req.body);
-```
-
-No validation = bug.
-
----
-
-## 4. Directory Structure (Canonical)
+## Directory Structure
 
 ```
-src/
-├── config/              # unifiedConfig
-├── controllers/         # BaseController + controllers
+service/src/
+├── config/              # UnifiedConfig
+├── controllers/         # Request handlers
 ├── services/            # Business logic
-├── repositories/        # Prisma access
-├── routes/              # Express routes
-├── middleware/          # Auth, validation, errors
+├── repositories/        # Data access
+├── routes/              # Route definitions
+├── middleware/          # Express middleware
+├── types/               # TypeScript types
 ├── validators/          # Zod schemas
-├── types/               # Shared types
-├── utils/               # Helpers
-├── tests/               # Unit + integration tests
+├── utils/               # Utilities
+├── tests/               # Tests
 ├── instrument.ts        # Sentry (FIRST IMPORT)
-├── app.ts               # Express app
+├── app.ts               # Express setup
 └── server.ts            # HTTP server
 ```
 
----
-
-## 5. Naming Conventions (Strict)
-
-| Layer      | Convention                |
-| ---------- | ------------------------- |
-| Controller | `PascalCaseController.ts` |
-| Service    | `camelCaseService.ts`     |
-| Repository | `PascalCaseRepository.ts` |
-| Routes     | `camelCaseRoutes.ts`      |
-| Validators | `camelCase.schema.ts`     |
+**Naming Conventions:**
+- Controllers: `PascalCase` - `UserController.ts`
+- Services: `camelCase` - `userService.ts`
+- Routes: `camelCase + Routes` - `userRoutes.ts`
+- Repositories: `PascalCase + Repository` - `UserRepository.ts`
 
 ---
 
-## 6. Dependency Injection Rules
+## Core Principles (7 Key Rules)
 
-* Services receive dependencies via constructor
-* No importing repositories directly inside controllers
-* Enables mocking and testing
+### 1. Routes Only Route, Controllers Control
 
-```ts
-export class UserService {
-  constructor(
-    private readonly userRepository: UserRepository
-  ) {}
+```typescript
+// ❌ NEVER: Business logic in routes
+router.post('/submit', async (req, res) => {
+    // 200 lines of logic
+});
+
+// ✅ ALWAYS: Delegate to controller
+router.post('/submit', (req, res) => controller.submit(req, res));
+```
+
+### 2. All Controllers Extend BaseController
+
+```typescript
+export class UserController extends BaseController {
+    async getUser(req: Request, res: Response): Promise<void> {
+        try {
+            const user = await this.userService.findById(req.params.id);
+            this.handleSuccess(res, user);
+        } catch (error) {
+            this.handleError(error, res, 'getUser');
+        }
+    }
 }
 ```
 
----
+### 3. All Errors to Sentry
 
-## 7. Prisma & Repository Rules
-
-* Prisma client **never used directly in controllers**
-* Repositories:
-
-  * Encapsulate queries
-  * Handle transactions
-  * Expose intent-based methods
-
-```ts
-await userRepository.findActiveUsers();
+```typescript
+try {
+    await operation();
+} catch (error) {
+    Sentry.captureException(error);
+    throw error;
+}
 ```
 
----
+### 4. Use unifiedConfig, NEVER process.env
 
-## 8. Async & Error Handling
+```typescript
+// ❌ NEVER
+const timeout = process.env.TIMEOUT_MS;
 
-### asyncErrorWrapper Required
-
-All async route handlers must be wrapped.
-
-```ts
-router.get(
-  '/users',
-  asyncErrorWrapper((req, res) =>
-    controller.list(req, res)
-  )
-);
+// ✅ ALWAYS
+import { config } from './config/unifiedConfig';
+const timeout = config.timeouts.default;
 ```
 
-No unhandled promise rejections.
+### 5. Validate All Input with Zod
 
----
+```typescript
+const schema = z.object({ email: z.string().email() });
+const validated = schema.parse(req.body);
+```
 
-## 9. Observability & Monitoring
+### 6. Use Repository Pattern for Data Access
 
-### Required
+```typescript
+// Service → Repository → Database
+const users = await userRepository.findActive();
+```
 
-* Sentry error tracking
-* Sentry performance tracing
-* Structured logs (where applicable)
+### 7. Comprehensive Testing Required
 
-Every critical path must be observable.
-
----
-
-## 10. Testing Discipline
-
-### Required Tests
-
-* **Unit tests** for services
-* **Integration tests** for routes
-* **Repository tests** for complex queries
-
-```ts
+```typescript
 describe('UserService', () => {
-  it('creates a user', async () => {
-    expect(user).toBeDefined();
-  });
+    it('should create user', async () => {
+        expect(user).toBeDefined();
+    });
 });
 ```
 
-No tests → no merge.
+---
+
+## Common Imports
+
+```typescript
+// Express
+import express, { Request, Response, NextFunction, Router } from 'express';
+
+// Validation
+import { z } from 'zod';
+
+// Database
+import { PrismaClient } from '@prisma/client';
+import type { Prisma } from '@prisma/client';
+
+// Sentry
+import * as Sentry from '@sentry/node';
+
+// Config
+import { config } from './config/unifiedConfig';
+
+// Middleware
+import { SSOMiddlewareClient } from './middleware/SSOMiddleware';
+import { asyncErrorWrapper } from './middleware/errorBoundary';
+```
 
 ---
 
-## 11. Anti-Patterns (Immediate Rejection)
+## Quick Reference
+
+### HTTP Status Codes
+
+| Code | Use Case |
+|------|----------|
+| 200 | Success |
+| 201 | Created |
+| 400 | Bad Request |
+| 401 | Unauthorized |
+| 403 | Forbidden |
+| 404 | Not Found |
+| 500 | Server Error |
+
+### Service Templates
+
+**Blog API** (✅ Mature) - Use as template for REST APIs
+**Auth Service** (✅ Mature) - Use as template for authentication patterns
+
+---
+
+## Anti-Patterns to Avoid
 
 ❌ Business logic in routes
-❌ Skipping service layer
-❌ Direct Prisma in controllers
-❌ Missing validation
-❌ process.env usage
+❌ Direct process.env usage
+❌ Missing error handling
+❌ No input validation
+❌ Direct Prisma everywhere
 ❌ console.log instead of Sentry
-❌ Untested business logic
 
 ---
 
-## 12. Integration With Other Skills
+## Navigation Guide
 
-* **frontend-dev-guidelines** → API contract alignment
-* **error-tracking** → Sentry standards
-* **database-verification** → Schema correctness
-* **analytics-tracking** → Event pipelines
-* **skill-developer** → Skill governance
-
----
-
-## 13. Operator Validation Checklist
-
-Before finalizing backend work:
-
-* [ ] BFRI ≥ 3
-* [ ] Layered architecture respected
-* [ ] Input validated
-* [ ] Errors captured in Sentry
-* [ ] unifiedConfig used
-* [ ] Tests written
-* [ ] No anti-patterns present
+| Need to... | Read this |
+|------------|-----------|
+| Understand architecture | [architecture-overview.md](architecture-overview.md) |
+| Create routes/controllers | [routing-and-controllers.md](routing-and-controllers.md) |
+| Organize business logic | [services-and-repositories.md](services-and-repositories.md) |
+| Validate input | [validation-patterns.md](validation-patterns.md) |
+| Add error tracking | [sentry-and-monitoring.md](sentry-and-monitoring.md) |
+| Create middleware | [middleware-guide.md](middleware-guide.md) |
+| Database access | [database-patterns.md](database-patterns.md) |
+| Manage config | [configuration.md](configuration.md) |
+| Handle async/errors | [async-and-errors.md](async-and-errors.md) |
+| Write tests | [testing-guide.md](testing-guide.md) |
+| See examples | [complete-examples.md](complete-examples.md) |
 
 ---
 
-## 14. Skill Status
+## Resource Files
 
-**Status:** Stable · Enforceable · Production-grade
-**Intended Use:** Long-lived Node.js microservices with real traffic and real risk
+### [architecture-overview.md](architecture-overview.md)
+Layered architecture, request lifecycle, separation of concerns
+
+### [routing-and-controllers.md](routing-and-controllers.md)
+Route definitions, BaseController, error handling, examples
+
+### [services-and-repositories.md](services-and-repositories.md)
+Service patterns, DI, repository pattern, caching
+
+### [validation-patterns.md](validation-patterns.md)
+Zod schemas, validation, DTO pattern
+
+### [sentry-and-monitoring.md](sentry-and-monitoring.md)
+Sentry init, error capture, performance monitoring
+
+### [middleware-guide.md](middleware-guide.md)
+Auth, audit, error boundaries, AsyncLocalStorage
+
+### [database-patterns.md](database-patterns.md)
+PrismaService, repositories, transactions, optimization
+
+### [configuration.md](configuration.md)
+UnifiedConfig, environment configs, secrets
+
+### [async-and-errors.md](async-and-errors.md)
+Async patterns, custom errors, asyncErrorWrapper
+
+### [testing-guide.md](testing-guide.md)
+Unit/integration tests, mocking, coverage
+
+### [complete-examples.md](complete-examples.md)
+Full examples, refactoring guide
+
 ---
 
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+## Related Skills
+
+- **database-verification** - Verify column names and schema consistency
+- **error-tracking** - Sentry integration patterns
+- **skill-developer** - Meta-skill for creating and managing skills
+
+---
+
+**Skill Status**: COMPLETE ✅
+**Line Count**: < 500 ✅
+**Progressive Disclosure**: 11 resource files ✅

@@ -2,19 +2,15 @@
 name: tailwind-patterns
 description: Tailwind CSS v4 principles. CSS-first configuration, container queries,
   modern patterns, design token architecture.
-risk: unknown
+allowed-tools: Read, Write, Edit, Glob, Grep
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Tailwind CSS Patterns (v4 - 2025)
 
 > Modern utility-first CSS with CSS-native configuration.
-
-## When to Use
-Use this skill when configuring Tailwind v4, using CSS-first theme and design tokens, or implementing container queries and modern Tailwind patterns.
 
 ---
 
@@ -91,7 +87,7 @@ Use this skill when configuring Tailwind v4, using CSS-first theme and design to
 | Container breakpoint | `@sm:`, `@md:`, `@lg:` on children |
 | Named containers | `@container/card` for specificity |
 
-## When to Use
+### When to Use
 
 | Scenario | Use |
 |----------|-----|

@@ -1,238 +1,201 @@
 ---
 name: frontend-slides
-description: Create stunning, animation-rich HTML presentations from scratch or by
-  converting PowerPoint files.
+description: 从零开始或通过转换PowerPoint文件创建令人惊艳、动画丰富的HTML演示文稿。当用户想要构建演示文稿、将PPT/PPTX转换为网页格式，或为演讲/推介创建幻灯片时使用。帮助非设计师通过视觉探索而非抽象选择发现他们的美学。
+origin: ECC
 risk: safe
-source: https://github.com/zarazhangrui/frontend-slides
-date_added: '2026-03-07'
+source: community
+license: MIT
 ---
 
+# 前端幻灯片
 
-# Frontend Slides
+创建零依赖、动画丰富的 HTML 演示文稿，完全在浏览器中运行。
 
-Create zero-dependency, animation-rich HTML presentations that run entirely in the browser.
+受 zarazhangrui（鸣谢：@zarazhangrui）作品中展示的视觉探索方法的启发。
 
-## When to Use This Skill
+## 何时启用
 
-- Use when the user asks to create a presentation, slide deck, or pitch from scratch.
-- Use when the user wants to convert an existing PPT or PPTX file into a web-based presentation.
-- Use when designing visually rich, animated HTML content that needs to fit exactly within the viewport.
+* 创建演讲文稿、推介文稿、研讨会文稿或内部演示文稿时
+* 将 `.ppt` 或 `.pptx` 幻灯片转换为 HTML 演示文稿时
+* 改进现有 HTML 演示文稿的布局、动效或排版时
+* 与尚不清楚其设计偏好的用户一起探索演示文稿风格时
 
-## Core Principles
+## 不可妥协的原则
 
-1. **Zero Dependencies** — Single HTML files with inline CSS/JS. No npm, no build tools.
-2. **Show, Don't Tell** — Generate visual previews, not abstract choices. People discover what they want by seeing it.
-3. **Distinctive Design** — No generic "AI slop." Every presentation must feel custom-crafted.
-4. **Viewport Fitting (NON-NEGOTIABLE)** — Every slide MUST fit exactly within 100vh. No scrolling within slides, ever. Content overflows? Split into multiple slides.
+1. **零依赖**：默认使用一个包含内联 CSS 和 JS 的自包含 HTML 文件。
+2. **必须适配视口**：每张幻灯片必须适配一个视口，内部不允许滚动。
+3. **展示，而非描述**：使用视觉预览，而非抽象的风格问卷。
+4. **独特设计**：避免通用的紫色渐变、白色背景加 Inter 字体、模板化的文稿外观。
+5. **生产质量**：保持代码注释清晰、可访问、响应式且性能良好。
 
-## Design Aesthetics
+在生成之前，请阅读 `STYLE_PRESETS.md` 以了解视口安全的 CSS 基础、密度限制、预设目录和 CSS 陷阱。
 
-You tend to converge toward generic, "on distribution" outputs. In frontend design, this creates what users call the "AI slop" aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.
+## 工作流程
 
-Focus on:
+### 1. 检测模式
 
-- Typography: Choose fonts that are beautiful, unique, and interesting. Avoid generic fonts like Arial and Inter; opt instead for distinctive choices that elevate the frontend's aesthetics.
-- Color & Theme: Commit to a cohesive aesthetic. Use CSS variables for consistency. Dominant colors with sharp accents outperform timid, evenly-distributed palettes. Draw from IDE themes and cultural aesthetics for inspiration.
-- Motion: Use animations for effects and micro-interactions. Prioritize CSS-only solutions for HTML. Use Motion library for React when available. Focus on high-impact moments: one well-orchestrated page load with staggered reveals (animation-delay) creates more delight than scattered micro-interactions.
-- Backgrounds: Create atmosphere and depth rather than defaulting to solid colors. Layer CSS gradients, use geometric patterns, or add contextual effects that match the overall aesthetic.
+选择一条路径：
 
-Avoid generic AI-generated aesthetics:
+* **新演示文稿**：用户有主题、笔记或完整草稿
+* **PPT 转换**：用户有 `.ppt` 或 `.pptx`
+* **增强**：用户已有 HTML 幻灯片并希望改进
 
-- Overused font families (Inter, Roboto, Arial, system fonts)
-- Cliched color schemes (particularly purple gradients on white backgrounds)
-- Predictable layouts and component patterns
-- Cookie-cutter design that lacks context-specific character
+### 2. 发现内容
 
-Interpret creatively and make unexpected choices that feel genuinely designed for the context. Vary between light and dark themes, different fonts, different aesthetics. You still tend to converge on common choices (Space Grotesk, for example) across generations. Avoid this: it is critical that you think outside the box!
+只询问最低限度的必要信息：
 
-## Viewport Fitting Rules
+* 目的：推介、教学、会议演讲、内部更新
+* 长度：短 (5-10张)、中 (10-20张)、长 (20+张)
+* 内容状态：已完成文案、粗略笔记、仅主题
 
-These invariants apply to EVERY slide in EVERY presentation:
+如果用户有内容，请他们在进行样式设计前粘贴内容。
 
-- Every `.slide` must have `height: 100vh; height: 100dvh; overflow: hidden;`
-- ALL font sizes and spacing must use `clamp(min, preferred, max)` — never fixed px/rem
-- Content containers need `max-height` constraints
-- Images: `max-height: min(50vh, 400px)`
-- Breakpoints required for heights: 700px, 600px, 500px
-- Include `prefers-reduced-motion` support
-- Never negate CSS functions directly (`-clamp()`, `-min()`, `-max()` are silently ignored) — use `calc(-1 * clamp(...))` instead
+### 3. 发现风格
 
-**When generating, read `viewport-base.css` and include its full contents in every presentation.**
+默认采用视觉探索方式。
 
-### Content Density Limits Per Slide
+如果用户已经知道所需的预设，则跳过预览并直接使用。
 
-| Slide Type    | Maximum Content                                           |
-| ------------- | --------------------------------------------------------- |
-| Title slide   | 1 heading + 1 subtitle + optional tagline                 |
-| Content slide | 1 heading + 4-6 bullet points OR 1 heading + 2 paragraphs |
-| Feature grid  | 1 heading + 6 cards maximum (2x3 or 3x2)                  |
-| Code slide    | 1 heading + 8-10 lines of code                            |
-| Quote slide   | 1 quote (max 3 lines) + attribution                       |
-| Image slide   | 1 heading + 1 image (max 60vh height)                     |
+否则：
 
-**Content exceeds limits? Split into multiple slides. Never cram, never scroll.**
+1. 询问文稿应营造何种感觉：印象深刻、充满活力、专注、激发灵感。
+2. 在 `.ecc-design/slide-previews/` 中生成 **3 个单幻灯片预览文件**。
+3. 每个预览必须是自包含的，清晰地展示排版/色彩/动效，并且幻灯片内容大约保持在 100 行以内。
+4. 询问用户保留哪个预览或混合哪些元素。
 
----
+在将情绪映射到风格时，请使用 `STYLE_PRESETS.md` 中的预设指南。
 
-## Phase 0: Detect Mode
+### 4. 构建演示文稿
 
-Determine what the user wants:
+输出以下之一：
 
-- **Mode A: New Presentation** — Create from scratch. Go to Phase 1.
-- **Mode B: PPT Conversion** — Convert a .pptx file. Go to Phase 4.
-- **Mode C: Enhancement** — Improve an existing HTML presentation. Read it, understand it, enhance. **Follow Mode C modification rules below.**
+* `presentation.html`
+* `[presentation-name].html`
 
-### Mode C: Modification Rules
+仅当文稿包含提取的或用户提供的图像时，才使用 `assets/` 文件夹。
 
-When enhancing existing presentations, viewport fitting is the biggest risk:
+必需的结构：
 
-1. **Before adding content:** Count existing elements, check against density limits
-2. **Adding images:** Must have `max-height: min(50vh, 400px)`. If slide already has max content, split into two slides
-3. **Adding text:** Max 4-6 bullets per slide. Exceeds limits? Split into continuation slides
-4. **After ANY modification, verify:** `.slide` has `overflow: hidden`, new elements use `clamp()`, images have viewport-relative max-height, content fits at 1280x720
-5. **Proactively reorganize:** If modifications will cause overflow, automatically split content and inform the user. Don't wait to be asked
+* 语义化的幻灯片部分
+* 来自 `STYLE_PRESETS.md` 的视口安全的 CSS 基础
+* 用于主题值的 CSS 自定义属性
+* 用于键盘、滚轮和触摸导航的演示文稿控制器类
+* 用于揭示动画的 Intersection Observer
+* 支持减少动效
 
-**When adding images to existing slides:** Move image to new slide or reduce other content first. Never add images without checking if existing content already fills the viewport.
+### 5. 强制执行视口适配
 
----
+将此视为硬性规定。
 
-## Phase 1: Content Discovery (New Presentations)
+规则：
 
-**Ask ALL questions in a single AskUserQuestion call** so the user fills everything out at once:
+* 每个 `.slide` 必须使用 `height: 100vh; height: 100dvh; overflow: hidden;`
+* 所有字体和间距必须随 `clamp()` 缩放
+* 当内容无法适配时，将其拆分为多张幻灯片
+* 切勿通过将文本缩小到可读尺寸以下来解决溢出问题
+* 绝不允许幻灯片内部出现滚动条
 
-**Question 1 — Purpose** (header: "Purpose"):
-What is this presentation for? Options: Pitch deck / Teaching-Tutorial / Conference talk / Internal presentation
+使用 `STYLE_PRESETS.md` 中的密度限制和强制性 CSS 代码块。
 
-**Question 2 — Length** (header: "Length"):
-Approximately how many slides? Options: Short 5-10 / Medium 10-20 / Long 20+
+### 6. 验证
 
-**Question 3 — Content** (header: "Content"):
-Do you have content ready? Options: All content ready / Rough notes / Topic only
+在这些尺寸下检查完成的文稿：
 
-**Question 4 — Inline Editing** (header: "Editing"):
-Do you need to edit text directly in the browser after generation? Options:
+* 1920x1080
+* 1280x720
+* 768x1024
+* 375x667
+* 667x375
 
-- "Yes (Recommended)" — Can edit text in-browser, auto-save to localStorage, export file
-- "No" — Presentation only, keeps file smaller
+如果可以使用浏览器自动化，请使用它来验证没有幻灯片溢出且键盘导航正常工作。
 
-**Remember the user's editing choice — it determines whether edit-related code is included in Phase 3.**
+### 7. 交付
 
-If user has content, ask them to share it.
+在交付时：
 
-### Step 1.2: Image Evaluation (if images provided)
+* 除非用户希望保留，否则删除临时预览文件
+* 在有用时使用适合当前平台的开源工具打开文稿
+* 总结文件路径、使用的预设、幻灯片数量以及简单的主题自定义点
 
-If user selected "No images" → skip to Phase 2.
+为当前操作系统使用正确的开源工具：
 
-If user provides an image folder:
+* macOS: `open file.html`
+* Linux: `xdg-open file.html`
+* Windows: `start "" file.html`
 
-1. **Scan** — List all image files (.png, .jpg, .svg, .webp, etc.)
-2. **View each image** — Use the Read tool (Claude is multimodal)
-3. **Evaluate** — For each: what it shows, USABLE or NOT USABLE (with reason), what concept it represents, dominant colors
-4. **Co-design the outline** — Curated images inform slide structure alongside text. This is NOT "plan slides then add images" — design around both from the start (e.g., 3 screenshots → 3 feature slides, 1 logo → title/closing slide)
-5. **Confirm via AskUserQuestion** (header: "Outline"): "Does this slide outline and image selection look right?" Options: Looks good / Adjust images / Adjust outline
+## PPT / PPTX 转换
 
-**Logo in previews:** If a usable logo was identified, embed it (base64) into each style preview in Phase 2 — the user sees their brand styled three different ways.
+对于 PowerPoint 转换：
 
----
+1. 优先使用 `python3` 和 `python-pptx` 来提取文本、图像和备注。
+2. 如果 `python-pptx` 不可用，询问是安装它还是回退到基于手动/导出的工作流程。
+3. 保留幻灯片顺序、演讲者备注和提取的资源。
+4. 提取后，运行与新演示文稿相同的风格选择工作流程。
 
-## Phase 2: Style Discovery
+保持转换跨平台。当 Python 可以完成任务时，不要依赖仅限 macOS 的工具。
 
-**This is the "show, don't tell" phase.** Most people can't articulate design preferences in words.
+## 实现要求
 
-### Step 2.0: Style Path
+### HTML / CSS
 
-Ask how they want to choose (header: "Style"):
+* 除非用户明确希望使用多文件项目，否则使用内联 CSS 和 JS。
+* 字体可以来自 Google Fonts 或 Fontshare。
+* 优先使用氛围背景、强烈的字体层次结构和清晰的视觉方向。
+* 使用抽象形状、渐变、网格、噪点和几何图形，而非插图。
 
-- "Show me options" (recommended) — Generate 3 previews based on mood
-- "I know what I want" — Pick from preset list directly
+### JavaScript
 
-**If direct selection:** Show preset picker and skip to Phase 3. Available presets are defined in [STYLE_PRESETS.md](STYLE_PRESETS.md).
+包含：
 
-### Step 2.1: Mood Selection (Guided Discovery)
+* 键盘导航
+* 触摸/滑动导航
+* 鼠标滚轮导航
+* 进度指示器或幻灯片索引
+* 进入时触发的揭示动画
 
-Ask (header: "Vibe", multiSelect: true, max 2):
-What feeling should the audience have? Options:
+### 可访问性
 
-- Impressed/Confident — Professional, trustworthy
-- Excited/Energized — Innovative, bold
-- Calm/Focused — Clear, thoughtful
-- Inspired/Moved — Emotional, memorable
+* 使用语义化结构 (`main`, `section`, `nav`)
+* 保持对比度可读
+* 支持仅键盘导航
+* 尊重 `prefers-reduced-motion`
 
-### Step 2.2: Generate 3 Style Previews
+## 内容密度限制
 
-Based on mood, generate 3 distinct single-slide HTML previews showing typography, colors, animation, and overall aesthetic. Read [STYLE_PRESETS.md](STYLE_PRESETS.md) for available presets and their specifications.
+除非用户明确要求更密集的幻灯片且可读性仍然保持，否则使用以下最大值：
 
-| Mood                | Suggested Presets                                  |
-| ------------------- | -------------------------------------------------- |
-| Impressed/Confident | Bold Signal, Electric Studio, Dark Botanical       |
-| Excited/Energized   | Creative Voltage, Neon Cyber, Split Pastel         |
-| Calm/Focused        | Notebook Tabs, Paper & Ink, Swiss Modern           |
-| Inspired/Moved      | Dark Botanical, Vintage Editorial, Pastel Geometry |
+| 幻灯片类型 | 限制 |
+|------------|-------|
+| 标题 | 1 个标题 + 1 个副标题 + 可选标语 |
+| 内容 | 1 个标题 + 4-6 个要点或 2 个短段落 |
+| 功能网格 | 最多 6 张卡片 |
+| 代码 | 最多 8-10 行 |
+| 引用 | 1 条引用 + 出处 |
+| 图像 | 1 张受视口约束的图像 |
 
-Save previews to `.claude-design/slide-previews/` (style-a.html, style-b.html, style-c.html). Each should be self-contained, ~50-100 lines, showing one animated title slide.
+## 反模式
 
-Open each preview automatically for the user.
+* 没有视觉标识的通用初创公司渐变
+* 除非是特意采用编辑风格，否则避免系统字体文稿
+* 冗长的要点列表
+* 需要滚动的代码块
+* 在短屏幕上会损坏的固定高度内容框
+* 无效的否定 CSS 函数，如 `-clamp(...)`
 
-### Step 2.3: User Picks
+## 相关 ECC 技能
 
-Ask (header: "Style"):
-Which style preview do you prefer? Options: Style A: [Name] / Style B: [Name] / Style C: [Name] / Mix elements
+* `frontend-patterns` 用于围绕文稿的组件和交互模式
+* `liquid-glass-design` 当演示文稿有意借鉴苹果玻璃美学时
+* `e2e-testing` 如果您需要为最终文稿进行自动化浏览器验证
 
-If "Mix elements", ask for specifics.
+## 交付清单
 
----
+* 演示文稿可在浏览器中从本地文件运行
+* 每张幻灯片适配视口，无需滚动
+* 风格独特且有意图
+* 动画有意义，不喧闹
+* 尊重减少动效设置
+* 在交付时解释文件路径和自定义点
 
-## Phase 3: Generate Presentation
-
-Generate the full presentation using content from Phase 1 (text, or text + curated images) and style from Phase 2.
-
-If images were provided, the slide outline already incorporates them from Step 1.2. If not, CSS-generated visuals (gradients, shapes, patterns) provide visual interest — this is a fully supported first-class path.
-
-**Before generating, read these supporting files:**
-
-- [html-template.md](html-template.md) — HTML architecture and JS features
-- [viewport-base.css](viewport-base.css) — Mandatory CSS (include in full)
-- [animation-patterns.md](animation-patterns.md) — Animation reference for the chosen feeling
-
-**Key requirements:**
-
-- Single self-contained HTML file, all CSS/JS inline
-- Include the FULL contents of viewport-base.css in the `<style>` block
-- Use fonts from Fontshare or Google Fonts — never system fonts
-- Add detailed comments explaining each section
-- Every section needs a clear `/* === SECTION NAME === */` comment block
-
----
-
-## Phase 4: PPT Conversion
-
-When converting PowerPoint files:
-
-1. **Extract content** — Run `python scripts/extract-pptx.py <input.pptx> <output_dir>` (install python-pptx if needed: `pip install python-pptx`)
-2. **Confirm with user** — Present extracted slide titles, content summaries, and image counts
-3. **Style selection** — Proceed to Phase 2 for style discovery
-4. **Generate HTML** — Convert to chosen style, preserving all text, images (from assets/), slide order, and speaker notes (as HTML comments)
-
----
-
-## Phase 5: Delivery
-
-1. **Clean up** — Delete `.claude-design/slide-previews/` if it exists
-2. **Open** — Use `open [filename].html` to launch in browser
-3. **Summarize** — Tell the user:
-   - File location, style name, slide count
-   - Navigation: Arrow keys, Space, scroll/swipe, click nav dots
-   - How to customize: `:root` CSS variables for colors, font link for typography, `.reveal` class for animations
-   - If inline editing was enabled: Hover top-left corner or press E to enter edit mode, click any text to edit, Ctrl+S to save
-
----
-
-## Supporting Files
-
-| File                                               | Purpose                                                              | When to Read              |
-| -------------------------------------------------- | -------------------------------------------------------------------- | ------------------------- |
-| [STYLE_PRESETS.md](STYLE_PRESETS.md)               | 12 curated visual presets with colors, fonts, and signature elements | Phase 2 (style selection) |
-| [viewport-base.css](viewport-base.css)             | Mandatory responsive CSS — copy into every presentation              | Phase 3 (generation)      |
-| [html-template.md](html-template.md)               | HTML structure, JS features, code quality standards                  | Phase 3 (generation)      |
-| [animation-patterns.md](animation-patterns.md)     | CSS/JS animation snippets and effect-to-feeling guide                | Phase 3 (generation)      |
-| [scripts/extract-pptx.py](scripts/extract-pptx.py) | Python script for PPT content extraction                             | Phase 4 (conversion)      |
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

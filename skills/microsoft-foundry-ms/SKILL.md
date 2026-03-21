@@ -6,9 +6,11 @@ description: 'Use this skill to work with Microsoft Foundry (Azure AI Foundry): 
   and capacity, create Foundry resources.
 
   USE FOR: Micros...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 
@@ -36,3 +38,7 @@ This skill includes specialized sub-skills for specific workflows. **Use these i
 ## SDK Quick Reference
 
 - [Python](references/sdk/foundry-sdk-py.md)
+
+## When to Use
+
+Use this skill when you need guidance or automation for microsoft-foundry-ms.

@@ -6,9 +6,11 @@ description: 'Default entry point for Azure application development. Invoke this
   prepares it for Azure deployment.
 
   USE FOR: create an ...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

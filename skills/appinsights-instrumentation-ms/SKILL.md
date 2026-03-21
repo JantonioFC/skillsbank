@@ -5,9 +5,11 @@ description: 'Guidance for instrumenting webapps with Azure Application Insights
 
   USE FOR: how to instrument app, App Insights SDK, telemetry patterns, what is App
   Insights, Application Insights guidance, instrumentation examples, APM...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

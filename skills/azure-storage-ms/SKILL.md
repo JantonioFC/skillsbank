@@ -4,9 +4,11 @@ description: Azure Storage Services including Blob Storage, File Shares, Queue S
   Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging,
   NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot,
   cool, archive) and lifecycle management.
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

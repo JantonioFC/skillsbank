@@ -1,14 +1,23 @@
 ---
 name: network-101
-description: "Configure and test common network services (HTTP, HTTPS, SNMP, SMB) for penetration testing lab environments. Enable hands-on practice with service enumeration, log analysis, and security testing against properly configured target systems."
-risk: unknown
+description: This skill should be used when the user asks to "set up a web server",
+  "configure HTTP or HTTPS", "perform SNMP enumeration", "configure SMB shares", "test
+  network services", or needs guidance on configuring and testing network services
+  for penetration testing labs.
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
 # Network 101
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -344,4 +353,4 @@ smbclient //localhost/anonymous -N
 | Cannot connect remotely | Bind service to 0.0.0.0 instead of localhost |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

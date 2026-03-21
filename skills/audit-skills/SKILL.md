@@ -21,7 +21,9 @@ tools:
 - llama
 - mistral
 - etc
+license: MIT
 ---
+
 
 
 <!-- security-allowlist: curl-pipe-bash -->

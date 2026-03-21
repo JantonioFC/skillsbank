@@ -1,9 +1,11 @@
 ---
 name: n8n-validation-expert
-description: "Expert guide for interpreting and fixing n8n validation errors."
-risk: unknown
+description: Expert guide for interpreting and fixing n8n validation errors.
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 # n8n Validation Expert

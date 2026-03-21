@@ -3,13 +3,10 @@ name: application-performance-performance-optimization
 description: Optimize end-to-end application performance with profiling, observability,
   and backend/frontend tuning. Use when coordinating performance optimization across
   the stack.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 Optimize application performance end-to-end using specialized performance and optimization agents:
 
@@ -161,7 +158,5 @@ Optimize application performance end-to-end using specialized performance and op
 
 Performance optimization target: $ARGUMENTS
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for application-performance-performance-optimization.
+- Use this skill when you need for functional programming or specific domain tasks.

@@ -3,12 +3,14 @@ name: preset
 description: 'Intelligently deploys Azure OpenAI models to optimal regions by analyzing
   capacity across all available regions. Automatically checks current region first
   and shows alternatives if needed. USE FOR: quick deployment, optimal region, best
-  region, automatic region selection, fast setup, multi...'
-risk: unknown
+  region, automatic region selection, fast setup, multi-region...'
+license: MIT
+metadata:
+  author: Microsoft
+  version: 1.0.1
+risk: safe
 source: community
 ---
-
-
 
 # Deploy Model to Optimal Region
 
@@ -106,4 +108,4 @@ az cognitiveservices account deployment delete --name <acct> --resource-group <r
 - **azure-validate** - Validate Azure infrastructure before deployment
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

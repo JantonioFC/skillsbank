@@ -1,14 +1,23 @@
 ---
 name: privilege-escalation-methods
-description: "Provide comprehensive techniques for escalating privileges from a low-privileged user to root/administrator access on compromised Linux and Windows systems. Essential for penetration testing post-exploitation phase and red team operations."
-risk: unknown
+description: This skill should be used when the user asks to "escalate privileges",
+  "get root access", "become administrator", "privesc techniques", "abuse sudo", "exploit
+  SUID binaries", "Kerberoasting", "pass-the-ticket", "token impersonation", or needs
+  guidance on post-exploitation privilege escalation for...
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
 # Privilege Escalation Methods
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -335,4 +344,4 @@ For detailed enumeration scripts, use:
 - **GTFOBins**: Unix binary exploitation reference
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

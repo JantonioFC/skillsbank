@@ -3,11 +3,10 @@ name: azure-keyvault-secrets-ts
 description: Manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets).
   Use when storing and retrieving application secrets or configuration values.
 package: '@azure/keyvault-secrets'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Azure Key Vault Secrets SDK for TypeScript
 
@@ -274,4 +273,4 @@ try {
 6. **Browser not supported** - These SDKs are Node.js only
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

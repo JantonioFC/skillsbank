@@ -3,18 +3,28 @@ name: turborepo-caching
 description: Configure Turborepo for efficient monorepo builds with local and remote
   caching. Use when setting up Turborepo, optimizing build pipelines, or implementing
   distributed caching.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Turborepo Caching
 
 Production patterns for Turborepo build optimization.
 
-## When to Use This Skill
+## Do not use this skill when
+
+- The task is unrelated to turborepo caching
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
+## Use this skill when
 
 - Setting up new Turborepo projects
 - Configuring build pipelines
@@ -45,12 +55,12 @@ Workspace Root/
 
 ### 2. Pipeline Concepts
 
-| Concept        | Description                      |
-| -------------- | -------------------------------- |
-| **dependsOn**  | Tasks that must complete first   |
-| **cache**      | Whether to cache outputs         |
-| **outputs**    | Files to cache                   |
-| **inputs**     | Files that affect cache key      |
+| Concept | Description |
+|---------|-------------|
+| **dependsOn** | Tasks that must complete first |
+| **cache** | Whether to cache outputs |
+| **outputs** | Files to cache |
+| **inputs** | Files that affect cache key |
 | **persistent** | Long-running tasks (dev servers) |
 
 ## Templates
@@ -60,18 +70,35 @@ Workspace Root/
 ```json
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalDependencies": [".env", ".env.local"],
-  "globalEnv": ["NODE_ENV", "VERCEL_URL"],
+  "globalDependencies": [
+    ".env",
+    ".env.local"
+  ],
+  "globalEnv": [
+    "NODE_ENV",
+    "VERCEL_URL"
+  ],
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**", ".next/**", "!.next/cache/**"],
-      "env": ["API_URL", "NEXT_PUBLIC_*"]
+      "outputs": [
+        "dist/**",
+        ".next/**",
+        "!.next/cache/**"
+      ],
+      "env": [
+        "API_URL",
+        "NEXT_PUBLIC_*"
+      ]
     },
     "test": {
       "dependsOn": ["build"],
       "outputs": ["coverage/**"],
-      "inputs": ["src/**/*.tsx", "src/**/*.ts", "test/**/*.ts"]
+      "inputs": [
+        "src/**/*.tsx",
+        "src/**/*.ts",
+        "test/**/*.ts"
+      ]
     },
     "lint": {
       "outputs": [],
@@ -102,11 +129,18 @@ Workspace Root/
   "pipeline": {
     "build": {
       "outputs": [".next/**", "!.next/cache/**"],
-      "env": ["NEXT_PUBLIC_API_URL", "NEXT_PUBLIC_ANALYTICS_ID"]
+      "env": [
+        "NEXT_PUBLIC_API_URL",
+        "NEXT_PUBLIC_ANALYTICS_ID"
+      ]
     },
     "test": {
       "outputs": ["coverage/**"],
-      "inputs": ["src/**", "tests/**", "jest.config.js"]
+      "inputs": [
+        "src/**",
+        "tests/**",
+        "jest.config.js"
+      ]
     }
   }
 }
@@ -151,7 +185,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "npm"
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
@@ -167,32 +201,32 @@ jobs:
 
 ```typescript
 // Custom remote cache server (Express)
-import express from "express";
-import { createReadStream, createWriteStream } from "fs";
-import { mkdir } from "fs/promises";
-import { join } from "path";
+import express from 'express';
+import { createReadStream, createWriteStream } from 'fs';
+import { mkdir } from 'fs/promises';
+import { join } from 'path';
 
 const app = express();
-const CACHE_DIR = "./cache";
+const CACHE_DIR = './cache';
 
 // Get artifact
-app.get("/v8/artifacts/:hash", async (req, res) => {
+app.get('/v8/artifacts/:hash', async (req, res) => {
   const { hash } = req.params;
-  const team = req.query.teamId || "default";
+  const team = req.query.teamId || 'default';
   const filePath = join(CACHE_DIR, team, hash);
 
   try {
     const stream = createReadStream(filePath);
     stream.pipe(res);
   } catch {
-    res.status(404).send("Not found");
+    res.status(404).send('Not found');
   }
 });
 
 // Put artifact
-app.put("/v8/artifacts/:hash", async (req, res) => {
+app.put('/v8/artifacts/:hash', async (req, res) => {
   const { hash } = req.params;
-  const team = req.query.teamId || "default";
+  const team = req.query.teamId || 'default';
   const dir = join(CACHE_DIR, team);
   const filePath = join(dir, hash);
 
@@ -201,17 +235,15 @@ app.put("/v8/artifacts/:hash", async (req, res) => {
   const stream = createWriteStream(filePath);
   req.pipe(stream);
 
-  stream.on("finish", () => {
-    res.json({
-      urls: [`${req.protocol}://${req.get("host")}/v8/artifacts/${hash}`],
-    });
+  stream.on('finish', () => {
+    res.json({ urls: [`${req.protocol}://${req.get('host')}/v8/artifacts/${hash}`] });
   });
 });
 
 // Check artifact exists
-app.head("/v8/artifacts/:hash", async (req, res) => {
+app.head('/v8/artifacts/:hash', async (req, res) => {
   const { hash } = req.params;
-  const team = req.query.teamId || "default";
+  const team = req.query.teamId || 'default';
   const filePath = join(CACHE_DIR, team, hash);
 
   try {
@@ -276,12 +308,20 @@ turbo build --filter='...[HEAD^1]...'
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**"],
-      "inputs": ["$TURBO_DEFAULT$", "!**/*.md", "!**/*.test.*"]
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "!**/*.md",
+        "!**/*.test.*"
+      ]
     },
     "test": {
       "dependsOn": ["^build"],
       "outputs": ["coverage/**"],
-      "inputs": ["src/**", "tests/**", "*.config.*"],
+      "inputs": [
+        "src/**",
+        "tests/**",
+        "*.config.*"
+      ],
       "env": ["CI", "NODE_ENV"]
     },
     "test:e2e": {
@@ -316,7 +356,10 @@ turbo build --filter='...[HEAD^1]...'
 {
   "name": "my-turborepo",
   "private": true,
-  "workspaces": ["apps/*", "packages/*"],
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -362,7 +405,6 @@ TURBO_LOG_VERBOSITY=debug turbo build --filter=@myorg/web
 ## Best Practices
 
 ### Do's
-
 - **Define explicit inputs** - Avoid cache invalidation
 - **Use workspace protocol** - `"@myorg/ui": "workspace:*"`
 - **Enable remote caching** - Share across CI and local
@@ -370,7 +412,6 @@ TURBO_LOG_VERBOSITY=debug turbo build --filter=@myorg/web
 - **Cache build outputs** - Not source files
 
 ### Don'ts
-
 - **Don't cache dev servers** - Use `persistent: true`
 - **Don't include secrets in env** - Use runtime env vars
 - **Don't ignore dependsOn** - Causes race conditions
@@ -381,3 +422,6 @@ TURBO_LOG_VERBOSITY=debug turbo build --filter=@myorg/web
 - [Turborepo Documentation](https://turbo.build/repo/docs)
 - [Caching Guide](https://turbo.build/repo/docs/core-concepts/caching)
 - [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

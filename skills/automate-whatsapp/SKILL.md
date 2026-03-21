@@ -6,7 +6,9 @@ description: 'Build WhatsApp automations with Kapso workflows: configure WhatsAp
 risk: safe
 source: https://github.com/gokapso/agent-skills/tree/master/skills/automate-whatsapp
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

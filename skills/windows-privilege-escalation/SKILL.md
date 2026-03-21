@@ -1,14 +1,23 @@
 ---
 name: windows-privilege-escalation
-description: "Provide systematic methodologies for discovering and exploiting privilege escalation vulnerabilities on Windows systems during penetration testing engagements."
-risk: unknown
+description: This skill should be used when the user asks to "escalate privileges
+  on Windows," "find Windows privesc vectors," "enumerate Windows for privilege escalation,"
+  "exploit Windows misconfigurations," or "perform post-exploitation privilege escalation."
+  It provides comprehensive guidance for discover...
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
 # Windows Privilege Escalation
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -498,4 +507,4 @@ runas /user:Administrator cmd.exe
 | PowerShell blocked | Execution policy/AMSI | Use `powershell -ep bypass -c "cmd"` or `-enc <base64>` |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

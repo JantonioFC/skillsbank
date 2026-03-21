@@ -13,13 +13,17 @@ tags:
 - taskEither
 - readerTaskEither
 - composition
-risk: unknown
+risk: offensive
 source: community
+license: MIT
 ---
 
-
-
 # fp-ts Do Notation Guide
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Do notation is fp-ts's answer to callback hell. It provides a way to write sequential, imperative-looking code while maintaining functional purity and type safety.
 
@@ -840,3 +844,6 @@ Do notation transforms deeply nested callback chains into flat, readable pipelin
 5. Use `chainFirst` for side effects that shouldn't affect the result
 
 Do notation is the key to writing maintainable fp-ts code. Master it, and functional programming becomes as readable as imperative code while retaining all its benefits.
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

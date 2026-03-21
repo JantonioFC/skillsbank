@@ -2,14 +2,14 @@
 name: c4-code
 description: Expert C4 Code-level documentation specialist. Analyzes code directories
   to create comprehensive C4 code-level documentation including function signatures,
-  arguments, dependencies, and code structure.
-risk: unknown
+  arguments, dependencies, and code structure. Use when documenting code at the lowest
+  C4 level for individual directories and code modules.
+metadata:
+  model: haiku
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # C4 Code Level: [Directory Name]
 
@@ -245,7 +245,5 @@ When analyzing code, provide:
 
 ```
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for c4-code.
+- Use this skill when you need for functional programming or specific domain tasks.

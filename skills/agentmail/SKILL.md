@@ -4,7 +4,9 @@ description: Email infrastructure for AI agents. Create accounts, send/receive e
   manage webhooks, and check karma balance via the AgentMail API.
 risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

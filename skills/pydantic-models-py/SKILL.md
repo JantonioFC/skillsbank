@@ -1,11 +1,12 @@
 ---
 name: pydantic-models-py
-description: "Create Pydantic models following the multi-model pattern for clean API contracts."
-risk: unknown
+description: Create Pydantic models following the multi-model pattern with Base, Create,
+  Update, Response, and InDB variants. Use when defining API request/response schemas,
+  database models, or data validation in Python applications using Pydantic v2.
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Pydantic Models
 
@@ -62,4 +63,4 @@ class MyInDB(MyResponse):
 3. Add corresponding TypeScript types
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

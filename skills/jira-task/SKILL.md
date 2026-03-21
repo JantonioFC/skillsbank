@@ -8,12 +8,16 @@ license: Apache-2.0
 metadata:
   author: gentleman-programming
   version: '1.0'
-risk: unknown
+risk: offensive
 source: community
 ---
 
-
 ## When to Use
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Use this skill when creating Jira tasks for:
 - Bug reports

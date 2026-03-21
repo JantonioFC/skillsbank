@@ -1,10 +1,12 @@
 ---
 name: cc-skill-strategic-compact
 description: Development skill from everything-claude-code
-risk: unknown
+risk: safe
 source: community
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

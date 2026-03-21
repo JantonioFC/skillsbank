@@ -2,11 +2,10 @@
 name: cookbook-audit
 description: Audit an Anthropic Cookbook notebook based on a rubric. Use whenever
   a notebook review or audit is requested.
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Cookbook Audit
 
@@ -276,3 +275,6 @@ Refer to style_guide.md for detailed good/bad examples. Watch for these issues:
 ❌ Simply restating what the notebook did without guidance
 ❌ Not mapping back to the stated learning objectives
 ✅ Actionable guidance on applying lessons to user's specific context
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

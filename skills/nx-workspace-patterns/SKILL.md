@@ -3,18 +3,28 @@ name: nx-workspace-patterns
 description: Configure and optimize Nx monorepo workspaces. Use when setting up Nx,
   configuring project boundaries, optimizing build caching, or implementing affected
   commands.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Nx Workspace Patterns
 
 Production patterns for Nx monorepo management.
 
-## When to Use This Skill
+## Do not use this skill when
+
+- The task is unrelated to nx workspace patterns
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
+## Use this skill when
 
 - Setting up new Nx workspaces
 - Configuring project boundaries
@@ -46,13 +56,13 @@ workspace/
 
 ### 2. Library Types
 
-| Type            | Purpose                          | Example             |
-| --------------- | -------------------------------- | ------------------- |
-| **feature**     | Smart components, business logic | `feature-auth`      |
-| **ui**          | Presentational components        | `ui-buttons`        |
-| **data-access** | API calls, state management      | `data-access-users` |
-| **util**        | Pure functions, helpers          | `util-formatting`   |
-| **shell**       | App bootstrapping                | `shell-web`         |
+| Type | Purpose | Example |
+|------|---------|---------|
+| **feature** | Smart components, business logic | `feature-auth` |
+| **ui** | Presentational components | `ui-buttons` |
+| **data-access** | API calls, state management | `data-access-users` |
+| **util** | Pure functions, helpers | `util-formatting` |
+| **shell** | App bootstrapping | `shell-web` |
 
 ## Templates
 
@@ -283,8 +293,8 @@ import {
   joinPathFragments,
   names,
   readProjectConfiguration,
-} from "@nx/devkit";
-import { libraryGenerator } from "@nx/react";
+} from '@nx/devkit';
+import { libraryGenerator } from '@nx/react';
 
 interface FeatureLibraryGeneratorSchema {
   name: string;
@@ -294,7 +304,7 @@ interface FeatureLibraryGeneratorSchema {
 
 export default async function featureLibraryGenerator(
   tree: Tree,
-  options: FeatureLibraryGeneratorSchema,
+  options: FeatureLibraryGeneratorSchema
 ) {
   const { name, scope, directory } = options;
   const projectDirectory = directory
@@ -306,29 +316,26 @@ export default async function featureLibraryGenerator(
     name: `feature-${name}`,
     directory: projectDirectory,
     tags: `type:feature,scope:${scope}`,
-    style: "css",
+    style: 'css',
     skipTsConfig: false,
     skipFormat: true,
-    unitTestRunner: "jest",
-    linter: "eslint",
+    unitTestRunner: 'jest',
+    linter: 'eslint',
   });
 
   // Add custom files
-  const projectConfig = readProjectConfiguration(
-    tree,
-    `${scope}-feature-${name}`,
-  );
+  const projectConfig = readProjectConfiguration(tree, `${scope}-feature-${name}`);
   const projectNames = names(name);
 
   generateFiles(
     tree,
-    joinPathFragments(__dirname, "files"),
+    joinPathFragments(__dirname, 'files'),
     projectConfig.sourceRoot,
     {
       ...projectNames,
       scope,
-      tmpl: "",
-    },
+      tmpl: '',
+    }
   );
 
   await formatFiles(tree);
@@ -361,7 +368,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "npm"
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
@@ -443,7 +450,6 @@ nx migrate --run-migrations
 ## Best Practices
 
 ### Do's
-
 - **Use tags consistently** - Enforce with module boundaries
 - **Enable caching early** - Significant CI savings
 - **Keep libs focused** - Single responsibility
@@ -451,7 +457,6 @@ nx migrate --run-migrations
 - **Document boundaries** - Help new developers
 
 ### Don'ts
-
 - **Don't create circular deps** - Graph should be acyclic
 - **Don't skip affected** - Test only what changed
 - **Don't ignore boundaries** - Tech debt accumulates
@@ -462,3 +467,6 @@ nx migrate --run-migrations
 - [Nx Documentation](https://nx.dev/getting-started/intro)
 - [Module Boundaries](https://nx.dev/core-features/enforce-module-boundaries)
 - [Nx Cloud](https://nx.app/)
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

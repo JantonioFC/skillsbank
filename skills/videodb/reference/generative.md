@@ -59,7 +59,7 @@ video.play()
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
 | `prompt` | `str` | required | Text description of the video to generate |
-| `duration` | `float` | `5` | Duration in seconds (must be integer value, 5-8) |
+| `duration` | `int` | `5` | Duration in seconds (must be integer value, 5-8) |
 | `callback_url` | `str\|None` | `None` | URL to receive async callback |
 
 Returns a `Video` object. Generated videos are automatically added to the collection and can be used in timelines, searches, and compilations like any uploaded video.
@@ -165,7 +165,7 @@ Combine scene extraction with text generation:
 from videodb import SceneExtractionType
 
 # First index scenes
-video.index_scenes(
+scenes = video.index_scenes(
     extraction_type=SceneExtractionType.time_based,
     extraction_config={"time": 10},
     prompt="Describe the visual content in this scene.",
@@ -173,11 +173,21 @@ video.index_scenes(
 
 # Get transcript for spoken context
 transcript_text = video.get_transcript_text()
+scene_descriptions = []
+for scene in scenes:
+    if isinstance(scene, dict):
+        description = scene.get("description") or scene.get("summary")
+    else:
+        description = getattr(scene, "description", None) or getattr(scene, "summary", None)
+    scene_descriptions.append(description or str(scene))
+
+scenes_text = "\n".join(scene_descriptions)
 
 # Analyze with collection LLM
 result = coll.generate_text(
     prompt=(
         f"Given this video transcript:\n{transcript_text}\n\n"
+        f"And these visual scene descriptions:\n{scenes_text}\n\n"
         "Based on the spoken and visual content, describe the main topics covered."
     ),
     model_name="pro",

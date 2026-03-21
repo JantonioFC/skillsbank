@@ -5,7 +5,9 @@ description: Expert in building Chrome Extensions using Manifest V3. Covers back
 risk: safe
 source: community
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

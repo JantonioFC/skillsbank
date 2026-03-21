@@ -6,7 +6,9 @@ description: Use when a coding task should be driven end-to-end from issue intak
 risk: safe
 source: community
 date_added: '2026-03-12'
+license: MIT
 ---
+
 
 
 # Acceptance Orchestrator

@@ -2,27 +2,26 @@
 name: product-marketing-context
 description: When the user wants to create or update their product marketing context
   document. Also use when the user mentions 'product context,' 'marketing context,'
-  'set up context,' 'positioning,' or wants to avoid repeating foundational information
-  across marketing tasks. Creates `.claude/product-m...
+  'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,'
+  'ICP,' 'ideal customer profile,' or wants to avoid repeati...
 metadata:
-  version: 1.0.0
-risk: unknown
+  version: 1.1.0
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Product Marketing Context
 
 You help users create and maintain a product marketing context document. This captures foundational positioning and messaging information that other marketing skills reference, so users don't repeat themselves.
 
-The document is stored at `.claude/product-marketing-context.md`.
+The document is stored at `.agents/product-marketing-context.md`.
 
 ## Workflow
 
 ### Step 1: Check for Existing Context
 
-First, check if `.claude/product-marketing-context.md` already exists.
+First, check if `.agents/product-marketing-context.md` already exists. Also check `.claude/product-marketing-context.md` for older setups — if found there but not in `.agents/`, offer to move it.
 
 **If it exists:**
 - Read it and summarize what's captured
@@ -54,7 +53,7 @@ For each section:
 3. Confirm accuracy
 4. Move to the next
 
-**Important:** Push for verbatim customer language. Exact phrases are more valuable than polished descriptions.
+Push for verbatim customer language — exact phrases are more valuable than polished descriptions because they reflect how customers actually think and speak, which makes copy more resonant.
 
 ---
 
@@ -135,7 +134,7 @@ The JTBD Four Forces:
 
 ## Step 3: Create the Document
 
-After gathering information, create `.claude/product-marketing-context.md` with this structure:
+After gathering information, create `.agents/product-marketing-context.md` with this structure:
 
 ```markdown
 # Product Marketing Context
@@ -234,7 +233,7 @@ After gathering information, create `.claude/product-marketing-context.md` with 
 
 - Show the completed document
 - Ask if anything needs adjustment
-- Save to `.claude/product-marketing-context.md`
+- Save to `.agents/product-marketing-context.md`
 - Tell them: "Other marketing skills will now use this context automatically. Run `/product-marketing-context` anytime to update it."
 
 ---
@@ -248,4 +247,4 @@ After gathering information, create `.claude/product-marketing-context.md` with 
 - **Skip what doesn't apply**: Not every product needs all sections (e.g., Personas for B2C)
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

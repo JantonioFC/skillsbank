@@ -1,14 +1,23 @@
 ---
 name: wireshark-analysis
-description: "Execute comprehensive network traffic analysis using Wireshark to capture, filter, and examine network packets for security investigations, performance optimization, and troubleshooting."
-risk: unknown
+description: This skill should be used when the user asks to "analyze network traffic
+  with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow
+  TCP/UDP streams", "detect network anomalies", "investigate suspicious traffic",
+  or "perform protocol analysis". It provides comprehensive t...
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
 # Wireshark Network Traffic Analysis
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -499,4 +508,4 @@ File > Export Packet Dissections   # Export as text/CSV
 - Some modern ciphers cannot be decrypted passively
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

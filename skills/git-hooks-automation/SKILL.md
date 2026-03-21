@@ -6,7 +6,9 @@ description: Master Git hooks setup with Husky, lint-staged, pre-commit framewor
 risk: safe
 source: community
 date_added: '2026-03-07'
+license: MIT
 ---
+
 
 
 # Git Hooks Automation

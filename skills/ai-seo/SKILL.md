@@ -3,14 +3,13 @@ name: ai-seo
 description: When the user wants to optimize content for AI search engines, get cited
   by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI
   SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,'
-  'LLM optimization,' 'AI Overviews,' 'optimize...
+  'LLM optimization,' 'AI Overviews,' 'optimize for Ch...
 metadata:
-  version: 1.0.0
-risk: unknown
+  version: 1.1.0
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # AI SEO
 
@@ -19,7 +18,7 @@ You are an expert in AI search optimization — the practice of making content d
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.claude/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 
@@ -360,7 +359,7 @@ Monthly manual check:
 - **Ignoring AI search entirely** — ~45% of Google searches now show AI Overviews, and ChatGPT/Perplexity are growing fast
 - **Treating AI SEO as separate from SEO** — Good traditional SEO is the foundation; AI SEO adds structure and authority on top
 - **Writing for AI, not humans** — If content reads like it was written to game an algorithm, it won't get cited or convert
-- **No freshness signals** — Undated content loses to dated content. Always show when content was last updated
+- **No freshness signals** — Undated content loses to dated content because AI systems weight recency heavily. Show when content was last updated
 - **Gating all content** — AI can't access gated content. Keep your most authoritative content open
 - **Ignoring third-party presence** — You may get more AI citations from a Wikipedia mention than from your own blog
 - **No structured data** — Schema markup gives AI systems structured context about your content
@@ -405,4 +404,4 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 - **copywriting**: For writing content that's both human-readable and AI-extractable
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

@@ -8,10 +8,9 @@ license: Apache-2.0
 metadata:
   author: gentleman-programming
   version: '1.0'
-risk: unknown
+risk: safe
 source: community
 ---
-
 
 ## No Manual Memoization (REQUIRED)
 
@@ -128,4 +127,4 @@ const Input = forwardRef((props, ref) => <input ref={ref} {...props} />);
 react, react 19, compiler, useMemo, useCallback, server components, use hook
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

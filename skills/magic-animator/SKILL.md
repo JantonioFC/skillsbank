@@ -1,9 +1,11 @@
 ---
 name: magic-animator
-risk: unknown
+risk: safe
 source: community
 description: Community provided skill
+license: MIT
 ---
+
 
 --- 
 name: magic-animator

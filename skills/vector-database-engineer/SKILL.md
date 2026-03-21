@@ -3,13 +3,10 @@ name: vector-database-engineer
 description: Expert in vector databases, embedding strategies, and semantic search
   implementation. Masters Pinecone, Weaviate, Qdrant, Milvus, and pgvector for RAG
   applications, recommendation systems, and similar
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Vector Database Engineer
 
@@ -67,7 +64,5 @@ Expert in vector databases, embedding strategies, and semantic search implementa
 - Cache frequent queries
 - Test recall vs latency tradeoffs
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for vector-database-engineer.
+- Use this skill when you need for functional programming or specific domain tasks.

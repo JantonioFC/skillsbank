@@ -5,7 +5,9 @@ description: Orchestrate multiple Antigravity skills through guided workflows fo
 risk: none
 source: self
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

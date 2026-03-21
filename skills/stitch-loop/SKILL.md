@@ -3,14 +3,16 @@ name: stitch-loop
 description: Teaches agents to iteratively build websites using Stitch with an autonomous
   baton-passing loop pattern
 allowed-tools:
-  - "stitch*:*"
-  - "chrome*:*"
-  - "Read"
-  - "Write"
-  - "Bash"
-risk: unknown
+- stitch*:*
+- chrome*:*
+- Read
+- Write
+- Bash
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 # Stitch Build Loop

@@ -6,7 +6,9 @@ risk: safe
 source: self
 tags: '[ddd, strategic-design, bounded-context, ubiquitous-language]'
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

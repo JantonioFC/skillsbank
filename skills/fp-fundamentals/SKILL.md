@@ -13,13 +13,17 @@ tags:
 - composition
 - pointfree
 - fp-fundamentals
-risk: unknown
+risk: offensive
 source: community
+license: MIT
 ---
 
-
-
 # Functional Programming Fundamentals
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 This skill covers the foundational concepts of functional programming. Master these before diving into fp-ts types like Option, Either, and Task. These concepts apply universally across functional programming languages and libraries.
 
@@ -1184,4 +1188,4 @@ With these fundamentals mastered, you're ready for:
 Remember: FP is about building complex behavior from simple, composable pieces. Start small, practice composition, and gradually adopt more advanced patterns as they prove useful in your code.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

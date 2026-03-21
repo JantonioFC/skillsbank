@@ -657,7 +657,7 @@ class FunctionCallingInterface:
         )
         
         # Execute function
-        result = await self.functions[function_name]'function'
+        result = await self.functions[function_name]['function'](**validated_args)
         
         # Return result for LLM to process
         return {

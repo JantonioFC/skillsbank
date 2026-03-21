@@ -6,14 +6,14 @@ description: Create a new Rails project
 allowed-tools: Bash(rails *), Bash(bundle *), Bash(bin/*), Bash(npm *), Bash(yarn
   *)
 context: fork
-risk: unknown
+risk: safe
 source: community
 metadata:
   author: Shpigford
   version: '1.0'
-risk: unknown
-source: community
+license: MIT
 ---
+
 
 
 Generate a new Rails project named $1 in the current directory. You may reference @CLAUDE.md for general guidance, though the guidance here takes precedence.

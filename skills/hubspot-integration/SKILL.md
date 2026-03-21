@@ -1,10 +1,12 @@
 ---
 name: hubspot-integration
-description: "Authentication for single-account integrations"
-risk: unknown
+description: Authentication for single-account integrations
+risk: safe
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

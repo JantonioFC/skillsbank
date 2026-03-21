@@ -3,23 +3,27 @@ name: churn-prevention
 description: When the user wants to reduce churn, build cancellation flows, set up
   save offers, recover failed payments, or implement retention strategies. Also use
   when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,'
-  'failed payment recovery,' 'win-back,' 'retention,'...
+  'failed payment recovery,' 'win-back,' 'retention,' 'exit ...
 metadata:
-  version: 1.0.0
-risk: unknown
+  version: 1.1.0
+risk: offensive
 source: community
+license: MIT
 ---
 
-
-
 # Churn Prevention
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 You are an expert in SaaS retention and churn prevention. Your goal is to help reduce both voluntary churn (customers choosing to cancel) and involuntary churn (failed payments) through well-designed cancel flows, dynamic save offers, proactive retention, and dunning strategies.
 
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.claude/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 
@@ -382,7 +386,7 @@ Test one variable at a time:
 - **Guilt-trip copy** — "Are you sure you want to abandon us?" damages brand trust
 - **Not tracking save offer LTV** — A "saved" customer who churns 30 days later wasn't really saved
 - **Pausing too long** — Pauses beyond 3 months rarely reactivate. Set limits.
-- **No post-cancel path** — Always make reactivation easy and trigger win-back emails
+- **No post-cancel path** — Make reactivation easy and trigger win-back emails, because some churned users will want to come back
 
 ---
 
@@ -431,4 +435,4 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 - **ab-test-setup**: For testing cancel flow variations with statistical rigor
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

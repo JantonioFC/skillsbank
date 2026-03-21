@@ -3,13 +3,12 @@ name: dx-optimizer
 description: Developer Experience specialist. Improves tooling, setup, and workflows.
   Use PROACTIVELY when setting up new projects, after team feedback, or when development
   friction is noticed.
-risk: unknown
+metadata:
+  model: sonnet
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 ## Use this skill when
 
@@ -86,7 +85,5 @@ You are a Developer Experience (DX) optimization specialist. Your mission is to 
 
 Remember: Great DX is invisible when it works and obvious when it doesn't. Aim for invisible.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for dx-optimizer.
+- Use this skill when you need for functional programming or specific domain tasks.

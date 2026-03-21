@@ -1,51 +1,50 @@
 ---
 name: configure-ecc
-description: Interactive installer for Everything Claude Code — guides users through
-  selecting and installing skills and rules to user-level or project-level directories,
-  verifies paths, and optionally optimizes installed files.
-risk: unknown
+description: Everything Claude Code 的交互式安装程序 — 引导用户选择并安装技能和规则到用户级或项目级目录，验证路径，并可选择优化已安装文件。
+origin: ECC
+risk: safe
 source: community
+license: MIT
 ---
 
+# 配置 Everything Claude Code (ECC)
 
+一个交互式、分步安装向导，用于 Everything Claude Code 项目。使用 `AskUserQuestion` 引导用户选择性安装技能和规则，然后验证正确性并提供优化。
 
-# Configure Everything Claude Code (ECC)
+## 何时激活
 
-An interactive, step-by-step installation wizard for the Everything Claude Code project. Uses `AskUserQuestion` to guide users through selective installation of skills and rules, then verifies correctness and offers optimization.
+* 用户说 "configure ecc"、"install ecc"、"setup everything claude code" 或类似表述
+* 用户想要从此项目中选择性安装技能或规则
+* 用户想要验证或修复现有的 ECC 安装
+* 用户想要为其项目优化已安装的技能或规则
 
-## When to Activate
+## 先决条件
 
-- User says "configure ecc", "install ecc", "setup everything claude code", or similar
-- User wants to selectively install skills or rules from this project
-- User wants to verify or fix an existing ECC installation
-- User wants to optimize installed skills or rules for their project
+此技能必须在激活前对 Claude Code 可访问。有两种引导方式：
 
-## Prerequisites
+1. **通过插件**: `/plugin install everything-claude-code` — 插件会自动加载此技能
+2. **手动**: 仅将此技能复制到 `~/.claude/skills/configure-ecc/SKILL.md`，然后通过说 "configure ecc" 激活
 
-This skill must be accessible to Claude Code before activation. Two ways to bootstrap:
-1. **Via Plugin**: `/plugin install everything-claude-code` — the plugin loads this skill automatically
-2. **Manual**: Copy only this skill to `~/.claude/skills/configure-ecc/SKILL.md`, then activate by saying "configure ecc"
+***
 
----
+## 步骤 0：克隆 ECC 仓库
 
-## Step 0: Clone ECC Repository
-
-Before any installation, clone the latest ECC source to `/tmp`:
+在任何安装之前，将最新的 ECC 源代码克隆到 `/tmp`：
 
 ```bash
 rm -rf /tmp/everything-claude-code
 git clone https://github.com/affaan-m/everything-claude-code.git /tmp/everything-claude-code
 ```
 
-Set `ECC_ROOT=/tmp/everything-claude-code` as the source for all subsequent copy operations.
+将 `ECC_ROOT=/tmp/everything-claude-code` 设置为所有后续复制操作的源。
 
-If the clone fails (network issues, etc.), use `AskUserQuestion` to ask the user to provide a local path to an existing ECC clone.
+如果克隆失败（网络问题等），使用 `AskUserQuestion` 要求用户提供现有 ECC 克隆的本地路径。
 
----
+***
 
-## Step 1: Choose Installation Level
+## 步骤 1：选择安装级别
 
-Use `AskUserQuestion` to ask the user where to install:
+使用 `AskUserQuestion` 询问用户安装位置：
 
 ```
 Question: "Where should ECC components be installed?"
@@ -55,23 +54,42 @@ Options:
   - "Both" — "Common/shared items user-level, project-specific items project-level"
 ```
 
-Store the choice as `INSTALL_LEVEL`. Set the target directory:
-- User-level: `TARGET=~/.claude`
-- Project-level: `TARGET=.claude` (relative to current project root)
-- Both: `TARGET_USER=~/.claude`, `TARGET_PROJECT=.claude`
+将选择存储为 `INSTALL_LEVEL`。设置目标目录：
 
-Create the target directories if they don't exist:
+* 用户级别：`TARGET=~/.claude`
+* 项目级别：`TARGET=.claude`（相对于当前项目根目录）
+* 两者：`TARGET_USER=~/.claude`，`TARGET_PROJECT=.claude`
+
+如果目标目录不存在，则创建它们：
+
 ```bash
 mkdir -p $TARGET/skills $TARGET/rules
 ```
 
----
+***
 
-## Step 2: Select & Install Skills
+## 步骤 2：选择并安装技能
 
-### 2a: Choose Skill Categories
+### 2a: 选择范围（核心 vs 细分领域）
 
-There are 27 skills organized into 4 categories. Use `AskUserQuestion` with `multiSelect: true`:
+默认为 **核心（推荐给新用户）** — 对于研究优先的工作流，复制 `.agents/skills/*` 加上 `skills/search-first/`。此捆绑包涵盖工程、评估、验证、安全、战略压缩、前端设计以及 Anthropic 跨职能技能（文章写作、内容引擎、市场研究、前端幻灯片）。
+
+使用 `AskUserQuestion`（单选）：
+
+```
+Question: "Install core skills only, or include niche/framework packs?"
+Options:
+  - "Core only (recommended)" — "tdd, e2e, evals, verification, research-first, security, frontend patterns, compacting, cross-functional Anthropic skills"
+  - "Core + selected niche" — "Add framework/domain-specific skills after core"
+  - "Niche only" — "Skip core, install specific framework/domain skills"
+Default: Core only
+```
+
+如果用户选择细分领域或核心 + 细分领域，则继续下面的类别选择，并且仅包含他们选择的那些细分领域技能。
+
+### 2b: 选择技能类别
+
+共有41项技能，分为8个类别。使用 `AskUserQuestion` 配合 `multiSelect: true`：
 
 ```
 Question: "Which skill categories do you want to install?"
@@ -79,75 +97,120 @@ Options:
   - "Framework & Language" — "Django, Spring Boot, Go, Python, Java, Frontend, Backend patterns"
   - "Database" — "PostgreSQL, ClickHouse, JPA/Hibernate patterns"
   - "Workflow & Quality" — "TDD, verification, learning, security review, compaction"
+  - "Business & Content" — "Article writing, content engine, market research, investor materials, outreach"
+  - "Research & APIs" — "Deep research, Exa search, Claude API patterns"
+  - "Social & Content Distribution" — "X/Twitter API, crossposting alongside content-engine"
+  - "Media Generation" — "fal.ai image/video/audio alongside VideoDB"
+  - "Orchestration" — "dmux multi-agent workflows"
   - "All skills" — "Install every available skill"
 ```
 
-### 2b: Confirm Individual Skills
+### 2c: 确认个人技能
 
-For each selected category, print the full list of skills below and ask the user to confirm or deselect specific ones. If the list exceeds 4 items, print the list as text and use `AskUserQuestion` with an "Install all listed" option plus "Other" for the user to paste specific names.
+对于每个选定的类别，打印下面的完整技能列表，并要求用户确认或取消选择特定的技能。如果列表超过 4 项，将列表打印为文本，并使用 `AskUserQuestion`，提供一个 "安装所有列出项" 的选项，以及一个 "其他" 选项供用户粘贴特定名称。
 
-**Category: Framework & Language (16 skills)**
+**类别：框架与语言（17 项技能）**
 
-| Skill | Description |
+| 技能 | 描述 |
 |-------|-------------|
-| `backend-patterns` | Backend architecture, API design, server-side best practices for Node.js/Express/Next.js |
-| `coding-standards` | Universal coding standards for TypeScript, JavaScript, React, Node.js |
-| `django-patterns` | Django architecture, REST API with DRF, ORM, caching, signals, middleware |
-| `django-security` | Django security: auth, CSRF, SQL injection, XSS prevention |
-| `django-tdd` | Django testing with pytest-django, factory_boy, mocking, coverage |
-| `django-verification` | Django verification loop: migrations, linting, tests, security scans |
-| `frontend-patterns` | React, Next.js, state management, performance, UI patterns |
-| `golang-patterns` | Idiomatic Go patterns, conventions for robust Go applications |
-| `golang-testing` | Go testing: table-driven tests, subtests, benchmarks, fuzzing |
-| `java-coding-standards` | Java coding standards for Spring Boot: naming, immutability, Optional, streams |
-| `python-patterns` | Pythonic idioms, PEP 8, type hints, best practices |
-| `python-testing` | Python testing with pytest, TDD, fixtures, mocking, parametrization |
-| `springboot-patterns` | Spring Boot architecture, REST API, layered services, caching, async |
-| `springboot-security` | Spring Security: authn/authz, validation, CSRF, secrets, rate limiting |
-| `springboot-tdd` | Spring Boot TDD with JUnit 5, Mockito, MockMvc, Testcontainers |
-| `springboot-verification` | Spring Boot verification: build, static analysis, tests, security scans |
+| `backend-patterns` | Node.js/Express/Next.js 的后端架构、API 设计、服务器端最佳实践 |
+| `coding-standards` | TypeScript、JavaScript、React、Node.js 的通用编码标准 |
+| `django-patterns` | Django 架构、使用 DRF 的 REST API、ORM、缓存、信号、中间件 |
+| `django-security` | Django 安全性：身份验证、CSRF、SQL 注入、XSS 防护 |
+| `django-tdd` | 使用 pytest-django、factory\_boy、模拟、覆盖率进行 Django 测试 |
+| `django-verification` | Django 验证循环：迁移、代码检查、测试、安全扫描 |
+| `frontend-patterns` | React、Next.js、状态管理、性能、UI 模式 |
+| `frontend-slides` | 零依赖的 HTML 演示文稿、样式预览以及 PPTX 到网页的转换 |
+| `golang-patterns` | 地道的 Go 模式、构建健壮 Go 应用程序的约定 |
+| `golang-testing` | Go 测试：表驱动测试、子测试、基准测试、模糊测试 |
+| `java-coding-standards` | Spring Boot 的 Java 编码标准：命名、不可变性、Optional、流 |
+| `python-patterns` | Pythonic 惯用法、PEP 8、类型提示、最佳实践 |
+| `python-testing` | 使用 pytest、TDD、固件、模拟、参数化进行 Python 测试 |
+| `springboot-patterns` | Spring Boot 架构、REST API、分层服务、缓存、异步 |
+| `springboot-security` | Spring Security：身份验证/授权、验证、CSRF、密钥、速率限制 |
+| `springboot-tdd` | 使用 JUnit 5、Mockito、MockMvc、Testcontainers 进行 Spring Boot TDD |
+| `springboot-verification` | Spring Boot 验证：构建、静态分析、测试、安全扫描 |
 
-**Category: Database (3 skills)**
+**类别：数据库（3 项技能）**
 
-| Skill | Description |
+| 技能 | 描述 |
 |-------|-------------|
-| `clickhouse-io` | ClickHouse patterns, query optimization, analytics, data engineering |
-| `jpa-patterns` | JPA/Hibernate entity design, relationships, query optimization, transactions |
-| `postgres-patterns` | PostgreSQL query optimization, schema design, indexing, security |
+| `clickhouse-io` | ClickHouse 模式、查询优化、分析、数据工程 |
+| `jpa-patterns` | JPA/Hibernate 实体设计、关系、查询优化、事务 |
+| `postgres-patterns` | PostgreSQL 查询优化、模式设计、索引、安全 |
 
-**Category: Workflow & Quality (8 skills)**
+**类别：工作流与质量（8 项技能）**
 
-| Skill | Description |
+| 技能 | 描述 |
 |-------|-------------|
-| `continuous-learning` | Auto-extract reusable patterns from sessions as learned skills |
-| `continuous-learning-v2` | Instinct-based learning with confidence scoring, evolves into skills/commands/agents |
-| `eval-harness` | Formal evaluation framework for eval-driven development (EDD) |
-| `iterative-retrieval` | Progressive context refinement for subagent context problem |
-| `security-review` | Security checklist: auth, input, secrets, API, payment features |
-| `strategic-compact` | Suggests manual context compaction at logical intervals |
-| `tdd-workflow` | Enforces TDD with 80%+ coverage: unit, integration, E2E |
-| `verification-loop` | Verification and quality loop patterns |
+| `continuous-learning` | 从会话中自动提取可重用模式作为习得技能 |
+| `continuous-learning-v2` | 基于本能的学习，带有置信度评分，演变为技能/命令/代理 |
+| `eval-harness` | 用于评估驱动开发 (EDD) 的正式评估框架 |
+| `iterative-retrieval` | 用于子代理上下文问题的渐进式上下文优化 |
+| `security-review` | 安全检查清单：身份验证、输入、密钥、API、支付功能 |
+| `strategic-compact` | 在逻辑间隔处建议手动上下文压缩 |
+| `tdd-workflow` | 强制要求 TDD，覆盖率 80% 以上：单元测试、集成测试、端到端测试 |
+| `verification-loop` | 验证和质量循环模式 |
 
-**Standalone**
+**类别：业务与内容（5 项技能）**
 
-| Skill | Description |
+| 技能 | 描述 |
 |-------|-------------|
-| `project-guidelines-example` | Template for creating project-specific skills |
+| `article-writing` | 使用笔记、示例或源文档，以指定的口吻进行长篇写作 |
+| `content-engine` | 多平台社交内容、脚本和内容再利用工作流 |
+| `market-research` | 带有来源标注的市场、竞争对手、基金和技术研究 |
+| `investor-materials` | 宣传文稿、一页简介、投资者备忘录和财务模型 |
+| `investor-outreach` | 个性化的投资者冷邮件、熟人介绍和后续跟进 |
 
-### 2c: Execute Installation
+**类别：研究与API（3项技能）**
 
-For each selected skill, copy the entire skill directory:
+| 技能 | 描述 |
+|-------|-------------|
+| `deep-research` | 使用 firecrawl 和 exa MCP 进行多源深度研究，并生成带引用的报告 |
+| `exa-search` | 通过 Exa MCP 进行网络、代码、公司和人员的神经搜索 |
+| `claude-api` | Anthropic Claude API 模式：消息、流式处理、工具使用、视觉、批处理、Agent SDK |
+
+**类别：社交与内容分发（2项技能）**
+
+| 技能 | 描述 |
+|-------|-------------|
+| `x-api` | X/Twitter API 集成，用于发帖、线程、搜索和分析 |
+| `crosspost` | 多平台内容分发，并进行平台原生适配 |
+
+**类别：媒体生成（2项技能）**
+
+| 技能 | 描述 |
+|-------|-------------|
+| `fal-ai-media` | 通过 fal.ai MCP 进行统一的AI媒体生成（图像、视频、音频） |
+| `video-editing` | AI辅助视频编辑，用于剪辑、结构化和增强实拍素材 |
+
+**类别：编排（1项技能）**
+
+| 技能 | 描述 |
+|-------|-------------|
+| `dmux-workflows` | 使用 dmux 进行多智能体编排，实现并行智能体会话 |
+
+**独立技能**
+
+| 技能 | 描述 |
+|-------|-------------|
+| `project-guidelines-example` | 用于创建项目特定技能的模板 |
+
+### 2d: 执行安装
+
+对于每个选定的技能，复制整个技能目录：
+
 ```bash
 cp -r $ECC_ROOT/skills/<skill-name> $TARGET/skills/
 ```
 
-Note: `continuous-learning` and `continuous-learning-v2` have extra files (config.json, hooks, scripts) — ensure the entire directory is copied, not just SKILL.md.
+注意：`continuous-learning` 和 `continuous-learning-v2` 有额外的文件（config.json、钩子、脚本）——确保复制整个目录，而不仅仅是 SKILL.md。
 
----
+***
 
-## Step 3: Select & Install Rules
+## 步骤 3：选择并安装规则
 
-Use `AskUserQuestion` with `multiSelect: true`:
+使用 `AskUserQuestion` 和 `multiSelect: true`：
 
 ```
 Question: "Which rule sets do you want to install?"
@@ -158,7 +221,8 @@ Options:
   - "Go" — "Go patterns, table-driven tests, gofmt/staticcheck (5 files)"
 ```
 
-Execute installation:
+执行安装：
+
 ```bash
 # Common rules (flat copy into rules/)
 cp -r $ECC_ROOT/rules/common/* $TARGET/rules/
@@ -169,60 +233,70 @@ cp -r $ECC_ROOT/rules/python/* $TARGET/rules/        # if selected
 cp -r $ECC_ROOT/rules/golang/* $TARGET/rules/        # if selected
 ```
 
-**Important**: If the user selects any language-specific rules but NOT common rules, warn them:
-> "Language-specific rules extend the common rules. Installing without common rules may result in incomplete coverage. Install common rules too?"
+**重要**：如果用户选择了任何特定语言的规则但**没有**选择通用规则，警告他们：
 
----
+> "特定语言规则扩展了通用规则。不安装通用规则可能导致覆盖不完整。是否也安装通用规则？"
 
-## Step 4: Post-Installation Verification
+***
 
-After installation, perform these automated checks:
+## 步骤 4：安装后验证
 
-### 4a: Verify File Existence
+安装后，执行这些自动化检查：
 
-List all installed files and confirm they exist at the target location:
+### 4a：验证文件存在
+
+列出所有已安装的文件并确认它们存在于目标位置：
+
 ```bash
 ls -la $TARGET/skills/
 ls -la $TARGET/rules/
 ```
 
-### 4b: Check Path References
+### 4b：检查路径引用
 
-Scan all installed `.md` files for path references:
+扫描所有已安装的 `.md` 文件中的路径引用：
+
 ```bash
 grep -rn "~/.claude/" $TARGET/skills/ $TARGET/rules/
 grep -rn "../common/" $TARGET/rules/
 grep -rn "skills/" $TARGET/skills/
 ```
 
-**For project-level installs**, flag any references to `~/.claude/` paths:
-- If a skill references `~/.claude/settings.json` — this is usually fine (settings are always user-level)
-- If a skill references `~/.claude/skills/` or `~/.claude/rules/` — this may be broken if installed only at project level
-- If a skill references another skill by name — check that the referenced skill was also installed
+**对于项目级别安装**，标记任何对 `~/.claude/` 路径的引用：
 
-### 4c: Check Cross-References Between Skills
+* 如果技能引用 `~/.claude/settings.json` — 这通常没问题（设置始终是用户级别的）
+* 如果技能引用 `~/.claude/skills/` 或 `~/.claude/rules/` — 如果仅安装在项目级别，这可能损坏
+* 如果技能通过名称引用另一项技能 — 检查被引用的技能是否也已安装
 
-Some skills reference others. Verify these dependencies:
-- `django-tdd` may reference `django-patterns`
-- `springboot-tdd` may reference `springboot-patterns`
-- `continuous-learning-v2` references `~/.claude/homunculus/` directory
-- `python-testing` may reference `python-patterns`
-- `golang-testing` may reference `golang-patterns`
-- Language-specific rules reference `common/` counterparts
+### 4c：检查技能间的交叉引用
 
-### 4d: Report Issues
+有些技能会引用其他技能。验证这些依赖关系：
 
-For each issue found, report:
-1. **File**: The file containing the problematic reference
-2. **Line**: The line number
-3. **Issue**: What's wrong (e.g., "references ~/.claude/skills/python-patterns but python-patterns was not installed")
-4. **Suggested fix**: What to do (e.g., "install python-patterns skill" or "update path to .claude/skills/")
+* `django-tdd` 可能引用 `django-patterns`
+* `springboot-tdd` 可能引用 `springboot-patterns`
+* `continuous-learning-v2` 引用 `~/.claude/homunculus/` 目录
+* `python-testing` 可能引用 `python-patterns`
+* `golang-testing` 可能引用 `golang-patterns`
+* `crosspost` 引用 `content-engine` 和 `x-api`
+* `deep-research` 引用 `exa-search`（互补的 MCP 工具）
+* `fal-ai-media` 引用 `videodb`（互补的媒体技能）
+* `x-api` 引用 `content-engine` 和 `crosspost`
+* 语言特定规则引用 `common/` 对应项
 
----
+### 4d：报告问题
 
-## Step 5: Optimize Installed Files (Optional)
+对于发现的每个问题，报告：
 
-Use `AskUserQuestion`:
+1. **文件**：包含问题引用的文件
+2. **行号**：行号
+3. **问题**：哪里出错了（例如，"引用了 ~/.claude/skills/python-patterns 但 python-patterns 未安装"）
+4. **建议的修复**：该怎么做（例如，"安装 python-patterns 技能" 或 "将路径更新为 .claude/skills/"）
+
+***
+
+## 步骤 5：优化已安装文件（可选）
+
+使用 `AskUserQuestion`：
 
 ```
 Question: "Would you like to optimize the installed files for your project?"
@@ -233,35 +307,37 @@ Options:
   - "Skip" — "Keep everything as-is"
 ```
 
-### If optimizing skills:
-1. Read each installed SKILL.md
-2. Ask the user what their project's tech stack is (if not already known)
-3. For each skill, suggest removals of irrelevant sections
-4. Edit the SKILL.md files in-place at the installation target (NOT the source repo)
-5. Fix any path issues found in Step 4
+### 如果优化技能：
 
-### If optimizing rules:
-1. Read each installed rule .md file
-2. Ask the user about their preferences:
-   - Test coverage target (default 80%)
-   - Preferred formatting tools
-   - Git workflow conventions
-   - Security requirements
-3. Edit the rule files in-place at the installation target
+1. 读取每个已安装的 SKILL.md
+2. 询问用户其项目的技术栈是什么（如果尚不清楚）
+3. 对于每项技能，建议删除无关部分
+4. 在安装目标处就地编辑 SKILL.md 文件（**不是**源仓库）
+5. 修复在步骤 4 中发现的任何路径问题
 
-**Critical**: Only modify files in the installation target (`$TARGET/`), NEVER modify files in the source ECC repository (`$ECC_ROOT/`).
+### 如果优化规则：
 
----
+1. 读取每个已安装的规则 .md 文件
+2. 询问用户的偏好：
+   * 测试覆盖率目标（默认 80%）
+   * 首选的格式化工具
+   * Git 工作流约定
+   * 安全要求
+3. 在安装目标处就地编辑规则文件
 
-## Step 6: Installation Summary
+**关键**：只修改安装目标（`$TARGET/`）中的文件，**绝不**修改源 ECC 仓库（`$ECC_ROOT/`）中的文件。
 
-Clean up the cloned repository from `/tmp`:
+***
+
+## 步骤 6：安装摘要
+
+从 `/tmp` 清理克隆的仓库：
 
 ```bash
 rm -rf /tmp/everything-claude-code
 ```
 
-Then print a summary report:
+然后打印摘要报告：
 
 ```
 ## ECC Installation Complete
@@ -286,22 +362,25 @@ Then print a summary report:
 - [list changes made, or "None"]
 ```
 
----
+***
 
-## Troubleshooting
+## 故障排除
 
-### "Skills not being picked up by Claude Code"
-- Verify the skill directory contains a `SKILL.md` file (not just loose .md files)
-- For user-level: check `~/.claude/skills/<skill-name>/SKILL.md` exists
-- For project-level: check `.claude/skills/<skill-name>/SKILL.md` exists
+### "Claude Code 未获取技能"
 
-### "Rules not working"
-- Rules are flat files, not in subdirectories: `$TARGET/rules/coding-style.md` (correct) vs `$TARGET/rules/common/coding-style.md` (incorrect for flat install)
-- Restart Claude Code after installing rules
+* 验证技能目录包含一个 `SKILL.md` 文件（不仅仅是松散的 .md 文件）
+* 对于用户级别：检查 `~/.claude/skills/<skill-name>/SKILL.md` 是否存在
+* 对于项目级别：检查 `.claude/skills/<skill-name>/SKILL.md` 是否存在
 
-### "Path reference errors after project-level install"
-- Some skills assume `~/.claude/` paths. Run Step 4 verification to find and fix these.
-- For `continuous-learning-v2`, the `~/.claude/homunculus/` directory is always user-level — this is expected and not an error.
+### "规则不工作"
+
+* 规则是平面文件，不在子目录中：`$TARGET/rules/coding-style.md`（正确）对比 `$TARGET/rules/common/coding-style.md`（对于平面安装不正确）
+* 安装规则后重启 Claude Code
+
+### "项目级别安装后出现路径引用错误"
+
+* 有些技能假设 `~/.claude/` 路径。运行步骤 4 验证来查找并修复这些问题。
+* 对于 `continuous-learning-v2`，`~/.claude/homunculus/` 目录始终是用户级别的 — 这是预期的，不是错误。
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

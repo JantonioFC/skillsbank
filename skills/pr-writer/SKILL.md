@@ -1,9 +1,11 @@
 ---
 name: pr-writer
-description: "Create pull requests following Sentry's engineering practices."
-risk: unknown
+description: Create pull requests following Sentry's engineering practices.
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 # PR Writer

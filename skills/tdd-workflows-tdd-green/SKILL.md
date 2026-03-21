@@ -2,13 +2,10 @@
 name: tdd-workflows-tdd-green
 description: Implement the minimal code needed to make failing tests pass in the TDD
   green phase.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Green Phase: Simple function
 def product_list(request):
@@ -79,7 +76,5 @@ app.post('/api/users',
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for tdd-workflows-tdd-green.
+- Use this skill when you need for functional programming or specific domain tasks.

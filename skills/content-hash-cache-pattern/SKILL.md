@@ -2,11 +2,11 @@
 name: content-hash-cache-pattern
 description: Cache expensive file processing results using SHA-256 content hashes
   — path-independent, auto-invalidating, with service layer separation.
-risk: unknown
+origin: ECC
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Content-Hash File Cache Pattern
 

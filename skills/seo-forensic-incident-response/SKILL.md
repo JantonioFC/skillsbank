@@ -5,7 +5,9 @@ description: Investigate sudden drops in organic traffic or rankings and run a s
 risk: safe
 source: original
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

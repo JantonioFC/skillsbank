@@ -4,7 +4,9 @@ description: 'Expert guide for Odoo Project and Timesheets: task stages, billabl
   time tracking, timesheet approval, budget alerts, and invoicing from timesheets.'
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

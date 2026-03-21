@@ -1,12 +1,16 @@
 ---
 name: linux-shell-scripting
-description: "Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, and automation. These scripts serve as building blocks for security operations and penetration testing environments."
-risk: unknown
+description: This skill should be used when the user asks to "create bash scripts",
+  "automate Linux tasks", "monitor system resources", "backup files", "manage users",
+  or "write production shell scripts". It provides ready-to-use shell script templates
+  for system administration.
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: safe
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
-
 
 # Linux Production Shell Scripts
 
@@ -506,4 +510,4 @@ Minute(0-59) Hour(0-23) Day(1-31) Month(1-12) Weekday(0-7, 0/7=Sun)
 - Use `bash -x script.sh` for debugging
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

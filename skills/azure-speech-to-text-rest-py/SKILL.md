@@ -1,13 +1,16 @@
 ---
 name: azure-speech-to-text-rest-py
-description: Azure Speech to Text REST API for short audio (Python). Use for simple
+description: 'Azure Speech to Text REST API for short audio (Python). Use for simple
   speech recognition of audio files up to 60 seconds without the Speech SDK.
-risk: unknown
+
+  Triggers: "speech to text REST", "short audio transcription", "speech recognition
+  REST API", "STT REST", "recognize speech REST".
+
+  DO NOT USE FOR: Long ...'
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure Speech to Text REST API for Short Audio
 
@@ -375,4 +378,4 @@ Use the Speech SDK or Batch Transcription API instead when you need:
 | [references/pronunciation-assessment.md](references/pronunciation-assessment.md) | Pronunciation assessment parameters and scoring |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

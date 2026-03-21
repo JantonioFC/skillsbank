@@ -5,9 +5,11 @@ description: 'Analyze Azure resource groups and generate detailed Mermaid archit
 
   USE FOR: create architecture diagram, visualize Azure resources, show resource relationships,
   generate Mermaid diagram, analyze resource group, diagram ...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

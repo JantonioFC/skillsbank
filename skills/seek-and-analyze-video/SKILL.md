@@ -19,7 +19,9 @@ tools:
 - claude
 - cursor
 - gemini
+license: MIT
 ---
+
 
 
 ## When to Use

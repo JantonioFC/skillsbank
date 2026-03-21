@@ -5,9 +5,10 @@ description: Django performance code review. Use when asked to "review Django pe
   "Django ORM issues", or audit Django code for performance problems.
 allowed-tools: Read, Grep, Glob, Bash, Task
 license: LICENSE
-risk: unknown
+risk: safe
 source: community
 ---
+
 
 
 # Django Performance Review

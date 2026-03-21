@@ -5,9 +5,10 @@ description: Use when complex problems require systematic step-by-step reasoning
   scope. Ideal for multi-stage analysis, design planning, problem decomposition, or
   tasks with initially unclear scope.
 license: MIT
-risk: unknown
+risk: safe
 source: community
 ---
+
 # Sequential Thinking
 
 Enables structured problem-solving through iterative reasoning with revision and branching capabilities.

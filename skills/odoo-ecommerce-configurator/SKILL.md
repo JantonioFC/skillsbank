@@ -4,7 +4,9 @@ description: 'Expert guide for Odoo eCommerce and Website: product catalog, paym
   providers, shipping methods, SEO, and order-to-fulfillment workflow.'
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

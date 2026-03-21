@@ -3,13 +3,10 @@ name: service-mesh-expert
 description: Expert service mesh architect specializing in Istio, Linkerd, and cloud-native
   networking patterns. Masters traffic management, security policies, observability
   integration, and multi-cluster mesh con
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Service Mesh Expert
 
@@ -65,7 +62,5 @@ Expert service mesh architect specializing in Istio, Linkerd, and cloud-native n
 - Keep sidecar resources appropriately sized
 - Use destination rules for consistent load balancing
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for service-mesh-expert.
+- Use this skill when you need for functional programming or specific domain tasks.

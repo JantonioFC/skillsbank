@@ -3,11 +3,10 @@ name: continual-learning
 description: Guide for implementing continual learning in AI coding agents — hooks,
   memory scoping, reflection patterns. Use when setting up learning infrastructure
   for agents.
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Continual Learning for AI Coding Agents
 
@@ -85,4 +84,4 @@ This prevents unbounded growth while preserving what matters.
 4. **Let it compound** — small improvements per session create exponential gains over weeks
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

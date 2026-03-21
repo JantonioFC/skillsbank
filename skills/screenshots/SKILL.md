@@ -6,7 +6,9 @@ description: Generate marketing screenshots of your app using Playwright. Use wh
 risk: safe
 source: https://github.com/Shpigford/skills/tree/main/screenshots
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

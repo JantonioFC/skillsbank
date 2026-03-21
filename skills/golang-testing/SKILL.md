@@ -1,28 +1,28 @@
 ---
 name: golang-testing
-description: Go testing patterns including table-driven tests, subtests, benchmarks,
-  fuzzing, and test coverage. Follows TDD methodology with idiomatic Go practices.
-risk: unknown
+description: 테이블 주도 테스트, 서브테스트, 벤치마크, 퍼징, 테스트 커버리지를 포함한 Go 테스팅 패턴. 관용적 Go 관행과 함께 TDD
+  방법론을 따릅니다.
+origin: ECC
+risk: safe
 source: community
+license: MIT
 ---
 
+# Go 테스팅 패턴
 
+TDD 방법론을 따르는 신뢰할 수 있고 유지보수 가능한 테스트 작성을 위한 포괄적인 Go 테스팅 패턴.
 
-# Go Testing Patterns
+## 활성화 시점
 
-Comprehensive Go testing patterns for writing reliable, maintainable tests following TDD methodology.
+- 새로운 Go 함수나 메서드 작성 시
+- 기존 코드에 테스트 커버리지 추가 시
+- 성능이 중요한 코드에 벤치마크 생성 시
+- 입력 유효성 검사를 위한 퍼즈 테스트 구현 시
+- Go 프로젝트에서 TDD 워크플로우 따를 시
 
-## When to Activate
+## Go에서의 TDD 워크플로우
 
-- Writing new Go functions or methods
-- Adding test coverage to existing code
-- Creating benchmarks for performance-critical code
-- Implementing fuzz tests for input validation
-- Following TDD workflow in Go projects
-
-## TDD Workflow for Go
-
-### The RED-GREEN-REFACTOR Cycle
+### RED-GREEN-REFACTOR 사이클
 
 ```
 RED     → Write a failing test first
@@ -31,7 +31,7 @@ REFACTOR → Improve code while keeping tests green
 REPEAT  → Continue with next requirement
 ```
 
-### Step-by-Step TDD in Go
+### Go에서의 단계별 TDD
 
 ```go
 // Step 1: Define the interface/signature
@@ -73,9 +73,9 @@ func Add(a, b int) int {
 // Step 6: Refactor if needed, verify tests still pass
 ```
 
-## Table-Driven Tests
+## 테이블 주도 테스트
 
-The standard pattern for Go tests. Enables comprehensive coverage with minimal code.
+Go 테스트의 표준 패턴. 최소한의 코드로 포괄적인 커버리지를 가능하게 합니다.
 
 ```go
 func TestAdd(t *testing.T) {
@@ -103,7 +103,7 @@ func TestAdd(t *testing.T) {
 }
 ```
 
-### Table-Driven Tests with Error Cases
+### 에러 케이스가 있는 테이블 주도 테스트
 
 ```go
 func TestParseConfig(t *testing.T) {
@@ -158,9 +158,9 @@ func TestParseConfig(t *testing.T) {
 }
 ```
 
-## Subtests and Sub-benchmarks
+## 서브테스트 및 서브벤치마크
 
-### Organizing Related Tests
+### 관련 테스트 구성
 
 ```go
 func TestUser(t *testing.T) {
@@ -198,7 +198,7 @@ func TestUser(t *testing.T) {
 }
 ```
 
-### Parallel Subtests
+### 병렬 서브테스트
 
 ```go
 func TestParallel(t *testing.T) {
@@ -223,9 +223,9 @@ func TestParallel(t *testing.T) {
 }
 ```
 
-## Test Helpers
+## 테스트 헬퍼
 
-### Helper Functions
+### 헬퍼 함수
 
 ```go
 func setupTestDB(t *testing.T) *sql.DB {
@@ -264,7 +264,7 @@ func assertEqual[T comparable](t *testing.T, got, want T) {
 }
 ```
 
-### Temporary Files and Directories
+### 임시 파일 및 디렉터리
 
 ```go
 func TestFileProcessing(t *testing.T) {
@@ -289,9 +289,9 @@ func TestFileProcessing(t *testing.T) {
 }
 ```
 
-## Golden Files
+## 골든 파일
 
-Testing against expected output files stored in `testdata/`.
+`testdata/`에 저장된 예상 출력 파일에 대한 테스트.
 
 ```go
 var update = flag.Bool("update", false, "update golden files")
@@ -332,9 +332,9 @@ func TestRender(t *testing.T) {
 }
 ```
 
-## Mocking with Interfaces
+## 인터페이스를 사용한 모킹
 
-### Interface-Based Mocking
+### 인터페이스 기반 모킹
 
 ```go
 // Define interface for dependencies
@@ -389,9 +389,9 @@ func TestUserService(t *testing.T) {
 }
 ```
 
-## Benchmarks
+## 벤치마크
 
-### Basic Benchmarks
+### 기본 벤치마크
 
 ```go
 func BenchmarkProcess(b *testing.B) {
@@ -407,7 +407,7 @@ func BenchmarkProcess(b *testing.B) {
 // Output: BenchmarkProcess-8   10000   105234 ns/op   4096 B/op   10 allocs/op
 ```
 
-### Benchmark with Different Sizes
+### 다양한 크기의 벤치마크
 
 ```go
 func BenchmarkSort(b *testing.B) {
@@ -429,7 +429,7 @@ func BenchmarkSort(b *testing.B) {
 }
 ```
 
-### Memory Allocation Benchmarks
+### 메모리 할당 벤치마크
 
 ```go
 func BenchmarkStringConcat(b *testing.B) {
@@ -463,9 +463,9 @@ func BenchmarkStringConcat(b *testing.B) {
 }
 ```
 
-## Fuzzing (Go 1.18+)
+## 퍼징 (Go 1.18+)
 
-### Basic Fuzz Test
+### 기본 퍼즈 테스트
 
 ```go
 func FuzzParseJSON(f *testing.F) {
@@ -495,7 +495,7 @@ func FuzzParseJSON(f *testing.F) {
 // Run: go test -fuzz=FuzzParseJSON -fuzztime=30s
 ```
 
-### Fuzz Test with Multiple Inputs
+### 다중 입력 퍼즈 테스트
 
 ```go
 func FuzzCompare(f *testing.F) {
@@ -523,9 +523,9 @@ func FuzzCompare(f *testing.F) {
 }
 ```
 
-## Test Coverage
+## 테스트 커버리지
 
-### Running Coverage
+### 커버리지 실행
 
 ```bash
 # Basic coverage
@@ -544,16 +544,16 @@ go tool cover -func=coverage.out
 go test -race -coverprofile=coverage.out ./...
 ```
 
-### Coverage Targets
+### 커버리지 목표
 
-| Code Type | Target |
+| 코드 유형 | 목표 |
 |-----------|--------|
-| Critical business logic | 100% |
-| Public APIs | 90%+ |
-| General code | 80%+ |
-| Generated code | Exclude |
+| 핵심 비즈니스 로직 | 100% |
+| 공개 API | 90%+ |
+| 일반 코드 | 80%+ |
+| 생성된 코드 | 제외 |
 
-### Excluding Generated Code from Coverage
+### 생성된 코드를 커버리지에서 제외
 
 ```go
 //go:generate mockgen -source=interface.go -destination=mock_interface.go
@@ -562,7 +562,7 @@ go test -race -coverprofile=coverage.out ./...
 // go test -cover -tags=!generate ./...
 ```
 
-## HTTP Handler Testing
+## HTTP 핸들러 테스팅
 
 ```go
 func TestHealthHandler(t *testing.T) {
@@ -645,7 +645,7 @@ func TestAPIHandler(t *testing.T) {
 }
 ```
 
-## Testing Commands
+## 테스팅 명령어
 
 ```bash
 # Run all tests
@@ -682,25 +682,25 @@ go test -fuzz=FuzzParse -fuzztime=30s ./...
 go test -count=10 ./...
 ```
 
-## Best Practices
+## 모범 사례
 
-**DO:**
-- Write tests FIRST (TDD)
-- Use table-driven tests for comprehensive coverage
-- Test behavior, not implementation
-- Use `t.Helper()` in helper functions
-- Use `t.Parallel()` for independent tests
-- Clean up resources with `t.Cleanup()`
-- Use meaningful test names that describe the scenario
+**해야 할 것:**
+- 테스트를 먼저 작성 (TDD)
+- 포괄적인 커버리지를 위해 테이블 주도 테스트 사용
+- 구현이 아닌 동작을 테스트
+- 헬퍼 함수에서 `t.Helper()` 사용
+- 독립적인 테스트에 `t.Parallel()` 사용
+- `t.Cleanup()`으로 리소스 정리
+- 시나리오를 설명하는 의미 있는 테스트 이름 사용
 
-**DON'T:**
-- Test private functions directly (test through public API)
-- Use `time.Sleep()` in tests (use channels or conditions)
-- Ignore flaky tests (fix or remove them)
-- Mock everything (prefer integration tests when possible)
-- Skip error path testing
+**하지 말아야 할 것:**
+- 비공개 함수를 직접 테스트 (공개 API를 통해 테스트)
+- 테스트에서 `time.Sleep()` 사용 (채널이나 조건 사용)
+- 불안정한 테스트 무시 (수정하거나 제거)
+- 모든 것을 모킹 (가능하면 통합 테스트 선호)
+- 에러 경로 테스트 생략
 
-## Integration with CI/CD
+## CI/CD 통합
 
 ```yaml
 # GitHub Actions example
@@ -721,7 +721,7 @@ test:
         awk -F'%' '{if ($1 < 80) exit 1}'
 ```
 
-**Remember**: Tests are documentation. They show how your code is meant to be used. Write them clearly and keep them up to date.
+**기억하세요**: 테스트는 문서입니다. 코드가 어떻게 사용되어야 하는지를 보여줍니다. 명확하게 작성하고 최신 상태로 유지하세요.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

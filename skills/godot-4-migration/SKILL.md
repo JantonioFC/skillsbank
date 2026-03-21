@@ -5,7 +5,9 @@ description: Specialized guide for migrating Godot 3.x projects to Godot 4 (GDSc
 risk: safe
 source: community
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

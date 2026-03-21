@@ -17,7 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+license: MIT
 ---
+
 
 
 # SKILL DE RISCO — AUDITOR DE RISCO EM LEILÕES

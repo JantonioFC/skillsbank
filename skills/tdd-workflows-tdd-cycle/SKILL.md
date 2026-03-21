@@ -1,13 +1,10 @@
 ---
 name: tdd-workflows-tdd-cycle
 description: Use when working with tdd workflows tdd cycle
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 ## Use this skill when
 
@@ -226,7 +223,5 @@ Track and report:
 
 TDD implementation for: $ARGUMENTS
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for tdd-workflows-tdd-cycle.
+- Use this skill when you need for functional programming or specific domain tasks.

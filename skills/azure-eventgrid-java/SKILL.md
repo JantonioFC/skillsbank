@@ -4,13 +4,17 @@ description: Build event-driven applications with Azure Event Grid SDK for Java.
   when publishing events, implementing pub/sub patterns, or integrating with Azure
   services via events.
 package: com.azure:azure-messaging-eventgrid
-risk: unknown
+risk: offensive
 source: community
+license: MIT
 ---
 
-
-
 # Azure Event Grid SDK for Java
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Build event-driven applications using the Azure Event Grid SDK for Java.
 
@@ -311,4 +315,4 @@ EVENT_GRID_ACCESS_KEY=<your-access-key>
 - "webhook events"
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

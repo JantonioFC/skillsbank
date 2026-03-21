@@ -3,22 +3,20 @@ name: posix-shell-pro
 description: Expert in strict POSIX sh scripting for maximum portability across Unix-like
   systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash,
   ash, sh, bash --posix).
-risk: unknown
+metadata:
+  model: sonnet
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 ## Use this skill when
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 - Working on posix shell pro tasks or workflows
 - Needing guidance, best practices, or checklists for posix shell pro
 
@@ -313,7 +311,5 @@ Use `[ ]` test command with POSIX operators:
 ### Tools & Testing
 - [checkbashisms](https://manpages.debian.org/testing/devscripts/checkbashisms.1.en.html) - Detect bash-specific constructs
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for posix-shell-pro.
+- Use this skill when you need for functional programming or specific domain tasks.

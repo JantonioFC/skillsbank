@@ -4,13 +4,17 @@ description: Orchestrate JavaScript/TypeScript applications with .NET Aspire. Us
   when building Node.js APIs, React/Vue/Svelte frontends, or Vite apps that need service
   discovery, telemetry, and deployment orchestration via Aspire's AppHost. Covers
   AddViteApp, AddNodeApp, AddJavaScriptApp, package mana...
-risk: unknown
+risk: offensive
 source: community
+license: MIT
 ---
 
-
-
 # .NET Aspire for JavaScript/TypeScript
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Orchestrate JavaScript and TypeScript applications using .NET Aspire's AppHost. Aspire treats JS/TS apps as first-class resources alongside .NET services, containers, and cloud infrastructure — providing service discovery, telemetry, health monitoring, and deployment from a single code-first model.
 

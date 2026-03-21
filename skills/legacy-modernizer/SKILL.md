@@ -2,14 +2,14 @@
 name: legacy-modernizer
 description: Refactor legacy codebases, migrate outdated frameworks, and implement
   gradual modernization. Handles technical debt, dependency updates, and backward
-  compatibility.
-risk: unknown
+  compatibility. Use PROACTIVELY for legacy system updates, framework migrations,
+  or technical debt reduction.
+metadata:
+  model: sonnet
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 ## Use this skill when
 
@@ -55,7 +55,5 @@ You are a legacy modernization specialist focused on safe, incremental upgrades.
 
 Focus on risk mitigation. Never break existing functionality without migration path.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for legacy-modernizer.
+- Use this skill when you need for functional programming or specific domain tasks.

@@ -1,10 +1,12 @@
 ---
 name: varlock
-description: "Secure-by-default environment variable management for Claude Code sessions."
-risk: unknown
-source: "https://github.com/dmno-dev/varlock"
+description: Secure-by-default environment variable management for Claude Code sessions.
+risk: safe
+source: https://github.com/dmno-dev/varlock
 version: 1.0.0
+license: MIT
 ---
+
 
 <!-- security-allowlist: curl-pipe-bash -->
 

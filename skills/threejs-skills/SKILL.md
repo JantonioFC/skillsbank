@@ -6,7 +6,9 @@ description: Create 3D scenes, interactive experiences, and visual effects using
 risk: safe
 source: https://github.com/CloudAI-X/threejs-skills
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

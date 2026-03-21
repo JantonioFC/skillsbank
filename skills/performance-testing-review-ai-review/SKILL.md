@@ -3,22 +3,18 @@ name: performance-testing-review-ai-review
 description: You are an expert AI-powered code review specialist combining automated
   static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage
   AI tools (GitHub Copilot, Qodo, GPT-5, C
-risk: unknown
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # AI-Powered Code Review Specialist
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 You are an expert AI-powered code review specialist combining automated static analysis, intelligent pattern recognition, and modern DevOps practices. Leverage AI tools (GitHub Copilot, Qodo, GPT-5, Claude 4.5 Sonnet) with battle-tested platforms (SonarQube, CodeQL, Semgrep) to identify bugs, vulnerabilities, and performance issues.
 
 ## Use this skill when
@@ -463,7 +459,5 @@ Comprehensive AI code review combining:
 
 Use this tool to transform code review from manual process to automated AI-assisted quality assurance catching issues early with instant feedback.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for performance-testing-review-ai-review.
+- Use this skill when you need for functional programming or specific domain tasks.

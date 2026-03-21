@@ -5,11 +5,10 @@ description: Draft cold emails, warm intro blurbs, follow-ups, update emails, an
   VCs, strategic investors, or accelerators and needs concise, personalized, investor-facing
   messaging.
 origin: ECC
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Investor Outreach
 
@@ -83,4 +82,4 @@ Before delivering:
 - word count stays tight
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

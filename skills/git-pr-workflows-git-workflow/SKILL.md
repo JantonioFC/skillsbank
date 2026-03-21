@@ -3,13 +3,10 @@ name: git-pr-workflows-git-workflow
 description: Orchestrate a comprehensive git workflow from code review through PR
   creation, leveraging specialized agents for quality assurance, testing, and deployment
   readiness. This workflow implements modern g
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Complete Git Workflow with Multi-Agent Orchestration
 
@@ -147,7 +144,5 @@ In case of issues after merge:
 - **Merge Strategy**: Squash for feature branches, merge for release branches
 - **Sign-Off**: Require at least 2 approvals for main branch changes
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for git-pr-workflows-git-workflow.
+- Use this skill when you need for functional programming or specific domain tasks.

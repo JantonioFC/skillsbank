@@ -1,13 +1,17 @@
 ---
 name: azure-identity-rust
-description: Azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential,
+description: 'Azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential,
   ManagedIdentityCredential, ClientSecretCredential, and token-based authentication.
-risk: unknown
+
+  Triggers: "azure-identity", "DeveloperToolsCredential", "authentication rust", "managed
+  identity rust", "credential rust".
+
+  '
+package: azure_identity
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure Identity SDK for Rust
 
@@ -118,4 +122,4 @@ let credential = ClientSecretCredential::new(
 | crates.io | https://crates.io/crates/azure_identity |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

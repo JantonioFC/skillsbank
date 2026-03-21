@@ -1,18 +1,30 @@
 ---
 name: saga-orchestration
-description: "Patterns for managing distributed transactions and long-running business processes."
-risk: unknown
+description: Implement saga patterns for distributed transactions and cross-aggregate
+  workflows. Use when coordinating multi-step business processes, handling compensating
+  transactions, or managing long-running workflows.
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Saga Orchestration
 
 Patterns for managing distributed transactions and long-running business processes.
 
-## When to Use This Skill
+## Do not use this skill when
+
+- The task is unrelated to saga orchestration
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
+## Use this skill when
 
 - Coordinating multi-service transactions
 - Implementing compensating transactions
@@ -466,10 +478,6 @@ class TimeoutSagaOrchestrator(SagaOrchestrator):
             )
 ```
 
-## Durable Execution Alternative
-
-The templates above build saga infrastructure from scratch — saga stores, event publishers, compensation tracking. **Durable execution frameworks** (like DBOS) eliminate much of this boilerplate: the workflow runtime automatically persists state to a database, retries failed steps, and resumes from the last checkpoint after crashes. Instead of building a `SagaOrchestrator` base class, you write a workflow function with steps — the framework handles persistence, crash recovery, and exactly-once execution semantics. Consider durable execution when you want saga-like reliability without managing the coordination infrastructure yourself.
-
 ## Best Practices
 
 ### Do's
@@ -487,11 +495,10 @@ The templates above build saga infrastructure from scratch — saga stores, even
 - **Don't couple services** - Use async messaging
 - **Don't ignore partial failures** - Handle gracefully
 
-## Related Skills
-
-Works well with: `event-sourcing-architect`, `workflow-automation`, `dbos-*`
-
 ## Resources
 
 - [Saga Pattern](https://microservices.io/patterns/data/saga.html)
 - [Designing Data-Intensive Applications](https://dataintensive.net/)
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

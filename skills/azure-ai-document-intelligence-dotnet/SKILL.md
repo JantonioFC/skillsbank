@@ -1,13 +1,14 @@
 ---
 name: azure-ai-document-intelligence-dotnet
-description: Azure AI Document Intelligence SDK for .NET. Extract text, tables, and
-  structured data from documents using prebuilt and custom models.
-risk: unknown
+description: 'Azure AI Document Intelligence SDK for .NET. Extract text, tables, and
+  structured data from documents using prebuilt and custom models. Use for invoice
+  processing, receipt extraction, ID document analysis, and custom document models.
+  Triggers: "Document Intelligence", "DocumentIntelligenceClient"...'
+package: Azure.AI.DocumentIntelligence
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure.AI.DocumentIntelligence (.NET)
 
@@ -341,4 +342,4 @@ catch (RequestFailedException ex)
 | Prebuilt Models | https://aka.ms/azsdk/formrecognizer/models |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

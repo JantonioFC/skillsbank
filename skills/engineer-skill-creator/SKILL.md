@@ -3,10 +3,17 @@ name: engineer-skill-creator
 description: Transform extracted engineer expertise into an actionable skill with
   progressive disclosure, allowing agents to find and apply relevant patterns for
   specific tasks.
-risk: unknown
+risk: offensive
 source: community
+license: MIT
 ---
+
 # Engineer Skill Creator
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Transform extracted engineer profiles into ready-to-use skills with progressive disclosure, enabling AI agents to efficiently find and apply the right expertise for any coding task.
 

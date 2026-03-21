@@ -1,14 +1,18 @@
 ---
 name: azure-ai-vision-imageanalysis-py
-description: Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR,
+description: 'Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR,
   people detection, and smart cropping. Use for computer vision and image understanding
   tasks.
-risk: unknown
+
+  Triggers: "image analysis", "computer vision", "OCR", "object detection", "ImageAnalysisClient",
+  "image caption".
+
+  '
+package: azure-ai-vision-imageanalysis
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure AI Vision Image Analysis SDK for Python
 
@@ -264,4 +268,4 @@ except HttpResponseError as e:
 7. **Cache results** when analyzing the same image multiple times
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

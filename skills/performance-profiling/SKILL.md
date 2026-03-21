@@ -2,13 +2,11 @@
 name: performance-profiling
 description: Performance profiling principles. Measurement, analysis, and optimization
   techniques.
-risk: unknown
+allowed-tools: Read, Glob, Grep, Bash
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Performance Profiling
 
@@ -149,4 +147,4 @@ date_added: '2026-02-27'
 > **Remember:** The fastest code is code that doesn't run. Remove before optimizing.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

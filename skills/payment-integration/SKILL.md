@@ -3,22 +3,20 @@ name: payment-integration
 description: Integrate Stripe, PayPal, and payment processors. Handles checkout flows,
   subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments,
   billing, or subscription features.
-risk: unknown
+metadata:
+  model: sonnet
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 ## Use this skill when
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 - Working on payment integration tasks or workflows
 - Needing guidance, best practices, or checklists for payment integration
 
@@ -86,7 +84,5 @@ You are a payment integration specialist focused on secure, reliable payment pro
 
 Always use official SDKs. Include both server-side and client-side code where needed.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for payment-integration.
+- Use this skill when you need for functional programming or specific domain tasks.

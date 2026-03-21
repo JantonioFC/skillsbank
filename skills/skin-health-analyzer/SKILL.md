@@ -3,9 +3,11 @@ name: skin-health-analyzer
 description: Analyze skin health data, identify skin problem patterns, assess skin
   health status. Supports correlation analysis with nutrition, chronic diseases, and
   medication data.
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 # 皮肤健康分析技能

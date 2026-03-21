@@ -5,7 +5,9 @@ description: Use when starting a new implementation task and an issue must be cr
 risk: safe
 source: community
 date_added: '2026-03-12'
+license: MIT
 ---
+
 
 
 # Create Issue Gate

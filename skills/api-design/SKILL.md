@@ -2,13 +2,18 @@
 name: api-design
 description: REST API design patterns including resource naming, status codes, pagination,
   filtering, error responses, versioning, and rate limiting for production APIs.
-risk: unknown
+origin: ECC
+risk: offensive
 source: community
+license: MIT
 ---
 
-
-
 # API Design Patterns
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Conventions and best practices for designing consistent, developer-friendly REST APIs.
 

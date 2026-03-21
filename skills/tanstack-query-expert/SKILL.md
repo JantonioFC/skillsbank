@@ -6,7 +6,9 @@ description: Expert in TanStack Query (React Query) — asynchronous state manag
 risk: safe
 source: community
 date_added: '2026-03-07'
+license: MIT
 ---
+
 
 
 # TanStack Query Expert

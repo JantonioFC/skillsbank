@@ -1,13 +1,13 @@
 ---
 name: canvas-design
-description: "These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files."
-risk: unknown
+description: Create beautiful visual art in .png and .pdf documents using design philosophy.
+  You should use this skill when the user asks to create a poster, piece of art, design,
+  or other static piece. Create original visual designs, never copying existing artists'
+  work to avoid copyright violations.
+license: Complete terms in LICENSE.txt
+risk: safe
 source: community
-date_added: '2026-02-27'
 ---
-
-
-
 
 These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.
 
@@ -135,4 +135,4 @@ Take a second pass. Go back to the code and refine/polish further to make this a
 To create additional pages when requested, create more creative pages along the same lines as the design philosophy but distinctly different as well. Bundle those pages in the same .pdf or many .pngs. Treat the first page as just a single page in a whole coffee table book waiting to be filled. Make the next pages unique twists and memories of the original. Have them almost tell a story in a very tasteful way. Exercise full creative freedom.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

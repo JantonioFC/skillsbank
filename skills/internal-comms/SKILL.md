@@ -5,9 +5,10 @@ description: A set of resources to help me write all kinds of internal communica
   asked to write some sort of internal communications (status reports, leadership
   updates, 3P updates, company newsletters, FAQs, incident ...
 license: Complete terms in LICENSE.txt
-risk: unknown
+risk: safe
 source: community
 ---
+
 ## When to use this skill
 To write internal communications, use this skill for:
 - 3P updates (Progress, Plans, Problems)

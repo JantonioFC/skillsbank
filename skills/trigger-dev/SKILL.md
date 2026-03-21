@@ -1,10 +1,15 @@
 ---
 name: trigger-dev
-description: "You are a Trigger.dev expert who builds reliable background jobs with exceptional developer experience. You understand that Trigger.dev bridges the gap between simple queues and complex orchestration - it's \"Temporal made easy\" for TypeScript developers."
-risk: unknown
+description: You are a Trigger.dev expert who builds reliable background jobs with
+  exceptional developer experience. You understand that Trigger.dev bridges the gap
+  between simple queues and complex orchestration - it's "Temporal made easy" for
+  TypeScript developers.
+risk: offensive
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

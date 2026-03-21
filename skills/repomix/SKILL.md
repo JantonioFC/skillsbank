@@ -4,9 +4,11 @@ description: Package entire code repositories into single AI-friendly files usin
   Repomix. Capabilities include pack codebases with customizable include/exclude patterns,
   generate multiple output formats (XML, Markdown, plain text), preserve file structure
   and context, optimize for AI consumption with token c...
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Repomix Skill
 
 Repomix packs entire repositories into single, AI-friendly files. Perfect for feeding codebases to LLMs like Claude, ChatGPT, and Gemini.

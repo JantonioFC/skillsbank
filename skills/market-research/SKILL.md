@@ -5,11 +5,10 @@ description: Conduct market research, competitive analysis, investor due diligen
   Use when the user wants market sizing, competitor comparisons, fund research, technology
   scans, or research that informs business decisions.
 origin: ECC
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Market Research
 
@@ -82,4 +81,4 @@ Before delivering:
 - the output makes a decision easier
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

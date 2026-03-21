@@ -1,16 +1,16 @@
 ---
 name: using-git-worktrees
-description: "Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneously without switching."
-risk: unknown
+description: Use when starting feature work that needs isolation from current workspace
+  or before executing implementation plans - creates isolated git worktrees with smart
+  directory selection and safety verification
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Using Git Worktrees
 
-## When to Use
+## Overview
 
 Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneously without switching.
 
@@ -221,7 +221,6 @@ Ready to implement auth feature
 
 **Pairs with:**
 - **finishing-a-development-branch** - REQUIRED for cleanup after work complete
-- **executing-plans** or **subagent-driven-development** - Work happens in this worktree
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

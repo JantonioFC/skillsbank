@@ -6,7 +6,9 @@ description: Deploy applications and websites to Vercel. Use this skill when the
 risk: safe
 source: https://github.com/vercel-labs/agent-skills/tree/main/skills/claude.ai/vercel-deploy-claimable
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

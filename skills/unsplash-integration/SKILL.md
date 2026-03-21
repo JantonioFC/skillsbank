@@ -1,9 +1,11 @@
 ---
 name: unsplash-integration
-risk: unknown
+risk: safe
 source: community
 description: Community provided skill
+license: MIT
 ---
+
 
 --- 
 name: unsplash-integration

@@ -4,7 +4,9 @@ description: 'Master Odoo ORM patterns: search, browse, create, write, domain fi
   computed fields, and performance-safe query techniques.'
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

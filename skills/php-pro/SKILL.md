@@ -1,28 +1,21 @@
 ---
 name: php-pro
-description: 'Write idiomatic PHP code with generators, iterators, SPL data
-
-  structures, and modern OOP features. Use PROACTIVELY for high-performance PHP
-
-  applications.
-
-  '
-risk: unknown
+description: Write idiomatic PHP code with generators, iterators, SPL data structures,
+  and modern OOP features. Use PROACTIVELY for high-performance PHP applications.
+metadata:
+  model: inherit
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 ## Use this skill when
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 - Working on php pro tasks or workflows
 - Needing guidance, best practices, or checklists for php pro
 
@@ -76,7 +69,5 @@ You are a PHP expert specializing in modern PHP development with focus on perfor
 
 Prefer PHP standard library and built-in functions over third-party packages. Use external dependencies sparingly and only when necessary. Focus on working code over explanations.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for php-pro.
+- Use this skill when you need for functional programming or specific domain tasks.

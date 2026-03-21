@@ -5,7 +5,9 @@ description: Use when the user is unsure which skill to use or where to start. I
   library for their goal.
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

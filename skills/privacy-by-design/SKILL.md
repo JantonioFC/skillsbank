@@ -5,7 +5,9 @@ description: Use when building apps that collect user data. Ensures privacy prot
 risk: safe
 source: community
 date_added: '2026-02-23'
+license: MIT
 ---
+
 
 
 # Privacy by Design

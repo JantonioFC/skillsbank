@@ -1,13 +1,14 @@
 ---
 name: azure-ai-voicelive-dotnet
-description: Azure AI Voice Live SDK for .NET. Build real-time voice AI applications
-  with bidirectional WebSocket communication.
-risk: unknown
+description: 'Azure AI Voice Live SDK for .NET. Build real-time voice AI applications
+  with bidirectional WebSocket communication. Use for voice assistants, conversational
+  AI, real-time speech-to-speech, and voice-enabled chatbots. Triggers: "voice live",
+  "real-time voice", "VoiceLiveClient", "VoiceLiveSession"...'
+package: Azure.AI.VoiceLive
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure.AI.VoiceLive (.NET)
 
@@ -269,4 +270,4 @@ if (serverEvent is SessionUpdateError error)
 | Quickstart | https://learn.microsoft.com/azure/ai-services/speech-service/voice-live-quickstart |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

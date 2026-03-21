@@ -7,7 +7,9 @@ risk: safe
 source: community
 tags: '[aws, compliance, audit, cis, pci-dss, hipaa, kiro-cli]'
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

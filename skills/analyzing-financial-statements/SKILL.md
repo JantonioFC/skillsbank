@@ -2,11 +2,10 @@
 name: analyzing-financial-statements
 description: This skill calculates key financial ratios and metrics from financial
   statement data for investment analysis
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Financial Ratio Calculator Skill
 
@@ -74,4 +73,4 @@ Results include:
 - Historical data doesn't guarantee future performance
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

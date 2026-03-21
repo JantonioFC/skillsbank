@@ -2,13 +2,13 @@
 name: cpp-pro
 description: Write idiomatic C++ code with modern features, RAII, smart pointers,
   and STL algorithms. Handles templates, move semantics, and performance optimization.
-risk: unknown
+  Use PROACTIVELY for C++ refactoring, memory safety, or complex C++ patterns.
+metadata:
+  model: opus
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 ## Use this skill when
 
@@ -60,7 +60,5 @@ You are a C++ programming expert specializing in modern C++ and high-performance
 
 Follow C++ Core Guidelines. Prefer compile-time errors over runtime errors.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for cpp-pro.
+- Use this skill when you need for functional programming or specific domain tasks.

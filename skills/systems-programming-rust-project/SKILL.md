@@ -3,13 +3,10 @@ name: systems-programming-rust-project
 description: You are a Rust project architecture expert specializing in scaffolding
   production-ready Rust applications. Generate complete project structures with cargo
   tooling, proper module organization, testing
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Rust Project Scaffolding
 
@@ -447,7 +444,5 @@ cognitive-complexity-threshold = 30
 
 Focus on creating idiomatic Rust projects with strong type safety, proper error handling, and comprehensive testing setup.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for systems-programming-rust-project.
+- Use this skill when you need for functional programming or specific domain tasks.

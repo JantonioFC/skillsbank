@@ -4,9 +4,11 @@ description: Create a git branch following Sentry naming conventions. Use when a
   to "create a branch", "new branch", "start a branch", "make a branch", "switch to
   a new branch", or when starting new work on the default branch.
 argument-hint: '[optional description of the work]'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 # Create Branch

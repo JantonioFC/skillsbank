@@ -1,19 +1,14 @@
 ---
 name: sales-automator
-description: 'Draft cold emails, follow-ups, and proposal templates. Creates
-
-  pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales
-
-  outreach or lead nurturing.
-
-  '
-risk: unknown
+description: Draft cold emails, follow-ups, and proposal templates. Creates pricing
+  pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead
+  nurturing.
+metadata:
+  model: haiku
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 ## Use this skill when
 
@@ -62,7 +57,5 @@ You are a sales automation specialist focused on conversions and relationships.
 
 Write conversationally. Show empathy for customer problems.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for sales-automator.
+- Use this skill when you need for functional programming or specific domain tasks.

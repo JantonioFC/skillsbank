@@ -10,9 +10,11 @@ description: 'Identify and quantify cost savings across Azure subscriptions by a
   costs,
 
   find cost savings, generat...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

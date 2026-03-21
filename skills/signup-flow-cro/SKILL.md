@@ -1,19 +1,24 @@
 ---
 name: signup-flow-cro
-description: "You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation."
-risk: unknown
+description: When the user wants to optimize signup, registration, account creation,
+  or trial activation flows. Also use when the user mentions "signup conversions,"
+  "registration friction," "signup form optimization," "free trial signup," "reduce
+  signup dropoff," "account creation flow," "people aren't signi...
+metadata:
+  version: 1.1.0
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Signup Flow CRO
 
 You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation.
 
 ## Initial Assessment
+
+**Check for product marketing context first:**
+If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before providing recommendations, understand:
 
@@ -162,7 +167,7 @@ Every field reduces conversion. For each field, ask:
 
 ### Microcopy
 - Placeholder text: Use for examples, not labels
-- Labels: Always visible (not just placeholders)
+- Labels: Keep visible (not just placeholders) — placeholders disappear when typing, leaving users unsure what they're filling in
 - Help text: Only when needed, placed close to field
 
 ---
@@ -342,9 +347,8 @@ Organized by:
 
 ---
 
-## Questions to Ask
+## Task-Specific Questions
 
-If you need more context:
 1. What's your current signup completion rate?
 2. Do you have field-level analytics on drop-off?
 3. What data is absolutely required before they can use the product?
@@ -361,4 +365,4 @@ If you need more context:
 - **ab-test-setup**: For testing signup flow changes
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

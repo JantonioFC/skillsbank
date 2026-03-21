@@ -5,23 +5,28 @@ description: Detects missing zeroization of sensitive data in source code and id
   control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys,
   passwords, or other sensitive data.
 allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - Write
-  - Task
-  - AskUserQuestion
-  - mcp__serena__activate_project
-  - mcp__serena__find_symbol
-  - mcp__serena__find_referencing_symbols
-  - mcp__serena__get_symbols_overview
-risk: unknown
+- Read
+- Grep
+- Glob
+- Bash
+- Write
+- Task
+- AskUserQuestion
+- mcp__serena__activate_project
+- mcp__serena__find_symbol
+- mcp__serena__find_referencing_symbols
+- mcp__serena__get_symbols_overview
+risk: offensive
 source: community
+license: MIT
 ---
 
-
 # zeroize-audit — Claude Skill
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## When to Use
 - Auditing cryptographic implementations (keys, seeds, nonces, secrets)

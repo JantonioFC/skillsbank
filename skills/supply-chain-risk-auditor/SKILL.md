@@ -4,17 +4,22 @@ description: Identifies dependencies at heightened risk of exploitation or takeo
   Use when assessing supply chain attack surface, evaluating dependency health, or
   scoping security engagements.
 allowed-tools:
-  - Read
-  - Write
-  - Bash
-  - Glob
-  - Grep
-risk: unknown
+- Read
+- Write
+- Bash
+- Glob
+- Grep
+risk: offensive
 source: community
+license: MIT
 ---
 
-
 # Supply Chain Risk Auditor
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Activates when the user says "audit this project's dependencies".
 

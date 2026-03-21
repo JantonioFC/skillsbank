@@ -3,13 +3,10 @@ name: team-collaboration-issue
 description: You are a GitHub issue resolution expert specializing in systematic bug
   investigation, feature implementation, and collaborative development workflows.
   Your expertise spans issue triage, root cause an
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # GitHub Issue Resolution Expert
 
@@ -44,7 +41,5 @@ GitHub Issue ID or URL: $ARGUMENTS
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for team-collaboration-issue.
+- Use this skill when you need for functional programming or specific domain tasks.

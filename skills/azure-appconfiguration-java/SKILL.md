@@ -1,13 +1,17 @@
 ---
 name: azure-appconfiguration-java
-description: Azure App Configuration SDK for Java. Centralized application configuration
+description: 'Azure App Configuration SDK for Java. Centralized application configuration
   management with key-value settings, feature flags, and snapshots.
-risk: unknown
+
+  Triggers: "ConfigurationClient java", "app configuration java", "feature flag java",
+  "configuration setting java", "azure config java".
+
+  '
+package: com.azure:azure-data-appconfiguration
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure App Configuration SDK for Java
 
@@ -473,4 +477,4 @@ try {
 | Troubleshooting | https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/appconfiguration/azure-data-appconfiguration/TROUBLESHOOTING.md |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

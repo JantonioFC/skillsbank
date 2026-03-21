@@ -1,9 +1,11 @@
 ---
 name: sexual-health-analyzer
 description: Sexual Health Analyzer
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 # 性健康分析技能

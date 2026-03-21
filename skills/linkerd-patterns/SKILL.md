@@ -1,15 +1,19 @@
 ---
 name: linkerd-patterns
-description: "Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes."
-risk: unknown
+description: Implement Linkerd service mesh patterns for lightweight, security-focused
+  service mesh deployments. Use when setting up Linkerd, configuring traffic policies,
+  or implementing zero-trust networking with minimal overhead.
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-<!-- security-allowlist: curl-pipe-bash -->
-
 # Linkerd Patterns
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Production patterns for Linkerd service mesh - the lightweight, security-first service mesh for Kubernetes.
 
@@ -327,4 +331,4 @@ linkerd viz tap deploy/my-app --to deploy/my-backend
 - [Authorization Policy](https://linkerd.io/2.14/features/server-policy/)
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

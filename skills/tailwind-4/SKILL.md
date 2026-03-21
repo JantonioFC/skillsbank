@@ -8,10 +8,9 @@ license: Apache-2.0
 metadata:
   author: gentleman-programming
   version: '1.1'
-risk: unknown
+risk: safe
 source: community
 ---
-
 
 ## Styling Decision Tree
 

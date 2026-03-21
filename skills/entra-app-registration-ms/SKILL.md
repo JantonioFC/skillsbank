@@ -6,9 +6,11 @@ description: 'Guides Microsoft Entra ID app registration, OAuth 2.0 authenticati
   USE FOR: create app registration, register Azure AD app, configure OAuth, set up
   authentication, add API permissions, generate service principal, MSAL example, console
   app auth, Entra ID setup, Azur...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

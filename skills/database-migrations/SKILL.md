@@ -3,11 +3,11 @@ name: database-migrations
 description: Database migration best practices for schema changes, data migrations,
   rollbacks, and zero-downtime deployments across PostgreSQL, MySQL, and common ORMs
   (Prisma, Drizzle, Django, TypeORM, golang-migrate).
-risk: unknown
+origin: ECC
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Database Migration Patterns
 
@@ -340,4 +340,4 @@ Day 7: Migration drops old status column
 | Dropping column before removing code | Application errors on missing column | Remove code first, drop column next deploy |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

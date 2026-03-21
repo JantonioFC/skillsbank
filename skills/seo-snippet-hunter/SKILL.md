@@ -3,13 +3,12 @@ name: seo-snippet-hunter
 description: Formats content to be eligible for featured snippets and SERP features.
   Creates snippet-optimized content blocks based on best practices. Use PROACTIVELY
   for question-based content.
-risk: unknown
+metadata:
+  model: haiku
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 ## Use this skill when
 
@@ -117,7 +116,5 @@ You are a featured snippet optimization specialist formatting content for positi
 
 Focus on clear, direct answers. Format content to maximize featured snippet eligibility.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for seo-snippet-hunter.
+- Use this skill when you need for functional programming or specific domain tasks.

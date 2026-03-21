@@ -5,7 +5,9 @@ description: Use when planning or building a SaaS MVP from scratch. Provides a s
 risk: safe
 source: community
 date_added: '2026-03-04'
+license: MIT
 ---
+
 
 
 

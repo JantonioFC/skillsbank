@@ -5,11 +5,10 @@ description: React and Next.js performance optimization from Vercel Engineering.
   reducing bundle size, reviewing code for performance issues, or implementing server/client-side
   optimizations.
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Next.js & React Performance Expert
 
@@ -38,6 +37,7 @@ source: community
 | `6-rendering-rendering-performance.md`  | 🟡 **MEDIUM**      | 9 rules  | Rendering bottlenecks, virtualization, image optimization       |
 | `7-js-javascript-performance.md`        | ⚪ **LOW-MEDIUM**  | 12 rules | Micro-optimizations, caching, loop performance                  |
 | `8-advanced-advanced-patterns.md`       | 🔵 **VARIABLE**    | 3 rules  | Advanced React patterns, useLatest, init-once                   |
+| `9-cache-components.md`                | 🔴 **CRITICAL**    | 4 sections | **Next.js 16+ Only**: `use cache`, `cacheLife`, PPR, `cacheTag` |
 
 **Total: 57 rules across 8 categories**
 
@@ -74,6 +74,9 @@ source: community
 
 ✨ Need advanced patterns
   → Read Section 8: Advanced Patterns
+
+🚀 **Next.js 16+ Performance (Caching & PPR)**
+  → Read Section 9: Cache Components
 ```
 
 ---
@@ -101,6 +104,9 @@ source: community
 4️⃣ LOW (Polish - Do Last):
    ├─ Section 7: JavaScript Performance
    └─ Section 8: Advanced Patterns
+
+🔥 **MODERN (Next.js 16+):**
+   └─ Section 9: Cache Components (Replaces most traditional revalidation)
 ```
 
 ---
@@ -293,4 +299,4 @@ Before shipping to production:
 **Total Rules:** 57 across 8 categories
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

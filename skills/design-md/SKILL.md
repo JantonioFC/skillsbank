@@ -5,7 +5,9 @@ description: Analyze Stitch projects and synthesize a semantic design system int
 risk: safe
 source: https://github.com/google-labs-code/stitch-skills/tree/main/skills/design-md
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

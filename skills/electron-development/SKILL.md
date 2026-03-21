@@ -6,7 +6,9 @@ description: Master Electron desktop app development with secure IPC, contextIso
 risk: safe
 source: community
 date_added: '2026-03-12'
+license: MIT
 ---
+
 
 
 # Electron Development

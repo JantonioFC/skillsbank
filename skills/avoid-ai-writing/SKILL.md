@@ -5,7 +5,9 @@ description: Audit and rewrite content to remove 21 categories of AI writing pat
 risk: none
 source: https://github.com/conorbronsdon/avoid-ai-writing
 date_added: '2026-03-06'
+license: MIT
 ---
+
 
 
 # Avoid AI Writing — Audit & Rewrite

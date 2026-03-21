@@ -7,13 +7,12 @@ description: 'Build container-based Foundry Agents using Azure AI Projects SDK w
   own container images.
 
   Triggers: "ImageBasedHostedAgentDefinition", "hosted agent", "container agent",
-  "F...'
+  "Foundry ...'
 package: azure-ai-projects
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Azure AI Hosted Agents (Python)
 
@@ -332,4 +331,4 @@ async def create_hosted_agent_async():
 - [Azure Container Registry](https://learn.microsoft.com/azure/container-registry/)
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

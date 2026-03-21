@@ -6,7 +6,9 @@ description: Design spec with 98 rules for building CLI tools that AI agents can
 risk: safe
 source: https://github.com/ChaosRealmsAI/agent-cli-spec
 date_added: '2026-03-15'
+license: MIT
 ---
+
 
 
 # Agent-Friendly CLI Spec v0.1

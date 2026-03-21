@@ -1,12 +1,17 @@
 ---
 name: n8n-workflow-patterns
-description: "Proven architectural patterns for building n8n workflows."
-risk: unknown
+description: Proven architectural patterns for building n8n workflows.
+risk: offensive
 source: community
+license: MIT
 ---
 
-
 # n8n Workflow Patterns
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Proven architectural patterns for building n8n workflows.
 

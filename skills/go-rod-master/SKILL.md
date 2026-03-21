@@ -5,7 +5,9 @@ description: Comprehensive guide for browser automation and web scraping with go
 risk: safe
 source: https://github.com/go-rod/rod
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

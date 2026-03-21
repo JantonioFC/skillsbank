@@ -1,13 +1,21 @@
 ---
 name: azure-cosmos-db-py
-description: "Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles."
-risk: unknown
+description: Build Azure Cosmos DB NoSQL services with Python/FastAPI following production-grade
+  patterns. Use when implementing database client setup with dual auth (DefaultAzureCredential
+  + emulator), service layer classes with CRUD operations, partition key strategies,
+  parameterized queries, or TDD pattern...
+package: azure-cosmos
+risk: offensive
 source: community
+license: MIT
 ---
 
-
-
 # Cosmos DB Service Implementation
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles.
 
@@ -242,4 +250,4 @@ async def test_get_project_by_id_returns_project(mock_cosmos_container):
 - Minimal document conversion overhead
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

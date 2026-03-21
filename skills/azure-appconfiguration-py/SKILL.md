@@ -1,13 +1,17 @@
 ---
 name: azure-appconfiguration-py
-description: Azure App Configuration SDK for Python. Use for centralized configuration
+description: 'Azure App Configuration SDK for Python. Use for centralized configuration
   management, feature flags, and dynamic settings.
-risk: unknown
+
+  Triggers: "azure-appconfiguration", "AzureAppConfigurationClient", "feature flags",
+  "configuration", "key-value settings".
+
+  '
+package: azure-appconfiguration
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure App Configuration SDK for Python
 
@@ -252,4 +256,4 @@ async def main():
 7. **Use feature flags** for gradual rollouts and A/B testing
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

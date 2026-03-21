@@ -1,18 +1,25 @@
 ---
 name: springboot-verification
-description: 'Verification loop for Spring Boot projects: build, static analysis,
-  tests with coverage, security scans, and diff review before release or PR.'
-risk: unknown
+description: Spring Boot项目验证循环：构建、静态分析、测试覆盖、安全扫描，以及发布或PR前的差异审查。
+origin: ECC
+risk: safe
 source: community
+license: MIT
 ---
 
+# Spring Boot 验证循环
 
+在提交 PR 前、重大变更后以及部署前运行。
 
-# Spring Boot Verification Loop
+## 何时激活
 
-Run before PRs, after major changes, and pre-deploy.
+* 为 Spring Boot 服务开启拉取请求之前
+* 在重大重构或依赖项升级之后
+* 用于暂存或生产环境的部署前验证
+* 运行完整的构建 → 代码检查 → 测试 → 安全扫描流水线
+* 验证测试覆盖率是否满足阈值
 
-## Phase 1: Build
+## 阶段 1：构建
 
 ```bash
 mvn -T 4 clean verify -DskipTests
@@ -20,21 +27,23 @@ mvn -T 4 clean verify -DskipTests
 ./gradlew clean assemble -x test
 ```
 
-If build fails, stop and fix.
+如果构建失败，停止并修复。
 
-## Phase 2: Static Analysis
+## 阶段 2：静态分析
 
-Maven (common plugins):
+Maven（常用插件）：
+
 ```bash
 mvn -T 4 spotbugs:check pmd:check checkstyle:check
 ```
 
-Gradle (if configured):
+Gradle（如果已配置）：
+
 ```bash
 ./gradlew checkstyleMain pmdMain spotbugsMain
 ```
 
-## Phase 3: Tests + Coverage
+## 阶段 3：测试 + 覆盖率
 
 ```bash
 mvn -T 4 test
@@ -43,13 +52,14 @@ mvn jacoco:report   # verify 80%+ coverage
 ./gradlew test jacocoTestReport
 ```
 
-Report:
-- Total tests, passed/failed
-- Coverage % (lines/branches)
+报告：
 
-### Unit Tests
+* 总测试数，通过/失败
+* 覆盖率百分比（行/分支）
 
-Test service logic in isolation with mocked dependencies:
+### 单元测试
+
+使用模拟的依赖项来隔离测试服务逻辑：
 
 ```java
 @ExtendWith(MockitoExtension.class)
@@ -81,9 +91,9 @@ class UserServiceTest {
 }
 ```
 
-### Integration Tests with Testcontainers
+### 使用 Testcontainers 进行集成测试
 
-Test against a real database instead of H2:
+针对真实数据库（而非 H2）进行测试：
 
 ```java
 @SpringBootTest
@@ -115,9 +125,9 @@ class UserRepositoryIntegrationTest {
 }
 ```
 
-### API Tests with MockMvc
+### 使用 MockMvc 进行 API 测试
 
-Test controller layer with full Spring context:
+在完整的 Spring 上下文中测试控制器层：
 
 ```java
 @WebMvcTest(UserController.class)
@@ -152,7 +162,7 @@ class UserControllerTest {
 }
 ```
 
-## Phase 4: Security Scan
+## 阶段 4：安全扫描
 
 ```bash
 # Dependency CVEs
@@ -168,7 +178,7 @@ grep -rn "sk-\|api_key\|secret" src/ --include="*.java" --include="*.yml"
 git secrets --scan  # if configured
 ```
 
-### Common Security Findings
+### 常见安全发现
 
 ```
 # Check for System.out.println (use logger instead)
@@ -181,27 +191,28 @@ grep -rn "e\.getMessage()" src/main/ --include="*.java"
 grep -rn "allowedOrigins.*\*" src/main/ --include="*.java"
 ```
 
-## Phase 5: Lint/Format (optional gate)
+## 阶段 5：代码检查/格式化（可选关卡）
 
 ```bash
 mvn spotless:apply   # if using Spotless plugin
 ./gradlew spotlessApply
 ```
 
-## Phase 6: Diff Review
+## 阶段 6：差异审查
 
 ```bash
 git diff --stat
 git diff
 ```
 
-Checklist:
-- No debugging logs left (`System.out`, `log.debug` without guards)
-- Meaningful errors and HTTP statuses
-- Transactions and validation present where needed
-- Config changes documented
+检查清单：
 
-## Output Template
+* 没有遗留调试日志（`System.out`、`log.debug` 没有防护）
+* 有意义的错误信息和 HTTP 状态码
+* 在需要的地方有事务和验证
+* 配置变更已记录
+
+## 输出模板
 
 ```
 VERIFICATION REPORT
@@ -219,12 +230,12 @@ Issues to Fix:
 2. ...
 ```
 
-## Continuous Mode
+## 持续模式
 
-- Re-run phases on significant changes or every 30–60 minutes in long sessions
-- Keep a short loop: `mvn -T 4 test` + spotbugs for quick feedback
+* 在重大变更时或长时间会话中每 30–60 分钟重新运行各阶段
+* 保持短循环：`mvn -T 4 test` + spotbugs 以获取快速反馈
 
-**Remember**: Fast feedback beats late surprises. Keep the gate strict—treat warnings as defects in production systems.
+**记住**：快速反馈胜过意外惊喜。保持关卡严格——将警告视为生产系统中的缺陷。
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

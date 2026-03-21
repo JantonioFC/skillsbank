@@ -8,10 +8,9 @@ license: Apache-2.0
 metadata:
   author: gentleman-programming
   version: '1.0'
-risk: unknown
+risk: safe
 source: community
 ---
-
 
 ## Breaking Changes from Zod 3
 
@@ -220,4 +219,4 @@ function Form() {
 zod, validation, schema, typescript, forms, parsing
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

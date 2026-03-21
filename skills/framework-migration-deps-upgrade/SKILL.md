@@ -3,13 +3,10 @@ name: framework-migration-deps-upgrade
 description: You are a dependency management expert specializing in safe, incremental
   upgrades of project dependencies. Plan and execute dependency updates with minimal
   risk, proper testing, and clear migration pa
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Dependency Upgrade Strategy
 
@@ -55,7 +52,5 @@ Focus on safe, incremental upgrades that maintain system stability while keeping
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for framework-migration-deps-upgrade.
+- Use this skill when you need for functional programming or specific domain tasks.

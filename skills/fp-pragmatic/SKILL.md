@@ -1,26 +1,27 @@
 ---
 name: fp-pragmatic
-risk: unknown
-source: community
-description: Fp pragmatic
----
-=======
-description: A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead
-risk: unknown
-source: community
+description: A practical, jargon-free guide to functional programming - the 80/20
+  approach that gets results without the academic overhead
 version: 1.0.0
 author: kadu
 tags:
-  - fp-ts
-  - functional-programming
-  - typescript
-  - pragmatic
-  - beginner-friendly
-  - best-practices
+- fp-ts
+- functional-programming
+- typescript
+- pragmatic
+- beginner-friendly
+- best-practices
+risk: offensive
+source: community
+license: MIT
 ---
 
->>>>>>> origin/main
 # Pragmatic Functional Programming
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 **Read this first.** This guide cuts through the academic jargon and shows you what actually matters. No category theory. No abstract nonsense. Just patterns that make your code better.
 
@@ -604,9 +605,6 @@ But don't rush. The basics here will handle 80% of real-world scenarios. Get com
 5. **Use flatMap** to chain operations that might fail
 6. **Skip FP** when it hurts readability
 7. **Keep it simple** - if your team can't read it, it's not good code
-<<<<<<< HEAD
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
-=======
->>>>>>> origin/main
+- Use this skill when you need for functional programming or specific domain tasks.

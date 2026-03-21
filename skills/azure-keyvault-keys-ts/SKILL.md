@@ -4,11 +4,10 @@ description: Manage cryptographic keys using Azure Key Vault Keys SDK for JavaSc
   (@azure/keyvault-keys). Use when creating, encrypting/decrypting, signing, or rotating
   keys.
 package: '@azure/keyvault-keys'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Azure Key Vault Keys SDK for TypeScript
 
@@ -275,4 +274,4 @@ try {
 6. **Browser not supported** - These SDKs are Node.js only
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

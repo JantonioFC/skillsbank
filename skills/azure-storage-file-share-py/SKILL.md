@@ -1,13 +1,14 @@
 ---
 name: azure-storage-file-share-py
-description: Azure Storage File Share SDK for Python. Use for SMB file shares, directories,
+description: 'Azure Storage File Share SDK for Python. Use for SMB file shares, directories,
   and file operations in the cloud.
-risk: unknown
+
+  Triggers: "azure-storage-file-share", "ShareServiceClient", "ShareClient", "file
+  share", "SMB".'
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure Storage File Share SDK for Python
 
@@ -242,4 +243,4 @@ async def upload_file():
 7. **Close async clients** explicitly
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

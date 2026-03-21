@@ -1,14 +1,14 @@
 ---
 name: azure-maps-search-dotnet
-description: Azure Maps SDK for .NET. Location-based services including geocoding,
+description: 'Azure Maps SDK for .NET. Location-based services including geocoding,
   routing, rendering, geolocation, and weather. Use for address search, directions,
-  map tiles, IP geolocation, and weather data.
-risk: unknown
+  map tiles, IP geolocation, and weather data. Triggers: "Azure Maps", "MapsSearchClient",
+  "MapsRoutingClient", "MapsRenderingClient", "geocoding ....'
+package: Azure.Maps.Search
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure Maps (.NET)
 
@@ -499,4 +499,4 @@ catch (RequestFailedException ex)
 | Pricing | https://azure.microsoft.com/pricing/details/azure-maps/ |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

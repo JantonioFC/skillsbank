@@ -3,11 +3,10 @@ name: wiki-agents-md
 description: Generates AGENTS.md files for repository folders — coding agent context
   files with build commands, testing instructions, code style, project structure,
   and boundaries. Only generates where AGENTS.md is missing.
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # AGENTS.md Generator
 
@@ -378,4 +377,4 @@ This ensures Claude Code (and similar tools that look for `CLAUDE.md`) are redir
 - ❌ **Describing what agents should "think" or "feel"** — describe what they should DO
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

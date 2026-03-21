@@ -2,14 +2,14 @@
 name: c4-context
 description: Expert C4 Context-level documentation specialist. Creates high-level
   system context diagrams, documents personas, user journeys, system features, and
-  external dependencies.
-risk: unknown
+  external dependencies. Synthesizes container and component documentation with system
+  documentation to create comprehensive context-level architectu...
+metadata:
+  model: sonnet
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # C4 Context Level: System Context
 
@@ -87,8 +87,8 @@ date_added: '2026-02-27'
 
 ## Related Documentation
 
-- Container Documentation
-- Component Documentation
+- [Container Documentation](./c4-container.md)
+- [Component Documentation](./c4-component.md)
 ```
 
 ## Context Diagram Template
@@ -150,7 +150,5 @@ When creating context documentation, provide:
 - Stakeholder-friendly documentation understandable by non-technical audiences
 - Consistent documentation format
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for c4-context.
+- Use this skill when you need for functional programming or specific domain tasks.

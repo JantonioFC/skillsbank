@@ -3,13 +3,18 @@ name: security-review
 description: Use this skill when adding authentication, handling user input, working
   with secrets, creating API endpoints, or implementing payment/sensitive features.
   Provides comprehensive security checklist and patterns.
-risk: unknown
+origin: ECC
+risk: offensive
 source: community
+license: MIT
 ---
 
-
-
 # Security Review Skill
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 This skill ensures all code follows security best practices and identifies potential vulnerabilities.
 
@@ -500,4 +505,4 @@ Before ANY production deployment:
 **Remember**: Security is not optional. One vulnerability can compromise the entire platform. When in doubt, err on the side of caution.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

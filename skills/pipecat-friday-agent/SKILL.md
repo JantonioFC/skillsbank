@@ -14,7 +14,9 @@ tags:
 - python
 tools:
 - pipecat
+license: MIT
 ---
+
 
 
 # Pipecat Friday Agent

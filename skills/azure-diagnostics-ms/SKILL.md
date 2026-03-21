@@ -6,9 +6,11 @@ description: 'Debug and troubleshoot production issues on Azure. Covers Containe
 
   USE FOR: debug production issues, troubleshoot container apps, analyze logs with
   KQL, fix...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

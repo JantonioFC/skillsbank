@@ -1,13 +1,20 @@
 ---
 name: copilot-sdk
-description: "Build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET."
-risk: unknown
+description: Build applications powered by GitHub Copilot using the Copilot SDK. Use
+  when creating programmatic integrations with Copilot across Node.js/TypeScript,
+  Python, Go, or .NET. Covers session management, custom tools, streaming, hooks,
+  MCP servers, BYOK providers, session persistence, custom agents, ...
+risk: offensive
 source: community
+license: MIT
 ---
 
-
-
 # GitHub Copilot SDK
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET.
 
@@ -908,4 +915,4 @@ client.on("stateChange", (state) => console.log("Changed to:", state));
 - [GitHub MCP Server](https://github.com/github/github-mcp-server)
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

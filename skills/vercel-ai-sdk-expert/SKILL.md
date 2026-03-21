@@ -6,7 +6,9 @@ description: Expert in the Vercel AI SDK. Covers Core API (generateText, streamT
 risk: safe
 source: community
 date_added: '2026-03-06'
+license: MIT
 ---
+
 
 
 # Vercel AI SDK Expert

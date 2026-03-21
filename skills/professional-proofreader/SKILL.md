@@ -8,7 +8,9 @@ description: 'Use when a user asks to "proofread", "review and correct", "fix gr
 risk: safe
 source: original
 date_added: '2026-03-04'
+license: MIT
 ---
+
 
 
 

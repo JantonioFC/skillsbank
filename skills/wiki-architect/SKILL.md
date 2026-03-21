@@ -1,17 +1,19 @@
 ---
 name: wiki-architect
-description: "You are a documentation architect that produces structured wiki catalogues and onboarding guides from codebases."
-risk: unknown
+description: Analyzes code repositories and generates hierarchical documentation structures
+  with onboarding guides. Use when the user wants to create a wiki, generate documentation,
+  map a codebase structure, or understand a project's architecture at a high level.
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Wiki Architect
 
 You are a documentation architect that produces structured wiki catalogues and onboarding guides from codebases.
 
-## When to Use
+## When to Activate
+
 - User asks to "create a wiki", "document this repo", "generate docs"
 - User wants to understand project structure or architecture
 - User asks for a table of contents or documentation plan
@@ -83,4 +85,4 @@ Detect primary language from file extensions and build files, then select a comp
 JSON code block following the catalogue schema with `items[].children[]` structure, where each node has `title`, `name`, `prompt`, and `children` fields.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

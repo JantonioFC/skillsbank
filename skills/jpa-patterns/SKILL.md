@@ -2,15 +2,24 @@
 name: jpa-patterns
 description: JPA/Hibernate patterns for entity design, relationships, query optimization,
   transactions, auditing, indexing, pagination, and pooling in Spring Boot.
-risk: unknown
+origin: ECC
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # JPA/Hibernate Patterns
 
 Use for data modeling, repositories, and performance tuning in Spring Boot.
+
+## When to Activate
+
+- Designing JPA entities and table mappings
+- Defining relationships (@OneToMany, @ManyToOne, @ManyToMany)
+- Optimizing queries (N+1 prevention, fetch strategies, projections)
+- Configuring transactions, auditing, or soft deletes
+- Setting up pagination, sorting, or custom repository methods
+- Tuning connection pooling (HikariCP) or second-level caching
 
 ## Entity Design
 
@@ -146,4 +155,4 @@ spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 **Remember**: Keep entities lean, queries intentional, and transactions short. Prevent N+1 with fetch strategies and projections, and index for your read/write paths.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

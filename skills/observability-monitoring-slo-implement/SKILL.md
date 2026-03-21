@@ -1,13 +1,12 @@
 ---
 name: observability-monitoring-slo-implement
-description: "You are an SLO (Service Level Objective) expert specializing in implementing reliability standards and error budget-based engineering practices. Design comprehensive SLO frameworks, establish meaningful SLIs, and create monitoring systems that balance reliability with feature velocity."
-risk: unknown
+description: You are an SLO (Service Level Objective) expert specializing in implementing
+  reliability standards and error budget-based practices. Design SLO frameworks, define
+  SLIs, and build monitoring that balances reliability with delivery velocity.
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # SLO Implementation Guide
 
@@ -48,7 +47,5 @@ $ARGUMENTS
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for observability-monitoring-slo-implement.
+- Use this skill when you need for functional programming or specific domain tasks.

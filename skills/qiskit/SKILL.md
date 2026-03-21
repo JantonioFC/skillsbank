@@ -1,12 +1,16 @@
 ---
 name: qiskit
-description: "Qiskit is the world's most popular open-source quantum computing framework with 13M+ downloads. Build quantum circuits, optimize for hardware, execute on simulators or real quantum computers, and analyze results. Supports IBM Quantum (100+ qubit systems), IonQ, Amazon Braket, and other providers."
+description: Qiskit is the world's most popular open-source quantum computing framework
+  with 13M+ downloads. Build quantum circuits, optimize for hardware, execute on simulators
+  or real quantum computers, and analyze results. Supports IBM Quantum (100+ qubit
+  systems), IonQ, Amazon Braket, and other providers.
 license: Apache-2.0 license
 metadata:
-    skill-author: K-Dense Inc.
-risk: unknown
+  skill-author: K-Dense Inc.
+risk: safe
 source: community
 ---
+
 
 # Qiskit
 
@@ -272,3 +276,8 @@ with Session(backend=backend) as session:
 - **Qiskit Textbook**: https://qiskit.org/learn
 - **API Reference**: https://docs.quantum.ibm.com/api/qiskit
 - **Patterns Guide**: https://quantum.cloud.ibm.com/docs/en/guides/intro-to-patterns
+
+
+## When to Use
+
+Use this skill when you need guidance or automation for qiskit.

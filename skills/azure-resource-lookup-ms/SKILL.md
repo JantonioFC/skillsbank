@@ -8,9 +8,11 @@ description: 'List, find, and show Azure resources. Answers "list my VMs", "show
 
   USE FOR: list resources, list virtual machines, list VMs, list storage accounts,
   lis...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

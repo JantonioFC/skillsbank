@@ -1,13 +1,10 @@
 ---
 name: context-management-context-restore
 description: Use when working with context management context restore
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Context Restoration: Advanced Semantic Memory Rehydration
 
@@ -184,7 +181,5 @@ context-restore project:ml-pipeline --query "model training strategy"
 - Self-healing context reconstruction
 - Adaptive learning context strategies
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for context-management-context-restore.
+- Use this skill when you need for functional programming or specific domain tasks.

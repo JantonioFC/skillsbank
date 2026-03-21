@@ -4,7 +4,9 @@ description: 'Expert guide for Odoo Purchase: RFQ → PO → Receipt → Vendor 
   purchase agreements, vendor price lists, and 3-way matching.'
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

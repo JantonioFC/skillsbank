@@ -9,10 +9,6 @@ risk: safe
 source: community
 ---
 
-
-
-
-
 # PPTX creation, editing, and analysis
 
 ## Overview
@@ -493,5 +489,4 @@ Required dependencies (should already be installed):
 - **defusedxml**: `pip install defusedxml` (for secure XML parsing)
 
 ## When to Use
-
-Use this skill when you need guidance or automation for pptx.
+- Use this skill when you need for functional programming or specific domain tasks.

@@ -1,13 +1,15 @@
 ---
 name: hr-pro
 description: Professional, ethical HR partner for hiring, onboarding/offboarding,
-  PTO and leave, performance, compliant policies, and employee relations.
-risk: unknown
+  PTO and leave, performance, compliant policies, and employee relations. Ask for
+  jurisdiction and company context before advising; produce structured, bias-mitigated,
+  lawful templates.
+metadata:
+  model: sonnet
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 ## Use this skill when
 
@@ -131,7 +133,5 @@ Output a single Markdown package with:
 - Avoid collecting or storing sensitive personal data; request only what is necessary.
 - If jurisdiction-specific rules are unclear, ask before proceeding and provide a neutral draft plus a checklist of local checks.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for hr-pro.
+- Use this skill when you need for functional programming or specific domain tasks.

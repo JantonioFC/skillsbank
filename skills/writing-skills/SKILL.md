@@ -1,13 +1,11 @@
 ---
 name: writing-skills
-description: Use when creating, updating, or improving agent skills.
-category: meta
-risk: unknown
+description: Use when creating new skills, editing existing skills, or verifying skills
+  work before deployment
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Writing Skills
 
@@ -27,11 +25,9 @@ You write test cases (pressure scenarios with subagents), watch them fail (basel
 
 ## What is a Skill?
 
-## When to Use
-- Creating a NEW skill from scratch
-- Improving an EXISTING skill that agents ignore
-- Debugging why a skill isn't being triggered
-- Standardizing skills across a team
+A **skill** is a reference guide for proven techniques, patterns, or tools. Skills help future Claude instances find and apply effective approaches.
+
+**Skills are:** Reusable techniques, patterns, tools, reference guides
 
 **Skills are NOT:** Narratives about how you solved a problem once
 
@@ -140,38 +136,8 @@ Link to file for heavy reference or reusable tools
 ## Common Mistakes
 What goes wrong + fixes
 
-| Mistake | Fix |
-|---------|-----|
-| Description summarizes workflow | Use "Use when..." triggers only |
-| No `metadata.triggers` | Add 3+ keywords |
-| Generic name ("helper") | Use gerund (`creating-skills`) |
-| Long monolithic SKILL.md | Split into `references/` |
-
-See [gotchas.md](gotchas.md) for more.
-
-## ✅ Pre-Deploy Checklist
-
-Before deploying any skill:
-
-- [ ] `name` field matches directory name exactly
-- [ ] `SKILL.md` filename is ALL CAPS
-- [ ] Description starts with "Use when..."
-- [ ] `metadata.triggers` has 3+ keywords
-- [ ] Total lines < 500 (use `references/` for more)
-- [ ] No `@` force-loading in cross-references
-- [ ] Tested with real scenarios
-
-## 🔗 Related Skills
-
-- **opencode-expert**: For OpenCode environment configuration
-- Use `/write-skill` command for guided skill creation
-
-## Examples
-
-**Create a Tier 1 skill:**
-```bash
-mkdir -p ~/.config/opencode/skills/my-technique
-touch ~/.config/opencode/skills/my-technique/SKILL.md
+## Real-World Impact (optional)
+Concrete results
 ```
 
 

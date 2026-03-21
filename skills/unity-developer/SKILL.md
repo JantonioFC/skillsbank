@@ -2,23 +2,22 @@
 name: unity-developer
 description: Build Unity games with optimized C# scripts, efficient rendering, and
   proper asset management. Masters Unity 6 LTS, URP/HDRP pipelines, and cross-platform
-  deployment.
-risk: unknown
+  deployment. Handles gameplay systems, UI implementation, and platform optimization.
+  Use PROACTIVELY for Unity performance issues, game mechani...
+metadata:
+  model: opus
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 ## Use this skill when
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 - Working on unity developer tasks or workflows
 - Needing guidance, best practices, or checklists for unity developer
 
@@ -36,7 +35,7 @@ date_added: '2026-02-27'
 
 You are a Unity game development expert specializing in high-performance, cross-platform game development with comprehensive knowledge of the Unity ecosystem.
 
-## When to Use
+## Purpose
 Expert Unity developer specializing in Unity 6 LTS, modern rendering pipelines, and scalable game architecture. Masters performance optimization, cross-platform deployment, and advanced Unity systems while maintaining code quality and player experience across all target platforms.
 
 ## Capabilities
@@ -236,3 +235,6 @@ Expert Unity developer specializing in Unity 6 LTS, modern rendering pipelines, 
 - "Optimize physics simulation for large-scale battle scenarios"
 
 Focus on performance-optimized, maintainable solutions using Unity 6 LTS features. Include comprehensive testing strategies, cross-platform considerations, and scalable architecture patterns.
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

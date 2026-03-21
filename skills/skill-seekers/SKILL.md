@@ -5,7 +5,9 @@ description: -Automatically convert documentation websites, GitHub repositories,
 risk: safe
 source: https://github.com/yusufkaraaslan/Skill_Seekers
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

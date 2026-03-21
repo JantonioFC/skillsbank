@@ -6,7 +6,9 @@ risk: safe
 source: self
 tags: '[ddd, tactical, aggregates, value-objects, domain-events]'
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

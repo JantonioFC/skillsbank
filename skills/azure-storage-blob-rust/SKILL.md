@@ -1,13 +1,17 @@
 ---
 name: azure-storage-blob-rust
-description: Azure Blob Storage SDK for Rust. Use for uploading, downloading, and
+description: 'Azure Blob Storage SDK for Rust. Use for uploading, downloading, and
   managing blobs and containers.
-risk: unknown
+
+  Triggers: "blob storage rust", "BlobClient rust", "upload blob rust", "download
+  blob rust", "container rust".
+
+  '
+package: azure_storage_blob
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure Blob Storage SDK for Rust
 
@@ -135,4 +139,4 @@ For Entra ID auth, assign one of these roles:
 | crates.io | https://crates.io/crates/azure_storage_blob |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

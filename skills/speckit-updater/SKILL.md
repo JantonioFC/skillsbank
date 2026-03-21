@@ -1,9 +1,11 @@
 ---
 name: speckit-updater
 description: SpecKit Safe Update
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 # SpecKit Safe Update

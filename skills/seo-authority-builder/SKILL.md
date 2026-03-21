@@ -1,19 +1,14 @@
 ---
 name: seo-authority-builder
-description: 'Analyzes content for E-E-A-T signals and suggests improvements to
-
-  build authority and trust. Identifies missing credibility elements. Use
-
-  PROACTIVELY for YMYL topics.
-
-  '
-risk: unknown
+description: Analyzes content for E-E-A-T signals and suggests improvements to build
+  authority and trust. Identifies missing credibility elements. Use PROACTIVELY for
+  YMYL topics.
+metadata:
+  model: sonnet
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 ## Use this skill when
 
@@ -143,7 +138,5 @@ Priority Actions:
 
 Focus on demonstrable expertise and clear trust signals. Suggest concrete improvements for authority building.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for seo-authority-builder.
+- Use this skill when you need for functional programming or specific domain tasks.

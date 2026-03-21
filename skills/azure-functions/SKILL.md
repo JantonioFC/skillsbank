@@ -1,10 +1,12 @@
 ---
 name: azure-functions
-description: "Modern .NET execution model with process isolation"
-risk: unknown
+description: Modern .NET execution model with process isolation
+risk: safe
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

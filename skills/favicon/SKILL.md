@@ -5,14 +5,14 @@ argument-hint:
 description: Generate favicons from a source image
 allowed-tools: Bash(magick *), Bash(which *), Bash(cp *), Bash(mkdir *)
 context: fork
-risk: unknown
+risk: safe
 source: community
 metadata:
   author: Shpigford
   version: '1.0'
-risk: unknown
-source: community
+license: MIT
 ---
+
 
 
 Generate a complete set of favicons from the source image at `$1` and update the project's HTML with the appropriate link tags.

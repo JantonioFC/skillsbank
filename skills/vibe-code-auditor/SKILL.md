@@ -7,7 +7,9 @@ source: original
 date_added: '2026-02-28'
 metadata:
   version: 2.0.0
+license: MIT
 ---
+
 
 
 

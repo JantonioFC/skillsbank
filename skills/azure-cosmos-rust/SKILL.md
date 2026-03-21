@@ -1,13 +1,17 @@
 ---
 name: azure-cosmos-rust
-description: Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries,
+description: 'Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries,
   containers, and globally distributed data.
-risk: unknown
+
+  Triggers: "cosmos db rust", "CosmosClient rust", "container", "document rust", "NoSQL
+  rust", "partition key".
+
+  '
+package: azure_data_cosmos
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure Cosmos DB SDK for Rust
 
@@ -138,4 +142,4 @@ cargo add azure_data_cosmos --features key_auth
 | crates.io | https://crates.io/crates/azure_data_cosmos |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

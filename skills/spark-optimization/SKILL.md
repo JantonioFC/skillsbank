@@ -3,18 +3,28 @@ name: spark-optimization
 description: Optimize Apache Spark jobs with partitioning, caching, shuffle optimization,
   and memory tuning. Use when improving Spark performance, debugging slow jobs, or
   scaling data processing pipelines.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Apache Spark Optimization
 
 Production patterns for optimizing Apache Spark jobs including partitioning strategies, memory management, shuffle optimization, and performance tuning.
 
-## When to Use This Skill
+## Do not use this skill when
+
+- The task is unrelated to apache spark optimization
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
+## Use this skill when
 
 - Optimizing slow Spark jobs
 - Tuning memory and executor configuration
@@ -39,13 +49,13 @@ Tasks (one per partition)
 
 ### 2. Key Performance Factors
 
-| Factor            | Impact                | Solution                      |
-| ----------------- | --------------------- | ----------------------------- |
-| **Shuffle**       | Network I/O, disk I/O | Minimize wide transformations |
-| **Data Skew**     | Uneven task duration  | Salting, broadcast joins      |
-| **Serialization** | CPU overhead          | Use Kryo, columnar formats    |
-| **Memory**        | GC pressure, spills   | Tune executor memory          |
-| **Partitions**    | Parallelism           | Right-size partitions         |
+| Factor | Impact | Solution |
+|--------|--------|----------|
+| **Shuffle** | Network I/O, disk I/O | Minimize wide transformations |
+| **Data Skew** | Uneven task duration | Salting, broadcast joins |
+| **Serialization** | CPU overhead | Use Kryo, columnar formats |
+| **Memory** | GC pressure, spills | Tune executor memory |
+| **Partitions** | Parallelism | Right-size partitions |
 
 ## Quick Start
 
@@ -402,7 +412,6 @@ spark_configs = {
 ## Best Practices
 
 ### Do's
-
 - **Enable AQE** - Adaptive query execution handles many issues
 - **Use Parquet/Delta** - Columnar formats with compression
 - **Broadcast small tables** - Avoid shuffle for small joins
@@ -410,7 +419,6 @@ spark_configs = {
 - **Right-size partitions** - 128MB - 256MB per partition
 
 ### Don'ts
-
 - **Don't collect large data** - Keep data distributed
 - **Don't use UDFs unnecessarily** - Use built-in functions
 - **Don't over-cache** - Memory is limited
@@ -422,3 +430,6 @@ spark_configs = {
 - [Spark Performance Tuning](https://spark.apache.org/docs/latest/sql-performance-tuning.html)
 - [Spark Configuration](https://spark.apache.org/docs/latest/configuration.html)
 - [Databricks Optimization Guide](https://docs.databricks.com/en/optimizations/index.html)
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

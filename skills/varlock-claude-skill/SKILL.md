@@ -5,7 +5,9 @@ description: Secure environment variable management ensuring secrets are never e
 risk: safe
 source: https://github.com/wrsmith108/varlock-claude-skill
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

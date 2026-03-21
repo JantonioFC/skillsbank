@@ -6,7 +6,9 @@ description: Give agents persistent structural memory of a codebase — navigate
 risk: safe
 source: https://github.com/k-kolomeitsev/data-structure-protocol
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

@@ -1,14 +1,23 @@
 ---
 name: broken-authentication
-description: "Identify and exploit authentication and session management vulnerabilities in web applications. Broken authentication consistently ranks in the OWASP Top 10 and can lead to account takeover, identity theft, and unauthorized access to sensitive systems."
-risk: unknown
+description: This skill should be used when the user asks to "test for broken authentication
+  vulnerabilities", "assess session management security", "perform credential stuffing
+  tests", "evaluate password policies", "test for session fixation", or "identify
+  authentication bypass flaws". It provides comprehens...
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
 # Broken Authentication Testing
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -478,4 +487,4 @@ https://target.com/reset?token=a1b2c3d4e5f6&email=admin@example.com
 | Account lockout prevents testing | Request multiple test accounts; test threshold first; use slower timing |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

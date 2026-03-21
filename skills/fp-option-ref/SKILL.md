@@ -1,18 +1,19 @@
 ---
 name: fp-option-ref
-risk: unknown
-source: community
-description: Fp option ref
----
-=======
-description: Quick reference for Option type. Use when user needs to handle nullable values, optional data, or wants to avoid null checks.
-risk: unknown
-source: community
+description: Quick reference for Option type. Use when user needs to handle nullable
+  values, optional data, or wants to avoid null checks.
 version: 1.0.0
-tags: [fp-ts, option, nullable, maybe, quick-reference]
+tags:
+- fp-ts
+- option
+- nullable
+- maybe
+- quick-reference
+risk: safe
+source: community
+license: MIT
 ---
 
->>>>>>> origin/main
 # Option Quick Reference
 
 Option = value that might not exist. `Some(value)` or `None`.
@@ -85,9 +86,6 @@ pipe(
 ```
 
 Use Option when you need to **chain** operations on optional values.
-<<<<<<< HEAD
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
-=======
->>>>>>> origin/main
+- Use this skill when you need for functional programming or specific domain tasks.

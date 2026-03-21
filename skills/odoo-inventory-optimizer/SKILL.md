@@ -4,7 +4,9 @@ description: 'Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reor
   rules, putaway strategies, routes, and multi-warehouse configuration.'
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

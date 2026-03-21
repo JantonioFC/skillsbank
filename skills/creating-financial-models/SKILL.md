@@ -3,11 +3,10 @@ name: creating-financial-models
 description: This skill provides an advanced financial modeling suite with DCF analysis,
   sensitivity testing, Monte Carlo simulations, and scenario planning for investment
   decisions
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Financial Modeling Suite
 
@@ -179,4 +178,4 @@ The model automatically performs:
 - Continuous improvement based on usage patterns
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

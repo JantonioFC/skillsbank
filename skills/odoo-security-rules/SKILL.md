@@ -4,7 +4,9 @@ description: 'Expert in Odoo access control: ir.model.access.csv, record rules (
   groups, and multi-company security patterns.'
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

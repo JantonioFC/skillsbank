@@ -1,15 +1,21 @@
 ---
 name: azure-servicebus-dotnet
-description: Azure Service Bus SDK for .NET. Enterprise messaging with queues, topics,
-  subscriptions, and sessions.
-risk: unknown
+description: 'Azure Service Bus SDK for .NET. Enterprise messaging with queues, topics,
+  subscriptions, and sessions. Use for reliable message delivery, pub/sub patterns,
+  dead letter handling, and background processing. Triggers: "Service Bus", "ServiceBusClient",
+  "ServiceBusSender", "ServiceBusReceiver", "Serv...'
+package: Azure.Messaging.ServiceBus
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
 # Azure.Messaging.ServiceBus (.NET)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Enterprise messaging SDK for reliable message delivery with queues, topics, subscriptions, and sessions.
 
@@ -337,4 +343,4 @@ catch (ServiceBusException ex)
 | Troubleshooting | https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/servicebus/Azure.Messaging.ServiceBus/TROUBLESHOOTING.md |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

@@ -3,13 +3,10 @@ name: python-development-python-scaffold
 description: You are a Python project architecture expert specializing in scaffolding
   production-ready Python applications. Generate complete project structures with
   modern tooling (uv, FastAPI, Django), type hint
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Python Project Scaffolding
 
@@ -338,7 +335,5 @@ clean:
 
 Focus on creating production-ready Python projects with modern tooling, type safety, and comprehensive testing setup.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for python-development-python-scaffold.
+- Use this skill when you need for functional programming or specific domain tasks.

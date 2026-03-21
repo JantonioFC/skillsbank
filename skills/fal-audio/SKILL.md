@@ -4,7 +4,9 @@ description: Text-to-speech and speech-to-text using fal.ai audio models
 risk: safe
 source: https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-audio/SKILL.md
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

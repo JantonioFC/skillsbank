@@ -1,9 +1,17 @@
 ---
 name: sharp-edges
 description: sharp-edges
-risk: unknown
+risk: offensive
 source: community
+license: MIT
 ---
+
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 
 
 ---

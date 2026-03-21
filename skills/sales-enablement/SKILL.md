@@ -2,15 +2,14 @@
 name: sales-enablement
 description: When the user wants to create sales collateral, pitch decks, one-pagers,
   objection handling docs, or demo scripts. Also use when the user mentions 'sales
-  deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'ROI calculator,'
-  'demo script,' 'talk track,' 'sales playbook,'...
+  deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific
+  ROI analysis,' 'demo script,' 'talk track,' 'sales playb...
 metadata:
   version: 1.1.0
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Sales Enablement
 
@@ -212,7 +211,7 @@ For each objection, document:
 
 ### Key Principles
 
-- **Never demo without discovery.** If you don't know their pain, you're guessing which features matter.
+- **Demo after discovery, not before.** If you don't know their pain, you're guessing which features matter.
 - **Customize to their use case.** Use their terminology, their data (if possible), their workflow.
 - **Leave time for questions.** A demo where the prospect doesn't talk is a demo that doesn't close.
 

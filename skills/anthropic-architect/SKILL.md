@@ -3,9 +3,11 @@ name: anthropic-architect
 description: Determine the best Anthropic architecture for your project by analyzing
   requirements and recommending the optimal combination of Skills, Agents, Prompts,
   and SDK primitives.
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Anthropic Architect
 
 Expert architectural guidance for Anthropic-based projects. Analyze your requirements and receive tailored recommendations on the optimal architecture using Skills, Agents, Subagents, Prompts, and SDK primitives.

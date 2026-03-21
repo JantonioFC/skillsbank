@@ -7,7 +7,9 @@ risk: safe
 source: community
 tags: '[aws, security, audit, compliance, kiro-cli, security-assessment]'
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

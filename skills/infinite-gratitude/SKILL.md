@@ -5,7 +5,9 @@ description: Multi-agent research skill for parallel research execution (10 agen
 risk: safe
 source: https://github.com/sstklen/infinite-gratitude
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

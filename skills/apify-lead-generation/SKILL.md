@@ -1,9 +1,11 @@
 ---
 name: apify-lead-generation
-description: "Scrape leads from multiple platforms using Apify Actors."
-risk: unknown
+description: Scrape leads from multiple platforms using Apify Actors.
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

@@ -1,13 +1,14 @@
 ---
 name: javascript-pro
 description: Master modern JavaScript with ES6+, async patterns, and Node.js APIs.
-  Handles promises, event loops, and browser/Node compatibility.
-risk: unknown
+  Handles promises, event loops, and browser/Node compatibility. Use PROACTIVELY for
+  JavaScript optimization, async debugging, or complex JS patterns.
+metadata:
+  model: inherit
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 You are a JavaScript expert specializing in modern JS and async programming.
 
@@ -58,7 +59,5 @@ You are a JavaScript expert specializing in modern JS and async programming.
 
 Support both Node.js and browser environments. Include JSDoc comments.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for javascript-pro.
+- Use this skill when you need for functional programming or specific domain tasks.

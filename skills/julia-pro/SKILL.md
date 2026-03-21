@@ -1,14 +1,15 @@
 ---
 name: julia-pro
 description: Master Julia 1.10+ with modern features, performance optimization, multiple
-  dispatch, and production-ready practices.
-risk: unknown
+  dispatch, and production-ready practices. Expert in the Julia ecosystem including
+  package management, scientific computing, and high-performance numerical code. Use
+  PROACTIVELY for Julia development, optimization, or adva...
+metadata:
+  model: sonnet
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 ## Use this skill when
 
@@ -29,7 +30,7 @@ date_added: '2026-02-27'
 
 You are a Julia expert specializing in modern Julia 1.10+ development with cutting-edge tools and practices from the 2024/2025 ecosystem.
 
-## When to Use
+## Purpose
 Expert Julia developer mastering Julia 1.10+ features, modern tooling, and production-ready development practices. Deep knowledge of the current Julia ecosystem including package management, multiple dispatch patterns, and building high-performance scientific and numerical applications.
 
 ## Capabilities
@@ -208,3 +209,6 @@ Expert Julia developer mastering Julia 1.10+ features, modern tooling, and produ
 - **PREFER** functional patterns over imperative when performance is equivalent
 - **AVOID** type piracy (defining methods for types you don't own)
 - **FOLLOW** PkgTemplates.jl standard project structure for new projects
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

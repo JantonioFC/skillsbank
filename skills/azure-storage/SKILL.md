@@ -1,14 +1,16 @@
 ---
 name: azure-storage
-description: Azure Storage Services including Blob Storage, File Shares, Queue Storage,
+description: 'Azure Storage Services including Blob Storage, File Shares, Queue Storage,
   Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging,
   NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot,
-  cool, archive) and lifecycle management.
-risk: unknown
+  cool, archive) and lifecycle management. USE FOR: b...'
+license: MIT
+metadata:
+  author: Microsoft
+  version: 1.0.0
+risk: safe
 source: community
 ---
-
-
 
 # Azure Storage Services
 
@@ -103,4 +105,4 @@ For full package listing across all languages, see [SDK Usage Guide](references/
 For building applications that interact with Azure Storage programmatically, Azure provides SDK packages in multiple languages (.NET, Java, JavaScript, Python, Go, Rust). See [SDK Usage Guide](references/sdk-usage.md) for package names, installation commands, and quick start examples.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

@@ -15,13 +15,17 @@ tags:
 - dependency-injection
 - idempotence
 - fp-ts
-risk: unknown
+risk: offensive
 source: community
+license: MIT
 ---
 
-
-
 # Managing Side Effects Functionally
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 This skill covers functional programming techniques for handling side effects. Side effects are unavoidable in real programs - they're how we interact with the world. The goal isn't to eliminate them, but to control, isolate, and make them predictable.
 
@@ -2048,4 +2052,4 @@ With side effect management understood, you're ready for:
 Remember: The functional approach to side effects isn't about purity for its own sake - it's about making your code more predictable, testable, and maintainable. Start with the "pure core, impure shell" pattern and gradually adopt more sophisticated effect handling as needed.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

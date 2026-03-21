@@ -2,10 +2,12 @@
 name: canva-automation
 description: 'Automate Canva tasks via Rube MCP (Composio): designs, exports, folders,
   brand templates, autofill. Always search tools first for current schemas.'
-risk: unknown
+risk: safe
 source: community
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

@@ -3,13 +3,12 @@ name: seo-keyword-strategist
 description: Analyzes keyword usage in provided content, calculates density, suggests
   semantic variations and LSI keywords based on the topic. Prevents over-optimization.
   Use PROACTIVELY for content optimization.
-risk: unknown
+metadata:
+  model: haiku
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 ## Use this skill when
 
@@ -98,7 +97,5 @@ Entities: [related concepts to include]
 
 Focus on natural keyword integration and semantic relevance. Build topical depth through related concepts.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for seo-keyword-strategist.
+- Use this skill when you need for functional programming or specific domain tasks.

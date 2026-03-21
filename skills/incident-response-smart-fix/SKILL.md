@@ -3,13 +3,10 @@ name: incident-response-smart-fix
 description: '[Extended thinking: This workflow implements a sophisticated debugging
   and resolution pipeline that leverages AI-assisted debugging tools and observability
   platforms to systematically diagnose and res'
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Intelligent Issue Resolution with Multi-Agent Orchestration
 
@@ -36,7 +33,5 @@ date_added: '2026-02-27'
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for incident-response-smart-fix.
+- Use this skill when you need for functional programming or specific domain tasks.

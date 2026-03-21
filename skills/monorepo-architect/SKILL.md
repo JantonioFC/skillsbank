@@ -3,13 +3,10 @@ name: monorepo-architect
 description: Expert in monorepo architecture, build systems, and dependency management
   at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development.
   Use PROACTIVELY for monorepo setup,
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Monorepo Architect
 
@@ -68,7 +65,5 @@ Expert in monorepo architecture, build systems, and dependency management at sca
 - Document the dependency graph
 - Set up code ownership rules
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for monorepo-architect.
+- Use this skill when you need for functional programming or specific domain tasks.

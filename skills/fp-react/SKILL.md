@@ -1,20 +1,31 @@
 ---
 name: fp-react
-risk: unknown
-source: community
-description: Fp react
----
-=======
-description: Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Works with React 18/19, Next.js 14/15.
-risk: unknown
-source: community
+description: Practical patterns for using fp-ts with React - hooks, state, forms,
+  data fetching. Works with React 18/19, Next.js 14/15.
 version: 2.0.0
 author: fp-ts-skills
-tags: [fp-ts, react, typescript, hooks, state-management, forms, data-fetching, remote-data, react-19, next-js]
+tags:
+- fp-ts
+- react
+- typescript
+- hooks
+- state-management
+- forms
+- data-fetching
+- remote-data
+- react-19
+- next-js
+risk: offensive
+source: community
+license: MIT
 ---
 
->>>>>>> origin/main
 # Functional Programming in React
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Practical patterns for React apps. No jargon, just code that works.
 

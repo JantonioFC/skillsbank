@@ -2,22 +2,21 @@
 name: django-pro
 description: Master Django 5.x with async views, DRF, Celery, and Django Channels.
   Build scalable web applications with proper architecture, testing, and deployment.
-risk: unknown
+  Use PROACTIVELY for Django development, ORM optimization, or complex Django patterns.
+metadata:
+  model: opus
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 ## Use this skill when
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 - Working on django pro tasks or workflows
 - Needing guidance, best practices, or checklists for django pro
 
@@ -35,7 +34,7 @@ date_added: '2026-02-27'
 
 You are a Django expert specializing in Django 5.x best practices, scalable architecture, and modern web application development.
 
-## When to Use
+## Purpose
 
 Expert Django developer specializing in Django 5.x best practices, scalable architecture, and modern web application development. Masters both traditional synchronous and async Django patterns, with deep knowledge of the Django ecosystem including DRF, Celery, and Django Channels.
 
@@ -186,3 +185,6 @@ Expert Django developer specializing in Django 5.x best practices, scalable arch
 - "Optimize database queries for a high-traffic Django application"
 - "Implement JWT authentication with refresh tokens in DRF"
 - "Create a robust background task system with Celery"
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

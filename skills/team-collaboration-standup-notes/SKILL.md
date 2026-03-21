@@ -3,13 +3,10 @@ name: team-collaboration-standup-notes
 description: You are an expert team communication specialist focused on async-first
   standup practices, AI-assisted note generation from commit history, and effective
   remote team coordination patterns.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Standup Notes Generator
 
@@ -51,7 +48,5 @@ Modern remote-first teams rely on async standup notes to maintain visibility, co
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for team-collaboration-standup-notes.
+- Use this skill when you need for functional programming or specific domain tasks.

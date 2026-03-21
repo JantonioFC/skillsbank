@@ -1,16 +1,16 @@
 ---
 name: azure-prepare
-description: 'Default entry point for Azure application development. Invoke this skill
-  for ANY application work related to Azure: creating apps, building features, adding
-  components, updating code, migrating, or modernizing. Analyzes your project and
-  prepares it for Azure deployment.
-
-  USE FOR: create an ...'
-risk: unknown
+description: 'Prepare Azure apps for deployment (infra Bicep/Terraform, azure.yaml,
+  Dockerfiles). Use for create/modernize or create+deploy; not cross-cloud migration
+  (use azure-cloud-migrate). WHEN: "create app", "build web app", "create API", "create
+  serverless HTTP API", "create frontend", "create back end"...'
+license: MIT
+metadata:
+  author: Microsoft
+  version: 1.0.6
+risk: safe
 source: community
 ---
-
-
 
 # Azure Prepare
 
@@ -29,6 +29,7 @@ Activate this skill when user wants to:
 - Modernize or migrate an application
 - Set up Azure infrastructure
 - Deploy to Azure or host on Azure
+- Create and deploy to Azure (including Terraform-based deployment requests)
 
 ## Rules
 
@@ -38,11 +39,12 @@ Activate this skill when user wants to:
 4. **Update plan progressively** — Mark steps complete as you go
 5. **Validate before deploy** — Invoke azure-validate before azure-deploy
 6. **Confirm Azure context** — Use `ask_user` for subscription and location per [Azure Context](references/azure-context.md)
-7. ⛔ **Destructive actions require `ask_user`** — [Global Rules](references/global-rules.md)
+7. ❌ **Destructive actions require `ask_user`** — [Global Rules](references/global-rules.md)
+8. **Scope: preparation only** — This skill generates infrastructure code and configuration files. Deployment execution (`azd up`, `azd deploy`, `terraform apply`) is handled by the **azure-deploy** skill, which provides built-in error recovery and deployment verification.
 
 ---
 
-## ⛔ PLAN-FIRST WORKFLOW — MANDATORY
+## ❌ PLAN-FIRST WORKFLOW — MANDATORY
 
 > **YOU MUST CREATE A PLAN BEFORE DOING ANY WORK**
 >
@@ -55,12 +57,32 @@ Activate this skill when user wants to:
 
 ---
 
+## ❌ STEP 0: Specialized Technology Check — MANDATORY FIRST ACTION
+
+**BEFORE starting Phase 1**, check if the user's prompt mentions a specialized technology that has a dedicated skill with tested templates. If matched, **invoke that skill FIRST** — then resume azure-prepare for validation and deployment.
+
+| Prompt keywords | Invoke FIRST |
+|----------------|-------------|
+| Lambda, AWS Lambda, migrate AWS, migrate GCP, Lambda to Functions, migrate from AWS, migrate from GCP | **azure-cloud-migrate** |
+| copilot SDK, copilot app, copilot-powered, @github/copilot-sdk, CopilotClient | **azure-hosted-copilot-sdk** |
+| Azure Functions, function app, serverless function, timer trigger, HTTP trigger, func new | Stay in **azure-prepare** — prefer Azure Functions templates in Step 4 |
+| APIM, API Management, API gateway, deploy APIM | Stay in **azure-prepare** — see [APIM Deployment Guide](references/apim.md) |
+| AI gateway, AI gateway policy, AI gateway backend, AI gateway configuration | **azure-aigateway** |
+| workflow, orchestration, multi-step, pipeline, fan-out/fan-in, saga, long-running process, durable | Stay in **azure-prepare** — select **durable** recipe in Step 4. **MUST** load [durable.md](references/services/functions/durable.md) and [DTS reference](references/services/durable-task-scheduler/README.md). Generate `Microsoft.DurableTask/schedulers` + `taskHubs` Bicep resources. |
+
+> ⚠️ Check the user's **prompt text** — not just existing code. Critical for greenfield projects with no codebase to scan. See [full routing table](references/specialized-routing.md).
+
+After the specialized skill completes, **resume azure-prepare** at Phase 1 Step 4 (Select Recipe) for remaining infrastructure, validation, and deployment.
+
+---
+
 ## Phase 1: Planning (BLOCKING — Complete Before Any Execution)
 
 Create `.azure/plan.md` by completing these steps. Do NOT generate any artifacts until the plan is approved.
 
 | # | Action | Reference |
 |---|--------|-----------|
+| 0 | **❌ Check Prompt for Specialized Tech** — If user mentions copilot SDK, Azure Functions, etc., invoke that skill first | [specialized-routing.md](references/specialized-routing.md) |
 | 1 | **Analyze Workspace** — Determine mode: NEW, MODIFY, or MODERNIZE | [analyze.md](references/analyze.md) |
 | 2 | **Gather Requirements** — Classification, scale, budget | [requirements.md](references/requirements.md) |
 | 3 | **Scan Codebase** — Identify components, technologies, dependencies | [scan.md](references/scan.md) |
@@ -72,7 +94,7 @@ Create `.azure/plan.md` by completing these steps. Do NOT generate any artifacts
 
 ---
 
-> **⛔ STOP HERE** — Do NOT proceed to Phase 2 until the user approves the plan.
+> **❌ STOP HERE** — Do NOT proceed to Phase 2 until the user approves the plan.
 
 ---
 
@@ -83,11 +105,11 @@ Execute the approved plan. Update `.azure/plan.md` status after each step.
 | # | Action | Reference |
 |---|--------|-----------|
 | 1 | **Research Components** — Load service references + invoke related skills | [research.md](references/research.md) |
-| 2 | **Confirm Azure Context** — Detect and confirm subscription + location | [Azure Context](references/azure-context.md) |
+| 2 | **Confirm Azure Context** — Detect and confirm subscription + location and check the resource provisioning limit | [Azure Context](references/azure-context.md) |
 | 3 | **Generate Artifacts** — Create infrastructure and configuration files | [generate.md](references/generate.md) |
 | 4 | **Harden Security** — Apply security best practices | [security.md](references/security.md) |
-| 5 | **Update Plan** — Mark steps complete, set status to `Ready for Validation` | `.azure/plan.md` |
-| 6 | **Validate** — Invoke **azure-validate** skill | — |
+| 5 | **⛔ Update Plan (MANDATORY before hand-off)** — Use the `edit` tool to change the Status in `.azure/plan.md` to `Ready for Validation`. You **MUST** complete this edit **BEFORE** invoking azure-validate. Do NOT skip this step. | `.azure/plan.md` |
+| 6 | **⚠️ Hand Off** — Invoke **azure-validate** skill. Your preparation work is done. Deployment execution is handled by azure-deploy. **PREREQUISITE:** Step 5 must be completed first — `.azure/plan.md` status must say `Ready for Validation`. | — |
 
 ---
 
@@ -118,9 +140,11 @@ Execute the approved plan. Update `.azure/plan.md` status after each step.
 >
 > `azure-prepare` → `azure-validate` → `azure-deploy`
 >
+> **⛔ BEFORE invoking azure-validate**, you MUST use the `edit` tool to update `.azure/plan.md` status to `Ready for Validation`. If the plan status has not been updated, the validation will fail.
+>
 > Skipping validation leads to deployment failures. Be patient and follow the complete workflow for the highest success outcome.
 
-**→ Invoke azure-validate now**
+**→ Update plan status to `Ready for Validation`, then invoke azure-validate**
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

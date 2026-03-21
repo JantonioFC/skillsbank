@@ -3,13 +3,10 @@ name: framework-migration-code-migrate
 description: You are a code migration expert specializing in transitioning codebases
   between frameworks, languages, versions, and platforms. Generate comprehensive migration
   plans, automated migration scripts, and
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Code Migration Assistant
 
@@ -55,7 +52,5 @@ Focus on minimizing disruption, maintaining functionality, and providing clear p
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for framework-migration-code-migrate.
+- Use this skill when you need for functional programming or specific domain tasks.

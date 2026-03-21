@@ -1,17 +1,19 @@
 ---
 name: wiki-vitepress
-description: "Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams. Use when user asks to \"build a site\" or \"package as VitePress\", user runs the /deep-wiki, or user wants a browsable HTML output from generated wiki pages."
-risk: unknown
+description: Packages generated wiki Markdown into a VitePress static site with dark
+  theme, dark-mode Mermaid diagrams with click-to-zoom, and production build output.
+  Use when the user wants to create a browsable website from generated wiki pages.
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Wiki VitePress Packager
 
 Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams.
 
-## When to Use
+## When to Activate
+
 - User asks to "build a site" or "package as VitePress"
 - User runs the `/deep-wiki:build` command
 - User wants a browsable HTML output from generated wiki pages
@@ -151,4 +153,4 @@ Output goes to `wiki-site/.vitepress/dist/`.
 - `enhanceApp()` runs during SSR where `document` doesn't exist — use `setup()` only
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

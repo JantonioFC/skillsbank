@@ -2,10 +2,12 @@
 name: web-performance-optimization
 description: Optimize website and web application performance including loading speed,
   Core Web Vitals, bundle size, caching strategies, and runtime performance
-risk: unknown
+risk: safe
 source: community
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

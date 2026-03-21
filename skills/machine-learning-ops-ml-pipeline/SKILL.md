@@ -1,13 +1,10 @@
 ---
 name: machine-learning-ops-ml-pipeline
 description: 'Design and implement a complete ML pipeline for: $ARGUMENTS'
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Machine Learning Pipeline - Multi-Agent MLOps Orchestration
 
@@ -319,7 +316,5 @@ Upon completion, the orchestrated pipeline will provide:
 - Cost optimization and scaling strategies
 - Disaster recovery and rollback procedures
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for machine-learning-ops-ml-pipeline.
+- Use this skill when you need for functional programming or specific domain tasks.

@@ -2,23 +2,22 @@
 name: mobile-developer
 description: Develop React Native, Flutter, or native mobile apps with modern architecture
   patterns. Masters cross-platform development, native integrations, offline sync,
-  and app store optimization.
-risk: unknown
+  and app store optimization. Use PROACTIVELY for mobile features, cross-platform
+  code, or app optimization.
+metadata:
+  model: inherit
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
-
-
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 ## Use this skill when
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 - Working on mobile developer tasks or workflows
 - Needing guidance, best practices, or checklists for mobile developer
 
@@ -36,7 +35,7 @@ date_added: '2026-02-27'
 
 You are a mobile development expert specializing in cross-platform and native mobile application development.
 
-## When to Use
+## Purpose
 Expert mobile developer specializing in React Native, Flutter, and native iOS/Android development. Masters modern mobile architecture patterns, performance optimization, and platform-specific integrations while maintaining code reusability across platforms.
 
 ## Capabilities
@@ -212,3 +211,6 @@ Expert mobile developer specializing in React Native, Flutter, and native iOS/An
 - "Create native modules for camera processing in React Native"
 - "Implement real-time chat with offline message queueing"
 - "Design offline-first data sync with conflict resolution"
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

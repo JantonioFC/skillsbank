@@ -1,18 +1,19 @@
 ---
 name: architecture-decision-records
-description: "Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions."
-risk: unknown
+description: Write and maintain Architecture Decision Records (ADRs) following best
+  practices for technical decision documentation. Use when documenting significant
+  technical decisions, reviewing past architectural choices, or establishing decision
+  processes.
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Architecture Decision Records
 
 Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions.
 
-## When to Use This Skill
+## Use this skill when
 
 - Making significant architectural decisions
 - Documenting technology choices
@@ -21,25 +22,37 @@ Comprehensive patterns for creating, maintaining, and managing Architecture Deci
 - Reviewing historical decisions
 - Establishing decision-making processes
 
+## Do not use this skill when
+
+- You only need to document small implementation details
+- The change is a minor patch or routine maintenance
+- There is no architectural decision to capture
+
+## Instructions
+
+1. Capture the decision context, constraints, and drivers.
+2. Document considered options with tradeoffs.
+3. Record the decision, rationale, and consequences.
+4. Link related ADRs and update status over time.
+
 ## Core Concepts
 
 ### 1. What is an ADR?
 
 An Architecture Decision Record captures:
-
 - **Context**: Why we needed to make a decision
 - **Decision**: What we decided
 - **Consequences**: What happens as a result
 
 ### 2. When to Write an ADR
 
-| Write ADR                  | Skip ADR               |
-| -------------------------- | ---------------------- |
-| New framework adoption     | Minor version upgrades |
-| Database technology choice | Bug fixes              |
-| API design patterns        | Implementation details |
-| Security architecture      | Routine maintenance    |
-| Integration patterns       | Configuration changes  |
+| Write ADR | Skip ADR |
+|-----------|----------|
+| New framework adoption | Minor version upgrades |
+| Database technology choice | Bug fixes |
+| API design patterns | Implementation details |
+| Security architecture | Routine maintenance |
+| Integration patterns | Configuration changes |
 
 ### 3. ADR Lifecycle
 
@@ -64,7 +77,6 @@ Accepted
 
 We need to select a primary database for our new e-commerce platform. The system
 will handle:
-
 - ~10,000 concurrent users
 - Complex product catalog with hierarchical categories
 - Transaction processing for orders and payments
@@ -76,28 +88,25 @@ compliance for financial transactions.
 
 ## Decision Drivers
 
-- **Must have ACID compliance** for payment processing
-- **Must support complex queries** for reporting
-- **Should support full-text search** to reduce infrastructure complexity
-- **Should have good JSON support** for flexible product attributes
-- **Team familiarity** reduces onboarding time
+* **Must have ACID compliance** for payment processing
+* **Must support complex queries** for reporting
+* **Should support full-text search** to reduce infrastructure complexity
+* **Should have good JSON support** for flexible product attributes
+* **Team familiarity** reduces onboarding time
 
 ## Considered Options
 
 ### Option 1: PostgreSQL
-
 - **Pros**: ACID compliant, excellent JSON support (JSONB), built-in full-text
   search, PostGIS for geospatial, team has experience
 - **Cons**: Slightly more complex replication setup than MySQL
 
 ### Option 2: MySQL
-
 - **Pros**: Very familiar to team, simple replication, large community
 - **Cons**: Weaker JSON support, no built-in full-text search (need
   Elasticsearch), no geospatial without extensions
 
 ### Option 3: MongoDB
-
 - **Pros**: Flexible schema, native JSON, horizontal scaling
 - **Cons**: No ACID for multi-document transactions (at decision time),
   team has limited experience, requires schema design discipline
@@ -109,7 +118,6 @@ We will use **PostgreSQL 15** as our primary database.
 ## Rationale
 
 PostgreSQL provides the best balance of:
-
 1. **ACID compliance** essential for e-commerce transactions
 2. **Built-in capabilities** (full-text search, JSONB, PostGIS) reduce
    infrastructure complexity
@@ -122,20 +130,17 @@ additional services (no separate Elasticsearch needed).
 ## Consequences
 
 ### Positive
-
 - Single database handles transactions, search, and geospatial queries
 - Reduced operational complexity (fewer services to manage)
 - Strong consistency guarantees for financial data
 - Team can leverage existing SQL expertise
 
 ### Negative
-
 - Need to learn PostgreSQL-specific features (JSONB, full-text search syntax)
 - Vertical scaling limits may require read replicas sooner
 - Some team members need PostgreSQL-specific training
 
 ### Risks
-
 - Full-text search may not scale as well as dedicated search engines
 - Mitigation: Design for potential Elasticsearch addition if needed
 
@@ -214,7 +219,6 @@ Accepted (Supersedes ADR-0003)
 
 ADR-0003 (2021) chose MongoDB for user profile storage due to schema flexibility
 needs. Since then:
-
 - MongoDB's multi-document transactions remain problematic for our use case
 - Our schema has stabilized and rarely changes
 - We now have PostgreSQL expertise from other services
@@ -234,13 +238,11 @@ Deprecate MongoDB and migrate user profiles to PostgreSQL.
 ## Consequences
 
 ### Positive
-
 - Single database technology reduces operational complexity
 - ACID transactions for user data
 - Team can focus PostgreSQL expertise
 
 ### Negative
-
 - Migration effort (~4 weeks)
 - Risk of data issues during migration
 - Lose some schema flexibility
@@ -248,7 +250,6 @@ Deprecate MongoDB and migrate user profiles to PostgreSQL.
 ## Lessons Learned
 
 Document from ADR-0003 experience:
-
 - Schema flexibility benefits were overestimated
 - Operational cost of multiple databases was underestimated
 - Consider long-term maintenance in technology decisions
@@ -267,7 +268,6 @@ improve auditability, enable temporal queries, and support business analytics.
 ## Motivation
 
 Current challenges:
-
 1. Audit requirements need complete order history
 2. "What was the order state at time X?" queries are impossible
 3. Analytics team needs event stream for real-time dashboards
@@ -276,14 +276,13 @@ Current challenges:
 ## Detailed Design
 
 ### Event Store
-```
 
+```
 OrderCreated { orderId, customerId, items[], timestamp }
 OrderItemAdded { orderId, item, timestamp }
 OrderItemRemoved { orderId, itemId, timestamp }
 PaymentReceived { orderId, amount, paymentId, timestamp }
 OrderShipped { orderId, trackingNumber, timestamp }
-
 ```
 
 ### Projections
@@ -355,10 +354,10 @@ This directory contains Architecture Decision Records (ADRs) for [Project Name].
 
 | ADR | Title | Status | Date |
 |-----|-------|--------|------|
-| 0001 | Use PostgreSQL as Primary Database | Accepted | 2024-01-10 |
-| 0002 | Caching Strategy with Redis | Accepted | 2024-01-12 |
-| 0003 | MongoDB for User Profiles | Deprecated | 2023-06-15 |
-| 0020 | Deprecate MongoDB | Accepted | 2024-01-15 |
+| [0001](0001-use-postgresql.md) | Use PostgreSQL as Primary Database | Accepted | 2024-01-10 |
+| [0002](0002-caching-strategy.md) | Caching Strategy with Redis | Accepted | 2024-01-12 |
+| [0003](0003-mongodb-user-profiles.md) | MongoDB for User Profiles | Deprecated | 2023-06-15 |
+| [0020](0020-deprecate-mongodb.md) | Deprecate MongoDB | Accepted | 2024-01-15 |
 
 ## Creating a New ADR
 
@@ -404,7 +403,6 @@ adr link 2 "Complements" 1 "Is complemented by"
 ## ADR Review Checklist
 
 ### Before Submission
-
 - [ ] Context clearly explains the problem
 - [ ] All viable options considered
 - [ ] Pros/cons balanced and honest
@@ -412,7 +410,6 @@ adr link 2 "Complements" 1 "Is complemented by"
 - [ ] Related ADRs linked
 
 ### During Review
-
 - [ ] At least 2 senior engineers reviewed
 - [ ] Affected teams consulted
 - [ ] Security implications considered
@@ -420,7 +417,6 @@ adr link 2 "Complements" 1 "Is complemented by"
 - [ ] Reversibility assessed
 
 ### After Acceptance
-
 - [ ] ADR index updated
 - [ ] Team notified
 - [ ] Implementation tickets created
@@ -430,7 +426,6 @@ adr link 2 "Complements" 1 "Is complemented by"
 ## Best Practices
 
 ### Do's
-
 - **Write ADRs early** - Before implementation starts
 - **Keep them short** - 1-2 pages maximum
 - **Be honest about trade-offs** - Include real cons
@@ -438,7 +433,6 @@ adr link 2 "Complements" 1 "Is complemented by"
 - **Update status** - Deprecate when superseded
 
 ### Don'ts
-
 - **Don't change accepted ADRs** - Write new ones to supersede
 - **Don't skip context** - Future readers need background
 - **Don't hide failures** - Rejected decisions are valuable
@@ -451,3 +445,6 @@ adr link 2 "Complements" 1 "Is complemented by"
 - [MADR Template](https://adr.github.io/madr/)
 - [ADR GitHub Organization](https://adr.github.io/)
 - [adr-tools](https://github.com/npryce/adr-tools)
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

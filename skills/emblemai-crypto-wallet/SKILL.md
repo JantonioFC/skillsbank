@@ -6,7 +6,9 @@ description: Crypto wallet management across 7 blockchains via EmblemAI Agent Hu
 risk: critical
 source: EmblemCompany/Agent-skills (MIT)
 date_added: '2026-03-06'
+license: MIT
 ---
+
 
 
 # EmblemAI Crypto Wallet

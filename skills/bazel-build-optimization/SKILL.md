@@ -3,18 +3,28 @@ name: bazel-build-optimization
 description: Optimize Bazel builds for large-scale monorepos. Use when configuring
   Bazel, implementing remote execution, or optimizing build performance for enterprise
   codebases.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Bazel Build Optimization
 
 Production patterns for Bazel in large-scale monorepos.
 
-## When to Use This Skill
+## Do not use this skill when
+
+- The task is unrelated to bazel build optimization
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
+## Use this skill when
 
 - Setting up Bazel for monorepos
 - Configuring remote caching/execution
@@ -46,13 +56,13 @@ workspace/
 
 ### 2. Key Concepts
 
-| Concept     | Description                            |
-| ----------- | -------------------------------------- |
-| **Target**  | Buildable unit (library, binary, test) |
-| **Package** | Directory with BUILD file              |
-| **Label**   | Target identifier `//path/to:target`   |
-| **Rule**    | Defines how to build a target          |
-| **Aspect**  | Cross-cutting build behavior           |
+| Concept | Description |
+|---------|-------------|
+| **Target** | Buildable unit (library, binary, test) |
+| **Package** | Directory with BUILD file |
+| **Label** | Target identifier `//path/to:target` |
+| **Rule** | Defines how to build a target |
+| **Aspect** | Cross-cutting build behavior |
 
 ## Templates
 
@@ -373,7 +383,6 @@ bazel build //... --notrack_incremental_state
 ## Best Practices
 
 ### Do's
-
 - **Use fine-grained targets** - Better caching
 - **Pin dependencies** - Reproducible builds
 - **Enable remote caching** - Share build artifacts
@@ -381,9 +390,8 @@ bazel build //... --notrack_incremental_state
 - **Write BUILD files per directory** - Standard convention
 
 ### Don'ts
-
 - **Don't use glob for deps** - Explicit is better
-- **Don't commit bazel-\* dirs** - Add to .gitignore
+- **Don't commit bazel-* dirs** - Add to .gitignore
 - **Don't skip WORKSPACE setup** - Foundation of build
 - **Don't ignore build warnings** - Technical debt
 
@@ -392,3 +400,6 @@ bazel build //... --notrack_incremental_state
 - [Bazel Documentation](https://bazel.build/docs)
 - [Bazel Remote Execution](https://bazel.build/docs/remote-execution)
 - [rules_js](https://github.com/aspect-build/rules_js)
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

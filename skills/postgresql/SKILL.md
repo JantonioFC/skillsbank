@@ -2,13 +2,10 @@
 name: postgresql
 description: Design a PostgreSQL-specific schema. Covers best-practices, data types,
   indexing, constraints, performance patterns, and advanced features
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # PostgreSQL Table Design 
 
@@ -236,7 +233,5 @@ CREATE TABLE profiles (
 CREATE INDEX profiles_attrs_gin ON profiles USING GIN (attrs);
 ```
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for postgresql.
+- Use this skill when you need for functional programming or specific domain tasks.

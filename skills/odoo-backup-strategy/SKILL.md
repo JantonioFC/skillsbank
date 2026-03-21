@@ -4,7 +4,9 @@ description: 'Complete Odoo backup and restore strategy: database dumps, filesto
   backup, automated scheduling, cloud storage upload, and tested restore procedures.'
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

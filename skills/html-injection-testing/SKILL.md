@@ -1,14 +1,23 @@
 ---
 name: html-injection-testing
-description: "Identify and exploit HTML injection vulnerabilities that allow attackers to inject malicious HTML content into web applications. This vulnerability enables attackers to modify page appearance, create phishing pages, and steal user credentials through injected forms."
-risk: unknown
+description: This skill should be used when the user asks to "test for HTML injection",
+  "inject HTML into web pages", "perform HTML injection attacks", "deface web applications",
+  or "test content injection vulnerabilities". It provides comprehensive HTML injection
+  attack techniques and testing methodologies.
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
 # HTML Injection Testing
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -500,4 +509,4 @@ Server-side protections:
 | XSS not working (HTML only) | JS filtered but HTML allowed; leverage phishing forms, meta refresh redirects |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

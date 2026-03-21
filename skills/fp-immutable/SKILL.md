@@ -8,11 +8,10 @@ tags:
 - immutability
 - functional-programming
 - patterns
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Practical Immutability in TypeScript
 
@@ -485,4 +484,4 @@ const MyComponent = () => {
 | Prevent mutation | `readonly` types or `Object.freeze()` |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

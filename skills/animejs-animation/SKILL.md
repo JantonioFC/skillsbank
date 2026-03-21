@@ -1,9 +1,11 @@
 ---
 name: animejs-animation
-risk: unknown
+risk: safe
 source: community
 description: Community provided skill
+license: MIT
 ---
+
 
 --- 
 name: animejs-animation

@@ -6,7 +6,9 @@ description: Practical patterns for using fp-ts with React - hooks, state, forms
 risk: safe
 source: https://github.com/whatiskadudoing/fp-ts-skills
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

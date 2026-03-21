@@ -5,7 +5,9 @@ description: 'Convex reactive backend expert: schema design, TypeScript function
 risk: safe
 source: https://docs.convex.dev
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

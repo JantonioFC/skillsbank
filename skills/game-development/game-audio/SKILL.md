@@ -2,12 +2,11 @@
 name: game-audio
 description: Game audio principles. Sound design, music integration, adaptive audio
   systems.
-risk: unknown
+allowed-tools: Read, Glob, Grep
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Game Audio Principles
 
@@ -200,4 +199,4 @@ Game State → Music Response
 > **Remember:** 50% of the game experience is audio. A muted game loses half its soul.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

@@ -8,10 +8,10 @@ description: 'Hexagonal architecture layering for Java services with strict boun
 metadata:
   author: diegnghrmr
   version: '1.0'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
 
 ## When to Use
 

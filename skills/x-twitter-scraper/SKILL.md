@@ -9,7 +9,9 @@ source: community
 tags: '[twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring,
   webhooks]'
 date_added: '2026-02-28'
+license: MIT
 ---
+
 
 
 

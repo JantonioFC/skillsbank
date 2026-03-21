@@ -12,11 +12,10 @@ tags:
 - flow
 - fp-ts
 - practical-patterns
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Function Composition - Building from Small Pieces
 

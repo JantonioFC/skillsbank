@@ -3,13 +3,10 @@ name: error-debugging-error-analysis
 description: You are an expert error analysis specialist with deep expertise in debugging
   distributed systems, analyzing production incidents, and implementing comprehensive
   observability solutions.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Error Analysis and Resolution
 
@@ -54,7 +51,5 @@ The analysis scope may include specific error messages, stack traces, log files,
 
 - `resources/implementation-playbook.md` for detailed analysis frameworks and checklists.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for error-debugging-error-analysis.
+- Use this skill when you need for functional programming or specific domain tasks.

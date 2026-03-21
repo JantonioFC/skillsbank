@@ -1,16 +1,23 @@
 ---
 name: linux-privilege-escalation
-description: "Execute systematic privilege escalation assessments on Linux systems to identify and exploit misconfigurations, vulnerable services, and security weaknesses that allow elevation from low-privilege user access to root-level control."
-risk: unknown
+description: This skill should be used when the user asks to "escalate privileges
+  on Linux", "find privesc vectors on Linux systems", "exploit sudo misconfigurations",
+  "abuse SUID binaries", "exploit cron jobs for root access", "enumerate Linux systems
+  for privilege escalation", or "gain root access from low-...
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-<!-- security-allowlist: curl-pipe-bash -->
-
 # Linux Privilege Escalation
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -508,4 +515,4 @@ uid=1000(user) gid=1000(user) euid=0(root)
 | Cron job not executing | Verify cron running: `service cron status`; check +x permissions; verify PATH in crontab |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

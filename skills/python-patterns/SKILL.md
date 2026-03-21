@@ -2,28 +2,21 @@
 name: python-patterns
 description: Python development principles and decision-making. Framework selection,
   async patterns, type hints, project structure. Teaches thinking, not copying.
-risk: unknown
+allowed-tools: Read, Write, Edit, Glob, Grep
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
-
-## When to Use
-
-Use this skill for automation and guidance.
-
-> [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
 # Python Patterns
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 > Python development principles and decision-making for 2025.
 > **Learn to THINK, not memorize patterns.**
-
-## When to Use
-Use this skill when making Python architecture decisions, choosing frameworks, designing async patterns, or structuring Python projects.
 
 ---
 

@@ -3,13 +3,10 @@ name: accessibility-compliance-accessibility-audit
 description: You are an accessibility expert specializing in WCAG compliance, inclusive
   design, and assistive technology compatibility. Conduct audits, identify barriers,
   and provide remediation guidance.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Accessibility Audit and Testing
 
@@ -49,7 +46,5 @@ $ARGUMENTS
 
 - `resources/implementation-playbook.md` for detailed audit steps, tooling, and remediation examples.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for accessibility-compliance-accessibility-audit.
+- Use this skill when you need for functional programming or specific domain tasks.

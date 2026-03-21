@@ -4,9 +4,11 @@ description: 'Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. H
   with search, vector/hybrid search, speech-to-text, text-to-speech, transcription,
   OCR. USE FOR: AI Search, query search, vector search, hybrid search, semantic search,
   speech-to-text, text-to-speech, transcribe, OCR, co...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

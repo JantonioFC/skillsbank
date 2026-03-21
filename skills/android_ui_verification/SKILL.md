@@ -5,7 +5,9 @@ description: Automated end-to-end UI testing and verification on an Android Emul
 risk: safe
 source: community
 date_added: '2026-02-28'
+license: MIT
 ---
+
 
 
 

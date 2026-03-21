@@ -1,28 +1,29 @@
 ---
 name: fp-backend
-risk: unknown
-source: community
-description: Fp backend
----
-=======
-description: Functional programming patterns for Node.js/Deno backend development using fp-ts, ReaderTaskEither, and functional dependency injection
-risk: unknown
-source: community
+description: Functional programming patterns for Node.js/Deno backend development
+  using fp-ts, ReaderTaskEither, and functional dependency injection
 version: 1.0.0
 author: kadu
 tags:
-  - fp-ts
-  - typescript
-  - backend
-  - functional-programming
-  - node
-  - deno
-  - dependency-injection
-  - reader-task-either
+- fp-ts
+- typescript
+- backend
+- functional-programming
+- node
+- deno
+- dependency-injection
+- reader-task-either
+risk: offensive
+source: community
+license: MIT
 ---
 
->>>>>>> origin/main
 # fp-ts Backend Patterns
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Functional programming patterns for building type-safe, testable backend services using fp-ts.
 
@@ -762,14 +763,10 @@ const logWithContext =
       RTE.ask<ContextDeps>(),
       RTE.flatMap(({ logger, ctx }) =>
         RTE.fromIO(() =>
-<<<<<<< HEAD
           logger[level](message, {
             ...meta,
             requestId: ctx.requestId,
             userId: O.toUndefined(ctx.userId),
-=======
-          loggerlevel,
->>>>>>> origin/main
             elapsed: Date.now() - ctx.startTime,
           })
         )
@@ -1345,9 +1342,6 @@ export const myOperation = (
     )
   )
 ```
-<<<<<<< HEAD
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
-=======
->>>>>>> origin/main
+- Use this skill when you need for functional programming or specific domain tasks.

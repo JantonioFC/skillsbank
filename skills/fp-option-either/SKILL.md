@@ -12,11 +12,10 @@ tags:
 - option
 - either
 - monads
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # fp-ts Option and Either Guide
 

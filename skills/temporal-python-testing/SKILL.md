@@ -1,18 +1,35 @@
 ---
 name: temporal-python-testing
-description: "Comprehensive testing approaches for Temporal workflows using pytest, progressive disclosure resources for specific testing scenarios."
-risk: unknown
+description: Test Temporal workflows with pytest, time-skipping, and mocking strategies.
+  Covers unit testing, integration testing, replay testing, and local development
+  setup. Use when implementing Temporal workflow tests or debugging test failures.
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Temporal Python Testing Strategies
 
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+
 Comprehensive testing approaches for Temporal workflows using pytest, progressive disclosure resources for specific testing scenarios.
 
-## When to Use This Skill
+## Do not use this skill when
+
+- The task is unrelated to temporal python testing strategies
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
+## Use this skill when
 
 - **Unit testing workflows** - Fast tests with time-skipping
 - **Integration testing** - Workflows with mocked activities
@@ -161,3 +178,6 @@ async def test_activity():
 - Python SDK Testing: docs.temporal.io/develop/python/testing-suite
 - Testing Patterns: github.com/temporalio/temporal/blob/main/docs/development/testing.md
 - Python Samples: github.com/temporalio/samples-python
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

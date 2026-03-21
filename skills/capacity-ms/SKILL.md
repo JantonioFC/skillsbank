@@ -6,9 +6,11 @@ description: 'Discovers available Azure OpenAI model capacity across regions and
 
   USE FOR: find capacity, check quota, where can I deploy, capacity discovery, best
   region fo...'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

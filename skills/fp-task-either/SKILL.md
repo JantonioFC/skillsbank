@@ -12,11 +12,10 @@ tags:
 - error-handling
 - task-either
 - monads
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # fp-ts TaskEither Async Patterns
 
@@ -869,3 +868,6 @@ pipe(primary(), TE.orElse(() => fallback()))
 // 6. Execute and handle result
 pipe(operation(), TE.fold(handleError, handleSuccess))()
 ```
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

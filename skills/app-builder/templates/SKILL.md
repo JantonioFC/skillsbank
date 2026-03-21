@@ -2,13 +2,11 @@
 name: templates
 description: Project scaffolding templates for new applications. Use when creating
   new projects from scratch. Contains 12 templates for various tech stacks.
-risk: unknown
+allowed-tools: Read, Glob, Grep
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Project Templates
 
@@ -45,4 +43,4 @@ date_added: '2026-02-27'
 4. Follow its tech stack and structure
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

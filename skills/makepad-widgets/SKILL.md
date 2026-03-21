@@ -1,9 +1,12 @@
 ---
 name: makepad-widgets
-description: "Version: makepad-widgets (dev branch) | Last Updated: 2026-01-19 > > Check for updates: https://crates.io/crates/makepad-widgets"
-risk: unknown
+description: 'Version: makepad-widgets (dev branch) | Last Updated: 2026-01-19 > >
+  Check for updates: https://crates.io/crates/makepad-widgets'
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 # Makepad Widgets Skill

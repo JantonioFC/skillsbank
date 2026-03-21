@@ -2,20 +2,16 @@
 name: nodejs-best-practices
 description: Node.js development principles and decision-making. Framework selection,
   async patterns, security, and architecture. Teaches thinking, not copying.
-risk: unknown
+allowed-tools: Read, Write, Edit, Glob, Grep
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Node.js Best Practices
 
 > Principles and decision-making for Node.js development in 2025.
 > **Learn to THINK, not memorize code patterns.**
-
-## When to Use
-Use this skill when making Node.js architecture decisions, choosing frameworks, designing async patterns, or applying security and deployment best practices.
 
 ---
 
@@ -185,7 +181,7 @@ Logs get:
 
 ## 5. Async Patterns Principles
 
-## When to Use Each
+### When to Use Each
 
 | Pattern | Use When |
 |---------|----------|

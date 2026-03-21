@@ -17,7 +17,9 @@ tools:
 - claude
 - cursor
 - gemini
+license: MIT
 ---
+
 
 
 # k6 Load Testing

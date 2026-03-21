@@ -3,13 +3,12 @@ name: article-writing
 description: Write articles, guides, blog posts, tutorials, newsletter issues, and
   other long-form content in a distinctive voice derived from supplied examples or
   brand guidance. Use when the user wants polished written content longer than a paragraph,
-  especially when voice consistency, structure, and...
+  especially when voice consistency, structure, and credib...
 origin: ECC
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Article Writing
 
@@ -92,4 +91,4 @@ Before delivering:
 - check formatting for the intended platform
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

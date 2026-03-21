@@ -2,13 +2,10 @@
 name: data-engineering-data-pipeline
 description: You are a data pipeline architecture expert specializing in scalable,
   reliable, and cost-effective data pipelines for batch and streaming data processing.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Data Pipeline Architecture
 
@@ -207,7 +204,5 @@ ingester.save_dead_letter_queue('s3://lake/dlq/orders')
 - Schema evolution without downtime
 - End-to-end data lineage tracked
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for data-engineering-data-pipeline.
+- Use this skill when you need for functional programming or specific domain tasks.

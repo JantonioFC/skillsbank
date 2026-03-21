@@ -2,11 +2,11 @@
 name: cost-aware-llm-pipeline
 description: Cost optimization patterns for LLM API usage — model routing by task
   complexity, budget tracking, retry logic, and prompt caching.
-risk: unknown
+origin: ECC
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Cost-Aware LLM Pipeline
 
@@ -26,7 +26,7 @@ Patterns for controlling LLM API costs while maintaining quality. Combines model
 Automatically select cheaper models for simple tasks, reserving expensive models for complex ones.
 
 ```python
-MODEL_SONNET = "claude-sonnet-4-5-20250929"
+MODEL_SONNET = "claude-sonnet-4-6"
 MODEL_HAIKU = "claude-haiku-4-5-20251001"
 
 _SONNET_TEXT_THRESHOLD = 10_000  # chars
@@ -160,7 +160,7 @@ def process(text: str, config: Config, tracker: CostTracker) -> tuple[Result, Co
 | Model | Input ($/1M tokens) | Output ($/1M tokens) | Relative Cost |
 |-------|---------------------|----------------------|---------------|
 | Haiku 4.5 | $0.80 | $4.00 | 1x |
-| Sonnet 4.5 | $3.00 | $15.00 | ~4x |
+| Sonnet 4.6 | $3.00 | $15.00 | ~4x |
 | Opus 4.5 | $15.00 | $75.00 | ~19x |
 
 ## Best Practices

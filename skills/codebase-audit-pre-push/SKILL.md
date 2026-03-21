@@ -6,7 +6,9 @@ category: development
 risk: safe
 source: community
 date_added: '2026-03-05'
+license: MIT
 ---
+
 
 
 

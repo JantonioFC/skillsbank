@@ -7,7 +7,9 @@ risk: safe
 source: community
 tags: '[video, summarization, transcription, youtube, content-analysis]'
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

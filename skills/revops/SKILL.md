@@ -3,14 +3,13 @@ name: revops
 description: When the user wants help with revenue operations, lead lifecycle management,
   or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,'
   'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,'
-  'deal desk,' 'CRM automation,' 'marketing-t...
+  'deal desk,' 'CRM automation,' 'marketing-to-sales...
 metadata:
   version: 1.1.0
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # RevOps
 
@@ -140,7 +139,7 @@ Define response times and document them:
 ### Routing Rules Essentials
 
 - Route to the **most specific match** first, then fall back to general
-- Always include a **fallback owner** — no lead should go unassigned
+- Include a **fallback owner** — unassigned leads go cold fast and waste pipeline
 - Round-robin should account for **rep capacity and availability** (PTO, quota attainment)
 - Log every routing decision for audit and optimization
 
@@ -350,4 +349,4 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key RevOp
 - **sales-enablement**: For sales collateral, decks, and objection handling
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

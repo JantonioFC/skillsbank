@@ -3,18 +3,28 @@ name: shellcheck-configuration
 description: Master ShellCheck static analysis configuration and usage for shell script
   quality. Use when setting up linting infrastructure, fixing code issues, or ensuring
   script portability.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # ShellCheck Configuration and Static Analysis
 
 Comprehensive guidance for configuring and using ShellCheck to improve shell script quality, catch common pitfalls, and enforce best practices through static code analysis.
 
-## When to Use This Skill
+## Do not use this skill when
+
+- The task is unrelated to shellcheck configuration and static analysis
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
+## Use this skill when
 
 - Setting up linting for shell scripts in CI/CD pipelines
 - Analyzing existing shell scripts for issues
@@ -30,7 +40,6 @@ Comprehensive guidance for configuring and using ShellCheck to improve shell scr
 ### What is ShellCheck?
 
 ShellCheck is a static analysis tool that analyzes shell scripts and detects problematic patterns. It supports:
-
 - Bash, sh, dash, ksh, and other POSIX shells
 - Over 100 different warnings and errors
 - Configuration for target shell and flags
@@ -90,7 +99,6 @@ export SHELLCHECK_CONFIG=~/.shellcheckrc
 ## Common ShellCheck Error Codes
 
 ### SC1000-1099: Parser Errors
-
 ```bash
 # SC1004: Backslash continuation not followed by newline
 echo hello\
@@ -461,3 +469,6 @@ shellcheck --format=quiet script.sh
 - **ShellCheck GitHub**: https://github.com/koalaman/shellcheck
 - **ShellCheck Wiki**: https://www.shellcheck.net/wiki/
 - **Error Code Reference**: https://www.shellcheck.net/
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

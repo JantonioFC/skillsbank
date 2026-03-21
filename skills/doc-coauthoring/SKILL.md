@@ -1,13 +1,13 @@
 ---
 name: doc-coauthoring
-description: "This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement & Structure, and Reader Testing."
-risk: unknown
+description: Guide users through a structured workflow for co-authoring documentation.
+  Use when user wants to write documentation, proposals, technical specs, decision
+  docs, or similar structured content. This workflow helps users efficiently transfer
+  context, refine content through iteration, and verify the ...
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Doc Co-Authoring Workflow
 
@@ -381,4 +381,4 @@ Announce document completion. Provide a few final tips:
 - The goal is a document that actually works for readers
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

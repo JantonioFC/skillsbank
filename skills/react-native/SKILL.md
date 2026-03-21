@@ -8,10 +8,10 @@ description: 'React Native patterns for mobile app development with Expo and bar
 metadata:
   author: gentleman-programming
   version: '1.0'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
 
 ## When to Use
 

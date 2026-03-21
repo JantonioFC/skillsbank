@@ -1,9 +1,12 @@
 ---
 name: odoo-edi-connector
-description: "Guide for implementing EDI (Electronic Data Interchange) with Odoo: X12, EDIFACT document mapping, partner onboarding, and automated order processing."
-risk: unknown
+description: 'Guide for implementing EDI (Electronic Data Interchange) with Odoo:
+  X12, EDIFACT document mapping, partner onboarding, and automated order processing.'
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 

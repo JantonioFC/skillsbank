@@ -1,20 +1,23 @@
 ---
 name: frontend-patterns
-description: Frontend development patterns for React, Next.js, state management, performance
-  optimization, and UI best practices.
-risk: unknown
+description: React、Next.js、状態管理、パフォーマンス最適化、UIベストプラクティスのためのフロントエンド開発パターン。
+risk: offensive
 source: community
+license: MIT
 ---
 
+# フロントエンド開発パターン
 
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
-# Frontend Development Patterns
+React、Next.js、高性能ユーザーインターフェースのためのモダンなフロントエンドパターン。
 
-Modern frontend patterns for React, Next.js, and performant user interfaces.
+## コンポーネントパターン
 
-## Component Patterns
-
-### Composition Over Inheritance
+### 継承よりコンポジション
 
 ```typescript
 // ✅ GOOD: Component composition
@@ -42,7 +45,7 @@ export function CardBody({ children }: { children: React.ReactNode }) {
 </Card>
 ```
 
-### Compound Components
+### 複合コンポーネント
 
 ```typescript
 interface TabsContextValue {
@@ -92,7 +95,7 @@ export function Tab({ id, children }: { id: string, children: React.ReactNode })
 </Tabs>
 ```
 
-### Render Props Pattern
+### レンダープロップパターン
 
 ```typescript
 interface DataLoaderProps<T> {
@@ -126,9 +129,9 @@ export function DataLoader<T>({ url, children }: DataLoaderProps<T>) {
 </DataLoader>
 ```
 
-## Custom Hooks Patterns
+## カスタムフックパターン
 
-### State Management Hook
+### 状態管理フック
 
 ```typescript
 export function useToggle(initialValue = false): [boolean, () => void] {
@@ -145,7 +148,7 @@ export function useToggle(initialValue = false): [boolean, () => void] {
 const [isOpen, toggleOpen] = useToggle()
 ```
 
-### Async Data Fetching Hook
+### 非同期データ取得フック
 
 ```typescript
 interface UseQueryOptions<T> {
@@ -200,7 +203,7 @@ const { data: markets, loading, error, refetch } = useQuery(
 )
 ```
 
-### Debounce Hook
+### デバウンスフック
 
 ```typescript
 export function useDebounce<T>(value: T, delay: number): T {
@@ -228,9 +231,9 @@ useEffect(() => {
 }, [debouncedQuery])
 ```
 
-## State Management Patterns
+## 状態管理パターン
 
-### Context + Reducer Pattern
+### Context + Reducerパターン
 
 ```typescript
 interface State {
@@ -283,9 +286,9 @@ export function useMarkets() {
 }
 ```
 
-## Performance Optimization
+## パフォーマンス最適化
 
-### Memoization
+### メモ化
 
 ```typescript
 // ✅ useMemo for expensive computations
@@ -309,7 +312,7 @@ export const MarketCard = React.memo<MarketCardProps>(({ market }) => {
 })
 ```
 
-### Code Splitting & Lazy Loading
+### コード分割と遅延読み込み
 
 ```typescript
 import { lazy, Suspense } from 'react'
@@ -333,7 +336,7 @@ export function Dashboard() {
 }
 ```
 
-### Virtualization for Long Lists
+### 長いリストの仮想化
 
 ```typescript
 import { useVirtualizer } from '@tanstack/react-virtual'
@@ -377,9 +380,9 @@ export function VirtualMarketList({ markets }: { markets: Market[] }) {
 }
 ```
 
-## Form Handling Patterns
+## フォーム処理パターン
 
-### Controlled Form with Validation
+### バリデーション付き制御フォーム
 
 ```typescript
 interface FormData {
@@ -454,7 +457,7 @@ export function CreateMarketForm() {
 }
 ```
 
-## Error Boundary Pattern
+## エラーバウンダリパターン
 
 ```typescript
 interface ErrorBoundaryState {
@@ -502,9 +505,9 @@ export class ErrorBoundary extends React.Component<
 </ErrorBoundary>
 ```
 
-## Animation Patterns
+## アニメーションパターン
 
-### Framer Motion Animations
+### Framer Motionアニメーション
 
 ```typescript
 import { motion, AnimatePresence } from 'framer-motion'
@@ -556,9 +559,9 @@ export function Modal({ isOpen, onClose, children }: ModalProps) {
 }
 ```
 
-## Accessibility Patterns
+## アクセシビリティパターン
 
-### Keyboard Navigation
+### キーボードナビゲーション
 
 ```typescript
 export function Dropdown({ options, onSelect }: DropdownProps) {
@@ -599,7 +602,7 @@ export function Dropdown({ options, onSelect }: DropdownProps) {
 }
 ```
 
-### Focus Management
+### フォーカス管理
 
 ```typescript
 export function Modal({ isOpen, onClose, children }: ModalProps) {
@@ -633,7 +636,7 @@ export function Modal({ isOpen, onClose, children }: ModalProps) {
 }
 ```
 
-**Remember**: Modern frontend patterns enable maintainable, performant user interfaces. Choose patterns that fit your project complexity.
+**覚えておいてください**: モダンなフロントエンドパターンにより、保守可能で高性能なユーザーインターフェースを実装できます。プロジェクトの複雑さに適したパターンを選択してください。
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

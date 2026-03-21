@@ -3,13 +3,12 @@ name: seo-meta-optimizer
 description: Creates optimized meta titles, descriptions, and URL suggestions based
   on character limits and best practices. Generates compelling, keyword-rich metadata.
   Use PROACTIVELY for new content.
-risk: unknown
+metadata:
+  model: haiku
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 ## Use this skill when
 
@@ -95,7 +94,5 @@ Description: Action verb + benefit. Include keyword naturally. Clear CTA here âœ
 
 Focus on psychological triggers and user benefits. Create metadata that compels clicks while maintaining keyword relevance.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for seo-meta-optimizer.
+- Use this skill when you need for functional programming or specific domain tasks.

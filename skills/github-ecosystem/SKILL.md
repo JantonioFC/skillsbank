@@ -4,9 +4,11 @@ description: Generate comprehensive GitHub ecosystem configuration including CI/
   workflows, issue templates, PR templates, CODEOWNERS, dependabot, and Copilot instructions.
   Language-agnostic with Python, Go, and TypeScript support. Auto-detects project
   language from pyproject.toml, go.mod, or package.json. ...
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # GitHub Ecosystem Configuration Generator
 
 Generates production-ready GitHub configuration for any project.

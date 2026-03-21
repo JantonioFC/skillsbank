@@ -6,7 +6,9 @@ description: Scoped CLAUDE.md memory system that reduces context token spend. Cr
 risk: safe
 source: https://github.com/kromahlusenii-ops/ham
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

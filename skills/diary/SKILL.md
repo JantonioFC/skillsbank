@@ -4,7 +4,9 @@ description: 'Unified Diary System: A context-preserving automated logger for mu
   development.'
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 # 📔 Unified Diary System

@@ -1,13 +1,11 @@
 ---
 name: 3d-games
 description: 3D game development principles. Rendering, shaders, physics, cameras.
-risk: unknown
+allowed-tools: Read, Write, Edit, Glob, Grep
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # 3D Game Development
 
@@ -140,4 +138,4 @@ date_added: '2026-02-27'
 > **Remember:** 3D is about illusion. Create the impression of detail, not the detail itself.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

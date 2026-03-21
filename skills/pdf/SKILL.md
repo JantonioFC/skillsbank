@@ -9,10 +9,6 @@ risk: safe
 source: community
 ---
 
-
-
-
-
 # PDF Processing Guide
 
 ## Overview
@@ -302,7 +298,5 @@ with open("encrypted.pdf", "wb") as output:
 - If you need to fill out a PDF form, follow the instructions in forms.md
 - For troubleshooting guides, see reference.md
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for pdf.
+- Use this skill when you need for functional programming or specific domain tasks.

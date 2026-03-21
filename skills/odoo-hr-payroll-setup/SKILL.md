@@ -4,7 +4,9 @@ description: 'Expert guide for Odoo HR and Payroll: salary structures, payslip r
   leave policies, employee contracts, and payroll journal entries.'
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

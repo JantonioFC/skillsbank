@@ -12,11 +12,10 @@ tags:
 - pipe
 - flow
 - data-transformation
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # fp-ts Pipe and Flow Composition
 
@@ -716,4 +715,4 @@ Remember:
 - Let TypeScript infer types when possible
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

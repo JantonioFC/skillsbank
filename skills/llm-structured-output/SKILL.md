@@ -7,7 +7,9 @@ description: 'Get reliable JSON, enums, and typed objects from LLMs using respon
 risk: safe
 source: community
 date_added: '2026-03-12'
+license: MIT
 ---
+
 
 
 # LLM Structured Output

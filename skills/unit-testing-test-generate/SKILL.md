@@ -2,13 +2,10 @@
 name: unit-testing-test-generate
 description: Generate comprehensive, maintainable unit tests across languages with
   strong coverage and edge case focus.
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Automated Unit Test Generation
 
@@ -325,7 +322,5 @@ def generate_mock_objects(self, dependencies: List[str]) -> str:
 
 Focus on generating maintainable, comprehensive tests that catch bugs early and provide confidence in code changes.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for unit-testing-test-generate.
+- Use this skill when you need for functional programming or specific domain tasks.

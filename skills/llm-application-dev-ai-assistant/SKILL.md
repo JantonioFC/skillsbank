@@ -3,13 +3,10 @@ name: llm-application-dev-ai-assistant
 description: You are an AI assistant development expert specializing in creating intelligent
   conversational interfaces, chatbots, and AI-powered applications. Design comprehensive
   AI assistant solutions with natur
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # AI Assistant Development
 
@@ -42,7 +39,5 @@ $ARGUMENTS
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for llm-application-dev-ai-assistant.
+- Use this skill when you need for functional programming or specific domain tasks.

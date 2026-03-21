@@ -5,9 +5,11 @@ description: Fetch unread GitHub notifications for open PRs where review is requ
   need to review", "show my review requests", "what needs my review", "fetch GitHub
   review requests", or "check team review queue".
 allowed-tools: Bash
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 # GitHub Review Requests

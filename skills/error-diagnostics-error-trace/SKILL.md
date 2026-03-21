@@ -3,13 +3,10 @@ name: error-diagnostics-error-trace
 description: You are an error tracking and observability expert specializing in implementing
   comprehensive error monitoring solutions. Set up error tracking systems, configure
   alerts, implement structured logging,
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Error Tracking and Monitoring
 
@@ -55,7 +52,5 @@ Focus on providing comprehensive error visibility, intelligent alerting, and qui
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for error-diagnostics-error-trace.
+- Use this skill when you need for functional programming or specific domain tasks.

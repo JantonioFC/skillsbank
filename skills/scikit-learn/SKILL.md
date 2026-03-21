@@ -5,9 +5,10 @@ description: Machine learning in Python with scikit-learn. Use for classificatio
 license: BSD-3-Clause license
 metadata:
   skill-author: K-Dense Inc.
-risk: unknown
+risk: safe
 source: community
 ---
+
 
 
 # Scikit-learn

@@ -8,7 +8,9 @@ category: andruia
 risk: safe
 source: personal
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

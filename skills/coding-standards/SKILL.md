@@ -1,46 +1,54 @@
 ---
 name: coding-standards
-description: Universal coding standards, best practices, and patterns for TypeScript,
-  JavaScript, React, and Node.js development.
-risk: unknown
+description: TypeScript, JavaScript, React, Node.js 개발을 위한 범용 코딩 표준, 모범 사례 및 패턴.
+origin: ECC
+risk: safe
 source: community
+license: MIT
 ---
 
+# 코딩 표준 및 모범 사례
 
+모든 프로젝트에 적용 가능한 범용 코딩 표준.
 
-# Coding Standards & Best Practices
+## 활성화 시점
 
-Universal coding standards applicable across all projects.
+- 새 프로젝트 또는 모듈을 시작할 때
+- 코드 품질 및 유지보수성을 검토할 때
+- 기존 코드를 컨벤션에 맞게 리팩터링할 때
+- 네이밍, 포맷팅 또는 구조적 일관성을 적용할 때
+- 린팅, 포맷팅 또는 타입 검사 규칙을 설정할 때
+- 새 기여자에게 코딩 컨벤션을 안내할 때
 
-## Code Quality Principles
+## 코드 품질 원칙
 
-### 1. Readability First
-- Code is read more than written
-- Clear variable and function names
-- Self-documenting code preferred over comments
-- Consistent formatting
+### 1. 가독성 우선
+- 코드는 작성보다 읽히는 횟수가 더 많다
+- 명확한 변수 및 함수 이름 사용
+- 주석보다 자기 문서화 코드를 선호
+- 일관된 포맷팅 유지
 
 ### 2. KISS (Keep It Simple, Stupid)
-- Simplest solution that works
-- Avoid over-engineering
-- No premature optimization
-- Easy to understand > clever code
+- 동작하는 가장 단순한 해결책
+- 과도한 엔지니어링 지양
+- 조기 최적화 금지
+- 이해하기 쉬운 코드 > 영리한 코드
 
 ### 3. DRY (Don't Repeat Yourself)
-- Extract common logic into functions
-- Create reusable components
-- Share utilities across modules
-- Avoid copy-paste programming
+- 공통 로직을 함수로 추출
+- 재사용 가능한 컴포넌트 생성
+- 모듈 간 유틸리티 공유
+- 복사-붙여넣기 프로그래밍 지양
 
 ### 4. YAGNI (You Aren't Gonna Need It)
-- Don't build features before they're needed
-- Avoid speculative generality
-- Add complexity only when required
-- Start simple, refactor when needed
+- 필요하기 전에 기능을 만들지 않기
+- 추측에 의한 일반화 지양
+- 필요할 때만 복잡성 추가
+- 단순하게 시작하고 필요할 때 리팩터링
 
-## TypeScript/JavaScript Standards
+## TypeScript/JavaScript 표준
 
-### Variable Naming
+### 변수 네이밍
 
 ```typescript
 // ✅ GOOD: Descriptive names
@@ -54,7 +62,7 @@ const flag = true
 const x = 1000
 ```
 
-### Function Naming
+### 함수 네이밍
 
 ```typescript
 // ✅ GOOD: Verb-noun pattern
@@ -68,7 +76,7 @@ function similarity(a, b) { }
 function email(e) { }
 ```
 
-### Immutability Pattern (CRITICAL)
+### 불변성 패턴 (필수)
 
 ```typescript
 // ✅ ALWAYS use spread operator
@@ -84,7 +92,7 @@ user.name = 'New Name'  // BAD
 items.push(newItem)     // BAD
 ```
 
-### Error Handling
+### 에러 처리
 
 ```typescript
 // ✅ GOOD: Comprehensive error handling
@@ -110,7 +118,7 @@ async function fetchData(url) {
 }
 ```
 
-### Async/Await Best Practices
+### Async/Await 모범 사례
 
 ```typescript
 // ✅ GOOD: Parallel execution when possible
@@ -126,7 +134,7 @@ const markets = await fetchMarkets()
 const stats = await fetchStats()
 ```
 
-### Type Safety
+### 타입 안전성
 
 ```typescript
 // ✅ GOOD: Proper types
@@ -147,9 +155,9 @@ function getMarket(id: any): Promise<any> {
 }
 ```
 
-## React Best Practices
+## React 모범 사례
 
-### Component Structure
+### 컴포넌트 구조
 
 ```typescript
 // ✅ GOOD: Functional component with types
@@ -183,7 +191,7 @@ export function Button(props) {
 }
 ```
 
-### Custom Hooks
+### 커스텀 Hook
 
 ```typescript
 // ✅ GOOD: Reusable custom hook
@@ -205,7 +213,7 @@ export function useDebounce<T>(value: T, delay: number): T {
 const debouncedQuery = useDebounce(searchQuery, 500)
 ```
 
-### State Management
+### 상태 관리
 
 ```typescript
 // ✅ GOOD: Proper state updates
@@ -218,7 +226,7 @@ setCount(prev => prev + 1)
 setCount(count + 1)  // Can be stale in async scenarios
 ```
 
-### Conditional Rendering
+### 조건부 렌더링
 
 ```typescript
 // ✅ GOOD: Clear conditional rendering
@@ -230,9 +238,9 @@ setCount(count + 1)  // Can be stale in async scenarios
 {isLoading ? <Spinner /> : error ? <ErrorMessage error={error} /> : data ? <DataDisplay data={data} /> : null}
 ```
 
-## API Design Standards
+## API 설계 표준
 
-### REST API Conventions
+### REST API 컨벤션
 
 ```
 GET    /api/markets              # List all markets
@@ -246,7 +254,7 @@ DELETE /api/markets/:id          # Delete market
 GET /api/markets?status=active&limit=10&offset=0
 ```
 
-### Response Format
+### 응답 형식
 
 ```typescript
 // ✅ GOOD: Consistent response structure
@@ -275,7 +283,7 @@ return NextResponse.json({
 }, { status: 400 })
 ```
 
-### Input Validation
+### 입력 유효성 검사
 
 ```typescript
 import { z } from 'zod'
@@ -306,9 +314,9 @@ export async function POST(request: Request) {
 }
 ```
 
-## File Organization
+## 파일 구성
 
-### Project Structure
+### 프로젝트 구조
 
 ```
 src/
@@ -329,7 +337,7 @@ src/
 └── styles/              # Global styles
 ```
 
-### File Naming
+### 파일 네이밍
 
 ```
 components/Button.tsx          # PascalCase for components
@@ -338,9 +346,9 @@ lib/formatDate.ts             # camelCase for utilities
 types/market.types.ts         # camelCase with .types suffix
 ```
 
-## Comments & Documentation
+## 주석 및 문서화
 
-### When to Comment
+### 주석을 작성해야 하는 경우
 
 ```typescript
 // ✅ GOOD: Explain WHY, not WHAT
@@ -358,7 +366,7 @@ count++
 name = user.name
 ```
 
-### JSDoc for Public APIs
+### 공개 API를 위한 JSDoc
 
 ```typescript
 /**
@@ -383,16 +391,16 @@ export async function searchMarkets(
 }
 ```
 
-## Performance Best Practices
+## 성능 모범 사례
 
-### Memoization
+### 메모이제이션
 
 ```typescript
 import { useMemo, useCallback } from 'react'
 
 // ✅ GOOD: Memoize expensive computations
 const sortedMarkets = useMemo(() => {
-  return markets.sort((a, b) => b.volume - a.volume)
+  return [...markets].sort((a, b) => b.volume - a.volume)
 }, [markets])
 
 // ✅ GOOD: Memoize callbacks
@@ -401,7 +409,7 @@ const handleSearch = useCallback((query: string) => {
 }, [])
 ```
 
-### Lazy Loading
+### 지연 로딩
 
 ```typescript
 import { lazy, Suspense } from 'react'
@@ -418,7 +426,7 @@ export function Dashboard() {
 }
 ```
 
-### Database Queries
+### 데이터베이스 쿼리
 
 ```typescript
 // ✅ GOOD: Select only needed columns
@@ -433,9 +441,9 @@ const { data } = await supabase
   .select('*')
 ```
 
-## Testing Standards
+## 테스트 표준
 
-### Test Structure (AAA Pattern)
+### 테스트 구조 (AAA 패턴)
 
 ```typescript
 test('calculates similarity correctly', () => {
@@ -451,7 +459,7 @@ test('calculates similarity correctly', () => {
 })
 ```
 
-### Test Naming
+### 테스트 네이밍
 
 ```typescript
 // ✅ GOOD: Descriptive test names
@@ -464,11 +472,11 @@ test('works', () => { })
 test('test search', () => { })
 ```
 
-## Code Smell Detection
+## 코드 스멜 감지
 
-Watch for these anti-patterns:
+다음 안티패턴을 주의하세요:
 
-### 1. Long Functions
+### 1. 긴 함수
 ```typescript
 // ❌ BAD: Function > 50 lines
 function processMarketData() {
@@ -483,7 +491,7 @@ function processMarketData() {
 }
 ```
 
-### 2. Deep Nesting
+### 2. 깊은 중첩
 ```typescript
 // ❌ BAD: 5+ levels of nesting
 if (user) {
@@ -508,7 +516,7 @@ if (!hasPermission) return
 // Do something
 ```
 
-### 3. Magic Numbers
+### 3. 매직 넘버
 ```typescript
 // ❌ BAD: Unexplained numbers
 if (retryCount > 3) { }
@@ -522,7 +530,7 @@ if (retryCount > MAX_RETRIES) { }
 setTimeout(callback, DEBOUNCE_DELAY_MS)
 ```
 
-**Remember**: Code quality is not negotiable. Clear, maintainable code enables rapid development and confident refactoring.
+**기억하세요**: 코드 품질은 타협할 수 없습니다. 명확하고 유지보수 가능한 코드가 빠른 개발과 자신감 있는 리팩터링을 가능하게 합니다.
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

@@ -1,9 +1,11 @@
 ---
 name: expo-ui-jetpack-compose
 description: expo-ui-jetpack-compose
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 ---

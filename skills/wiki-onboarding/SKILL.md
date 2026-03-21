@@ -1,13 +1,19 @@
 ---
 name: wiki-onboarding
-description: "Generate two complementary onboarding documents that together give any engineer — from newcomer to principal — a complete understanding of a codebase. Use when user asks for onboarding docs or getting-started guides, user runs /deep-wiki, or user wants to help new team members understand a codebase."
-risk: unknown
+description: Generates four audience-tailored onboarding guides in an onboarding/
+  folder — Contributor, Staff Engineer, Executive, and Product Manager. Use when the
+  user wants onboarding documentation for a codebase.
+risk: offensive
 source: community
+license: MIT
 ---
 
-
-
 # Wiki Onboarding Guide Generator
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Generate four audience-tailored onboarding documents in an `onboarding/` folder, each giving a different stakeholder exactly the understanding they need.
 
@@ -22,7 +28,8 @@ Before generating any guides, you MUST determine the source repository context:
 3. **Determine default branch**: Run `git rev-parse --abbrev-ref HEAD`
 4. **Do NOT proceed** until source repo context is resolved
 
-## When to Use
+## When to Activate
+
 - User asks for onboarding docs or getting-started guides
 - User runs `/deep-wiki:onboard` command
 - User wants to help new team members understand a codebase
@@ -223,4 +230,4 @@ After generating each guide, verify:
 - Each guide is appropriate for its audience — no code in Executive/PM guides
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

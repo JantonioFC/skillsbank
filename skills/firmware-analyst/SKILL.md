@@ -1,23 +1,23 @@
 ---
 name: firmware-analyst
 description: Expert firmware analyst specializing in embedded systems, IoT security,
-  and hardware reverse engineering.
-risk: unknown
+  and hardware reverse engineering. Masters firmware extraction, analysis, and vulnerability
+  research for routers, IoT devices, automotive systems, and industrial controllers.
+  Use PROACTIVELY for firmware security audits, IoT p...
+metadata:
+  model: opus
+risk: offensive
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
 
+# Download from vendor
 
-
-
-
-
-> [!IMPORTANT]
 > **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
-# Download from vendorwget http://vendor.com/firmware/update.bin
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
+wget http://vendor.com/firmware/update.bin
 
 # Extract from device via debug interface
 # UART console access
@@ -326,7 +326,5 @@ sudo chroot squashfs-root /usr/bin/qemu-arm-static /bin/httpd
 5. **Identify issues**: Security vulnerabilities and misconfigurations
 6. **Document findings**: Clear reporting with remediation guidance
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for firmware-analyst.
+- Use this skill when you need for functional programming or specific domain tasks.

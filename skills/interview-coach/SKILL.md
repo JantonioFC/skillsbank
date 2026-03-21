@@ -16,7 +16,9 @@ tags:
 - negotiation
 tools:
 - claude
+license: MIT
 ---
+
 
 
 # Interview Coach

@@ -2,14 +2,15 @@
 name: deploy-model
 description: 'Unified Azure OpenAI model deployment skill with intelligent intent-based
   routing. Handles quick preset deployments, fully customized deployments (version/SKU/capacity/RAI
-  policy), and capacity discovery across regions and projects.
-
-  USE FOR: deploy model, deploy gpt, create deployment, mod...'
-risk: unknown
+  policy), and capacity discovery across regions and projects. USE FOR: deploy model,
+  deploy gpt, create deployment, model depl...'
+license: MIT
+metadata:
+  author: Microsoft
+  version: 1.0.0
+risk: safe
 source: community
 ---
-
-
 
 # Deploy Model
 
@@ -146,3 +147,6 @@ All deployment modes require:
 - **[preset/SKILL.md](preset/SKILL.md)** — Quick deployment to optimal region with sensible defaults
 - **[customize/SKILL.md](customize/SKILL.md)** — Interactive guided flow with full configuration control
 - **[capacity/SKILL.md](capacity/SKILL.md)** — Discover available capacity across regions and projects
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

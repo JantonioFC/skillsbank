@@ -1,13 +1,17 @@
 ---
 name: azure-eventhub-rust
-description: Azure Event Hubs SDK for Rust. Use for sending and receiving events,
+description: 'Azure Event Hubs SDK for Rust. Use for sending and receiving events,
   streaming data ingestion.
-risk: unknown
+
+  Triggers: "event hubs rust", "ProducerClient rust", "ConsumerClient rust", "send
+  event rust", "streaming rust".
+
+  '
+package: azure_messaging_eventhubs
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Azure Event Hubs SDK for Rust
 
@@ -130,4 +134,4 @@ cargo add azure_messaging_eventhubs_checkpointstore_blob
 | crates.io | https://crates.io/crates/azure_messaging_eventhubs |
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

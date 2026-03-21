@@ -5,11 +5,10 @@ description: Create platform-native content systems for X, LinkedIn, TikTok, You
   posts, threads, scripts, content calendars, or one source asset adapted cleanly
   across platforms.
 origin: ECC
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
-
 
 # Content Engine
 
@@ -95,4 +94,4 @@ Before delivering:
 - the CTA matches the content and audience
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

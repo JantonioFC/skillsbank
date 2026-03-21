@@ -17,7 +17,9 @@ tools:
 - claude
 - cursor
 - gemini
+license: MIT
 ---
+
 
 
 # LEX: Legal-Entity-X-ref

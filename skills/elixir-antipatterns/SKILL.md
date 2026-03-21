@@ -8,10 +8,10 @@ description: 'Core catalog of 8 critical Elixir/Phoenix anti-patterns covering e
 metadata:
   author: tsardinasGitHub
   version: '1.0'
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
-
 
 # Elixir Anti-Patterns
 

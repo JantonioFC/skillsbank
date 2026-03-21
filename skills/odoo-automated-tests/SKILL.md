@@ -4,7 +4,9 @@ description: Write and run Odoo automated tests using TransactionCase, HttpCase,
   browser tour tests. Covers test data setup, mocking, and CI integration.
 risk: safe
 source: self
+license: MIT
 ---
+
 
 
 

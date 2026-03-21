@@ -1,14 +1,23 @@
 ---
 name: wordpress-penetration-testing
-description: "Conduct comprehensive security assessments of WordPress installations including enumeration of users, themes, and plugins, vulnerability scanning, credential attacks, and exploitation techniques. WordPress powers approximately 35% of websites, making it a critical target for security testing."
-risk: unknown
+description: This skill should be used when the user asks to "pentest WordPress sites",
+  "scan WordPress for vulnerabilities", "enumerate WordPress users, themes, or plugins",
+  "exploit WordPress vulnerabilities", or "use WPScan". It provides comprehensive
+  WordPress security assessment methodologies.
+metadata:
+  author: zebbern
+  version: '1.1'
+risk: offensive
 source: community
-author: zebbern
-date_added: '2026-02-27'
+license: MIT
 ---
 
-
 # WordPress Penetration Testing
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -487,4 +496,4 @@ wpscan --url https://target.com --disable-tls-checks
 4. Check for login URL changes (security plugins)
 
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

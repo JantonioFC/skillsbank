@@ -6,7 +6,9 @@ description: A practical, jargon-free guide to fp-ts functional programming - th
 risk: safe
 source: https://github.com/whatiskadudoing/fp-ts-skills
 date_added: '2026-02-27'
+license: MIT
 ---
+
 
 
 

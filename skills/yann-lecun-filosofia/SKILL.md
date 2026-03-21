@@ -1,6 +1,6 @@
 ---
 name: yann-lecun-filosofia
-description: "Sub-skill filosófica e pedagógica de Yann LeCun."
+description: Sub-skill filosófica e pedagógica de Yann LeCun.
 risk: safe
 source: community
 date_added: '2026-03-06'
@@ -16,7 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+license: MIT
 ---
+
 
 
 # YANN LECUN — MÓDULO FILOSÓFICO E PEDAGÓGICO v3.0

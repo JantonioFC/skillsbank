@@ -1,18 +1,30 @@
 ---
 name: dependency-upgrade
-description: "Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches."
-risk: unknown
+description: Manage major dependency version upgrades with compatibility analysis,
+  staged rollout, and comprehensive testing. Use when upgrading framework versions,
+  updating major dependencies, or managing breaking changes in libraries.
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
 
 # Dependency Upgrade
 
 Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches.
 
-## When to Use This Skill
+## Do not use this skill when
+
+- The task is unrelated to dependency upgrade
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
+## Use this skill when
 
 - Upgrading major framework versions
 - Updating security-vulnerable dependencies
@@ -39,7 +51,6 @@ PATCH: Bug fixes, backward compatible
 ## Dependency Analysis
 
 ### Audit Dependencies
-
 ```bash
 # npm
 npm outdated
@@ -56,7 +67,6 @@ npx npm-check-updates -u  # Update package.json
 ```
 
 ### Analyze Dependency Tree
-
 ```bash
 # See why a package is installed
 npm ls package-name
@@ -75,23 +85,23 @@ npx madge --image graph.png src/
 ```javascript
 // compatibility-matrix.js
 const compatibilityMatrix = {
-  react: {
-    "16.x": {
-      "react-dom": "^16.0.0",
-      "react-router-dom": "^5.0.0",
-      "@testing-library/react": "^11.0.0",
+  'react': {
+    '16.x': {
+      'react-dom': '^16.0.0',
+      'react-router-dom': '^5.0.0',
+      '@testing-library/react': '^11.0.0'
     },
-    "17.x": {
-      "react-dom": "^17.0.0",
-      "react-router-dom": "^5.0.0 || ^6.0.0",
-      "@testing-library/react": "^12.0.0",
+    '17.x': {
+      'react-dom': '^17.0.0',
+      'react-router-dom': '^5.0.0 || ^6.0.0',
+      '@testing-library/react': '^12.0.0'
     },
-    "18.x": {
-      "react-dom": "^18.0.0",
-      "react-router-dom": "^6.0.0",
-      "@testing-library/react": "^13.0.0",
-    },
-  },
+    '18.x': {
+      'react-dom': '^18.0.0',
+      'react-router-dom': '^6.0.0',
+      '@testing-library/react': '^13.0.0'
+    }
+  }
 };
 
 function checkCompatibility(packages) {
@@ -102,7 +112,6 @@ function checkCompatibility(packages) {
 ## Staged Upgrade Strategy
 
 ### Phase 1: Planning
-
 ```bash
 # 1. Identify current versions
 npm list --depth=0
@@ -120,7 +129,6 @@ echo "Upgrade order:
 ```
 
 ### Phase 2: Incremental Updates
-
 ```bash
 # Don't upgrade everything at once!
 
@@ -144,18 +152,17 @@ npm install react-router-dom@6
 ```
 
 ### Phase 3: Validation
-
 ```javascript
 // tests/compatibility.test.js
-describe("Dependency Compatibility", () => {
-  it("should have compatible React versions", () => {
-    const reactVersion = require("react/package.json").version;
-    const reactDomVersion = require("react-dom/package.json").version;
+describe('Dependency Compatibility', () => {
+  it('should have compatible React versions', () => {
+    const reactVersion = require('react/package.json').version;
+    const reactDomVersion = require('react-dom/package.json').version;
 
     expect(reactVersion).toBe(reactDomVersion);
   });
 
-  it("should not have peer dependency warnings", () => {
+  it('should not have peer dependency warnings', () => {
     // Run npm ls and check for warnings
   });
 });
@@ -164,49 +171,46 @@ describe("Dependency Compatibility", () => {
 ## Breaking Change Handling
 
 ### Identifying Breaking Changes
-
 ```bash
-# Check the changelog directly
-curl https://raw.githubusercontent.com/facebook/react/master/CHANGELOG.md
+# Use changelog parsers
+npx changelog-parser react 16.0.0 17.0.0
+
+# Or manually check
+curl https://raw.githubusercontent.com/facebook/react/main/CHANGELOG.md
 ```
 
 ### Codemod for Automated Fixes
-
 ```bash
-# Run jscodeshift with transform URL
-npx jscodeshift -t <transform-url> <path>
+# React upgrade codemods
+npx react-codeshift <transform> <path>
 
-# Example: Rename unsafe lifecycle methods
-npx jscodeshift -t https://raw.githubusercontent.com/reactjs/react-codemod/master/transforms/rename-unsafe-lifecycles.js src/
-
-# For TypeScript files
-npx jscodeshift -t https://raw.githubusercontent.com/reactjs/react-codemod/master/transforms/rename-unsafe-lifecycles.js --parser=tsx src/
-
-# Dry run to preview changes
-npx jscodeshift -t https://raw.githubusercontent.com/reactjs/react-codemod/master/transforms/rename-unsafe-lifecycles.js --dry src/
+# Example: Update lifecycle methods
+npx react-codeshift \
+  --parser tsx \
+  --transform react-codeshift/transforms/rename-unsafe-lifecycles.js \
+  src/
 ```
 
 ### Custom Migration Script
-
 ```javascript
 // migration-script.js
-const fs = require("fs");
-const glob = require("glob");
+const fs = require('fs');
+const glob = require('glob');
 
-glob("src/**/*.tsx", (err, files) => {
-  files.forEach((file) => {
-    let content = fs.readFileSync(file, "utf8");
+glob('src/**/*.tsx', (err, files) => {
+  files.forEach(file => {
+    let content = fs.readFileSync(file, 'utf8');
 
     // Replace old API with new API
     content = content.replace(
       /componentWillMount/g,
-      "UNSAFE_componentWillMount",
+      'UNSAFE_componentWillMount'
     );
 
     // Update imports
     content = content.replace(
       /import { Component } from 'react'/g,
-      "import React, { Component } from 'react'",
+      "import React, { Component } from 'react'"
     );
 
     fs.writeFileSync(file, content);
@@ -217,7 +221,6 @@ glob("src/**/*.tsx", (err, files) => {
 ## Testing Strategy
 
 ### Unit Tests
-
 ```javascript
 // Ensure tests pass before and after upgrade
 npm run test
@@ -227,28 +230,26 @@ npm install @testing-library/react@latest
 ```
 
 ### Integration Tests
-
 ```javascript
 // tests/integration/app.test.js
-describe("App Integration", () => {
-  it("should render without crashing", () => {
+describe('App Integration', () => {
+  it('should render without crashing', () => {
     render(<App />);
   });
 
-  it("should handle navigation", () => {
+  it('should handle navigation', () => {
     const { getByText } = render(<App />);
-    fireEvent.click(getByText("Navigate"));
-    expect(screen.getByText("New Page")).toBeInTheDocument();
+    fireEvent.click(getByText('Navigate'));
+    expect(screen.getByText('New Page')).toBeInTheDocument();
   });
 });
 ```
 
 ### Visual Regression Tests
-
 ```javascript
 // visual-regression.test.js
-describe("Visual Regression", () => {
-  it("should match snapshot", () => {
+describe('Visual Regression', () => {
+  it('should match snapshot', () => {
     const { container } = render(<App />);
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -256,16 +257,15 @@ describe("Visual Regression", () => {
 ```
 
 ### E2E Tests
-
 ```javascript
 // cypress/e2e/app.cy.js
-describe("E2E Tests", () => {
-  it("should complete user flow", () => {
-    cy.visit("/");
+describe('E2E Tests', () => {
+  it('should complete user flow', () => {
+    cy.visit('/');
     cy.get('[data-testid="login"]').click();
-    cy.get('input[name="email"]').type("user@example.com");
+    cy.get('input[name="email"]').type('user@example.com');
     cy.get('button[type="submit"]').click();
-    cy.url().should("include", "/dashboard");
+    cy.url().should('include', '/dashboard');
   });
 });
 ```
@@ -273,7 +273,6 @@ describe("E2E Tests", () => {
 ## Automated Dependency Updates
 
 ### Renovate Configuration
-
 ```json
 // renovate.json
 {
@@ -295,7 +294,6 @@ describe("E2E Tests", () => {
 ```
 
 ### Dependabot Configuration
-
 ```yaml
 # .github/dependabot.yml
 version: 2
@@ -341,7 +339,6 @@ fi
 ## Common Upgrade Patterns
 
 ### Lock File Management
-
 ```bash
 # npm
 npm install --package-lock-only  # Update lock file only
@@ -353,7 +350,6 @@ yarn upgrade-interactive  # Interactive upgrades
 ```
 
 ### Peer Dependency Resolution
-
 ```bash
 # npm 7+: strict peer dependencies
 npm install --legacy-peer-deps  # Ignore peer deps
@@ -363,7 +359,6 @@ npm install --force
 ```
 
 ### Workspace Upgrades
-
 ```bash
 # Update all workspace packages
 npm install --workspaces
@@ -397,7 +392,6 @@ npm install package@latest --workspace=packages/app
 
 ```markdown
 Pre-Upgrade:
-
 - [ ] Review current dependency versions
 - [ ] Read changelogs for breaking changes
 - [ ] Create feature branch
@@ -405,7 +399,6 @@ Pre-Upgrade:
 - [ ] Run full test suite (baseline)
 
 During Upgrade:
-
 - [ ] Upgrade one dependency at a time
 - [ ] Update peer dependencies
 - [ ] Fix TypeScript errors
@@ -414,7 +407,6 @@ During Upgrade:
 - [ ] Check bundle size impact
 
 Post-Upgrade:
-
 - [ ] Full regression testing
 - [ ] Performance testing
 - [ ] Update documentation
@@ -432,3 +424,6 @@ Post-Upgrade:
 - Not reading breaking change notes
 - Skipping major versions
 - Not having rollback plan
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

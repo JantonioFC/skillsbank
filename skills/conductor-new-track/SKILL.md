@@ -1,13 +1,12 @@
 ---
 name: conductor-new-track
 description: Create a new track with specification and phased implementation plan
-risk: unknown
+metadata:
+  argument-hint: <feature|bug|chore|refactor> <name>
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # New Track
 
@@ -265,7 +264,7 @@ After spec approval, generate `conductor/tracks/{trackId}/plan.md`:
 # Implementation Plan: {Track Title}
 
 **Track ID:** {trackId}
-**Spec:** spec.md
+**Spec:** [spec.md](./spec.md)
 **Created:** {YYYY-MM-DD}
 **Status:** [ ] Not Started
 
@@ -389,8 +388,8 @@ After plan approval:
 
    ## Documents
 
-   - Specification
-   - Implementation Plan
+   - [Specification](./spec.md)
+   - [Implementation Plan](./plan.md)
 
    ## Progress
 
@@ -399,8 +398,8 @@ After plan approval:
 
    ## Quick Links
 
-   - Back to Tracks
-   - Product Context
+   - [Back to Tracks](../../tracks.md)
+   - [Product Context](../../product.md)
    ```
 
 4. Register in `conductor/tracks.md`:
@@ -436,7 +435,5 @@ Next steps:
 - If any file write fails: Clean up partial track, report error
 - If tracks.md update fails: Warn user to manually register track
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for conductor-new-track.
+- Use this skill when you need for functional programming or specific domain tasks.

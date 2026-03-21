@@ -1,13 +1,13 @@
 ---
 name: gemini-api-dev
-description: "The Gemini API provides access to Google's most advanced AI models. Key capabilities include:"
-risk: unknown
+description: Use this skill when building applications with Gemini models, Gemini
+  API, working with multimodal content (text, images, audio, video), implementing
+  function calling, using structured outputs, or needing current model specifications.
+  Covers SDK usage (google-genai for Python, @google/genai for Ja...
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Gemini API Development Skill
 
@@ -37,6 +37,21 @@ The Gemini API provides access to Google's most advanced AI models. Key capabili
 - **Python**: `google-genai` install with `pip install google-genai`
 - **JavaScript/TypeScript**: `@google/genai` install with `npm install @google/genai`
 - **Go**: `google.golang.org/genai` install with `go get google.golang.org/genai`
+- **Java**:
+  - groupId: `com.google.genai`, artifactId: `google-genai`
+  - Latest version can be found here: https://central.sonatype.com/artifact/com.google.genai/google-genai/versions (let's call it `LAST_VERSION`) 
+  - Install in `build.gradle`:
+    ```
+    implementation("com.google.genai:google-genai:${LAST_VERSION}")
+    ```
+  - Install Maven dependency in `pom.xml`:
+    ```
+    <dependency>
+	    <groupId>com.google.genai</groupId>
+	    <artifactId>google-genai</artifactId>
+	    <version>${LAST_VERSION}</version>
+	</dependency>
+    ```
 
 > [!WARNING]
 > Legacy SDKs `google-generativeai` (Python) and `@google/generative-ai` (JS) are deprecated. Migrate to the new SDKs above urgently by following the Migration Guide.
@@ -94,6 +109,26 @@ func main() {
 }
 ```
 
+### Java
+
+```java
+import com.google.genai.Client;
+import com.google.genai.types.GenerateContentResponse;
+
+public class GenerateTextFromTextInput {
+  public static void main(String[] args) {
+    Client client = new Client();
+    GenerateContentResponse response =
+        client.models.generateContent(
+            "gemini-3-flash-preview",
+            "Explain quantum computing",
+            null);
+
+    System.out.println(response.text());
+  }
+}
+```
+
 ## API spec (source of truth)
 
 **Always use the latest REST API discovery spec as the source of truth for API definitions** (request/response schemas, parameters, methods). Fetch the spec when implementing or debugging API integration:
@@ -132,5 +167,9 @@ This index contains links to all documentation pages in `.md.txt` format. Use we
 - [Interactions API](https://ai.google.dev/gemini-api/docs/interactions.md.txt)
 - [SDK migration guide](https://ai.google.dev/gemini-api/docs/migrate.md.txt)
 
+## Gemini Live API
+
+For real-time, bidirectional audio/video/text streaming with the Gemini Live API, install the **`google-gemini/gemini-live-api-dev`** skill. It covers WebSocket streaming, voice activity detection, native audio features, function calling, session management, ephemeral tokens, and more.
+
 ## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Use this skill when you need for functional programming or specific domain tasks.

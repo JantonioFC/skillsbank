@@ -5,14 +5,16 @@ description: Provides expertise for analyzing DWARF debug files and understandin
   interacting with DWARF files, answering DWARF-related questions, or working with
   code that parses DWARF data.
 allowed-tools:
-  - Read
-  - Bash
-  - Grep
-  - Glob
-  - WebSearch
-risk: unknown
+- Read
+- Bash
+- Grep
+- Glob
+- WebSearch
+risk: safe
 source: community
+license: MIT
 ---
+
 
 # Overview
 This skill provides technical knowledge and expertise about the DWARF standard and how to interact with DWARF files. Tasks include answering questions about the DWARF standard, providing examples of various DWARF features, parsing and/or creating DWARF files, and writing/modifying/analyzing code that interacts with DWARF data.

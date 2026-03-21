@@ -3,13 +3,10 @@ name: frontend-mobile-development-component-scaffold
 description: You are a React component architecture expert specializing in scaffolding
   production-ready, accessible, and performant components. Generate complete component
   implementations with TypeScript, tests, s
-risk: unknown
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # React/React Native Component Scaffolding
 
@@ -410,7 +407,5 @@ export const Interactive: Story = {
 
 Focus on creating production-ready, accessible, and maintainable components that follow modern React patterns and best practices.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for frontend-mobile-development-component-scaffold.
+- Use this skill when you need for functional programming or specific domain tasks.

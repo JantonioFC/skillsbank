@@ -17,7 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+license: MIT
 ---
+
 
 
 # SKILL JURÍDICA — LEILÕES DE IMÓVEIS

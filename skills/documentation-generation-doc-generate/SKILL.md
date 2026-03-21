@@ -1,13 +1,13 @@
 ---
 name: documentation-generation-doc-generate
-description: "You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices."
-risk: unknown
+description: You are a documentation expert specializing in creating comprehensive,
+  maintainable documentation from code. Generate API docs, architecture diagrams,
+  user guides, and technical references using AI-powered analysis and industry best
+  practices.
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Automated Documentation Generation
 
@@ -53,7 +53,5 @@ $ARGUMENTS
 
 - `resources/implementation-playbook.md` for detailed examples and templates.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for documentation-generation-doc-generate.
+- Use this skill when you need for functional programming or specific domain tasks.

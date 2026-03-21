@@ -2,13 +2,11 @@
 name: game-development
 description: Game development orchestrator. Routes to platform-specific skills based
   on project needs.
-risk: unknown
+allowed-tools: Read, Write, Edit, Glob, Grep, Bash
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 # Game Development
 

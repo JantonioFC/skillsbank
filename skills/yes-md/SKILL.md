@@ -5,7 +5,9 @@ description: '6-layer AI governance: safety gates, evidence-based debugging, ant
 risk: safe
 source: community
 date_added: '2026-03-11'
+license: MIT
 ---
+
 
 
 # YES.md — AI Governance Engine

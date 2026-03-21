@@ -3,13 +3,12 @@ name: seo-content-refresher
 description: Identifies outdated elements in provided content and suggests updates
   to maintain freshness. Finds statistics, dates, and examples that need updating.
   Use PROACTIVELY for older content.
-risk: unknown
+metadata:
+  model: haiku
+risk: safe
 source: community
-date_added: '2026-02-27'
+license: MIT
 ---
-
-
-
 
 ## Use this skill when
 
@@ -121,7 +120,5 @@ Refresh Actions:
 
 Focus on meaningful updates that add value. Identify specific elements that need refreshing.
 
-
 ## When to Use
-
-Use this skill when you need guidance or automation for seo-content-refresher.
+- Use this skill when you need for functional programming or specific domain tasks.
