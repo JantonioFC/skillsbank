@@ -1,3 +1,6 @@
+---
+description: Sample Skill
+---
 # Sample Text Processor
 
 ---
