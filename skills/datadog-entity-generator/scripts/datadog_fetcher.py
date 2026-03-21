@@ -58,9 +58,9 @@ class DatadogFetcher:
         config = Configuration()
 
         # Check for required env vars
-        if not os.environ.get("DD_API_KEY"):
+        if not os.getenv("DD_API_KEY"):
             self.result.errors.append("DD_API_KEY environment variable not set")
-        if not os.environ.get("DD_APP_KEY"):
+        if not os.getenv("DD_APP_KEY"):
             self.result.errors.append("DD_APP_KEY environment variable not set")
 
         # Enable retry and unstable operations

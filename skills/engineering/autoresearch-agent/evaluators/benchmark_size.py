@@ -5,6 +5,7 @@ DO NOT MODIFY after experiment starts — this is the fixed evaluator."""
 import os
 import subprocess
 import sys
+import shlex
 
 # --- CONFIGURE ONE OF THESE ---
 # Option 1: File size
@@ -23,7 +24,7 @@ TARGET_FILE = "dist/main.js"
 
 # Build if needed
 if "BUILD_CMD" in dir() or "BUILD_CMD" in globals():
-    result = subprocess.run(BUILD_CMD, shell=True, capture_output=True)
+    result = subprocess.run(shlex.split(BUILD_CMD), capture_output=True)
     if result.returncode != 0:
         print(f"Build failed: {result.stderr.decode()[:200]}", file=sys.stderr)
         sys.exit(1)
@@ -31,10 +32,10 @@ if "BUILD_CMD" in dir() or "BUILD_CMD" in globals():
 # Measure
 if "DOCKER_IMAGE" in dir() or "DOCKER_IMAGE" in globals():
     if "DOCKER_BUILD_CMD" in dir():
-        subprocess.run(DOCKER_BUILD_CMD, shell=True, capture_output=True)
+        subprocess.run(shlex.split(DOCKER_BUILD_CMD), capture_output=True)
     result = subprocess.run(
-        f"docker image inspect {DOCKER_IMAGE} --format '{{{{.Size}}}}'",
-        shell=True, capture_output=True, text=True
+        ["docker", "image", "inspect", DOCKER_IMAGE, "--format", "{{.Size}}"],
+        capture_output=True, text=True
     )
     try:
         size_bytes = int(result.stdout.strip())
