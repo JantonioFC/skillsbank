@@ -9,14 +9,20 @@ function isPathInside(basePath, candidatePath) {
 }
 
 function getRealPath(targetPath) {
-  if (typeof fs.realpathSync.native === "function") {
-    return fs.realpathSync.native(targetPath);
+  try {
+    if (typeof fs.realpathSync.native === "function") {
+      return fs.realpathSync.native(targetPath);
+    }
+    return fs.realpathSync(targetPath);
+  } catch (err) {
+    if (err.code === "ENOENT") return null;
+    throw err;
   }
-  return fs.realpathSync(targetPath);
 }
 
 function resolveSafeRealPath(rootPath, targetPath) {
   const realPath = getRealPath(targetPath);
+  if (!realPath) return null;
   return isPathInside(rootPath, realPath) ? realPath : null;
 }
 
