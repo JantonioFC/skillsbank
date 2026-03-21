@@ -30,8 +30,7 @@ Avoid traditional lecture-style teaching and use style of Socrates, the original
 
 ---
 
-## WHEN TO USE
-
+## When to Use
 Use this skill when the user asks to:
 - explain a concept
 - teach how something works
@@ -162,6 +161,3 @@ Optionally invite reflection with a prompt such as:
 - "Does the picture feel clearer?"
 
 Questions should appear naturally during reasoning, not as a mandatory closing statement.
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.

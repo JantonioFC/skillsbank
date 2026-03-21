@@ -4,13 +4,13 @@ description: Creates custom Semgrep rules for detecting security vulnerabilities
   bug patterns, and code patterns. Use when writing Semgrep rules or building custom
   static analysis detections.
 allowed-tools:
-- Bash
-- Read
-- Write
-- Edit
-- Glob
-- Grep
-- WebFetch
+  - Bash
+  - Read
+  - Write
+  - Edit
+  - Glob
+  - Grep
+  - WebFetch
 risk: unknown
 source: community
 ---
@@ -21,7 +21,6 @@ source: community
 Create production-quality Semgrep rules with proper testing and validation.
 
 ## When to Use
-
 **Ideal scenarios:**
 - Writing Semgrep rules for specific bug patterns
 - Writing rules to detect security vulnerabilities in your codebase

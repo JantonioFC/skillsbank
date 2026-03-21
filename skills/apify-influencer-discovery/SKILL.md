@@ -1,7 +1,6 @@
 ---
 name: apify-influencer-discovery
-description: Find and evaluate influencers for brand partnerships, verify authenticity,
-  and track collaboration performance across Instagram, Facebook, YouTube, and TikTok.
+description: Find and evaluate influencers for brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, YouTube, and TikTok.
 risk: unknown
 source: community
 ---
@@ -112,7 +111,6 @@ After completion, report:
 - File location and name
 - Key metrics available (followers, engagement rate, etc.)
 - Suggested next steps (filtering, outreach, deeper analysis)
-
 
 ## Error Handling
 

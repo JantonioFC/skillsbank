@@ -1,8 +1,6 @@
 ---
 name: wiki-onboarding
-description: Generates four audience-tailored onboarding guides in an onboarding/
-  folder — Contributor, Staff Engineer, Executive, and Product Manager. Use when the
-  user wants onboarding documentation for a codebase.
+description: "Generate two complementary onboarding documents that together give any engineer — from newcomer to principal — a complete understanding of a codebase. Use when user asks for onboarding docs or getting-started guides, user runs /deep-wiki, or user wants to help new team members understand a codebase."
 risk: unknown
 source: community
 ---
@@ -24,8 +22,7 @@ Before generating any guides, you MUST determine the source repository context:
 3. **Determine default branch**: Run `git rev-parse --abbrev-ref HEAD`
 4. **Do NOT proceed** until source repo context is resolved
 
-## When to Activate
-
+## When to Use
 - User asks for onboarding docs or getting-started guides
 - User runs `/deep-wiki:onboard` command
 - User wants to help new team members understand a codebase

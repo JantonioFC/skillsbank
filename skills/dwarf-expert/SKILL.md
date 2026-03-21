@@ -5,11 +5,11 @@ description: Provides expertise for analyzing DWARF debug files and understandin
   interacting with DWARF files, answering DWARF-related questions, or working with
   code that parses DWARF data.
 allowed-tools:
-- Read
-- Bash
-- Grep
-- Glob
-- WebSearch
+  - Read
+  - Bash
+  - Grep
+  - Glob
+  - WebSearch
 risk: unknown
 source: community
 ---

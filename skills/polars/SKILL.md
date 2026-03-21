@@ -6,7 +6,7 @@ description: Fast in-memory DataFrame library for datasets that fit in RAM. Use 
   For larger-than-RAM data use dask or vaex.
 license: https://github.com/pola-rs/polars/blob/main/LICENSE
 metadata:
-  skill-author: K-Dense Inc.
+    skill-author: K-Dense Inc.
 risk: unknown
 source: community
 ---
@@ -388,6 +388,3 @@ This skill includes comprehensive reference documentation:
 - `best_practices.md` - Performance optimization tips and common patterns
 
 Load these references as needed when users require detailed information about specific topics.
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.

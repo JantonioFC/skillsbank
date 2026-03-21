@@ -6,7 +6,7 @@ description: Direct REST API access to UniProt. Protein searches, FASTA retrieva
   or UniProt-specific control.
 license: Unknown
 metadata:
-  skill-author: K-Dense Inc.
+    skill-author: K-Dense Inc.
 risk: unknown
 source: community
 ---

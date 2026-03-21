@@ -1,17 +1,10 @@
 ---
 name: analyze-project
-description: Forensic root cause analyzer for Antigravity sessions. Classifies scope
-  deltas, rework patterns, root causes, hotspots, and auto-improves prompts/health.
-version: '1.0'
-tags:
-- analysis
-- diagnostics
-- meta
-- root-cause
-- project-health
-- session-review
+description: Forensic root cause analyzer for Antigravity sessions. Classifies scope deltas, rework patterns, root causes, hotspots, and auto-improves prompts/health.
 risk: unknown
 source: community
+version: "1.0"
+tags: [analysis, diagnostics, meta, root-cause, project-health, session-review]
 ---
 
 

@@ -13,6 +13,7 @@ echo Activating Antigravity skills...
 :: --- ARGUMENT HANDLING ---
 set "DO_CLEAR=0"
 set "EXTRA_ARGS="
+set "SKILLS_LIST_FILE=%TEMP%\skills_list_%RANDOM%_%RANDOM%.txt"
 
 for %%a in (%*) do (
     if /I "%%a"=="--clear" (
@@ -63,46 +64,87 @@ mkdir "%SKILLS_DIR%" 2>nul
 
 
 :: --- BUNDLE EXPANSION ---
-set "ESSENTIALS="
 echo Expanding bundles...
+
+if exist "%SKILLS_LIST_FILE%" del "%SKILLS_LIST_FILE%" 2>nul
 
 python --version >nul 2>&1
 if not errorlevel 1 (
     :: Safely pass all arguments to Python (filtering out --clear)
-    python "%~dp0..\tools\scripts\get-bundle-skills.py" !EXTRA_ARGS! > "%TEMP%\skills_list.txt" 2>nul
+    python "%~dp0..\tools\scripts\get-bundle-skills.py" !EXTRA_ARGS! > "%SKILLS_LIST_FILE%" 2>nul
     
     :: If no other arguments, expand Essentials
-    if "!EXTRA_ARGS!"=="" python "%~dp0..\tools\scripts\get-bundle-skills.py" Essentials > "%TEMP%\skills_list.txt" 2>nul
-    
-    if exist "%TEMP%\skills_list.txt" (
-        set /p ESSENTIALS=<"%TEMP%\skills_list.txt"
-        del "%TEMP%\skills_list.txt"
-    )
+    if "!EXTRA_ARGS!"=="" python "%~dp0..\tools\scripts\get-bundle-skills.py" Essentials > "%SKILLS_LIST_FILE%" 2>nul
 )
 
 :: Fallback if Python fails or returned empty
-if "!ESSENTIALS!"=="" (
+if not exist "%SKILLS_LIST_FILE%" (
     if "!EXTRA_ARGS!"=="" (
         echo Using default essentials...
-        set "ESSENTIALS=api-security-best-practices auth-implementation-patterns backend-security-coder frontend-security-coder cc-skill-security-review pci-compliance frontend-design react-best-practices react-patterns nextjs-best-practices tailwind-patterns form-cro seo-audit ui-ux-pro-max 3d-web-experience canvas-design mobile-design scroll-experience senior-fullstack frontend-developer backend-dev-guidelines api-patterns database-design stripe-integration agent-evaluation langgraph mcp-builder prompt-engineering ai-agents-architect rag-engineer llm-app-patterns rag-implementation prompt-caching context-window-management langfuse"
+        > "%SKILLS_LIST_FILE%" (
+            echo api-security-best-practices
+            echo auth-implementation-patterns
+            echo backend-security-coder
+            echo frontend-security-coder
+            echo cc-skill-security-review
+            echo pci-compliance
+            echo frontend-design
+            echo react-best-practices
+            echo react-patterns
+            echo nextjs-best-practices
+            echo tailwind-patterns
+            echo form-cro
+            echo seo-audit
+            echo ui-ux-pro-max
+            echo 3d-web-experience
+            echo canvas-design
+            echo mobile-design
+            echo scroll-experience
+            echo senior-fullstack
+            echo frontend-developer
+            echo backend-dev-guidelines
+            echo api-patterns
+            echo database-design
+            echo stripe-integration
+            echo agent-evaluation
+            echo langgraph
+            echo mcp-builder
+            echo prompt-engineering
+            echo ai-agents-architect
+            echo rag-engineer
+            echo llm-app-patterns
+            echo rag-implementation
+            echo prompt-caching
+            echo context-window-management
+            echo langfuse
+        )
     ) else (
-        :: Just use the literal arguments
-        set "ESSENTIALS=!EXTRA_ARGS!"
+        :: Use only literal arguments that match the safe skill-id allowlist
+        > "%SKILLS_LIST_FILE%" (
+            for %%a in (%*) do (
+                if /I not "%%a"=="--clear" (
+                    echo(%%a| findstr /r /x "[A-Za-z0-9._-][A-Za-z0-9._-]*" >nul && echo %%a
+                )
+            )
+        )
     )
 )
 
 :: --- RESTORATION ---
 echo Restoring selected skills...
-for %%s in (!ESSENTIALS!) do (
-    if exist "%SKILLS_DIR%\%%s" (
-        echo   . %%s ^(already active^)
-    ) else if exist "%LIBRARY_DIR%\%%s" (
-        echo   + %%s
-        robocopy "%LIBRARY_DIR%\%%s" "%SKILLS_DIR%\%%s" /E /NFL /NDL /NJH /NJS >nul 2>&1
-    ) else (
-        echo   - %%s ^(not found in library^)
+if exist "%SKILLS_LIST_FILE%" (
+    for /f "usebackq delims=" %%s in ("%SKILLS_LIST_FILE%") do (
+        if exist "%SKILLS_DIR%\%%s" (
+            echo   . %%s ^(already active^)
+        ) else if exist "%LIBRARY_DIR%\%%s" (
+            echo   + %%s
+            robocopy "%LIBRARY_DIR%\%%s" "%SKILLS_DIR%\%%s" /E /NFL /NDL /NJH /NJS >nul 2>&1
+        ) else (
+            echo   - %%s ^(not found in library^)
+        )
     )
 )
+if exist "%SKILLS_LIST_FILE%" del "%SKILLS_LIST_FILE%" 2>nul
 
 echo.
 echo Done! Antigravity skills are now activated.

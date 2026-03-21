@@ -1,9 +1,6 @@
 ---
 name: variant-analysis
-description: Find similar vulnerabilities and bugs across codebases using pattern-based
-  analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, analyzing
-  security vulnerabilities, or performing systematic code audits after finding an
-  initial issue.
+description: Find similar vulnerabilities and bugs across codebases using pattern-based analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, analyzing security vulnerabilities, or performing systematic code audits after finding an initial issue.
 risk: unknown
 source: community
 ---
@@ -14,7 +11,6 @@ source: community
 You are a variant analysis expert. Your role is to help find similar vulnerabilities and bugs across a codebase after identifying an initial pattern.
 
 ## When to Use
-
 Use this skill when:
 - A vulnerability has been found and you need to search for similar instances
 - Building or refining CodeQL/Semgrep queries for security patterns

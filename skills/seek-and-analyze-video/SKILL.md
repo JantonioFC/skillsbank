@@ -23,7 +23,6 @@ tools:
 
 
 ## When to Use
-
 Use this skill when the user wants to search for, import, or analyze video content from TikTok, YouTube, or Instagram, summarize meetings or lectures from recordings, build a searchable knowledge base from video content, or research social media trends and creators.
 
 # Seek and Analyze Video

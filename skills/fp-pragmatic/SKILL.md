@@ -6,6 +6,8 @@ description: Fp pragmatic
 ---
 =======
 description: A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead
+risk: unknown
+source: community
 version: 1.0.0
 author: kadu
 tags:

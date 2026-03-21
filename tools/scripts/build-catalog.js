@@ -538,6 +538,91 @@ const BUNDLE_RULES = {
       "incident",
     ],
   },
+  "automation-core": {
+    description: "Automation platforms, workflow tooling, and business systems.",
+    keywords: [
+      "automation",
+      "workflow",
+      "airtable",
+      "notion",
+      "slack",
+      "calendar",
+      "sheets",
+      "outlook",
+      "hubspot",
+      "zendesk",
+      "shopify",
+      "stripe",
+      "sendgrid",
+      "calendly",
+      "clickup",
+      "make",
+      "n8n",
+      "zoom",
+    ],
+  },
+  "azure-core": {
+    description: "Azure cloud, platform, and AI development.",
+    keywords: ["azure", "azd"],
+  },
+  "commerce-core": {
+    description: "Commerce, payments, and revenue operations skills.",
+    keywords: [
+      "stripe",
+      "paypal",
+      "plaid",
+      "ecommerce",
+      "commerce",
+      "billing",
+      "monetization",
+      "crm",
+      "shopify",
+      "hubspot",
+      "woocommerce",
+      "odoo",
+    ],
+  },
+  "mobile-core": {
+    description: "Mobile app development across native and cross-platform stacks.",
+    keywords: [
+      "mobile",
+      "ios",
+      "android",
+      "flutter",
+      "expo",
+      "swiftui",
+      "compose",
+      "appstore",
+    ],
+  },
+  "seo-core": {
+    description: "SEO, search visibility, and structured content optimization.",
+    keywords: [
+      "seo",
+      "schema",
+      "keyword",
+      "snippet",
+      "meta",
+      "cannibalization",
+      "authority",
+    ],
+  },
+  "docs-core": {
+    description: "Documents, spreadsheets, presentations, and office workflows.",
+    keywords: [
+      "docx",
+      "pptx",
+      "xlsx",
+      "pdf",
+      "slides",
+      "spreadsheet",
+      "libreoffice",
+      "writer",
+      "calc",
+      "impress",
+      "office",
+    ],
+  },
 };
 
 const CURATED_COMMON = [
@@ -709,6 +794,13 @@ function truncate(value, limit) {
   return `${value.slice(0, limit - 3)}...`;
 }
 
+function escapeMarkdownTableCell(value) {
+  return String(value || "")
+    .replace(/\\/g, "\\\\")
+    .replace(/\|/g, "\\|")
+    .replace(/\r?\n/g, " ");
+}
+
 function renderCatalogMarkdown(catalog) {
   const lines = [];
   lines.push("# Skill Catalog");
@@ -728,54 +820,13 @@ function renderCatalogMarkdown(catalog) {
     lines.push(`## ${category} (${grouped.length})`);
     lines.push("");
 
-    // Check if this category has subcategories
-    const hasSubcategories = grouped.some((skill) => skill.subcategory);
-
-    if (hasSubcategories) {
-      const subcategories = Array.from(
-        new Set(grouped.map((skill) => skill.subcategory || "(uncategorized)")),
-      ).sort();
-
-      for (const sub of subcategories) {
-        const subGrouped = grouped.filter(
-          (skill) => (skill.subcategory || "(uncategorized)") === sub,
-        );
-        lines.push(`### ${sub} (${subGrouped.length})`);
-        lines.push("");
-        lines.push("| Skill | Description | Tags | Triggers |");
-        lines.push("| --- | --- | --- | --- |");
-
-        for (const skill of subGrouped) {
-          const description = truncate(skill.description, 160).replace(
-            /\|/g,
-            "\\|",
-          );
-          const tags = skill.tags.join(", ");
-          const triggers = skill.triggers.join(", ");
-          lines.push(
-            `| \`${skill.id}\` | ${description} | ${tags} | ${triggers} |`,
-          );
-        }
-
-        lines.push("");
-      }
-    } else {
-      lines.push("| Skill | Description | Tags | Triggers |");
-      lines.push("| --- | --- | --- | --- |");
-
-      for (const skill of grouped) {
-        const description = truncate(skill.description, 160).replace(
-          /\|/g,
-          "\\|",
-        );
-        const tags = skill.tags.join(", ");
-        const triggers = skill.triggers.join(", ");
-        lines.push(
-          `| \`${skill.id}\` | ${description} | ${tags} | ${triggers} |`,
-        );
-      }
-
-      lines.push("");
+    for (const skill of grouped) {
+      const description = escapeMarkdownTableCell(truncate(skill.description, 160));
+      const tags = escapeMarkdownTableCell(skill.tags.join(", "));
+      const triggers = escapeMarkdownTableCell(skill.triggers.join(", "));
+      lines.push(
+        `| \`${skill.id}\` | ${description} | ${tags} | ${triggers} |`,
+      );
     }
   }
 

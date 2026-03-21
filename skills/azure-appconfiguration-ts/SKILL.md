@@ -1,9 +1,6 @@
 ---
 name: azure-appconfiguration-ts
-description: Build applications using Azure App Configuration SDK for JavaScript (@azure/app-configuration).
-  Use when working with configuration settings, feature flags, Key Vault references,
-  dynamic refresh, or centralized configuration management.
-package: '@azure/app-configuration'
+description: "Centralized configuration management with feature flags and dynamic refresh."
 risk: unknown
 source: community
 ---

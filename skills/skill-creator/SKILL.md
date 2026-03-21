@@ -1,16 +1,8 @@
 ---
 name: skill-creator
-description: 'Creates new AI agent skills following the Agent Skills spec. Trigger:
-  When user asks to create a new skill, add agent instructions, or document patterns
-  for AI.
-
-  '
-license: Apache-2.0
-metadata:
-  author: gentleman-programming
-  version: '1.0'
-allowed-tools: Read, Edit, Write, Glob, Grep, Bash, WebFetch, WebSearch, Task
-risk: unknown
+description: "To create new CLI skills following Anthropic's official best practices with zero manual configuration. This skill automates brainstorming, template application, validation, and installation processes while maintaining progressive disclosure patterns and writing style standards."
+category: meta
+risk: safe
 source: community
 ---
 

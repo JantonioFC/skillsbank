@@ -11,7 +11,6 @@ date_added: '2026-02-27'
 
 
 ## When to Use
-
 Use this skill when managing energy procurement tasks, such as optimizing electricity or gas tariffs, evaluating Power Purchase Agreements (PPAs), or developing long-term energy cost management strategies for commercial or industrial facilities.
 
 # Energy Procurement
@@ -201,7 +200,6 @@ Track monthly, review quarterly with finance and sustainability:
 - For communication templates covering RFPs, PPA negotiations, rate cases, and internal reporting, see [communication-templates.md](references/communication-templates.md)
 
 ## When to Use
-
 Use this skill when you need to **design, audit, or optimise an energy procurement strategy** for commercial or industrial facilities:
 
 - Evaluating fixed vs. index vs. block-and-index contracts, PPAs, or VPPAs.

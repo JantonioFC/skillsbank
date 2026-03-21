@@ -4,11 +4,11 @@ description: Identifies dependencies at heightened risk of exploitation or takeo
   Use when assessing supply chain attack surface, evaluating dependency health, or
   scoping security engagements.
 allowed-tools:
-- Read
-- Write
-- Bash
-- Glob
-- Grep
+  - Read
+  - Write
+  - Bash
+  - Glob
+  - Grep
 risk: unknown
 source: community
 ---
@@ -19,7 +19,6 @@ source: community
 Activates when the user says "audit this project's dependencies".
 
 ## When to Use
-
 - Assessing dependency risk before a security audit
 - Evaluating supply chain attack surface of a project
 - Identifying unmaintained or risky dependencies

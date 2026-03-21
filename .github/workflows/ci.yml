@@ -37,7 +37,7 @@ jobs:
       - name: Intake PR change
         id: intake
         run: |
-          node tools/scripts/pr_preflight.js \
+          node tools/scripts/pr_preflight.cjs \
             --base "origin/${{ github.base_ref }}" \
             --head "HEAD" \
             --event-path "$GITHUB_EVENT_PATH" \

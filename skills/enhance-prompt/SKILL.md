@@ -4,8 +4,8 @@ description: Transforms vague UI ideas into polished, Stitch-optimized prompts. 
   specificity, adds UI/UX keywords, injects design system context, and structures
   output for better generation results.
 allowed-tools:
-- Read
-- Write
+  - "Read"
+  - "Write"
 risk: unknown
 source: community
 ---

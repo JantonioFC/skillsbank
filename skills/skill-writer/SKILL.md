@@ -106,7 +106,5 @@ Return:
 3. `Validation Results`
 4. `Open Gaps`
 
-
 ## When to Use
-
 Use this skill when tackling tasks related to its primary domain or functionality as described above.

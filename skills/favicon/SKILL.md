@@ -5,6 +5,8 @@ argument-hint:
 description: Generate favicons from a source image
 allowed-tools: Bash(magick *), Bash(which *), Bash(cp *), Bash(mkdir *)
 context: fork
+risk: unknown
+source: community
 metadata:
   author: Shpigford
   version: '1.0'

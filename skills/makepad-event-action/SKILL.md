@@ -5,8 +5,7 @@ description: 'CRITICAL: Use for Makepad event and action handling. Triggers on:
   makepad event, makepad action, Event enum, ActionTrait, handle_event,
 
   MouseDown, KeyDown, TouchUpdate, Hit, FingerDown, post_action,
-
-  makepad 事件, makepad action, 事件处理'
+  makepad 事件, makepad action, 事件处理
 risk: unknown
 source: community
 ---

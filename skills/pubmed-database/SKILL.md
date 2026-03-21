@@ -5,7 +5,7 @@ description: Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-
   (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations.
 license: Unknown
 metadata:
-  skill-author: K-Dense Inc.
+    skill-author: K-Dense Inc.
 risk: unknown
 source: community
 ---

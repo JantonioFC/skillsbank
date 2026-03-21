@@ -23,7 +23,6 @@ Use this skill for automation and guidance.
 > **Learn to THINK, not memorize patterns.**
 
 ## When to Use
-
 Use this skill when making Python architecture decisions, choosing frameworks, designing async patterns, or structuring Python projects.
 
 ---

@@ -1,18 +1,12 @@
 ---
 name: product-manager
-description: Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates,
-  and 32 SaaS metrics with formulas. Pure Markdown, zero scripts.
-version: 1.0.0
-author: Digidai
-tags:
-- product-management
-- saas
-- frameworks
-- metrics
-- strategy
-source: Digidai/product-manager-skills (MIT)
-date_added: '2026-03-06'
+description: "Senior PM agent with 6 knowledge domains, 30+ frameworks, 12 templates, and 32 SaaS metrics with formulas. Pure Markdown, zero scripts."
 risk: unknown
+version: "1.0.0"
+author: "Digidai"
+tags: ["product-management", "saas", "frameworks", "metrics", "strategy"]
+source: "Digidai/product-manager-skills (MIT)"
+date_added: "2026-03-06"
 ---
 
 

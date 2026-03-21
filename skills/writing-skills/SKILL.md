@@ -27,9 +27,11 @@ You write test cases (pressure scenarios with subagents), watch them fail (basel
 
 ## What is a Skill?
 
-A **skill** is a reference guide for proven techniques, patterns, or tools. Skills help future Claude instances find and apply effective approaches.
-
-**Skills are:** Reusable techniques, patterns, tools, reference guides
+## When to Use
+- Creating a NEW skill from scratch
+- Improving an EXISTING skill that agents ignore
+- Debugging why a skill isn't being triggered
+- Standardizing skills across a team
 
 **Skills are NOT:** Narratives about how you solved a problem once
 

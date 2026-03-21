@@ -1,7 +1,6 @@
 ---
 name: sred-project-organizer
-description: Take a list of projects and their related documentation, and organize
-  them into the SRED format for submission.
+description: Take a list of projects and their related documentation, and organize them into the SRED format for submission.
 risk: unknown
 source: community
 ---
@@ -117,11 +116,9 @@ Provide the user with the link to the Project Summary document again, and ask th
 
 Provide a link to the "SRED Project Descriptions" notion document.
 
-
 ## Examples
 
 Example work summary: https://www.notion.so/sentry/SRED-Work-Summary-2026-30a8b10e4b5d81f5bc8df3553da55220
-
 
 ## References
 
