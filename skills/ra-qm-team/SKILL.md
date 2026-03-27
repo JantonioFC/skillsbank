@@ -19,10 +19,9 @@ agents:
 - claude-code
 - codex-cli
 - openclaw
-risk: safe
+risk: unknown
 source: community
 ---
-
 # Regulatory Affairs & Quality Management Skills
 
 12 production-ready compliance skills for HealthTech and MedTech organizations.

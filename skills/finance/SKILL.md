@@ -16,10 +16,9 @@ agents:
 - claude-code
 - codex-cli
 - openclaw
-risk: safe
+risk: unknown
 source: community
 ---
-
 # Finance Skills
 
 Production-ready financial analysis skill for strategic decision-making.

@@ -1,11 +1,10 @@
 ---
 name: database-schema-designer
-description: Database Schema Designer
-risk: safe
+description: Use when the user asks to create ERD diagrams, normalize database schemas,
+  design table relationships, or plan schema migrations.
+risk: unknown
 source: community
-license: MIT
 ---
-
 # Database Schema Designer
 
 **Tier:** POWERFUL  

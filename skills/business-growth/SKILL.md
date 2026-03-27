@@ -17,10 +17,9 @@ agents:
 - claude-code
 - codex-cli
 - openclaw
-risk: safe
+risk: unknown
 source: community
 ---
-
 # Business & Growth Skills
 
 4 production-ready skills for customer success, sales, and revenue operations.

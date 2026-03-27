@@ -4,11 +4,9 @@ description: This skill should be used when the user asks to "design interview p
   "create hiring pipelines", "calibrate interview loops", "generate interview questions",
   "design competency matrices", "analyze interviewer bias", "create scoring rubrics",
   "build question banks", or "optimize hiring sys...
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
-
 # Interview System Designer
 
 Comprehensive interview loop planning and calibration support for role-based hiring systems.

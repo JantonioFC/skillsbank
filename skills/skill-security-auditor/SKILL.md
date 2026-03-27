@@ -4,17 +4,10 @@ description: 'Security audit and vulnerability scanner for AI agent skills befor
   installation. Use when: (1) evaluating a skill from an untrusted source, (2) auditing
   a skill directory or git repo URL for malicious code, (3) pre-install security gate
   for Claude Code plugins, OpenClaw skills, or Codex skills, ...'
-risk: offensive
+risk: unknown
 source: community
-license: MIT
 ---
-
 # Skill Security Auditor
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Scan and audit AI agent skills for security risks before installation. Produces a
 clear **PASS / WARN / FAIL** verdict with findings and remediation guidance.

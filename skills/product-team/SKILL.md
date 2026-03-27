@@ -18,10 +18,9 @@ agents:
 - claude-code
 - codex-cli
 - openclaw
-risk: safe
+risk: unknown
 source: community
 ---
-
 # Product Team Skills
 
 8 production-ready product skills covering product management, UX/UI design, and SaaS development.

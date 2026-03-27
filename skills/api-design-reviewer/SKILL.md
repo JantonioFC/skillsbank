@@ -1,11 +1,9 @@
 ---
 name: api-design-reviewer
 description: API Design Reviewer
-risk: safe
+risk: unknown
 source: community
-license: MIT
 ---
-
 # API Design Reviewer
 
 **Tier:** POWERFUL  
