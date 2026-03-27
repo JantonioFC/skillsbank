@@ -1,6 +1,8 @@
 ---
 name: google-adk-python
 description: Google Adk Python
+risk: unknown
+source: community
 ---
 # Google ADK Python Skill
 

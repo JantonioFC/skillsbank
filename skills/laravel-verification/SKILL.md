@@ -1,9 +1,11 @@
 ---
 name: laravel-verification
-description: "Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security scans, and deployment readiness."
+description: 'Verification loop for Laravel projects: env checks, linting, static
+  analysis, tests with coverage, security scans, and deployment readiness.'
 origin: ECC
+risk: unknown
+source: community
 ---
-
 # Laravel Verification Loop
 
 Run before PRs, after major changes, and pre-deploy.

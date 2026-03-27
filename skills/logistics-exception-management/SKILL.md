@@ -8,9 +8,10 @@ origin: ECC
 metadata:
   author: evos
   clawdbot:
-    emoji: "📦"
+    emoji: 📦
+risk: unknown
+source: community
 ---
-
 # 物流异常管理
 
 ## 角色与背景
@@ -217,3 +218,6 @@ metadata:
 
 * 将此技能与您内部的索赔截止日期、特定运输模式的升级矩阵以及保险公司的通知要求结合使用。
 * 将承运人特定的交货证明规则和OS\&D检查清单放在执行本手册的团队附近。
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

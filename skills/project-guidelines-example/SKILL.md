@@ -1,6 +1,8 @@
 ---
 name: project-guidelines-example
 description: Project Guidelines Example
+risk: unknown
+source: community
 ---
 # プロジェクトガイドラインスキル（例）
 
@@ -347,3 +349,6 @@ SUPABASE_KEY=eyJ...
 - `backend-patterns.md` - APIとデータベースパターン
 - `frontend-patterns.md` - ReactとNext.jsパターン
 - `tdd-workflow/` - テスト駆動開発の方法論
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.

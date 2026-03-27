@@ -1,6 +1,8 @@
 ---
 name: claude-code
 description: Claude Code
+risk: unknown
+source: community
 ---
 # Claude Code Expert
 

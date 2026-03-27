@@ -1,6 +1,8 @@
 ---
 name: sample-skill
 description: Sample Skill
+risk: unknown
+source: community
 ---
 # Sample Text Processor
 
@@ -165,3 +167,6 @@ As a BASIC tier skill, some advanced features are intentionally omitted:
 - Parallel processing for very large datasets
 
 This skill demonstrates the essential structure and quality standards required for BASIC tier skills in the claude-skills ecosystem while remaining simple and focused on core functionality.
+
+## When to Use
+- Use this skill when you need for functional programming or specific domain tasks.
