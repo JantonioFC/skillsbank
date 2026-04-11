@@ -18,7 +18,7 @@ Essential skills used automatically by the agent:
 - `planning-with-files` - Implementation plan creation
 - `concise-planning` - Fast planning for small tasks
 - `software-architecture` - Quality-focused design principles
-- `senior-architect` - Scalable system design and architecture
+- `engineering-team/senior-architect` - Scalable system design and architecture
 - `senior-fullstack` - Full-stack development best practices
 - `verification-before-completion` - Pre-completion verification workflow
 - `git-pushing` - Automated staging and conventional commits
@@ -118,7 +118,7 @@ Advanced workflows:
 
 Product management:
 
-- `app-store-optimization`, `product-manager-toolkit`
+- `marketing-skill/app-store-optimization`, `product-manager-toolkit`
 - `prompt-engineering`
 
 ### Infrastructure (2 skills)

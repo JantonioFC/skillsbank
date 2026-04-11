@@ -2527,7 +2527,7 @@
     "description": "Talking head video production with AI avatars, lipsync, and voiceover. Covers portrait requisitos, audio quality, OmniHuman, PixVerse lipsync, Dia TTS. Usar para: spokesperson videos, course contenido, social medios, presentations, demos. Activadores: talking head, avatar video, lipsync, lip sync, ai spokesperson, virtual presenter, ai presenter, omnihuman, talking avatar, video presenter, ai talking head, presenter video, ai face video",
     "auto_generated": true
   },
-  "app-store-optimization": {
+  "marketing-skill/app-store-optimization": {
     "description": "Complete App Store optimización (ASO) toolkit for researching, optimizando, and seguimiento mobile app rendimiento on Apple App Store and Google Play Store",
     "auto_generated": true
   },
@@ -3219,7 +3219,7 @@
     "description": "Multi-agent orquestación patrones. Úsalo cuando multiple independent tareas can run with different dominio expertise or when comprehensive análisis requires multiple perspectives.",
     "auto_generated": true
   },
-  "senior-architect": {
+  "engineering-team/senior-architect": {
     "description": "Comprehensive software arquitectura skill for designing scalable, maintainable systems usando ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python. I...",
     "auto_generated": true
   },

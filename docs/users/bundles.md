@@ -308,7 +308,7 @@ _For iOS, Android, and cross-platform apps._
 - [`react-native-architecture`](../../skills/react-native-architecture/): React Native with Expo.
 - [`flutter-expert`](../../skills/flutter-expert/): Flutter multi-platform apps.
 - [`ios-developer`](../../skills/ios-developer/): iOS development with Swift.
-- [`app-store-optimization`](../../skills/app-store-optimization/): ASO for App Store and Play Store.
+- [`app-store-optimization`](../../skills/marketing-skill/app-store-optimization/): ASO for App Store and Play Store.
 
 ### 🔗 The "Integration & APIs" Pack
 
@@ -324,7 +324,7 @@ _For connecting services and building integrations._
 
 _For system design and technical decisions._
 
-- [`senior-architect`](../../skills/senior-architect/): Comprehensive software architecture.
+- [`senior-architect`](../../skills/engineering-team/senior-architect/): Comprehensive software architecture.
 - [`architecture-patterns`](../../skills/architecture-patterns/): Clean Architecture, DDD, Hexagonal.
 - [`microservices-patterns`](../../skills/microservices-patterns/): Microservices architecture.
 - [`event-sourcing-architect`](../../skills/event-sourcing-architect/): Event sourcing and CQRS.
@@ -411,7 +411,7 @@ _For shipping mobile apps with Expo and React Native._
 - [`expo-tailwind-setup`](../../skills/expo-tailwind-setup/): Set up Tailwind and NativeWind in Expo apps.
 - [`expo-cicd-workflows`](../../skills/expo-cicd-workflows/): Automate builds and releases with EAS workflows.
 - [`expo-deployment`](../../skills/expo-deployment/): Deploy Expo apps and manage release flow.
-- [`app-store-optimization`](../../skills/app-store-optimization/): Improve App Store and Play Store discoverability.
+- [`app-store-optimization`](../../skills/marketing-skill/app-store-optimization/): Improve App Store and Play Store discoverability.
 
 ### 🍎 The "Apple Platform Design" Pack
 

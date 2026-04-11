@@ -82,7 +82,7 @@ Run @security-audit on my CDK stack
 
 - `@architecture` - System design and ADRs
 - `@c4-context` - C4 model diagrams
-- `@senior-architect` - Scalable architecture patterns
+- `@engineering-team/senior-architect` - Scalable architecture patterns
 - `@microservices-patterns` - Microservices design
 
 #### Security
