@@ -10,9 +10,10 @@ metadata:
   author: Alireza Rezvani
   category: engineering
   updated: 2026-03-17
-risk: unknown
+risk: safe
 source: community
 ---
+
 # AgentHub — Multi-Agent Collaboration
 
 Spawn N parallel AI agents that compete on the same task. Each agent works in an isolated git worktree. The coordinator evaluates results and merges the winner.

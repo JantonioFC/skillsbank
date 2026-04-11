@@ -1,9 +1,11 @@
 ---
 name: project-guidelines-example
 description: Project Guidelines Example
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # プロジェクトガイドラインスキル（例）
 
 これはプロジェクト固有のスキルの例です。自分のプロジェクトのテンプレートとして使用してください。

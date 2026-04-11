@@ -18,10 +18,16 @@ agents:
 - claude-code
 - codex-cli
 - openclaw
-risk: unknown
+risk: offensive
 source: community
 ---
+
 # Engineering Advanced Skills (POWERFUL Tier)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 25 advanced engineering skills for complex architecture, automation, and platform operations.
 

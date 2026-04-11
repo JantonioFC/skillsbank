@@ -1,9 +1,11 @@
 ---
 name: migration-architect
 description: Migration Architect
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Migration Architect
 
 **Tier:** POWERFUL  

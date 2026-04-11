@@ -1,9 +1,11 @@
 ---
 name: codebase-onboarding
 description: Codebase Onboarding
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Codebase Onboarding
 
 **Tier:** POWERFUL  

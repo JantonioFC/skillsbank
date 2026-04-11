@@ -5,9 +5,11 @@ description: 'Trace every user-facing button/touchpoint through its full state c
   produce wrong final state, or leave the UI in an inconsistent state. Use when: systematic
   debugging found no bugs but users report broken butt...'
 origin: community
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # /click-path-audit — Behavioural Flow Audit
 
 Find bugs that static code reading misses: state interaction side effects, race conditions between sequential calls, and handlers that silently undo each other.

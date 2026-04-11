@@ -1,9 +1,11 @@
 ---
 name: performance-profiler
 description: Performance Profiler
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Performance Profiler
 
 **Tier:** POWERFUL  

@@ -1,0 +1,11 @@
+# Antigravity Awesome Skills - Agent Rules
+
+## Inviolable Git Rules
+- **ONLY PUSH TO THE `backup` REMOTE (`JantonioFC/skillsbank`)**.
+- **NEVER** push to `origin` (`sickn33/antigravity-awesome-skills`) or any other remote.
+- If you need to synchronize, always fetch from remotes and push exclusively to `backup`.
+
+## Security & Privacy
+- Always run `fix_skills.py` after importing new skills to normalize frontmatter.
+- Audit any imported GitHub Actions workflows using the `agentic-actions-auditor` skill.
+- Do not commit API keys or sensitive environment variables.

@@ -1,9 +1,11 @@
 ---
 name: git-worktree-manager
 description: Git Worktree Manager
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Git Worktree Manager
 
 **Tier:** POWERFUL  

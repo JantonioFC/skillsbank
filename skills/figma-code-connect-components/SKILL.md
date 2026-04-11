@@ -4,9 +4,11 @@ description: Connects Figma design components to code components using Code Conn
   mapping tools. Use when user says "code connect", "connect this component to code",
   "map this component", "link component to code", "create code connect mapping", or
   wants to establish mappings between Figma designs and code i...
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Code Connect Components
 
 ## Overview

@@ -1,9 +1,11 @@
 ---
 name: changelog-generator
 description: Changelog Generator
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Changelog Generator
 
 **Tier:** POWERFUL  

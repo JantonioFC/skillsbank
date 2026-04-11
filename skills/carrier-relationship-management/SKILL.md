@@ -9,9 +9,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: 🤝
-risk: unknown
+risk: safe
 source: community
 ---
+
 # 承运商关系管理
 
 ## 角色与背景

@@ -9,9 +9,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: 🔍
-risk: unknown
+risk: safe
 source: community
 ---
+
 # 质量与不合格品管理
 
 ## 角色与背景

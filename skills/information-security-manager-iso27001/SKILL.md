@@ -4,10 +4,17 @@ description: ISO 27001 ISMS implementation and cybersecurity governance for Heal
   and MedTech companies. Use for ISMS design, security risk assessment, control implementation,
   ISO 27001 certification, security audits, incident response, and compliance verification.
   Covers ISO 27001, ISO 27002, healthcare...
-risk: unknown
+risk: offensive
 source: community
+license: MIT
 ---
+
 # Information Security Manager - ISO 27001
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 Implement and manage Information Security Management Systems (ISMS) aligned with ISO 27001:2022 and healthcare regulatory requirements.
 

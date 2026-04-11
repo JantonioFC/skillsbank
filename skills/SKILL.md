@@ -8,9 +8,10 @@ description: Plan, create, and configure production-ready Azure Kubernetes Servi
   (AKS) clusters. Covers Day-0 checklist, SKU selection (Automatic vs Standard), networking
   options (private API server, Azure CNI Overlay, egress configuration), security,
   and operations (autoscaling, upgrade strategy, cost anal...
-risk: unknown
+risk: safe
 source: community
 ---
+
 # Azure Kubernetes Service
 
 > **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**

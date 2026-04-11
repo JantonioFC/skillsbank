@@ -1,9 +1,11 @@
 ---
 name: sample-skill
 description: Sample Skill
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Sample Text Processor
 
 ---

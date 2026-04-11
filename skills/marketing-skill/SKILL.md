@@ -19,9 +19,10 @@ agents:
 - claude-code
 - codex-cli
 - openclaw
-risk: unknown
+risk: safe
 source: community
 ---
+
 # Marketing Skills Division
 
 42 production-ready marketing skills organized into 7 specialist pods with a context foundation and orchestration layer.

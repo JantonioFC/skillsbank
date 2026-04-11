@@ -4,11 +4,13 @@ description: 'CRITICAL: Use for Makepad DSL syntax and inheritance. Triggers on:
 
   makepad dsl, live_design, makepad inheritance, makepad prototype,
 
-  "<Widget>", "Foo = { }", makepad object, makepad property,
-  makepad DSL 语法, makepad 继承, makepad 原型, 如何定义 makepad 组件'
-risk: unknown
+  "<Widget>", "Foo = { }", makepad object, makepad property, makepad DSL 语法, makepad
+  继承, makepad 原型, 如何定义 makepad 组件'
+risk: safe
 source: community
+license: MIT
 ---
+
 
 
 # Makepad DSL Skill

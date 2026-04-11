@@ -1,9 +1,11 @@
 ---
 name: monorepo-navigator
 description: Monorepo Navigator
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Monorepo Navigator
 
 **Tier:** POWERFUL  

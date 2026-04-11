@@ -1,6 +1,13 @@
 # 🤝 Contributing Guide - Make It Easy for Everyone!
 
+> [!IMPORTANT]
+> **REGLA INVIOLABLE:** Solo se permite pushear cambios al remoto `backup` (`JantonioFC/skillsbank`).
+> El repo cuenta con un `pre-push` hook para evitar accidentes en otros remotes (`origin`, etc.).
+
 **Thank you for wanting to make this repo better!** This guide shows you exactly how to contribute, even if you're new to open source.
+
+---
+
 
 ---
 
@@ -29,7 +36,7 @@ npm run security:docs
 # 6. Open a PR
 git add skills/my-awesome-skill/
 git commit -m "feat: add my-awesome-skill for [purpose]"
-git push origin my-branch
+git push backup my-branch
 ```
 
 Open the PR with the default template and enable **Allow edits from maintainers** so conflicts can be resolved without extra back-and-forth.
@@ -94,7 +101,7 @@ git checkout -b improve-docs
 # 5. Commit and push
 git add .
 git commit -m "docs: make XYZ clearer"
-git push origin improve-docs
+git push backup improve-docs
 
 # 6. Open a Pull Request on GitHub
 ```
@@ -316,8 +323,8 @@ git add skills/my-awesome-skill/
 # 2. Commit with a clear message
 git commit -m "feat: add my-awesome-skill for [purpose]"
 
-# 3. Push to your fork
-git push origin my-branch
+# 3. Push to your fork (exclusivo para backup)
+git push backup my-branch
 
 # 4. Open a Pull Request on GitHub
 ```

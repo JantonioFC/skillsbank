@@ -4,9 +4,11 @@ description: Medical device risk management specialist implementing ISO 14971 th
   product lifecycle. Provides risk analysis, risk evaluation, risk control, and post-production
   information analysis. Use when user mentions risk management, ISO 14971, risk analysis,
   FMEA, fault tree analysis, hazard ident...
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Risk Management Specialist
 
 ISO 14971:2019 risk management implementation throughout the medical device lifecycle.

@@ -10,9 +10,10 @@ metadata:
   author: Alireza Rezvani
   category: engineering
   updated: 2026-03-15
-risk: unknown
+risk: safe
 source: community
 ---
+
 # Terraform Patterns
 
 > Predictable infrastructure. Secure state. Modules that compose. No drift.

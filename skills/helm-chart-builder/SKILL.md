@@ -10,10 +10,16 @@ metadata:
   author: Alireza Rezvani
   category: engineering
   updated: 2026-03-15
-risk: unknown
+risk: offensive
 source: community
 ---
+
 # Helm Chart Builder
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 > Production-grade Helm charts. Sensible defaults. Secure by design. No cargo-culting.
 

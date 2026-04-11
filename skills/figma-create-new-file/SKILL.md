@@ -4,9 +4,11 @@ description: Create a new blank Figma file. Use when the user wants to create a 
   Figma design or FigJam file, or when you need a new file before calling use_figma.
   Handles plan resolution via whoami if needed. Usage — /figma-create-new-file [editorType]
   [fileName] (e.g. /figma-create-new-file figjam My Whi...
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # create_new_file — Create a New Figma File
 
 Use the `create_new_file` MCP tool to create a new blank Figma file in the user's drafts folder. This is typically used before `use_figma` when you need a fresh file to work with.

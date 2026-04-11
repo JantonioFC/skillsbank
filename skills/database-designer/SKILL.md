@@ -2,10 +2,17 @@
 name: database-designer
 description: Use when the user asks to design database schemas, plan data migrations,
   optimize queries, choose between SQL and NoSQL, or model data relationships.
-risk: unknown
+risk: offensive
 source: community
+license: MIT
 ---
+
 # Database Designer - POWERFUL Tier Skill
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 

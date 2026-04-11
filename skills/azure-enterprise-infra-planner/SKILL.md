@@ -8,9 +8,10 @@ license: MIT
 metadata:
   author: Microsoft
   version: 1.0.0
-risk: unknown
+risk: safe
 source: community
 ---
+
 # Azure Enterprise Infra Planner
 
 > **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**

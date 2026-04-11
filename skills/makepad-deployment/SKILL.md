@@ -6,14 +6,18 @@ description: 'CRITICAL: Use for Makepad packaging and deployment. Triggers on:
 
   cargo-packager, cargo-makepad, WASM, Android, iOS,
 
-  distribution, installer, .deb, .dmg, .nsis,
-  GitHub Actions, CI, action, marketplace'
-risk: unknown
+  distribution, installer, .deb, .dmg, .nsis, GitHub Actions, CI, action, marketplace'
+risk: offensive
 source: community
+license: MIT
 ---
 
-
 # Makepad Packaging & Deployment
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 This skill covers packaging Makepad applications for all supported platforms.
 

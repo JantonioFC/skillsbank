@@ -4,9 +4,11 @@ description: Analyzes competitor products and companies by synthesizing data fro
   pricing pages, app store reviews, job postings, SEO signals, and social media into
   structured competitive intelligence. Produces feature comparison matrices scored
   across 12 dimensions, SWOT analyses, positioning maps, UX audits...
-risk: unknown
+risk: safe
 source: community
+license: MIT
 ---
+
 # Competitive Teardown
 
 **Tier:** POWERFUL  

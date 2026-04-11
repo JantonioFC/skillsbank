@@ -1,10 +1,17 @@
 ---
 name: observability-designer
 description: Observability Designer (POWERFUL)
-risk: unknown
+risk: offensive
 source: community
+license: MIT
 ---
+
 # Observability Designer (POWERFUL)
+
+> **⚠️ AUTHORIZED USE ONLY**
+> This skill is for educational purposes or authorized security assessments only.
+> You must have explicit, written permission from the system owner before using this tool.
+> Misuse of this tool is illegal and strictly prohibited.
 
 **Category:** Engineering  
 **Tier:** POWERFUL  

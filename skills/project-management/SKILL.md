@@ -18,9 +18,10 @@ agents:
 - claude-code
 - codex-cli
 - openclaw
-risk: unknown
+risk: safe
 source: community
 ---
+
 # Project Management Skills
 
 6 production-ready project management skills with Atlassian MCP integration.
