@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # E2E 测试模式
 
 用于构建稳定、快速且可维护的 E2E 测试套件的全面 Playwright 模式。

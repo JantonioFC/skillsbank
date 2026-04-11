@@ -1,13 +1,11 @@
 ---
 name: powershell-windows
-description: PowerShell Windows patterns. Critical pitfalls, operator syntax, error
-  handling.
+description: PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
 risk: safe
 source: community
 license: MIT
 ---
-
 # PowerShell Windows Patterns
 
 > Critical patterns and pitfalls for Windows PowerShell.

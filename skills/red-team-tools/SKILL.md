@@ -1,9 +1,7 @@
 ---
 name: red-team-tools
-description: This skill should be used when the user asks to "follow red team methodology",
-  "perform bug bounty hunting", "automate reconnaissance", "hunt for XSS vulnerabilities",
-  "enumerate subdomains", or needs security researcher techniques and tool configurations
-  from top bug bounty hunters.
+description: |-
+  This skill should be used when the user asks to "follow red team methodology", "perform bug bounty hunting", "automate reconnaissance", "hunt for XSS vulnerabilities", "enumerate subdomains", or needs security researcher techniques and tool configurations from top bug bounty hunters.
 metadata:
   author: zebbern
   version: '1.1'
@@ -11,7 +9,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Red Team Tools and Methodology
 
 > **⚠️ AUTHORIZED USE ONLY**

@@ -1,9 +1,7 @@
 ---
 name: tdd-guide
-description: Test-driven development skill for writing unit tests, generating test
-  fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor workflows
-  across Jest, Pytest, JUnit, Vitest, and Mocha. Use when the user asks to write tests,
-  improve test coverage, practice TDD, generate mocks or ...
+description: |-
+  Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor workflows across Jest, Pytest, JUnit, Vitest, and Mocha. Use when the user asks to write tests, improve test coverage, practice TDD, generate mocks or ...
 triggers:
 - generate tests
 - analyze coverage
@@ -17,7 +15,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # TDD Guide
 
 > **⚠️ AUTHORIZED USE ONLY**

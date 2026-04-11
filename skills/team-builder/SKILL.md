@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Team Builder
 
 Interactive menu for browsing and composing agent teams on demand. Works with flat or domain-subdirectory agent collections.

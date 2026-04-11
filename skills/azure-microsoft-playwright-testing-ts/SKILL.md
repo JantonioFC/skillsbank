@@ -1,15 +1,12 @@
 ---
 name: azure-microsoft-playwright-testing-ts
-description: Run Playwright tests at scale using Azure Playwright Workspaces (formerly
-  Microsoft Playwright Testing). Use when scaling browser tests across cloud-hosted
-  browsers, integrating with CI/CD pipelines, or publishing test results to the Azure
-  portal.
+description: |-
+  Run Playwright tests at scale using Azure Playwright Workspaces (formerly Microsoft Playwright Testing). Use when scaling browser tests across cloud-hosted browsers, integrating with CI/CD pipelines, or publishing test results to the Azure portal.
 package: '@azure/playwright'
 risk: safe
 source: community
 license: MIT
 ---
-
 # Azure Playwright Workspaces SDK for TypeScript
 
 Run Playwright tests at scale with cloud-hosted browsers and integrated Azure portal reporting.

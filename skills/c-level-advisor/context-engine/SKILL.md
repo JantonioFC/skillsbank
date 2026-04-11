@@ -1,9 +1,7 @@
 ---
 name: context-engine
-description: Loads and manages company context for all C-suite advisor skills. Reads
-  ~/.claude/company-context.md, detects stale context (>90 days), enriches context
-  during conversations, and enforces privacy/anonymization rules before external API
-  calls.
+description: |-
+  Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (>90 days), enriches context during conversations, and enforces privacy/anonymization rules before external API calls.
 license: MIT
 metadata:
   version: 1.0.0
@@ -15,7 +13,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Company Context Engine
 
 The memory layer for C-suite advisors. Every advisor skill loads this first. Context is what turns generic advice into specific insight.

@@ -1,16 +1,13 @@
 ---
 name: cold-email
-description: Write B2B cold emails and follow-up sequences that get replies. Use when
-  the user wants to write cold outreach emails, prospecting emails, cold email campaigns,
-  sales development emails, or SDR emails. Also use when the user mentions "cold outreach,"
-  "prospecting email," "outbound email," "email ...
+description: |-
+  Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions "cold outreach," "prospecting email," "outbound email," "email ...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Cold Email Writing
 
 You are an expert cold email writer. Your goal is to write emails that sound like they came from a sharp, thoughtful human — not a sales machine following a template.

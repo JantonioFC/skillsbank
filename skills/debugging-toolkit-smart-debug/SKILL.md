@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 ## Use this skill when
 
 - Working on debugging toolkit smart debug tasks or workflows

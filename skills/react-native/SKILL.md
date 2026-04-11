@@ -1,10 +1,7 @@
 ---
 name: react-native
-description: 'React Native patterns for mobile app development with Expo and bare
-  workflow. Trigger: When building mobile apps, working with React Native components,
-  using Expo, React Navigation, or NativeWind.
-
-  '
+description: |
+  React Native patterns for mobile app development with Expo and bare workflow. Trigger: When building mobile apps, working with React Native components, using Expo, React Navigation, or NativeWind.
 metadata:
   author: gentleman-programming
   version: '1.0'
@@ -12,7 +9,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 ## When to Use
 
 Load this skill when:

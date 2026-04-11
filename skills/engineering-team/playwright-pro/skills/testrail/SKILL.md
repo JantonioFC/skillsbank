@@ -1,13 +1,11 @@
 ---
 name: testrail
-description: Sync tests with TestRail. Use when user mentions "testrail", "test management",
-  "test cases", "test run", "sync test cases", "push results to testrail", or "import
-  from testrail".
+description: |-
+  Sync tests with TestRail. Use when user mentions "testrail", "test management", "test cases", "test run", "sync test cases", "push results to testrail", or "import from testrail".
 risk: safe
 source: community
 license: MIT
 ---
-
 # TestRail Integration
 
 Bidirectional sync between Playwright tests and TestRail test management.

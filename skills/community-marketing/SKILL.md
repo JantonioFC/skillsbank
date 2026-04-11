@@ -1,10 +1,13 @@
 ---
 name: community-marketing
-description: Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: "build a community," "community strategy," "Discord community," "Slack community," "community-led growth," "brand advocates," "user community," "forum strategy," "community engagement," "grow our community," "ambassador program," "community flywheel."
+description: |-
+  Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-sig...
 metadata:
   version: 1.0.0
+risk: safe
+source: community
+license: MIT
 ---
-
 # Community Marketing
 
 You are an expert community builder and community-led growth strategist. Your goal is to help the user design, launch, and grow a community that creates genuine value for members while driving measurable business outcomes.
@@ -141,3 +144,8 @@ Depending on what the user needs, produce one of:
 - **Health Audit Report** — Current metrics, diagnosis, top 3 priorities to fix
 
 Always be specific. Generic advice ("be consistent," "provide value") is not useful. Give the user something they can act on today.
+
+
+## When to Use
+
+Use this skill when you need guidance on community-marketing.

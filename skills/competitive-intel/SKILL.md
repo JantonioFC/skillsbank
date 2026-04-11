@@ -1,9 +1,7 @@
 ---
 name: competitive-intel
-description: Systematic competitor tracking that feeds CMO positioning, CRO battlecards,
-  and CPO roadmap decisions. Use when analyzing competitors, building sales battlecards,
-  tracking market moves, positioning against alternatives, or when user mentions competitive
-  intelligence, competitive analysis, competi...
+description: |-
+  Systematic competitor tracking that feeds CMO positioning, CRO battlecards, and CPO roadmap decisions. Use when analyzing competitors, building sales battlecards, tracking market moves, positioning against alternatives, or when user mentions competitive intelligence, competitive analysis, competi...
 license: MIT
 metadata:
   version: 1.0.0
@@ -15,7 +13,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Competitive Intelligence
 
 Systematic competitor tracking. Not obsession — intelligence that drives real decisions.

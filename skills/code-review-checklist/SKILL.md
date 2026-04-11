@@ -6,7 +6,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Code Review Checklist
 
 > **⚠️ AUTHORIZED USE ONLY**

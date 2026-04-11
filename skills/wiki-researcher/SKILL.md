@@ -1,14 +1,11 @@
 ---
 name: wiki-researcher
-description: Conducts multi-turn iterative deep research on specific topics within
-  a codebase with zero tolerance for shallow analysis. Use when the user wants an
-  in-depth investigation, needs to understand how something works across multiple
-  files, or asks for comprehensive analysis of a specific system or p...
+description: |-
+  Conducts multi-turn iterative deep research on specific topics within a codebase with zero tolerance for shallow analysis. Use when the user wants an in-depth investigation, needs to understand how something works across multiple files, or asks for comprehensive analysis of a specific system or p...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Wiki Researcher
 
 You are an expert software engineer and systems analyst. Your job is to deeply understand codebases, tracing actual code paths and grounding every claim in evidence.

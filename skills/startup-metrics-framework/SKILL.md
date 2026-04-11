@@ -1,16 +1,13 @@
 ---
 name: startup-metrics-framework
-description: This skill should be used when the user asks about "key startup metrics",
-  "SaaS metrics", "CAC and LTV", "unit economics", "burn multiple", "rule of 40",
-  "marketplace metrics", or requests guidance on tracking and optimizing business
-  performance metrics.
+description: |-
+  This skill should be used when the user asks about "key startup metrics", "SaaS metrics", "CAC and LTV", "unit economics", "burn multiple", "rule of 40", "marketplace metrics", or requests guidance on tracking and optimizing business performance metrics.
 metadata:
   version: 1.0.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Startup Metrics Framework
 
 Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.

@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # 战略精简技能
 
 建议在你的工作流程中的战略节点手动执行 `/compact`，而不是依赖任意的自动精简。

@@ -1,14 +1,11 @@
 ---
 name: hosted-agents
-description: This skill should be used when the user asks to "build background agent",
-  "create hosted coding agent", "set up sandboxed execution", "implement multiplayer
-  agent", or mentions background agents, sandboxed VMs, agent infrastructure, Modal
-  sandboxes, self-spawning agents, or remote coding environm...
+description: |-
+  This skill should be used when the user asks to "build background agent", "create hosted coding agent", "set up sandboxed execution", "implement multiplayer agent", or mentions background agents, sandboxed VMs, agent infrastructure, Modal sandboxes, self-spawning agents, or remote coding environm...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Hosted Agent Infrastructure
 
 Hosted agents run in remote sandboxed environments rather than on local machines. When designed well, they provide unlimited concurrency, consistent execution environments, and multiplayer collaboration. The critical insight is that session speed should be limited only by model provider time-to-first-token, with all infrastructure setup completed before the user starts their session.

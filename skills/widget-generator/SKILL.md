@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Widget Generator Skill
 
 > **⚠️ AUTHORIZED USE ONLY**

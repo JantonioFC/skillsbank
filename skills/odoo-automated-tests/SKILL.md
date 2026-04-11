@@ -1,15 +1,11 @@
 ---
 name: odoo-automated-tests
-description: Write and run Odoo automated tests using TransactionCase, HttpCase, and
-  browser tour tests. Covers test data setup, mocking, and CI integration.
+description: |-
+  Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration.
 risk: safe
 source: self
 license: MIT
 ---
-
-
-
-
 # Odoo Automated Tests
 
 ## Overview

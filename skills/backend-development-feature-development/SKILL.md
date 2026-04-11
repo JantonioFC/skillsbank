@@ -1,14 +1,11 @@
 ---
 name: backend-development-feature-development
-description: Orchestrate end-to-end backend feature development from requirements
-  to deployment. Use when coordinating multi-phase feature delivery across teams and
-  services.
+description: |-
+  Orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services.
 risk: offensive
 source: community
 license: MIT
 ---
-
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

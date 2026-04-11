@@ -1,17 +1,12 @@
 ---
 name: content-repurposing
-description: 'Content atomization — turn one piece of content into many formats. Covers
-  blog-to-thread, blog-to-carousel, podcast-to-blog, video-to-quotes, and more. Use
-  for: content marketing, social media, multi-platform distribution, content strategy.
-  Triggers: content repurposing, repurpose content,...'
+description: |-
+  Content atomization — turn one piece of content into many formats. Covers blog-to-thread, blog-to-carousel, podcast-to-blog, video-to-quotes, and more. Use for: content marketing, social media, multi-platform distribution, content strategy. Triggers: content repurposing, repurpose content,...
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Content Repurposing
 
 ## When to Use

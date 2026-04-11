@@ -1,12 +1,11 @@
 ---
 name: test-writer
-description: Generate comprehensive Vitest tests for code examples in JavaScript concept
-  documentation pages, following project conventions and referencing source lines
+description: |-
+  Generate comprehensive Vitest tests for code examples in JavaScript concept documentation pages, following project conventions and referencing source lines
 risk: safe
 source: community
 license: MIT
 ---
-
 # Skill: Test Writer for Concept Pages
 
 Use this skill to generate comprehensive Vitest tests for all code examples in a concept documentation page. Tests verify that code examples in the documentation are accurate and work as described.

@@ -1,9 +1,7 @@
 ---
 name: cto-advisor
-description: Technical leadership guidance for engineering teams, architecture decisions,
-  and technology strategy. Use when assessing technical debt, scaling engineering
-  teams, evaluating technologies, making architecture decisions, establishing engineering
-  metrics, or when user mentions CTO, tech debt, techn...
+description: |-
+  Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing engineering metrics, or when user mentions CTO, tech debt, techn...
 license: MIT
 metadata:
   version: 2.0.0
@@ -16,7 +14,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # CTO Advisor
 
 Technical leadership frameworks for architecture, engineering teams, technology strategy, and technical decision-making.

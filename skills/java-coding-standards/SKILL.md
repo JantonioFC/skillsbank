@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Javaコーディング標準
 
 Spring Bootサービスにおける読みやすく保守可能なJava(17+)コードの標準。

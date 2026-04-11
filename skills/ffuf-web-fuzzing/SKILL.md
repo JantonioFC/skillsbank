@@ -1,12 +1,11 @@
 ---
 name: ffuf-web-fuzzing
-description: Expert guidance for ffuf web fuzzing during penetration testing, including
-  authenticated fuzzing with raw requests, auto-calibration, and result analysis
+description: |-
+  Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis
 risk: offensive
 source: community
 license: MIT
 ---
-
 # FFUF (Fuzz Faster U Fool) Skill
 
 > **⚠️ AUTHORIZED USE ONLY**

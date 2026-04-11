@@ -1,15 +1,12 @@
 ---
 name: article-writing
-description: Write articles, guides, blog posts, tutorials, newsletter issues, and
-  other long-form content in a distinctive voice derived from supplied examples or
-  brand guidance. Use when the user wants polished written content longer than a paragraph,
-  especially when voice consistency, structure, and credib...
+description: |-
+  Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user wants polished written content longer than a paragraph, especially when voice consistency, structure, and credib...
 origin: ECC
 risk: safe
 source: community
 license: MIT
 ---
-
 # Article Writing
 
 Write long-form content that sounds like a real person or brand, not generic AI output.

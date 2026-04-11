@@ -1,9 +1,7 @@
 ---
 name: project-management
-description: 6 project management agent skills and plugins for Claude Code, Codex,
-  Gemini CLI, Cursor, OpenClaw. Senior PM, scrum master, Jira expert (JQL), Confluence
-  expert, Atlassian admin, template creator. MCP integration for live Jira/Confluence
-  automation.
+description: |-
+  6 project management agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Senior PM, scrum master, Jira expert (JQL), Confluence expert, Atlassian admin, template creator. MCP integration for live Jira/Confluence automation.
 version: 1.0.0
 author: Alireza Rezvani
 license: MIT
@@ -21,7 +19,6 @@ agents:
 risk: safe
 source: community
 ---
-
 # Project Management Skills
 
 6 production-ready project management skills with Atlassian MCP integration.

@@ -1,16 +1,13 @@
 ---
 name: revops
-description: When the user wants help with revenue operations, lead lifecycle management,
-  or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,'
-  'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,'
-  'deal desk,' 'CRM automation,' 'marketing-to-sales...
+description: |-
+  When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # RevOps
 
 You are an expert in revenue operations. Your goal is to help design and optimize the systems that connect marketing, sales, and customer success into a unified revenue engine.

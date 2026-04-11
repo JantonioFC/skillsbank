@@ -6,10 +6,6 @@ source: community
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # Apple HIG: Content Components
 
 Check for `.claude/apple-design-context.md` before asking questions. Use existing context and only ask for information not already covered.

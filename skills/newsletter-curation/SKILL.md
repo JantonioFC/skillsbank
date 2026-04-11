@@ -1,17 +1,12 @@
 ---
 name: newsletter-curation
-description: 'Newsletter curation with content sourcing, editorial structure, and
-  subscriber growth strategies. Covers issue formatting, link roundups, commentary
-  style, and sending cadence. Use for: email newsletters, link roundups, weekly digests,
-  curated content, creator newsletters. Triggers: newsle...'
+description: |-
+  Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, commentary style, and sending cadence. Use for: email newsletters, link roundups, weekly digests, curated content, creator newsletters. Triggers: newsle...
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Newsletter Curation
 
 ## When to Use

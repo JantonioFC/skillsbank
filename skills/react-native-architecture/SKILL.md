@@ -1,13 +1,11 @@
 ---
 name: react-native-architecture
-description: Build production React Native apps with Expo, navigation, native modules,
-  offline sync, and cross-platform patterns. Use when developing mobile apps, implementing
-  native integrations, or architecting React Native projects.
+description: |-
+  Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns. Use when developing mobile apps, implementing native integrations, or architecting React Native projects.
 risk: safe
 source: community
 license: MIT
 ---
-
 # React Native Architecture
 
 Production-ready patterns for React Native development with Expo, including navigation, state management, native modules, and offline-first architecture.

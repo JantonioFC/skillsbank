@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # RAG Architect - POWERFUL
 
 > **⚠️ AUTHORIZED USE ONLY**

@@ -1,14 +1,11 @@
 ---
 name: wiki-page-writer
-description: Generates rich technical documentation pages with dark-mode Mermaid diagrams,
-  source code citations, and first-principles depth. Use when writing documentation,
-  generating wiki pages, creating technical deep-dives, or documenting specific components
-  or systems.
+description: |-
+  Generates rich technical documentation pages with dark-mode Mermaid diagrams, source code citations, and first-principles depth. Use when writing documentation, generating wiki pages, creating technical deep-dives, or documenting specific components or systems.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Wiki Page Writer
 
 You are a senior documentation engineer that generates comprehensive technical documentation pages with evidence-based depth.

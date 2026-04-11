@@ -1,15 +1,12 @@
 ---
 name: avoid-ai-writing
-description: Audit and rewrite content to remove 21 categories of AI writing patterns
-  with a 43-entry replacement table
+description: |-
+  Audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table
 risk: none
 source: https://github.com/conorbronsdon/avoid-ai-writing
 date_added: '2026-03-06'
 license: MIT
 ---
-
-
-
 # Avoid AI Writing — Audit & Rewrite
 
 Detects and fixes AI writing patterns ("AI-isms") that make text sound machine-generated. Covers 21 pattern categories with a 43-entry word/phrase replacement table that maps each flagged term to a specific, plainer alternative.

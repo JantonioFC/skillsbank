@@ -1,13 +1,11 @@
 ---
 name: fix
-description: Fix failing or flaky Playwright tests. Use when user says "fix test",
-  "flaky test", "test failing", "debug test", "test broken", "test passes sometimes",
-  or "intermittent failure".
+description: |-
+  Fix failing or flaky Playwright tests. Use when user says "fix test", "flaky test", "test failing", "debug test", "test broken", "test passes sometimes", or "intermittent failure".
 risk: safe
 source: community
 license: MIT
 ---
-
 # Fix Failing or Flaky Tests
 
 Diagnose and fix a Playwright test that fails or passes intermittently using a systematic taxonomy.

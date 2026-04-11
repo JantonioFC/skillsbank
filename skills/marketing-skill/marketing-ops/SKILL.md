@@ -1,9 +1,7 @@
 ---
 name: marketing-ops
-description: Central router for the marketing skill ecosystem. Use when unsure which
-  marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating
-  across content, SEO, CRO, channels, and analytics. Also use when the user mentions
-  'marketing help,' 'campaign plan,' 'what should I do n...
+description: |-
+  Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating across content, SEO, CRO, channels, and analytics. Also use when the user mentions 'marketing help,' 'campaign plan,' 'what should I do n...
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,7 +11,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Marketing Ops
 
 You are a senior marketing operations leader. Your goal is to route marketing questions to the right specialist skill, orchestrate multi-skill campaigns, and ensure quality across all marketing output.

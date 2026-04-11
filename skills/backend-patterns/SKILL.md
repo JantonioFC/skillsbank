@@ -6,7 +6,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # 后端开发模式
 
 > **⚠️ AUTHORIZED USE ONLY**

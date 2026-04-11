@@ -1,9 +1,7 @@
 ---
 name: schema-markup
-description: When the user wants to implement, audit, or validate structured data
-  (schema markup) on their website. Use when the user mentions 'structured data,'
-  'schema.org,' 'JSON-LD,' 'rich results,' 'rich snippets,' 'schema markup,' 'FAQ
-  schema,' 'Product schema,' 'HowTo schema,' or 'structured data error...
+description: |-
+  When the user wants to implement, audit, or validate structured data (schema markup) on their website. Use when the user mentions 'structured data,' 'schema.org,' 'JSON-LD,' 'rich results,' 'rich snippets,' 'schema markup,' 'FAQ schema,' 'Product schema,' 'HowTo schema,' or 'structured data error...
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,7 +11,6 @@ metadata:
 risk: offensive
 source: community
 ---
-
 # Schema Markup Implementation
 
 > **⚠️ AUTHORIZED USE ONLY**

@@ -1,13 +1,12 @@
 ---
 name: remember
-description: Explicitly save important knowledge to auto-memory with timestamp and
-  context. Use when a discovery is too important to rely on auto-capture.
+description: |-
+  Explicitly save important knowledge to auto-memory with timestamp and context. Use when a discovery is too important to rely on auto-capture.
 command: /si:remember
 risk: safe
 source: community
 license: MIT
 ---
-
 # /si:remember — Save Knowledge Explicitly
 
 Writes an explicit entry to auto-memory when something is important enough that you don't want to rely on Claude noticing it automatically.

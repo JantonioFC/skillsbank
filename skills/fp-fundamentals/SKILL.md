@@ -1,7 +1,7 @@
 ---
 name: fp-fundamentals
-description: Core FP concepts including pure functions, currying, composition, and
-  pointfree style - the foundation for mastering functional TypeScript
+description: |-
+  Core FP concepts including pure functions, currying, composition, and pointfree style - the foundation for mastering functional TypeScript
 version: 1.0.0
 author: Claude
 tags:
@@ -17,7 +17,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Functional Programming Fundamentals
 
 > **⚠️ AUTHORIZED USE ONLY**

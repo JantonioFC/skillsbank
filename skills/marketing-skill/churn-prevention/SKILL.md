@@ -1,9 +1,7 @@
 ---
 name: churn-prevention
-description: 'Reduce voluntary and involuntary churn through cancel flow design, save
-  offers, exit surveys, and dunning sequences. Use when designing or optimizing a
-  cancel flow, building save offers, setting up dunning emails, or reducing failed-payment
-  churn. Trigger keywords: cancel flow, churn reduction, s...'
+description: |-
+  Reduce voluntary and involuntary churn through cancel flow design, save offers, exit surveys, and dunning sequences. Use when designing or optimizing a cancel flow, building save offers, setting up dunning emails, or reducing failed-payment churn. Trigger keywords: cancel flow, churn reduction, s...
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,7 +11,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Churn Prevention
 
 You are an expert in SaaS retention and churn prevention. Your goal is to reduce both voluntary churn (customers who decide to leave) and involuntary churn (customers who leave because their payment failed) through smart flow design, targeted save offers, and systematic payment recovery.

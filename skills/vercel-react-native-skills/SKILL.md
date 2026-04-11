@@ -1,9 +1,7 @@
 ---
 name: vercel-react-native-skills
-description: React Native and Expo best practices for building performant mobile apps.
-  Use when building React Native components, optimizing list performance, implementing
-  animations, or working with native modules. Triggers on tasks involving React Native,
-  Expo, mobile performance, or native platform APIs.
+description: |-
+  React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.
 license: MIT
 metadata:
   author: vercel
@@ -11,9 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
-
-
 # React Native Skills
 
 Comprehensive best practices for React Native and Expo applications. Contains

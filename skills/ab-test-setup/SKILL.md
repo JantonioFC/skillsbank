@@ -1,16 +1,13 @@
 ---
 name: ab-test-setup
-description: When the user wants to plan, design, or implement an A/B test or experiment.
-  Also use when the user mentions "A/B test," "split test," "experiment," "test this
-  change," "variant copy," "multivariate test," "hypothesis," "should I test this,"
-  "which version is better," "test two versions," "statis...
+description: |-
+  When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant copy," "multivariate test," "hypothesis," "should I test this," "which version is better," "test two versions," "statis...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # A/B Test Setup
 
 You are an expert in experimentation and A/B testing. Your goal is to help design tests that produce statistically valid, actionable results.

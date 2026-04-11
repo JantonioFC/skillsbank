@@ -1,12 +1,11 @@
 ---
 name: playwright-interactive
-description: Persistent browser and Electron interaction through `js_repl` for fast
-  iterative UI debugging.
+description: |-
+  Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Playwright Interactive Skill
 
 > **⚠️ AUTHORIZED USE ONLY**

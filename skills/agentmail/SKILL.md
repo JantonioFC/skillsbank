@@ -1,15 +1,11 @@
 ---
 name: agentmail
-description: Email infrastructure for AI agents. Create accounts, send/receive emails,
-  manage webhooks, and check karma balance via the AgentMail API.
+description: |-
+  Email infrastructure for AI agents. Create accounts, send/receive emails, manage webhooks, and check karma balance via the AgentMail API.
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
-
 # AgentMail — Email for AI Agents
 
 AgentMail gives AI agents real email addresses (`@theagentmail.net`) with a REST API. Agents can send and receive email, sign up for services (GitHub, AWS, Slack, etc.), and get verification codes. A karma system prevents spam and keeps the shared domain's reputation high.

@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # 持续代理循环
 
 这是 v1.8+ 的规范循环技能名称。它在保持一个发布版本的兼容性的同时，取代了 `autonomous-loops`。

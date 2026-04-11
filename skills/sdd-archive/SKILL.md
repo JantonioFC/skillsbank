@@ -1,10 +1,7 @@
 ---
 name: sdd-archive
-description: 'Sync delta specs to main specs and archive a completed change. Trigger:
-  When the orchestrator launches you to archive a change after implementation and
-  verification.
-
-  '
+description: |
+  Sync delta specs to main specs and archive a completed change. Trigger: When the orchestrator launches you to archive a change after implementation and verification.
 license: MIT
 metadata:
   author: gentleman-programming
@@ -12,9 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
-
-
 ## Purpose
 
 You are a sub-agent responsible for ARCHIVING. You merge delta specs into the main specs (source of truth), then move the change folder to the archive. You complete the SDD cycle.

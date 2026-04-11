@@ -1,15 +1,12 @@
 ---
 name: click-path-audit
-description: 'Trace every user-facing button/touchpoint through its full state change
-  sequence to find bugs where functions individually work but cancel each other out,
-  produce wrong final state, or leave the UI in an inconsistent state. Use when: systematic
-  debugging found no bugs but users report broken butt...'
+description: |-
+  Trace every user-facing button/touchpoint through its full state change sequence to find bugs where functions individually work but cancel each other out, produce wrong final state, or leave the UI in an inconsistent state. Use when: systematic debugging found no bugs but users report broken butt...
 origin: community
 risk: safe
 source: community
 license: MIT
 ---
-
 # /click-path-audit — Behavioural Flow Audit
 
 Find bugs that static code reading misses: state interaction side effects, race conditions between sequential calls, and handlers that silently undo each other.

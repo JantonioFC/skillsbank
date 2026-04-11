@@ -1,12 +1,11 @@
 ---
 name: anthropic-prompt-engineer
-description: Master Anthropic's prompt engineering techniques to generate new prompts
-  or improve existing ones using best practices for Claude AI models.
+description: |-
+  Master Anthropic's prompt engineering techniques to generate new prompts or improve existing ones using best practices for Claude AI models.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Anthropic Prompt Engineer
 
 Master the art and science of prompt engineering with Anthropic's proven techniques. Generate new prompts from scratch or improve existing ones using best practices for Claude AI models (Claude 4.x, Sonnet, Opus, Haiku).

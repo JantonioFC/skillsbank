@@ -1,9 +1,7 @@
 ---
 name: executive-mentor
-description: Adversarial thinking partner for founders and executives. Stress-tests
-  plans, prepares for brutal board meetings, dissects decisions with no good options,
-  and forces honest post-mortems. Use when you need someone to find the holes before
-  the board does, make a decision you've been avoiding, or un...
+description: |-
+  Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good options, and forces honest post-mortems. Use when you need someone to find the holes before the board does, make a decision you've been avoiding, or un...
 license: MIT
 metadata:
   version: 1.0.0
@@ -16,7 +14,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Executive Mentor
 
 Not another advisor. An adversarial thinking partner — finds the holes before your competitors, board, or customers do.

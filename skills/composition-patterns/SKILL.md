@@ -1,9 +1,7 @@
 ---
 name: composition-patterns
-description: React composition patterns that scale. Use when refactoring components
-  with boolean prop proliferation, building flexible component libraries, or designing
-  reusable APIs. Triggers on tasks involving compound components, render props, context
-  providers, or component architecture. Includes React 19...
+description: |-
+  React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture. Includes React 19...
 license: MIT
 metadata:
   author: vercel
@@ -11,7 +9,6 @@ metadata:
 risk: offensive
 source: community
 ---
-
 # React Composition Patterns
 
 > **⚠️ AUTHORIZED USE ONLY**

@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # 2D Game Development
 
 > Principles for 2D game systems.

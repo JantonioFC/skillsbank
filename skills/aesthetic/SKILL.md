@@ -1,14 +1,11 @@
 ---
 name: aesthetic
-description: Create aesthetically beautiful interfaces following proven design principles.
-  Use when building UI/UX, analyzing designs from inspiration sites, generating design
-  images with ai-multimodal, implementing visual hierarchy and color theory, adding
-  micro-interactions, or creating design documentation...
+description: |-
+  Create aesthetically beautiful interfaces following proven design principles. Use when building UI/UX, analyzing designs from inspiration sites, generating design images with ai-multimodal, implementing visual hierarchy and color theory, adding micro-interactions, or creating design documentation...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Aesthetic
 
 Create aesthetically beautiful interfaces by following proven design principles and systematic workflows.

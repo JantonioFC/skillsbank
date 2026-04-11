@@ -1,17 +1,12 @@
 ---
 name: python-sdk
-description: 'Python SDK for inference.sh - run AI apps, build agents, and integrate
-  with 150+ models. Package: inferencesh (pip install inferencesh). Supports sync/async,
-  streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder
-  API, skills, and human approval. Use for: Pytho...'
+description: |-
+  Python SDK for inference.sh - run AI apps, build agents, and integrate with 150+ models. Package: inferencesh (pip install inferencesh). Supports sync/async, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, and human approval. Use for: Pytho...
 allowed-tools: Bash(pip install inferencesh), Bash(python *)
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Python SDK
 
 ## When to Use

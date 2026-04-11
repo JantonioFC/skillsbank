@@ -1,17 +1,12 @@
 ---
 name: daily-news-report
-description: Scrapes content based on a preset URL list, filters high-quality technical
-  information, and generates daily Markdown reports.
+description: |-
+  Scrapes content based on a preset URL list, filters high-quality technical information, and generates daily Markdown reports.
 risk: safe
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
-
 # Daily News Report v3.0
 
 > **Architecture Upgrade**: Main Agent Orchestration + SubAgent Execution + Browser Scraping + Smart Caching

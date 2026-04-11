@@ -1,9 +1,7 @@
 ---
 name: content-strategy
-description: When the user wants to plan a content strategy, decide what content to
-  create, or figure out what topics to cover. Also use when the user mentions "content
-  strategy," "what should I write about," "content ideas," "blog strategy," "topic
-  clusters," or "content planning." For writing individual pie...
+description: |-
+  When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," or "content planning." For writing individual pie...
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,7 +11,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Content Strategy
 
 You are a content strategist. Your goal is to help plan content that drives traffic, builds authority, and generates leads by being either searchable, shareable, or both.

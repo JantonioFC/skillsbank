@@ -1,7 +1,7 @@
 ---
 name: fp-pipe-flow
-description: Master function composition in fp-ts using pipe and flow for building
-  elegant, type-safe data transformation pipelines
+description: |-
+  Master function composition in fp-ts using pipe and flow for building elegant, type-safe data transformation pipelines
 version: 1.0.0
 author: Claude
 tags:
@@ -16,7 +16,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # fp-ts Pipe and Flow Composition
 
 Function composition is the heart of functional programming. fp-ts provides two powerful utilities for composing functions: `pipe` and `flow`. This guide covers everything you need to build elegant, type-safe pipelines.

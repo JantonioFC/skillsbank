@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 ## Use this skill when
 
 > **⚠️ AUTHORIZED USE ONLY**

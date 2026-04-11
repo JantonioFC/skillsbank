@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Env & Secrets Manager
 
 > **⚠️ AUTHORIZED USE ONLY**

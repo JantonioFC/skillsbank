@@ -1,14 +1,11 @@
 ---
 name: obsidian-cli
-description: Interact with Obsidian vaults using the Obsidian CLI to read, create,
-  search, and manage notes, tasks, properties, and more. Also supports plugin and
-  theme development with commands to reload plugins, run JavaScript, capture errors,
-  take screenshots, and inspect the DOM. Use when the user asks to...
+description: |-
+  Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. Also supports plugin and theme development with commands to reload plugins, run JavaScript, capture errors, take screenshots, and inspect the DOM. Use when the user asks to...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Obsidian CLI
 
 Use the `obsidian` CLI to interact with a running Obsidian instance. Requires Obsidian to be open.

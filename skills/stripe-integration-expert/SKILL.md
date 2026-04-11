@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Stripe Integration Expert
 
 **Tier:** POWERFUL  

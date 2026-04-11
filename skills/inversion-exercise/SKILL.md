@@ -1,15 +1,14 @@
 ---
 name: inversion-exercise
-description: Flip core assumptions to reveal hidden constraints and alternative approaches
-  - "what if the opposite were true?"
-when_to_use: when stuck on unquestioned assumptions or feeling forced into "the only
-  way" to do something
+description: |-
+  Flip core assumptions to reveal hidden constraints and alternative approaches - "what if the opposite were true?"
+when_to_use: |-
+  when stuck on unquestioned assumptions or feeling forced into "the only way" to do something
 version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Inversion Exercise
 
 ## Overview

@@ -1,13 +1,11 @@
 ---
 name: wiki-llms-txt
-description: Generates llms.txt and llms-full.txt files for LLM-friendly project documentation
-  following the llms.txt specification. Use when the user wants to create LLM-readable
-  summaries, llms.txt files, or make their wiki accessible to language models.
+description: |-
+  Generates llms.txt and llms-full.txt files for LLM-friendly project documentation following the llms.txt specification. Use when the user wants to create LLM-readable summaries, llms.txt files, or make their wiki accessible to language models.
 risk: safe
 source: community
 license: MIT
 ---
-
 # llms.txt Generator
 
 Generate `llms.txt` and `llms-full.txt` files that provide LLM-friendly access to wiki documentation, following the [llms.txt specification](https://llmstxt.org/).

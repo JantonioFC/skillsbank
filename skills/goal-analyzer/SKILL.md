@@ -6,9 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # 健康目标分析器技能
 
 分析健康目标数据,识别目标模式和进度,评估目标达成情况,并提供个性化目标管理建议。

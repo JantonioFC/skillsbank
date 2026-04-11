@@ -1,15 +1,11 @@
 ---
 name: python-code-style
-description: Python code style, linting, formatting, naming conventions, and documentation
-  standards. Use when writing new code, reviewing style, configuring linters, writing
-  docstrings, or establishing project standards.
+description: |-
+  Python code style, linting, formatting, naming conventions, and documentation standards. Use when writing new code, reviewing style, configuring linters, writing docstrings, or establishing project standards.
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Python Code Style & Documentation
 
 Consistent code style and clear documentation make codebases maintainable and collaborative. This skill covers modern Python tooling, naming conventions, and documentation standards.

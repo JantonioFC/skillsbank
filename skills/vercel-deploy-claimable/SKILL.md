@@ -1,17 +1,13 @@
 ---
 name: vercel-deploy-claimable
-description: Deploy applications and websites to Vercel. Use this skill when the user
-  requests deployment actions such as 'Deploy my app', 'Deploy this to production',
-  'Create a preview deployment', 'Deploy and...
+description: |-
+  Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as 'Deploy my app', 'Deploy this to production', 'Create a preview deployment', 'Deploy and...
 risk: safe
-source: https://github.com/vercel-labs/agent-skills/tree/main/skills/claude.ai/vercel-deploy-claimable
+source: |-
+  https://github.com/vercel-labs/agent-skills/tree/main/skills/claude.ai/vercel-deploy-claimable
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # Vercel Deploy
 
 Deploy any project to Vercel instantly. No authentication required.

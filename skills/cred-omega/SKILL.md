@@ -19,9 +19,6 @@ tools:
 - codex-cli
 license: MIT
 ---
-
-
-
 # CRED-OMEGA: Security Engine for All API Keys (Enterprise)
 
 ## Overview

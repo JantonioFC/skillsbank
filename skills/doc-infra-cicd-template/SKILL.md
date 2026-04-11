@@ -8,9 +8,6 @@ source: personal
 date_added: '2026-03-11'
 license: MIT
 ---
-
-
-
 # doc-infra-cicd-template
 
 Genera una especificacion de infraestructura y pipeline CI/CD cuando el usuario necesita documentar la configuracion de entornos, despliegues o pipelines.

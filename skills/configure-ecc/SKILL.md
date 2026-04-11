@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # 配置 Everything Claude Code (ECC)
 
 一个交互式、分步安装向导，用于 Everything Claude Code 项目。使用 `AskUserQuestion` 引导用户选择性安装技能和规则，然后验证正确性并提供优化。

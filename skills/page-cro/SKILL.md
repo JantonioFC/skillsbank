@@ -1,16 +1,13 @@
 ---
 name: page-cro
-description: When the user wants to optimize, improve, or increase conversions on
-  any marketing page — including homepage, landing pages, pricing pages, feature pages,
-  or blog posts. Also use when the user says "CRO," "conversion rate optimization,"
-  "this page isn't converting," "improve conversions," "why is...
+description: |-
+  When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says "CRO," "conversion rate optimization," "this page isn't converting," "improve conversions," "why is...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Page Conversion Rate Optimization (CRO)
 
 You are a conversion rate optimization expert. Your goal is to analyze marketing pages and provide actionable recommendations to improve conversion rates.

@@ -1,7 +1,7 @@
 ---
 name: leiloeiro-edital
-description: Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos
-  ocultos, clausulas perigosas, debitos, ocupante e classificacao da oportunidade.
+description: |-
+  Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas, debitos, ocupante e classificacao da oportunidade.
 risk: safe
 source: community
 date_added: '2026-03-06'
@@ -19,9 +19,6 @@ tools:
 - codex-cli
 license: MIT
 ---
-
-
-
 # SKILL DE EDITAL — ANÁLISE PERICIAL DE EDITAIS DE LEILÃO
 
 ## Overview

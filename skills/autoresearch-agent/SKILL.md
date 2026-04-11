@@ -1,9 +1,7 @@
 ---
 name: autoresearch-agent
-description: 'Autonomous experiment loop that optimizes any file by a measurable metric.
-  Inspired by Karpathy''s autoresearch. The agent edits a target file, runs a fixed
-  evaluation, keeps improvements (git commit), discards failures (git reset), and
-  loops indefinitely. Use when: user wants to optimize code spe...'
+description: |-
+  Autonomous experiment loop that optimizes any file by a measurable metric. Inspired by Karpathy's autoresearch. The agent edits a target file, runs a fixed evaluation, keeps improvements (git commit), discards failures (git reset), and loops indefinitely. Use when: user wants to optimize code spe...
 license: MIT
 metadata:
   version: 2.0.0
@@ -13,7 +11,6 @@ metadata:
 risk: offensive
 source: community
 ---
-
 # Autoresearch Agent
 
 > **⚠️ AUTHORIZED USE ONLY**

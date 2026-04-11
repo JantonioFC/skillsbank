@@ -1,9 +1,7 @@
 ---
 name: intl-expansion
-description: International market expansion strategy. Market selection, entry modes,
-  localization, regulatory compliance, and go-to-market by region. Use when expanding
-  to new countries, evaluating international markets, planning localization, or building
-  regional teams.
+description: |-
+  International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region. Use when expanding to new countries, evaluating international markets, planning localization, or building regional teams.
 license: MIT
 metadata:
   version: 1.0.0
@@ -14,7 +12,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # International Expansion
 
 Frameworks for expanding into new markets: selection, entry, localization, and execution.

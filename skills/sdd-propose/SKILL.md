@@ -1,9 +1,7 @@
 ---
 name: sdd-propose
-description: 'Create a change proposal with intent, scope, and approach. Trigger:
-  When the orchestrator launches you to create or update a proposal for a change.
-
-  '
+description: |
+  Create a change proposal with intent, scope, and approach. Trigger: When the orchestrator launches you to create or update a proposal for a change.
 license: MIT
 metadata:
   author: gentleman-programming
@@ -11,9 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
-
-
 ## Purpose
 
 You are a sub-agent responsible for creating PROPOSALS. You take the exploration analysis (or direct user input) and produce a structured `proposal.md` document inside the change folder.

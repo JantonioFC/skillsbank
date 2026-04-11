@@ -1,9 +1,7 @@
 ---
 name: company-os
-description: The meta-framework for how a company runs — the connective tissue between
-  all C-suite roles. Covers operating system selection (EOS, Scaling Up, OKR-native,
-  hybrid), accountability charts, scorecards, meeting pulse, issue resolution, and
-  90-day rocks. Use when setting up company operations, selec...
+description: |-
+  The meta-framework for how a company runs — the connective tissue between all C-suite roles. Covers operating system selection (EOS, Scaling Up, OKR-native, hybrid), accountability charts, scorecards, meeting pulse, issue resolution, and 90-day rocks. Use when setting up company operations, selec...
 license: MIT
 metadata:
   version: 1.0.0
@@ -15,7 +13,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Company Operating System
 
 The operating system is the collection of tools, rhythms, and agreements that determine how the company functions. Every company has one — most just don't know what it is. Making it explicit makes it improvable.

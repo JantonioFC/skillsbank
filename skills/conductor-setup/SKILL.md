@@ -1,14 +1,13 @@
 ---
 name: conductor-setup
-description: Initialize project with Conductor artifacts (product definition, tech
-  stack, workflow, style guides)
+description: |-
+  Initialize project with Conductor artifacts (product definition, tech stack, workflow, style guides)
 metadata:
   argument-hint: '[--resume]'
 risk: safe
 source: community
 license: MIT
 ---
-
 # Conductor Setup
 
 Initialize or resume Conductor project setup. This command creates foundational project documentation through interactive Q&A.

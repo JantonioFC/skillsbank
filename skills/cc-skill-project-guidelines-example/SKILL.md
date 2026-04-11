@@ -6,11 +6,6 @@ source: community
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
-
 # Project Guidelines Skill (Example)
 
 This is an example of a project-specific skill. Use this as a template for your own projects.

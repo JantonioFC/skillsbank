@@ -1,12 +1,11 @@
 ---
 name: requesting-code-review
-description: Use when completing tasks, implementing major features, or before merging
-  to verify work meets requirements
+description: |-
+  Use when completing tasks, implementing major features, or before merging to verify work meets requirements
 risk: safe
 source: community
 license: MIT
 ---
-
 # Requesting Code Review
 
 Dispatch superpowers:code-reviewer subagent to catch issues before they cascade. The reviewer gets precisely crafted context for evaluation — never your session's history. This keeps the reviewer focused on the work product, not your thought process, and preserves your own context for continued work.

@@ -1,9 +1,7 @@
 ---
 name: marketing-demand-acquisition
-description: Creates demand generation campaigns, optimizes paid ad spend across LinkedIn,
-  Google, and Meta, develops SEO strategies, and structures partnership programs for
-  Series A+ startups scaling internationally. Use when planning marketing strategy,
-  growth marketing, advertising campaigns, PPC optimizat...
+description: |-
+  Creates demand generation campaigns, optimizes paid ad spend across LinkedIn, Google, and Meta, develops SEO strategies, and structures partnership programs for Series A+ startups scaling internationally. Use when planning marketing strategy, growth marketing, advertising campaigns, PPC optimizat...
 triggers:
 - demand gen
 - demand generation
@@ -30,7 +28,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Marketing Demand & Acquisition
 
 Acquisition playbook for Series A+ startups scaling internationally (EU/US/Canada) with hybrid PLG/Sales-Led motion.

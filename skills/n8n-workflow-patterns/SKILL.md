@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # n8n Workflow Patterns
 
 > **⚠️ AUTHORIZED USE ONLY**

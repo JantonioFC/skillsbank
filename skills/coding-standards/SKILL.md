@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # 코딩 표준 및 모범 사례
 
 모든 프로젝트에 적용 가능한 범용 코딩 표준.

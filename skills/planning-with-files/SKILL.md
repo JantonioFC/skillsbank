@@ -1,20 +1,15 @@
 ---
 name: planning-with-files
-description: Implements Manus-style file-based planning to organize and track progress
-  on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked
-  to plan out, break down, or organize a multi-step project, research task, or any
-  work requiring >5 tool calls. Supports automatic session ...
+description: |-
+  Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring >5 tool calls. Supports automatic session ...
 user-invocable: true
 allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 hooks:
   UserPromptSubmit:
   - hooks:
     - type: command
-      command: if [ -f task_plan.md ]; then echo '[planning-with-files] ACTIVE PLAN
-        — current state:'; head -50 task_plan.md; echo ''; echo '=== recent progress
-        ==='; tail -20 progress.md 2>/dev/null; echo ''; echo '[planning-with-files]
-        Read findings.md for research context. Continue from the current phase.';
-        fi
+      command: |-
+        if [ -f task_plan.md ]; then echo '[planning-with-files] ACTIVE PLAN — current state:'; head -50 task_plan.md; echo ''; echo '=== recent progress ==='; tail -20 progress.md 2>/dev/null; echo ''; echo '[planning-with-files] Read findings.md for research context. Continue from the current phase.'; fi
   PreToolUse:
   - matcher: Write|Edit|Bash|Read|Glob|Grep
     hooks:
@@ -24,22 +19,19 @@ hooks:
   - matcher: Write|Edit
     hooks:
     - type: command
-      command: if [ -f task_plan.md ]; then echo '[planning-with-files] Update progress.md
-        with what you just did. If a phase is now complete, update task_plan.md status.';
-        fi
+      command: |-
+        if [ -f task_plan.md ]; then echo '[planning-with-files] Update progress.md with what you just did. If a phase is now complete, update task_plan.md status.'; fi
   Stop:
   - hooks:
     - type: command
-      command: SD="${CLAUDE_PLUGIN_ROOT:-$HOME/.claude/plugins/planning-with-files}/scripts";
-        powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$SD/check-complete.ps1"
-        2>/dev/null || sh "$SD/check-complete.sh"
+      command: |-
+        SD="${CLAUDE_PLUGIN_ROOT:-$HOME/.claude/plugins/planning-with-files}/scripts"; powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$SD/check-complete.ps1" 2>/dev/null || sh "$SD/check-complete.sh"
 metadata:
   version: 2.26.1
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Planning with Files
 
 > **⚠️ AUTHORIZED USE ONLY**

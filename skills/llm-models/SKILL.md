@@ -1,17 +1,12 @@
 ---
 name: llm-models
-description: 'Access Claude, Gemini, Kimi, GLM and 100+ LLMs via inference.sh CLI
-  using OpenRouter. Models: Claude Opus 4.5, Claude Sonnet 4.5, Claude Haiku 4.5,
-  Gemini 3 Pro, Kimi K2, GLM-4.6, Intellect 3. One API for all models with automatic
-  fallback and cost optimization. Use for: AI assistants, cod...'
+description: |-
+  Access Claude, Gemini, Kimi, GLM and 100+ LLMs via inference.sh CLI using OpenRouter. Models: Claude Opus 4.5, Claude Sonnet 4.5, Claude Haiku 4.5, Gemini 3 Pro, Kimi K2, GLM-4.6, Intellect 3. One API for all models with automatic fallback and cost optimization. Use for: AI assistants, cod...
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # LLM Models via OpenRouter
 
 ## When to Use

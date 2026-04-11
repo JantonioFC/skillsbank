@@ -5,9 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
 ---
 name: expo-ui-swift-ui
 description: `@expo/ui/swift-ui` package lets you use SwiftUI Views and modifiers in your app.

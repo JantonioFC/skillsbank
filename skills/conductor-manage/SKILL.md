@@ -7,7 +7,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Track Manager
 
 Manage the complete track lifecycle including archiving, restoring, deleting, renaming, and cleaning up orphaned artifacts.

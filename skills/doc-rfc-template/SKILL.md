@@ -8,9 +8,6 @@ source: personal
 date_added: '2026-03-11'
 license: MIT
 ---
-
-
-
 # doc-rfc-template
 
 Genera un RFC (Request for Comments) técnico completo cuando el usuario necesita proponer y documentar un cambio arquitectónico o técnico significativo.

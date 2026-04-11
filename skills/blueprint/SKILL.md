@@ -1,15 +1,12 @@
 ---
 name: blueprint
-description: Turn a one-line objective into a step-by-step construction plan for multi-session,
-  multi-agent engineering projects. Each step has a self-contained context brief so
-  a fresh agent can execute it cold. Includes adversarial review gate, dependency
-  graph, parallel step detection, anti-pattern catalog...
+description: |-
+  Turn a one-line objective into a step-by-step construction plan for multi-session, multi-agent engineering projects. Each step has a self-contained context brief so a fresh agent can execute it cold. Includes adversarial review gate, dependency graph, parallel step detection, anti-pattern catalog...
 origin: community
 risk: safe
 source: community
 license: MIT
 ---
-
 # Blueprint — Construction Plan Generator
 
 Turn a one-line objective into a step-by-step construction plan that any coding agent can execute cold.

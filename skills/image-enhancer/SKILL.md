@@ -1,13 +1,11 @@
 ---
 name: image-enhancer
-description: Improves the quality of images, especially screenshots, by enhancing
-  resolution, sharpness, and clarity. Perfect for preparing images for presentations,
-  documentation, or social media posts.
+description: |-
+  Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for preparing images for presentations, documentation, or social media posts.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Image Enhancer
 
 This skill takes your images and screenshots and makes them look better—sharper, clearer, and more professional.

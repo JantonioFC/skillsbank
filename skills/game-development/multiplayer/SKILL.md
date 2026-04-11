@@ -1,12 +1,12 @@
 ---
 name: multiplayer
-description: Multiplayer game development principles. Architecture, networking, synchronization.
+description: |-
+  Multiplayer game development principles. Architecture, networking, synchronization.
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
 risk: safe
 source: community
 license: MIT
 ---
-
 # Multiplayer Game Development
 
 > Networking architecture and synchronization principles.

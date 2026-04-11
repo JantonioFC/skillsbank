@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Context Save Tool: Intelligent Context Management Specialist
 
 ## Use this skill when

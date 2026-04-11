@@ -1,14 +1,11 @@
 ---
 name: content-research-writer
-description: Assists in writing high-quality content by conducting research, adding
-  citations, improving hooks, iterating on outlines, and providing real-time feedback
-  on each section. Transforms your writing process from solo effort to collaborative
-  partnership.
+description: |-
+  Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Content Research Writer
 
 This skill acts as your writing partner, helping you research, outline, draft, and refine content while maintaining your unique voice and style.

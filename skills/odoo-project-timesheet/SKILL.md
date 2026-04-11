@@ -1,15 +1,11 @@
 ---
 name: odoo-project-timesheet
-description: 'Expert guide for Odoo Project and Timesheets: task stages, billable
-  time tracking, timesheet approval, budget alerts, and invoicing from timesheets.'
+description: |-
+  Expert guide for Odoo Project and Timesheets: task stages, billable time tracking, timesheet approval, budget alerts, and invoicing from timesheets.
 risk: safe
 source: self
 license: MIT
 ---
-
-
-
-
 # Odoo Project & Timesheet
 
 ## Overview

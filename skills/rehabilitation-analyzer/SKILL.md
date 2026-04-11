@@ -6,9 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # 康复训练分析技能
 
 ## 核心功能

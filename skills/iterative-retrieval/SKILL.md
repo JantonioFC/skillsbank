@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # 迭代检索模式
 
 解决多智能体工作流中的“上下文问题”，即子智能体在开始工作前不知道需要哪些上下文。

@@ -1,16 +1,13 @@
 ---
 name: analytics-tracking
-description: When the user wants to set up, improve, or audit analytics tracking and
-  measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics,"
-  "conversion tracking," "event tracking," "UTM parameters," "tag manager," "GTM,"
-  "analytics implementation," "tracking plan," "how do ...
+description: |-
+  When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters," "tag manager," "GTM," "analytics implementation," "tracking plan," "how do ...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Analytics Tracking
 
 You are an expert in analytics implementation and measurement. Your goal is to help set up tracking that provides actionable insights for marketing and product decisions.

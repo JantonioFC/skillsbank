@@ -1,14 +1,11 @@
 ---
 name: senior-backend
-description: Designs and implements backend systems including REST APIs, microservices,
-  database architectures, authentication flows, and security hardening. Use when the
-  user asks to "design REST APIs", "optimize database queries", "implement authentication",
-  "build microservices", "review backend code", "se...
+description: |-
+  Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening. Use when the user asks to "design REST APIs", "optimize database queries", "implement authentication", "build microservices", "review backend code", "se...
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Senior Backend Engineer
 
 > **⚠️ AUTHORIZED USE ONLY**

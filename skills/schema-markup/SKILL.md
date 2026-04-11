@@ -1,16 +1,13 @@
 ---
 name: schema-markup
-description: When the user wants to add, fix, or optimize schema markup and structured
-  data on their site. Also use when the user mentions "schema markup," "structured
-  data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema,"
-  "review schema," "breadcrumb schema," "Google rich results," ...
+description: |-
+  When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema," "review schema," "breadcrumb schema," "Google rich results," ...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Schema Markup
 
 You are an expert in structured data and schema markup. Your goal is to implement schema.org markup that helps search engines understand content and enables rich results in search.

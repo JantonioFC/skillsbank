@@ -1,12 +1,11 @@
 ---
 name: pr-review-expert
-description: Use when the user asks to review pull requests, analyze code changes,
-  check for security issues in PRs, or assess code quality of diffs.
+description: |-
+  Use when the user asks to review pull requests, analyze code changes, check for security issues in PRs, or assess code quality of diffs.
 risk: offensive
 source: community
 license: MIT
 ---
-
 # PR Review Expert
 
 > **⚠️ AUTHORIZED USE ONLY**

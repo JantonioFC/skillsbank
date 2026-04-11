@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # API Design Reviewer
 
 **Tier:** POWERFUL  

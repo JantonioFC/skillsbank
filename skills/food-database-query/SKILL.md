@@ -5,9 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # 食物数据库查询技能
 
 **技能名称**: Food Database Query

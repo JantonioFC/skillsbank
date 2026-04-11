@@ -6,10 +6,6 @@ source: https://github.com/robzolkos/skill-rails-upgrade
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 ## When to Use This Skill
 
 Analyze Rails apps and provide upgrade assessments

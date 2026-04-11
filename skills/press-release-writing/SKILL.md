@@ -1,17 +1,12 @@
 ---
 name: press-release-writing
-description: 'Press release writing in AP style with inverted pyramid structure. Covers
-  formatting, datelines, quotes, boilerplates, and fact-checking. Use for: product
-  launches, funding announcements, partnerships, company news, events. Triggers: press
-  release, pr writing, media release, news release, ...'
+description: |-
+  Press release writing in AP style with inverted pyramid structure. Covers formatting, datelines, quotes, boilerplates, and fact-checking. Use for: product launches, funding announcements, partnerships, company news, events. Triggers: press release, pr writing, media release, news release, ...
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Press Release Writing
 
 ## When to Use

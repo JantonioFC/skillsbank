@@ -1,16 +1,12 @@
 ---
 name: task-coordination-strategies
-description: Decompose complex tasks, design dependency graphs, and coordinate multi-agent
-  work with proper task descriptions and workload balancing. Use this skill when breaking
-  down work for agent teams, managing task dependencies, or monitoring team progress.
+description: |-
+  Decompose complex tasks, design dependency graphs, and coordinate multi-agent work with proper task descriptions and workload balancing. Use this skill when breaking down work for agent teams, managing task dependencies, or monitoring team progress.
 version: 1.0.2
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Task Coordination Strategies
 
 Strategies for decomposing complex tasks into parallelizable units, designing dependency graphs, writing effective task descriptions, and monitoring workload across agent teams.

@@ -1,7 +1,7 @@
 ---
 name: goldrush-api
-description: 'Query blockchain data across 100+ chains: wallet balances, token prices,
-  transactions, DEX pairs, and real-time OHLCV streams via the GoldRush API by Covalent.'
+description: |-
+  Query blockchain data across 100+ chains: wallet balances, token prices, transactions, DEX pairs, and real-time OHLCV streams via the GoldRush API by Covalent.
 category: blockchain
 risk: safe
 source: community
@@ -23,8 +23,6 @@ tools:
 - copilot
 license: MIT
 ---
-
-
 # GoldRush API
 
 ## Overview

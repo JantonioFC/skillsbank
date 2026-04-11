@@ -1,13 +1,11 @@
 ---
 name: game-audio
-description: Game audio principles. Sound design, music integration, adaptive audio
-  systems.
+description: Game audio principles. Sound design, music integration, adaptive audio systems.
 allowed-tools: Read, Glob, Grep
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Game Audio Principles
 
 > **⚠️ AUTHORIZED USE ONLY**

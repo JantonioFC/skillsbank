@@ -1,14 +1,11 @@
 ---
 name: context-compression
-description: This skill should be used when the user asks to "compress context", "summarize
-  conversation history", "implement compaction", "reduce token usage", or mentions
-  context compression, structured summarization, tokens-per-task optimization, or
-  long-running agent sessions exceeding context limits.
+description: |-
+  This skill should be used when the user asks to "compress context", "summarize conversation history", "implement compaction", "reduce token usage", or mentions context compression, structured summarization, tokens-per-task optimization, or long-running agent sessions exceeding context limits.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Context Compression Strategies
 
 When agent sessions generate millions of tokens of conversation history, compression becomes mandatory. The naive approach is aggressive compression to minimize tokens per request. The correct optimization target is tokens per task: total tokens consumed to complete a task, including re-fetching costs when compression loses critical information.

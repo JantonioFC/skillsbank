@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Liquid Glass 设计系统 (iOS 26)
 
 实现苹果 Liquid Glass 的模式指南——这是一种动态材质，会模糊其后的内容，反射周围内容的颜色和光线，并对触摸和指针交互做出反应。涵盖 SwiftUI、UIKit 和 WidgetKit 集成。

@@ -1,17 +1,13 @@
 ---
 name: ai-engineer
-description: Build production-ready LLM applications, advanced RAG systems, and intelligent
-  agents. Implements vector search, multimodal AI, agent orchestration, and enterprise
-  AI integrations. Use PROACTIVELY for LLM features, chatbots, AI agents, or AI-powered
-  applications.
+description: |-
+  Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations. Use PROACTIVELY for LLM features, chatbots, AI agents, or AI-powered applications.
 metadata:
   model: inherit
 risk: offensive
 source: community
 license: MIT
 ---
-
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

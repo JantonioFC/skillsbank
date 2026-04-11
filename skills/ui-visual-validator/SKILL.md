@@ -1,16 +1,13 @@
 ---
 name: ui-visual-validator
-description: Rigorous visual validation expert specializing in UI testing, design
-  system compliance, and accessibility verification. Masters screenshot analysis,
-  visual regression testing, and component validation. Use PROACTIVELY to verify UI
-  modifications have achieved their intended goals through comprehen...
+description: |-
+  Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification. Masters screenshot analysis, visual regression testing, and component validation. Use PROACTIVELY to verify UI modifications have achieved their intended goals through comprehen...
 metadata:
   model: sonnet
 risk: safe
 source: community
 license: MIT
 ---
-
 ## Use this skill when
 
 - Working on ui visual validator tasks or workflows

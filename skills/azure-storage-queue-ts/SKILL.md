@@ -1,15 +1,12 @@
 ---
 name: azure-storage-queue-ts
-description: 'Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue)
-  for message queue operations. Use for sending, receiving, peeking, and deleting
-  messages in queues. Supports visibility timeout, message encoding, and batch operations.
-  Triggers: "queue storage", "@azure/storage-queue", "QueueSe...'
+description: |-
+  Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues. Supports visibility timeout, message encoding, and batch operations. Triggers: "queue storage", "@azure/storage-queue", "QueueSe...
 package: '@azure/storage-queue'
 risk: safe
 source: community
 license: MIT
 ---
-
 # @azure/storage-queue (TypeScript/JavaScript)
 
 SDK for Azure Queue Storage operations — send, receive, peek, and manage messages in queues.

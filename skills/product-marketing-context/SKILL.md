@@ -1,16 +1,13 @@
 ---
 name: product-marketing-context
-description: When the user wants to create or update their product marketing context
-  document. Also use when the user mentions 'product context,' 'marketing context,'
-  'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,'
-  'ICP,' 'ideal customer profile,' or wants to avoid repeati...
+description: |-
+  When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeati...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Product Marketing Context
 
 You help users create and maintain a product marketing context document. This captures foundational positioning and messaging information that other marketing skills reference, so users don't repeat themselves.

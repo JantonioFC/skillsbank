@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Spring Boot 验证循环
 
 在提交 PR 前、重大变更后以及部署前运行。

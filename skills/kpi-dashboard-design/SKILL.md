@@ -1,13 +1,11 @@
 ---
 name: kpi-dashboard-design
-description: Design effective KPI dashboards with metrics selection, visualization
-  best practices, and real-time monitoring patterns. Use when building business dashboards,
-  selecting metrics, or designing data visualization layouts.
+description: |-
+  Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use when building business dashboards, selecting metrics, or designing data visualization layouts.
 risk: safe
 source: community
 license: MIT
 ---
-
 # KPI Dashboard Design
 
 Comprehensive patterns for designing effective Key Performance Indicator (KPI) dashboards that drive business decisions.

@@ -1,9 +1,7 @@
 ---
 name: app-store-optimization
-description: App Store Optimization (ASO) toolkit for researching keywords, analyzing
-  competitor rankings, generating metadata suggestions, and improving app visibility
-  on Apple App Store and Google Play Store. Use when the user asks about ASO, app
-  store rankings, app metadata, app titles and descriptions, ap...
+description: |-
+  App Store Optimization (ASO) toolkit for researching keywords, analyzing competitor rankings, generating metadata suggestions, and improving app visibility on Apple App Store and Google Play Store. Use when the user asks about ASO, app store rankings, app metadata, app titles and descriptions, ap...
 triggers:
 - ASO
 - app store optimization
@@ -21,7 +19,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # App Store Optimization (ASO)
 
 ---

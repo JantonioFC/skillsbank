@@ -1,12 +1,11 @@
 ---
 name: formik-patterns
-description: Formik form handling with validation patterns. Use when building forms,
-  implementing validation, or handling form submission.
+description: |-
+  Formik form handling with validation patterns. Use when building forms, implementing validation, or handling form submission.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Formik Patterns
 
 ## Basic Form Setup

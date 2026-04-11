@@ -1,7 +1,7 @@
 ---
 name: astro
-description: Build content-focused websites with Astro — zero JS by default, islands
-  architecture, multi-framework components, and Markdown/MDX support.
+description: |-
+  Build content-focused websites with Astro — zero JS by default, islands architecture, multi-framework components, and Markdown/MDX support.
 category: frontend
 risk: safe
 source: community
@@ -22,8 +22,6 @@ tools:
 - gemini
 license: MIT
 ---
-
-
 # Astro Web Framework
 
 ## Overview

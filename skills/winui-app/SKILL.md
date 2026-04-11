@@ -1,14 +1,11 @@
 ---
 name: winui-app
-description: Bootstrap, develop, and design modern WinUI 3 desktop applications with
-  C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns,
-  Windows App SDK samples, and CommunityToolkit components. Use when creating a brand
-  new app, preparing a machine for WinUI, reviewing, refa...
+description: |-
+  Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Windows App SDK samples, and CommunityToolkit components. Use when creating a brand new app, preparing a machine for WinUI, reviewing, refa...
 risk: safe
 source: community
 license: MIT
 ---
-
 # WinUI App
 
 Use this skill for WinUI 3 and Windows App SDK work that needs grounded setup guidance, app bootstrap, modern Windows UX decisions, or concrete implementation patterns.

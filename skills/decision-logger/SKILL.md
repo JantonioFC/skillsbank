@@ -1,9 +1,7 @@
 ---
 name: decision-logger
-description: Two-layer memory architecture for board meeting decisions. Manages raw
-  transcripts (Layer 1) and approved decisions (Layer 2). Use when logging decisions
-  after a board meeting, reviewing past decisions with /cs:decisions, or checking
-  overdue action items with /cs:review. Invoked automatically by ...
+description: |-
+  Two-layer memory architecture for board meeting decisions. Manages raw transcripts (Layer 1) and approved decisions (Layer 2). Use when logging decisions after a board meeting, reviewing past decisions with /cs:decisions, or checking overdue action items with /cs:review. Invoked automatically by ...
 license: MIT
 metadata:
   version: 1.0.0
@@ -15,7 +13,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Decision Logger
 
 Two-layer memory system. Layer 1 stores everything. Layer 2 stores only what the founder approved. Future meetings read Layer 2 only — this prevents hallucinated consensus from past debates bleeding into new deliberations.

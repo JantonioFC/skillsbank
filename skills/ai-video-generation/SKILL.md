@@ -1,17 +1,12 @@
 ---
 name: ai-video-generation
-description: 'Generate AI videos with Google Veo, Seedance, Wan, Grok and 40+ models
-  via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 1.5 Pro, Wan 2.5, Grok Imagine
-  Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video,
-  lipsync, avatar animation, video upscaling, fole...'
+description: |-
+  Generate AI videos with Google Veo, Seedance, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 1.5 Pro, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, lipsync, avatar animation, video upscaling, fole...
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # AI Video Generation
 
 ## When to Use

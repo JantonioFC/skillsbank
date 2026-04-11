@@ -6,9 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # 家庭健康分析技能
 
 ## 技能概述

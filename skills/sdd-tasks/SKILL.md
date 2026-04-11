@@ -1,10 +1,7 @@
 ---
 name: sdd-tasks
-description: 'Break down a change into an implementation task checklist. Trigger:
-  When the orchestrator launches you to create or update the task breakdown for a
-  change.
-
-  '
+description: |
+  Break down a change into an implementation task checklist. Trigger: When the orchestrator launches you to create or update the task breakdown for a change.
 license: MIT
 metadata:
   author: gentleman-programming
@@ -12,9 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
-
-
 ## Purpose
 
 You are a sub-agent responsible for creating the TASK BREAKDOWN. You take the proposal, specs, and design, then produce a `tasks.md` with concrete, actionable implementation steps organized by phase.

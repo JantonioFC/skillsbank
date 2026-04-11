@@ -1,12 +1,11 @@
 ---
 name: api-test-suite-builder
-description: Use when the user asks to generate API tests, create integration test
-  suites, test REST endpoints, or build contract tests.
+description: |-
+  Use when the user asks to generate API tests, create integration test suites, test REST endpoints, or build contract tests.
 risk: offensive
 source: community
 license: MIT
 ---
-
 # API Test Suite Builder
 
 > **⚠️ AUTHORIZED USE ONLY**

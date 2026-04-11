@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Multi-Agent Code Review Orchestration Tool
 
 ## Use this skill when

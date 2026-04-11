@@ -9,7 +9,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Migration Observability and Real-time Monitoring
 
 > **⚠️ AUTHORIZED USE ONLY**

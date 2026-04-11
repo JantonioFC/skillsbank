@@ -1,13 +1,12 @@
 ---
 name: init
-description: Create a new AgentHub collaboration session with task, agent count, and
-  evaluation criteria.
+description: |-
+  Create a new AgentHub collaboration session with task, agent count, and evaluation criteria.
 command: /hub:init
 risk: safe
 source: community
 license: MIT
 ---
-
 # /hub:init — Create New Session
 
 Initialize an AgentHub collaboration session. Creates the `.agenthub/` directory structure, generates a session ID, and configures evaluation criteria.

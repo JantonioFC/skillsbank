@@ -1,9 +1,7 @@
 ---
 name: azure-storage
-description: 'Azure Storage Services including Blob Storage, File Shares, Queue Storage,
-  Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging,
-  NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot,
-  cool, archive) and lifecycle management. USE FOR: b...'
+description: |-
+  Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot, cool, archive) and lifecycle management. USE FOR: b...
 license: MIT
 metadata:
   author: Microsoft
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Azure Storage Services
 
 ## Services

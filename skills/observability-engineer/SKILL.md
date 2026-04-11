@@ -1,17 +1,13 @@
 ---
 name: observability-engineer
-description: Build production-ready monitoring, logging, and tracing systems. Implements
-  comprehensive observability strategies, SLI/SLO management, and incident response
-  workflows. Use PROACTIVELY for monitoring infrastructure, performance optimization,
-  or production reliability.
+description: |-
+  Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows. Use PROACTIVELY for monitoring infrastructure, performance optimization, or production reliability.
 metadata:
   model: inherit
 risk: offensive
 source: community
 license: MIT
 ---
-
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

@@ -1,9 +1,7 @@
 ---
 name: isms-audit-expert
-description: Information Security Management System (ISMS) audit expert for ISO 27001
-  compliance verification, security control assessment, and certification support.
-  Use when the user mentions ISO 27001, ISMS audit, Annex A controls, Statement of
-  Applicability (SOA), gap analysis, nonconformity management, i...
+description: |-
+  Information Security Management System (ISMS) audit expert for ISO 27001 compliance verification, security control assessment, and certification support. Use when the user mentions ISO 27001, ISMS audit, Annex A controls, Statement of Applicability (SOA), gap analysis, nonconformity management, i...
 triggers:
 - ISMS audit
 - ISO 27001 audit
@@ -18,7 +16,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # ISMS Audit Expert
 
 > **⚠️ AUTHORIZED USE ONLY**

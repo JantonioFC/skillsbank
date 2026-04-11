@@ -1,17 +1,13 @@
 ---
 name: performance-engineer
-description: Expert performance engineer specializing in modern observability, application
-  optimization, and scalable system performance. Masters OpenTelemetry, distributed
-  tracing, load testing, multi-tier caching, Core Web Vitals, and performance monitoring.
-  Handles end-to-end optimization, real user monito...
+description: |-
+  Expert performance engineer specializing in modern observability, application optimization, and scalable system performance. Masters OpenTelemetry, distributed tracing, load testing, multi-tier caching, Core Web Vitals, and performance monitoring. Handles end-to-end optimization, real user monito...
 metadata:
   model: inherit
 risk: offensive
 source: community
 license: MIT
 ---
-
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

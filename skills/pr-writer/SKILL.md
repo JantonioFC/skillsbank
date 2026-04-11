@@ -5,9 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # PR Writer
 
 Create pull requests following Sentry's engineering practices.

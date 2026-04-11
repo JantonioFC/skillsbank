@@ -1,12 +1,11 @@
 ---
 name: seo-review
-description: Perform a focused SEO audit on JavaScript concept pages to maximize search
-  visibility, featured snippet optimization, and ranking potential
+description: |-
+  Perform a focused SEO audit on JavaScript concept pages to maximize search visibility, featured snippet optimization, and ranking potential
 risk: safe
 source: community
 license: MIT
 ---
-
 # Skill: SEO Audit for Concept Pages
 
 Use this skill to perform a focused SEO audit on concept documentation pages for the 33 JavaScript Concepts project. The goal is to maximize search visibility for JavaScript developers.

@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Kotlin 开发模式
 
 适用于构建健壮、高效、可维护应用程序的惯用 Kotlin 模式与最佳实践。

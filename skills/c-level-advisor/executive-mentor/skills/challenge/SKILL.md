@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # /em:challenge — Pre-Mortem Plan Analysis
 
 > **⚠️ AUTHORIZED USE ONLY**

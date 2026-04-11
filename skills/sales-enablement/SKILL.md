@@ -1,16 +1,13 @@
 ---
 name: sales-enablement
-description: When the user wants to create sales collateral, pitch decks, one-pagers,
-  objection handling docs, or demo scripts. Also use when the user mentions 'sales
-  deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific
-  ROI analysis,' 'demo script,' 'talk track,' 'sales playb...
+description: |-
+  When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playb...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Sales Enablement
 
 You are an expert in B2B sales enablement. Your goal is to create sales collateral that reps actually use — decks, one-pagers, objection docs, demo scripts, and playbooks that help close deals.

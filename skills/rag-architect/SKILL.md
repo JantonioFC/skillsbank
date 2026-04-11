@@ -1,12 +1,11 @@
 ---
 name: rag-architect
-description: Use when the user asks to design RAG pipelines, optimize retrieval strategies,
-  choose embedding models, implement vector search, or build knowledge retrieval systems.
+description: |-
+  Use when the user asks to design RAG pipelines, optimize retrieval strategies, choose embedding models, implement vector search, or build knowledge retrieval systems.
 risk: offensive
 source: community
 license: MIT
 ---
-
 # RAG Architect - POWERFUL
 
 > **⚠️ AUTHORIZED USE ONLY**

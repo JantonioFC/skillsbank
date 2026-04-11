@@ -1,12 +1,11 @@
 ---
 name: product-analytics
-description: Use when defining product KPIs, building metric dashboards, running cohort
-  or retention analysis, or interpreting feature adoption trends across product stages.
+description: |-
+  Use when defining product KPIs, building metric dashboards, running cohort or retention analysis, or interpreting feature adoption trends across product stages.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Product Analytics
 
 Define, track, and interpret product metrics across discovery, growth, and mature product stages.

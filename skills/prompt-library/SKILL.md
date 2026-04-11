@@ -1,19 +1,12 @@
 ---
 name: prompt-library
-description: A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
-  and community best practices.
+description: |-
+  A comprehensive collection of battle-tested prompts inspired by [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) and community best practices.
 risk: offensive
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
-
-
-
 > [!IMPORTANT]
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only. 

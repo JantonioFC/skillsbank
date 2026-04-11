@@ -1,13 +1,11 @@
 ---
 name: game-art
-description: Game art principles. Visual style selection, asset pipeline, animation
-  workflow.
+description: Game art principles. Visual style selection, asset pipeline, animation workflow.
 allowed-tools: Read, Glob, Grep
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Game Art Principles
 
 > **⚠️ AUTHORIZED USE ONLY**

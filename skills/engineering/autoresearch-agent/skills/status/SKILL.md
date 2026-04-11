@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # /ar:status — Experiment Dashboard
 
 Show experiment results, active loops, and progress across all experiments.

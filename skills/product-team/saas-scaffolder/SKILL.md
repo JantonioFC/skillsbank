@@ -1,14 +1,11 @@
 ---
 name: saas-scaffolder
-description: Generates complete, production-ready SaaS project boilerplate including
-  authentication, database schemas, billing integration, API routes, and a working
-  dashboard using Next.js 14+ App Router, TypeScript, Tailwind CSS, shadcn/ui, Drizzle
-  ORM, and Stripe. Use when the user wants to create a new Sa...
+description: |-
+  Generates complete, production-ready SaaS project boilerplate including authentication, database schemas, billing integration, API routes, and a working dashboard using Next.js 14+ App Router, TypeScript, Tailwind CSS, shadcn/ui, Drizzle ORM, and Stripe. Use when the user wants to create a new Sa...
 risk: safe
 source: community
 license: MIT
 ---
-
 # SaaS Scaffolder
 
 **Tier:** POWERFUL  

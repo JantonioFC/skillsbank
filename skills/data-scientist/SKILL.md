@@ -1,16 +1,13 @@
 ---
 name: data-scientist
-description: Expert data scientist for advanced analytics, machine learning, and statistical
-  modeling. Handles complex data analysis, predictive modeling, and business intelligence.
-  Use PROACTIVELY for data analysis tasks, ML modeling, statistical analysis, and
-  data-driven insights.
+description: |-
+  Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence. Use PROACTIVELY for data analysis tasks, ML modeling, statistical analysis, and data-driven insights.
 metadata:
   model: inherit
 risk: safe
 source: community
 license: MIT
 ---
-
 ## Use this skill when
 
 - Working on data scientist tasks or workflows

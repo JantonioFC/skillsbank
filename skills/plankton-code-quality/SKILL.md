@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Plankton 代码质量技能
 
 Plankton（作者：@alxfazio）的集成参考，这是一个用于 Claude Code 的编写时代码质量强制执行系统。Plankton 通过 PostToolUse 钩子在每次文件编辑时运行格式化程序和 linter，然后生成 Claude 子进程来修复代理未捕获的违规。

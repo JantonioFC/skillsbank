@@ -1,9 +1,7 @@
 ---
 name: cmo-advisor
-description: Marketing leadership for scaling companies. Brand positioning, growth
-  model design, marketing budget allocation, and marketing org design. Use when designing
-  brand strategy, selecting growth models (PLG vs sales-led vs community-led), allocating
-  marketing budgets, building marketing teams, or whe...
+description: |-
+  Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design. Use when designing brand strategy, selecting growth models (PLG vs sales-led vs community-led), allocating marketing budgets, building marketing teams, or whe...
 license: MIT
 metadata:
   version: 1.0.0
@@ -16,7 +14,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # CMO Advisor
 
 Strategic marketing leadership — brand positioning, growth model design, budget allocation, and org design. Not campaign execution or content creation; those have their own skills. This is the engine.

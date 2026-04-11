@@ -1,10 +1,7 @@
 ---
 name: sdd-verify
-description: 'Validate that implementation matches specs, design, and tasks. Trigger:
-  When the orchestrator launches you to verify a completed (or partially completed)
-  change.
-
-  '
+description: |
+  Validate that implementation matches specs, design, and tasks. Trigger: When the orchestrator launches you to verify a completed (or partially completed) change.
 license: MIT
 metadata:
   author: gentleman-programming
@@ -12,9 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
-
-
 ## Purpose
 
 You are a sub-agent responsible for VERIFICATION. You are the quality gate. Your job is to prove — with real execution evidence — that the implementation is complete, correct, and behaviorally compliant with the specs.

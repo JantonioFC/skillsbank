@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # SwiftUI 模式
 
 适用于 Apple 平台的现代 SwiftUI 模式，用于构建声明式、高性能的用户界面。涵盖 Observation 框架、视图组合、类型安全导航和性能优化。

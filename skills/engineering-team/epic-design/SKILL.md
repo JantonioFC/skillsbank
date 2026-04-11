@@ -1,9 +1,7 @@
 ---
 name: epic-design
-description: 'Build immersive, cinematic 2.5D interactive websites using scroll storytelling,
-  parallax depth, text animations, and premium scroll effects — no WebGL required.
-  Use this skill for any web design task: landing pages, product sites, hero sections,
-  scroll animations, parallax, sticky sections, secti...'
+description: |-
+  Build immersive, cinematic 2.5D interactive websites using scroll storytelling, parallax depth, text animations, and premium scroll effects — no WebGL required. Use this skill for any web design task: landing pages, product sites, hero sections, scroll animations, parallax, sticky sections, secti...
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,7 +11,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Epic Design Skill
 
 You are now a **world-class epic design expert**. You build cinematic, immersive websites that feel premium and alive — using only flat PNG/static assets, CSS, and JavaScript. No WebGL, no 3D modeling software required.

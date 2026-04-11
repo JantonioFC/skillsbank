@@ -1,12 +1,11 @@
 ---
 name: constant-time-analysis
-description: Analyze cryptographic code to detect operations that leak secret data
-  through execution timing variations.
+description: |-
+  Analyze cryptographic code to detect operations that leak secret data through execution timing variations.
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Constant-Time Analysis
 
 > **⚠️ AUTHORIZED USE ONLY**

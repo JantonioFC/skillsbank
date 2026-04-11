@@ -1,16 +1,12 @@
 ---
 name: convertkit-automation
-description: 'Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers,
-  tags, broadcasts, and broadcast stats. Always search tools first for current schemas.'
+description: |-
+  Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas.
 risk: safe
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # ConvertKit (Kit) Automation via Rube MCP
 
 Automate ConvertKit (now known as Kit) email marketing operations through Composio's Kit toolkit via Rube MCP.

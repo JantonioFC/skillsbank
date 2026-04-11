@@ -1,14 +1,11 @@
 ---
 name: ui-design-system
-description: UI design system toolkit for Senior UI Designer including design token
-  generation, component documentation, responsive design calculations, and developer
-  handoff tools. Use for creating design systems, maintaining visual consistency,
-  and facilitating design-dev collaboration.
+description: |-
+  UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and developer handoff tools. Use for creating design systems, maintaining visual consistency, and facilitating design-dev collaboration.
 risk: safe
 source: community
 license: MIT
 ---
-
 # UI Design System
 
 Generate design tokens, create color palettes, calculate typography scales, build component systems, and prepare developer handoff documentation.

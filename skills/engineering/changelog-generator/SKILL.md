@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Changelog Generator
 
 **Tier:** POWERFUL  

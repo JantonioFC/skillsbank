@@ -1,17 +1,12 @@
 ---
 name: supabase-automation
-description: Automate Supabase database queries, table management, project administration,
-  storage, edge functions, and SQL execution via Rube MCP (Composio). Always search
-  tools first for current schemas.
+description: |-
+  Automate Supabase database queries, table management, project administration, storage, edge functions, and SQL execution via Rube MCP (Composio). Always search tools first for current schemas.
 risk: safe
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # Supabase Automation via Rube MCP
 
 Automate Supabase operations including database queries, table schema inspection, SQL execution, project and organization management, storage buckets, edge functions, and service health monitoring through Composio's Supabase toolkit.

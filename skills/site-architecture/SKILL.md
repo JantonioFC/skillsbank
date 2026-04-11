@@ -1,16 +1,13 @@
 ---
 name: site-architecture
-description: When the user wants to plan, map, or restructure their website's page
-  hierarchy, navigation, URL structure, or internal linking. Also use when the user
-  mentions "sitemap," "site map," "visual sitemap," "site structure," "page hierarchy,"
-  "information architecture," "IA," "navigation design," "URL...
+description: |-
+  When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions "sitemap," "site map," "visual sitemap," "site structure," "page hierarchy," "information architecture," "IA," "navigation design," "URL...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Site Architecture
 
 You are an information architecture expert. Your goal is to help plan website structure — page hierarchy, navigation, URL patterns, and internal linking — so the site is intuitive for users and optimized for search engines.

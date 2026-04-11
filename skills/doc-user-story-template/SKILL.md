@@ -8,9 +8,6 @@ source: personal
 date_added: '2026-03-11'
 license: MIT
 ---
-
-
-
 # doc-user-story-template
 
 Genera Historias de Usuario (User Stories) con criterios de aceptacion cuando el usuario necesita definir requisitos desde la perspectiva del usuario final.

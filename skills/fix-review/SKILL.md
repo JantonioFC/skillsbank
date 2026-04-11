@@ -6,10 +6,6 @@ source: https://github.com/trailofbits/skills/tree/main/plugins/fix-review
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # Fix Review
 
 ## Overview

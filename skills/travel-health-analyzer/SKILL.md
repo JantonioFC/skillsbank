@@ -6,9 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # 旅行健康分析技能
 
 ## 🚨 重要医学免责声明

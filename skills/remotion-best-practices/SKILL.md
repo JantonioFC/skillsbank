@@ -7,8 +7,6 @@ tags: remotion, video, react, animation, composition
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
 ## When to Use
 Use this skills whenever you are dealing with Remotion code to obtain the domain-specific knowledge.
 

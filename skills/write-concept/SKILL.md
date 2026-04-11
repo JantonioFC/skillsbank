@@ -1,12 +1,11 @@
 ---
 name: write-concept
-description: Write or review JavaScript concept documentation pages for the 33 JavaScript
-  Concepts project, following strict structure and quality guidelines
+description: |-
+  Write or review JavaScript concept documentation pages for the 33 JavaScript Concepts project, following strict structure and quality guidelines
 risk: safe
 source: community
 license: MIT
 ---
-
 # Skill: Write JavaScript Concept Documentation
 
 Use this skill when writing or improving concept documentation pages for the 33 JavaScript Concepts project.

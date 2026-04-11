@@ -1,21 +1,13 @@
 ---
 name: azure-resource-lookup-ms
-description: 'List, find, and show Azure resources. Answers "list my VMs", "show my
-  storage accounts", "list websites",
-
-  "find container apps", "what resources do I have", and similar queries for any Azure
-  resource type.
-
-  USE FOR: list resources, list virtual machines, list VMs, list storage accounts,
-  lis...'
+description: |-
+  List, find, and show Azure resources. Answers "list my VMs", "show my storage accounts", "list websites",
+  "find container apps", "what resources do I have", and similar queries for any Azure resource type.
+  USE FOR: list resources, list virtual machines, list VMs, list storage accounts, lis...
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
-
 # Azure Resource Lookup
 
 List, find, and discover Azure resources of any type across subscriptions and resource groups. Use Azure Resource Graph (ARG) for fast, cross-cutting queries when dedicated MCP tools don't cover the resource type.

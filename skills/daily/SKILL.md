@@ -9,9 +9,6 @@ source: community
 date_added: '2026-03-07'
 license: MIT
 ---
-
-
-
 ## Capabilities
 
 Pipecat enables agents to build production-ready voice and multimodal AI applications with real-time processing. Agents can orchestrate complex AI service pipelines that handle audio, video, and text simultaneously while maintaining ultra-low latency (500-800ms round-trip). The framework abstracts away the complexity of coordinating multiple AI services, network transports, and audio processing, allowing agents to focus on application logic.

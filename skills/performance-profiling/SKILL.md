@@ -1,13 +1,12 @@
 ---
 name: performance-profiling
-description: Performance profiling principles. Measurement, analysis, and optimization
-  techniques.
+description: |-
+  Performance profiling principles. Measurement, analysis, and optimization techniques.
 allowed-tools: Read, Glob, Grep, Bash
 risk: safe
 source: community
 license: MIT
 ---
-
 # Performance Profiling
 
 > Measure, analyze, optimize - in that order.

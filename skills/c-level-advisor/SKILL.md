@@ -1,9 +1,7 @@
 ---
 name: c-level-advisor
-description: 10 C-level advisory agent skills and plugins for Claude Code, Codex,
-  Gemini CLI, Cursor, OpenClaw. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, Executive
-  Mentor. Multi-role board meetings, strategy routing, structured recommendations.
-  For founders needing executive-level decision support.
+description: |-
+  10 C-level advisory agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, Executive Mentor. Multi-role board meetings, strategy routing, structured recommendations. For founders needing executive-level decision support.
 license: MIT
 metadata:
   version: 2.0.0
@@ -17,7 +15,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # C-Level Advisory Ecosystem
 
 A complete virtual board of directors for founders and executives.

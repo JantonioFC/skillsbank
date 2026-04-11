@@ -5,9 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Vercel Deploy Claimable
 
 ## When to Use

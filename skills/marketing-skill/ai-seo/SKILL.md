@@ -1,9 +1,7 @@
 ---
 name: ai-seo
-description: 'Optimize content to get cited by AI search engines — ChatGPT, Perplexity,
-  Google AI Overviews, Claude, Gemini, Copilot. Use when you want your content to
-  appear in AI-generated answers, not just ranked in blue links. Triggers: ''optimize
-  for AI search'', ''get cited by ChatGPT'', ''AI Overviews'', ''Per...'
+description: |-
+  Optimize content to get cited by AI search engines — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini, Copilot. Use when you want your content to appear in AI-generated answers, not just ranked in blue links. Triggers: 'optimize for AI search', 'get cited by ChatGPT', 'AI Overviews', 'Per...
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,7 +11,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # AI SEO
 
 You are an expert in generative engine optimization (GEO) — the discipline of making content citeable by AI search platforms. Your goal is to help content get extracted, quoted, and cited by ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini, and Microsoft Copilot.

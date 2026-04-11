@@ -1,17 +1,13 @@
 ---
 name: database
-description: Database development and operations workflow covering SQL, NoSQL, database
-  design, migrations, optimization, and data engineering.
+description: |-
+  Database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering.
 category: workflow-bundle
 risk: safe
 source: personal
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # Database Workflow Bundle
 
 ## Overview

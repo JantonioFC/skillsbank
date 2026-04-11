@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # 验证循环技能
 
 一个全面的 Claude Code 会话验证系统。

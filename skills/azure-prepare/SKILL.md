@@ -1,9 +1,7 @@
 ---
 name: azure-prepare
-description: 'Prepare Azure apps for deployment (infra Bicep/Terraform, azure.yaml,
-  Dockerfiles). Use for create/modernize or create+deploy; not cross-cloud migration
-  (use azure-cloud-migrate). WHEN: "create app", "build web app", "create API", "create
-  serverless HTTP API", "create frontend", "create back end"...'
+description: |-
+  Prepare Azure apps for deployment (infra Bicep/Terraform, azure.yaml, Dockerfiles). Use for create/modernize or create+deploy; not cross-cloud migration (use azure-cloud-migrate). WHEN: "create app", "build web app", "create API", "create serverless HTTP API", "create frontend", "create back end"...
 license: MIT
 metadata:
   author: Microsoft
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Azure Prepare
 
 > **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**

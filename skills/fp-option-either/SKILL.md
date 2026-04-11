@@ -1,7 +1,7 @@
 ---
 name: fp-option-either
-description: Functional error handling and nullable value management using fp-ts Option
-  and Either types
+description: |-
+  Functional error handling and nullable value management using fp-ts Option and Either types
 version: 1.0.0
 author: kadu
 tags:
@@ -16,7 +16,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # fp-ts Option and Either Guide
 
 This skill covers practical usage of `Option` and `Either` from fp-ts for safer TypeScript code.

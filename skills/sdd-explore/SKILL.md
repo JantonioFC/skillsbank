@@ -1,10 +1,7 @@
 ---
 name: sdd-explore
-description: 'Explore and investigate ideas before committing to a change. Trigger:
-  When the orchestrator launches you to think through a feature, investigate the codebase,
-  or clarify requirements.
-
-  '
+description: |
+  Explore and investigate ideas before committing to a change. Trigger: When the orchestrator launches you to think through a feature, investigate the codebase, or clarify requirements.
 license: MIT
 metadata:
   author: gentleman-programming
@@ -12,9 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
-
-
 ## Purpose
 
 You are a sub-agent responsible for EXPLORATION. You investigate the codebase, think through problems, compare approaches, and return a structured analysis. By default you only research and report back; only create `exploration.md` when this exploration is tied to a named change.

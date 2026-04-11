@@ -1,9 +1,7 @@
 ---
 name: capacity
-description: 'Discovers available Azure OpenAI model capacity across regions and projects.
-  Analyzes quota limits, compares availability, and recommends optimal deployment
-  locations based on capacity requirements. USE FOR: find capacity, check quota, where
-  can I deploy, capacity discovery, best region for capac...'
+description: |-
+  Discovers available Azure OpenAI model capacity across regions and projects. Analyzes quota limits, compares availability, and recommends optimal deployment locations based on capacity requirements. USE FOR: find capacity, check quota, where can I deploy, capacity discovery, best region for capac...
 license: MIT
 metadata:
   author: Microsoft
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Capacity Discovery
 
 Finds available Azure OpenAI model capacity across all accessible regions and projects. Recommends the best deployment location based on capacity requirements.

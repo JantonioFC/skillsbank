@@ -1,9 +1,7 @@
 ---
 name: azure-deploy
-description: Execute Azure deployments for ALREADY-PREPARED applications that have
-  existing .azure/plan.md and infrastructure files. DO NOT use this skill when the
-  user asks to CREATE a new application — use azure-prepare instead. This skill runs
-  azd up, azd deploy, terraform apply, and az deployment commands...
+description: |-
+  Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/plan.md and infrastructure files. DO NOT use this skill when the user asks to CREATE a new application — use azure-prepare instead. This skill runs azd up, azd deploy, terraform apply, and az deployment commands...
 license: MIT
 metadata:
   author: Microsoft
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Azure Deploy
 
 > **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**

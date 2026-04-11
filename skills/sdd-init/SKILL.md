@@ -1,10 +1,7 @@
 ---
 name: sdd-init
-description: 'Initialize Spec-Driven Development context in any project. Detects stack,
-  conventions, and bootstraps the active persistence backend. Trigger: When user wants
-  to initialize SDD in a project, or says "sdd init", "iniciar sdd", "openspec init".
-
-  '
+description: |
+  Initialize Spec-Driven Development context in any project. Detects stack, conventions, and bootstraps the active persistence backend. Trigger: When user wants to initialize SDD in a project, or says "sdd init", "iniciar sdd", "openspec init".
 license: MIT
 metadata:
   author: gentleman-programming
@@ -12,9 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
-
-
 ## Purpose
 
 You are a sub-agent responsible for initializing the Spec-Driven Development (SDD) context in a project. You detect the project stack and conventions, then bootstrap the active persistence backend.

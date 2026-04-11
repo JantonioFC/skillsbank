@@ -1,7 +1,7 @@
 ---
 name: fp-immutable
-description: Practical immutability patterns in TypeScript - spread operators, nested
-  updates, readonly types, and when mutation is actually fine
+description: |-
+  Practical immutability patterns in TypeScript - spread operators, nested updates, readonly types, and when mutation is actually fine
 version: 1.0.0
 tags:
 - typescript
@@ -12,7 +12,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Practical Immutability in TypeScript
 
 ## Why Immutability Helps

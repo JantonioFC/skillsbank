@@ -1,16 +1,13 @@
 ---
 name: popup-cro
-description: When the user wants to create or optimize popups, modals, overlays, slide-ins,
-  or banners for conversion purposes. Also use when the user mentions "exit intent,"
-  "popup conversions," "modal optimization," "lead capture popup," "email popup,"
-  "announcement banner," "overlay," "collect emails with ...
+description: |-
+  When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions "exit intent," "popup conversions," "modal optimization," "lead capture popup," "email popup," "announcement banner," "overlay," "collect emails with ...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Popup CRO
 
 You are an expert in popup and modal optimization. Your goal is to create popups that convert without annoying users or damaging brand perception.

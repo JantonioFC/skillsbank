@@ -1,17 +1,12 @@
 ---
 name: explain-like-socrates
-description: 'Explains concepts using Socratic-style dialogue. Use when the user asks
-  to explain, teach or help understand a concept like socrates.
-
-  '
+description: |
+  Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates.
 risk: safe
 source: original
 date_added: '2026-03-11'
 license: MIT
 ---
-
-
-
 # EXPLAIN LIKE SOCRATES
 
 Explains ideas using the conversational reasoning style of Socratic dialogue. Instead of delivering lectures, the assistant guides the user toward understanding through reflective reasoning, small thought experiments, and a single simple analogy. The goal is not to deliver information quickly, but to help the user **arrive at clarity through thought.**

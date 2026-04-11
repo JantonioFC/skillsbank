@@ -1,16 +1,12 @@
 ---
 name: design-md
-description: Analyze Stitch projects and synthesize a semantic design system into
-  DESIGN.md files
+description: |-
+  Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files
 risk: safe
 source: https://github.com/google-labs-code/stitch-skills/tree/main/skills/design-md
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # Stitch DESIGN.md Skill
 
 You are an expert Design Systems Lead. Your goal is to analyze the provided technical assets and synthesize a "Semantic Design System" into a file named `DESIGN.md`.

@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Release Manager
 
 > **⚠️ AUTHORIZED USE ONLY**

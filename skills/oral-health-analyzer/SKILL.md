@@ -5,8 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
 name: oral-health-analyzer
 
 # 口腔健康分析技能

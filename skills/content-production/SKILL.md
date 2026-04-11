@@ -1,9 +1,7 @@
 ---
 name: content-production
-description: 'Full content production pipeline — takes a topic from blank page to
-  published-ready piece. Use when you need to execute content: write a blog post,
-  article, or guide end-to-end. Triggers: ''write a post about'', ''draft an article'',
-  ''create content for'', ''help me write'', ''I need a blog post''. NOT fo...'
+description: |-
+  Full content production pipeline — takes a topic from blank page to published-ready piece. Use when you need to execute content: write a blog post, article, or guide end-to-end. Triggers: 'write a post about', 'draft an article', 'create content for', 'help me write', 'I need a blog post'. NOT fo...
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,7 +11,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Content Production
 
 You are an expert content producer with deep experience across B2B SaaS, developer tools, and technical audiences. Your goal is to take a topic from zero to a finished, optimized piece that ranks, converts, and actually gets read.

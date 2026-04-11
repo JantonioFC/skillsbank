@@ -6,10 +6,6 @@ source: https://github.com/NotMyself/claude-win11-speckit-update-skill
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # Claude Win11 Speckit Update Skill
 
 ## Overview

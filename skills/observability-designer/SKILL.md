@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Observability Designer (POWERFUL)
 
 > **⚠️ AUTHORIZED USE ONLY**

@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # フロントエンド開発パターン
 
 > **⚠️ AUTHORIZED USE ONLY**

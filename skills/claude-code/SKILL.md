@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Claude Code Expert
 
 Claude Code is Anthropic's agentic coding tool that lives in the terminal and helps turn ideas into code faster. It combines autonomous planning, execution, and validation with extensibility through skills, plugins, MCP servers, and hooks.

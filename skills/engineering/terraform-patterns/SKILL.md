@@ -1,9 +1,7 @@
 ---
 name: terraform-patterns
-description: 'Terraform infrastructure-as-code agent skill and plugin for Claude Code,
-  Codex, Gemini CLI, Cursor, OpenClaw. Covers module design patterns, state management
-  strategies, provider configuration, security hardening, policy-as-code with Sentinel/OPA,
-  and CI/CD plan/apply workflows. Use when: user wa...'
+description: |-
+  Terraform infrastructure-as-code agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Covers module design patterns, state management strategies, provider configuration, security hardening, policy-as-code with Sentinel/OPA, and CI/CD plan/apply workflows. Use when: user wa...
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,7 +11,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Terraform Patterns
 
 > Predictable infrastructure. Secure state. Modules that compose. No drift.

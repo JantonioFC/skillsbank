@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # /hub:board — Message Board
 
 Interface for the AgentHub message board. Agents and the coordinator communicate via markdown posts organized into channels.

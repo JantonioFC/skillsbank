@@ -1,15 +1,11 @@
 ---
 name: apify-content-analytics
-description: Track engagement metrics, measure campaign ROI, and analyze content performance
-  across Instagram, Facebook, YouTube, and TikTok.
+description: |-
+  Track engagement metrics, measure campaign ROI, and analyze content performance across Instagram, Facebook, YouTube, and TikTok.
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
-
 # Content Analytics
 
 Track and analyze content performance using Apify Actors to extract engagement metrics from multiple platforms.

@@ -1,14 +1,11 @@
 ---
 name: skill-developer
-description: Create and manage Claude Code skills following Anthropic best practices.
-  Use when creating new skills, modifying skill-rules.json, understanding trigger
-  patterns, working with hooks, debugging skill activation, or implementing progressive
-  disclosure. Covers skill structure, YAML frontmatter, trig...
+description: |-
+  Create and manage Claude Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patterns, working with hooks, debugging skill activation, or implementing progressive disclosure. Covers skill structure, YAML frontmatter, trig...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Skill Developer Guide
 
 ## Purpose

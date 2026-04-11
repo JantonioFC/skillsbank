@@ -1,13 +1,12 @@
 ---
 name: promote
-description: Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or
-  .claude/rules/ for permanent enforcement.
+description: |-
+  Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/rules/ for permanent enforcement.
 command: /si:promote
 risk: safe
 source: community
 license: MIT
 ---
-
 # /si:promote — Graduate Learnings to Rules
 
 Moves a proven pattern from Claude's auto-memory into the project's rule system, where it becomes an enforced instruction rather than a background note.

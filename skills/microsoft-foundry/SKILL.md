@@ -1,9 +1,7 @@
 ---
 name: microsoft-foundry
-description: 'Deploy, evaluate, and manage Foundry agents end-to-end: Docker build,
-  ACR push, hosted/prompt agent create, container start, batch eval, prompt optimization,
-  prompt optimizer workflows, agent.yaml, dataset curation from traces. USE FOR: deploy
-  agent to Foundry, hosted agent, create agent, invoke ...'
+description: |-
+  Deploy, evaluate, and manage Foundry agents end-to-end: Docker build, ACR push, hosted/prompt agent create, container start, batch eval, prompt optimization, prompt optimizer workflows, agent.yaml, dataset curation from traces. USE FOR: deploy agent to Foundry, hosted agent, create agent, invoke ...
 license: MIT
 metadata:
   author: Microsoft
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Microsoft Foundry Skill
 
 This skill helps developers work with Microsoft Foundry resources, covering model discovery and deployment, complete dev lifecycle of AI agent, evaluation workflows, and troubleshooting.

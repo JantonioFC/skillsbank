@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # C++ 测试（代理技能）
 
 针对现代 C++（C++17/20）的代理导向测试工作流，使用 GoogleTest/GoogleMock 和 CMake/CTest。

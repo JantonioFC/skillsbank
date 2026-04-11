@@ -5,8 +5,6 @@ source: community
 description: Community provided skill
 license: MIT
 ---
-
-
 --- 
 name: magic-animator
 description: AI-powered animation tool for creating motion in logos, UI, icons, and social media assets.

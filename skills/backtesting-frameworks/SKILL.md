@@ -1,13 +1,11 @@
 ---
 name: backtesting-frameworks
-description: Build robust backtesting systems for trading strategies with proper handling
-  of look-ahead bias, survivorship bias, and transaction costs. Use when developing
-  trading algorithms, validating strategies, or building backtesting infrastructure.
+description: |-
+  Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs. Use when developing trading algorithms, validating strategies, or building backtesting infrastructure.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Backtesting Frameworks
 
 Build robust, production-grade backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates.

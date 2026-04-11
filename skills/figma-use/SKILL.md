@@ -1,14 +1,11 @@
 ---
 name: figma-use
-description: '**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every
-  `use_figma` tool call. NEVER call `use_figma` directly without loading this skill
-  first. Skipping it causes common, hard-to-debug failures. Trigger whenever the user
-  wants to perform a write action or a unique read action that r...'
+description: |-
+  **MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Skipping it causes common, hard-to-debug failures. Trigger whenever the user wants to perform a write action or a unique read action that r...
 risk: safe
 source: community
 license: MIT
 ---
-
 # use_figma — Figma Plugin API Skill
 
 Use `use_figma` MCP to execute JavaScript in Figma files via the Plugin API. All detailed reference docs live in `references/`.

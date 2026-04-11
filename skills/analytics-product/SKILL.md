@@ -1,7 +1,7 @@
 ---
 name: analytics-product
-description: Analytics de produto — PostHog, Mixpanel, eventos, funnels, cohorts,
-  retencao, north star metric, OKRs e dashboards de produto.
+description: |-
+  Analytics de produto — PostHog, Mixpanel, eventos, funnels, cohorts, retencao, north star metric, OKRs e dashboards de produto.
 risk: none
 source: community
 date_added: '2026-03-06'
@@ -20,9 +20,6 @@ tools:
 - codex-cli
 license: MIT
 ---
-
-
-
 # ANALYTICS-PRODUCT — Decida com Dados
 
 ## Overview

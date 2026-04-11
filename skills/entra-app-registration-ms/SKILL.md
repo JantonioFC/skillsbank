@@ -1,19 +1,12 @@
 ---
 name: entra-app-registration-ms
-description: 'Guides Microsoft Entra ID app registration, OAuth 2.0 authentication,
-  and MSAL integration.
-
-  USE FOR: create app registration, register Azure AD app, configure OAuth, set up
-  authentication, add API permissions, generate service principal, MSAL example, console
-  app auth, Entra ID setup, Azur...'
+description: |-
+  Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration.
+  USE FOR: create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate service principal, MSAL example, console app auth, Entra ID setup, Azur...
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
-
 ## Overview
 
 Microsoft Entra ID (formerly Azure Active Directory) is Microsoft's cloud-based identity and access management service. App registrations allow applications to authenticate users and access Azure resources securely.

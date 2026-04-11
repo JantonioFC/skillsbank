@@ -1,14 +1,13 @@
 ---
 name: php-pro
-description: Write idiomatic PHP code with generators, iterators, SPL data structures,
-  and modern OOP features. Use PROACTIVELY for high-performance PHP applications.
+description: |-
+  Write idiomatic PHP code with generators, iterators, SPL data structures, and modern OOP features. Use PROACTIVELY for high-performance PHP applications.
 metadata:
   model: inherit
 risk: offensive
 source: community
 license: MIT
 ---
-
 ## Use this skill when
 
 > **⚠️ AUTHORIZED USE ONLY**

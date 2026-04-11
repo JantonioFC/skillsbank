@@ -8,9 +8,6 @@ source: personal
 date_added: '2026-03-11'
 license: MIT
 ---
-
-
-
 # doc-tdd-testing-template
 
 Genera un plan de pruebas unitarias y estrategia TDD completo cuando el usuario necesita definir su enfoque de testing.

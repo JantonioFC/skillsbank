@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Eval Harnessスキル
 
 Claude Codeセッションの正式な評価フレームワークで、評価駆動開発（EDD）の原則を実装します。

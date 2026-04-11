@@ -1,13 +1,12 @@
 ---
 name: extract
-description: Turn a proven pattern or debugging solution into a standalone reusable
-  skill with SKILL.md, reference docs, and examples.
+description: |-
+  Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples.
 command: /si:extract
 risk: safe
 source: community
 license: MIT
 ---
-
 # /si:extract — Create Skills from Patterns
 
 Transforms a recurring pattern or debugging solution into a standalone, portable skill that can be installed in any project.

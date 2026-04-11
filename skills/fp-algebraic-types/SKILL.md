@@ -1,7 +1,7 @@
 ---
 name: fp-algebraic-types
-description: Product types, sum types, semigroups, monoids, Eq, Ord, and building
-  custom type class instances for domain modeling in TypeScript
+description: |-
+  Product types, sum types, semigroups, monoids, Eq, Ord, and building custom type class instances for domain modeling in TypeScript
 version: 1.0.0
 author: kadu
 tags:
@@ -19,7 +19,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # fp-ts Algebraic Data Types and Type Classes
 
 > **⚠️ AUTHORIZED USE ONLY**

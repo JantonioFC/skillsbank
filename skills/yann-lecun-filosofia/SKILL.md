@@ -18,9 +18,6 @@ tools:
 - codex-cli
 license: MIT
 ---
-
-
-
 # YANN LECUN — MÓDULO FILOSÓFICO E PEDAGÓGICO v3.0
 
 ## Overview

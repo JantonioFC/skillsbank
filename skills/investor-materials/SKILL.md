@@ -1,15 +1,12 @@
 ---
 name: investor-materials
-description: Create and update pitch decks, one-pagers, investor memos, accelerator
-  applications, financial models, and fundraising materials. Use when the user needs
-  investor-facing documents, projections, use-of-funds tables, milestone plans, or
-  materials that must stay internally consistent across multiple...
+description: |-
+  Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials. Use when the user needs investor-facing documents, projections, use-of-funds tables, milestone plans, or materials that must stay internally consistent across multiple...
 origin: ECC
 risk: safe
 source: community
 license: MIT
 ---
-
 # Investor Materials
 
 Build investor-facing materials that are consistent, credible, and easy to defend.

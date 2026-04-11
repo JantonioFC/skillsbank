@@ -1,13 +1,12 @@
 ---
 name: merge
-description: Merge the winning agent's branch into base, archive losers, and clean
-  up worktrees.
+description: |-
+  Merge the winning agent's branch into base, archive losers, and clean up worktrees.
 command: /hub:merge
 risk: safe
 source: community
 license: MIT
 ---
-
 # /hub:merge — Merge Winner
 
 Merge the best agent's branch into the base branch, archive losing branches via git tags, and clean up worktrees.

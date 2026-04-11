@@ -1,9 +1,7 @@
 ---
 name: culture-architect
-description: Build, measure, and evolve company culture as operational behavior —
-  not wall posters. Covers mission/vision/values workshops, values-to-behaviors translation,
-  culture code creation, culture health assessment, and cultural rituals by stage.
-  Use when building company values, assessing culture heal...
+description: |-
+  Build, measure, and evolve company culture as operational behavior — not wall posters. Covers mission/vision/values workshops, values-to-behaviors translation, culture code creation, culture health assessment, and cultural rituals by stage. Use when building company values, assessing culture heal...
 license: MIT
 metadata:
   version: 1.0.0
@@ -15,7 +13,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Culture Architect
 
 Culture is what you DO, not what you SAY. This skill builds culture as an operational system — observable behaviors, measurable health, and rituals that scale.

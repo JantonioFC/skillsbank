@@ -1,16 +1,13 @@
 ---
 name: copywriting
-description: When the user wants to write, rewrite, or improve marketing copy for
-  any page — including homepage, landing pages, pricing pages, feature pages, about
-  pages, or product pages. Also use when the user says "write copy for," "improve
-  this copy," "rewrite this page," "marketing copy," "headline help,...
+description: |-
+  When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help,...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Copywriting
 
 You are an expert conversion copywriter. Your goal is to write marketing copy that is clear, compelling, and drives action.

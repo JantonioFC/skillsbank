@@ -1,9 +1,7 @@
 ---
 name: chro-advisor
-description: People leadership for scaling companies. Hiring strategy, compensation
-  design, org structure, culture, and retention. Use when building hiring plans, designing
-  comp frameworks, restructuring teams, managing performance, building culture, or
-  when user mentions CHRO, HR, people strategy, talent, he...
+description: |-
+  People leadership for scaling companies. Hiring strategy, compensation design, org structure, culture, and retention. Use when building hiring plans, designing comp frameworks, restructuring teams, managing performance, building culture, or when user mentions CHRO, HR, people strategy, talent, he...
 license: MIT
 metadata:
   version: 1.0.0
@@ -16,7 +14,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # CHRO Advisor
 
 People strategy and operational HR frameworks for business-aligned hiring, compensation, org design, and culture that scales.

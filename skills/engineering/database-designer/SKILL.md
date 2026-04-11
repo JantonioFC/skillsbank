@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Database Designer - POWERFUL Tier Skill
 
 > **⚠️ AUTHORIZED USE ONLY**

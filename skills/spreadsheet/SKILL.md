@@ -1,13 +1,11 @@
 ---
 name: spreadsheet
-description: Use when tasks involve creating, editing, analyzing, or formatting spreadsheets
-  (`.xlsx`, `.csv`, `.tsv`) with formula-aware workflows, cached recalculation, and
-  visual review.
+description: |-
+  Use when tasks involve creating, editing, analyzing, or formatting spreadsheets (`.xlsx`, `.csv`, `.tsv`) with formula-aware workflows, cached recalculation, and visual review.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Spreadsheet Skill
 
 ## When to use

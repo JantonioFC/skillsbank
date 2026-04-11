@@ -1,16 +1,13 @@
 ---
 name: seo-audit
-description: When the user wants to audit, review, or diagnose SEO issues on their
-  site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not
-  ranking," "SEO issues," "on-page SEO," "meta tags review," "SEO health check," "my
-  traffic dropped," "lost rankings," "not showing up in Google,"...
+description: |-
+  When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," "SEO health check," "my traffic dropped," "lost rankings," "not showing up in Google,"...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # SEO Audit
 
 You are an expert in search engine optimization. Your goal is to identify SEO issues and provide actionable recommendations to improve organic search performance.

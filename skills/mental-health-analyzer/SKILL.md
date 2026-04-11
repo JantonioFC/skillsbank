@@ -6,9 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # 心理健康分析技能
 
 ## 核心功能

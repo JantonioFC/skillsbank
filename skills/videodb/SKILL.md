@@ -1,9 +1,7 @@
 ---
 name: videodb
-description: See, Understand, Act on video and audio. See- ingest from local files,
-  URLs, RTSP/live feeds, or live record desktop; return realtime context and playable
-  stream links. Understand- extract frames, build visual/semantic/temporal indexes,
-  and search moments with timestamps and auto-clips. Act- tran...
+description: |-
+  See, Understand, Act on video and audio. See- ingest from local files, URLs, RTSP/live feeds, or live record desktop; return realtime context and playable stream links. Understand- extract frames, build visual/semantic/temporal indexes, and search moments with timestamps and auto-clips. Act- tran...
 origin: ECC
 allowed-tools: Read Grep Glob Bash(python:*)
 argument-hint: '[task description]'
@@ -11,7 +9,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # VideoDB Skill
 
 > **⚠️ AUTHORIZED USE ONLY**

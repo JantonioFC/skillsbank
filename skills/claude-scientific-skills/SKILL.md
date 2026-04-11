@@ -6,10 +6,6 @@ source: https://github.com/K-Dense-AI/claude-scientific-skills
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # Claude Scientific Skills
 
 ## Overview

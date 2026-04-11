@@ -1,16 +1,12 @@
 ---
 name: seo
-description: Audit, plan, and implement SEO improvements across technical SEO, on-page
-  optimization, structured data, Core Web Vitals, and content strategy. Use when the
-  user wants better search visibility, SEO remediation, schema markup, sitemap/robots
-  work, or keyword mapping.
+description: |-
+  Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data, Core Web Vitals, and content strategy. Use when the user wants better search visibility, SEO remediation, schema markup, sitemap/robots work, or keyword mapping.
 origin: ECC
 risk: safe
 source: community
 license: MIT
 ---
-
-
 # SEO
 
 Improve search visibility through technical correctness, performance, and content relevance, not gimmicks.

@@ -1,17 +1,12 @@
 ---
 name: seo-content-brief
-description: 'SEO content brief creation with keyword research, search intent analysis,
-  and content structure. Covers SERP analysis, heading hierarchy, word count targets,
-  and internal linking strategy. Use for: content briefs, SEO writing, blog strategy,
-  content planning, keyword targeting. Triggers: s...'
+description: |-
+  SEO content brief creation with keyword research, search intent analysis, and content structure. Covers SERP analysis, heading hierarchy, word count targets, and internal linking strategy. Use for: content briefs, SEO writing, blog strategy, content planning, keyword targeting. Triggers: s...
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # SEO Content Brief
 
 ## When to Use

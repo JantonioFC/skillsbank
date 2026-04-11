@@ -1,18 +1,12 @@
 ---
 name: azure-resource-visualizer-ms
-description: 'Analyze Azure resource groups and generate detailed Mermaid architecture
-  diagrams showing the relationships between individual resources.
-
-  USE FOR: create architecture diagram, visualize Azure resources, show resource relationships,
-  generate Mermaid diagram, analyze resource group, diagram ...'
+description: |-
+  Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources.
+  USE FOR: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram ...
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
-
 # Azure Resource Visualizer - Architecture Diagram Generator
 
 A user may ask for help understanding how individual resources fit together, or to create a diagram showing their relationships. Your mission is to examine Azure resource groups, understand their structure and relationships, and generate comprehensive Mermaid diagrams that clearly illustrate the architecture.

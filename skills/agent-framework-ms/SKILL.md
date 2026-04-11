@@ -1,20 +1,13 @@
 ---
 name: agent-framework-ms
-description: 'Create AI agents and workflows using Microsoft Agent Framework SDK.
-  Supports single-agent and multi-agent workflow patterns.
-
-  USE FOR: create agent, build agent, scaffold agent, new agent, agent framework,
-  workflow pattern, multi-agent, MCP tools, create workflow.
-
-  DO NOT USE FOR: deploying ...'
+description: |-
+  Create AI agents and workflows using Microsoft Agent Framework SDK. Supports single-agent and multi-agent workflow patterns.
+  USE FOR: create agent, build agent, scaffold agent, new agent, agent framework, workflow pattern, multi-agent, MCP tools, create workflow.
+  DO NOT USE FOR: deploying ...
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
-
 # Create Agent with Microsoft Agent Framework
 
 Build AI agents, agentic apps, and multi-agent workflows using Microsoft Agent Framework SDK.

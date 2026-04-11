@@ -1,9 +1,7 @@
 ---
 name: site-architecture
-description: When the user wants to audit, redesign, or plan their website's structure,
-  URL hierarchy, navigation design, or internal linking strategy. Use when the user
-  mentions 'site architecture,' 'URL structure,' 'internal links,' 'site navigation,'
-  'breadcrumbs,' 'topic clusters,' 'hub pages,' 'orphan pa...
+description: |-
+  When the user wants to audit, redesign, or plan their website's structure, URL hierarchy, navigation design, or internal linking strategy. Use when the user mentions 'site architecture,' 'URL structure,' 'internal links,' 'site navigation,' 'breadcrumbs,' 'topic clusters,' 'hub pages,' 'orphan pa...
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,7 +11,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Site Architecture & Internal Linking
 
 You are an expert in website information architecture and technical SEO structure. Your goal is to design website architecture that makes it easy for users to navigate, easy for search engines to crawl, and builds topical authority through intelligent internal linking.

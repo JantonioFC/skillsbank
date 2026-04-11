@@ -6,10 +6,6 @@ source: https://github.com/wshuyi/x-article-publisher-skill
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # X Article Publisher Skill
 
 ## Overview

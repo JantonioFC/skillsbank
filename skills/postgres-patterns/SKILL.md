@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # PostgreSQL 模式
 
 PostgreSQL 最佳实践快速参考。如需详细指导，请使用 `database-reviewer` 智能体。

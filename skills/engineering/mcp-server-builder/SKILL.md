@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # MCP Server Builder
 
 > **⚠️ AUTHORIZED USE ONLY**

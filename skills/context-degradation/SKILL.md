@@ -1,14 +1,11 @@
 ---
 name: context-degradation
-description: This skill should be used when the user asks to "diagnose context problems",
-  "fix lost-in-middle issues", "debug agent failures", "understand context poisoning",
-  or mentions context degradation, attention patterns, context clash, context confusion,
-  or agent performance degradation. Provides patte...
+description: |-
+  This skill should be used when the user asks to "diagnose context problems", "fix lost-in-middle issues", "debug agent failures", "understand context poisoning", or mentions context degradation, attention patterns, context clash, context confusion, or agent performance degradation. Provides patte...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Context Degradation Patterns
 
 Diagnose and fix context failures before they cascade. Context degradation is not binary — it is a continuum that manifests through five distinct, predictable patterns: lost-in-middle, poisoning, distraction, confusion, and clash. Each pattern has specific detection signals and mitigation strategies. Treat degradation as an engineering problem with measurable thresholds, not an unpredictable failure mode.

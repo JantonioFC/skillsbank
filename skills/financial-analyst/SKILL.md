@@ -1,14 +1,11 @@
 ---
 name: financial-analyst
-description: Performs financial ratio analysis, DCF valuation, budget variance analysis,
-  and rolling forecast construction for strategic decision-making. Use when analyzing
-  financial statements, building valuation models, assessing budget variances, or
-  constructing financial projections and forecasts. Also ap...
+description: |-
+  Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction for strategic decision-making. Use when analyzing financial statements, building valuation models, assessing budget variances, or constructing financial projections and forecasts. Also ap...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Financial Analyst Skill
 
 ## Overview

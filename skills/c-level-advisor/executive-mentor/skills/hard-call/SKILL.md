@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # /em:hard-call — Framework for Decisions With No Good Options
 
 **Command:** `/em:hard-call <decision>`

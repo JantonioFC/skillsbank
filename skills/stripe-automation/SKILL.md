@@ -1,16 +1,12 @@
 ---
 name: stripe-automation
-description: 'Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions,
-  invoices, products, refunds. Always search tools first for current schemas.'
+description: |-
+  Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoices, products, refunds. Always search tools first for current schemas.
 risk: safe
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # Stripe Automation via Rube MCP
 
 Automate Stripe payment operations through Composio's Stripe toolkit via Rube MCP.

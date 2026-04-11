@@ -6,9 +6,6 @@ source: community
 version: 1.0.0
 license: MIT
 ---
-
-
-
 ## When to Use API Routes
 
 Use API routes when you need:

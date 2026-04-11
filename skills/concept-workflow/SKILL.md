@@ -1,12 +1,11 @@
 ---
 name: concept-workflow
-description: End-to-end workflow for creating complete JavaScript concept documentation,
-  orchestrating all skills from research to final review
+description: |-
+  End-to-end workflow for creating complete JavaScript concept documentation, orchestrating all skills from research to final review
 risk: safe
 source: community
 license: MIT
 ---
-
 # Skill: Complete Concept Workflow
 
 Use this skill to create a complete, high-quality concept page from start to finish. This skill orchestrates all five specialized skills in the optimal order:

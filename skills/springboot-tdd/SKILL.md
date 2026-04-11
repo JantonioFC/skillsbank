@@ -1,12 +1,12 @@
 ---
 name: springboot-tdd
-description: 使用JUnit 5、Mockito、MockMvc、Testcontainers和JaCoCo进行Spring Boot的测试驱动开发。适用于添加功能、修复错误或重构时。
+description: |-
+  使用JUnit 5、Mockito、MockMvc、Testcontainers和JaCoCo进行Spring Boot的测试驱动开发。适用于添加功能、修复错误或重构时。
 origin: ECC
 risk: safe
 source: community
 license: MIT
 ---
-
 # Spring Boot TDD 工作流程
 
 适用于 Spring Boot 服务、覆盖率 80%+（单元 + 集成）的 TDD 指南。

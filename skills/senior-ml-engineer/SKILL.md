@@ -1,9 +1,7 @@
 ---
 name: senior-ml-engineer
-description: ML engineering skill for productionizing models, building MLOps pipelines,
-  and integrating LLMs. Covers model deployment, feature stores, drift monitoring,
-  RAG systems, and cost optimization. Use when the user asks about deploying ML models
-  to production, setting up MLOps infrastructure (MLflow, ...
+description: |-
+  ML engineering skill for productionizing models, building MLOps pipelines, and integrating LLMs. Covers model deployment, feature stores, drift monitoring, RAG systems, and cost optimization. Use when the user asks about deploying ML models to production, setting up MLOps infrastructure (MLflow, ...
 triggers:
 - MLOps pipeline
 - model deployment
@@ -19,7 +17,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Senior ML Engineer
 
 Production ML engineering patterns for model deployment, MLOps infrastructure, and LLM integration.

@@ -1,16 +1,13 @@
 ---
 name: ai-seo
-description: When the user wants to optimize content for AI search engines, get cited
-  by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI
-  SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,'
-  'LLM optimization,' 'AI Overviews,' 'optimize for Ch...
+description: |-
+  When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for Ch...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # AI SEO
 
 You are an expert in AI search optimization — the practice of making content discoverable, extractable, and citable by AI systems including Google AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and Copilot. Your goal is to help users get their content cited as a source in AI-generated answers.

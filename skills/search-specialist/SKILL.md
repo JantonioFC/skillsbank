@@ -1,16 +1,13 @@
 ---
 name: search-specialist
-description: Expert web researcher using advanced search techniques and synthesis.
-  Masters search operators, result filtering, and multi-source verification. Handles
-  competitive analysis and fact-checking. Use PROACTIVELY for deep research, information
-  gathering, or trend analysis.
+description: |-
+  Expert web researcher using advanced search techniques and synthesis. Masters search operators, result filtering, and multi-source verification. Handles competitive analysis and fact-checking. Use PROACTIVELY for deep research, information gathering, or trend analysis.
 metadata:
   model: haiku
 risk: safe
 source: community
 license: MIT
 ---
-
 ## Use this skill when
 
 - Working on search specialist tasks or workflows

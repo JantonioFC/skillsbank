@@ -1,15 +1,13 @@
 ---
 name: haskell-pro
-description: Expert Haskell engineer specializing in advanced type systems, pure functional
-  design, and high-reliability software. Use PROACTIVELY for type-level programming,
-  concurrency, and architecture guidance.
+description: |-
+  Expert Haskell engineer specializing in advanced type systems, pure functional design, and high-reliability software. Use PROACTIVELY for type-level programming, concurrency, and architecture guidance.
 metadata:
   model: sonnet
 risk: safe
 source: community
 license: MIT
 ---
-
 ## Use this skill when
 
 - Working on haskell pro tasks or workflows

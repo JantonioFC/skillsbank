@@ -6,9 +6,6 @@ source: https://github.com/antonbabenko/terraform-skill
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
 # Terraform Skill for Claude
 
 Comprehensive Terraform and OpenTofu guidance covering testing, modules, CI/CD, and production patterns. Based on terraform-best-practices.com and enterprise experience.

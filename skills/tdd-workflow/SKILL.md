@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # TDD Workflow
 
 > Write tests first, code second.

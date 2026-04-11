@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Runbook Generator
 
 > **⚠️ AUTHORIZED USE ONLY**

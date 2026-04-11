@@ -1,13 +1,11 @@
 ---
 name: paypal-integration
-description: Integrate PayPal payment processing with support for express checkout,
-  subscriptions, and refund management. Use when implementing PayPal payments, processing
-  online transactions, or building e-commerce checkout flows.
+description: |-
+  Integrate PayPal payment processing with support for express checkout, subscriptions, and refund management. Use when implementing PayPal payments, processing online transactions, or building e-commerce checkout flows.
 risk: offensive
 source: community
 license: MIT
 ---
-
 # PayPal Integration
 
 > **⚠️ AUTHORIZED USE ONLY**

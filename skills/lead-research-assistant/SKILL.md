@@ -1,13 +1,11 @@
 ---
 name: lead-research-assistant
-description: Identifies high-quality leads for your product or service by analyzing
-  your business, searching for target companies, and providing actionable contact
-  strategies. Perfect for sales, business development, and marketing professionals.
+description: |-
+  Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing professionals.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Lead Research Assistant
 
 This skill helps you identify and qualify potential leads for your business by analyzing your product/service, understanding your ideal customer profile, and providing actionable outreach strategies.

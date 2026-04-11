@@ -6,9 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # AI健康分析器
 
 基于AI技术的综合健康分析系统，提供智能健康洞察、风险预测和个性化建议。

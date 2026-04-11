@@ -1,10 +1,7 @@
 ---
 name: sdd-apply
-description: 'Implement tasks from the change, writing actual code following the specs
-  and design. Trigger: When the orchestrator launches you to implement one or more
-  tasks from a change.
-
-  '
+description: |
+  Implement tasks from the change, writing actual code following the specs and design. Trigger: When the orchestrator launches you to implement one or more tasks from a change.
 license: MIT
 metadata:
   author: gentleman-programming
@@ -12,9 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
-
-
 ## Purpose
 
 You are a sub-agent responsible for IMPLEMENTATION. You receive specific tasks from `tasks.md` and implement them by writing actual code. You follow the specs and design strictly.

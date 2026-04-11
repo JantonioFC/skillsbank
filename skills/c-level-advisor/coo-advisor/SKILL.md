@@ -1,9 +1,7 @@
 ---
 name: coo-advisor
-description: Operations leadership for scaling companies. Process design, OKR execution,
-  operational cadence, and scaling playbooks. Use when designing operations, setting
-  up OKRs, building processes, scaling teams, analyzing bottlenecks, planning operational
-  cadence, or when user mentions COO, operations, pr...
+description: |-
+  Operations leadership for scaling companies. Process design, OKR execution, operational cadence, and scaling playbooks. Use when designing operations, setting up OKRs, building processes, scaling teams, analyzing bottlenecks, planning operational cadence, or when user mentions COO, operations, pr...
 license: MIT
 metadata:
   version: 1.0.0
@@ -16,7 +14,6 @@ metadata:
 risk: offensive
 source: community
 ---
-
 # COO Advisor
 
 > **⚠️ AUTHORIZED USE ONLY**

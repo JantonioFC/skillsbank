@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Android 整洁架构
 
 适用于 Android 和 KMP 项目的整洁架构模式。涵盖模块边界、依赖反转、UseCase/Repository 模式，以及使用 Room、SQLDelight 和 Ktor 的数据层设计。

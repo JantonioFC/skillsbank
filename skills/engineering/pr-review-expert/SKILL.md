@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # PR Review Expert
 
 > **⚠️ AUTHORIZED USE ONLY**

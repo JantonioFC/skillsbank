@@ -1,14 +1,11 @@
 ---
 name: figma-generate-library
-description: Build or update a professional-grade design system in Figma from a codebase.
-  Use when the user wants to create variables/tokens, build component libraries, set
-  up theming (light/dark modes), document foundations, or reconcile gaps between code
-  and Figma. This skill teaches WHAT to build and in WH...
+description: |-
+  Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes), document foundations, or reconcile gaps between code and Figma. This skill teaches WHAT to build and in WH...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Design System Builder — Figma MCP Skill
 
 Build professional-grade design systems in Figma that match code. This skill orchestrates multi-phase workflows across 20–100+ `use_figma` calls, enforcing quality patterns from real-world design systems (Material 3, Polaris, Figma UI3, Simple DS).

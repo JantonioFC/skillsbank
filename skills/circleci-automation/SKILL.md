@@ -1,17 +1,12 @@
 ---
 name: circleci-automation
-description: 'Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines,
-  monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools
-  first for current schemas.'
+description: |-
+  Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas.
 risk: safe
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # CircleCI Automation via Rube MCP
 
 Automate CircleCI CI/CD operations through Composio's CircleCI toolkit via Rube MCP.

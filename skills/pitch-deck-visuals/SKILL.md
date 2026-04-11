@@ -1,17 +1,12 @@
 ---
 name: pitch-deck-visuals
-description: 'Investor pitch deck structure with slide-by-slide framework, visual
-  design rules, and data presentation. Covers the 12-slide framework, chart types,
-  team slides, and common investor turn-offs. Use for: fundraising decks, investor
-  presentations, startup pitch, demo day, grant proposals. Tri...'
+description: |-
+  Investor pitch deck structure with slide-by-slide framework, visual design rules, and data presentation. Covers the 12-slide framework, chart types, team slides, and common investor turn-offs. Use for: fundraising decks, investor presentations, startup pitch, demo day, grant proposals. Tri...
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Pitch Deck Visuals
 
 ## When to Use

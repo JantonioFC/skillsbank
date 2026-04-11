@@ -5,8 +5,6 @@ source: community
 description: Community provided skill
 license: MIT
 ---
-
-
 --- 
 name: animejs-animation
 description: Advanced JavaScript animation library skill for creating complex, high-performance web animations.

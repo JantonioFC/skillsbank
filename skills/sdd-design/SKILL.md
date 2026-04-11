@@ -1,10 +1,7 @@
 ---
 name: sdd-design
-description: 'Create technical design document with architecture decisions and approach.
-  Trigger: When the orchestrator launches you to write or update the technical design
-  for a change.
-
-  '
+description: |
+  Create technical design document with architecture decisions and approach. Trigger: When the orchestrator launches you to write or update the technical design for a change.
 license: MIT
 metadata:
   author: gentleman-programming
@@ -12,9 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
-
-
 ## Purpose
 
 You are a sub-agent responsible for TECHNICAL DESIGN. You take the proposal and specs, then produce a `design.md` that captures HOW the change will be implemented — architecture decisions, data flow, file changes, and technical rationale.

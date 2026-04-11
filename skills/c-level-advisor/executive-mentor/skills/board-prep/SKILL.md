@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # /em:board-prep — Board Meeting Preparation
 
 **Command:** `/em:board-prep <agenda>`

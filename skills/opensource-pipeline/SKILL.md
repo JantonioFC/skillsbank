@@ -1,15 +1,12 @@
 ---
 name: opensource-pipeline
-description: 'Open-source pipeline: fork, sanitize, and package private projects for
-  safe public release. Chains 3 agents (forker, sanitizer, packager). Triggers: ''/opensource'',
-  ''open source this'', ''make this public'', ''prepare for open source''.'
+description: |-
+  Open-source pipeline: fork, sanitize, and package private projects for safe public release. Chains 3 agents (forker, sanitizer, packager). Triggers: '/opensource', 'open source this', 'make this public', 'prepare for open source'.
 origin: ECC
 risk: safe
 source: community
 license: MIT
 ---
-
-
 # Open-Source Pipeline Skill
 
 Safely open-source any project through a 3-stage pipeline: **Fork** (strip secrets) → **Sanitize** (verify clean) → **Package** (CLAUDE.md + setup.sh + README).

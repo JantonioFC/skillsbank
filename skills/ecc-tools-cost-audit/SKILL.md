@@ -1,15 +1,12 @@
 ---
 name: ecc-tools-cost-audit
-description: Evidence-first ECC Tools burn and billing audit workflow. Use when investigating
-  runaway PR creation, quota bypass, premium-model leakage, duplicate jobs, or GitHub
-  App cost spikes in the ECC Tools repo.
+description: |-
+  Evidence-first ECC Tools burn and billing audit workflow. Use when investigating runaway PR creation, quota bypass, premium-model leakage, duplicate jobs, or GitHub App cost spikes in the ECC Tools repo.
 origin: ECC
 risk: safe
 source: community
 license: MIT
 ---
-
-
 # ECC Tools Cost Audit
 
 Use this skill when the user suspects the ECC Tools GitHub App is burning cost, over-creating PRs, bypassing usage limits, or routing free users into premium analysis paths.

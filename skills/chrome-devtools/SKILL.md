@@ -1,13 +1,11 @@
 ---
 name: chrome-devtools
-description: Browser automation, debugging, and performance analysis using Puppeteer
-  CLI scripts. Use for automating browsers, taking screenshots, analyzing performance,
-  monitoring network traffic, web scraping, form automation, and JavaScript debugging.
+description: |-
+  Browser automation, debugging, and performance analysis using Puppeteer CLI scripts. Use for automating browsers, taking screenshots, analyzing performance, monitoring network traffic, web scraping, form automation, and JavaScript debugging.
 license: Apache-2.0
 risk: safe
 source: community
 ---
-
 # Chrome DevTools Agent Skill
 
 Browser automation via executable Puppeteer scripts. All scripts output JSON for easy parsing.

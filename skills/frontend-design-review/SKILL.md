@@ -1,21 +1,15 @@
 ---
 name: frontend-design-review
-description: 'Review and create distinctive, production-grade frontend interfaces
-  with high design quality and design system compliance. Evaluates using three pillars:
-  frictionless insight-to-action, quality craft, and trustworthy building. USE FOR:
-  PR reviews, design reviews, accessibility audits, design syst...'
-acknowledgments: 'Design review principles and quality pillar framework created by
-  @Quirinevwm (https://github.com/Quirinevwm).
-
-  Creative frontend guidance inspired by Anthropic''s frontend-design skill
-
-  (https://github.com/anthropics/skills/tree/main/skills/frontend-design). Licensed
-  under respective terms.'
+description: |-
+  Review and create distinctive, production-grade frontend interfaces with high design quality and design system compliance. Evaluates using three pillars: frictionless insight-to-action, quality craft, and trustworthy building. USE FOR: PR reviews, design reviews, accessibility audits, design syst...
+acknowledgments: |-
+  Design review principles and quality pillar framework created by @Quirinevwm (https://github.com/Quirinevwm).
+  Creative frontend guidance inspired by Anthropic's frontend-design skill
+  (https://github.com/anthropics/skills/tree/main/skills/frontend-design). Licensed under respective terms.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Frontend Design Review
 
 Review UI implementations against design quality standards and your design system **OR** create distinctive, production-grade frontend interfaces from scratch.

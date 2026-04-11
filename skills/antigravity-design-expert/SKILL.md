@@ -5,8 +5,6 @@ source: community
 description: Community provided skill
 license: MIT
 ---
-
-
 --- 
 name: antigravity-design-expert
 description: Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.

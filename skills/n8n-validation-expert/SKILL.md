@@ -5,9 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # n8n Validation Expert
 
 Expert guide for interpreting and fixing n8n validation errors.

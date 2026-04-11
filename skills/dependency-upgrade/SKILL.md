@@ -1,13 +1,11 @@
 ---
 name: dependency-upgrade
-description: Manage major dependency version upgrades with compatibility analysis,
-  staged rollout, and comprehensive testing. Use when upgrading framework versions,
-  updating major dependencies, or managing breaking changes in libraries.
+description: |-
+  Manage major dependency version upgrades with compatibility analysis, staged rollout, and comprehensive testing. Use when upgrading framework versions, updating major dependencies, or managing breaking changes in libraries.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Dependency Upgrade
 
 Master major dependency version upgrades, compatibility analysis, staged upgrade strategies, and comprehensive testing approaches.

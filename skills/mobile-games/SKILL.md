@@ -1,13 +1,12 @@
 ---
 name: mobile-games
-description: Mobile game development principles. Touch input, battery, performance,
-  app stores.
+description: |-
+  Mobile game development principles. Touch input, battery, performance, app stores.
 allowed-tools: Read, Write, Edit, Glob, Grep
 risk: safe
 source: community
 license: MIT
 ---
-
 # Mobile Game Development
 
 > Platform constraints and optimization principles.

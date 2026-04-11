@@ -1,3 +1,15 @@
+---
+name: benchmark
+description: |-
+  - Before and after a PR to measure performance impact
+  - Setting up performance baselines for a project
+  - When users report "it feels slow"
+  - Before a launch — ensure you meet performance targets
+  - Comparing your stack against alternatives
+risk: safe
+source: community
+license: MIT
+---
 # Benchmark — Performance Baseline & Regression Detection
 
 ## When to Use

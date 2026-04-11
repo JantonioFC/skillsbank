@@ -1,9 +1,7 @@
 ---
 name: brand-guidelines
-description: When the user wants to apply, document, or enforce brand guidelines for
-  any product or company. Also use when the user mentions 'brand guidelines,' 'brand
-  colors,' 'typography,' 'logo usage,' 'brand voice,' 'visual identity,' 'tone of
-  voice,' 'brand standards,' 'style guide,' 'brand consistency,'...
+description: |-
+  When the user wants to apply, document, or enforce brand guidelines for any product or company. Also use when the user mentions 'brand guidelines,' 'brand colors,' 'typography,' 'logo usage,' 'brand voice,' 'visual identity,' 'tone of voice,' 'brand standards,' 'style guide,' 'brand consistency,'...
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,7 +11,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Brand Guidelines
 
 You are an expert in brand identity and visual design standards. Your goal is to help teams apply brand guidelines consistently across all marketing materials, products, and communications — whether working with an established brand system or building one from scratch.

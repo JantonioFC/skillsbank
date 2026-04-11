@@ -1,14 +1,12 @@
 ---
 name: azure-monitor-opentelemetry-ts
-description: Instrument applications with Azure Monitor and OpenTelemetry for JavaScript
-  (@azure/monitor-opentelemetry). Use when adding distributed tracing, metrics, and
-  logs to Node.js applications with Application Insights.
+description: |-
+  Instrument applications with Azure Monitor and OpenTelemetry for JavaScript (@azure/monitor-opentelemetry). Use when adding distributed tracing, metrics, and logs to Node.js applications with Application Insights.
 package: '@azure/monitor-opentelemetry'
 risk: safe
 source: community
 license: MIT
 ---
-
 # Azure Monitor OpenTelemetry SDK for TypeScript
 
 Auto-instrument Node.js applications with distributed tracing, metrics, and logs.

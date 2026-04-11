@@ -8,9 +8,6 @@ source: personal
 date_added: '2026-03-11'
 license: MIT
 ---
-
-
-
 # doc-dora-metrics-template
 
 Genera un reporte de métricas DORA y salud de ingeniería cuando el usuario necesita evaluar el rendimiento de su equipo y sistemas.

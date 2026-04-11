@@ -1,14 +1,11 @@
 ---
 name: context-fundamentals
-description: This skill should be used when the user asks to "understand context",
-  "explain context windows", "design agent architecture", "debug context issues",
-  "optimize context usage", or discusses context components, attention mechanics,
-  progressive disclosure, or context budgeting. Provides foundational...
+description: |-
+  This skill should be used when the user asks to "understand context", "explain context windows", "design agent architecture", "debug context issues", "optimize context usage", or discusses context components, attention mechanics, progressive disclosure, or context budgeting. Provides foundational...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Context Engineering Fundamentals
 
 Context is the complete state available to a language model at inference time — system instructions, tool definitions, retrieved documents, message history, and tool outputs. Context engineering is the discipline of curating the smallest high-signal token set that maximizes the likelihood of desired outcomes. Every paragraph below earns its tokens by teaching a non-obvious technique or providing an actionable threshold.

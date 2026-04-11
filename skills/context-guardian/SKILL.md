@@ -1,7 +1,7 @@
 ---
 name: context-guardian
-description: Guardiao de contexto que preserva dados criticos antes da compactacao
-  automatica. Snapshots, verificacao de integridade e zero perda de informacao.
+description: |-
+  Guardiao de contexto que preserva dados criticos antes da compactacao automatica. Snapshots, verificacao de integridade e zero perda de informacao.
 risk: safe
 source: community
 date_added: '2026-03-06'
@@ -19,9 +19,6 @@ tools:
 - codex-cli
 license: MIT
 ---
-
-
-
 # Context Guardian
 
 ## Overview

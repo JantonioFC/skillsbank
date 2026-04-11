@@ -1,9 +1,7 @@
 ---
 name: azure-validate
-description: 'Pre-deployment validation for Azure readiness. Run deep checks on configuration,
-  infrastructure (Bicep or Terraform), permissions, and prerequisites before deploying.
-  WHEN: validate my app, check deployment readiness, run preflight checks, verify
-  configuration, check if ready to deploy, validate ...'
+description: |-
+  Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), permissions, and prerequisites before deploying. WHEN: validate my app, check deployment readiness, run preflight checks, verify configuration, check if ready to deploy, validate ...
 license: MIT
 metadata:
   author: Microsoft
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Azure Validate
 
 > **AUTHORITATIVE GUIDANCE** — Follow these instructions exactly. This supersedes prior training.

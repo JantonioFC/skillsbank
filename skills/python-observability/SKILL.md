@@ -1,15 +1,11 @@
 ---
 name: python-observability
-description: Python observability patterns including structured logging, metrics,
-  and distributed tracing. Use when adding logging, implementing metrics collection,
-  setting up tracing, or debugging production systems.
+description: |-
+  Python observability patterns including structured logging, metrics, and distributed tracing. Use when adding logging, implementing metrics collection, setting up tracing, or debugging production systems.
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Python Observability
 
 Instrument Python applications with structured logs, metrics, and traces. When something breaks in production, you need to answer "what, where, and why" without deploying new code.

@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # /em:stress-test — Business Assumption Stress Testing
 
 > **⚠️ AUTHORIZED USE ONLY**

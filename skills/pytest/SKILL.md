@@ -1,9 +1,7 @@
 ---
 name: pytest
-description: 'Pytest testing patterns for Python. Trigger: When writing Python tests
-  - fixtures, mocking, markers.
-
-  '
+description: |
+  Pytest testing patterns for Python. Trigger: When writing Python tests - fixtures, mocking, markers.
 license: Apache-2.0
 metadata:
   author: gentleman-programming
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 ## Basic Test Structure
 
 ```python

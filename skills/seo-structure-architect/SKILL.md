@@ -1,15 +1,13 @@
 ---
 name: seo-structure-architect
-description: Analyzes and optimizes content structure including header hierarchy,
-  suggests schema markup, and internal linking opportunities. Creates search-friendly
-  content organization. Use PROACTIVELY for content structuring.
+description: |-
+  Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization. Use PROACTIVELY for content structuring.
 metadata:
   model: haiku
 risk: safe
 source: community
 license: MIT
 ---
-
 ## Use this skill when
 
 - Working on seo structure architect tasks or workflows

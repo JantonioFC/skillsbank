@@ -6,10 +6,6 @@ source: https://github.com/wrsmith108/linear-claude-skill
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 ## When to Use This Skill
 
 Manage Linear issues, projects, and teams

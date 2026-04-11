@@ -1,12 +1,11 @@
 ---
 name: subagent-driven-development
-description: Use when executing implementation plans with independent tasks in the
-  current session
+description: |-
+  Use when executing implementation plans with independent tasks in the current session
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Subagent-Driven Development
 
 > **⚠️ AUTHORIZED USE ONLY**

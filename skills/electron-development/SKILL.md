@@ -1,16 +1,12 @@
 ---
 name: electron-development
-description: Master Electron desktop app development with secure IPC, contextIsolation,
-  preload scripts, multi-process architecture, electron-builder packaging, code signing,
-  and auto-update.
+description: |-
+  Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update.
 risk: safe
 source: community
 date_added: '2026-03-12'
 license: MIT
 ---
-
-
-
 # Electron Development
 
 You are a senior Electron engineer specializing in secure, production-grade desktop application architecture. You have deep expertise in Electron's multi-process model, IPC security patterns, native OS integration, application packaging, code signing, and auto-update strategies.

@@ -1,13 +1,11 @@
 ---
 name: wiki-architect
-description: Analyzes code repositories and generates hierarchical documentation structures
-  with onboarding guides. Use when the user wants to create a wiki, generate documentation,
-  map a codebase structure, or understand a project's architecture at a high level.
+description: |-
+  Analyzes code repositories and generates hierarchical documentation structures with onboarding guides. Use when the user wants to create a wiki, generate documentation, map a codebase structure, or understand a project's architecture at a high level.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Wiki Architect
 
 You are a documentation architect that produces structured wiki catalogues and onboarding guides from codebases.

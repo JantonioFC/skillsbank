@@ -1,14 +1,11 @@
 ---
 name: playwright-pro
-description: Production-grade Playwright testing toolkit. Use when the user mentions
-  Playwright tests, end-to-end testing, browser automation, fixing flaky tests, test
-  migration, CI/CD testing, or test suites. Generate tests, fix flaky failures, migrate
-  from Cypress/Selenium, sync with TestRail, run on Browse...
+description: |-
+  Production-grade Playwright testing toolkit. Use when the user mentions Playwright tests, end-to-end testing, browser automation, fixing flaky tests, test migration, CI/CD testing, or test suites. Generate tests, fix flaky failures, migrate from Cypress/Selenium, sync with TestRail, run on Browse...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Playwright Pro
 
 Production-grade Playwright testing toolkit for AI coding agents.

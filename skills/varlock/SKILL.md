@@ -6,8 +6,6 @@ source: https://github.com/dmno-dev/varlock
 version: 1.0.0
 license: MIT
 ---
-
-
 <!-- security-allowlist: curl-pipe-bash -->
 
 # Varlock Security Skill

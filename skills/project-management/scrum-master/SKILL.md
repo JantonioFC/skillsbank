@@ -1,9 +1,7 @@
 ---
 name: scrum-master
-description: Advanced Scrum Master skill for data-driven agile team analysis and coaching.
-  Use when the user asks about sprint planning, velocity tracking, retrospectives,
-  standup facilitation, backlog grooming, story points, burndown charts, blocker resolution,
-  or agile team health. Runs Python scripts to an...
+description: |-
+  Advanced Scrum Master skill for data-driven agile team analysis and coaching. Use when the user asks about sprint planning, velocity tracking, retrospectives, standup facilitation, backlog grooming, story points, burndown charts, blocker resolution, or agile team health. Runs Python scripts to an...
 license: MIT
 metadata:
   version: 2.0.0
@@ -16,7 +14,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Scrum Master Expert
 
 Data-driven Scrum Master skill combining sprint analytics, probabilistic forecasting, and team development coaching. The unique value is in the three Python analysis scripts and their workflows — refer to `references/` and `assets/` for deeper framework detail.

@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # 智能体工程
 
 在 AI 智能体执行大部分实施工作、而人类负责质量与风险控制的工程工作流中使用此技能。

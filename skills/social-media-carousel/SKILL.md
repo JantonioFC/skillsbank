@@ -1,17 +1,12 @@
 ---
 name: social-media-carousel
-description: 'Multi-slide carousel design for Instagram, LinkedIn, and Twitter/X with
-  layout rules and hooks. Covers slide structure, text hierarchy, swipe psychology,
-  and platform-specific specs. Use for: carousel posts, Instagram carousels, LinkedIn
-  carousels, slide posts, educational content. Trigger...'
+description: |-
+  Multi-slide carousel design for Instagram, LinkedIn, and Twitter/X with layout rules and hooks. Covers slide structure, text hierarchy, swipe psychology, and platform-specific specs. Use for: carousel posts, Instagram carousels, LinkedIn carousels, slide posts, educational content. Trigger...
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Social Media Carousel
 
 ## When to Use

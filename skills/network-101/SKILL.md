@@ -1,9 +1,7 @@
 ---
 name: network-101
-description: This skill should be used when the user asks to "set up a web server",
-  "configure HTTP or HTTPS", "perform SNMP enumeration", "configure SMB shares", "test
-  network services", or needs guidance on configuring and testing network services
-  for penetration testing labs.
+description: |-
+  This skill should be used when the user asks to "set up a web server", "configure HTTP or HTTPS", "perform SNMP enumeration", "configure SMB shares", "test network services", or needs guidance on configuring and testing network services for penetration testing labs.
 metadata:
   author: zebbern
   version: '1.1'
@@ -11,7 +9,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Network 101
 
 > **⚠️ AUTHORIZED USE ONLY**

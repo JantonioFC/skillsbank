@@ -1,7 +1,7 @@
 ---
 name: fp-refactor
-description: Comprehensive guide for refactoring imperative TypeScript code to fp-ts
-  functional patterns
+description: |-
+  Comprehensive guide for refactoring imperative TypeScript code to fp-ts functional patterns
 version: 1.0.0
 author: fp-ts-skills
 tags:
@@ -18,7 +18,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Refactoring Imperative Code to fp-ts
 
 > **⚠️ AUTHORIZED USE ONLY**

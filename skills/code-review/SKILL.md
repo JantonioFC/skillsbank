@@ -1,14 +1,11 @@
 ---
 name: code-review
-description: Use when receiving code review feedback (especially if unclear or technically
-  questionable), when completing tasks or major features requiring review before proceeding,
-  or before making any completion/success claims. Covers three practices - receiving
-  feedback with technical rigor over performati...
+description: |-
+  Use when receiving code review feedback (especially if unclear or technically questionable), when completing tasks or major features requiring review before proceeding, or before making any completion/success claims. Covers three practices - receiving feedback with technical rigor over performati...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Code Review
 
 Guide proper code review practices emphasizing technical rigor, evidence-based claims, and verification over performative responses.

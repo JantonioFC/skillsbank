@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # skill-stocktake
 
 斜杠命令 (`/skill-stocktake`)，用于使用质量检查清单 + AI 整体判断来审核所有 Claude 技能和命令。支持两种模式：用于最近更改技能的快速扫描，以及用于完整审查的全面盘点。

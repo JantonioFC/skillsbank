@@ -6,9 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # 中医体质辨识分析器技能
 
 分析中医体质数据,识别体质类型,评估体质特征,并提供个性化养生改善建议。

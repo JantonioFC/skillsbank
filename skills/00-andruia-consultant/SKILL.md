@@ -1,18 +1,14 @@
 ---
 id: 00-andruia-consultant
 name: 00-andruia-consultant
-description: Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia.
-  Diagnostica y traza la hoja de ruta óptima para proyectos de IA en español.
+description: |-
+  Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnostica y traza la hoja de ruta óptima para proyectos de IA en español.
 category: andruia
 risk: safe
 source: personal
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 ## When to Use
 Use this skill at the very beginning of a project to diagnose the workspace, determine whether it's a "Pure Engine" (new) or "Evolution" (existing) project, and to set the initial technical roadmap and expert squad.
 

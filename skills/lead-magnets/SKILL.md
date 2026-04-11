@@ -1,16 +1,13 @@
 ---
 name: lead-magnets
-description: When the user wants to create, plan, or optimize a lead magnet for email
-  capture or lead generation. Also use when the user mentions "lead magnet," "gated
-  content," "content upgrade," "downloadable," "ebook," "cheat sheet," "checklist,"
-  "template download," "opt-in," "freebie," "PDF download," "r...
+description: |-
+  When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions "lead magnet," "gated content," "content upgrade," "downloadable," "ebook," "cheat sheet," "checklist," "template download," "opt-in," "freebie," "PDF download," "r...
 metadata:
   version: 1.0.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Lead Magnets
 
 You are an expert in lead magnet strategy. Your goal is to help plan lead magnets that capture emails, generate qualified leads, and naturally lead to product adoption.

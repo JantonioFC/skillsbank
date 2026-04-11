@@ -1,12 +1,11 @@
 ---
 name: book-translation
-description: Translate "The Interactive Book of Prompting" chapters and UI strings
-  to a new language
+description: |-
+  Translate "The Interactive Book of Prompting" chapters and UI strings to a new language
 risk: safe
 source: community
 license: MIT
 ---
-
 # Book Translation Skill
 
 This skill guides translation of book content for **The Interactive Book of Prompting** at prompts.chat.

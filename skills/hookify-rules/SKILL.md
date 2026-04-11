@@ -1,13 +1,11 @@
 ---
 name: hookify-rules
-description: This skill should be used when the user asks to create a hookify rule,
-  write a hook rule, configure hookify, add a hookify rule, or needs guidance on hookify
-  rule syntax and patterns.
+description: |-
+  This skill should be used when the user asks to create a hookify rule, write a hook rule, configure hookify, add a hookify rule, or needs guidance on hookify rule syntax and patterns.
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Writing Hookify Rules
 
 > **⚠️ AUTHORIZED USE ONLY**

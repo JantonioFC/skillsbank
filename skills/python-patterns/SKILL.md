@@ -1,13 +1,12 @@
 ---
 name: python-patterns
-description: Python development principles and decision-making. Framework selection,
-  async patterns, type hints, project structure. Teaches thinking, not copying.
+description: |-
+  Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.
 allowed-tools: Read, Write, Edit, Glob, Grep
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Python Patterns
 
 > **⚠️ AUTHORIZED USE ONLY**

@@ -1,12 +1,11 @@
 ---
 name: fact-check
-description: Verify technical accuracy of JavaScript concept pages by checking code
-  examples, MDN/ECMAScript compliance, and external resources to prevent misinformation
+description: |-
+  Verify technical accuracy of JavaScript concept pages by checking code examples, MDN/ECMAScript compliance, and external resources to prevent misinformation
 risk: safe
 source: community
 license: MIT
 ---
-
 # Skill: JavaScript Fact Checker
 
 Use this skill to verify the technical accuracy of concept documentation pages for the 33 JavaScript Concepts project. This ensures we're not spreading misinformation about JavaScript.

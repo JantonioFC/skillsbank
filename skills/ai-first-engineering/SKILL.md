@@ -1,13 +1,12 @@
 ---
 name: ai-first-engineering
-description: Engineering operating model for teams where AI agents generate a large
-  share of implementation output.
+description: |-
+  Engineering operating model for teams where AI agents generate a large share of implementation output.
 origin: ECC
 risk: safe
 source: community
 license: MIT
 ---
-
 # AI-First Engineering
 
 Use this skill when designing process, reviews, and architecture for teams shipping with AI-assisted code generation.

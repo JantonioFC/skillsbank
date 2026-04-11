@@ -1,9 +1,7 @@
 ---
 name: azure-compute
-description: 'Recommend Azure VM sizes, VM Scale Sets (VMSS), and configurations based
-  on workload requirements, performance needs, and budget constraints. No Azure account
-  required — uses public documentation and the Azure Retail Prices API. WHEN: recommend
-  VM size, which VM should I use, choose Azure VM, VM ...'
+description: |-
+  Recommend Azure VM sizes, VM Scale Sets (VMSS), and configurations based on workload requirements, performance needs, and budget constraints. No Azure account required — uses public documentation and the Azure Retail Prices API. WHEN: recommend VM size, which VM should I use, choose Azure VM, VM ...
 license: MIT
 metadata:
   author: Microsoft
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Azure Compute Skill
 
 Recommend Azure VM sizes, VM Scale Sets (VMSS), and configurations by analyzing workload type, performance requirements, scaling needs, and budget. No Azure subscription required — all data comes from public Microsoft documentation and the unauthenticated Retail Prices API.

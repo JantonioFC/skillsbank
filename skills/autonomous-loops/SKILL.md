@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # 自主循环技能
 
 > 兼容性说明 (v1.8.0): `autonomous-loops` 保留一个发布周期。

@@ -1,14 +1,11 @@
 ---
 name: tool-design
-description: This skill should be used when the user asks to "design agent tools",
-  "create tool descriptions", "reduce tool complexity", "implement MCP tools", or
-  mentions tool consolidation, architectural reduction, tool naming conventions, or
-  agent-tool interfaces.
+description: |-
+  This skill should be used when the user asks to "design agent tools", "create tool descriptions", "reduce tool complexity", "implement MCP tools", or mentions tool consolidation, architectural reduction, tool naming conventions, or agent-tool interfaces.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Tool Design for Agents
 
 Design every tool as a contract between a deterministic system and a non-deterministic agent. Unlike human-facing APIs, agent-facing tools must make the contract unambiguous through the description alone -- agents infer intent from descriptions and generate calls that must match expected formats. Every ambiguity becomes a potential failure mode that no amount of prompt engineering can fix.

@@ -1,13 +1,11 @@
 ---
 name: similarity-search-patterns
-description: Implement efficient similarity search with vector databases. Use when
-  building semantic search, implementing nearest neighbor queries, or optimizing retrieval
-  performance.
+description: |-
+  Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Similarity Search Patterns
 
 Patterns for implementing efficient similarity search in production systems.

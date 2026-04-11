@@ -1,12 +1,10 @@
 ---
 name: test-driven-development
-description: Use when implementing any feature or bugfix, before writing implementation
-  code
+description: Use when implementing any feature or bugfix, before writing implementation code
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Test-Driven Development (TDD)
 
 > **⚠️ AUTHORIZED USE ONLY**

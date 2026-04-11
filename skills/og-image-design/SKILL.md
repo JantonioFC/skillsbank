@@ -1,17 +1,12 @@
 ---
 name: og-image-design
-description: 'Open Graph and social sharing image design with platform specs, text
-  placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn previews,
-  and dynamic generation. Use for: social sharing images, blog thumbnails, link previews,
-  social cards. Triggers: og image, open graph, social ...'
+description: |-
+  Open Graph and social sharing image design with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn previews, and dynamic generation. Use for: social sharing images, blog thumbnails, link previews, social cards. Triggers: og image, open graph, social ...
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # OG Image Design
 
 ## When to Use

@@ -7,7 +7,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 ## When to use
 
 Use this skills whenever you are dealing with Remotion code to obtain the domain-specific knowledge.

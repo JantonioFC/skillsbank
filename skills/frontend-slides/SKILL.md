@@ -1,12 +1,12 @@
 ---
 name: frontend-slides
-description: 从零开始或通过转换PowerPoint文件创建令人惊艳、动画丰富的HTML演示文稿。当用户想要构建演示文稿、将PPT/PPTX转换为网页格式，或为演讲/推介创建幻灯片时使用。帮助非设计师通过视觉探索而非抽象选择发现他们的美学。
+description: |-
+  从零开始或通过转换PowerPoint文件创建令人惊艳、动画丰富的HTML演示文稿。当用户想要构建演示文稿、将PPT/PPTX转换为网页格式，或为演讲/推介创建幻灯片时使用。帮助非设计师通过视觉探索而非抽象选择发现他们的美学。
 origin: ECC
 risk: safe
 source: community
 license: MIT
 ---
-
 # 前端幻灯片
 
 创建零依赖、动画丰富的 HTML 演示文稿，完全在浏览器中运行。

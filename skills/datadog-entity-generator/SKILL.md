@@ -1,14 +1,11 @@
 ---
 name: datadog-entity-generator
-description: Generate exhaustively complete and accurate Datadog Software Catalog
-  entity YAML files (v3 schema) by examining project source code and interviewing
-  engineers. Use when engineers need to create or update entity.datadog.yaml files
-  for services, datastores, queues, APIs, or systems. Triggers includ...
+description: |-
+  Generate exhaustively complete and accurate Datadog Software Catalog entity YAML files (v3 schema) by examining project source code and interviewing engineers. Use when engineers need to create or update entity.datadog.yaml files for services, datastores, queues, APIs, or systems. Triggers includ...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Datadog Entity Generator
 
 Generate comprehensive, validated Datadog Software Catalog entity YAML files (v3 schema) through project analysis and engineer interviews.

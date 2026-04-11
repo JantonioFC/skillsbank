@@ -1,15 +1,12 @@
 ---
 name: code-tour
-description: Create CodeTour `.tour` files — persona-targeted, step-by-step walkthroughs
-  with real file and line anchors. Use for onboarding tours, architecture walkthroughs,
-  PR tours, RCA tours, and structured "explain how this works" requests.
+description: |-
+  Create CodeTour `.tour` files — persona-targeted, step-by-step walkthroughs with real file and line anchors. Use for onboarding tours, architecture walkthroughs, PR tours, RCA tours, and structured "explain how this works" requests.
 origin: ECC
 risk: safe
 source: community
 license: MIT
 ---
-
-
 # Code Tour
 
 Create **CodeTour** `.tour` files for codebase walkthroughs that open directly to real files and line ranges. Tours live in `.tours/` and are meant for the CodeTour format, not ad hoc Markdown notes.

@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Skill Tester
 
 > **⚠️ AUTHORIZED USE ONLY**

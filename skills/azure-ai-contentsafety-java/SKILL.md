@@ -1,14 +1,12 @@
 ---
 name: azure-ai-contentsafety-java
-description: Build content moderation applications with Azure AI Content Safety SDK
-  for Java. Use when implementing text/image analysis, blocklist management, or harm
-  detection for hate, violence, sexual content, and self-harm.
+description: |-
+  Build content moderation applications with Azure AI Content Safety SDK for Java. Use when implementing text/image analysis, blocklist management, or harm detection for hate, violence, sexual content, and self-harm.
 package: com.azure:azure-ai-contentsafety
 risk: safe
 source: community
 license: MIT
 ---
-
 # Azure AI Content Safety SDK for Java
 
 Build content moderation applications using the Azure AI Content Safety SDK for Java.

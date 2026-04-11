@@ -1,17 +1,12 @@
 ---
 name: team-communication-protocols
-description: Structured messaging protocols for agent team communication including
-  message type selection, plan approval, shutdown procedures, and anti-patterns to
-  avoid. Use this skill when establishing team communication norms, handling plan
-  approvals, or managing team shutdown.
+description: |-
+  Structured messaging protocols for agent team communication including message type selection, plan approval, shutdown procedures, and anti-patterns to avoid. Use this skill when establishing team communication norms, handling plan approvals, or managing team shutdown.
 version: 1.0.2
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Team Communication Protocols
 
 Protocols for effective communication between agent teammates, including message type selection, plan approval workflows, shutdown procedures, and common anti-patterns to avoid.

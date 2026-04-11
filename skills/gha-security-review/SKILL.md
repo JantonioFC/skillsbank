@@ -1,16 +1,12 @@
 ---
 name: gha-security-review
-description: Find exploitable vulnerabilities in GitHub Actions workflows. Every finding
-  MUST include a concrete exploitation scenario — if you can't build the attack, don't
-  report it.
+description: |-
+  Find exploitable vulnerabilities in GitHub Actions workflows. Every finding MUST include a concrete exploitation scenario — if you can't build the attack, don't report it.
 risk: safe
 source: community
 date_added: 2026-03-16
 license: MIT
 ---
-
-
-
 <!--
 Attack patterns and real-world examples sourced from the HackerBot Claw campaign analysis
 by StepSecurity (2025): https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation

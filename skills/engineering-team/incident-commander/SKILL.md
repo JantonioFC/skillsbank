@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Incident Commander Skill
 
 > **⚠️ AUTHORIZED USE ONLY**

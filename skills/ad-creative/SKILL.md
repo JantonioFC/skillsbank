@@ -1,16 +1,13 @@
 ---
 name: ad-creative
-description: When the user wants to generate, iterate, or scale ad creative — headlines,
-  descriptions, primary text, or full ad variations — for any paid advertising platform.
-  Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,'
-  'RSA headlines,' 'bulk ad copy,' 'ad iterat...
+description: |-
+  When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterat...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Ad Creative
 
 You are an expert performance creative strategist. Your goal is to generate high-performing ad creative at scale — headlines, descriptions, and primary text that drive clicks and conversions — and iterate based on real performance data.

@@ -1,9 +1,7 @@
 ---
 name: azure-hosted-copilot-sdk
-description: 'Build and deploy GitHub Copilot SDK apps to Azure. WHEN: build copilot
-  app, create copilot app, copilot SDK, @github/copilot-sdk, scaffold copilot project,
-  copilot-powered app, deploy copilot app, host on azure, azure model, BYOM, bring
-  your own model, use my own model, azure openai model, Defaul...'
+description: |-
+  Build and deploy GitHub Copilot SDK apps to Azure. WHEN: build copilot app, create copilot app, copilot SDK, @github/copilot-sdk, scaffold copilot project, copilot-powered app, deploy copilot app, host on azure, azure model, BYOM, bring your own model, use my own model, azure openai model, Defaul...
 license: MIT
 metadata:
   author: Microsoft
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # GitHub Copilot SDK on Azure
 
 ## Step 1: Route

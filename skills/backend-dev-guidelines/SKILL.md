@@ -1,14 +1,11 @@
 ---
 name: backend-dev-guidelines
-description: Comprehensive backend development guide for Node.js/Express/TypeScript
-  microservices. Use when creating routes, controllers, services, repositories, middleware,
-  or working with Express APIs, Prisma database access, Sentry error tracking, Zod
-  validation, unifiedConfig, dependency injection, or asy...
+description: |-
+  Comprehensive backend development guide for Node.js/Express/TypeScript microservices. Use when creating routes, controllers, services, repositories, middleware, or working with Express APIs, Prisma database access, Sentry error tracking, Zod validation, unifiedConfig, dependency injection, or asy...
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Backend Development Guidelines
 
 > **⚠️ AUTHORIZED USE ONLY**

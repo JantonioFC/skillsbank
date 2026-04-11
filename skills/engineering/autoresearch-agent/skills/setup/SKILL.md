@@ -1,13 +1,12 @@
 ---
 name: setup
-description: Set up a new autoresearch experiment interactively. Collects domain,
-  target file, eval command, metric, direction, and evaluator.
+description: |-
+  Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, metric, direction, and evaluator.
 command: /ar:setup
 risk: safe
 source: community
 license: MIT
 ---
-
 # /ar:setup — Create New Experiment
 
 Set up a new autoresearch experiment with all required configuration.

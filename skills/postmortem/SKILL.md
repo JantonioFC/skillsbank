@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # /em:postmortem — Honest Analysis of What Went Wrong
 
 **Command:** `/em:postmortem <event>`

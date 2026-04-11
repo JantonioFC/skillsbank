@@ -7,7 +7,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Conductor Status
 
 Display the current status of the Conductor project, including overall progress, active tracks, and next actions.

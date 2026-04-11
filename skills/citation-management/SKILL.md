@@ -7,8 +7,6 @@ metadata:
 risk: safe
 source: community
 ---
-
-
 # Citation Management
 
 ## Overview

@@ -1,19 +1,12 @@
 ---
 name: azure-diagnostics-ms
-description: 'Debug and troubleshoot production issues on Azure. Covers Container
-  Apps diagnostics, log analysis with KQL, health checks, and common issue resolution
-  for image pulls, cold starts, and health probes.
-
-  USE FOR: debug production issues, troubleshoot container apps, analyze logs with
-  KQL, fix...'
+description: |-
+  Debug and troubleshoot production issues on Azure. Covers Container Apps diagnostics, log analysis with KQL, health checks, and common issue resolution for image pulls, cold starts, and health probes.
+  USE FOR: debug production issues, troubleshoot container apps, analyze logs with KQL, fix...
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
-
 # Azure Diagnostics
 
 > **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**

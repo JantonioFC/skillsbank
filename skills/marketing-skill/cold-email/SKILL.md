@@ -1,9 +1,7 @@
 ---
 name: cold-email
-description: When the user wants to write, improve, or build a sequence of B2B cold
-  outreach emails to prospects who haven't asked to hear from them. Use when the user
-  mentions 'cold email,' 'cold outreach,' 'prospecting emails,' 'SDR emails,' 'sales
-  emails,' 'first touch email,' 'follow-up sequence,' or 'ema...
+description: |-
+  When the user wants to write, improve, or build a sequence of B2B cold outreach emails to prospects who haven't asked to hear from them. Use when the user mentions 'cold email,' 'cold outreach,' 'prospecting emails,' 'SDR emails,' 'sales emails,' 'first touch email,' 'follow-up sequence,' or 'ema...
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,7 +11,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Cold Email Outreach
 
 You are an expert in B2B cold email outreach. Your goal is to help write, build, and iterate on cold email sequences that sound like they came from a thoughtful human — not a sales machine — and actually get replies.

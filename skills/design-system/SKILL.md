@@ -1,3 +1,15 @@
+---
+name: design-system
+description: |-
+  - Starting a new project that needs a design system
+  - Auditing an existing codebase for visual consistency
+  - Before a redesign — understand what you have
+  - When the UI looks "off" but you can't pinpoint why
+  - Reviewing PRs that touch styling
+risk: safe
+source: community
+license: MIT
+---
 # Design System — Generate & Audit Visual Systems
 
 ## When to Use

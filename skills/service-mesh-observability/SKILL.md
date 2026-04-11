@@ -1,13 +1,11 @@
 ---
 name: service-mesh-observability
-description: Implement comprehensive observability for service meshes including distributed
-  tracing, metrics, and visualization. Use when setting up mesh monitoring, debugging
-  latency issues, or implementing SLOs for service communication.
+description: |-
+  Implement comprehensive observability for service meshes including distributed tracing, metrics, and visualization. Use when setting up mesh monitoring, debugging latency issues, or implementing SLOs for service communication.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Service Mesh Observability
 
 Complete guide to observability patterns for Istio, Linkerd, and service mesh deployments.

@@ -1,13 +1,11 @@
 ---
 name: stripe-integration
-description: Implement Stripe payment processing for robust, PCI-compliant payment
-  flows including checkout, subscriptions, and webhooks. Use when integrating Stripe
-  payments, building subscription systems, or implementing secure checkout flows.
+description: |-
+  Implement Stripe payment processing for robust, PCI-compliant payment flows including checkout, subscriptions, and webhooks. Use when integrating Stripe payments, building subscription systems, or implementing secure checkout flows.
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Stripe Integration
 
 > **⚠️ AUTHORIZED USE ONLY**

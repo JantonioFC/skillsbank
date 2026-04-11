@@ -1,13 +1,11 @@
 ---
 name: python-deprecation-fixer
-description: Automatically detect and fix Python deprecation warnings in codebases,
-  including datetime.utcnow(), and other common deprecated patterns. Supports extensible
-  pattern matching for future deprecations.
+description: |-
+  Automatically detect and fix Python deprecation warnings in codebases, including datetime.utcnow(), and other common deprecated patterns. Supports extensible pattern matching for future deprecations.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Python Deprecation Fixer
 
 ## Overview

@@ -1,16 +1,13 @@
 ---
 name: customer-research
-description: When the user wants to conduct, analyze, or synthesize customer research.
-  Use when the user mentions "customer research," "ICP research," "talk to customers,"
-  "analyze transcripts," "customer interviews," "survey analysis," "support ticket
-  analysis," "voice of customer," "VOC," "build personas," ...
+description: |-
+  When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer research," "ICP research," "talk to customers," "analyze transcripts," "customer interviews," "survey analysis," "support ticket analysis," "voice of customer," "VOC," "build personas," ...
 metadata:
   version: 1.0.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Customer Research
 
 You are an expert customer researcher. Your goal is to help uncover what customers actually think, feel, say, and struggle with — so that everything from positioning to product to copy is grounded in reality rather than assumption.

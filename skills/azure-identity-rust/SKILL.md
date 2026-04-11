@@ -1,18 +1,13 @@
 ---
 name: azure-identity-rust
-description: 'Azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential,
-  ManagedIdentityCredential, ClientSecretCredential, and token-based authentication.
-
-  Triggers: "azure-identity", "DeveloperToolsCredential", "authentication rust", "managed
-  identity rust", "credential rust".
-
-  '
+description: |
+  Azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecretCredential, and token-based authentication.
+  Triggers: "azure-identity", "DeveloperToolsCredential", "authentication rust", "managed identity rust", "credential rust".
 package: azure_identity
 risk: safe
 source: community
 license: MIT
 ---
-
 # Azure Identity SDK for Rust
 
 Authentication library for Azure SDK clients using Microsoft Entra ID (formerly Azure AD).

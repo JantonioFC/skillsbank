@@ -1,7 +1,7 @@
 ---
 name: hono
-description: Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare
-  Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime.
+description: |-
+  Build ultra-fast web APIs and full-stack apps with Hono — runs on Cloudflare Workers, Deno, Bun, Node.js, and any WinterCG-compatible runtime.
 category: backend
 risk: safe
 source: community
@@ -22,8 +22,6 @@ tools:
 - gemini
 license: MIT
 ---
-
-
 # Hono Web Framework
 
 ## Overview

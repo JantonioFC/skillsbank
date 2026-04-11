@@ -1,13 +1,12 @@
 ---
 name: run
-description: One-shot lifecycle command that chains init → baseline → spawn → eval
-  → merge in a single invocation.
+description: |-
+  One-shot lifecycle command that chains init → baseline → spawn → eval → merge in a single invocation.
 command: /hub:run
 risk: safe
 source: community
 license: MIT
 ---
-
 # /hub:run — One-Shot Lifecycle
 
 Run the full AgentHub lifecycle in one command: initialize, capture baseline, spawn agents, evaluate results, and merge the winner.

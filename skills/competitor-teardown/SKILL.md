@@ -1,17 +1,12 @@
 ---
 name: competitor-teardown
-description: 'Structured competitive analysis with feature matrices, SWOT, positioning
-  maps, and UX review. Covers research frameworks, pricing comparison, review mining,
-  and visual deliverables. Use for: market research, competitive intelligence, investor
-  decks, product strategy, sales enablement. Trig...'
+description: |-
+  Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, and visual deliverables. Use for: market research, competitive intelligence, investor decks, product strategy, sales enablement. Trig...
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Competitor Teardown
 
 ## When to Use

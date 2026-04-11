@@ -1,14 +1,11 @@
 ---
 name: sequential-thinking
-description: Use when complex problems require systematic step-by-step reasoning with
-  ability to revise thoughts, branch into alternative approaches, or dynamically adjust
-  scope. Ideal for multi-stage analysis, design planning, problem decomposition, or
-  tasks with initially unclear scope.
+description: |-
+  Use when complex problems require systematic step-by-step reasoning with ability to revise thoughts, branch into alternative approaches, or dynamically adjust scope. Ideal for multi-stage analysis, design planning, problem decomposition, or tasks with initially unclear scope.
 license: MIT
 risk: safe
 source: community
 ---
-
 # Sequential Thinking
 
 Enables structured problem-solving through iterative reasoning with revision and branching capabilities.

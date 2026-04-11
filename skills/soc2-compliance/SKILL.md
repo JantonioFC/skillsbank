@@ -1,13 +1,11 @@
 ---
 name: soc2-compliance
-description: Use when the user asks to prepare for SOC 2 audits, map Trust Service
-  Criteria, build control matrices, collect audit evidence, perform gap analysis,
-  or assess SOC 2 Type I vs Type II readiness.
+description: |-
+  Use when the user asks to prepare for SOC 2 audits, map Trust Service Criteria, build control matrices, collect audit evidence, perform gap analysis, or assess SOC 2 Type I vs Type II readiness.
 risk: offensive
 source: community
 license: MIT
 ---
-
 # SOC 2 Compliance
 
 > **⚠️ AUTHORIZED USE ONLY**

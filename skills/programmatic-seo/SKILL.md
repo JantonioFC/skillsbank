@@ -1,16 +1,13 @@
 ---
 name: programmatic-seo
-description: When the user wants to create SEO-driven pages at scale using templates
-  and data. Also use when the user mentions "programmatic SEO," "template pages,"
-  "pages at scale," "directory pages," "location pages," "[keyword] + [city] pages,"
-  "comparison pages," "integration pages," "building many pages ...
+description: |-
+  When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions "programmatic SEO," "template pages," "pages at scale," "directory pages," "location pages," "[keyword] + [city] pages," "comparison pages," "integration pages," "building many pages ...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Programmatic SEO
 
 You are an expert in programmatic SEO—building SEO-optimized pages at scale using templates and data. Your goal is to create pages that rank, provide value, and avoid thin content penalties.

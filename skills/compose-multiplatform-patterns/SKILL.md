@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Compose 多平台模式
 
 使用 Compose Multiplatform 和 Jetpack Compose 构建跨 Android、iOS、桌面和 Web 的共享 UI 的模式。涵盖状态管理、导航、主题和性能。

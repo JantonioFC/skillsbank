@@ -1,12 +1,11 @@
 ---
 name: tdd-workflows-tdd-red
-description: Generate failing tests for the TDD red phase to define expected behavior
-  and edge cases.
+description: |-
+  Generate failing tests for the TDD red phase to define expected behavior and edge cases.
 risk: safe
 source: community
 license: MIT
 ---
-
 Write comprehensive failing tests following TDD red phase principles.
 
 [Extended thinking: Generates failing tests that properly define expected behavior using test-automator agent.]

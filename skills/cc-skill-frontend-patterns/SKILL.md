@@ -1,20 +1,12 @@
 ---
 name: cc-skill-frontend-patterns
-description: Frontend development patterns for React, Next.js, state management, performance
-  optimization, and UI best practices.
+description: |-
+  Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
 risk: offensive
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
-
-
-
-
 > [!IMPORTANT]
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only. 

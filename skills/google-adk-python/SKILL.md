@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Google ADK Python Skill
 
 > **⚠️ AUTHORIZED USE ONLY**

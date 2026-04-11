@@ -1,12 +1,11 @@
 ---
 name: graphql-schema
-description: GraphQL queries, mutations, and code generation patterns. Use when creating
-  GraphQL operations, working with Apollo Client, or generating types.
+description: |-
+  GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types.
 risk: safe
 source: community
 license: MIT
 ---
-
 # GraphQL Schema Patterns
 
 ## Core Rules

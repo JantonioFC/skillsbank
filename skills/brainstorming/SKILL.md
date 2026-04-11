@@ -1,14 +1,12 @@
 ---
 name: brainstorming
-description: Socratic questioning protocol + user communication. MANDATORY for complex
-  requests, new features, or unclear requirements. Includes progress reporting and
-  error handling.
+description: |-
+  Socratic questioning protocol + user communication. MANDATORY for complex requests, new features, or unclear requirements. Includes progress reporting and error handling.
 allowed-tools: Read, Glob, Grep
 risk: safe
 source: community
 license: MIT
 ---
-
 # Brainstorming & Communication Protocol
 
 > **MANDATORY:** Use for complex/vague requests, new features, updates.

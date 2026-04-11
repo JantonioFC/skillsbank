@@ -1,15 +1,13 @@
 ---
 name: c-pro
-description: Write efficient C code with proper memory management, pointer arithmetic,
-  and system calls. Handles embedded systems, kernel modules, and performance-critical
-  code. Use PROACTIVELY for C optimization, memory issues, or system programming.
+description: |-
+  Write efficient C code with proper memory management, pointer arithmetic, and system calls. Handles embedded systems, kernel modules, and performance-critical code. Use PROACTIVELY for C optimization, memory issues, or system programming.
 metadata:
   model: opus
 risk: safe
 source: community
 license: MIT
 ---
-
 ## Use this skill when
 
 - Working on c pro tasks or workflows

@@ -1,16 +1,13 @@
 ---
 name: dashboard-builder
-description: Build monitoring dashboards that answer real operator questions for Grafana,
-  SigNoz, and similar platforms. Use when turning metrics into a working dashboard
-  instead of a vanity board.
+description: |-
+  Build monitoring dashboards that answer real operator questions for Grafana, SigNoz, and similar platforms. Use when turning metrics into a working dashboard instead of a vanity board.
 origin: ECC direct-port adaptation
 version: 1.0.0
 risk: safe
 source: community
 license: MIT
 ---
-
-
 # Dashboard Builder
 
 Use this when the task is to build a dashboard people can operate from.

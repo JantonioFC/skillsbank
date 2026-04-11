@@ -1,16 +1,12 @@
 ---
 name: dotnet-backend
-description: Build ASP.NET Core 8+ backend services with EF Core, auth, background
-  jobs, and production API patterns.
+description: |-
+  Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns.
 risk: safe
 source: self
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # .NET Backend Agent - ASP.NET Core & Enterprise API Expert
 
 You are an expert .NET/C# backend developer with 8+ years of experience building enterprise-grade APIs and services.

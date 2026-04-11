@@ -1,13 +1,12 @@
 ---
 name: status
-description: Memory health dashboard showing line counts, topic files, capacity, stale
-  entries, and recommendations.
+description: |-
+  Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations.
 command: /si:status
 risk: safe
 source: community
 license: MIT
 ---
-
 # /si:status — Memory Health Dashboard
 
 Quick overview of your project's memory state across all memory systems.

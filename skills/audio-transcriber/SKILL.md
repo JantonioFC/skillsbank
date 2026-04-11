@@ -1,7 +1,7 @@
 ---
 name: audio-transcriber
-description: Transform audio recordings into professional Markdown documentation with
-  intelligent summaries using LLM integration
+description: |-
+  Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration
 category: content
 risk: safe
 source: community
@@ -9,10 +9,6 @@ tags: '[audio, transcription, whisper, meeting-minutes, speech-to-text]'
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 ## Purpose
 
 This skill automates audio-to-text transcription with professional Markdown output, extracting rich technical metadata (speakers, timestamps, language, file size, duration) and generating structured meeting minutes and executive summaries. It uses Faster-Whisper or Whisper with zero configuration, working universally across projects without hardcoded paths or API keys.

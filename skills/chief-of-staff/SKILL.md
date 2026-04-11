@@ -1,9 +1,7 @@
 ---
 name: chief-of-staff
-description: C-suite orchestration layer. Routes founder questions to the right advisor
-  role(s), triggers multi-role board meetings for complex decisions, synthesizes outputs,
-  and tracks decisions. Every C-suite interaction starts here. Loads company context
-  automatically.
+description: |-
+  C-suite orchestration layer. Routes founder questions to the right advisor role(s), triggers multi-role board meetings for complex decisions, synthesizes outputs, and tracks decisions. Every C-suite interaction starts here. Loads company context automatically.
 license: MIT
 metadata:
   version: 1.0.0
@@ -15,7 +13,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Chief of Staff
 
 The orchestration layer between founder and C-suite. Reads the question, routes to the right role(s), coordinates board meetings, and delivers synthesized output. Loads company context for every interaction.

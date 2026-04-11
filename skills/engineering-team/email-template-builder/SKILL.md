@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Email Template Builder
 
 > **⚠️ AUTHORIZED USE ONLY**

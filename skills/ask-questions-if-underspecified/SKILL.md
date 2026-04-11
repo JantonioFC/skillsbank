@@ -5,9 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Ask Questions If Underspecified
 
 ## When to Use

@@ -1,7 +1,7 @@
 ---
 name: fp-compose
-description: Practical patterns for composing functions in TypeScript using pipe,
-  flow, and functional design principles
+description: |-
+  Practical patterns for composing functions in TypeScript using pipe, flow, and functional design principles
 version: 1.0.0
 author: Claude
 tags:
@@ -16,7 +16,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Function Composition - Building from Small Pieces
 
 The core idea is simple:

@@ -1,14 +1,11 @@
 ---
 name: cloud-solution-architect
-description: Transform the agent into a Cloud Solution Architect following Azure Architecture
-  Center best practices. Use when designing cloud architectures, reviewing system
-  designs, selecting architecture styles, applying cloud design patterns, making technology
-  choices, or conducting Well-Architected Framew...
+description: |-
+  Transform the agent into a Cloud Solution Architect following Azure Architecture Center best practices. Use when designing cloud architectures, reviewing system designs, selecting architecture styles, applying cloud design patterns, making technology choices, or conducting Well-Architected Framew...
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Cloud Solution Architect
 
 > **⚠️ AUTHORIZED USE ONLY**

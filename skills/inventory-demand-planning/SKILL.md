@@ -1,9 +1,7 @@
 ---
 name: inventory-demand-planning
-description: Codified expertise for demand forecasting, safety stock optimization,
-  replenishment planning, and promotional lift estimation at multi-location retailers.
-  Informed by demand planners with 15+ years experience managing hundreds of SKUs.
-  Includes forecasting method selection, ABC/XYZ analysis, seas...
+description: |-
+  Codified expertise for demand forecasting, safety stock optimization, replenishment planning, and promotional lift estimation at multi-location retailers. Informed by demand planners with 15+ years experience managing hundreds of SKUs. Includes forecasting method selection, ABC/XYZ analysis, seas...
 license: Apache-2.0
 version: 1.0.0
 homepage: https://github.com/affaan-m/everything-claude-code
@@ -15,7 +13,6 @@ metadata:
 risk: offensive
 source: community
 ---
-
 # Inventory Demand Planning
 
 > **⚠️ AUTHORIZED USE ONLY**

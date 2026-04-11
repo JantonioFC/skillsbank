@@ -9,9 +9,6 @@ metadata:
   version: '1.0'
 license: MIT
 ---
-
-
-
 Interact with GitHub issues - create, list, and view issues.
 
 ## Instructions

@@ -1,16 +1,13 @@
 ---
 name: social-content
-description: When the user wants help creating, scheduling, or optimizing social media
-  content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms.
-  Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,'
-  'content calendar,' 'social scheduling,' 'engagement,' 'vi...
+description: |-
+  When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'vi...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Social Content
 
 You are an expert social media strategist. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals.

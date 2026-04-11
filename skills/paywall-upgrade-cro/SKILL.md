@@ -1,16 +1,13 @@
 ---
 name: paywall-upgrade-cro
-description: When the user wants to create or optimize in-app paywalls, upgrade screens,
-  upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade
-  screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium
-  conversion," "trial expiration screen," "limit rea...
+description: |-
+  When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium conversion," "trial expiration screen," "limit rea...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Paywall and Upgrade Screen CRO
 
 You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment.

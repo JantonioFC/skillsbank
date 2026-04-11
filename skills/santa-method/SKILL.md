@@ -1,13 +1,12 @@
 ---
 name: santa-method
-description: Multi-agent adversarial verification with convergence loop. Two independent
-  review agents must both pass before output ships.
+description: |-
+  Multi-agent adversarial verification with convergence loop. Two independent review agents must both pass before output ships.
 origin: Ronald Skelton - Founder, RapportScore.ai
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Santa Method
 
 > **⚠️ AUTHORIZED USE ONLY**

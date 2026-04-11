@@ -1,15 +1,13 @@
 ---
 name: notion-research-documentation
-description: Research across Notion and synthesize into structured documentation;
-  use when gathering info from multiple Notion sources to produce briefs, comparisons,
-  or reports with citations.
+description: |-
+  Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.
 metadata:
   short-description: Research Notion content and produce briefs/reports
 risk: safe
 source: community
 license: MIT
 ---
-
 # Research & Documentation
 
 Pull relevant Notion pages, synthesize findings, and publish clear briefs or reports (with citations and links to sources).

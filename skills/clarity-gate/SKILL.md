@@ -3,11 +3,8 @@ name: clarity-gate
 risk: safe
 source: community
 version: 2.1.3
-description: 'Pre-ingestion verification for epistemic quality in RAG systems. Ensures
-  documents are properly qualified before entering knowledge bases. Produces CGD (Clarity-Gated
-  Documents) and validates SOT (Source of Truth) files.
-
-  '
+description: |
+  Pre-ingestion verification for epistemic quality in RAG systems. Ensures documents are properly qualified before entering knowledge bases. Produces CGD (Clarity-Gated Documents) and validates SOT (Source of Truth) files.
 author: Francesco Marinoni Moretto
 license: CC-BY-4.0
 repository: https://github.com/frmoretto/clarity-gate
@@ -32,9 +29,6 @@ outputs:
   spec: docs/CLARITY_GATE_FORMAT_SPEC.md
 spec_version: '2.1'
 ---
-
-
-
 # Clarity Gate v2.1
 
 **Purpose:** Pre-ingestion verification system that enforces epistemic quality before documents enter RAG knowledge bases. Produces Clarity-Gated Documents (CGD) compliant with the Clarity Gate Format Specification v2.1.

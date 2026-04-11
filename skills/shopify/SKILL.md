@@ -1,14 +1,11 @@
 ---
 name: shopify
-description: Build Shopify applications, extensions, and themes using GraphQL/REST
-  APIs, Shopify CLI, Polaris UI components, and Liquid templating. Capabilities include
-  app development with OAuth authentication, checkout UI extensions for customizing
-  checkout flow, admin UI extensions for dashboard integratio...
+description: |-
+  Build Shopify applications, extensions, and themes using GraphQL/REST APIs, Shopify CLI, Polaris UI components, and Liquid templating. Capabilities include app development with OAuth authentication, checkout UI extensions for customizing checkout flow, admin UI extensions for dashboard integratio...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Shopify Development
 
 Comprehensive guide for building on Shopify platform: apps, extensions, themes, and API integrations.

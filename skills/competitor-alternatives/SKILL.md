@@ -1,16 +1,13 @@
 ---
 name: competitor-alternatives
-description: When the user wants to create competitor comparison or alternative pages
-  for SEO and sales enablement. Also use when the user mentions 'alternative page,'
-  'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],'
-  '[Product] alternative,' 'competitive landing pages,' 'how do...
+description: |-
+  When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Competitor & Alternative Pages
 
 You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively.

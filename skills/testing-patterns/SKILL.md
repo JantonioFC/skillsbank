@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Testing Patterns
 
 > Principles for reliable test suites.

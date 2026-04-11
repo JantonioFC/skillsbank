@@ -1,18 +1,12 @@
 ---
 name: brand-guidelines-anthropic
-description: To access Anthropic's official brand identity and style resources, use
-  this skill.
+description: |-
+  To access Anthropic's official brand identity and style resources, use this skill.
 risk: safe
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
-
-
 # Anthropic Brand Styling
 
 ## Overview

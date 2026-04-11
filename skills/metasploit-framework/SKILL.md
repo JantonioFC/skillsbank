@@ -1,9 +1,7 @@
 ---
 name: metasploit-framework
-description: This skill should be used when the user asks to "use Metasploit for penetration
-  testing", "exploit vulnerabilities with msfconsole", "create payloads with msfvenom",
-  "perform post-exploitation", "use auxiliary modules for scanning", or "develop custom
-  exploits". It provides comprehensive guidance...
+description: |-
+  This skill should be used when the user asks to "use Metasploit for penetration testing", "exploit vulnerabilities with msfconsole", "create payloads with msfvenom", "perform post-exploitation", "use auxiliary modules for scanning", or "develop custom exploits". It provides comprehensive guidance...
 metadata:
   author: zebbern
   version: '1.1'
@@ -11,7 +9,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Metasploit Framework
 
 > **⚠️ AUTHORIZED USE ONLY**

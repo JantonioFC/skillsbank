@@ -6,10 +6,6 @@ source: https://github.com/scarletkc/vexor
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # Vexor
 
 ## Overview

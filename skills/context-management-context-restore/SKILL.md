@@ -5,7 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Context Restoration: Advanced Semantic Memory Rehydration
 
 ## Use this skill when

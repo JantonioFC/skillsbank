@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # CI/CD Pipeline Builder
 
 > **⚠️ AUTHORIZED USE ONLY**

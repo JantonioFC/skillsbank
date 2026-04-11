@@ -1,15 +1,12 @@
 ---
 name: azure-mgmt-applicationinsights-dotnet
-description: 'Azure Application Insights SDK for .NET. Application performance monitoring
-  and observability resource management. Use for creating Application Insights components,
-  web tests, workbooks, analytics items, and API keys. Triggers: "Application Insights",
-  "ApplicationInsights", "App Insights", "APM",...'
+description: |-
+  Azure Application Insights SDK for .NET. Application performance monitoring and observability resource management. Use for creating Application Insights components, web tests, workbooks, analytics items, and API keys. Triggers: "Application Insights", "ApplicationInsights", "App Insights", "APM",...
 package: Azure.ResourceManager.ApplicationInsights
 risk: safe
 source: community
 license: MIT
 ---
-
 # Azure.ResourceManager.ApplicationInsights (.NET)
 
 Azure Resource Manager SDK for managing Application Insights resources for application performance monitoring.

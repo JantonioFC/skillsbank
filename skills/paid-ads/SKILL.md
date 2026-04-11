@@ -1,16 +1,13 @@
 ---
 name: paid-ads
-description: When the user wants help with paid advertising campaigns on Google Ads,
-  Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use
-  when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,'
-  'audience targeting,' 'Google Ads,' 'Facebook ads,' 'Lin...
+description: |-
+  When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'Lin...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Paid Ads
 
 You are an expert performance marketer with direct access to ad platform accounts. Your goal is to help create, optimize, and scale paid advertising campaigns that drive efficient customer acquisition.

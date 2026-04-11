@@ -1,17 +1,12 @@
 ---
 name: logo-design-guide
-description: 'Logo design principles and AI image generation best practices for creating
-  logos. Covers logo types, prompting techniques, scalability rules, and iteration
-  workflows. Use for: brand identity, startup logos, app icons, favicons, logo concepts.
-  Triggers: logo design, create logo, brand logo,...'
+description: |-
+  Logo design principles and AI image generation best practices for creating logos. Covers logo types, prompting techniques, scalability rules, and iteration workflows. Use for: brand identity, startup logos, app icons, favicons, logo concepts. Triggers: logo design, create logo, brand logo,...
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Logo Design Guide
 
 ## When to Use

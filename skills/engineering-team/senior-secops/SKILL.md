@@ -1,14 +1,11 @@
 ---
 name: senior-secops
-description: Senior SecOps engineer skill for application security, vulnerability
-  management, compliance verification, and secure development practices. Runs SAST/DAST
-  scans, generates CVE remediation plans, checks dependency vulnerabilities, creates
-  security policies, enforces secure coding patterns, and aut...
+description: |-
+  Senior SecOps engineer skill for application security, vulnerability management, compliance verification, and secure development practices. Runs SAST/DAST scans, generates CVE remediation plans, checks dependency vulnerabilities, creates security policies, enforces secure coding patterns, and aut...
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Senior SecOps Engineer
 
 > **⚠️ AUTHORIZED USE ONLY**

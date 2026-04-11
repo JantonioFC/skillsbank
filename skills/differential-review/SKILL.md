@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Differential Security Review
 
 > **⚠️ AUTHORIZED USE ONLY**

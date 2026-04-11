@@ -1,9 +1,7 @@
 ---
 name: azure-upgrade
-description: 'Assess and upgrade Azure workloads between plans, tiers, or SKUs within
-  Azure. Generates assessment reports and automates upgrade steps. WHEN: upgrade Consumption
-  to Flex Consumption, upgrade Azure Functions plan, migrate hosting plan, upgrade
-  Functions SKU, move to Flex Consumption, upgrade Azur...'
+description: |-
+  Assess and upgrade Azure workloads between plans, tiers, or SKUs within Azure. Generates assessment reports and automates upgrade steps. WHEN: upgrade Consumption to Flex Consumption, upgrade Azure Functions plan, migrate hosting plan, upgrade Functions SKU, move to Flex Consumption, upgrade Azur...
 license: MIT
 metadata:
   author: Microsoft
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Azure Upgrade
 
 > This skill handles **assessment and automated upgrades** of existing Azure workloads from one Azure service, hosting plan, or SKU to another — all within Azure. This includes plan/tier upgrades (e.g. Consumption → Flex Consumption), cross-service migrations (e.g. App Service → Container Apps), and SKU changes. This is NOT for cross-cloud migration — use `azure-cloud-migrate` for that.

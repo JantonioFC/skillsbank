@@ -5,10 +5,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
-
-
-
 # Lead Generation
 
 Scrape leads from multiple platforms using Apify Actors.

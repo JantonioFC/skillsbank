@@ -3,8 +3,7 @@ name: new-rails-project
 argument-hint:
 - project name
 description: Create a new Rails project
-allowed-tools: Bash(rails *), Bash(bundle *), Bash(bin/*), Bash(npm *), Bash(yarn
-  *)
+allowed-tools: Bash(rails *), Bash(bundle *), Bash(bin/*), Bash(npm *), Bash(yarn *)
 context: fork
 risk: safe
 source: community
@@ -13,9 +12,6 @@ metadata:
   version: '1.0'
 license: MIT
 ---
-
-
-
 Generate a new Rails project named $1 in the current directory. You may reference @CLAUDE.md for general guidance, though the guidance here takes precedence.
 
 # Tech Stack

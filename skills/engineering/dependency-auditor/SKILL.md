@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Dependency Auditor
 
 > **⚠️ AUTHORIZED USE ONLY**

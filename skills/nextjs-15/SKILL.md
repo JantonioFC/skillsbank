@@ -1,9 +1,7 @@
 ---
 name: nextjs-15
-description: 'Next.js 15 App Router patterns. Trigger: When working with Next.js -
-  routing, Server Actions, data fetching.
-
-  '
+description: |
+  Next.js 15 App Router patterns. Trigger: When working with Next.js - routing, Server Actions, data fetching.
 license: Apache-2.0
 metadata:
   author: gentleman-programming
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 ## App Router File Conventions
 
 ```

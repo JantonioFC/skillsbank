@@ -1,14 +1,11 @@
 ---
 name: self-improving-agent
-description: 'Curate Claude Code''s auto-memory into durable project knowledge. Analyze
-  MEMORY.md for patterns, promote proven learnings to CLAUDE.md and .claude/rules/,
-  extract recurring solutions into reusable skills. Use when: (1) reviewing what Claude
-  has learned about your project, (2) graduating a pattern...'
+description: |-
+  Curate Claude Code's auto-memory into durable project knowledge. Analyze MEMORY.md for patterns, promote proven learnings to CLAUDE.md and .claude/rules/, extract recurring solutions into reusable skills. Use when: (1) reviewing what Claude has learned about your project, (2) graduating a pattern...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Self-Improving Agent
 
 > Auto-memory captures. This plugin curates.

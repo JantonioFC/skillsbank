@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Spring Boot 开发模式
 
 用于可扩展、生产级服务的 Spring Boot 架构和 API 模式。

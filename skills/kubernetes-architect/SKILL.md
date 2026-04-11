@@ -1,17 +1,13 @@
 ---
 name: kubernetes-architect
-description: Expert Kubernetes architect specializing in cloud-native infrastructure,
-  advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration.
-  Masters EKS/AKS/GKE, service mesh (Istio/Linkerd), progressive delivery, multi-tenancy,
-  and platform engineering. Handles security, observabili...
+description: |-
+  Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration. Masters EKS/AKS/GKE, service mesh (Istio/Linkerd), progressive delivery, multi-tenancy, and platform engineering. Handles security, observabili...
 metadata:
   model: opus
 risk: offensive
 source: community
 license: MIT
 ---
-
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

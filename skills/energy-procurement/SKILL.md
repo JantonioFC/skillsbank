@@ -1,9 +1,7 @@
 ---
 name: energy-procurement
-description: Codified expertise for electricity and gas procurement, tariff optimization,
-  demand charge management, renewable PPA evaluation, and multi-facility energy cost
-  management. Informed by energy procurement managers with 15+ years experience at
-  large commercial and industrial consumers. Includes mark...
+description: |-
+  Codified expertise for electricity and gas procurement, tariff optimization, demand charge management, renewable PPA evaluation, and multi-facility energy cost management. Informed by energy procurement managers with 15+ years experience at large commercial and industrial consumers. Includes mark...
 license: Apache-2.0
 version: 1.0.0
 homepage: https://github.com/affaan-m/everything-claude-code
@@ -15,7 +13,6 @@ metadata:
 risk: offensive
 source: community
 ---
-
 # Energy Procurement
 
 > **⚠️ AUTHORIZED USE ONLY**

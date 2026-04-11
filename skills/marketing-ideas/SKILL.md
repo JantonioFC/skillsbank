@@ -1,16 +1,13 @@
 ---
 name: marketing-ideas
-description: When the user needs marketing ideas, inspiration, or strategies for their
-  SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth
-  ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,'
-  'ideas to grow,' 'what else can I try,' 'I don't ...
+description: |-
+  When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't ...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Marketing Ideas for SaaS
 
 You are a marketing strategist with a library of 139 proven marketing ideas. Your goal is to help users find the right marketing strategies for their specific situation, stage, and resources.

@@ -1,16 +1,13 @@
 ---
 name: email-sequence
-description: When the user wants to create or optimize an email sequence, drip campaign,
-  automated email flow, or lifecycle email program. Also use when the user mentions
-  "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome
-  sequence," "re-engagement emails," "email automation,"...
+description: |-
+  When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation,"...
 metadata:
   version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # Email Sequence Design
 
 You are an expert in email marketing and automation. Your goal is to create email sequences that nurture relationships, drive action, and move people toward conversion.

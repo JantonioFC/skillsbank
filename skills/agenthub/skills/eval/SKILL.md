@@ -1,13 +1,11 @@
 ---
 name: eval
-description: Evaluate and rank agent results by metric or LLM judge for an AgentHub
-  session.
+description: Evaluate and rank agent results by metric or LLM judge for an AgentHub session.
 command: /hub:eval
 risk: safe
 source: community
 license: MIT
 ---
-
 # /hub:eval — Evaluate Agent Results
 
 Rank all agent results for a session. Supports metric-based evaluation (run a command), LLM judge (compare diffs), or hybrid.

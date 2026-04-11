@@ -1,14 +1,13 @@
 ---
 name: when-stuck
 description: Dispatch to the right problem-solving technique based on how you're stuck
-when_to_use: when stuck and unsure which problem-solving technique to apply for your
-  specific type of stuck-ness
+when_to_use: |-
+  when stuck and unsure which problem-solving technique to apply for your specific type of stuck-ness
 version: 1.1.0
 risk: safe
 source: community
 license: MIT
 ---
-
 # When Stuck - Problem-Solving Dispatch
 
 ## Overview

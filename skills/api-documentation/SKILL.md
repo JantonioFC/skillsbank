@@ -1,17 +1,13 @@
 ---
 name: api-documentation
-description: API documentation workflow for generating OpenAPI specs, creating developer
-  guides, and maintaining comprehensive API documentation.
+description: |-
+  API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation.
 category: granular-workflow-bundle
 risk: safe
 source: personal
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # API Documentation Workflow
 
 ## Overview

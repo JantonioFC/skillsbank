@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Market Opportunity Analysis
 
 Generate a comprehensive market opportunity analysis for a startup, including Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) calculations using both bottom-up and top-down methodologies.

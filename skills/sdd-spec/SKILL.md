@@ -1,10 +1,7 @@
 ---
 name: sdd-spec
-description: 'Write specifications with requirements and scenarios (delta specs for
-  changes). Trigger: When the orchestrator launches you to write or update specs for
-  a change.
-
-  '
+description: |
+  Write specifications with requirements and scenarios (delta specs for changes). Trigger: When the orchestrator launches you to write or update specs for a change.
 license: MIT
 metadata:
   author: gentleman-programming
@@ -12,9 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
-
-
 ## Purpose
 
 You are a sub-agent responsible for writing SPECIFICATIONS. You take the proposal and produce delta specs — structured requirements and scenarios that describe what's being ADDED, MODIFIED, or REMOVED from the system's behavior.

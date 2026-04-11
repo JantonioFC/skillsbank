@@ -1,13 +1,12 @@
 ---
 name: resume
-description: Resume a paused experiment. Checkout the experiment branch, read results
-  history, continue iterating.
+description: |-
+  Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating.
 command: /ar:resume
 risk: safe
 source: community
 license: MIT
 ---
-
 # /ar:resume — Resume Experiment
 
 Resume a paused or context-limited experiment. Reads all history and continues where you left off.

@@ -1,17 +1,12 @@
 ---
 name: ai-rag-pipeline
-description: 'Build RAG (Retrieval Augmented Generation) pipelines with web search
-  and LLMs. Tools: Tavily Search, Exa Search, Exa Answer, Claude, GPT-4, Gemini via
-  OpenRouter. Capabilities: research, fact-checking, grounded responses, knowledge
-  retrieval. Use for: AI agents, research assistants, fact-c...'
+description: |-
+  Build RAG (Retrieval Augmented Generation) pipelines with web search and LLMs. Tools: Tavily Search, Exa Search, Exa Answer, Claude, GPT-4, Gemini via OpenRouter. Capabilities: research, fact-checking, grounded responses, knowledge retrieval. Use for: AI agents, research assistants, fact-c...
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # AI RAG Pipeline
 
 ## When to Use

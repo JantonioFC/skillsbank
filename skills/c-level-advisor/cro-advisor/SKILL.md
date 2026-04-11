@@ -1,9 +1,7 @@
 ---
 name: cro-advisor
-description: Revenue leadership for B2B SaaS companies. Revenue forecasting, sales
-  model design, pricing strategy, net revenue retention, and sales team scaling. Use
-  when designing the revenue engine, setting quotas, modeling NRR, evaluating pricing,
-  building board forecasts, or when user mentions CRO, chief ...
+description: |-
+  Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling. Use when designing the revenue engine, setting quotas, modeling NRR, evaluating pricing, building board forecasts, or when user mentions CRO, chief ...
 license: MIT
 metadata:
   version: 1.0.0
@@ -16,7 +14,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # CRO Advisor
 
 Revenue frameworks for building predictable, scalable revenue engines — from $1M ARR to $100M and beyond.

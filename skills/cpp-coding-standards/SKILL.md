@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # C++ 编码标准（C++ 核心准则）
 
 源自 [C++ 核心准则](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) 的现代 C++（C++17/20/23）综合编码标准。强制执行类型安全、资源安全、不变性和清晰性。

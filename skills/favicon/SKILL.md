@@ -12,9 +12,6 @@ metadata:
   version: '1.0'
 license: MIT
 ---
-
-
-
 Generate a complete set of favicons from the source image at `$1` and update the project's HTML with the appropriate link tags.
 
 ## Prerequisites

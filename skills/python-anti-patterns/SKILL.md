@@ -1,15 +1,11 @@
 ---
 name: python-anti-patterns
-description: Common Python anti-patterns to avoid. Use as a checklist when reviewing
-  code, before finalizing implementations, or when debugging issues that might stem
-  from known bad practices.
+description: |-
+  Common Python anti-patterns to avoid. Use as a checklist when reviewing code, before finalizing implementations, or when debugging issues that might stem from known bad practices.
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Python Anti-Patterns Checklist
 
 A reference checklist of common mistakes and anti-patterns in Python code. Review this before finalizing implementations to catch issues early.

@@ -8,9 +8,6 @@ source: personal
 date_added: '2026-03-11'
 license: MIT
 ---
-
-
-
 # doc-system-prompt-template
 
 Genera un system prompt profesional para agentes orquestadores de ingeniería cuando el usuario necesita diseñar la identidad, protocolos y restricciones de un agente de IA.

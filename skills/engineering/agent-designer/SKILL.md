@@ -5,7 +5,6 @@ risk: offensive
 source: community
 license: MIT
 ---
-
 # Agent Designer - Multi-Agent System Architecture
 
 > **⚠️ AUTHORIZED USE ONLY**

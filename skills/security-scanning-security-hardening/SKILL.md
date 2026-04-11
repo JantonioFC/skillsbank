@@ -1,13 +1,11 @@
 ---
 name: security-scanning-security-hardening
-description: Coordinate multi-layer security scanning and hardening across application,
-  infrastructure, and compliance controls.
+description: |-
+  Coordinate multi-layer security scanning and hardening across application, infrastructure, and compliance controls.
 risk: offensive
 source: community
 license: MIT
 ---
-
-
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
 > You must have explicit, written permission from the system owner before using this tool.

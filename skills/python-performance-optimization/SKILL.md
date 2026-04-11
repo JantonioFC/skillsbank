@@ -1,13 +1,11 @@
 ---
 name: python-performance-optimization
-description: Profile and optimize Python code using cProfile, memory profilers, and
-  performance best practices. Use when debugging slow Python code, optimizing bottlenecks,
-  or improving application performance.
+description: |-
+  Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance.
 risk: safe
 source: community
 license: MIT
 ---
-
 # Python Performance Optimization
 
 Comprehensive guide to profiling, analyzing, and optimizing Python code for better performance, including CPU profiling, memory optimization, and implementation best practices.

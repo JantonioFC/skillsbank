@@ -1,9 +1,7 @@
 ---
 name: azure-enterprise-infra-planner
-description: 'Architect and provision enterprise Azure infrastructure from workload
-  descriptions. For cloud architects and platform engineers planning networking, identity,
-  security, compliance, and multi-resource topologies with WAF alignment. Generates
-  Bicep or Terraform directly (no azd). WHEN: ''plan Azure ...'
+description: |-
+  Architect and provision enterprise Azure infrastructure from workload descriptions. For cloud architects and platform engineers planning networking, identity, security, compliance, and multi-resource topologies with WAF alignment. Generates Bicep or Terraform directly (no azd). WHEN: 'plan Azure ...
 license: MIT
 metadata:
   author: Microsoft
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Azure Enterprise Infra Planner
 
 > **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**

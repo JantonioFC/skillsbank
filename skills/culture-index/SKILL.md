@@ -6,10 +6,6 @@ source: https://github.com/trailofbits/skills/tree/main/plugins/culture-index
 date_added: '2026-02-27'
 license: MIT
 ---
-
-
-
-
 # Culture Index
 
 ## Overview

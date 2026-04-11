@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # Kotlin 测试模式
 
 遵循 TDD 方法论，使用 Kotest 和 MockK 编写可靠、可维护测试的全面 Kotlin 测试模式。

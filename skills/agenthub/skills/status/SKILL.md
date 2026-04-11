@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # /hub:status — Session Status
 
 Display the current state of an AgentHub session: agent branches, commit counts, frontier status, and board updates.

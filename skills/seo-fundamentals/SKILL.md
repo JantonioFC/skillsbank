@@ -6,7 +6,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 # SEO Fundamentals
 
 > Principles for search engine visibility.

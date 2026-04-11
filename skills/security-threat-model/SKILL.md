@@ -1,14 +1,11 @@
 ---
 name: security-threat-model
-description: Repository-grounded threat modeling that enumerates trust boundaries,
-  assets, attacker capabilities, abuse paths, and mitigations, and writes a concise
-  Markdown threat model. Trigger only when the user explicitly asks to threat model
-  a codebase or path, enumerate threats/abuse paths, or perform A...
+description: |-
+  Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform A...
 risk: offensive
 source: community
 license: MIT
 ---
-
 # Threat Model Source Code Repo
 
 > **⚠️ AUTHORIZED USE ONLY**

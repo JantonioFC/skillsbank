@@ -1,15 +1,11 @@
 ---
 name: hugging-face-paper-publisher
-description: Publish and manage research papers on Hugging Face Hub. Supports creating
-  paper pages, linking papers to models/datasets, claiming authorship, and generating
-  professional markdown-based research articles.
+description: |-
+  Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Overview
 This skill provides comprehensive tools for AI engineers and researchers to publish, manage, and link research papers on the Hugging Face Hub. It streamlines the workflow from paper creation to publication, including integration with arXiv, model/dataset linking, and authorship management.
 

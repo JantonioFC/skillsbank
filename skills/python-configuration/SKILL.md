@@ -1,15 +1,11 @@
 ---
 name: python-configuration
-description: Python configuration management via environment variables and typed settings.
-  Use when externalizing config, setting up pydantic-settings, managing secrets, or
-  implementing environment-specific behavior.
+description: |-
+  Python configuration management via environment variables and typed settings. Use when externalizing config, setting up pydantic-settings, managing secrets, or implementing environment-specific behavior.
 risk: safe
 source: community
 license: MIT
 ---
-
-
-
 # Python Configuration Management
 
 Externalize configuration from code using environment variables and typed settings. Well-managed configuration enables the same code to run in any environment without modification.

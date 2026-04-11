@@ -1,9 +1,7 @@
 ---
 name: azure-cost-optimization
-description: 'Identify and quantify cost savings across Azure subscriptions by analyzing
-  actual costs, utilization metrics, and generating actionable optimization recommendations.
-  USE FOR: optimize Azure costs, reduce Azure spending, reduce Azure expenses, analyze
-  Azure costs, find cost savings, generate cost ...'
+description: |-
+  Identify and quantify cost savings across Azure subscriptions by analyzing actual costs, utilization metrics, and generating actionable optimization recommendations. USE FOR: optimize Azure costs, reduce Azure spending, reduce Azure expenses, analyze Azure costs, find cost savings, generate cost ...
 license: MIT
 metadata:
   author: Microsoft
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 # Azure Cost Optimization Skill
 
 Analyze Azure subscriptions to identify cost savings through orphaned resource cleanup, rightsizing, and optimization recommendations based on actual usage data.

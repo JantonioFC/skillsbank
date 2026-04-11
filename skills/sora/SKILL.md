@@ -1,14 +1,11 @@
 ---
 name: sora
-description: 'Use when the user asks to generate, edit, extend, poll, list, download,
-  or delete Sora videos, create reusable non-human Sora character references, or run
-  local multi-video queues via the bundled CLI (`scripts/sora.py`); includes requests
-  like: (i) generate AI video, (ii) edit this Sora clip, (ii...'
+description: |-
+  Use when the user asks to generate, edit, extend, poll, list, download, or delete Sora videos, create reusable non-human Sora character references, or run local multi-video queues via the bundled CLI (`scripts/sora.py`); includes requests like: (i) generate AI video, (ii) edit this Sora clip, (ii...
 risk: safe
 source: community
 license: MIT
 ---
-
 # Sora Video Generation Skill
 
 Creates or manages Sora video jobs for the current project (product demos, marketing spots, cinematic shots, social clips, UI mocks). Defaults to `sora-2` with structured prompt augmentation and prefers the bundled CLI for deterministic runs. Note: `$sora` is a skill tag in prompts, not a shell command.

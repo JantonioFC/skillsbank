@@ -1,9 +1,7 @@
 ---
 name: forms
-description: 'Angular forms: Signal Forms (experimental) and Reactive Forms. Trigger:
-  When working with forms, validation, or form state in Angular.
-
-  '
+description: |
+  Angular forms: Signal Forms (experimental) and Reactive Forms. Trigger: When working with forms, validation, or form state in Angular.
 metadata:
   author: gentleman-programming
   version: '1.0'
@@ -11,7 +9,6 @@ risk: safe
 source: community
 license: MIT
 ---
-
 ## When to Use What
 
 | Use Case | Recommendation |

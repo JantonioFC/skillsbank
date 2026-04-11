@@ -1,9 +1,7 @@
 ---
 name: react-19
-description: 'React 19 patterns with React Compiler. Trigger: When writing React components
-  - no useMemo/useCallback needed.
-
-  '
+description: |
+  React 19 patterns with React Compiler. Trigger: When writing React components - no useMemo/useCallback needed.
 license: Apache-2.0
 metadata:
   author: gentleman-programming
@@ -11,7 +9,6 @@ metadata:
 risk: safe
 source: community
 ---
-
 ## No Manual Memoization (REQUIRED)
 
 ```typescript
