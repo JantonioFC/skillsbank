@@ -1,42 +1,11 @@
 {
-    "dashboard-builder": {
-        "skill_name": "dashboard-builder",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/dashboard-builder",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/dashboard-builder",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.010156393051147461,
-        "duration_ms": 10,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:30:12.317029"
-    },
-    "lead-intelligence": {
-        "skill_name": "lead-intelligence",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/lead-intelligence",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/lead-intelligence",
+    "gateguard": {
+        "skill_name": "gateguard",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/gateguard",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/gateguard",
         "is_safe": false,
-        "max_severity": "CRITICAL",
-        "findings_count": 8,
+        "max_severity": "HIGH",
+        "findings_count": 2,
         "findings": [
             {
                 "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
@@ -53,151 +22,37 @@
                 "metadata": {}
             },
             {
-                "id": "YARA_credential_harvesting_generic_c3abb26986",
-                "rule_id": "YARA_credential_harvesting_generic",
-                "category": "hardcoded_secrets",
-                "severity": "CRITICAL",
-                "title": "CREDENTIAL HARVESTING detected by YARA",
-                "description": "Detects potential exposure of sensitive information like API keys, passwords, tokens, and certificates: export X_BEARER_TOKEN",
+                "id": "YARA_system_manipulation_generic_162ea51e18",
+                "rule_id": "YARA_system_manipulation_generic",
+                "category": "unauthorized_tool_use",
+                "severity": "HIGH",
+                "title": "SYSTEM MANIPULATION detected by YARA",
+                "description": "Detects system manipulation, privilege escalation, and destructive file operations: rm -rf",
                 "file_path": "SKILL.md",
-                "line_number": 294,
-                "snippet": "- **mutual-mapper** \u2014 Maps social graph connections and finds warm paths",
-                "remediation": "Review and remove credential harvesting pattern",
+                "line_number": 70,
+                "snippet": "Triggers on: `rm -rf`, `git reset --hard`, `git push --force`, `drop table`, etc.",
+                "remediation": "Review and remove system manipulation pattern",
                 "analyzer": "static",
                 "metadata": {
-                    "yara_rule": "credential_harvesting_generic",
-                    "yara_namespace": "credential_harvesting_generic",
-                    "matched_string": "$leak_param",
-                    "threat_type": "CREDENTIAL HARVESTING"
-                }
-            },
-            {
-                "id": "YARA_credential_harvesting_generic_c3abb26986",
-                "rule_id": "YARA_credential_harvesting_generic",
-                "category": "hardcoded_secrets",
-                "severity": "CRITICAL",
-                "title": "CREDENTIAL HARVESTING detected by YARA",
-                "description": "Detects potential exposure of sensitive information like API keys, passwords, tokens, and certificates: export X_ACCESS_TOKEN",
-                "file_path": "SKILL.md",
-                "line_number": 294,
-                "snippet": "- **mutual-mapper** \u2014 Maps social graph connections and finds warm paths",
-                "remediation": "Review and remove credential harvesting pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "credential_harvesting_generic",
-                    "yara_namespace": "credential_harvesting_generic",
-                    "matched_string": "$leak_param",
-                    "threat_type": "CREDENTIAL HARVESTING"
-                }
-            },
-            {
-                "id": "YARA_credential_harvesting_generic_76baae674b",
-                "rule_id": "YARA_credential_harvesting_generic",
-                "category": "hardcoded_secrets",
-                "severity": "CRITICAL",
-                "title": "CREDENTIAL HARVESTING detected by YARA",
-                "description": "Detects potential exposure of sensitive information like API keys, passwords, tokens, and certificates: export X_ACCESS_TOKEN_SECRET",
-                "file_path": "SKILL.md",
-                "line_number": 295,
-                "snippet": "- **enrichment-agent** \u2014 Pulls detailed profile and company data",
-                "remediation": "Review and remove credential harvesting pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "credential_harvesting_generic",
-                    "yara_namespace": "credential_harvesting_generic",
-                    "matched_string": "$leak_param",
-                    "threat_type": "CREDENTIAL HARVESTING"
-                }
-            },
-            {
-                "id": "YARA_credential_harvesting_generic_76baae674b",
-                "rule_id": "YARA_credential_harvesting_generic",
-                "category": "hardcoded_secrets",
-                "severity": "CRITICAL",
-                "title": "CREDENTIAL HARVESTING detected by YARA",
-                "description": "Detects potential exposure of sensitive information like API keys, passwords, tokens, and certificates: export X_CONSUMER_KEY",
-                "file_path": "SKILL.md",
-                "line_number": 295,
-                "snippet": "- **enrichment-agent** \u2014 Pulls detailed profile and company data",
-                "remediation": "Review and remove credential harvesting pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "credential_harvesting_generic",
-                    "yara_namespace": "credential_harvesting_generic",
-                    "matched_string": "$leak_param",
-                    "threat_type": "CREDENTIAL HARVESTING"
-                }
-            },
-            {
-                "id": "YARA_credential_harvesting_generic_ade7b1b446",
-                "rule_id": "YARA_credential_harvesting_generic",
-                "category": "hardcoded_secrets",
-                "severity": "CRITICAL",
-                "title": "CREDENTIAL HARVESTING detected by YARA",
-                "description": "Detects potential exposure of sensitive information like API keys, passwords, tokens, and certificates: export X_CONSUMER_SECRET",
-                "file_path": "SKILL.md",
-                "line_number": 296,
-                "snippet": "- **outreach-drafter** \u2014 Generates personalized messages",
-                "remediation": "Review and remove credential harvesting pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "credential_harvesting_generic",
-                    "yara_namespace": "credential_harvesting_generic",
-                    "matched_string": "$leak_param",
-                    "threat_type": "CREDENTIAL HARVESTING"
-                }
-            },
-            {
-                "id": "YARA_credential_harvesting_generic_ade7b1b446",
-                "rule_id": "YARA_credential_harvesting_generic",
-                "category": "hardcoded_secrets",
-                "severity": "CRITICAL",
-                "title": "CREDENTIAL HARVESTING detected by YARA",
-                "description": "Detects potential exposure of sensitive information like API keys, passwords, tokens, and certificates: export EXA_API_KEY",
-                "file_path": "SKILL.md",
-                "line_number": 296,
-                "snippet": "- **outreach-drafter** \u2014 Generates personalized messages",
-                "remediation": "Review and remove credential harvesting pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "credential_harvesting_generic",
-                    "yara_namespace": "credential_harvesting_generic",
-                    "matched_string": "$leak_param",
-                    "threat_type": "CREDENTIAL HARVESTING"
-                }
-            },
-            {
-                "id": "YARA_credential_harvesting_generic_b72e770be1",
-                "rule_id": "YARA_credential_harvesting_generic",
-                "category": "hardcoded_secrets",
-                "severity": "CRITICAL",
-                "title": "CREDENTIAL HARVESTING detected by YARA",
-                "description": "Detects potential exposure of sensitive information like API keys, passwords, tokens, and certificates: export APOLLO_API_KEY",
-                "file_path": "SKILL.md",
-                "line_number": 301,
-                "snippet": "User: find me the top 20 people in prediction markets I should reach out to",
-                "remediation": "Review and remove credential harvesting pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "credential_harvesting_generic",
-                    "yara_namespace": "credential_harvesting_generic",
-                    "matched_string": "$leak_param",
-                    "threat_type": "CREDENTIAL HARVESTING"
+                    "yara_rule": "system_manipulation_generic",
+                    "yara_namespace": "system_manipulation_generic",
+                    "matched_string": "$file_destruction",
+                    "threat_type": "SYSTEM MANIPULATION"
                 }
             }
         ],
-        "scan_duration_seconds": 0.024725914001464844,
-        "duration_ms": 24,
+        "scan_duration_seconds": 0.01328897476196289,
+        "duration_ms": 13,
         "analyzers_used": [
             "static_analyzer",
             "behavioral_analyzer"
         ],
-        "timestamp": "2026-04-11T02:30:24.216269"
+        "timestamp": "2026-04-30T23:30:04.291629"
     },
-    "product-capability": {
-        "skill_name": "product-capability",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/product-capability",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/product-capability",
+    "accessibility": {
+        "skill_name": "accessibility",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/accessibility",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/accessibility",
         "is_safe": true,
         "max_severity": "LOW",
         "findings_count": 1,
@@ -217,80 +72,18 @@
                 "metadata": {}
             }
         ],
-        "scan_duration_seconds": 0.01280665397644043,
-        "duration_ms": 12,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:30:35.133744"
-    },
-    "github-ops": {
-        "skill_name": "github-ops",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/github-ops",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/github-ops",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.012789249420166016,
-        "duration_ms": 12,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:30:46.147561"
-    },
-    "finance-billing-ops": {
-        "skill_name": "finance-billing-ops",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/finance-billing-ops",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/finance-billing-ops",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.014343023300170898,
+        "scan_duration_seconds": 0.01447296142578125,
         "duration_ms": 14,
         "analyzers_used": [
             "static_analyzer",
             "behavioral_analyzer"
         ],
-        "timestamp": "2026-04-11T02:30:57.258973"
+        "timestamp": "2026-04-30T23:30:15.144156"
     },
-    "workspace-surface-audit": {
-        "skill_name": "workspace-surface-audit",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/workspace-surface-audit",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/workspace-surface-audit",
+    "hermes-imports": {
+        "skill_name": "hermes-imports",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/hermes-imports",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/hermes-imports",
         "is_safe": true,
         "max_severity": "LOW",
         "findings_count": 1,
@@ -310,335 +103,146 @@
                 "metadata": {}
             }
         ],
-        "scan_duration_seconds": 0.011751890182495117,
-        "duration_ms": 11,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:31:08.366499"
-    },
-    "connections-optimizer": {
-        "skill_name": "connections-optimizer",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/connections-optimizer",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/connections-optimizer",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.013470172882080078,
-        "duration_ms": 13,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:31:19.237602"
-    },
-    "agent-sort": {
-        "skill_name": "agent-sort",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/agent-sort",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/agent-sort",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.015396833419799805,
-        "duration_ms": 15,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:31:30.472933"
-    },
-    "hexagonal-architecture": {
-        "skill_name": "hexagonal-architecture",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/hexagonal-architecture",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/hexagonal-architecture",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.0211944580078125,
-        "duration_ms": 21,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:31:41.579294"
-    },
-    "jira-integration": {
-        "skill_name": "jira-integration",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/jira-integration",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/jira-integration",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.020067691802978516,
-        "duration_ms": 20,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:31:52.863651"
-    },
-    "agent-introspection-debugging": {
-        "skill_name": "agent-introspection-debugging",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/agent-introspection-debugging",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/agent-introspection-debugging",
-        "is_safe": true,
-        "max_severity": "MEDIUM",
-        "findings_count": 2,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            },
-            {
-                "id": "YARA_autonomy_abuse_generic_403c4a671e",
-                "rule_id": "YARA_autonomy_abuse_generic",
-                "category": "autonomy_abuse",
-                "severity": "MEDIUM",
-                "title": "AUTONOMY ABUSE detected by YARA",
-                "description": "Detects unbounded autonomy patterns that could lead to runaway behavior: escalate to",
-                "file_path": "SKILL.md",
-                "line_number": 83,
-                "snippet": "- escalate to a human when the failure is high-risk or externally blocked",
-                "remediation": "Review and remove autonomy abuse pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "autonomy_abuse_generic",
-                    "yara_namespace": "autonomy_abuse_generic",
-                    "matched_string": "$escalating",
-                    "threat_type": "AUTONOMY ABUSE"
-                }
-            }
-        ],
-        "scan_duration_seconds": 0.016370296478271484,
-        "duration_ms": 16,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:32:03.774591"
-    },
-    "ecc-tools-cost-audit": {
-        "skill_name": "ecc-tools-cost-audit",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/ecc-tools-cost-audit",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/ecc-tools-cost-audit",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.014742136001586914,
-        "duration_ms": 14,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:32:14.860504"
-    },
-    "social-graph-ranker": {
-        "skill_name": "social-graph-ranker",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/social-graph-ranker",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/social-graph-ranker",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.01204991340637207,
-        "duration_ms": 12,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:32:25.992992"
-    },
-    "research-ops": {
-        "skill_name": "research-ops",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/research-ops",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/research-ops",
-        "is_safe": true,
-        "max_severity": "MEDIUM",
-        "findings_count": 2,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            },
-            {
-                "id": "YARA_autonomy_abuse_generic_64ac474fc9",
-                "rule_id": "YARA_autonomy_abuse_generic",
-                "category": "autonomy_abuse",
-                "severity": "MEDIUM",
-                "title": "AUTONOMY ABUSE detected by YARA",
-                "description": "Detects unbounded autonomy patterns that could lead to runaway behavior: escalate to",
-                "file_path": "SKILL.md",
-                "line_number": 58,
-                "snippet": "- escalate to `deep-research` when synthesis or multiple sources matter",
-                "remediation": "Review and remove autonomy abuse pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "autonomy_abuse_generic",
-                    "yara_namespace": "autonomy_abuse_generic",
-                    "matched_string": "$escalating",
-                    "threat_type": "AUTONOMY ABUSE"
-                }
-            }
-        ],
-        "scan_duration_seconds": 0.011431217193603516,
-        "duration_ms": 11,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:32:36.944821"
-    },
-    "nodejs-keccak256": {
-        "skill_name": "nodejs-keccak256",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/nodejs-keccak256",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/nodejs-keccak256",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.01095128059387207,
+        "scan_duration_seconds": 0.010424137115478516,
         "duration_ms": 10,
         "analyzers_used": [
             "static_analyzer",
             "behavioral_analyzer"
         ],
-        "timestamp": "2026-04-11T02:32:47.734495"
+        "timestamp": "2026-04-30T23:30:26.985303"
     },
-    "unified-notifications-ops": {
-        "skill_name": "unified-notifications-ops",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/unified-notifications-ops",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/unified-notifications-ops",
+    "intl-expansion": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/intl-expansion\n"
+    },
+    "cs-engineering-lead": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-engineering-lead\n"
+    },
+    "azure-cloud-architect": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/azure-cloud-architect\n"
+    },
+    "cs-ux-researcher": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-ux-researcher\n"
+    },
+    "cs-demand-gen-specialist": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-demand-gen-specialist\n"
+    },
+    "cfo-advisor": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cfo-advisor\n"
+    },
+    "tech-stack-evaluator": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/tech-stack-evaluator\n"
+    },
+    "gcp-cloud-architect": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/gcp-cloud-architect\n"
+    },
+    "senior-qa": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/senior-qa\n"
+    },
+    "atlassian-templates": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/atlassian-templates\n"
+    },
+    "challenge": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/challenge\n"
+    },
+    "app-store-optimization": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/app-store-optimization\n"
+    },
+    "skills-run": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/skills-run\n"
+    },
+    "review": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/review\n"
+    },
+    "a11y-audit": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/a11y-audit\n"
+    },
+    "social-media-analyzer": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/social-media-analyzer\n"
+    },
+    "migrate": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/migrate\n"
+    },
+    "contract-and-proposal-writer": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/contract-and-proposal-writer\n"
+    },
+    "coverage": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/coverage\n"
+    },
+    "company-os": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/company-os\n"
+    },
+    "ciso-advisor": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/ciso-advisor\n"
+    },
+    "ra-qm-team-main": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/ra-qm-team-main\n"
+    },
+    "tdd": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/tdd\n"
+    },
+    "senior-devops": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/senior-devops\n"
+    },
+    "rice": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/rice\n"
+    },
+    "org-health-diagnostic": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/org-health-diagnostic\n"
+    },
+    "senior-architect": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/senior-architect\n"
+    },
+    "founder-coach": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/founder-coach\n"
+    },
+    "marketing-skill-bundle": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/marketing-skill-bundle\n"
+    },
+    "skills-status": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/skills-status\n"
+    },
+    "run": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/run\n"
+    },
+    "tdd-guide": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/tdd-guide\n"
+    },
+    "full-page-screenshot": {
+        "skill_name": "full-page-screenshot",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/full-page-screenshot",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/full-page-screenshot",
         "is_safe": true,
         "max_severity": "LOW",
         "findings_count": 1,
@@ -658,18 +262,390 @@
                 "metadata": {}
             }
         ],
-        "scan_duration_seconds": 0.015505790710449219,
-        "duration_ms": 15,
+        "scan_duration_seconds": 0.036849021911621094,
+        "duration_ms": 36,
         "analyzers_used": [
             "static_analyzer",
             "behavioral_analyzer"
         ],
-        "timestamp": "2026-04-11T02:32:58.780600"
+        "timestamp": "2026-04-30T23:36:27.228493"
     },
-    "autonomous-agent-harness": {
-        "skill_name": "autonomous-agent-harness",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/autonomous-agent-harness",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/autonomous-agent-harness",
+    "cs-product-strategist": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-product-strategist\n"
+    },
+    "ra-qm-team-bundle": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/ra-qm-team-bundle\n"
+    },
+    "cmd-a11y-audit": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cmd-a11y-audit\n"
+    },
+    "saas-health": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/saas-health\n"
+    },
+    "skills-review": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/skills-review\n"
+    },
+    "cs-ceo-advisor": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-ceo-advisor\n"
+    },
+    "devops-engineer": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/devops-engineer\n"
+    },
+    "cmo-advisor": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cmo-advisor\n"
+    },
+    "extract": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/extract\n"
+    },
+    "incident-commander": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/incident-commander\n"
+    },
+    "aws-solution-architect": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/aws-solution-architect\n"
+    },
+    "startup-cto": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/startup-cto\n"
+    },
+    "okr": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/okr\n"
+    },
+    "eval": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/eval\n"
+    },
+    "financial-health": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/financial-health\n"
+    },
+    "cs-workspace-admin": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-workspace-admin\n"
+    },
+    "changelog": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/changelog\n"
+    },
+    "engineering-bundle": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/engineering-bundle\n"
+    },
+    "email-template-builder": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/email-template-builder\n"
+    },
+    "seo-auditor": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/seo-auditor\n"
+    },
+    "cs-financial-analyst": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-financial-analyst\n"
+    },
+    "marketing-bundle": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/marketing-bundle\n"
+    },
+    "senior-pm": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/senior-pm\n"
+    },
+    "cs-product-manager": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-product-manager\n"
+    },
+    "resume": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/resume\n"
+    },
+    "snowflake-development": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/snowflake-development\n"
+    },
+    "engineering-team-bundle": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/engineering-team-bundle\n"
+    },
+    "jira-expert": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/jira-expert\n"
+    },
+    "setup": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/setup\n"
+    },
+    "scrum-master": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/scrum-master\n"
+    },
+    "context-engine": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/context-engine\n"
+    },
+    "google-workspace": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/google-workspace\n"
+    },
+    "skills-init": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/skills-init\n"
+    },
+    "solo-founder": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/solo-founder\n"
+    },
+    "cs-quality-regulatory": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-quality-regulatory\n"
+    },
+    "retro": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/retro\n"
+    },
+    "sprint-health": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/sprint-health\n"
+    },
+    "cs-onboard": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-onboard\n"
+    },
+    "product-manager": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/product-manager\n"
+    },
+    "self-improving-agent": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/self-improving-agent\n"
+    },
+    "content-strategist": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/content-strategist\n"
+    },
+    "cs-content-creator": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-content-creator\n"
+    },
+    "tech-debt": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/tech-debt\n"
+    },
+    "karpathy-check": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/karpathy-check\n"
+    },
+    "plugin-audit": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/plugin-audit\n"
+    },
+    "product-team-bundle": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/product-team-bundle\n"
+    },
+    "epic-design": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/epic-design\n"
+    },
+    "cs-cto-advisor": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-cto-advisor\n"
+    },
+    "finance-lead": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/finance-lead\n"
+    },
+    "senior-data-engineer": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/senior-data-engineer\n"
+    },
+    "product-bundle": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/product-bundle\n"
+    },
+    "senior-backend": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/senior-backend\n"
+    },
+    "google-workspace-cli": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/google-workspace-cli\n"
+    },
+    "persona": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/persona\n"
+    },
+    "cmd-code-to-prd": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cmd-code-to-prd\n"
+    },
+    "c-level-advisor-main": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/c-level-advisor-main\n"
+    },
+    "ms365-tenant-manager": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/ms365-tenant-manager\n"
+    },
+    "browserstack": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/browserstack\n"
+    },
+    "marketing-ops": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/marketing-ops\n"
+    },
+    "sales-engineer": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/sales-engineer\n"
+    },
+    "cs-growth-strategist": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-growth-strategist\n"
+    },
+    "cmd-focused-fix": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cmd-focused-fix\n"
+    },
+    "executive-mentor": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/executive-mentor\n"
+    },
+    "campaign-analytics": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/campaign-analytics\n"
+    },
+    "merge": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/merge\n"
+    },
+    "engineering-main": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/engineering-main\n"
+    },
+    "README": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/README\n"
+    },
+    "internal-narrative": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/internal-narrative\n"
+    },
+    "project-management-bundle": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/project-management-bundle\n"
+    },
+    "competitive-matrix": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/competitive-matrix\n"
+    },
+    "cs-project-manager": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-project-manager\n"
+    },
+    "revenue-operations": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/revenue-operations\n"
+    },
+    "growth-marketer": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/growth-marketer\n"
+    },
+    "hard-call": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/hard-call\n"
+    },
+    "project-health": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/project-health\n"
+    },
+    "cto-advisor": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cto-advisor\n"
+    },
+    "user-story": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/user-story\n"
+    },
+    "cro-advisor": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cro-advisor\n"
+    },
+    "finance-bundle": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/finance-bundle\n"
+    },
+    "cs-agile-product-owner": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-agile-product-owner\n"
+    },
+    "cs-product-analyst": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-product-analyst\n"
+    },
+    "coo-advisor": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/coo-advisor\n"
+    },
+    "cs-senior-engineer": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-senior-engineer\n"
+    },
+    "status": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/status\n"
+    },
+    "security-pen-testing": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/security-pen-testing\n"
+    },
+    "pipeline": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/pipeline\n"
+    },
+    "sprint-plan": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/sprint-plan\n"
+    },
+    "TEMPLATE": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/TEMPLATE\n"
+    },
+    "stress-test": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/stress-test\n"
+    },
+    "karpathy-coder": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/karpathy-coder\n"
+    },
+    "prd": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/prd\n"
+    },
+    "business-growth-bundle": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/business-growth-bundle\n"
+    },
+    "cs-karpathy-reviewer": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-karpathy-reviewer\n"
+    },
+    "command-guide": {
+        "skill_name": "command-guide",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/command-guide",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/command-guide",
         "is_safe": true,
         "max_severity": "LOW",
         "findings_count": 1,
@@ -689,18 +665,22 @@
                 "metadata": {}
             }
         ],
-        "scan_duration_seconds": 0.04155850410461426,
-        "duration_ms": 41,
+        "scan_duration_seconds": 0.019481658935546875,
+        "duration_ms": 19,
         "analyzers_used": [
             "static_analyzer",
             "behavioral_analyzer"
         ],
-        "timestamp": "2026-04-11T02:33:09.628947"
+        "timestamp": "2026-04-30T23:53:33.383690"
     },
-    "opensource-pipeline": {
-        "skill_name": "opensource-pipeline",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/opensource-pipeline",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/opensource-pipeline",
+    "c-level-advisor-bundle": {
+        "error": "Invalid JSON output",
+        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/c-level-advisor-bundle\n"
+    },
+    "directory-submissions": {
+        "skill_name": "directory-submissions",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/directory-submissions",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/directory-submissions",
         "is_safe": true,
         "max_severity": "LOW",
         "findings_count": 1,
@@ -720,18 +700,18 @@
                 "metadata": {}
             }
         ],
-        "scan_duration_seconds": 0.01618671417236328,
-        "duration_ms": 16,
+        "scan_duration_seconds": 0.06304717063903809,
+        "duration_ms": 63,
         "analyzers_used": [
             "static_analyzer",
             "behavioral_analyzer"
         ],
-        "timestamp": "2026-04-11T02:33:20.473276"
+        "timestamp": "2026-04-30T23:53:55.303360"
     },
-    "nestjs-patterns": {
-        "skill_name": "nestjs-patterns",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/nestjs-patterns",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/nestjs-patterns",
+    "video": {
+        "skill_name": "video",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/video",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/video",
         "is_safe": true,
         "max_severity": "LOW",
         "findings_count": 1,
@@ -751,111 +731,18 @@
                 "metadata": {}
             }
         ],
-        "scan_duration_seconds": 0.014612197875976562,
-        "duration_ms": 14,
+        "scan_duration_seconds": 0.03628087043762207,
+        "duration_ms": 36,
         "analyzers_used": [
             "static_analyzer",
             "behavioral_analyzer"
         ],
-        "timestamp": "2026-04-11T02:33:31.952560"
+        "timestamp": "2026-04-30T23:54:07.081712"
     },
-    "project-flow-ops": {
-        "skill_name": "project-flow-ops",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/project-flow-ops",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/project-flow-ops",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.009937286376953125,
-        "duration_ms": 9,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:33:43.182132"
-    },
-    "defi-amm-security": {
-        "skill_name": "defi-amm-security",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/defi-amm-security",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/defi-amm-security",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.013024568557739258,
-        "duration_ms": 13,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:33:54.227469"
-    },
-    "csharp-testing": {
-        "skill_name": "csharp-testing",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/csharp-testing",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/csharp-testing",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.017857789993286133,
-        "duration_ms": 17,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:34:05.788327"
-    },
-    "google-workspace-ops": {
-        "skill_name": "google-workspace-ops",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/google-workspace-ops",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/google-workspace-ops",
+    "image": {
+        "skill_name": "image",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/image",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/image",
         "is_safe": true,
         "max_severity": "MEDIUM",
         "findings_count": 2,
@@ -875,577 +762,15 @@
                 "metadata": {}
             },
             {
-                "id": "YARA_skill_discovery_abuse_generic_14d7c0484d",
-                "rule_id": "YARA_skill_discovery_abuse_generic",
-                "category": "skill_discovery_abuse",
-                "severity": "MEDIUM",
-                "title": "SKILL DISCOVERY ABUSE detected by YARA",
-                "description": "Detects manipulation of skill discovery to increase unwanted activation: Preferred Tool",
-                "file_path": "SKILL.md",
-                "line_number": 13,
-                "snippet": "## Preferred Tool Surface",
-                "remediation": "Review and remove skill discovery abuse pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "skill_discovery_abuse_generic",
-                    "yara_namespace": "skill_discovery_abuse_generic",
-                    "matched_string": "$activation_priority",
-                    "threat_type": "SKILL DISCOVERY ABUSE"
-                }
-            }
-        ],
-        "scan_duration_seconds": 0.010032892227172852,
-        "duration_ms": 10,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:34:16.447156"
-    },
-    "messages-ops": {
-        "skill_name": "messages-ops",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/messages-ops",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/messages-ops",
-        "is_safe": true,
-        "max_severity": "MEDIUM",
-        "findings_count": 2,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            },
-            {
-                "id": "YARA_autonomy_abuse_generic_10e423661e",
-                "rule_id": "YARA_autonomy_abuse_generic",
-                "category": "autonomy_abuse",
-                "severity": "MEDIUM",
-                "title": "AUTONOMY ABUSE detected by YARA",
-                "description": "Detects unbounded autonomy patterns that could lead to runaway behavior: keep retrying",
-                "file_path": "SKILL.md",
-                "line_number": 92,
-                "snippet": "- do not keep retrying a blocked auth path without surfacing the blocker",
-                "remediation": "Review and remove autonomy abuse pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "autonomy_abuse_generic",
-                    "yara_namespace": "autonomy_abuse_generic",
-                    "matched_string": "$keep_trying",
-                    "threat_type": "AUTONOMY ABUSE"
-                }
-            }
-        ],
-        "scan_duration_seconds": 0.010262489318847656,
-        "duration_ms": 10,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:34:27.643011"
-    },
-    "security-bounty-hunter": {
-        "skill_name": "security-bounty-hunter",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/security-bounty-hunter",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/security-bounty-hunter",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.010258913040161133,
-        "duration_ms": 10,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:34:38.630323"
-    },
-    "terminal-ops": {
-        "skill_name": "terminal-ops",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/terminal-ops",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/terminal-ops",
-        "is_safe": true,
-        "max_severity": "MEDIUM",
-        "findings_count": 2,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            },
-            {
-                "id": "YARA_autonomy_abuse_generic_5e2526a3ea",
-                "rule_id": "YARA_autonomy_abuse_generic",
-                "category": "autonomy_abuse",
-                "severity": "MEDIUM",
-                "title": "AUTONOMY ABUSE detected by YARA",
-                "description": "Detects unbounded autonomy patterns that could lead to runaway behavior: escalate to",
-                "file_path": "SKILL.md",
-                "line_number": 60,
-                "snippet": "- only escalate to a bigger build/test pass after the local failure is addressed",
-                "remediation": "Review and remove autonomy abuse pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "autonomy_abuse_generic",
-                    "yara_namespace": "autonomy_abuse_generic",
-                    "matched_string": "$escalating",
-                    "threat_type": "AUTONOMY ABUSE"
-                }
-            }
-        ],
-        "scan_duration_seconds": 0.011015892028808594,
-        "duration_ms": 11,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:34:49.695445"
-    },
-    "ui-demo": {
-        "skill_name": "ui-demo",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/ui-demo",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/ui-demo",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.024938106536865234,
-        "duration_ms": 24,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:35:00.428382"
-    },
-    "brand-voice": {
-        "skill_name": "brand-voice",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/brand-voice",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/brand-voice",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.013301372528076172,
-        "duration_ms": 13,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:35:11.383950"
-    },
-    "email-ops": {
-        "skill_name": "email-ops",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/email-ops",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/email-ops",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.01034092903137207,
-        "duration_ms": 10,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:35:22.005635"
-    },
-    "customer-billing-ops": {
-        "skill_name": "customer-billing-ops",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/customer-billing-ops",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/customer-billing-ops",
-        "is_safe": true,
-        "max_severity": "MEDIUM",
-        "findings_count": 2,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            },
-            {
-                "id": "YARA_skill_discovery_abuse_generic_cd12cd1355",
-                "rule_id": "YARA_skill_discovery_abuse_generic",
-                "category": "skill_discovery_abuse",
-                "severity": "MEDIUM",
-                "title": "SKILL DISCOVERY ABUSE detected by YARA",
-                "description": "Detects manipulation of skill discovery to increase unwanted activation: Preferred Tool",
-                "file_path": "SKILL.md",
-                "line_number": 15,
-                "snippet": "## Preferred Tool Surface",
-                "remediation": "Review and remove skill discovery abuse pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "skill_discovery_abuse_generic",
-                    "yara_namespace": "skill_discovery_abuse_generic",
-                    "matched_string": "$activation_priority",
-                    "threat_type": "SKILL DISCOVERY ABUSE"
-                }
-            }
-        ],
-        "scan_duration_seconds": 0.013262271881103516,
-        "duration_ms": 13,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:35:32.668360"
-    },
-    "llm-trading-agent-security": {
-        "skill_name": "llm-trading-agent-security",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/llm-trading-agent-security",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/llm-trading-agent-security",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.01517343521118164,
-        "duration_ms": 15,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:35:43.753176"
-    },
-    "remotion-video-creation": {
-        "skill_name": "remotion-video-creation",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/remotion-video-creation",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/remotion-video-creation",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.08332133293151855,
-        "duration_ms": 83,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:35:54.835472"
-    },
-    "knowledge-ops": {
-        "skill_name": "knowledge-ops",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/knowledge-ops",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/knowledge-ops",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.01871657371520996,
-        "duration_ms": 18,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:36:05.740941"
-    },
-    "automation-audit-ops": {
-        "skill_name": "automation-audit-ops",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/automation-audit-ops",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/automation-audit-ops",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.01326894760131836,
-        "duration_ms": 13,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:36:16.504942"
-    },
-    "hipaa-compliance": {
-        "skill_name": "hipaa-compliance",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/hipaa-compliance",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/hipaa-compliance",
-        "is_safe": true,
-        "max_severity": "MEDIUM",
-        "findings_count": 3,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            },
-            {
-                "id": "YARA_autonomy_abuse_generic_523dae6c23",
-                "rule_id": "YARA_autonomy_abuse_generic",
-                "category": "autonomy_abuse",
-                "severity": "MEDIUM",
-                "title": "AUTONOMY ABUSE detected by YARA",
-                "description": "Detects unbounded autonomy patterns that could lead to runaway behavior: Escalate to",
-                "file_path": "SKILL.md",
-                "line_number": 27,
-                "snippet": "3. Escalate to `healthcare-reviewer` if the task affects patient safety, clinical workflows, or regulated production architecture.",
-                "remediation": "Review and remove autonomy abuse pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "autonomy_abuse_generic",
-                    "yara_namespace": "autonomy_abuse_generic",
-                    "matched_string": "$escalating",
-                    "threat_type": "AUTONOMY ABUSE"
-                }
-            },
-            {
-                "id": "YARA_autonomy_abuse_generic_560d840e5b",
-                "rule_id": "YARA_autonomy_abuse_generic",
-                "category": "autonomy_abuse",
-                "severity": "MEDIUM",
-                "title": "AUTONOMY ABUSE detected by YARA",
-                "description": "Detects unbounded autonomy patterns that could lead to runaway behavior: Escalate to",
-                "file_path": "SKILL.md",
-                "line_number": 51,
-                "snippet": "- Escalate to `healthcare-reviewer` if the summaries influence clinical decisions",
-                "remediation": "Review and remove autonomy abuse pattern",
-                "analyzer": "static",
-                "metadata": {
-                    "yara_rule": "autonomy_abuse_generic",
-                    "yara_namespace": "autonomy_abuse_generic",
-                    "matched_string": "$escalating",
-                    "threat_type": "AUTONOMY ABUSE"
-                }
-            }
-        ],
-        "scan_duration_seconds": 0.009471654891967773,
-        "duration_ms": 9,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:36:27.384811"
-    },
-    "api-connector-builder": {
-        "skill_name": "api-connector-builder",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/api-connector-builder",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/api-connector-builder",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.012318611145019531,
-        "duration_ms": 12,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:36:38.123660"
-    },
-    "gan-style-harness": {
-        "skill_name": "gan-style-harness",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/gan-style-harness",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/gan-style-harness",
-        "is_safe": true,
-        "max_severity": "MEDIUM",
-        "findings_count": 3,
-        "findings": [
-            {
-                "id": "SOCIAL_ENG_ANTHROPIC_IMPERSONATION_7cd4bd28d6",
-                "rule_id": "SOCIAL_ENG_ANTHROPIC_IMPERSONATION",
-                "category": "social_engineering",
-                "severity": "MEDIUM",
-                "title": "Potential Anthropic brand impersonation",
-                "description": "Skill name or description contains 'Anthropic', suggesting official affiliation",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Do not impersonate official skills or use unauthorized branding",
-                "analyzer": "static",
-                "metadata": {}
-            },
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            },
-            {
-                "id": "YARA_skill_discovery_abuse_generic_94923b242c",
+                "id": "YARA_skill_discovery_abuse_generic_bbbd86bd72",
                 "rule_id": "YARA_skill_discovery_abuse_generic",
                 "category": "skill_discovery_abuse",
                 "severity": "MEDIUM",
                 "title": "SKILL DISCOVERY ABUSE detected by YARA",
                 "description": "Detects manipulation of skill discovery to increase unwanted activation: perfect",
                 "file_path": "SKILL.md",
-                "line_number": 140,
-                "snippet": "- **Max iterations** = 15 (configurable, typically 5-15 sufficient)",
+                "line_number": 120,
+                "snippet": "- **Strengths:** Design system components, auto layout, developer handoff, plugins",
                 "remediation": "Review and remove skill discovery abuse pattern",
                 "analyzer": "static",
                 "metadata": {
@@ -1456,18 +781,68 @@
                 }
             }
         ],
-        "scan_duration_seconds": 0.021998167037963867,
-        "duration_ms": 21,
+        "scan_duration_seconds": 0.03391528129577637,
+        "duration_ms": 33,
         "analyzers_used": [
             "static_analyzer",
             "behavioral_analyzer"
         ],
-        "timestamp": "2026-04-11T02:36:49.399723"
+        "timestamp": "2026-04-30T23:54:17.969612"
     },
-    "council": {
-        "skill_name": "council",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/council",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/council",
+    "competitor-profiling": {
+        "skill_name": "competitor-profiling",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/competitor-profiling",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/competitor-profiling",
+        "is_safe": true,
+        "max_severity": "MEDIUM",
+        "findings_count": 2,
+        "findings": [
+            {
+                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
+                "rule_id": "MANIFEST_MISSING_LICENSE",
+                "category": "policy_violation",
+                "severity": "LOW",
+                "title": "Skill does not specify a license",
+                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
+                "file_path": "SKILL.md",
+                "line_number": null,
+                "snippet": null,
+                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
+                "analyzer": "static",
+                "metadata": {}
+            },
+            {
+                "id": "YARA_autonomy_abuse_generic_dc573ae850",
+                "rule_id": "YARA_autonomy_abuse_generic",
+                "category": "autonomy_abuse",
+                "severity": "MEDIUM",
+                "title": "AUTONOMY ABUSE detected by YARA",
+                "description": "Detects unbounded autonomy patterns that could lead to runaway behavior: proceed without asking",
+                "file_path": "SKILL.md",
+                "line_number": 17,
+                "snippet": "If the user provides URLs and context is available, proceed without asking.",
+                "remediation": "Review and remove autonomy abuse pattern",
+                "analyzer": "static",
+                "metadata": {
+                    "yara_rule": "autonomy_abuse_generic",
+                    "yara_namespace": "autonomy_abuse_generic",
+                    "matched_string": "$no_confirmation",
+                    "threat_type": "AUTONOMY ABUSE"
+                }
+            }
+        ],
+        "scan_duration_seconds": 0.0385744571685791,
+        "duration_ms": 38,
+        "analyzers_used": [
+            "static_analyzer",
+            "behavioral_analyzer"
+        ],
+        "timestamp": "2026-04-30T23:54:28.583259"
+    },
+    "aso-audit": {
+        "skill_name": "aso-audit",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/aso-audit",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/aso-audit",
         "is_safe": true,
         "max_severity": "LOW",
         "findings_count": 1,
@@ -1487,18 +862,18 @@
                 "metadata": {}
             }
         ],
-        "scan_duration_seconds": 0.01526498794555664,
-        "duration_ms": 15,
+        "scan_duration_seconds": 0.057745933532714844,
+        "duration_ms": 57,
         "analyzers_used": [
             "static_analyzer",
             "behavioral_analyzer"
         ],
-        "timestamp": "2026-04-11T02:37:00.244461"
+        "timestamp": "2026-04-30T23:54:39.438389"
     },
-    "seo": {
-        "skill_name": "seo",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/seo",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/seo",
+    "latent-briefing": {
+        "skill_name": "latent-briefing",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/latent-briefing",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/latent-briefing",
         "is_safe": true,
         "max_severity": "LOW",
         "findings_count": 1,
@@ -1518,450 +893,158 @@
                 "metadata": {}
             }
         ],
-        "scan_duration_seconds": 0.012950658798217773,
-        "duration_ms": 12,
+        "scan_duration_seconds": 0.02739715576171875,
+        "duration_ms": 27,
         "analyzers_used": [
             "static_analyzer",
             "behavioral_analyzer"
         ],
-        "timestamp": "2026-04-11T02:37:11.187587"
+        "timestamp": "2026-04-30T23:54:50.246896"
     },
-    "manim-video": {
-        "skill_name": "manim-video",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/manim-video",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/manim-video",
-        "is_safe": true,
-        "max_severity": "LOW",
+    "azure-kubernetes-automatic-readiness": {
+        "skill_name": "azure-kubernetes-automatic-readiness",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/azure-kubernetes-automatic-readiness",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/azure-kubernetes-automatic-readiness",
+        "is_safe": false,
+        "max_severity": "CRITICAL",
         "findings_count": 1,
         "findings": [
             {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
+                "id": "YARA_credential_harvesting_generic_00182f3190",
+                "rule_id": "YARA_credential_harvesting_generic",
+                "category": "hardcoded_secrets",
+                "severity": "CRITICAL",
+                "title": "CREDENTIAL HARVESTING detected by YARA",
+                "description": "Detects potential exposure of sensitive information like API keys, passwords, tokens, and certificates: transmit, display, or include in diffs: Secret data values, ConfigMap data values, environment varia",
                 "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
+                "line_number": 41,
+                "snippet": "2. **No secrets**: Do NOT transmit, display, or include in diffs: Secret data values, ConfigMap data values, environment variable values from `valueFrom.secretKeyRef`, service account tokens, or connection strings.",
+                "remediation": "Review and remove credential harvesting pattern",
                 "analyzer": "static",
-                "metadata": {}
+                "metadata": {
+                    "yara_rule": "credential_harvesting_generic",
+                    "yara_namespace": "credential_harvesting_generic",
+                    "matched_string": "$credential_theft_actions",
+                    "threat_type": "CREDENTIAL HARVESTING"
+                }
             }
         ],
-        "scan_duration_seconds": 0.03284621238708496,
-        "duration_ms": 32,
+        "scan_duration_seconds": 0.06429839134216309,
+        "duration_ms": 64,
         "analyzers_used": [
             "static_analyzer",
             "behavioral_analyzer"
         ],
-        "timestamp": "2026-04-11T02:37:22.453807"
+        "timestamp": "2026-04-30T23:55:01.241483"
     },
-    "dart-flutter-patterns": {
-        "skill_name": "dart-flutter-patterns",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/dart-flutter-patterns",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/dart-flutter-patterns",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.02825784683227539,
-        "duration_ms": 28,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:37:33.284024"
-    },
-    "code-tour": {
-        "skill_name": "code-tour",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/code-tour",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/code-tour",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.015783071517944336,
-        "duration_ms": 15,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:37:44.769305"
-    },
-    "dotnet-patterns": {
-        "skill_name": "dotnet-patterns",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/dotnet-patterns",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/dotnet-patterns",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.018801450729370117,
-        "duration_ms": 18,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:37:55.653710"
-    },
-    "evm-token-decimals": {
-        "skill_name": "evm-token-decimals",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/evm-token-decimals",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/evm-token-decimals",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.012116193771362305,
-        "duration_ms": 12,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:38:06.431934"
-    },
-    "hookify-rules": {
-        "skill_name": "hookify-rules",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/hookify-rules",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/hookify-rules",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.011192083358764648,
-        "duration_ms": 11,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:38:17.311949"
-    },
-    "tc": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/tc\n"
-    },
-    "demo-video": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/demo-video\n"
-    },
-    "statistical-analyst": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/statistical-analyst\n"
-    },
-    "prompt-governance": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/prompt-governance\n"
-    },
-    "apple-hig-expert": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/apple-hig-expert\n"
-    },
-    "behuman": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/behuman\n"
-    },
-    "team-communications": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/team-communications\n"
-    },
-    "wiki-ingest": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/wiki-ingest\n"
-    },
-    "wiki-log": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/wiki-log\n"
-    },
-    "data-quality-auditor": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/data-quality-auditor\n"
-    },
-    "video-content-strategist": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/video-content-strategist\n"
-    },
-    "spec-to-repo": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/spec-to-repo\n"
-    },
-    "cs-wiki-librarian": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-wiki-librarian\n"
-    },
-    "cs-wiki-linter": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-wiki-linter\n"
-    },
-    "tc-tracker": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/tc-tracker\n"
-    },
-    "business-investment-advisor": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/business-investment-advisor\n"
-    },
-    "cs-wiki-ingestor": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/cs-wiki-ingestor\n"
-    },
-    "wiki-lint": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/wiki-lint\n"
-    },
-    "wiki-query": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/wiki-query\n"
-    },
-    "llm-wiki": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/llm-wiki\n"
-    },
-    "llm-cost-optimizer": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/llm-cost-optimizer\n"
-    },
-    "meeting-analyzer": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/meeting-analyzer\n"
-    },
-    "wiki-init": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: SKILL.md not found in /home/juan/Escritorio/antigravity-awesome-skills/skills/wiki-init\n"
-    },
-    "community-marketing": {
-        "error": "Invalid JSON output",
-        "output": "<frozen runpy>:128: RuntimeWarning: 'skill_scanner.cli.cli' found in sys.modules after import of package 'skill_scanner.cli', but prior to execution of 'skill_scanner.cli.cli'; this may result in unpredictable behaviour\nUsing behavioral analyzer (static dataflow analysis)\nError loading skill: Failed to parse YAML frontmatter: mapping values are not allowed in this context\n  in \"<unicode string>\", line 3, column 367\n"
-    },
-    "azure-cost": {
-        "skill_name": "azure-cost",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/azure-cost",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/azure-cost",
+    "airunway-aks-setup": {
+        "skill_name": "airunway-aks-setup",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/airunway-aks-setup",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/airunway-aks-setup",
         "is_safe": true,
         "max_severity": "SAFE",
         "findings_count": 0,
         "findings": [],
-        "scan_duration_seconds": 0.04317045211791992,
-        "duration_ms": 43,
+        "scan_duration_seconds": 0.03388547897338867,
+        "duration_ms": 33,
         "analyzers_used": [
             "static_analyzer",
             "behavioral_analyzer"
         ],
-        "timestamp": "2026-04-11T02:42:55.434525"
+        "timestamp": "2026-04-30T23:55:12.100299"
     },
-    "kql": {
-        "skill_name": "kql",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/kql",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/kql",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.04465603828430176,
-        "duration_ms": 44,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:43:06.848673"
-    },
-    "microsoft-docs": {
-        "skill_name": "microsoft-docs",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/microsoft-docs",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/microsoft-docs",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.01260995864868164,
-        "duration_ms": 12,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:43:17.603894"
-    },
-    "cli-creator": {
-        "skill_name": "cli-creator",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/cli-creator",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/cli-creator",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.03788876533508301,
-        "duration_ms": 37,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:43:29.359119"
-    },
-    "supabase": {
-        "skill_name": "supabase",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/supabase",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/supabase",
-        "is_safe": true,
-        "max_severity": "LOW",
-        "findings_count": 1,
-        "findings": [
-            {
-                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
-                "rule_id": "MANIFEST_MISSING_LICENSE",
-                "category": "policy_violation",
-                "severity": "LOW",
-                "title": "Skill does not specify a license",
-                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
-                "file_path": "SKILL.md",
-                "line_number": null,
-                "snippet": null,
-                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
-                "analyzer": "static",
-                "metadata": {}
-            }
-        ],
-        "scan_duration_seconds": 0.01977849006652832,
-        "duration_ms": 19,
-        "analyzers_used": [
-            "static_analyzer",
-            "behavioral_analyzer"
-        ],
-        "timestamp": "2026-04-11T02:43:40.459558"
-    },
-    "react-view-transitions": {
-        "skill_name": "vercel-react-view-transitions",
-        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/react-view-transitions",
-        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/react-view-transitions",
+    "applicationinsights-web-ts": {
+        "skill_name": "applicationinsights-web-ts",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/applicationinsights-web-ts",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/applicationinsights-web-ts",
         "is_safe": true,
         "max_severity": "SAFE",
         "findings_count": 0,
         "findings": [],
-        "scan_duration_seconds": 0.05102252960205078,
-        "duration_ms": 51,
+        "scan_duration_seconds": 0.05652308464050293,
+        "duration_ms": 56,
         "analyzers_used": [
             "static_analyzer",
             "behavioral_analyzer"
         ],
-        "timestamp": "2026-04-11T02:43:51.625826"
+        "timestamp": "2026-04-30T23:55:22.940828"
+    },
+    "plugin-creator": {
+        "skill_name": "plugin-creator",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/plugin-creator",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/plugin-creator",
+        "is_safe": true,
+        "max_severity": "LOW",
+        "findings_count": 1,
+        "findings": [
+            {
+                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
+                "rule_id": "MANIFEST_MISSING_LICENSE",
+                "category": "policy_violation",
+                "severity": "LOW",
+                "title": "Skill does not specify a license",
+                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
+                "file_path": "SKILL.md",
+                "line_number": null,
+                "snippet": null,
+                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
+                "analyzer": "static",
+                "metadata": {}
+            }
+        ],
+        "scan_duration_seconds": 6.102524757385254,
+        "duration_ms": 6102,
+        "analyzers_used": [
+            "static_analyzer",
+            "behavioral_analyzer"
+        ],
+        "timestamp": "2026-04-30T23:55:40.043732"
+    },
+    "migrate-to-codex": {
+        "skill_name": "migrate-to-codex",
+        "skill_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/migrate-to-codex",
+        "skill_directory": "/home/juan/Escritorio/antigravity-awesome-skills/skills/migrate-to-codex",
+        "is_safe": false,
+        "max_severity": "HIGH",
+        "findings_count": 2,
+        "findings": [
+            {
+                "id": "MANIFEST_MISSING_LICENSE_c5ae9be793",
+                "rule_id": "MANIFEST_MISSING_LICENSE",
+                "category": "policy_violation",
+                "severity": "LOW",
+                "title": "Skill does not specify a license",
+                "description": "Skill manifest does not include a 'license' field. Specifying a license helps users understand usage terms.",
+                "file_path": "SKILL.md",
+                "line_number": null,
+                "snippet": null,
+                "remediation": "Add 'license' field to SKILL.md frontmatter (e.g., MIT, Apache-2.0)",
+                "analyzer": "static",
+                "metadata": {}
+            },
+            {
+                "id": "SUSPICIOUS_URL_21bdb4e30d",
+                "rule_id": "BEHAVIOR_SUSPICIOUS_URL",
+                "category": "data_exfiltration",
+                "severity": "HIGH",
+                "title": "Suspicious URL detected: http_headers",
+                "description": "Script contains suspicious URL that may be used for data exfiltration",
+                "file_path": "/home/juan/Escritorio/antigravity-awesome-skills/skills/migrate-to-codex/scripts/migrate/mcps.py",
+                "line_number": null,
+                "snippet": null,
+                "remediation": "Review URL and ensure it's legitimate and documented",
+                "analyzer": "behavioral",
+                "metadata": {
+                    "url": "http_headers"
+                }
+            }
+        ],
+        "scan_duration_seconds": 44.796069622039795,
+        "duration_ms": 44796,
+        "analyzers_used": [
+            "static_analyzer",
+            "behavioral_analyzer"
+        ],
+        "timestamp": "2026-04-30T23:56:35.560193"
     }
 }
