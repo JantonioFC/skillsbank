@@ -1,14 +1,14 @@
-name: Skill Review
+# Disabled - this is a backup/mirror repo, not the upstream.
 on:
-  pull_request:
-    paths: ['**/SKILL.md']
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "This workflow is disabled in the backup repo"
+        required: false
 
 jobs:
-  review:
+  disabled:
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-      contents: read
+    if: false  # Never runs
     steps:
-      - uses: actions/checkout@v4
-      - uses: tesslio/skill-review@14b47c8420ff9ac9a12c30ed4b89ce0e9d0355ae # main
+      - run: echo "disabled"
