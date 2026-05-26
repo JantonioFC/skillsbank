@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo, lazy, Suspense } from 'react';
+import { translateCategory } from './Home';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Copy, Check, FileCode, AlertTriangle, Loader2 } from 'lucide-react';
 import { SkillStarButton } from '../components/SkillStarButton';
@@ -236,9 +237,9 @@ export function SkillDetail(): React.ReactElement {
   if (!contextLoading && !skill) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[50vh] text-center px-4">
-        <h2 className="text-xl font-bold mb-2">Error Loading Skill</h2>
-        <p className="text-slate-600 dark:text-slate-400">Skill not found in registry.</p>
-        <Link to="/" className="mt-4 text-indigo-600 hover:underline">Back to Catalog</Link>
+        <h2 className="text-xl font-bold mb-2">Error al cargar la skill</h2>
+        <p className="text-slate-600 dark:text-slate-400">Skill no encontrada en el registro.</p>
+        <Link to="/" className="mt-4 text-indigo-600 hover:underline">Volver al catálogo</Link>
       </div>
     );
   }
@@ -256,16 +257,16 @@ export function SkillDetail(): React.ReactElement {
     return (
       <div className="max-w-2xl mx-auto text-center py-12">
         <AlertTriangle className="h-12 w-12 text-red-500 mx-auto mb-4" />
-        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">Failed to Load Content</h2>
-        <p className="text-slate-500 mt-2">{error || 'Skill details could not be loaded.'}</p>
+        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">Error al cargar el contenido</h2>
+        <p className="text-slate-500 mt-2">{error || 'No se pudo cargar la skill.'}</p>
         <button
           onClick={() => setRetryToken((value) => value + 1)}
           className="mt-6 inline-flex items-center justify-center rounded-lg bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-indigo-700"
         >
-          Retry loading content
+          Reintentar
         </button>
         <Link to="/" className="mt-8 inline-flex items-center text-indigo-600 font-medium hover:underline">
-          <ArrowLeft className="mr-2 h-4 w-4" /> Back to Catalog
+          <ArrowLeft className="mr-2 h-4 w-4" /> Volver al catálogo
         </Link>
       </div>
     );
@@ -276,14 +277,14 @@ export function SkillDetail(): React.ReactElement {
       <div className="mb-8">
         <Link to="/" className="inline-flex items-center text-sm font-medium text-slate-500 hover:text-indigo-600 transition-colors mb-4 group">
           <ArrowLeft className="mr-1 h-4 w-4 transform group-hover:-translate-x-1 transition-transform" />
-          Back to Catalog
+          Volver al catálogo
         </Link>
 
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
           <div className="flex-1">
             <div className="flex items-center space-x-3 mb-2 flex-wrap gap-2">
               <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-100 text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-400 uppercase tracking-wide">
-                {skill.category}
+                {translateCategory(skill.category)}
               </span>
               {skill.source && (
                 <span className="px-2.5 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
@@ -313,14 +314,14 @@ export function SkillDetail(): React.ReactElement {
               className="flex items-center justify-center space-x-2 bg-slate-100 hover:bg-slate-200 text-slate-900 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700 px-4 py-2.5 rounded-lg font-medium transition-colors min-w-[140px] border border-slate-200 dark:border-slate-700"
             >
               {copied ? <Check className="h-4 w-4 text-green-600 dark:text-green-400" /> : <Copy className="h-4 w-4" />}
-              <span>{copied ? 'Copied!' : 'Copy @Skill'}</span>
+              <span>{copied ? '¡Copiado!' : 'Copiar @Skill'}</span>
             </button>
             <button
               onClick={copyFullToClipboard}
               className="flex items-center justify-center space-x-2 bg-slate-900 hover:bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-900 dark:hover:bg-slate-200 px-4 py-2.5 rounded-lg font-medium transition-colors min-w-[140px]"
             >
               {copiedFull ? <Check className="h-4 w-4 text-green-400" /> : <FileCode className="h-4 w-4" />}
-              <span>{copiedFull ? 'Copied Content!' : 'Copy Full Content'}</span>
+              <span>{copiedFull ? '¡Contenido copiado!' : 'Copiar contenido completo'}</span>
             </button>
           </div>
         </div>
@@ -328,10 +329,10 @@ export function SkillDetail(): React.ReactElement {
         <div className="mt-6 bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
           <div className="rounded-lg border border-slate-200 bg-slate-50 dark:border-slate-700 dark:bg-slate-900 p-4 mb-4">
             <p className="text-xs uppercase tracking-wide text-slate-500 dark:text-slate-400 font-semibold">
-              Use it now
+              Usarla ahora
             </p>
             <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
-              Start quickly: install the package, open your workspace, and run this skill prompt directly.
+              Instalá el paquete, abrí tu workspace y ejecutá el prompt de esta skill directamente.
             </p>
             <div className="mt-3 flex flex-wrap items-center gap-2">
               <code className="inline-block rounded-md bg-slate-900 text-slate-50 px-3 py-2 text-sm font-mono border border-slate-800">
@@ -341,22 +342,22 @@ export function SkillDetail(): React.ReactElement {
                 onClick={copyInstallCommand}
                 className="inline-flex items-center text-sm font-medium text-indigo-700 hover:text-indigo-600 dark:text-indigo-300 dark:hover:text-indigo-200"
               >
-                {commandCopied ? 'Copied' : 'Copy command'}
+                {commandCopied ? 'Copiado' : 'Copiar comando'}
               </button>
             </div>
           </div>
 
           <label htmlFor="context" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
-            Interactive Prompt Builder (Optional)
+            Constructor de prompt (opcional)
           </label>
           <p className="text-xs text-slate-500 dark:text-slate-400 mb-3">
-            Add specific details below (e.g. &quot;Use React 19 and Tailwind&quot;). The &quot;Copy Prompt&quot; button will automatically attach your context.
+            Agregá detalles específicos (ej: &quot;Usá React 19 y Tailwind&quot;). El botón &quot;Copiar @Skill&quot; adjuntará tu contexto automáticamente.
           </p>
           <textarea
             id="context"
             rows={3}
             className="w-full rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 px-4 py-3 text-sm text-slate-900 dark:text-slate-100 placeholder-slate-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 outline-none transition-all resize-y"
-            placeholder="Type your specific task requirements here..."
+            placeholder="Escribí los requerimientos específicos de tu tarea..."
             value={customContext}
             onChange={(e) => setCustomContext(e.target.value)}
           />
@@ -368,7 +369,7 @@ export function SkillDetail(): React.ReactElement {
           {frontmatterRows.length > 0 && (
             <div className="mb-6">
               <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-2">
-                Skill Metadata
+                Metadatos de la skill
               </p>
               <div className="overflow-x-auto rounded-lg border border-slate-200 dark:border-slate-700">
                 <table className="min-w-full text-sm text-left border-collapse">

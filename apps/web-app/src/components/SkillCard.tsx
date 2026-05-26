@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Book, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { SkillStarButton } from './SkillStarButton';
+import { translateCategory } from '../pages/Home';
 import type { Skill } from '../types';
 
 interface SkillCardProps {
@@ -30,7 +31,7 @@ export const SkillCard = React.memo(({ skill, starCount }: SkillCardProps) => {
                             <Book className="h-5 w-5 text-indigo-600 dark:text-indigo-400" />
                         </div>
                         <span className="text-xs font-medium px-2 py-1 rounded-full bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
-                            {skill.category || 'Uncategorized'}
+                            {skill.category ? translateCategory(skill.category) : 'Sin categoría'}
                         </span>
                     </div>
                     <SkillStarButton
@@ -49,14 +50,14 @@ export const SkillCard = React.memo(({ skill, starCount }: SkillCardProps) => {
                 </p>
 
                 <div className="flex items-center justify-between text-xs text-slate-400 dark:text-slate-500 mb-3 pb-3 border-b border-slate-100 dark:border-slate-800">
-                    <span>Risk: <span className="font-semibold text-slate-600 dark:text-slate-300">{skill.risk || 'unknown'}</span></span>
+                    <span>Riesgo: <span className="font-semibold text-slate-600 dark:text-slate-300">{skill.risk || 'desconocido'}</span></span>
                     {skill.date_added && (
                         <span className="ml-2">📅 {skill.date_added}</span>
                     )}
                 </div>
 
                 <div className="flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-400 pt-2 mt-auto group-hover:translate-x-1 transition-transform">
-                    Read Skill <ArrowRight className="ml-1 h-4 w-4" />
+                    Ver skill <ArrowRight className="ml-1 h-4 w-4" />
                 </div>
             </Link>
         </motion.div>

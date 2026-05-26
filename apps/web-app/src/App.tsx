@@ -16,7 +16,6 @@ function App(): React.ReactElement {
               <span className="hidden font-bold sm:inline-block">Antigravity Skills</span>
             </Link>
             <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
-
               <nav className="flex items-center space-x-6 text-sm font-medium">
                 <a
                   href="https://github.com/sickn33/antigravity-awesome-skills"
@@ -25,7 +24,7 @@ function App(): React.ReactElement {
                   className="flex items-center text-slate-600 transition-colors hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-50"
                 >
                   <Github className="h-5 w-5 mr-2" />
-                  GitHub Repository
+                  Repositorio GitHub
                 </a>
               </nav>
             </div>
@@ -34,10 +33,8 @@ function App(): React.ReactElement {
         <main className="container max-w-screen-2xl mx-auto px-4 py-6">
           <Suspense
             fallback={
-              <div
-                className="flex min-h-[40vh] items-center justify-center text-sm text-slate-500 dark:text-slate-400"
-              >
-                Loading...
+              <div className="flex min-h-[40vh] items-center justify-center text-sm text-slate-500 dark:text-slate-400">
+                Cargando...
               </div>
             }
           >
