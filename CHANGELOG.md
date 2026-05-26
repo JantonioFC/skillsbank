@@ -11,6 +11,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 *None pending.*
 
+## [8.5.0] - 2026-05-26 - "Community Skill Expansion — 222 New Skills"
+
+> Remote audit and import from 7 active upstream sources. Total library now at **2318 skills**.
+
+## New Skills
+
+- **[affaan-m](https://github.com/affaan-m/everything-claude-code)** — 64 skills: homelab networking (WireGuard VPN, Pi-hole DNS, VLAN segmentation), network diagnostics (BGP, Cisco IOS, Netmiko), Quarkus patterns/TDD/security, motion UI, scientific databases (PubMed, USPTO), trading/ML pipelines (`ito-*`, `prediction-market-*`), and more.
+- **[alirezarezvani](https://github.com/alirezarezvani/claude-skills)** — 104 skills: full C-suite advisor suite (`cto-review`, `cfo-review`, `cmo-review`, `ciso-review`, `caio-review`, `vpe-advisor`, `gc-review`…), `compliance-os` bundle (ISO 27001, ISO 13485, SOC 2, GDPR, FDA QSR, AI Act), chaos engineering, SLO design, feature flags, Kubernetes operator patterns, and executive workflows (`decide`, `execute`, `handoff`, `reflect`…).
+- **[coreyhaines](https://github.com/coreyhaines31/marketingskills)** — 20 skills: complete growth marketing toolkit (`aso`, `ab-testing`, `ads`, `analytics`, `competitors`, `cro`, `emails`, `launch`, `onboarding`, `paywalls`, `popups`, `pricing`, `prospecting`, `referrals`, `schema`, `signup`, `sms`, `social`, `free-tools`, `product-marketing`).
+- **[guanyang](https://github.com/guanyang/antigravity-skills)** — 24 skills: `baoyu-*` series for Chinese social publishing (WeChat, Weibo, XHS), content generation (infographics, comic strips, image cards, slide decks), and web utilities (URL-to-markdown, Electron extraction, diagram generation).
+- **[vudovn](https://github.com/vudovn/antigravity-kit)** — 7 skills: `code-review-graph`, `batch-operations`, `simplify-code`, `skillify`, `verify-changes`, `memory-system`, `coordinator-mode`.
+- **[microsoft-skills](https://github.com/microsoft/skills)** — 1 skill: `azure-reliability`.
+- **[openai-skills](https://github.com/openai/skills)** — 1 skill: `define-goal`.
+- **[vercel-skills](https://github.com/vercel-labs/agent-skills)** — 1 skill: `vercel-optimize`.
+
+## Improvements
+
+- **Catalog regenerated** — `CATALOG.md` updated to reflect all 2318 skills.
+
+## Who should care
+
+- **Claude Code / Cursor / Codex CLI users** gain 104 new executive/compliance advisor skills, a complete growth marketing suite, and homelab/network engineering patterns.
+- **Gemini CLI users** benefit from the `baoyu-*` series for Chinese social platforms and the Quarkus Java patterns from affaan-m.
+- **All users** get the `compliance-os` bundle covering major regulatory frameworks (ISO 27001/13485, SOC 2, GDPR, FDA, EU AI Act).
+
+## Credits
+
+- **[@affaan-m](https://github.com/affaan-m)** for 64 new skills spanning homelab, networking, Quarkus, motion UI, and ML/trading pipelines.
+- **[@alirezarezvani](https://github.com/alirezarezvani)** for 104 new skills: C-suite advisor suite, compliance-os bundle, and executive workflows.
+- **[@coreyhaines31](https://github.com/coreyhaines31)** for the complete growth marketing toolkit (20 skills).
+- **[@guanyang](https://github.com/guanyang)** for the `baoyu-*` Chinese social publishing series (24 skills).
+- **[@vudovn](https://github.com/vudovn)** for 7 agentic workflow skills.
+
 ## [8.4.0] - 2026-03-20 - "Discovery, Metadata, and Release Hardening"
 
 > Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
