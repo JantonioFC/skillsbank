@@ -1,17 +1,11 @@
 {
     "imported": [
-        "ra-qm-skills",
-        "engineering-advanced-skills",
-        "c-level-skills",
-        "pm-skills",
-        "business-growth-skills",
-        "engineering-skills",
-        "product-skills",
-        "marketing-skills",
-        "finance-skills",
-        "pw",
-        "co-marketing",
-        "hatch-pet"
+        "clinical-research",
+        "research-ops-skills",
+        "product-research",
+        "workflow-builder",
+        "research-finance",
+        "compliance-os-bundle"
     ],
     "failed": []
 }

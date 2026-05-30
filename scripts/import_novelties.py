@@ -34,15 +34,30 @@ def main():
         branch_files = run_cmd(f"git ls-tree -r --name-only {branch}").splitlines()
 
         for skill_name in skills:
-            # Find the actual path of the skill in the remote
-            skill_source_path = None
-            # Be very specific to find the directory that CONTAINS SKILL.md and ends with /skill_name
+            # Find all matching paths for this skill
+            candidates = []
             for p in branch_files:
                 if p.endswith(f"/{skill_name}/SKILL.md") or p == f"{skill_name}/SKILL.md":
-                    skill_source_path = os.path.dirname(p)
+                    candidates.append(p)
+            
+            # Find the actual path of the skill in the remote, preferring non-dot directories
+            skill_source_path = None
+            best_candidate = None
+            for p in candidates:
+                parts = p.split('/')
+                # Check if any parent directory is a dot-directory
+                has_dot_dir = any(part.startswith('.') for part in parts[:-1])
+                if not has_dot_dir:
+                    best_candidate = p
                     break
             
-            if not skill_source_path and skill_source_path != '':
+            if not best_candidate and candidates:
+                best_candidate = candidates[0]
+                
+            if best_candidate or best_candidate == '':
+                skill_source_path = os.path.dirname(best_candidate)
+            
+            if skill_source_path is None:
                 print(f"Could not find source path for skill: {skill_name}. Skipping.")
                 failed_imports.append(f"{remote}:{skill_name}")
                 continue
