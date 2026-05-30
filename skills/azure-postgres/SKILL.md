@@ -1,7 +1,9 @@
 ---
 name: azure-postgres
-description: |-
-  Create new Azure Database for PostgreSQL Flexible Server instances and configure passwordless authentication with Microsoft Entra ID. Set up developer access, managed identities for apps, group-based permissions, and migrate from password-based to Entra ID authentication. Trigger phrases i...
+description: Create new Azure Database for PostgreSQL Flexible Server instances and
+  configure passwordless authentication with Microsoft Entra ID. Set up developer
+  access, managed identities for apps, group-based permissions, and migrate from password-based
+  to Entra ID authentication. Trigger phrases i...
 risk: safe
 source: community
 license: MIT

@@ -1,7 +1,9 @@
 ---
 name: kql
-description: |-
-  KQL language expertise for writing correct, efficient Kusto Query Language queries. Covers syntax gotchas, join patterns, dynamic types, datetime pitfalls, regex patterns, serialization, memory management, result-size discipline, and advanced functions (geo, vector, graph).
+description: KQL language expertise for writing correct, efficient Kusto Query Language
+  queries. Covers syntax gotchas, join patterns, dynamic types, datetime pitfalls,
+  regex patterns, serialization, memory management, result-size discipline, and advanced
+  functions (geo, vector, graph).
 risk: safe
 source: community
 license: MIT

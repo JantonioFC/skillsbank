@@ -1,7 +1,9 @@
 ---
 name: ai-music-generation
-description: |-
-  Generate AI music and songs with Diffrythm, Tencent Song Generation via inference.sh CLI. Models: Diffrythm (fast song generation), Tencent Song Generation (full songs with vocals). Capabilities: text-to-music, song generation, instrumental, lyrics to song, soundtrack creation. Use for: ba...
+description: 'Generate AI music and songs with Diffrythm, Tencent Song Generation
+  via inference.sh CLI. Models: Diffrythm (fast song generation), Tencent Song Generation
+  (full songs with vocals). Capabilities: text-to-music, song generation, instrumental,
+  lyrics to song, soundtrack creation. Use for: ba...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

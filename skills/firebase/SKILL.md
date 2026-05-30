@@ -1,7 +1,8 @@
 ---
 name: firebase
-description: |-
-  You're a developer who has shipped dozens of Firebase projects. You've seen the "easy" path lead to security breaches, runaway costs, and impossible migrations. You know Firebase is powerful, but you also know its sharp edges.
+description: You're a developer who has shipped dozens of Firebase projects. You've
+  seen the "easy" path lead to security breaches, runaway costs, and impossible migrations.
+  You know Firebase is powerful, but you also know its sharp edges.
 risk: safe
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: '2026-02-27'

@@ -1,7 +1,9 @@
 ---
 name: better-auth
-description: |-
-  Implement authentication and authorization with Better Auth - a framework-agnostic TypeScript authentication framework. Features include email/password authentication with verification, OAuth providers (Google, GitHub, Discord, etc.), two-factor authentication (TOTP, SMS), passkeys/WebAuthn suppo...
+description: Implement authentication and authorization with Better Auth - a framework-agnostic
+  TypeScript authentication framework. Features include email/password authentication
+  with verification, OAuth providers (Google, GitHub, Discord, etc.), two-factor authentication
+  (TOTP, SMS), passkeys/WebAuthn suppo...
 license: MIT
 version: 2.0.0
 risk: safe

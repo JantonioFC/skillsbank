@@ -1,7 +1,9 @@
 ---
 name: error-tracking
-description: |-
-  Add Sentry v8 error tracking and performance monitoring to your project services. Use this skill when adding error handling, creating new controllers, instrumenting cron jobs, or tracking database performance. ALL ERRORS MUST BE CAPTURED TO SENTRY - no exceptions.
+description: Add Sentry v8 error tracking and performance monitoring to your project
+  services. Use this skill when adding error handling, creating new controllers, instrumenting
+  cron jobs, or tracking database performance. ALL ERRORS MUST BE CAPTURED TO SENTRY
+  - no exceptions.
 risk: safe
 source: community
 license: MIT

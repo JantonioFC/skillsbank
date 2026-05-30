@@ -1,7 +1,8 @@
 ---
 name: azure-observability
-description: |-
-  Azure Observability Services including Azure Monitor, Application Insights, Log Analytics, Alerts, and Workbooks. Provides metrics, APM, distributed tracing, KQL queries, and interactive reports.
+description: Azure Observability Services including Azure Monitor, Application Insights,
+  Log Analytics, Alerts, and Workbooks. Provides metrics, APM, distributed tracing,
+  KQL queries, and interactive reports.
 risk: safe
 source: community
 license: MIT

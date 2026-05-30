@@ -1,9 +1,12 @@
 ---
 name: entra-agent-id
-description: |-
-  Microsoft Entra Agent ID (preview) for creating OAuth2-capable AI agent identities via Microsoft Graph beta API.
-  Covers Agent Identity Blueprints, BlueprintPrincipals, Agent Identities, required permissions, sponsors, and Workload Identity Federation.
-  Triggers: "agent identity", "agent id", "Agen...
+description: 'Microsoft Entra Agent ID (preview) for creating OAuth2-capable AI agent
+  identities via Microsoft Graph beta API.
+
+  Covers Agent Identity Blueprints, BlueprintPrincipals, Agent Identities, required
+  permissions, sponsors, and Workload Identity Federation.
+
+  Triggers: "agent identity", "agent id", "Agen...'
 risk: safe
 source: community
 license: MIT

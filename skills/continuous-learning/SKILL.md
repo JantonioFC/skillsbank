@@ -1,7 +1,7 @@
 ---
 name: continuous-learning
-description: |-
-  Automatically extract reusable patterns from Claude Code sessions and save them as learned skills for future use.
+description: Automatically extract reusable patterns from Claude Code sessions and
+  save them as learned skills for future use.
 origin: ECC
 risk: safe
 source: community

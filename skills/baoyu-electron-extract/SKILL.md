@@ -1,14 +1,17 @@
 ---
 name: baoyu-electron-extract
-description: Extracts resources and JavaScript from any installed Electron app (`.asar` bundle), restoring original sources from `.js.map` files when available or formatting minified code with Prettier otherwise. Use when user wants to "extract Electron app", "decompile Electron", "get the source code of <app>", "inspect app.asar", "看 Electron 应用源码", "提取 .asar", or asks how a desktop Electron app is built. Skips `node_modules` and supports both macOS and Windows.
+description: Extracts resources and JavaScript from any installed Electron app (`.asar`
+  bundle), restoring original sources from `.js.map` files when available or formatting
+  minified code with Prettier otherwise. Use when user wants to "extract Electron
+  app", "decompile Electron"...
 version: 1.119.0
 metadata:
   openclaw:
     homepage: https://github.com/JimLiu/baoyu-skills#baoyu-electron-extract
     requires:
       anyBins:
-        - bun
-        - npx
+      - bun
+      - npx
 ---
 
 # Electron App Extract

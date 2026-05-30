@@ -1,7 +1,9 @@
 ---
 name: analytics-tracking
-description: |-
-  Set up, audit, and debug analytics tracking implementation — GA4, Google Tag Manager, event taxonomy, conversion tracking, and data quality. Use when building a tracking plan from scratch, auditing existing analytics for gaps or errors, debugging missing events, or setting up GTM. Trigger keyword...
+description: Set up, audit, and debug analytics tracking implementation — GA4, Google
+  Tag Manager, event taxonomy, conversion tracking, and data quality. Use when building
+  a tracking plan from scratch, auditing existing analytics for gaps or errors, debugging
+  missing events, or setting up GTM. Trigger keyword...
 license: MIT
 metadata:
   version: 1.0.0

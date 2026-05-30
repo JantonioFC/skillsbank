@@ -1,7 +1,9 @@
 ---
 name: linux-shell-scripting
-description: |-
-  This skill should be used when the user asks to "create bash scripts", "automate Linux tasks", "monitor system resources", "backup files", "manage users", or "write production shell scripts". It provides ready-to-use shell script templates for system administration.
+description: This skill should be used when the user asks to "create bash scripts",
+  "automate Linux tasks", "monitor system resources", "backup files", "manage users",
+  or "write production shell scripts". It provides ready-to-use shell script templates
+  for system administration.
 metadata:
   author: zebbern
   version: '1.1'

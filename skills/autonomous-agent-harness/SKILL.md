@@ -1,7 +1,9 @@
 ---
 name: autonomous-agent-harness
-description: |-
-  Transform Claude Code into a fully autonomous agent system with persistent memory, scheduled operations, computer use, and task queuing. Replaces standalone agent frameworks (Hermes, AutoGPT) by leveraging Claude Code's native crons, dispatch, MCP tools, and memory.
+description: Transform Claude Code into a fully autonomous agent system with persistent
+  memory, scheduled operations, computer use, and task queuing. Replaces standalone
+  agent frameworks (Hermes, AutoGPT) by leveraging Claude Code's native crons, dispatch,
+  MCP tools, and memory.
 origin: ECC
 risk: safe
 source: community

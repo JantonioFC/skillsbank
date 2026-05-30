@@ -1,7 +1,9 @@
 ---
 name: top-web-vulnerabilities
-description: |-
-  This skill should be used when the user asks to "identify web application vulnerabilities", "explain common security flaws", "understand vulnerability categories", "learn about injection attacks", "review access control weaknesses", "analyze API security issues", "assess security misconfiguration...
+description: This skill should be used when the user asks to "identify web application
+  vulnerabilities", "explain common security flaws", "understand vulnerability categories",
+  "learn about injection attacks", "review access control weaknesses", "analyze API
+  security issues", "assess security misconfiguration...
 metadata:
   author: zebbern
   version: '1.1'

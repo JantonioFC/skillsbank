@@ -1,7 +1,9 @@
 ---
 name: c4-context
-description: |-
-  Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies. Synthesizes container and component documentation with system documentation to create comprehensive context-level architectu...
+description: Expert C4 Context-level documentation specialist. Creates high-level
+  system context diagrams, documents personas, user journeys, system features, and
+  external dependencies. Synthesizes container and component documentation with system
+  documentation to create comprehensive context-level architectu...
 metadata:
   model: sonnet
 risk: safe

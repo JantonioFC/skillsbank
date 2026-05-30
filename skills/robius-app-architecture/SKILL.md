@@ -1,9 +1,10 @@
 ---
 name: robius-app-architecture
-description: |-
-  CRITICAL: Use for Robius app architecture patterns. Triggers on:
+description: 'CRITICAL: Use for Robius app architecture patterns. Triggers on:
+
   Tokio, async, submit_async_request, 异步, 架构,
-  SignalToUI, Cx::post_action, worker task, app structure, MatchEvent, handle_startup
+
+  SignalToUI, Cx::post_action, worker task, app structure, MatchEvent, handle_startup'
 risk: safe
 source: community
 license: MIT

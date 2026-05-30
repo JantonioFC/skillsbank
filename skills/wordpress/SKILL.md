@@ -1,7 +1,7 @@
 ---
 name: wordpress
-description: |-
-  Complete WordPress development workflow covering theme development, plugin creation, WooCommerce integration, performance optimization, and security hardening.
+description: Complete WordPress development workflow covering theme development, plugin
+  creation, WooCommerce integration, performance optimization, and security hardening.
 category: workflow-bundle
 risk: safe
 source: personal

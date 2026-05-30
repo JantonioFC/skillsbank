@@ -1,7 +1,8 @@
 ---
 name: maxia
-description: |-
-  Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services. Earn USDC. 13 MCP tools, A2A protocol, DeFi yields, sentiment analysis, rug detection.
+description: Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell
+  AI services. Earn USDC. 13 MCP tools, A2A protocol, DeFi yields, sentiment analysis,
+  rug detection.
 risk: safe
 source: community
 tags:

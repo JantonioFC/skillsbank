@@ -1,7 +1,9 @@
 ---
 name: docs-seeker
-description: |-
-  Searching internet for technical documentation using llms.txt standard, GitHub repositories via Repomix, and parallel exploration. Use when user needs: (1) Latest documentation for libraries/frameworks, (2) Documentation in llms.txt format, (3) GitHub repository analysis, (4) Documentation withou...
+description: 'Searching internet for technical documentation using llms.txt standard,
+  GitHub repositories via Repomix, and parallel exploration. Use when user needs:
+  (1) Latest documentation for libraries/frameworks, (2) Documentation in llms.txt
+  format, (3) GitHub repository analysis, (4) Documentation withou...'
 version: 1.0.0
 risk: safe
 source: community

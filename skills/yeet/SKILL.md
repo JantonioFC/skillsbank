@@ -1,7 +1,7 @@
 ---
 name: yeet
-description: |-
-  Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).
+description: Use only when the user explicitly asks to stage, commit, push, and open
+  a GitHub pull request in one flow using the GitHub CLI (`gh`).
 risk: safe
 source: community
 license: MIT

@@ -1,7 +1,9 @@
 ---
 name: azure-ai
-description: |-
-  Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text...
+description: 'Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps
+  with search, vector/hybrid search, speech-to-text, text-to-speech, transcription,
+  OCR. WHEN: AI Search, query search, vector search, hybrid search, semantic search,
+  speech-to-text, text-to-speech, transcribe, OCR, convert text...'
 license: MIT
 metadata:
   author: Microsoft

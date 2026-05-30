@@ -1,7 +1,9 @@
 ---
 name: aspire-ts
-description: |-
-  Orchestrate JavaScript/TypeScript applications with .NET Aspire. Use when building Node.js APIs, React/Vue/Svelte frontends, or Vite apps that need service discovery, telemetry, and deployment orchestration via Aspire's AppHost. Covers AddViteApp, AddNodeApp, AddJavaScriptApp, package mana...
+description: Orchestrate JavaScript/TypeScript applications with .NET Aspire. Use
+  when building Node.js APIs, React/Vue/Svelte frontends, or Vite apps that need service
+  discovery, telemetry, and deployment orchestration via Aspire's AppHost. Covers
+  AddViteApp, AddNodeApp, AddJavaScriptApp, package mana...
 risk: offensive
 source: community
 license: MIT

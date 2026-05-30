@@ -1,7 +1,7 @@
 ---
 name: agent-designer
-description: |-
-  Use when the user asks to design multi-agent systems, create agent architectures, define agent communication patterns, or build autonomous agent workflows.
+description: Use when the user asks to design multi-agent systems, create agent architectures,
+  define agent communication patterns, or build autonomous agent workflows.
 risk: offensive
 source: community
 license: MIT

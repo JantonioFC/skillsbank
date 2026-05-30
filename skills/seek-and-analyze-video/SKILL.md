@@ -1,7 +1,7 @@
 ---
 name: seek-and-analyze-video
-description: |-
-  Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence
+description: Seek and analyze video content using Memories.ai Large Visual Memory
+  Model for persistent video intelligence
 category: data-ai
 risk: safe
 source: https://github.com/kennyzheng-builds/seek-and-analyze-video

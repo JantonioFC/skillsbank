@@ -1,7 +1,8 @@
 ---
 name: wiki-onboarding
-description: |-
-  Generates four audience-tailored onboarding guides in an onboarding/ folder — Contributor, Staff Engineer, Executive, and Product Manager. Use when the user wants onboarding documentation for a codebase.
+description: Generates four audience-tailored onboarding guides in an onboarding/
+  folder — Contributor, Staff Engineer, Executive, and Product Manager. Use when the
+  user wants onboarding documentation for a codebase.
 risk: offensive
 source: community
 license: MIT

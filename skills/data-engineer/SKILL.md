@@ -1,7 +1,9 @@
 ---
 name: data-engineer
-description: |-
-  Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms. Use PROACTIVELY for data pipeline design, analytics infrastructure, or modern data stack implementation.
+description: Build scalable data pipelines, modern data warehouses, and real-time
+  streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native
+  data platforms. Use PROACTIVELY for data pipeline design, analytics infrastructure,
+  or modern data stack implementation.
 metadata:
   model: opus
 risk: safe

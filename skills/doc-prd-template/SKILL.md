@@ -1,8 +1,8 @@
 ---
 id: doc-prd-template
 name: doc-prd-template
-description: |-
-  Genera documentos PRD (Product Requirements Document) para requisitos de producto.
+description: Genera documentos PRD (Product Requirements Document) para requisitos
+  de producto.
 category: documentacion-de-codigo
 risk: safe
 source: personal

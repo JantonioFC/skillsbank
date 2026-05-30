@@ -1,7 +1,8 @@
 ---
 name: engineer-skill-creator
-description: |-
-  Transform extracted engineer expertise into an actionable skill with progressive disclosure, allowing agents to find and apply relevant patterns for specific tasks.
+description: Transform extracted engineer expertise into an actionable skill with
+  progressive disclosure, allowing agents to find and apply relevant patterns for
+  specific tasks.
 risk: offensive
 source: community
 license: MIT

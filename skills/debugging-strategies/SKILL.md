@@ -1,7 +1,8 @@
 ---
 name: debugging-strategies
-description: |-
-  Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use when investigating bugs, performance issues, or unexpected behavior.
+description: Master systematic debugging techniques, profiling tools, and root cause
+  analysis to efficiently track down bugs across any codebase or technology stack.
+  Use when investigating bugs, performance issues, or unexpected behavior.
 risk: safe
 source: community
 license: MIT

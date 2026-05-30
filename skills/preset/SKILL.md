@@ -1,7 +1,9 @@
 ---
 name: preset
-description: |-
-  Intelligently deploys Azure OpenAI models to optimal regions by analyzing capacity across all available regions. Automatically checks current region first and shows alternatives if needed. USE FOR: quick deployment, optimal region, best region, automatic region selection, fast setup, multi-region...
+description: 'Intelligently deploys Azure OpenAI models to optimal regions by analyzing
+  capacity across all available regions. Automatically checks current region first
+  and shows alternatives if needed. USE FOR: quick deployment, optimal region, best
+  region, automatic region selection, fast setup, multi-region...'
 license: MIT
 metadata:
   author: Microsoft

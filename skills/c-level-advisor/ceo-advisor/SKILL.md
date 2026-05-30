@@ -1,7 +1,9 @@
 ---
 name: ceo-advisor
-description: |-
-  Executive leadership guidance for strategic decision-making, organizational development, and stakeholder management. Use when planning strategy, preparing board presentations, managing investors, developing organizational culture, making executive decisions, fundraising, or when user mentions CEO...
+description: Executive leadership guidance for strategic decision-making, organizational
+  development, and stakeholder management. Use when planning strategy, preparing board
+  presentations, managing investors, developing organizational culture, making executive
+  decisions, fundraising, or when user mentions CEO...
 license: MIT
 metadata:
   version: 2.0.0

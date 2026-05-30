@@ -1,7 +1,7 @@
 ---
 name: fp-validation
-description: |-
-  Validation patterns using fp-ts with error accumulation, form validation, and API input validation
+description: Validation patterns using fp-ts with error accumulation, form validation,
+  and API input validation
 version: 1.0.0
 author: kadu
 tags:

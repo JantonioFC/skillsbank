@@ -1,7 +1,7 @@
 ---
 name: i18n-localization
-description: |-
-  Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support.
+description: Internationalization and localization patterns. Detecting hardcoded strings,
+  managing translations, locale files, RTL support.
 allowed-tools: Read, Glob, Grep
 risk: safe
 source: community

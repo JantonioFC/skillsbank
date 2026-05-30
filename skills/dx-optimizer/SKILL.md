@@ -1,7 +1,8 @@
 ---
 name: dx-optimizer
-description: |-
-  Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed.
+description: Developer Experience specialist. Improves tooling, setup, and workflows.
+  Use PROACTIVELY when setting up new projects, after team feedback, or when development
+  friction is noticed.
 metadata:
   model: sonnet
 risk: safe

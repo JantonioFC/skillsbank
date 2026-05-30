@@ -1,7 +1,10 @@
 ---
 name: github-pr
-description: |
-  Create high-quality Pull Requests with conventional commits and proper descriptions. Trigger: When creating PRs, writing PR descriptions, or using gh CLI for pull requests.
+description: 'Create high-quality Pull Requests with conventional commits and proper
+  descriptions. Trigger: When creating PRs, writing PR descriptions, or using gh CLI
+  for pull requests.
+
+  '
 metadata:
   author: gentleman-programming
   version: '1.0'

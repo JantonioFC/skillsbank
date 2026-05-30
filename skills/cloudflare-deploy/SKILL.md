@@ -1,7 +1,8 @@
 ---
 name: cloudflare-deploy
-description: |-
-  Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.
+description: Deploy applications and infrastructure to Cloudflare using Workers, Pages,
+  and related platform services. Use when the user asks to deploy, host, publish,
+  or set up a project on Cloudflare.
 risk: safe
 source: community
 license: MIT

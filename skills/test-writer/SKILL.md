@@ -1,7 +1,7 @@
 ---
 name: test-writer
-description: |-
-  Generate comprehensive Vitest tests for code examples in JavaScript concept documentation pages, following project conventions and referencing source lines
+description: Generate comprehensive Vitest tests for code examples in JavaScript concept
+  documentation pages, following project conventions and referencing source lines
 risk: safe
 source: community
 license: MIT

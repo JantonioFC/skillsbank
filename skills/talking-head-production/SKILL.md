@@ -1,7 +1,9 @@
 ---
 name: talking-head-production
-description: |-
-  Talking head video production with AI avatars, lipsync, and voiceover. Covers portrait requirements, audio quality, OmniHuman, PixVerse lipsync, Dia TTS. Use for: spokesperson videos, course content, social media, presentations, demos. Triggers: talking head, avatar video, lipsync, lip syn...
+description: 'Talking head video production with AI avatars, lipsync, and voiceover.
+  Covers portrait requirements, audio quality, OmniHuman, PixVerse lipsync, Dia TTS.
+  Use for: spokesperson videos, course content, social media, presentations, demos.
+  Triggers: talking head, avatar video, lipsync, lip syn...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

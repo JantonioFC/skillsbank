@@ -1,7 +1,9 @@
 ---
 name: azure-diagnostics
-description: |-
-  Debug Azure production issues on Azure using AppLens, Azure Monitor, resource health, and safe triage. WHEN: debug production issues, troubleshoot container apps, troubleshoot functions, troubleshoot AKS, kubectl cannot connect, kube-system/CoreDNS failures, pod pending, crashloop, node not ready...
+description: 'Debug Azure production issues on Azure using AppLens, Azure Monitor,
+  resource health, and safe triage. WHEN: debug production issues, troubleshoot container
+  apps, troubleshoot functions, troubleshoot AKS, kubectl cannot connect, kube-system/CoreDNS
+  failures, pod pending, crashloop, node not ready...'
 license: MIT
 metadata:
   author: Microsoft

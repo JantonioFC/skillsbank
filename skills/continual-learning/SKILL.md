@@ -1,7 +1,8 @@
 ---
 name: continual-learning
-description: |-
-  Guide for implementing continual learning in AI coding agents — hooks, memory scoping, reflection patterns. Use when setting up learning infrastructure for agents.
+description: Guide for implementing continual learning in AI coding agents — hooks,
+  memory scoping, reflection patterns. Use when setting up learning infrastructure
+  for agents.
 risk: safe
 source: community
 license: MIT

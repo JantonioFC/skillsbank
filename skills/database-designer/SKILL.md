@@ -1,7 +1,7 @@
 ---
 name: database-designer
-description: |-
-  Use when the user asks to design database schemas, plan data migrations, optimize queries, choose between SQL and NoSQL, or model data relationships.
+description: Use when the user asks to design database schemas, plan data migrations,
+  optimize queries, choose between SQL and NoSQL, or model data relationships.
 risk: offensive
 source: community
 license: MIT

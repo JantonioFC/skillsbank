@@ -1,7 +1,9 @@
 ---
 name: data-visualization
-description: |-
-  Data visualization with chart selection, color theory, and annotation best practices. Covers chart types (bar, line, scatter, heatmap), axes rules, and storytelling with data. Use for: charts, graphs, dashboards, reports, presentations, infographics, data stories. Triggers: data visualizat...
+description: 'Data visualization with chart selection, color theory, and annotation
+  best practices. Covers chart types (bar, line, scatter, heatmap), axes rules, and
+  storytelling with data. Use for: charts, graphs, dashboards, reports, presentations,
+  infographics, data stories. Triggers: data visualizat...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

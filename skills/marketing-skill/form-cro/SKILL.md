@@ -1,7 +1,9 @@
 ---
 name: form-cro
-description: |-
-  When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions "form optimization," "lead form conversions," "form friction," "form fiel...
+description: When the user wants to optimize any form that is NOT signup/registration
+  — including lead capture forms, contact forms, demo request forms, application forms,
+  survey forms, or checkout forms. Also use when the user mentions "form optimization,"
+  "lead form conversions," "form friction," "form fiel...
 license: MIT
 metadata:
   version: 1.0.0

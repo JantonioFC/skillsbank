@@ -1,8 +1,10 @@
 ---
 name: azure-deploy-ms
-description: |-
-  Execute deployment to Azure. Final step after preparation and validation. Runs azd up, azd deploy, or infrastructure provisioning commands.
-  USE FOR: run azd up, run azd deploy, execute deployment, provision infrastructure, push to production, go live, ship it, deploy web app, deploy contai...
+description: 'Execute deployment to Azure. Final step after preparation and validation.
+  Runs azd up, azd deploy, or infrastructure provisioning commands.
+
+  USE FOR: run azd up, run azd deploy, execute deployment, provision infrastructure,
+  push to production, go live, ship it, deploy web app, deploy contai...'
 risk: safe
 source: community
 license: MIT

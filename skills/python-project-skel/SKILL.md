@@ -1,7 +1,9 @@
 ---
 name: python-project-skel
-description: |-
-  Generate production-ready Python project skeletons with Astral UV package manager, Hatchling build backend with dynamic versioning, and modern tooling (ruff, mypy, pytest, bandit). Use when creating new Python projects, initializing Python packages, setting up src-layout projects, scaffolding Pyt...
+description: Generate production-ready Python project skeletons with Astral UV package
+  manager, Hatchling build backend with dynamic versioning, and modern tooling (ruff,
+  mypy, pytest, bandit). Use when creating new Python projects, initializing Python
+  packages, setting up src-layout projects, scaffolding Pyt...
 risk: safe
 source: community
 license: MIT

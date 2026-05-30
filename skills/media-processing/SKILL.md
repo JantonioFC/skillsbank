@@ -1,7 +1,9 @@
 ---
 name: media-processing
-description: |-
-  Process multimedia files with FFmpeg (video/audio encoding, conversion, streaming, filtering, hardware acceleration) and ImageMagick (image manipulation, format conversion, batch processing, effects, composition). Use when converting media formats, encoding videos with specific codecs (H.264, H.2...
+description: Process multimedia files with FFmpeg (video/audio encoding, conversion,
+  streaming, filtering, hardware acceleration) and ImageMagick (image manipulation,
+  format conversion, batch processing, effects, composition). Use when converting
+  media formats, encoding videos with specific codecs (H.264, H.2...
 license: MIT
 risk: safe
 source: community

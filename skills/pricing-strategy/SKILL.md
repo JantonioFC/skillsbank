@@ -1,7 +1,9 @@
 ---
 name: pricing-strategy
-description: |-
-  When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I cha...
+description: When the user wants help with pricing decisions, packaging, or monetization
+  strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,'
+  'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness
+  to pay,' 'monetization,' 'how much should I cha...
 metadata:
   version: 1.1.0
 risk: safe

@@ -1,6 +1,7 @@
 ---
 name: ui-to-vue
-description: UIスクリーンショットやデザインエクスポートをVue 3コンポーネントに一括変換する際に使用。Vant、Element Plus、Ant Design Vueに対応。
+description: UIスクリーンショットやデザインエクスポートをVue 3コンポーネントに一括変換する際に使用。Vant、Element Plus、Ant
+  Design Vueに対応。
 origin: community
 ---
 

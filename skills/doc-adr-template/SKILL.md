@@ -1,8 +1,8 @@
 ---
 id: doc-adr-template
 name: doc-adr-template
-description: |-
-  Genera documentos ADR (Architectural Decision Record) para registrar decisiones arquitectónicas del proyecto.
+description: Genera documentos ADR (Architectural Decision Record) para registrar
+  decisiones arquitectónicas del proyecto.
 category: documentacion-de-codigo
 risk: safe
 source: personal

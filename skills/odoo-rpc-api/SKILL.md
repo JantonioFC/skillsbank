@@ -1,7 +1,8 @@
 ---
 name: odoo-rpc-api
-description: |-
-  Expert on Odoo's external JSON-RPC and XML-RPC APIs. Covers authentication, model calls, record CRUD, and real-world integration examples in Python, JavaScript, and curl.
+description: Expert on Odoo's external JSON-RPC and XML-RPC APIs. Covers authentication,
+  model calls, record CRUD, and real-world integration examples in Python, JavaScript,
+  and curl.
 risk: safe
 source: self
 license: MIT

@@ -1,20 +1,20 @@
 {
+    "affaan-m": [
+        "react-performance",
+        "react-testing"
+    ],
     "alirezarezvani": [
-        "ra-qm-skills",
-        "engineering-advanced-skills",
-        "c-level-skills",
-        "pm-skills",
-        "business-growth-skills",
-        "engineering-skills",
-        "product-skills",
-        "marketing-skills",
-        "finance-skills",
-        "pw"
+        "clinical-research",
+        "research-ops-skills",
+        "product-research",
+        "workflow-builder",
+        "research-finance",
+        "compliance-os-bundle"
     ],
     "coreyhaines": [
-        "co-marketing"
+        "marketing-plan"
     ],
-    "openai-skills": [
-        "hatch-pet"
+    "microsoft-skills": [
+        "finetuning"
     ]
 }

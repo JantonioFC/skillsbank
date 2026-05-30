@@ -1,9 +1,9 @@
 ---
 name: collision-zone-thinking
-description: |-
-  Force unrelated concepts together to discover emergent properties - "What if we treated X like Y?"
-when_to_use: |-
-  when conventional approaches feel inadequate and you need breakthrough innovation by forcing unrelated concepts together
+description: Force unrelated concepts together to discover emergent properties - "What
+  if we treated X like Y?"
+when_to_use: when conventional approaches feel inadequate and you need breakthrough
+  innovation by forcing unrelated concepts together
 version: 1.1.0
 risk: safe
 source: community

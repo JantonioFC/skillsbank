@@ -1,7 +1,9 @@
 ---
 name: onboarding-cro
-description: |-
-  When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions "onboarding flow," "activation rate," "user activation," "first-run experience," "empty states," "onboarding checklist," "aha moment," "new user experie...
+description: When the user wants to optimize post-signup onboarding, user activation,
+  first-run experience, or time-to-value. Also use when the user mentions "onboarding
+  flow," "activation rate," "user activation," "first-run experience," "empty states,"
+  "onboarding checklist," "aha moment," "new user experie...
 metadata:
   version: 1.1.0
 risk: safe

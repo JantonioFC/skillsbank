@@ -1,7 +1,7 @@
 ---
 name: clickhouse-io
-description: |-
-  ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.
+description: ClickHouse database patterns, query optimization, analytics, and data
+  engineering best practices for high-performance analytical workloads.
 risk: offensive
 source: community
 license: MIT

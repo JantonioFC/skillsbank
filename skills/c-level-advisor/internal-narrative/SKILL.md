@@ -1,7 +1,9 @@
 ---
 name: internal-narrative
-description: |-
-  Build and maintain one coherent company story across all audiences — employees, investors, customers, candidates, and partners. Detects narrative contradictions and ensures the same truth is framed for each audience's needs. Use when preparing investor updates, all-hands presentations, board comm...
+description: Build and maintain one coherent company story across all audiences —
+  employees, investors, customers, candidates, and partners. Detects narrative contradictions
+  and ensures the same truth is framed for each audience's needs. Use when preparing
+  investor updates, all-hands presentations, board comm...
 license: MIT
 metadata:
   version: 1.0.0

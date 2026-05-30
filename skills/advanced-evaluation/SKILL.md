@@ -1,7 +1,9 @@
 ---
 name: advanced-evaluation
-description: |-
-  This skill should be used when the user asks to "implement LLM-as-judge", "compare model outputs", "create evaluation rubrics", "mitigate evaluation bias", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.
+description: This skill should be used when the user asks to "implement LLM-as-judge",
+  "compare model outputs", "create evaluation rubrics", "mitigate evaluation bias",
+  or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines,
+  or automated quality assessment.
 risk: safe
 source: community
 license: MIT

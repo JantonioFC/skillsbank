@@ -1,7 +1,9 @@
 ---
 name: character-design-sheet
-description: |-
-  Character consistency across AI-generated images with reference sheets and LoRA techniques. Covers turnaround views, expression sheets, color palettes, and style consistency tricks. Use for: character design, game art, illustration, animation, comics, visual novels. Triggers: character des...
+description: 'Character consistency across AI-generated images with reference sheets
+  and LoRA techniques. Covers turnaround views, expression sheets, color palettes,
+  and style consistency tricks. Use for: character design, game art, illustration,
+  animation, comics, visual novels. Triggers: character des...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

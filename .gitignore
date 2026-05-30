@@ -43,3 +43,9 @@ apps/web-app/public/skills.json
 
 # Local duplicate/download artifacts
 skills/spline-3d-integration/*.zip
+
+# Local IDE and external directories
+.engram/
+.openclaw/
+Skills/
+

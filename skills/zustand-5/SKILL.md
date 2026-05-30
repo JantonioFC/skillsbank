@@ -1,7 +1,9 @@
 ---
 name: zustand-5
-description: |
-  Zustand 5 state management patterns. Trigger: When managing React state with Zustand.
+description: 'Zustand 5 state management patterns. Trigger: When managing React state
+  with Zustand.
+
+  '
 license: Apache-2.0
 metadata:
   author: gentleman-programming

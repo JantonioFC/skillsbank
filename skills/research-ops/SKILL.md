@@ -1,7 +1,8 @@
 ---
 name: research-ops
-description: |-
-  Evidence-first current-state research workflow for ECC. Use when the user wants fresh facts, comparisons, enrichment, or a recommendation built from current public evidence and any supplied local context.
+description: Evidence-first current-state research workflow for ECC. Use when the
+  user wants fresh facts, comparisons, enrichment, or a recommendation built from
+  current public evidence and any supplied local context.
 origin: ECC
 risk: safe
 source: community

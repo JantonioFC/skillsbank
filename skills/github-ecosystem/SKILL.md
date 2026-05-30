@@ -1,7 +1,9 @@
 ---
 name: github-ecosystem
-description: |-
-  Generate comprehensive GitHub ecosystem configuration including CI/CD workflows, issue templates, PR templates, CODEOWNERS, dependabot, and Copilot instructions. Language-agnostic with Python, Go, and TypeScript support. Auto-detects project language from pyproject.toml, go.mod, or package.json. ...
+description: Generate comprehensive GitHub ecosystem configuration including CI/CD
+  workflows, issue templates, PR templates, CODEOWNERS, dependabot, and Copilot instructions.
+  Language-agnostic with Python, Go, and TypeScript support. Auto-detects project
+  language from pyproject.toml, go.mod, or package.json. ...
 risk: safe
 source: community
 license: MIT

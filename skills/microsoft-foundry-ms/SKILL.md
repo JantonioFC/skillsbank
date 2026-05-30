@@ -1,8 +1,11 @@
 ---
 name: microsoft-foundry-ms
-description: |-
-  Use this skill to work with Microsoft Foundry (Azure AI Foundry): deploy AI models from catalog, build RAG applications with knowledge indexes, create and evaluate AI agents, manage RBAC permissions and role assignments, manage quotas and capacity, create Foundry resources.
-  USE FOR: Micros...
+description: 'Use this skill to work with Microsoft Foundry (Azure AI Foundry): deploy
+  AI models from catalog, build RAG applications with knowledge indexes, create and
+  evaluate AI agents, manage RBAC permissions and role assignments, manage quotas
+  and capacity, create Foundry resources.
+
+  USE FOR: Micros...'
 risk: safe
 source: community
 license: MIT

@@ -1,7 +1,9 @@
 ---
 name: devops
-description: |-
-  Deploy and manage cloud infrastructure on Cloudflare (Workers, R2, D1, KV, Pages, Durable Objects, Browser Rendering), Docker containers, and Google Cloud Platform (Compute Engine, GKE, Cloud Run, App Engine, Cloud Storage). Use when deploying serverless functions to the edge, configuring edge co...
+description: Deploy and manage cloud infrastructure on Cloudflare (Workers, R2, D1,
+  KV, Pages, Durable Objects, Browser Rendering), Docker containers, and Google Cloud
+  Platform (Compute Engine, GKE, Cloud Run, App Engine, Cloud Storage). Use when deploying
+  serverless functions to the edge, configuring edge co...
 license: MIT
 version: 1.0.0
 risk: safe

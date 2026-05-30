@@ -1,7 +1,9 @@
 ---
 name: dialogue-audio
-description: |-
-  Multi-speaker dialogue audio creation with Dia TTS. Covers speaker tags, emotion control, pacing, conversation flow, and post-production. Use for: podcasts, audiobooks, explainers, character dialogue, conversational content. Triggers: dialogue audio, multi speaker, conversation audio, dia ...
+description: 'Multi-speaker dialogue audio creation with Dia TTS. Covers speaker tags,
+  emotion control, pacing, conversation flow, and post-production. Use for: podcasts,
+  audiobooks, explainers, character dialogue, conversational content. Triggers: dialogue
+  audio, multi speaker, conversation audio, dia ...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

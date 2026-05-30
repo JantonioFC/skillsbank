@@ -1,11 +1,14 @@
 ---
 name: product-lens
-description: |-
-  - Before starting any feature — validate the "why"
+description: '- Before starting any feature — validate the "why"
+
   - Weekly product review — are we building the right thing?
+
   - When stuck choosing between features
+
   - Before a launch — sanity check the user journey
-  - When converting a vague idea into a spec
+
+  - When converting a vague idea into a spec'
 risk: safe
 source: community
 license: MIT

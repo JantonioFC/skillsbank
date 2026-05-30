@@ -1,7 +1,9 @@
 ---
 name: ai-automation-workflows
-description: |-
-  Build automated AI workflows combining multiple models and services. Patterns: batch processing, scheduled tasks, event-driven pipelines, agent loops. Tools: inference.sh CLI, bash scripting, Python SDK, webhook integration. Use for: content automation, data processing, monitoring, schedul...
+description: 'Build automated AI workflows combining multiple models and services.
+  Patterns: batch processing, scheduled tasks, event-driven pipelines, agent loops.
+  Tools: inference.sh CLI, bash scripting, Python SDK, webhook integration. Use for:
+  content automation, data processing, monitoring, schedul...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

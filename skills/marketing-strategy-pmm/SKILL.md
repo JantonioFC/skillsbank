@@ -1,7 +1,9 @@
 ---
 name: marketing-strategy-pmm
-description: |-
-  Product marketing skill for positioning, GTM strategy, competitive intelligence, and product launches. Use when the user asks about product positioning, go-to-market planning, competitive analysis, target audience definition, ICP definition, market research, launch plans, or sales enablement. Cov...
+description: Product marketing skill for positioning, GTM strategy, competitive intelligence,
+  and product launches. Use when the user asks about product positioning, go-to-market
+  planning, competitive analysis, target audience definition, ICP definition, market
+  research, launch plans, or sales enablement. Cov...
 triggers:
 - product marketing
 - PMM

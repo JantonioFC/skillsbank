@@ -1,7 +1,7 @@
 ---
 name: linux-troubleshooting
-description: |-
-  Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures.
+description: Linux system troubleshooting workflow for diagnosing and resolving system
+  issues, performance problems, and service failures.
 category: granular-workflow-bundle
 risk: safe
 source: personal

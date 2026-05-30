@@ -1,10 +1,12 @@
 ---
 name: safety-guard
-description: |-
-  - When working on production systems
+description: '- When working on production systems
+
   - When agents are running autonomously (full-auto mode)
+
   - When you want to restrict edits to a specific directory
-  - During sensitive operations (migrations, deploys, data changes)
+
+  - During sensitive operations (migrations, deploys, data changes)'
 risk: safe
 source: community
 license: MIT

@@ -1,7 +1,9 @@
 ---
 name: churn-prevention
-description: |-
-  When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit ...
+description: When the user wants to reduce churn, build cancellation flows, set up
+  save offers, recover failed payments, or implement retention strategies. Also use
+  when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,'
+  'failed payment recovery,' 'win-back,' 'retention,' 'exit ...
 metadata:
   version: 1.1.0
 risk: offensive

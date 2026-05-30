@@ -1,7 +1,9 @@
 ---
 name: imagegen
-description: |-
-  Use when the user asks to generate or edit images via the OpenAI Image API (for example: generate image, edit/inpaint/mask, background removal or replacement, transparent background, product shots, concept art, covers, or batch variants); run the bundled CLI (`scripts/image_gen.py`) and require `...
+description: 'Use when the user asks to generate or edit images via the OpenAI Image
+  API (for example: generate image, edit/inpaint/mask, background removal or replacement,
+  transparent background, product shots, concept art, covers, or batch variants);
+  run the bundled CLI (`scripts/image_gen.py`) and require `...'
 risk: safe
 source: community
 license: MIT

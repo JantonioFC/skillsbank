@@ -1,7 +1,9 @@
 ---
 name: backend-development
-description: |-
-  Build robust backend systems with modern technologies (Node.js, Python, Go, Rust), frameworks (NestJS, FastAPI, Django), databases (PostgreSQL, MongoDB, Redis), APIs (REST, GraphQL, gRPC), authentication (OAuth 2.1, JWT), testing strategies, security best practices (OWASP Top 10), performance opt...
+description: Build robust backend systems with modern technologies (Node.js, Python,
+  Go, Rust), frameworks (NestJS, FastAPI, Django), databases (PostgreSQL, MongoDB,
+  Redis), APIs (REST, GraphQL, gRPC), authentication (OAuth 2.1, JWT), testing strategies,
+  security best practices (OWASP Top 10), performance opt...
 license: MIT
 version: 1.0.0
 risk: offensive

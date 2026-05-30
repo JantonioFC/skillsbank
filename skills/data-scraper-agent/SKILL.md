@@ -1,7 +1,9 @@
 ---
 name: data-scraper-agent
-description: |-
-  Build a fully automated AI-powered data collection agent for any public source — job boards, prices, news, GitHub, sports, anything. Scrapes on a schedule, enriches data with a free LLM (Gemini Flash), stores results in Notion/Sheets/Supabase, and learns from user feedback. Runs 100% free on GitH...
+description: Build a fully automated AI-powered data collection agent for any public
+  source — job boards, prices, news, GitHub, sports, anything. Scrapes on a schedule,
+  enriches data with a free LLM (Gemini Flash), stores results in Notion/Sheets/Supabase,
+  and learns from user feedback. Runs 100% free on GitH...
 origin: community
 risk: offensive
 source: community

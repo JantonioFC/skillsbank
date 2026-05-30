@@ -1,7 +1,7 @@
 ---
 name: fp-pipe-flow
-description: |-
-  Master function composition in fp-ts using pipe and flow for building elegant, type-safe data transformation pipelines
+description: Master function composition in fp-ts using pipe and flow for building
+  elegant, type-safe data transformation pipelines
 version: 1.0.0
 author: Claude
 tags:

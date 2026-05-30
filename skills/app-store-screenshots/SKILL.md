@@ -1,7 +1,9 @@
 ---
 name: app-store-screenshots
-description: |-
-  App Store and Google Play screenshot creation with exact platform specs. Covers iOS/Android dimensions, gallery ordering, device mockups, and preview videos. Use for: app store optimization, ASO, app screenshots, app preview, play store listing. Triggers: app store screenshots, aso, app st...
+description: 'App Store and Google Play screenshot creation with exact platform specs.
+  Covers iOS/Android dimensions, gallery ordering, device mockups, and preview videos.
+  Use for: app store optimization, ASO, app screenshots, app preview, play store listing.
+  Triggers: app store screenshots, aso, app st...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

@@ -1,7 +1,9 @@
 ---
 name: agent-ui
-description: |-
-  Batteries-included agent component for React/Next.js from ui.inference.sh. One component with runtime, tools, streaming, approvals, and widgets built in. Capabilities: drop-in agent, human-in-the-loop, client-side tools, form filling. Use for: building AI chat interfaces, agentic UIs, SaaS...
+description: 'Batteries-included agent component for React/Next.js from ui.inference.sh.
+  One component with runtime, tools, streaming, approvals, and widgets built in. Capabilities:
+  drop-in agent, human-in-the-loop, client-side tools, form filling. Use for: building
+  AI chat interfaces, agentic UIs, SaaS...'
 risk: safe
 source: community
 license: MIT

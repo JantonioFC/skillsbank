@@ -1,7 +1,7 @@
 ---
 name: seo-review
-description: |-
-  Perform a focused SEO audit on JavaScript concept pages to maximize search visibility, featured snippet optimization, and ranking potential
+description: Perform a focused SEO audit on JavaScript concept pages to maximize search
+  visibility, featured snippet optimization, and ranking potential
 risk: safe
 source: community
 license: MIT

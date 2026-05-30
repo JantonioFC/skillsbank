@@ -1,7 +1,9 @@
 ---
 name: azure-ai-projects-dotnet
-description: |-
-  Azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections, datasets, deployments, evaluations, and indexes. Use for AI Foundry project management, versioned agents, and orchestration. Triggers: "AI Projects", "AIProjectClient", "Foundry project"...
+description: 'Azure AI Projects SDK for .NET. High-level client for Azure AI Foundry
+  projects including agents, connections, datasets, deployments, evaluations, and
+  indexes. Use for AI Foundry project management, versioned agents, and orchestration.
+  Triggers: "AI Projects", "AIProjectClient", "Foundry project"...'
 package: Azure.AI.Projects
 risk: safe
 source: community

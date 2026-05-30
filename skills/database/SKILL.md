@@ -1,7 +1,7 @@
 ---
 name: database
-description: |-
-  Database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering.
+description: Database development and operations workflow covering SQL, NoSQL, database
+  design, migrations, optimization, and data engineering.
 category: workflow-bundle
 risk: safe
 source: personal

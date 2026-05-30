@@ -1,7 +1,9 @@
 ---
 name: slides
-description: |-
-  Create and edit presentation slide decks (`.pptx`) with PptxGenJS, bundled layout helpers, and render/validation utilities. Use when tasks involve building a new PowerPoint deck, recreating slides from screenshots/PDFs/reference decks, modifying slide content while preserving editable output, add...
+description: Create and edit presentation slide decks (`.pptx`) with PptxGenJS, bundled
+  layout helpers, and render/validation utilities. Use when tasks involve building
+  a new PowerPoint deck, recreating slides from screenshots/PDFs/reference decks,
+  modifying slide content while preserving editable output, add...
 risk: safe
 source: community
 license: MIT

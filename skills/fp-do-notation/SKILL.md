@@ -1,7 +1,7 @@
 ---
 name: fp-do-notation
-description: |-
-  Master Do notation in fp-ts to write readable, sequential functional code without callback hell. Covers bind, apS, let, bindTo and real-world patterns.
+description: Master Do notation in fp-ts to write readable, sequential functional
+  code without callback hell. Covers bind, apS, let, bindTo and real-world patterns.
 version: 1.0.0
 author: fp-ts-skills
 tags:

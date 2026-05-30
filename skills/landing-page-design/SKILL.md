@@ -1,7 +1,9 @@
 ---
 name: landing-page-design
-description: |-
-  Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof placement, mobile design, and F-pattern reading. Use for: startup landing pages, product pages, SaaS marketing, conversion optimization. Triggers: la...
+description: 'Landing page conversion optimization with layout rules, hero section
+  design, and CTA psychology. Covers above-the-fold formula, social proof placement,
+  mobile design, and F-pattern reading. Use for: startup landing pages, product pages,
+  SaaS marketing, conversion optimization. Triggers: la...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

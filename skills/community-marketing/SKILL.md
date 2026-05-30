@@ -1,7 +1,9 @@
 ---
 name: community-marketing
-description: |-
-  Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-sig...
+description: Build and leverage online communities to drive product growth and brand
+  loyalty. Use when the user wants to create a community strategy, grow a Discord
+  or Slack community, manage a forum or subreddit, build brand advocates, increase
+  word-of-mouth, drive community-led growth, engage users post-sig...
 metadata:
   version: 1.0.0
 risk: safe

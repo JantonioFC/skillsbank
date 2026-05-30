@@ -1,7 +1,7 @@
 ---
 name: kubernetes-deployment
-description: |-
-  Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s configurations.
+description: Kubernetes deployment workflow for container orchestration, Helm charts,
+  service mesh, and production-ready K8s configurations.
 category: granular-workflow-bundle
 risk: safe
 source: personal

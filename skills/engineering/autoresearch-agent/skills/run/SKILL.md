@@ -1,7 +1,7 @@
 ---
 name: run
-description: |-
-  Run a single experiment iteration. Edit the target file, evaluate, keep or discard.
+description: Run a single experiment iteration. Edit the target file, evaluate, keep
+  or discard.
 command: /ar:run
 risk: offensive
 source: community

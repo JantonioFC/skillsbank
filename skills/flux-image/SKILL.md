@@ -1,7 +1,9 @@
 ---
 name: flux-image
-description: |-
-  Generate images with FLUX models (Black Forest Labs) via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA with custom style adaptation. Capabilities: text-to-image, image-to-image, LoRA fine-tuning, custom styles. Triggers: flux, flux.2, flux dev, flux schnell, flux pro, black fo...
+description: 'Generate images with FLUX models (Black Forest Labs) via inference.sh
+  CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA with custom style adaptation. Capabilities:
+  text-to-image, image-to-image, LoRA fine-tuning, custom styles. Triggers: flux,
+  flux.2, flux dev, flux schnell, flux pro, black fo...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

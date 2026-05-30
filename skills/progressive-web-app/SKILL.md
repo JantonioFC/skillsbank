@@ -1,7 +1,9 @@
 ---
 name: progressive-web-app
-description: |-
-  Build Progressive Web Apps (PWAs) with offline support, installability, and caching strategies. Trigger whenever the user mentions PWA, service workers, web app manifests, Workbox, 'add to home screen', or wants their web app to work offline, feel native, or be installable.
+description: Build Progressive Web Apps (PWAs) with offline support, installability,
+  and caching strategies. Trigger whenever the user mentions PWA, service workers,
+  web app manifests, Workbox, 'add to home screen', or wants their web app to work
+  offline, feel native, or be installable.
 risk: safe
 source: community
 date_added: '2026-03-17'

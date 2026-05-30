@@ -1,7 +1,7 @@
 ---
 name: fp-either-ref
-description: |-
-  Quick reference for Either type. Use when user needs error handling, validation, or operations that can fail with typed errors.
+description: Quick reference for Either type. Use when user needs error handling,
+  validation, or operations that can fail with typed errors.
 version: 1.0.0
 tags:
 - fp-ts

@@ -90,6 +90,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "_shared",
+    "path": "skills/_shared",
+    "category": "uncategorized",
+    "name": "_shared",
+    "description": "Shared SDD references for installed skills. Not invokable.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "a11y-audit",
     "path": "skills/engineering-team/a11y-audit",
     "category": "engineering-team",
@@ -120,6 +130,16 @@
     "date_added": null
   },
   {
+    "id": "ab-testing",
+    "path": "skills/ab-testing",
+    "category": "testing",
+    "name": "ab-testing",
+    "description": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "acceptance-orchestrator",
     "path": "skills/acceptance-orchestrator",
     "category": "workflow",
@@ -128,6 +148,16 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-12"
+  },
+  {
+    "id": "accessibility",
+    "path": "skills/accessibility",
+    "category": "mobile",
+    "name": "accessibility",
+    "description": "Design, implement, and audit inclusive digital products using WCAG 2.2 Level AA standards. Use this skill to generate semantic ARIA for Web and accessibility traits for Web and Native platforms (iOS/Android).",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
   },
   {
     "id": "accessibility-compliance",
@@ -200,6 +230,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "ads",
+    "path": "skills/ads",
+    "category": "uncategorized",
+    "name": "ads",
+    "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,'...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "advanced-evaluation",
     "path": "skills/advanced-evaluation",
     "category": "ai-ml",
@@ -237,6 +277,16 @@
     "description": "Create aesthetically beautiful interfaces following proven design principles. Use when building UI/UX, analyzing designs from inspiration sites, generating design images with ai-multimodal, implementing visual hierarchy and color theory, adding micro-interactions, or creating design documentation...",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "agent-architecture-audit",
+    "path": "skills/agent-architecture-audit",
+    "category": "ai-ml",
+    "name": "agent-architecture-audit",
+    "description": "\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u304a\u3088\u3073 LLM \u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u5411\u3051\u306e\u30d5\u30eb\u30b9\u30bf\u30c3\u30af\u8a3a\u65ad\u300212 \u5c64\u306e\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u30b9\u30bf\u30c3\u30af\u306b\u304a\u3051\u308b\u30e9\u30c3\u30d1\u30fc\u30ea\u30b0\u30ec\u30c3\u30b7\u30e7\u30f3\u3001\u30e1\u30e2\u30ea\u6c5a\u67d3\u3001\u30c4\u30fc\u30eb\u898f\u5f8b\u306e\u5931\u6557\u3001\u96a0\u308c\u305f\u4fee\u5fa9\u30eb\u30fc\u30d7\u3001\u30ec\u30f3\u30c0\u30ea\u30f3\u30b0\u7834\u640d\u3092\u76e3\u67fb\u3057\u307e\u3059\u3002\u91cd\u8981\u5ea6\u9806\u306e\u767a\u898b\u4e8b\u9805\u3068\u30b3\u30fc\u30c9\u30d5\u30a1\u30fc\u30b9\u30c8\u306e\u4fee\u6b63\u3092\u751f\u6210\u3057\u307e\u3059\u3002\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u3001\u81ea\u5f8b\u30eb\u30fc\u30d7\u3001\u307e\u305f\u306f LLM \u3092\u6d3b\u7528\u3057\u305f\u6a5f\u80fd\u3092\u69cb\u7bc9\u3059\u308b\u958b\u767a\u8005\u306b\u5fc5\u9808\u3067\u3059\u3002",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -550,6 +600,16 @@
     "date_added": null
   },
   {
+    "id": "agentic-os",
+    "path": "skills/agentic-os",
+    "category": "uncategorized",
+    "name": "agentic-os",
+    "description": "Claude Code \u4e0a\u306b\u6c38\u7d9a\u7684\u306a\u30de\u30eb\u30c1\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u30aa\u30da\u30ec\u30fc\u30c6\u30a3\u30f3\u30b0\u30b7\u30b9\u30c6\u30e0\u3092\u69cb\u7bc9\u3057\u307e\u3059\u3002\u30ab\u30fc\u30cd\u30eb\u30a2\u30fc\u30ad\u30c6\u30af\u30c1\u30e3\u3001\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u3001\u30b9\u30e9\u30c3\u30b7\u30e5\u30b3\u30de\u30f3\u30c9\u3001\u30d5\u30a1\u30a4\u30eb\u30d9\u30fc\u30b9\u306e\u30e1\u30e2\u30ea\u3001\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3055\u308c\u305f\u81ea\u52d5\u5316\u3001\u5916\u90e8\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u306a\u3057\u306e\u72b6\u614b\u7ba1\u7406\u3092\u30ab\u30d0\u30fc\u3057\u307e\u3059\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "agentmail",
     "path": "skills/agentmail",
     "category": "ai-ml",
@@ -597,6 +657,16 @@
     "description": "Agile product ownership for backlog management and sprint execution. Covers user story writing, acceptance criteria, sprint planning, and velocity tracking. Use for writing user stories, creating acceptance criteria, planning sprints, estimating story points, breaking down epics, or prioritizing ...",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "ai-act-readiness",
+    "path": "skills/ai-act-readiness",
+    "category": "ai-ml",
+    "name": "ai-act-readiness",
+    "description": "/cs:ai-act-readiness <system> \u2014 EU AI Act 6-question forcing interrogation. Use during AI-system intake, before EU deployment, or during annual compliance refresh as Article 113 obligations phase in (2025-02-02 / 2025-08-02 / 2026-08-02 / 2027-08-02).",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -890,6 +960,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "aims-audit",
+    "path": "skills/aims-audit",
+    "category": "uncategorized",
+    "name": "aims-audit",
+    "description": "/cs:aims-audit <scope> \u2014 ISO/IEC 42001 AIMS internal-audit 6-question forcing interrogation. Use before certification stage 1, before annual internal audit cycles, or when onboarding a new AI system into an existing AIMS.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "airflow-dag-patterns",
     "path": "skills/airflow-dag-patterns",
     "category": "workflow",
@@ -908,6 +988,16 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "airunway-aks-setup",
+    "path": "skills/airunway-aks-setup",
+    "category": "uncategorized",
+    "name": "airunway-aks-setup",
+    "description": "Set up AI Runway on AKS \u2014 from bare cluster to running model. Covers cluster verification, controller install, GPU assessment, provider setup, and first deployment. WHEN: \"setup AI Runway\", \"onboard AKS cluster\", \"install AI Runway\", \"airunway setup\", \"deploy model to AKS\"...",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
   },
   {
     "id": "algolia-search",
@@ -958,6 +1048,16 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "analytics",
+    "path": "skills/analytics",
+    "category": "uncategorized",
+    "name": "analytics",
+    "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "analytics-product",
@@ -1068,6 +1168,16 @@
     "risk": "safe",
     "source": "self",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "angular-developer",
+    "path": "skills/angular-developer",
+    "category": "web-development",
+    "name": "angular-developer",
+    "description": "Angular \u30b3\u30fc\u30c9\u3092\u751f\u6210\u3057\u3001\u30a2\u30fc\u30ad\u30c6\u30af\u30c1\u30e3 \u30ac\u30a4\u30c0\u30f3\u30b9\u3092\u63d0\u4f9b\u3057\u307e\u3059\u3002\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306e\u4f5c\u6210\u3001\u30b3\u30f3\u30dd\u30fc\u30cd\u30f3\u30c8\u3001\u307e\u305f\u306f\u30b5\u30fc\u30d3\u30b9\u3092\u4f5c\u6210\u3059\u308b\u3068\u304d\u3001\u307e\u305f\u306f\u53cd\u5fdc\u6027\uff08\u30b7\u30b0\u30ca\u30eb\u3001linkedSignal\u3001\u30ea\u30bd\u30fc\u30b9\uff09\u3001\u30d5\u30a9\u30fc\u30e0\u3001\u4f9d\u5b58\u6027\u6ce8\u5165\u3001\u30eb\u30fc\u30c6\u30a3\u30f3\u30b0\u3001SSR\u3001\u30a2\u30af\u30bb\u30b7\u30d3\u30ea\u30c6\u30a3\uff08ARIA\uff09\u3001\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3\u3001\u30b9\u30bf\u30a4\u30ea\u30f3\u30b0\uff08\u30b3\u30f3\u30dd\u30fc\u30cd\u30f3\u30c8 \u30b9\u30bf\u30a4\u30eb\u3001Tailwind CSS\uff09\u3001\u30c6\u30b9\u30c8\u3001\u307e\u305f\u306f CLI \u30c4\u30fc\u30eb\u4f5c\u6210\u306e\u30d9\u30b9\u30c8 \u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u3064\u3044\u3066\u30c8\u30ea\u30ac\u30fc\u3055\u308c\u307e\u3059\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "angular-migration",
@@ -1520,6 +1630,16 @@
     "date_added": null
   },
   {
+    "id": "applicationinsights-web-ts",
+    "path": "skills/applicationinsights-web-ts",
+    "category": "web-development",
+    "name": "applicationinsights-web-ts",
+    "description": "Instrument browser/web apps with the Application Insights JavaScript SDK (@microsoft/applicationinsights-web). Use for Real User Monitoring (RUM) \u2014 page views, clicks, AJAX/fetch dependencies, exceptions, custom events...",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
     "id": "applying-brand-guidelines",
     "path": "skills/applying-brand-guidelines",
     "category": "uncategorized",
@@ -1615,6 +1735,26 @@
     "category": "workflow",
     "name": "ask-questions-if-underspecified",
     "description": "Clarify requirements before implementing. Use when serious doubts arise.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "aso",
+    "path": "skills/aso",
+    "category": "uncategorized",
+    "name": "aso",
+    "description": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "aso-audit",
+    "path": "skills/aso-audit",
+    "category": "uncategorized",
+    "name": "aso-audit",
+    "description": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my...",
     "risk": "safe",
     "source": "community",
     "date_added": null
@@ -2050,6 +2190,46 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "azure-ai-projects-ts",
+    "path": "skills/azure-ai-projects-ts",
+    "category": "cloud",
+    "name": "Azure Ai Projects Ts",
+    "description": "High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "azure-appconfiguration-ts",
+    "path": "skills/azure-appconfiguration-ts",
+    "category": "cloud",
+    "name": "Azure Appconfiguration Ts",
+    "description": "Centralized configuration management with feature flags and dynamic refresh.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "azure-keyvault-secrets-ts",
+    "path": "skills/azure-keyvault-secrets-ts",
+    "category": "cloud",
+    "name": "Azure Keyvault Secrets Ts",
+    "description": "Manage secrets with Azure Key Vault.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "azure-search-documents-ts",
+    "path": "skills/azure-search-documents-ts",
+    "category": "cloud",
+    "name": "Azure Search Documents Ts",
+    "description": "Build search applications with vector, hybrid, and semantic search capabilities.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "azure-ai",
     "path": "skills/azure-ai",
     "category": "cloud",
@@ -2230,16 +2410,6 @@
     "date_added": null
   },
   {
-    "id": "azure-ai-projects-ts",
-    "path": "skills/azure-ai-projects-ts",
-    "category": "cloud",
-    "name": "azure-ai-projects-ts",
-    "description": "Build AI applications using Azure AI Projects SDK for JavaScript (@azure/ai-projects). Use when working with Foundry project clients, agents, connections, deployments, datasets, indexes, evaluations, or getting OpenAI clients.",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null
-  },
-  {
     "id": "azure-ai-textanalytics-py",
     "path": "skills/azure-ai-textanalytics-py",
     "category": "cloud",
@@ -2385,16 +2555,6 @@
     "category": "cloud",
     "name": "azure-appconfiguration-py",
     "description": "Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.\nTriggers: \"azure-appconfiguration\", \"AzureAppConfigurationClient\", \"feature flags\", \"configuration\", \"key-value settings\".\n",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null
-  },
-  {
-    "id": "azure-appconfiguration-ts",
-    "path": "skills/azure-appconfiguration-ts",
-    "category": "cloud",
-    "name": "azure-appconfiguration-ts",
-    "description": "Build applications using Azure App Configuration SDK for JavaScript (@azure/app-configuration). Use when working with configuration settings, feature flags, Key Vault references, dynamic refresh, or centralized configuration management.",
     "risk": "safe",
     "source": "community",
     "date_added": null
@@ -2860,16 +3020,6 @@
     "date_added": null
   },
   {
-    "id": "azure-keyvault-secrets-ts",
-    "path": "skills/azure-keyvault-secrets-ts",
-    "category": "cloud",
-    "name": "azure-keyvault-secrets-ts",
-    "description": "Manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets). Use when storing and retrieving application secrets or configuration values.",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null
-  },
-  {
     "id": "azure-kubernetes",
     "path": "skills/azure-kubernetes",
     "category": "cloud",
@@ -2877,6 +3027,16 @@
     "description": "Plan, create, and configure production-ready Azure Kubernetes Service (AKS) clusters. Covers Day-0 checklist, SKU selection (Automatic vs Standard), networking options (private API server, Azure CNI Overlay, egress configuration), security, and operations (autoscaling, upgrade strategy, cost anal...",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "azure-kubernetes-automatic-readiness",
+    "path": "skills/azure-kubernetes-automatic-readiness",
+    "category": "cloud",
+    "name": "azure-kubernetes-automatic-readiness",
+    "description": "Assess Kubernetes workloads and cluster configuration for AKS Automatic compatibility. Identifies incompatibilities, generates fixes, and guides migration from AKS Standard to AKS Automatic. WHEN: migrate to AKS Automatic, check AKS Automatic readiness, validate manifests for Automatic...",
+    "risk": "offensive",
+    "source": "microsoft",
     "date_added": null
   },
   {
@@ -3250,6 +3410,16 @@
     "date_added": null
   },
   {
+    "id": "azure-reliability",
+    "path": "skills/azure-reliability",
+    "category": "cloud",
+    "name": "azure-reliability",
+    "description": "Assess and improve the reliability posture of Azure Functions: zone redundancy, ZRS storage, health probes, multi-region failover. Scans deployed resources, presents a feature-pivoted checklist, then drives staged remediation (CLI or IaC patches) end-to-end with user confirmation...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "azure-resource-lookup",
     "path": "skills/azure-resource-lookup",
     "category": "cloud",
@@ -3375,16 +3545,6 @@
     "category": "cloud",
     "name": "azure-search-documents-py",
     "description": "Azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets.\nTriggers: \"azure-search-documents\", \"SearchClient\", \"SearchIndexClient\", \"vector search\", \"hybrid search\", \"semantic search\".\n",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null
-  },
-  {
-    "id": "azure-search-documents-ts",
-    "path": "skills/azure-search-documents-ts",
-    "category": "cloud",
-    "name": "azure-search-documents-ts",
-    "description": "Build search applications using Azure AI Search SDK for JavaScript (@azure/search-documents). Use when creating/managing indexes, implementing vector/hybrid search, semantic ranking, or building agentic retrieval with knowledge bases.",
     "risk": "safe",
     "source": "community",
     "date_added": null
@@ -3700,6 +3860,236 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "baoyu-article-illustrator",
+    "path": "skills/baoyu-article-illustrator",
+    "category": "uncategorized",
+    "name": "baoyu-article-illustrator",
+    "description": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type \u00d7 Style \u00d7 Palette three-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"\u4e3a\u6587\u7ae0\u914d\u56fe\".",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-comic",
+    "path": "skills/baoyu-comic",
+    "category": "uncategorized",
+    "name": "baoyu-comic",
+    "description": "Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and batch-capable image generation. Use when user asks to create \"\u77e5\u8bc6\u6f2b\u753b\", \"\u6559\u80b2\u6f2b\u753b\", \"biography comic\", \"tutorial comic\", or \"Logicomix-style comic\".",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-compress-image",
+    "path": "skills/baoyu-compress-image",
+    "category": "uncategorized",
+    "name": "baoyu-compress-image",
+    "description": "Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to \"compress image\", \"optimize image\", \"convert to webp\", or reduce image file size.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-cover-image",
+    "path": "skills/baoyu-cover-image",
+    "category": "uncategorized",
+    "name": "baoyu-cover-image",
+    "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 11 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", or \"make cover\".",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-danger-gemini-web",
+    "path": "skills/baoyu-danger-gemini-web",
+    "category": "backend",
+    "name": "baoyu-danger-gemini-web",
+    "description": "Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests \"generate image with Gemini\"...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-danger-x-to-markdown",
+    "path": "skills/baoyu-danger-x-to-markdown",
+    "category": "uncategorized",
+    "name": "baoyu-danger-x-to-markdown",
+    "description": "Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x.com/twitter.com URLs for conversion.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-diagram",
+    "path": "skills/baoyu-diagram",
+    "category": "uncategorized",
+    "name": "baoyu-diagram",
+    "description": "Create professional, dark-themed SVG diagrams of any type \u2014 architecture diagrams, flowcharts, sequence diagrams, structural diagrams, mind maps, timelines, illustrative/conceptual diagrams, and more. Use this skill whenever the user asks for any kind of technical or conceptual diagram...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-electron-extract",
+    "path": "skills/baoyu-electron-extract",
+    "category": "uncategorized",
+    "name": "baoyu-electron-extract",
+    "description": "Extracts resources and JavaScript from any installed Electron app (`.asar` bundle), restoring original sources from `.js.map` files when available or formatting minified code with Prettier otherwise. Use when user wants to \"extract Electron app\", \"decompile Electron\"...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-format-markdown",
+    "path": "skills/baoyu-format-markdown",
+    "category": "uncategorized",
+    "name": "baoyu-format-markdown",
+    "description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-image-cards",
+    "path": "skills/baoyu-image-cards",
+    "category": "uncategorized",
+    "name": "baoyu-image-cards",
+    "description": "Generates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for social media engagement. Use when user mentions \"\u5c0f\u7ea2\u4e66\u56fe\u7247\", \"\u5c0f\u7ea2\u4e66\u79cd\u8349\", \"\u5c0f\u7eff\u4e66\", \"\u5fae\u4fe1\u56fe\u6587\", \"\u5fae\u4fe1\u8d34\u56fe\", \"image cards\", \"\u56fe\u7247\u5361\u7247\"...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-image-gen",
+    "path": "skills/baoyu-image-gen",
+    "category": "ai-ml",
+    "name": "baoyu-image-gen",
+    "description": "AI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-imagine",
+    "path": "skills/baoyu-imagine",
+    "category": "ai-ml",
+    "name": "baoyu-imagine",
+    "description": "AI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-infographic",
+    "path": "skills/baoyu-infographic",
+    "category": "uncategorized",
+    "name": "baoyu-infographic",
+    "description": "Generate professional infographics with 21 layout types and 22 visual styles. Analyzes content, recommends layout\u00d7style combinations, and generates publication-ready infographics. Use when user asks to create \"infographic\", \"\u4fe1\u606f\u56fe\", \"visual summary\", \"\u53ef\u89c6\u5316\", or \"\u9ad8\u5bc6\u5ea6\u4fe1\u606f\u5927\u56fe\".",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-markdown-to-html",
+    "path": "skills/baoyu-markdown-to-html",
+    "category": "uncategorized",
+    "name": "baoyu-markdown-to-html",
+    "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, Mermaid (rendered to PNG via headless Chrome), PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-post-to-wechat",
+    "path": "skills/baoyu-post-to-wechat",
+    "category": "content",
+    "name": "baoyu-post-to-wechat",
+    "description": "Posts content to WeChat Official Account (\u5fae\u4fe1\u516c\u4f17\u53f7) via API or Chrome CDP. Supports article posting (\u6587\u7ae0) with HTML, markdown, or plain text input, and image-text posting (\u8d34\u56fe, formerly \u56fe\u6587) with multiple images...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-post-to-weibo",
+    "path": "skills/baoyu-post-to-weibo",
+    "category": "content",
+    "name": "baoyu-post-to-weibo",
+    "description": "Posts content to Weibo (\u5fae\u535a). Supports regular posts with text, images, and videos, and headline articles (\u5934\u6761\u6587\u7ae0) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"\u53d1\u5fae\u535a\", \"\u53d1\u5e03\u5fae\u535a\", \"publish to Weibo\", \"share on Weibo\", \"\u5199\u5fae\u535a\", or \"\u5fae\u535a\u5934\u6761\u6587\u7ae0\".",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-post-to-x",
+    "path": "skills/baoyu-post-to-x",
+    "category": "content",
+    "name": "baoyu-post-to-x",
+    "description": "Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). In Codex, honor explicit requests for the Codex Chrome plugin/@chrome by using the Chrome Extension workflow...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-slide-deck",
+    "path": "skills/baoyu-slide-deck",
+    "category": "uncategorized",
+    "name": "baoyu-slide-deck",
+    "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\".",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-translate",
+    "path": "skills/baoyu-translate",
+    "category": "uncategorized",
+    "name": "baoyu-translate",
+    "description": "Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), and refined (analyze, translate, review, polish). Supports custom glossaries and terminology consistency via EXTEND.md...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-url-to-markdown",
+    "path": "skills/baoyu-url-to-markdown",
+    "category": "uncategorized",
+    "name": "baoyu-url-to-markdown",
+    "description": "Fetch any URL and convert to markdown using baoyu-fetch CLI (Chrome CDP with site-specific adapters). Built-in adapters for X/Twitter, YouTube transcripts, Hacker News threads, and generic pages via Defuddle. Handles login/CAPTCHA via interaction wait modes...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-wechat-summary",
+    "path": "skills/baoyu-wechat-summary",
+    "category": "uncategorized",
+    "name": "baoyu-wechat-summary",
+    "description": "Summarizes WeChat group chat highlights into a structured digest using the local wx-cli binary (https://github.com/jackwener/wx-cli). Generates a normal digest by default; a roast (\u6bd2\u820c) version is opt-in...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-xhs-images",
+    "path": "skills/baoyu-xhs-images",
+    "category": "uncategorized",
+    "name": "baoyu-xhs-images",
+    "description": "Generates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for social media engagement. Use when user mentions \"\u5c0f\u7ea2\u4e66\u56fe\u7247\", \"\u5c0f\u7ea2\u4e66\u79cd\u8349\", \"\u5c0f\u7eff\u4e66\", \"\u5fae\u4fe1\u56fe\u6587\", \"\u5fae\u4fe1\u8d34\u56fe\", \"image cards\", \"\u56fe\u7247\u5361\u7247\", baoyu-xhs-images...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "baoyu-youtube-transcript",
+    "path": "skills/baoyu-youtube-transcript",
+    "category": "uncategorized",
+    "name": "baoyu-youtube-transcript",
+    "description": "Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "base",
     "path": "skills/base",
     "category": "database-processing",
@@ -3780,6 +4170,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "batch-operations",
+    "path": "skills/batch-operations",
+    "category": "uncategorized",
+    "name": "batch-operations",
+    "description": "Apply operations across multiple files simultaneously. Pattern-based bulk modifications, search-and-replace across codebases, consistent changes to many files at once.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "bats-testing-patterns",
     "path": "skills/bats-testing-patterns",
     "category": "testing",
@@ -3837,6 +4237,16 @@
     "description": "- Before and after a PR to measure performance impact\n- Setting up performance baselines for a project\n- When users report \"it feels slow\"\n- Before a launch \u2014 ensure you meet performance targets\n- Comparing your stack against alternatives",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "benchmark-optimization-loop",
+    "path": "skills/benchmark-optimization-loop",
+    "category": "uncategorized",
+    "name": "benchmark-optimization-loop",
+    "description": "Use when the user asks to make something faster, try many variants, run recursive optimization, benchmark latency/throughput/cost, or choose the best implementation by repeated measured tests.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -3908,6 +4318,16 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "blender-motion-state-inspection",
+    "path": "skills/blender-motion-state-inspection",
+    "category": "uncategorized",
+    "name": "blender-motion-state-inspection",
+    "description": "Use this skill when inspecting Blender characters, rigs, poses, animation retargeting, ground contact, facing direction, or model-vs-motion alignment where screenshots alone are not enough.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "blockchain-developer",
@@ -4077,6 +4497,16 @@
     "description": "Socratic questioning protocol + user communication. MANDATORY for complex requests, new features, or unclear requirements. Includes progress reporting and error handling.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "branch-pr",
+    "path": "skills/branch-pr",
+    "category": "uncategorized",
+    "name": "branch-pr",
+    "description": "Create Gentle AI pull requests with issue-first checks. Trigger: creating, opening, or preparing PRs for review.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -4310,6 +4740,16 @@
     "date_added": null
   },
   {
+    "id": "business-growth-skills",
+    "path": "skills/business-growth-skills",
+    "category": "business",
+    "name": "business-growth-skills",
+    "description": "4 business growth agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Customer success (health scoring, churn), sales engineer (RFP), revenue operations (pipeline, GTM), contract & proposal writer. Python tools (stdlib-only).",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
     "id": "busybox-on-windows",
     "path": "skills/busybox-on-windows",
     "category": "development",
@@ -4322,6 +4762,16 @@
   {
     "id": "c-level-advisor",
     "path": "skills/c-level-advisor",
+    "category": "uncategorized",
+    "name": "c-level-advisor",
+    "description": "10 C-level advisory agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, Executive Mentor. Multi-role board meetings, strategy routing, structured recommendations. For founders needing executive-level decision support.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "c-level-skills",
+    "path": "skills/c-level-skills",
     "category": "uncategorized",
     "name": "c-level-advisor",
     "description": "10 C-level advisory agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, Executive Mentor. Multi-role board meetings, strategy routing, structured recommendations. For founders needing executive-level decision support.",
@@ -4670,6 +5120,16 @@
     "date_added": null
   },
   {
+    "id": "chained-pr",
+    "path": "skills/chained-pr",
+    "category": "uncategorized",
+    "name": "chained-pr",
+    "description": "Trigger: PRs over 400 lines, stacked PRs, review slices. Split oversized changes into chained PRs that protect review focus.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "challenge",
     "path": "skills/c-level-advisor/executive-mentor/skills/challenge",
     "category": "uncategorized",
@@ -4897,6 +5357,16 @@
     "description": "Cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "cisco-ios-patterns",
+    "path": "skills/cisco-ios-patterns",
+    "category": "uncategorized",
+    "name": "cisco-ios-patterns",
+    "description": "show\u30b3\u30de\u30f3\u30c9\u3001\u30b3\u30f3\u30d5\u30a3\u30b0\u968e\u5c64\u3001\u30ef\u30a4\u30eb\u30c9\u30ab\u30fc\u30c9\u30de\u30b9\u30af\u3001ACL\u914d\u7f6e\u3001\u30a4\u30f3\u30bf\u30fc\u30d5\u30a7\u30fc\u30b9\u30cf\u30a4\u30b8\u30fc\u30f3\u3001\u5b89\u5168\u306a\u5909\u66f4\u30a6\u30a3\u30f3\u30c9\u30a6\u691c\u8a3c\u306e\u305f\u3081\u306eCisco IOS\u304a\u3088\u3073IOS-XE\u30ec\u30d3\u30e5\u30fc\u30d1\u30bf\u30fc\u30f3\u3002",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -5140,6 +5610,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "clinical-research",
+    "path": "skills/clinical-research",
+    "category": "uncategorized",
+    "name": "clinical-research",
+    "description": "Use when designing a prospective clinical study before submission \u2014 selecting and classifying endpoints (primary / key-secondary / exploratory, with surrogate-endpoint flagging), estimating sample size and power for two-arm designs (means / proportions / survival)...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "close-automation",
     "path": "skills/close-automation",
     "category": "uncategorized",
@@ -5235,6 +5715,16 @@
     "category": "c-level-advisor",
     "name": "cmo-advisor",
     "description": "Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design. Use when designing brand strategy, selecting growth models (PLG vs sales-led vs community-led), allocating marketing budgets, building marketing teams, or whe...",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "co-marketing",
+    "path": "skills/co-marketing",
+    "category": "uncategorized",
+    "name": "co-marketing",
+    "description": "When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who should we partner with,' 'integration marketing,' 'cross-promotion,' 'collaborate with another...",
     "risk": "safe",
     "source": "community",
     "date_added": null
@@ -5337,6 +5827,16 @@
     "description": "Master effective code review practices to provide constructive feedback, catch bugs early, and foster knowledge sharing while maintaining team morale. Use when reviewing pull requests, establishing review standards, or mentoring developers.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "code-review-graph",
+    "path": "skills/code-review-graph",
+    "category": "development",
+    "name": "code-review-graph",
+    "description": "Token-efficient code review using Tree-sitter AST graphs and MCP. Reduces AI assistant token usage by 6.8\u201349x by computing blast radius of changes instead of reading entire codebases. Uses SQLite graph database for structural analysis.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -5480,6 +5980,16 @@
     "date_added": null
   },
   {
+    "id": "cognitive-doc-design",
+    "path": "skills/cognitive-doc-design",
+    "category": "uncategorized",
+    "name": "cognitive-doc-design",
+    "description": "Design docs that reduce cognitive load. Trigger: writing guides, READMEs, RFCs, onboarding, architecture, or review-facing docs.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "cold-email",
     "path": "skills/cold-email",
     "category": "uncategorized",
@@ -5518,6 +6028,26 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06"
+  },
+  {
+    "id": "command-guide",
+    "path": "skills/command-guide",
+    "category": "ai-ml",
+    "name": "command-guide",
+    "description": "Claude Code Command Selection Guide - Automatically recommend and select the right commands, agents, and skills in Claude Code. Use when: (1) user is unsure which command or tool to use, (2) needs to decide which agent/skill best fits the current task, (3) querying usage scenarios for /plan...",
+    "risk": "offensive",
+    "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "comment-writer",
+    "path": "skills/comment-writer",
+    "category": "automation",
+    "name": "comment-writer",
+    "description": "Write warm, direct collaboration comments. Trigger: PR feedback, issue replies, reviews, Slack messages, or GitHub comments.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "commit",
@@ -5630,6 +6160,16 @@
     "date_added": null
   },
   {
+    "id": "competitor-profiling",
+    "path": "skills/competitor-profiling",
+    "category": "uncategorized",
+    "name": "competitor-profiling",
+    "description": "When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my...",
+    "risk": "offensive",
+    "source": "community",
+    "date_added": null
+  },
+  {
     "id": "competitor-teardown",
     "path": "skills/competitor-teardown",
     "category": "business",
@@ -5637,6 +6177,46 @@
     "description": "Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, and visual deliverables. Use for: market research, competitive intelligence, investor decks, product strategy, sales enablement. Trig...",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "competitors",
+    "path": "skills/competitors",
+    "category": "business",
+    "name": "competitors",
+    "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "compliance-os",
+    "path": "skills/compliance-os",
+    "category": "uncategorized",
+    "name": "compliance-os",
+    "description": "Compliance OS \u2014 meta-orchestrator that lets compliance teams CONFIGURE which frameworks apply, COMPUTE cross-framework control overlap, SIMULATE internal audits, and CONSOLIDATE evidence across multiple frameworks...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "compliance-os-bundle",
+    "path": "skills/compliance-os-bundle",
+    "category": "uncategorized",
+    "name": "compliance-os",
+    "description": "Compliance OS \u2014 meta-orchestrator that lets compliance teams CONFIGURE which frameworks apply, COMPUTE cross-framework control overlap, SIMULATE internal audits, and CONSOLIDATE evidence across multiple frameworks...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "compliance-readiness",
+    "path": "skills/compliance-readiness",
+    "category": "uncategorized",
+    "name": "compliance-readiness",
+    "description": "/cs:compliance-readiness <program> \u2014 Multi-framework compliance officer 6-question forcing interrogation of any compliance program. Use before starting a new framework, planning the annual audit calendar, or preparing for certification stage 1.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -6220,6 +6800,16 @@
     "date_added": null
   },
   {
+    "id": "coordinator-mode",
+    "path": "skills/coordinator-mode",
+    "category": "ai-ml",
+    "name": "coordinator-mode",
+    "description": "Advanced multi-agent orchestration with parallel workers, synthesis protocols, and coordinator lifecycle. Use when complex tasks require multiple agents working in parallel with intelligent result synthesis.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "copilot-sdk",
     "path": "skills/copilot-sdk",
     "category": "uncategorized",
@@ -6307,6 +6897,16 @@
     "description": "Optimize cloud costs through resource rightsizing, tagging strategies, reserved instances, and spending analysis. Use when reducing cloud expenses, analyzing infrastructure costs, or implementing cost governance policies.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "cost-tracking",
+    "path": "skills/cost-tracking",
+    "category": "uncategorized",
+    "name": "cost-tracking",
+    "description": "\u30ed\u30fc\u30ab\u30eb\u306e\u30b3\u30b9\u30c8\u8ffd\u8de1\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u304b\u3089Claude Code\u306e\u30c8\u30fc\u30af\u30f3\u4f7f\u7528\u91cf\u3001\u652f\u51fa\u3001\u4e88\u7b97\u3092\u8ffd\u8de1\u30fb\u30ec\u30dd\u30fc\u30c8\u3057\u307e\u3059\u3002\u30b3\u30b9\u30c8\u3001\u652f\u51fa\u3001\u4f7f\u7528\u91cf\u3001\u30c8\u30fc\u30af\u30f3\u3001\u4e88\u7b97\u3001\u307e\u305f\u306f\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3001\u30c4\u30fc\u30eb\u3001\u30bb\u30c3\u30b7\u30e7\u30f3\u3001\u65e5\u4ed8\u306b\u3088\u308b\u30b3\u30b9\u30c8\u5185\u8a33\u306b\u3064\u3044\u3066\u8cea\u554f\u3059\u308b\u5834\u5408\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -6458,6 +7058,16 @@
     "risk": "safe",
     "source": "vibeship-spawner-skills (Apache 2.0)",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "cro",
+    "path": "skills/cro",
+    "category": "uncategorized",
+    "name": "cro",
+    "description": "When the user wants to optimize, improve, or increase conversions on any marketing page or form \u2014 including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "cro-advisor",
@@ -6788,6 +7398,16 @@
     "risk": "safe",
     "source": "https://github.com/k-kolomeitsev/data-structure-protocol",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "data-throughput-accelerator",
+    "path": "skills/data-throughput-accelerator",
+    "category": "data-science",
+    "name": "data-throughput-accelerator",
+    "description": "Use when large data ingestion, backfill, export, ETL, warehouse loading, manifest catch-up, or table synchronization needs to become much faster while preserving data correctness.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "data-visualization",
@@ -7150,6 +7770,16 @@
     "date_added": null
   },
   {
+    "id": "define-goal",
+    "path": "skills/define-goal",
+    "category": "uncategorized",
+    "name": "define-goal",
+    "description": "Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "defuddle",
     "path": "skills/defuddle",
     "category": "content",
@@ -7440,6 +8070,16 @@
     "date_added": null
   },
   {
+    "id": "directory-submissions",
+    "path": "skills/directory-submissions",
+    "category": "uncategorized",
+    "name": "directory-submissions",
+    "description": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory submissions,\" \"submit to directories,\" \"backlinks from directories,\" \"list my product,\" \"submit to...",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
     "id": "discord-automation",
     "path": "skills/discord-automation",
     "category": "api-integration",
@@ -7497,6 +8137,16 @@
     "description": "django-access-review",
     "risk": "offensive",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "django-celery",
+    "path": "skills/django-celery",
+    "category": "backend",
+    "name": "django-celery",
+    "description": "Django\u304a\u3088\u3073Celery\u3092\u4f7f\u7528\u3057\u305f\u975e\u540c\u671f\u30bf\u30b9\u30af\u51e6\u7406\u3002\u30bf\u30b9\u30af\u30ad\u30e5\u30fc\u30a4\u30f3\u30b0\u3001\u30ef\u30fc\u30ab\u30fc\u7ba1\u7406\u3001\u30a8\u30e9\u30fc\u51e6\u7406\u3001\u30b9\u30b1\u30b8\u30e5\u30fc\u30ea\u30f3\u30b0\u3002Redis/RabbitMQ \u30d6\u30ed\u30fc\u30ab\u30fc\u7d71\u5408\u3002",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -7990,6 +8640,16 @@
     "date_added": "2026-03-06"
   },
   {
+    "id": "ecc-guide",
+    "path": "skills/ecc-guide",
+    "category": "uncategorized",
+    "name": "ecc-guide",
+    "description": "ECC \u306e\u73fe\u5728\u306e\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u3001\u30b9\u30ad\u30eb\u3001\u30b3\u30de\u30f3\u30c9\u3001\u30d5\u30c3\u30af\u3001\u30eb\u30fc\u30eb\u3001\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u30d7\u30ed\u30d5\u30a1\u30a4\u30eb\u3001\u304a\u3088\u3073\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30aa\u30f3\u30dc\u30fc\u30c7\u30a3\u30f3\u30b0\u3092\u30ac\u30a4\u30c9\u3057\u3066\u3044\u307e\u3059\u3002\u30e9\u30a4\u30d6\u30ea\u30dd\u30b8\u30c8\u30ea\u30b5\u30fc\u30d5\u30a7\u30b9\u3092\u8aad\u3093\u3067\u304b\u3089\u56de\u7b54\u3059\u308b\u3088\u3046\u30e6\u30fc\u30b6\u30fc\u3092\u30ac\u30a4\u30c9\u3057\u307e\u3059\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "ecc-tools-cost-audit",
     "path": "skills/ecc-tools-cost-audit",
     "category": "uncategorized",
@@ -8110,6 +8770,16 @@
     "date_added": null
   },
   {
+    "id": "emails",
+    "path": "skills/emails",
+    "category": "uncategorized",
+    "name": "emails",
+    "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "embedding-strategies",
     "path": "skills/embedding-strategies",
     "category": "data-ai",
@@ -8175,6 +8845,26 @@
     "category": "uncategorized",
     "name": "engineering",
     "description": "25 advanced engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Agent design, RAG, MCP servers, CI/CD, database design, observability, security auditing, release management, platform ops.",
+    "risk": "offensive",
+    "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "engineering-advanced-skills",
+    "path": "skills/engineering-advanced-skills",
+    "category": "uncategorized",
+    "name": "engineering-advanced-skills",
+    "description": "25 advanced engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Agent design, RAG, MCP servers, CI/CD, database design, observability, security auditing, release management, platform ops.",
+    "risk": "offensive",
+    "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "engineering-skills",
+    "path": "skills/engineering-skills",
+    "category": "uncategorized",
+    "name": "engineering-skills",
+    "description": "23 engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more tools. Architecture, frontend, backend, QA, DevOps, security, AI/ML, data engineering, Playwright, Stripe, AWS, MS365. 30+ Python tools (stdlib-only).",
     "risk": "offensive",
     "source": "community",
     "date_added": null
@@ -8347,6 +9037,16 @@
     "description": "Use when working with error diagnostics smart debug",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "error-handling",
+    "path": "skills/error-handling",
+    "category": "development",
+    "name": "error-handling",
+    "description": "TypeScript\u3001Python\u3001Go\u306b\u308f\u305f\u308b\u5805\u7262\u306a\u30a8\u30e9\u30fc\u51e6\u7406\u306e\u30d1\u30bf\u30fc\u30f3\u3002\u578b\u4ed8\u304d\u30a8\u30e9\u30fc\u3001\u30a8\u30e9\u30fc\u5883\u754c\u3001\u30ea\u30c8\u30e9\u30a4\u3001\u30b5\u30fc\u30ad\u30c3\u30c8\u30d6\u30ec\u30fc\u30ab\u30fc\u3001\u30e6\u30fc\u30b6\u30fc\u5411\u3051\u30a8\u30e9\u30fc\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u30ab\u30d0\u30fc\u3057\u307e\u3059\u3002",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -8710,6 +9410,16 @@
     "date_added": null
   },
   {
+    "id": "fastapi-patterns",
+    "path": "skills/fastapi-patterns",
+    "category": "backend",
+    "name": "fastapi-patterns",
+    "description": "\u975e\u540c\u671fAPI\u3001\u4f9d\u5b58\u6027\u6ce8\u5165\u3001Pydantic\u306e\u30ea\u30af\u30a8\u30b9\u30c8\u30fb\u30ec\u30b9\u30dd\u30f3\u30b9\u30e2\u30c7\u30eb\u3001OpenAPI\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u3001\u30c6\u30b9\u30c8\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u3001\u672c\u756a\u5bfe\u5fdc\u306e\u305f\u3081\u306eFastAPI\u30d1\u30bf\u30fc\u30f3\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "fastapi-pro",
     "path": "skills/fastapi-pro",
     "category": "framework",
@@ -8787,6 +9497,16 @@
     "description": "Expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "fda-qsr-audit-prep",
+    "path": "skills/fda-qsr-audit-prep",
+    "category": "uncategorized",
+    "name": "fda-qsr-audit-prep",
+    "description": "/cs:fda-qsr-audit-prep <scope> \u2014 FDA 21 CFR 820 (QSR / QMSR) audit 6-question forcing interrogation. Post-Feb 2026 substantially harmonized with ISO 13485. Use before annual internal QSR audit, pre-FDA-inspection readiness, or Form 483 response.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -8960,6 +9680,16 @@
     "date_added": null
   },
   {
+    "id": "finance-skills",
+    "path": "skills/finance-skills",
+    "category": "uncategorized",
+    "name": "finance-skills",
+    "description": "Financial analyst agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Ratio analysis, DCF valuation, budget variance, rolling forecasts. 4 Python tools (stdlib-only).",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
     "id": "financial-analyst",
     "path": "skills/financial-analyst",
     "category": "uncategorized",
@@ -8997,6 +9727,16 @@
     "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an insta...",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "finetuning",
+    "path": "skills/finetuning",
+    "category": "ai-ml",
+    "name": "finetuning",
+    "description": "Fine-tune models on Azure AI Foundry using SFT (supervised), DPO (preference), or RFT (reinforcement with graders). Covers dataset preparation, training job submission, deployment, and evaluation. USE FOR: fine-tune, SFT, DPO, RFT, training data, grader, distillation, fine-tuned model...",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -9117,6 +9857,16 @@
     "description": "Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "flox-environments",
+    "path": "skills/flox-environments",
+    "category": "uncategorized",
+    "name": "flox-environments",
+    "description": "Flox\u3067\u518d\u73fe\u53ef\u80fd\u306a\u30af\u30ed\u30b9\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u958b\u767a\u74b0\u5883\u3092\u4f5c\u6210\u3057\u307e\u3059 \u2014 Nix\u306b\u57fa\u3065\u304f\u5ba3\u8a00\u7684\u306a\u74b0\u5883\u30de\u30cd\u30fc\u30b8\u30e3\u30fc\u3002\u6b21\u306e\u5834\u5408\u306f\u5fc5\u305a\u3053\u306e\u30b9\u30ad\u30eb\u3092\u4f7f\u7528\u3057\u3066\u304f\u3060\u3055\u3044: \u30b7\u30b9\u30c6\u30e0\u30ec\u30d9\u30eb\u306e\u4f9d\u5b58\u95a2\u4fc2\uff08\u30b3\u30f3\u30d1\u30a4\u30e9\u30fc\u3001\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3001openssl\u30fblibvips\u30fbBLAS\u30fbLAPACK\u306a\u3069\u306e\u30cd\u30a4\u30c6\u30a3\u30d6\u30e9\u30a4\u30d6\u30e9\u30ea\u30fc\uff09\u3092\u6301\u3064\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u8a2d\u5b9a\u3059\u308b\u5834\u5408; Python\u3001Node.js\u3001Rust\u3001Go\u3001C/C++\u3001Java\u3001Ruby\u3001Elixir\u3001PHP\u3001\u305d\u306e\u4ed6\u306e\u8a00\u8a9e\u306e\u518d\u73fe\u53ef\u80fd\u306a\u30c4\u30fc\u30eb\u30c1\u30a7\u30fc\u30f3\u3092\u8a2d\u5b9a\u3059\u308b\u5834\u5408; macOS\u3068Linux\u9593\u3067\u540c\u4e00\u306b\u52d5\u4f5c\u3059\u308b\u74b0\u5883\u3092\u7ba1\u7406\u3059\u308b\u5834\u5408...",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -9530,6 +10280,16 @@
     "date_added": null
   },
   {
+    "id": "free-tools",
+    "path": "skills/free-tools",
+    "category": "uncategorized",
+    "name": "free-tools",
+    "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes \u2014 lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "freshdesk-automation",
     "path": "skills/freshdesk-automation",
     "category": "automation",
@@ -9550,6 +10310,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "frontend-a11y",
+    "path": "skills/frontend-a11y",
+    "category": "web-development",
+    "name": "frontend-a11y",
+    "description": "Accessibility patterns for React and Next.js \u2014 semantic HTML, ARIA attributes, form labeling, keyboard navigation, focus management, and screen reader support. Use when building any interactive UI component or form.\n",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "frontend-design",
     "path": "skills/frontend-design",
     "category": "front-end",
@@ -9557,6 +10327,16 @@
     "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "frontend-design-direction",
+    "path": "skills/frontend-design-direction",
+    "category": "uncategorized",
+    "name": "frontend-design-direction",
+    "description": "\u30d5\u30ed\u30f3\u30c8\u30a8\u30f3\u30c9\u8a2d\u8a08\u306e\u65b9\u5411\u6027\u3001\u7f8e\u7684\u539f\u5247\u3001\u304a\u3088\u3073\u4e00\u8cab\u3057\u305f\u8a2d\u8a08\u8a00\u8a9e\u5b9f\u88c5\u3002",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -9670,6 +10450,26 @@
     "date_added": null
   },
   {
+    "id": "fsharp-testing",
+    "path": "skills/fsharp-testing",
+    "category": "uncategorized",
+    "name": "fsharp-testing",
+    "description": "F#\u30c6\u30b9\u30c8\u30d5\u30ec\u30fc\u30e0\u30ef\u30fc\u30af\u3001\u30d7\u30ed\u30d1\u30c6\u30a3\u30d9\u30fc\u30b9\u30c6\u30b9\u30c8\u3001\u304a\u3088\u3073\u95a2\u6570\u578b\u30a2\u30d7\u30ed\u30fc\u30c1\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "full-page-screenshot",
+    "path": "skills/full-page-screenshot",
+    "category": "uncategorized",
+    "name": "full-page-screenshot",
+    "description": "Use when the user asks to capture a full-page screenshot, long screenshot, or complete page capture of a web page. Handles SPA scroll containers, lazy-loaded images, and very tall pages via Chrome DevTools Protocol with zero external dependencies.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
     "id": "full-stack-orchestration-full-stack-feature",
     "path": "skills/full-stack-orchestration-full-stack-feature",
     "category": "workflow",
@@ -9760,6 +10560,16 @@
     "date_added": null
   },
   {
+    "id": "gateguard",
+    "path": "skills/gateguard",
+    "category": "uncategorized",
+    "name": "gateguard",
+    "description": "Fact-forcing gate that blocks Edit/Write/Bash (including MultiEdit) and demands concrete investigation (importers, data schemas, user instruction) before allowing the action. Measurably improves output quality by +2.25 points vs ungated agents.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
     "id": "gcp-cloud-run",
     "path": "skills/gcp-cloud-run",
     "category": "cloud",
@@ -9768,6 +10578,16 @@
     "risk": "safe",
     "source": "vibeship-spawner-skills (Apache 2.0)",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "gdpr-audit-prep",
+    "path": "skills/gdpr-audit-prep",
+    "category": "uncategorized",
+    "name": "gdpr-audit-prep",
+    "description": "/cs:gdpr-audit-prep <scope> \u2014 GDPR audit 6-question Article-cited forcing interrogation. Use before annual internal GDPR review, post-breach internal audit, DPA investigation readiness, or acquisition due diligence.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "gdpr-data-handling",
@@ -9888,6 +10708,16 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06"
+  },
+  {
+    "id": "scientific-pkg-gget",
+    "path": "skills/scientific-pkg-gget",
+    "category": "uncategorized",
+    "name": "gget",
+    "description": "\u30b2\u30ce\u30e0\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3078\u306e\u30af\u30a4\u30c3\u30af\u691c\u7d22\u3001\u914d\u5217\u691c\u7d22\u3001BLAST \u30b9\u30bf\u30a4\u30eb\u306e\u691c\u7d22\u3001\u30a8\u30f3\u30ea\u30c3\u30c1\u30e1\u30f3\u30c8\u30c1\u30a7\u30c3\u30af\u3001\u304a\u3088\u3073\u518d\u73fe\u53ef\u80fd\u306a\u30d0\u30a4\u30aa\u30a4\u30f3\u30d5\u30a9\u30de\u30c6\u30a3\u30af\u30b9\u8a3c\u62e0\u30ed\u30b0\u306e\u305f\u3081\u306e gget CLI \u304a\u3088\u3073 Python \u30ef\u30fc\u30af\u30d5\u30ed\u30fc\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "gh-address-comments",
@@ -10160,6 +10990,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "go-testing",
+    "path": "skills/go-testing",
+    "category": "development",
+    "name": "go-testing",
+    "description": "Trigger: Go tests, go test coverage, Bubbletea teatest, golden files. Apply focused Go testing patterns.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "goal-analyzer",
     "path": "skills/goal-analyzer",
     "category": "health",
@@ -10410,11 +11250,31 @@
     "date_added": null
   },
   {
+    "id": "harness-engineering",
+    "path": "skills/harness-engineering",
+    "category": "uncategorized",
+    "name": "harness-engineering",
+    "description": "This skill should be used when designing autonomous agent harnesses: research loops, evaluation scaffolds, locked and editable surfaces, durable logs, novelty gates, pruning, rollback, PR preparation, and human approval boundaries.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "haskell-pro",
     "path": "skills/haskell-pro",
     "category": "code",
     "name": "haskell-pro",
     "description": "Expert Haskell engineer specializing in advanced type systems, pure functional design, and high-reliability software. Use PROACTIVELY for type-level programming, concurrency, and architecture guidance.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "hatch-pet",
+    "path": "skills/hatch-pet",
+    "category": "uncategorized",
+    "name": "hatch-pet",
+    "description": "Create, repair, validate, preview, and package Codex-compatible animated pets and pet spritesheets from character art, screenshots, generated images, or visual references. Use when a user wants to hatch a Codex pet, create a custom animated pet, or build a built-in pet asset with an 8x9 atlas...",
     "risk": "safe",
     "source": "community",
     "date_added": null
@@ -10508,6 +11368,16 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "hermes-imports",
+    "path": "skills/hermes-imports",
+    "category": "uncategorized",
+    "name": "hermes-imports",
+    "description": "Convert local Hermes operator workflows into sanitized ECC skills and release-pack artifacts. Use when preparing a Hermes workflow for public ECC reuse without leaking private workspace state, credentials, or local-only paths.",
+    "risk": "offensive",
+    "source": "community",
+    "date_added": null
   },
   {
     "id": "hexagonal-architecture",
@@ -10687,6 +11557,56 @@
     "description": "HIPAA-specific entrypoint for healthcare privacy and security work. Use when a task is explicitly framed around HIPAA, PHI handling, covered entities, BAAs, breach posture, or US healthcare compliance requirements.",
     "risk": "offensive",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "homelab-network-readiness",
+    "path": "skills/homelab-network-readiness",
+    "category": "uncategorized",
+    "name": "homelab-network-readiness",
+    "description": "\u30db\u30fc\u30e0\u30e9\u30dc\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u6e96\u5099\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u8a55\u4fa1\u3001\u30d1\u30d5\u30a9\u30fc\u30de\u30f3\u30b9\u30c6\u30b9\u30c8\u3001\u304a\u3088\u3073\u5c55\u958b\u6e96\u5099\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "homelab-network-setup",
+    "path": "skills/homelab-network-setup",
+    "category": "uncategorized",
+    "name": "homelab-network-setup",
+    "description": "\u30db\u30fc\u30e0\u30e9\u30dc\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u57fa\u76e4\u8a2d\u5b9a\u3001\u30c7\u30d0\u30a4\u30b9\u8a2d\u5b9a\u3001\u63a5\u7d9a\u6027\u3001\u304a\u3088\u3073\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u30bb\u30b0\u30e1\u30f3\u30c6\u30fc\u30b7\u30e7\u30f3\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "homelab-pihole-dns",
+    "path": "skills/homelab-pihole-dns",
+    "category": "uncategorized",
+    "name": "homelab-pihole-dns",
+    "description": "\u30db\u30fc\u30e0\u30e9\u30dc\u7528Pi-hole DNS\u8a2d\u5b9a\u3001\u5e83\u544a\u30d6\u30ed\u30c3\u30af\u3001\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u3001\u304a\u3088\u3073\u30ab\u30b9\u30bf\u30e0\u30c9\u30e1\u30a4\u30f3\u89e3\u6c7a\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "homelab-vlan-segmentation",
+    "path": "skills/homelab-vlan-segmentation",
+    "category": "uncategorized",
+    "name": "homelab-vlan-segmentation",
+    "description": "\u30db\u30fc\u30e0\u30e9\u30dcVLAN\u30bb\u30b0\u30e1\u30f3\u30c6\u30fc\u30b7\u30e7\u30f3\u3001\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u5206\u96e2\u3001\u30a2\u30af\u30bb\u30b9\u5236\u5fa1\u3001\u304a\u3088\u3073\u30c8\u30e9\u30d5\u30a3\u30c3\u30af\u7ba1\u7406\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "homelab-wireguard-vpn",
+    "path": "skills/homelab-wireguard-vpn",
+    "category": "uncategorized",
+    "name": "homelab-wireguard-vpn",
+    "description": "\u30db\u30fc\u30e0\u30e9\u30dcWireGuard VPN\u8a2d\u5b9a\u3001\u30ea\u30e2\u30fc\u30c8\u30a2\u30af\u30bb\u30b9\u3001\u30ad\u30fc\u7ba1\u7406\u3001\u304a\u3088\u3073\u30a8\u30f3\u30c9\u30c4\u30fc\u30a8\u30f3\u30c9\u6697\u53f7\u5316\u3002",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -10918,6 +11838,16 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06"
+  },
+  {
+    "id": "image",
+    "path": "skills/image",
+    "category": "uncategorized",
+    "name": "image",
+    "description": "When the user wants to create, generate, edit, or optimize images for marketing \u2014 blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use when the user mentions 'AI image generation,' 'generate an image,' 'create a graphic,' 'product mockup,'...",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
   },
   {
     "id": "image-enhancer",
@@ -11350,6 +12280,16 @@
     "date_added": null
   },
   {
+    "id": "ios-icon-gen",
+    "path": "skills/ios-icon-gen",
+    "category": "mobile",
+    "name": "ios-icon-gen",
+    "description": "SF Symbols\uff08Apple \u30cd\u30a4\u30c6\u30a3\u30d6 5,000 \u4ef6\u4ee5\u4e0a\uff09\u307e\u305f\u306f Iconify API\uff08200 \u4ee5\u4e0a\u306e\u30b3\u30ec\u30af\u30b7\u30e7\u30f3\u304b\u3089 275,000 \u4ef6\u4ee5\u4e0a\u306e\u30aa\u30fc\u30d7\u30f3\u30bd\u30fc\u30b9\u30a2\u30a4\u30b3\u30f3\uff09\u304b\u3089 Xcode \u30a2\u30bb\u30c3\u30c8\u30ab\u30bf\u30ed\u30b0\u7528\u306e PNG \u30a4\u30e1\u30fc\u30b8\u30bb\u30c3\u30c8\u3068\u3057\u3066 iOS \u30a2\u30d7\u30ea\u30a2\u30a4\u30b3\u30f3\u3092\u751f\u6210\u3057\u307e\u3059\u3002\u30a2\u30a4\u30b3\u30f3\u306e\u751f\u6210\u3001\u30a2\u30a4\u30b3\u30f3\u30a2\u30bb\u30c3\u30c8\u306e\u4f5c\u6210\u3001\u30a2\u30bb\u30c3\u30c8\u30ab\u30bf\u30ed\u30b0\u3078\u306e\u30a2\u30a4\u30b3\u30f3\u8ffd\u52a0\u3001\u307e\u305f\u306f iOS \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u5411\u3051\u30a2\u30a4\u30b3\u30f3\u306e\u691c\u7d22\u3092\u884c\u3046\u969b\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "isms-audit-expert",
     "path": "skills/ra-qm-team/isms-audit-expert",
     "category": "ra-qm-team",
@@ -11367,6 +12307,36 @@
     "description": "Information Security Management System (ISMS) audit expert for ISO 27001 compliance verification, security control assessment, and certification support. Use when the user mentions ISO 27001, ISMS audit, Annex A controls, Statement of Applicability (SOA), gap analysis, nonconformity management, i...",
     "risk": "offensive",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "iso13485-audit-prep",
+    "path": "skills/iso13485-audit-prep",
+    "category": "business",
+    "name": "iso13485-audit-prep",
+    "description": "/cs:iso13485-audit-prep <scope> \u2014 ISO 13485 QMS audit 6-question forcing interrogation. Design controls + CAPA + post-market focused. Use before Clause 8.2.4 internal audit, MDR / FDA QSR alignment review, or product-launch DHF closure audit.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "iso27001-audit-prep",
+    "path": "skills/iso27001-audit-prep",
+    "category": "uncategorized",
+    "name": "iso27001-audit-prep",
+    "description": "/cs:iso27001-audit-prep <scope> \u2014 ISO 27001 ISMS audit readiness 6-question forcing interrogation. Use before annual Clause 9.2 internal audit, surveillance audit prep, or stage 1 certification readiness.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "issue-creation",
+    "path": "skills/issue-creation",
+    "category": "uncategorized",
+    "name": "issue-creation",
+    "description": "Create Gentle AI issues with issue-first checks. Trigger: creating GitHub issues, bug reports, or feature requests.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -11407,6 +12377,46 @@
     "description": "\u9010\u6b65\u4f18\u5316\u4e0a\u4e0b\u6587\u68c0\u7d22\u4ee5\u89e3\u51b3\u5b50\u4ee3\u7406\u4e0a\u4e0b\u6587\u95ee\u9898\u7684\u6a21\u5f0f",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "ito-basket-compare",
+    "path": "skills/ito-basket-compare",
+    "category": "uncategorized",
+    "name": "ito-basket-compare",
+    "description": "Compare It\u00f4 prediction-market baskets against a user's knowledge base, portfolio notes, financial context, watchlist, or research thesis. Use for read-only basket comparison and gap analysis without investment advice or live trading.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "ito-data-atlas-agent",
+    "path": "skills/ito-data-atlas-agent",
+    "category": "ai-ml",
+    "name": "ito-data-atlas-agent",
+    "description": "Design background Data Atlas style agents for It\u00f4 basket research, market discovery, parameter drafting, and human-in-the-loop editing. Use for architecture and workflow planning, not live order execution.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "ito-market-intelligence",
+    "path": "skills/ito-market-intelligence",
+    "category": "uncategorized",
+    "name": "ito-market-intelligence",
+    "description": "Research prediction-market events, venues, underliers, liquidity, and news context for It\u00f4 basket workflows. Use for read-only market intelligence, API-gated It\u00f4 exploration, and source-grounded prediction-market briefings without investment advice or live trading.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "ito-trade-planner",
+    "path": "skills/ito-trade-planner",
+    "category": "uncategorized",
+    "name": "ito-trade-planner",
+    "description": "Build a non-advisory prediction-market trade planning worksheet for It\u00f4 or venue workflows. Use to inspect venues, underliers, constraints, order prerequisites, and manual execution steps without placing trades or recommending positions.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -11567,6 +12577,16 @@
     "description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "judgment-day",
+    "path": "skills/judgment-day",
+    "category": "uncategorized",
+    "name": "judgment-day",
+    "description": "Trigger: judgment day, dual review, adversarial review, juzgar. Run blind dual review, fix confirmed issues, then re-judge.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -11910,6 +12930,26 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "latency-critical-systems",
+    "path": "skills/latency-critical-systems",
+    "category": "uncategorized",
+    "name": "latency-critical-systems",
+    "description": "Use for latency-sensitive systems such as realtime dashboards, market data, streaming agents, execution gateways, queues, caches, or HFT-like infrastructure where freshness and p95 latency matter.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "latent-briefing",
+    "path": "skills/latent-briefing",
+    "category": "ai-ml",
+    "name": "latent-briefing",
+    "description": "This skill should be used when the user asks to \"share memory between agents\", \"KV cache compaction for multi-agent\", \"orchestrator worker context\", \"latent briefing\", \"reduce worker tokens\", \"cross-agent memory without summarization\", or discusses Attention Matching compaction...",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
     "id": "latex-paper-conversion",
     "path": "skills/latex-paper-conversion",
     "category": "uncategorized",
@@ -11918,6 +12958,16 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-14"
+  },
+  {
+    "id": "launch",
+    "path": "skills/launch",
+    "category": "business",
+    "name": "launch",
+    "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "launch-strategy",
@@ -12210,6 +13260,16 @@
     "date_added": null
   },
   {
+    "id": "scientific-thinking-literature-review",
+    "path": "skills/scientific-thinking-literature-review",
+    "category": "uncategorized",
+    "name": "literature-review",
+    "description": "\u5b66\u8853\u3001\u751f\u7269\u533b\u5b66\u3001\u6280\u8853\u3001\u79d1\u5b66\u7684\u306a\u30c8\u30d4\u30c3\u30af\u306b\u5bfe\u3059\u308b\u30b7\u30b9\u30c6\u30de\u30c6\u30a3\u30c3\u30af\u306a\u6587\u732e\u30ec\u30d3\u30e5\u30fc\u30ef\u30fc\u30af\u30d5\u30ed\u30fc\u3002\u691c\u7d22\u8a08\u753b\u3001\u30bd\u30fc\u30b9\u306e\u30b9\u30af\u30ea\u30fc\u30cb\u30f3\u30b0\u3001\u7d71\u5408\u3001\u5f15\u7528\u78ba\u8a8d\u3001\u8a3c\u62e0\u30ed\u30b0\u3092\u542b\u3080\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "llm-app-patterns",
     "path": "skills/llm-app-patterns",
     "category": "data-ai",
@@ -12490,6 +13550,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "make-interfaces-feel-better",
+    "path": "skills/make-interfaces-feel-better",
+    "category": "uncategorized",
+    "name": "make-interfaces-feel-better",
+    "description": "\u65e5\u672c\u8a9e\u7ffb\u8a33\uff1a\u3053\u306e\u30d5\u30a1\u30a4\u30eb\u306f make-interfaces-feel-better \u7528\u306e\u65e5\u672c\u8a9e\u7ffb\u8a33\u304c\u5fc5\u8981\u3067\u3059",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "makepad-animation",
     "path": "skills/makepad-animation",
     "category": "development",
@@ -12670,6 +13740,16 @@
     "date_added": null
   },
   {
+    "id": "marketing-campaign",
+    "path": "skills/marketing-campaign",
+    "category": "uncategorized",
+    "name": "marketing-campaign",
+    "description": "End-to-end marketing campaign planning and execution. Covers audience research, positioning, campaign angle definition, landing page copy, email sequences, social posts, ad copy, short-form video scripts, and content calendars. Use as the orchestration layer for multi-channel product launches.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "marketing-context",
     "path": "skills/marketing-skill/marketing-context",
     "category": "marketing-skill",
@@ -12740,6 +13820,16 @@
     "date_added": null
   },
   {
+    "id": "marketing-plan",
+    "path": "skills/marketing-plan",
+    "category": "business",
+    "name": "marketing-plan",
+    "description": "When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions \"marketing plan,\" \"growth plan,\" \"GTM plan,\" \"go-to-market plan,\" \"AARRR plan,\" \"90-day marketing plan,\" \"12-month marketing roadmap,\" \"fractional CMO...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "marketing-psychology",
     "path": "skills/marketing-skill/marketing-psychology",
     "category": "marketing",
@@ -12764,6 +13854,16 @@
     "path": "skills/marketing-skill",
     "category": "uncategorized",
     "name": "marketing-skill",
+    "description": "42 marketing agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more coding agents. 7 pods: content, SEO, CRO, channels, growth, intelligence, sales. Foundation context + orchestration router. 27 Python tools (stdlib-only).",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "marketing-skills",
+    "path": "skills/marketing-skills",
+    "category": "uncategorized",
+    "name": "marketing-skills",
     "description": "42 marketing agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more coding agents. 7 pods: content, SEO, CRO, channels, growth, intelligence, sales. Foundation context + orchestration router. 27 Python tools (stdlib-only).",
     "risk": "safe",
     "source": "community",
@@ -12927,6 +14027,16 @@
     "description": "Implement memory-safe programming with RAII, ownership, smart pointers, and resource management across Rust, C++, and C. Use when writing safe systems code, managing resources, or preventing memory bugs.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "memory-system",
+    "path": "skills/memory-system",
+    "category": "uncategorized",
+    "name": "memory-system",
+    "description": "Persistent cross-session memory management. Enables agents to remember user preferences, project conventions, and past decisions across different sessions using a structured MEMORY.md index and topic files.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -13100,6 +14210,16 @@
     "date_added": null
   },
   {
+    "id": "migrate-to-codex",
+    "path": "skills/migrate-to-codex",
+    "category": "uncategorized",
+    "name": "migrate-to-codex",
+    "description": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
     "id": "migration-architect",
     "path": "skills/engineering/migration-architect",
     "category": "engineering",
@@ -13167,6 +14287,16 @@
     "description": "Build end-to-end MLOps pipelines from data preparation through model training, validation, and production deployment. Use when creating ML pipelines, implementing MLOps practices, or automating model training and deployment workflows.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "mle-workflow",
+    "path": "skills/mle-workflow",
+    "category": "ai-ml",
+    "name": "mle-workflow",
+    "description": "Production machine-learning engineering workflow for data contracts, reproducible training, model evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardening ML systems beyond one-off notebooks.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -13340,6 +14470,46 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "motion-advanced",
+    "path": "skills/motion-advanced",
+    "category": "uncategorized",
+    "name": "motion-advanced",
+    "description": "\u65e5\u672c\u8a9e\u7ffb\u8a33\uff1a\u3053\u306e\u30d5\u30a1\u30a4\u30eb\u306f motion-advanced \u7528\u306e\u65e5\u672c\u8a9e\u7ffb\u8a33\u304c\u5fc5\u8981\u3067\u3059",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "motion-foundations",
+    "path": "skills/motion-foundations",
+    "category": "uncategorized",
+    "name": "motion-foundations",
+    "description": "\u65e5\u672c\u8a9e\u7ffb\u8a33\uff1a\u3053\u306e\u30d5\u30a1\u30a4\u30eb\u306f motion-foundations \u7528\u306e\u65e5\u672c\u8a9e\u7ffb\u8a33\u304c\u5fc5\u8981\u3067\u3059",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "motion-patterns",
+    "path": "skills/motion-patterns",
+    "category": "uncategorized",
+    "name": "motion-patterns",
+    "description": "\u65e5\u672c\u8a9e\u7ffb\u8a33\uff1a\u3053\u306e\u30d5\u30a1\u30a4\u30eb\u306f motion-patterns \u7528\u306e\u65e5\u672c\u8a9e\u7ffb\u8a33\u304c\u5fc5\u8981\u3067\u3059",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "motion-ui",
+    "path": "skills/motion-ui",
+    "category": "uncategorized",
+    "name": "motion-ui",
+    "description": "\u65e5\u672c\u8a9e\u7ffb\u8a33\uff1a\u3053\u306e\u30d5\u30a1\u30a4\u30eb\u306f motion-ui \u7528\u306e\u65e5\u672c\u8a9e\u7ffb\u8a33\u304c\u5fc5\u8981\u3067\u3059",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "ms365-tenant-manager",
     "path": "skills/engineering-team/ms365-tenant-manager",
     "category": "engineering-team",
@@ -13437,6 +14607,16 @@
     "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "mysql-patterns",
+    "path": "skills/mysql-patterns",
+    "category": "uncategorized",
+    "name": "mysql-patterns",
+    "description": "\u65e5\u672c\u8a9e\u7ffb\u8a33\uff1a\u3053\u306e\u30d5\u30a1\u30a4\u30eb\u306f mysql-patterns \u7528\u306e\u65e5\u672c\u8a9e\u7ffb\u8a33\u304c\u5fc5\u8981\u3067\u3059",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -13600,6 +14780,16 @@
     "date_added": null
   },
   {
+    "id": "netmiko-ssh-automation",
+    "path": "skills/netmiko-ssh-automation",
+    "category": "uncategorized",
+    "name": "netmiko-ssh-automation",
+    "description": "\u65e5\u672c\u8a9e\u7ffb\u8a33\uff1a\u3053\u306e\u30d5\u30a1\u30a4\u30eb\u306f netmiko-ssh-automation \u7528\u306e\u65e5\u672c\u8a9e\u7ffb\u8a33\u304c\u5fc5\u8981\u3067\u3059",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "network-101",
     "path": "skills/network-101",
     "category": "uncategorized",
@@ -13610,6 +14800,26 @@
     "date_added": null
   },
   {
+    "id": "network-bgp-diagnostics",
+    "path": "skills/network-bgp-diagnostics",
+    "category": "uncategorized",
+    "name": "network-bgp-diagnostics",
+    "description": "\u65e5\u672c\u8a9e\u7ffb\u8a33\uff1a\u3053\u306e\u30d5\u30a1\u30a4\u30eb\u306f network-bgp-diagnostics \u7528\u306e\u65e5\u672c\u8a9e\u7ffb\u8a33\u304c\u5fc5\u8981\u3067\u3059",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "network-config-validation",
+    "path": "skills/network-config-validation",
+    "category": "uncategorized",
+    "name": "network-config-validation",
+    "description": "\u65e5\u672c\u8a9e\u7ffb\u8a33\uff1a\u3053\u306e\u30d5\u30a1\u30a4\u30eb\u306f network-config-validation \u7528\u306e\u65e5\u672c\u8a9e\u7ffb\u8a33\u304c\u5fc5\u8981\u3067\u3059",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "network-engineer",
     "path": "skills/network-engineer",
     "category": "cloud",
@@ -13617,6 +14827,16 @@
     "description": "Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization. Masters multi-cloud connectivity, service mesh, zero-trust networking, SSL/TLS, global load balancing, and advanced troubleshooting. Handles CDN optimization, network automation,...",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "network-interface-health",
+    "path": "skills/network-interface-health",
+    "category": "uncategorized",
+    "name": "network-interface-health",
+    "description": "\u30eb\u30fc\u30bf\u30fc\u3001\u30b9\u30a4\u30c3\u30c1\u3001Linux\u30db\u30b9\u30c8\u4e0a\u306e\u30a4\u30f3\u30bf\u30fc\u30d5\u30a7\u30fc\u30b9\u30a8\u30e9\u30fc\u3001\u30c9\u30ed\u30c3\u30d7\u3001CRC\u3001\u30c7\u30e5\u30d7\u30ec\u30c3\u30af\u30b9\u4e0d\u4e00\u81f4\u3001\u30d5\u30e9\u30c3\u30d4\u30f3\u30b0\u3001\u901f\u5ea6\u30cd\u30b4\u30b7\u30a8\u30fc\u30b7\u30e7\u30f3\u554f\u984c\u3001\u30ab\u30a6\u30f3\u30bf\u30fc\u30c8\u30ec\u30f3\u30c9\u3092\u8a3a\u65ad\u3059\u308b\u3002",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -14260,6 +15480,16 @@
     "date_added": null
   },
   {
+    "id": "onboarding",
+    "path": "skills/onboarding",
+    "category": "uncategorized",
+    "name": "onboarding",
+    "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "onboarding-cro",
     "path": "skills/onboarding-cro",
     "category": "marketing",
@@ -14490,6 +15720,16 @@
     "date_added": null
   },
   {
+    "id": "parallel-execution-optimizer",
+    "path": "skills/parallel-execution-optimizer",
+    "category": "uncategorized",
+    "name": "parallel-execution-optimizer",
+    "description": "Use when the user wants a task done much faster through parallel work, concurrent agents, batched tool calls, isolated worktrees, or many independent verification lanes without losing correctness.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "parallel-feature-development",
     "path": "skills/parallel-feature-development",
     "category": "uncategorized",
@@ -14537,6 +15777,16 @@
     "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit rea...",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "paywalls",
+    "path": "skills/paywalls",
+    "category": "uncategorized",
+    "name": "paywalls",
+    "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit...",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -14780,6 +16030,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "plan-orchestrate",
+    "path": "skills/plan-orchestrate",
+    "category": "uncategorized",
+    "name": "plan-orchestrate",
+    "description": "\u65e5\u672c\u8a9e\u7ffb\u8a33\uff1a\u3053\u306e\u30d5\u30a1\u30a4\u30eb\u306f plan-orchestrate \u7528\u306e\u65e5\u672c\u8a9e\u7ffb\u8a33\u304c\u5fc5\u8981\u3067\u3059",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "plan-writing",
     "path": "skills/plan-writing",
     "category": "planning",
@@ -14860,6 +16120,16 @@
     "date_added": null
   },
   {
+    "id": "pw",
+    "path": "skills/pw",
+    "category": "testing",
+    "name": "playwright-pro",
+    "description": "Production-grade Playwright testing toolkit. Use when the user mentions Playwright tests, end-to-end testing, browser automation, fixing flaky tests, test migration, CI/CD testing, or test suites. Generate tests, fix flaky failures, migrate from Cypress/Selenium, sync with TestRail...",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
     "id": "playwright-skill",
     "path": "skills/playwright-skill",
     "category": "test-automation",
@@ -14875,6 +16145,26 @@
     "category": "data-science",
     "name": "plotly",
     "description": "Interactive visualization library. Use when you need hover info, zoom, pan, or web-embeddable charts. Best for dashboards, exploratory analysis, and presentations. For static publication figures use matplotlib or scientific-visualization.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "plugin-creator",
+    "path": "skills/plugin-creator",
+    "category": "uncategorized",
+    "name": "plugin-creator",
+    "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new local plugin, add optional plugin structure...",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "pm-skills",
+    "path": "skills/pm-skills",
+    "category": "automation",
+    "name": "pm-skills",
+    "description": "6 project management agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Senior PM, scrum master, Jira expert (JQL), Confluence expert, Atlassian admin, template creator. MCP integration for live Jira/Confluence automation.",
     "risk": "safe",
     "source": "community",
     "date_added": null
@@ -14917,6 +16207,16 @@
     "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with ...",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "popups",
+    "path": "skills/popups",
+    "category": "uncategorized",
+    "name": "popups",
+    "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with...",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -15090,6 +16390,26 @@
     "date_added": null
   },
   {
+    "id": "prediction-market-oracle-research",
+    "path": "skills/prediction-market-oracle-research",
+    "category": "uncategorized",
+    "name": "prediction-market-oracle-research",
+    "description": "Research prediction markets as data sources or oracle signals for products, agents, dashboards, and corporate decision intelligence. Use for source-grounded analysis of market-implied probabilities, caveats, and integration patterns without investment advice.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "prediction-market-risk-review",
+    "path": "skills/prediction-market-risk-review",
+    "category": "security",
+    "name": "prediction-market-risk-review",
+    "description": "Review prediction-market, basket, oracle, and trading-agent workflows for compliance, safety, data-quality, privacy, and execution risk. Use before any workflow handles venue auth, user portfolio data, API keys, or trade planning.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "preset",
     "path": "skills/microsoft-foundry/models/deploy-model/preset",
     "category": "deploy-model",
@@ -15140,6 +16460,16 @@
     "date_added": null
   },
   {
+    "id": "pricing",
+    "path": "skills/pricing",
+    "category": "uncategorized",
+    "name": "pricing",
+    "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "pricing-strategy",
     "path": "skills/marketing-skill/pricing-strategy",
     "category": "marketing-skill",
@@ -15168,6 +16498,16 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "prisma-patterns",
+    "path": "skills/prisma-patterns",
+    "category": "database",
+    "name": "prisma-patterns",
+    "description": "Prisma ORM patterns for TypeScript backends \u2014 schema design, query optimization, transactions, pagination, and critical traps like updateMany returning count not records, $transaction timeouts, migrate dev resetting the DB, @updatedAt skipped on bulk writes, and serverless connection exhaustion.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "privacy-by-design",
@@ -15310,6 +16650,16 @@
     "date_added": null
   },
   {
+    "id": "product-marketing",
+    "path": "skills/product-marketing",
+    "category": "business",
+    "name": "product-marketing",
+    "description": "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "product-marketing-context",
     "path": "skills/product-marketing-context",
     "category": "business",
@@ -15325,6 +16675,26 @@
     "category": "business",
     "name": "product-photography",
     "description": "AI product photography with studio lighting, lifestyle shots, and packshot conventions. Covers angles, backgrounds, shadow types, hero shots, and e-commerce image requirements. Use for: product photos, e-commerce images, Amazon listings, packshots, lifestyle photography. Triggers: product ...",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "product-research",
+    "path": "skills/product-research",
+    "category": "business",
+    "name": "product-research",
+    "description": "Use when planning and synthesizing product/user research as a method-and-repository discipline \u2014 selecting the right method for the goal (generative interviews vs usability test vs concept test vs validation), computing method-based saturation/sample size with an explicit confidence level...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "product-skills",
+    "path": "skills/product-skills",
+    "category": "business",
+    "name": "product-skills",
+    "description": "10 product agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. PM toolkit (RICE), agile PO, product strategist (OKR), UX researcher, UI design system, competitive teardown, landing page generator, SaaS scaffolder, research summarizer. Python tools (stdlib-only).",
     "risk": "safe",
     "source": "community",
     "date_added": null
@@ -15357,6 +16727,16 @@
     "description": "10 product agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. PM toolkit (RICE), agile PO, product strategist (OKR), UX researcher, UI design system, competitive teardown, landing page generator, SaaS scaffolder, research summarizer. Python tools (stdlib-only).",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "production-audit",
+    "path": "skills/production-audit",
+    "category": "uncategorized",
+    "name": "production-audit",
+    "description": "\u65e5\u672c\u8a9e\u7ffb\u8a33\uff1a\u3053\u306e\u30d5\u30a1\u30a4\u30eb\u306f production-audit \u7528\u306e\u65e5\u672c\u8a9e\u7ffb\u8a33\u304c\u5fc5\u8981\u3067\u3059",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -15600,6 +16980,16 @@
     "date_added": null
   },
   {
+    "id": "prospecting",
+    "path": "skills/prospecting",
+    "category": "uncategorized",
+    "name": "prospecting",
+    "description": "When the user wants to find, qualify, and build a list of prospects to reach out to \u2014 across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions \"prospecting,\" \"build a prospect list,\" \"find prospects,\" \"find leads,\" \"lead gen list,\" \"find SaaS companies that,\"...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "protocol-reverse-engineering",
     "path": "skills/protocol-reverse-engineering",
     "category": "security",
@@ -15617,6 +17007,16 @@
     "description": "Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "scientific-db-pubmed-database",
+    "path": "skills/scientific-db-pubmed-database",
+    "category": "uncategorized",
+    "name": "pubmed-database",
+    "description": "\u751f\u7269\u533b\u5b66\u6587\u732e\u3001MeSH \u30af\u30a8\u30ea\u3001PMID \u691c\u7d22\u3001\u5f15\u7528\u53d6\u5f97\u3001\u304a\u3088\u3073 API \u3092\u5229\u7528\u3057\u305f\u6587\u732e\u30e2\u30cb\u30bf\u30ea\u30f3\u30b0\u306e\u305f\u3081\u306e PubMed \u304a\u3088\u3073 NCBI E-utilities \u306e\u76f4\u63a5\u691c\u7d22\u30ef\u30fc\u30af\u30d5\u30ed\u30fc\u3002",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -16010,6 +17410,56 @@
     "date_added": null
   },
   {
+    "id": "quarkus-patterns",
+    "path": "skills/quarkus-patterns",
+    "category": "uncategorized",
+    "name": "quarkus-patterns",
+    "description": "\u65e5\u672c\u8a9e\u7ffb\u8a33\uff1a\u3053\u306e\u30d5\u30a1\u30a4\u30eb\u306f quarkus-patterns \u7528\u306e\u65e5\u672c\u8a9e\u7ffb\u8a33\u304c\u5fc5\u8981\u3067\u3059",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "quarkus-security",
+    "path": "skills/quarkus-security",
+    "category": "security",
+    "name": "quarkus-security",
+    "description": "Quarkus\u8a8d\u8a3c\u3001\u8a8d\u53ef\u3001JWT/OIDC\u3001RBAC\u3001\u5165\u529b\u691c\u8a3c\u3001CSRF\u3001\u30b7\u30fc\u30af\u30ec\u30c3\u30c8\u7ba1\u7406\u3001\u4f9d\u5b58\u95a2\u4fc2\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "quarkus-tdd",
+    "path": "skills/quarkus-tdd",
+    "category": "uncategorized",
+    "name": "quarkus-tdd",
+    "description": "JUnit 5\u3001Mockito\u3001REST Assured\u3001Camel\u30c6\u30b9\u30c8\u3001JaCoCo\u3092\u4f7f\u7528\u3057\u305fQuarkus 3.x\u306e\u30c6\u30b9\u30c8\u99c6\u52d5\u958b\u767a\u3002\u6a5f\u80fd\u8ffd\u52a0\u3001\u30d0\u30b0\u4fee\u6b63\u3001\u307e\u305f\u306f\u30a4\u30d9\u30f3\u30c8\u99c6\u52d5\u30b5\u30fc\u30d3\u30b9\u306e\u30ea\u30d5\u30a1\u30af\u30bf\u30ea\u30f3\u30b0\u6642\u306b\u4f7f\u7528\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "quarkus-verification",
+    "path": "skills/quarkus-verification",
+    "category": "uncategorized",
+    "name": "quarkus-verification",
+    "description": "Quarkus\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u691c\u8a3c\u30eb\u30fc\u30d7\uff1a\u30d3\u30eb\u30c9\u3001\u9759\u7684\u5206\u6790\u3001\u30ab\u30d0\u30ec\u30c3\u30b8\u4ed8\u304d\u30c6\u30b9\u30c8\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30b9\u30ad\u30e3\u30f3\u3001\u30cd\u30a4\u30c6\u30a3\u30d6\u30b3\u30f3\u30d1\u30a4\u30eb\u3001\u672c\u756a\u74b0\u5883\u307e\u305f\u306fPR\u524d\u306e\u5dee\u5206\u30ec\u30d3\u30e5\u30fc\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "ra-qm-skills",
+    "path": "skills/ra-qm-skills",
+    "category": "uncategorized",
+    "name": "ra-qm-skills",
+    "description": "12 regulatory & QM agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO 27001 ISMS, GDPR/DSGVO, risk management (ISO 14971), CAPA, document control, auditing. Python tools (stdlib-only).",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
+  },
+  {
     "id": "ra-qm-team",
     "path": "skills/ra-qm-team",
     "category": "uncategorized",
@@ -16200,6 +17650,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "react-performance",
+    "path": "skills/react-performance",
+    "category": "web-development",
+    "name": "react-performance",
+    "description": "React and Next.js performance optimization patterns adapted from Vercel Engineering's React Best Practices (https://github.com/vercel-labs/agent-skills). Organizes 70+ rules across 8 priority categories \u2014 waterfalls, bundle size, server-side, client fetching, re-render, rendering, JS micro-perf...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "react-state-management",
     "path": "skills/react-state-management",
     "category": "web-development",
@@ -16207,6 +17667,16 @@
     "description": "Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions.",
     "risk": "offensive",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "react-testing",
+    "path": "skills/react-testing",
+    "category": "web-development",
+    "name": "react-testing",
+    "description": "React component testing with React Testing Library, Vitest/Jest, MSW for network mocking, accessibility assertions with axe, and the decision boundary between component tests and Playwright/Cypress end-to-end runs. Use when writing or fixing tests for React components, hooks, or pages.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -16250,6 +17720,26 @@
     "date_added": null
   },
   {
+    "id": "recsys-pipeline-architect",
+    "path": "skills/recsys-pipeline-architect",
+    "category": "uncategorized",
+    "name": "recsys-pipeline-architect",
+    "description": "Design composable recommendation, ranking, and feed pipelines using the six-stage Source\u2192Hydrator\u2192Filter\u2192Scorer\u2192Selector\u2192SideEffect framework popularized by xAI's open-sourced For You algorithm. Use this skill whenever the user is building any system that picks \"the top K items for a (user...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "recursive-decision-ledger",
+    "path": "skills/recursive-decision-ledger",
+    "category": "uncategorized",
+    "name": "recursive-decision-ledger",
+    "description": "Use when the user asks for repeated rollouts, marked decision processes, high-dimensional search, stochastic optimization, local-optima exploration, ensemble comparison, or recursive reasoning with a visible evidence trail.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "red-team-tactics",
     "path": "skills/red-team-tactics",
     "category": "security",
@@ -16280,6 +17770,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "redis-patterns",
+    "path": "skills/redis-patterns",
+    "category": "uncategorized",
+    "name": "redis-patterns",
+    "description": "Redis\u30c7\u30fc\u30bf\u69cb\u9020\u30d1\u30bf\u30fc\u30f3\u3001\u30ad\u30e3\u30c3\u30b7\u30f3\u30b0\u6226\u7565\u3001\u5206\u6563\u30ed\u30c3\u30af\u3001\u30ec\u30fc\u30c8\u5236\u9650\u3001Pub/Sub\u3001\u672c\u756a\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u7528\u30b3\u30cd\u30af\u30b7\u30e7\u30f3\u7ba1\u7406\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "reference-builder",
     "path": "skills/reference-builder",
     "category": "content",
@@ -16307,6 +17807,16 @@
     "description": "When the user wants to design, launch, or optimize a referral or affiliate program. Use when they mention 'referral program,' 'affiliate program,' 'word of mouth,' 'refer a friend,' 'incentive program,' 'customer referrals,' 'brand ambassador,' 'partner program,' 'referral link,' or 'growth throu...",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "referrals",
+    "path": "skills/referrals",
+    "category": "uncategorized",
+    "name": "referrals",
+    "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get...",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -16520,6 +18030,16 @@
     "date_added": null
   },
   {
+    "id": "research",
+    "path": "skills/research",
+    "category": "uncategorized",
+    "name": "research",
+    "description": "Default entry point for any research request \u2014 a hybrid router that classifies the question deterministically and either delegates to a specialist research skill (pulse for trends/sentiment, grants for NIH funding, litreview for academic literature, syllabus for course reading...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "research-engineer",
     "path": "skills/research-engineer",
     "category": "uncategorized",
@@ -16530,6 +18050,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "research-finance",
+    "path": "skills/research-finance",
+    "category": "uncategorized",
+    "name": "research-finance",
+    "description": "Use when managing the money for an internal R&D program or portfolio \u2014 building a multi-period program budget with the F&A (indirect) split, tracking burn rate and runway against value-inflection milestones, or routing R&D cost items to a capitalize-vs-expense determination...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "research-ops",
     "path": "skills/research-ops",
     "category": "uncategorized",
@@ -16537,6 +18067,16 @@
     "description": "Evidence-first current-state research workflow for ECC. Use when the user wants fresh facts, comparisons, enrichment, or a recommendation built from current public evidence and any supplied local context.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "research-ops-skills",
+    "path": "skills/research-ops-skills",
+    "category": "business",
+    "name": "research-ops-skills",
+    "description": "Use when planning, funding, scoping, or synthesizing enterprise research across workstreams \u2014 clinical study design, R&D program finance, market sizing/surveys, or product/user research. Triggers on \"design this clinical study\", \"what sample size\", \"R&D budget\", \"burn rate\"...",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -17030,6 +18570,16 @@
     "date_added": null
   },
   {
+    "id": "salesforce-development",
+    "path": "skills/salesforce-development",
+    "category": "api-integration",
+    "name": "Salesforce Development",
+    "description": "Use @wire decorator for reactive data binding with Lightning Data Service or Apex methods. @wire fits LWC's reactive architecture and enables Salesforce performance optimizations.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "salesforce-automation",
     "path": "skills/salesforce-automation",
     "category": "api-integration",
@@ -17037,16 +18587,6 @@
     "description": "Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas.",
     "risk": "safe",
     "source": "community",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "salesforce-development",
-    "path": "skills/salesforce-development",
-    "category": "api-integration",
-    "name": "salesforce-development",
-    "description": "Use @wire decorator for reactive data binding with Lightning Data Service or Apex methods. @wire fits LWC's reactive architecture and enables Salesforce performance optimizations.",
-    "risk": "safe",
-    "source": "vibeship-spawner-skills (Apache 2.0)",
     "date_added": "2026-02-27"
   },
   {
@@ -17180,6 +18720,16 @@
     "date_added": null
   },
   {
+    "id": "schema",
+    "path": "skills/schema",
+    "category": "uncategorized",
+    "name": "schema",
+    "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\"...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "schema-markup",
     "path": "skills/schema-markup",
     "category": "marketing",
@@ -17197,6 +18747,16 @@
     "description": "When the user wants to implement, audit, or validate structured data (schema markup) on their website. Use when the user mentions 'structured data,' 'schema.org,' 'JSON-LD,' 'rich results,' 'rich snippets,' 'schema markup,' 'FAQ schema,' 'Product schema,' 'HowTo schema,' or 'structured data error...",
     "risk": "offensive",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "scientific-thinking-scholar-evaluation",
+    "path": "skills/scientific-thinking-scholar-evaluation",
+    "category": "uncategorized",
+    "name": "scholar-evaluation",
+    "description": "\u8ad6\u6587\u3001\u63d0\u6848\u66f8\u3001\u6587\u732e\u30ec\u30d3\u30e5\u30fc\u3001\u65b9\u6cd5\u8ad6\u30bb\u30af\u30b7\u30e7\u30f3\u3001\u8a3c\u62e0\u306e\u8cea\u3001\u5f15\u7528\u30b5\u30dd\u30fc\u30c8\u3001\u7814\u7a76\u8ad6\u6587\u30d5\u30a3\u30fc\u30c9\u30d0\u30c3\u30af\u306e\u305f\u3081\u306e\u69cb\u9020\u5316\u3055\u308c\u305f\u5b66\u8853\u7684\u4f5c\u696d\u8a55\u4fa1\u3002",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -17274,9 +18834,9 @@
     "path": "skills/sdd-apply",
     "category": "uncategorized",
     "name": "sdd-apply",
-    "description": "Implement tasks from the change, writing actual code following the specs and design. Trigger: When the orchestrator launches you to implement one or more tasks from a change.\n",
-    "risk": "safe",
-    "source": "community",
+    "description": "Implement SDD tasks from specs and design. Trigger: orchestrator launches apply for one or more change tasks.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -17284,9 +18844,9 @@
     "path": "skills/sdd-archive",
     "category": "uncategorized",
     "name": "sdd-archive",
-    "description": "Sync delta specs to main specs and archive a completed change. Trigger: When the orchestrator launches you to archive a change after implementation and verification.\n",
-    "risk": "safe",
-    "source": "community",
+    "description": "Archive a completed SDD change by syncing delta specs. Trigger: orchestrator launches archive after implementation and verification.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -17294,9 +18854,9 @@
     "path": "skills/sdd-design",
     "category": "uncategorized",
     "name": "sdd-design",
-    "description": "Create technical design document with architecture decisions and approach. Trigger: When the orchestrator launches you to write or update the technical design for a change.\n",
-    "risk": "safe",
-    "source": "community",
+    "description": "Create the SDD technical design and architecture approach. Trigger: orchestrator launches design for a change.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -17304,9 +18864,9 @@
     "path": "skills/sdd-explore",
     "category": "uncategorized",
     "name": "sdd-explore",
-    "description": "Explore and investigate ideas before committing to a change. Trigger: When the orchestrator launches you to think through a feature, investigate the codebase, or clarify requirements.\n",
-    "risk": "safe",
-    "source": "community",
+    "description": "Explore SDD ideas before committing to a change. Trigger: orchestrator launches exploration or requirement clarification.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -17314,9 +18874,19 @@
     "path": "skills/sdd-init",
     "category": "uncategorized",
     "name": "sdd-init",
-    "description": "Initialize Spec-Driven Development context in any project. Detects stack, conventions, and bootstraps the active persistence backend. Trigger: When user wants to initialize SDD in a project, or says \"sdd init\", \"iniciar sdd\", \"openspec init\".\n",
-    "risk": "safe",
-    "source": "community",
+    "description": "Trigger: sdd init, iniciar sdd, openspec init. Initialize SDD context, testing capabilities, registry, and persistence.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "sdd-onboard",
+    "path": "skills/sdd-onboard",
+    "category": "automation",
+    "name": "sdd-onboard",
+    "description": "Walk users through the SDD workflow on the real codebase. Trigger: orchestrator launches onboarding for the full SDD cycle.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -17324,9 +18894,9 @@
     "path": "skills/sdd-propose",
     "category": "uncategorized",
     "name": "sdd-propose",
-    "description": "Create a change proposal with intent, scope, and approach. Trigger: When the orchestrator launches you to create or update a proposal for a change.\n",
-    "risk": "safe",
-    "source": "community",
+    "description": "Create an SDD change proposal with intent, scope, and approach. Trigger: orchestrator launches proposal work for a change.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -17334,9 +18904,9 @@
     "path": "skills/sdd-spec",
     "category": "uncategorized",
     "name": "sdd-spec",
-    "description": "Write specifications with requirements and scenarios (delta specs for changes). Trigger: When the orchestrator launches you to write or update specs for a change.\n",
-    "risk": "safe",
-    "source": "community",
+    "description": "Write SDD delta specs with requirements and scenarios. Trigger: orchestrator launches spec work for a change.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -17344,9 +18914,9 @@
     "path": "skills/sdd-tasks",
     "category": "uncategorized",
     "name": "sdd-tasks",
-    "description": "Break down a change into an implementation task checklist. Trigger: When the orchestrator launches you to create or update the task breakdown for a change.\n",
-    "risk": "safe",
-    "source": "community",
+    "description": "Break an SDD change into implementation tasks. Trigger: orchestrator launches task planning for a change.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -17354,9 +18924,9 @@
     "path": "skills/sdd-verify",
     "category": "uncategorized",
     "name": "sdd-verify",
-    "description": "Validate that implementation matches specs, design, and tasks. Trigger: When the orchestrator launches you to verify a completed (or partially completed) change.\n",
-    "risk": "safe",
-    "source": "community",
+    "description": "Trigger: SDD verification phase, verify change. Execute tests and prove implementation matches specs, design, and tasks.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -18190,6 +19760,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "signup",
+    "path": "skills/signup",
+    "category": "uncategorized",
+    "name": "signup",
+    "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "signup-flow-cro",
     "path": "skills/signup-flow-cro",
     "category": "marketing",
@@ -18227,6 +19807,16 @@
     "description": "Find one insight that eliminates multiple components - \"if this is true, we don't need X, Y, or Z\"",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "simplify-code",
+    "path": "skills/simplify-code",
+    "category": "uncategorized",
+    "name": "simplify-code",
+    "description": "Reduce complexity of over-engineered code. Identify unnecessary abstractions, remove dead code, flatten deep nesting, and simplify logic while preserving behavior.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -18274,9 +19864,9 @@
     "path": "skills/skill-creator",
     "category": "meta",
     "name": "skill-creator",
-    "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
-    "risk": "safe",
-    "source": "community",
+    "description": "Trigger: new skills, agent instructions, documenting AI usage patterns. Create LLM-first skills with valid frontmatter.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -18304,9 +19894,9 @@
     "path": "skills/skill-improver",
     "category": "meta",
     "name": "skill-improver",
-    "description": "Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards. Use when improving a skill with multiple quality issues, iterating on a new skill until it meets standards, or automated fix-review cycles instead of manual editing.",
-    "risk": "safe",
-    "source": "community",
+    "description": "Trigger: improve skills, audit skills, refactor skills, skill quality. Audit and upgrade existing LLM-first skills.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -18340,6 +19930,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "skill-registry",
+    "path": "skills/skill-registry",
+    "category": "meta",
+    "name": "skill-registry",
+    "description": "Trigger: update skills, skill registry, actualizar skills, after skill changes. Index available skills by trigger and path.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "skill-router",
     "path": "skills/skill-router",
     "category": "meta",
@@ -18357,6 +19957,16 @@
     "description": "Scan agent skills for security issues before adoption. Detects prompt injection, malicious code, excessive permissions, secret exposure, and supply chain risks.",
     "risk": "offensive",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "skill-scout",
+    "path": "skills/skill-scout",
+    "category": "meta",
+    "name": "skill-scout",
+    "description": "\u65b0\u3057\u3044\u30b9\u30ad\u30eb\u3092\u4f5c\u6210\u3059\u308b\u524d\u306b\u3001\u30ed\u30fc\u30ab\u30eb\u30fb\u30de\u30fc\u30b1\u30c3\u30c8\u30d7\u30ec\u30a4\u30b9\u30fbGitHub\u30fbWeb\u306e\u65e2\u5b58\u30b9\u30ad\u30eb\u3092\u691c\u7d22\u3059\u308b\u3002\u30b9\u30ad\u30eb\u306e\u4f5c\u6210\u30fb\u30d3\u30eb\u30c9\u30fb\u30d5\u30a9\u30fc\u30af\u30fb\u691c\u7d22\u3092\u884c\u3046\u969b\u306b\u4f7f\u7528\u3002",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -18450,6 +20060,16 @@
     "date_added": null
   },
   {
+    "id": "skillify",
+    "path": "skills/skillify",
+    "category": "uncategorized",
+    "name": "skillify",
+    "description": "Auto-create new skills from repetitive workflows. When you notice yourself doing the same multi-step process repeatedly, extract it into a reusable SKILL.md that any agent can use.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "skills",
     "path": "skills",
     "category": "antigravity-awesome-skills",
@@ -18530,6 +20150,16 @@
     "date_added": null
   },
   {
+    "id": "sms",
+    "path": "skills/sms",
+    "category": "uncategorized",
+    "name": "sms",
+    "description": "When the user wants to plan, build, or optimize SMS or MMS marketing \u2014 including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions \"SMS marketing,\" \"text message campaigns,\" \"SMS sequence,\" \"SMS...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "smtp-penetration-testing",
     "path": "skills/smtp-penetration-testing",
     "category": "testing",
@@ -18540,6 +20170,16 @@
     "date_added": null
   },
   {
+    "id": "soc2-audit-prep",
+    "path": "skills/soc2-audit-prep",
+    "category": "uncategorized",
+    "name": "soc2-audit-prep",
+    "description": "/cs:soc2-audit-prep <scope> \u2014 SOC 2 Type II readiness 6-question forcing interrogation. Observation-period focused. Use before Type II observation begins, mid-period checkpoint, or pre-field-test month-10 readiness.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "soc2-compliance",
     "path": "skills/soc2-compliance",
     "category": "uncategorized",
@@ -18547,6 +20187,16 @@
     "description": "Use when the user asks to prepare for SOC 2 audits, map Trust Service Criteria, build control matrices, collect audit evidence, perform gap analysis, or assess SOC 2 Type I vs Type II readiness.",
     "risk": "offensive",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "social",
+    "path": "skills/social",
+    "category": "uncategorized",
+    "name": "social",
+    "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,'...",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -18628,6 +20278,16 @@
     "risk": "critical",
     "source": "community",
     "date_added": "2026-03-06"
+  },
+  {
+    "id": "social-publisher",
+    "path": "skills/social-publisher",
+    "category": "uncategorized",
+    "name": "social-publisher",
+    "description": "Agent-driven scheduling and publishing of social media posts across 13 platforms via SocialClaw. Use when the user wants to publish to X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, or Pinterest \u2014 or when managing campaigns, uploading media...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "software-architecture",
@@ -19250,21 +20910,21 @@
     "date_added": "2026-03-18"
   },
   {
+    "id": "swift-concurrency-6-2",
+    "path": "skills/swift-concurrency-6-2",
+    "category": "uncategorized",
+    "name": "Swift Concurrency 6 2",
+    "description": "Patterns for adopting Swift 6.2's concurrency model where code runs single-threaded by default and concurrency is introduced explicitly. Eliminates common data-race errors without sacrificing performance.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "swift-actor-persistence",
     "path": "skills/swift-actor-persistence",
     "category": "uncategorized",
     "name": "swift-actor-persistence",
     "description": "Thread-safe data persistence in Swift using actors \u2014 in-memory cache with file-backed storage, eliminating data races by design.",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null
-  },
-  {
-    "id": "swift-concurrency-6-2",
-    "path": "skills/swift-concurrency-6-2",
-    "category": "uncategorized",
-    "name": "swift-concurrency-6-2",
-    "description": "Swift 6.2 Approachable Concurrency \u2014 single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types.",
     "risk": "safe",
     "source": "community",
     "date_added": null
@@ -20030,6 +21690,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "tinystruct-patterns",
+    "path": "skills/tinystruct-patterns",
+    "category": "uncategorized",
+    "name": "tinystruct-patterns",
+    "description": "tinystruct\u30d5\u30ec\u30fc\u30e0\u30ef\u30fc\u30af\u3067\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u30e2\u30b8\u30e5\u30fc\u30eb\u307e\u305f\u306f\u30de\u30a4\u30af\u30ed\u30b5\u30fc\u30d3\u30b9\u3092\u958b\u767a\u3059\u308b\u969b\u306b\u4f7f\u7528\u3002\u30eb\u30fc\u30c6\u30a3\u30f3\u30b0\u3001\u30b3\u30f3\u30c6\u30ad\u30b9\u30c8\u7ba1\u7406\u3001Builder\u306b\u3088\u308bJSON\u51e6\u7406\u3001CLI/HTTP\u30c7\u30e5\u30a2\u30eb\u30e2\u30fc\u30c9\u306e\u30d1\u30bf\u30fc\u30f3\u3092\u30ab\u30d0\u30fc\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "todoist-automation",
     "path": "skills/todoist-automation",
     "category": "project-management",
@@ -20290,6 +21960,16 @@
     "date_added": null
   },
   {
+    "id": "ui-to-vue",
+    "path": "skills/ui-to-vue",
+    "category": "web-development",
+    "name": "ui-to-vue",
+    "description": "UI\u30b9\u30af\u30ea\u30fc\u30f3\u30b7\u30e7\u30c3\u30c8\u3084\u30c7\u30b6\u30a4\u30f3\u30a8\u30af\u30b9\u30dd\u30fc\u30c8\u3092Vue 3\u30b3\u30f3\u30dd\u30fc\u30cd\u30f3\u30c8\u306b\u4e00\u62ec\u5909\u63db\u3059\u308b\u969b\u306b\u4f7f\u7528\u3002Vant\u3001Element Plus\u3001Ant Design Vue\u306b\u5bfe\u5fdc\u3002",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "ui-ux-designer",
     "path": "skills/ui-ux-designer",
     "category": "web-development",
@@ -20328,6 +22008,16 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06"
+  },
+  {
+    "id": "uncloud",
+    "path": "skills/uncloud",
+    "category": "uncategorized",
+    "name": "uncloud",
+    "description": "Use when managing an Uncloud cluster \u2014 deploying services, configuring Caddy ingress, adding static proxy routes for non-cluster devices, publishing ports, scaling, inspecting logs, or managing machines and volumes with the `uc` CLI.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "unified-notifications-ops",
@@ -20447,6 +22137,16 @@
     "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "scientific-db-uspto-database",
+    "path": "skills/scientific-db-uspto-database",
+    "category": "uncategorized",
+    "name": "uspto-database",
+    "description": "\u516c\u5f0f\u8a18\u9332\u306e\u691c\u7d22\u3001PatentSearch \u30af\u30a8\u30ea\u3001TSDR \u30c1\u30a7\u30c3\u30af\u3001\u8b72\u6e21\u30c7\u30fc\u30bf\u3001\u304a\u3088\u3073\u518d\u73fe\u53ef\u80fd\u306a IP \u8abf\u67fb\u30ed\u30b0\u306e\u305f\u3081\u306e USPTO \u7279\u8a31\u30fb\u5546\u6a19\u30c7\u30fc\u30bf\u30ef\u30fc\u30af\u30d5\u30ed\u30fc\u3002",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -20610,6 +22310,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "vercel-optimize",
+    "path": "skills/vercel-optimize",
+    "category": "uncategorized",
+    "name": "vercel-optimize",
+    "description": "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "vercel-react-best-practices",
     "path": "skills/vercel-react-best-practices",
     "category": "web-development",
@@ -20657,6 +22367,16 @@
     "description": "Claude Code \u4f1a\u8bdd\u7684\u5168\u9762\u9a8c\u8bc1\u7cfb\u7edf\u3002",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "verify-changes",
+    "path": "skills/verify-changes",
+    "category": "uncategorized",
+    "name": "verify-changes",
+    "description": "Prove code works by running it, not just checking it exists. Verification through execution rather than inspection. Use after writing or modifying code to ensure it actually functions correctly.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -20708,6 +22428,16 @@
     "risk": "critical",
     "source": "https://github.com/marsiandeployer/vibers-action",
     "date_added": "2026-03-17"
+  },
+  {
+    "id": "video",
+    "path": "skills/video",
+    "category": "uncategorized",
+    "name": "video",
+    "description": "When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Runway,' 'Kling,' 'Pika,' 'video generation,' 'AI avatar,'...",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null
   },
   {
     "id": "video-ad-specs",
@@ -20797,6 +22527,16 @@
     "description": "Apply typography, color theory, spacing systems, and iconography principles to create cohesive visual designs. Use when establishing design tokens, building style guides, or improving visual hierarchy and consistency.",
     "risk": "safe",
     "source": "community",
+    "date_added": null
+  },
+  {
+    "id": "vite-patterns",
+    "path": "skills/vite-patterns",
+    "category": "uncategorized",
+    "name": "vite-patterns",
+    "description": "Vite build tool patterns including config, plugins, HMR, env variables, proxy setup, SSR, library mode, dependency pre-bundling, and build optimization. Activate when working with vite.config.ts, Vite plugins, or Vite-based projects.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null
   },
   {
@@ -21190,6 +22930,16 @@
     "date_added": null
   },
   {
+    "id": "windows-desktop-e2e",
+    "path": "skills/windows-desktop-e2e",
+    "category": "testing",
+    "name": "windows-desktop-e2e",
+    "description": "E2E testing for Windows native desktop apps (WPF, WinForms, Win32/MFC, Qt) using pywinauto and Windows UI Automation.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "windows-privilege-escalation",
     "path": "skills/windows-privilege-escalation",
     "category": "security",
@@ -21270,6 +23020,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "work-unit-commits",
+    "path": "skills/work-unit-commits",
+    "category": "uncategorized",
+    "name": "work-unit-commits",
+    "description": "Plan commits as reviewable work units. Trigger: implementation, commit splitting, chained PRs, or keeping tests and docs with code.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "workflow-automation",
     "path": "skills/workflow-automation",
     "category": "workflow",
@@ -21278,6 +23038,16 @@
     "risk": "safe",
     "source": "vibeship-spawner-skills (Apache 2.0)",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "workflow-builder",
+    "path": "skills/workflow-builder",
+    "category": "workflow",
+    "name": "workflow-builder",
+    "description": "Design and write deterministic multi-agent workflow scripts (.js files in .claude/workflows/) for Claude Code's Workflow tool. Use when a user wants to build, create, author, scaffold, or run a custom Claude Code workflow, orchestrate sub-agents (fan-out, pipeline, loop, judge-panel)...",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "workflow-orchestration-patterns",

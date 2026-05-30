@@ -1,8 +1,10 @@
 ---
 name: appinsights-instrumentation-ms
-description: |-
-  Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references.
-  USE FOR: how to instrument app, App Insights SDK, telemetry patterns, what is App Insights, Application Insights guidance, instrumentation examples, APM...
+description: 'Guidance for instrumenting webapps with Azure Application Insights.
+  Provides telemetry patterns, SDK setup, and configuration references.
+
+  USE FOR: how to instrument app, App Insights SDK, telemetry patterns, what is App
+  Insights, Application Insights guidance, instrumentation examples, APM...'
 risk: safe
 source: community
 license: MIT

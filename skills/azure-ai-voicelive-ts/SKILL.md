@@ -1,7 +1,9 @@
 ---
 name: azure-ai-voicelive-ts
-description: |-
-  Azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice AI applications with bidirectional WebSocket communication. Use for voice assistants, conversational AI, real-time speech-to-speech, and voice-enabled chatbots in Node.js or browser environments. Triggers: "voice live", "rea...
+description: 'Azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice
+  AI applications with bidirectional WebSocket communication. Use for voice assistants,
+  conversational AI, real-time speech-to-speech, and voice-enabled chatbots in Node.js
+  or browser environments. Triggers: "voice live", "rea...'
 package: '@azure/ai-voicelive'
 risk: safe
 source: community

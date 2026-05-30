@@ -1,8 +1,11 @@
 ---
 name: azure-prepare-ms
-description: |-
-  Default entry point for Azure application development. Invoke this skill for ANY application work related to Azure: creating apps, building features, adding components, updating code, migrating, or modernizing. Analyzes your project and prepares it for Azure deployment.
-  USE FOR: create an ...
+description: 'Default entry point for Azure application development. Invoke this skill
+  for ANY application work related to Azure: creating apps, building features, adding
+  components, updating code, migrating, or modernizing. Analyzes your project and
+  prepares it for Azure deployment.
+
+  USE FOR: create an ...'
 risk: safe
 source: community
 license: MIT

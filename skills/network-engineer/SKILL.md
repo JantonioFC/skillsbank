@@ -1,7 +1,9 @@
 ---
 name: network-engineer
-description: |-
-  Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization. Masters multi-cloud connectivity, service mesh, zero-trust networking, SSL/TLS, global load balancing, and advanced troubleshooting. Handles CDN optimization, network automation,...
+description: Expert network engineer specializing in modern cloud networking, security
+  architectures, and performance optimization. Masters multi-cloud connectivity, service
+  mesh, zero-trust networking, SSL/TLS, global load balancing, and advanced troubleshooting.
+  Handles CDN optimization, network automation,...
 metadata:
   model: sonnet
 risk: safe

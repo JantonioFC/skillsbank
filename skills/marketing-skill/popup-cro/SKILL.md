@@ -1,7 +1,9 @@
 ---
 name: popup-cro
-description: |-
-  When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions "exit intent," "popup conversions," "modal optimization," "lead capture popup," "email popup," "announcement banner," or "overlay." For forms outside ...
+description: When the user wants to create or optimize popups, modals, overlays, slide-ins,
+  or banners for conversion purposes. Also use when the user mentions "exit intent,"
+  "popup conversions," "modal optimization," "lead capture popup," "email popup,"
+  "announcement banner," or "overlay." For forms outside ...
 license: MIT
 metadata:
   version: 1.0.0

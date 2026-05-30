@@ -1,7 +1,8 @@
 ---
 name: linkerd-patterns
-description: |-
-  Implement Linkerd service mesh patterns for lightweight, security-focused service mesh deployments. Use when setting up Linkerd, configuring traffic policies, or implementing zero-trust networking with minimal overhead.
+description: Implement Linkerd service mesh patterns for lightweight, security-focused
+  service mesh deployments. Use when setting up Linkerd, configuring traffic policies,
+  or implementing zero-trust networking with minimal overhead.
 risk: offensive
 source: community
 license: MIT

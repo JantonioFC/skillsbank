@@ -1,9 +1,10 @@
 ---
 name: robius-state-management
-description: |-
-  CRITICAL: Use for Robius state management patterns. Triggers on:
+description: 'CRITICAL: Use for Robius state management patterns. Triggers on:
+
   AppState, persistence, theme switch, 状态管理,
-  Scope::with_data, save state, load state, serde, 状态持久化, 主题切换
+
+  Scope::with_data, save state, load state, serde, 状态持久化, 主题切换'
 risk: safe
 source: community
 license: MIT

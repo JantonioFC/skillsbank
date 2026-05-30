@@ -1,11 +1,14 @@
 ---
 name: browser-qa
-description: |-
-  - After deploying a feature to staging/preview
+description: '- After deploying a feature to staging/preview
+
   - When you need to verify UI behavior across pages
+
   - Before shipping — confirm layouts, forms, interactions actually work
+
   - When reviewing PRs that touch frontend code
-  - Accessibility audits and responsive testing
+
+  - Accessibility audits and responsive testing'
 risk: safe
 source: community
 license: MIT

@@ -1,7 +1,9 @@
 ---
 name: marketing-context
-description: |-
-  Create and maintain the marketing context document that all marketing skills read before starting. Use when the user mentions 'marketing context,' 'brand voice,' 'set up context,' 'target audience,' 'ICP,' 'style guide,' 'who is my customer,' 'positioning,' or wants to avoid repeating foundationa...
+description: Create and maintain the marketing context document that all marketing
+  skills read before starting. Use when the user mentions 'marketing context,' 'brand
+  voice,' 'set up context,' 'target audience,' 'ICP,' 'style guide,' 'who is my customer,'
+  'positioning,' or wants to avoid repeating foundationa...
 license: MIT
 metadata:
   version: 1.0.0

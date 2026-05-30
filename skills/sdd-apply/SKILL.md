@@ -1,14 +1,26 @@
 ---
 name: sdd-apply
-description: |
-  Implement tasks from the change, writing actual code following the specs and design. Trigger: When the orchestrator launches you to implement one or more tasks from a change.
+description: 'Implement SDD tasks from specs and design. Trigger: orchestrator launches
+  apply for one or more change tasks.'
+disable-model-invocation: true
+user-invocable: false
 license: MIT
 metadata:
   author: gentleman-programming
-  version: '2.0'
-risk: safe
-source: community
+  version: '3.0'
+  delegate_only: true
 ---
+
+> **ORCHESTRATOR GATE**: If you loaded this skill via the `skill()` tool, you are
+> the ORCHESTRATOR — STOP. Do NOT execute these instructions inline. Delegate to
+> the dedicated `sdd-apply` sub-agent using your platform's delegation primitive
+> (e.g., `task(...)`, sub-agent invocation, etc.). This skill is for EXECUTORS
+> only.
+
+## Executor Override
+
+If you ARE the `sdd-apply` sub-agent (NOT the orchestrator), the gate above does NOT apply to you. Continue with the phase work below. Do NOT delegate. Do NOT call the Skill tool. You are the executor — execute.
+
 ## Purpose
 
 You are a sub-agent responsible for IMPLEMENTATION. You receive specific tasks from `tasks.md` and implement them by writing actual code. You follow the specs and design strictly.
@@ -18,19 +30,24 @@ You are a sub-agent responsible for IMPLEMENTATION. You receive specific tasks f
 From the orchestrator:
 - Change name
 - The specific task(s) to implement (e.g., "Phase 1, tasks 1.1-1.3")
-- Artifact store mode (`engram | openspec | none`)
+- Artifact store mode (`engram | openspec | hybrid | none`)
+- Delivery strategy and resolved workload decision (`ask-on-risk | auto-chain | single-pr | exception-ok`, plus PR slice or `size:exception` when applicable)
 
 ## Execution and Persistence Contract
 
-Read and follow `skills/_shared/persistence-contract.md` for mode resolution rules.
+> Follow **Section B** (retrieval) and **Section C** (persistence) from `skills/_shared/sdd-phase-common.md`.
 
-- If mode is `engram`: Read and follow `skills/_shared/engram-convention.md`. Artifact type: `apply-progress`. Retrieve `proposal`, `spec`, `design`, and `tasks` as dependencies. Also use `mem_update` to mark completed tasks in the `tasks` artifact.
-- If mode is `openspec`: Read and follow `skills/_shared/openspec-convention.md`. Update `tasks.md` with `[x]` marks.
-- If mode is `none`: Return progress only. Do not update project artifacts.
+- **engram**: Read `sdd/{change-name}/proposal`, `sdd/{change-name}/spec`, `sdd/{change-name}/design`, `sdd/{change-name}/tasks` (all required — keep tasks ID for updates). Mark tasks complete via `mem_update(id: {tasks-observation-id}, content: "...")`. Save progress as `sdd/{change-name}/apply-progress`.
+- **openspec**: Read and follow `skills/_shared/openspec-convention.md`. Update `tasks.md` with `[x]` marks.
+- **hybrid**: Follow BOTH conventions — persist progress to Engram (`mem_update` for tasks) AND update `tasks.md` with `[x]` marks on filesystem.
+- **none**: Return progress only. Do not update project artifacts.
 
 ## What to Do
 
-### Step 1: Read Context
+### Step 1: Load Skills
+Follow **Section A** from `skills/_shared/sdd-phase-common.md`.
+
+### Step 2: Read Context
 
 Before writing ANY code:
 1. Read the specs — understand WHAT the code must do
@@ -38,68 +55,76 @@ Before writing ANY code:
 3. Read existing code in affected files — understand current patterns
 4. Check the project's coding conventions from `config.yaml`
 
-### Step 2: Detect Implementation Mode
+#### Step 2a: Enforce Review Workload Decision
 
-Before writing code, determine if the project uses TDD:
+Before implementing, inspect the tasks artifact for `Review Workload Forecast`.
+
+If the forecast says any of the following:
+
+- `400-line budget risk: High`
+- `Chained PRs recommended: Yes`
+- `Decision needed before apply: Yes`
+
+Then you MUST confirm the orchestrator/user provided a resolved delivery path:
+
+1. **`auto-chain` or chosen chained/stacked PR mode**: implement only the assigned work-unit slice, keep scope autonomous, and report the intended PR boundary. Follow the `Chain strategy` from the tasks artifact (`stacked-to-main` or `feature-branch-chain`) for branch targeting.
+2. **`exception-ok` or single PR with exception**: continue only if the prompt explicitly says the maintainer accepts `size:exception`.
+3. **`single-pr` above budget**: continue only after the prompt explicitly records `size:exception`.
+
+Also check for `Chain strategy` in the tasks artifact. If present and not `pending`, follow it consistently:
+- `stacked-to-main`: each PR targets the previous PR's branch (or `main` after the previous merges).
+- `feature-branch-chain`: PR #1 targets the feature/tracker branch; later PRs target the immediate previous PR branch. The tracker PR aggregates the feature branch to `main`; child PR diffs must stay focused on only the current work unit and must never target `main` directly.
+
+If neither delivery decision nor chain strategy is present, STOP before writing code and return `blocked` with: `Workload decision required before apply: estimated work may exceed 400 changed lines. Ask the user which chain strategy to use (stacked-to-main, feature-branch-chain, or size-exception).`
+
+#### Step 2b: Read Previous Apply-Progress (if exists)
+
+Before starting work, check for existing apply-progress:
+
+1. `mem_search(query: "sdd/{change-name}/apply-progress", project: "{project}")`
+2. If found: `mem_get_observation(id)` → read the full content
+3. Parse which tasks are already marked complete
+4. Skip those tasks — start from the first incomplete task
+5. When saving your apply-progress in Step 6, MERGE: include all previously completed tasks PLUS your newly completed tasks in a single combined artifact
+
+**CRITICAL**: If the orchestrator told you previous progress exists, you MUST read it. If you overwrite without reading, completed work from prior batches is permanently lost.
+
+### Step 3: Read Testing Capabilities and Resolve Mode
+
+Read the cached testing capabilities to determine implementation mode:
 
 ```
-Detect TDD mode from (in priority order):
-├── openspec/config.yaml → rules.apply.tdd (true/false — highest priority)
-├── User's installed skills (e.g., tdd/SKILL.md exists)
-├── Existing test patterns in the codebase (test files alongside source)
-└── Default: standard mode (write code first, then verify)
+Read testing capabilities from:
+├── engram: mem_search("sdd/{project}/testing-capabilities") → mem_get_observation(id)
+├── openspec: openspec/config.yaml → strict_tdd + testing section
+└── Fallback: check project files directly (package.json, go.mod, etc.)
 
-IF TDD mode is detected → use Step 2a (TDD Workflow)
-IF standard mode → use Step 2b (Standard Workflow)
-```
-
-### Step 2a: Implement Tasks (TDD Workflow — RED → GREEN → REFACTOR)
-
-When TDD is active, EVERY task follows this cycle:
-
-```
-FOR EACH TASK:
-├── 1. UNDERSTAND
-│   ├── Read the task description
-│   ├── Read relevant spec scenarios (these are your acceptance criteria)
-│   ├── Read the design decisions (these constrain your approach)
-│   └── Read existing code and test patterns
+Resolve mode:
+├── IF strict_tdd: true AND test runner exists
+│   └── STRICT TDD MODE → Load and follow strict-tdd.md module
+│       (read the file: skills/sdd-apply/strict-tdd.md)
 │
-├── 2. RED — Write a failing test FIRST
-│   ├── Write test(s) that describe the expected behavior from the spec scenarios
-│   ├── Run tests — confirm they FAIL (this proves the test is meaningful)
-│   └── If test passes immediately → the behavior already exists or the test is wrong
+├── IF strict_tdd: false OR no test runner
+│   └── STANDARD MODE → use Step 4 below (no TDD module loaded)
 │
-├── 3. GREEN — Write the minimum code to pass
-│   ├── Implement ONLY what's needed to make the failing test(s) pass
-│   ├── Run tests — confirm they PASS
-│   └── Do NOT add extra functionality beyond what the test requires
-│
-├── 4. REFACTOR — Clean up without changing behavior
-│   ├── Improve code structure, naming, duplication
-│   ├── Run tests again — confirm they STILL PASS
-│   └── Match project conventions and patterns
-│
-├── 5. Mark task as complete [x] in tasks.md
-└── 6. Note any issues or deviations
+└── Cache the resolved mode for the return summary
 ```
 
-Detect the test runner for execution:
+**Key principle**: If Strict TDD Mode is not active, ZERO TDD instructions are loaded. The `strict-tdd.md` module is never read, never processed, never consumes tokens.
 
-```
-Detect test runner from:
-├── openspec/config.yaml → rules.apply.test_command (highest priority)
-├── package.json → scripts.test
-├── pyproject.toml / pytest.ini → pytest
-├── Makefile → make test
-└── Fallback: report that tests couldn't be run automatically
-```
+#### Hard Gate (Strict TDD Only)
 
-**Important**: If any user coding skills are installed (e.g., `tdd/SKILL.md`, `pytest/SKILL.md`, `vitest/SKILL.md`), read and follow those skill patterns for writing tests.
+If Strict TDD Mode is active (either from orchestrator injection or self-discovery):
+- You MUST produce a **TDD Cycle Evidence** table in your apply-progress artifact
+- Each task row MUST have: RED (test written first) → GREEN (implementation passes) → REFACTOR columns
+- If you complete a task WITHOUT writing tests first, mark it as FAILED in the evidence table
+- The verify phase WILL reject your work if the TDD Evidence table is missing or incomplete
 
-### Step 2b: Implement Tasks (Standard Workflow)
+**There is no silent fallback.** If you resolved Strict TDD as active, you follow it or you report failure. You do NOT quietly switch to Standard Mode.
 
-When TDD is not active:
+### Step 4: Implement Tasks (Standard Workflow)
+
+This step is used when Strict TDD Mode is NOT active:
 
 ```
 FOR EACH TASK:
@@ -112,7 +137,7 @@ FOR EACH TASK:
 └── Note any issues or deviations
 ```
 
-### Step 3: Mark Tasks Complete
+### Step 5: Mark Tasks Complete
 
 Update `tasks.md` — change `- [ ]` to `- [x]` for completed tasks:
 
@@ -124,7 +149,24 @@ Update `tasks.md` — change `- [ ]` to `- [x]` for completed tasks:
 - [ ] 1.3 Add auth routes to `internal/server/server.go`  ← still pending
 ```
 
-### Step 4: Return Summary
+### Step 6: Persist Progress
+
+**This step is MANDATORY — do NOT skip it.**
+
+Follow **Section C** from `skills/_shared/sdd-phase-common.md`.
+- artifact: `apply-progress`
+- topic_key: `sdd/{change-name}/apply-progress`
+- type: `architecture`
+- Also update the tasks artifact with `[x]` marks via `mem_update` (engram) or file edit (openspec/hybrid).
+
+#### Merge Protocol
+
+When saving apply-progress:
+1. If you read previous progress in Step 2b, your artifact MUST include ALL previously completed tasks (copy their status and evidence) PLUS your new completions
+2. The final artifact should show the cumulative state of ALL tasks across ALL batches
+3. Format: keep the same structure but ensure no completed task is lost from prior batches
+
+### Step 7: Return Summary
 
 Return to the orchestrator:
 
@@ -132,7 +174,7 @@ Return to the orchestrator:
 ## Implementation Progress
 
 **Change**: {change-name}
-**Mode**: {TDD | Standard}
+**Mode**: {Strict TDD | Standard}
 
 ### Completed Tasks
 - [x] {task 1.1 description}
@@ -144,13 +186,7 @@ Return to the orchestrator:
 | `path/to/file.ext` | Created | {brief description} |
 | `path/to/other.ext` | Modified | {brief description} |
 
-### Tests (TDD mode only)
-| Task | Test File | RED (fail) | GREEN (pass) | REFACTOR |
-|------|-----------|------------|--------------|----------|
-| 1.1 | `path/to/test.ext` | ✅ Failed as expected | ✅ Passed | ✅ Clean |
-| 1.2 | `path/to/test.ext` | ✅ Failed as expected | ✅ Passed | ✅ Clean |
-
-{Omit this section if standard mode was used.}
+{IF Strict TDD Mode → include TDD Cycle Evidence table from strict-tdd.md}
 
 ### Deviations from Design
 {List any places where the implementation deviated from design.md and why.
@@ -164,6 +200,12 @@ If none, say "None."}
 - [ ] {next task}
 - [ ] {next task}
 
+### Workload / PR Boundary
+- Mode: {single PR | chained PR slice | stacked PR slice | size:exception}
+- Current work unit: {unit name or "N/A"}
+- Boundary: {what this apply batch starts from and ends with}
+- Estimated review budget impact: {brief note}
+
 ### Status
 {N}/{total} tasks complete. {Ready for next batch / Ready for verify / Blocked by X}
 ```
@@ -176,12 +218,12 @@ If none, say "None."}
 - In `openspec` mode, mark tasks complete in `tasks.md` AS you go, not at the end
 - If you discover the design is wrong or incomplete, NOTE IT in your return summary — don't silently deviate
 - If a task is blocked by something unexpected, STOP and report back
+- If workload forecast requires a decision and none was provided, STOP before writing code
+- When applying a chained/stacked PR slice, keep the batch autonomous: one deliverable scope, verification included, and clear rollback boundary
+- When applying `size:exception`, state it explicitly in apply-progress and the return summary
 - NEVER implement tasks that weren't assigned to you
-- Load and follow any relevant coding skills for the project stack (e.g., react-19, typescript, django-drf, tdd, pytest, vitest) if available in the user's skill set
+- Skill loading is handled in Step 1 — follow any loaded skills strictly when writing code
 - Apply any `rules.apply` from `openspec/config.yaml`
-- If TDD mode is detected (Step 2), ALWAYS follow the RED → GREEN → REFACTOR cycle — never skip RED (writing the failing test first)
-- When running tests during TDD, run ONLY the relevant test file/suite, not the entire test suite (for speed)
-- Return a structured envelope with: `status`, `executive_summary`, `detailed_report` (optional), `artifacts`, `next_recommended`, and `risks`
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- If Strict TDD Mode is active (Step 3), load `strict-tdd.md` and follow its cycle INSTEAD of Step 4
+- When Strict TDD is active, the `strict-tdd.md` module's rules OVERRIDE Step 4 entirely
+- Return envelope per **Section D** from `skills/_shared/sdd-phase-common.md`.

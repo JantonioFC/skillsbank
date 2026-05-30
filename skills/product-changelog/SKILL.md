@@ -1,7 +1,9 @@
 ---
 name: product-changelog
-description: |-
-  Product changelog and release notes that users actually read. Covers categorization, user-facing language, visuals, and distribution. Use for: release notes, changelogs, product updates, feature announcements, versioning. Triggers: changelog, release notes, product update, version notes, w...
+description: 'Product changelog and release notes that users actually read. Covers
+  categorization, user-facing language, visuals, and distribution. Use for: release
+  notes, changelogs, product updates, feature announcements, versioning. Triggers:
+  changelog, release notes, product update, version notes, w...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

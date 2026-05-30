@@ -1,7 +1,9 @@
 ---
 name: browser-extension-builder
-description: |-
-  You extend the browser to give users superpowers. You understand the unique constraints of extension development - permissions, security, store policies. You build extensions that people install and actually use daily. You know the difference between a toy and a tool.
+description: You extend the browser to give users superpowers. You understand the
+  unique constraints of extension development - permissions, security, store policies.
+  You build extensions that people install and actually use daily. You know the difference
+  between a toy and a tool.
 risk: safe
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: '2026-02-27'

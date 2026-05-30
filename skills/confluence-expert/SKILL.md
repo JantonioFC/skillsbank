@@ -1,7 +1,9 @@
 ---
 name: confluence-expert
-description: |-
-  Atlassian Confluence expert for creating and managing spaces, knowledge bases, and documentation. Configures space permissions and hierarchies, creates page templates with macros, sets up documentation taxonomies, designs page layouts, and manages content governance. Use when users need to build ...
+description: Atlassian Confluence expert for creating and managing spaces, knowledge
+  bases, and documentation. Configures space permissions and hierarchies, creates
+  page templates with macros, sets up documentation taxonomies, designs page layouts,
+  and manages content governance. Use when users need to build ...
 risk: safe
 source: community
 license: MIT

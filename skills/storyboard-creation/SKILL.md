@@ -1,7 +1,9 @@
 ---
 name: storyboard-creation
-description: |-
-  Film and video storyboarding with shot vocabulary, continuity rules, and panel layout. Covers shot types, camera angles, movement, 180-degree rule, and annotation format. Use for: video planning, film pre-production, ad storyboards, music video planning, animation. Triggers: storyboard, st...
+description: 'Film and video storyboarding with shot vocabulary, continuity rules,
+  and panel layout. Covers shot types, camera angles, movement, 180-degree rule, and
+  annotation format. Use for: video planning, film pre-production, ad storyboards,
+  music video planning, animation. Triggers: storyboard, st...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

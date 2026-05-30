@@ -1,7 +1,9 @@
 ---
 name: revenue-operations
-description: |-
-  Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization. Use when analyzing sales pipeline coverage, forecasting revenue, evaluating go-to-market performance, reviewing sales metrics, assessing pipeline analysis, tracking for...
+description: Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market
+  efficiency metrics for SaaS revenue optimization. Use when analyzing sales pipeline
+  coverage, forecasting revenue, evaluating go-to-market performance, reviewing sales
+  metrics, assessing pipeline analysis, tracking for...
 risk: safe
 source: community
 license: MIT

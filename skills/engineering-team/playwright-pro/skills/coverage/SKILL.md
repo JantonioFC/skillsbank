@@ -1,7 +1,8 @@
 ---
 name: coverage
-description: |-
-  Analyze test coverage gaps. Use when user says "test coverage", "what's not tested", "coverage gaps", "missing tests", "coverage report", or "what needs testing".
+description: Analyze test coverage gaps. Use when user says "test coverage", "what's
+  not tested", "coverage gaps", "missing tests", "coverage report", or "what needs
+  testing".
 risk: safe
 source: community
 license: MIT

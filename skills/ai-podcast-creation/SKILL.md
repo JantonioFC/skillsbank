@@ -1,7 +1,9 @@
 ---
 name: ai-podcast-creation
-description: |-
-  Create AI-powered podcasts with text-to-speech, music, and audio editing. Tools: Kokoro TTS, DIA TTS, Chatterbox, AI music generation, media merger. Capabilities: multi-voice conversations, background music, intro/outro, full episodes. Use for: podcast production, audiobooks, voice content...
+description: 'Create AI-powered podcasts with text-to-speech, music, and audio editing.
+  Tools: Kokoro TTS, DIA TTS, Chatterbox, AI music generation, media merger. Capabilities:
+  multi-voice conversations, background music, intro/outro, full episodes. Use for:
+  podcast production, audiobooks, voice content...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

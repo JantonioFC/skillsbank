@@ -1,7 +1,9 @@
 ---
 name: content-strategy
-description: |-
-  When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," or "content planning." For writing individual pie...
+description: When the user wants to plan a content strategy, decide what content to
+  create, or figure out what topics to cover. Also use when the user mentions "content
+  strategy," "what should I write about," "content ideas," "blog strategy," "topic
+  clusters," or "content planning." For writing individual pie...
 license: MIT
 metadata:
   version: 1.0.0

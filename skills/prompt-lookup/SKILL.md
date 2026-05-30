@@ -1,7 +1,8 @@
 ---
 name: prompt-lookup
-description: |-
-  Activates when the user asks about AI prompts, needs prompt templates, wants to search for prompts, or mentions prompts.chat. Use for discovering, retrieving, and improving prompts.
+description: Activates when the user asks about AI prompts, needs prompt templates,
+  wants to search for prompts, or mentions prompts.chat. Use for discovering, retrieving,
+  and improving prompts.
 risk: safe
 source: community
 license: MIT

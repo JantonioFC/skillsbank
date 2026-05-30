@@ -1,7 +1,9 @@
 ---
 name: marketing-demand-acquisition
-description: |-
-  Creates demand generation campaigns, optimizes paid ad spend across LinkedIn, Google, and Meta, develops SEO strategies, and structures partnership programs for Series A+ startups scaling internationally. Use when planning marketing strategy, growth marketing, advertising campaigns, PPC optimizat...
+description: Creates demand generation campaigns, optimizes paid ad spend across LinkedIn,
+  Google, and Meta, develops SEO strategies, and structures partnership programs for
+  Series A+ startups scaling internationally. Use when planning marketing strategy,
+  growth marketing, advertising campaigns, PPC optimizat...
 triggers:
 - demand gen
 - demand generation

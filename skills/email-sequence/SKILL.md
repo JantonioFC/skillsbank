@@ -1,7 +1,9 @@
 ---
 name: email-sequence
-description: |-
-  When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation,"...
+description: When the user wants to create or optimize an email sequence, drip campaign,
+  automated email flow, or lifecycle email program. Also use when the user mentions
+  "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome
+  sequence," "re-engagement emails," "email automation,"...
 metadata:
   version: 1.1.0
 risk: safe

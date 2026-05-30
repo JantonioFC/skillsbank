@@ -1,7 +1,9 @@
 ---
 name: site-architecture
-description: |-
-  When the user wants to audit, redesign, or plan their website's structure, URL hierarchy, navigation design, or internal linking strategy. Use when the user mentions 'site architecture,' 'URL structure,' 'internal links,' 'site navigation,' 'breadcrumbs,' 'topic clusters,' 'hub pages,' 'orphan pa...
+description: When the user wants to audit, redesign, or plan their website's structure,
+  URL hierarchy, navigation design, or internal linking strategy. Use when the user
+  mentions 'site architecture,' 'URL structure,' 'internal links,' 'site navigation,'
+  'breadcrumbs,' 'topic clusters,' 'hub pages,' 'orphan pa...
 license: MIT
 metadata:
   version: 1.0.0

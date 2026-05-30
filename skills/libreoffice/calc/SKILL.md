@@ -1,7 +1,7 @@
 ---
 name: calc
-description: |-
-  Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.
+description: Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data
+  automation with LibreOffice Calc.
 category: spreadsheet-processing
 risk: safe
 source: personal

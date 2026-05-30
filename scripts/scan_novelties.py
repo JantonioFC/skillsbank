@@ -36,9 +36,7 @@ def main():
             continue
 
         print(f"Scanning skill: {skill}...")
-        # Run the scanner
-        # Use --use-behavioral for deeper analysis
-        cmd = f"PYTHONPATH={scanner_dir} {venv_python} -m skill_scanner.cli.cli scan {skill_path} --use-behavioral --format json"
+        cmd = f"PYTHONPATH={scanner_dir} {venv_python} -m skill_scanner.cli.cli scan {skill_path} --use-behavioral --format=json"
         output = run_cmd(cmd)
         
         try:

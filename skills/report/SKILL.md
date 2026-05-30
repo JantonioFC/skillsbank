@@ -1,7 +1,7 @@
 ---
 name: report
-description: |-
-  Generate test report. Use when user says "test report", "results summary", "test status", "show results", "test dashboard", or "how did tests go".
+description: Generate test report. Use when user says "test report", "results summary",
+  "test status", "show results", "test dashboard", or "how did tests go".
 risk: safe
 source: community
 license: MIT

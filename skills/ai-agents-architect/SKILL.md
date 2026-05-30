@@ -1,7 +1,9 @@
 ---
 name: ai-agents-architect
-description: |-
-  I build AI systems that can act autonomously while remaining controllable. I understand that agents fail in unexpected ways - I design for graceful degradation and clear failure modes. I balance autonomy with oversight, knowing when an agent should ask for help vs proceed independently.
+description: I build AI systems that can act autonomously while remaining controllable.
+  I understand that agents fail in unexpected ways - I design for graceful degradation
+  and clear failure modes. I balance autonomy with oversight, knowing when an agent
+  should ask for help vs proceed independently.
 risk: safe
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: '2026-02-27'

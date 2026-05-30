@@ -1,6 +1,7 @@
 ---
 name: cisco-ios-patterns
-description: showコマンド、コンフィグ階層、ワイルドカードマスク、ACL配置、インターフェースハイジーン、安全な変更ウィンドウ検証のためのCisco IOSおよびIOS-XEレビューパターン。
+description: showコマンド、コンフィグ階層、ワイルドカードマスク、ACL配置、インターフェースハイジーン、安全な変更ウィンドウ検証のためのCisco
+  IOSおよびIOS-XEレビューパターン。
 origin: community
 ---
 

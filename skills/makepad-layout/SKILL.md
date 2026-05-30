@@ -1,10 +1,13 @@
 ---
 name: makepad-layout
-description: |-
-  CRITICAL: Use for Makepad layout system. Triggers on:
+description: 'CRITICAL: Use for Makepad layout system. Triggers on:
+
   makepad layout, makepad width, makepad height, makepad flex,
+
   makepad padding, makepad margin, makepad flow, makepad align,
-  Fit, Fill, Size, Walk, "how to center in makepad", makepad 布局, makepad 宽度, makepad 对齐, makepad 居中
+
+  Fit, Fill, Size, Walk, "how to center in makepad", makepad 布局, makepad 宽度, makepad
+  对齐, makepad 居中'
 risk: safe
 source: community
 license: MIT

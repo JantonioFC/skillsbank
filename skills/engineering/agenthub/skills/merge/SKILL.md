@@ -1,7 +1,7 @@
 ---
 name: merge
-description: |-
-  Merge the winning agent's branch into base, archive losers, and clean up worktrees.
+description: Merge the winning agent's branch into base, archive losers, and clean
+  up worktrees.
 command: /hub:merge
 risk: safe
 source: community

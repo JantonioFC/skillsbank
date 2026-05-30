@@ -1,7 +1,7 @@
 ---
 name: release-manager
-description: |-
-  Use when the user asks to plan releases, manage changelogs, coordinate deployments, create release branches, or automate versioning.
+description: Use when the user asks to plan releases, manage changelogs, coordinate
+  deployments, create release branches, or automate versioning.
 risk: offensive
 source: community
 license: MIT

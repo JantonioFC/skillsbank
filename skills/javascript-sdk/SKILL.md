@@ -1,7 +1,9 @@
 ---
 name: javascript-sdk
-description: |-
-  JavaScript/TypeScript SDK for inference.sh - run AI apps, build agents, integrate 150+ models. Package: @inferencesh/sdk (npm install). Full TypeScript support, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, skills, human approval. Use for: JavaSc...
+description: 'JavaScript/TypeScript SDK for inference.sh - run AI apps, build agents,
+  integrate 150+ models. Package: @inferencesh/sdk (npm install). Full TypeScript
+  support, streaming, file uploads. Build agents with template or ad-hoc patterns,
+  tool builder API, skills, human approval. Use for: JavaSc...'
 allowed-tools: Bash(npm *), Bash(npx *), Bash(node *), Bash(pnpm *), Bash(yarn *)
 risk: safe
 source: community

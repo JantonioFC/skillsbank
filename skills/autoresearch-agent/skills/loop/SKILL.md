@@ -1,7 +1,7 @@
 ---
 name: loop
-description: |-
-  Start an autonomous experiment loop with user-selected interval (10min, 1h, daily, weekly, monthly). Uses CronCreate for scheduling.
+description: Start an autonomous experiment loop with user-selected interval (10min,
+  1h, daily, weekly, monthly). Uses CronCreate for scheduling.
 command: /ar:loop
 risk: offensive
 source: community

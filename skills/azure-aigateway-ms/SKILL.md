@@ -1,8 +1,11 @@
 ---
 name: azure-aigateway-ms
-description: |-
-  Configure Azure API Management (APIM) as AI Gateway to secure, observe, control AI models, MCP servers, agents. Helps with rate limiting, semantic caching, content safety, load balancing.
-  USE FOR: AI Gateway, APIM, setup gateway, configure gateway, add gateway, model gateway, MCP server, r...
+description: 'Configure Azure API Management (APIM) as AI Gateway to secure, observe,
+  control AI models, MCP servers, agents. Helps with rate limiting, semantic caching,
+  content safety, load balancing.
+
+  USE FOR: AI Gateway, APIM, setup gateway, configure gateway, add gateway, model
+  gateway, MCP server, r...'
 risk: safe
 source: community
 license: MIT

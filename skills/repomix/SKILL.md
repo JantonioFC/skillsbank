@@ -1,7 +1,9 @@
 ---
 name: repomix
-description: |-
-  Package entire code repositories into single AI-friendly files using Repomix. Capabilities include pack codebases with customizable include/exclude patterns, generate multiple output formats (XML, Markdown, plain text), preserve file structure and context, optimize for AI consumption with token c...
+description: Package entire code repositories into single AI-friendly files using
+  Repomix. Capabilities include pack codebases with customizable include/exclude patterns,
+  generate multiple output formats (XML, Markdown, plain text), preserve file structure
+  and context, optimize for AI consumption with token c...
 risk: safe
 source: community
 license: MIT

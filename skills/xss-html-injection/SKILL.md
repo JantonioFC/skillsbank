@@ -1,7 +1,9 @@
 ---
 name: xss-html-injection
-description: |-
-  This skill should be used when the user asks to "test for XSS vulnerabilities", "perform cross-site scripting attacks", "identify HTML injection flaws", "exploit client-side injection vulnerabilities", "steal cookies via XSS", or "bypass content security policies". It provides comprehensive techn...
+description: This skill should be used when the user asks to "test for XSS vulnerabilities",
+  "perform cross-site scripting attacks", "identify HTML injection flaws", "exploit
+  client-side injection vulnerabilities", "steal cookies via XSS", or "bypass content
+  security policies". It provides comprehensive techn...
 metadata:
   author: zebbern
   version: '1.1'

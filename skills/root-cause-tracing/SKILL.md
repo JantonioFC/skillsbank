@@ -1,8 +1,9 @@
 ---
 name: root-cause-tracing
-description: Systematically trace bugs backward through call stack to find original trigger
-when_to_use: |-
-  when errors occur deep in execution and you need to trace back to find the original trigger
+description: Systematically trace bugs backward through call stack to find original
+  trigger
+when_to_use: when errors occur deep in execution and you need to trace back to find
+  the original trigger
 version: 1.1.0
 languages: all
 risk: safe

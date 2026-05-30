@@ -1,7 +1,9 @@
 ---
 name: ai-image-generation
-description: |-
-  Generate AI images with FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscalin...
+description: 'Generate AI images with FLUX, Gemini, Grok, Seedream, Reve and 50+ models
+  via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image,
+  Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image,
+  inpainting, LoRA, image editing, upscalin...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

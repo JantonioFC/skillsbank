@@ -1,7 +1,7 @@
 ---
 name: wordpress-theme-development
-description: |-
-  WordPress theme development workflow covering theme architecture, template hierarchy, custom post types, block editor support, and responsive design.
+description: WordPress theme development workflow covering theme architecture, template
+  hierarchy, custom post types, block editor support, and responsive design.
 category: granular-workflow-bundle
 risk: safe
 source: personal

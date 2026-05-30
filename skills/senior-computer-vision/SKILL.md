@@ -1,7 +1,9 @@
 ---
 name: senior-computer-vision
-description: |-
-  Computer vision engineering skill for object detection, image segmentation, and visual AI systems. Covers CNN and Vision Transformer architectures, YOLO/Faster R-CNN/DETR detection, Mask R-CNN/SAM segmentation, and production deployment with ONNX/TensorRT. Includes PyTorch, torchvision, Ultralyti...
+description: Computer vision engineering skill for object detection, image segmentation,
+  and visual AI systems. Covers CNN and Vision Transformer architectures, YOLO/Faster
+  R-CNN/DETR detection, Mask R-CNN/SAM segmentation, and production deployment with
+  ONNX/TensorRT. Includes PyTorch, torchvision, Ultralyti...
 risk: safe
 source: community
 license: MIT

@@ -1,7 +1,11 @@
 ---
 name: batch-operations
-description: Apply operations across multiple files simultaneously. Pattern-based bulk modifications, search-and-replace across codebases, consistent changes to many files at once.
-when_to_use: "When the user needs to change multiple files with the same pattern, rename across a codebase, add imports to many files, update versions, or apply consistent modifications. NOT for single-file edits."
+description: Apply operations across multiple files simultaneously. Pattern-based
+  bulk modifications, search-and-replace across codebases, consistent changes to many
+  files at once.
+when_to_use: When the user needs to change multiple files with the same pattern, rename
+  across a codebase, add imports to many files, update versions, or apply consistent
+  modifications. NOT for single-file edits.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 effort: medium
 ---

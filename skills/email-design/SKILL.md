@@ -1,7 +1,9 @@
 ---
 name: email-design
-description: |-
-  Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails, transactional templates, and mobile optimization. Use for: email marketing, newsletter design, drip campaigns, email templates, transactional emails. ...
+description: 'Email marketing design with layout patterns, subject line formulas,
+  and deliverability rules. Covers welcome sequences, promotional emails, transactional
+  templates, and mobile optimization. Use for: email marketing, newsletter design,
+  drip campaigns, email templates, transactional emails. ...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

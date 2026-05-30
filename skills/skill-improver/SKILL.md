@@ -1,147 +1,53 @@
 ---
 name: skill-improver
-description: |-
-  Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards. Use when improving a skill with multiple quality issues, iterating on a new skill until it meets standards, or automated fix-review cycles instead of manual editing.
-risk: safe
-source: community
-license: MIT
+description: 'Trigger: improve skills, audit skills, refactor skills, skill quality.
+  Audit and upgrade existing LLM-first skills.'
+license: Apache-2.0
+metadata:
+  author: gentleman-programming
+  version: '1.0'
 ---
-# Skill Improvement Methodology
 
-Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards.
+## Activation Contract
 
-## Prerequisites
+Use this skill when asked to audit, refactor, normalize, or improve existing `SKILL.md` files. Use `skill-creator` instead when creating a brand-new skill from a reusable pattern.
 
-Requires the `plugin-dev` plugin which provides the `skill-reviewer` agent.
+## Hard Rules
 
-Verify it's enabled: run `/plugins` — `plugin-dev` should appear in the list. If missing, install from the Trail of Bits plugin repository.
+- Treat `docs/skill-style-guide.md` as the normative style contract when it exists.
+- Treat `SKILL.md` as the source of truth; preserve author intent, critical rules, activation semantics, and output requirements.
+- Use `.atl/skill-registry.md` as an index of skill names, triggers, scopes, and exact paths; do not expect generated summaries.
+- Default to audit-only. Modify files only when the user explicitly asks to apply improvements.
+- Never delete meaningful content silently; move long explanation, examples, templates, or schemas into local `references/` or `assets/`.
+- Do not invent triggers, policies, or domain rules. Mark ambiguous cases for human review.
 
-## Core Loop
+## Decision Gates
 
-1. **Review** - Call skill-reviewer on the target skill
-2. **Categorize** - Parse issues by severity
-3. **Fix** - Address critical and major issues
-4. **Evaluate** - Check minor issues for validity before fixing
-5. **Repeat** - Continue until quality bar is met
+| Situation | Action |
+| --- | --- |
+| Missing or invalid frontmatter | Fix `name`, quoted one-line `description`, `license`, and `metadata` |
+| Skill reads like tutorial docs | Convert to runtime instructions and move background to `references/` |
+| Body exceeds budget | Preserve rules, move examples/background to supporting files |
+| Branching logic hidden in prose | Convert to a compact decision table |
+| Rules conflict or intent is unclear | Report the issue; do not rewrite that rule automatically |
 
-## When to Use
-- Improving a skill with multiple quality issues
-- Iterating on a new skill until it meets standards
-- Automated fix-review cycles instead of manual editing
-- Consistent quality enforcement across skills
+## Execution Steps
 
-## When NOT to Use
+1. Read `docs/skill-style-guide.md`; if unavailable, enforce the core LLM-first structure: frontmatter, Activation Contract, Hard Rules, Decision Gates, Execution Steps, Output Contract, References.
+2. Read `.atl/skill-registry.md`; use listed paths to select skills. If missing, scan known skill directories for `*/SKILL.md`.
+3. For each selected skill, audit metadata, trigger clarity, section order, body budget, actionability, decision gates, output contract, and local references.
+4. Return an audit report grouped by skill with severity and exact proposed changes.
+5. In apply mode, edit only safe issues, preserve content, create supporting files when needed, then rerun or request `gentle-ai skill-registry refresh`.
 
-- **One-time review**: Use `/skill-reviewer` directly instead
-- **Quick single fixes**: Edit the file directly
-- **Non-skill files**: Only works on SKILL.md files
-- **Experimental skills**: Manual iteration gives more control during exploration
+## Output Contract
 
-## Issue Categorization
+Return:
+- Skills audited and paths used.
+- Issues found, grouped by severity.
+- Files changed, if apply mode was requested.
+- Registry refresh recommendation when skill metadata or paths changed.
+- Ambiguities that need human review.
 
-### Critical Issues (MUST fix immediately)
+## References
 
-These block skill loading or cause runtime failures:
-
-- Missing required frontmatter fields (name, description) — Claude cannot index or trigger the skill
-- Invalid YAML frontmatter syntax — Parsing fails, skill won't load
-- Referenced files that don't exist — Runtime errors when Claude follows links
-- Broken file paths — Same as above, leads to tool failures
-
-### Major Issues (MUST fix)
-
-These significantly degrade skill effectiveness:
-
-- Weak or vague trigger descriptions — Claude may not recognize when to use the skill
-- Wrong writing voice (second person "you" instead of imperative) — Inconsistent with Claude's execution model
-- SKILL.md exceeds 500 lines without using references/ — Overloads context, reduces comprehension
-- Missing "When to Use" or "When NOT to Use" sections — Required by project quality standards
-- Description doesn't specify when to trigger — Skill may never be selected
-
-### Minor Issues (Evaluate before fixing)
-
-These are polish items that may or may not improve the skill:
-
-- Subjective style preferences — Reviewer may have different taste than author
-- Optional enhancements — May add complexity without proportional value
-- "Nice to have" improvements — Consider cost-benefit before implementing
-- Formatting suggestions — Often valid but low impact
-
-## Minor Issue Evaluation
-
-Before implementing any minor issue fix, evaluate:
-
-1. **Is this a genuine improvement?** - Does it add real value or just satisfy a preference?
-2. **Could this be a false positive?** - Is the reviewer misunderstanding context?
-3. **Would this actually help Claude use the skill?** - Focus on functional improvements
-
-Only implement minor fixes that are clearly beneficial. Skill-reviewer may produce false positives.
-
-## Invoking skill-reviewer
-
-Use the skill-reviewer agent from the plugin-dev plugin. Request a review by asking Claude to:
-
-> Review the skill at [SKILL_PATH] using the plugin-dev:skill-reviewer agent. Provide a detailed quality assessment with issues categorized by severity.
-
-Replace `[SKILL_PATH]` with the absolute path to the skill directory (e.g., `/path/to/plugins/my-plugin/skills/my-skill`).
-
-## Example Fix Cycle
-
-**Iteration 1 — skill-reviewer output:**
-```text
-Critical: SKILL.md:1 - Missing required 'name' field in frontmatter
-Major: SKILL.md:3 - Description uses second person ("you should use")
-Major: Missing "When NOT to Use" section
-Minor: Line 45 is verbose
-```
-
-**Fixes applied:**
-- Added name field to frontmatter
-- Rewrote description in third person
-- Added "When NOT to Use" section
-
-**Iteration 2 — run skill-reviewer again to verify fixes:**
-```text
-Minor: Line 45 is verbose
-```
-
-**Minor issue evaluation:**
-Line 45 communicates effectively as-is. The verbosity provides useful context. Skip.
-
-**All critical/major issues resolved. Output the completion marker:**
-```
-<skill-improvement-complete>
-```
-
-Note: The marker MUST appear in the output. Statements like "quality bar met" or "looks good" will NOT stop the loop.
-
-## Completion Criteria
-
-**CRITICAL**: The stop hook ONLY checks for the explicit marker below. No other signal will terminate the loop.
-
-Output this marker when done:
-
-```
-<skill-improvement-complete>
-```
-
-**When to output the marker:**
-
-1. **skill-reviewer reports "Pass"** or **no issues found** → output marker immediately
-2. **All critical and major issues are fixed** AND you've verified the fixes → output marker
-3. **Remaining issues are only minor** AND you've evaluated them as false positives or not worth fixing → output marker
-
-**When NOT to output the marker:**
-
-- Any critical issue remains unfixed
-- Any major issue remains unfixed
-- You haven't run skill-reviewer to verify your fixes worked
-
-The marker is the ONLY way to complete the loop. Natural language like "looks good" or "quality bar met" will NOT stop the loop.
-
-## Rationalizations to Reject
-
-- "I'll just mark it complete and come back later" - Fix issues now
-- "This minor issue seems wrong, I'll skip all of them" - Evaluate each one individually
-- "The reviewer is being too strict" - The quality bar exists for a reason
-- "It's good enough" - If there are major issues, it's not good enough
+- `docs/skill-style-guide.md` — normative LLM-first skill style guide for this repo.

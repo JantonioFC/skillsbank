@@ -1,7 +1,8 @@
 ---
 name: office-productivity
-description: |-
-  Office productivity workflow covering document creation, spreadsheet automation, presentation generation, and integration with LibreOffice and Microsoft Office formats.
+description: Office productivity workflow covering document creation, spreadsheet
+  automation, presentation generation, and integration with LibreOffice and Microsoft
+  Office formats.
 category: workflow-bundle
 risk: safe
 source: personal

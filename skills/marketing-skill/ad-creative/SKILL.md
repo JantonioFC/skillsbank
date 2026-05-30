@@ -1,7 +1,9 @@
 ---
 name: ad-creative
-description: |-
-  When the user needs to generate, iterate, or scale ad creative for paid advertising. Use when they say 'write ad copy,' 'generate headlines,' 'create ad variations,' 'bulk creative,' 'iterate on ads,' 'ad copy validation,' 'RSA headlines,' 'Meta ad copy,' 'LinkedIn ad,' or 'creative testing.' Thi...
+description: When the user needs to generate, iterate, or scale ad creative for paid
+  advertising. Use when they say 'write ad copy,' 'generate headlines,' 'create ad
+  variations,' 'bulk creative,' 'iterate on ads,' 'ad copy validation,' 'RSA headlines,'
+  'Meta ad copy,' 'LinkedIn ad,' or 'creative testing.' Thi...
 license: MIT
 metadata:
   version: 1.0.0

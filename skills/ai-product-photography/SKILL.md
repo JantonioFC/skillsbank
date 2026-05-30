@@ -1,7 +1,9 @@
 ---
 name: ai-product-photography
-description: |-
-  Generate professional AI product photography and commercial images. Models: FLUX, Imagen 3, Grok, Seedream for product shots, lifestyle images, mockups. Capabilities: studio lighting, lifestyle scenes, packaging, e-commerce photos. Use for: e-commerce, Amazon listings, Shopify, marketing, ...
+description: 'Generate professional AI product photography and commercial images.
+  Models: FLUX, Imagen 3, Grok, Seedream for product shots, lifestyle images, mockups.
+  Capabilities: studio lighting, lifestyle scenes, packaging, e-commerce photos. Use
+  for: e-commerce, Amazon listings, Shopify, marketing, ...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

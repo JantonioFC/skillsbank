@@ -1,7 +1,7 @@
 ---
 name: bash-scripting
-description: |-
-  Bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.
+description: Bash scripting workflow for creating production-ready shell scripts with
+  defensive patterns, error handling, and testing.
 category: granular-workflow-bundle
 risk: safe
 source: personal

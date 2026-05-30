@@ -1,7 +1,9 @@
 ---
 name: azure-cost
-description: |-
-  Unified Azure cost management: query historical costs, forecast future spending, and optimize to reduce waste. WHEN: "Azure costs", "Azure spending", "Azure bill", "cost breakdown", "cost by service", "cost by resource", "how much am I spending", "show my bill", "monthly cost summary", "cost tren...
+description: 'Unified Azure cost management: query historical costs, forecast future
+  spending, and optimize to reduce waste. WHEN: "Azure costs", "Azure spending", "Azure
+  bill", "cost breakdown", "cost by service", "cost by resource", "how much am I spending",
+  "show my bill", "monthly cost summary", "cost tren...'
 license: MIT
 metadata:
   author: Microsoft

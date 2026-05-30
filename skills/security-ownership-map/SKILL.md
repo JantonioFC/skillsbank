@@ -1,7 +1,9 @@
 ---
 name: security-ownership-map
-description: |-
-  Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user explicitly wants a security-oriented ownership or bus-factor analysis grounded i...
+description: Analyze git repositories to build a security ownership topology (people-to-file),
+  compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases
+  and visualization. Trigger only when the user explicitly wants a security-oriented
+  ownership or bus-factor analysis grounded i...
 risk: safe
 source: community
 license: MIT

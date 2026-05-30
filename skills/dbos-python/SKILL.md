@@ -1,7 +1,8 @@
 ---
 name: dbos-python
-description: |-
-  Guide for building reliable, fault-tolerant Python applications with DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows and steps, or using queues for concurrency control.
+description: Guide for building reliable, fault-tolerant Python applications with
+  DBOS durable workflows. Use when adding DBOS to existing Python code, creating workflows
+  and steps, or using queues for concurrency control.
 risk: safe
 source: https://docs.dbos.dev/
 date_added: '2026-02-27'

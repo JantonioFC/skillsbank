@@ -1,7 +1,9 @@
 ---
 name: database-optimizer
-description: |-
-  Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures. Masters advanced indexing, N+1 resolution, multi-tier caching, partitioning strategies, and cloud database optimization. Handles complex query analysis, migration strategies, and p...
+description: Expert database optimizer specializing in modern performance tuning,
+  query optimization, and scalable architectures. Masters advanced indexing, N+1 resolution,
+  multi-tier caching, partitioning strategies, and cloud database optimization. Handles
+  complex query analysis, migration strategies, and p...
 metadata:
   model: inherit
 risk: safe

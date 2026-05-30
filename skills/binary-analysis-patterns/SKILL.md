@@ -1,7 +1,8 @@
 ---
 name: binary-analysis-patterns
-description: |-
-  Master binary analysis patterns including disassembly, decompilation, control flow analysis, and code pattern recognition. Use when analyzing executables, understanding compiled code, or performing static analysis on binaries.
+description: Master binary analysis patterns including disassembly, decompilation,
+  control flow analysis, and code pattern recognition. Use when analyzing executables,
+  understanding compiled code, or performing static analysis on binaries.
 risk: safe
 source: community
 license: MIT

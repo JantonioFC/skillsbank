@@ -1,7 +1,7 @@
 ---
 name: cirq
-description: |-
-  Cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators.
+description: Cirq is Google Quantum AI's open-source framework for designing, simulating,
+  and running quantum circuits on quantum computers and simulators.
 license: Apache-2.0 license
 metadata:
   skill-author: K-Dense Inc.

@@ -1,7 +1,9 @@
 ---
 name: azure-cloud-migrate
-description: |-
-  Assess and migrate cross-cloud workloads to Azure. Generates assessment reports and converts code from AWS, GCP, or other providers to Azure services. WHEN: migrate Lambda to Azure Functions, migrate AWS to Azure, Lambda migration assessment, convert AWS serverless to Azure, migration readiness r...
+description: 'Assess and migrate cross-cloud workloads to Azure. Generates assessment
+  reports and converts code from AWS, GCP, or other providers to Azure services. WHEN:
+  migrate Lambda to Azure Functions, migrate AWS to Azure, Lambda migration assessment,
+  convert AWS serverless to Azure, migration readiness r...'
 license: MIT
 metadata:
   author: Microsoft

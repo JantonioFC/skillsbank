@@ -1,7 +1,8 @@
 ---
 name: connections-optimizer
-description: |-
-  Reorganize the user's X and LinkedIn network with review-first pruning, add/follow recommendations, and channel-specific warm outreach drafted in the user's real voice.
+description: Reorganize the user's X and LinkedIn network with review-first pruning,
+  add/follow recommendations, and channel-specific warm outreach drafted in the user's
+  real voice.
 origin: ECC
 risk: safe
 source: community

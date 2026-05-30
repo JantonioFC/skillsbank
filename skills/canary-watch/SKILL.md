@@ -1,11 +1,14 @@
 ---
 name: canary-watch
-description: |-
-  - After deploying to production or staging
+description: '- After deploying to production or staging
+
   - After merging a risky PR
+
   - When you want to verify a fix actually fixed it
+
   - Continuous monitoring during a launch window
-  - After dependency upgrades
+
+  - After dependency upgrades'
 risk: safe
 source: community
 license: MIT

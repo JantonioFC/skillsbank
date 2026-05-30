@@ -1,7 +1,9 @@
 ---
 name: figma-generate-design
-description: |-
-  Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page ...
+description: 'Use this skill alongside figma-use when the task involves translating
+  an application page, view, or multi-section layout into Figma. Triggers: ''write
+  to Figma'', ''create in Figma from code'', ''push page to Figma'', ''take this app/page
+  and build it in Figma'', ''create a screen'', ''build a landing page ...'
 risk: safe
 source: community
 license: MIT

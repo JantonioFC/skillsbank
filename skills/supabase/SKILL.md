@@ -1,7 +1,8 @@
 ---
 name: supabase
-description: |-
-  Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.
+description: 'Use when doing ANY task involving Supabase. Triggers: Supabase products
+  (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client
+  libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.'
 metadata:
   author: supabase
   version: 0.1.0

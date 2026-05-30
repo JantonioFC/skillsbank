@@ -1,8 +1,8 @@
 ---
 id: doc-fsd-template
 name: doc-fsd-template
-description: |-
-  Genera documentos FSD (Functional Specification Document) con especificaciones funcionales detalladas.
+description: Genera documentos FSD (Functional Specification Document) con especificaciones
+  funcionales detalladas.
 category: documentacion-de-codigo
 risk: safe
 source: personal

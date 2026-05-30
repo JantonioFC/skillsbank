@@ -1,7 +1,9 @@
 ---
 name: c4-container
-description: |-
-  Expert C4 Container-level documentation specialist. Synthesizes Component-level documentation into Container-level architecture, mapping components to deployment units, documenting container interfaces as APIs, and creating container diagrams. Use when synthesizing components into deployment cont...
+description: Expert C4 Container-level documentation specialist. Synthesizes Component-level
+  documentation into Container-level architecture, mapping components to deployment
+  units, documenting container interfaces as APIs, and creating container diagrams.
+  Use when synthesizing components into deployment cont...
 metadata:
   model: sonnet
 risk: safe

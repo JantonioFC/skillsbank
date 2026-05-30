@@ -1,7 +1,10 @@
 ---
 name: skill-lookup
-description: |
-  Search, retrieve, and install Agent Skills from the prompts.chat registry using MCP tools. Use when the user asks to find skills, browse skill catalogs, install a skill for Claude, or extend Claude's capabilities with reusable AI agent components.
+description: 'Search, retrieve, and install Agent Skills from the prompts.chat registry
+  using MCP tools. Use when the user asks to find skills, browse skill catalogs, install
+  a skill for Claude, or extend Claude''s capabilities with reusable AI agent components.
+
+  '
 license: MIT
 risk: safe
 source: community

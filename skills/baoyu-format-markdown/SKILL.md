@@ -1,14 +1,16 @@
 ---
 name: baoyu-format-markdown
-description: Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to "format markdown", "beautify article", "add formatting", or improve article layout. Outputs to {filename}-formatted.md.
+description: Formats plain text or markdown files with frontmatter, titles, summaries,
+  headings, bold, lists, and code blocks. Use when user asks to "format markdown",
+  "beautify article", "add formatting", or improve article layout. Outputs to {filename}-formatted.md.
 version: 1.57.0
 metadata:
   openclaw:
     homepage: https://github.com/JimLiu/baoyu-skills#baoyu-format-markdown
     requires:
       anyBins:
-        - bun
-        - npx
+      - bun
+      - npx
 ---
 
 # Markdown Formatter

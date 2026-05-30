@@ -1,7 +1,9 @@
 ---
 name: pricing-strategy
-description: |-
-  Design, optimize, and communicate SaaS pricing — tier structure, value metrics, pricing pages, and price increase strategy. Use when building a pricing model from scratch, redesigning existing pricing, planning a price increase, or improving a pricing page. Trigger keywords: pricing tiers, pricin...
+description: 'Design, optimize, and communicate SaaS pricing — tier structure, value
+  metrics, pricing pages, and price increase strategy. Use when building a pricing
+  model from scratch, redesigning existing pricing, planning a price increase, or
+  improving a pricing page. Trigger keywords: pricing tiers, pricin...'
 license: MIT
 metadata:
   version: 1.0.0

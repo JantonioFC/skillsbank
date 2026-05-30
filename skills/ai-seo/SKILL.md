@@ -1,7 +1,9 @@
 ---
 name: ai-seo
-description: |-
-  When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for Ch...
+description: When the user wants to optimize content for AI search engines, get cited
+  by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI
+  SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,'
+  'LLM optimization,' 'AI Overviews,' 'optimize for Ch...
 metadata:
   version: 1.1.0
 risk: safe

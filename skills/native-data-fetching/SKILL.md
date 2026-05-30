@@ -1,7 +1,8 @@
 ---
 name: native-data-fetching
-description: |-
-  Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline support, and Expo Router data loaders (useLoaderData).
+description: Use when implementing or debugging ANY network request, API call, or
+  data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline
+  support, and Expo Router data loaders (useLoaderData).
 risk: safe
 source: community
 version: 1.0.0

@@ -1,7 +1,9 @@
 ---
 name: ai-voice-cloning
-description: |-
-  AI voice generation, text-to-speech, and voice synthesis via inference.sh CLI. Models: Kokoro TTS, DIA, Chatterbox, Higgs, VibeVoice for natural speech. Capabilities: multiple voices, emotions, accents, long-form narration, conversation. Use for: voiceovers, audiobooks, podcasts, video nar...
+description: 'AI voice generation, text-to-speech, and voice synthesis via inference.sh
+  CLI. Models: Kokoro TTS, DIA, Chatterbox, Higgs, VibeVoice for natural speech. Capabilities:
+  multiple voices, emotions, accents, long-form narration, conversation. Use for:
+  voiceovers, audiobooks, podcasts, video nar...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

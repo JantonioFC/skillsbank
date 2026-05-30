@@ -1,7 +1,8 @@
 ---
 name: github-ops
-description: |-
-  GitHub repository operations, automation, and management. Issue triage, PR management, CI/CD operations, release management, and security monitoring using the gh CLI.
+description: GitHub repository operations, automation, and management. Issue triage,
+  PR management, CI/CD operations, release management, and security monitoring using
+  the gh CLI.
 origin: ECC
 risk: safe
 source: community

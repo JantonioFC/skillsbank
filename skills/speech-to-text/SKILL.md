@@ -1,7 +1,9 @@
 ---
 name: speech-to-text
-description: |-
-  Transcribe audio to text with Whisper models via inference.sh CLI. Models: Fast Whisper Large V3, Whisper V3 Large. Capabilities: transcription, translation, multi-language, timestamps. Use for: meeting transcription, subtitles, podcast transcripts, voice notes. Triggers: speech to text, t...
+description: 'Transcribe audio to text with Whisper models via inference.sh CLI. Models:
+  Fast Whisper Large V3, Whisper V3 Large. Capabilities: transcription, translation,
+  multi-language, timestamps. Use for: meeting transcription, subtitles, podcast transcripts,
+  voice notes. Triggers: speech to text, t...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

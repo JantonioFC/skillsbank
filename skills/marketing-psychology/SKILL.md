@@ -1,7 +1,9 @@
 ---
 name: marketing-psychology
-description: |-
-  When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'so...
+description: When the user wants to apply psychological principles, mental models,
+  or behavioral science to marketing. Also use when the user mentions 'psychology,'
+  'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people
+  buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'so...
 metadata:
   version: 1.1.0
 risk: offensive

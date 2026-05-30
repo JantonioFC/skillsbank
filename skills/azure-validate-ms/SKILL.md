@@ -1,8 +1,11 @@
 ---
 name: azure-validate-ms
-description: |-
-  Pre-deployment validation checkpoint. Run deep checks to ensure your application is ready for Azure deployment. Validates configuration, infrastructure, permissions, and prerequisites.
-  USE FOR: validate my app, check deployment readiness, run preflight checks, verify configuration, check i...
+description: 'Pre-deployment validation checkpoint. Run deep checks to ensure your
+  application is ready for Azure deployment. Validates configuration, infrastructure,
+  permissions, and prerequisites.
+
+  USE FOR: validate my app, check deployment readiness, run preflight checks, verify
+  configuration, check i...'
 risk: safe
 source: community
 license: MIT

@@ -1,7 +1,8 @@
 ---
 name: creating-financial-models
-description: |-
-  This skill provides an advanced financial modeling suite with DCF analysis, sensitivity testing, Monte Carlo simulations, and scenario planning for investment decisions
+description: This skill provides an advanced financial modeling suite with DCF analysis,
+  sensitivity testing, Monte Carlo simulations, and scenario planning for investment
+  decisions
 risk: safe
 source: community
 license: MIT

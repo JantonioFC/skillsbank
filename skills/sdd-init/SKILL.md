@@ -1,154 +1,69 @@
 ---
 name: sdd-init
-description: |
-  Initialize Spec-Driven Development context in any project. Detects stack, conventions, and bootstraps the active persistence backend. Trigger: When user wants to initialize SDD in a project, or says "sdd init", "iniciar sdd", "openspec init".
+description: 'Trigger: sdd init, iniciar sdd, openspec init. Initialize SDD context,
+  testing capabilities, registry, and persistence.'
+disable-model-invocation: true
+user-invocable: false
 license: MIT
 metadata:
   author: gentleman-programming
-  version: '2.0'
-risk: safe
-source: community
+  version: '3.0'
+  delegate_only: true
 ---
-## Purpose
 
-You are a sub-agent responsible for initializing the Spec-Driven Development (SDD) context in a project. You detect the project stack and conventions, then bootstrap the active persistence backend.
+> **ORCHESTRATOR GATE**: If you loaded this skill via the `skill()` tool, you are
+> the ORCHESTRATOR — STOP. Do NOT execute these instructions inline. Delegate to
+> the dedicated `sdd-init` sub-agent using your platform's delegation primitive
+> (e.g., `task(...)`, sub-agent invocation, etc.). This skill is for EXECUTORS
+> only.
 
-## Execution and Persistence Contract
+## Executor Override
 
-Read and follow `skills/_shared/persistence-contract.md` for mode resolution rules.
+If you ARE the `sdd-init` sub-agent (NOT the orchestrator), the gate above does NOT apply to you. Continue with the phase work below. Do NOT delegate. Do NOT call the Skill tool. You are the executor — execute.
 
-- If mode is `engram`: Read and follow `skills/_shared/engram-convention.md`. Do not create `openspec/`.
-- If mode is `openspec`: Read and follow `skills/_shared/openspec-convention.md`. Run full bootstrap.
-- If mode is `none`: Return detected context without writing project files.
+## Activation Contract
 
-## What to Do
+Run this phase when the orchestrator/user asks to initialize SDD in a project. You are the phase executor: do the work yourself, do not delegate, and do not behave like the orchestrator.
 
-### Step 1: Detect Project Context
+## Hard Rules
 
-Read the project to understand:
-- Tech stack (check package.json, go.mod, pyproject.toml, etc.)
-- Existing conventions (linters, test frameworks, CI)
-- Architecture patterns in use
+- Detect the real stack, conventions, architecture, testing tools, and persistence mode; never guess.
+- In `engram` mode, do **not** create `openspec/`.
+- In `openspec` mode, follow `../_shared/openspec-convention.md` and write file artifacts.
+- In `hybrid` mode, write both openspec files and Engram observations.
+- Always persist testing capabilities separately as `sdd/{project}/testing-capabilities` or `openspec/config.yaml` `testing:`.
+- Always build `.atl/skill-registry.md`; also save `skill-registry` to Engram when available.
+- Use `capture_prompt: false` for automated SDD/config saves when supported; omit it if the tool schema lacks it.
+- If `openspec/` already exists, report what exists and ask before updating it.
 
-### Step 2: Initialize Persistence Backend
+## Decision Gates
 
-If mode resolves to `openspec`, create this directory structure:
+| Input | Action |
+|---|---|
+| `mode=engram` | Save context and capabilities to Engram only. |
+| `mode=openspec` | Create/update openspec bootstrap files only. |
+| `mode=hybrid` | Do both Engram and openspec persistence. |
+| `mode=none` | Return detected context only; write no SDD artifacts except registry if required. |
+| strict TDD marker/config found | Use that value. |
+| no marker/config but test runner exists | Default `strict_tdd: true`. |
+| no test runner | Set `strict_tdd: false` and explain unavailable. |
 
-```
-openspec/
-├── config.yaml              ← Project-specific SDD config
-├── specs/                   ← Source of truth (empty initially)
-└── changes/                 ← Active changes
-    └── archive/             ← Completed changes
-```
+## Execution Steps
 
-### Step 3: Generate Config (openspec mode)
+1. Inspect project files (`package.json`, `go.mod`, `pyproject.toml`, CI, lint/test config) and summarize stack/conventions.
+2. Detect test runner, test layers, coverage, linter, type checker, and formatter.
+3. Resolve Strict TDD from agent marker, `openspec/config.yaml`, detected runner fallback, or no-runner fallback.
+4. Initialize persistence for the resolved mode.
+5. Build `.atl/skill-registry.md` using the skill-registry scan rules.
+6. Persist testing capabilities and project context.
+7. Return the structured initialization envelope.
 
-Based on what you detected, create the config when in `openspec` mode:
+## Output Contract
 
-```yaml
-# openspec/config.yaml
-schema: spec-driven
+Return `status`, `executive_summary`, `artifacts`, `next_recommended`, and `risks`. Include project, stack, persistence mode, Strict TDD status, testing capability table, saved observation IDs/paths, registry path, and next `/sdd-explore` or `/sdd-new` step.
 
-context: |
-  Tech stack: {detected stack}
-  Architecture: {detected patterns}
-  Testing: {detected test framework}
-  Style: {detected linting/formatting}
+## References
 
-rules:
-  proposal:
-    - Include rollback plan for risky changes
-    - Identify affected modules/packages
-  specs:
-    - Use Given/When/Then format for scenarios
-    - Use RFC 2119 keywords (MUST, SHALL, SHOULD, MAY)
-  design:
-    - Include sequence diagrams for complex flows
-    - Document architecture decisions with rationale
-  tasks:
-    - Group tasks by phase (infrastructure, implementation, testing)
-    - Use hierarchical numbering (1.1, 1.2, etc.)
-    - Keep tasks small enough to complete in one session
-  apply:
-    - Follow existing code patterns and conventions
-    - Load relevant coding skills for the project stack
-  verify:
-    - Run tests if test infrastructure exists
-    - Compare implementation against every spec scenario
-  archive:
-    - Warn before merging destructive deltas (large removals)
-```
-
-### Step 4: Return Summary
-
-Return a structured summary adapted to the resolved mode:
-
-#### If mode is `engram`:
-
-Persist project context following `skills/_shared/engram-convention.md` with title and topic_key `sdd-init/{project-name}`.
-
-Return:
-```
-## SDD Initialized
-
-**Project**: {project name}
-**Stack**: {detected stack}
-**Persistence**: engram
-
-### Context Saved
-Project context persisted to Engram.
-- **Engram ID**: #{observation-id}
-- **Topic key**: sdd-init/{project-name}
-
-No project files created.
-
-### Next Steps
-Ready for /sdd-explore <topic> or /sdd-new <change-name>.
-```
-
-#### If mode is `openspec`:
-```
-## SDD Initialized
-
-**Project**: {project name}
-**Stack**: {detected stack}
-**Persistence**: openspec
-
-### Structure Created
-- openspec/config.yaml ← Project config with detected context
-- openspec/specs/      ← Ready for specifications
-- openspec/changes/    ← Ready for change proposals
-
-### Next Steps
-Ready for /sdd-explore <topic> or /sdd-new <change-name>.
-```
-
-#### If mode is `none`:
-```
-## SDD Initialized
-
-**Project**: {project name}
-**Stack**: {detected stack}
-**Persistence**: none (ephemeral)
-
-### Context Detected
-{summary of detected stack and conventions}
-
-### Recommendation
-Enable `engram` or `openspec` for artifact persistence across sessions. Without persistence, all SDD artifacts will be lost when the conversation ends.
-
-### Next Steps
-Ready for /sdd-explore <topic> or /sdd-new <change-name>.
-```
-
-## Rules
-
-- NEVER create placeholder spec files - specs are created via sdd-spec during a change
-- ALWAYS detect the real tech stack, don't guess
-- If the project already has an `openspec/` directory, report what exists and ask the orchestrator if it should be updated
-- Keep config.yaml context CONCISE - no more than 10 lines
-- Return a structured envelope with: `status`, `executive_summary`, `detailed_report` (optional), `artifacts`, `next_recommended`, and `risks`
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- [references/init-details.md](references/init-details.md) — detection checklist, Engram payloads, config skeleton, and output templates.
+- `../_shared/engram-convention.md` — Engram artifact naming.
+- `../_shared/openspec-convention.md` — openspec layout and rules.

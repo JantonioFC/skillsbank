@@ -1,6 +1,8 @@
 ---
-name: "compliance-os"
-description: "Compliance OS — meta-orchestrator that lets compliance teams CONFIGURE which frameworks apply, COMPUTE cross-framework control overlap, SIMULATE internal audits, and CONSOLIDATE evidence across multiple frameworks. Four decisions: (1) Given a company profile, which of the 12 supported frameworks apply (ISO 27001/13485/42001/14971, EU AI Act, MDR 745, GDPR, SOC 2, FDA QSR, NIST CSF 2.0, NIS2, HIPAA)? (2) Across selected frameworks, which controls overlap and how much evidence reuses? (3) For a given framework + scope, what does a realistic mock audit produce — drawing from the 205-scenario library? (4) Across selected frameworks, what's the unified evidence checklist with reuse map? Use when standing up a multi-framework program, planning the annual audit calendar, or preparing for certification stage 1. Does NOT replace per-framework skills (it orchestrates them)."
+name: compliance-os
+description: Compliance OS — meta-orchestrator that lets compliance teams CONFIGURE
+  which frameworks apply, COMPUTE cross-framework control overlap, SIMULATE internal
+  audits, and CONSOLIDATE evidence across multiple frameworks...
 license: MIT
 metadata:
   version: 1.0.0
@@ -8,8 +10,10 @@ metadata:
   category: compliance-os
   domain: multi-framework-compliance-orchestration
   updated: 2026-05-13
-  python-tools: framework_selector.py, cross_framework_mapper.py, audit_simulator.py, evidence_pool_generator.py
-  frameworks: iso-27001, iso-13485, iso-42001, iso-14971, eu-ai-act, eu-mdr-745, gdpr, soc-2, fda-qsr, nist-csf, nis2, hipaa
+  python-tools: framework_selector.py, cross_framework_mapper.py, audit_simulator.py,
+    evidence_pool_generator.py
+  frameworks: iso-27001, iso-13485, iso-42001, iso-14971, eu-ai-act, eu-mdr-745, gdpr,
+    soc-2, fda-qsr, nist-csf, nis2, hipaa
 ---
 
 # Compliance OS — Meta-Orchestrator

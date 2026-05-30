@@ -1,8 +1,8 @@
 ---
 id: doc-bdd-gherkin-template
 name: doc-bdd-gherkin-template
-description: |-
-  Genera especificaciones BDD en formato Gherkin para definir comportamiento esperado del sistema.
+description: Genera especificaciones BDD en formato Gherkin para definir comportamiento
+  esperado del sistema.
 category: documentacion-de-codigo
 risk: safe
 source: personal

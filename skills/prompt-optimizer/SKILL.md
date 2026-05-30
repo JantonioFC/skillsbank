@@ -1,7 +1,9 @@
 ---
 name: prompt-optimizer
-description: |-
-  Analyze raw prompts, identify intent and gaps, match ECC components (skills/commands/agents/hooks), and output a ready-to-paste optimized prompt. Advisory role only — never executes the task itself. TRIGGER when: user says "optimize prompt", "improve my prompt", "how to write a prompt for", "help...
+description: 'Analyze raw prompts, identify intent and gaps, match ECC components
+  (skills/commands/agents/hooks), and output a ready-to-paste optimized prompt. Advisory
+  role only — never executes the task itself. TRIGGER when: user says "optimize prompt",
+  "improve my prompt", "how to write a prompt for", "help...'
 origin: community
 metadata:
   author: YannJY02

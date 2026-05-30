@@ -1,6 +1,8 @@
 ---
 name: prediction-market-risk-review
-description: Review prediction-market, basket, oracle, and trading-agent workflows for compliance, safety, data-quality, privacy, and execution risk. Use before any workflow handles venue auth, user portfolio data, API keys, or trade planning.
+description: Review prediction-market, basket, oracle, and trading-agent workflows
+  for compliance, safety, data-quality, privacy, and execution risk. Use before any
+  workflow handles venue auth, user portfolio data, API keys, or trade planning.
 origin: ECC
 ---
 

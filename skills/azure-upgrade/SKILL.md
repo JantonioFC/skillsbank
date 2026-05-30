@@ -1,7 +1,9 @@
 ---
 name: azure-upgrade
-description: |-
-  Assess and upgrade Azure workloads between plans, tiers, or SKUs within Azure. Generates assessment reports and automates upgrade steps. WHEN: upgrade Consumption to Flex Consumption, upgrade Azure Functions plan, migrate hosting plan, upgrade Functions SKU, move to Flex Consumption, upgrade Azur...
+description: 'Assess and upgrade Azure workloads between plans, tiers, or SKUs within
+  Azure. Generates assessment reports and automates upgrade steps. WHEN: upgrade Consumption
+  to Flex Consumption, upgrade Azure Functions plan, migrate hosting plan, upgrade
+  Functions SKU, move to Flex Consumption, upgrade Azur...'
 license: MIT
 metadata:
   author: Microsoft

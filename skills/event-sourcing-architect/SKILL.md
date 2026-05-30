@@ -1,7 +1,9 @@
 ---
 name: event-sourcing-architect
-description: |-
-  Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual consistency patterns. Use PROACTIVELY for event-sourced systems, audit trails, or temporal queries.
+description: Expert in event sourcing, CQRS, and event-driven architecture patterns.
+  Masters event store design, projection building, saga orchestration, and eventual
+  consistency patterns. Use PROACTIVELY for event-sourced systems, audit trails, or
+  temporal queries.
 risk: safe
 source: community
 license: MIT

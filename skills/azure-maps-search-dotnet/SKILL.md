@@ -1,7 +1,9 @@
 ---
 name: azure-maps-search-dotnet
-description: |-
-  Azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather. Use for address search, directions, map tiles, IP geolocation, and weather data. Triggers: "Azure Maps", "MapsSearchClient", "MapsRoutingClient", "MapsRenderingClient", "geocoding ....
+description: 'Azure Maps SDK for .NET. Location-based services including geocoding,
+  routing, rendering, geolocation, and weather. Use for address search, directions,
+  map tiles, IP geolocation, and weather data. Triggers: "Azure Maps", "MapsSearchClient",
+  "MapsRoutingClient", "MapsRenderingClient", "geocoding ....'
 package: Azure.Maps.Search
 risk: safe
 source: community

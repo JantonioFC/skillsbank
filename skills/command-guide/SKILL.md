@@ -3,13 +3,7 @@ name: command-guide
 description: 'Claude Code Command Selection Guide - Automatically recommend and select
   the right commands, agents, and skills in Claude Code. Use when: (1) user is unsure
   which command or tool to use, (2) needs to decide which agent/skill best fits the
-  current task, (3) querying usage scenarios for /plan, /tdd, /compact, /loop and
-  other commands, (4) understanding when to invoke planner, code-reviewer, build-error-resolver
-  and other agents, (5) needs command cheat sheet or decision flowchart. Triggers:
-  "which command to use", "which agent", "command selection", "how to use /plan",
-  "when to use /compact", "agent selection guide", "command cheat sheet", "skill recommendation".
-
-  '
+  current task, (3) querying usage scenarios for /plan...'
 risk: offensive
 source: community
 license: MIT

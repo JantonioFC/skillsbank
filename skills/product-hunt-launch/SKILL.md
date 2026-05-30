@@ -1,7 +1,9 @@
 ---
 name: product-hunt-launch
-description: |-
-  Product Hunt launch optimization with specific specs, timing, and gallery strategy. Covers taglines, gallery images, maker comments, and launch day tactics. Use for: product launches, startup launches, side project launches, Product Hunt optimization. Triggers: product hunt, ph launch, pro...
+description: 'Product Hunt launch optimization with specific specs, timing, and gallery
+  strategy. Covers taglines, gallery images, maker comments, and launch day tactics.
+  Use for: product launches, startup launches, side project launches, Product Hunt
+  optimization. Triggers: product hunt, ph launch, pro...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

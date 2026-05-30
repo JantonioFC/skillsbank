@@ -1,7 +1,9 @@
 ---
 name: database-architect
-description: |-
-  Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures. Masters SQL/NoSQL/TimeSeries database selection, normalization strategies, migration planning, and performance-first design. Handles both greenfiel...
+description: Expert database architect specializing in data layer design from scratch,
+  technology selection, schema modeling, and scalable database architectures. Masters
+  SQL/NoSQL/TimeSeries database selection, normalization strategies, migration planning,
+  and performance-first design. Handles both greenfiel...
 metadata:
   model: opus
 risk: offensive

@@ -1,7 +1,9 @@
 ---
 name: research-summarizer
-description: |-
-  Structured research summarization agent skill for non-dev users. Handles academic papers, web articles, reports, and documentation. Extracts key findings, generates comparative analyses, and produces properly formatted citations. Use when: user wants to summarize a research paper, compare multipl...
+description: 'Structured research summarization agent skill for non-dev users. Handles
+  academic papers, web articles, reports, and documentation. Extracts key findings,
+  generates comparative analyses, and produces properly formatted citations. Use when:
+  user wants to summarize a research paper, compare multipl...'
 license: MIT
 metadata:
   version: 1.0.0

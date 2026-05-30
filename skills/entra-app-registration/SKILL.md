@@ -1,7 +1,9 @@
 ---
 name: entra-app-registration
-description: |-
-  Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration. USE FOR: create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate service principal, MSAL example, console app auth, Entra ID setup, Azure AD au...
+description: 'Guides Microsoft Entra ID app registration, OAuth 2.0 authentication,
+  and MSAL integration. USE FOR: create app registration, register Azure AD app, configure
+  OAuth, set up authentication, add API permissions, generate service principal, MSAL
+  example, console app auth, Entra ID setup, Azure AD au...'
 license: MIT
 metadata:
   author: Microsoft

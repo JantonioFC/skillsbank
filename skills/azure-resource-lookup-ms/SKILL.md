@@ -1,9 +1,13 @@
 ---
 name: azure-resource-lookup-ms
-description: |-
-  List, find, and show Azure resources. Answers "list my VMs", "show my storage accounts", "list websites",
-  "find container apps", "what resources do I have", and similar queries for any Azure resource type.
-  USE FOR: list resources, list virtual machines, list VMs, list storage accounts, lis...
+description: 'List, find, and show Azure resources. Answers "list my VMs", "show my
+  storage accounts", "list websites",
+
+  "find container apps", "what resources do I have", and similar queries for any Azure
+  resource type.
+
+  USE FOR: list resources, list virtual machines, list VMs, list storage accounts,
+  lis...'
 risk: safe
 source: community
 license: MIT

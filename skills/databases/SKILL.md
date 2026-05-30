@@ -1,7 +1,9 @@
 ---
 name: databases
-description: |-
-  Work with MongoDB (document database, BSON documents, aggregation pipelines, Atlas cloud) and PostgreSQL (relational database, SQL queries, psql CLI, pgAdmin). Use when designing database schemas, writing queries and aggregations, optimizing indexes for performance, performing database migrations...
+description: Work with MongoDB (document database, BSON documents, aggregation pipelines,
+  Atlas cloud) and PostgreSQL (relational database, SQL queries, psql CLI, pgAdmin).
+  Use when designing database schemas, writing queries and aggregations, optimizing
+  indexes for performance, performing database migrations...
 license: MIT
 risk: safe
 source: community

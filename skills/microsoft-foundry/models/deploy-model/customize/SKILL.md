@@ -1,7 +1,9 @@
 ---
 name: customize
-description: |-
-  Interactive guided deployment flow for Azure OpenAI models with full customization control. Step-by-step selection of model version, SKU (GlobalStandard/Standard/ProvisionedManaged), capacity, RAI policy (content filter), and advanced options (dynamic quota, priority processing, spillover). USE F...
+description: Interactive guided deployment flow for Azure OpenAI models with full
+  customization control. Step-by-step selection of model version, SKU (GlobalStandard/Standard/ProvisionedManaged),
+  capacity, RAI policy (content filter), and advanced options (dynamic quota, priority
+  processing, spillover). USE F...
 license: MIT
 metadata:
   author: Microsoft

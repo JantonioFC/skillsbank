@@ -1,9 +1,9 @@
 ---
 name: scale-game
-description: |-
-  Test at extremes (1000x bigger/smaller, instant/year-long) to expose fundamental truths hidden at normal scales
-when_to_use: |-
-  when uncertain about scalability, edge cases unclear, or validating architecture for production volumes
+description: Test at extremes (1000x bigger/smaller, instant/year-long) to expose
+  fundamental truths hidden at normal scales
+when_to_use: when uncertain about scalability, edge cases unclear, or validating architecture
+  for production volumes
 version: 1.1.0
 risk: safe
 source: community

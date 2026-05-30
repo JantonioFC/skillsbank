@@ -1,7 +1,9 @@
 ---
 name: text-to-speech
-description: |-
-  Convert text to natural speech with DIA TTS, Kokoro, Chatterbox, and more via inference.sh CLI. Models: DIA TTS (conversational), Kokoro TTS, Chatterbox, Higgs Audio, VibeVoice (podcasts). Capabilities: text-to-speech, voice cloning, multi-speaker dialogue, podcast generation, expressive s...
+description: 'Convert text to natural speech with DIA TTS, Kokoro, Chatterbox, and
+  more via inference.sh CLI. Models: DIA TTS (conversational), Kokoro TTS, Chatterbox,
+  Higgs Audio, VibeVoice (podcasts). Capabilities: text-to-speech, voice cloning,
+  multi-speaker dialogue, podcast generation, expressive s...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

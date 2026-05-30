@@ -1,7 +1,7 @@
 ---
 name: extract
-description: |-
-  Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples.
+description: Turn a proven pattern or debugging solution into a standalone reusable
+  skill with SKILL.md, reference docs, and examples.
 command: /si:extract
 risk: safe
 source: community

@@ -1,7 +1,9 @@
 ---
 name: launch-strategy
-description: |-
-  When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checkl...
+description: When the user wants to plan a product launch, feature announcement, or
+  release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature
+  release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,'
+  'product update,' 'how do I launch this,' 'launch checkl...
 metadata:
   version: 1.1.0
 risk: safe

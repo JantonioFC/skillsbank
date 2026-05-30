@@ -1,7 +1,9 @@
 ---
 name: ai-multimodal
-description: |-
-  Process and generate multimedia content using Google Gemini API. Capabilities include analyze audio files (transcription with timestamps, summarization, speech understanding, music/sound analysis up to 9.5 hours), understand images (captioning, object detection, OCR, visual Q&A, segmentation), pr...
+description: Process and generate multimedia content using Google Gemini API. Capabilities
+  include analyze audio files (transcription with timestamps, summarization, speech
+  understanding, music/sound analysis up to 9.5 hours), understand images (captioning,
+  object detection, OCR, visual Q&A, segmentation), pr...
 license: MIT
 allowed-tools:
 - Bash

@@ -1,7 +1,9 @@
 ---
 name: marketing-ideas
-description: |-
-  When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't ...
+description: When the user needs marketing ideas, inspiration, or strategies for their
+  SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth
+  ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,'
+  'ideas to grow,' 'what else can I try,' 'I don't ...
 metadata:
   version: 1.1.0
 risk: safe

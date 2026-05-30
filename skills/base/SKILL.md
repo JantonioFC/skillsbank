@@ -1,6 +1,7 @@
 ---
 name: base
-description: Database management, forms, reports, and data operations with LibreOffice Base.
+description: Database management, forms, reports, and data operations with LibreOffice
+  Base.
 category: database-processing
 risk: safe
 source: personal

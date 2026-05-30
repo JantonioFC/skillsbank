@@ -1,8 +1,10 @@
 ---
 name: azure-rbac-ms
-description: |-
-  Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it.
-  USE FOR: "what role should I assign", "least privilege role", "RBAC role for", "role to read blobs", "role for managed identity", "custom role def...
+description: 'Helps users find the right Azure RBAC role for an identity with least
+  privilege access, then generate CLI commands and Bicep code to assign it.
+
+  USE FOR: "what role should I assign", "least privilege role", "RBAC role for", "role
+  to read blobs", "role for managed identity", "custom role def...'
 risk: safe
 source: community
 license: MIT

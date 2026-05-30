@@ -1,7 +1,9 @@
 ---
 name: firmware-analyst
-description: |-
-  Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering. Masters firmware extraction, analysis, and vulnerability research for routers, IoT devices, automotive systems, and industrial controllers. Use PROACTIVELY for firmware security audits, IoT p...
+description: Expert firmware analyst specializing in embedded systems, IoT security,
+  and hardware reverse engineering. Masters firmware extraction, analysis, and vulnerability
+  research for routers, IoT devices, automotive systems, and industrial controllers.
+  Use PROACTIVELY for firmware security audits, IoT p...
 metadata:
   model: opus
 risk: offensive

@@ -1,7 +1,8 @@
 ---
 name: browserstack
-description: |-
-  Run tests on BrowserStack. Use when user mentions "browserstack", "cross-browser", "cloud testing", "browser matrix", "test on safari", "test on firefox", or "browser compatibility".
+description: Run tests on BrowserStack. Use when user mentions "browserstack", "cross-browser",
+  "cloud testing", "browser matrix", "test on safari", "test on firefox", or "browser
+  compatibility".
 risk: safe
 source: community
 license: MIT

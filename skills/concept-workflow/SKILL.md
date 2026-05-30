@@ -1,7 +1,7 @@
 ---
 name: concept-workflow
-description: |-
-  End-to-end workflow for creating complete JavaScript concept documentation, orchestrating all skills from research to final review
+description: End-to-end workflow for creating complete JavaScript concept documentation,
+  orchestrating all skills from research to final review
 risk: safe
 source: community
 license: MIT

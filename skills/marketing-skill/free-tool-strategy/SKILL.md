@@ -1,7 +1,9 @@
 ---
 name: free-tool-strategy
-description: |-
-  When the user wants to build a free tool for marketing — lead generation, SEO value, or brand awareness. Use when they mention 'engineering as marketing,' 'free tool,' 'calculator,' 'generator,' 'checker,' 'grader,' 'marketing tool,' 'lead gen tool,' 'build something for traffic,' 'interactive to...
+description: When the user wants to build a free tool for marketing — lead generation,
+  SEO value, or brand awareness. Use when they mention 'engineering as marketing,'
+  'free tool,' 'calculator,' 'generator,' 'checker,' 'grader,' 'marketing tool,' 'lead
+  gen tool,' 'build something for traffic,' 'interactive to...
 license: MIT
 metadata:
   version: 1.0.0

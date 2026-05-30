@@ -1,7 +1,9 @@
 ---
 name: azure-ai-voicelive-dotnet
-description: |-
-  Azure AI Voice Live SDK for .NET. Build real-time voice AI applications with bidirectional WebSocket communication. Use for voice assistants, conversational AI, real-time speech-to-speech, and voice-enabled chatbots. Triggers: "voice live", "real-time voice", "VoiceLiveClient", "VoiceLiveSession"...
+description: 'Azure AI Voice Live SDK for .NET. Build real-time voice AI applications
+  with bidirectional WebSocket communication. Use for voice assistants, conversational
+  AI, real-time speech-to-speech, and voice-enabled chatbots. Triggers: "voice live",
+  "real-time voice", "VoiceLiveClient", "VoiceLiveSession"...'
 package: Azure.AI.VoiceLive
 risk: safe
 source: community

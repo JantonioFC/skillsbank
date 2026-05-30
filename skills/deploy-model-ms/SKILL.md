@@ -1,8 +1,10 @@
 ---
 name: deploy-model-ms
-description: |-
-  Unified Azure OpenAI model deployment skill with intelligent intent-based routing. Handles quick preset deployments, fully customized deployments (version/SKU/capacity/RAI policy), and capacity discovery across regions and projects.
-  USE FOR: deploy model, deploy gpt, create deployment, mod...
+description: 'Unified Azure OpenAI model deployment skill with intelligent intent-based
+  routing. Handles quick preset deployments, fully customized deployments (version/SKU/capacity/RAI
+  policy), and capacity discovery across regions and projects.
+
+  USE FOR: deploy model, deploy gpt, create deployment, mod...'
 risk: safe
 source: community
 license: MIT

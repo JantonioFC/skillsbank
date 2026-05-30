@@ -1,7 +1,8 @@
 ---
 name: fp-side-effects
-description: |-
-  Master functional approaches to side effects including IO types, effect isolation, idempotent operations, and quarantining impure code - essential patterns for reliable TypeScript applications
+description: Master functional approaches to side effects including IO types, effect
+  isolation, idempotent operations, and quarantining impure code - essential patterns
+  for reliable TypeScript applications
 version: 1.0.0
 author: Claude
 tags:

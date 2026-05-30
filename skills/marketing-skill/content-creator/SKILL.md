@@ -1,7 +1,9 @@
 ---
 name: content-creator
-description: |-
-  Deprecated redirect skill that routes legacy 'content creator' requests to the correct specialist. Use when a user invokes 'content creator', asks to write a blog post, article, guide, or brand voice analysis (routes to content-production), or asks to plan content, build a topic cluster, or creat...
+description: Deprecated redirect skill that routes legacy 'content creator' requests
+  to the correct specialist. Use when a user invokes 'content creator', asks to write
+  a blog post, article, guide, or brand voice analysis (routes to content-production),
+  or asks to plan content, build a topic cluster, or creat...
 license: MIT
 metadata:
   version: 2.0.0

@@ -1,7 +1,9 @@
 ---
 name: customer-success-manager
-description: |-
-  Monitors customer health, predicts churn risk, and identifies expansion opportunities using weighted scoring models for SaaS customer success. Use when analyzing customer accounts, reviewing retention metrics, scoring at-risk customers, or when the user mentions churn, customer health scores, ups...
+description: Monitors customer health, predicts churn risk, and identifies expansion
+  opportunities using weighted scoring models for SaaS customer success. Use when
+  analyzing customer accounts, reviewing retention metrics, scoring at-risk customers,
+  or when the user mentions churn, customer health scores, ups...
 license: MIT
 metadata:
   version: 1.0.0
@@ -9,8 +11,7 @@ metadata:
   category: business-growth
   domain: customer-success
   updated: 2026-02-06
-  python-tools: |-
-    health_score_calculator.py, churn_risk_analyzer.py, expansion_opportunity_scorer.py
+  python-tools: health_score_calculator.py, churn_risk_analyzer.py, expansion_opportunity_scorer.py
   tech-stack: customer-success, saas-metrics, health-scoring
 risk: offensive
 source: community

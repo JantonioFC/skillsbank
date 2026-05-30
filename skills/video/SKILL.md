@@ -3,11 +3,7 @@ name: video
 description: When the user wants to create, generate, or produce video content using
   AI tools or programmatic frameworks. Also use when the user mentions 'video production,'
   'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Runway,' 'Kling,'
-  'Pika,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,'
-  'video template,' 'explainer video,' 'product demo video,' 'video pipeline,' or
-  'make me a video.' Use this for video creation, generation, and production workflows.
-  For video content strategy and what to post, see social-content. For paid video
-  ad creative, see ad-creative.
+  'Pika,' 'video generation,' 'AI avatar,'...
 metadata:
   version: 1.0.0
 risk: safe

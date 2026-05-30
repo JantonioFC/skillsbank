@@ -1,7 +1,8 @@
 ---
 name: vercel-react-view-transitions
-description: |-
-  Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements).
+description: Guide for implementing smooth, native-feeling animations using React's
+  View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS
+  view transition pseudo-elements).
 license: MIT
 metadata:
   author: vercel

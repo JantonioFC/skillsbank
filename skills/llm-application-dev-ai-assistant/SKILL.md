@@ -1,7 +1,8 @@
 ---
 name: llm-application-dev-ai-assistant
-description: |-
-  You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natur
+description: You are an AI assistant development expert specializing in creating intelligent
+  conversational interfaces, chatbots, and AI-powered applications. Design comprehensive
+  AI assistant solutions with natur
 risk: safe
 source: community
 license: MIT

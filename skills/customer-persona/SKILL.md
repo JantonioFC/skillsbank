@@ -1,7 +1,9 @@
 ---
 name: customer-persona
-description: |-
-  Research-backed customer persona creation with market data and avatar generation. Covers demographics, psychographics, jobs-to-be-done, journey mapping, and anti-personas. Use for: marketing strategy, product development, UX research, sales enablement, content strategy. Triggers: customer ...
+description: 'Research-backed customer persona creation with market data and avatar
+  generation. Covers demographics, psychographics, jobs-to-be-done, journey mapping,
+  and anti-personas. Use for: marketing strategy, product development, UX research,
+  sales enablement, content strategy. Triggers: customer ...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

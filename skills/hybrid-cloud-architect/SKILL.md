@@ -1,7 +1,9 @@
 ---
 name: hybrid-cloud-architect
-description: |-
-  Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware). Masters hybrid connectivity, workload placement optimization, edge computing, and cross-cloud automation. Handles compliance, cost optimization, disaster recover...
+description: Expert hybrid cloud architect specializing in complex multi-cloud solutions
+  across AWS/Azure/GCP and private clouds (OpenStack/VMware). Masters hybrid connectivity,
+  workload placement optimization, edge computing, and cross-cloud automation. Handles
+  compliance, cost optimization, disaster recover...
 metadata:
   model: opus
 risk: safe

@@ -1,7 +1,9 @@
 ---
 name: copy-editing
-description: |-
-  When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,'...
+description: When the user wants to edit, review, or improve existing marketing copy.
+  Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,'
+  'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,'
+  'this reads awkwardly,' 'clean up this text,' 'too wordy,'...
 metadata:
   version: 1.1.0
 risk: safe

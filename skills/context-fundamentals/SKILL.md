@@ -1,7 +1,9 @@
 ---
 name: context-fundamentals
-description: |-
-  This skill should be used when the user asks to "understand context", "explain context windows", "design agent architecture", "debug context issues", "optimize context usage", or discusses context components, attention mechanics, progressive disclosure, or context budgeting. Provides foundational...
+description: This skill should be used when the user asks to "understand context",
+  "explain context windows", "design agent architecture", "debug context issues",
+  "optimize context usage", or discusses context components, attention mechanics,
+  progressive disclosure, or context budgeting. Provides foundational...
 risk: safe
 source: community
 license: MIT

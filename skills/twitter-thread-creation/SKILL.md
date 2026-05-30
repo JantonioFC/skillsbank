@@ -1,7 +1,9 @@
 ---
 name: twitter-thread-creation
-description: |-
-  Twitter/X thread writing with hook tweets, thread structure, and engagement optimization. Covers tweet formatting, character limits, media attachments, and posting strategies. Use for: Twitter threads, X posts, tweet storms, Twitter content, social media writing. Triggers: twitter thread, ...
+description: 'Twitter/X thread writing with hook tweets, thread structure, and engagement
+  optimization. Covers tweet formatting, character limits, media attachments, and
+  posting strategies. Use for: Twitter threads, X posts, tweet storms, Twitter content,
+  social media writing. Triggers: twitter thread, ...'
 allowed-tools: Bash(infsh *)
 risk: safe
 source: community

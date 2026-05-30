@@ -1,7 +1,9 @@
 ---
 name: memory-systems
-description: |-
-  Guides implementation of agent memory systems, compares production frameworks (Mem0, Zep/Graphiti, Letta, LangMem, Cognee), and designs persistence architectures for cross-session knowledge retention. Use when the user asks to "implement agent memory", "persist state across sessions", "build know...
+description: Guides implementation of agent memory systems, compares production frameworks
+  (Mem0, Zep/Graphiti, Letta, LangMem, Cognee), and designs persistence architectures
+  for cross-session knowledge retention. Use when the user asks to "implement agent
+  memory", "persist state across sessions", "build know...
 risk: offensive
 source: community
 license: MIT

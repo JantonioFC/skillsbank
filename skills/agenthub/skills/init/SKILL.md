@@ -1,7 +1,7 @@
 ---
 name: init
-description: |-
-  Create a new AgentHub collaboration session with task, agent count, and evaluation criteria.
+description: Create a new AgentHub collaboration session with task, agent count, and
+  evaluation criteria.
 command: /hub:init
 risk: safe
 source: community

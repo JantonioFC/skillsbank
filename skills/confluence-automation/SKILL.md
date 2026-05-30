@@ -1,7 +1,8 @@
 ---
 name: confluence-automation
-description: |-
-  Automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas.
+description: Automate Confluence page creation, content search, space management,
+  labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first
+  for current schemas.
 risk: safe
 source: community
 date_added: '2026-02-27'

@@ -1,7 +1,8 @@
 ---
 name: monetization
-description: |-
-  Estrategia e implementacao de monetizacao para produtos digitais - Stripe, subscriptions, pricing experiments, freemium, upgrade flows, churn prevention, revenue optimization e modelos de negocio SaaS.
+description: Estrategia e implementacao de monetizacao para produtos digitais - Stripe,
+  subscriptions, pricing experiments, freemium, upgrade flows, churn prevention, revenue
+  optimization e modelos de negocio SaaS.
 risk: none
 source: community
 date_added: '2026-03-06'

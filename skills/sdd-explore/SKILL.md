@@ -1,14 +1,26 @@
 ---
 name: sdd-explore
-description: |
-  Explore and investigate ideas before committing to a change. Trigger: When the orchestrator launches you to think through a feature, investigate the codebase, or clarify requirements.
+description: 'Explore SDD ideas before committing to a change. Trigger: orchestrator
+  launches exploration or requirement clarification.'
+disable-model-invocation: true
+user-invocable: false
 license: MIT
 metadata:
   author: gentleman-programming
   version: '2.0'
-risk: safe
-source: community
+  delegate_only: true
 ---
+
+> **ORCHESTRATOR GATE**: If you loaded this skill via the `skill()` tool, you are
+> the ORCHESTRATOR — STOP. Do NOT execute these instructions inline. Delegate to
+> the dedicated `sdd-explore` sub-agent using your platform's delegation primitive
+> (e.g., `task(...)`, sub-agent invocation, etc.). This skill is for EXECUTORS
+> only.
+
+## Executor Override
+
+If you ARE the `sdd-explore` sub-agent (NOT the orchestrator), the gate above does NOT apply to you. Continue with the phase work below. Do NOT delegate. Do NOT call the Skill tool. You are the executor — execute.
+
 ## Purpose
 
 You are a sub-agent responsible for EXPLORATION. You investigate the codebase, think through problems, compare approaches, and return a structured analysis. By default you only research and report back; only create `exploration.md` when this exploration is tied to a named change.
@@ -17,32 +29,37 @@ You are a sub-agent responsible for EXPLORATION. You investigate the codebase, t
 
 The orchestrator will give you:
 - A topic or feature to explore
-- Artifact store mode (`engram | openspec | none`)
+- Artifact store mode (`engram | openspec | hybrid | none`)
 
 ## Execution and Persistence Contract
 
-Read and follow `skills/_shared/persistence-contract.md` for mode resolution rules.
+> Follow **Section B** (retrieval) and **Section C** (persistence) from `skills/_shared/sdd-phase-common.md`.
 
-- If mode is `engram`: Read and follow `skills/_shared/engram-convention.md`. Artifact type: `explore`. If no change name (standalone explore), use slug: `sdd/explore/{topic-slug}`.
-- If mode is `openspec`: Read and follow `skills/_shared/openspec-convention.md`.
-- If mode is `none`: Return result only.
+- **engram**: Optionally read `sdd-init/{project}` for project context. Save artifact as `sdd/{change-name}/explore` (or `sdd/explore/{topic-slug}` if standalone).
+- **openspec**: Read and follow `skills/_shared/openspec-convention.md`.
+- **hybrid**: Follow BOTH conventions — persist to Engram AND write to filesystem.
+- **none**: Return result only.
 
 ### Retrieving Context
 
-Before starting, load any existing project context and specs per the active convention:
-- **engram**: Search for `sdd-init/{project}` (project context) and `sdd/` (existing artifacts).
+> Follow **Section B** from `skills/_shared/sdd-phase-common.md` for retrieval.
+
+- **engram**: Search for `sdd-init/{project}` (project context) and optionally `sdd/` (existing artifacts).
 - **openspec**: Read `openspec/config.yaml` and `openspec/specs/`.
 - **none**: Use whatever context the orchestrator passed in the prompt.
 
 ## What to Do
 
-### Step 1: Understand the Request
+### Step 1: Load Skills
+Follow **Section A** from `skills/_shared/sdd-phase-common.md`.
+
+### Step 2: Understand the Request
 
 Parse what the user wants to explore:
 - Is this a new feature? A bug fix? A refactor?
 - What domain does it touch?
 
-### Step 2: Investigate the Codebase
+### Step 3: Investigate the Codebase
 
 Read relevant code to understand:
 - Current architecture and patterns
@@ -59,7 +76,7 @@ INVESTIGATE:
 └── Identify dependencies and coupling
 ```
 
-### Step 3: Analyze Options
+### Step 4: Analyze Options
 
 If there are multiple approaches, compare them:
 
@@ -68,18 +85,16 @@ If there are multiple approaches, compare them:
 | Option A | ... | ... | Low/Med/High |
 | Option B | ... | ... | Low/Med/High |
 
-### Step 4: Optionally Save Exploration
+### Step 5: Persist Artifact
 
-If the orchestrator provided a change name (i.e., this exploration is part of `/sdd-new`), save your analysis to:
+**This step is MANDATORY when tied to a named change — do NOT skip it.**
 
-```
-openspec/changes/{change-name}/
-└── exploration.md          ← You create this
-```
+Follow **Section C** from `skills/_shared/sdd-phase-common.md`.
+- artifact: `explore`
+- topic_key: `sdd/{change-name}/explore` (or `sdd/explore/{topic-slug}` if standalone)
+- type: `architecture`
 
-If no change name was provided (standalone `/sdd-explore`), skip file creation — just return the analysis.
-
-### Step 5: Return Structured Analysis
+### Step 6: Return Structured Analysis
 
 Return EXACTLY this format to the orchestrator (and write the same content to `exploration.md` if saving):
 
@@ -123,7 +138,4 @@ Return EXACTLY this format to the orchestrator (and write the same content to `e
 - Keep your analysis CONCISE - the orchestrator needs a summary, not a novel
 - If you can't find enough information, say so clearly
 - If the request is too vague to explore, say what clarification is needed
-- Return a structured envelope with: `status`, `executive_summary`, `detailed_report` (optional), `artifacts`, `next_recommended`, and `risks`
-
-## When to Use
-This skill is applicable to execute the workflow or actions described in the overview.
+- Return envelope per **Section D** from `skills/_shared/sdd-phase-common.md`.

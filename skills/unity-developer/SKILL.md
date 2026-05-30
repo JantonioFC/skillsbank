@@ -1,7 +1,9 @@
 ---
 name: unity-developer
-description: |-
-  Build Unity games with optimized C# scripts, efficient rendering, and proper asset management. Masters Unity 6 LTS, URP/HDRP pipelines, and cross-platform deployment. Handles gameplay systems, UI implementation, and platform optimization. Use PROACTIVELY for Unity performance issues, game mechani...
+description: Build Unity games with optimized C# scripts, efficient rendering, and
+  proper asset management. Masters Unity 6 LTS, URP/HDRP pipelines, and cross-platform
+  deployment. Handles gameplay systems, UI implementation, and platform optimization.
+  Use PROACTIVELY for Unity performance issues, game mechani...
 metadata:
   model: opus
 risk: offensive

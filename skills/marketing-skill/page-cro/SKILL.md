@@ -1,7 +1,9 @@
 ---
 name: page-cro
-description: |-
-  When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says "CRO," "conversion rate optimization," "this page isn't converting," "improve conversions," or "why...
+description: When the user wants to optimize, improve, or increase conversions on
+  any marketing page — including homepage, landing pages, pricing pages, feature pages,
+  or blog posts. Also use when the user says "CRO," "conversion rate optimization,"
+  "this page isn't converting," "improve conversions," or "why...
 license: MIT
 metadata:
   version: 1.0.0

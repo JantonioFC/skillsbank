@@ -1,7 +1,7 @@
 ---
 name: resource-curator
-description: |-
-  Find, evaluate, and maintain high-quality external resources for JavaScript concept documentation, including auditing for broken and outdated links
+description: Find, evaluate, and maintain high-quality external resources for JavaScript
+  concept documentation, including auditing for broken and outdated links
 risk: safe
 source: community
 license: MIT

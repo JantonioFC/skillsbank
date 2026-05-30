@@ -1,7 +1,9 @@
 ---
 name: referral-program
-description: |-
-  When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referr...
+description: When the user wants to create, optimize, or analyze a referral program,
+  affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,'
+  'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner
+  program,' 'referral incentive,' 'how to get referr...
 metadata:
   version: 1.1.0
 risk: safe

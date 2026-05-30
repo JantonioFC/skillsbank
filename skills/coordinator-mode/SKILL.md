@@ -1,7 +1,11 @@
 ---
 name: coordinator-mode
-description: Advanced multi-agent orchestration with parallel workers, synthesis protocols, and coordinator lifecycle. Use when complex tasks require multiple agents working in parallel with intelligent result synthesis.
-when_to_use: "When the user needs multi-agent coordination, parallel task execution, complex multi-domain work, or when /coordinate or /orchestrate is invoked. NOT for single-domain tasks."
+description: Advanced multi-agent orchestration with parallel workers, synthesis protocols,
+  and coordinator lifecycle. Use when complex tasks require multiple agents working
+  in parallel with intelligent result synthesis.
+when_to_use: When the user needs multi-agent coordination, parallel task execution,
+  complex multi-domain work, or when /coordinate or /orchestrate is invoked. NOT for
+  single-domain tasks.
 allowed-tools: Read, Grep, Glob, Bash, Write, Edit, Agent
 effort: high
 ---

@@ -1,7 +1,8 @@
 ---
 name: route-tester
-description: |-
-  Test authenticated routes in the your project using cookie-based authentication. Use this skill when testing API endpoints, validating route functionality, or debugging authentication issues. Includes patterns for using test-auth-route.js and mock authentication.
+description: Test authenticated routes in the your project using cookie-based authentication.
+  Use this skill when testing API endpoints, validating route functionality, or debugging
+  authentication issues. Includes patterns for using test-auth-route.js and mock authentication.
 risk: safe
 source: community
 license: MIT

@@ -1,7 +1,9 @@
 ---
 name: deployment-engineer
-description: |-
-  Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation. Masters GitHub Actions, ArgoCD/Flux, progressive delivery, container security, and platform engineering. Handles zero-downtime deployments, security scanning, and developer exp...
+description: Expert deployment engineer specializing in modern CI/CD pipelines, GitOps
+  workflows, and advanced deployment automation. Masters GitHub Actions, ArgoCD/Flux,
+  progressive delivery, container security, and platform engineering. Handles zero-downtime
+  deployments, security scanning, and developer exp...
 metadata:
   model: haiku
 risk: offensive

@@ -1,7 +1,8 @@
 ---
 name: review
-description: |-
-  Review Playwright tests for quality. Use when user says "review tests", "check test quality", "audit tests", "improve tests", "test code review", or "playwright best practices check".
+description: Review Playwright tests for quality. Use when user says "review tests",
+  "check test quality", "audit tests", "improve tests", "test code review", or "playwright
+  best practices check".
 risk: safe
 source: community
 license: MIT
