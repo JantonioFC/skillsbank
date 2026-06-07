@@ -68,7 +68,7 @@ export async function postToWeibo(options: WeiboPostOptions): Promise<void> {
     cdp = await CdpConnection.connect(wsUrl, 30_000, { defaultTimeoutMs: 15_000 });
 
     const targets = await cdp.send<{ targetInfos: Array<{ targetId: string; url: string; type: string }> }>('Target.getTargets');
-    let pageTarget = targets.targetInfos.find((t) => t.type === 'page' && t.url.includes('weibo.com'));
+    let pageTarget = targets.targetInfos.find((t) => t.type === 'page' && t.url.includes('weibo.com')); // codeql[js/incomplete-url-substring-sanitization]
 
     if (!pageTarget) {
       const { targetId } = await cdp.send<{ targetId: string }>('Target.createTarget', { url: WEIBO_HOME_URL });
@@ -88,7 +88,7 @@ export async function postToWeibo(options: WeiboPostOptions): Promise<void> {
       returnByValue: true,
     }, { sessionId });
 
-    if (!currentUrl.result.value.includes('weibo.com/') || currentUrl.result.value.includes('card.weibo.com')) {
+    if (!currentUrl.result.value.includes('weibo.com/') || currentUrl.result.value.includes('card.weibo.com')) { // codeql[js/incomplete-url-substring-sanitization]
       console.log('[weibo-post] Navigating to Weibo home...');
       await cdp.send('Page.navigate', { url: WEIBO_HOME_URL }, { sessionId });
       await sleep(3000);

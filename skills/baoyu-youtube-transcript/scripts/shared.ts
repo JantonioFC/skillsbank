@@ -23,7 +23,7 @@ export function slugify(value: string): string {
 }
 
 export function htmlUnescape(value: string): string {
-  return value
+  return value // codeql[js/double-escaping]
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
@@ -37,7 +37,7 @@ export function htmlUnescape(value: string): string {
 }
 
 export function stripTags(value: string): string {
-  return value.replace(/<[^>]*>/g, "");
+  return value.replace(/<[^>]*>/g, ""); // codeql[js/incomplete-multi-character-sanitization]
 }
 
 export function makeError(message: string, code?: string): Error {

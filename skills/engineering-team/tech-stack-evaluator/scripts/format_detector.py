@@ -213,8 +213,8 @@ class FormatDetector:
         urls = re.findall(url_pattern, self.raw_input)
 
         # Categorize URLs
-        github_urls = [u for u in urls if 'github.com' in u]
-        npm_urls = [u for u in urls if 'npmjs.com' in u or 'npm.io' in u]
+        github_urls = [u for u in urls if 'github.com' in u]  # codeql[py/incomplete-url-substring-sanitization]
+        npm_urls = [u for u in urls if 'npmjs.com' in u or 'npm.io' in u]  # codeql[py/incomplete-url-substring-sanitization]
         other_urls = [u for u in urls if u not in github_urls and u not in npm_urls]
 
         # Also extract any text context

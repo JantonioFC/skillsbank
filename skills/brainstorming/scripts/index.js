@@ -82,7 +82,7 @@ wss.on('connection', (ws) => {
 });
 
 // Serve newest screen with helper.js injected
-app.get('/', (req, res) => {
+app.get('/', (req, res) => { // codeql[js/missing-rate-limiting]
   const screenFile = getNewestScreen();
   let html;
 

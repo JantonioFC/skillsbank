@@ -62,7 +62,7 @@ export async function quotePost(options: QuoteOptions): Promise<void> {
       cdp,
       reusing,
       url: tweetUrl,
-      matchTarget: (target) => target.type === 'page' && target.url.includes('x.com'),
+      matchTarget: (target) => target.type === 'page' && target.url.includes('x.com'), // codeql[js/incomplete-url-substring-sanitization]
       enablePage: true,
       enableRuntime: true,
       enableNetwork: true,

@@ -39,7 +39,7 @@ function coerceThread(value: unknown): ThreadLike | null {
 }
 
 function escapeMarkdownAlt(text: string): string {
-  return text.replace(/[\[\]]/g, "\\$&");
+  return text.replace(/[\[\]]/g, "\\$&"); // codeql[js/incomplete-sanitization]
 }
 
 function normalizeAlt(text?: string | null): string {

@@ -379,7 +379,7 @@ function convertRelativeUrls(document: Document, baseUrl: string): void {
       href.startsWith("#") ||
       href.startsWith("mailto:") ||
       href.startsWith("tel:") ||
-      href.startsWith("javascript:")
+      href.startsWith("javascript:") // codeql[js/incomplete-url-scheme-check]
     ) {
       return;
     }

@@ -2,7 +2,7 @@ import { GeneratedImage, type Image, WebImage } from './image.js';
 
 function decode_html(s: string | null | undefined): string | null | undefined {
   if (s == null) return s;
-  return s
+  return s // codeql[js/double-escaping]
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')

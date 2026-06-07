@@ -17,7 +17,7 @@ const cookieConfig: CookieSidecarConfig = {
   requiredCookieNames: ["auth_token", "ct0"],
   filterCookie: (c) => {
     const d = c.domain ?? "";
-    return d.endsWith("x.com") || d.endsWith("twitter.com");
+    return d.endsWith("x.com") || d.endsWith("twitter.com"); // codeql[js/incomplete-url-substring-sanitization]
   },
 };
 

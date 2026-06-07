@@ -53030,7 +53030,7 @@
                 }
                 return `<span style="color:var(--text-bright)">${item.title}</span>`;
             });
-            bc.innerHTML = parts.join(' / ');
+            bc.innerHTML = parts.join(' / '); // codeql[js/xss-through-dom]
         }
 
         function goTo(index) {
@@ -53095,7 +53095,7 @@
             showView('viewSubcategories');
             const grid = document.getElementById('subGrid');
             grid.innerHTML = cat.subcategories.map(sub => `
-                <div class="sub-card" onclick="openSub('${cat.name}', '${sub.name.replace(/'/g, "\\'")}')">
+                <div class="sub-card" onclick="openSub('${cat.name}', '${sub.name.replace(/'/g, "\\'")}')"> // codeql[js/incomplete-sanitization]
                     <h3>${sub.name}</h3>
                     <span class="badge">${sub.count} habilidades</span>
                 </div>

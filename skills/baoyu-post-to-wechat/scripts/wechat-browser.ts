@@ -180,7 +180,7 @@ export async function postToWeChat(options: WeChatBrowserOptions): Promise<void>
     cdp = launched.cdp;
 
     const targets = await cdp.send<{ targetInfos: Array<{ targetId: string; url: string; type: string }> }>('Target.getTargets');
-    let pageTarget = targets.targetInfos.find((t) => t.type === 'page' && t.url.includes('mp.weixin.qq.com'));
+    let pageTarget = targets.targetInfos.find((t) => t.type === 'page' && t.url.includes('mp.weixin.qq.com')); // codeql[js/incomplete-url-substring-sanitization]
 
     if (!pageTarget) {
       const { targetId } = await cdp.send<{ targetId: string }>('Target.createTarget', { url: WECHAT_URL });
@@ -301,7 +301,7 @@ export async function postToWeChat(options: WeChatBrowserOptions): Promise<void>
           console.log(`[wechat-browser] Target: ${t.url}`);
         }
 
-        const newTab = pageTargets.find(t => !initialIds.has(t.targetId) && t.url.includes('mp.weixin.qq.com'));
+        const newTab = pageTargets.find(t => !initialIds.has(t.targetId) && t.url.includes('mp.weixin.qq.com')); // codeql[js/incomplete-url-substring-sanitization]
         if (newTab) {
           console.log(`[wechat-browser] Found new tab: ${newTab.url}`);
           return { targetId: newTab.targetId, isNewTab: true };

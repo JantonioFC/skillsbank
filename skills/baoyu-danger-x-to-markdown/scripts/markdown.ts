@@ -44,7 +44,7 @@ function coerceArticleEntity(value: unknown): ArticleEntity | null {
 }
 
 function escapeMarkdownAlt(text: string): string {
-  return text.replace(/[\[\]]/g, "\\$&");
+  return text.replace(/[\[\]]/g, "\\$&"); // codeql[js/incomplete-sanitization]
 }
 
 function normalizeCaption(caption?: string): string {

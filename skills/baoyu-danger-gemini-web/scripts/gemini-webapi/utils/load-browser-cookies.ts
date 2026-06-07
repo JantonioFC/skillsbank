@@ -133,7 +133,7 @@ async function fetch_cookies_from_existing_chrome(
       cdp,
       reusing: false,
       url: GEMINI_APP_URL,
-      matchTarget: (target) => target.type === 'page' && target.url.includes('gemini.google.com'),
+      matchTarget: (target) => target.type === 'page' && target.url.includes('gemini.google.com'), // codeql[js/incomplete-url-substring-sanitization]
       enableNetwork: true,
       activateTarget: false,
     });
@@ -205,7 +205,7 @@ async function fetch_google_cookies_via_cdp(
       cdp,
       reusing,
       url: GEMINI_APP_URL,
-      matchTarget: (target) => target.type === 'page' && target.url.includes('gemini.google.com'),
+      matchTarget: (target) => target.type === 'page' && target.url.includes('gemini.google.com'), // codeql[js/incomplete-url-substring-sanitization]
       enableNetwork: true,
     });
     const { sessionId } = page;

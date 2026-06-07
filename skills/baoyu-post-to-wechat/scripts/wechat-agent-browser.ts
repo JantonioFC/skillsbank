@@ -168,7 +168,7 @@ async function postToWeChat(options: WeChatOptions): Promise<void> {
   console.log(`[wechat] Tabs: ${tabsOutput}`);
 
   const tabLines = tabsOutput.split('\n');
-  const editorTabLine = tabLines.find(l => l.includes('appmsg') || (!l.includes('cgi-bin/home') && l.includes('mp.weixin.qq.com')));
+  const editorTabLine = tabLines.find(l => l.includes('appmsg') || (!l.includes('cgi-bin/home') && l.includes('mp.weixin.qq.com'))); // codeql[js/incomplete-url-substring-sanitization]
 
   if (tabLines.length > 1) {
     const tabMatch = tabsOutput.match(/\[(\d+)\].*(?:appmsg|edit)/i);

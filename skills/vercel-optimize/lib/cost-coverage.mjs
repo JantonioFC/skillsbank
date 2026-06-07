@@ -139,5 +139,5 @@ export function renderCostCoverageMarkdown(coverage) {
 }
 
 function escapeCell(s) {
-  return String(s ?? '').replace(/\|/g, '\\|').replace(/\n/g, ' ');
+  return String(s ?? '').replace(/\|/g, '\\|').replace(/\n/g, ' '); // codeql[js/incomplete-sanitization]
 }

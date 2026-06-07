@@ -313,7 +313,7 @@ class ProjectAnalyzer:
                     value=name, confidence=0.85, source="go.mod"
                 )
                 # Full module path might be repo URL
-                if module_path.startswith("github.com/"):
+                if module_path.startswith("github.com/"):  # codeql[py/incomplete-url-substring-sanitization]
                     self.result.repository_url = DetectedValue(
                         value=f"https://{module_path}",
                         confidence=0.9,

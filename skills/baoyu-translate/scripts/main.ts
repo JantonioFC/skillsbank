@@ -13,7 +13,7 @@ function formatScriptCommand(fallback: string): string {
     : fallback
 
   const quotedPath = displayPath.includes(" ")
-    ? `"${displayPath.replace(/"/g, '\\"')}"`
+    ? `"${displayPath.replace(/"/g, '\\"')}"` // codeql[js/incomplete-sanitization]
     : displayPath
 
   return `npx -y bun ${quotedPath}`

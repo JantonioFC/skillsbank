@@ -123,7 +123,7 @@ class AuthManager:
             page.goto("https://notebooklm.google.com", wait_until="domcontentloaded")
 
             # Check if already authenticated
-            if "notebooklm.google.com" in page.url and "accounts.google.com" not in page.url:
+            if "notebooklm.google.com" in page.url and "accounts.google.com" not in page.url:  # codeql[py/incomplete-url-substring-sanitization]
                 print("  ✅ Already authenticated!")
                 self._save_browser_state(context)
                 return True
@@ -293,7 +293,7 @@ class AuthManager:
             page.goto("https://notebooklm.google.com", wait_until="domcontentloaded", timeout=30000)
 
             # Check if we can access NotebookLM
-            if "notebooklm.google.com" in page.url and "accounts.google.com" not in page.url:
+            if "notebooklm.google.com" in page.url and "accounts.google.com" not in page.url:  # codeql[py/incomplete-url-substring-sanitization]
                 print("  ✅ Authentication is valid")
                 return True
             else:

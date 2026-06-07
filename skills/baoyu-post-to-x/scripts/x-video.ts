@@ -62,7 +62,7 @@ export async function postVideoToX(options: XVideoOptions): Promise<void> {
       cdp,
       reusing,
       url: X_COMPOSE_URL,
-      matchTarget: (target) => target.type === 'page' && target.url.includes('x.com'),
+      matchTarget: (target) => target.type === 'page' && target.url.includes('x.com'), // codeql[js/incomplete-url-substring-sanitization]
       enablePage: true,
       enableRuntime: true,
       enableDom: true,

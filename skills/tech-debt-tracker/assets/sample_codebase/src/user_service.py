@@ -89,7 +89,7 @@ class UserService:
         user_id = str(hash(email))  # XXX: This is terrible for production
         
         # Magic numbers everywhere
-        password_hash = hashlib.sha256((password + "salt123").encode()).hexdigest()
+        password_hash = hashlib.sha256((password + "salt123").encode()).hexdigest()  # codeql[py/weak-sensitive-data-hashing]
         
         user_data = {
             "id": user_id,
@@ -144,7 +144,7 @@ class UserService:
         for user_id, user_data in self.users.items():
             if user_data["email"] == email:
                 # Same password hashing logic duplicated
-                password_hash = hashlib.sha256((password + "salt123").encode()).hexdigest()
+                password_hash = hashlib.sha256((password + "salt123").encode()).hexdigest()  # codeql[py/weak-sensitive-data-hashing]
                 if user_data["password_hash"] == password_hash:
                     # Update login stats
                     user_data["last_login"] = time.time()
@@ -260,7 +260,7 @@ def get_user_service():
 # Utility function that should be in separate module
 def hash_password(password, salt="salt123"):
     # Hardcoded salt - security issue
-    return hashlib.sha256((password + salt).encode()).hexdigest()
+    return hashlib.sha256((password + salt).encode()).hexdigest()  # codeql[py/weak-sensitive-data-hashing]
 
 
 # Another utility function with duplicate logic

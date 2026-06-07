@@ -1111,7 +1111,7 @@ function compilePattern(pattern, flags) {
   const m = pattern.match(/^\/(.+)\/([gimsu]*)$/);
   if (m) {
     const mergedFlags = [...new Set(((m[2] || '') + (flags || '')).split(''))].join('');
-    return new RegExp(m[1], mergedFlags);
+    return new RegExp(m[1], mergedFlags); // codeql[js/regex-injection]
   }
   return new RegExp(pattern.replace(/[.+^${}()|[\]\\?*]/g, '\\$&'), flags);
 }

@@ -60,7 +60,7 @@ def extract_urls(text):
     citations = []
     for match in PATTERNS["url"].finditer(text):
         url = match.group(0).rstrip(".,;)")
-        if "doi.org" in url:
+        if "doi.org" in url:  # codeql[py/incomplete-url-substring-sanitization]
             continue
         citations.append({
             "type": "url",

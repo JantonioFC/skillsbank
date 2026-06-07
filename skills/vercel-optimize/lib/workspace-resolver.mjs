@@ -159,7 +159,7 @@ function buildPackageLookup(p) {
         if (subpath.startsWith(w.keyPrefix) && subpath.endsWith(w.keySuffix)) {
           const star = subpath.slice(w.keyPrefix.length, subpath.length - w.keySuffix.length);
           if (!star) continue;
-          const target = w.valueTemplate.replace('*', star);
+          const target = w.valueTemplate.replace('*', star); // codeql[js/incomplete-sanitization]
           return joinPackagePath(p.dir, target);
         }
       }

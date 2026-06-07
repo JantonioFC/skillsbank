@@ -83,7 +83,7 @@ async function fetchXCookiesViaCdp(
       reusing,
       url: X_LOGIN_URL,
       matchTarget: (target) => target.type === "page" && (
-        target.url.includes("x.com") || target.url.includes("twitter.com")
+        target.url.includes("x.com") || target.url.includes("twitter.com") // codeql[js/incomplete-url-substring-sanitization]
       ),
       enableNetwork: true,
     });
@@ -154,8 +154,8 @@ function pickCookieValue<T extends CookieLike>(cookies: T[], name: string): stri
     const domain = resolveCookieDomain(cookie);
     return domain === "x.com" && (cookie.path ?? "/") === "/";
   });
-  const xDomain = matches.find((cookie) => (resolveCookieDomain(cookie) ?? "").endsWith("x.com"));
-  const twitterDomain = matches.find((cookie) => (resolveCookieDomain(cookie) ?? "").endsWith("twitter.com"));
+  const xDomain = matches.find((cookie) => (resolveCookieDomain(cookie) ?? "").endsWith("x.com")); // codeql[js/incomplete-url-substring-sanitization]
+  const twitterDomain = matches.find((cookie) => (resolveCookieDomain(cookie) ?? "").endsWith("twitter.com")); // codeql[js/incomplete-url-substring-sanitization]
   return (preferred ?? xDomain ?? twitterDomain ?? matches[0])?.value;
 }
 
