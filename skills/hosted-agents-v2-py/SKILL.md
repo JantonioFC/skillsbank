@@ -196,7 +196,7 @@ tools=[
 ]
 ```
 
-## Environment Variables
+### Environment Variables
 
 Pass configuration to your container:
 

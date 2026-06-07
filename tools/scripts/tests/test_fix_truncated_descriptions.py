@@ -10,6 +10,8 @@ TOOLS_SCRIPTS_DIR = REPO_ROOT / "tools" / "scripts"
 if str(TOOLS_SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(TOOLS_SCRIPTS_DIR))
 
+from symlink_test_utils import symlink_or_skip
+
 
 def load_module(relative_path: str, module_name: str):
     module_path = REPO_ROOT / relative_path
@@ -106,6 +108,34 @@ Lightweight calendar automation with standalone OAuth authentication and event m
                 'description: "Lightweight calendar automation with standalone OAuth authentication and event management commands."',
                 updated,
             )
+
+    def test_update_skill_file_skips_symlinked_skill_markdown(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            skill_dir = root / "skill"
+            outside_dir = root / "outside"
+            skill_dir.mkdir()
+            outside_dir.mkdir()
+
+            target = outside_dir / "SKILL.md"
+            original = """---
+name: outside
+description: "This description is truncated..."
+---
+
+# Outside
+
+This paragraph should never be written back through a symlink.
+"""
+            target.write_text(original, encoding="utf-8")
+            skill_path = skill_dir / "SKILL.md"
+            symlink_or_skip(self, target, skill_path)
+
+            changed, new_description = fix_truncated_descriptions.update_skill_file(skill_path)
+
+            self.assertFalse(changed)
+            self.assertIsNone(new_description)
+            self.assertEqual(target.read_text(encoding="utf-8"), original)
 
 
 if __name__ == "__main__":

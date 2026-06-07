@@ -1,12 +1,64 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { Search, Filter, AlertCircle, RefreshCw, ArrowUpDown, Tag, X } from 'lucide-react';
 import { VirtuosoGrid } from 'react-virtuoso';
-import debounce from 'lodash.debounce';
 import { useSkills } from '../context/SkillContext';
 import { SkillCard } from '../components/SkillCard';
+import { Icon } from '../components/ui/Icon';
 import type { SyncMessage, CategoryStats } from '../types';
 import { usePageMeta } from '../hooks/usePageMeta';
-import { APP_HOME_CATALOG_COUNT, buildHomeMeta } from '../utils/seo';
+import { buildHomeMeta, getHomeFaqItems } from '../utils/seo';
+import { Link } from 'react-router-dom';
+
+const conceptCards = [
+  {
+    title: 'Specialized plugins',
+    body: 'Focused installable distributions for domains like web apps, security, documents, data, DevOps, QA, OSS, mobile, automation, and agent/MCP work.',
+  },
+  {
+    title: 'Skills',
+    body: 'Reusable SKILL.md playbooks that teach an AI assistant how to execute a workflow with better structure and context.',
+  },
+  {
+    title: 'MCP tools',
+    body: 'External capabilities and system integrations the assistant can call. Tools provide actions; skills tell the assistant how to use them well.',
+  },
+  {
+    title: 'Bundles',
+    body: 'Curated starting sets of recommended skills for a role, domain, or team that wants a smaller shortlist first.',
+  },
+  {
+    title: 'Workflows',
+    body: 'Ordered execution playbooks that show how to combine multiple skills step by step for a concrete outcome.',
+  },
+] as const;
+
+const integrationGuides = [
+  {
+    name: 'Claude Code',
+    href: 'https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/claude-code-skills.md',
+    body: 'Install paths, starter prompts, plugin marketplace flow, and first skills to try.',
+  },
+  {
+    name: 'Cursor',
+    href: 'https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/cursor-skills.md',
+    body: 'A practical guide for chat-first UI, frontend, and full-stack workflows in Cursor.',
+  },
+  {
+    name: 'Codex CLI',
+    href: 'https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/codex-cli-skills.md',
+    body: 'How to use Antigravity Awesome Skills with Codex CLI for planning, implementation, testing, and review.',
+  },
+  {
+    name: 'Gemini CLI',
+    href: 'https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/gemini-cli-skills.md',
+    body: 'A broad starting point for engineering, agent systems, integrations, and applied AI workflows.',
+  },
+] as const;
+
+const syncFeatureEnabled = (
+  (import.meta as ImportMeta & { env: Record<string, string | undefined> }).env.VITE_ENABLE_SKILLS_SYNC
+  === 'true'
+);
 
 const CATEGORY_ES: Record<string, string> = {
   'uncategorized': 'Sin categoría',
@@ -97,8 +149,11 @@ export function Home(): React.ReactElement {
   const [syncMsg, setSyncMsg] = useState<SyncMessage | null>(null);
   const [commandCopied, setCommandCopied] = useState(false);
   const installCommand = 'npx antigravity-awesome-skills';
+  const repositoryLink = 'https://github.com/sickn33/antigravity-awesome-skills';
   const docsLink = 'https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/usage.md';
   const installLink = 'https://www.npmjs.com/package/antigravity-awesome-skills';
+  const faqItems = getHomeFaqItems();
+  const catalogCountLabel = skills.length > 0 ? skills.length.toLocaleString('en-US') : 'installable';
 
   usePageMeta(buildHomeMeta(skills.length));
 
@@ -114,8 +169,14 @@ export function Home(): React.ReactElement {
   );
 
   useEffect(() => {
-    debouncedSetSearch(search);
-  }, [search, debouncedSetSearch]);
+    const timeoutId = window.setTimeout(() => {
+      setDebouncedSearch(search);
+    }, 300);
+
+    return () => {
+      window.clearTimeout(timeoutId);
+    };
+  }, [search]);
 
   const filteredSkills = useMemo(() => {
     let result = [...skills];
@@ -199,7 +260,7 @@ export function Home(): React.ReactElement {
           await refreshSkills();
         }
       } else {
-        setSyncMsg({ type: 'error', text: `❌ ${data.error}` });
+        setSyncMsg({ type: 'error', text: String(data.error) });
       }
     } catch {
       setSyncMsg({ type: 'error', text: '❌ Error de red' });
@@ -226,10 +287,19 @@ export function Home(): React.ReactElement {
             Instalá una vez y probá la skill directamente desde tu terminal sin saltar entre documentaciones.
             Buscá, filtrá y copiá el prompt listo para usar en un solo paso.
           </p>
-          <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-stretch">
+
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-stretch">
+            <a
+              href={repositoryLink}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-lg border border-slate-400/80 bg-white/80 px-4 py-2.5 text-sm font-semibold text-slate-900 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_10px_20px_-16px_rgba(15,23,42,0.7)] transition-colors hover:border-slate-500 hover:bg-slate-100 dark:border-slate-600 dark:bg-slate-800/70 dark:text-slate-100 dark:hover:bg-slate-700"
+            >
+              Open the GitHub repository
+            </a>
             <button
               onClick={copyInstallCommand}
-              className="inline-flex items-center justify-center rounded-lg bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-indigo-700"
+              className="inline-flex items-center justify-center rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-white"
             >
               {commandCopied ? 'Comando copiado' : 'Copiar comando de instalación'}
             </button>
@@ -237,7 +307,7 @@ export function Home(): React.ReactElement {
               href={installLink}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-lg border border-indigo-600 text-sm font-semibold text-indigo-700 dark:text-indigo-200 px-4 py-2.5 hover:bg-indigo-50 dark:hover:bg-slate-800"
+              className="inline-flex items-center justify-center rounded-lg border border-slate-400/80 bg-white/80 px-4 py-2.5 text-sm font-semibold text-slate-900 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_10px_20px_-16px_rgba(15,23,42,0.7)] transition-colors hover:border-slate-500 hover:bg-slate-100 dark:border-slate-600 dark:bg-slate-800/70 dark:text-slate-100 dark:hover:bg-slate-700"
             >
               Instalar con npm
             </a>
@@ -245,10 +315,23 @@ export function Home(): React.ReactElement {
               href={docsLink}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-lg border border-slate-200 dark:border-slate-700 text-sm font-semibold text-slate-700 dark:text-slate-200 px-4 py-2.5 hover:bg-slate-50 dark:hover:bg-slate-800"
+              className="inline-flex items-center justify-center rounded-lg border border-slate-400/80 bg-white/80 px-4 py-2.5 text-sm font-semibold text-slate-900 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_10px_20px_-16px_rgba(15,23,42,0.7)] transition-colors hover:border-slate-500 hover:bg-slate-100 dark:border-slate-600 dark:bg-slate-800/70 dark:text-slate-100 dark:hover:bg-slate-700"
             >
               Leer documentación
             </a>
+            <Link
+              to="/plugins"
+              className="inline-flex items-center justify-center rounded-lg border border-slate-400/80 bg-white/80 px-4 py-2.5 text-sm font-semibold text-slate-900 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_10px_20px_-16px_rgba(15,23,42,0.7)] transition-colors hover:border-slate-500 hover:bg-slate-100 dark:border-slate-600 dark:bg-slate-800/70 dark:text-slate-100 dark:hover:bg-slate-700"
+            >
+              Compare specialized plugins
+            </Link>
+          </div>
+
+          <div className="mt-5 flex flex-wrap items-center gap-2 text-xs text-slate-500 dark:text-slate-400">
+            <span className="font-medium">Recommended command</span>
+            <code className="rounded-md border border-slate-200 bg-slate-100 px-2 py-1 font-mono text-[11px] text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200">
+              {installCommand}
+            </code>
           </div>
           <p className="mt-3 text-xs text-slate-500 dark:text-slate-400">
             Comando recomendado:
@@ -399,7 +482,7 @@ export function Home(): React.ReactElement {
       {/* Grid de skills */}
       <div className="flex-1 min-h-[60vh] sm:min-h-[68vh] lg:min-h-[72vh] -mx-4">
         {loading ? (
-          <div data-testid="loader" className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-4">
+          <div data-testid="loader" className="grid gap-6 px-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {[...Array(8)].map((_, i) => (
               <div key={i} className="animate-pulse rounded-lg border border-slate-200 p-6 h-48 bg-slate-100 dark:border-slate-800 dark:bg-slate-900" />
             ))}
@@ -411,7 +494,7 @@ export function Home(): React.ReactElement {
             <p className="mt-2 text-slate-500 dark:text-slate-400">{error}</p>
             <button
               onClick={() => void refreshSkills()}
-              className="mt-5 inline-flex items-center justify-center rounded-lg bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-indigo-700"
+              className="mt-5 inline-flex items-center justify-center rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-white"
             >
               Reintentar
             </button>
@@ -432,13 +515,117 @@ export function Home(): React.ReactElement {
           <VirtuosoGrid
             useWindowScroll
             totalCount={filteredSkills.length}
-            listClassName="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 pb-8 px-4"
+            listClassName="grid gap-6 px-4 pb-8 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4"
             itemContent={(index) => {
               const skill = filteredSkills[index];
               return <SkillCard key={skill.id} skill={skill} starCount={stars[skill.id] || 0} />;
             }}
           />
         )}
+      </div>
+
+      <div className="mt-12 space-y-10">
+        <section className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm sm:p-7 dark:border-slate-800 dark:bg-slate-900">
+          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
+            Concepts
+          </p>
+          <h2 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
+            Understand the system before scaling your setup
+          </h2>
+          <p className="mt-3 max-w-4xl text-sm leading-relaxed text-slate-600 sm:text-base dark:text-slate-300">
+            The catalog is easier to navigate when you separate reusable playbooks from external tool integrations.
+            Skills explain execution quality, MCP tools expose systems, bundles reduce decision overhead, and workflows
+            map the operating sequence.
+          </p>
+          <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+            {conceptCards.map((card) => (
+              <article
+                key={card.title}
+                className="rounded-xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-4 dark:border-slate-800 dark:from-slate-900 dark:to-slate-950"
+              >
+                <h3 className="text-base font-semibold text-slate-900 dark:text-slate-100">{card.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-300">{card.body}</p>
+              </article>
+            ))}
+          </div>
+          <div className="mt-5 flex flex-wrap gap-3">
+            <a
+              href="https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/skills-vs-mcp-tools.md"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-lg border border-slate-300 px-4 py-2.5 text-sm font-semibold text-slate-800 transition-colors hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
+            >
+              Read skills vs MCP/tools
+            </a>
+            <a
+              href="https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-lg border border-slate-300 px-4 py-2.5 text-sm font-semibold text-slate-800 transition-colors hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
+            >
+              Browse bundles
+            </a>
+            <a
+              href="https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-lg border border-slate-300 px-4 py-2.5 text-sm font-semibold text-slate-800 transition-colors hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
+            >
+              Explore workflows
+            </a>
+          </div>
+        </section>
+
+        <section className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm sm:p-7 dark:border-slate-800 dark:bg-slate-900">
+          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
+            Integration Guides
+          </p>
+          <h2 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
+            Start from the guide that matches your assistant runtime
+          </h2>
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            {integrationGuides.map((guide) => (
+              <a
+                key={guide.name}
+                href={guide.href}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-4 transition-colors hover:border-slate-400 dark:border-slate-800 dark:from-slate-900 dark:to-slate-950 dark:hover:border-slate-600"
+              >
+                <h3 className="text-base font-semibold text-slate-900 dark:text-slate-100">{guide.name}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-300">{guide.body}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+
+        <section className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm sm:p-7 dark:border-slate-800 dark:bg-slate-900">
+          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
+            Quick FAQ
+          </p>
+          <h2 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
+            Answers to the first questions most users ask
+          </h2>
+          <div className="mt-6 grid gap-4 lg:grid-cols-2">
+            {faqItems.map((item) => (
+              <article
+                key={item.question}
+                className="rounded-xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-4 dark:border-slate-800 dark:from-slate-900 dark:to-slate-950"
+              >
+                <h3 className="text-base font-semibold text-slate-900 dark:text-slate-100">{item.question}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-300">{item.answer}</p>
+              </article>
+            ))}
+          </div>
+          <a
+            href="https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/faq.md"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-5 inline-flex items-center justify-center rounded-lg border border-slate-300 px-4 py-2.5 text-sm font-semibold text-slate-800 transition-colors hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
+          >
+            Read the full FAQ
+          </a>
+        </section>
       </div>
     </div>
   );

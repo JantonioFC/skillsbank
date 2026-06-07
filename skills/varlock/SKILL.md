@@ -15,6 +15,11 @@ Secure-by-default environment variable management for Claude Code sessions.
 > **Repository**: https://github.com/dmno-dev/varlock
 > **Documentation**: https://varlock.dev
 
+## When to Use
+- You need to work with environment variables or secrets in a Claude Code session without exposing their values.
+- The task involves validating, loading, or auditing secrets while keeping them out of logs, diffs, and assistant context.
+- You want a secure-by-default workflow built around Varlock instead of direct `.env` inspection.
+
 ## Core Principle: Secrets Never Exposed
 
 When working with Claude, secrets must NEVER appear in:
@@ -85,7 +90,11 @@ curl -H "Authorization: Bearer $API_KEY" https://api.example.com
 
 ```bash
 # Install Varlock CLI
-curl -sSfL https://varlock.dev/install.sh | sh -s -- --force-no-brew
+tmpdir="$(mktemp -d)"
+trap 'rm -rf "$tmpdir"' EXIT
+curl -sSfL https://varlock.dev/install.sh -o "$tmpdir/varlock-install.sh"
+sed -n '1,160p' "$tmpdir/varlock-install.sh"
+sh "$tmpdir/varlock-install.sh" --force-no-brew
 
 # Add to PATH (add to ~/.zshrc or ~/.bashrc)
 export PATH="$HOME/.varlock/bin:$PATH"
@@ -240,7 +249,11 @@ varlock load
 
 ```dockerfile
 # Install Varlock in container
-RUN curl -sSfL https://varlock.dev/install.sh | sh -s -- --force-no-brew \
+RUN tmpdir="$(mktemp -d)" \
+    && curl -sSfL https://varlock.dev/install.sh -o "$tmpdir/varlock-install.sh" \
+    && sed -n '1,160p' "$tmpdir/varlock-install.sh" \
+    && sh "$tmpdir/varlock-install.sh" --force-no-brew \
+    && rm -rf "$tmpdir" \
     && ln -s /root/.varlock/bin/varlock /usr/local/bin/varlock
 
 # Validate at container start

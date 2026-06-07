@@ -18,6 +18,11 @@ license: MIT
 
 TaskEither = async operation that can fail. Like `Promise<Either<E, A>>`.
 
+## When to Use
+- You need a quick fp-ts reference for async operations that can fail.
+- The task involves API calls, Promise wrapping, or composing asynchronous error-handling pipelines.
+- You want a concise cheat sheet for `TaskEither` operators and patterns.
+
 ## Create
 
 ```typescript

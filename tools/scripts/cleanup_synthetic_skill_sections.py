@@ -8,6 +8,7 @@ import subprocess
 import sys
 from pathlib import Path
 
+from _safe_files import is_safe_regular_file
 from _project_paths import find_repo_root
 from fix_missing_skill_sections import (
     build_examples_section,
@@ -47,6 +48,9 @@ def remove_exact_section(content: str, section_text: str) -> str:
 
 
 def cleanup_skill_file(repo_root: Path, skill_path: Path) -> tuple[bool, list[str]]:
+    if not is_safe_regular_file(skill_path):
+        return False, []
+
     current_content = skill_path.read_text(encoding="utf-8")
     metadata, _ = parse_frontmatter(current_content, skill_path.as_posix())
     if not metadata:
@@ -100,6 +104,9 @@ def main() -> int:
             continue
 
         skill_path = Path(root) / "SKILL.md"
+        if not is_safe_regular_file(skill_path):
+            print(f"SKIP {skill_path.relative_to(repo_root)} [symlinked_or_unreadable]")
+            continue
         current_content = skill_path.read_text(encoding="utf-8")
         metadata, _ = parse_frontmatter(current_content, skill_path.as_posix())
         if not metadata or not isinstance(metadata.get("description"), str):

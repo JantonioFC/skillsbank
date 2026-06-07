@@ -16,7 +16,12 @@ const contract = {
     "data/skills_index.json",
     "data/catalog.json",
     "data/bundles.json",
+    "data/plugin-compatibility.json",
     "data/aliases.json",
+    ".agents/plugins/",
+    ".claude-plugin/plugin.json",
+    ".claude-plugin/marketplace.json",
+    "plugins/",
   ],
   mixedFiles: ["README.md"],
   releaseManagedFiles: ["CHANGELOG.md", "package.json", "package-lock.json", "README.md"],
@@ -32,10 +37,10 @@ assert.deepStrictEqual(docsOnly.categories, ["docs"]);
 assert.strictEqual(docsOnly.primaryCategory, "docs");
 assert.strictEqual(requiresReferencesValidation(["README.md"], contract), true);
 
-const infraChange = classifyChangedFiles([".github/workflows/ci.yml", "tools/scripts/pr_preflight.js"], contract);
+const infraChange = classifyChangedFiles([".github/workflows/ci.yml", "tools/scripts/pr_preflight.cjs"], contract);
 assert.deepStrictEqual(infraChange.categories, ["infra"]);
 assert.strictEqual(infraChange.primaryCategory, "infra");
-assert.strictEqual(requiresReferencesValidation(["tools/scripts/pr_preflight.js"], contract), true);
+assert.strictEqual(requiresReferencesValidation(["tools/scripts/pr_preflight.cjs"], contract), true);
 
 const mixedChange = classifyChangedFiles(["skills/example/SKILL.md", "README.md"], contract);
 assert.deepStrictEqual(mixedChange.categories, ["skill", "docs"]);
@@ -44,6 +49,20 @@ assert.strictEqual(mixedChange.primaryCategory, "skill");
 assert.deepStrictEqual(
   getDirectDerivedChanges(["skills/example/SKILL.md", "data/catalog.json"], contract),
   ["data/catalog.json"],
+);
+assert.deepStrictEqual(
+  getDirectDerivedChanges(
+    [
+      "plugins/antigravity-awesome-skills/skills/docx-official/ooxml/scripts/unpack.py",
+      ".agents/plugins/marketplace.json",
+      "skills/example/SKILL.md",
+    ],
+    contract,
+  ),
+  [
+    "plugins/antigravity-awesome-skills/skills/docx-official/ooxml/scripts/unpack.py",
+    ".agents/plugins/marketplace.json",
+  ],
 );
 
 const changelog = [

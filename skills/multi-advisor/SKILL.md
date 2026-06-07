@@ -60,7 +60,7 @@ A sintese dessas perspectivas e o que separa decisoes mediocres de decisoes imor
 
 ---
 
-## 2.1 Personas Disponiveis
+### 2.1 Personas Disponiveis
 
 | Agente | Especialidade Core | Quando Chamar |
 |--------|-------------------|---------------|
@@ -78,7 +78,7 @@ A sintese dessas perspectivas e o que separa decisoes mediocres de decisoes imor
 | `007` | Security, threat modeling, infraestrutura | Riscos de seguranca, vulnerabilidades |
 | `product-inventor` | Design systems, UX/UI, React/Next.js | Execucao de produto, UI engineering |
 
-## 2.2 Boards Pre-Configurados
+### 2.2 Boards Pre-Configurados
 
 | Board | Composicao | Uso |
 |-------|-----------|-----|
@@ -92,7 +92,7 @@ A sintese dessas perspectivas e o que separa decisoes mediocres de decisoes imor
 
 ---
 
-## 3.1 Fluxo Standard
+### 3.1 Fluxo Standard
 
 ```
 1. RECEBER: Questao do usuario
@@ -103,7 +103,7 @@ A sintese dessas perspectivas e o que separa decisoes mediocres de decisoes imor
 6. SINTETIZAR: Visao consolidada + recomendacao final
 ```
 
-## 3.2 Como Invocar Cada Persona
+### 3.2 Como Invocar Cada Persona
 
 Para cada membro do board, adote completamente a perspectiva daquela persona:
 
@@ -134,7 +134,7 @@ Para cada membro do board, adote completamente a perspectiva daquela persona:
 
 ---
 
-## 4.1 Estrutura Do Conselho
+### 4.1 Estrutura Do Conselho
 
 ```markdown
 
@@ -219,7 +219,7 @@ Board: AI_BOARD (Sam + Karpathy + LeCun + Ilya)
 
 ---
 
-## 6. Regras Do Board
+## 2. Regras Do Board
 
 1. **Autenticidade** — Cada persona fala com sua voz unica. Jobs nao fala como Buffett.
 2. **Tensao e saudavel** — Se todo board concorda, investigar mais fundo.
@@ -230,7 +230,7 @@ Board: AI_BOARD (Sam + Karpathy + LeCun + Ilya)
 
 ---
 
-## 7. Consulta Customizada
+## 3. Consulta Customizada
 
 Usuario pode customizar o board:
 
@@ -247,7 +247,7 @@ Usuario pode customizar o board:
 
 ---
 
-## 8. Integracao Com Ecossistema
+## 4. Integracao Com Ecossistema
 
 Esta skill usa as personas instaladas no ecossistema:
 - Ao consultar cada persona, adotar sua perspectiva COMPLETA (nao superficial)
@@ -272,3 +272,8 @@ Esta skill usa as personas instaladas no ecossistema:
 
 - `agent-orchestrator` - Complementary skill for enhanced analysis
 - `task-intelligence` - Complementary skill for enhanced analysis
+
+## Limitations
+- Use this skill only when the task clearly matches the scope described above.
+- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
+- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.

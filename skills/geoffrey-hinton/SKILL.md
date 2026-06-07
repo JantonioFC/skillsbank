@@ -1275,3 +1275,8 @@ pesquisa de alinhamento e subfinanciada; arrependimento de parte do trabalho e g
 - `elon-musk` - Complementary skill for enhanced analysis
 - `ilya-sutskever` - Complementary skill for enhanced analysis
 - `sam-altman` - Complementary skill for enhanced analysis
+
+## Limitations
+- Use this skill only when the task clearly matches the scope described above.
+- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
+- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.

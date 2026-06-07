@@ -12,6 +12,11 @@ license: MIT
 
 This skill enables makepad-skills to self-improve continuously during development.
 
+## When to Use
+- You are maintaining `makepad-skills` and want the skill library to improve itself during development.
+- You need the workflow for deciding when a new pattern should become a skill update or hook-driven evolution.
+- You are working on self-correction, self-validation, or version adaptation for the skill set.
+
 ## Quick Navigation
 
 | Topic | Description |
@@ -32,7 +37,11 @@ For reliable automatic triggering, use Claude Code hooks. Install with `--with-h
 
 ```bash
 # Install makepad-skills with hooks enabled
-curl -fsSL https://raw.githubusercontent.com/ZhangHanDong/makepad-skills/main/install.sh | bash -s -- --with-hooks
+tmpdir="$(mktemp -d)"
+trap 'rm -rf "$tmpdir"' EXIT
+curl -fsSLo "$tmpdir/makepad-skills-install.sh" https://raw.githubusercontent.com/ZhangHanDong/makepad-skills/main/install.sh
+sed -n '1,160p' "$tmpdir/makepad-skills-install.sh"
+bash "$tmpdir/makepad-skills-install.sh" --with-hooks
 ```
 
 This will install hooks to `.claude/hooks/` and configure `.claude/settings.json`:

@@ -94,6 +94,7 @@
     "code-refactoring-restore": "code-refactoring-context-restore",
     "code-refactoring-clean": "code-refactoring-refactor-clean",
     "codebase-cleanup-clean": "codebase-cleanup-refactor-clean",
+    "codebase-to-converter": "codebase-to-wordpress-converter",
     "comprehensive-review-full": "comprehensive-review-full-review",
     "comprehensive-review-enhance": "comprehensive-review-pr-enhance",
     "context-management-restore": "context-management-context-restore",
@@ -157,6 +158,7 @@
     "framework-migration-migrate": "framework-migration-code-migrate",
     "framework-migration-upgrade": "framework-migration-deps-upgrade",
     "framework-migration-modernize": "framework-migration-legacy-modernize",
+    "frontend-api-patterns": "frontend-api-integration-patterns",
     "frontend-mobile-scaffold": "frontend-mobile-development-component-scaffold",
     "frontend-mobile-scan": "frontend-mobile-security-xss-scan",
     "full-stack-feature": "full-stack-orchestration-full-stack-feature",
@@ -186,7 +188,10 @@
     "marketing-skill/social-manager": "marketing-skill/social-media-manager",
     "marketing-skill/x-growth": "marketing-skill/x-twitter-growth",
     "microsoft-azure-dotnet": "microsoft-azure-webjobs-extensions-authentication-events-dotnet",
+    "monte-carlo-creation": "monte-carlo-monitor-creation",
+    "monte-carlo-notebook": "monte-carlo-validation-notebook",
     "moodle-external-development": "moodle-external-api-development",
+    "multi-agent-orchestrator": "multi-agent-task-orchestrator",
     "multi-platform-apps": "multi-platform-apps-multi-platform",
     "notion-spec-implementation": "notion-spec-to-implementation",
     "observability-monitoring-setup": "observability-monitoring-monitor-setup",
@@ -237,6 +242,10 @@
     "supabase-postgres-practices": "supabase-postgres-best-practices",
     "systems-programming-project": "systems-programming-rust-project",
     "team-collaboration-notes": "team-collaboration-standup-notes",
+    "vercel-react-transitions": "vercel-react-view-transitions",
+    "vibecode-production-validator": "vibecode-production-qa-validator",
+    "wechat-official-strategist": "wechat-official-account-strategist",
+    "wordpress-centric-skill": "wordpress-centric-high-seo-optimized-blogwriting-skill",
     "shopify—development": "shopify-development"
   }
 }

@@ -6,6 +6,8 @@ import unittest
 from pathlib import Path
 from unittest import mock
 
+from symlink_test_utils import symlink_or_skip
+
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 TOOLS_SCRIPTS_DIR = REPO_ROOT / "tools" / "scripts"
@@ -156,6 +158,32 @@ description: {description}
             self.assertFalse(changed)
             self.assertEqual(changes, [])
             self.assertEqual(updated, current_content)
+
+    def test_cleanup_skill_file_skips_symlinked_skill_markdown(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            repo_root = Path(temp_dir)
+            skill_dir = repo_root / "skills" / "demo"
+            outside_dir = repo_root / "outside"
+            skill_dir.mkdir(parents=True)
+            outside_dir.mkdir()
+
+            target = outside_dir / "SKILL.md"
+            original = """---
+name: demo
+description: Build and distribute Expo development clients locally or via TestFlight.
+---
+
+# Demo
+"""
+            target.write_text(original, encoding="utf-8")
+            skill_path = skill_dir / "SKILL.md"
+            symlink_or_skip(self, target, skill_path)
+
+            changed, changes = cleanup_synthetic_skill_sections.cleanup_skill_file(repo_root, skill_path)
+
+            self.assertFalse(changed)
+            self.assertEqual(changes, [])
+            self.assertEqual(target.read_text(encoding="utf-8"), original)
 
 
 if __name__ == "__main__":

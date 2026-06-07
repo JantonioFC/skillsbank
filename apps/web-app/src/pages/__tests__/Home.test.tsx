@@ -5,15 +5,6 @@ import { renderWithRouter } from '../../utils/testUtils';
 import { createMockSkill } from '../../factories/skill';
 import { useSkills } from '../../context/SkillContext';
 
-// Mock lodash.debounce to execute immediately
-vi.mock('lodash.debounce', () => ({
-  default: vi.fn((fn) => {
-    const mockedFn: any = (...args: any[]) => fn(...args);
-    mockedFn.cancel = vi.fn();
-    return mockedFn;
-  }),
-}));
-
 // Mock useSkills hook
 vi.mock('../../context/SkillContext', async (importOriginal) => {
   const actual = await importOriginal<any>();
@@ -98,7 +89,8 @@ describe('Home', () => {
       });
 
       expect(screen.getByRole('button', { name: /Copy install command/i })).toBeInTheDocument();
-      expect(screen.getByText(/npx antigravity-awesome-skills/i)).toBeInTheDocument();
+      expect(screen.getAllByText(/npx antigravity-awesome-skills/i).length).toBeGreaterThan(0);
+      expect(screen.getByText(/What is the difference between skills and MCP tools/i)).toBeInTheDocument();
       expect(document.querySelector('meta[property="og:title"]')).toHaveAttribute(
         'content',
         expect.stringContaining('Antigravity Awesome Skills'),
@@ -186,31 +178,23 @@ describe('Home', () => {
   });
 
   describe('User Settings and Sync', () => {
-    it('should sync local stars when sync button is clicked', async () => {
+    it('hides sync actions on the public catalog and explains why', async () => {
       const mockSkills = [createMockSkill({ id: 'skill-1' })];
-      const refreshSkills = vi.fn().mockResolvedValue(undefined);
 
       (useSkills as Mock).mockReturnValue({
         skills: mockSkills,
         stars: { 'skill-1': 5 },
         loading: false,
         error: null,
-        refreshSkills,
+        refreshSkills: vi.fn().mockResolvedValue(undefined),
       });
 
       renderWithRouter(<Home />, { useProvider: false });
 
-      const syncButton = screen.getByRole('button', { name: /Sync/i });
-
-      global.fetch = vi.fn().mockResolvedValue({
-        ok: true,
-        json: async () => ({ success: true, count: 1 })
-      });
-
-      fireEvent.click(syncButton);
-
       await waitFor(() => {
-        expect(refreshSkills).toHaveBeenCalled();
+        expect(screen.queryByRole('button', { name: /Sync Skills/i })).not.toBeInTheDocument();
+        expect(screen.getByText(/Public catalog mode/i)).toBeInTheDocument();
+        expect(screen.getByText(/maintainer-only workflow/i)).toBeInTheDocument();
       });
     });
   });

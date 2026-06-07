@@ -41,6 +41,9 @@ git push backup my-branch
 
 Open the PR with the default template and enable **Allow edits from maintainers** so conflicts can be resolved without extra back-and-forth.
 If your PR adds or edits `SKILL.md`, GitHub will also run the automated `skill-review` workflow on the pull request.
+Community PRs should stay **source-only**: do not include generated registry artifacts such as `CATALOG.md`, `skills_index.json`, or `data/*.json`.
+
+Automated validation is necessary, but it does **not** replace manual logic review. If your PR adds or changes a skill, or introduces command, network, credential, mutation, install, or security guidance, review the logic and failure modes manually even when every automated check passes.
 
 If you only want to improve docs, editing directly in GitHub is still perfectly fine.
 
@@ -218,8 +221,10 @@ More examples...
 
 1. **Copy it to your AI tool's skills directory:**
    ```bash
-   cp -r skills/my-awesome-skill ~/.agent/skills/
+   cp -r skills/my-awesome-skill ~/.agents/skills/
    ```
+
+   Or copy it into the specific tool path you are testing against, such as `~/.claude/skills/`, `~/.cursor/skills/`, or a custom workspace path like `.agent/skills/`.
 
 2. **Try using it:**
    ```
@@ -241,6 +246,15 @@ npm run validate
 
 GitHub will also run the automated `skill-review` check for PRs that touch `SKILL.md`.
 
+Passing `npm run validate` or `skill-review` is not enough on its own for skill changes. Before you open the PR, manually review the skill for:
+
+- trigger clarity and whether the skill would fire in the right situations,
+- correctness of the instructions and examples,
+- obvious failure modes, unsafe assumptions, and user-facing edge cases,
+- whether the declared `risk:` level still matches the actual behavior.
+
+Submitting `risk: unknown` is still acceptable for genuinely legacy or not-yet-classified content. Maintainers may later use `npm run audit:skills` and `npm run sync:risk-labels` to reconcile high-confidence legacy labels without asking contributors to regenerate catalog artifacts in their PRs.
+
 For **docs / workflows / infra changes**:
 
 ```bash
@@ -249,6 +263,8 @@ npm run validate
 npm run validate:references
 npm test
 ```
+
+For **any normal community PR**, keep the branch source-only and leave generated registry artifacts out of the diff. `main` canonicalizes those after merge.
 
 Optional maintainer-style preflight:
 
@@ -453,6 +469,7 @@ Before submitting your contribution:
 - [ ] I've included examples
 - [ ] I've tested the skill with an AI assistant
 - [ ] I've run `npm run validate`
+- [ ] If I changed `SKILL.md` or risky guidance, I manually reviewed the logic, safety, and likely failure modes instead of relying on automated checks alone
 - [ ] I've run `npm run validate:references` and `npm test` when my change affects docs, workflows, or infrastructure
 - [ ] I ran the docs security scan (`npm run security:docs`) for any skill containing commands, network access, credentials, or destructive guidance
 - [ ] I did **not** include generated registry artifacts (`CATALOG.md`, `skills_index.json`, `data/*.json`) in this PR

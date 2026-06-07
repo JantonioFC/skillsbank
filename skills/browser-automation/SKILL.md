@@ -228,7 +228,7 @@ async def authenticated_workflow(credentials, form_data, download_dir):
 
 All scripts are stdlib-only. Run `python3 <script> --help` for full usage.
 
-## Anti-Patterns
+**When to use**: Always with Playwright
 
 ### Hardcoded Waits
 **Bad:** `await page.wait_for_timeout(5000)` before every action.

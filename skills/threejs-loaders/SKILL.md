@@ -8,6 +8,11 @@ license: MIT
 ---
 # Three.js Loaders
 
+## When to Use
+- You need to load models, textures, HDR assets, or other external resources in Three.js.
+- The task involves `GLTFLoader`, `TextureLoader`, loading progress, or async asset orchestration.
+- You are managing scene assets rather than authoring geometry or shaders directly.
+
 ## Quick Start
 
 ```javascript
@@ -256,7 +261,7 @@ import { KTX2Loader } from "three/addons/loaders/KTX2Loader.js";
 
 const ktx2Loader = new KTX2Loader();
 ktx2Loader.setTranscoderPath(
-  "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/libs/basis/",
+  "https://cdn.jsdelivr.net/npm/three@0.183.0/examples/jsm/libs/basis/",
 );
 ktx2Loader.detectSupport(renderer);
 
@@ -267,6 +272,22 @@ gltfLoader.load("model-with-ktx2.glb", (gltf) => {
   scene.add(gltf.scene);
 });
 ```
+
+### GLTF with Meshopt Compression (r183)
+
+```javascript
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+import { MeshoptDecoder } from "three/addons/libs/meshopt_decoder.module.js";
+
+const gltfLoader = new GLTFLoader();
+gltfLoader.setMeshoptDecoder(MeshoptDecoder);
+
+gltfLoader.load("compressed-model.glb", (gltf) => {
+  scene.add(gltf.scene);
+});
+```
+
+**KHR_meshopt_compression** is an alternative to Draco that often provides better compression for animated meshes and preserves mesh topology.
 
 ### Process GLTF Content
 
@@ -618,6 +639,10 @@ loadModel("model.glb").then((gltf) => {
   scene.add(gltf.scene);
 });
 ```
+
+## VRMLLoader Camera Support (r183)
+
+As of r183, `VRMLLoader` supports loading cameras defined in VRML files.
 
 ## See Also
 

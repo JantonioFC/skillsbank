@@ -28,6 +28,7 @@ Examples:
 import os
 import sys
 import json
+import stat
 import signal
 import asyncio
 import logging
@@ -45,6 +46,8 @@ from videodb.exceptions import AuthenticationError
 MAX_RETRIES = 10
 INITIAL_BACKOFF = 1  # seconds
 MAX_BACKOFF = 60     # seconds
+FILE_MODE = 0o600
+DIR_MODE = 0o700
 
 logging.basicConfig(
     level=logging.INFO,
@@ -108,6 +111,52 @@ _first_connection = True
 def log(msg: str):
     """Log with timestamp."""
     LOGGER.info("%s", msg)
+
+
+def ensure_output_dir():
+    """Create the output directory if needed and reject symlinked paths."""
+    if OUTPUT_DIR.exists():
+        if OUTPUT_DIR.is_symlink():
+            raise OSError(f"Refusing to use symlinked output directory: {OUTPUT_DIR}")
+        if not OUTPUT_DIR.is_dir():
+            raise OSError(f"Output path is not a directory: {OUTPUT_DIR}")
+        return
+
+    OUTPUT_DIR.mkdir(parents=True, mode=DIR_MODE, exist_ok=True)
+
+
+def secure_open(path: Path, *, append: bool):
+    """Open a regular file without following symlinks."""
+    ensure_output_dir()
+    flags = os.O_WRONLY | os.O_CREAT
+    flags |= os.O_APPEND if append else os.O_TRUNC
+    flags |= getattr(os, "O_NOFOLLOW", 0)
+
+    fd = os.open(path, flags, FILE_MODE)
+    try:
+        file_stat = os.fstat(fd)
+        if not stat.S_ISREG(file_stat.st_mode):
+            raise OSError(f"Refusing to write non-regular file: {path}")
+        if file_stat.st_nlink != 1:
+            raise OSError(f"Refusing to write multiply linked file: {path}")
+        return fd
+    except Exception:
+        os.close(fd)
+        raise
+
+
+def secure_write_text(path: Path, content: str):
+    """Write text to a regular file with private permissions."""
+    fd = secure_open(path, append=False)
+    with os.fdopen(fd, "w", encoding="utf-8") as handle:
+        handle.write(content)
+
+
+def secure_append_text(path: Path, content: str):
+    """Append text to a regular file with private permissions."""
+    fd = secure_open(path, append=True)
+    with os.fdopen(fd, "a", encoding="utf-8") as handle:
+        handle.write(content)
 
 
 def append_event(event: dict):

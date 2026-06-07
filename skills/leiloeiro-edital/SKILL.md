@@ -143,7 +143,7 @@ Avaliador responsável:             _______________
 
 ---
 
-## 5.1 Responsabilidade Por Débitos — O Que Diz O Edital?
+### 5.1 Responsabilidade Por Débitos — O Que Diz O Edital?
 
 **Verificar especificamente:**
 - [ ] IPTU — valor dos débitos e quem responde
@@ -168,7 +168,7 @@ Antes de arrematar, obter:
 2. Extrato de débitos de condomínio (síndico/administradora)
 3. Declaração de débitos de água/gás
 
-## 5.2 Ônus Reais Registrados Na Matrícula
+### 5.2 Ônus Reais Registrados Na Matrícula
 
 **Verificar no edital e na matrícula:**
 - [ ] Hipoteca (qual banco, qual valor, qual data)
@@ -430,7 +430,7 @@ Skill baseada em conhecimento (knowledge-only). Não requer instalação de depe
 
 ```bash
 
-## Verificar Se A Skill Está Registrada:
+### Verificar Se A Skill Está Registrada:
 
 python C:\Users\renat\skills\agent-orchestrator\scripts\scan_registry.py
 ```
@@ -443,7 +443,7 @@ Como usar esta skill:
 
 ```bash
 
-## Uso Via Orchestrator (Automático):
+### Uso Via Orchestrator (Automático):
 
 python agent-orchestrator/scripts/match_skills.py "analisar edital leilao"
 
@@ -505,3 +505,8 @@ Políticas adicionais:
 - `leiloeiro-ia` - Complementary skill for enhanced analysis
 - `leiloeiro-juridico` - Complementary skill for enhanced analysis
 - `leiloeiro-mercado` - Complementary skill for enhanced analysis
+
+## Limitations
+- Use this skill only when the task clearly matches the scope described above.
+- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
+- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.

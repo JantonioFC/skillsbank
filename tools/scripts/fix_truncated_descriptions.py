@@ -7,6 +7,7 @@ import re
 import sys
 from pathlib import Path
 
+from _safe_files import is_safe_regular_file
 from _project_paths import find_repo_root
 from validate_skills import configure_utf8_output, parse_frontmatter
 
@@ -167,6 +168,9 @@ def replace_description(frontmatter_text: str, new_description: str) -> str:
 
 
 def update_skill_file(skill_path: Path) -> tuple[bool, str | None]:
+    if not is_safe_regular_file(skill_path):
+        return False, None
+
     content = skill_path.read_text(encoding="utf-8")
     match = FRONTMATTER_PATTERN.search(content)
     if not match:
@@ -215,6 +219,9 @@ def main() -> int:
             continue
 
         skill_path = Path(root) / "SKILL.md"
+        if not is_safe_regular_file(skill_path):
+            print(f"SKIP {skill_path.relative_to(repo_root)} [symlinked_or_unreadable]")
+            continue
         content = skill_path.read_text(encoding="utf-8")
         metadata, _ = parse_frontmatter(content, skill_path.as_posix())
         description = metadata.get("description") if metadata else None

@@ -13,6 +13,11 @@ Master guide for embedding interactive 3D scenes from [Spline.design](https://sp
 
 ---
 
+## When to Use
+- You need to embed an interactive Spline scene into a web project.
+- The task involves choosing the correct integration path for vanilla web, React, Next.js, Vue, or iframe contexts.
+- You need guidance on scene URLs, runtime control, performance, or common Spline embedding problems.
+
 ## Quick Reference
 
 | Task                              | Guide                                                          |

@@ -1,63 +1,17 @@
 import { useState, useEffect, useMemo, lazy, Suspense } from 'react';
 import { translateCategory } from './Home';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Copy, Check, FileCode, AlertTriangle, Loader2 } from 'lucide-react';
 import { SkillStarButton } from '../components/SkillStarButton';
+import { Icon } from '../components/ui/Icon';
 import { useSkills } from '../context/SkillContext';
 import { usePageMeta } from '../hooks/usePageMeta';
 import { buildSkillFallbackMeta, buildSkillMeta, selectTopSkills } from '../utils/seo';
+import { getSkillMarkdownCandidateUrls } from '../utils/publicAssetUrls';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 
 // Lazy load heavy markdown component
 const Markdown = lazy(() => import('react-markdown'));
-
-interface SkillMarkdownUrlInput {
-  baseUrl: string;
-  origin: string;
-  pathname: string;
-  documentBaseUrl?: string;
-  skillPath: string;
-}
-
-function normalizeBasePath(baseUrl: string): string {
-  const normalizedSegments = baseUrl
-    .trim()
-    .split('/')
-    .filter((segment) => segment.length > 0 && segment !== '.');
-
-  const normalizedPath = normalizedSegments.length > 0
-    ? `/${normalizedSegments.join('/')}`
-    : '/';
-
-  return normalizedPath.endsWith('/') ? normalizedPath : `${normalizedPath}/`;
-}
-
-export function getSkillMarkdownCandidateUrls({
-  baseUrl,
-  origin,
-  pathname,
-  documentBaseUrl,
-  skillPath,
-}: SkillMarkdownUrlInput): string[] {
-  const normalizedSkillPath = skillPath
-    .replace(/^\/+/, '')
-    .replace(/\/SKILL\.md$/i, '');
-  const assetPath = `${normalizedSkillPath}/SKILL.md`;
-  const normalizedPathname = pathname.startsWith('/') ? pathname : `/${pathname}`;
-  const pathSegments = normalizedPathname.split('/').filter(Boolean);
-  const pathCandidates = pathSegments.map((_, index) => {
-    const prefix = `/${pathSegments.slice(0, index + 1).join('/')}/`;
-    return `${origin}${prefix}${assetPath}`;
-  });
-
-  return Array.from(new Set([
-    new URL(assetPath, documentBaseUrl || new URL(normalizeBasePath(baseUrl), origin)).href,
-    new URL(assetPath, new URL(normalizeBasePath(baseUrl), origin)).href,
-    `${origin}/${assetPath}`,
-    ...pathCandidates,
-  ]));
-}
 
 function looksLikeHtmlDocument(text: string): boolean {
   const trimmed = text.trim().toLowerCase();
@@ -144,7 +98,7 @@ export function SkillDetail(): React.ReactElement {
     }, [id, skill, isPriority, canonicalPath])
   );
 
-  const starCount = useMemo(() => (id ? stars[id] || 0 : 0), [stars, id]);
+  const communityCount = useMemo(() => (id ? stars[id] || 0 : 0), [stars, id]);
   const { frontmatter, body: markdownBody } = useMemo(() => splitFrontmatter(content), [content]);
   const frontmatterRows = useMemo(() => parseFrontmatterRows(frontmatter), [frontmatter]);
 
@@ -246,8 +200,10 @@ export function SkillDetail(): React.ReactElement {
 
   if (contextLoading || (contentLoading && !error)) {
     return (
-      <div className="flex items-center justify-center min-h-[50vh]" data-testid="loader">
-        <Loader2 className="animate-spin h-8 w-8 text-indigo-600" />
+      <div className="flex min-h-[55vh] items-center justify-center" data-testid="loader">
+        <div className="rounded-full border border-slate-200 bg-white/90 p-4 shadow-sm backdrop-blur dark:border-slate-800 dark:bg-slate-950/80">
+          <Icon name="loader" size={32} className="h-8 w-8 animate-spin text-teal-600" />
+        </div>
       </div>
     );
   }
@@ -261,7 +217,7 @@ export function SkillDetail(): React.ReactElement {
         <p className="text-slate-500 mt-2">{error || 'No se pudo cargar la skill.'}</p>
         <button
           onClick={() => setRetryToken((value) => value + 1)}
-          className="mt-6 inline-flex items-center justify-center rounded-lg bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-indigo-700"
+          className="mt-6 inline-flex items-center justify-center rounded-full bg-teal-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-teal-700"
         >
           Reintentar
         </button>
@@ -280,45 +236,45 @@ export function SkillDetail(): React.ReactElement {
           Volver al catálogo
         </Link>
 
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+        <div className="relative flex flex-col justify-between gap-5 rounded-2xl border border-slate-200/80 bg-white/95 p-6 shadow-sm backdrop-blur dark:border-slate-800 dark:bg-slate-900/80 md:flex-row md:items-center">
           <div className="flex-1">
             <div className="flex items-center space-x-3 mb-2 flex-wrap gap-2">
               <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-100 text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-400 uppercase tracking-wide">
                 {translateCategory(skill.category)}
               </span>
               {skill.source && (
-                <span className="px-2.5 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
+                <span className="rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-300">
                   {skill.source}
                 </span>
               )}
               {skill.date_added && (
-                <span className="px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-700 dark:bg-green-900/50 dark:text-green-400">
-                  📅 Added {skill.date_added}
+                <span className="rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-700 dark:bg-green-900/50 dark:text-green-300">
+                  Added {skill.date_added}
                 </span>
               )}
             </div>
             <div className="flex items-center gap-3">
-              <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">
+              <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl">
                 @{skill.name}
               </h1>
-              <SkillStarButton skillId={skill.id} initialCount={starCount} variant="compact" />
+              <SkillStarButton skillId={skill.id} communityCount={communityCount} variant="compact" />
             </div>
-            <p className="mt-2 text-lg text-slate-600 dark:text-slate-400">
+            <p className="mt-3 max-w-3xl text-base leading-relaxed text-slate-600 dark:text-slate-300 sm:text-lg">
               {skill.description}
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-2">
+          <div className="flex flex-col gap-2 sm:flex-row">
             <button
               onClick={copyToClipboard}
-              className="flex items-center justify-center space-x-2 bg-slate-100 hover:bg-slate-200 text-slate-900 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700 px-4 py-2.5 rounded-lg font-medium transition-colors min-w-[140px] border border-slate-200 dark:border-slate-700"
+              className="flex min-w-[148px] items-center justify-center space-x-2 rounded-full border border-slate-300 bg-white px-4 py-2.5 font-medium text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:border-slate-500 dark:hover:bg-slate-800"
             >
               {copied ? <Check className="h-4 w-4 text-green-600 dark:text-green-400" /> : <Copy className="h-4 w-4" />}
               <span>{copied ? '¡Copiado!' : 'Copiar @Skill'}</span>
             </button>
             <button
               onClick={copyFullToClipboard}
-              className="flex items-center justify-center space-x-2 bg-slate-900 hover:bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-900 dark:hover:bg-slate-200 px-4 py-2.5 rounded-lg font-medium transition-colors min-w-[140px]"
+              className="flex min-w-[148px] items-center justify-center space-x-2 rounded-full bg-slate-900 px-4 py-2.5 font-medium text-white transition-colors hover:bg-slate-800 dark:bg-slate-50 dark:text-slate-900 dark:hover:bg-slate-200"
             >
               {copiedFull ? <Check className="h-4 w-4 text-green-400" /> : <FileCode className="h-4 w-4" />}
               <span>{copiedFull ? '¡Contenido copiado!' : 'Copiar contenido completo'}</span>
@@ -334,13 +290,13 @@ export function SkillDetail(): React.ReactElement {
             <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
               Instalá el paquete, abrí tu workspace y ejecutá el prompt de esta skill directamente.
             </p>
-            <div className="mt-3 flex flex-wrap items-center gap-2">
-              <code className="inline-block rounded-md bg-slate-900 text-slate-50 px-3 py-2 text-sm font-mono border border-slate-800">
+            <div className="mt-3 flex flex-wrap items-center gap-3">
+              <code className="inline-block rounded-md border border-slate-800 bg-slate-900 px-3 py-2 font-mono text-sm text-slate-50">
                 {installCommand}
               </code>
               <button
                 onClick={copyInstallCommand}
-                className="inline-flex items-center text-sm font-medium text-indigo-700 hover:text-indigo-600 dark:text-indigo-300 dark:hover:text-indigo-200"
+                className="inline-flex items-center text-sm font-medium text-teal-700 transition-colors hover:text-teal-600 dark:text-teal-300 dark:hover:text-teal-200"
               >
                 {commandCopied ? 'Copiado' : 'Copiar comando'}
               </button>
@@ -364,21 +320,21 @@ export function SkillDetail(): React.ReactElement {
         </div>
       </div>
 
-      <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden">
+      <div className="overflow-hidden rounded-3xl border border-slate-200/80 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
         <div className="p-6 sm:p-8">
           {frontmatterRows.length > 0 && (
             <div className="mb-6">
               <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-2">
                 Metadatos de la skill
               </p>
-              <div className="overflow-x-auto rounded-lg border border-slate-200 dark:border-slate-700">
-                <table className="min-w-full text-sm text-left border-collapse">
+              <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-700">
+                <table className="min-w-full border-collapse text-left text-sm">
                   <thead>
-                    <tr className="bg-slate-50 dark:bg-slate-950">
+                    <tr className="bg-slate-50 dark:bg-slate-950/80">
                       {frontmatterRows.map(({ key }) => (
                         <th
                           key={key}
-                          className="px-4 py-2 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-100"
+                          className="border-b border-slate-200 px-4 py-2 font-semibold text-slate-800 dark:border-slate-700 dark:text-slate-100"
                         >
                           {key}
                         </th>
@@ -390,7 +346,7 @@ export function SkillDetail(): React.ReactElement {
                       {frontmatterRows.map(({ key, value }) => (
                         <td
                           key={key}
-                          className="px-4 py-2 border-t border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 align-top"
+                          className="align-top border-t border-slate-200 px-4 py-2 text-slate-700 dark:border-slate-700 dark:text-slate-200"
                         >
                           {value}
                         </td>
@@ -403,7 +359,7 @@ export function SkillDetail(): React.ReactElement {
           )}
 
           <div className="markdown-body" style={{ backgroundColor: 'transparent' }}>
-            <Suspense fallback={<div className="h-24 animate-pulse bg-slate-100 dark:bg-slate-800 rounded-lg"></div>}>
+            <Suspense fallback={<div className="h-24 animate-pulse rounded-lg bg-slate-100 dark:bg-slate-800"></div>}>
               <Markdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeHighlight]}

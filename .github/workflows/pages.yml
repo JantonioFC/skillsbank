@@ -6,6 +6,9 @@ on:
         description: "This workflow is disabled in the backup repo"
         required: false
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   disabled:
     runs-on: ubuntu-latest

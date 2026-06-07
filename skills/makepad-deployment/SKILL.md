@@ -20,6 +20,11 @@ license: MIT
 
 This skill covers packaging Makepad applications for all supported platforms.
 
+## When to Use
+- You need to package, distribute, or automate deployment of a Makepad application.
+- The task involves desktop installers, APK/IPA builds, WebAssembly output, or CI-based release artifacts.
+- You need guidance on `cargo-packager`, `cargo-makepad`, or GitHub Actions packaging flows for Makepad.
+
 ## Quick Navigation
 
 | Platform | Tool | Output |

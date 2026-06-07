@@ -1,19 +1,28 @@
 import { Suspense, lazy } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { BookOpen, Github } from 'lucide-react';
+import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import { Icon } from './components/ui/Icon';
 
 const Home = lazy(() => import('./pages/Home'));
 const SkillDetail = lazy(() => import('./pages/SkillDetail'));
+const Plugins = lazy(() => import('./pages/Plugins'));
 
 function App(): React.ReactElement {
+  const logoSrc = `${import.meta.env.BASE_URL}Antigravity-Skills-logo.png`;
+
   return (
     <Router basename={import.meta.env.BASE_URL.replace(/\/$/, '') || '/'}>
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-50">
-        <header className="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-950/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
-          <div className="container flex h-14 max-w-screen-2xl items-center mx-auto px-4">
-            <Link to="/" className="mr-8 flex items-center space-x-2">
-              <BookOpen className="h-6 w-6 text-indigo-600 dark:text-indigo-400" />
-              <span className="hidden font-bold sm:inline-block">Antigravity Skills</span>
+      <div className="app-shell min-h-screen bg-[var(--surface-canvas)] text-[var(--text-primary)]">
+        <header className="sticky top-0 z-50 border-b border-[var(--stroke-subtle)] bg-[var(--surface-card)]">
+          <div className="mx-auto flex h-16 w-full max-w-screen-2xl items-center justify-between px-4 lg:px-6">
+            <Link to="/" className="group inline-flex items-center gap-3 rounded-[var(--radius-sm)] px-1 py-1">
+              <img
+                src={logoSrc}
+                alt="Antigravity Skills logo"
+                className="h-9 w-auto object-contain transition-transform duration-[var(--motion-fast)] ease-[var(--motion-ease)] group-hover:scale-[1.015]"
+              />
+              <span className="hidden text-sm font-semibold tracking-[0.01em] text-[var(--text-primary)] sm:inline-block">
+                Antigravity Skills
+              </span>
             </Link>
             <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
               <nav className="flex items-center space-x-6 text-sm font-medium">

@@ -9,7 +9,9 @@ __pycache__/
 antigravity-awesome-skills-*.tgz
 
 .agent/rules/
-.claude-plugin/
+/.claude-plugin/*
+!/.claude-plugin/plugin.json
+!/.claude-plugin/marketplace.json
 .codex/
 .gemini/
 .release-clone-*/
@@ -41,7 +43,6 @@ validation-baseline.json
 apps/web-app/public/skills/
 apps/web-app/public/skills.json
 
-# Local duplicate/download artifacts
 skills/spline-3d-integration/*.zip
 
 # Local IDE and external directories

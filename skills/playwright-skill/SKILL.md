@@ -14,9 +14,9 @@ This skill can be installed in different locations (plugin system, manual instal
 
 Common installation paths:
 
-- Plugin system: `~/.claude/plugins/marketplaces/playwright-skill/skills/playwright-skill`
-- Manual global: `~/.claude/skills/playwright-skill`
-- Project-specific: `<project>/.claude/skills/playwright-skill`
+- Plugin system: `<plugin-root>/skills/playwright-skill`
+- Manual global: `<agent-home>/skills/playwright-skill`
+- Project-specific: `<project>/.agent/skills/playwright-skill`
 
 # Playwright Browser Automation
 
@@ -460,3 +460,8 @@ User: "Use 3001"
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## Limitations
+- Use this skill only when the task clearly matches the scope described above.
+- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
+- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.

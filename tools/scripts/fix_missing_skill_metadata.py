@@ -7,6 +7,7 @@ import re
 import sys
 from pathlib import Path
 
+from _safe_files import is_safe_regular_file
 from _project_paths import find_repo_root
 from validate_skills import configure_utf8_output, parse_frontmatter
 
@@ -141,6 +142,9 @@ def insert_metadata_keys(frontmatter_text: str, additions: dict[str, str]) -> st
 
 
 def update_skill_file(skill_path: Path) -> tuple[bool, list[str]]:
+    if not is_safe_regular_file(skill_path):
+        return False, []
+
     content = skill_path.read_text(encoding="utf-8")
     repaired_content = repair_malformed_injected_metadata(content)
     if repaired_content != content:
@@ -197,6 +201,9 @@ def main() -> int:
             continue
 
         skill_path = Path(root) / "SKILL.md"
+        if not is_safe_regular_file(skill_path):
+            print(f"SKIP {skill_path.relative_to(repo_root)} [symlinked_or_unreadable]")
+            continue
         content = skill_path.read_text(encoding="utf-8")
         repaired_content = repair_malformed_injected_metadata(content)
         if repaired_content != content:

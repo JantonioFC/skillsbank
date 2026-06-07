@@ -9,6 +9,11 @@ license: MIT
 ---
 # Three.js Geometry
 
+## When to Use
+- You need to create or optimize geometry in Three.js.
+- The task involves built-in shapes, custom `BufferGeometry`, vertices, or instanced rendering.
+- You are working on mesh structure rather than scene setup or materials alone.
+
 ## Quick Start
 
 ```javascript
@@ -543,6 +548,36 @@ new THREE.SphereGeometry(1, 16, 16); // Performance mode
 
 // Dispose when done
 geometry.dispose();
+```
+
+## BatchedMesh (r183)
+
+`BatchedMesh` is a higher-level alternative to `InstancedMesh` that supports multiple geometries in a single draw call. As of r183, it supports **per-instance opacity** and **per-instance wireframe**.
+
+```javascript
+const batchedMesh = new THREE.BatchedMesh(maxGeometryCount, maxVertexCount, maxIndexCount);
+batchedMesh.sortObjects = true; // Enable depth sorting for transparency
+
+// Add different geometries
+const boxId = batchedMesh.addGeometry(new THREE.BoxGeometry(1, 1, 1));
+const sphereId = batchedMesh.addGeometry(new THREE.SphereGeometry(0.5, 16, 16));
+
+// Add instances of those geometries
+const instance1 = batchedMesh.addInstance(boxId);
+const instance2 = batchedMesh.addInstance(sphereId);
+
+// Set transforms
+const matrix = new THREE.Matrix4();
+matrix.setPosition(2, 0, 0);
+batchedMesh.setMatrixAt(instance1, matrix);
+
+// Per-instance opacity (r183)
+batchedMesh.setOpacityAt(instance1, 0.5);
+
+// Per-instance visibility
+batchedMesh.setVisibleAt(instance2, false);
+
+scene.add(batchedMesh);
 ```
 
 ## See Also
