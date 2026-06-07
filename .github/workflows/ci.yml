@@ -25,8 +25,10 @@ jobs:
 
       - name: Summary
         run: |
-          echo "## Backup Registry Health" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- Skills: $(find skills/ -name 'SKILL.md' | wc -l)" >> $GITHUB_STEP_SUMMARY
-          echo "- Commit: \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "- Status: ✅ Backup synced successfully" >> $GITHUB_STEP_SUMMARY
+          {
+            echo "## Backup Registry Health"
+            echo ""
+            echo "- Skills: $(find skills/ -name 'SKILL.md' | wc -l)"
+            echo "- Commit: \`${{ github.sha }}\`"
+            echo "- Status: ✅ Backup synced successfully"
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -9,6 +9,6 @@ on:
 jobs:
   disabled:
     runs-on: ubuntu-latest
-    if: false  # Never runs
+    if: ${{ false }}  # Disabled
     steps:
       - run: echo "disabled"
