@@ -9,6 +9,6 @@ on:
 jobs:
   disabled:
     runs-on: ubuntu-latest
-    if: ${{ false }}  # Disabled
+    if: github.repository == ''  # Disabled
     steps:
       - run: echo "disabled"
