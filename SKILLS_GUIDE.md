@@ -1,8 +1,8 @@
 # Skills Guide
 
-> **2480 skills** documentadas · Actualizado: 2026-06-28
+> **2728 skills** documentadas · Actualizado: 2026-06-28
 
-> Extraído automáticamente de los frontmatter y secciones `## When to Use` de cada `SKILL.md`.
+> Fuentes por entrada: `SKILL.md` propio · `catalog.json` (repos externos) · stub (sin datos disponibles).
 
 ## Índice de categorías
 
@@ -13,12 +13,12 @@
 - [Ai-Testing (1)](#ai-testing)
 - [Andruia (3)](#andruia)
 - [Api-Integration (3)](#api-integration)
-- [Architecture (2)](#architecture)
+- [Architecture (6)](#architecture)
 - [Automation (1)](#automation)
 - [Backend (1)](#backend)
 - [Blockchain (1)](#blockchain)
 - [Browser-Automation (1)](#browser-automation)
-- [Business (2)](#business)
+- [Business (10)](#business)
 - [Business-Strategy (2)](#business-strategy)
 - [Code (1)](#code)
 - [Code-Quality (1)](#code-quality)
@@ -30,26 +30,28 @@
 - [Core-Dev (1)](#core-dev)
 - [Creative (1)](#creative)
 - [Data (7)](#data)
-- [Data-Ai (3)](#data-ai)
+- [Data-Ai (8)](#data-ai)
 - [Database-Processing (1)](#database-processing)
 - [Design (13)](#design)
 - [Developer-Tools (3)](#developer-tools)
-- [Development (25)](#development)
+- [Development (26)](#development)
 - [Development-And-Testing (1)](#development-and-testing)
 - [Devops (7)](#devops)
 - [Document-Processing (1)](#document-processing)
 - [Documentacion-De-Codigo (10)](#documentacion-de-codigo)
 - [Ecommerce (1)](#ecommerce)
 - [Education (4)](#education)
+- [External (194)](#external)
 - [Finance (2)](#finance)
 - [Framework (3)](#framework)
 - [Frontend (15)](#frontend)
 - [Fullstack (1)](#fullstack)
 - [Game-Development (1)](#game-development)
-- [General (1)](#general)
+- [General (15)](#general)
 - [Granular-Workflow-Bundle (14)](#granular-workflow-bundle)
 - [Graphics-Processing (1)](#graphics-processing)
 - [Growth (3)](#growth)
+- [Infrastructure (5)](#infrastructure)
 - [Knowledge-Management (1)](#knowledge-management)
 - [Marketing (5)](#marketing)
 - [Mcp (2)](#mcp)
@@ -69,18 +71,18 @@
 - [Quality (1)](#quality)
 - [Reliability (1)](#reliability)
 - [Research (4)](#research)
-- [Security (9)](#security)
+- [Security (20)](#security)
 - [Seo (4)](#seo)
 - [Skill-Authoring (2)](#skill-authoring)
 - [Spreadsheet-Processing (1)](#spreadsheet-processing)
 - [Test-Automation (1)](#test-automation)
-- [Testing (4)](#testing)
+- [Testing (9)](#testing)
 - [Tool-Quality (1)](#tool-quality)
 - [Tools (1)](#tools)
 - [Uncategorized (2237)](#uncategorized)
 - [Video (1)](#video)
 - [Voice-Agents (1)](#voice-agents)
-- [Workflow (6)](#workflow)
+- [Workflow (7)](#workflow)
 - [Workflow-Bundle (10)](#workflow-bundle)
 - [Writing (2)](#writing)
 
@@ -392,7 +394,7 @@ _source: `community` · risk: `safe` · tags: `youtube`, `transcripts`, `video-s
 
 ## Architecture
 
-_2 skills_
+_6 skills_
 
 ### `codebase-design`
 
@@ -410,6 +412,13 @@ _[...]_
 _source: `community` · risk: `safe` · tags: `architecture`, `workflow`, `coding-agents`_
 
 ---
+### `cto-advisor`
+
+Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing engineering metrics, or when user mentions CTO, tech debt, techn...
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/cto`, `advisor` · _datos: catálogo__
+
+---
 ### `domain-modeling`
 
 Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.
@@ -424,6 +433,27 @@ _Source: [mattpocock/skills](https://github.com/mattpocock/skills) (MIT)._
 _[...]_
 
 _source: `community` · risk: `safe` · tags: `architecture`, `workflow`, `coding-agents`_
+
+---
+### `executive-mentor`
+
+Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good options, and forces honest post-mortems. Use when you need someone to find the holes before the board does, make a decision you've been avoiding, or un...
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/executive`, `mentor` · _datos: catálogo__
+
+---
+### `self-improving-agent`
+
+Curate Claude Code's auto-memory into durable project knowledge. Analyze MEMORY.md for patterns, promote proven learnings to CLAUDE.md and .claude/rules/, extract recurring solutions into reusable skills. Use when: (1) reviewing what Claude has learned about your project, (2) graduating a pattern...
+
+_source: `engineering-team` · tags: `engineering`, `team/self`, `improving`, `agent` · _datos: catálogo__
+
+---
+### `setup`
+
+Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, metric, direction, and evaluator.
+
+_source: `skills` · tags: `autoresearch`, `agent/skills/setup` · _datos: catálogo__
 
 ---
 
@@ -517,8 +547,36 @@ _source: `community` · risk: `safe` · tags: `browser-automation`, `mcp`, `web-
 
 ## Business
 
-_2 skills_
+_10 skills_
 
+### `app-store-optimization`
+
+App Store Optimization (ASO) toolkit for researching keywords, analyzing competitor rankings, generating metadata suggestions, and improving app visibility on Apple App Store and Google Play Store. Use when the user asks about ASO, app store rankings, app metadata, app titles and descriptions, ap...
+
+_source: `marketing-skill` · tags: `marketing`, `skill/app`, `store`, `optimization` · _datos: catálogo__
+
+---
+### `cmo-advisor`
+
+Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design. Use when designing brand strategy, selecting growth models (PLG vs sales-led vs community-led), allocating marketing budgets, building marketing teams, or whe...
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/cmo`, `advisor` · _datos: catálogo__
+
+---
+### `contract-and-proposal-writer`
+
+Contract & Proposal Writer
+
+_source: `business-growth` · tags: `business`, `growth/contract`, `and`, `proposal`, `writer` · _datos: catálogo__
+
+---
+### `cro-advisor`
+
+Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling. Use when designing the revenue engine, setting quotas, modeling NRR, evaluating pricing, building board forecasts, or when user mentions CRO, chief ...
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/cro`, `advisor` · _datos: catálogo__
+
+---
 ### `crossframe-org`
 
 Use when CrossFrame Suite routes explicit Chinese analysis of teams, projects, organizations, responsibility chains, feedback write-back, repair, or retrospectives.
@@ -532,6 +590,20 @@ Use when CrossFrame Suite routes explicit Chinese analysis of teams, projects, o
 _source: `community` · risk: `safe` · tags: `crossframe`, `chinese`, `organization`, `retrospective`, `repair`_
 
 ---
+### `epic-design`
+
+Build immersive, cinematic 2.5D interactive websites using scroll storytelling, parallax depth, text animations, and premium scroll effects — no WebGL required. Use this skill for any web design task: landing pages, product sites, hero sections, scroll animations, parallax, sticky sections, secti...
+
+_source: `engineering-team` · tags: `engineering`, `team/epic` · _datos: catálogo__
+
+---
+### `jira-expert`
+
+Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting, and all Jira features. Use for Jira project setup, configuration, advanced search, dashboard creation, workflow design, and technical Jira operations.
+
+_source: `project-management` · tags: `management/jira` · _datos: catálogo__
+
+---
 ### `lex`
 
 Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding.
@@ -543,6 +615,20 @@ Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) a
 - Use when the user asks about the specific regulatory nuances, formation steps, or "truth-based" definitions of legal entities within the **29 supported jurisdictions** (USA, Canada, and the EU).
 
 _source: `community` · risk: `safe` · tags: `legal`, `context`, `cross-jurisdictional`, `compliance`, `scaffolding`_
+
+---
+### `sales-engineer`
+
+Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-of-concept (POC) engagements for pre-sales engineering. Use when responding to RFPs, bids, or proposal requests; comparing product features against competitors; planning or scoring a cust...
+
+_source: `business-growth` · tags: `business`, `growth/sales` · _datos: catálogo__
+
+---
+### `social-media-analyzer`
+
+Social media campaign analysis and performance tracking. Calculates engagement rates, ROI, and benchmarks across platforms. Use for analyzing social media performance, calculating engagement rate, measuring campaign ROI, comparing platform metrics, or benchmarking against industry standards.
+
+_source: `marketing-skill` · tags: `marketing`, `skill/social`, `media`, `analyzer` · _datos: catálogo__
 
 ---
 
@@ -1044,7 +1130,7 @@ _source: `community` · risk: `critical`_
 
 ## Data-Ai
 
-_3 skills_
+_8 skills_
 
 ### `ai-engineering-toolkit`
 
@@ -1062,6 +1148,20 @@ _3 skills_
 _source: `community` · risk: `offensive` · tags: `prompt-engineering`, `rag`, `security`, `evaluation`, `ai-engineering`_
 
 ---
+### `campaign-analytics`
+
+Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when analyzing marketing campaigns, ad performance, attribution models, conversion rates, or calculating marketing ROI, ROAS, CPA, and campaign metrics acros...
+
+_source: `marketing-skill` · tags: `marketing`, `skill/campaign`, `analytics` · _datos: catálogo__
+
+---
+### `eval`
+
+Evaluate and rank agent results by metric or LLM judge for an AgentHub session.
+
+_source: `skills` · tags: `agenthub/skills/eval` · _datos: catálogo__
+
+---
 ### `local-llm-expert`
 
 Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization formats (GGUF, EXL2) and local AI privacy.
@@ -1071,6 +1171,20 @@ Master local LLM inference, model selection, VRAM optimization, and local deploy
 This skill is applicable to execute the workflow or actions described in the overview.
 
 _source: `community` · risk: `safe`_
+
+---
+### `marketing-ops`
+
+Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating across content, SEO, CRO, channels, and analytics. Also use when the user mentions 'marketing help,' 'campaign plan,' 'what should I do n...
+
+_source: `marketing-skill` · tags: `marketing`, `skill/marketing`, `ops` · _datos: catálogo__
+
+---
+### `scrum-master`
+
+Advanced Scrum Master skill for data-driven agile team analysis and coaching. Use when the user asks about sprint planning, velocity tracking, retrospectives, standup facilitation, backlog grooming, story points, burndown charts, blocker resolution, or agile team health. Runs Python scripts to an...
+
+_source: `project-management` · tags: `management/scrum`, `master` · _datos: catálogo__
 
 ---
 ### `seek-and-analyze-video`
@@ -1084,6 +1198,13 @@ Use this skill when the user wants to search for, import, or analyze video conte
 # Seek and Analyze Video
 
 _source: `https://github.com/kennyzheng-builds/seek-and-analyze-video` · risk: `safe` · tags: `video`, `ai`, `memories`, `social-media`, `youtube`_
+
+---
+### `senior-architect`
+
+This skill should be used when the user asks to "design system architecture", "evaluate microservices vs monolith", "create architecture diagrams", "analyze dependencies", "choose a database", "plan for scalability", "make technical decisions", or "review system design". Use for architecture deci...
+
+_source: `engineering-team` · tags: `engineering`, `team/senior` · _datos: catálogo__
 
 ---
 
@@ -1357,7 +1478,7 @@ _source: `community` · risk: `critical` · tags: `model-routing`, `token-optimi
 
 ## Development
 
-_25 skills_
+_26 skills_
 
 ### `agenttrace-session-audit`
 
@@ -1630,6 +1751,13 @@ Generate AI images, videos, and music/audio from agents using the RunAPI CLI.
 - Use when the user wants to install the RunAPI CLI on a local machine, server, or CI runner.
 
 _source: `official` · risk: `critical` · tags: `runapi`, `cli`, `models`, `automation`, `codex`_
+
+---
+### `senior-qa`
+
+Generates unit tests, integration tests, and E2E tests for React/Next.js applications. Scans components to create Jest + React Testing Library test stubs, analyzes Istanbul/LCOV coverage reports to surface gaps, scaffolds Playwright test files from Next.js routes, mocks API calls with MSW, create...
+
+_source: `engineering-team` · tags: `engineering`, `team/senior`, `qa` · _datos: catálogo__
 
 ---
 ### `setup-matt-pocock-skills`
@@ -2105,6 +2233,1371 @@ _source: `community` · risk: `safe` · tags: `education`, `workflow`, `coding-a
 
 ---
 
+## External
+
+_194 skills_
+
+### `adversarial-reviewer`
+
+_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
+
+_source: `engineering-team` · _datos: stub — sin datos__
+
+---
+### `aeo`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `ai-security`
+
+_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
+
+_source: `engineering-team` · _datos: stub — sin datos__
+
+---
+### `andreessen`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `apple-hig-expert`
+
+_Descripción no disponible — skill de repositorio externo (`product-team`)._
+
+_source: `product-team` · _datos: stub — sin datos__
+
+---
+### `azure-cloud-architect`
+
+_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
+
+_source: `engineering-team` · _datos: stub — sin datos__
+
+---
+### `behuman`
+
+_Descripción no disponible — skill de repositorio externo (`engineering`)._
+
+_source: `engineering` · _datos: stub — sin datos__
+
+---
+### `boardroom`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `brief`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `business-growth-bundle`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `business-investment-advisor`
+
+_Descripción no disponible — skill de repositorio externo (`finance`)._
+
+_source: `finance` · _datos: stub — sin datos__
+
+---
+### `business-operations-skills`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `c-level-advisor-bundle`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `c-level-advisor-main`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `c-level-agents`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `caio-review`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `capacity-planner`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `capture`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `caveman`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `cco-review`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `cdo-review`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `cfo-review`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `changelog`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `channel-economics`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `chaos-engineering`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `chaos-experiment`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `chief-ai-officer-advisor`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `chief-customer-officer-advisor`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `chief-data-officer-advisor`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `ciso-review`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `claude-coach`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `cloud-security`
+
+_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
+
+_source: `engineering-team` · _datos: stub — sin datos__
+
+---
+### `cmd-a11y-audit`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `cmd-code-to-prd`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `cmd-cs-aeo`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `cmd-focused-fix`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `cmo-review`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `commercial-forecaster`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `commercial-policy`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `commercial-skills`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `competitive-matrix`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `content-strategist`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cpo-review`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `cro-review`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `cross-eval`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `cs-aeo`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-agile-product-owner`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-backend-engineer`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-backend-review`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `cs-ceo-advisor`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-content-creator`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-cto-advisor`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-demand-gen-specialist`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-engineer-grill`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `cs-engineering-lead`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-financial-analyst`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-frontend-engineer`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-frontend-review`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `cs-fullstack-engineer`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-fullstack-review`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `cs-growth-strategist`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-karpathy-reviewer`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-product-analyst`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-product-manager`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-product-strategist`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-project-manager`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-quality-regulatory`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-senior-engineer`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-ux-researcher`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-wiki-ingestor`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-wiki-librarian`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-wiki-linter`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-workspace-admin`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cto-review`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `data-quality-auditor`
+
+_Descripción no disponible — skill de repositorio externo (`engineering`)._
+
+_source: `engineering` · _datos: stub — sin datos__
+
+---
+### `deal-desk`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `decide`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `demo-video`
+
+_Descripción no disponible — skill de repositorio externo (`engineering`)._
+
+_source: `engineering` · _datos: stub — sin datos__
+
+---
+### `devops-engineer`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `dossier`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `engineering-bundle`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `engineering-main`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `engineering-team-bundle`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `eu-ai-act-specialist`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `execute`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `feature-flags-architect`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `finance-bundle`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `finance-lead`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `financial-health`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `flag-cleanup`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `founder-mode`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `freeze`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `gc-review`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `gcp-cloud-architect`
+
+_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
+
+_source: `engineering-team` · _datos: stub — sin datos__
+
+---
+### `general-counsel-advisor`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `google-workspace`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `grants`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `grill-me`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `grill-with-docs`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `growth-marketer`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `handoff`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `inbox-setup`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `inbox-triage`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `incident-response`
+
+_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
+
+_source: `engineering-team` · _datos: stub — sin datos__
+
+---
+### `iso42001-specialist`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `karpathy-check`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `karpathy-coder`
+
+_Descripción no disponible — skill de repositorio externo (`engineering`)._
+
+_source: `engineering` · _datos: stub — sin datos__
+
+---
+### `kubernetes-operator`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `landing`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `litreview`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `llm-cost-optimizer`
+
+_Descripción no disponible — skill de repositorio externo (`engineering`)._
+
+_source: `engineering` · _datos: stub — sin datos__
+
+---
+### `llm-wiki`
+
+_Descripción no disponible — skill de repositorio externo (`engineering`)._
+
+_source: `engineering` · _datos: stub — sin datos__
+
+---
+### `marketing-bundle`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `marketing-skill-bundle`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `meeting-analyzer`
+
+_Descripción no disponible — skill de repositorio externo (`project-management`)._
+
+_source: `project-management` · _datos: stub — sin datos__
+
+---
+### `office-hours`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `okr`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `onboard`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `operator-audit`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `partnerships-architect`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `patent`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `persona`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `pipeline`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `plugin-audit`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `post-mortem`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `prd`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `pricing-strategist`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `process-mapper`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `procurement-optimizer`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `product-bundle`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `product-manager`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `product-team-bundle`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `project-health`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `project-management-bundle`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `prompt-governance`
+
+_Descripción no disponible — skill de repositorio externo (`engineering`)._
+
+_source: `engineering` · _datos: stub — sin datos__
+
+---
+### `pulse`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `ra-qm-team-bundle`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `ra-qm-team-main`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `red-team`
+
+_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
+
+_source: `engineering-team` · _datos: stub — sin datos__
+
+---
+### `reflect`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `research-bundle`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `retro`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `rfp-responder`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `rice`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `saas-health`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `security-guidance`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `security-pen-testing`
+
+_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
+
+_source: `engineering-team` · _datos: stub — sin datos__
+
+---
+### `self-eval`
+
+_Descripción no disponible — skill de repositorio externo (`engineering`)._
+
+_source: `engineering` · _datos: stub — sin datos__
+
+---
+### `seo-auditor`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `ship-gate`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-chaos-engineering`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-chief-ai-officer-advisor`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-chief-customer-officer-advisor`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-chief-data-officer-advisor`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-eu-ai-act-specialist`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-feature-flags-architect`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-general-counsel-advisor`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-handoff`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-init`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-iso42001-specialist`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-kubernetes-operator`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-review`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-run`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-slo-architect`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-status`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-status-2`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `skills-vpe-advisor`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `slo-architect`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `slo-design`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `snowflake-development`
+
+_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
+
+_source: `engineering-team` · _datos: stub — sin datos__
+
+---
+### `solo-founder`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `spec-to-repo`
+
+_Descripción no disponible — skill de repositorio externo (`product-team`)._
+
+_source: `product-team` · _datos: stub — sin datos__
+
+---
+### `sprint-health`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `sprint-plan`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `startup-cto`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `statistical-analyst`
+
+_Descripción no disponible — skill de repositorio externo (`engineering`)._
+
+_source: `engineering` · _datos: stub — sin datos__
+
+---
+### `syllabus`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `tc`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `tc-tracker`
+
+_Descripción no disponible — skill de repositorio externo (`engineering`)._
+
+_source: `engineering` · _datos: stub — sin datos__
+
+---
+### `tdd`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `team-communications`
+
+_Descripción no disponible — skill de repositorio externo (`project-management`)._
+
+_source: `project-management` · _datos: stub — sin datos__
+
+---
+### `tech-debt`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `threat-detection`
+
+_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
+
+_source: `engineering-team` · _datos: stub — sin datos__
+
+---
+### `user-story`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `vendor-management`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `video-content-strategist`
+
+_Descripción no disponible — skill de repositorio externo (`marketing-skill`)._
+
+_source: `marketing-skill` · _datos: stub — sin datos__
+
+---
+### `vpe-advisor`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `vpe-review`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+### `wiki-ingest`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `wiki-init`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `wiki-lint`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `wiki-log`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `wiki-query`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `write-a-skill`
+
+_Descripción no disponible — skill de repositorio externo (`skills`)._
+
+_source: `skills` · _datos: stub — sin datos__
+
+---
+
+---
+
 ## Finance
 
 _2 skills_
@@ -2441,7 +3934,7 @@ _source: `community` · risk: `safe` · tags: `unity`, `game-development`, `ai-g
 
 ## General
 
-_1 skills_
+_15 skills_
 
 ### `antigravity-agent-manager`
 
@@ -2454,6 +3947,104 @@ Configure and orchestrate parallel agents using the standalone Antigravity 2.0 A
 - Use to resolve conflicts or obsolete tutorial steps that mention the integrated "Open Agent Manager" button.
 
 _source: `self` · risk: `critical` · tags: `agent-manager`, `orchestration`, `multi-agent`, `setup`_
+
+---
+### `atlassian-templates`
+
+Atlassian Template and Files Creator/Modifier expert for creating, modifying, and managing Jira and Confluence templates, blueprints, custom layouts, reusable components, and standardized content structures. Use when building org-wide templates, custom blueprints, page layouts, and automated cont...
+
+_source: `project-management` · tags: `management/atlassian` · _datos: catálogo__
+
+---
+### `challenge`
+
+/em -challenge — Pre-Mortem Plan Analysis
+
+_source: `skills` · tags: `c`, `level`, `advisor/executive`, `mentor/skills/challenge` · _datos: catálogo__
+
+---
+### `company-os`
+
+The meta-framework for how a company runs — the connective tissue between all C-suite roles. Covers operating system selection (EOS, Scaling Up, OKR-native, hybrid), accountability charts, scorecards, meeting pulse, issue resolution, and 90-day rocks. Use when setting up company operations, selec...
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/company`, `os` · _datos: catálogo__
+
+---
+### `cs-onboard`
+
+Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:setup for initial interview or /cs:update for quarterly refresh. Generates ~/.claude/company-context.md used by all C-suite advisor skills.
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/cs`, `onboard` · _datos: catálogo__
+
+---
+### `email-template-builder`
+
+Email Template Builder
+
+_source: `engineering-team` · tags: `engineering`, `team/email`, `builder` · _datos: catálogo__
+
+---
+### `extract`
+
+Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples.
+
+_source: `skills` · tags: `engineering`, `team/self`, `improving`, `agent/skills/extract` · _datos: catálogo__
+
+---
+### `founder-coach`
+
+Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management, CEO calendar audits, leadership style evolution, blind spot identification, imposter syndrome, founder mental health, and succession planning. Use w...
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/founder`, `coach` · _datos: catálogo__
+
+---
+### `hard-call`
+
+/em -hard-call — Framework for Decisions With No Good Options
+
+_source: `skills` · tags: `c`, `level`, `advisor/executive`, `mentor/skills/hard`, `call` · _datos: catálogo__
+
+---
+### `internal-narrative`
+
+Build and maintain one coherent company story across all audiences — employees, investors, customers, candidates, and partners. Detects narrative contradictions and ensures the same truth is framed for each audience's needs. Use when preparing investor updates, all-hands presentations, board comm...
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/internal`, `narrative` · _datos: catálogo__
+
+---
+### `merge`
+
+Merge the winning agent's branch into base, archive losers, and clean up worktrees.
+
+_source: `skills` · tags: `agenthub/skills/merge` · _datos: catálogo__
+
+---
+### `migrate`
+
+Migrate from Cypress or Selenium to Playwright. Use when user mentions "cypress", "selenium", "migrate tests", "convert tests", "switch to playwright", "move from cypress", or "replace selenium".
+
+_source: `skills` · tags: `engineering`, `team/playwright`, `pro/skills/migrate` · _datos: catálogo__
+
+---
+### `resume`
+
+Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating.
+
+_source: `skills` · tags: `autoresearch`, `agent/skills/resume` · _datos: catálogo__
+
+---
+### `run`
+
+One-shot lifecycle command that chains init → baseline → spawn → eval → merge in a single invocation.
+
+_source: `skills` · tags: `agenthub/skills/run` · _datos: catálogo__
+
+---
+### `status`
+
+Show DAG state, agent progress, and branch status for an AgentHub session.
+
+_source: `skills` · tags: `agenthub/skills/status` · _datos: catálogo__
 
 ---
 
@@ -2761,6 +4352,48 @@ Social Media Strategist and Content Writer. Creates clear, engaging social media
 - Use it to transform topics and keywords into audience-focused content with platform-native structure.
 
 _source: `self` · risk: `safe` · tags: `social-media`, `marketing`, `content-writing`, `seo`, `growth`_
+
+---
+
+---
+
+## Infrastructure
+
+_5 skills_
+
+### `aws-solution-architect`
+
+Design AWS architectures for startups using serverless patterns and IaC templates. Use when asked to design serverless architecture, create CloudFormation templates, optimize AWS costs, set up CI/CD pipelines, or migrate to AWS. Covers Lambda, API Gateway, DynamoDB, ECS, Aurora, and cost optimiza...
+
+_source: `engineering-team` · tags: `engineering`, `team/aws`, `solution` · _datos: catálogo__
+
+---
+### `browserstack`
+
+Run tests on BrowserStack. Use when user mentions "browserstack", "cross-browser", "cloud testing", "browser matrix", "test on safari", "test on firefox", or "browser compatibility".
+
+_source: `skills` · tags: `engineering`, `team/playwright`, `pro/skills/browserstack` · _datos: catálogo__
+
+---
+### `revenue-operations`
+
+Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization. Use when analyzing sales pipeline coverage, forecasting revenue, evaluating go-to-market performance, reviewing sales metrics, assessing pipeline analysis, tracking for...
+
+_source: `business-growth` · tags: `business`, `growth/revenue`, `operations` · _datos: catálogo__
+
+---
+### `senior-data-engineer`
+
+Data engineering skill for building scalable data pipelines, ETL/ELT systems, and data infrastructure. Expertise in Python, SQL, Spark, Airflow, dbt, Kafka, and modern data stack. Includes data modeling, pipeline orchestration, data quality, and DataOps. Use when designing data architectures, bui...
+
+_source: `engineering-team` · tags: `engineering`, `team/senior`, `data` · _datos: catálogo__
+
+---
+### `senior-devops`
+
+Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring. Use when setting up pipelines, deploying applications, managing infrastructure, impleme...
+
+_source: `engineering-team` · tags: `engineering`, `team/senior`, `devops` · _datos: catálogo__
 
 ---
 
@@ -3470,8 +5103,15 @@ _source: `official` · risk: `safe` · tags: `dair-academy`, `ai`, `workflow`_
 
 ## Security
 
-_9 skills_
+_20 skills_
 
+### `a11y-audit`
+
+Accessibility audit skill for scanning, fixing, and verifying WCAG 2.2 Level A and AA compliance across React, Next.js, Vue, Angular, Svelte, and plain HTML codebases. Use when auditing accessibility, fixing a11y violations, checking color contrast, generating compliance reports, or integrating a...
+
+_source: `engineering-team` · tags: `engineering`, `team/a11y`, `audit` · _datos: catálogo__
+
+---
 ### `audit-skills`
 
 Expert security auditor for AI Skills and Bundles. Performs non-intrusive static analysis to identify malicious patterns, data leaks, system stability risks, and obfuscated payloads across Windows, macOS, Linux/Unix, and Mobile (Android/iOS).
@@ -3546,6 +5186,13 @@ or otherwise mutate the scanned machine.
 _source: `community` · risk: `safe` · tags: `security`, `supply-chain`, `incident-response`, `npm`, `pypi`_
 
 ---
+### `ciso-advisor`
+
+Security leadership for growth-stage companies. Risk quantification in dollars, compliance roadmap (SOC 2/ISO 27001/HIPAA/GDPR), security architecture strategy, incident response leadership, and board-level security reporting. Use when building security programs, justifying security budget, selec...
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/ciso`, `advisor` · _datos: catálogo__
+
+---
 ### `container-security-hardening`
 
 Harden Docker/container images and runtime deployments with secure base images, non-root users, CVE scanning, SBOM/signing, seccomp/AppArmor, and Kubernetes pod security controls. Use for Dockerfile security reviews, container CVEs, image scanning, distroless images, or production hardening.
@@ -3565,6 +5212,13 @@ _[...]_
 _source: `community` · risk: `safe`_
 
 ---
+### `context-engine`
+
+Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (>90 days), enriches context during conversations, and enforces privacy/anonymization rules before external API calls.
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/context`, `engine` · _datos: catálogo__
+
+---
 ### `fsi-compliance-checker`
 
 Maps code, architecture, and infrastructure changes to specific control IDs in PCI-DSS v4.0 and MAS TRM (Singapore financial regulator), producing an audit-traceable findings report with per-control remediation.
@@ -3579,6 +5233,55 @@ Maps code, architecture, and infrastructure changes to specific control IDs in P
 _source: `community` · risk: `safe` · tags: `compliance`, `pci-dss`, `mas-trm`, `fintech`, `banking`_
 
 ---
+### `google-workspace-cli`
+
+Google Workspace administration via the gws CLI. Install, authenticate, and automate Gmail, Drive, Sheets, Calendar, Docs, Chat, and Tasks. Run security audits, execute 43 built-in recipes, and use 10 persona bundles. Use for Google Workspace admin, gws CLI setup, Gmail automation, Drive manageme...
+
+_source: `engineering-team` · tags: `engineering`, `team/google`, `workspace`, `cli` · _datos: catálogo__
+
+---
+### `incident-commander`
+
+Incident Commander Skill
+
+_source: `engineering-team` · tags: `engineering`, `team/incident`, `commander` · _datos: catálogo__
+
+---
+### `intl-expansion`
+
+International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region. Use when expanding to new countries, evaluating international markets, planning localization, or building regional teams.
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/intl`, `expansion` · _datos: catálogo__
+
+---
+### `ms365-tenant-manager`
+
+Microsoft 365 tenant administration for Global Administrators. Automate M365 tenant setup, Office 365 admin tasks, Azure AD user management, Exchange Online configuration, Teams administration, and security policies. Generate PowerShell scripts for bulk operations, Conditional Access policies, li...
+
+_source: `engineering-team` · tags: `engineering`, `team/ms365`, `tenant`, `manager` · _datos: catálogo__
+
+---
+### `org-health-diagnostic`
+
+Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down recommendations. Use when assessing overall company health, preparing for board reviews, identifying at-risk functions, or when user mentions org hea...
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/org`, `health`, `diagnostic` · _datos: catálogo__
+
+---
+### `senior-backend`
+
+Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening. Use when the user asks to "design REST APIs", "optimize database queries", "implement authentication", "build microservices", "review backend code", "se...
+
+_source: `engineering-team` · tags: `engineering`, `team/senior`, `backend` · _datos: catálogo__
+
+---
+### `senior-pm`
+
+Senior Project Manager for enterprise software, SaaS, and digital transformation projects. Specializes in portfolio management, quantitative risk analysis, resource optimization, stakeholder alignment, and executive reporting. Uses advanced methodologies including EMV analysis, Monte Carlo simula...
+
+_source: `project-management` · tags: `management/senior`, `pm` · _datos: catálogo__
+
+---
 ### `skill-audit`
 
 Pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
@@ -3591,6 +5294,13 @@ Pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are mali
 - Use when reviewing skills for potential security issues
 
 _source: `community` · risk: `safe` · tags: `security`, `audit`, `pre-install`, `malicious-detection`, `supply-chain`_
+
+---
+### `tech-stack-evaluator`
+
+Technology stack evaluation and comparison with TCO analysis, security assessment, and ecosystem health scoring. Use when comparing frameworks, evaluating technology stacks, calculating total cost of ownership, assessing migration paths, or analyzing ecosystem viability.
+
+_source: `engineering-team` · tags: `engineering`, `team/tech`, `stack`, `evaluator` · _datos: catálogo__
 
 ---
 
@@ -3748,7 +5458,7 @@ _source: `community` · risk: `safe` · tags: `playwright`, `java`, `e2e-testing
 
 ## Testing
 
-_4 skills_
+_9 skills_
 
 ### `android-ui-journey-testing`
 
@@ -3762,6 +5472,20 @@ XML-specified Android UI journey testing, interactive step execution, assertion 
 - Use when debugging application flows on physical devices or emulators using ADB commands.
 
 _source: `self` · risk: `critical` · tags: `android`, `journey-testing`, `ui-verification`, `testing`, `adb`_
+
+---
+### `cfo-advisor`
+
+Financial leadership for startups and scaling companies. Financial modeling, unit economics, fundraising strategy, cash management, and board financial packages. Use when building financial models, analyzing unit economics, planning fundraising, managing cash runway, preparing board materials, or...
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/cfo`, `advisor` · _datos: catálogo__
+
+---
+### `coverage`
+
+Analyze test coverage gaps. Use when user says "test coverage", "what's not tested", "coverage gaps", "missing tests", "coverage report", or "what needs testing".
+
+_source: `skills` · tags: `engineering`, `team/playwright`, `pro/skills/coverage` · _datos: catálogo__
 
 ---
 ### `k6-load-testing`
@@ -3810,6 +5534,27 @@ Audit a live web page in five phases (catalog, click, trace, classify, report) t
 - Use when a dashboard "looks too clean" — every metric uniformly round, all timestamps clustered, no variance — and you suspect seeded data
 
 _source: `community` · risk: `critical` · tags: `testing`, `qa`, `playwright`, `mock-detection`, `web-audit`_
+
+---
+### `review`
+
+Review Playwright tests for quality. Use when user says "review tests", "check test quality", "audit tests", "improve tests", "test code review", or "playwright best practices check".
+
+_source: `skills` · tags: `engineering`, `team/playwright`, `pro/skills/review` · _datos: catálogo__
+
+---
+### `stress-test`
+
+/em -stress-test — Business Assumption Stress Testing
+
+_source: `skills` · tags: `c`, `level`, `advisor/executive`, `mentor/skills/stress` · _datos: catálogo__
+
+---
+### `tdd-guide`
+
+Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor workflows across Jest, Pytest, JUnit, Vitest, and Mocha. Use when the user asks to write tests, improve test coverage, practice TDD, generate mocks or ...
+
+_source: `engineering-team` · tags: `engineering`, `team/tdd` · _datos: catálogo__
 
 ---
 
@@ -31510,7 +33255,7 @@ _source: `community` · risk: `safe` · tags: `pipecat`, `voice`, `gemini`, `ope
 
 ## Workflow
 
-_6 skills_
+_7 skills_
 
 ### `ai-loop`
 
@@ -31523,6 +33268,13 @@ Runs a bounded spec-build-review development loop with explicit scope, stop cond
 - Use when the user asks for a complete development pass but the work still has clear success criteria, a reasonable verification path, and no unresolved safety or product decisions.
 
 _source: `community` · risk: `safe` · tags: `agent-workflow`, `specification`, `implementation`, `review`, `verification`_
+
+---
+### `coo-advisor`
+
+Operations leadership for scaling companies. Process design, OKR execution, operational cadence, and scaling playbooks. Use when designing operations, setting up OKRs, building processes, scaling teams, analyzing bottlenecks, planning operational cadence, or when user mentions COO, operations, pr...
+
+_source: `c-level-advisor` · tags: `c`, `level`, `advisor/coo`, `advisor` · _datos: catálogo__
 
 ---
 ### `crossframe`
