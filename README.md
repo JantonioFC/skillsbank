@@ -1,5 +1,5 @@
-<!-- registry-sync: version=8.4.0; skills=2794; stars=26132; updated_at=2026-06-28T00:00:00+00:00 -->
-# 🌌 Antigravity Awesome Skills: 2,794+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+<!-- registry-sync: version=12.1.0; skills=2472; stars=26132; updated_at=2026-06-28T00:00:00+00:00 -->
+# 🌌 Antigravity Awesome Skills: 2,472+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
 > [!IMPORTANT]
 > **REGLA INVIOLABLE:** Solo se permite pushear cambios al remoto `backup` (`JantonioFC/skillsbank`).
@@ -15,9 +15,9 @@ You can use this repo to install a broad multi-tool skill library, start from fo
 
 The canonical project page is the GitHub repository at <https://github.com/sickn33/antigravity-awesome-skills>; the hosted catalog is a companion discovery surface for search, plugins, and skill detail pages.
 
-**Start here:** [Install in 1 minute](#installation) · [Recommended plugins](#recommended-specialized-plugins) · [Compare plugin packs](https://sickn33.github.io/antigravity-awesome-skills/plugins) · [Choose your tool](#choose-your-tool) · [📚 Browse 2,794+ Skills](#browse-2794-skills) · [Bundles & workflows](#bundles--workflows) · [Support the project](#support-the-project)
+**Start here:** [Install in 1 minute](#installation) · [Recommended plugins](#recommended-specialized-plugins) · [Compare plugin packs](https://sickn33.github.io/antigravity-awesome-skills/plugins) · [Choose your tool](#choose-your-tool) · [📚 Browse 2,472+ Skills](#browse-2472-skills) · [Bundles & workflows](#bundles--workflows) · [Support the project](#support-the-project)
 
-[![GitHub stars](https://img.shields.io/badge/⭐%2040%2C000%2B%20Stars-gold?style=for-the-badge)](https://github.com/sickn33/antigravity-awesome-skills/stargazers)
+[![GitHub stars](https://img.shields.io/badge/⭐%2026%2C000%2B%20Stars-gold?style=for-the-badge)](https://github.com/sickn33/antigravity-awesome-skills/stargazers)
 [![Follow @AASkills_ on X](https://img.shields.io/badge/Follow-%40AASkills__-black?style=for-the-badge&logo=x)](https://x.com/AASkills_)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -31,7 +31,7 @@ The canonical project page is the GitHub repository at <https://github.com/sickn
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray?style=for-the-badge)](https://github.com/opencode-ai/opencode)
 [![Antigravity](https://img.shields.io/badge/Antigravity-AI%20IDE-red?style=for-the-badge)](https://github.com/sickn33/antigravity-awesome-skills)
 
-**Current release: V12.1.0.** Trusted by 40k+ GitHub stargazers, this repository combines official and community skill collections with bundles, workflows, installation paths, and docs that help you go from first install to daily use quickly.
+**Current release: V12.1.0.** Trusted by 26k+ GitHub stargazers, this repository combines official and community skill collections with bundles, workflows, installation paths, and docs that help you go from first install to daily use quickly.
 
 ## Why This Repo
 
@@ -290,7 +290,7 @@ If Antigravity starts hitting context limits with too many active skills, the ac
 
 If you use OpenCode or another `.agents/skills` host, prefer a reduced install up front instead of copying the full library into a context-sensitive runtime. The installer now supports `--risk`, `--category`, and `--tags` so you can keep the installed set narrow.
 
-## Browse 2,794+ Skills
+## Browse 2,472+ Skills
 
 Use the root repo as a landing page, then jump into the deeper surface that matches your intent.
 

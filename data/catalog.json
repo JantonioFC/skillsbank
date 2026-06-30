@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 2794,
+  "total": 2903,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -192,6 +192,32 @@
         "cameras"
       ],
       "path": "skills/3d-games/SKILL.md"
+    },
+    {
+      "id": "3d-ui",
+      "name": "3d-ui",
+      "description": "Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "3d",
+        "ui"
+      ],
+      "triggers": [
+        "3d",
+        "ui",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "actual",
+        "objects",
+        "perspective",
+        "effects",
+        "spatial"
+      ],
+      "path": "skills/3d-ui/SKILL.md"
     },
     {
       "id": "3d-web-experience",
@@ -2653,6 +2679,33 @@
       "path": "skills/ai-native-cli/SKILL.md"
     },
     {
+      "id": "ai-native-ui",
+      "name": "ai-native-ui",
+      "description": "Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics.",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "ai",
+        "native",
+        "ui"
+      ],
+      "triggers": [
+        "ai",
+        "native",
+        "ui",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "conversational",
+        "interfaces",
+        "adaptive",
+        "layouts"
+      ],
+      "path": "skills/ai-native-ui/SKILL.md"
+    },
+    {
       "id": "ai-podcast-creation",
       "name": "ai-podcast-creation",
       "description": "Create AI-powered podcasts with text-to-speech, music, and audio editing. Tools: Kokoro TTS, DIA TTS, Chatterbox, AI music generation, media merger. Capabilities: multi-voice conversations, background music, intro/outro, full episodes. Use for: podcast production, audiobooks, voice content...",
@@ -3107,6 +3160,26 @@
         "exif"
       ],
       "path": "skills/akf-trust-metadata/SKILL.md"
+    },
+    {
+      "id": "alex",
+      "name": "alex",
+      "description": "Turns requirements into a precise, dependency-aware implementation plan.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "alex"
+      ],
+      "triggers": [
+        "alex",
+        "turns",
+        "requirements",
+        "precise",
+        "dependency",
+        "aware",
+        "plan"
+      ],
+      "path": "skills/alex/SKILL.md"
     },
     {
       "id": "algolia-search",
@@ -5042,6 +5115,27 @@
       "path": "skills/architecture-patterns/SKILL.md"
     },
     {
+      "id": "aria",
+      "name": "aria",
+      "description": "Designs the data model, API contracts, and structural foundation of the system.",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "aria"
+      ],
+      "triggers": [
+        "aria",
+        "designs",
+        "data",
+        "model",
+        "api",
+        "contracts",
+        "structural",
+        "foundation"
+      ],
+      "path": "skills/aria/SKILL.md"
+    },
+    {
       "id": "arm-cortex-expert",
       "name": "arm-cortex-expert",
       "description": "Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD). Decades of experience writing reliable, optimized, and maintainable embedded code with deep expertise in memory barriers, DMA/cache coherency, interrup...",
@@ -5710,6 +5804,32 @@
         "opus"
       ],
       "path": "skills/auri-core/SKILL.md"
+    },
+    {
+      "id": "aurora-ui",
+      "name": "aurora-ui",
+      "description": "Web and App implementation guide for Aurora UI. Trigger when user wants gradient glows, color blobs, and atmospheric lighting effects.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "aurora",
+        "ui"
+      ],
+      "triggers": [
+        "aurora",
+        "ui",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "gradient",
+        "glows",
+        "color",
+        "blobs",
+        "atmospheric"
+      ],
+      "path": "skills/aurora-ui/SKILL.md"
     },
     {
       "id": "auth-implementation-patterns",
@@ -10413,6 +10533,33 @@
       "path": "skills/azure-servicebus-py/SKILL.md"
     },
     {
+      "id": "azure-servicebus-rust",
+      "name": "azure-servicebus-rust",
+      "description": "Azure Service Bus library for Rust. Send and receive messages using queues, topics, and subscriptions.\nTriggers: \"service bus rust\", \"ServiceBusClient rust\", \"send message servicebus rust\", \"receive message servicebus rust\", \"queue rust messaging\", \"topic subscription rust\".",
+      "category": "infrastructure",
+      "subcategory": "messaging",
+      "tags": [
+        "azure",
+        "servicebus",
+        "rust"
+      ],
+      "triggers": [
+        "azure",
+        "servicebus",
+        "rust",
+        "bus",
+        "library",
+        "send",
+        "receive",
+        "messages",
+        "queues",
+        "topics",
+        "subscriptions",
+        "triggers"
+      ],
+      "path": "skills/azure-servicebus-rust/SKILL.md"
+    },
+    {
       "id": "azure-servicebus-ts",
       "name": "azure-servicebus-ts",
       "description": "Build messaging applications using Azure Service Bus SDK for JavaScript (@azure/service-bus). Use when implementing queues, topics/subscriptions, message sessions, dead-letter handling, or enterprise messaging patterns.",
@@ -10748,6 +10895,34 @@
         "asynchronous"
       ],
       "path": "skills/azure-storage-queue-py/SKILL.md"
+    },
+    {
+      "id": "azure-storage-queue-rust",
+      "name": "azure-storage-queue-rust",
+      "description": "Azure Queue Storage library for Rust. Send, receive, and manage queue messages.\nTriggers: \"queue storage rust\", \"QueueClient rust\", \"send message rust\", \"receive messages rust\", \"QueueServiceClient rust\", \"queue rust\".",
+      "category": "development",
+      "subcategory": "azure-sdk",
+      "tags": [
+        "azure",
+        "storage",
+        "queue",
+        "rust"
+      ],
+      "triggers": [
+        "azure",
+        "storage",
+        "queue",
+        "rust",
+        "library",
+        "send",
+        "receive",
+        "messages",
+        "triggers",
+        "queueclient",
+        "message",
+        "queueserviceclient"
+      ],
+      "path": "skills/azure-storage-queue-rust/SKILL.md"
     },
     {
       "id": "azure-storage-queue-ts",
@@ -11804,6 +11979,25 @@
       "path": "skills/baseline-ui/SKILL.md"
     },
     {
+      "id": "bash",
+      "name": "bash",
+      "description": "Language-specific super-code guidelines for bash.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "bash"
+      ],
+      "triggers": [
+        "bash",
+        "language",
+        "specific",
+        "super",
+        "code",
+        "guidelines"
+      ],
+      "path": "skills/bash/SKILL.md"
+    },
+    {
       "id": "bash-defensive-patterns",
       "name": "bash-defensive-patterns",
       "description": "Master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety.",
@@ -12197,6 +12391,32 @@
         "recursive"
       ],
       "path": "skills/benchmark-optimization-loop/SKILL.md"
+    },
+    {
+      "id": "bento-ui",
+      "name": "bento-ui",
+      "description": "Web and App implementation guide for Bento UI. Trigger when user wants modular grid cards, Apple-like dashboard style, or sections arranged like a bento box.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "bento",
+        "ui"
+      ],
+      "triggers": [
+        "bento",
+        "ui",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "modular",
+        "grid",
+        "cards",
+        "apple",
+        "like"
+      ],
+      "path": "skills/bento-ui/SKILL.md"
     },
     {
       "id": "better-auth",
@@ -13109,6 +13329,57 @@
       "path": "skills/browser-use/SKILL.md"
     },
     {
+      "id": "brutalism",
+      "name": "brutalism",
+      "description": "Web and App implementation guide for Brutalism. Trigger when user wants a raw appearance, intentionally unfinished look, and rejection of standard design conventions.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "brutalism"
+      ],
+      "triggers": [
+        "brutalism",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "raw",
+        "appearance",
+        "intentionally",
+        "unfinished",
+        "look",
+        "rejection"
+      ],
+      "path": "skills/brutalism/SKILL.md"
+    },
+    {
+      "id": "brutalist-typography",
+      "name": "brutalist-typography",
+      "description": "Web and App implementation guide for Brutalist Typography. Trigger when user wants huge fonts, raw presentation, and aggressive layout decisions.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "brutalist",
+        "typography"
+      ],
+      "triggers": [
+        "brutalist",
+        "typography",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "huge",
+        "fonts",
+        "raw",
+        "presentation",
+        "aggressive"
+      ],
+      "path": "skills/brutalist-typography/SKILL.md"
+    },
+    {
       "id": "bug-hunter",
       "name": "bug-hunter",
       "description": "Systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression.",
@@ -13632,6 +13903,25 @@
         "price"
       ],
       "path": "skills/buywhere-product-catalog/SKILL.md"
+    },
+    {
+      "id": "c",
+      "name": "c",
+      "description": "Language-specific super-code guidelines for c.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "c"
+      ],
+      "triggers": [
+        "c",
+        "language",
+        "specific",
+        "super",
+        "code",
+        "guidelines"
+      ],
+      "path": "skills/c/SKILL.md"
     },
     {
       "id": "c-level-advisor",
@@ -15013,6 +15303,32 @@
       "path": "skills/capacity-ms/SKILL.md"
     },
     {
+      "id": "card-based-design",
+      "name": "card-based-design",
+      "description": "Web and App implementation guide for Card-Based Design. Trigger when user wants information cards, Pinterest-style layouts, and bite-sized content containers.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "card",
+        "based"
+      ],
+      "triggers": [
+        "card",
+        "based",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "information",
+        "cards",
+        "pinterest",
+        "style",
+        "layouts"
+      ],
+      "path": "skills/card-based-design/SKILL.md"
+    },
+    {
       "id": "carrier-relationship-management",
       "name": "carrier-relationship-management",
       "description": "用于管理承运商组合、协商运费、跟踪承运商绩效、分配货运以及维护战略承运商关系的编码专业知识。基于拥有15年以上经验的运输经理提供的信息。包括记分卡框架、RFP流程、市场情报和合规性审查。适用于管理承运商、协商费率、评估承运商绩效或制定货运策略时使用。",
@@ -15665,6 +15981,31 @@
       "path": "skills/churn-prevention/SKILL.md"
     },
     {
+      "id": "ci",
+      "name": "playwright-ci",
+      "description": "Production-ready CI/CD configurations for Playwright — GitHub Actions, GitLab CI, CircleCI, Azure DevOps, Jenkins, Docker, parallel sharding, reporting, code coverage, and global setup/teardown.",
+      "category": "infrastructure",
+      "subcategory": "containers",
+      "tags": [
+        "ci"
+      ],
+      "triggers": [
+        "ci",
+        "playwright",
+        "cd",
+        "configurations",
+        "github",
+        "actions",
+        "gitlab",
+        "circleci",
+        "azure",
+        "devops",
+        "jenkins",
+        "docker"
+      ],
+      "path": "skills/ci/SKILL.md"
+    },
+    {
       "id": "ci-cd-pipeline-builder",
       "name": "ci-cd-pipeline-builder",
       "description": "CI/CD Pipeline Builder",
@@ -16287,6 +16628,31 @@
         "environments"
       ],
       "path": "skills/claude.ai/vercel-deploy-claimable/SKILL.md"
+    },
+    {
+      "id": "claymorphism",
+      "name": "claymorphism",
+      "description": "Web and App implementation guide for Claymorphism. Trigger when user wants soft 3D elements, rounded shapes, and a playful, tactile appearance.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "claymorphism"
+      ],
+      "triggers": [
+        "claymorphism",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "soft",
+        "3d",
+        "elements",
+        "rounded",
+        "shapes",
+        "playful"
+      ],
+      "path": "skills/claymorphism/SKILL.md"
     },
     {
       "id": "clean-code",
@@ -17536,6 +17902,32 @@
       "path": "skills/cold-email/SKILL.md"
     },
     {
+      "id": "collab-proof",
+      "name": "collab-proof",
+      "description": "Use when you want to understand what Claude contributed vs what you drove in a session. Triggers on: /collab-proof, session retrospective, ai contribution analysis, collaboration evidence, what did claude do.",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "collab",
+        "proof"
+      ],
+      "triggers": [
+        "collab",
+        "proof",
+        "want",
+        "understand",
+        "what",
+        "claude",
+        "contributed",
+        "vs",
+        "drove",
+        "session",
+        "triggers",
+        "retrospective"
+      ],
+      "path": "skills/collab-proof/SKILL.md"
+    },
+    {
       "id": "collision-zone-thinking",
       "name": "collision-zone-thinking",
       "description": "Force unrelated concepts together to discover emergent properties - \"What if we treated X like Y?\"",
@@ -17561,6 +17953,32 @@
         "we"
       ],
       "path": "skills/collision-zone-thinking/SKILL.md"
+    },
+    {
+      "id": "color-blocking",
+      "name": "color-blocking",
+      "description": "Web and App implementation guide for Color Blocking. Trigger when user wants large color sections, striking layout divisions, and Mondrian-style grids.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "color",
+        "blocking"
+      ],
+      "triggers": [
+        "color",
+        "blocking",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "large",
+        "sections",
+        "striking",
+        "layout",
+        "divisions"
+      ],
+      "path": "skills/color-blocking/SKILL.md"
     },
     {
       "id": "comfyui-gateway",
@@ -17589,6 +18007,33 @@
         "caching"
       ],
       "path": "skills/comfyui-gateway/SKILL.md"
+    },
+    {
+      "id": "command-center-ui",
+      "name": "command-center-ui",
+      "description": "Web and App implementation guide for Command Center UI. Trigger when user wants monitoring systems, enterprise dashboards, NOCs, and global maps.",
+      "category": "infrastructure",
+      "subcategory": "observability",
+      "tags": [
+        "command",
+        "center",
+        "ui"
+      ],
+      "triggers": [
+        "command",
+        "center",
+        "ui",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "monitoring",
+        "enterprise",
+        "dashboards",
+        "nocs"
+      ],
+      "path": "skills/command-center-ui/SKILL.md"
     },
     {
       "id": "command-guide",
@@ -19650,6 +20095,25 @@
       "path": "skills/cpo-advisor/SKILL.md"
     },
     {
+      "id": "cpp",
+      "name": "cpp",
+      "description": "Language-specific super-code guidelines for cpp.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "cpp"
+      ],
+      "triggers": [
+        "cpp",
+        "language",
+        "specific",
+        "super",
+        "code",
+        "guidelines"
+      ],
+      "path": "skills/cpp/SKILL.md"
+    },
+    {
       "id": "cpp-coding-standards",
       "name": "cpp-coding-standards",
       "description": "基于C++核心指南（isocpp.github.io）的C++编码标准。在编写、审查或重构C++代码时使用，以强制实施现代、安全和惯用的实践。",
@@ -20380,6 +20844,25 @@
       "path": "skills/crypto-bd-agent/SKILL.md"
     },
     {
+      "id": "csharp",
+      "name": "csharp",
+      "description": "Language-specific super-code guidelines for csharp.",
+      "category": "development",
+      "subcategory": "dev-general",
+      "tags": [
+        "csharp"
+      ],
+      "triggers": [
+        "csharp",
+        "language",
+        "specific",
+        "super",
+        "code",
+        "guidelines"
+      ],
+      "path": "skills/csharp/SKILL.md"
+    },
+    {
       "id": "csharp-pro",
       "name": "csharp-pro",
       "description": "Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing. Use PROACTIVELY for C# refactoring, performance optimization, or complex .NET solutions.",
@@ -20761,6 +21244,57 @@
       "path": "skills/cv-tailor/SKILL.md"
     },
     {
+      "id": "cyber-y2k",
+      "name": "cyber-y2k",
+      "description": "Web and App implementation guide for Cyber Y2K. Trigger when user wants modern Y2K, holographic visuals, and glitch aesthetics.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "cyber",
+        "y2k"
+      ],
+      "triggers": [
+        "cyber",
+        "y2k",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "holographic",
+        "visuals",
+        "glitch",
+        "aesthetics"
+      ],
+      "path": "skills/cyber-y2k/SKILL.md"
+    },
+    {
+      "id": "cyberpunk-ui",
+      "name": "cyberpunk-ui",
+      "description": "Web and App implementation guide for Cyberpunk UI. Trigger when user wants neon colors, dark backgrounds, high-tech dystopian aesthetics, and hacking interfaces.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "cyberpunk",
+        "ui"
+      ],
+      "triggers": [
+        "cyberpunk",
+        "ui",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "neon",
+        "colors",
+        "dark",
+        "backgrounds",
+        "high"
+      ],
+      "path": "skills/cyberpunk-ui/SKILL.md"
+    },
+    {
       "id": "daily",
       "name": "daily",
       "description": "Documentation and capabilities reference for Daily",
@@ -20836,6 +21370,51 @@
       "path": "skills/daily-news-report/SKILL.md"
     },
     {
+      "id": "dark-mode",
+      "name": "dark-mode",
+      "description": "Web and App implementation guide for Dark Mode Design. Trigger when user wants dark surfaces, reduced eye strain, and premium sleek aesthetics.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "dark",
+        "mode"
+      ],
+      "triggers": [
+        "dark",
+        "mode",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "surfaces",
+        "reduced",
+        "eye",
+        "strain",
+        "premium"
+      ],
+      "path": "skills/dark-mode/SKILL.md"
+    },
+    {
+      "id": "dart",
+      "name": "dart",
+      "description": "Language-specific super-code guidelines for dart.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "dart"
+      ],
+      "triggers": [
+        "dart",
+        "language",
+        "specific",
+        "super",
+        "code",
+        "guidelines"
+      ],
+      "path": "skills/dart/SKILL.md"
+    },
+    {
       "id": "dart-flutter-patterns",
       "name": "dart-flutter-patterns",
       "description": "Production-ready Dart and Flutter patterns covering null safety, immutable state, async composition, widget architecture, popular state management frameworks (BLoC, Riverpod, Provider), GoRouter navigation, Dio networking, Freezed code generation, and clean architecture.",
@@ -20886,6 +21465,57 @@
         "platforms"
       ],
       "path": "skills/dashboard-builder/SKILL.md"
+    },
+    {
+      "id": "dashboard-design",
+      "name": "dashboard-design",
+      "description": "Web and App implementation guide for Dashboard Design. Trigger when user wants analytics-focused layouts, data visualization, and modular overview screens.",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "dashboard"
+      ],
+      "triggers": [
+        "dashboard",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "analytics",
+        "layouts",
+        "data",
+        "visualization",
+        "modular",
+        "overview"
+      ],
+      "path": "skills/dashboard-design/SKILL.md"
+    },
+    {
+      "id": "data-dense-design",
+      "name": "data-dense-design",
+      "description": "Web and App implementation guide for Data-Dense Design. Trigger when user wants professional tools, maximum information density, and expert interfaces (like Bloomberg terminals or IDEs).",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "data",
+        "dense"
+      ],
+      "triggers": [
+        "data",
+        "dense",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "professional",
+        "maximum",
+        "information",
+        "density",
+        "interfaces"
+      ],
+      "path": "skills/data-dense-design/SKILL.md"
     },
     {
       "id": "data-engineer",
@@ -21961,6 +22591,31 @@
       "path": "skills/debugging-toolkit-smart-debug/SKILL.md"
     },
     {
+      "id": "debugview",
+      "name": "debugview",
+      "description": "Sysinternals DebugView CLI (DbgViewCli) for capturing and analyzing usermode and kernel-mode Windows debug output from the command line.\nUSE FOR: capturing OutputDebugString output, kernel DbgPrint/KdPrint capture, boot-time debug logging, remote debug monitoring, filtering debug output by PID or process name, crash dump analysis, automated debug capture with bounded execution.\nDO NOT USE FOR: non-Windows platforms, application-level logging frameworks (log4j, serilog), Azure Monitor or cloud telemetry, ETW tracing (use WPR/xperf instead), user-mode crash dumps (use WinDbg).\nTriggers: \"debug output\", \"DbgView\", \"DebugView\", \"kernel debug\", \"capture debug logs\", \"boot logging\", \"OutputDebugString\", \"DbgPrint\", \"KdPrint\", \"remote debug monitor\", \"debug capture CLI\".",
+      "category": "infrastructure",
+      "subcategory": "observability",
+      "tags": [
+        "debugview"
+      ],
+      "triggers": [
+        "debugview",
+        "sysinternals",
+        "cli",
+        "dbgviewcli",
+        "capturing",
+        "analyzing",
+        "usermode",
+        "kernel",
+        "mode",
+        "windows",
+        "debug",
+        "output"
+      ],
+      "path": "skills/debugview/SKILL.md"
+    },
+    {
       "id": "decision-logger",
       "name": "decision-logger",
       "description": "Two-layer memory architecture for board meeting decisions. Manages raw transcripts (Layer 1) and approved decisions (Layer 2). Use when logging decisions after a board meeting, reviewing past decisions with /cs:decisions, or checking overdue action items with /cs:review. Invoked automatically by ...",
@@ -22011,6 +22666,32 @@
         "concrete"
       ],
       "path": "skills/decision-navigator/SKILL.md"
+    },
+    {
+      "id": "declarative-agent-developer",
+      "name": "declarative-agent-developer",
+      "description": "Create, build, deploy, and localize declarative agents for M365 Copilot and Teams. USE THIS SKILL for ANY task involving a declarative agent — including localization, scaffolding, editing manifests, adding capabilities, and deploying. Localization requires tokenized manifests and language files that only this skill knows how to produce. Triggers: \"create agent\", \"create a declarative agent\", \"new declarative agent\", \"scaffold an agent\", \"new agent project\", \"add a capability\", \"add a plugin\", \"configure my agent\", \"deploy my agent\", \"fix my agent manifest\", \"edit my agent\", \"localize my agent\", \"add localization\", \"translate my agent\", \"multi-language agent\", \"add an API plugin\", \"add an MCP plugin\", \"add OAuth to my plugin\", \"review instructions\", \"improve instructions\", \"fix my instructions\"",
+      "category": "development",
+      "subcategory": "dev-general",
+      "tags": [
+        "declarative",
+        "agent"
+      ],
+      "triggers": [
+        "declarative",
+        "agent",
+        "developer",
+        "deploy",
+        "localize",
+        "agents",
+        "m365",
+        "copilot",
+        "teams",
+        "skill",
+        "any",
+        "task"
+      ],
+      "path": "skills/declarative-agent-developer/SKILL.md"
     },
     {
       "id": "deep-module-refactor",
@@ -22194,6 +22875,52 @@
         "save"
       ],
       "path": "skills/defuddle/SKILL.md"
+    },
+    {
+      "id": "delivery-gate",
+      "name": "delivery-gate",
+      "description": "Stop hook that blocks Claude from finishing until quality checks pass. Detects rationalization patterns (surface text heuristics), stale learning logs (filesystem mtime), and low disk space. Complements self-audit by mechanically enforcing learning capture habits.",
+      "category": "architecture",
+      "subcategory": null,
+      "tags": [
+        "delivery",
+        "gate"
+      ],
+      "triggers": [
+        "delivery",
+        "gate",
+        "stop",
+        "hook",
+        "blocks",
+        "claude",
+        "finishing",
+        "until",
+        "quality",
+        "checks",
+        "pass",
+        "detects"
+      ],
+      "path": "skills/delivery-gate/SKILL.md"
+    },
+    {
+      "id": "dep",
+      "name": "dep",
+      "description": "Handles containerization, CI/CD pipelines, and deployment setup.",
+      "category": "infrastructure",
+      "subcategory": "infra-general",
+      "tags": [
+        "dep"
+      ],
+      "triggers": [
+        "dep",
+        "containerization",
+        "ci",
+        "cd",
+        "pipelines",
+        "deployment",
+        "setup"
+      ],
+      "path": "skills/dep/SKILL.md"
     },
     {
       "id": "dependency-auditor",
@@ -23849,6 +24576,31 @@
         "correct"
       ],
       "path": "skills/design-orchestration/SKILL.md"
+    },
+    {
+      "id": "design-spec",
+      "name": "design-spec",
+      "description": "How to author a DESIGN.md file — the machine-readable design-token + human-rationale format that must exist before any UI is built. YAML front-matter token schema (colors, typography, spacing, rounded, components), type system, token references, and canonical section order.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "spec"
+      ],
+      "triggers": [
+        "spec",
+        "how",
+        "author",
+        "md",
+        "file",
+        "machine",
+        "readable",
+        "token",
+        "human",
+        "rationale",
+        "format",
+        "must"
+      ],
+      "path": "skills/design-spec/SKILL.md"
     },
     {
       "id": "design-spells",
@@ -25625,6 +26377,31 @@
       "path": "skills/dropbox-automation/SKILL.md"
     },
     {
+      "id": "duotone-design",
+      "name": "duotone-design",
+      "description": "Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "duotone"
+      ],
+      "triggers": [
+        "duotone",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "two",
+        "color",
+        "schemes",
+        "striking",
+        "imagery",
+        "spotify"
+      ],
+      "path": "skills/duotone-design/SKILL.md"
+    },
+    {
       "id": "dwarf-expert",
       "name": "dwarf-expert",
       "description": "Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF information, interacting with DWARF files, answering DWARF-related questions, or working with code that parses DWARF data.",
@@ -25788,6 +26565,32 @@
       "path": "skills/ecc-guide/SKILL.md"
     },
     {
+      "id": "ecc-recipes",
+      "name": "ecc-recipes",
+      "description": "Map a described workflow to the right ECC command-GROUP with run-order and stop condition, and browse all command-group recipe families. Adds a family-grouping + run-order + when-to-stop layer on top of the flat command catalog. Advisory only. TRIGGER when the user says which commands for X, what command group runs X, show ECC recipes, list ECC pipelines, or how do I run a workflow with ECC. DO NOT TRIGGER when the user wants the task executed directly, wants a single-command deep doc (use ecc-guide), or wants a draft prompt rewritten (use prompt-optimizer).",
+      "category": "workflow",
+      "subcategory": null,
+      "tags": [
+        "ecc",
+        "recipes"
+      ],
+      "triggers": [
+        "ecc",
+        "recipes",
+        "map",
+        "described",
+        "right",
+        "command",
+        "group",
+        "run",
+        "order",
+        "stop",
+        "condition",
+        "browse"
+      ],
+      "path": "skills/ecc-recipes/SKILL.md"
+    },
+    {
       "id": "ecc-tools-cost-audit",
       "name": "ecc-tools-cost-audit",
       "description": "Evidence-first ECC Tools burn and billing audit workflow. Use when investigating runaway PR creation, quota bypass, premium-model leakage, duplicate jobs, or GitHub App cost spikes in the ECC Tools repo.",
@@ -25842,6 +26645,31 @@
         "md"
       ],
       "path": "skills/ecl-harness-engineer/SKILL.md"
+    },
+    {
+      "id": "editorial-design",
+      "name": "editorial-design",
+      "description": "Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "editorial"
+      ],
+      "triggers": [
+        "editorial",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "magazine",
+        "inspired",
+        "layout",
+        "large",
+        "headlines",
+        "elegant"
+      ],
+      "path": "skills/editorial-design/SKILL.md"
     },
     {
       "id": "efficient-web-research",
@@ -25946,6 +26774,25 @@
         "architecture"
       ],
       "path": "skills/electron-development/SKILL.md"
+    },
+    {
+      "id": "elixir",
+      "name": "elixir",
+      "description": "Language-specific super-code guidelines for elixir.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "elixir"
+      ],
+      "triggers": [
+        "elixir",
+        "language",
+        "specific",
+        "super",
+        "code",
+        "guidelines"
+      ],
+      "path": "skills/elixir/SKILL.md"
     },
     {
       "id": "elixir-antipatterns",
@@ -30779,6 +31626,83 @@
       "path": "skills/fixing-motion-performance/SKILL.md"
     },
     {
+      "id": "flat-design",
+      "name": "flat-design",
+      "description": "Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "flat"
+      ],
+      "triggers": [
+        "flat",
+        "web",
+        "app",
+        "style",
+        "trigger",
+        "user",
+        "wants",
+        "no",
+        "shadows",
+        "simple",
+        "shapes",
+        "bold"
+      ],
+      "path": "skills/flat-design/SKILL.md"
+    },
+    {
+      "id": "flat-design-2",
+      "name": "flat-design-2",
+      "description": "Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "flat",
+        "2"
+      ],
+      "triggers": [
+        "flat",
+        "2",
+        "web",
+        "app",
+        "semi",
+        "trigger",
+        "user",
+        "wants",
+        "subtle",
+        "shadows",
+        "improved",
+        "usability"
+      ],
+      "path": "skills/flat-design-2/SKILL.md"
+    },
+    {
+      "id": "floating-ui",
+      "name": "floating-ui",
+      "description": "Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "floating",
+        "ui"
+      ],
+      "triggers": [
+        "floating",
+        "ui",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "detached",
+        "cards",
+        "elevated",
+        "components",
+        "light"
+      ],
+      "path": "skills/floating-ui/SKILL.md"
+    },
+    {
       "id": "flowhunt-skill",
       "name": "flowhunt-skill",
       "description": "Automation discovery audit skill. Walks through a 5-question workflow intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportunities. Use when a user wants to discover what processes in their business can be automated.",
@@ -32066,6 +32990,32 @@
       "path": "skills/frontend-api-integration-patterns/SKILL.md"
     },
     {
+      "id": "frontend-architecture",
+      "name": "frontend-architecture",
+      "description": "How to organize frontend code — separation of concerns (UI / logic / data / type), file responsibility, state tiers, API services, schema validation, and framework conventions for React/Next and Vue. Structural rules, not visual design.",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "frontend",
+        "architecture"
+      ],
+      "triggers": [
+        "frontend",
+        "architecture",
+        "how",
+        "organize",
+        "code",
+        "separation",
+        "concerns",
+        "ui",
+        "logic",
+        "data",
+        "type",
+        "file"
+      ],
+      "path": "skills/frontend-architecture/SKILL.md"
+    },
+    {
       "id": "frontend-design",
       "name": "frontend-design",
       "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
@@ -32382,6 +33332,32 @@
         "glassmorphism"
       ],
       "path": "skills/frontend-ui-dark-ts/SKILL.md"
+    },
+    {
+      "id": "frutiger-aero",
+      "name": "frutiger-aero",
+      "description": "Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "frutiger",
+        "aero"
+      ],
+      "triggers": [
+        "frutiger",
+        "aero",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "glossy",
+        "gradients",
+        "early",
+        "2000s",
+        "nature"
+      ],
+      "path": "skills/frutiger-aero/SKILL.md"
     },
     {
       "id": "fsharp-testing",
@@ -33134,6 +34110,34 @@
         "covers"
       ],
       "path": "skills/gemini-live-api-dev/SKILL.md"
+    },
+    {
+      "id": "gemini-omni-flash-api",
+      "name": "gemini-omni-flash-api",
+      "description": "Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg, stripping audio for full sound regeneration, and handling turn-by-turn video editing and parallel execution.",
+      "category": "development",
+      "subcategory": "dev-general",
+      "tags": [
+        "gemini",
+        "omni",
+        "flash",
+        "api"
+      ],
+      "triggers": [
+        "gemini",
+        "omni",
+        "flash",
+        "api",
+        "skill",
+        "generative",
+        "video",
+        "editing",
+        "text",
+        "image",
+        "referenced",
+        "generation"
+      ],
+      "path": "skills/gemini-omni-flash-api/SKILL.md"
     },
     {
       "id": "geminiignore-finops",
@@ -33967,6 +34971,31 @@
       "path": "skills/gitops-workflow/SKILL.md"
     },
     {
+      "id": "glassmorphism",
+      "name": "glassmorphism",
+      "description": "Web and App implementation guide for Glassmorphism. Trigger when user wants a frosted glass effect, blurred backgrounds, transparency, or a sleek MacOS-like feel.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "glassmorphism"
+      ],
+      "triggers": [
+        "glassmorphism",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "frosted",
+        "glass",
+        "effect",
+        "blurred",
+        "backgrounds",
+        "transparency"
+      ],
+      "path": "skills/glassmorphism/SKILL.md"
+    },
+    {
       "id": "global-chat-agent-discovery",
       "name": "global-chat-agent-discovery",
       "description": "Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server.",
@@ -34019,6 +35048,25 @@
         "required"
       ],
       "path": "skills/gmail-automation/SKILL.md"
+    },
+    {
+      "id": "go",
+      "name": "go",
+      "description": "Language-specific super-code guidelines for go.",
+      "category": "development",
+      "subcategory": "dev-general",
+      "tags": [
+        "go"
+      ],
+      "triggers": [
+        "go",
+        "language",
+        "specific",
+        "super",
+        "code",
+        "guidelines"
+      ],
+      "path": "skills/go/SKILL.md"
     },
     {
       "id": "go-concurrency-patterns",
@@ -34556,6 +35604,31 @@
       "path": "skills/gpt-taste/SKILL.md"
     },
     {
+      "id": "gradient-design",
+      "name": "gradient-design",
+      "description": "Web and App implementation guide for Gradient Design. Trigger when user wants heavy gradient usage, vibrant transitions, and modern energetic feels.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "gradient"
+      ],
+      "triggers": [
+        "gradient",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "heavy",
+        "usage",
+        "vibrant",
+        "transitions",
+        "energetic",
+        "feels"
+      ],
+      "path": "skills/gradient-design/SKILL.md"
+    },
+    {
       "id": "grafana-dashboards",
       "name": "grafana-dashboards",
       "description": "Create and manage production Grafana dashboards for real-time visualization of system and application metrics. Use when building monitoring dashboards, visualizing metrics, or creating operational observability interfaces.",
@@ -34712,6 +35785,32 @@
         "digitais"
       ],
       "path": "skills/growth-engine/SKILL.md"
+    },
+    {
+      "id": "growth-log",
+      "name": "growth-log",
+      "description": "Use after a complex task, failure, or when reviewing what was learned. Teaches how to write growth logs that extract reusable patterns — not diary entries.",
+      "category": "architecture",
+      "subcategory": null,
+      "tags": [
+        "growth",
+        "log"
+      ],
+      "triggers": [
+        "growth",
+        "log",
+        "after",
+        "complex",
+        "task",
+        "failure",
+        "reviewing",
+        "what",
+        "was",
+        "learned",
+        "teaches",
+        "how"
+      ],
+      "path": "skills/growth-log/SKILL.md"
     },
     {
       "id": "grpc-golang",
@@ -35570,6 +36669,32 @@
       "path": "skills/hig-technologies/SKILL.md"
     },
     {
+      "id": "high-contrast",
+      "name": "high-contrast",
+      "description": "Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "high",
+        "contrast"
+      ],
+      "triggers": [
+        "high",
+        "contrast",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "accessibility",
+        "extreme",
+        "legibility",
+        "stark",
+        "visual"
+      ],
+      "path": "skills/high-contrast/SKILL.md"
+    },
+    {
       "id": "high-end-visual-design",
       "name": "high-end-visual-design",
       "description": "Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions.",
@@ -35622,6 +36747,32 @@
         "around"
       ],
       "path": "skills/hipaa-compliance/SKILL.md"
+    },
+    {
+      "id": "holographic-ui",
+      "name": "holographic-ui",
+      "description": "Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "holographic",
+        "ui"
+      ],
+      "triggers": [
+        "holographic",
+        "ui",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "light",
+        "appearance",
+        "projected",
+        "interfaces",
+        "transparent"
+      ],
+      "path": "skills/holographic-ui/SKILL.md"
     },
     {
       "id": "homelab-network-readiness",
@@ -37275,6 +38426,32 @@
       "path": "skills/instagram-automation/SKILL.md"
     },
     {
+      "id": "install-atk",
+      "name": "install-atk",
+      "description": "Install or update the M365 Agents Toolkit (ATK) CLI and VS Code extension. Triggers: \"install atk\", \"update atk\", \"install agents toolkit\", \"update agents toolkit\", \"install the toolkit\", \"setup atk\", \"get atk\", \"install atk cli\", \"install atk extension\", \"install atk vsix\", \"update the vs code extension\", \"install latest atk\", \"upgrade atk\"",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "install",
+        "atk"
+      ],
+      "triggers": [
+        "install",
+        "atk",
+        "update",
+        "m365",
+        "agents",
+        "toolkit",
+        "cli",
+        "vs",
+        "code",
+        "extension",
+        "triggers",
+        "setup"
+      ],
+      "path": "skills/install-atk/SKILL.md"
+    },
+    {
       "id": "intelligent-routing",
       "name": "intelligent-routing",
       "description": "Automatic agent selection and intelligent task routing. Analyzes user requests and automatically selects the best specialist agent(s) without requiring explicit user mentions.",
@@ -37866,6 +39043,31 @@
         "interrogation"
       ],
       "path": "skills/iso27001-audit-prep/SKILL.md"
+    },
+    {
+      "id": "isometric-design",
+      "name": "isometric-design",
+      "description": "Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "isometric"
+      ],
+      "triggers": [
+        "isometric",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "angled",
+        "3d",
+        "appearances",
+        "without",
+        "vanishing",
+        "points"
+      ],
+      "path": "skills/isometric-design/SKILL.md"
     },
     {
       "id": "issue-creation",
@@ -38948,6 +40150,25 @@
       "path": "skills/kotler-macro-analyzer/SKILL.md"
     },
     {
+      "id": "kotlin",
+      "name": "kotlin",
+      "description": "Language-specific super-code guidelines for kotlin.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "kotlin"
+      ],
+      "triggers": [
+        "kotlin",
+        "language",
+        "specific",
+        "super",
+        "code",
+        "guidelines"
+      ],
+      "path": "skills/kotlin/SKILL.md"
+    },
+    {
       "id": "kotlin-coroutines-expert",
       "name": "kotlin-coroutines-expert",
       "description": "Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing.",
@@ -39763,6 +40984,31 @@
         "market"
       ],
       "path": "skills/launch-strategy/SKILL.md"
+    },
+    {
+      "id": "layered-design",
+      "name": "layered-design",
+      "description": "Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "layered"
+      ],
+      "triggers": [
+        "layered",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "multiple",
+        "depth",
+        "levels",
+        "floating",
+        "panels",
+        "overlapping"
+      ],
+      "path": "skills/layered-design/SKILL.md"
     },
     {
       "id": "lead-intelligence",
@@ -41349,6 +42595,22 @@
       "path": "skills/loop/SKILL.md"
     },
     {
+      "id": "loop-design-check",
+      "name": "loop-design-check",
+      "description": "",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "loop",
+        "check"
+      ],
+      "triggers": [
+        "loop",
+        "check"
+      ],
+      "path": "skills/loop-design-check/SKILL.md"
+    },
+    {
       "id": "loop-library",
       "name": "loop-library",
       "description": "Find, compare, adapt, and design bounded AI-agent feedback loops with explicit checks, stop rules, guardrails, and handoffs.",
@@ -41430,6 +42692,53 @@
         "swaps"
       ],
       "path": "skills/lovable-cleanup/SKILL.md"
+    },
+    {
+      "id": "luna",
+      "name": "luna",
+      "description": "Reviews code for objective correctness, security, and reliability.",
+      "category": "security",
+      "subcategory": null,
+      "tags": [
+        "luna"
+      ],
+      "triggers": [
+        "luna",
+        "reviews",
+        "code",
+        "objective",
+        "correctness",
+        "security",
+        "reliability"
+      ],
+      "path": "skills/luna/SKILL.md"
+    },
+    {
+      "id": "m365-agent-evaluator",
+      "name": "m365-agent-evaluator",
+      "description": "Use this skill when a user wants to create, run, or analyze evaluation suites for Microsoft 365 Copilot declarative agents with the public @microsoft/m365-copilot-eval CLI. Trigger on intents such as \"evaluate my agent\", \"test my agent\", \"run my evals\", \"create eval prompts\", \"add multi-turn tests\", \"tune evaluator thresholds\", \"why is my agent failing\", or \"set up eval environment variables\".",
+      "category": "testing",
+      "subcategory": null,
+      "tags": [
+        "m365",
+        "agent",
+        "evaluator"
+      ],
+      "triggers": [
+        "m365",
+        "agent",
+        "evaluator",
+        "skill",
+        "user",
+        "wants",
+        "run",
+        "analyze",
+        "evaluation",
+        "suites",
+        "microsoft",
+        "365"
+      ],
+      "path": "skills/m365-agent-evaluator/SKILL.md"
     },
     {
       "id": "m365-agents-dotnet",
@@ -41707,6 +43016,33 @@
         "via"
       ],
       "path": "skills/mailchimp-automation/SKILL.md"
+    },
+    {
+      "id": "mailtrap-email-integration",
+      "name": "mailtrap-email-integration",
+      "description": "Guides agents through integrating transactional email sending via Mailtrap's Email API, including sandbox testing, domain verification, and API authentication. Use when implementing email-sending features, debugging delivery issues, or setting up safe dev/staging email testing.",
+      "category": "development",
+      "subcategory": "dev-general",
+      "tags": [
+        "mailtrap",
+        "email",
+        "integration"
+      ],
+      "triggers": [
+        "mailtrap",
+        "email",
+        "integration",
+        "guides",
+        "agents",
+        "through",
+        "integrating",
+        "transactional",
+        "sending",
+        "via",
+        "api",
+        "including"
+      ],
+      "path": "skills/mailtrap-email-integration/SKILL.md"
     },
     {
       "id": "mailtrap-managing-contacts",
@@ -42297,6 +43633,38 @@
         "hand"
       ],
       "path": "skills/manim-video/SKILL.md"
+    },
+    {
+      "id": "markdown-html-orchestrator",
+      "name": "markdown-html-orchestrator",
+      "description": "Use when a user wants to convert any markdown file in their Claude project into a single-file, lightly-interactive HTML — long-form documents (specs, plans, RFCs, reports, explainers), code reviews with diffs and severity-tagged annotations, or slide decks. Triggers on \"convert this markdown to HTML\", \"make this an HTML file\", \"turn this into an interactive document\", \"render this report as HTML\", \"PR writeup as HTML\", \"slides from this markdown\". Forks context to route to one of three converter sub-skills (md-document, md-review, md-slides) based on a deterministic doctype classifier, after the user has run the design-system onboarding once. Refuses if input is under 100 lines (per Shihipar — markdown still wins below the threshold) or design-system isn't onboarded. Distinct from Anthropic's official Playground plugin (which is interactive prompt-tuning controls with sliders/knobs/prompt-copy-back) and from marketing/landing/ (which is a landing-page generator).",
+      "category": "business",
+      "subcategory": null,
+      "tags": [
+        "markdown",
+        "html",
+        "converter",
+        "orchestrator",
+        "documentation",
+        "code-review",
+        "slides",
+        "design-system"
+      ],
+      "triggers": [
+        "markdown",
+        "html",
+        "converter",
+        "orchestrator",
+        "documentation",
+        "code-review",
+        "slides",
+        "design-system",
+        "user",
+        "wants",
+        "convert",
+        "any"
+      ],
+      "path": "skills/markdown-html-orchestrator/SKILL.md"
     },
     {
       "id": "market-research",
@@ -43756,6 +45124,27 @@
       "path": "skills/marketing-strategy-pmm/SKILL.md"
     },
     {
+      "id": "mason",
+      "name": "mason",
+      "description": "Produces clean, functional code that matches the architecture and checklists.",
+      "category": "architecture",
+      "subcategory": null,
+      "tags": [
+        "mason"
+      ],
+      "triggers": [
+        "mason",
+        "produces",
+        "clean",
+        "functional",
+        "code",
+        "matches",
+        "architecture",
+        "checklists"
+      ],
+      "path": "skills/mason/SKILL.md"
+    },
+    {
       "id": "matematico-tao",
       "name": "matematico-tao",
       "description": "Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria das categorias, probabilidade bayesiana e lógica formal.",
@@ -43782,6 +45171,31 @@
         "inspirado"
       ],
       "path": "skills/matematico-tao/SKILL.md"
+    },
+    {
+      "id": "material-design",
+      "name": "material-design",
+      "description": "Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "material"
+      ],
+      "triggers": [
+        "material",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "google",
+        "aesthetic",
+        "elevation",
+        "motion",
+        "consistent",
+        "components"
+      ],
+      "path": "skills/material-design/SKILL.md"
     },
     {
       "id": "mathguard",
@@ -43838,6 +45252,28 @@
       "path": "skills/matplotlib/SKILL.md"
     },
     {
+      "id": "max",
+      "name": "max",
+      "description": "Cleans up and improves existing code without changing behavior.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "max"
+      ],
+      "triggers": [
+        "max",
+        "cleans",
+        "up",
+        "improves",
+        "existing",
+        "code",
+        "without",
+        "changing",
+        "behavior"
+      ],
+      "path": "skills/max/SKILL.md"
+    },
+    {
       "id": "maxia",
       "name": "maxia",
       "description": "Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services. Earn USDC. 13 MCP tools, A2A protocol, DeFi yields, sentiment analysis, rug detection.",
@@ -43869,6 +45305,31 @@
         "ai"
       ],
       "path": "skills/maxia/SKILL.md"
+    },
+    {
+      "id": "maximalism",
+      "name": "maximalism",
+      "description": "Web and App implementation guide for Controlled Maximalism. Trigger when user wants lots of elements, dense content, but a highly curated and artistic presentation.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "maximalism"
+      ],
+      "triggers": [
+        "maximalism",
+        "web",
+        "app",
+        "controlled",
+        "trigger",
+        "user",
+        "wants",
+        "lots",
+        "elements",
+        "dense",
+        "content",
+        "highly"
+      ],
+      "path": "skills/maximalism/SKILL.md"
     },
     {
       "id": "mcp-builder",
@@ -43997,6 +45458,88 @@
         "servers"
       ],
       "path": "skills/mcp-tool-developer/SKILL.md"
+    },
+    {
+      "id": "md-document",
+      "name": "md-document",
+      "description": "Converts long-form markdown (specs, RFCs, reports, plans, explainers) into a single-file, lightly-interactive HTML document with sticky TOC, scrollspy, search filter, code-copy buttons, and design-system-driven brand tokens. Triggers when the markdown-html-orchestrator classifies an input as DOCUMENT, or when invoked directly via /cs:md-document. Reads the design-system config via config_loader.py and inlines the user's 12 derived CSS custom properties; refuses to render if onboarding hasn't run. Single-file output — Google Fonts + Prism.js CDN are the only externals; no framework runtime, no build step. Use after orchestrator routing or after design-system onboarding is confirmed.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "markdown",
+        "html",
+        "documentation",
+        "single-file",
+        "toc",
+        "scrollspy",
+        "search",
+        "code-copy",
+        "design-system"
+      ],
+      "triggers": [
+        "markdown",
+        "html",
+        "documentation",
+        "single-file",
+        "toc",
+        "scrollspy",
+        "search",
+        "code-copy",
+        "design-system",
+        "md",
+        "document",
+        "converts"
+      ],
+      "path": "skills/md-document/SKILL.md"
+    },
+    {
+      "id": "md-review",
+      "name": "md-review",
+      "description": "Converts a markdown PR writeup or code review (one with ```diff fenced blocks and severity-tagged > [!BLOCKER]/[!MAJOR]/[!MINOR]/[!NIT] callouts) into a single-file 2-column HTML review — unified-diff on the left, severity-tagged annotation cards on the right, top jump-nav listing every finding, mandatory named reviewer footer. Triggers when the markdown-html-orchestrator classifies an input as REVIEW, or when invoked directly via /cs:md-review. Refuses without explicit --reviewer (a code review must name a human), refuses if no diff hunks present (route to md-document instead), and refuses to encode severity in color only (every badge ships color + icon + aria-label per WCAG 1.4.1). Use after orchestrator routing.",
+      "category": "general",
+      "subcategory": "code-quality",
+      "tags": [
+        "markdown",
+        "html",
+        "code-review",
+        "diff",
+        "severity",
+        "annotations",
+        "single-file",
+        "design-system",
+        "wcag-1.4.1"
+      ],
+      "triggers": [
+        "markdown",
+        "html",
+        "code-review",
+        "diff",
+        "severity",
+        "annotations",
+        "single-file",
+        "design-system",
+        "wcag-1.4.1",
+        "md",
+        "review",
+        "converts"
+      ],
+      "path": "skills/md-review/SKILL.md"
+    },
+    {
+      "id": "md-slides",
+      "name": "md-slides",
+      "description": "",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "md",
+        "slides"
+      ],
+      "triggers": [
+        "md",
+        "slides"
+      ],
+      "path": "skills/md-slides/SKILL.md"
     },
     {
       "id": "mdr-745-specialist",
@@ -44698,6 +46241,31 @@
       "path": "skills/migrate-to-codex/SKILL.md"
     },
     {
+      "id": "migration",
+      "name": "playwright-migration",
+      "description": "Step-by-step migration guides for moving to Playwright from Cypress or Selenium/WebDriver — command mappings, architecture changes, and incremental adoption strategies.",
+      "category": "architecture",
+      "subcategory": null,
+      "tags": [
+        "migration"
+      ],
+      "triggers": [
+        "migration",
+        "playwright",
+        "step",
+        "guides",
+        "moving",
+        "cypress",
+        "selenium",
+        "webdriver",
+        "command",
+        "mappings",
+        "architecture",
+        "changes"
+      ],
+      "path": "skills/migration/SKILL.md"
+    },
+    {
       "id": "migration-architect",
       "name": "migration-architect",
       "description": "Migration Architect",
@@ -44737,6 +46305,31 @@
         "driven"
       ],
       "path": "skills/minecraft-bukkit-pro/SKILL.md"
+    },
+    {
+      "id": "minimalism",
+      "name": "minimalism",
+      "description": "Web and App implementation guide for the Minimalism design style. Trigger when the user wants simple layouts, lots of whitespace, few colors, and clear hierarchy.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "minimalism"
+      ],
+      "triggers": [
+        "minimalism",
+        "web",
+        "app",
+        "style",
+        "trigger",
+        "user",
+        "wants",
+        "simple",
+        "layouts",
+        "lots",
+        "whitespace",
+        "few"
+      ],
+      "path": "skills/minimalism/SKILL.md"
     },
     {
       "id": "minimalist-ui",
@@ -45315,6 +46908,32 @@
         "digitais"
       ],
       "path": "skills/monetization/SKILL.md"
+    },
+    {
+      "id": "monochromatic-ui",
+      "name": "monochromatic-ui",
+      "description": "Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "monochromatic",
+        "ui"
+      ],
+      "triggers": [
+        "monochromatic",
+        "ui",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "single",
+        "color",
+        "palette",
+        "high",
+        "elegance"
+      ],
+      "path": "skills/monochromatic-ui/SKILL.md"
     },
     {
       "id": "monopoly",
@@ -46242,6 +47861,32 @@
       "path": "skills/native-data-fetching/SKILL.md"
     },
     {
+      "id": "neo-brutalism",
+      "name": "neo-brutalism",
+      "description": "Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "neo",
+        "brutalism"
+      ],
+      "triggers": [
+        "neo",
+        "brutalism",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "thick",
+        "borders",
+        "hard",
+        "shadows",
+        "bright"
+      ],
+      "path": "skills/neo-brutalism/SKILL.md"
+    },
+    {
       "id": "neon-postgres",
       "name": "neon-postgres",
       "description": "Configure Prisma for Neon with connection pooling.",
@@ -46536,6 +48181,31 @@
         "graphs"
       ],
       "path": "skills/networkx/SKILL.md"
+    },
+    {
+      "id": "neumorphism",
+      "name": "neumorphism",
+      "description": "Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "neumorphism"
+      ],
+      "triggers": [
+        "neumorphism",
+        "web",
+        "app",
+        "soft",
+        "ui",
+        "trigger",
+        "user",
+        "wants",
+        "shadows",
+        "extruded",
+        "appearance",
+        "light"
+      ],
+      "path": "skills/neumorphism/SKILL.md"
     },
     {
       "id": "new-rails-project",
@@ -49252,6 +50922,20 @@
       "path": "skills/parallel-feature-development/SKILL.md"
     },
     {
+      "id": "patterns",
+      "name": "patterns",
+      "description": "Reference document for monopoly patterns.",
+      "category": "architecture",
+      "subcategory": null,
+      "tags": [],
+      "triggers": [
+        "reference",
+        "document",
+        "monopoly"
+      ],
+      "path": "skills/patterns/SKILL.md"
+    },
+    {
       "id": "payment-integration",
       "name": "payment-integration",
       "description": "Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features.",
@@ -49874,6 +51558,25 @@
       "path": "skills/photopea-embedded-editor/SKILL.md"
     },
     {
+      "id": "php",
+      "name": "php",
+      "description": "Language-specific super-code guidelines for php.",
+      "category": "development",
+      "subcategory": "dev-general",
+      "tags": [
+        "php"
+      ],
+      "triggers": [
+        "php",
+        "language",
+        "specific",
+        "super",
+        "code",
+        "guidelines"
+      ],
+      "path": "skills/php/SKILL.md"
+    },
+    {
       "id": "php-pro",
       "name": "php-pro",
       "description": "Write idiomatic PHP code with generators, iterators, SPL data structures, and modern OOP features. Use PROACTIVELY for high-performance PHP applications.",
@@ -50165,6 +51868,32 @@
         "screenshots"
       ],
       "path": "skills/playwright/SKILL.md"
+    },
+    {
+      "id": "playwright-cli",
+      "name": "playwright-cli",
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction using playwright-cli. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, extract information from web pages, mock network requests, manage browser sessions, or generate test code.",
+      "category": "infrastructure",
+      "subcategory": "infra-general",
+      "tags": [
+        "playwright",
+        "cli"
+      ],
+      "triggers": [
+        "playwright",
+        "cli",
+        "automates",
+        "browser",
+        "interactions",
+        "web",
+        "testing",
+        "form",
+        "filling",
+        "screenshots",
+        "data",
+        "extraction"
+      ],
+      "path": "skills/playwright-cli/SKILL.md"
     },
     {
       "id": "playwright-interactive",
@@ -50669,6 +52398,31 @@
         "ai"
       ],
       "path": "skills/polis-protocol/SKILL.md"
+    },
+    {
+      "id": "pom",
+      "name": "playwright-pom",
+      "description": "Page Object Model patterns for Playwright — when to use POM, how to structure page objects, and when fixtures or helpers are a better fit.",
+      "category": "architecture",
+      "subcategory": null,
+      "tags": [
+        "pom"
+      ],
+      "triggers": [
+        "pom",
+        "playwright",
+        "page",
+        "object",
+        "model",
+        "how",
+        "structure",
+        "objects",
+        "fixtures",
+        "helpers",
+        "better",
+        "fit"
+      ],
+      "path": "skills/pom/SKILL.md"
     },
     {
       "id": "popup-cro",
@@ -53355,6 +55109,25 @@
       "path": "skills/pytest/SKILL.md"
     },
     {
+      "id": "python",
+      "name": "python",
+      "description": "Language-specific super-code guidelines for python.",
+      "category": "development",
+      "subcategory": "python",
+      "tags": [
+        "python"
+      ],
+      "triggers": [
+        "python",
+        "language",
+        "specific",
+        "super",
+        "code",
+        "guidelines"
+      ],
+      "path": "skills/python/SKILL.md"
+    },
+    {
       "id": "python-anti-patterns",
       "name": "python-anti-patterns",
       "description": "Common Python anti-patterns to avoid. Use as a checklist when reviewing code, before finalizing implementations, or when debugging issues that might stem from known bad practices.",
@@ -53379,6 +55152,33 @@
         "issues"
       ],
       "path": "skills/python-anti-patterns/SKILL.md"
+    },
+    {
+      "id": "python-appservice-deploy",
+      "name": "python-appservice-deploy",
+      "description": "Deploy Python (Flask/Django/FastAPI) code to Azure App Service Linux. WHEN: \"Flask App Service\", \"Django App Service\", \"FastAPI App Service\", \"deploy Python to App Service\". DO NOT USE FOR: Container Apps, Functions, non-Python, Terraform/Bicep/IaC, full infra — use azure-prepare.",
+      "category": "infrastructure",
+      "subcategory": "containers",
+      "tags": [
+        "python",
+        "appservice",
+        "deploy"
+      ],
+      "triggers": [
+        "python",
+        "appservice",
+        "deploy",
+        "flask",
+        "django",
+        "fastapi",
+        "code",
+        "azure",
+        "app",
+        "linux",
+        "do",
+        "container"
+      ],
+      "path": "skills/python-appservice-deploy/SKILL.md"
     },
     {
       "id": "python-background-jobs",
@@ -54272,6 +56072,26 @@
         "pr"
       ],
       "path": "skills/quarkus-verification/SKILL.md"
+    },
+    {
+      "id": "quinn",
+      "name": "quinn",
+      "description": "Proves the system works by writing and executing comprehensive test suites.",
+      "category": "testing",
+      "subcategory": null,
+      "tags": [
+        "quinn"
+      ],
+      "triggers": [
+        "quinn",
+        "proves",
+        "works",
+        "writing",
+        "executing",
+        "test",
+        "suites"
+      ],
+      "path": "skills/quinn/SKILL.md"
     },
     {
       "id": "r2-upload",
@@ -55205,6 +57025,32 @@
         "apps"
       ],
       "path": "skills/react-native-design/SKILL.md"
+    },
+    {
+      "id": "react-native-patterns",
+      "name": "react-native-patterns",
+      "description": "React Native and Expo app patterns — Expo Router navigation, state separation (server/client/route/form), TanStack Query data fetching with Zod, performant lists, NativeWind/StyleSheet styling, native APIs, and secure storage. Use when building or editing React Native / Expo screens, components, navigation, or data layers.",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "react",
+        "native"
+      ],
+      "triggers": [
+        "react",
+        "native",
+        "expo",
+        "app",
+        "router",
+        "navigation",
+        "state",
+        "separation",
+        "server",
+        "client",
+        "route",
+        "form"
+      ],
+      "path": "skills/react-native-patterns/SKILL.md"
     },
     {
       "id": "react-native-skills",
@@ -56500,6 +58346,57 @@
       "path": "skills/responsive-design/SKILL.md"
     },
     {
+      "id": "retro-design",
+      "name": "retro-design",
+      "description": "Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "retro"
+      ],
+      "triggers": [
+        "retro",
+        "web",
+        "app",
+        "60s",
+        "80s",
+        "trigger",
+        "user",
+        "wants",
+        "vintage",
+        "aesthetics",
+        "warm",
+        "muted"
+      ],
+      "path": "skills/retro-design/SKILL.md"
+    },
+    {
+      "id": "retro-futurism",
+      "name": "retro-futurism",
+      "description": "Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "retro",
+        "futurism"
+      ],
+      "triggers": [
+        "retro",
+        "futurism",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "vintage",
+        "future",
+        "concepts",
+        "1950s",
+        "space"
+      ],
+      "path": "skills/retro-futurism/SKILL.md"
+    },
+    {
       "id": "returns-reverse-logistics",
       "name": "returns-reverse-logistics",
       "description": "Codified expertise for returns authorization, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management. Informed by returns operations managers with 15+ years experience. Includes grading frameworks, disposition economics, fraud pattern rec...",
@@ -56604,6 +58501,27 @@
         "mentions"
       ],
       "path": "skills/revops/SKILL.md"
+    },
+    {
+      "id": "rex",
+      "name": "rex",
+      "description": "Translates user intent into a precise, unambiguous specification and requirements.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "rex"
+      ],
+      "triggers": [
+        "rex",
+        "translates",
+        "user",
+        "intent",
+        "precise",
+        "unambiguous",
+        "specification",
+        "requirements"
+      ],
+      "path": "skills/rex/SKILL.md"
     },
     {
       "id": "rich-elicitation",
@@ -56950,6 +58868,25 @@
         "code"
       ],
       "path": "skills/route-to-openapi/SKILL.md"
+    },
+    {
+      "id": "ruby",
+      "name": "ruby",
+      "description": "Language-specific super-code guidelines for ruby.",
+      "category": "development",
+      "subcategory": "dev-general",
+      "tags": [
+        "ruby"
+      ],
+      "triggers": [
+        "ruby",
+        "language",
+        "specific",
+        "super",
+        "code",
+        "guidelines"
+      ],
+      "path": "skills/ruby/SKILL.md"
     },
     {
       "id": "ruby-pro",
@@ -57628,6 +59565,25 @@
       "path": "skills/satori/SKILL.md"
     },
     {
+      "id": "scala",
+      "name": "scala",
+      "description": "Language-specific super-code guidelines for scala.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "scala"
+      ],
+      "triggers": [
+        "scala",
+        "language",
+        "specific",
+        "super",
+        "code",
+        "guidelines"
+      ],
+      "path": "skills/scala/SKILL.md"
+    },
+    {
       "id": "scala-pro",
       "name": "scala-pro",
       "description": "Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures. Use PROACTIVELY for Scala system design, performance optimization, or enterprise integration.",
@@ -57651,6 +59607,25 @@
         "apache"
       ],
       "path": "skills/scala-pro/SKILL.md"
+    },
+    {
+      "id": "scale-benchmarks",
+      "name": "scale-benchmarks",
+      "description": "Reference document for monopoly scale-benchmarks.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "scale",
+        "benchmarks"
+      ],
+      "triggers": [
+        "scale",
+        "benchmarks",
+        "reference",
+        "document",
+        "monopoly"
+      ],
+      "path": "skills/scale-benchmarks/SKILL.md"
     },
     {
       "id": "scale-game",
@@ -57887,6 +59862,33 @@
         "voice"
       ],
       "path": "skills/scholarly-writing-refiner/SKILL.md"
+    },
+    {
+      "id": "sci-fi-interface",
+      "name": "sci-fi-interface",
+      "description": "Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "sci",
+        "fi",
+        "interface"
+      ],
+      "triggers": [
+        "sci",
+        "fi",
+        "interface",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "huds",
+        "spacecraft",
+        "dashboards",
+        "tactical"
+      ],
+      "path": "skills/sci-fi-interface/SKILL.md"
     },
     {
       "id": "scientific-db-pubmed-database",
@@ -58715,6 +60717,25 @@
       "path": "skills/security-bounty-hunter/SKILL.md"
     },
     {
+      "id": "security-checklist",
+      "name": "security-checklist",
+      "description": "Reference document for monopoly security-checklist.",
+      "category": "security",
+      "subcategory": null,
+      "tags": [
+        "security",
+        "checklist"
+      ],
+      "triggers": [
+        "security",
+        "checklist",
+        "reference",
+        "document",
+        "monopoly"
+      ],
+      "path": "skills/security-checklist/SKILL.md"
+    },
+    {
       "id": "security-compliance-compliance-check",
       "name": "security-compliance-compliance-check",
       "description": "You are a compliance expert specializing in regulatory requirements for software systems including GDPR, HIPAA, SOC2, PCI-DSS, and other industry standards. Perform compliance audits and provide implementation guidance.",
@@ -59201,6 +61222,98 @@
         "target"
       ],
       "path": "skills/semgrep-rule-variant-creator/SKILL.md"
+    },
+    {
+      "id": "sendblue-api",
+      "name": "sendblue-api",
+      "description": "Send and receive iMessage, SMS, and RCS from application code via the Sendblue HTTP API — text, media, group messages, send styles, reactions, typing indicators, status callbacks, and inbound webhooks.",
+      "category": "development",
+      "subcategory": "dev-general",
+      "tags": [
+        "sendblue",
+        "imessage",
+        "sms",
+        "rcs",
+        "messaging",
+        "api",
+        "webhooks"
+      ],
+      "triggers": [
+        "sendblue",
+        "imessage",
+        "sms",
+        "rcs",
+        "messaging",
+        "api",
+        "webhooks",
+        "send",
+        "receive",
+        "application",
+        "code",
+        "via"
+      ],
+      "path": "skills/sendblue-api/SKILL.md"
+    },
+    {
+      "id": "sendblue-cli",
+      "name": "sendblue-cli",
+      "description": "Send iMessage and SMS from the shell via the @sendblue/cli npm package — outbound sends, contact management, and account setup with no API client or webhook server required.",
+      "category": "development",
+      "subcategory": "dev-general",
+      "tags": [
+        "sendblue",
+        "imessage",
+        "sms",
+        "cli",
+        "messaging",
+        "notifications"
+      ],
+      "triggers": [
+        "sendblue",
+        "imessage",
+        "sms",
+        "cli",
+        "messaging",
+        "notifications",
+        "send",
+        "shell",
+        "via",
+        "npm",
+        "package",
+        "outbound"
+      ],
+      "path": "skills/sendblue-cli/SKILL.md"
+    },
+    {
+      "id": "sendblue-notify",
+      "name": "sendblue-notify",
+      "description": "Text the user's phone when a long-running task, agent turn, or scheduled job finishes — via @sendblue/cli for outbound, optionally wired to a Claude Code Stop hook for automatic fire.",
+      "category": "workflow",
+      "subcategory": null,
+      "tags": [
+        "sendblue",
+        "imessage",
+        "sms",
+        "notifications",
+        "hooks",
+        "claude-code",
+        "automation"
+      ],
+      "triggers": [
+        "sendblue",
+        "imessage",
+        "sms",
+        "notifications",
+        "hooks",
+        "claude-code",
+        "automation",
+        "notify",
+        "text",
+        "user",
+        "phone",
+        "long"
+      ],
+      "path": "skills/sendblue-notify/SKILL.md"
     },
     {
       "id": "sendblue/sendblue-api",
@@ -61163,6 +63276,31 @@
       "path": "skills/site-architecture/SKILL.md"
     },
     {
+      "id": "skeuomorphism",
+      "name": "skeuomorphism",
+      "description": "Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "skeuomorphism"
+      ],
+      "triggers": [
+        "skeuomorphism",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "ui",
+        "mimic",
+        "real",
+        "world",
+        "objects",
+        "realistic"
+      ],
+      "path": "skills/skeuomorphism/SKILL.md"
+    },
+    {
       "id": "skill-audit",
       "name": "skill-audit",
       "description": "Pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.",
@@ -61943,6 +64081,33 @@
       "path": "skills/slack-gif-creator/SKILL.md"
     },
     {
+      "id": "slack-to-teams",
+      "name": "slack-to-teams",
+      "description": "Sub-skill of microsoft-365-agents-toolkit. Routed expert system with 100+ micro-expert files for migrating Slack bots to Teams, cross-platform bridging, and dual-platform bot development. USE FOR: migrating Slack bot to Teams, adding Teams support to Slack bot, building dual-platform bots, converting Block Kit to Adaptive Cards, identity/OAuth bridging, deploying bots to Azure or AWS, configuring AI model providers. DO NOT USE FOR: general web development, non-bot projects, standalone Teams development without Slack (use parent skill instead).",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "slack",
+        "to",
+        "teams"
+      ],
+      "triggers": [
+        "slack",
+        "to",
+        "teams",
+        "sub",
+        "skill",
+        "microsoft",
+        "365",
+        "agents",
+        "toolkit",
+        "routed",
+        "100",
+        "micro"
+      ],
+      "path": "skills/slack-to-teams/SKILL.md"
+    },
+    {
       "id": "sleep-analyzer",
       "name": "sleep-analyzer",
       "description": "分析睡眠数据、识别睡眠模式、评估睡眠质量，并提供个性化睡眠改善建议。支持与其他健康数据的关联分析。",
@@ -62443,6 +64608,32 @@
       "path": "skills/socialclaw/SKILL.md"
     },
     {
+      "id": "soft-pastel",
+      "name": "soft-pastel",
+      "description": "Web and App implementation guide for Soft Pastel Design. Trigger when user wants gentle colors, calming UI, baby/lifestyle branding, or low-contrast aesthetics.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "soft",
+        "pastel"
+      ],
+      "triggers": [
+        "soft",
+        "pastel",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "gentle",
+        "colors",
+        "calming",
+        "ui",
+        "baby"
+      ],
+      "path": "skills/soft-pastel/SKILL.md"
+    },
+    {
       "id": "software-architecture",
       "name": "software-architecture",
       "description": "Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development.",
@@ -62544,6 +64735,58 @@
         "performance"
       ],
       "path": "skills/spark-optimization/SKILL.md"
+    },
+    {
+      "id": "spatial-computing-ui",
+      "name": "spatial-computing-ui",
+      "description": "Web and App implementation guide for Spatial Computing UI. Trigger when user wants floating elements, environmental awareness, and Apple Vision Pro style.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "spatial",
+        "computing",
+        "ui"
+      ],
+      "triggers": [
+        "spatial",
+        "computing",
+        "ui",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "floating",
+        "elements",
+        "environmental",
+        "awareness"
+      ],
+      "path": "skills/spatial-computing-ui/SKILL.md"
+    },
+    {
+      "id": "spatial-design",
+      "name": "spatial-design",
+      "description": "Web and App implementation guide for Spatial Design. Trigger when user wants environment-aware layouts, Apple Vision Pro inspiration, and mixed reality aesthetics.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "spatial"
+      ],
+      "triggers": [
+        "spatial",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "environment",
+        "aware",
+        "layouts",
+        "apple",
+        "vision",
+        "pro"
+      ],
+      "path": "skills/spatial-design/SKILL.md"
     },
     {
       "id": "spawn",
@@ -64296,6 +66539,25 @@
       "path": "skills/sveltekit/SKILL.md"
     },
     {
+      "id": "swift",
+      "name": "swift",
+      "description": "Language-specific super-code guidelines for swift.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "swift"
+      ],
+      "triggers": [
+        "swift",
+        "language",
+        "specific",
+        "super",
+        "code",
+        "guidelines"
+      ],
+      "path": "skills/swift/SKILL.md"
+    },
+    {
       "id": "swift-actor-persistence",
       "name": "swift-actor-persistence",
       "description": "Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design.",
@@ -64542,6 +66804,31 @@
       "path": "skills/swiftui-view-refactor/SKILL.md"
     },
     {
+      "id": "swiss-design",
+      "name": "swiss-design",
+      "description": "Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "swiss"
+      ],
+      "triggers": [
+        "swiss",
+        "web",
+        "app",
+        "international",
+        "typographic",
+        "style",
+        "trigger",
+        "user",
+        "wants",
+        "strict",
+        "grid",
+        "strong"
+      ],
+      "path": "skills/swiss-design/SKILL.md"
+    },
+    {
       "id": "sympy",
       "name": "sympy",
       "description": "SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations.",
@@ -64565,6 +66852,31 @@
         "than"
       ],
       "path": "skills/sympy/SKILL.md"
+    },
+    {
+      "id": "synthwave",
+      "name": "synthwave",
+      "description": "Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "synthwave"
+      ],
+      "triggers": [
+        "synthwave",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "80s",
+        "inspired",
+        "neon",
+        "dark",
+        "backgrounds",
+        "outrun"
+      ],
+      "path": "skills/synthwave/SKILL.md"
     },
     {
       "id": "systematic-debugging",
@@ -65223,6 +67535,60 @@
       "path": "skills/team-composition-patterns/SKILL.md"
     },
     {
+      "id": "teams-app-developer",
+      "name": "teams-app-developer",
+      "description": "Builds, tests, and deploys Microsoft 365 apps and agents for Teams and Copilot. Includes sub-skills for project creation, local testing, cloud deployment, troubleshooting, and Slack-to-Teams migration. USE FOR: Teams agent, bot, tab, message extension, Declarative Agents, Custom Engine Agents, local testing, Agents Playground, Azure resource provision, remote deployment, Slack to Teams migration, cross-platform bot development, Block Kit to Adaptive Cards conversion. DO NOT USE FOR: general web development, non-bot/non-Teams projects.",
+      "category": "infrastructure",
+      "subcategory": "infra-general",
+      "tags": [
+        "teams",
+        "app"
+      ],
+      "triggers": [
+        "teams",
+        "app",
+        "developer",
+        "tests",
+        "deploys",
+        "microsoft",
+        "365",
+        "apps",
+        "agents",
+        "copilot",
+        "includes",
+        "sub"
+      ],
+      "path": "skills/teams-app-developer/SKILL.md"
+    },
+    {
+      "id": "teams-app-developer/slack-to-teams",
+      "name": "slack-to-teams",
+      "description": "Sub-skill of microsoft-365-agents-toolkit. Routed expert system with 100+ micro-expert files for migrating Slack bots to Teams, cross-platform bridging, and dual-platform bot development. USE FOR: migrating Slack bot to Teams, adding Teams support to Slack bot, building dual-platform bots, converting Block Kit to Adaptive Cards, identity/OAuth bridging, deploying bots to Azure or AWS, configuring AI model providers. DO NOT USE FOR: general web development, non-bot projects, standalone Teams development without Slack (use parent skill instead).",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "teams",
+        "app",
+        "developer/slack",
+        "to"
+      ],
+      "triggers": [
+        "teams",
+        "app",
+        "developer/slack",
+        "to",
+        "slack",
+        "sub",
+        "skill",
+        "microsoft",
+        "365",
+        "agents",
+        "toolkit",
+        "routed"
+      ],
+      "path": "skills/teams-app-developer/slack-to-teams/SKILL.md"
+    },
+    {
       "id": "tech-debt-tracker",
       "name": "tech-debt-tracker",
       "description": "Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code quality, refactoring priority, debt scoring, cleanup sprints, or code health assessment. Also use for legacy code modernization planning and maintena...",
@@ -65248,6 +67614,25 @@
         "prioritized"
       ],
       "path": "skills/tech-debt-tracker/SKILL.md"
+    },
+    {
+      "id": "tech-matrix",
+      "name": "tech-matrix",
+      "description": "Reference document for monopoly tech-matrix.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "tech",
+        "matrix"
+      ],
+      "triggers": [
+        "tech",
+        "matrix",
+        "reference",
+        "document",
+        "monopoly"
+      ],
+      "path": "skills/tech-matrix/SKILL.md"
     },
     {
       "id": "technical-blog-writing",
@@ -65957,6 +68342,38 @@
       "path": "skills/text-to-speech/SKILL.md"
     },
     {
+      "id": "textme",
+      "name": "textme",
+      "description": "Text Claude from your phone — set up the njerschow/textme daemon so inbound iMessages drive a Claude Code session on your laptop, with voice notes, image input, code execution, and a phone-number whitelist.",
+      "category": "workflow",
+      "subcategory": null,
+      "tags": [
+        "textme",
+        "sendblue",
+        "imessage",
+        "sms",
+        "claude-code",
+        "daemon",
+        "remote-control",
+        "automation"
+      ],
+      "triggers": [
+        "textme",
+        "sendblue",
+        "imessage",
+        "sms",
+        "claude-code",
+        "daemon",
+        "remote-control",
+        "automation",
+        "text",
+        "claude",
+        "phone",
+        "set"
+      ],
+      "path": "skills/textme/SKILL.md"
+    },
+    {
       "id": "the-honoured-one",
       "name": "the-honoured-one",
       "description": "Forces the AI to fully load context and read relevant files before performing complex, multi-file tasks, architectural changes, or debugging. Prevents acting on assumptions.",
@@ -66399,6 +68816,31 @@
         "post"
       ],
       "path": "skills/tiktok-automation/SKILL.md"
+    },
+    {
+      "id": "tile-design",
+      "name": "tile-design",
+      "description": "Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "tile"
+      ],
+      "triggers": [
+        "tile",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "microsoft",
+        "metro",
+        "style",
+        "sharp",
+        "square",
+        "information"
+      ],
+      "path": "skills/tile-design/SKILL.md"
     },
     {
       "id": "timeline-builder",
@@ -67237,6 +69679,32 @@
       "path": "skills/typescript-pro/SKILL.md"
     },
     {
+      "id": "typography-first",
+      "name": "typography-first",
+      "description": "Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "typography",
+        "first"
+      ],
+      "triggers": [
+        "typography",
+        "first",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "text",
+        "absolute",
+        "main",
+        "visual",
+        "element"
+      ],
+      "path": "skills/typography-first/SKILL.md"
+    },
+    {
       "id": "ui-a11y",
       "name": "ui-a11y",
       "description": "Audit a StyleSeed-based component or page for WCAG 2.2 AA issues and apply practical accessibility fixes where the code makes them safe.",
@@ -67642,6 +70110,32 @@
       "path": "skills/ui-visual-validator/SKILL.md"
     },
     {
+      "id": "ui-widget-developer",
+      "name": "ui-widget-developer",
+      "description": "Build MCP servers for Copilot Chat using the OpenAI Apps SDK or MCP Apps SDK widget rendering support (any language). Use this skill when:\n- Creating MCP servers that integrate with M365 Copilot declarative agents\n- Building rich interactive widgets (React + Fluent UI) that render in Copilot Chat\n- Implementing tools that return structuredContent for widget rendering\n- Adapting an existing MCP server to support Copilot widget rendering\n- Setting up devtunnels for localhost MCP server exposure\n- Configuring mcpPlugin.json manifests with RemoteMCPServer runtime\nDo NOT use this skill for general agent development (scaffolding, manifests, deployment) — use declarative-agent-developer instead. This skill is ONLY for MCP server + widget development.\nTriggers: \"MCP server for Copilot\", \"OpenAI Apps SDK\", \"Copilot widget\", \"structuredContent\", \"MCP plugin\", \"devtunnels MCP\", \"OAI app\", \"widget rendering\", \"UI widget\"",
+      "category": "infrastructure",
+      "subcategory": "infra-general",
+      "tags": [
+        "ui",
+        "widget"
+      ],
+      "triggers": [
+        "ui",
+        "widget",
+        "developer",
+        "mcp",
+        "servers",
+        "copilot",
+        "chat",
+        "openai",
+        "apps",
+        "sdk",
+        "rendering",
+        "any"
+      ],
+      "path": "skills/ui-widget-developer/SKILL.md"
+    },
+    {
       "id": "uncle-bob-craft",
       "name": "uncle-bob-craft",
       "description": "Use when performing code review, writing or refactoring code, or discussing architecture; complements clean-code and does not replace project linter/formatter.",
@@ -67855,6 +70349,32 @@
         "building"
       ],
       "path": "skills/unity-ecs-patterns/SKILL.md"
+    },
+    {
+      "id": "universal-scraping-architect",
+      "name": "universal-scraping-architect",
+      "description": "Use for web scraping, crawling, document extraction, API parsing, or building validation-heavy data pipelines using Firecrawl or local Python scripts.",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "universal",
+        "scraping"
+      ],
+      "triggers": [
+        "universal",
+        "scraping",
+        "architect",
+        "web",
+        "crawling",
+        "document",
+        "extraction",
+        "api",
+        "parsing",
+        "building",
+        "validation",
+        "heavy"
+      ],
+      "path": "skills/universal-scraping-architect/SKILL.md"
     },
     {
       "id": "unreal-engine-cpp-pro",
@@ -68332,6 +70852,31 @@
         "168"
       ],
       "path": "skills/uxui-principles/SKILL.md"
+    },
+    {
+      "id": "vaporwave",
+      "name": "vaporwave",
+      "description": "Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "vaporwave"
+      ],
+      "triggers": [
+        "vaporwave",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "neon",
+        "colors",
+        "retro",
+        "digital",
+        "aesthetics",
+        "90s"
+      ],
+      "path": "skills/vaporwave/SKILL.md"
     },
     {
       "id": "variant-analysis",
@@ -69065,6 +71610,32 @@
         "through"
       ],
       "path": "skills/viboscope/SKILL.md"
+    },
+    {
+      "id": "vibrant-maximalism",
+      "name": "vibrant-maximalism",
+      "description": "Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and \"more is more\".",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "vibrant",
+        "maximalism"
+      ],
+      "triggers": [
+        "vibrant",
+        "maximalism",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "rich",
+        "colors",
+        "dense",
+        "layouts",
+        "extreme"
+      ],
+      "path": "skills/vibrant-maximalism/SKILL.md"
     },
     {
       "id": "video",
@@ -70035,6 +72606,32 @@
       "path": "skills/webflow-automation/SKILL.md"
     },
     {
+      "id": "webinar-marketing",
+      "name": "webinar-marketing",
+      "description": "When the user wants to plan, promote, run, or improve a webinar or virtual event to generate and convert demand. Use when the user mentions 'webinar,' 'virtual event,' 'online event,' 'live demo,' 'virtual summit,' 'workshop,' 'masterclass,' 'fireside chat,' 'roundtable,' 'registration funnel,' 'show-up rate,' 'attendance rate,' 'webinar promotion,' 'webinar follow-up,' or 'on-demand webinar.' Also use when they have a webinar that isn't converting — low registrations, low show-up, or attendees who don't buy — and want to diagnose and fix it. Covers the full funnel: registration, promotion, show-up, live engagement, live-to-close, and post-event nurture. Distinct from launch-strategy (full product launches) and email-sequence (lifecycle nurture) — this is the end-to-end webinar/event motion. NOT for in-person field events logistics, and NOT for generic lifecycle email (use email-sequence).",
+      "category": "architecture",
+      "subcategory": null,
+      "tags": [
+        "webinar",
+        "marketing"
+      ],
+      "triggers": [
+        "webinar",
+        "marketing",
+        "user",
+        "wants",
+        "plan",
+        "promote",
+        "run",
+        "improve",
+        "virtual",
+        "event",
+        "generate",
+        "convert"
+      ],
+      "path": "skills/webinar-marketing/SKILL.md"
+    },
+    {
       "id": "wechat-official-account-strategist",
       "name": "wechat-official-account-strategist",
       "description": "Grow WeChat Official Accounts (微信公众号) with high-conversion content strategy, title formulas, article architecture, and Mini-Program integration.",
@@ -70181,6 +72778,32 @@
         "re"
       ],
       "path": "skills/when-stuck/SKILL.md"
+    },
+    {
+      "id": "widget-based-design",
+      "name": "widget-based-design",
+      "description": "Web and App implementation guide for Widget-Based Design. Trigger when user wants modular blocks, iOS Home Screen aesthetics, and customizable mini-apps.",
+      "category": "development",
+      "subcategory": "mobile",
+      "tags": [
+        "widget",
+        "based"
+      ],
+      "triggers": [
+        "widget",
+        "based",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "modular",
+        "blocks",
+        "ios",
+        "home",
+        "screen"
+      ],
+      "path": "skills/widget-based-design/SKILL.md"
     },
     {
       "id": "widget-generator",
@@ -71059,6 +73682,32 @@
       "path": "skills/writing-great-skills/SKILL.md"
     },
     {
+      "id": "writing-guidelines",
+      "name": "writing-guidelines",
+      "description": "Review docs/prose for Writing Guidelines compliance. Use when asked to \"review my docs\", \"check writing style\", \"audit prose\", \"review docs voice and tone\", or \"check this page against the writing handbook\".",
+      "category": "security",
+      "subcategory": null,
+      "tags": [
+        "writing",
+        "guidelines"
+      ],
+      "triggers": [
+        "writing",
+        "guidelines",
+        "review",
+        "docs",
+        "prose",
+        "compliance",
+        "asked",
+        "my",
+        "check",
+        "style",
+        "audit",
+        "voice"
+      ],
+      "path": "skills/writing-guidelines/SKILL.md"
+    },
+    {
       "id": "writing-plans",
       "name": "writing-plans",
       "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
@@ -71374,6 +74023,31 @@
         "data"
       ],
       "path": "skills/xvary-stock-research/SKILL.md"
+    },
+    {
+      "id": "y2k-design",
+      "name": "y2k-design",
+      "description": "Web and App implementation guide for Y2K Design. Trigger when user wants chrome effects, futuristic 2000s look, blob shapes, and tech optimism.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "y2k"
+      ],
+      "triggers": [
+        "y2k",
+        "web",
+        "app",
+        "trigger",
+        "user",
+        "wants",
+        "chrome",
+        "effects",
+        "futuristic",
+        "2000s",
+        "look",
+        "blob"
+      ],
+      "path": "skills/y2k-design/SKILL.md"
     },
     {
       "id": "yann-lecun",

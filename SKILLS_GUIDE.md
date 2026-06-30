@@ -1,6 +1,6 @@
 # Skills Guide
 
-> **2728 skills** documentadas · Actualizado: 2026-06-28
+> **2838 skills** documentadas · Actualizado: 2026-06-28
 
 > Fuentes por entrada: `SKILL.md` propio · `catalog.json` (repos externos) · stub (sin datos disponibles).
 
@@ -12,9 +12,9 @@
 - [Ai-Research (1)](#ai-research)
 - [Ai-Testing (1)](#ai-testing)
 - [Andruia (3)](#andruia)
-- [Api-Integration (3)](#api-integration)
+- [Api-Integration (5)](#api-integration)
 - [Architecture (6)](#architecture)
-- [Automation (1)](#automation)
+- [Automation (3)](#automation)
 - [Backend (1)](#backend)
 - [Blockchain (1)](#blockchain)
 - [Browser-Automation (1)](#browser-automation)
@@ -41,7 +41,7 @@
 - [Documentacion-De-Codigo (10)](#documentacion-de-codigo)
 - [Ecommerce (1)](#ecommerce)
 - [Education (4)](#education)
-- [External (194)](#external)
+- [External (196)](#external)
 - [Finance (2)](#finance)
 - [Framework (3)](#framework)
 - [Frontend (15)](#frontend)
@@ -79,7 +79,7 @@
 - [Testing (9)](#testing)
 - [Tool-Quality (1)](#tool-quality)
 - [Tools (1)](#tools)
-- [Uncategorized (2237)](#uncategorized)
+- [Uncategorized (2341)](#uncategorized)
 - [Video (1)](#video)
 - [Voice-Agents (1)](#voice-agents)
 - [Workflow (7)](#workflow)
@@ -335,7 +335,7 @@ _source: `personal` · risk: `safe`_
 
 ## Api-Integration
 
-_3 skills_
+_5 skills_
 
 ### `2slides-ppt-generator`
 
@@ -366,6 +366,34 @@ Use this skill when:
 - Designing auditable billing operations (finance/support-grade reporting).
 
 _source: `community` · risk: `safe` · tags: `saas`, `payments`, `pakistan`, `nextjs`, `b2b`_
+
+---
+### `sendblue-api`
+
+Send and receive iMessage, SMS, and RCS from application code via the Sendblue HTTP API — text, media, group messages, send styles, reactions, typing indicators, status callbacks, and inbound webhooks.
+
+**Cuándo usar:**
+
+- Use when writing application code (server, worker, function) that sends Sendblue messages as part of a long-running service.
+- Use when receiving inbound messages via webhooks.
+- Use when you need features the CLI does not expose: send styles, reactions, group messages, typing indicators, status callbacks, media uploads, or the contacts API beyond basic CRUD.
+- Reach for [[sendblue-cli]] instead for shell-context outbound: one-shot scripts, cron jobs, agent hooks, "ping me when X" workflows.
+
+_source: `community` · risk: `critical` · tags: `sendblue`, `imessage`, `sms`, `rcs`, `messaging`_
+
+---
+### `sendblue-cli`
+
+Send iMessage and SMS from the shell via the @sendblue/cli npm package — outbound sends, contact management, and account setup with no API client or webhook server required.
+
+**Cuándo usar:**
+
+- Use when the user wants to text a phone number from a script, shell, hook, or agent turn (e.g. "text me when X finishes", "ping my phone", "notify on completion").
+- Use when the user mentions `sendblue` as a CLI/binary or asks to set up the `@sendblue/cli` package.
+- Prefer this skill over [[sendblue-api]] when the work happens in a shell context, one-shot script, cron job, or agent hook.
+_[...]_
+
+_source: `community` · risk: `critical` · tags: `sendblue`, `imessage`, `sms`, `cli`, `messaging`_
 
 ---
 ### `youtube-full`
@@ -461,7 +489,7 @@ _source: `skills` · tags: `autoresearch`, `agent/skills/setup` · _datos: catá
 
 ## Automation
 
-_1 skills_
+_3 skills_
 
 ### `flowhunt-skill`
 
@@ -475,6 +503,35 @@ Automation discovery audit skill. Walks through a 5-question workflow intake, th
 - Use when the user says "show me automation opportunities" or "FlowHunt"
 
 _source: `community` · risk: `safe` · tags: `automation`, `discovery`, `audit`, `gmail`, `calendar`_
+
+---
+### `sendblue-notify`
+
+Text the user's phone when a long-running task, agent turn, or scheduled job finishes — via @sendblue/cli for outbound, optionally wired to a Claude Code Stop hook for automatic fire.
+
+**Cuándo usar:**
+
+- Use when the user says "text me when X is done", "ping my phone", "notify me on completion", "let me know when the build/deploy/migration finishes", or "send me an iMessage when…".
+- Use when the user asks to wire a hook that texts on agent stop, `/loop` iteration, or `/schedule` completion.
+- Use when an agent turn is genuinely long-running and the user has gone heads-down on something else.
+- Do **not** use for short, interactive tasks where the user is watching the terminal — the notify is noise.
+
+_source: `community` · risk: `critical` · tags: `sendblue`, `imessage`, `sms`, `notifications`, `hooks`_
+
+---
+### `textme`
+
+Text Claude from your phone — set up the njerschow/textme daemon so inbound iMessages drive a Claude Code session on your laptop, with voice notes, image input, code execution, and a phone-number whitelist.
+
+**Cuándo usar:**
+
+- Use when the user says "text Claude", "text my laptop", "drive Claude from my phone", "I want to send iMessages to Claude", or "let me code from my phone".
+- Use when the user is heads-down away from their desk and wants to kick off, supervise, or interrupt a Claude session via SMS/iMessage.
+- Use when setting up a long-running headless workstation that the user wants to remote-control while travelling or away from the keyboard.
+- Pair with [[sendblue-notify]] for bidirectional flow — outbound completion pings + inbound commands on the same Sendblue account.
+_[...]_
+
+_source: `community` · risk: `critical` · tags: `textme`, `sendblue`, `imessage`, `sms`, `claude-code`_
 
 ---
 
@@ -2235,7 +2292,7 @@ _source: `community` · risk: `safe` · tags: `education`, `workflow`, `coding-a
 
 ## External
 
-_194 skills_
+_196 skills_
 
 ### `adversarial-reviewer`
 
@@ -2714,6 +2771,20 @@ _source: `agents` · _datos: stub — sin datos__
 
 ---
 ### `cs-ux-researcher`
+
+_Descripción no disponible — skill de repositorio externo (`agents`)._
+
+_source: `agents` · _datos: stub — sin datos__
+
+---
+### `cs-webinar`
+
+_Descripción no disponible — skill de repositorio externo (`..`)._
+
+_source: `..` · _datos: stub — sin datos__
+
+---
+### `cs-webinar-marketer`
 
 _Descripción no disponible — skill de repositorio externo (`agents`)._
 
@@ -5604,7 +5675,7 @@ _source: `self` · risk: `critical` · tags: `android`, `cli`, `adb`, `mobile`, 
 
 ## Uncategorized
 
-_2237 skills_
+_2341 skills_
 
 ### `007`
 
@@ -5642,6 +5713,17 @@ _source: `community` · risk: `safe`_
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `3d-ui`
+
+Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `3d-web-experience`
@@ -6586,6 +6668,17 @@ Design spec with 98 rules for building CLI tools that AI agents can safely use. 
 _source: `https://github.com/ChaosRealmsAI/agent-cli-spec` · risk: `safe`_
 
 ---
+### `ai-native-ui`
+
+Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `ai-podcast-creation`
 
 Create AI-powered podcasts with text-to-speech, music, and audio editing. Tools: Kokoro TTS, DIA TTS, Chatterbox, AI music generation, media merger. Capabilities: multi-voice conversations, background music, intro/outro, full episodes. Use for: podcast production, audiobooks, voice content...
@@ -6806,6 +6899,13 @@ The AI native file format. EXIF for AI — stamps every file with trust scores, 
 Use this skill when you need to stamp, inspect, or audit provenance and trust metadata on AI-generated or AI-modified files for compliance, review, or handoff workflows.
 
 _source: `community` · risk: `safe` · tags: `trust`, `metadata`, `provenance`, `compliance`, `file-format`_
+
+---
+### `alex`
+
+Turns requirements into a precise, dependency-aware implementation plan.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `algolia-search`
@@ -7655,6 +7755,13 @@ Implement proven backend architecture patterns including Clean Architecture, Hex
 _source: `community` · risk: `safe`_
 
 ---
+### `aria`
+
+Designs the data model, API contracts, and structural foundation of the system.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `arm-cortex-expert`
 
 Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD). Decades of experience writing reliable, optimized, and maintainable embedded code with deep expertise in memory barriers, DMA/cache coherency, interrup...
@@ -7905,6 +8012,17 @@ Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805). Vis
 - When you need specialized assistance with this domain
 
 _source: `community` · risk: `none` · tags: `voice-assistant`, `product-vision`, `alexa`, `aws`_
+
+---
+### `aurora-ui`
+
+Web and App implementation guide for Aurora UI. Trigger when user wants gradient glows, color blobs, and atmospheric lighting effects.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `auth-implementation-patterns`
@@ -9936,6 +10054,13 @@ Triggers: "service bus", "ServiceBusClient", "queue", "topic", "subscription", "
 _source: `community` · risk: `safe`_
 
 ---
+### `azure-servicebus-rust`
+
+Azure Service Bus library for Rust. Send and receive messages using queues, topics, and subscriptions.
+Triggers: "service bus rust", "ServiceBusClient rust", "send message servicebus rust", "receive message servicebus rust", "queue rust messaging", "topic subscription rust".
+
+
+---
 ### `azure-servicebus-ts`
 
 Build messaging applications using Azure Service Bus SDK for JavaScript (@azure/service-bus). Use when implementing queues, topics/subscriptions, message sessions, dead-letter handling, or enterprise messaging patterns.
@@ -10077,6 +10202,13 @@ Triggers: "queue storage", "QueueServiceClient", "QueueClient", "message queue",
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `azure-storage-queue-rust`
+
+Azure Queue Storage library for Rust. Send, receive, and manage queue messages.
+Triggers: "queue storage rust", "QueueClient rust", "send message rust", "receive messages rust", "QueueServiceClient rust", "queue rust".
+
 
 ---
 ### `azure-storage-queue-ts`
@@ -10408,6 +10540,13 @@ Validates animation durations, enforces typography scale, checks component acces
 _source: `community` · risk: `safe`_
 
 ---
+### `bash`
+
+Language-specific super-code guidelines for bash.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `bash-defensive-patterns`
 
 Master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety.
@@ -10547,6 +10686,17 @@ Use after competitive-platform-analysis has produced a tiered competitor set. Sc
 ### `benchmark-optimization-loop`
 
 Use when the user asks to make something faster, try many variants, run recursive optimization, benchmark latency/throughput/cost, or choose the best implementation by repeated measured tests.
+
+---
+### `bento-ui`
+
+Web and App implementation guide for Bento UI. Trigger when user wants modular grid cards, Apple-like dashboard style, or sections arranged like a bento box.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `better-auth`
@@ -10988,6 +11138,28 @@ The `browser-use` command provides fast, persistent browser automation. It maint
 _source: `community` · risk: `safe`_
 
 ---
+### `brutalism`
+
+Web and App implementation guide for Brutalism. Trigger when user wants a raw appearance, intentionally unfinished look, and rejection of standard design conventions.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `brutalist-typography`
+
+Web and App implementation guide for Brutalist Typography. Trigger when user wants huge fonts, raw presentation, and aggressive layout decisions.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `bugs-are-annoying`
 
 Adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not style reviews.
@@ -11134,6 +11306,13 @@ How to use a Win32 build of BusyBox to run many of the standard UNIX command lin
 **Cuándo usar:**
 
 This skill is applicable to execute the workflow or actions described in the overview.
+
+_source: `community` · risk: `safe`_
+
+---
+### `c`
+
+Language-specific super-code guidelines for c.
 
 _source: `community` · risk: `safe`_
 
@@ -11338,6 +11517,17 @@ USE FOR: find capacity, check quota, where can I deploy, capacity discovery, bes
 **After discovery → hand off to [preset](../preset/SKILL.md) or [customize](../customize/SKILL.md) for actual deployment.**
 
 _source: `community` · risk: `safe`_
+
+---
+### `card-based-design`
+
+Web and App implementation guide for Card-Based Design. Trigger when user wants information cards, Pinterest-style layouts, and bite-sized content containers.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `carrier-relationship-management`
@@ -11637,6 +11827,11 @@ When the user wants to reduce churn, build cancellation flows, set up save offer
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `ci`
+
+Production-ready CI/CD configurations for Playwright — GitHub Actions, GitLab CI, CircleCI, Azure DevOps, Jenkins, Docker, parallel sharding, reporting, code coverage, and global setup/teardown.
 
 ---
 ### `ci-cd-pipeline-builder`
@@ -11965,6 +12160,17 @@ Windows 11 system management
 Use this skill when you need to work with windows 11 system management.
 
 _source: `https://github.com/NotMyself/claude-win11-speckit-update-skill` · risk: `safe`_
+
+---
+### `claymorphism`
+
+Web and App implementation guide for Claymorphism. Trigger when user wants soft 3D elements, rounded shapes, and a playful, tactile appearance.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `clean-code`
@@ -12542,6 +12748,11 @@ Write B2B cold emails and follow-up sequences that get replies. Use when the use
 _source: `community` · risk: `safe`_
 
 ---
+### `collab-proof`
+
+Use when you want to understand what Claude contributed vs what you drove in a session. Triggers on: /collab-proof, session retrospective, ai contribution analysis, collaboration evidence, what did claude do.
+
+---
 ### `collision-zone-thinking`
 
 Force unrelated concepts together to discover emergent properties - "What if we treated X like Y?"
@@ -12551,6 +12762,17 @@ Force unrelated concepts together to discover emergent properties - "What if we 
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `color-blocking`
+
+Web and App implementation guide for Color Blocking. Trigger when user wants large color sections, striking layout divisions, and Mondrian-style grids.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `comfyui-gateway`
@@ -12567,6 +12789,17 @@ REST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks
 - When the user mentions "queue imagens" or related topics
 
 _source: `community` · risk: `safe` · tags: `comfyui`, `api-gateway`, `image-generation`, `typescript`_
+
+---
+### `command-center-ui`
+
+Web and App implementation guide for Command Center UI. Trigger when user wants monitoring systems, enterprise dashboards, NOCs, and global maps.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `command-guide`
@@ -13542,6 +13775,13 @@ Product leadership for scaling companies. Product vision, portfolio strategy, pr
 _source: `community` · risk: `safe`_
 
 ---
+### `cpp`
+
+Language-specific super-code guidelines for cpp.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `cpp-coding-standards`
 
 基于C++核心指南（isocpp.github.io）的C++编码标准。在编写、审查或重构C++代码时使用，以强制实施现代、安全和惯用的实践。
@@ -13702,6 +13942,13 @@ Production-tested patterns for building AI agents that autonomously discover, > 
 - Managing BD pipelines with human-in-the-loop
 - Registering agents on-chain via ERC-8004
 - Implementing cost-efficient LLM cascades
+
+_source: `community` · risk: `safe`_
+
+---
+### `csharp`
+
+Language-specific super-code guidelines for csharp.
 
 _source: `community` · risk: `safe`_
 
@@ -13897,6 +14144,28 @@ _source: `community` · risk: `offensive`_
 Optimize resumes by matching keywords to the job description, rewriting experience with the quantified STAR method, and checking ATS compatibility. Triggered when users ask for resume help, review, or polishing, mention JD matching, STAR method, ATS, or want to tailor their resume for a specific role.
 
 ---
+### `cyber-y2k`
+
+Web and App implementation guide for Cyber Y2K. Trigger when user wants modern Y2K, holographic visuals, and glitch aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `cyberpunk-ui`
+
+Web and App implementation guide for Cyberpunk UI. Trigger when user wants neon colors, dark backgrounds, high-tech dystopian aesthetics, and hacking interfaces.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `daily`
 
 Documentation and capabilities reference for Daily
@@ -13915,6 +14184,24 @@ Scrapes content based on a preset URL list, filters high-quality technical infor
 **Cuándo usar:**
 
 This skill is applicable to execute the workflow or actions described in the overview.
+
+_source: `community` · risk: `safe`_
+
+---
+### `dark-mode`
+
+Web and App implementation guide for Dark Mode Design. Trigger when user wants dark surfaces, reduced eye strain, and premium sleek aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `dart`
+
+Language-specific super-code guidelines for dart.
 
 _source: `community` · risk: `safe`_
 
@@ -13948,6 +14235,28 @@ Build monitoring dashboards that answer real operator questions for Grafana, Sig
 - "Turn this metrics list into a real operational dashboard"
 
 _source: `community` · risk: `safe`_
+
+---
+### `dashboard-design`
+
+Web and App implementation guide for Dashboard Design. Trigger when user wants analytics-focused layouts, data visualization, and modular overview screens.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `data-dense-design`
+
+Web and App implementation guide for Data-Dense Design. Trigger when user wants professional tools, maximum information density, and expert interfaces (like Bloomberg terminals or IDEs).
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `data-engineer`
@@ -14439,6 +14748,15 @@ Use when working with debugging toolkit smart debug
 _source: `community` · risk: `safe`_
 
 ---
+### `debugview`
+
+Sysinternals DebugView CLI (DbgViewCli) for capturing and analyzing usermode and kernel-mode Windows debug output from the command line.
+USE FOR: capturing OutputDebugString output, kernel DbgPrint/KdPrint capture, boot-time debug logging, remote debug monitoring, filtering debug output by PID or process name, crash dump analysis, automated debug capture with bounded execution.
+DO NOT USE FOR: non-Windows platforms, application-level logging frameworks (log4j, serilog), Azure Monitor or cloud telemetry, ETW tracing (use WPR/xperf instead), user-mode crash dumps (use WinDbg).
+Triggers: "debug output", "DbgView", "DebugView", "kernel debug", "capture debug logs", "boot logging", "OutputDebugString", "DbgPrint", "KdPrint", "remote debug monitor", "debug capture CLI".
+
+
+---
 ### `decision-logger`
 
 Two-layer memory architecture for board meeting decisions. Manages raw transcripts (Layer 1) and approved decisions (Layer 2). Use when logging decisions after a board meeting, reviewing past decisions with /cs:decisions, or checking overdue action items with /cs:review. Invoked automatically by ...
@@ -14448,6 +14766,12 @@ Two-layer memory architecture for board meeting decisions. Manages raw transcrip
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `declarative-agent-developer`
+
+Create, build, deploy, and localize declarative agents for M365 Copilot and Teams. USE THIS SKILL for ANY task involving a declarative agent — including localization, scaffolding, editing manifests, adding capabilities, and deploying. Localization requires tokenized manifests and language files that only this skill knows how to produce. Triggers: "create agent", "create a declarative agent", "new declarative agent", "scaffold an agent", "new agent project", "add a capability", "add a plugin", "configure my agent", "deploy my agent", "fix my agent manifest", "edit my agent", "localize my agent", "add localization", "translate my agent", "multi-language agent", "add an API plugin", "add an MCP plugin", "add OAuth to my plugin", "review instructions", "improve instructions", "fix my instructions"
+
 
 ---
 ### `deep-module-refactor`
@@ -14514,6 +14838,18 @@ Extract clean markdown content from web pages using Defuddle CLI, removing clutt
 **Cuándo usar:**
 
 - Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `delivery-gate`
+
+Stop hook that blocks Claude from finishing until quality checks pass. Detects rationalization patterns (surface text heuristics), stale learning logs (filesystem mtime), and low disk space. Complements self-audit by mechanically enforcing learning capture habits.
+
+---
+### `dep`
+
+Handles containerization, CI/CD pipelines, and deployment setup.
 
 _source: `community` · risk: `safe`_
 
@@ -14671,6 +15007,11 @@ It **controls the flow between other skills**.
 ---
 
 _source: `community` · risk: `offensive`_
+
+---
+### `design-spec`
+
+How to author a DESIGN.md file — the machine-readable design-token + human-rationale format that must exist before any UI is built. YAML front-matter token schema (colors, typography, spacing, rounded, components), type system, token references, and canonical section order.
 
 ---
 ### `design-spells`
@@ -15351,6 +15692,17 @@ This skill is applicable to execute the workflow or actions described in the ove
 _source: `community` · risk: `safe`_
 
 ---
+### `duotone-design`
+
+Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `dwarf-expert`
 
 Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF information, interacting with DWARF files, answering DWARF-related questions, or working with code that parses DWARF data.
@@ -15438,6 +15790,11 @@ Use this skill when the user:
 - is confused by install paths, duplicate installs, reset/uninstall, or selective install options
 
 ---
+### `ecc-recipes`
+
+Map a described workflow to the right ECC command-GROUP with run-order and stop condition, and browse all command-group recipe families. Adds a family-grouping + run-order + when-to-stop layer on top of the flat command catalog. Advisory only. TRIGGER when the user says which commands for X, what command group runs X, show ECC recipes, list ECC pipelines, or how do I run a workflow with ECC. DO NOT TRIGGER when the user wants the task executed directly, wants a single-command deep doc (use ecc-guide), or wants a draft prompt rewritten (use prompt-optimizer).
+
+---
 ### `ecc-tools-cost-audit`
 
 Evidence-first ECC Tools burn and billing audit workflow. Use when investigating runaway PR creation, quota bypass, premium-model leakage, duplicate jobs, or GitHub App cost spikes in the ECC Tools repo.
@@ -15449,6 +15806,17 @@ Evidence-first ECC Tools burn and billing audit workflow. Use when investigating
 - a customer report says the app created too many PRs, billed incorrectly, or analyzed code without producing a usable result
 
 _source: `community` · risk: `safe`_
+
+---
+### `editorial-design`
+
+Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `efficient-web-research`
@@ -15502,6 +15870,13 @@ Master Electron desktop app development with secure IPC, contextIsolation, prelo
 **Cuándo usar:**
 
 This skill is applicable to execute the workflow or actions described in the overview.
+
+_source: `community` · risk: `safe`_
+
+---
+### `elixir`
+
+Language-specific super-code guidelines for elixir.
 
 _source: `community` · risk: `safe`_
 
@@ -16864,6 +17239,39 @@ Reference these guidelines when:
 _source: `community` · risk: `safe`_
 
 ---
+### `flat-design`
+
+Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `flat-design-2`
+
+Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `floating-ui`
+
+Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `flox-environments`
 
 Floxで再現可能なクロスプラットフォーム開発環境を作成します — Nixに基づく宣言的な環境マネージャー。次の場合は必ずこのスキルを使用してください: システムレベルの依存関係（コンパイラー、データベース、openssl・libvips・BLAS・LAPACKなどのネイティブライブラリー）を持つプロジェクトを設定する場合; Python、Node.js、Rust、Go、C/C++、Java、Ruby、Elixir、PHP、その他の言語の再現可能なツールチェーンを設定する場合; macOSとLinux間で同一に動作する環境を管理する場合...
@@ -17413,6 +17821,11 @@ Accessibility patterns for React and Next.js — semantic HTML, ARIA attributes,
 
 
 ---
+### `frontend-architecture`
+
+How to organize frontend code — separation of concerns (UI / logic / data / type), file responsibility, state tiers, API services, schema validation, and framework conventions for React/Next and Vue. Structural rules, not visual design.
+
+---
 ### `frontend-design`
 
 Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.
@@ -17589,6 +18002,17 @@ Build dark-themed React applications using Tailwind CSS with custom theming, gla
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `frutiger-aero`
+
+Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `fsharp-testing`
@@ -17788,6 +18212,11 @@ Use this skill when building real-time, bidirectional streaming applications wit
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `gemini-omni-flash-api`
+
+Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg, stripping audio for full sound regeneration, and handling turn-by-turn video editing and parallel execution.
 
 ---
 ### `generate`
@@ -18138,6 +18567,17 @@ Implement GitOps workflows with ArgoCD and Flux for automated, declarative Kuber
 _source: `community` · risk: `safe`_
 
 ---
+### `glassmorphism`
+
+Web and App implementation guide for Glassmorphism. Trigger when user wants a frosted glass effect, blurred backgrounds, transparency, or a sleek MacOS-like feel.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `gmail-automation`
 
 Lightweight Gmail integration with standalone OAuth authentication. No MCP server required.
@@ -18147,6 +18587,13 @@ Lightweight Gmail integration with standalone OAuth authentication. No MCP serve
 - You need to search, read, or send Gmail messages from the command line without an MCP server.
 - You are automating inbox workflows for a Google Workspace account.
 - You want a lightweight Gmail integration backed by standalone OAuth scripts.
+
+_source: `community` · risk: `safe`_
+
+---
+### `go`
+
+Language-specific super-code guidelines for go.
 
 _source: `community` · risk: `safe`_
 
@@ -18402,6 +18849,17 @@ This skill is applicable to execute the workflow or actions described in the ove
 _source: `community` · risk: `safe`_
 
 ---
+### `gradient-design`
+
+Web and App implementation guide for Gradient Design. Trigger when user wants heavy gradient usage, vibrant transitions, and modern energetic feels.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `grafana-dashboards`
 
 Create and manage production Grafana dashboards for real-time visualization of system and application metrics. Use when building monitoring dashboards, visualizing metrics, or creating operational observability interfaces.
@@ -18464,6 +18922,11 @@ Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral l
 - When you need specialized assistance with this domain
 
 _source: `community` · risk: `none` · tags: `growth`, `seo`, `marketing`, `viral`, `acquisition`_
+
+---
+### `growth-log`
+
+Use after a complex task, failure, or when reviewing what was learned. Teaches how to write growth logs that extract reusable patterns — not diary entries.
 
 ---
 ### `grpc-golang`
@@ -18893,6 +19356,17 @@ This skill is applicable to execute the workflow or actions described in the ove
 _source: `community` · risk: `safe`_
 
 ---
+### `high-contrast`
+
+Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `hipaa-compliance`
 
 HIPAA-specific entrypoint for healthcare privacy and security work. Use when a task is explicitly framed around HIPAA, PHI handling, covered entities, BAAs, breach posture, or US healthcare compliance requirements.
@@ -18905,6 +19379,17 @@ HIPAA-specific entrypoint for healthcare privacy and security work. Use when a t
 - Designing patient-facing or clinician-facing systems where minimum necessary access and auditability matter
 
 _source: `community` · risk: `offensive`_
+
+---
+### `holographic-ui`
+
+Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `homelab-network-readiness`
@@ -19661,6 +20146,12 @@ This skill is applicable to execute the workflow or actions described in the ove
 _source: `community` · risk: `safe`_
 
 ---
+### `install-atk`
+
+Install or update the M365 Agents Toolkit (ATK) CLI and VS Code extension. Triggers: "install atk", "update atk", "install agents toolkit", "update agents toolkit", "install the toolkit", "setup atk", "get atk", "install atk cli", "install atk extension", "install atk vsix", "update the vs code extension", "install latest atk", "upgrade atk"
+
+
+---
 ### `intelligent-routing`
 
 Automatic agent selection and intelligent task routing. Analyzes user requests and automatically selects the best specialist agent(s) without requiring explicit user mentions.
@@ -19935,6 +20426,17 @@ _source: `community` · risk: `offensive`_
 ### `iso27001-audit-prep`
 
 /cs:iso27001-audit-prep <scope> — ISO 27001 ISMS audit readiness 6-question forcing interrogation. Use before annual Clause 9.2 internal audit, surveillance audit prep, or stage 1 certification readiness.
+
+---
+### `isometric-design`
+
+Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `issue-creation`
@@ -20414,6 +20916,13 @@ Use this skill when you need guidance or automation for knowledge-ops.
 _source: `community` · risk: `safe`_
 
 ---
+### `kotlin`
+
+Language-specific super-code guidelines for kotlin.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `kotlin-coroutines-expert`
 
 Expert patterns for Kotlin Coroutines and Flow, covering structured concurrency, error handling, and testing.
@@ -20744,6 +21253,17 @@ When the user wants to plan a product launch, feature announcement, or release s
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `layered-design`
+
+Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `lead-intelligence`
@@ -21334,6 +21854,20 @@ Start an autonomous experiment loop with user-selected interval (10min, 1h, dail
 _source: `community` · risk: `offensive`_
 
 ---
+### `loop-design-check`
+
+**Cuándo usar:**
+
+**Use it when:**
+- You want to hand a repeating task to an agent that runs over and over (write→test, test→fix, fix→verify…).
+- You already have a loop and worry it spins, cheats, or runs a wrong answer to completion.
+
+**Don't use it for:**
+- A one-off task → just do it; don't wrap a loop around it.
+- A plain timer / poll → use `/loop`; no design needed.
+_[...]_
+
+---
 ### `loss-aversion-designer`
 
 One sentence - what this skill does and when to invoke it
@@ -21362,6 +21896,19 @@ Audits and strips Lovable scaffolding from Vite + React projects — removes lov
 ---
 
 _source: `community` · risk: `safe` · tags: `lovable`, `cleanup`, `vite`, `react`, `shadcn`_
+
+---
+### `luna`
+
+Reviews code for objective correctness, security, and reliability.
+
+_source: `community` · risk: `safe`_
+
+---
+### `m365-agent-evaluator`
+
+Use this skill when a user wants to create, run, or analyze evaluation suites for Microsoft 365 Copilot declarative agents with the public @microsoft/m365-copilot-eval CLI. Trigger on intents such as "evaluate my agent", "test my agent", "run my evals", "create eval prompts", "add multi-turn tests", "tune evaluator thresholds", "why is my agent failing", or "set up eval environment variables".
+
 
 ---
 ### `m365-agents-dotnet`
@@ -21505,6 +22052,11 @@ Automate Mailchimp email marketing including campaigns, audiences, subscribers, 
 This skill is applicable to execute the workflow or actions described in the overview.
 
 _source: `community` · risk: `safe`_
+
+---
+### `mailtrap-email-integration`
+
+Guides agents through integrating transactional email sending via Mailtrap's Email API, including sandbox testing, domain verification, and API authentication. Use when implementing email-sending features, debugging delivery issues, or setting up safe dev/staging email testing.
 
 ---
 ### `mailtrap-managing-contacts`
@@ -21808,6 +22360,13 @@ Use this skill when you need guidance or automation for manim-video.
 _source: `community` · risk: `safe`_
 
 ---
+### `markdown-html-orchestrator`
+
+Use when a user wants to convert any markdown file in their Claude project into a single-file, lightly-interactive HTML — long-form documents (specs, plans, RFCs, reports, explainers), code reviews with diffs and severity-tagged annotations, or slide decks. Triggers on "convert this markdown to HTML", "make this an HTML file", "turn this into an interactive document", "render this report as HTML", "PR writeup as HTML", "slides from this markdown". Forks context to route to one of three converter sub-skills (md-document, md-review, md-slides) based on a deterministic doctype classifier, after the user has run the design-system onboarding once. Refuses if input is under 100 lines (per Shihipar — markdown still wins below the threshold) or design-system isn't onboarded. Distinct from Anthropic's official Playground plugin (which is interactive prompt-tuning controls with sliders/knobs/prompt-copy-back) and from marketing/landing/ (which is a landing-page generator).
+
+_tags: `markdown`, `html`, `converter`, `orchestrator`, `documentation`_
+
+---
 ### `market-research`
 
 Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizing, competitor comparisons, fund research, technology scans, or research that informs business decisions.
@@ -21923,6 +22482,13 @@ Product marketing skill for positioning, GTM strategy, competitive intelligence,
 _source: `community` · risk: `safe`_
 
 ---
+### `mason`
+
+Produces clean, functional code that matches the architecture and checklists.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `matematico-tao`
 
 Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional, álgebra linear, análise estocástica, teoria das categorias, probabilidade bayesiana e lógica formal.
@@ -21937,6 +22503,17 @@ Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de códi
 - When the user mentions "teoria dos grafos" or related topics
 
 _source: `community` · risk: `none` · tags: `mathematics`, `code-analysis`, `algorithms`, `formal-methods`_
+
+---
+### `material-design`
+
+Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `mathguard`
@@ -21973,6 +22550,13 @@ This skill should be used when:
 _source: `community` · risk: `safe`_
 
 ---
+### `max`
+
+Cleans up and improves existing code without changing behavior.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `maxia`
 
 Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services. Earn USDC. 13 MCP tools, A2A protocol, DeFi yields, sentiment analysis, rug detection.
@@ -21987,6 +22571,17 @@ Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services
 - User asks about AI agent interoperability, A2A protocol, or MCP tools
 
 _source: `community` · risk: `safe` · tags: `solana`, `crypto`, `marketplace`, `ai-agents`, `mcp`_
+
+---
+### `maximalism`
+
+Web and App implementation guide for Controlled Maximalism. Trigger when user wants lots of elements, dense content, but a highly curated and artistic presentation.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `mcp-builder`
@@ -22035,6 +22630,25 @@ Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod va
 Use when: implementing a new MCP server, adding tools or resources, choosing stdio vs HTTP, upgrading the SDK, or debugging MCP registration and transport issues.
 
 _source: `community` · risk: `safe`_
+
+---
+### `md-document`
+
+Converts long-form markdown (specs, RFCs, reports, plans, explainers) into a single-file, lightly-interactive HTML document with sticky TOC, scrollspy, search filter, code-copy buttons, and design-system-driven brand tokens. Triggers when the markdown-html-orchestrator classifies an input as DOCUMENT, or when invoked directly via /cs:md-document. Reads the design-system config via config_loader.py and inlines the user's 12 derived CSS custom properties; refuses to render if onboarding hasn't run. Single-file output — Google Fonts + Prism.js CDN are the only externals; no framework runtime, no build step. Use after orchestrator routing or after design-system onboarding is confirmed.
+
+_tags: `markdown`, `html`, `documentation`, `single-file`, `toc`_
+
+---
+### `md-review`
+
+Converts a markdown PR writeup or code review (one with ```diff fenced blocks and severity-tagged > [!BLOCKER]/[!MAJOR]/[!MINOR]/[!NIT] callouts) into a single-file 2-column HTML review — unified-diff on the left, severity-tagged annotation cards on the right, top jump-nav listing every finding, mandatory named reviewer footer. Triggers when the markdown-html-orchestrator classifies an input as REVIEW, or when invoked directly via /cs:md-review. Refuses without explicit --reviewer (a code review must name a human), refuses if no diff hunks present (route to md-document instead), and refuses to encode severity in color only (every badge ships color + icon + aria-label per WCAG 1.4.1). Use after orchestrator routing.
+
+_tags: `markdown`, `html`, `code-review`, `diff`, `severity`_
+
+---
+### `md-slides`
+
+Converts a markdown deck (slides separated by `
 
 ---
 ### `mdr-745-specialist`
@@ -22313,6 +22927,11 @@ Use this skill when you need guidance or automation for migrate-to-codex.
 _source: `community` · risk: `safe`_
 
 ---
+### `migration`
+
+Step-by-step migration guides for moving to Playwright from Cypress or Selenium/WebDriver — command mappings, architecture changes, and incremental adoption strategies.
+
+---
 ### `migration-architect`
 
 Migration Architect
@@ -22333,6 +22952,17 @@ Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs. 
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `minimalism`
+
+Web and App implementation guide for the Minimalism design style. Trigger when the user wants simple layouts, lots of whitespace, few colors, and clear hierarchy.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `minimax-docx`
@@ -22581,6 +23211,17 @@ Estrategia e implementacao de monetizacao para produtos digitais - Stripe, subsc
 - When you need specialized assistance with this domain
 
 _source: `community` · risk: `none` · tags: `monetization`, `stripe`, `saas`, `pricing`, `subscriptions`_
+
+---
+### `monochromatic-ui`
+
+Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `monopoly`
@@ -22978,6 +23619,17 @@ Use this skill when:
 _source: `community` · risk: `safe`_
 
 ---
+### `neo-brutalism`
+
+Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `neon-postgres`
 
 Configure Prisma for Neon with connection pooling.
@@ -23097,6 +23749,17 @@ Invoke this skill when tasks involve:
 _[...]_
 
 _source: `https://github.com/networkx/networkx` · risk: `safe`_
+
+---
+### `neumorphism`
+
+Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `new-rails-project`
@@ -24267,6 +24930,13 @@ Coordinate parallel feature development with file ownership strategies, conflict
 _source: `community` · risk: `safe`_
 
 ---
+### `patterns`
+
+Reference document for monopoly patterns.
+
+_risk: `safe`_
+
+---
 ### `payment-integration`
 
 Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features.
@@ -24556,6 +25226,13 @@ Use this skill for **every task** that involves:
 _source: `community` · risk: `safe`_
 
 ---
+### `php`
+
+Language-specific super-code guidelines for php.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `php-pro`
 
 Write idiomatic PHP code with generators, iterators, SPL data structures, and modern OOP features. Use PROACTIVELY for high-performance PHP applications.
@@ -24689,6 +25366,11 @@ Use when the task requires automating a real browser from the terminal (navigati
 _source: `community` · risk: `safe`_
 
 ---
+### `playwright-cli`
+
+Automates browser interactions for web testing, form filling, screenshots, and data extraction using playwright-cli. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, extract information from web pages, mock network requests, manage browser sessions, or generate test code.
+
+---
 ### `playwright-interactive`
 
 Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.
@@ -24779,6 +25461,11 @@ Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas i
 - You want expression-based tabular operations on top of Apache Arrow semantics.
 
 _source: `community` · risk: `safe`_
+
+---
+### `pom`
+
+Page Object Model patterns for Playwright — when to use POM, how to structure page objects, and when fixtures or helpers are a better fit.
 
 ---
 ### `popup-cro`
@@ -25707,6 +26394,13 @@ Pytest testing patterns for Python. Trigger: When writing Python tests - fixture
 _source: `community` · risk: `safe`_
 
 ---
+### `python`
+
+Language-specific super-code guidelines for python.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `python-anti-patterns`
 
 Common Python anti-patterns to avoid. Use as a checklist when reviewing code, before finalizing implementations, or when debugging issues that might stem from known bad practices.
@@ -25722,6 +26416,11 @@ Common Python anti-patterns to avoid. Use as a checklist when reviewing code, be
 **Note:** This skill focuses on what to avoid. For guidance on positive patterns and architecture, see the `python-design-patterns` skill.
 
 _source: `community` · risk: `safe`_
+
+---
+### `python-appservice-deploy`
+
+Deploy Python (Flask/Django/FastAPI) code to Azure App Service Linux. WHEN: "Flask App Service", "Django App Service", "FastAPI App Service", "deploy Python to App Service". DO NOT USE FOR: Container Apps, Functions, non-Python, Terraform/Bicep/IaC, full infra — use azure-prepare.
 
 ---
 ### `python-background-jobs`
@@ -26153,6 +26852,13 @@ JUnit 5、Mockito、REST Assured、Camelテスト、JaCoCoを使用したQuarkus
 Quarkusプロジェクト検証ループ：ビルド、静的分析、カバレッジ付きテスト、セキュリティスキャン、ネイティブコンパイル、本番環境またはPR前の差分レビュー。
 
 ---
+### `quinn`
+
+Proves the system works by writing and executing comprehensive test suites.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `r2-upload`
 
 Upload files to Cloudflare R2, AWS S3, or any S3-compatible storage (like MinIO) and generate secure, time-limited presigned download links with configurable expiration, typically set to 5 minutes. Use when the user needs to upload a file to cloud storage and get a shareable link, or mentions R2, S3, presigned URLs, temporary links, or file uploads with expiration.
@@ -26405,6 +27111,11 @@ Use when: building React Native or Expo apps, implementing animations or native 
 state, fetching data, writing tests, optimizing performance, deploying to App Store/Play Store,
 setting up CI/CD, upgrading Expo SDK, or configuring Tailwind/NativeWind.
 
+
+---
+### `react-native-patterns`
+
+React Native and Expo app patterns — Expo Router navigation, state separation (server/client/route/form), TanStack Query data fetching with Zod, performant lists, NativeWind/StyleSheet styling, native APIs, and secure storage. Use when building or editing React Native / Expo screens, components, navigation, or data layers.
 
 ---
 ### `react-native-skills`
@@ -26909,6 +27620,28 @@ Implement modern responsive layouts using container queries, fluid typography, C
 _source: `community` · risk: `safe`_
 
 ---
+### `retro-design`
+
+Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `retro-futurism`
+
+Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `returns-reverse-logistics`
 
 Codified expertise for returns authorization, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management. Informed by returns operations managers with 15+ years experience. Includes grading frameworks, disposition economics, fraud pattern rec...
@@ -26942,6 +27675,13 @@ When the user wants help with revenue operations, lead lifecycle management, or 
 **Cuándo usar:**
 
 - Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `rex`
+
+Translates user intent into a precise, unambiguous specification and requirements.
 
 _source: `community` · risk: `safe`_
 
@@ -27129,6 +27869,13 @@ _source: `community` · risk: `safe`_
 ### `route-to-openapi`
 
 Generates RESTful API documentation (OpenAPI 3.0 / Swagger spec) by scanning route definitions in code for Flask, FastAPI, Express, Gin, and other frameworks. Trigger when users ask about API documentation, OpenAPI, Swagger, endpoint docs, generating docs from code, or extracting endpoints.
+
+---
+### `ruby`
+
+Language-specific super-code guidelines for ruby.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `ruby-pro`
@@ -27434,6 +28181,13 @@ Configure Static Application Security Testing (SAST) tools for automated vulnera
 _source: `community` · risk: `offensive`_
 
 ---
+### `scala`
+
+Language-specific super-code guidelines for scala.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `scala-pro`
 
 Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures. Use PROACTIVELY for Scala system design, performance optimization, or enterprise integration.
@@ -27443,6 +28197,13 @@ Master enterprise-grade Scala development with functional programming, distribut
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `scale-benchmarks`
+
+Reference document for monopoly scale-benchmarks.
+
+_risk: `safe`_
 
 ---
 ### `scale-game`
@@ -27527,6 +28288,17 @@ _source: `community` · risk: `safe`_
 ### `scholarly-writing-refiner`
 
 Polishes academic English paragraph by paragraph, reviewing grammar, word choice, voice, coherence, and sentence structure. Outputs revision suggestions alongside polished text. Triggered by phrases like 'polish this paragraph,' 'check the grammar,' 'rewrite in academic English,' or keywords like manuscript editing, SCI polishing, and journal submission editing.
+
+---
+### `sci-fi-interface`
+
+Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `scientific-db-pubmed-database`
@@ -27821,6 +28593,13 @@ Hunt for exploitable, bounty-worthy security issues in repositories. Focuses on 
 - Triage where the question is "does this actually pay?" rather than "is this theoretically unsafe?"
 
 _source: `community` · risk: `offensive`_
+
+---
+### `security-checklist`
+
+Reference document for monopoly security-checklist.
+
+_risk: `safe`_
 
 ---
 ### `security-compliance-compliance-check`
@@ -28852,6 +29631,17 @@ When the user wants to plan, map, or restructure their website's page hierarchy,
 _source: `community` · risk: `safe`_
 
 ---
+### `skeuomorphism`
+
+Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `skill-comply`
 
 Visualize whether skills, rules, and agent definitions are actually followed — auto-generates scenarios at 3 prompt strictness levels, runs agents, classifies behavioral sequences, and reports compliance rates with full tool call timelines
@@ -29166,6 +29956,22 @@ Toolkit for creating animated GIFs optimized for Slack, with validators for size
 _source: `community` · risk: `safe`_
 
 ---
+### `slack-to-teams`
+
+Sub-skill of microsoft-365-agents-toolkit. Routed expert system with 100+ micro-expert files for migrating Slack bots to Teams, cross-platform bridging, and dual-platform bot development. USE FOR: migrating Slack bot to Teams, adding Teams support to Slack bot, building dual-platform bots, converting Block Kit to Adaptive Cards, identity/OAuth bridging, deploying bots to Azure or AWS, configuring AI model providers. DO NOT USE FOR: general web development, non-bot projects, standalone Teams development without Slack (use parent skill instead).
+
+**Cuándo usar:**
+
+- Building a new Slack bot, Teams bot, or dual-platform bot
+- Adding Teams support to an existing Slack bot (or vice versa)
+- Migrating a bot between platforms
+- Deploying a bot to Azure or AWS
+- Configuring AI model providers for a bot
+- Converting UI between Block Kit and Adaptive Cards
+- Bridging identity, events, files, or transport between platforms
+- Making a Teams bot project compatible with Microsoft Agents Toolkit (m365agents.yml, env/, appPackage placeholders)
+
+---
 ### `sleep-analyzer`
 
 分析睡眠数据、识别睡眠模式、评估睡眠质量，并提供个性化睡眠改善建议。支持与其他健康数据的关联分析。
@@ -29333,6 +30139,17 @@ _source: `community` · risk: `safe`_
 Agent-driven scheduling and publishing of social media posts across 13 platforms via SocialClaw. Use when the user wants to publish to X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, or Pinterest — or when managing campaigns, uploading media...
 
 ---
+### `soft-pastel`
+
+Web and App implementation guide for Soft Pastel Design. Trigger when user wants gentle colors, calming UI, baby/lifestyle branding, or low-contrast aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `software-architecture`
 
 Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development.
@@ -29380,6 +30197,28 @@ Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `spatial-computing-ui`
+
+Web and App implementation guide for Spatial Computing UI. Trigger when user wants floating elements, environmental awareness, and Apple Vision Pro style.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `spatial-design`
+
+Web and App implementation guide for Spatial Design. Trigger when user wants environment-aware layouts, Apple Vision Pro inspiration, and mixed reality aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `spawn`
@@ -30042,6 +30881,13 @@ Identifies dependencies at heightened risk of exploitation or takeover. Use when
 _source: `community` · risk: `offensive`_
 
 ---
+### `swift`
+
+Language-specific super-code guidelines for swift.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `swift-actor-persistence`
 
 Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design.
@@ -30178,6 +31024,17 @@ Refactor SwiftUI views into smaller components with stable, explicit data flow.
 _source: `Dimillian/Skills (MIT)` · risk: `safe`_
 
 ---
+### `swiss-design`
+
+Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `sympy`
 
 SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations.
@@ -30196,6 +31053,17 @@ Use this skill when:
 _[...]_
 
 _source: `https://github.com/sympy/sympy` · risk: `safe`_
+
+---
+### `synthwave`
+
+Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `systematic-debugging`
@@ -30514,6 +31382,11 @@ Design optimal agent team compositions with sizing heuristics, preset configurat
 _source: `community` · risk: `safe`_
 
 ---
+### `teams-app-developer`
+
+Builds, tests, and deploys Microsoft 365 apps and agents for Teams and Copilot. Includes sub-skills for project creation, local testing, cloud deployment, troubleshooting, and Slack-to-Teams migration. USE FOR: Teams agent, bot, tab, message extension, Declarative Agents, Custom Engine Agents, local testing, Agents Playground, Azure resource provision, remote deployment, Slack to Teams migration, cross-platform bot development, Block Kit to Adaptive Cards conversion. DO NOT USE FOR: general web development, non-bot/non-Teams projects.
+
+---
 ### `tech-debt-tracker`
 
 Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code quality, refactoring priority, debt scoring, cleanup sprints, or code health assessment. Also use for legacy code modernization planning and maintena...
@@ -30523,6 +31396,13 @@ Scan codebases for technical debt, score severity, track trends, and generate pr
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `tech-matrix`
+
+Reference document for monopoly tech-matrix.
+
+_risk: `safe`_
 
 ---
 ### `technical-blog-writing`
@@ -31085,6 +31965,17 @@ This skill is applicable to execute the workflow or actions described in the ove
 _source: `community` · risk: `safe`_
 
 ---
+### `tile-design`
+
+Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `timeline-builder`
 
 Generate beautiful interactive timeline HTML pages from JSON data, with vertical, horizontal, or dual-side layouts, collapsible details, and custom colors. Ideal for project milestones, company histories, or resumes. Triggered when a user mentions 'timeline', 'history of events', 'project milestones', 'release log', or asks to visualize a chronological sequence of data.
@@ -31358,6 +32249,17 @@ Master TypeScript with advanced types, generics, and strict type safety. Handles
 _source: `community` · risk: `safe`_
 
 ---
+### `typography-first`
+
+Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `ui-demo`
 
 Record polished UI demo videos using Playwright. Use when the user asks to create a demo, walkthrough, screen recording, or tutorial video of a web application. Produces WebM videos with visible cursor, natural pacing, and professional feel.
@@ -31451,6 +32353,20 @@ Rigorous visual validation expert specializing in UI testing, design system comp
 _source: `community` · risk: `safe`_
 
 ---
+### `ui-widget-developer`
+
+Build MCP servers for Copilot Chat using the OpenAI Apps SDK or MCP Apps SDK widget rendering support (any language). Use this skill when:
+- Creating MCP servers that integrate with M365 Copilot declarative agents
+- Building rich interactive widgets (React + Fluent UI) that render in Copilot Chat
+- Implementing tools that return structuredContent for widget rendering
+- Adapting an existing MCP server to support Copilot widget rendering
+- Setting up devtunnels for localhost MCP server exposure
+- Configuring mcpPlugin.json manifests with RemoteMCPServer runtime
+Do NOT use this skill for general agent development (scaffolding, manifests, deployment) — use declarative-agent-developer instead. This skill is ONLY for MCP server + widget development.
+Triggers: "MCP server for Copilot", "OpenAI Apps SDK", "Copilot widget", "structuredContent", "MCP plugin", "devtunnels MCP", "OAI app", "widget rendering", "UI widget"
+
+
+---
 ### `uncloud`
 
 Use when managing an Uncloud cluster — deploying services, configuring Caddy ingress, adding static proxy routes for non-cluster devices, publishing ports, scaling, inspecting logs, or managing machines and volumes with the `uc` CLI.
@@ -31521,6 +32437,11 @@ Master Unity ECS (Entity Component System) with DOTS, Jobs, and Burst for high-p
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `universal-scraping-architect`
+
+Use for web scraping, crawling, document extraction, API parsing, or building validation-heavy data pipelines using Firecrawl or local Python scripts.
 
 ---
 ### `unreal-engine-cpp-pro`
@@ -31687,6 +32608,17 @@ UX research and design toolkit for Senior UX Designer/Researcher including data-
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `vaporwave`
+
+Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `variant-analysis`
@@ -32002,6 +32934,17 @@ Use this skill when:
 - You are comfortable granting the Vibers service collaborator access to the repository
 
 _source: `https://github.com/marsiandeployer/vibers-action` · risk: `critical`_
+
+---
+### `vibrant-maximalism`
+
+Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and "more is more".
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `video`
@@ -32451,6 +33394,11 @@ This skill is applicable to execute the workflow or actions described in the ove
 _source: `community` · risk: `safe`_
 
 ---
+### `webinar-marketing`
+
+When the user wants to plan, promote, run, or improve a webinar or virtual event to generate and convert demand. Use when the user mentions 'webinar,' 'virtual event,' 'online event,' 'live demo,' 'virtual summit,' 'workshop,' 'masterclass,' 'fireside chat,' 'roundtable,' 'registration funnel,' 'show-up rate,' 'attendance rate,' 'webinar promotion,' 'webinar follow-up,' or 'on-demand webinar.' Also use when they have a webinar that isn't converting — low registrations, low show-up, or attendees who don't buy — and want to diagnose and fix it. Covers the full funnel: registration, promotion, show-up, live engagement, live-to-close, and post-event nurture. Distinct from launch-strategy (full product launches) and email-sequence (lifecycle nurture) — this is the end-to-end webinar/event motion. NOT for in-person field events logistics, and NOT for generic lifecycle email (use email-sequence).
+
+---
 ### `weightloss-analyzer`
 
 分析减肥数据、计算代谢率、追踪能量缺口、管理减肥阶段
@@ -32513,6 +33461,17 @@ Dispatch to the right problem-solving technique based on how you're stuck
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `widget-based-design`
+
+Web and App implementation guide for Widget-Based Design. Trigger when user wants modular blocks, iOS Home Screen aesthetics, and customizable mini-apps.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `widget-generator`
@@ -32825,6 +33784,11 @@ Write or review JavaScript concept documentation pages for the 33 JavaScript Con
 _source: `community` · risk: `safe`_
 
 ---
+### `writing-guidelines`
+
+Review docs/prose for Writing Guidelines compliance. Use when asked to "review my docs", "check writing style", "audit prose", "review docs voice and tone", or "check this page against the writing handbook".
+
+---
 ### `writing-plans`
 
 Use when you have a spec or requirements for a multi-step task, before touching code
@@ -32949,6 +33913,17 @@ Thesis-driven equity analysis from public SEC EDGAR and market data; /analyze, /
 - Use when comparing two tickers with `/compare` and need a structured differential, not a prose-only chat answer.
 
 _source: `community` · risk: `safe`_
+
+---
+### `y2k-design`
+
+Web and App implementation guide for Y2K Design. Trigger when user wants chrome effects, futuristic 2000s look, blob shapes, and tech optimism.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `yann-lecun`
