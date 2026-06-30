@@ -1,1 +1,1 @@
-../../../project-management/SKILL.md
+../project-management/SKILL.md

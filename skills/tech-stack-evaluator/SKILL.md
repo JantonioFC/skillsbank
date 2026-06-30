@@ -1,1 +1,1 @@
-../../../engineering-team/tech-stack-evaluator/SKILL.md
+../engineering-team/tech-stack-evaluator/SKILL.md

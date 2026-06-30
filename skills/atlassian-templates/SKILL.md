@@ -1,1 +1,1 @@
-../../../project-management/atlassian-templates/SKILL.md
+../project-management/atlassian-templates/SKILL.md

@@ -1,1 +1,1 @@
-../../../c-level-advisor/executive-mentor/SKILL.md
+../c-level-advisor/executive-mentor/SKILL.md

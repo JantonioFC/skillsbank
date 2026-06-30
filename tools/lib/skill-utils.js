@@ -11,10 +11,23 @@ function isSafeDirectory(dirPath) {
   }
 }
 
-function isSafeSkillFile(skillPath) {
+/**
+ * A SKILL.md is safe if it's a regular file, OR a symlink that resolves to a
+ * regular file WITHOUT escaping the repo (prevents following dangling links
+ * or links that point outside the repo root).
+ */
+function isSafeSkillFile(skillPath, repoRoot) {
   try {
     const stats = fs.lstatSync(skillPath);
-    return stats.isFile() && !stats.isSymbolicLink();
+    if (stats.isFile()) return true;
+    if (!stats.isSymbolicLink()) return false;
+
+    const real = fs.realpathSync(skillPath); // throws if the link is dangling
+    if (!fs.statSync(real).isFile()) return false;
+    if (!repoRoot) return true;
+
+    const resolvedRoot = path.resolve(repoRoot) + path.sep;
+    return path.resolve(real).startsWith(resolvedRoot);
   } catch {
     return false;
   }
@@ -172,13 +185,14 @@ function readSkill(skillDir, skillId) {
 }
 
 function listSkillIds(skillsDir) {
+  const repoRoot = path.dirname(skillsDir);
   return fs.readdirSync(skillsDir)
     .filter(entry => {
       if (entry.startsWith('.')) return false;
       const dirPath = path.join(skillsDir, entry);
       if (!isSafeDirectory(dirPath)) return false;
       const skillPath = path.join(dirPath, 'SKILL.md');
-      return isSafeSkillFile(skillPath);
+      return isSafeSkillFile(skillPath, repoRoot);
     })
     .sort();
 }
@@ -188,6 +202,7 @@ function listSkillIds(skillsDir) {
  * Matches generate_index.py behavior so catalog includes nested skills (e.g. game-development/2d-games).
  */
 function listSkillIdsRecursive(skillsDir, baseDir = skillsDir, acc = []) {
+  const repoRoot = path.dirname(skillsDir);
   const stack = [baseDir];
   const visited = new Set();
 
@@ -205,7 +220,7 @@ function listSkillIdsRecursive(skillsDir, baseDir = skillsDir, acc = []) {
 
       const skillPath = path.join(dirPath, 'SKILL.md');
       const relPath = path.relative(skillsDir, dirPath).split(path.sep).join('/');
-      if (isSafeSkillFile(skillPath)) {
+      if (isSafeSkillFile(skillPath, repoRoot)) {
         acc.push(relPath);
       }
       stack.push(dirPath);

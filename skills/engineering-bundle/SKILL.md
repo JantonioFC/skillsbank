@@ -1,1 +1,1 @@
-../../../engineering/SKILL.md
+../engineering/SKILL.md

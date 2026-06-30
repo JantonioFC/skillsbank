@@ -1,1 +1,1 @@
-../../../c-level-advisor/founder-coach/SKILL.md
+../c-level-advisor/founder-coach/SKILL.md

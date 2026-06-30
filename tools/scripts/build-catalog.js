@@ -851,8 +851,14 @@ function renderCatalogMarkdown(catalog) {
   return lines.join("\n");
 }
 
+// Scaffolding/docs dirs that happen to contain a SKILL.md but aren't real skills
+// (kept in sync with META_DIRS in scripts/generate_skills_guide.py).
+const NON_SKILL_DIRS = new Set(["README", "TEMPLATE"]);
+
 function buildCatalog() {
-  const skillRelPaths = listSkillIdsRecursive(SKILLS_DIR);
+  const skillRelPaths = listSkillIdsRecursive(SKILLS_DIR).filter(
+    (relPath) => !NON_SKILL_DIRS.has(relPath.split("/")[0]),
+  );
   const skills = skillRelPaths.map((relPath) => readSkill(SKILLS_DIR, relPath));
   const catalogSkills = [];
 
@@ -879,7 +885,7 @@ function buildCatalog() {
   const catalog = {
     generatedAt: process.env.SOURCE_DATE_EPOCH
       ? new Date(process.env.SOURCE_DATE_EPOCH * 1000).toISOString()
-      : "2026-02-08T00:00:00.000Z",
+      : new Date().toISOString(),
     total: catalogSkills.length,
     skills: catalogSkills.sort((a, b) =>
       a.id < b.id ? -1 : a.id > b.id ? 1 : 0,

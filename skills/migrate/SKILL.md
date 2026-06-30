@@ -1,1 +1,1 @@
-../../../engineering-team/playwright-pro/skills/migrate/SKILL.md
+../engineering-team/playwright-pro/skills/migrate/SKILL.md

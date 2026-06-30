@@ -1,6 +1,6 @@
 # Skills Guide
 
-> **2838 skills** documentadas · Actualizado: 2026-06-28
+> **3153 skills** documentadas · Actualizado: 2026-06-30
 
 > Fuentes por entrada: `SKILL.md` propio · `catalog.json` (repos externos) · stub (sin datos disponibles).
 
@@ -12,13 +12,13 @@
 - [Ai-Research (1)](#ai-research)
 - [Ai-Testing (1)](#ai-testing)
 - [Andruia (3)](#andruia)
-- [Api-Integration (5)](#api-integration)
-- [Architecture (6)](#architecture)
-- [Automation (3)](#automation)
+- [Api-Integration (7)](#api-integration)
+- [Architecture (2)](#architecture)
+- [Automation (5)](#automation)
 - [Backend (1)](#backend)
 - [Blockchain (1)](#blockchain)
 - [Browser-Automation (1)](#browser-automation)
-- [Business (10)](#business)
+- [Business (2)](#business)
 - [Business-Strategy (2)](#business-strategy)
 - [Code (1)](#code)
 - [Code-Quality (1)](#code-quality)
@@ -30,28 +30,27 @@
 - [Core-Dev (1)](#core-dev)
 - [Creative (1)](#creative)
 - [Data (7)](#data)
-- [Data-Ai (8)](#data-ai)
-- [Database-Processing (1)](#database-processing)
+- [Data-Ai (3)](#data-ai)
+- [Database-Processing (2)](#database-processing)
 - [Design (13)](#design)
 - [Developer-Tools (3)](#developer-tools)
-- [Development (26)](#development)
+- [Development (25)](#development)
 - [Development-And-Testing (1)](#development-and-testing)
 - [Devops (7)](#devops)
-- [Document-Processing (1)](#document-processing)
+- [Document-Processing (2)](#document-processing)
 - [Documentacion-De-Codigo (10)](#documentacion-de-codigo)
 - [Ecommerce (1)](#ecommerce)
 - [Education (4)](#education)
-- [External (196)](#external)
+- [Engineering / Code Quality (1)](#engineering---code-quality)
 - [Finance (2)](#finance)
 - [Framework (3)](#framework)
 - [Frontend (15)](#frontend)
 - [Fullstack (1)](#fullstack)
 - [Game-Development (1)](#game-development)
-- [General (15)](#general)
+- [General (1)](#general)
 - [Granular-Workflow-Bundle (14)](#granular-workflow-bundle)
-- [Graphics-Processing (1)](#graphics-processing)
+- [Graphics-Processing (2)](#graphics-processing)
 - [Growth (3)](#growth)
-- [Infrastructure (5)](#infrastructure)
 - [Knowledge-Management (1)](#knowledge-management)
 - [Marketing (5)](#marketing)
 - [Mcp (2)](#mcp)
@@ -63,7 +62,7 @@
 - [Orchestration (1)](#orchestration)
 - [Personal-Development (1)](#personal-development)
 - [Planning (1)](#planning)
-- [Presentation-Processing (1)](#presentation-processing)
+- [Presentation-Processing (2)](#presentation-processing)
 - [Product-Management (1)](#product-management)
 - [Productivity (6)](#productivity)
 - [Project-Management (3)](#project-management)
@@ -71,18 +70,18 @@
 - [Quality (1)](#quality)
 - [Reliability (1)](#reliability)
 - [Research (4)](#research)
-- [Security (20)](#security)
+- [Security (13)](#security)
 - [Seo (4)](#seo)
 - [Skill-Authoring (2)](#skill-authoring)
-- [Spreadsheet-Processing (1)](#spreadsheet-processing)
+- [Spreadsheet-Processing (2)](#spreadsheet-processing)
 - [Test-Automation (1)](#test-automation)
-- [Testing (9)](#testing)
+- [Testing (4)](#testing)
 - [Tool-Quality (1)](#tool-quality)
 - [Tools (1)](#tools)
-- [Uncategorized (2341)](#uncategorized)
+- [Uncategorized (2892)](#uncategorized)
 - [Video (1)](#video)
 - [Voice-Agents (1)](#voice-agents)
-- [Workflow (7)](#workflow)
+- [Workflow (6)](#workflow)
 - [Workflow-Bundle (10)](#workflow-bundle)
 - [Writing (2)](#writing)
 
@@ -335,7 +334,7 @@ _source: `personal` · risk: `safe`_
 
 ## Api-Integration
 
-_5 skills_
+_7 skills_
 
 ### `2slides-ppt-generator`
 
@@ -382,6 +381,34 @@ Send and receive iMessage, SMS, and RCS from application code via the Sendblue H
 _source: `community` · risk: `critical` · tags: `sendblue`, `imessage`, `sms`, `rcs`, `messaging`_
 
 ---
+### `sendblue-api`
+
+Send and receive iMessage, SMS, and RCS from application code via the Sendblue HTTP API — text, media, group messages, send styles, reactions, typing indicators, status callbacks, and inbound webhooks.
+
+**Cuándo usar:**
+
+- Use when writing application code (server, worker, function) that sends Sendblue messages as part of a long-running service.
+- Use when receiving inbound messages via webhooks.
+- Use when you need features the CLI does not expose: send styles, reactions, group messages, typing indicators, status callbacks, media uploads, or the contacts API beyond basic CRUD.
+- Reach for [[sendblue-cli]] instead for shell-context outbound: one-shot scripts, cron jobs, agent hooks, "ping me when X" workflows.
+
+_source: `community` · risk: `critical` · tags: `sendblue`, `imessage`, `sms`, `rcs`, `messaging`_
+
+---
+### `sendblue-cli`
+
+Send iMessage and SMS from the shell via the @sendblue/cli npm package — outbound sends, contact management, and account setup with no API client or webhook server required.
+
+**Cuándo usar:**
+
+- Use when the user wants to text a phone number from a script, shell, hook, or agent turn (e.g. "text me when X finishes", "ping my phone", "notify on completion").
+- Use when the user mentions `sendblue` as a CLI/binary or asks to set up the `@sendblue/cli` package.
+- Prefer this skill over [[sendblue-api]] when the work happens in a shell context, one-shot script, cron job, or agent hook.
+_[...]_
+
+_source: `community` · risk: `critical` · tags: `sendblue`, `imessage`, `sms`, `cli`, `messaging`_
+
+---
 ### `sendblue-cli`
 
 Send iMessage and SMS from the shell via the @sendblue/cli npm package — outbound sends, contact management, and account setup with no API client or webhook server required.
@@ -422,7 +449,7 @@ _source: `community` · risk: `safe` · tags: `youtube`, `transcripts`, `video-s
 
 ## Architecture
 
-_6 skills_
+_2 skills_
 
 ### `codebase-design`
 
@@ -438,13 +465,6 @@ _Source: [mattpocock/skills](https://github.com/mattpocock/skills) (MIT)._
 _[...]_
 
 _source: `community` · risk: `safe` · tags: `architecture`, `workflow`, `coding-agents`_
-
----
-### `cto-advisor`
-
-Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing engineering metrics, or when user mentions CTO, tech debt, techn...
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/cto`, `advisor` · _datos: catálogo__
 
 ---
 ### `domain-modeling`
@@ -463,33 +483,12 @@ _[...]_
 _source: `community` · risk: `safe` · tags: `architecture`, `workflow`, `coding-agents`_
 
 ---
-### `executive-mentor`
-
-Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good options, and forces honest post-mortems. Use when you need someone to find the holes before the board does, make a decision you've been avoiding, or un...
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/executive`, `mentor` · _datos: catálogo__
-
----
-### `self-improving-agent`
-
-Curate Claude Code's auto-memory into durable project knowledge. Analyze MEMORY.md for patterns, promote proven learnings to CLAUDE.md and .claude/rules/, extract recurring solutions into reusable skills. Use when: (1) reviewing what Claude has learned about your project, (2) graduating a pattern...
-
-_source: `engineering-team` · tags: `engineering`, `team/self`, `improving`, `agent` · _datos: catálogo__
-
----
-### `setup`
-
-Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, metric, direction, and evaluator.
-
-_source: `skills` · tags: `autoresearch`, `agent/skills/setup` · _datos: catálogo__
-
----
 
 ---
 
 ## Automation
 
-_3 skills_
+_5 skills_
 
 ### `flowhunt-skill`
 
@@ -517,6 +516,35 @@ Text the user's phone when a long-running task, agent turn, or scheduled job fin
 - Do **not** use for short, interactive tasks where the user is watching the terminal — the notify is noise.
 
 _source: `community` · risk: `critical` · tags: `sendblue`, `imessage`, `sms`, `notifications`, `hooks`_
+
+---
+### `sendblue-notify`
+
+Text the user's phone when a long-running task, agent turn, or scheduled job finishes — via @sendblue/cli for outbound, optionally wired to a Claude Code Stop hook for automatic fire.
+
+**Cuándo usar:**
+
+- Use when the user says "text me when X is done", "ping my phone", "notify me on completion", "let me know when the build/deploy/migration finishes", or "send me an iMessage when…".
+- Use when the user asks to wire a hook that texts on agent stop, `/loop` iteration, or `/schedule` completion.
+- Use when an agent turn is genuinely long-running and the user has gone heads-down on something else.
+- Do **not** use for short, interactive tasks where the user is watching the terminal — the notify is noise.
+
+_source: `community` · risk: `critical` · tags: `sendblue`, `imessage`, `sms`, `notifications`, `hooks`_
+
+---
+### `textme`
+
+Text Claude from your phone — set up the njerschow/textme daemon so inbound iMessages drive a Claude Code session on your laptop, with voice notes, image input, code execution, and a phone-number whitelist.
+
+**Cuándo usar:**
+
+- Use when the user says "text Claude", "text my laptop", "drive Claude from my phone", "I want to send iMessages to Claude", or "let me code from my phone".
+- Use when the user is heads-down away from their desk and wants to kick off, supervise, or interrupt a Claude session via SMS/iMessage.
+- Use when setting up a long-running headless workstation that the user wants to remote-control while travelling or away from the keyboard.
+- Pair with [[sendblue-notify]] for bidirectional flow — outbound completion pings + inbound commands on the same Sendblue account.
+_[...]_
+
+_source: `community` · risk: `critical` · tags: `textme`, `sendblue`, `imessage`, `sms`, `claude-code`_
 
 ---
 ### `textme`
@@ -604,36 +632,8 @@ _source: `community` · risk: `safe` · tags: `browser-automation`, `mcp`, `web-
 
 ## Business
 
-_10 skills_
+_2 skills_
 
-### `app-store-optimization`
-
-App Store Optimization (ASO) toolkit for researching keywords, analyzing competitor rankings, generating metadata suggestions, and improving app visibility on Apple App Store and Google Play Store. Use when the user asks about ASO, app store rankings, app metadata, app titles and descriptions, ap...
-
-_source: `marketing-skill` · tags: `marketing`, `skill/app`, `store`, `optimization` · _datos: catálogo__
-
----
-### `cmo-advisor`
-
-Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design. Use when designing brand strategy, selecting growth models (PLG vs sales-led vs community-led), allocating marketing budgets, building marketing teams, or whe...
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/cmo`, `advisor` · _datos: catálogo__
-
----
-### `contract-and-proposal-writer`
-
-Contract & Proposal Writer
-
-_source: `business-growth` · tags: `business`, `growth/contract`, `and`, `proposal`, `writer` · _datos: catálogo__
-
----
-### `cro-advisor`
-
-Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling. Use when designing the revenue engine, setting quotas, modeling NRR, evaluating pricing, building board forecasts, or when user mentions CRO, chief ...
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/cro`, `advisor` · _datos: catálogo__
-
----
 ### `crossframe-org`
 
 Use when CrossFrame Suite routes explicit Chinese analysis of teams, projects, organizations, responsibility chains, feedback write-back, repair, or retrospectives.
@@ -647,20 +647,6 @@ Use when CrossFrame Suite routes explicit Chinese analysis of teams, projects, o
 _source: `community` · risk: `safe` · tags: `crossframe`, `chinese`, `organization`, `retrospective`, `repair`_
 
 ---
-### `epic-design`
-
-Build immersive, cinematic 2.5D interactive websites using scroll storytelling, parallax depth, text animations, and premium scroll effects — no WebGL required. Use this skill for any web design task: landing pages, product sites, hero sections, scroll animations, parallax, sticky sections, secti...
-
-_source: `engineering-team` · tags: `engineering`, `team/epic` · _datos: catálogo__
-
----
-### `jira-expert`
-
-Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting, and all Jira features. Use for Jira project setup, configuration, advanced search, dashboard creation, workflow design, and technical Jira operations.
-
-_source: `project-management` · tags: `management/jira` · _datos: catálogo__
-
----
 ### `lex`
 
 Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding.
@@ -672,20 +658,6 @@ Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) a
 - Use when the user asks about the specific regulatory nuances, formation steps, or "truth-based" definitions of legal entities within the **29 supported jurisdictions** (USA, Canada, and the EU).
 
 _source: `community` · risk: `safe` · tags: `legal`, `context`, `cross-jurisdictional`, `compliance`, `scaffolding`_
-
----
-### `sales-engineer`
-
-Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-of-concept (POC) engagements for pre-sales engineering. Use when responding to RFPs, bids, or proposal requests; comparing product features against competitors; planning or scoring a cust...
-
-_source: `business-growth` · tags: `business`, `growth/sales` · _datos: catálogo__
-
----
-### `social-media-analyzer`
-
-Social media campaign analysis and performance tracking. Calculates engagement rates, ROI, and benchmarks across platforms. Use for analyzing social media performance, calculating engagement rate, measuring campaign ROI, comparing platform metrics, or benchmarking against industry standards.
-
-_source: `marketing-skill` · tags: `marketing`, `skill/social`, `media`, `analyzer` · _datos: catálogo__
 
 ---
 
@@ -1187,7 +1159,7 @@ _source: `community` · risk: `critical`_
 
 ## Data-Ai
 
-_8 skills_
+_3 skills_
 
 ### `ai-engineering-toolkit`
 
@@ -1205,20 +1177,6 @@ _8 skills_
 _source: `community` · risk: `offensive` · tags: `prompt-engineering`, `rag`, `security`, `evaluation`, `ai-engineering`_
 
 ---
-### `campaign-analytics`
-
-Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when analyzing marketing campaigns, ad performance, attribution models, conversion rates, or calculating marketing ROI, ROAS, CPA, and campaign metrics acros...
-
-_source: `marketing-skill` · tags: `marketing`, `skill/campaign`, `analytics` · _datos: catálogo__
-
----
-### `eval`
-
-Evaluate and rank agent results by metric or LLM judge for an AgentHub session.
-
-_source: `skills` · tags: `agenthub/skills/eval` · _datos: catálogo__
-
----
 ### `local-llm-expert`
 
 Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization formats (GGUF, EXL2) and local AI privacy.
@@ -1228,20 +1186,6 @@ Master local LLM inference, model selection, VRAM optimization, and local deploy
 This skill is applicable to execute the workflow or actions described in the overview.
 
 _source: `community` · risk: `safe`_
-
----
-### `marketing-ops`
-
-Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating across content, SEO, CRO, channels, and analytics. Also use when the user mentions 'marketing help,' 'campaign plan,' 'what should I do n...
-
-_source: `marketing-skill` · tags: `marketing`, `skill/marketing`, `ops` · _datos: catálogo__
-
----
-### `scrum-master`
-
-Advanced Scrum Master skill for data-driven agile team analysis and coaching. Use when the user asks about sprint planning, velocity tracking, retrospectives, standup facilitation, backlog grooming, story points, burndown charts, blocker resolution, or agile team health. Runs Python scripts to an...
-
-_source: `project-management` · tags: `management/scrum`, `master` · _datos: catálogo__
 
 ---
 ### `seek-and-analyze-video`
@@ -1257,20 +1201,29 @@ Use this skill when the user wants to search for, import, or analyze video conte
 _source: `https://github.com/kennyzheng-builds/seek-and-analyze-video` · risk: `safe` · tags: `video`, `ai`, `memories`, `social-media`, `youtube`_
 
 ---
-### `senior-architect`
-
-This skill should be used when the user asks to "design system architecture", "evaluate microservices vs monolith", "create architecture diagrams", "analyze dependencies", "choose a database", "plan for scalability", "make technical decisions", or "review system design". Use for architecture deci...
-
-_source: `engineering-team` · tags: `engineering`, `team/senior` · _datos: catálogo__
-
----
 
 ---
 
 ## Database-Processing
 
-_1 skills_
+_2 skills_
 
+### `base`
+
+Database management, forms, reports, and data operations with LibreOffice Base.
+
+**Cuándo usar:**
+
+Use this skill when:
+- Creating new databases in ODB format
+- Connecting to external databases (MySQL, PostgreSQL, etc.)
+- Automating database operations and reports
+- Creating forms and reports
+- Building database applications
+
+_source: `personal` · risk: `safe`_
+
+---
 ### `base`
 
 Database management, forms, reports, and data operations with LibreOffice Base.
@@ -1535,7 +1488,7 @@ _source: `community` · risk: `critical` · tags: `model-routing`, `token-optimi
 
 ## Development
 
-_26 skills_
+_25 skills_
 
 ### `agenttrace-session-audit`
 
@@ -1810,13 +1763,6 @@ Generate AI images, videos, and music/audio from agents using the RunAPI CLI.
 _source: `official` · risk: `critical` · tags: `runapi`, `cli`, `models`, `automation`, `codex`_
 
 ---
-### `senior-qa`
-
-Generates unit tests, integration tests, and E2E tests for React/Next.js applications. Scans components to create Jest + React Testing Library test stubs, analyzes Istanbul/LCOV coverage reports to surface gaps, scaffolds Playwright test files from Next.js routes, mocks API calls with MSW, create...
-
-_source: `engineering-team` · tags: `engineering`, `team/senior`, `qa` · _datos: catálogo__
-
----
 ### `setup-matt-pocock-skills`
 
 Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.
@@ -2065,8 +2011,24 @@ _source: `self` · risk: `safe` · tags: `qa`, `testing`, `nextjs`, `production`
 
 ## Document-Processing
 
-_1 skills_
+_2 skills_
 
+### `writer`
+
+Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer.
+
+**Cuándo usar:**
+
+Use this skill when:
+- Creating new documents in ODT format
+- Converting documents between formats (ODT <-> DOCX, PDF, HTML, RTF, TXT)
+- Automating document generation workflows
+- Performing batch document operations
+- Creating templates and standardized document formats
+
+_source: `personal` · risk: `safe`_
+
+---
 ### `writer`
 
 Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer.
@@ -2290,1380 +2252,21 @@ _source: `community` · risk: `safe` · tags: `education`, `workflow`, `coding-a
 
 ---
 
-## External
+## Engineering / Code Quality
 
-_196 skills_
+_1 skills_
 
 ### `adversarial-reviewer`
 
-_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
-
-_source: `engineering-team` · _datos: stub — sin datos__
-
----
-### `aeo`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `ai-security`
-
-_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
-
-_source: `engineering-team` · _datos: stub — sin datos__
-
----
-### `andreessen`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `apple-hig-expert`
-
-_Descripción no disponible — skill de repositorio externo (`product-team`)._
-
-_source: `product-team` · _datos: stub — sin datos__
-
----
-### `azure-cloud-architect`
-
-_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
-
-_source: `engineering-team` · _datos: stub — sin datos__
-
----
-### `behuman`
-
-_Descripción no disponible — skill de repositorio externo (`engineering`)._
-
-_source: `engineering` · _datos: stub — sin datos__
-
----
-### `boardroom`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `brief`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `business-growth-bundle`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `business-investment-advisor`
-
-_Descripción no disponible — skill de repositorio externo (`finance`)._
-
-_source: `finance` · _datos: stub — sin datos__
-
----
-### `business-operations-skills`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `c-level-advisor-bundle`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `c-level-advisor-main`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `c-level-agents`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `caio-review`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `capacity-planner`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `capture`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `caveman`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `cco-review`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `cdo-review`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `cfo-review`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `changelog`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `channel-economics`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `chaos-engineering`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `chaos-experiment`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `chief-ai-officer-advisor`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `chief-customer-officer-advisor`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `chief-data-officer-advisor`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `ciso-review`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `claude-coach`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `cloud-security`
-
-_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
-
-_source: `engineering-team` · _datos: stub — sin datos__
-
----
-### `cmd-a11y-audit`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `cmd-code-to-prd`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `cmd-cs-aeo`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `cmd-focused-fix`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `cmo-review`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `commercial-forecaster`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `commercial-policy`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `commercial-skills`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `competitive-matrix`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `content-strategist`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cpo-review`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `cro-review`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `cross-eval`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `cs-aeo`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-agile-product-owner`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-backend-engineer`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-backend-review`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `cs-ceo-advisor`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-content-creator`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-cto-advisor`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-demand-gen-specialist`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-engineer-grill`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `cs-engineering-lead`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-financial-analyst`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-frontend-engineer`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-frontend-review`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `cs-fullstack-engineer`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-fullstack-review`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `cs-growth-strategist`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-karpathy-reviewer`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-product-analyst`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-product-manager`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-product-strategist`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-project-manager`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-quality-regulatory`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-senior-engineer`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-ux-researcher`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-webinar`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `cs-webinar-marketer`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-wiki-ingestor`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-wiki-librarian`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-wiki-linter`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cs-workspace-admin`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `cto-review`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `data-quality-auditor`
-
-_Descripción no disponible — skill de repositorio externo (`engineering`)._
-
-_source: `engineering` · _datos: stub — sin datos__
-
----
-### `deal-desk`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `decide`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `demo-video`
-
-_Descripción no disponible — skill de repositorio externo (`engineering`)._
-
-_source: `engineering` · _datos: stub — sin datos__
-
----
-### `devops-engineer`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `dossier`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `engineering-bundle`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `engineering-main`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `engineering-team-bundle`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `eu-ai-act-specialist`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `execute`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `feature-flags-architect`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `finance-bundle`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `finance-lead`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `financial-health`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `flag-cleanup`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `founder-mode`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `freeze`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `gc-review`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `gcp-cloud-architect`
-
-_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
-
-_source: `engineering-team` · _datos: stub — sin datos__
-
----
-### `general-counsel-advisor`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `google-workspace`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `grants`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `grill-me`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `grill-with-docs`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `growth-marketer`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `handoff`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `inbox-setup`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `inbox-triage`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `incident-response`
-
-_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
-
-_source: `engineering-team` · _datos: stub — sin datos__
-
----
-### `iso42001-specialist`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `karpathy-check`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `karpathy-coder`
-
-_Descripción no disponible — skill de repositorio externo (`engineering`)._
-
-_source: `engineering` · _datos: stub — sin datos__
-
----
-### `kubernetes-operator`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `landing`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `litreview`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `llm-cost-optimizer`
-
-_Descripción no disponible — skill de repositorio externo (`engineering`)._
-
-_source: `engineering` · _datos: stub — sin datos__
-
----
-### `llm-wiki`
-
-_Descripción no disponible — skill de repositorio externo (`engineering`)._
-
-_source: `engineering` · _datos: stub — sin datos__
-
----
-### `marketing-bundle`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `marketing-skill-bundle`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `meeting-analyzer`
-
-_Descripción no disponible — skill de repositorio externo (`project-management`)._
-
-_source: `project-management` · _datos: stub — sin datos__
-
----
-### `office-hours`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `okr`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `onboard`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `operator-audit`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `partnerships-architect`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `patent`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `persona`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `pipeline`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `plugin-audit`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `post-mortem`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `prd`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `pricing-strategist`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `process-mapper`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `procurement-optimizer`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `product-bundle`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `product-manager`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `product-team-bundle`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `project-health`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `project-management-bundle`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `prompt-governance`
-
-_Descripción no disponible — skill de repositorio externo (`engineering`)._
-
-_source: `engineering` · _datos: stub — sin datos__
-
----
-### `pulse`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `ra-qm-team-bundle`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `ra-qm-team-main`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `red-team`
-
-_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
-
-_source: `engineering-team` · _datos: stub — sin datos__
-
----
-### `reflect`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `research-bundle`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `retro`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `rfp-responder`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `rice`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `saas-health`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `security-guidance`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `security-pen-testing`
-
-_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
-
-_source: `engineering-team` · _datos: stub — sin datos__
-
----
-### `self-eval`
-
-_Descripción no disponible — skill de repositorio externo (`engineering`)._
-
-_source: `engineering` · _datos: stub — sin datos__
-
----
-### `seo-auditor`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `ship-gate`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-chaos-engineering`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-chief-ai-officer-advisor`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-chief-customer-officer-advisor`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-chief-data-officer-advisor`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-eu-ai-act-specialist`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-feature-flags-architect`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-general-counsel-advisor`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-handoff`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-init`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-iso42001-specialist`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-kubernetes-operator`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-review`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-run`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-slo-architect`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-status`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-status-2`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `skills-vpe-advisor`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `slo-architect`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `slo-design`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `snowflake-development`
-
-_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
-
-_source: `engineering-team` · _datos: stub — sin datos__
-
----
-### `solo-founder`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `spec-to-repo`
-
-_Descripción no disponible — skill de repositorio externo (`product-team`)._
-
-_source: `product-team` · _datos: stub — sin datos__
-
----
-### `sprint-health`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `sprint-plan`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `startup-cto`
-
-_Descripción no disponible — skill de repositorio externo (`agents`)._
-
-_source: `agents` · _datos: stub — sin datos__
-
----
-### `statistical-analyst`
-
-_Descripción no disponible — skill de repositorio externo (`engineering`)._
-
-_source: `engineering` · _datos: stub — sin datos__
-
----
-### `syllabus`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `tc`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `tc-tracker`
-
-_Descripción no disponible — skill de repositorio externo (`engineering`)._
-
-_source: `engineering` · _datos: stub — sin datos__
-
----
-### `tdd`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `team-communications`
-
-_Descripción no disponible — skill de repositorio externo (`project-management`)._
-
-_source: `project-management` · _datos: stub — sin datos__
-
----
-### `tech-debt`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `threat-detection`
-
-_Descripción no disponible — skill de repositorio externo (`engineering-team`)._
-
-_source: `engineering-team` · _datos: stub — sin datos__
-
----
-### `user-story`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `vendor-management`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `video-content-strategist`
-
-_Descripción no disponible — skill de repositorio externo (`marketing-skill`)._
-
-_source: `marketing-skill` · _datos: stub — sin datos__
-
----
-### `vpe-advisor`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `vpe-review`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
-
----
-### `wiki-ingest`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `wiki-init`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `wiki-lint`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `wiki-log`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `wiki-query`
-
-_Descripción no disponible — skill de repositorio externo (`..`)._
-
-_source: `..` · _datos: stub — sin datos__
-
----
-### `write-a-skill`
-
-_Descripción no disponible — skill de repositorio externo (`skills`)._
-
-_source: `skills` · _datos: stub — sin datos__
+Adversarial code review that breaks the self-review monoculture. Use when you want a genuinely critical review of recent changes, before merging a PR, or when you suspect Claude is being too agreeable about code quality. Forces perspective shifts through hostile reviewer personas that catch blind spots the author's mental model shares with the reviewer.
+
+**Cuándo usar:**
+
+- **Before merging any PR** — especially self-authored PRs with no human reviewer
+- **After a long coding session** — fatigue produces blind spots; this skill compensates
+- **When Claude said "looks good"** — if you got an easy approval, run this for a second opinion
+- **On security-sensitive code** — auth, payments, data access, API endpoints
+- **When something "feels off"** — trust that instinct and run an adversarial review
 
 ---
 
@@ -4005,7 +2608,7 @@ _source: `community` · risk: `safe` · tags: `unity`, `game-development`, `ai-g
 
 ## General
 
-_15 skills_
+_1 skills_
 
 ### `antigravity-agent-manager`
 
@@ -4018,104 +2621,6 @@ Configure and orchestrate parallel agents using the standalone Antigravity 2.0 A
 - Use to resolve conflicts or obsolete tutorial steps that mention the integrated "Open Agent Manager" button.
 
 _source: `self` · risk: `critical` · tags: `agent-manager`, `orchestration`, `multi-agent`, `setup`_
-
----
-### `atlassian-templates`
-
-Atlassian Template and Files Creator/Modifier expert for creating, modifying, and managing Jira and Confluence templates, blueprints, custom layouts, reusable components, and standardized content structures. Use when building org-wide templates, custom blueprints, page layouts, and automated cont...
-
-_source: `project-management` · tags: `management/atlassian` · _datos: catálogo__
-
----
-### `challenge`
-
-/em -challenge — Pre-Mortem Plan Analysis
-
-_source: `skills` · tags: `c`, `level`, `advisor/executive`, `mentor/skills/challenge` · _datos: catálogo__
-
----
-### `company-os`
-
-The meta-framework for how a company runs — the connective tissue between all C-suite roles. Covers operating system selection (EOS, Scaling Up, OKR-native, hybrid), accountability charts, scorecards, meeting pulse, issue resolution, and 90-day rocks. Use when setting up company operations, selec...
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/company`, `os` · _datos: catálogo__
-
----
-### `cs-onboard`
-
-Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:setup for initial interview or /cs:update for quarterly refresh. Generates ~/.claude/company-context.md used by all C-suite advisor skills.
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/cs`, `onboard` · _datos: catálogo__
-
----
-### `email-template-builder`
-
-Email Template Builder
-
-_source: `engineering-team` · tags: `engineering`, `team/email`, `builder` · _datos: catálogo__
-
----
-### `extract`
-
-Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples.
-
-_source: `skills` · tags: `engineering`, `team/self`, `improving`, `agent/skills/extract` · _datos: catálogo__
-
----
-### `founder-coach`
-
-Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management, CEO calendar audits, leadership style evolution, blind spot identification, imposter syndrome, founder mental health, and succession planning. Use w...
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/founder`, `coach` · _datos: catálogo__
-
----
-### `hard-call`
-
-/em -hard-call — Framework for Decisions With No Good Options
-
-_source: `skills` · tags: `c`, `level`, `advisor/executive`, `mentor/skills/hard`, `call` · _datos: catálogo__
-
----
-### `internal-narrative`
-
-Build and maintain one coherent company story across all audiences — employees, investors, customers, candidates, and partners. Detects narrative contradictions and ensures the same truth is framed for each audience's needs. Use when preparing investor updates, all-hands presentations, board comm...
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/internal`, `narrative` · _datos: catálogo__
-
----
-### `merge`
-
-Merge the winning agent's branch into base, archive losers, and clean up worktrees.
-
-_source: `skills` · tags: `agenthub/skills/merge` · _datos: catálogo__
-
----
-### `migrate`
-
-Migrate from Cypress or Selenium to Playwright. Use when user mentions "cypress", "selenium", "migrate tests", "convert tests", "switch to playwright", "move from cypress", or "replace selenium".
-
-_source: `skills` · tags: `engineering`, `team/playwright`, `pro/skills/migrate` · _datos: catálogo__
-
----
-### `resume`
-
-Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating.
-
-_source: `skills` · tags: `autoresearch`, `agent/skills/resume` · _datos: catálogo__
-
----
-### `run`
-
-One-shot lifecycle command that chains init → baseline → spawn → eval → merge in a single invocation.
-
-_source: `skills` · tags: `agenthub/skills/run` · _datos: catálogo__
-
----
-### `status`
-
-Show DAG state, agent progress, and branch status for an AgentHub session.
-
-_source: `skills` · tags: `agenthub/skills/status` · _datos: catálogo__
 
 ---
 
@@ -4358,8 +2863,24 @@ _source: `personal` · risk: `safe`_
 
 ## Graphics-Processing
 
-_1 skills_
+_2 skills_
 
+### `draw`
+
+Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.
+
+**Cuándo usar:**
+
+Use this skill when:
+- Creating vector graphics and diagrams in ODG format
+- Converting between ODG, SVG, PDF, PNG formats
+- Automating diagram and flowchart generation
+- Creating technical drawings and schematics
+- Batch processing graphics operations
+
+_source: `personal` · risk: `safe`_
+
+---
 ### `draw`
 
 Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.
@@ -4423,48 +2944,6 @@ Social Media Strategist and Content Writer. Creates clear, engaging social media
 - Use it to transform topics and keywords into audience-focused content with platform-native structure.
 
 _source: `self` · risk: `safe` · tags: `social-media`, `marketing`, `content-writing`, `seo`, `growth`_
-
----
-
----
-
-## Infrastructure
-
-_5 skills_
-
-### `aws-solution-architect`
-
-Design AWS architectures for startups using serverless patterns and IaC templates. Use when asked to design serverless architecture, create CloudFormation templates, optimize AWS costs, set up CI/CD pipelines, or migrate to AWS. Covers Lambda, API Gateway, DynamoDB, ECS, Aurora, and cost optimiza...
-
-_source: `engineering-team` · tags: `engineering`, `team/aws`, `solution` · _datos: catálogo__
-
----
-### `browserstack`
-
-Run tests on BrowserStack. Use when user mentions "browserstack", "cross-browser", "cloud testing", "browser matrix", "test on safari", "test on firefox", or "browser compatibility".
-
-_source: `skills` · tags: `engineering`, `team/playwright`, `pro/skills/browserstack` · _datos: catálogo__
-
----
-### `revenue-operations`
-
-Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization. Use when analyzing sales pipeline coverage, forecasting revenue, evaluating go-to-market performance, reviewing sales metrics, assessing pipeline analysis, tracking for...
-
-_source: `business-growth` · tags: `business`, `growth/revenue`, `operations` · _datos: catálogo__
-
----
-### `senior-data-engineer`
-
-Data engineering skill for building scalable data pipelines, ETL/ELT systems, and data infrastructure. Expertise in Python, SQL, Spark, Airflow, dbt, Kafka, and modern data stack. Includes data modeling, pipeline orchestration, data quality, and DataOps. Use when designing data architectures, bui...
-
-_source: `engineering-team` · tags: `engineering`, `team/senior`, `data` · _datos: catálogo__
-
----
-### `senior-devops`
-
-Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring. Use when setting up pipelines, deploying applications, managing infrastructure, impleme...
-
-_source: `engineering-team` · tags: `engineering`, `team/senior`, `devops` · _datos: catálogo__
 
 ---
 
@@ -4828,8 +3307,24 @@ _source: `community` · risk: `safe`_
 
 ## Presentation-Processing
 
-_1 skills_
+_2 skills_
 
+### `impress`
+
+Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.
+
+**Cuándo usar:**
+
+Use this skill when:
+- Creating new presentations in ODP format
+- Converting between ODP, PPTX, PDF formats
+- Automating slide generation from templates
+- Batch processing presentation operations
+- Creating presentation templates
+
+_source: `personal` · risk: `safe`_
+
+---
 ### `impress`
 
 Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.
@@ -5174,15 +3669,8 @@ _source: `official` · risk: `safe` · tags: `dair-academy`, `ai`, `workflow`_
 
 ## Security
 
-_20 skills_
+_13 skills_
 
-### `a11y-audit`
-
-Accessibility audit skill for scanning, fixing, and verifying WCAG 2.2 Level A and AA compliance across React, Next.js, Vue, Angular, Svelte, and plain HTML codebases. Use when auditing accessibility, fixing a11y violations, checking color contrast, generating compliance reports, or integrating a...
-
-_source: `engineering-team` · tags: `engineering`, `team/a11y`, `audit` · _datos: catálogo__
-
----
 ### `audit-skills`
 
 Expert security auditor for AI Skills and Bundles. Performs non-intrusive static analysis to identify malicious patterns, data leaks, system stability risks, and obfuscated payloads across Windows, macOS, Linux/Unix, and Mobile (Android/iOS).
@@ -5208,6 +3696,28 @@ Use this skill when you need to validate AWS compliance against industry standar
 _source: `community` · risk: `safe`_
 
 ---
+### `aws-compliance-checker`
+
+Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks
+
+**Cuándo usar:**
+
+Use this skill when you need to validate AWS compliance against industry standards, prepare for audits, or maintain continuous compliance monitoring.
+
+_source: `community` · risk: `safe`_
+
+---
+### `aws-iam-best-practices`
+
+IAM policy review, hardening, and least privilege implementation
+
+**Cuándo usar:**
+
+Use this skill when you need to review IAM policies, implement least privilege access, or harden IAM security.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `aws-iam-best-practices`
 
 IAM policy review, hardening, and least privilege implementation
@@ -5226,6 +3736,28 @@ Automate AWS secrets rotation for RDS, API keys, and credentials
 **Cuándo usar:**
 
 Use this skill when you need to implement automated secrets rotation, manage credentials securely, or comply with security policies requiring regular key rotation.
+
+_source: `community` · risk: `safe`_
+
+---
+### `aws-secrets-rotation`
+
+Automate AWS secrets rotation for RDS, API keys, and credentials
+
+**Cuándo usar:**
+
+Use this skill when you need to implement automated secrets rotation, manage credentials securely, or comply with security policies requiring regular key rotation.
+
+_source: `community` · risk: `safe`_
+
+---
+### `aws-security-audit`
+
+Comprehensive AWS security posture assessment using AWS CLI and security best practices
+
+**Cuándo usar:**
+
+Use this skill when you need to audit AWS security posture, identify vulnerabilities, or prepare for compliance assessments.
 
 _source: `community` · risk: `safe`_
 
@@ -5257,13 +3789,6 @@ or otherwise mutate the scanned machine.
 _source: `community` · risk: `safe` · tags: `security`, `supply-chain`, `incident-response`, `npm`, `pypi`_
 
 ---
-### `ciso-advisor`
-
-Security leadership for growth-stage companies. Risk quantification in dollars, compliance roadmap (SOC 2/ISO 27001/HIPAA/GDPR), security architecture strategy, incident response leadership, and board-level security reporting. Use when building security programs, justifying security budget, selec...
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/ciso`, `advisor` · _datos: catálogo__
-
----
 ### `container-security-hardening`
 
 Harden Docker/container images and runtime deployments with secure base images, non-root users, CVE scanning, SBOM/signing, seccomp/AppArmor, and Kubernetes pod security controls. Use for Dockerfile security reviews, container CVEs, image scanning, distroless images, or production hardening.
@@ -5283,13 +3808,6 @@ _[...]_
 _source: `community` · risk: `safe`_
 
 ---
-### `context-engine`
-
-Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (>90 days), enriches context during conversations, and enforces privacy/anonymization rules before external API calls.
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/context`, `engine` · _datos: catálogo__
-
----
 ### `fsi-compliance-checker`
 
 Maps code, architecture, and infrastructure changes to specific control IDs in PCI-DSS v4.0 and MAS TRM (Singapore financial regulator), producing an audit-traceable findings report with per-control remediation.
@@ -5304,55 +3822,6 @@ Maps code, architecture, and infrastructure changes to specific control IDs in P
 _source: `community` · risk: `safe` · tags: `compliance`, `pci-dss`, `mas-trm`, `fintech`, `banking`_
 
 ---
-### `google-workspace-cli`
-
-Google Workspace administration via the gws CLI. Install, authenticate, and automate Gmail, Drive, Sheets, Calendar, Docs, Chat, and Tasks. Run security audits, execute 43 built-in recipes, and use 10 persona bundles. Use for Google Workspace admin, gws CLI setup, Gmail automation, Drive manageme...
-
-_source: `engineering-team` · tags: `engineering`, `team/google`, `workspace`, `cli` · _datos: catálogo__
-
----
-### `incident-commander`
-
-Incident Commander Skill
-
-_source: `engineering-team` · tags: `engineering`, `team/incident`, `commander` · _datos: catálogo__
-
----
-### `intl-expansion`
-
-International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region. Use when expanding to new countries, evaluating international markets, planning localization, or building regional teams.
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/intl`, `expansion` · _datos: catálogo__
-
----
-### `ms365-tenant-manager`
-
-Microsoft 365 tenant administration for Global Administrators. Automate M365 tenant setup, Office 365 admin tasks, Azure AD user management, Exchange Online configuration, Teams administration, and security policies. Generate PowerShell scripts for bulk operations, Conditional Access policies, li...
-
-_source: `engineering-team` · tags: `engineering`, `team/ms365`, `tenant`, `manager` · _datos: catálogo__
-
----
-### `org-health-diagnostic`
-
-Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down recommendations. Use when assessing overall company health, preparing for board reviews, identifying at-risk functions, or when user mentions org hea...
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/org`, `health`, `diagnostic` · _datos: catálogo__
-
----
-### `senior-backend`
-
-Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening. Use when the user asks to "design REST APIs", "optimize database queries", "implement authentication", "build microservices", "review backend code", "se...
-
-_source: `engineering-team` · tags: `engineering`, `team/senior`, `backend` · _datos: catálogo__
-
----
-### `senior-pm`
-
-Senior Project Manager for enterprise software, SaaS, and digital transformation projects. Specializes in portfolio management, quantitative risk analysis, resource optimization, stakeholder alignment, and executive reporting. Uses advanced methodologies including EMV analysis, Monte Carlo simula...
-
-_source: `project-management` · tags: `management/senior`, `pm` · _datos: catálogo__
-
----
 ### `skill-audit`
 
 Pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.
@@ -5365,13 +3834,6 @@ Pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are mali
 - Use when reviewing skills for potential security issues
 
 _source: `community` · risk: `safe` · tags: `security`, `audit`, `pre-install`, `malicious-detection`, `supply-chain`_
-
----
-### `tech-stack-evaluator`
-
-Technology stack evaluation and comparison with TCO analysis, security assessment, and ecosystem health scoring. Use when comparing frameworks, evaluating technology stacks, calculating total cost of ownership, assessing migration paths, or analyzing ecosystem viability.
-
-_source: `engineering-team` · tags: `engineering`, `team/tech`, `stack`, `evaluator` · _datos: catálogo__
 
 ---
 
@@ -5480,8 +3942,24 @@ _source: `community` · risk: `safe` · tags: `skill-authoring`, `agent-skills`,
 
 ## Spreadsheet-Processing
 
-_1 skills_
+_2 skills_
 
+### `calc`
+
+Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.
+
+**Cuándo usar:**
+
+Use this skill when:
+- Creating new spreadsheets in ODS format
+- Converting between ODS, XLSX, CSV, PDF formats
+- Automating data processing and analysis
+- Creating formulas, charts, and pivot tables
+- Batch processing spreadsheet operations
+
+_source: `personal` · risk: `safe`_
+
+---
 ### `calc`
 
 Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.
@@ -5529,7 +4007,7 @@ _source: `community` · risk: `safe` · tags: `playwright`, `java`, `e2e-testing
 
 ## Testing
 
-_9 skills_
+_4 skills_
 
 ### `android-ui-journey-testing`
 
@@ -5543,20 +4021,6 @@ XML-specified Android UI journey testing, interactive step execution, assertion 
 - Use when debugging application flows on physical devices or emulators using ADB commands.
 
 _source: `self` · risk: `critical` · tags: `android`, `journey-testing`, `ui-verification`, `testing`, `adb`_
-
----
-### `cfo-advisor`
-
-Financial leadership for startups and scaling companies. Financial modeling, unit economics, fundraising strategy, cash management, and board financial packages. Use when building financial models, analyzing unit economics, planning fundraising, managing cash runway, preparing board materials, or...
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/cfo`, `advisor` · _datos: catálogo__
-
----
-### `coverage`
-
-Analyze test coverage gaps. Use when user says "test coverage", "what's not tested", "coverage gaps", "missing tests", "coverage report", or "what needs testing".
-
-_source: `skills` · tags: `engineering`, `team/playwright`, `pro/skills/coverage` · _datos: catálogo__
 
 ---
 ### `k6-load-testing`
@@ -5607,27 +4071,6 @@ Audit a live web page in five phases (catalog, click, trace, classify, report) t
 _source: `community` · risk: `critical` · tags: `testing`, `qa`, `playwright`, `mock-detection`, `web-audit`_
 
 ---
-### `review`
-
-Review Playwright tests for quality. Use when user says "review tests", "check test quality", "audit tests", "improve tests", "test code review", or "playwright best practices check".
-
-_source: `skills` · tags: `engineering`, `team/playwright`, `pro/skills/review` · _datos: catálogo__
-
----
-### `stress-test`
-
-/em -stress-test — Business Assumption Stress Testing
-
-_source: `skills` · tags: `c`, `level`, `advisor/executive`, `mentor/skills/stress` · _datos: catálogo__
-
----
-### `tdd-guide`
-
-Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor workflows across Jest, Pytest, JUnit, Vitest, and Mocha. Use when the user asks to write tests, improve test coverage, practice TDD, generate mocks or ...
-
-_source: `engineering-team` · tags: `engineering`, `team/tdd` · _datos: catálogo__
-
----
 
 ---
 
@@ -5675,7 +4118,7 @@ _source: `self` · risk: `critical` · tags: `android`, `cli`, `adb`, `mobile`, 
 
 ## Uncategorized
 
-_2341 skills_
+_2892 skills_
 
 ### `007`
 
@@ -5704,6 +4147,17 @@ _source: `community` · risk: `critical` · tags: `security`, `audit`, `owasp`, 
 _source: `community` · risk: `safe`_
 
 ---
+### `2d-games`
+
+2D game development principles. Sprites, tilemaps, physics, camera.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `3d-games`
 
 3D game development principles. Rendering, shaders, physics, cameras.
@@ -5713,6 +4167,28 @@ _source: `community` · risk: `safe`_
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `3d-games`
+
+3D game development principles. Rendering, shaders, physics, cameras.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `3d-ui`
+
+Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `3d-ui`
@@ -5748,9 +4224,42 @@ _source: `vibeship-spawner-skills (Apache 2.0)` · risk: `safe`_
 Shared SDD references for installed skills. Not invokable.
 
 ---
+### `a11y-audit`
+
+Accessibility audit skill for scanning, fixing, and verifying WCAG 2.2 Level A and AA compliance across React, Next.js, Vue, Angular, Svelte, and plain HTML codebases. Use when auditing accessibility, fixing a11y violations, checking color contrast, generating compliance reports, or integrating a...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `a11y-audit`
+
+Accessibility audit skill for scanning, fixing, and verifying WCAG 2.2 Level A and AA compliance across React, Next.js, Vue, Angular, Svelte, and plain HTML codebases. Use when auditing accessibility, fixing a11y violations, checking color contrast, generating compliance reports, or integrating a...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `ab-test-setup`
 
 When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant copy," "multivariate test," "hypothesis," "should I test this," "which version is better," "test two versions," "statis...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `ab-test-setup`
+
+When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant copy," "multivariate test," "hypothesis," "conversion experiment," "statistical significance," or "test this." For trac...
 
 **Cuándo usar:**
 
@@ -5891,6 +4400,17 @@ When the user wants to generate, iterate, or scale ad creative — headlines, de
 _source: `community` · risk: `safe`_
 
 ---
+### `ad-creative`
+
+When the user needs to generate, iterate, or scale ad creative for paid advertising. Use when they say 'write ad copy,' 'generate headlines,' 'create ad variations,' 'bulk creative,' 'iterate on ads,' 'ad copy validation,' 'RSA headlines,' 'Meta ad copy,' 'LinkedIn ad,' or 'creative testing.' Thi...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `address-github-comments`
 
 Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI.
@@ -5977,6 +4497,20 @@ Autonomous DevSecOps & FinOps Guardrails. Orchestrates Gemini 3 Flash to audit L
 _source: `community` · risk: `safe`_
 
 ---
+### `aeo`
+
+Answer Engine Optimization (AEO) skill — optimize content to be cited by AI language models (ChatGPT, Perplexity, Claude, Gemini, Mistral) as authoritative sources. Distinct from SEO — AEO optimizes for citation in LLM-generated responses, not search rankings. Use when planning content for AI-first search audiences, auditing existing content for E-E-A-T signals, tracking which pages get cited by which LLMs, or building a citation-friendly content strategy. Triggers — 'AEO audit', 'optimize for ChatGPT', 'get cited by Perplexity', 'LLM citation strategy', 'answer engine optimization', 'content for AI search', 'E-E-A-T audit'. Output is a markdown audit report (default) or JSON for pipeline integration. Stdlib-only Python tools.
+
+**Cuándo usar:**
+
+- Planning a new content piece for an AI-first audience
+- Auditing existing content for E-E-A-T gaps before AI Overview rollout
+- Tracking which pages get cited by which LLM (citation ledger)
+- Researching what queries LLMs cite sources for (vs. what they answer from training)
+- Benchmarking against competitors' citation rates
+- Building a long-term AEO strategy aligned with traditional SEO
+
+---
 ### `aesthetic`
 
 Create aesthetically beautiful interfaces following proven design principles. Use when building UI/UX, analyzing designs from inspiration sites, generating design images with ai-multimodal, implementing visual hierarchy and color theory, adding micro-interactions, or creating design documentation...
@@ -6033,6 +4567,17 @@ Use when the user asks to design multi-agent systems, create agent architectures
 _source: `community` · risk: `offensive`_
 
 ---
+### `agent-designer`
+
+Agent Designer - Multi-Agent System Architecture
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `agent-eval`
 
 Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics
@@ -6057,6 +4602,25 @@ You're a quality engineer who has seen agents that aced benchmarks fail spectacu
 - User mentions or implies: test agent
 
 _source: `vibeship-spawner-skills (Apache 2.0)` · risk: `safe`_
+
+---
+### `agent-framework`
+
+Create AI agents and workflows using Microsoft Agent Framework SDK. Supports single-agent and multi-agent workflow patterns.
+USE FOR: create agent, build agent, scaffold agent, new agent, agent framework, workflow pattern, multi-agent, MCP tools, create workflow.
+DO NOT USE FOR: deploying ...
+
+**Cuándo usar:**
+
+Use when the user wants to:
+
+- **Create** a new AI agent or agentic application
+- **Scaffold** an agent with tools (MCP, function calling)
+- **Build** multi-agent workflows with orchestration patterns
+- **Add** HTTP server mode to an existing agent
+- **Configure** F5/debug support for VSCode
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `agent-framework`
@@ -6234,6 +4798,17 @@ Inter-agent communication protocol for C-suite agent teams. Defines invocation s
 _source: `community` · risk: `offensive`_
 
 ---
+### `agent-protocol`
+
+Inter-agent communication protocol for C-suite agent teams. Defines invocation syntax, loop prevention, isolation rules, and response formats. Use when C-suite agents need to query each other, coordinate cross-functional analysis, or run board meetings with multiple agent roles.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `agent-self-evaluation`
 
 Use after completing any non-trivial task. The agent self-rates its output on 5 axes — accuracy, completeness, clarity, actionability, conciseness — with concrete evidence per criterion. Produces a structured 1-5 scorecard with specific improvement suggestions.
@@ -6323,6 +4898,22 @@ Agent Workflow Designer
 _source: `community` · risk: `offensive`_
 
 ---
+### `agent-workflow-designer`
+
+Agent Workflow Designer
+
+**Cuándo usar:**
+
+- A single prompt is insufficient for task complexity
+- You need specialist agents with explicit boundaries
+- You want deterministic workflow structure before implementation
+- You need validation loops for quality or safety gates
+
+---
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `agentflow`
 
 Orchestrate autonomous AI development pipelines through your Kanban board (Asana, GitHub Projects, Linear). Manages multi-worker Claude Code dispatch, deterministic quality gates, adversarial review, per-task cost tracking, and crash-proof pipeline execution.
@@ -6351,6 +4942,17 @@ This skill is applicable when you need to **discover or compare autonomous AI ag
 - When you want inspiration or best practices from existing agent products.
 
 _source: `agentfolio.io` · risk: `safe`_
+
+---
+### `agenthub`
+
+Multi-agent collaboration plugin that spawns N parallel subagents competing on the same task via git worktree isolation. Agents work independently, results are evaluated by metric or LLM judge, and the best branch is merged. Use when: user wants multiple approaches tried in parallel — code optimi...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `agenthub`
@@ -6458,6 +5060,17 @@ _source: `community` · risk: `safe`_
 Build container-based Foundry Agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition.
 Use when creating hosted agents that run custom code in Azure AI Foundry with your own container images.
 Triggers: "ImageBasedHostedAgentDefinition", "hosted agent", "container agent", "Foundry ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `agile-product-owner`
+
+Agile product ownership for backlog management and sprint execution. Covers user story writing, acceptance criteria, sprint planning, and velocity tracking. Use for writing user stories, creating acceptance criteria, planning sprints, estimating story points, breaking down epics, or prioritizing ...
 
 **Cuándo usar:**
 
@@ -6679,6 +5292,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `ai-native-ui`
+
+Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `ai-podcast-creation`
 
 Create AI-powered podcasts with text-to-speech, music, and audio editing. Tools: Kokoro TTS, DIA TTS, Chatterbox, AI music generation, media merger. Capabilities: multi-voice conversations, background music, intro/outro, full episodes. Use for: podcast production, audiobooks, voice content...
@@ -6758,9 +5382,25 @@ Vercel AI SDK 5 patterns. Trigger: When building AI chat features - breaking cha
 _source: `community` · risk: `safe`_
 
 ---
+### `ai-security`
+
+Use when assessing AI/ML systems for prompt injection, jailbreak vulnerabilities, model inversion risk, data poisoning exposure, or agent tool abuse. Covers MITRE ATLAS technique mapping, injection signature detection, and adversarial robustness scoring.
+
+---
 ### `ai-seo`
 
 When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for Ch...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `ai-seo`
+
+Optimize content to get cited by AI search engines — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini, Copilot. Use when you want your content to appear in AI-generated answers, not just ranked in blue links. Triggers: 'optimize for AI search', 'get cited by ChatGPT', 'AI Overviews', 'Per...
 
 **Cuándo usar:**
 
@@ -6908,6 +5548,13 @@ Turns requirements into a precise, dependency-aware implementation plan.
 _source: `community` · risk: `safe`_
 
 ---
+### `alex`
+
+Turns requirements into a precise, dependency-aware implementation plan.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `algolia-search`
 
 Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning Use when: adding search to, algolia, instantsearch, search api, search functionality.
@@ -6999,6 +5646,17 @@ When the user wants to set up, improve, or audit analytics tracking and measurem
 _source: `community` · risk: `safe`_
 
 ---
+### `analytics-tracking`
+
+Set up, audit, and debug analytics tracking implementation — GA4, Google Tag Manager, event taxonomy, conversion tracking, and data quality. Use when building a tracking plan from scratch, auditing existing analytics for gaps or errors, debugging missing events, or setting up GTM. Trigger keyword...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `analyze-project`
 
 Forensic root cause analyzer for Antigravity sessions. Classifies scope deltas, rework patterns, root causes, hotspots, and auto-improves prompts/health.
@@ -7021,6 +5679,11 @@ This skill calculates key financial ratios and metrics from financial statement 
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `andreessen`
+
+Marc Andreessen-mode decision and productivity skill. A blunt, market-first operator that pressure-tests ideas, ventures, features, and career bets through Andreessen's actual frameworks — market dominates team and product; the only milestone that matters is product/market fit; bias to build over deliberate. Use when the user says 'andreessen', 'pmarca mode', 'should I build this', 'is there a market', 'are we at product/market fit', 'pmf check', 'pressure-test this idea', 'be brutal about this venture', 'market-first take', or wants a no-disclaimers, no-hedging, confidence-leveled verdict on whether something is worth pursuing. Also provides the 3x5-card + Anti-Todo personal productivity routine. Runs on a fixed anti-sycophancy operating prompt: leads with the strongest counterargument, never validates premises, uses explicit confidence levels, never apologizes for disagreeing. Not for polite brainstorming — this skill exists to tell you the market is dead when it is.
 
 ---
 ### `andrej-karpathy`
@@ -7080,11 +5743,6 @@ Expert guidance for building modern Android UIs with Jetpack Compose, covering s
 - Use when setting up Navigation with type safety.
 
 _source: `community` · risk: `safe`_
-
----
-### `android-native-dev`
-
-Android native application development and UI design guide. Covers Material Design 3, Kotlin/Compose development, project configuration, accessibility, and build troubleshooting. Read this before Android native application development.
 
 ---
 ### `android_ui_verification`
@@ -7326,6 +5984,17 @@ API Design Reviewer
 _source: `community` · risk: `safe`_
 
 ---
+### `api-design-reviewer`
+
+API Design Reviewer
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `api-documentation-generator`
 
 Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices
@@ -7401,6 +6070,23 @@ Generate multiple radically different interface designs for a module using paral
 ### `api-test-suite-builder`
 
 Use when the user asks to generate API tests, create integration test suites, test REST endpoints, or build contract tests.
+
+**Cuándo usar:**
+
+- New API added — generate test scaffold before writing implementation (TDD)
+- Legacy API with no tests — scan and generate baseline coverage
+- API contract review — verify existing tests match current route definitions
+- Pre-release regression check — ensure all routes have at least smoke tests
+- Security audit prep — generate adversarial input tests
+
+---
+
+_source: `community` · risk: `offensive`_
+
+---
+### `api-test-suite-builder`
+
+API Test Suite Builder
 
 **Cuándo usar:**
 
@@ -7604,6 +6290,28 @@ Generate user-facing App Store release notes from git history since the last tag
 _source: `Dimillian/Skills (MIT)` · risk: `safe`_
 
 ---
+### `app-store-optimization`
+
+App Store Optimization (ASO) toolkit for researching keywords, analyzing competitor rankings, generating metadata suggestions, and improving app visibility on Apple App Store and Google Play Store. Use when the user asks about ASO, app store rankings, app metadata, app titles and descriptions, ap...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `app-store-optimization`
+
+App Store Optimization (ASO) toolkit for researching keywords, analyzing competitor rankings, generating metadata suggestions, and improving app visibility on Apple App Store and Google Play Store. Use when the user asks about ASO, app store rankings, app metadata, app titles and descriptions, ap...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `app-store-screenshots`
 
 App Store and Google Play screenshot creation with exact platform specs. Covers iOS/Android dimensions, gallery ordering, device mockups, and preview videos. Use for: app store optimization, ASO, app screenshots, app preview, play store listing. Triggers: app store screenshots, aso, app st...
@@ -7659,6 +6367,11 @@ USE FOR: how to instrument app, App Insights SDK, telemetry patterns, what is Ap
 - User wants to understand App Insights concepts
 
 _source: `community` · risk: `safe`_
+
+---
+### `apple-hig-expert`
+
+Expert guidance on Apple Human Interface Guidelines (HIG). Covers iOS, macOS, and visionOS with 2026 Liquid Glass aesthetics and accessibility-first design.
 
 ---
 ### `apple-notes-search`
@@ -7751,6 +6464,13 @@ Implement proven backend architecture patterns including Clean Architecture, Hex
 **Cuándo usar:**
 
 - Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `aria`
+
+Designs the data model, API contracts, and structural foundation of the system.
 
 _source: `community` · risk: `safe`_
 
@@ -7942,6 +6662,39 @@ Atlassian Administrator for managing and organizing Atlassian products (Jira, Co
 _source: `community` · risk: `safe`_
 
 ---
+### `atlassian-admin`
+
+Atlassian Administrator for managing and organizing Atlassian products (Jira, Confluence, Bitbucket, Trello), users, permissions, security, integrations, system configuration, and org-wide governance. Use when asked to add users to Jira, change Confluence permissions, configure access control, up...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `atlassian-templates`
+
+Atlassian Template and Files Creator/Modifier expert for creating, modifying, and managing Jira and Confluence templates, blueprints, custom layouts, reusable components, and standardized content structures. Use when building org-wide templates, custom blueprints, page layouts, and automated cont...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `atlassian-templates`
+
+Atlassian Template and Files Creator/Modifier expert for creating, modifying, and managing Jira and Confluence templates, blueprints, custom layouts, reusable components, and standardized content structures. Use when building org-wide templates, custom blueprints, page layouts, and automated cont...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `attack-tree-construction`
 
 Build comprehensive attack trees to visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security risks to stakeholders.
@@ -8012,6 +6765,17 @@ Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805). Vis
 - When you need specialized assistance with this domain
 
 _source: `community` · risk: `none` · tags: `voice-assistant`, `product-vision`, `alexa`, `aws`_
+
+---
+### `aurora-ui`
+
+Web and App implementation guide for Aurora UI. Trigger when user wants gradient glows, color blobs, and atmospheric lighting effects.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `aurora-ui`
@@ -8140,6 +6904,17 @@ Autonomous experiment loop that optimizes any file by a measurable metric. Inspi
 _source: `community` · risk: `offensive`_
 
 ---
+### `autoresearch-agent`
+
+Autonomous experiment loop that optimizes any file by a measurable metric. Inspired by Karpathy's autoresearch. The agent edits a target file, runs a fixed evaluation, keeps improvements (git commit), discards failures (git reset), and loops indefinitely. Use when: user wants to optimize code spe...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `avalonia-layout-zafiro`
 
 Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shared styles, generic components, and avoiding XAML redundancy.
@@ -8252,6 +7027,28 @@ AWS development with infrastructure automation and cloud architecture patterns
 Use this skill when you need to work with aws development with infrastructure automation and cloud architecture patterns.
 
 _source: `https://github.com/zxkane/aws-skills` · risk: `safe`_
+
+---
+### `aws-solution-architect`
+
+Design AWS architectures for startups using serverless patterns and IaC templates. Use when asked to design serverless architecture, create CloudFormation templates, optimize AWS costs, set up CI/CD pipelines, or migrate to AWS. Covers Lambda, API Gateway, DynamoDB, ECS, Aurora, and cost optimiza...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `aws-solution-architect`
+
+Design AWS architectures for startups using serverless patterns and IaC templates. Use when asked to design serverless architecture, create CloudFormation templates, optimize AWS costs, set up CI/CD pipelines, or migrate to AWS. Covers Lambda, API Gateway, DynamoDB, ECS, Aurora, and cost optimiza...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `awt-e2e-testing`
@@ -8714,6 +7511,11 @@ Build applications using Azure App Configuration SDK for JavaScript (@azure/app-
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `azure-cloud-architect`
+
+Design Azure architectures for startups and enterprises. Use when asked to design Azure infrastructure, create Bicep/ARM templates, optimize Azure costs, set up Azure DevOps pipelines, or migrate to Azure. Covers AKS, App Service, Azure Functions, Cosmos DB, and cost optimization.
 
 ---
 ### `azure-cloud-migrate`
@@ -10547,6 +9349,13 @@ Language-specific super-code guidelines for bash.
 _source: `community` · risk: `safe`_
 
 ---
+### `bash`
+
+Language-specific super-code guidelines for bash.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `bash-defensive-patterns`
 
 Master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety.
@@ -10659,6 +9468,11 @@ AI operational modes (brainstorm, implement, debug, review, teach, ship, orchest
 _source: `community` · risk: `safe`_
 
 ---
+### `behuman`
+
+Use when the user wants more human-like AI responses — less robotic, less listy, more authentic. Triggers: 'behuman', 'be real', 'like a human', 'more human', 'less AI', 'talk like a person', 'mirror mode', 'stop being so AI', or when conversations are emotionally charged (grief, job loss, relationship advice, fear). NOT for technical questions, code generation, or factual lookups.
+
+---
 ### `benchmark`
 
 - Before and after a PR to measure performance impact
@@ -10686,6 +9500,17 @@ Use after competitive-platform-analysis has produced a tiered competitor set. Sc
 ### `benchmark-optimization-loop`
 
 Use when the user asks to make something faster, try many variants, run recursive optimization, benchmark latency/throughput/cost, or choose the best implementation by repeated measured tests.
+
+---
+### `bento-ui`
+
+Web and App implementation guide for Bento UI. Trigger when user wants modular grid cards, Apple-like dashboard style, or sections arranged like a bento box.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `bento-ui`
@@ -10891,9 +9716,53 @@ Read, write, and browse the AgentHub message board for agent coordination.
 _source: `community` · risk: `safe`_
 
 ---
+### `board`
+
+Read, write, and browse the AgentHub message board for agent coordination.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `board`
+
+Read, write, and browse the AgentHub message board for agent coordination.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `board-deck-builder`
 
 Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use when preparing board meetings, investor updates, quarterly business reviews, or fundraising narratives. Covers structure, narrative framework, bad news delivery, and common mistakes.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `board-deck-builder`
+
+Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use when preparing board meetings, investor updates, quarterly business reviews, or fundraising narratives. Covers structure, narrative framework, bad news delivery, and common mistakes.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `board-meeting`
+
+Multi-agent board meeting protocol for strategic decisions. Runs a structured 6-phase deliberation: context loading, independent C-suite contributions (isolated, no cross-pollination), critic analysis, synthesis, founder review, and decision extraction. Use when the user invokes /cs:board, calls ...
 
 **Cuándo usar:**
 
@@ -10922,6 +9791,22 @@ _source: `community` · risk: `safe`_
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `board-prep`
+
+/em -board-prep — Board Meeting Preparation
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `boardroom`
+
+/cs:boardroom <brief> — 6-phase multi-role deliberation across the C-suite with Phase 2 isolation, critic pre-screen, and synthesis. Outputs a board memo. Use when a decision spans multiple executive domains — e.g. a pricing change touching finance, positioning, and product, or a raise-vs-cut runway call.
 
 ---
 ### `book-cover-design`
@@ -11000,6 +9885,17 @@ Applies Anthropic's official brand colors and typography to any sort of artifact
 _source: `community` · risk: `safe`_
 
 ---
+### `brand-guidelines`
+
+When the user wants to apply, document, or enforce brand guidelines for any product or company. Also use when the user mentions 'brand guidelines,' 'brand colors,' 'typography,' 'logo usage,' 'brand voice,' 'visual identity,' 'tone of voice,' 'brand standards,' 'style guide,' 'brand consistency,'...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `brand-guidelines-anthropic`
 
 To access Anthropic's official brand identity and style resources, use this skill.
@@ -11067,6 +9963,11 @@ Automate Brevo (formerly Sendinblue) email marketing operations through Composio
 This skill is applicable to execute the workflow or actions described in the overview.
 
 _source: `community` · risk: `safe`_
+
+---
+### `brief`
+
+/cs:brief <topic> — Generate a one-page strategy brief from an office-hours intake. First step in the strategic sprint pipeline. Use when a strategic question needs to be framed before boardroom deliberation — e.g. locking options, assumptions, and success criteria for a pricing change or a market-entry decision.
 
 ---
 ### `broken-authentication`
@@ -11138,9 +10039,64 @@ The `browser-use` command provides fast, persistent browser automation. It maint
 _source: `community` · risk: `safe`_
 
 ---
+### `browserstack`
+
+Run tests on BrowserStack. Use when user mentions "browserstack", "cross-browser", "cloud testing", "browser matrix", "test on safari", "test on firefox", or "browser compatibility".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `browserstack`
+
+Run tests on BrowserStack. Use when user mentions "browserstack", "cross-browser", "cloud testing", "browser matrix", "test on safari", "test on firefox", or "browser compatibility".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `browserstack`
+
+Run tests on BrowserStack. Use when user mentions "browserstack", "cross-browser", "cloud testing", "browser matrix", "test on safari", "test on firefox", or "browser compatibility".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `brutalism`
 
 Web and App implementation guide for Brutalism. Trigger when user wants a raw appearance, intentionally unfinished look, and rejection of standard design conventions.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `brutalism`
+
+Web and App implementation guide for Brutalism. Trigger when user wants a raw appearance, intentionally unfinished look, and rejection of standard design conventions.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `brutalist-typography`
+
+Web and App implementation guide for Brutalist Typography. Trigger when user wants huge fonts, raw presentation, and aggressive layout decisions.
 
 **Cuándo usar:**
 
@@ -11288,6 +10244,17 @@ _source: `community` · risk: `safe`_
 _source: `community` · risk: `safe` · tags: `business`, `customer-success`, `sales`, `revenue-operations`, `growth`_
 
 ---
+### `business-growth-bundle`
+
+4 business growth agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Customer success (health scoring, churn), sales engineer (RFP), revenue operations (pipeline, GTM), contract & proposal writer. Python tools (stdlib-only).
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe` · tags: `business`, `customer-success`, `sales`, `revenue-operations`, `growth`_
+
+---
 ### `business-growth-skills`
 
 4 business growth agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Customer success (health scoring, churn), sales engineer (RFP), revenue operations (pipeline, GTM), contract & proposal writer. Python tools (stdlib-only).
@@ -11297,6 +10264,18 @@ _source: `community` · risk: `safe` · tags: `business`, `customer-success`, `s
 Use this skill when you need guidance or automation for business-growth-skills.
 
 _source: `community` · risk: `safe` · tags: `business`, `customer-success`, `sales`, `revenue-operations`, `growth`_
+
+---
+### `business-investment-advisor`
+
+Business investment analysis and capital allocation advisor. Use when evaluating whether to invest in equipment, real estate, a new business, hiring, technology, or any capital expenditure. Also use for ROI calculations, IRR, NPV, payback period, build vs buy decisions, lease vs buy analysis, vendor evaluation, or deciding where to allocate limited budget for maximum return.
+
+---
+### `business-operations-skills`
+
+Use when running, diagnosing, or designing internal business operations — process documentation, vendor SLAs, capacity planning, internal comms, SOP/runbook authoring, procurement spend. Triggers on "BizOps review", "where's the bottleneck", "vendor health", "internal SOP", "all-hands deck", "spend categorization", "capacity for Q3", "process mapping". Forks context to route to one of six BizOps sub-skills (process-mapper, vendor-management, capacity-planner, internal-comms, knowledge-ops, procurement-optimizer) and returns a digest. Distinct from business-growth (external sales motion) and c-level-advisor (strategic, not operational).
+
+_tags: `bizops`, `operations`, `process`, `vendor`, `capacity`_
 
 ---
 ### `busybox-on-windows`
@@ -11317,6 +10296,13 @@ Language-specific super-code guidelines for c.
 _source: `community` · risk: `safe`_
 
 ---
+### `c`
+
+Language-specific super-code guidelines for c.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `c-level-advisor`
 
 10 C-level advisory agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, Executive Mentor. Multi-role board meetings, strategy routing, structured recommendations. For founders needing executive-level decision support.
@@ -11326,6 +10312,33 @@ _source: `community` · risk: `safe`_
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `c-level-advisor-bundle`
+
+10 C-level advisory agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, Executive Mentor. Multi-role board meetings, strategy routing, structured recommendations. For founders needing executive-level decision support.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `c-level-advisor-main`
+
+10 C-level advisory agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, Executive Mentor. Multi-role board meetings, strategy routing, structured recommendations. For founders needing executive-level decision support.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `c-level-agents`
+
+Founder-mode executive team. 13 cs-* C-suite agents (CFO, CMO, CRO, CPO, COO, CHRO, CISO, GC, CDO, CAIO, CCO, VPE, Chief of Staff) and 21 /cs:* slash commands for forcing-question office hours, multi-role boardroom deliberation, strategic sprint pipeline, and meta routing. Use when the founder needs a virtual executive team, when invoking /cs:* commands, or when orchestrating multi-role decisions.
 
 ---
 ### `c-level-skills`
@@ -11410,6 +10423,11 @@ _source: `community` · risk: `safe`_
 Caching strategies — invalidation, TTL guidelines, cache keys, cache layers, and when not to cache. Use when implementing or reviewing caching logic.
 
 ---
+### `caio-review`
+
+/cs:caio-review <plan> — Eval-demanding Chief AI Officer interrogation of any plan that involves AI: model selection, risk classification, cost economics, or AI hiring. Use when shipping an AI feature without an eval set, choosing between API, fine-tune, and self-hosted, or classifying a use case under the EU AI Act.
+
+---
 ### `cal-com-automation`
 
 Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas.
@@ -11428,6 +10446,28 @@ Automate Calendly scheduling, event management, invitee tracking, availability c
 **Cuándo usar:**
 
 This skill is applicable to execute the workflow or actions described in the overview.
+
+_source: `community` · risk: `safe`_
+
+---
+### `campaign-analytics`
+
+Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when analyzing marketing campaigns, ad performance, attribution models, conversion rates, or calculating marketing ROI, ROAS, CPA, and campaign metrics acros...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `campaign-analytics`
+
+Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when analyzing marketing campaigns, ad performance, attribution models, conversion rates, or calculating marketing ROI, ROAS, CPA, and campaign metrics acros...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -11484,6 +10524,51 @@ CAPA system management for medical device QMS. Covers root cause analysis, corre
 _source: `community` · risk: `safe`_
 
 ---
+### `capa-officer`
+
+CAPA system management for medical device QMS. Covers root cause analysis, corrective action planning, effectiveness verification, and CAPA metrics. Use for CAPA investigations, 5-Why analysis, fishbone diagrams, root cause determination, corrective action tracking, effectiveness verification, or...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `capacity`
+
+Discovers available Azure OpenAI model capacity across regions and projects. Analyzes quota limits, compares availability, and recommends optimal deployment locations based on capacity requirements. USE FOR: find capacity, check quota, where can I deploy, capacity discovery, best region for capac...
+
+**Cuándo usar:**
+
+- ✅ User asks "where can I deploy gpt-4o?"
+- ✅ User specifies a capacity target: "find a region with 10K TPM for gpt-4o"
+- ✅ User wants to compare availability: "which regions have gpt-4o available?"
+- ✅ User got a quota error and needs to find an alternative location
+- ✅ User asks "best region and project for deploying model X"
+
+**After discovery → hand off to [preset](../preset/SKILL.md) or [customize](../customize/SKILL.md) for actual deployment.**
+
+_source: `community` · risk: `safe`_
+
+---
+### `capacity`
+
+Discovers available Azure OpenAI model capacity across regions and projects. Analyzes quota limits, compares availability, and recommends optimal deployment locations based on capacity requirements. USE FOR: find capacity, check quota, where can I deploy, capacity discovery, best region for capac...
+
+**Cuándo usar:**
+
+- ✅ User asks "where can I deploy gpt-4o?"
+- ✅ User specifies a capacity target: "find a region with 10K TPM for gpt-4o"
+- ✅ User wants to compare availability: "which regions have gpt-4o available?"
+- ✅ User got a quota error and needs to find an alternative location
+- ✅ User asks "best region and project for deploying model X"
+
+**After discovery → hand off to [preset](../preset/SKILL.md) or [customize](../customize/SKILL.md) for actual deployment.**
+
+_source: `community` · risk: `safe`_
+
+---
 ### `capacity`
 
 Discovers available Azure OpenAI model capacity across regions and projects. Analyzes quota limits, compares availability, and recommends optimal deployment locations based on capacity requirements. USE FOR: find capacity, check quota, where can I deploy, capacity discovery, best region for capac...
@@ -11519,6 +10604,42 @@ USE FOR: find capacity, check quota, where can I deploy, capacity discovery, bes
 _source: `community` · risk: `safe`_
 
 ---
+### `capacity-planner`
+
+Use when an ops leader (Director of CX, Head of Support, VP Ops, Head of BizOps, Head of IT ops, Head of Finance ops) is sizing ops capacity, building a headcount plan, modeling utilization risk, planning Q3 capacity or annual support capacity, or designing CS coverage — and needs Erlang-C queueing math, P90 demand sizing, shrinkage-adjusted FTE, manager-trigger thresholds, and a quarterly hiring sequence with ramp + attrition. Apply when sustained team utilization is above 80% or when the team is growing >50% in 12 months. Run before committing the headcount budget. This is NOT engineering capacity (see vpe-advisor for DORA + cycle time) and NOT strategic 3-year workforce planning (see chro-advisor).
+
+**Cuándo usar:**
+
+- **Annual ops capacity planning** (October-November for the following
+  fiscal year).
+- **Quarterly re-sizing** if demand changed >15% or attrition spiked.
+- **Pre-budget defense** — the math that justifies the headcount ask
+  to your CFO.
+- **Diagnostic** when an ops team is missing SLA and you need to know
+  whether it's a sizing problem, a process problem, or a bottleneck
+  problem.
+- **M&A / new-segment launch** modeling — sizing a new team or
+  combined org.
+
+_tags: `bizops`, `capacity`, `headcount`, `utilization`, `queueing-theory`_
+
+---
+### `capture`
+
+Captures and organizes chaotic brain dumps into a structured, actionable system with zero information loss. Use this skill whenever the user says 'capture this', 'brain dump', 'let me dump some ideas', 'I've got a bunch of thoughts', 'here's everything on my mind', 'idea dump', 'let me get this out of my head', 'I need to organize my thoughts', 'here's what I'm thinking', or any variation where someone is unloading a messy stream of ideas, tasks, thoughts, and plans wanting them turned into something coherent. Also trigger when the user pastes or dictates a long, unstructured block of mixed ideas — even without the exact phrase — the intent is the same. Fast-to-action by design: no upfront intake. Output is four sections (Projects/Ideas, Tasks, Connections, How I Can Help) ending with a directive question. Asks at most one mid-organization clarifying question when a single item is genuinely ambiguous between task and project.
+
+---
+### `card-based-design`
+
+Web and App implementation guide for Card-Based Design. Trigger when user wants information cards, Pinterest-style layouts, and bite-sized content containers.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `card-based-design`
 
 Web and App implementation guide for Card-Based Design. Trigger when user wants information cards, Pinterest-style layouts, and bite-sized content containers.
@@ -11552,6 +10673,12 @@ Use this skill as needed to perform the specified automation task.
 Create compelling B2B case studies with research and visuals via [inference.sh](https://inference.sh) CLI.
 
 _source: `community` · risk: `safe`_
+
+---
+### `caveman`
+
+Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler, articles, and pleasantries while keeping full technical accuracy. Use when user says "caveman mode", "talk like caveman", "use caveman", "less tokens", "be brief", or invokes /caveman.
+
 
 ---
 ### `cc-skill-backend-patterns`
@@ -11655,6 +10782,11 @@ This skill is applicable to execute the workflow or actions described in the ove
 _source: `community` · risk: `safe`_
 
 ---
+### `cco-review`
+
+/cs:cco-review <plan> — Retention-obsessed Chief Customer Officer interrogation of any plan that touches customer retention, segmentation, CS team sizing, or CS team hiring. Use when gross retention is slipping, before approving CSM headcount, or when deciding which customer segments to keep or fire.
+
+---
 ### `cdk-patterns`
 
 Common AWS CDK patterns and constructs for building cloud infrastructure with TypeScript, Python, or Java. Use when designing reusable CDK stacks and L3 constructs.
@@ -11662,6 +10794,22 @@ Common AWS CDK patterns and constructs for building cloud infrastructure with Ty
 **Cuándo usar:**
 
 This skill is applicable to execute the workflow or actions described in the overview.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cdo-review`
+
+/cs:cdo-review <plan> — Decision-driven Chief Data Officer interrogation of any plan that touches training data, data architecture, data productization, or data team hiring. Use when validating training-data rights before model work, choosing warehouse vs lakehouse vs mesh, or valuing data assets for productization or M&A.
+
+---
+### `ceo-advisor`
+
+Executive leadership guidance for strategic decision-making, organizational development, and stakeholder management. Use when planning strategy, preparing board presentations, managing investors, developing organizational culture, making executive decisions, fundraising, or when user mentions CEO...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -11677,9 +10825,58 @@ Executive leadership guidance for strategic decision-making, organizational deve
 _source: `community` · risk: `safe`_
 
 ---
+### `cfo-advisor`
+
+Financial leadership for startups and scaling companies. Financial modeling, unit economics, fundraising strategy, cash management, and board financial packages. Use when building financial models, analyzing unit economics, planning fundraising, managing cash runway, preparing board materials, or...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cfo-advisor`
+
+Financial leadership for startups and scaling companies. Financial modeling, unit economics, fundraising strategy, cash management, and board financial packages. Use when building financial models, analyzing unit economics, planning fundraising, managing cash runway, preparing board materials, or...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cfo-review`
+
+/cs:cfo-review <plan> — Numerate-skeptic interrogation of any plan that touches money. Unit economics, runway, dilution, capital allocation. Use when a plan commits meaningful spend — e.g. a hiring wave, a fundraise decision, or a new channel budget.
+
+---
 ### `chained-pr`
 
 Trigger: PRs over 400 lines, stacked PRs, review slices. Split oversized changes into chained PRs that protect review focus.
+
+---
+### `challenge`
+
+/em -challenge — Pre-Mortem Plan Analysis
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `challenge`
+
+/em -challenge — Pre-Mortem Plan Analysis
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `change-management`
@@ -11691,6 +10888,22 @@ Framework for rolling out organizational changes without chaos. Covers the ADKAR
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `change-management`
+
+Framework for rolling out organizational changes without chaos. Covers the ADKAR model adapted for startups, communication templates, resistance patterns, and change fatigue management. Handles process changes, org restructures, strategy pivots, and culture changes. Use when announcing a reorg, s...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `changelog`
+
+Generate changelogs from git history and validate conventional commits. Usage: /changelog <generate|lint> [options]
 
 ---
 ### `changelog-automation`
@@ -11717,6 +10930,60 @@ Changelog Generator
 - When converting raw git history into user-facing notes
 
 _source: `community` · risk: `safe`_
+
+---
+### `changelog-generator`
+
+Changelog Generator
+
+**Cuándo usar:**
+
+- Before publishing a release tag
+- During CI to generate release notes automatically
+- During PR checks to block invalid commit message formats
+- In monorepos where package changelogs require scoped filtering
+- When converting raw git history into user-facing notes
+
+_source: `community` · risk: `safe`_
+
+---
+### `channel-economics`
+
+Use when reviewing or rebalancing direct vs. partner-led channel economics — computing fully-loaded cost-to-serve per channel, channel ROI with cash / LTV / marginal lenses, and optimal channel mix subject to constraints. For Head of Commercial, RevOps, and VP Sales doing quarterly channel review when pipeline is mixed (e.g., 60% direct + 40% partner-led) and nobody actually knows which channel makes money after CAC, support load, partner discount, deal-velocity differences, retention differential, and overhead allocation are all loaded in. Outputs cost to serve, channel ROI verdicts (DOUBLE-DOWN / MAINTAIN / DEFUND / EXIT), a sensitivity-tested channel-mix recommendation, and the diminishing-returns inflection (e.g., 'which channel actually makes money — direct or partner?').
+
+**Cuándo usar:**
+
+- Quarterly channel review: pipeline is 60/40 or 50/50 direct vs partner and you don't actually know which one is profitable
+- Considering hiring a channel manager — need to know if the channel can clear the loaded-cost bar
+- Partner program ROI question from the board ("we spent $X on MDF — what did we get?")
+- A segment is over-indexed to one channel and you suspect mix dogma is blocking the other
+- About to expand into a new region and need to decide direct-first vs partner-first
+- M&A diligence: target company claims "partner-led at 70% gross margin" — need to validate after loading
+
+_[...]_
+
+_tags: `commercial`, `channel-economics`, `cost-to-serve`, `channel-mix`, `channel-roi`_
+
+---
+### `chaos-engineering`
+
+Use when planning, running, or learning from chaos engineering experiments. Triggers on "chaos experiment", "fault injection", "gameday", "resilience test", "blast radius", "steady state", "abort criteria", "Chaos Toolkit", "Chaos Mesh", "Litmus", "Gremlin", "AWS FIS", or any deliberate failure-injection question. Ships experiment designer, blast-radius calculator, and postmortem generator (all stdlib Python), 4 references on chaos principles + experiment design + attack taxonomy + tooling landscape, and a /chaos-experiment slash command. Composes with feature-flags-architect (kill switches as abort triggers) and kubernetes-operator (common chaos targets).
+
+**Cuándo usar:**
+
+- Planning a chaos experiment (what to break, where, when, how to abort)
+- Calculating blast radius before running the experiment
+- Reviewing an existing experiment plan for safety
+- Choosing a chaos tool (Chaos Toolkit / Chaos Mesh / Litmus / Gremlin / AWS FIS)
+- Writing a chaos experiment postmortem
+- Running a Game Day exercise
+
+_tags: `chaos-engineering`, `resilience`, `fault-injection`, `gameday`, `sre`_
+
+---
+### `chaos-experiment`
+
+Interactive wizard to design and validate a chaos engineering experiment
 
 ---
 ### `character-design-sheet`
@@ -11774,9 +11041,46 @@ Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that c
 _source: `community` · risk: `offensive`_
 
 ---
+### `chief-ai-officer-advisor`
+
+Chief AI Officer advisory for startups: model build-vs-buy decisions (API vs fine-tune vs in-house), AI risk classification under EU AI Act + US state patchwork, AI cost economics (API-to-self-hosted breakeven), and AI team org evolution. Use when deciding whether to call an API or fine-tune, classifying AI use cases for regulatory risk, calculating when self-hosting pays off, sequencing AI hires, or when user mentions CAIO, AI strategy, model selection, foundation model, fine-tuning, EU AI Act, NIST AI RMF, AI governance, model risk, or AI economics. Strategic only — does not duplicate engineering AI/ML skills.
+
+---
+### `chief-customer-officer-advisor`
+
+Chief Customer Officer advisory for startups: retention decomposition (gross retention vs NRR honesty, churn root-cause taxonomy), customer segmentation strategy (differential investment across tiers + ICP fit scoring), CS team coverage model (pooled vs named CSM thresholds + ratio math), and CS team org evolution (CS vs Support vs AM distinctions). Use when designing retention strategy, segmenting customers for differential investment, sizing CS team, or sequencing CS hires. Strategic only — does not duplicate engineering/business-growth tactical skills.
+
+---
+### `chief-data-officer-advisor`
+
+Chief Data Officer advisory for startups: AI training data rights and consent provenance, data product strategy (warehouse vs lakehouse vs mesh, build-vs-buy), B2B customer-data-as-asset valuation and M&A readiness, data team org evolution. Use when deciding whether to train models on customer data, choosing data architecture, valuing data for fundraising or M&A, sequencing data hires, or when user mentions CDO, chief data officer, data strategy, data mesh, lakehouse, training data, data product, data monetization, or customer data asset. NOT a tactical data engineering skill — strategic decisions only.
+
+---
 ### `chief-of-staff`
 
 C-suite orchestration layer. Routes founder questions to the right advisor role(s), triggers multi-role board meetings for complex decisions, synthesizes outputs, and tracks decisions. Every C-suite interaction starts here. Loads company context automatically.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `chief-of-staff`
+
+C-suite orchestration layer. Routes founder questions to the right advisor role(s), triggers multi-role board meetings for complex decisions, synthesizes outputs, and tracks decisions. Every C-suite interaction starts here. Loads company context automatically.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `chro-advisor`
+
+People leadership for scaling companies. Hiring strategy, compensation design, org structure, culture, and retention. Use when building hiring plans, designing comp frameworks, restructuring teams, managing performance, building culture, or when user mentions CHRO, HR, people strategy, talent, he...
 
 **Cuándo usar:**
 
@@ -11829,9 +11133,35 @@ When the user wants to reduce churn, build cancellation flows, set up save offer
 _source: `community` · risk: `offensive`_
 
 ---
+### `churn-prevention`
+
+Reduce voluntary and involuntary churn through cancel flow design, save offers, exit surveys, and dunning sequences. Use when designing or optimizing a cancel flow, building save offers, setting up dunning emails, or reducing failed-payment churn. Trigger keywords: cancel flow, churn reduction, s...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `ci`
 
 Production-ready CI/CD configurations for Playwright — GitHub Actions, GitLab CI, CircleCI, Azure DevOps, Jenkins, Docker, parallel sharding, reporting, code coverage, and global setup/teardown.
+
+---
+### `ci-cd-pipeline-builder`
+
+CI/CD Pipeline Builder
+
+**Cuándo usar:**
+
+- Bootstrapping CI for a new repository
+- Replacing brittle copied pipeline files
+- Migrating between GitHub Actions and GitLab CI
+- Auditing whether pipeline steps match actual stack
+- Creating a reproducible baseline before custom hardening
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `ci-cd-pipeline-builder`
@@ -11887,6 +11217,33 @@ _source: `community` · risk: `safe`_
 ### `cisco-ios-patterns`
 
 showコマンド、コンフィグ階層、ワイルドカードマスク、ACL配置、インターフェースハイジーン、安全な変更ウィンドウ検証のためのCisco IOSおよびIOS-XEレビューパターン。
+
+---
+### `ciso-advisor`
+
+Security leadership for growth-stage companies. Risk quantification in dollars, compliance roadmap (SOC 2/ISO 27001/HIPAA/GDPR), security architecture strategy, incident response leadership, and board-level security reporting. Use when building security programs, justifying security budget, selec...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `ciso-advisor`
+
+Security leadership for growth-stage companies. Risk quantification in dollars, compliance roadmap (SOC 2/ISO 27001/HIPAA/GDPR), security architecture strategy, incident response leadership, and board-level security reporting. Use when building security programs, justifying security budget, selec...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `ciso-review`
+
+/cs:ciso-review <plan> — Risk-paranoid interrogation of any plan that touches data, compliance, or production access. Use when launching features that handle customer data, before a SOC 2 / ISO audit, or after any incident or near-miss.
 
 ---
 ### `citation-management`
@@ -11998,6 +11355,11 @@ Use WebFetch to get the latest documentation when:
 Live documentation URLs are in `shared/live-sources.md`.
 
 _source: `community` · risk: `safe`_
+
+---
+### `claude-coach`
+
+Personal coach that teaches users to become Claude power users. Use this skill the FIRST time a user asks to "learn Claude", "be a power user", "coach me", "teach me Claude tricks", "what can Claude do", "make me better at prompting", or any variation. After activation, also use it on EVERY subsequent turn to detect missed optimization opportunities (vague prompts, ignored capabilities, manual work Claude could automate) and surface a single power-user tip. Trigger generously — most users do not know what they do not know, so err on the side of coaching.
 
 ---
 ### `claude-code`
@@ -12173,6 +11535,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `claymorphism`
+
+Web and App implementation guide for Claymorphism. Trigger when user wants soft 3D elements, rounded shapes, and a playful, tactile appearance.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `clean-code`
 
 Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments
@@ -12322,6 +11695,11 @@ This skill should be used when the user asks to "perform cloud penetration testi
 _source: `community` · risk: `offensive`_
 
 ---
+### `cloud-security`
+
+Use when assessing cloud infrastructure for security misconfigurations, IAM privilege escalation paths, S3 public exposure, open security group rules, or IaC security gaps. Covers AWS, Azure, and GCP posture assessment with MITRE ATT&CK mapping.
+
+---
 ### `cloud-solution-architect`
 
 Transform the agent into a Cloud Solution Architect following Azure Architecture Center best practices. Use when designing cloud architectures, reviewing system designs, selecting architecture styles, applying cloud design patterns, making technology choices, or conducting Well-Architected Framew...
@@ -12364,6 +11742,53 @@ CloudFormation template optimization, nested stacks, drift detection, and produc
 This skill is applicable to execute the workflow or actions described in the overview.
 
 _source: `community` · risk: `safe`_
+
+---
+### `cmd-a11y-audit`
+
+Scan a frontend project for WCAG 2.2 accessibility violations and fix them. Usage: /a11y-audit [path]
+
+---
+### `cmd-code-to-prd`
+
+Reverse-engineer a frontend codebase into a PRD. Usage: /code-to-prd [path]
+
+---
+### `cmd-cs-aeo`
+
+/cs:aeo — Answer Engine Optimization workflow. Audit content for E-E-A-T + structure signals that drive LLM citation (ChatGPT, Perplexity, Claude, Gemini, Mistral). Optimize content in 3 modes (conservative/balanced/aggressive). Track which LLMs cite which pages via local ledger. Industry-aware thresholds (8 industries with YMYL calibration). Distinct from SEO — refuses to optimize one at expense of the other.
+
+---
+### `cmd-focused-fix`
+
+Deep-dive feature repair — systematically fix an entire feature/module across all its files and dependencies. Usage: /focused-fix <feature-path>
+
+---
+### `cmo-advisor`
+
+Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design. Use when designing brand strategy, selecting growth models (PLG vs sales-led vs community-led), allocating marketing budgets, building marketing teams, or whe...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cmo-advisor`
+
+Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design. Use when designing brand strategy, selecting growth models (PLG vs sales-led vs community-led), allocating marketing budgets, building marketing teams, or whe...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cmo-review`
+
+/cs:cmo-review <plan> — Narrative-first interrogation of positioning, ICP, message house, and channel mix. Use when launching a campaign or repositioning, or when CAC is rising and the one-sentence positioning test fails.
 
 ---
 ### `co-marketing`
@@ -12560,6 +11985,17 @@ Elite code review expert specializing in modern AI-powered code analysis, securi
 _source: `community` · risk: `offensive`_
 
 ---
+### `code-reviewer`
+
+Code review automation for TypeScript, JavaScript, Python, Go, Swift, Kotlin. Analyzes PRs for complexity and risk, checks code quality for SOLID violations and code smells, generates review reports. Use when reviewing pull requests, analyzing code quality, identifying issues, generating review c...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `code-simplifier`
 
 Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to "simplify code", "clean up code", "refactor for clarity", "improve readability", or review recently modified code for elegance. Focuses on project-specific best practices.
@@ -12578,6 +12014,20 @@ _source: `community` · risk: `safe`_
 Analyze codebases and automatically generate architecture diagrams, flowcharts, and org charts. Uses AST parsing to map import dependencies for Python, JS/TS, Go, and Java, outputting Mermaid or SVG files. Triggered when users ask to visualize code architecture, understand dependencies, draw a flowchart, or create a module diagram from source code.
 
 _tags: `visualization`, `architecture`, `mermaid`, `ast`, `diagram`_
+
+---
+### `code-to-prd`
+
+Reverse-engineer any codebase into a complete Product Requirements Document (PRD).
+Analyzes routes, components, state management, API integrations, and user interactions to produce
+business-readable documentation detailed enough for engineers or AI agents to fully reconstruct
+every page and endpo...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `code-to-prd`
@@ -12650,6 +12100,22 @@ You are a technical debt expert specializing in identifying, quantifying, and pr
 **Cuándo usar:**
 
 - Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `codebase-onboarding`
+
+Codebase Onboarding
+
+**Cuándo usar:**
+
+- Onboarding a new team member or contractor
+- Rebuilding stale project docs after large refactors
+- Preparing internal handoff documentation
+- Creating a standardized onboarding packet for services
+
+---
 
 _source: `community` · risk: `safe`_
 
@@ -12748,6 +12214,17 @@ Write B2B cold emails and follow-up sequences that get replies. Use when the use
 _source: `community` · risk: `safe`_
 
 ---
+### `cold-email`
+
+When the user wants to write, improve, or build a sequence of B2B cold outreach emails to prospects who haven't asked to hear from them. Use when the user mentions 'cold email,' 'cold outreach,' 'prospecting emails,' 'SDR emails,' 'sales emails,' 'first touch email,' 'follow-up sequence,' or 'ema...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `collab-proof`
 
 Use when you want to understand what Claude contributed vs what you drove in a session. Triggers on: /collab-proof, session retrospective, ai contribution analysis, collaboration evidence, what did claude do.
@@ -12762,6 +12239,17 @@ Force unrelated concepts together to discover emergent properties - "What if we 
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `color-blocking`
+
+Web and App implementation guide for Color Blocking. Trigger when user wants large color sections, striking layout divisions, and Mondrian-style grids.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `color-blocking`
@@ -12802,6 +12290,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `command-center-ui`
+
+Web and App implementation guide for Command Center UI. Trigger when user wants monitoring systems, enterprise dashboards, NOCs, and global maps.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `command-guide`
 
 Claude Code Command Selection Guide - Automatically recommend and select the right commands, agents, and skills in Claude Code. Use when: (1) user is unsure which command or tool to use, (2) needs to decide which agent/skill best fits the current task, (3) querying usage scenarios for /plan...
@@ -12829,6 +12328,50 @@ Use it for:
 - Slack, Discord, or async project updates.
 
 ---
+### `commercial-forecaster`
+
+Use when building a quarterly bookings forecast, ARR projection, pipeline forecast, NRR projection, or commit/best-case/pipe-only board number — especially when the CRO needs to walk the board through funnel math + cohort ARR + per-stage conversion assumptions without the theatre of a single undefended number. Decomposes pipeline into commit, best-case, and pipe-only tiers; projects cohort-level NRR/GRR to surface leaky cohorts before they show up in the consolidated number; scores per-stage funnel confidence so soft-floor stages get treated differently from high-confidence ones. Every output explicitly names the conversion rate used, the data window, and the weighting choice. For Head of Commercial, RevOps, VP Sales, and CRO at quarterly forecast or board prep. NOT financial close (see finance/financial-analysis). NOT strategic CRO hiring/territory (see c-level-advisor/cro-advisor). NOT pricing (see sibling pricing-strategist).
+
+**Cuándo usar:**
+
+- Building the quarterly bookings forecast for the board
+- Preparing the QBR forecast where the CFO will ask "what's the commit, what's the best-case, what's the pipe-only"
+- Projecting ARR for next 4-8 quarters using cohort retention data
+- Suspecting a consolidated NRR number is hiding a leaky recent cohort
+- Pipeline-coverage is shrinking and you need to know which stages are still trustworthy
+- You're being asked for a "single number" and you need the structured answer that surfaces the assumption
+
+**Do not use for:**
+_[...]_
+
+_tags: `commercial`, `forecasting`, `bookings`, `arr`, `nrr`_
+
+---
+### `commercial-policy`
+
+Use when designing or revising a company's commercial policy — the rules of engagement governing discounts off list price, approver thresholds, exception flows, and the deal framework that Deal Desk and AEs operate under. Covers discount matrix design (ARR band x term length x payment terms x strategic value), commercial policy design, exception policy, discount governance, approval thresholds, deal framework structure, and policy linting (contradictions, gaps, cliff edges, gaming surfaces). For Head of Commercial, Head of Deal Desk, VP Sales, or RevOps at the policy-design moment — NOT per-deal application (that is deal-desk) and NOT pricing model selection (that is pricing-strategist).
+
+**Cuándo usar:**
+
+- A new Head of Commercial or Head of Deal Desk is writing the company's first formal commercial policy
+- The existing matrix is older than 6 months and discount drift is showing in margin reviews
+- Reps are citing "Maria approved 28% on Acme last quarter" as precedent and you need to break the precedent loop
+- Q-over-Q exception count is rising and you suspect the matrix bands are mispriced
+- CFO has tightened the margin floor and the matrix needs to be rebuilt against the new constraint
+- A board / exec is asking "why do we discount this much?" and you need a data-backed defensible policy
+
+_[...]_
+
+_tags: `commercial`, `discount-policy`, `discount-matrix`, `exception-flow`, `governance`_
+
+---
+### `commercial-skills`
+
+Use when reviewing, approving, or designing commercial motion — pricing models, deal review, discount approval, partnership economics, channel mix, commercial policy, RFP/RFI response, bookings forecast. Triggers on "review this deal", "should we discount", "pricing model", "partner economics", "RFP response", "bookings forecast", "channel mix". Forks context to route to one of seven Commercial sub-skills (pricing-strategist, deal-desk, partnerships-architect, channel-economics, commercial-policy, rfp-responder, commercial-forecaster) and returns a digest. Distinct from business-growth (sales execution) and c-level-advisor/cro-advisor (strategic CRO judgment).
+
+_tags: `commercial`, `pricing`, `deal-desk`, `partnerships`, `channel`_
+
+---
 ### `commit`
 
 ALWAYS use this skill when committing code changes — never commit directly without it. Creates commits following Sentry conventions with proper conventional commit format and issue references. Trigger on any commit, git commit, save changes, or commit message task.
@@ -12849,6 +12392,28 @@ Build and leverage online communities to drive product growth and brand loyalty.
 **Cuándo usar:**
 
 Use this skill when you need guidance on community-marketing.
+
+_source: `community` · risk: `safe`_
+
+---
+### `company-os`
+
+The meta-framework for how a company runs — the connective tissue between all C-suite roles. Covers operating system selection (EOS, Scaling Up, OKR-native, hybrid), accountability charts, scorecards, meeting pulse, issue resolution, and 90-day rocks. Use when setting up company operations, selec...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `company-os`
+
+The meta-framework for how a company runs — the connective tissue between all C-suite roles. Covers operating system selection (EOS, Scaling Up, OKR-native, hybrid), accountability charts, scorecards, meeting pulse, issue resolution, and 90-day rocks. Use when setting up company operations, selec...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -12881,6 +12446,17 @@ Systematic competitor tracking that feeds CMO positioning, CRO battlecards, and 
 _source: `community` · risk: `safe`_
 
 ---
+### `competitive-intel`
+
+Systematic competitor tracking that feeds CMO positioning, CRO battlecards, and CPO roadmap decisions. Use when analyzing competitors, building sales battlecards, tracking market moves, positioning against alternatives, or when user mentions competitive intelligence, competitive analysis, competi...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `competitive-landscape`
 
 This skill should be used when the user asks to "analyze competitors", "assess competitive landscape", "identify differentiation", "evaluate market positioning", "apply Porter's Five Forces", or requests competitive strategy analysis.
@@ -12890,6 +12466,11 @@ This skill should be used when the user asks to "analyze competitors", "assess c
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `competitive-matrix`
+
+Build competitive analysis matrices with scoring and gap analysis. Usage: /competitive-matrix <analyze> [options]
 
 ---
 ### `competitive-platform-analysis`
@@ -12919,9 +12500,37 @@ Analyzes competitor products and companies by synthesizing data from pricing pag
 _source: `community` · risk: `safe`_
 
 ---
+### `competitive-teardown`
+
+Analyzes competitor products and companies by synthesizing data from pricing pages, app store reviews, job postings, SEO signals, and social media into structured competitive intelligence. Produces feature comparison matrices scored across 12 dimensions, SWOT analyses, positioning maps, UX audits...
+
+**Cuándo usar:**
+
+- Before a product strategy or roadmap session
+- When a competitor launches a major feature or pricing change
+- Quarterly competitive review
+- Before a sales pitch where you need battle card data
+- When entering a new market segment
+
+---
+
+_source: `community` · risk: `safe`_
+
+---
 ### `competitor-alternatives`
 
 When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `competitor-alternatives`
+
+When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'switch...
 
 **Cuándo usar:**
 
@@ -13219,6 +12828,17 @@ Atlassian Confluence expert for creating and managing spaces, knowledge bases, a
 _source: `community` · risk: `safe`_
 
 ---
+### `confluence-expert`
+
+Atlassian Confluence expert for creating and managing spaces, knowledge bases, and documentation. Configures space permissions and hierarchies, creates page templates with macros, sets up documentation taxonomies, designs page layouts, and manages content governance. Use when users need to build ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `connections-optimizer`
 
 Reorganize the user's X and LinkedIn network with review-first pruning, add/follow recommendations, and channel-specific warm outreach drafted in the user's real voice.
@@ -13276,6 +12896,17 @@ Deprecated redirect skill that routes legacy 'content creator' requests to the c
 _source: `community` · risk: `safe`_
 
 ---
+### `content-creator`
+
+Deprecated redirect skill that routes legacy 'content creator' requests to the correct specialist. Use when a user invokes 'content creator', asks to write a blog post, article, guide, or brand voice analysis (routes to content-production), or asks to plan content, build a topic cluster, or creat...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `content-engine`
 
 Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threads, scripts, content calendars, or one source asset adapted cleanly across platforms.
@@ -13312,9 +12943,31 @@ Makes AI-generated content sound genuinely human — not just cleaned up, but al
 _source: `community` · risk: `offensive`_
 
 ---
+### `content-humanizer`
+
+Makes AI-generated content sound genuinely human — not just cleaned up, but alive. Use when content feels robotic, uses too many AI clichés, lacks personality, or reads like it was written by committee. Triggers: 'this sounds like AI', 'make it more human', 'add personality', 'it feels generic', ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `content-marketer`
 
 Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing. Masters modern content tools, social media automation, and conversion optimization with 2024/2025 best practices. Use PROACTIVELY for ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `content-production`
+
+Full content production pipeline — takes a topic from blank page to published-ready piece. Use when you need to execute content: write a blog post, article, or guide end-to-end. Triggers: 'write a post about', 'draft an article', 'create content for', 'help me write', 'I need a blog post'. NOT fo...
 
 **Cuándo usar:**
 
@@ -13365,9 +13018,37 @@ Assists in writing high-quality content by conducting research, adding citations
 _source: `community` · risk: `safe`_
 
 ---
+### `content-strategist`
+
+Builds content engines that rank, convert, and compound. Thinks in systems — topic clusters, not individual posts. Every piece earns its place or gets killed. Use when content needs to behave like a system rather than a stream of posts — e.g., designing a topic-cluster plan to grow organic traffic from zero, or auditing an editorial calendar and killing pieces that don't convert after 90 days. (For single-asset, on-brand copy production, see cs-content-creator.)
+
+**Cuándo usar:**
+
+✅ You need a content strategy from scratch
+✅ You're getting traffic but no conversions
+✅ Your blog has 200 posts and you don't know which ones matter
+✅ You want to turn one article into a week of social content
+✅ You're planning a content-led launch
+
+❌ You need paid ad copy → use Growth Marketer
+❌ You need product UI copy → use copywriting skill directly
+❌ You need visual design → not my thing
+
+---
 ### `content-strategy`
 
 When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," "content planning," "editorial calendar," "conten...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `content-strategy`
+
+When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," or "content planning." For writing individual pie...
 
 **Cuándo usar:**
 
@@ -13432,6 +13113,28 @@ _source: `community` · risk: `safe`_
 ### `context-driven-development`
 
 Use this skill when working with Conductor's context-driven development methodology, managing project context artifacts, or understanding the relationship between product.md, tech-stack.md, and workflow.md files.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `context-engine`
+
+Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (>90 days), enriches context during conversations, and enforces privacy/anonymization rules before external API calls.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `context-engine`
+
+Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (>90 days), enriches context during conversations, and enforces privacy/anonymization rules before external API calls.
 
 **Cuándo usar:**
 
@@ -13583,6 +13286,40 @@ _source: `community` · risk: `safe`_
 _source: `community` · risk: `safe`_
 
 ---
+### `contract-and-proposal-writer`
+
+Contract & Proposal Writer
+
+**Cuándo usar:**
+
+- Starting a new client engagement and need a contract fast
+- Client asks for a proposal with pricing and timeline
+- Partnership or vendor relationship requiring an MSA
+- Protecting IP or confidential information with an NDA
+- EU/DACH project requiring GDPR-compliant data clauses
+
+---
+
+_source: `community` · risk: `safe`_
+
+---
+### `contract-and-proposal-writer`
+
+Contract & Proposal Writer
+
+**Cuándo usar:**
+
+- Starting a new client engagement and need a contract fast
+- Client asks for a proposal with pricing and timeline
+- Partnership or vendor relationship requiring an MSA
+- Protecting IP or confidential information with an NDA
+- EU/DACH project requiring GDPR-compliant data clauses
+
+---
+
+_source: `community` · risk: `safe`_
+
+---
 ### `conversation-memory`
 
 Persistent memory systems for LLM conversations including short-term, long-term, and entity-based memory Use when: conversation memory, remember, memory persistence, long-term memory, chat history.
@@ -13627,6 +13364,28 @@ Convex reactive backend expert: schema design, TypeScript functions, real-time s
 _source: `https://docs.convex.dev` · risk: `safe`_
 
 ---
+### `coo-advisor`
+
+Operations leadership for scaling companies. Process design, OKR execution, operational cadence, and scaling playbooks. Use when designing operations, setting up OKRs, building processes, scaling teams, analyzing bottlenecks, planning operational cadence, or when user mentions COO, operations, pr...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `coo-advisor`
+
+Operations leadership for scaling companies. Process design, OKR execution, operational cadence, and scaling playbooks. Use when designing operations, setting up OKRs, building processes, scaling teams, analyzing bottlenecks, planning operational cadence, or when user mentions COO, operations, pr...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `cookbook-audit`
 
 Audit an Anthropic Cookbook notebook based on a rubric. Use whenever a notebook review or audit is requested.
@@ -13666,6 +13425,35 @@ When the user wants to edit, review, or improve existing marketing copy. Also us
 | Reviewing and improving existing copy | copy-editing (this skill) |
 | Editing copy you just wrote | copy-editing (this skill) |
 | Structural or strategic page changes | page-cro |
+
+_source: `community` · risk: `safe`_
+
+---
+### `copy-editing`
+
+When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy throug...
+
+**Cuándo usar:**
+
+| Task | Skill to Use |
+|------|--------------|
+| Writing new page copy from scratch | copywriting |
+| Reviewing and improving existing copy | copy-editing (this skill) |
+| Editing copy you just wrote | copy-editing (this skill) |
+| Structural or strategic page changes | page-cro |
+
+---
+
+_source: `community` · risk: `safe`_
+
+---
+### `copywriting`
+
+When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help,...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -13764,6 +13552,39 @@ Examples:
 _source: `community` · risk: `safe`_
 
 ---
+### `coverage`
+
+Analyze test coverage gaps. Use when user says "test coverage", "what's not tested", "coverage gaps", "missing tests", "coverage report", or "what needs testing".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `coverage`
+
+Analyze test coverage gaps. Use when user says "test coverage", "what's not tested", "coverage gaps", "missing tests", "coverage report", or "what needs testing".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `coverage`
+
+Analyze test coverage gaps. Use when user says "test coverage", "what's not tested", "coverage gaps", "missing tests", "coverage report", or "what needs testing".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `cpo-advisor`
 
 Product leadership for scaling companies. Product vision, portfolio strategy, product-market fit, and product org design. Use when setting product vision, managing a product portfolio, measuring PMF, designing product teams, prioritizing at the portfolio level, reporting to the board on product, ...
@@ -13771,6 +13592,29 @@ Product leadership for scaling companies. Product vision, portfolio strategy, pr
 **Cuándo usar:**
 
 - Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cpo-advisor`
+
+Product leadership for scaling companies. Product vision, portfolio strategy, product-market fit, and product org design. Use when setting product vision, managing a product portfolio, measuring PMF, designing product teams, prioritizing at the portfolio level, reporting to the board on product, ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cpo-review`
+
+/cs:cpo-review <plan> — JTBD-driven interrogation of product roadmap, PMF signal, and portfolio focus. Use when committing a quarter's roadmap, deciding whether to kill a feature, or claiming PMF without a retention curve.
+
+---
+### `cpp`
+
+Language-specific super-code guidelines for cpp.
 
 _source: `community` · risk: `safe`_
 
@@ -13912,6 +13756,38 @@ _source: `vibeship-spawner-skills (Apache 2.0)` · risk: `safe`_
 When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't...
 
 ---
+### `cro-advisor`
+
+Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling. Use when designing the revenue engine, setting quotas, modeling NRR, evaluating pricing, building board forecasts, or when user mentions CRO, chief ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cro-advisor`
+
+Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling. Use when designing the revenue engine, setting quotas, modeling NRR, evaluating pricing, building board forecasts, or when user mentions CRO, chief ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cro-review`
+
+/cs:cro-review <plan> — Pipeline-paranoid interrogation of revenue, win rate, NRR, and ramp time. Use when the forecast misses pipeline coverage, win rates drop, or before scaling the sales team.
+
+---
+### `cross-eval`
+
+/cs:cross-eval <memo> — Multi-model consensus on a board memo or strategy brief. Claude + Codex + Gemini cross-review with graceful degradation. Use when a high-stakes memo needs an independent sanity check before the boardroom — e.g. a bet-the-company pivot or fundraise terms.
+
+---
 ### `cross-examine`
 
 Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".
@@ -13946,6 +13822,185 @@ Production-tested patterns for building AI agents that autonomously discover, > 
 _source: `community` · risk: `safe`_
 
 ---
+### `cs-aeo`
+
+Answer Engine Optimization (AEO) specialist agent. Use when content needs to be optimized for citation by AI language models (ChatGPT, Perplexity, Claude, Gemini, Mistral) rather than for traditional search rankings. Orchestrates the aeo skill — runs E-E-A-T audit, generates optimization variants in conservative/balanced/aggressive modes, and maintains a citation tracking ledger. Industry-aware (8 industries with calibrated thresholds). Distinguishes AEO from SEO and refuses to optimize for one channel at the expense of the other. Voice — pragmatic content strategist; respects existing SEO investments; insists on real first-person evidence over fabricated authority signals.
+
+---
+### `cs-agile-product-owner`
+
+Agile product owner agent for epic breakdown, sprint planning, backlog refinement, and INVEST-compliant user story generation. Use when preparing work for a development team — e.g., decomposing a large epic into INVEST-compliant stories with acceptance criteria, or refining a messy backlog ahead of sprint planning.
+
+---
+### `cs-backend-engineer`
+
+Backend-engineering orchestrator. Walks the 7 Matt Pocock forcing questions (read/write ratio + QPS, tenancy, sync vs async, data sensitivity, pattern, RPO/RTO, SLO), picks the language + pattern profile, forks into specialists (api-design-reviewer, database-designer, migration-architect, observability-designer, slo-architect — listed alphabetically; workflow order is dependency-driven) rather than reimplementing their scope. Forks own context. Invoke via /cs:backend-review or Agent({subagent_type:"cs-backend-engineer",...}).
+
+---
+### `cs-backend-review`
+
+Backend engineering review — walks the 7 Matt Pocock forcing questions (read/write ratio + QPS, tenancy, sync vs async, data sensitivity, pattern, RPO/RTO, SLO), picks the language + pattern profile, forks into specialists (api-design-reviewer, database-designer, migration-architect, slo-architect). Invokes the cs-backend-engineer agent with context fork.
+
+---
+### `cs-ceo-advisor`
+
+Strategic leadership advisor for CEOs covering vision, strategy, board management, investor relations, and organizational culture. Use when a founder or CEO faces a company-level strategic decision — e.g., preparing the narrative and metrics for a quarterly board meeting, or stress-testing a pivot or market-expansion decision against vision, runway, and stakeholder expectations.
+
+---
+### `cs-content-creator`
+
+Long-form marketing content producer orchestrating the content-production skill (research → brief → draft → optimize → gate). Use when content must be written, scored, or made publish-ready — e.g., drafting a 2,000-word blog post against a target keyword and blocking publish until content_quality_gates.py passes, or auditing a draft for brand-voice drift with brand_voice_analyzer.py before it ships. Routes planning requests (topic clusters, calendars) to content-strategy. Supersedes the deprecated content-creator skill.
+
+---
+### `cs-cto-advisor`
+
+Technical leadership advisor for CTOs covering technology strategy, team scaling, architecture decisions, and engineering excellence. Use when a CTO or technical founder needs company-level technology judgment — e.g., deciding build-vs-buy for a core platform component, or planning how to scale the engineering org from 5 to 30 engineers without losing delivery velocity.
+
+---
+### `cs-demand-gen-specialist`
+
+Demand generation and acquisition-funnel specialist orchestrating the marketing-demand-acquisition, paid-ads, and email-sequence skills. Use when building or fixing the acquisition engine — e.g., comparing channel CAC against B2B SaaS benchmarks before reallocating a $40k/month budget, scoring paid-ads account health with ad_health_scorer.py before scaling spend, or designing a nurture sequence that must score 70+ on sequence_analyzer.py before launch. Covers channel mix, CAC/ROAS math, MQL→SQL workflows, attribution, and nurture design.
+
+---
+### `cs-engineer-grill`
+
+Cross-role engineering grill — Matt Pocock 7 questions per role × 3 roles (fullstack / frontend / backend) = up to 21 forcing questions, one per turn, with canon citations and kill criteria. Default: ask which lane first; `--all` runs all 21.
+
+---
+### `cs-engineering-lead`
+
+Engineering Team Lead agent for coordinating QA, security, data engineering, ML, and frontend/backend teams. Orchestrates engineering-team skills for team-level technical decisions. Spawn when users need team coordination, tech stack evaluation, incident response, or cross-functional engineering work.
+
+---
+### `cs-financial-analyst`
+
+Financial Analyst agent for DCF valuation, financial modeling, budgeting, forecasting, and SaaS metrics (ARR, MRR, churn, CAC, LTV, NRR). Orchestrates finance skills. Spawn when users need financial analysis, valuation models, budget planning, ratio analysis, SaaS health checks, or unit economics projections.
+
+---
+### `cs-frontend-engineer`
+
+Frontend-engineering orchestrator. Walks the 7 Matt Pocock forcing questions (device, LCP target, rendering, bundle budget, SEO vs auth, design system, WCAG), picks the framework/rendering profile, forks into specialists (a11y-audit, apple-hig-expert, epic-design, performance-profiler, playwright-pro — listed alphabetically; workflow order is dependency-driven) rather than reimplementing their scope. Forks own context. Invoke via /cs:frontend-review or Agent({subagent_type:"cs-frontend-engineer",...}).
+
+---
+### `cs-frontend-review`
+
+Frontend engineering review — walks the 7 Matt Pocock forcing questions (device, LCP target, rendering, bundle budget, SEO vs auth, design system, WCAG), picks the framework + rendering profile, forks into specialists (a11y-audit, performance-profiler, epic-design). Invokes the cs-frontend-engineer agent with context fork.
+
+---
+### `cs-fullstack-engineer`
+
+Fullstack-engineering orchestrator. Walks the Matt Pocock 7-question forcing-question grill, runs the deterministic profile picker, then forks into the POWERFUL-tier specialists (api-design-reviewer, ci-cd-pipeline-builder, database-designer, performance-profiler, slo-architect — listed alphabetically; workflow order is dependency-driven) rather than reimplementing their scope. Forks own context so heavy ingestion does not pollute parent thread. Invoke via /cs:fullstack-review or Agent({subagent_type:"cs-fullstack-engineer",...}).
+
+---
+### `cs-fullstack-review`
+
+Fullstack engineering review — walks the 7 Matt Pocock forcing questions, picks the profile, forks into POWERFUL specialists (api-design-reviewer, database-designer, slo-architect). Invokes the cs-fullstack-engineer agent with context fork.
+
+---
+### `cs-growth-strategist`
+
+Growth Strategist agent for revenue operations, sales engineering, customer success, and business development. Orchestrates business-growth skills. Spawn when users need pipeline analysis, churn prevention, expansion scoring, sales demos, or proposal writing.
+
+---
+### `cs-karpathy-reviewer`
+
+Reviews staged git changes against Karpathy's 4 coding principles. Runs complexity_checker on changed files, diff_surgeon on the diff, and produces a verdict with specific fix recommendations. Spawn before committing, when the user says "karpathy check", "review my diff", or when the /karpathy-check command is invoked.
+
+---
+### `cs-onboard`
+
+Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:setup for initial interview or /cs:update for quarterly refresh. Generates ~/.claude/company-context.md used by all C-suite advisor skills.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cs-onboard`
+
+Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:setup for initial interview or /cs:update for quarterly refresh. Generates ~/.claude/company-context.md used by all C-suite advisor skills.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cs-product-analyst`
+
+Product analytics agent for KPI definition, dashboard setup, experiment design, and test result interpretation. Use when a product question needs numbers — e.g., defining activation/retention KPIs and a dashboard spec for a new feature, or sizing an A/B test and judging whether the result is significant enough to ship.
+
+---
+### `cs-product-manager`
+
+Product management agent for feature prioritization, customer discovery, PRD development, and roadmap planning using RICE framework. Use when a product decision needs structure and evidence — e.g., RICE-scoring a backlog of 20 feature requests before quarterly planning, or drafting a PRD from raw customer-interview notes.
+
+---
+### `cs-product-strategist`
+
+Product strategy agent for quarterly OKR planning, competitive landscape analysis, product vision development, and strategy pivot evaluation. Use when the question is direction rather than delivery — e.g., cascading company OKRs into product-team objectives for next quarter, or running a competitive teardown to decide whether to enter an adjacent market.
+
+---
+### `cs-project-manager`
+
+Project Manager agent for sprint planning, Jira/Confluence workflows, Scrum ceremonies, and stakeholder reporting. Orchestrates project-management skills. Use when running delivery operations — e.g., planning a sprint with capacity and carry-over math in Jira, or assembling a portfolio health report for stakeholders from ticket and velocity data.
+
+---
+### `cs-quality-regulatory`
+
+Quality & Regulatory agent for ISO 13485 QMS, MDR compliance, FDA submissions, GDPR/DSGVO, and ISMS audits. Orchestrates ra-qm-team skills. Spawn when users need regulatory strategy, audit preparation, CAPA management, risk management, or compliance documentation.
+
+---
+### `cs-senior-engineer`
+
+Senior Engineer agent for architecture decisions, code review, DevOps, and API design. Orchestrates engineering and engineering-team skills for technical implementation work. Spawn when users need system design, code quality review, CI/CD pipeline setup, or infrastructure decisions.
+
+---
+### `cs-ux-researcher`
+
+UX research agent for research planning, persona generation, journey mapping, and usability test analysis. Use when product decisions need user evidence — e.g., planning interview scripts and recruiting criteria for a discovery study, or synthesizing usability-test sessions into prioritized findings and updated personas.
+
+---
+### `cs-webinar`
+
+/cs:webinar — Webinar & virtual-event marketing workflow. Plan a webinar from scratch (sized backward from the business goal), rescue one whose numbers disappointed (score the funnel, fix the broken stage), or turn a past webinar into an evergreen on-demand lead engine. Covers the full funnel: registration, promotion runway, show-up, live engagement, live-to-close, and segmented follow-up. Treats a webinar as a funnel, not an event.
+
+---
+### `cs-webinar-marketer`
+
+Webinar & virtual-event marketing specialist agent. Use when planning, promoting, running, or rescuing a webinar, virtual event, live demo, workshop, masterclass, fireside chat, or virtual summit. Orchestrates the webinar-marketing skill — sizes the funnel backward from the business goal, builds the promotion runway, designs the show-up and live-to-close sequences, scores an existing funnel to find the broken stage, and plans evergreen/on-demand automation. Treats a webinar as a funnel, not an event. Voice — outcome-obsessed demand operator; refuses to celebrate registrations when nobody shows up or buys; fixes the stage that's actually broken instead of rewriting the landing page by reflex.
+
+---
+### `cs-wiki-ingestor`
+
+Dispatched sub-agent that ingests a new source into an LLM Wiki vault. Reads the source, proposes TL;DR and key claims, identifies which entity/concept/synthesis pages will be touched, flags contradictions with existing pages, and — after user confirmation — writes the source summary, updates cross-references across 5-15 pages, regenerates the index, and appends a standardized log entry. Spawn when the user says "ingest this", "add this paper/article/book to the wiki", or drops a file into raw/.
+
+---
+### `cs-wiki-librarian`
+
+Dispatched sub-agent that answers queries against an LLM Wiki vault. Reads index.md first, drills into 3-10 relevant pages across categories, synthesizes an answer with inline [[wikilink]] citations, and offers to file the answer back into the wiki as a new comparison or synthesis page. Spawn when the user asks a substantive question the wiki might answer, says "what does the wiki say about X", "compare A and B across my sources", or wants to explore a topic.
+
+---
+### `cs-wiki-linter`
+
+Dispatched sub-agent that runs a periodic health check on an LLM Wiki vault. Runs mechanical checks via scripts (orphans, broken links, stale pages, missing frontmatter, duplicate titles, log gaps), does semantic checks (contradictions, stale claims, cross-reference gaps, concepts missing their own page), and produces a markdown report with suggested actions. Spawn weekly, after batch ingests, or when the user says "check the wiki" / "lint my wiki" / "audit the vault".
+
+---
+### `cs-workspace-admin`
+
+Google Workspace administration agent using the gws CLI. Orchestrates workspace setup, Gmail/Drive/Sheets/Calendar automation, security audits, and recipe execution. Spawn when users need Google Workspace automation, gws CLI help, or workspace administration.
+
+---
+### `csharp`
+
+Language-specific super-code guidelines for csharp.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `csharp`
 
 Language-specific super-code guidelines for csharp.
@@ -13971,6 +14026,44 @@ C# and .NET testing patterns with xUnit, FluentAssertions, mocking, integration 
 **Cuándo usar:**
 
 Use this skill when you need guidance or automation for csharp-testing.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cto-advisor`
+
+Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing engineering metrics, or when user mentions CTO, tech debt, techn...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cto-advisor`
+
+Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing engineering metrics, or when user mentions CTO, tech debt, techn...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `cto-review`
+
+/cs:cto-review <plan> — Architecture and scaling interrogation. Tech debt, scaling cliffs, team scaling, build-vs-buy. Use when committing to an architecture, planning for 10x load, or weighing a rebuild against a vendor.
+
+---
+### `culture-architect`
+
+Build, measure, and evolve company culture as operational behavior — not wall posters. Covers mission/vision/values workshops, values-to-behaviors translation, culture code creation, culture health assessment, and cultural rituals by stage. Use when building company values, assessing culture heal...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -14065,6 +14158,17 @@ Monitors customer health, predicts churn risk, and identifies expansion opportun
 _source: `community` · risk: `offensive`_
 
 ---
+### `customer-success-manager`
+
+Monitors customer health, predicts churn risk, and identifies expansion opportunities using weighted scoring models for SaaS customer success. Use when analyzing customer accounts, reviewing retention metrics, scoring at-risk customers, or when the user mentions churn, customer health scores, ups...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `customer-support`
 
 Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences. Integrates modern support tools, chatbot platforms, and CX optimization with 2024/2025 best practices. Use PROACTIVELY for comprehensive customer...
@@ -14074,6 +14178,54 @@ Elite AI-powered customer support specialist mastering conversational AI, automa
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `customize`
+
+Interactive guided deployment flow for Azure OpenAI models with full customization control. Step-by-step selection of model version, SKU (GlobalStandard/Standard/ProvisionedManaged), capacity, RAI policy (content filter), and advanced options (dynamic quota, priority processing, spillover). USE F...
+
+**Cuándo usar:**
+
+Use this skill when you need **precise control** over deployment configuration:
+
+- ✅ **Choose specific model version** (not just latest)
+- ✅ **Select deployment SKU** (GlobalStandard vs Standard vs PTU)
+- ✅ **Set exact capacity** within available range
+- ✅ **Configure content filtering** (RAI policy selection)
+- ✅ **Enable advanced features** (dynamic quota, priority processing, spillover)
+- ✅ **PTU deployments** (Provisioned Throughput Units)
+
+**Alternative:** Use `preset` for quick deployment to the best available region with automatic configuration.
+
+### Comparison: customize vs preset
+
+_[...]_
+
+_source: `community` · risk: `safe`_
+
+---
+### `customize`
+
+Interactive guided deployment flow for Azure OpenAI models with full customization control. Step-by-step selection of model version, SKU (GlobalStandard/Standard/ProvisionedManaged), capacity, RAI policy (content filter), and advanced options (dynamic quota, priority processing, spillover). USE F...
+
+**Cuándo usar:**
+
+Use this skill when you need **precise control** over deployment configuration:
+
+- ✅ **Choose specific model version** (not just latest)
+- ✅ **Select deployment SKU** (GlobalStandard vs Standard vs PTU)
+- ✅ **Set exact capacity** within available range
+- ✅ **Configure content filtering** (RAI policy selection)
+- ✅ **Enable advanced features** (dynamic quota, priority processing, spillover)
+- ✅ **PTU deployments** (Provisioned Throughput Units)
+
+**Alternative:** Use `preset` for quick deployment to the best available region with automatic configuration.
+
+### Comparison: customize vs preset
+
+_[...]_
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `customize`
@@ -14155,6 +14307,28 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `cyber-y2k`
+
+Web and App implementation guide for Cyber Y2K. Trigger when user wants modern Y2K, holographic visuals, and glitch aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `cyberpunk-ui`
+
+Web and App implementation guide for Cyberpunk UI. Trigger when user wants neon colors, dark backgrounds, high-tech dystopian aesthetics, and hacking interfaces.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `cyberpunk-ui`
 
 Web and App implementation guide for Cyberpunk UI. Trigger when user wants neon colors, dark backgrounds, high-tech dystopian aesthetics, and hacking interfaces.
@@ -14197,6 +14371,24 @@ Web and App implementation guide for Dark Mode Design. Trigger when user wants d
 Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
 
 _source: `self` · risk: `safe`_
+
+---
+### `dark-mode`
+
+Web and App implementation guide for Dark Mode Design. Trigger when user wants dark surfaces, reduced eye strain, and premium sleek aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `dart`
+
+Language-specific super-code guidelines for dart.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `dart`
@@ -14248,6 +14440,28 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `dashboard-design`
+
+Web and App implementation guide for Dashboard Design. Trigger when user wants analytics-focused layouts, data visualization, and modular overview screens.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `data-dense-design`
+
+Web and App implementation guide for Data-Dense Design. Trigger when user wants professional tools, maximum information density, and expert interfaces (like Bloomberg terminals or IDEs).
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `data-dense-design`
 
 Web and App implementation guide for Data-Dense Design. Trigger when user wants professional tools, maximum information density, and expert interfaces (like Bloomberg terminals or IDEs).
@@ -14290,6 +14504,11 @@ You are a data pipeline architecture expert specializing in scalable, reliable, 
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `data-quality-auditor`
+
+Audit datasets for completeness, consistency, accuracy, and validity. Profile data distributions, detect anomalies and outliers, surface structural issues, and produce an actionable remediation plan.
 
 ---
 ### `data-quality-frameworks`
@@ -14433,6 +14652,17 @@ Use when the user asks to design database schemas, plan data migrations, optimiz
 _source: `community` · risk: `offensive`_
 
 ---
+### `database-designer`
+
+Database Designer - POWERFUL Tier Skill
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `database-migration`
 
 Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databases, changing schemas, performing data transformations, or implementing zero-downtime deployment strategies.
@@ -14491,6 +14721,23 @@ _source: `community` · risk: `safe`_
 ### `database-schema-designer`
 
 Use when the user asks to create ERD diagrams, normalize database schemas, design table relationships, or plan schema migrations.
+
+**Cuándo usar:**
+
+- Designing a new feature that needs database tables
+- Reviewing a schema for performance or normalization issues
+- Adding multi-tenancy to an existing schema
+- Generating TypeScript types from a Prisma schema
+- Planning a schema migration for a breaking change
+
+---
+
+_source: `community` · risk: `safe`_
+
+---
+### `database-schema-designer`
+
+Database Schema Designer
 
 **Cuándo usar:**
 
@@ -14656,6 +14903,26 @@ This skill is applicable to execute the workflow or actions described in the ove
 _source: `self` · risk: `safe`_
 
 ---
+### `deal-desk`
+
+Use when reviewing a specific inbound deal before close — when sales has asked for a discount that exceeds AE authority, when the customer has redlined the MSA, when per-deal economics (margin after discount, multi-year payment shape, indemnity exposure) need to be quantified, or when discount approval needs to be routed to a named human approver (Sales Director, VP Sales, CFO, CRO, General Counsel). Covers deal review, discount approval routing, per-deal margin scoring, deal exception handling, MSA redline triage, contract landmine detection (uncapped indemnity, MFN, perpetual license-back, missing DPA), and named-approver chain assembly. NEVER auto-approves — every output is a numeric scorecard plus a routing recommendation to a named human.
+
+**Cuándo usar:**
+
+Invoke this skill when:
+
+- Sales has flagged a discount request above AE authority.
+- A customer has returned a redlined MSA and you need triage before routing to legal.
+- The deal needs CFO sign-off and you want a defensible margin breakdown.
+- An RFP response requires multi-year terms and you need to score the shape.
+- A renewal expansion is bundled with a discount and you need to verify policy fit.
+- You're building a deal-desk approval queue and need consistent routing.
+
+_[...]_
+
+_tags: `commercial`, `deal-desk`, `discount`, `margin`, `approval`_
+
+---
 ### `debug-buttercup`
 
 All pods run in namespace crs. Use when pods in the crs namespace are in CrashLoopBackOff, OOMKilled, or restarting, multiple services restart simultaneously (cascade failure), or redis is unresponsive or showing AOF warnings.
@@ -14757,6 +15024,22 @@ Triggers: "debug output", "DbgView", "DebugView", "kernel debug", "capture debug
 
 
 ---
+### `decide`
+
+/cs:decide <memo> — Log a decision to two-layer memory via decision-logger. Approved memo becomes durable; raw transcripts kept for reference. Use when the founder has approved a boardroom memo and the decision must become durable company memory — e.g. right after /cs:boardroom concludes.
+
+---
+### `decision-logger`
+
+Two-layer memory architecture for board meeting decisions. Manages raw transcripts (Layer 1) and approved decisions (Layer 2). Use when logging decisions after a board meeting, reviewing past decisions with /cs:decisions, or checking overdue action items with /cs:review. Invoked automatically by ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `decision-logger`
 
 Two-layer memory architecture for board meeting decisions. Manages raw transcripts (Layer 1) and approved decisions (Layer 2). Use when logging decisions after a board meeting, reviewing past decisions with /cs:decisions, or checking overdue action items with /cs:review. Invoked automatically by ...
@@ -14847,11 +15130,41 @@ _source: `community` · risk: `safe`_
 Stop hook that blocks Claude from finishing until quality checks pass. Detects rationalization patterns (surface text heuristics), stale learning logs (filesystem mtime), and low disk space. Complements self-audit by mechanically enforcing learning capture habits.
 
 ---
+### `demo-video`
+
+Use when the user asks to create a demo video, product walkthrough, feature showcase, animated presentation, marketing video, or GIF from screenshots or scene descriptions. Orchestrates playwright, ffmpeg, and edge-tts MCPs to produce polished video content.
+
+**Cuándo usar:**
+
+- User asks to create a demo video, product walkthrough, or feature showcase
+- User wants an animated presentation, marketing video, or product teaser
+- User wants to turn screenshots or UI captures into a polished video or GIF
+- User says "make a video", "create a demo", "record a demo", "promo video"
+
+---
 ### `dep`
 
 Handles containerization, CI/CD pipelines, and deployment setup.
 
 _source: `community` · risk: `safe`_
+
+---
+### `dep`
+
+Handles containerization, CI/CD pipelines, and deployment setup.
+
+_source: `community` · risk: `safe`_
+
+---
+### `dependency-auditor`
+
+Dependency Auditor
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `dependency-auditor`
@@ -14879,6 +15192,17 @@ _source: `community` · risk: `offensive`_
 ### `dependency-upgrade`
 
 Manage major dependency version upgrades with compatibility analysis, staged rollout, and comprehensive testing. Use when upgrading framework versions, updating major dependencies, or managing breaking changes in libraries.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `deploy-model`
+
+Unified Azure OpenAI model deployment skill with intelligent intent-based routing. Handles quick preset deployments, fully customized deployments (version/SKU/capacity/RAI policy), and capacity discovery across regions and projects. USE FOR: deploy model, deploy gpt, create deployment, model depl...
 
 **Cuándo usar:**
 
@@ -15180,6 +15504,24 @@ DevOps e deploy de aplicacoes — Docker, CI/CD com GitHub Actions, AWS Lambda, 
 _source: `community` · risk: `critical` · tags: `devops`, `docker`, `ci-cd`, `aws`, `terraform`_
 
 ---
+### `devops-engineer`
+
+Builds infrastructure that scales without babysitting. Automates everything worth automating. Monitors before it breaks. Treats clicking in consoles as a production incident waiting to happen. Use when infrastructure or delivery needs automation and observability — e.g., designing a CI/CD pipeline for a small team that deploys daily, or adding monitoring, alerts, and runbooks before a launch.
+
+**Cuándo usar:**
+
+✅ You're setting up CI/CD from scratch or fixing a broken pipeline
+✅ You need infrastructure for a new service and want it right the first time
+✅ Your Docker images are 2GB and take 10 minutes to build
+✅ You're getting paged for things that should auto-recover
+✅ Your cloud bill is growing faster than your revenue
+✅ Something is on fire in production right now
+
+❌ You need app code reviewed → use code-reviewer skill
+❌ You need product decisions → use Product Manager
+❌ You need frontend work → use epic-design or frontend skills
+
+---
 ### `devops-troubleshooter`
 
 Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. Masters log analysis, distributed tracing, Kubernetes debugging, performance optimization, and root cause analysis. Handles production outages, system reliability, and preventive mo...
@@ -15470,6 +15812,17 @@ Docker and container development agent skill and plugin for Dockerfile optimizat
 _source: `community` · risk: `offensive`_
 
 ---
+### `docker-development`
+
+Docker and container development agent skill and plugin for Dockerfile optimization, docker-compose orchestration, multi-stage builds, and container security hardening. Use when: user wants to optimize a Dockerfile, create or improve docker-compose configurations, implement multi-stage builds, au...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `docker-patterns`
 
 Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration.
@@ -15603,6 +15956,11 @@ Generates creative domain name ideas for your project and checks availability ac
 _source: `community` · risk: `safe`_
 
 ---
+### `dossier`
+
+Decision-grade entity research skill — produces a hypothesis-tested dossier on a specific company, person, nonprofit, or government org, not a generic profile. Forcing intake makes the user state their hypothesis upfront (what they already believe and want to verify or disprove) so the dossier tests it rather than confirms it. Output is an editable Word document (.docx) with verdict on the hypothesis, identity facts, 12-month activity timeline, network and reputation signals, red flags, conversation hooks tied to specific findings, and source-provenance audit log. Uses WebSearch + WebFetch + free APIs (SEC EDGAR, GitHub, ProPublica) as workhorses; optional BYOK MCPs enhance coverage. Use when the user asks for background research, diligence, or meeting prep on a specific entity (e.g., 'prep me for a meeting with [person/company]', 'due diligence on [company]'). Honors sensitivity exclusions for journalism + personal-vetting contexts.
+
+---
 ### `dotnet`
 
 Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools. Use for agent CRUD, conversation threads, streaming responses, function calling, file search, and code interpreter.
@@ -15690,6 +16048,17 @@ Automate Dropbox file management, sharing, search, uploads, downloads, and folde
 This skill is applicable to execute the workflow or actions described in the overview.
 
 _source: `community` · risk: `safe`_
+
+---
+### `duotone-design`
+
+Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `duotone-design`
@@ -15819,6 +16188,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `editorial-design`
+
+Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `efficient-web-research`
 
 Protocol for token-efficient web research. Use when accessing URLs, GitHub repos, or running search queries. Prevents full-page fetching waste.
@@ -15870,6 +16250,13 @@ Master Electron desktop app development with secure IPC, contextIsolation, prelo
 **Cuándo usar:**
 
 This skill is applicable to execute the workflow or actions described in the overview.
+
+_source: `community` · risk: `safe`_
+
+---
+### `elixir`
+
+Language-specific super-code guidelines for elixir.
 
 _source: `community` · risk: `safe`_
 
@@ -15963,6 +16350,17 @@ When the user wants to create or optimize an email sequence, drip campaign, auto
 _source: `community` · risk: `safe`_
 
 ---
+### `email-sequence`
+
+When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation,"...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `email-systems`
 
 You are an email systems engineer who has maintained 99.9% deliverability across millions of emails. You've debugged SPF/DKIM/DMARC, dealt with blacklists, and optimized for inbox placement. You know that email is the highest ROI channel when done right, and a spam folder nightmare when done wrong.
@@ -15972,6 +16370,40 @@ You are an email systems engineer who has maintained 99.9% deliverability across
 Use this skill when the request clearly matches the capabilities and patterns described above.
 
 _source: `vibeship-spawner-skills (Apache 2.0)` · risk: `safe`_
+
+---
+### `email-template-builder`
+
+Email Template Builder
+
+**Cuándo usar:**
+
+- Setting up transactional email for a new product
+- Migrating from a legacy email system
+- Adding new email types (invoice, digest, notification)
+- Debugging email deliverability issues
+- Implementing i18n for email templates
+
+---
+
+_source: `community` · risk: `offensive`_
+
+---
+### `email-template-builder`
+
+Email Template Builder
+
+**Cuándo usar:**
+
+- Setting up transactional email for a new product
+- Migrating from a legacy email system
+- Adding new email types (invoice, digest, notification)
+- Debugging email deliverability issues
+- Implementing i18n for email templates
+
+---
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `emails`
@@ -16088,6 +16520,28 @@ Use this skill when you need guidance or automation for engineering-advanced-ski
 _source: `community` · risk: `offensive` · tags: `engineering`, `architecture`, `agents`, `rag`, `mcp`_
 
 ---
+### `engineering-bundle`
+
+25 advanced engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Agent design, RAG, MCP servers, CI/CD, database design, observability, security auditing, release management, platform ops.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive` · tags: `engineering`, `architecture`, `agents`, `rag`, `mcp`_
+
+---
+### `engineering-main`
+
+25 advanced engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Agent design, RAG, MCP servers, CI/CD, database design, observability, security auditing, release management, platform ops.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive` · tags: `engineering`, `architecture`, `agents`, `rag`, `mcp`_
+
+---
 ### `engineering-skills`
 
 23 engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more tools. Architecture, frontend, backend, QA, DevOps, security, AI/ML, data engineering, Playwright, Stripe, AWS, MS365. 30+ Python tools (stdlib-only).
@@ -16100,6 +16554,17 @@ _source: `community` · risk: `offensive` · tags: `engineering`, `frontend`, `b
 
 ---
 ### `engineering-team`
+
+23 engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more tools. Architecture, frontend, backend, QA, DevOps, security, AI/ML, data engineering, Playwright, Stripe, AWS, MS365. 30+ Python tools (stdlib-only).
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive` · tags: `engineering`, `frontend`, `backend`, `devops`, `security`_
+
+---
+### `engineering-team-bundle`
 
 23 engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more tools. Architecture, frontend, backend, QA, DevOps, security, AI/ML, data engineering, Playwright, Stripe, AWS, MS365. 30+ Python tools (stdlib-only).
 
@@ -16185,6 +16650,22 @@ Env & Secrets Manager
 
 ---
 
+_source: `community` · risk: `safe`_
+
+---
+### `env-secrets-manager`
+
+Env & Secrets Manager
+
+**Cuándo usar:**
+
+- Before pushing commits that touched env/config files
+- During security audits and incident triage
+- When onboarding contributors who need safe env conventions
+- When validating that no obvious secrets are hardcoded
+
+---
+
 _source: `community` · risk: `offensive`_
 
 ---
@@ -16200,6 +16681,28 @@ Guide developers through setting up development environments with proper tools, 
 - Use when troubleshooting environment-related issues
 - Use when documenting setup instructions for a project
 - Use when creating development environment documentation
+
+_source: `community` · risk: `safe`_
+
+---
+### `epic-design`
+
+Build immersive, cinematic 2.5D interactive websites using scroll storytelling, parallax depth, text animations, and premium scroll effects — no WebGL required. Use this skill for any web design task: landing pages, product sites, hero sections, scroll animations, parallax, sticky sections, secti...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `epic-design`
+
+Build immersive, cinematic 2.5D interactive websites using scroll storytelling, parallax depth, text animations, and premium scroll effects — no WebGL required. Use this skill for any web design task: landing pages, product sites, hero sections, scroll animations, parallax, sticky sections, secti...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -16324,6 +16827,44 @@ This skill should be used when the user asks to "learn ethical hacking", "unders
 _source: `community` · risk: `offensive`_
 
 ---
+### `eu-ai-act-specialist`
+
+EU AI Act (Regulation (EU) 2024/1689) operational compliance for compliance teams. Three Article-level decisions: (1) What's the risk tier of this AI system — prohibited (Art. 5), high-risk (Art. 6 + Annex III), limited-risk (Art. 50), or minimal-risk? (2) For high-risk systems, what's the Article 43 conformity assessment route (Module A internal control vs Module H full QMS + notified body) and what goes in the Annex IV technical documentation? (3) Per organizational role (provider / deployer / importer / distributor / authorized representative), what are the active obligations and deadlines? Use during AI system intake review, when planning conformity assessment, or when scoping deployer obligations. Cites Articles + Annexes for every output. NOT executive AI strategy (see chief-ai-officer-advisor). NOT a legal substitute.
+
+---
+### `eval`
+
+Evaluate and rank agent results by metric or LLM judge for an AgentHub session.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `eval`
+
+Evaluate and rank agent results by metric or LLM judge for an AgentHub session.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `eval`
+
+Evaluate and rank agent results by metric or LLM judge for an AgentHub session.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `eval-harness`
 
 Claude Codeセッションの正式な評価フレームワークで、評価駆動開発（EDD）の原則を実装します
@@ -16443,6 +16984,11 @@ Exam preparation assistant that converts syllabi, past papers, or notes into a r
 _source: `community` · risk: `safe` · tags: `education`, `exam-prep`, `study-guide`, `question-prediction`, `syllabus-analysis`_
 
 ---
+### `execute`
+
+/cs:execute <decision> — Generate a 90-day execution plan with weekly milestones, DRIs, and check-in cadence from an approved decision. Use when a logged decision needs to become an operating plan — e.g. turning an approved market-entry call into weekly milestones with DRIs.
+
+---
 ### `executing-plans`
 
 Use when you have a written implementation plan to execute in a separate session with review checkpoints
@@ -16450,6 +16996,62 @@ Use when you have a written implementation plan to execute in a separate session
 **Cuándo usar:**
 
 - Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `executive-mentor`
+
+Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good options, and forces honest post-mortems. Use when you need someone to find the holes before the board does, make a decision you've been avoiding, or un...
+
+**Cuándo usar:**
+
+**Use when:**
+- You have a plan you're excited about (excitement = more scrutiny, not less)
+- Board meeting is coming and you can't fully defend the numbers
+- You're facing a decision you've avoided for weeks
+- Something went wrong and you're still explaining it away
+- You're about to take an irreversible action
+
+**Don't use when:**
+- You need validation for a decision already made
+- You want frameworks without hard questions
+
+_source: `community` · risk: `safe`_
+
+---
+### `executive-mentor`
+
+Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good options, and forces honest post-mortems. Use when you need someone to find the holes before the board does, make a decision you've been avoiding, or un...
+
+**Cuándo usar:**
+
+**Use when:**
+- You have a plan you're excited about (excitement = more scrutiny, not less)
+- Board meeting is coming and you can't fully defend the numbers
+- You're facing a decision you've avoided for weeks
+- Something went wrong and you're still explaining it away
+- You're about to take an irreversible action
+
+**Don't use when:**
+- You need validation for a decision already made
+- You want frameworks without hard questions
+
+_source: `community` · risk: `safe`_
+
+---
+### `experiment-designer`
+
+Use when planning product experiments, writing testable hypotheses, estimating sample size, prioritizing tests, or interpreting A/B outcomes with practical statistical rigor.
+
+**Cuándo usar:**
+
+Use this skill for:
+- A/B and multivariate experiment planning
+- Hypothesis writing and success criteria definition
+- Sample size and minimum detectable effect planning
+- Experiment prioritization with ICE scoring
+- Reading statistical output for product decisions
 
 _source: `community` · risk: `safe`_
 
@@ -16610,6 +17212,28 @@ expo-ui-swift-ui
 - You need to build iOS-native UI in Expo using `@expo/ui/swift-ui`.
 - The task involves selecting SwiftUI views or modifiers, wrapping trees in `Host`, or embedding React Native components with `RNHostView`.
 - You are targeting Expo SDK 55 behavior for SwiftUI integration and extension guidance.
+
+_source: `community` · risk: `safe`_
+
+---
+### `extract`
+
+Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `extract`
+
+Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -16781,6 +17405,17 @@ FDA regulatory consultant for medical device companies. Provides 510(k)/PMA/De N
 _source: `community` · risk: `offensive`_
 
 ---
+### `fda-consultant-specialist`
+
+FDA regulatory consultant for medical device companies. Provides 510(k)/PMA/De Novo pathway guidance, QSR (21 CFR 820) compliance, HIPAA assessments, and device cybersecurity. Use when user mentions FDA submission, 510(k), PMA, De Novo, QSR, premarket, predicate device, substantial equivalence, H...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `fda-food-safety-auditor`
 
 Expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls.
@@ -16812,6 +17447,22 @@ _source: `community` · risk: `safe`_
 ### `fda-qsr-audit-prep`
 
 /cs:fda-qsr-audit-prep <scope> — FDA 21 CFR 820 (QSR / QMSR) audit 6-question forcing interrogation. Post-Feb 2026 substantially harmonized with ISO 13485. Use before annual internal QSR audit, pre-FDA-inspection readiness, or Form 483 response.
+
+---
+### `feature-flags-architect`
+
+Use when adding, retiring, or auditing feature flags. Triggers on "add a flag", "ship behind a flag", "rollout plan", "kill switch", "stale flags", "flag debt", "LaunchDarkly", "GrowthBook", "Statsig", "Unleash", "Flipt", or any progressive-delivery question. Ships flag debt scanner, rollout planner, and kill-switch auditor (all stdlib Python), 4 references on flag taxonomy + provider trade-offs + rollout strategies + lifecycle, plus a /flag-cleanup slash command.
+
+**Cuándo usar:**
+
+- Adding a new flag and need a rollout plan
+- Auditing a codebase for stale or orphaned flags
+- Choosing a flag provider (LaunchDarkly vs GrowthBook vs Statsig vs Unleash vs Flipt vs build-your-own)
+- Designing a kill-switch path for a risky launch
+- Cleaning up flag debt before a release freeze
+- Reviewing whether a feature should ship behind a flag at all
+
+_tags: `feature-flags`, `progressive-delivery`, `rollout`, `kill-switch`, `launchdarkly`_
 
 ---
 ### `ffuf-claude-skill`
@@ -17018,6 +17669,35 @@ Evidence-first revenue, pricing, refunds, team-billing, and billing-model truth 
 _source: `community` · risk: `safe`_
 
 ---
+### `finance-bundle`
+
+Financial analyst agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Ratio analysis, DCF valuation, budget variance, rolling forecasts. 4 Python tools (stdlib-only).
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe` · tags: `finance`, `financial-analysis`, `dcf`, `valuation`, `budgeting`_
+
+---
+### `finance-lead`
+
+Startup CFO who builds models that survive contact with reality. Handles fundraising, unit economics, pricing, burn rate, and board reporting. Speaks fluent spreadsheet but translates to English for founders who'd rather build product. Use when a money question needs a model, not a vibe — e.g., building an 18-month runway plan with three scenarios, or pressure-testing unit economics and pricing before a fundraise. (For DCF and SaaS-metrics tooling, see cs-financial-analyst.)
+
+**Cuándo usar:**
+
+✅ You need a financial model for fundraising or board meetings
+✅ You're not sure how much runway you have (hint: less than you think)
+✅ You need to decide on pricing and don't want to guess
+✅ Your burn rate is climbing and you need a plan
+✅ You're preparing for investor due diligence
+✅ The board meeting is in a week and you have no deck
+
+❌ You need accounting or bookkeeping → get an accountant
+❌ You need tax strategy → get a tax advisor
+❌ You need infrastructure cost analysis → use DevOps Engineer
+
+---
 ### `finance-skills`
 
 Financial analyst agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Ratio analysis, DCF valuation, budget variance, rolling forecasts. 4 Python tools (stdlib-only).
@@ -17038,6 +17718,22 @@ Performs financial ratio analysis, DCF valuation, budget variance analysis, and 
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `financial-analyst`
+
+Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction for strategic decision-making. Use when analyzing financial statements, building valuation models, assessing budget variances, or constructing financial projections and forecasts. Also ap...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `financial-health`
+
+Run financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecasts. Usage: /financial-health <ratios|dcf|budget|forecast> <data.json>
 
 ---
 ### `find-bugs`
@@ -17171,6 +17867,28 @@ Fix failing or flaky Playwright tests. Use when user says "fix test", "flaky tes
 _source: `community` · risk: `safe`_
 
 ---
+### `fix`
+
+Fix failing or flaky Playwright tests. Use when user says "fix test", "flaky test", "test failing", "debug test", "test broken", "test passes sometimes", or "intermittent failure".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `fix`
+
+Fix failing or flaky Playwright tests. Use when user says "fix test", "flaky test", "test failing", "debug test", "test broken", "test passes sometimes", or "intermittent failure".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `fix-review`
 
 Verify fix commits address audit findings without new bugs
@@ -17239,6 +17957,22 @@ Reference these guidelines when:
 _source: `community` · risk: `safe`_
 
 ---
+### `flag-cleanup`
+
+Run the quarterly feature-flag cleanup workflow on the current repo
+
+---
+### `flat-design`
+
+Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `flat-design`
 
 Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.
@@ -17253,6 +17987,28 @@ _source: `self` · risk: `safe`_
 ### `flat-design-2`
 
 Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `flat-design-2`
+
+Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `floating-ui`
+
+Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.
 
 **Cuándo usar:**
 
@@ -17286,13 +18042,6 @@ Library-agnostic Flutter/Dart code review checklist covering widget best practic
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
-
----
-### `flutter-dev`
-
-Flutter cross-platform development guide covering widget patterns, Riverpod/Bloc state management, GoRouter navigation, performance optimization, and platform-specific implementations. Includes const optimization, responsive layouts, testing strategies, and DevTools profiling.
-Use when: building Flutter apps, implementing state management (Riverpod/Bloc), setting up GoRouter navigation, creating custom widgets, optimizing performance, writing widget tests, cross-platform development.
-
 
 ---
 ### `flutter-expert`
@@ -17365,6 +18114,17 @@ When the user wants to optimize any form that is NOT signup/registration — inc
 _source: `community` · risk: `safe`_
 
 ---
+### `form-cro`
+
+When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions "form optimization," "lead form conversions," "form friction," "form fiel...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `formik-patterns`
 
 Formik form handling with validation patterns. Use when building forms, implementing validation, or handling form submission.
@@ -17407,6 +18167,33 @@ Apple FoundationModels framework for on-device LLM — text generation, guided g
 - Domain-specific AI actions via tool calling (search, compute, lookup)
 
 _source: `community` · risk: `safe`_
+
+---
+### `founder-coach`
+
+Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management, CEO calendar audits, leadership style evolution, blind spot identification, imposter syndrome, founder mental health, and succession planning. Use w...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `founder-coach`
+
+Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management, CEO calendar audits, leadership style evolution, blind spot identification, imposter syndrome, founder mental health, and succession planning. Use w...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `founder-mode`
+
+/cs:founder-mode <question> — Auto-routes any founder question to the right C-role advisor or to /cs:boardroom for multi-role topics. The single-command entry point. Use when a founder asks any strategic question without knowing which advisor or command fits — e.g. 'runway pressure' routes to the CFO, 'gross retention dropped' routes to the CCO.
 
 ---
 ### `fp-algebraic-types`
@@ -17788,9 +18575,34 @@ When the user wants to plan, evaluate, or build a free tool for marketing purpos
 _source: `community` · risk: `safe`_
 
 ---
+### `free-tool-strategy`
+
+When the user wants to build a free tool for marketing — lead generation, SEO value, or brand awareness. Use when they mention 'engineering as marketing,' 'free tool,' 'calculator,' 'generator,' 'checker,' 'grader,' 'marketing tool,' 'lead gen tool,' 'build something for traffic,' 'interactive to...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `free-tools`
 
 When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions "engineering as marketing," "free tool," "marketing tool," "calculator," "generator," "interactive tool," "lead gen tool," "build a...
+
+---
+### `freeze`
+
+/cs:freeze <decision> <days> — Lock a strategic decision for a cooldown period to prevent impulse reversal. Mirrors gstack's safety primitives for the business layer. Use when an irreversible decision was made under pressure — e.g. a layoff plan or multi-year contract — and deserves a cooling-off lock before execution.
+
+**Cuándo usar:**
+
+Founders are pattern-matchers; pattern-matching after a tough decision often produces a reversal that's actually just decision fatigue. The freeze enforces a discipline:
+
+- After any **irreversible** or **high-cost-to-reverse** decision (fundraise, layoff, market entry)
+- After a **split-vote boardroom** (preserve the call against second-guessing)
+- After a **founder gut-feel** override of unanimous advisor consensus (let it run)
+- During a **personnel transition** (lock the strategy so the new exec can execute, not redebate)
 
 ---
 ### `freshdesk-automation`
@@ -17861,17 +18673,6 @@ Review and create distinctive, production-grade frontend interfaces with high de
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
-
----
-### `frontend-dev`
-
-Full-stack frontend development combining premium UI design, cinematic animations,
-AI-generated media assets, persuasive copywriting, and visual art. Builds complete,
-visually striking web pages with real media, advanced motion, and compelling copy.
-Use when: building landing pages, marketing sites, product pages, dashboards,
-generating media assets (image/video/audio/music), writing conversion copy,
-creating generative art, or implementing cinematic scroll animations.
-
 
 ---
 ### `frontend-dev-guidelines`
@@ -18015,6 +18816,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `frutiger-aero`
+
+Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `fsharp-testing`
 
 F#テストフレームワーク、プロパティベーステスト、および関数型アプローチ。
@@ -18042,17 +18854,15 @@ Use when working with full stack orchestration full stack feature
 _source: `community` · risk: `offensive`_
 
 ---
-### `fullstack-dev`
+### `game-art`
 
-Full-stack backend architecture and frontend-backend integration guide.
-TRIGGER when: building a full-stack app, creating REST API with frontend, scaffolding backend service,
-building todo app, building CRUD app, building real-time app, building chat app,
-Express + React, Next.js API, Node.js backend, Python backend, Go backend,
-designing service layers, implementing error handling, managing config/auth,
-setting up API clients, implementing auth flows, handling file uploads,
-adding real-time features (SSE/WebSocket), hardening for production.
-DO NOT TRIGGER when: pure frontend UI work, pure CSS/styling, database schema only.
+Game art principles. Visual style selection, asset pipeline, animation workflow.
 
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `game-art`
@@ -18075,6 +18885,28 @@ Game audio principles. Sound design, music integration, adaptive audio systems.
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `game-audio`
+
+Game audio principles. Sound design, music integration, adaptive audio systems.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `game-design`
+
+Game design principles. GDD structure, balancing, player psychology, progression.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `game-design`
@@ -18127,6 +18959,16 @@ Use this skill when you need guidance or automation for gateguard.
 _source: `community` · risk: `safe`_
 
 ---
+### `gc-review`
+
+/cs:gc-review <plan> — General Counsel interrogation of contracts, IP, regulatory, term sheets, and employment-law surface. Use when reviewing a term sheet before signing, redlining a customer MSA, or checking IP assignment and regulatory exposure on a new product.
+
+---
+### `gcp-cloud-architect`
+
+Design GCP architectures for startups and enterprises. Use when asked to design Google Cloud infrastructure, deploy to GKE or Cloud Run, configure BigQuery pipelines, optimize GCP costs, or migrate to GCP. Covers Cloud Run, GKE, Cloud Functions, Cloud SQL, BigQuery, and cost optimization.
+
+---
 ### `gcp-cloud-run`
 
 When to use: ['Web applications and APIs', 'Need any runtime or library', 'Complex services with multiple endpoints', 'Stateless containerized workloads']
@@ -18146,6 +18988,17 @@ _source: `vibeship-spawner-skills (Apache 2.0)` · risk: `safe`_
 ### `gdpr-data-handling`
 
 Implement GDPR-compliant data handling with consent management, data subject rights, and privacy by design. Use when building systems that process EU personal data, implementing privacy controls, or conducting GDPR compliance reviews.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `gdpr-dsgvo-expert`
+
+GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA documentation, tracks data subject rights requests. Use for GDPR compliance assessments, privacy audits, data protection planning, DPIA generation, and data subject rights management.
 
 **Cuándo usar:**
 
@@ -18217,6 +19070,33 @@ _source: `community` · risk: `safe`_
 ### `gemini-omni-flash-api`
 
 Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg, stripping audio for full sound regeneration, and handling turn-by-turn video editing and parallel execution.
+
+---
+### `general-counsel-advisor`
+
+General Counsel advisory for startups: contract review (MSA, SaaS, NDA, DPA, employment), IP strategy, term sheet decoding, and regulatory landscape mapping. Use when reviewing any contract or term sheet, deciding when to engage outside counsel, defining IP strategy, evaluating regulatory exposure (HIPAA, GDPR, FDA, fintech), or when user mentions general counsel, GC, legal review, contract risk, term sheet, IP assignment, or regulatory exposure. NOT a substitute for licensed counsel — surfaces questions to bring to qualified attorneys.
+
+---
+### `generate`
+
+Generate Playwright tests. Use when user says "write tests", "generate tests", "add tests for", "test this component", "e2e test", "create test for", "test this page", or "test this feature".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `generate`
+
+Generate Playwright tests. Use when user says "write tests", "generate tests", "add tests for", "test this component", "e2e test", "create test for", "test this page", or "test this feature".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `generate`
@@ -18308,15 +19188,6 @@ Find exploitable vulnerabilities in GitHub Actions workflows. Every finding MUST
 - You need a security review of workflow files, composite actions, or workflow-related scripts with evidence-based findings only.
 
 _source: `community` · risk: `safe`_
-
----
-### `gif-sticker-maker`
-
-Convert photos (people, pets, objects, logos) into 4 animated GIF stickers with captions.
-Use when: user wants to create cartoon stickers, GIF expressions, emoji packs, animated avatars,
-or convert photos to Funko Pop / Pop Mart blind box style animations.
-Triggers: sticker, GIF, cartoon, emoji, expression pack, avatar animation.
-
 
 ---
 ### `git-advanced-workflows`
@@ -18412,6 +19283,21 @@ _source: `community` · risk: `safe`_
 ### `git-workflow`
 
 Git workflow patterns including branching strategies, commit conventions, merge vs rebase, conflict resolution, and collaborative development best practices for teams of all sizes.
+
+_source: `community` · risk: `safe`_
+
+---
+### `git-worktree-manager`
+
+Git Worktree Manager
+
+**Cuándo usar:**
+
+- You need 2+ concurrent branches open locally
+- You want isolated dev servers for feature, hotfix, and PR validation
+- You are working with multiple agents that must not share a branch
+- Your current branch is blocked but you need to ship a quick fix now
+- You want repeatable cleanup instead of ad-hoc `rm -rf` operations
 
 _source: `community` · risk: `safe`_
 
@@ -18578,6 +19464,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `glassmorphism`
+
+Web and App implementation guide for Glassmorphism. Trigger when user wants a frosted glass effect, blurred backgrounds, transparency, or a sleek MacOS-like feel.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `gmail-automation`
 
 Lightweight Gmail integration with standalone OAuth authentication. No MCP server required.
@@ -18587,6 +19484,13 @@ Lightweight Gmail integration with standalone OAuth authentication. No MCP serve
 - You need to search, read, or send Gmail messages from the command line without an MCP server.
 - You are automating inbox workflows for a Google Workspace account.
 - You want a lightweight Gmail integration backed by standalone OAuth scripts.
+
+_source: `community` · risk: `safe`_
+
+---
+### `go`
+
+Language-specific super-code guidelines for go.
 
 _source: `community` · risk: `safe`_
 
@@ -18823,6 +19727,33 @@ Generate videos with Google Veo models via [inference.sh](https://inference.sh) 
 _source: `community` · risk: `safe`_
 
 ---
+### `google-workspace`
+
+Google Workspace CLI operations: setup diagnostics, security audit, recipe discovery, and output analysis. Usage: /google-workspace <setup|audit|recipe|analyze> [options]
+
+---
+### `google-workspace-cli`
+
+Google Workspace administration via the gws CLI. Install, authenticate, and automate Gmail, Drive, Sheets, Calendar, Docs, Chat, and Tasks. Run security audits, execute 43 built-in recipes, and use 10 persona bundles. Use for Google Workspace admin, gws CLI setup, Gmail automation, Drive manageme...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `google-workspace-cli`
+
+Google Workspace administration via the gws CLI. Install, authenticate, and automate Gmail, Drive, Sheets, Calendar, Docs, Chat, and Tasks. Run security audits, execute 43 built-in recipes, and use 10 persona bundles. Use for Google Workspace admin, gws CLI setup, Gmail automation, Drive manageme...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `google-workspace-ops`
 
 Operate across Google Drive, Docs, Sheets, and Slides as one workflow surface for plans, trackers, decks, and shared documents. Use when the user needs to find, summarize, edit, migrate, or clean up Google Workspace assets without dropping to raw tool calls.
@@ -18860,6 +19791,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `gradient-design`
+
+Web and App implementation guide for Gradient Design. Trigger when user wants heavy gradient usage, vibrant transitions, and modern energetic feels.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `grafana-dashboards`
 
 Create and manage production Grafana dashboards for real-time visualization of system and application metrics. Use when building monitoring dashboards, visualizing metrics, or creating operational observability interfaces.
@@ -18869,6 +19811,11 @@ Create and manage production Grafana dashboards for real-time visualization of s
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `grants`
+
+NIH grant research skill for clinical researchers. Grill-me intake (research idea + career stage + preliminary data + environment + submission posture + known institute targets) locks down the funding strategy before any search runs. Runs a 5-facet Consensus positioning analysis (with draft Significance/Innovation language), maps the research to the right NIH institutes and study sections via RePORTER, finds NOSIs and funded overlap, and produces an editable Word document (.docx) with budget/scope-aware mechanism recommendations, submission timelines, and a mandatory program officer recommendation. Use when the user asks about research funding or makes any grant-related request (e.g., 'grants for [topic]', 'find grants for my research idea', 'what grants match my research', 'help me find NIH funding', 'grant opportunities for my research'). NIH-only scope — non-NIH funders (PCORI, DOD CDMRP, VA, foundations) are out of scope and flagged at intake.
 
 ---
 ### `graphql`
@@ -18913,6 +19860,16 @@ GraphQL queries, mutations, and code generation patterns. Use when creating Grap
 _source: `community` · risk: `safe`_
 
 ---
+### `grill-me`
+
+Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".
+
+---
+### `grill-with-docs`
+
+Docs-anchored grilling session — challenges a plan against the project's existing language (CONTEXT.md) and recorded decisions (docs/adr/), and updates those files inline as terminology and decisions crystallise. Use when user wants to stress-test a plan against documented domain language, or mentions "grill with docs".
+
+---
 ### `growth-engine`
 
 Motor de crescimento para produtos digitais -- growth hacking, SEO, ASO, viral loops, email marketing, CRM, referral programs e aquisicao organica.
@@ -18929,6 +19886,11 @@ _source: `community` · risk: `none` · tags: `growth`, `seo`, `marketing`, `vir
 Use after a complex task, failure, or when reviewing what was learned. Teaches how to write growth logs that extract reusable patterns — not diary entries.
 
 ---
+### `growth-marketer`
+
+Growth marketing specialist for bootstrapped startups and indie hackers. Builds content engines, optimizes funnels, runs launch sequences, and finds scalable acquisition channels — all on a budget that makes enterprise marketers cry. Use when growth has to come before budget — e.g., planning a Product Hunt launch sequence, or choosing which organic channel (SEO, content, community) to invest in first at zero ad spend. (For funnel diagnostics with paid budget, see cs-demand-gen-specialist.)
+
+---
 ### `grpc-golang`
 
 Build production-ready gRPC services in Go with mTLS, streaming, and observability. Use when designing Protobuf contracts with Buf or implementing secure service-to-service transport.
@@ -18938,6 +19900,33 @@ Build production-ready gRPC services in Go with mTLS, streaming, and observabili
 This skill is applicable to execute the workflow or actions described in the overview.
 
 _source: `self` · risk: `safe`_
+
+---
+### `handoff`
+
+Compact the current conversation into a handoff document for another agent to pick up. Save to a user-configured location (OS temp, home folder, or per-project .handoff/), redact secrets before write, suggest skills for the next session, and auto-load the latest handoff on the next SessionStart. First-run setup asks where to save so the project folder never gets cluttered. Use when the user says 'hand this off', 'handoff doc', 'summarize this for a new session', 'compact this conversation', 'I'm ending this session', 'pick this up later', or any variation signaling intent to pass work to a fresh agent. Also trigger on implicit signals: the user announcing they're switching machines, ending the day mid-task, or context is growing long without a natural stopping point.
+
+---
+### `hard-call`
+
+/em -hard-call — Framework for Decisions With No Good Options
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `hard-call`
+
+/em -hard-call — Framework for Decisions With No Good Options
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `harness-engineering`
@@ -19106,6 +20095,17 @@ Connect to Helium's MCP server for news research, media bias analysis, balanced 
 - Use when searching for memes by semantic meaning
 
 _source: `https://heliumtrades.com/mcp-page/` · risk: `safe` · tags: `mcp`, `news`, `media-bias`, `stocks`, `options`_
+
+---
+### `helm-chart-builder`
+
+Helm chart development agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw — chart scaffolding, values design, template patterns, dependency management, security hardening, and chart testing. Use when: user wants to create or improve Helm charts, design values.yaml files, ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `helm-chart-builder`
@@ -19367,6 +20367,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `high-contrast`
+
+Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `hipaa-compliance`
 
 HIPAA-specific entrypoint for healthcare privacy and security work. Use when a task is explicitly framed around HIPAA, PHI handling, covered entities, BAAs, breach posture, or US healthcare compliance requirements.
@@ -19379,6 +20390,17 @@ HIPAA-specific entrypoint for healthcare privacy and security work. Use when a t
 - Designing patient-facing or clinician-facing systems where minimum necessary access and auditability matter
 
 _source: `community` · risk: `offensive`_
+
+---
+### `holographic-ui`
+
+Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `holographic-ui`
@@ -19982,6 +21004,38 @@ Automatically activate this skill when:
 _source: `https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen` · risk: `safe`_
 
 ---
+### `inbox-setup`
+
+One-time setup skill that builds a personalized inbox triage knowledge base via interactive interview. Interviews the user about their email patterns, business context, reply style, and priorities using grill-me discipline (one question at a time, forcing format where possible, dependency-ordered, each question explains why I'm asking), then generates the knowledge base files that power the companion 'inbox-triage' skill. Run this once before using inbox-triage for the first time. Re-run when business, pricing, or priorities change significantly. Triggers: 'set up my inbox', 'configure inbox triage', 'set up my email system', 'configure email triage', 'build my email knowledge base', 'initialize email management', 'set up inbox triage', 'onboard email triage', or any variation where someone wants to get the email triage system running for the first time.
+
+---
+### `inbox-triage`
+
+Runs a full inbox triage using the knowledge base created by the 'inbox-setup' skill. Light-intake by design (most invocations skip questions and run with KB-default preferences); asks at most 2 grill-me override questions when invocation is outside normal cadence or includes category-skip intent. Searches recent emails, classifies them via the user's taxonomy, researches new senders, generates recommendations, drafts replies (NEVER sends), delivers a report in the user's preferred format, and updates the knowledge base with learnings. Designed to run on a recurring schedule (1-3x daily) or on demand. Use when the user wants their inbox processed, in any variation (e.g., 'triage my inbox', 'inbox triage', 'check my email', 'run email triage', 'process my inbox', 'what's new in my email', 'handle my email', 'email triage'). Requires the inbox-setup skill to have been run first.
+
+---
+### `incident-commander`
+
+Incident Commander Skill
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `incident-commander`
+
+Incident Commander Skill
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `incident-responder`
 
 Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management. Masters incident command, blameless post-mortems, error budget management, and system reliability patterns. Handles critical outages, communication strategies, and ...
@@ -19991,6 +21045,11 @@ Expert SRE incident responder specializing in rapid problem resolution, modern o
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `incident-response`
+
+Use when a security incident has been detected or declared and needs classification, triage, escalation path determination, and forensic evidence collection. Covers SEV1-SEV4 classification, false positive filtering, incident taxonomy, and NIST SP 800-61 lifecycle.
 
 ---
 ### `incident-response-incident-response`
@@ -20061,6 +21120,13 @@ ISO 27001 ISMS implementation and cybersecurity governance for HealthTech and Me
 _source: `community` · risk: `offensive`_
 
 ---
+### `information-security-manager-iso27001`
+
+ISO 27001 ISMS implementation and cybersecurity governance for HealthTech and MedTech companies. Use for ISMS design, security risk assessment, control implementation, ISO 27001 certification, security audits, incident response, and compliance verification. Covers ISO 27001, ISO 27002, healthcare...
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `ingest-youtube`
 
 Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs.
@@ -20088,6 +21154,50 @@ Legacy-project style inheritance skill. Use when the user types /inherit-legacy-
 **Cuándo usar:**
 
 Use this skill when you need to preserve legacy project style and prevent AI-generated style drift. See **When to Activate** above for trigger conditions.
+
+---
+### `init`
+
+Create a new AgentHub collaboration session with task, agent count, and evaluation criteria.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `init`
+
+Create a new AgentHub collaboration session with task, agent count, and evaluation criteria.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `init`
+
+Set up Playwright in a project. Use when user says "set up playwright", "add e2e tests", "configure playwright", "testing setup", "init playwright", or "add test infrastructure".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `init`
+
+Set up Playwright in a project. Use when user says "set up playwright", "add e2e tests", "configure playwright", "testing setup", "init playwright", or "add test infrastructure".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `init`
@@ -20278,9 +21388,64 @@ To write internal communications, use this skill for:
 _source: `community` · risk: `safe`_
 
 ---
+### `internal-narrative`
+
+Build and maintain one coherent company story across all audiences — employees, investors, customers, candidates, and partners. Detects narrative contradictions and ensures the same truth is framed for each audience's needs. Use when preparing investor updates, all-hands presentations, board comm...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `internal-narrative`
+
+Build and maintain one coherent company story across all audiences — employees, investors, customers, candidates, and partners. Detects narrative contradictions and ensures the same truth is framed for each audience's needs. Use when preparing investor updates, all-hands presentations, board comm...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `interview-system-designer`
 
 This skill should be used when the user asks to "design interview processes", "create hiring pipelines", "calibrate interview loops", "generate interview questions", "design competency matrices", "analyze interviewer bias", "create scoring rubrics", "build question banks", or "optimize hiring sys...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `interview-system-designer`
+
+This skill should be used when the user asks to "design interview processes", "create hiring pipelines", "calibrate interview loops", "generate interview questions", "design competency matrices", "analyze interviewer bias", "create scoring rubrics", "build question banks", or "optimize hiring sys...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `intl-expansion`
+
+International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region. Use when expanding to new countries, evaluating international markets, planning localization, or building regional teams.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `intl-expansion`
+
+International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region. Use when expanding to new countries, evaluating international markets, planning localization, or building regional teams.
 
 **Cuándo usar:**
 
@@ -20372,13 +21537,6 @@ Automatically organizes invoices and receipts for tax preparation by reading mes
 _source: `community` · risk: `safe`_
 
 ---
-### `ios-application-dev`
-
-iOS application development guide covering UIKit, SnapKit, and SwiftUI. Includes touch targets, safe areas, navigation patterns, Dynamic Type, Dark Mode, accessibility, collection views, common UI components, and SwiftUI design guidelines. For detailed references on specific topics, see the reference files.
-Use when: developing iOS apps, implementing UI, reviewing iOS code, working with UIKit/SnapKit/SwiftUI layouts, building iPhone interfaces, Swift mobile development, Apple HIG compliance, iOS accessibility implementation.
-
-
----
 ### `ios-debugger-agent`
 
 Debug the current iOS project on a booted simulator with XcodeBuildMCP.
@@ -20418,6 +21576,17 @@ Information Security Management System (ISMS) audit expert for ISO 27001 complia
 _source: `community` · risk: `offensive`_
 
 ---
+### `isms-audit-expert`
+
+Information Security Management System (ISMS) audit expert for ISO 27001 compliance verification, security control assessment, and certification support. Use when the user mentions ISO 27001, ISMS audit, Annex A controls, Statement of Applicability (SOA), gap analysis, nonconformity management, i...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `iso13485-audit-prep`
 
 /cs:iso13485-audit-prep <scope> — ISO 13485 QMS audit 6-question forcing interrogation. Design controls + CAPA + post-market focused. Use before Clause 8.2.4 internal audit, MDR / FDA QSR alignment review, or product-launch DHF closure audit.
@@ -20426,6 +21595,22 @@ _source: `community` · risk: `offensive`_
 ### `iso27001-audit-prep`
 
 /cs:iso27001-audit-prep <scope> — ISO 27001 ISMS audit readiness 6-question forcing interrogation. Use before annual Clause 9.2 internal audit, surveillance audit prep, or stage 1 certification readiness.
+
+---
+### `iso42001-specialist`
+
+ISO/IEC 42001:2023 AI Management System (AIMS) specialist for compliance teams running internal audits. Three decisions: (1) Where are the gaps against Clauses 4-10 and what do we close first? (2) What goes in the AI risk register and which Annex A controls treat each risk? (3) What's the 12-month internal audit plan that satisfies Clause 9.2? Use when preparing for certification, scoping internal audit cycles, or onboarding AI systems into an existing ISMS (27001) / QMS (13485) program. NOT an executive AI strategy skill (see chief-ai-officer-advisor). NOT EU AI Act compliance (see compliance-team-eu-ai-act).
+
+---
+### `isometric-design`
+
+Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `isometric-design`
@@ -20573,6 +21758,13 @@ Use this skill when you need guidance or automation for java.
 _source: `community` · risk: `safe`_
 
 ---
+### `java`
+
+Language-specific super-code guidelines for java.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `java-21`
 
 Java 21 language and runtime patterns for modern, safe code. Trigger: When writing Java 21 code using records, sealed types, or virtual threads.
@@ -20701,6 +21893,28 @@ Use this skill when creating Jira epics for:
 - New views/pages in the application
 - Major refactoring initiatives
 - Features requiring API + UI + SDK work
+
+_source: `community` · risk: `safe`_
+
+---
+### `jira-expert`
+
+Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting, and all Jira features. Use for Jira project setup, configuration, advanced search, dashboard creation, workflow design, and technical Jira operations.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `jira-expert`
+
+Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting, and all Jira features. Use for Jira project setup, configuration, advanced search, dashboard creation, workflow design, and technical Jira operations.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -20874,6 +22088,18 @@ Guide for continuous improvement, error proofing, and standardization. Use this 
 _source: `community` · risk: `safe`_
 
 ---
+### `karpathy-check`
+
+Run Karpathy's 4-principle review on staged changes or the last commit. Checks complexity, diff noise, hidden assumptions, and goal verification. Usage /karpathy-check [--last-commit]
+
+---
+### `karpathy-coder`
+
+Use when writing, reviewing, or committing code to enforce Karpathy's 4 coding principles — surface assumptions before coding, keep it simple, make surgical changes, define verifiable goals. Triggers on "review my diff", "check complexity", "am I overcomplicating this", "karpathy check", "before I commit", or any code quality concern where the LLM might be overcoding.
+
+_tags: `code-quality`, `discipline`, `karpathy`, `simplicity`, `surgical-changes`_
+
+---
 ### `keyword-extractor`
 
 Extracts up to 50 highly relevant SEO keywords from text. Use when user wants to generate or extract keywords for given text.
@@ -20912,6 +22138,13 @@ Knowledge base management, ingestion, sync, and retrieval across multiple storag
 **Cuándo usar:**
 
 Use this skill when you need guidance or automation for knowledge-ops.
+
+_source: `community` · risk: `safe`_
+
+---
+### `kotlin`
+
+Language-specific super-code guidelines for kotlin.
 
 _source: `community` · risk: `safe`_
 
@@ -21030,6 +22263,22 @@ Expert Kubernetes architect specializing in cloud-native infrastructure, advance
 _source: `community` · risk: `offensive`_
 
 ---
+### `kubernetes-operator`
+
+Use when building a Kubernetes Operator — custom controllers that reconcile CRD state. Triggers on "build an operator", "CRD design", "reconcile loop", "controller-runtime", "kubebuilder", "operator-sdk", "metacontroller", "KOPF", "operator capability levels", or "custom resource". Ships CRD validator, reconcile-loop linter, and OperatorHub capability auditor (all stdlib Python), 4 references on the operator pattern + CRD design + reconcile patterns + tooling landscape, and a /operator-audit slash command. NOT a generic k8s skill — specifically the Operator pattern.
+
+**Cuándo usar:**
+
+- Building a new Kubernetes Operator (controller for a CRD)
+- Reviewing an existing operator for capability-level gaps
+- Auditing a CRD spec for status/conditions/finalizer correctness
+- Choosing a framework (controller-runtime / kubebuilder / operator-sdk / metacontroller / KOPF)
+- Designing the API surface of a Custom Resource
+- Hardening RBAC, leader election, or webhook validation
+
+_tags: `kubernetes`, `operator`, `crd`, `controller-runtime`, `kubebuilder`_
+
+---
 ### `kubernetes-patterns`
 
 Kubernetes workload patterns, resource management, RBAC, probes, autoscaling, ConfigMap/Secret handling, and kubectl debugging for production-grade deployments.
@@ -21037,6 +22286,11 @@ Kubernetes workload patterns, resource management, RBAC, probes, autoscaling, Co
 **Cuándo usar:**
 
 > Same as **When to Activate** above. This alias satisfies repo skill-format conventions. Use this skill any time you are writing, reviewing, or debugging Kubernetes YAML and workloads.
+
+---
+### `landing`
+
+Generates a premium single-page HTML landing page with 3D CSS animations, GSAP scroll effects, and mouse-parallax depth. Forcing intake (product + elevator pitch, audience register, brand overrides, tone) locks down positioning before any copy or markup is written, so the page reflects the actual product rather than generic boilerplate. Use whenever the user says 'landing for X', 'create a landing page', 'build a landing page', 'make a landing page for X', 'I need a web page for Y', or provides product/service details and wants a polished website. Also triggers on 'promotional page', 'product page', 'one-pager', 'web presence', 'sales page'. Outputs a single self-contained HTML file (Claude Code) or HTML artifact (Claude.ai). Supports configurable brand colors via CSS custom property overrides.
 
 ---
 ### `landing-page-design`
@@ -21048,6 +22302,17 @@ Landing page conversion optimization with layout rules, hero section design, and
 Use this skill as needed to perform the specified automation task.
 
 Design high-converting landing pages with AI-generated visuals via [inference.sh](https://inference.sh) CLI.
+
+_source: `community` · risk: `safe`_
+
+---
+### `landing-page-generator`
+
+Generates high-converting landing pages as complete Next.js/React (TSX) components with Tailwind CSS. Creates hero sections, feature grids, pricing tables, FAQ accordions, testimonial blocks, and CTA sections using proven copy frameworks (PAS, AIDA, BAB). Outputs SEO meta tags, structured data, a...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -21253,6 +22518,28 @@ When the user wants to plan a product launch, feature announcement, or release s
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `launch-strategy`
+
+When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'GTM plan,' 'launch checklist,' or 'la...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `layered-design`
+
+Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `layered-design`
@@ -21606,6 +22893,11 @@ iOS 26 液态玻璃设计系统 — 适用于 SwiftUI、UIKit 和 WidgetKit 的�
 _source: `community` · risk: `safe`_
 
 ---
+### `litreview`
+
+Academic literature orientation skill that searches papers via free keyless APIs (PubMed E-utilities + OpenAlex) by default — with the Consensus MCP as an optional enhancement lane when connected — builds a strategic search plan using PICO (default) or SPIDER / Decomposition / hybrid as fallbacks, and synthesizes findings into a formatted Word (.docx) research guide. Grill-me intake (research question specificity + framework hint + tentative depth) before the recon search; a second forcing checkpoint after Phase 2 confirms framework + sub-areas + depth before searches consume budget. Configurable depth (5/10/20 queries) controls coverage vs. speed. Output is a 'launching pad' — an orientation guide that lets a researcher dive in confidently, not a finished review. Use when the user starts literature-oriented research (e.g., 'litreview on [topic]', 'literature review on [topic]', 'I'm starting a literature review on X', 'I'm writing a paper on X', 'help me research X', 'I'm doing research on X', 'can you help me research X'). Do NOT use for single one-off paper searches wanting a quick list — that's a plain PubMed/OpenAlex (or Consensus) query.
+
+---
 ### `llm-app-patterns`
 
 Production-ready patterns for building LLM applications, inspired by [Dify](https://github.com/langgenius/dify) and industry best practices.
@@ -21656,6 +22948,11 @@ You are an expert prompt engineer specializing in crafting effective prompts for
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `llm-cost-optimizer`
+
+Use proactively whenever LLM API costs come up -- or should. Triggers include: 'my AI costs are too high', 'optimize token usage', 'which model should I use', 'LLM spend is out of control', 'implement prompt caching', 'we're about to launch an AI feature', 'build me an AI endpoint'. Don't wait for an explicit cost complaint -- if someone is building an AI feature, designing an LLM endpoint, or choosing between models, cost architecture belongs in the conversation. Apply immediately when any of these are true: a system prompt appears that exceeds a few hundred tokens, all requests are hitting the same model, max_tokens is not set, or no per-feature cost logging exists. NOT for RAG pipeline design (use rag-architect). NOT for improving prompt quality or effectiveness (use senior-prompt-engineer).
 
 ---
 ### `llm-evaluation`
@@ -21740,6 +23037,23 @@ Security patterns for autonomous trading agents with wallet or transaction autho
 - Giving an LLM access to order placement, swaps, or treasury operations
 
 _source: `community` · risk: `offensive`_
+
+---
+### `llm-wiki`
+
+Use when building or maintaining a persistent personal knowledge base (second brain) in Obsidian where an LLM incrementally ingests sources, updates entity/concept pages, maintains cross-references, and keeps a synthesis current. Triggers include "second brain", "Obsidian wiki", "personal knowledge management", "ingest this paper/article/book", "build a research wiki", "compound knowledge", "Memex", or whenever the user wants knowledge to accumulate across sessions instead of being re-derived by RAG on every query.
+
+**Cuándo usar:**
+
+- **Personal**: track goals, health, psychology, journaling, self-improvement
+- **Research**: deep dives over weeks on a topic — papers, articles, reports, evolving thesis
+- **Book companion**: file chapters as you read; build a fan-wiki-style companion for characters, themes, plot threads
+- **Business/team**: internal wiki fed by Slack, meeting notes, calls — LLM does maintenance nobody else wants to do
+- **Competitive analysis, due diligence, trip planning, course notes, hobby deep-dives**
+
+_[...]_
+
+_tags: `knowledge-management`, `obsidian`, `second-brain`, `pkm`, `rag-alternative`_
 
 ---
 ### `local-legal-seo-audit`
@@ -21854,6 +23168,28 @@ Start an autonomous experiment loop with user-selected interval (10min, 1h, dail
 _source: `community` · risk: `offensive`_
 
 ---
+### `loop`
+
+Start an autonomous experiment loop with user-selected interval (10min, 1h, daily, weekly, monthly). Uses CronCreate for scheduling.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `loop`
+
+Start an autonomous experiment loop with user-selected interval (10min, 1h, daily, weekly, monthly). Uses CronCreate for scheduling.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `loop-design-check`
 
 **Cuándo usar:**
@@ -21905,6 +23241,13 @@ Reviews code for objective correctness, security, and reliability.
 _source: `community` · risk: `safe`_
 
 ---
+### `luna`
+
+Reviews code for objective correctness, security, and reliability.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `m365-agent-evaluator`
 
 Use this skill when a user wants to create, run, or analyze evaluation suites for Microsoft 365 Copilot declarative agents with the public @microsoft/m365-copilot-eval CLI. Trigger on intents such as "evaluate my agent", "test my agent", "run my evals", "create eval prompts", "add multi-turn tests", "tune evaluator thresholds", "why is my agent failing", or "set up eval environment variables".
@@ -21942,6 +23285,17 @@ Microsoft 365 Agents SDK for TypeScript/Node.js. Build multichannel agents for T
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `ma-playbook`
+
+M&A strategy for acquiring companies or being acquired. Due diligence, valuation, integration, and deal structure. Use when evaluating acquisitions, preparing for acquisition, M&A due diligence, integration planning, or deal negotiation.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `ma-playbook`
@@ -22385,9 +23739,31 @@ This skill should be used when the user asks to "calculate TAM", "determine SAM"
 _source: `community` · risk: `safe`_
 
 ---
+### `marketing-bundle`
+
+42 marketing agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more coding agents. 7 pods: content, SEO, CRO, channels, growth, intelligence, sales. Foundation context + orchestration router. 27 Python tools (stdlib-only).
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe` · tags: `marketing`, `seo`, `content`, `copywriting`, `cro`_
+
+---
 ### `marketing-campaign`
 
 End-to-end marketing campaign planning and execution. Covers audience research, positioning, campaign angle definition, landing page copy, email sequences, social posts, ad copy, short-form video scripts, and content calendars. Use as the orchestration layer for multi-channel product launches.
+
+---
+### `marketing-context`
+
+Create and maintain the marketing context document that all marketing skills read before starting. Use when the user mentions 'marketing context,' 'brand voice,' 'set up context,' 'target audience,' 'ICP,' 'style guide,' 'who is my customer,' 'positioning,' or wants to avoid repeating foundationa...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `marketing-context`
@@ -22412,9 +23788,53 @@ Creates demand generation campaigns, optimizes paid ad spend across LinkedIn, Go
 _source: `community` · risk: `safe`_
 
 ---
+### `marketing-demand-acquisition`
+
+Creates demand generation campaigns, optimizes paid ad spend across LinkedIn, Google, and Meta, develops SEO strategies, and structures partnership programs for Series A+ startups scaling internationally. Use when planning marketing strategy, growth marketing, advertising campaigns, PPC optimizat...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `marketing-ideas`
 
 When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `marketing-ideas`
+
+When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 139 prove...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `marketing-ops`
+
+Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating across content, SEO, CRO, channels, and analytics. Also use when the user mentions 'marketing help,' 'campaign plan,' 'what should I do n...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `marketing-ops`
+
+Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating across content, SEO, CRO, channels, and analytics. Also use when the user mentions 'marketing help,' 'campaign plan,' 'what should I do n...
 
 **Cuándo usar:**
 
@@ -22449,7 +23869,29 @@ When the user wants to apply psychological principles, mental models, or behavio
 _source: `community` · risk: `offensive`_
 
 ---
+### `marketing-psychology`
+
+When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill pr...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `marketing-skill`
+
+42 marketing agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more coding agents. 7 pods: content, SEO, CRO, channels, growth, intelligence, sales. Foundation context + orchestration router. 27 Python tools (stdlib-only).
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe` · tags: `marketing`, `seo`, `content`, `copywriting`, `cro`_
+
+---
+### `marketing-skill-bundle`
 
 42 marketing agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more coding agents. 7 pods: content, SEO, CRO, channels, growth, intelligence, sales. Foundation context + orchestration router. 27 Python tools (stdlib-only).
 
@@ -22482,6 +23924,24 @@ Product marketing skill for positioning, GTM strategy, competitive intelligence,
 _source: `community` · risk: `safe`_
 
 ---
+### `marketing-strategy-pmm`
+
+Product marketing skill for positioning, GTM strategy, competitive intelligence, and product launches. Use when the user asks about product positioning, go-to-market planning, competitive analysis, target audience definition, ICP definition, market research, launch plans, or sales enablement. Cov...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `mason`
+
+Produces clean, functional code that matches the architecture and checklists.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `mason`
 
 Produces clean, functional code that matches the architecture and checklists.
@@ -22503,6 +23963,17 @@ Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de códi
 - When the user mentions "teoria dos grafos" or related topics
 
 _source: `community` · risk: `none` · tags: `mathematics`, `code-analysis`, `algorithms`, `formal-methods`_
+
+---
+### `material-design`
+
+Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `material-design`
@@ -22557,6 +24028,13 @@ Cleans up and improves existing code without changing behavior.
 _source: `community` · risk: `safe`_
 
 ---
+### `max`
+
+Cleans up and improves existing code without changing behavior.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `maxia`
 
 Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services. Earn USDC. 13 MCP tools, A2A protocol, DeFi yields, sentiment analysis, rug detection.
@@ -22571,6 +24049,17 @@ Connect to MAXIA AI-to-AI marketplace on Solana. Discover, buy, sell AI services
 - User asks about AI agent interoperability, A2A protocol, or MCP tools
 
 _source: `community` · risk: `safe` · tags: `solana`, `crypto`, `marketplace`, `ai-agents`, `mcp`_
+
+---
+### `maximalism`
+
+Web and App implementation guide for Controlled Maximalism. Trigger when user wants lots of elements, dense content, but a highly curated and artistic presentation.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `maximalism`
@@ -22604,6 +24093,21 @@ Use this skill when building MCP servers to integrate external APIs or services,
 Use this skill when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).
 
 _source: `community` · risk: `safe`_
+
+---
+### `mcp-server-builder`
+
+MCP Server Builder
+
+**Cuándo usar:**
+
+- You need to expose an internal/external REST API to an LLM agent
+- You are replacing brittle browser automation with typed tools
+- You want one MCP server shared across teams and assistants
+- You need repeatable quality checks before publishing MCP tools
+- You want to bootstrap an MCP server from existing OpenAPI specs
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `mcp-server-builder`
@@ -22662,6 +24166,17 @@ EU MDR 2017/745 compliance specialist for medical device classification, technic
 _source: `community` · risk: `safe`_
 
 ---
+### `mdr-745-specialist`
+
+EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, clinical evidence, and post-market surveillance. Covers Annex VIII classification rules, Annex II/III technical files, Annex XIV clinical evaluation, and EUDAMED integration.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `media-processing`
 
 Process multimedia files with FFmpeg (video/audio encoding, conversion, streaming, filtering, hardware acceleration) and ImageMagick (image manipulation, format conversion, batch processing, effects, composition). Use when converting media formats, encoding videos with specific codecs (H.264, H.2...
@@ -22681,6 +24196,11 @@ Use when:
 - Creating composite images or videos
 
 _source: `community` · risk: `safe`_
+
+---
+### `meeting-analyzer`
+
+Analyzes meeting transcripts and recordings to surface behavioral patterns, communication anti-patterns, and actionable coaching feedback. Use this skill whenever the user uploads or points to meeting transcripts (.txt, .md, .vtt, .srt, .docx), asks about their communication habits, wants feedback on how they run meetings, requests speaking ratio analysis, mentions filler words or conflict avoidance, or wants to compare their communication across time periods. Also trigger when users mention tools like Granola, Otter, Fireflies, or Zoom transcripts. Even if the user just says "look at my meetings" or "how do I come across in meetings" — use this skill.
 
 ---
 ### `meeting-insights-analyzer`
@@ -22765,6 +24285,39 @@ Cheatsheet for the Mercury (proton) MCP tools. Use when connected to the Mercury
 - Use when an org admin needs to inspect or edit the team graph (agents and edges).
 
 _source: `community` · risk: `critical`_
+
+---
+### `merge`
+
+Merge the winning agent's branch into base, archive losers, and clean up worktrees.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `merge`
+
+Merge the winning agent's branch into base, archive losers, and clean up worktrees.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `merge`
+
+Merge the winning agent's branch into base, archive losers, and clean up worktrees.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `mermaid-expert`
@@ -22916,6 +24469,39 @@ This skill is applicable to execute the workflow or actions described in the ove
 _source: `community` · risk: `safe`_
 
 ---
+### `migrate`
+
+Migrate from Cypress or Selenium to Playwright. Use when user mentions "cypress", "selenium", "migrate tests", "convert tests", "switch to playwright", "move from cypress", or "replace selenium".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `migrate`
+
+Migrate from Cypress or Selenium to Playwright. Use when user mentions "cypress", "selenium", "migrate tests", "convert tests", "switch to playwright", "move from cypress", or "replace selenium".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `migrate`
+
+Migrate from Cypress or Selenium to Playwright. Use when user mentions "cypress", "selenium", "migrate tests", "convert tests", "switch to playwright", "move from cypress", or "replace selenium".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `migrate-to-codex`
 
 Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.
@@ -22930,6 +24516,17 @@ _source: `community` · risk: `safe`_
 ### `migration`
 
 Step-by-step migration guides for moving to Playwright from Cypress or Selenium/WebDriver — command mappings, architecture changes, and incremental adoption strategies.
+
+---
+### `migration-architect`
+
+Migration Architect
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `migration-architect`
@@ -22965,27 +24562,15 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
-### `minimax-docx`
+### `minimalism`
 
-Professional DOCX document creation, editing, and formatting using OpenXML SDK (.NET). Three pipelines: (A) create new documents from scratch, (B) fill/edit content in existing documents, (C) apply template formatting with XSD validation gate-check. MUST use this skill whenever the user wants to produce, modify, or format a Word document — including when they say "write a report", "draft a proposal", "make a contract", "fill in this form", "reformat to match this template", or any task whose final output is a .docx file. Even if the user doesn't mention "docx" explicitly, if the task implies a printable/formal document, use this skill.
+Web and App implementation guide for the Minimalism design style. Trigger when the user wants simple layouts, lots of whitespace, few colors, and clear hierarchy.
 
+**Cuándo usar:**
 
----
-### `minimax-multimodal-toolkit`
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
 
-MiniMax multimodal model skill — use MiniMax Multi-Modal models for speech, music, video, and image. Create voice, music, video, and images with MiniMax AI: TTS (text-to-speech, voice cloning, voice design, multi-segment), music (songs, instrumentals), video (text-to-video, image-to-video, start-end frame, subject reference, templates, long-form multi-scene), image (text-to-image, image-to-image with character reference), and media processing (convert, concat, trim, extract). Use when the user mentions MiniMax, multimodal generation, or wants speech/music/video/image AI, MiniMax APIs, or FFmpeg workflows alongside MiniMax outputs.
-
-
----
-### `minimax-pdf`
-
-Use this skill when visual quality and design identity matter for a PDF. CREATE (generate from scratch): "make a PDF", "generate a report", "write a proposal", "create a resume", "beautiful PDF", "professional document", "cover page", "polished PDF", "client-ready document". FILL (complete form fields): "fill in the form", "fill out this PDF", "complete the form fields", "write values into PDF", "what fields does this PDF have". REFORMAT (apply design to an existing doc): "reformat this document", "apply our style", "convert this Markdown/text to PDF", "make this doc look good", "re-style this PDF". This skill uses a token-based design system: color, typography, and spacing are derived from the document type and flow through every page. The output is print-ready. Prefer this skill when appearance matters, not just when any PDF output is needed.
-
-
----
-### `minimax-xlsx`
-
-Open, create, read, analyze, edit, or validate Excel/spreadsheet files (.xlsx, .xlsm, .csv, .tsv). Use when the user asks to create, build, modify, analyze, read, validate, or format any Excel spreadsheet, financial model, pivot table, or tabular data file. Covers: creating new xlsx from scratch, reading and analyzing existing files, editing existing xlsx with zero format loss, formula recalculation and validation, and applying professional financial formatting standards. Triggers on 'spreadsheet', 'Excel', '.xlsx', '.csv', 'pivot table', 'financial model', 'formula', or any request to produce tabular data in Excel format.
+_source: `self` · risk: `safe`_
 
 ---
 ### `miro-automation`
@@ -23130,6 +24715,17 @@ Mobile game development principles. Touch input, battery, performance, app store
 _source: `community` · risk: `safe`_
 
 ---
+### `mobile-games`
+
+Mobile game development principles. Touch input, battery, performance, app stores.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `mobile-ios-design`
 
 Master iOS Human Interface Guidelines and SwiftUI patterns for building native iOS apps. Use when designing iOS interfaces, implementing SwiftUI views, or ensuring apps follow Apple's design principles.
@@ -23224,6 +24820,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `monochromatic-ui`
+
+Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `monopoly`
 
 MONOPOLY is a Senior System Design Engineer skill for architecting, reviewing, and scaling systems. Triggers on requests involving architecture, databases, scaling, microservices, or infrastructure design. Proactively engages to design resilient backend systems.
@@ -23248,6 +24855,29 @@ Master monorepo management with Turborepo, Nx, and pnpm workspaces to build effi
 **Cuándo usar:**
 
 - Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `monorepo-navigator`
+
+Monorepo Navigator
+
+**Cuándo usar:**
+
+Use when:
+- Multiple packages/apps share code (UI components, utils, types, API clients)
+- Build times are slow because everything rebuilds when anything changes
+- Migrating from multiple repos to a single repo
+- Need to publish packages to npm with coordinated versioning
+- Teams work across multiple packages and need unified tooling
+
+Skip when:
+- Single-app project with no shared packages
+- Team/project boundaries are completely isolated (polyrepo is fine)
+- Shared code is minimal and copy-paste overhead is acceptable
+
+---
 
 _source: `community` · risk: `safe`_
 
@@ -23319,6 +24949,28 @@ Anti-over-engineering guardrail that activates when an AI coding agent expands s
 
 Use this skill when you want an AI coding agent to stay tightly scoped, prefer the
 simplest viable change, and avoid unrequested abstractions, refactors, or adjacent edits.
+
+_source: `community` · risk: `safe`_
+
+---
+### `ms365-tenant-manager`
+
+Microsoft 365 tenant administration for Global Administrators. Automate M365 tenant setup, Office 365 admin tasks, Azure AD user management, Exchange Online configuration, Teams administration, and security policies. Generate PowerShell scripts for bulk operations, Conditional Access policies, li...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `ms365-tenant-manager`
+
+Microsoft 365 tenant administration for Global Administrators. Automate M365 tenant setup, Office 365 admin tasks, Azure AD user management, Exchange Online configuration, Teams administration, and security policies. Generate PowerShell scripts for bulk operations, Conditional Access policies, li...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -23429,6 +25081,17 @@ Coordinate parallel code reviews across multiple quality dimensions with finding
 - Deduplicating findings from multiple reviewers
 - Calibrating severity ratings consistently
 - Producing a consolidated review report
+
+_source: `community` · risk: `safe`_
+
+---
+### `multiplayer`
+
+Multiplayer game development principles. Architecture, networking, synchronization.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -23630,6 +25293,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `neo-brutalism`
+
+Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `neon-postgres`
 
 Configure Prisma for Neon with connection pooling.
@@ -23749,6 +25423,17 @@ Invoke this skill when tasks involve:
 _[...]_
 
 _source: `https://github.com/networkx/networkx` · risk: `safe`_
+
+---
+### `neumorphism`
+
+Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `neumorphism`
@@ -24108,6 +25793,17 @@ One sentence - what this skill does and when to invoke it
 - Use when you want to surface and neutralize objections before the audience voices them.
 
 _source: `community` · risk: `safe`_
+
+---
+### `observability-designer`
+
+Observability Designer (POWERFUL)
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `observability-designer`
@@ -24566,6 +26262,11 @@ _source: `self` · risk: `safe`_
 When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Also use when the user mentions 'offer,' 'offer design,' 'build an offer,' 'grand slam offer,' 'irresistible offer,' 'value stack,' 'bonus stack,' 'guarantee,' 'risk reversal,' 'money-back guarantee,' 'scarcity,' 'urgency,' 'high-ticket offer,' 'productize a service,' 'naming an offer,' 'payment plan,' 'down-sell,' 'upsell offer,' or 'why isn't my offer converting.' Best for services, agencies, courses, coaching, info products, high-ticket B2B, and direct-response. If you run pure self-serve SaaS, read pricing first — tiers and packaging do more work there. For price level itself (tiers, freemium, value metric), see pricing. For the page that presents the offer, see copywriting. For the launch moment, see launch. For sales collateral, see sales-enablement.
 
 ---
+### `office-hours`
+
+/cs:office-hours <topic> — YC-style 6-question founder interrogation before any advice. Forces clarity on problem, customer, distribution, defensibility, capital, and founder fit. Use when a founder question is too vague to route — e.g. 'should we grow faster?' — or before drafting a strategy brief.
+
+---
 ### `og-image-design`
 
 Open Graph and social sharing image design with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn previews, and dynamic generation. Use for: social sharing images, blog thumbnails, link previews, social cards. Triggers: og image, open graph, social ...
@@ -24579,6 +26280,11 @@ Create social sharing images (Open Graph) via [inference.sh](https://inference.s
 _source: `community` · risk: `safe`_
 
 ---
+### `okr`
+
+Generate OKR cascades from company strategy to team objectives. Usage: /okr generate <strategy>
+
+---
 ### `on-call-handoff-patterns`
 
 Master on-call shift handoffs with context transfer, escalation procedures, and documentation. Use when transitioning on-call responsibilities, documenting shift summaries, or improving on-call processes.
@@ -24590,9 +26296,25 @@ Master on-call shift handoffs with context transfer, escalation procedures, and 
 _source: `community` · risk: `offensive`_
 
 ---
+### `onboard`
+
+/cs:onboard — Founder interview that populates ~/.claude/company-context.md using the canonical 7-dimension cs-onboard schema. The first command to run when starting with c-level-agents. Use when setting up the virtual C-suite for a new company, or when advisors lack company context — e.g. before a first /cs:boardroom or after a fundraise changes the numbers.
+
+---
 ### `onboarding`
 
 When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions "onboarding flow," "activation rate," "user activation," "first-run experience," "empty states," "onboarding checklist," "aha moment," "new user...
+
+---
+### `onboarding-cro`
+
+When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions "onboarding flow," "activation rate," "user activation," "first-run experience," "empty states," "onboarding checklist," "aha moment," or "new user expe...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `onboarding-cro`
@@ -24692,6 +26414,11 @@ Use this skill when you need guidance or automation for opensource-pipeline.
 _source: `community` · risk: `safe`_
 
 ---
+### `operator-audit`
+
+Run the full Kubernetes Operator audit (CRD + reconcile + capability) on the current repo
+
+---
 ### `oral-health-analyzer`
 
 分析口腔健康数据、识别口腔问题模式、评估口腔健康状况、提供个性化口腔健康建议。支持与营养、慢性病、用药等其他健康数据的关联分析。
@@ -24788,6 +26515,28 @@ Plan and execute large refactors with dependency-aware work packets and parallel
 _source: `Dimillian/Skills (MIT)` · risk: `safe`_
 
 ---
+### `org-health-diagnostic`
+
+Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down recommendations. Use when assessing overall company health, preparing for board reviews, identifying at-risk functions, or when user mentions org hea...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `org-health-diagnostic`
+
+Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down recommendations. Use when assessing overall company health, preparing for board reviews, identifying at-risk functions, or when user mentions org hea...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `oss-hunter`
 
 Automatically hunt for high-impact OSS contribution opportunities in trending repositories.
@@ -24819,6 +26568,17 @@ Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage a
 **Cuándo usar:**
 
 This skill is applicable to execute the workflow or actions described in the overview.
+
+_source: `community` · risk: `safe`_
+
+---
+### `page-cro`
+
+When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says "CRO," "conversion rate optimization," "this page isn't converting," "improve conversions," or "why...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -24860,6 +26620,17 @@ Scan, audit, and fix web performance issues across all four Lighthouse/PageSpeed
 ---
 
 _source: `personal` · risk: `safe`_
+
+---
+### `paid-ads`
+
+When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `paid-ads`
@@ -24930,6 +26701,35 @@ Coordinate parallel feature development with file ownership strategies, conflict
 _source: `community` · risk: `safe`_
 
 ---
+### `partnerships-architect`
+
+Use when a startup is approached by a prospective partner and someone has to decide should we sign this partner, at what partner tier (referral / reseller / OEM / SI-consulting / strategic alliance), with what joint GTM commitment, and at what revshare. Classifies partner tier from independent-demand evidence vs. preferential-terms hunting, designs a 90-day joint GTM plan, models revshare against direct-sale margin, and surfaces kill criteria for unwinding under-performing partnerships. For Head of Partnerships, Head of BD, and Founder-CEOs doing reseller agreement, OEM deal, or strategic alliance review — not technical sale enablement, not channel cost economics, not M&A.
+
+**Cuándo usar:**
+
+- A prospective partner has approached and asked for reseller / OEM / "strategic" terms
+- You're designing a new partner program tier structure
+- You're reviewing an existing partnership that's underperforming and need to decide: re-tier, restructure GTM, or unwind
+- A Big Logo wants a "strategic alliance" — and you need to validate it's real, not vendor-lock theatre
+- A consulting firm or SI wants services revshare on your product
+- A platform vendor offers OEM / white-label and you need to model the math
+_[...]_
+
+_tags: `commercial`, `partnerships`, `channel-partners`, `joint-gtm`, `revshare`_
+
+---
+### `patent`
+
+Patent prior-art and landscape intelligence skill — not generic patent help. Commits to one of five sub-use-cases via forcing intake (novelty search / freedom-to-operate / competitive landscape / acquisition diligence / litigation prior-art) before any search runs. Searches Google Patents, Espacenet, USPTO, and optionally Lens.org for citation-graph signals. Output is an editable Word document (.docx) with verdict, ranked closest art (claim-text extracted), CPC-class-aware landscape, family-resolved hits, geographic coverage, FTO flags where applicable, strategy recommendations, and full audit log. Use when the user asks for patent searching or analysis (e.g., 'prior art search for [invention]', 'freedom to operate analysis for [product]'). Produces search signal, not legal advice — always recommends consulting a patent attorney before filing or licensing decisions. Trademark, copyright, and trade-secret questions are out of scope.
+
+---
+### `patterns`
+
+Reference document for monopoly patterns.
+
+_risk: `safe`_
+
+---
 ### `patterns`
 
 Reference document for monopoly patterns.
@@ -24970,9 +26770,31 @@ When the user wants to create or optimize in-app paywalls, upgrade screens, upse
 _source: `community` · risk: `safe`_
 
 ---
+### `paywall-upgrade-cro`
+
+When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium conversion," "trial expiration screen," "limit rea...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `paywalls`
 
 When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium conversion," "trial expiration screen," "limit...
+
+---
+### `pc-games`
+
+PC and console game development principles. Engine selection, platform features, optimization strategies.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `pc-games`
@@ -25095,6 +26917,24 @@ Performance Profiler
 _source: `community` · risk: `safe`_
 
 ---
+### `performance-profiler`
+
+Performance Profiler
+
+**Cuándo usar:**
+
+- App is slow and you don't know where the bottleneck is
+- P99 latency exceeds SLA before a release
+- Memory usage grows over time (suspected leak)
+- Bundle size increased after adding dependencies
+- Preparing for a traffic spike (load test before launch)
+- Database queries taking >100ms
+
+---
+
+_source: `community` · risk: `safe`_
+
+---
 ### `performance-profiling`
 
 Performance profiling principles. Measurement, analysis, and optimization techniques.
@@ -25172,6 +27012,11 @@ Use this when optimizing opencode's permission settings, reviewing allowed comma
 _source: `community` · risk: `critical`_
 
 ---
+### `persona`
+
+Generate data-driven user personas for UX research and product design. Usage: /persona generate [options]
+
+---
 ### `personal-tool-builder`
 
 You believe the best tools come from real problems. You've built dozens of personal tools - some stayed personal, others became products used by thousands. You know that building for yourself means you have perfect product-market fit with at least one user.
@@ -25233,6 +27078,13 @@ Language-specific super-code guidelines for php.
 _source: `community` · risk: `safe`_
 
 ---
+### `php`
+
+Language-specific super-code guidelines for php.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `php-pro`
 
 Write idiomatic PHP code with generators, iterators, SPL data structures, and modern OOP features. Use PROACTIVELY for high-performance PHP applications.
@@ -25253,6 +27105,11 @@ Automate Pipedrive CRM operations including deals, contacts, organizations, acti
 This skill is applicable to execute the workflow or actions described in the overview.
 
 _source: `community` · risk: `safe`_
+
+---
+### `pipeline`
+
+Detect stack and generate CI/CD pipeline configs. Usage: /pipeline <detect|generate> [options]
 
 ---
 ### `pipeline-blueprint`
@@ -25393,6 +27250,17 @@ Production-grade Playwright testing toolkit. Use when the user mentions Playwrig
 _source: `community` · risk: `safe`_
 
 ---
+### `playwright-pro`
+
+Production-grade Playwright testing toolkit. Use when the user mentions Playwright tests, end-to-end testing, browser automation, fixing flaky tests, test migration, CI/CD testing, or test suites. Generate tests, fix flaky failures, migrate from Cypress/Selenium, sync with TestRail, run on Browse...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `playwright-skill`
 
 IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, and use that path in all commands below.
@@ -25415,6 +27283,15 @@ Interactive visualization library. Use when you need hover info, zoom, pan, or w
 - You want to choose between Plotly Express and Graph Objects for the same visualization task.
 
 _source: `community` · risk: `safe`_
+
+---
+### `plugin-audit`
+
+Comprehensive audit pipeline for skills, plugins, agents, and commands. Validates structure,
+quality, security, marketplace compliance, cross-platform compatibility, and ecosystem integration.
+Runs all built-in validation tools, invokes domain-appropriate agents for code review,
+and produces a pass/fail gate report. Usage: /plugin-audit <skill-path>
+
 
 ---
 ### `plugin-creator`
@@ -25470,6 +27347,17 @@ Page Object Model patterns for Playwright — when to use POM, how to structure 
 ---
 ### `popup-cro`
 
+When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions "exit intent," "popup conversions," "modal optimization," "lead capture popup," "email popup," "announcement banner," or "overlay." For forms outside ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `popup-cro`
+
 When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions "exit intent," "popup conversions," "modal optimization," "lead capture popup," "email popup," "announcement banner," "overlay," "collect emails with ...
 
 **Cuándo usar:**
@@ -25493,6 +27381,11 @@ Expert in strict POSIX sh scripting for maximum portability across Unix-like sys
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `post-mortem`
+
+/cs:post-mortem <decision> — Honest retrospective on an executed decision, scored against original assumptions and dissent. Closes the strategic sprint loop. Use when a decision hits its 90-day review checkpoint or its kill criteria trigger — e.g. scoring last quarter's pricing change against its pre-committed success metrics.
 
 ---
 ### `postgres-best-practices`
@@ -25578,6 +27471,17 @@ _source: `community` · risk: `safe`_
 _source: `community` · risk: `safe`_
 
 ---
+### `postmortem`
+
+/em -postmortem — Honest Analysis of What Went Wrong
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `postmortem-writing`
 
 Write effective blameless postmortems with root cause analysis, timelines, and action items. Use when conducting incident reviews, writing postmortem documents, or improving incident response processes.
@@ -25611,11 +27515,6 @@ Presentation creation, editing, and analysis. When Claude needs to work with pre
 _source: `community` · risk: `safe`_
 
 ---
-### `pptx-generator`
-
-Generate, edit, and read PowerPoint presentations. Create from scratch with PptxGenJS (cover, TOC, content, section divider, summary slides), edit existing PPTX via XML workflows, or extract text with markitdown. Triggers: PPT, PPTX, PowerPoint, presentation, slide, deck, slides.
-
----
 ### `pptx-official`
 
 A user may ask you to create, edit, or analyze the contents of a .pptx file. A .pptx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.
@@ -25625,6 +27524,23 @@ A user may ask you to create, edit, or analyze the contents of a .pptx file. A .
 This skill is applicable to execute the workflow or actions described in the overview.
 
 _source: `community` · risk: `safe`_
+
+---
+### `pr-review-expert`
+
+PR Review Expert
+
+**Cuándo usar:**
+
+- Before merging any PR/MR that touches shared libraries, APIs, or DB schema
+- When a PR is large (>200 lines changed) and needs structured review
+- Onboarding new contributors whose PRs need thorough feedback
+- Security-sensitive code paths (auth, payments, PII handling)
+- After an incident — review similar PRs proactively
+
+---
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `pr-review-expert`
@@ -25657,6 +27573,11 @@ Create pull requests following Sentry's engineering practices.
 _source: `community` · risk: `safe`_
 
 ---
+### `prd`
+
+Gated PRD generation — interrogates problem, user, and metric before drafting; refuses to draft on unknowns. Usage: /prd <feature-or-problem>
+
+---
 ### `prediction-market-oracle-research`
 
 Research prediction markets as data sources or oracle signals for products, agents, dashboards, and corporate decision intelligence. Use for source-grounded analysis of market-implied probabilities, caveats, and integration patterns without investment advice.
@@ -25665,6 +27586,28 @@ Research prediction markets as data sources or oracle signals for products, agen
 ### `prediction-market-risk-review`
 
 Review prediction-market, basket, oracle, and trading-agent workflows for compliance, safety, data-quality, privacy, and execution risk. Use before any workflow handles venue auth, user portfolio data, API keys, or trade planning.
+
+---
+### `preset`
+
+Intelligently deploys Azure OpenAI models to optimal regions by analyzing capacity across all available regions. Automatically checks current region first and shows alternatives if needed. USE FOR: quick deployment, optimal region, best region, automatic region selection, fast setup, multi-region...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `preset`
+
+Intelligently deploys Azure OpenAI models to optimal regions by analyzing capacity across all available regions. Automatically checks current region first and shows alternatives if needed. USE FOR: quick deployment, optimal region, best region, automatic region selection, fast setup, multi-region...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `preset`
@@ -25719,6 +27662,37 @@ _source: `community` · risk: `safe`_
 When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I...
 
 ---
+### `pricing-strategist`
+
+Use when designing or revisiting product pricing — selecting a pricing model (subscription seat-based, usage-based, value-based, freemium, or hybrid), running Van Westendorp Price Sensitivity Meter analysis on WTP survey data, or designing Good/Better/Best packaging tiers. Recommends a model and a price range with trade-offs, never a single number. For Commercial leads, Product Marketing, and CMOs at the pricing-design moment — not deal-by-deal discounting, not brand positioning.
+
+**Cuándo usar:**
+
+- Launching a new SaaS / API / AI tool and choosing the first pricing model
+- Revisiting pricing after 18+ months of GTM data (model shift, not just price increase)
+- Designing or redesigning tier packaging (Good/Better/Best, Bronze/Silver/Gold)
+- You have Van Westendorp survey data and want the optimal price range
+- A board / exec is asking "what should we charge?" and you need the structured answer
+- You suspect your packaging has anti-patterns (decoy tier, feature dump, no upgrade trigger)
+
+**Do not use for:**
+- Per-deal discount approval → `deal-desk`
+_[...]_
+
+_tags: `commercial`, `pricing`, `packaging`, `wtp`, `van-westendorp`_
+
+---
+### `pricing-strategy`
+
+Design, optimize, and communicate SaaS pricing — tier structure, value metrics, pricing pages, and price increase strategy. Use when building a pricing model from scratch, redesigning existing pricing, planning a price increase, or improving a pricing page. Trigger keywords: pricing tiers, pricin...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `pricing-strategy`
 
 When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I cha...
@@ -25771,6 +27745,36 @@ This skill should be used when the user asks to "escalate privileges", "get root
 _source: `community` · risk: `offensive`_
 
 ---
+### `process-mapper`
+
+Use when a BizOps lead, COO, or process-improvement owner needs to document an end-to-end business process (procurement, employee onboarding, incident handoff, customer-onboarding, claims adjudication) in BPMN-style notation, measure cycle times by stage, surface where work spends most of its time waiting vs. being worked, and quantify the gap between processing time and total elapsed time. Pairs Lean / Six Sigma / Theory-of-Constraints canon with deterministic stdlib-only Python tools to produce a process map, a ranked bottleneck list (with severity + root-cause hypothesis), and a cycle-time analysis (P50, P90, value-add ratio, Little's-Law throughput). Distinct from sales-pipeline, system-reliability (SLO), and strategic-OKR work — this is tactical process documentation for internal operations.
+
+**Cuándo usar:**
+
+- Documenting a new business process (procurement intake, vendor onboarding, employee onboarding, incident handoff, expense reimbursement, customer onboarding, claims adjudication).
+- An existing process is "too slow" but nobody can name the bottleneck.
+- Cycle time is being measured but value-add ratio is not — so the team can't tell whether the process is healthy or waste-heavy.
+- Cross-functional handoffs are dropping work and root cause is unclear.
+
+_tags: `bizops`, `process`, `bpmn`, `bottleneck`, `cycle-time`_
+
+---
+### `procurement-optimizer`
+
+Use when running an annual SaaS audit, doing category-level spend review, or rationalizing the supplier base — when the user needs a spend audit, spend categorization (UNSPSC-aligned with Pareto breakdown and industry profiles), purchasing-cycle analysis (bottleneck categories per Goldratt's Theory of Constraints), or risk-balanced supplier consolidation that refuses single-source recommendations for tier-1 categories without a documented break-glass plan. Triggers on "spend audit", "SaaS audit", "spend categorization", "supplier rationalization", "supplier consolidation", "category strategy", "duplicate SaaS", "renewal cluster".
+
+**Cuándo usar:**
+
+- Annual SaaS audit and category-level spend review.
+- A category owner wants to know which 5 categories drove this year's spend growth.
+- Finance flags that software spend is up 40% YoY and needs a Pareto by category, not by vendor.
+- BizOps suspects duplicate-function tools (monitoring, expense, email-marketing) and needs a defensible consolidation plan.
+- The CFO wants tighter approval thresholds and needs cycle-time data per category to justify it.
+- Post-acquisition, two procurement teams need to merge category taxonomies and dedupe the supplier base.
+
+_tags: `bizops`, `procurement`, `spend-categorization`, `supplier-consolidation`, `unspsc`_
+
+---
 ### `product-analytics`
 
 Use when defining product KPIs, building metric dashboards, running cohort or retention analysis, or interpreting feature adoption trends across product stages.
@@ -25785,6 +27789,33 @@ Use this skill for:
 - Feature adoption and funnel interpretation
 
 _source: `community` · risk: `safe`_
+
+---
+### `product-analytics`
+
+Use when defining product KPIs, building metric dashboards, running cohort or retention analysis, or interpreting feature adoption trends across product stages.
+
+**Cuándo usar:**
+
+Use this skill for:
+- Metric framework selection (AARRR, North Star, HEART)
+- KPI definition by product stage (pre-PMF, growth, mature)
+- Dashboard design and metric hierarchy
+- Cohort and retention analysis
+- Feature adoption and funnel interpretation
+
+_source: `community` · risk: `safe`_
+
+---
+### `product-bundle`
+
+10 product agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. PM toolkit (RICE), agile PO, product strategist (OKR), UX researcher, UI design system, competitive teardown, landing page generator, SaaS scaffolder, research summarizer. Python tools (stdlib-only).
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe` · tags: `product`, `product-management`, `ux`, `ui`, `saas`_
 
 ---
 ### `product-capability`
@@ -25842,6 +27873,22 @@ Use this skill for:
 _source: `community` · risk: `safe`_
 
 ---
+### `product-discovery`
+
+Use when validating product opportunities, mapping assumptions, planning discovery sprints, or testing problem-solution fit before committing delivery resources.
+
+**Cuándo usar:**
+
+Use this skill for:
+- Opportunity Solution Tree facilitation
+- Assumption mapping and test planning
+- Problem validation interviews and evidence synthesis
+- Solution validation with prototypes/experiments
+- Discovery sprint planning and outputs
+
+_source: `community` · risk: `safe`_
+
+---
 ### `product-hunt-launch`
 
 Product Hunt launch optimization with specific specs, timing, and gallery strategy. Covers taglines, gallery images, maker comments, and launch day tactics. Use for: product launches, startup launches, side project launches, Product Hunt optimization. Triggers: product hunt, ph launch, pro...
@@ -25881,6 +27928,34 @@ _source: `community` · risk: `none` · tags: `product-thinking`, `innovation`, 
 - When stuck choosing between features
 - Before a launch — sanity check the user journey
 - When converting a vague idea into a spec
+
+_source: `community` · risk: `safe`_
+
+---
+### `product-manager`
+
+Ships outcomes, not features. Writes specs engineers actually read. Prioritizes ruthlessly. Kills darlings when the data says so. Operates at the intersection of user needs, business goals, and engineering reality. Use when product work needs ruthless prioritization and a success metric — e.g., turning vague stakeholder asks into a 2-page spec, or deciding which of three competing roadmap bets to fund this quarter. (For framework-heavy RICE/PRD tooling, see cs-product-manager.)
+
+**Cuándo usar:**
+
+✅ You need product requirements that engineers will actually read
+✅ You're drowning in feature requests and need to prioritize
+✅ You want to validate an idea before spending 6 weeks building it
+✅ Your team ships a lot but nothing moves the needle
+✅ You need a launch plan with phases and rollback criteria
+
+❌ You need system architecture → use Startup CTO
+❌ You need marketing strategy → use Growth Marketer
+❌ You need financial modeling → use Finance Lead
+
+---
+### `product-manager-toolkit`
+
+Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use for feature prioritization, user research synthesis, requirement documentation, and product strategy development.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -25965,7 +28040,29 @@ Strategic product leadership toolkit for Head of Product covering OKR cascade ge
 _source: `community` · risk: `safe`_
 
 ---
+### `product-strategist`
+
+Strategic product leadership toolkit for Head of Product covering OKR cascade generation, quarterly planning, competitive landscape analysis, product vision documents, and team scaling proposals. Use when creating quarterly OKR documents, defining product goals or KPIs, building product roadmaps,...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `product-team`
+
+10 product agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. PM toolkit (RICE), agile PO, product strategist (OKR), UX researcher, UI design system, competitive teardown, landing page generator, SaaS scaffolder, research summarizer. Python tools (stdlib-only).
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe` · tags: `product`, `product-management`, `ux`, `ui`, `saas`_
+
+---
+### `product-team-bundle`
 
 10 product agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. PM toolkit (RICE), agile PO, product strategist (OKR), UX researcher, UI design system, competitive teardown, landing page generator, SaaS scaffolder, research summarizer. Python tools (stdlib-only).
 
@@ -26047,6 +28144,17 @@ _source: `original` · risk: `safe`_
 ---
 ### `programmatic-seo`
 
+When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions "programmatic SEO," "template pages," "pages at scale," "directory pages," "location pages," "[keyword] + [city] pages," "comparison pages," "integration pages," or "building many pag...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `programmatic-seo`
+
 When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions "programmatic SEO," "template pages," "pages at scale," "directory pages," "location pages," "[keyword] + [city] pages," "comparison pages," "integration pages," "building many pages ...
 
 **Cuándo usar:**
@@ -26113,7 +28221,23 @@ Project Guidelines Example
 _source: `community` · risk: `safe`_
 
 ---
+### `project-health`
+
+Portfolio health dashboard and risk matrix analysis. Usage: /project-health <dashboard|risk> [options]
+
+---
 ### `project-management`
+
+6 project management agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Senior PM, scrum master, Jira expert (JQL), Confluence expert, Atlassian admin, template creator. MCP integration for live Jira/Confluence automation.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe` · tags: `project-management`, `jira`, `confluence`, `atlassian`, `scrum`_
+
+---
+### `project-management-bundle`
 
 6 project management agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Senior PM, scrum master, Jira expert (JQL), Confluence expert, Atlassian admin, template creator. MCP integration for live Jira/Confluence automation.
 
@@ -26174,6 +28298,17 @@ Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/r
 _source: `community` · risk: `safe`_
 
 ---
+### `promote`
+
+Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/rules/ for permanent enforcement.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `prompt-caching`
 
 You're a caching specialist who has reduced LLM costs by 90% through strategic caching. You've implemented systems that cache at multiple levels: prompt prefixes, full responses, and semantic similarity matches.
@@ -26192,6 +28327,17 @@ _source: `vibeship-spawner-skills (Apache 2.0)` · risk: `safe`_
 ### `prompt-engineer`
 
 Expert prompt engineer specializing in advanced prompting techniques, LLM optimization, and AI system design. Masters chain-of-thought, constitutional AI, and production prompt strategies. Use when building AI features, improving agent performance, or crafting system prompts.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `prompt-engineer-toolkit`
+
+Analyzes and rewrites prompts for better AI output, creates reusable prompt templates for marketing use cases (ad copy, email campaigns, social media), and structures end-to-end AI content workflows. Use when the user wants to improve prompts for AI-assisted marketing, build prompt templates, or ...
 
 **Cuándo usar:**
 
@@ -26235,6 +28381,11 @@ Master advanced prompt engineering techniques to maximize LLM performance, relia
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `prompt-governance`
+
+Use when managing prompts in production at scale: versioning prompts, running A/B tests on prompts, building prompt registries, preventing prompt regressions, or creating eval pipelines for production AI features. Triggers: 'manage prompts in production', 'prompt versioning', 'prompt regression', 'prompt A/B test', 'prompt registry', 'eval pipeline'. NOT for writing or improving individual prompts (use senior-prompt-engineer). NOT for RAG pipeline design (use rag-architect). NOT for LLM cost reduction (use llm-cost-optimizer).
 
 ---
 ### `prompt-library`
@@ -26349,6 +28500,11 @@ This skill should be used when:
 _source: `community` · risk: `safe`_
 
 ---
+### `pulse`
+
+Multi-source recency research skill that takes the pulse of any topic across Reddit, Hacker News, the open web, and optionally X/Twitter within a configurable recent window (default 30 days). Forcing intake clarifies topic specificity, angle (trend/sentiment/problems/opportunities/comparison), time window, and platform scope before searching. Returns a synthesized briefing with citations, engagement metrics, and cross-platform pattern analysis. Use when the user requests multi-source recency intelligence on a topic (e.g., 'pulse on [topic]', 'what's happening with [topic]', 'what are people saying about [topic]', 'current conversation about [topic]', 'take the pulse of [topic]', 'trending: [topic]', 'find me info on [topic]'), and for competitor research, trend discovery, tool comparisons, and audience sentiment analysis.
+
+---
 ### `pw`
 
 Production-grade Playwright testing toolkit. Use when the user mentions Playwright tests, end-to-end testing, browser automation, fixing flaky tests, test migration, CI/CD testing, or test suites. Generate tests, fix flaky failures, migrate from Cypress/Selenium, sync with TestRail...
@@ -26390,6 +28546,13 @@ Pytest testing patterns for Python. Trigger: When writing Python tests - fixture
 **Cuándo usar:**
 
 - Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `python`
+
+Language-specific super-code guidelines for python.
 
 _source: `community` · risk: `safe`_
 
@@ -26766,6 +28929,28 @@ ISO 13485 internal audit expertise for medical device QMS. Covers audit planning
 _source: `community` · risk: `safe`_
 
 ---
+### `qms-audit-expert`
+
+ISO 13485 internal audit expertise for medical device QMS. Covers audit planning, execution, nonconformity classification, and CAPA verification. Use for internal audit planning, audit execution, finding classification, external audit preparation, or audit program management.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `quality-documentation-manager`
+
+Document control system management for medical device QMS. Covers document numbering, version control, change management, and 21 CFR Part 11 compliance. Use for document control procedures, change control workflow, document numbering, version management, electronic signature compliance, or regula...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `quality-documentation-manager`
 
 Document control system management for medical device QMS. Covers document numbering, version control, change management, and 21 CFR Part 11 compliance. Use for document control procedures, change control workflow, document numbering, version management, electronic signature compliance, or regula...
@@ -26786,6 +28971,28 @@ Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech compa
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `quality-manager-qmr`
+
+Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech companies. Provides quality system governance, management review leadership, regulatory compliance oversight, and quality performance monitoring per ISO 13485 Clause 5.5.2.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `quality-manager-qms-iso13485`
+
+ISO 13485 Quality Management System implementation and maintenance for medical device organizations. Provides QMS design, documentation control, internal auditing, CAPA management, and certification support. Use when working with medical device quality systems, preparing for ISO 13485 audits, man...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `quality-manager-qms-iso13485`
@@ -26859,6 +29066,13 @@ Proves the system works by writing and executing comprehensive test suites.
 _source: `community` · risk: `safe`_
 
 ---
+### `quinn`
+
+Proves the system works by writing and executing comprehensive test suites.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `r2-upload`
 
 Upload files to Cloudflare R2, AWS S3, or any S3-compatible storage (like MinIO) and generate secure, time-limited presigned download links with configurable expiration, typically set to 5 minutes. Use when the user needs to upload a file to cloud storage and get a shareable link, or mentions R2, S3, presigned URLs, temporary links, or file uploads with expiration.
@@ -26886,6 +29100,28 @@ _source: `community` · risk: `safe` · tags: `regulatory`, `quality-management`
 
 ---
 ### `ra-qm-team`
+
+12 regulatory & QM agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO 27001 ISMS, GDPR/DSGVO, risk management (ISO 14971), CAPA, document control, auditing. Python tools (stdlib-only).
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe` · tags: `regulatory`, `quality-management`, `iso-13485`, `mdr`, `fda`_
+
+---
+### `ra-qm-team-bundle`
+
+12 regulatory & QM agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO 27001 ISMS, GDPR/DSGVO, risk management (ISO 14971), CAPA, document control, auditing. Python tools (stdlib-only).
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe` · tags: `regulatory`, `quality-management`, `iso-13485`, `mdr`, `fda`_
+
+---
+### `ra-qm-team-main`
 
 12 regulatory & QM agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO 27001 ISMS, GDPR/DSGVO, risk management (ISO 14971), CAPA, document control, auditing. Python tools (stdlib-only).
 
@@ -26927,6 +29163,17 @@ Picks random winners from lists, spreadsheets, or Google Sheets for giveaways, r
 - Random team assignments
 
 _source: `community` · risk: `safe`_
+
+---
+### `rag-architect`
+
+RAG Architect - POWERFUL
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `rag-architect`
@@ -27102,17 +29349,6 @@ Master React Native styling, navigation, and Reanimated animations for cross-pla
 _source: `community` · risk: `safe`_
 
 ---
-### `react-native-dev`
-
-React Native and Expo development guide covering components, styling, animations, navigation,
-state management, forms, networking, performance optimization, testing, native capabilities,
-and engineering (project structure, deployment, SDK upgrades, CI/CD).
-Use when: building React Native or Expo apps, implementing animations or native UI, managing
-state, fetching data, writing tests, optimizing performance, deploying to App Store/Play Store,
-setting up CI/CD, upgrading Expo SDK, or configuring Tailwind/NativeWind.
-
-
----
 ### `react-native-patterns`
 
 React Native and Expo app patterns — Expo Router navigation, state separation (server/client/route/form), TanStack Query data fetching with Zod, performant lists, NativeWind/StyleSheet styling, native APIs, and secure storage. Use when building or editing React Native / Expo screens, components, navigation, or data layers.
@@ -27230,6 +29466,11 @@ _[...]_
 Use when the user asks for repeated rollouts, marked decision processes, high-dimensional search, stochastic optimization, local-optima exploration, ensemble comparison, or recursive reasoning with a visible evidence trail.
 
 ---
+### `red-team`
+
+Use when planning or executing authorized red team engagements, attack path analysis, or offensive security simulations. Covers MITRE ATT&CK kill-chain planning, technique scoring, choke point identification, OPSEC risk assessment, and crown jewel targeting.
+
+---
 ### `red-team-tactics`
 
 Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.
@@ -27281,6 +29522,17 @@ _source: `community` · risk: `safe`_
 ---
 ### `referral-program`
 
+When the user wants to design, launch, or optimize a referral or affiliate program. Use when they mention 'referral program,' 'affiliate program,' 'word of mouth,' 'refer a friend,' 'incentive program,' 'customer referrals,' 'brand ambassador,' 'partner program,' 'referral link,' or 'growth throu...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `referral-program`
+
 When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referr...
 
 **Cuándo usar:**
@@ -27293,6 +29545,11 @@ _source: `community` · risk: `safe`_
 ### `referrals`
 
 When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get...
+
+---
+### `reflect`
+
+Mid-conversation reflection skill that pauses execution and zooms out from detail-mode to honestly reassess direction, assumptions, and bias. Use when the user says 'reflect', 'take a step back', 'step back', 'zoom out', 'are we missing something', 'bigger picture', 'sanity check this', 'are we on track', 'are we overthinking this', 'forest for the trees', or any variation signaling intent to break out of detail-mode and reassess. Also trigger when the conversation has gone deep on implementation details without strategic check-in, or when the user shows signs of being stuck — that's often a signal the framing needs a reset, not more detail work. Intentionally low-intake: runs the 5-dimension analysis immediately when prior context is rich enough; asks one forcing clarifier only when invocation context is too thin to reassess from.
 
 ---
 ### `regex-vs-llm-structured-text`
@@ -27313,6 +29570,17 @@ _source: `community` · risk: `safe`_
 ### `regression-modeler`
 
 Run regression analysis (OLS or logistic) on uploaded CSV/Excel data, generating coefficients, R², p-values, VIF, and plain-language interpretation. Triggered by requests for regression modeling, fitting data, testing significance, checking multicollinearity, or keywords like OLS, logit, coefficient, p-value, or R-squared.
+
+---
+### `regulatory-affairs-head`
+
+Senior Regulatory Affairs Manager for HealthTech and MedTech companies. Prepares FDA 510(k), De Novo, and PMA submission packages; analyzes regulatory pathways for new medical devices; drafts responses to FDA deficiency letters and Notified Body queries; develops CE marking technical documentatio...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `regulatory-affairs-head`
@@ -27361,6 +29629,17 @@ _source: `community` · risk: `safe`_
 ---
 ### `release-manager`
 
+Release Manager
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `release-manager`
+
 Use when the user asks to plan releases, manage changelogs, coordinate deployments, create release branches, or automate versioning.
 
 **Cuándo usar:**
@@ -27368,6 +29647,23 @@ Use when the user asks to plan releases, manage changelogs, coordinate deploymen
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `remember`
+
+Explicitly save important knowledge to auto-memory with timestamp and context. Use when a discovery is too important to rely on auto-capture.
+
+**Cuándo usar:**
+
+| Situation | Example |
+|-----------|---------|
+| Hard-won debugging insight | "CORS errors on /api/upload are caused by the CDN, not the backend" |
+| Project convention not in CLAUDE.md | "We use barrel exports in src/components/" |
+| Tool-specific gotcha | "Jest needs `--forceExit` flag or it hangs on DB tests" |
+| Architecture decision | "We chose Drizzle over Prisma for type-safe SQL" |
+| Preference you want Claude to learn | "Don't add comments explaining obvious code" |
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `remember`
@@ -27510,6 +29806,28 @@ Generate test report. Use when user says "test report", "results summary", "test
 _source: `community` · risk: `safe`_
 
 ---
+### `report`
+
+Generate test report. Use when user says "test report", "results summary", "test status", "show results", "test dashboard", or "how did tests go".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `report`
+
+Generate test report. Use when user says "test report", "results summary", "test status", "show results", "test dashboard", or "how did tests go".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `requesting-code-review`
 
 Use when completing tasks, implementing major features, or before merging to verify work meets requirements
@@ -27522,6 +29840,11 @@ _source: `community` · risk: `safe`_
 
 ---
 ### `research`
+
+Default entry point for any research request — a hybrid router that classifies the question deterministically and either delegates to a specialist research skill (pulse for trends/sentiment, grants for NIH funding, litreview for academic literature, syllabus for course reading...
+
+---
+### `research-bundle`
 
 Default entry point for any research request — a hybrid router that classifies the question deterministically and either delegates to a specialist research skill (pulse for trends/sentiment, grants for NIH funding, litreview for academic literature, syllabus for course reading...
 
@@ -27587,6 +29910,17 @@ Structured research summarization agent skill for non-dev users. Handles academi
 _source: `community` · risk: `safe`_
 
 ---
+### `research-summarizer`
+
+Structured research summarization agent skill for non-dev users. Handles academic papers, web articles, reports, and documentation. Extracts key findings, generates comparative analyses, and produces properly formatted citations. Use when: user wants to summarize a research paper, compare multipl...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `resource-curator`
 
 Find, evaluate, and maintain high-quality external resources for JavaScript concept documentation, including auditing for broken and outdated links
@@ -27620,9 +29954,69 @@ Implement modern responsive layouts using container queries, fluid typography, C
 _source: `community` · risk: `safe`_
 
 ---
+### `resume`
+
+Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `resume`
+
+Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `resume`
+
+Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `retro`
+
+Analyze sprint retrospectives for patterns and action item tracking. Usage: /retro analyze <retro_data.json>
+
+---
 ### `retro-design`
 
 Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `retro-design`
+
+Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `retro-futurism`
+
+Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes.
 
 **Cuándo usar:**
 
@@ -27657,6 +30051,28 @@ Codified expertise for returns authorization, receipt and inspection, dispositio
 _source: `community` · risk: `offensive`_
 
 ---
+### `revenue-operations`
+
+Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization. Use when analyzing sales pipeline coverage, forecasting revenue, evaluating go-to-market performance, reviewing sales metrics, assessing pipeline analysis, tracking for...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `revenue-operations`
+
+Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization. Use when analyzing sales pipeline coverage, forecasting revenue, evaluating go-to-market performance, reviewing sales metrics, assessing pipeline analysis, tracking for...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `reverse-engineer`
 
 Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains. Handles executable analysis, library inspection, protocol extraction, and vulnerability research. Use PROACTIVELY for bin...
@@ -27666,6 +30082,58 @@ Expert reverse engineer specializing in binary analysis, disassembly, decompilat
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `review`
+
+Review Playwright tests for quality. Use when user says "review tests", "check test quality", "audit tests", "improve tests", "test code review", or "playwright best practices check".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `review`
+
+Analyze auto-memory for promotion candidates, stale entries, consolidation opportunities, and health metrics.
+
+**Cuándo usar:**
+
+- After completing a major feature or debugging session
+- When `/si:status` shows MEMORY.md is over 150 lines
+- Weekly during active development
+- Before starting a new project phase
+- After onboarding a new team member (review what Claude learned)
+
+_source: `community` · risk: `safe`_
+
+---
+### `review`
+
+Review Playwright tests for quality. Use when user says "review tests", "check test quality", "audit tests", "improve tests", "test code review", or "playwright best practices check".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `review`
+
+Analyze auto-memory for promotion candidates, stale entries, consolidation opportunities, and health metrics.
+
+**Cuándo usar:**
+
+- After completing a major feature or debugging session
+- When `/si:status` shows MEMORY.md is over 150 lines
+- Weekly during active development
+- Before starting a new project phase
+- After onboarding a new team member (review what Claude learned)
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `revops`
@@ -27682,6 +30150,48 @@ _source: `community` · risk: `safe`_
 ### `rex`
 
 Translates user intent into a precise, unambiguous specification and requirements.
+
+_source: `community` · risk: `safe`_
+
+---
+### `rex`
+
+Translates user intent into a precise, unambiguous specification and requirements.
+
+_source: `community` · risk: `safe`_
+
+---
+### `rfp-responder`
+
+Use when an RFP, RFI, RFQ, security questionnaire, vendor questionnaire, or proposal request arrives and the team needs a structured response — parsing multi-section buyer-dictated requirements (MANDATORY vs WEIGHTED vs NICE-TO-HAVE), building a Shipley-method proof-point matrix mapping each requirement to a verifiable proof point, articulating 3-5 win-themes that ladder up across requirements, and producing a Shipley-derived winrate estimate that informs a bid / no-bid / partner-bid recommendation. For Bid Managers, Proposal Leads, Directors of Sales, and Sales Engineers at the response-strategy moment. Surfaces GAP requirements explicitly — never invents claims. NOT free-form proposal narrative authoring, NOT contract redline, NOT marketing collateral.
+
+**Cuándo usar:**
+
+- A 30+ page RFP / RFI / RFQ has landed with a 7-14 day response deadline
+- A security questionnaire (SIG, CAIQ, custom-buyer) needs structured Q&A — not prose
+- The team is preparing a bid / no-bid review and needs a defensible winrate estimate
+- Sales Engineering has a proof-point library but no system to map proofs to requirements
+- Leadership wants to see fit % (STRONG / PARTIAL / GAP) before committing pursuit budget
+- A late-entry opportunity needs honest assessment of the relationship deficit
+
+**Do not use for:**
+_[...]_
+
+_tags: `commercial`, `rfp`, `rfi`, `rfq`, `shipley`_
+
+---
+### `rice`
+
+RICE feature prioritization with scoring and capacity planning. Usage: /rice prioritize <features.csv> [options]
+
+---
+### `risk-management-specialist`
+
+Medical device risk management specialist implementing ISO 14971 throughout product lifecycle. Provides risk analysis, risk evaluation, risk control, and post-production information analysis. Use when user mentions risk management, ISO 14971, risk analysis, FMEA, fault tree analysis, hazard ident...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -27715,6 +30225,22 @@ Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawd
 **Cuándo usar:**
 
 - Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `roadmap-communicator`
+
+Use when preparing roadmap narratives, release notes, changelogs, or stakeholder updates tailored for executives, engineering teams, and customers.
+
+**Cuándo usar:**
+
+Use this skill for:
+- Building roadmap presentations in different formats
+- Writing stakeholder updates (board, engineering, customers)
+- Producing release notes (user-facing and internal)
+- Generating changelogs from git history
+- Structuring feature announcements
 
 _source: `community` · risk: `safe`_
 
@@ -27878,6 +30404,13 @@ Language-specific super-code guidelines for ruby.
 _source: `community` · risk: `safe`_
 
 ---
+### `ruby`
+
+Language-specific super-code guidelines for ruby.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `ruby-pro`
 
 Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks. Use PROACTIVELY for Ruby refactoring, optimization, or complex Ruby features.
@@ -27900,6 +30433,61 @@ Scan skills to extract cross-cutting principles and distill them into rules — 
 - When rules feel incomplete relative to the skills being used
 
 _source: `community` · risk: `offensive`_
+
+---
+### `run`
+
+One-shot lifecycle command that chains init → baseline → spawn → eval → merge in a single invocation.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `run`
+
+Run a single experiment iteration. Edit the target file, evaluate, keep or discard.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `run`
+
+One-shot lifecycle command that chains init → baseline → spawn → eval → merge in a single invocation.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `run`
+
+Run a single experiment iteration. Edit the target file, evaluate, keep or discard.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `run`
+
+One-shot lifecycle command that chains init → baseline → spawn → eval → merge in a single invocation.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `runaway-guard`
@@ -27934,6 +30522,22 @@ Runbook Generator
 _source: `community` · risk: `offensive`_
 
 ---
+### `runbook-generator`
+
+Runbook Generator
+
+**Cuándo usar:**
+
+- A service has no runbook and needs a baseline immediately
+- Existing runbooks are inconsistent across teams
+- On-call onboarding requires standardized operations docs
+- You need repeatable runbook scaffolding for new services
+
+---
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `rust`
 
 Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.
@@ -27943,6 +30547,13 @@ Triggers: "cosmos db rust", "CosmosClient rust", "container", "document rust", "
 **Cuándo usar:**
 
 Use this skill when you need guidance or automation for rust.
+
+_source: `community` · risk: `safe`_
+
+---
+### `rust`
+
+Language-specific super-code guidelines for rust.
 
 _source: `community` · risk: `safe`_
 
@@ -27994,6 +30605,22 @@ Rust testing patterns including unit tests, integration tests, async testing, pr
 - Creating benchmarks for performance-critical code
 - Implementing property-based tests for input validation
 - Following TDD workflow in Rust projects
+
+_source: `community` · risk: `safe`_
+
+---
+### `saas-health`
+
+Calculate SaaS health metrics (ARR, MRR, churn, CAC, LTV, NRR) and benchmark against industry standards. Usage: /saas-health <metrics|quick-ratio|simulate> [options]
+
+---
+### `saas-metrics-coach`
+
+SaaS financial health advisor. Use when a user shares revenue or customer numbers, or mentions ARR, MRR, churn, LTV, CAC, NRR, or asks how their SaaS business is doing.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -28054,6 +30681,17 @@ Generates complete, production-ready SaaS project boilerplate including authenti
 _source: `community` · risk: `safe`_
 
 ---
+### `saas-scaffolder`
+
+Generates complete, production-ready SaaS project boilerplate including authentication, database schemas, billing integration, API routes, and a working dashboard using Next.js 14+ App Router, TypeScript, Tailwind CSS, shadcn/ui, Drizzle ORM, and Stripe. Use when the user wants to create a new Sa...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `safety-guard`
 
 - When working on production systems
@@ -28096,6 +30734,28 @@ _source: `community` · risk: `safe`_
 ### `sales-enablement`
 
 When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playb...
+
+_source: `community` · risk: `safe`_
+
+---
+### `sales-engineer`
+
+Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-of-concept (POC) engagements for pre-sales engineering. Use when responding to RFPs, bids, or proposal requests; comparing product features against competitors; planning or scoring a cust...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `sales-engineer`
+
+Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-of-concept (POC) engagements for pre-sales engineering. Use when responding to RFPs, bids, or proposal requests; comparing product features against competitors; planning or scoring a cust...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -28159,6 +30819,28 @@ Sample Skill
 _source: `community` · risk: `safe`_
 
 ---
+### `sample-skill`
+
+Sample Skill
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `sample-skill`
+
+Sample Skill
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `santa-method`
 
 Multi-agent adversarial verification with convergence loop. Two independent review agents must both pass before output ships.
@@ -28188,6 +30870,13 @@ Language-specific super-code guidelines for scala.
 _source: `community` · risk: `safe`_
 
 ---
+### `scala`
+
+Language-specific super-code guidelines for scala.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `scala-pro`
 
 Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures. Use PROACTIVELY for Scala system design, performance optimization, or enterprise integration.
@@ -28197,6 +30886,13 @@ Master enterprise-grade Scala development with functional programming, distribut
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `scale-benchmarks`
+
+Reference document for monopoly scale-benchmarks.
+
+_risk: `safe`_
 
 ---
 ### `scale-benchmarks`
@@ -28269,9 +30965,31 @@ Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike
 _source: `community` · risk: `safe`_
 
 ---
+### `scenario-war-room`
+
+Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike single-assumption stress testing, this models compound adversity across all business functions simultaneously. Use when facing complex risk scenarios, strategic decisions with major downside, or when the user asks 'w...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `schema`
 
 When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema," "review schema," "breadcrumb schema," "Google rich results,"...
+
+---
+### `schema-markup`
+
+When the user wants to implement, audit, or validate structured data (schema markup) on their website. Use when the user mentions 'structured data,' 'schema.org,' 'JSON-LD,' 'rich results,' 'rich snippets,' 'schema markup,' 'FAQ schema,' 'Product schema,' 'HowTo schema,' or 'structured data error...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `schema-markup`
@@ -28288,6 +31006,17 @@ _source: `community` · risk: `safe`_
 ### `scholarly-writing-refiner`
 
 Polishes academic English paragraph by paragraph, reviewing grammar, word choice, voice, coherence, and sentence structure. Outputs revision suggestions alongside polished text. Triggered by phrases like 'polish this paragraph,' 'check the grammar,' 'rewrite in academic English,' or keywords like manuscript editing, SCI polishing, and journal submission editing.
+
+---
+### `sci-fi-interface`
+
+Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `sci-fi-interface`
@@ -28437,6 +31166,28 @@ You see scrolling as a narrative device, not just navigation. You create moments
 - User mentions or implies: immersive web
 
 _source: `vibeship-spawner-skills (Apache 2.0)` · risk: `safe`_
+
+---
+### `scrum-master`
+
+Advanced Scrum Master skill for data-driven agile team analysis and coaching. Use when the user asks about sprint planning, velocity tracking, retrospectives, standup facilitation, backlog grooming, story points, burndown charts, blocker resolution, or agile team health. Runs Python scripts to an...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `scrum-master`
+
+Advanced Scrum Master skill for data-driven agile team analysis and coaching. Use when the user asks about sprint planning, velocity tracking, retrospectives, standup facilitation, backlog grooming, story points, burndown charts, blocker resolution, or agile team health. Runs Python scripts to an...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `sdd-apply`
@@ -28602,6 +31353,13 @@ Reference document for monopoly security-checklist.
 _risk: `safe`_
 
 ---
+### `security-checklist`
+
+Reference document for monopoly security-checklist.
+
+_risk: `safe`_
+
+---
 ### `security-compliance-compliance-check`
 
 You are a compliance expert specializing in regulatory requirements for software systems including GDPR, HIPAA, SOC2, PCI-DSS, and other industry standards. Perform compliance audits and provide implementation guidance.
@@ -28613,6 +31371,11 @@ You are a compliance expert specializing in regulatory requirements for software
 _source: `community` · risk: `safe`_
 
 ---
+### `security-guidance`
+
+PreToolUse security-anti-pattern hook for Claude Code. Catches 12 common security risks (command injection, XSS, SQL injection, unsafe deserialization, GitHub Actions workflow injection, eval/new Function code injection) BEFORE the Edit/Write/MultiEdit operation completes. Session-state caching prevents duplicate warnings on the same file+rule combo. Stdlib only — no dependencies. Use when you want a safety net during Claude Code sessions that touch security-sensitive code (auth, payments, user input handling, IaC). Disable with ENABLE_SECURITY_REMINDER=0 if you need to perform a verified-safe operation that would otherwise trip a pattern. Triggers — "add security hook", "block unsafe code", "detect command injection before write", "prevent SQL injection patterns", "security warning hook".
+
+---
 ### `security-ownership-map`
 
 Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user explicitly wants a security-oriented ownership or bus-factor analysis grounded i...
@@ -28622,6 +31385,11 @@ Analyze git repositories to build a security ownership topology (people-to-file)
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `security-pen-testing`
+
+Use when the user asks to perform security audits, penetration testing, vulnerability scanning, OWASP Top 10 checks, or offensive security assessments. Covers static analysis, dependency scanning, secret detection, API security testing, and pen test report generation.
 
 ---
 ### `security-requirement-extraction`
@@ -28730,6 +31498,33 @@ Client-side tracking with Analytics.js. Include track, identify, page, and group
 _source: `vibeship-spawner-skills (Apache 2.0)` · risk: `safe`_
 
 ---
+### `self-eval`
+
+Honestly evaluate AI work quality using a two-axis scoring system. Use after completing a task, code review, or work session to get an unbiased assessment. Detects score inflation, forces devil's advocate reasoning, and persists scores across sessions.
+
+---
+### `self-improving-agent`
+
+Curate Claude Code's auto-memory into durable project knowledge. Analyze MEMORY.md for patterns, promote proven learnings to CLAUDE.md and .claude/rules/, extract recurring solutions into reusable skills. Use when: (1) reviewing what Claude has learned about your project, (2) graduating a pattern...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `self-improving-agent`
+
+Curate Claude Code's auto-memory into durable project knowledge. Analyze MEMORY.md for patterns, promote proven learnings to CLAUDE.md and .claude/rules/, extract recurring solutions into reusable skills. Use when: (1) reviewing what Claude has learned about your project, (2) graduating a pattern...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `semgrep-rule-creator`
 
 Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections.
@@ -28771,6 +31566,50 @@ This skill is applicable to execute the workflow or actions described in the ove
 _source: `community` · risk: `safe`_
 
 ---
+### `senior-architect`
+
+This skill should be used when the user asks to "design system architecture", "evaluate microservices vs monolith", "create architecture diagrams", "analyze dependencies", "choose a database", "plan for scalability", "make technical decisions", or "review system design". Use for architecture deci...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `senior-architect`
+
+This skill should be used when the user asks to "design system architecture", "evaluate microservices vs monolith", "create architecture diagrams", "analyze dependencies", "choose a database", "plan for scalability", "make technical decisions", or "review system design". Use for architecture deci...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `senior-backend`
+
+Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening. Use when the user asks to "design REST APIs", "optimize database queries", "implement authentication", "build microservices", "review backend code", "se...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `senior-backend`
+
+Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening. Use when the user asks to "design REST APIs", "optimize database queries", "implement authentication", "build microservices", "review backend code", "se...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `senior-computer-vision`
 
 Computer vision engineering skill for object detection, image segmentation, and visual AI systems. Covers CNN and Vision Transformer architectures, YOLO/Faster R-CNN/DETR detection, Mask R-CNN/SAM segmentation, and production deployment with ONNX/TensorRT. Includes PyTorch, torchvision, Ultralyti...
@@ -28782,9 +31621,86 @@ Computer vision engineering skill for object detection, image segmentation, and 
 _source: `community` · risk: `safe`_
 
 ---
+### `senior-computer-vision`
+
+Computer vision engineering skill for object detection, image segmentation, and visual AI systems. Covers CNN and Vision Transformer architectures, YOLO/Faster R-CNN/DETR detection, Mask R-CNN/SAM segmentation, and production deployment with ONNX/TensorRT. Includes PyTorch, torchvision, Ultralyti...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `senior-data-engineer`
+
+Data engineering skill for building scalable data pipelines, ETL/ELT systems, and data infrastructure. Expertise in Python, SQL, Spark, Airflow, dbt, Kafka, and modern data stack. Includes data modeling, pipeline orchestration, data quality, and DataOps. Use when designing data architectures, bui...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `senior-data-engineer`
+
+Data engineering skill for building scalable data pipelines, ETL/ELT systems, and data infrastructure. Expertise in Python, SQL, Spark, Airflow, dbt, Kafka, and modern data stack. Includes data modeling, pipeline orchestration, data quality, and DataOps. Use when designing data architectures, bui...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `senior-data-scientist`
 
 World-class senior data scientist skill specialising in statistical modeling, experiment design, causal inference, and predictive analytics. Covers A/B testing (sample sizing, two-proportion z-tests, Bonferroni correction), difference-in-differences, feature engineering pipelines (Scikit-learn, X...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `senior-data-scientist`
+
+World-class senior data scientist skill specialising in statistical modeling, experiment design, causal inference, and predictive analytics. Covers A/B testing (sample sizing, two-proportion z-tests, Bonferroni correction), difference-in-differences, feature engineering pipelines (Scikit-learn, X...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `senior-devops`
+
+Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring. Use when setting up pipelines, deploying applications, managing infrastructure, impleme...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `senior-devops`
+
+Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring. Use when setting up pipelines, deploying applications, managing infrastructure, impleme...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `senior-frontend`
+
+Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.
 
 **Cuándo usar:**
 
@@ -28815,9 +31731,64 @@ Fullstack development toolkit with project scaffolding for Next.js, FastAPI, MER
 _source: `community` · risk: `offensive`_
 
 ---
+### `senior-fullstack`
+
+Fullstack development toolkit with project scaffolding for Next.js, FastAPI, MERN, and Django stacks, code quality analysis with security and complexity scoring, and stack selection guidance. Use when the user asks to "scaffold a new project", "create a Next.js app", "set up FastAPI with React", ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `senior-ml-engineer`
 
 ML engineering skill for productionizing models, building MLOps pipelines, and integrating LLMs. Covers model deployment, feature stores, drift monitoring, RAG systems, and cost optimization. Use when the user asks about deploying ML models to production, setting up MLOps infrastructure (MLflow, ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `senior-ml-engineer`
+
+ML engineering skill for productionizing models, building MLOps pipelines, and integrating LLMs. Covers model deployment, feature stores, drift monitoring, RAG systems, and cost optimization. Use when the user asks about deploying ML models to production, setting up MLOps infrastructure (MLflow, ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `senior-pm`
+
+Senior Project Manager for enterprise software, SaaS, and digital transformation projects. Specializes in portfolio management, quantitative risk analysis, resource optimization, stakeholder alignment, and executive reporting. Uses advanced methodologies including EMV analysis, Monte Carlo simula...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `senior-pm`
+
+Senior Project Manager for enterprise software, SaaS, and digital transformation projects. Specializes in portfolio management, quantitative risk analysis, resource optimization, stakeholder alignment, and executive reporting. Uses advanced methodologies including EMV analysis, Monte Carlo simula...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `senior-prompt-engineer`
+
+This skill should be used when the user asks to "optimize prompts", "design prompt templates", "evaluate LLM outputs", "build agentic systems", "implement RAG", "create few-shot examples", "analyze token usage", or "design AI workflows". Use for prompt engineering patterns, LLM evaluation framewo...
 
 **Cuándo usar:**
 
@@ -28837,9 +31808,53 @@ This skill should be used when the user asks to "optimize prompts", "design prom
 _source: `community` · risk: `safe`_
 
 ---
+### `senior-qa`
+
+Generates unit tests, integration tests, and E2E tests for React/Next.js applications. Scans components to create Jest + React Testing Library test stubs, analyzes Istanbul/LCOV coverage reports to surface gaps, scaffolds Playwright test files from Next.js routes, mocks API calls with MSW, create...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `senior-qa`
+
+Generates unit tests, integration tests, and E2E tests for React/Next.js applications. Scans components to create Jest + React Testing Library test stubs, analyzes Istanbul/LCOV coverage reports to surface gaps, scaffolds Playwright test files from Next.js routes, mocks API calls with MSW, create...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `senior-secops`
 
 Senior SecOps engineer skill for application security, vulnerability management, compliance verification, and secure development practices. Runs SAST/DAST scans, generates CVE remediation plans, checks dependency vulnerabilities, creates security policies, enforces secure coding patterns, and aut...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `senior-secops`
+
+Senior SecOps engineer skill for application security, vulnerability management, compliance verification, and secure development practices. Runs SAST/DAST scans, generates CVE remediation plans, checks dependency vulnerabilities, creates security policies, enforces secure coding patterns, and aut...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `senior-security`
+
+Security engineering toolkit for threat modeling, vulnerability analysis, secure architecture, and penetration testing. Includes STRIDE analysis, OWASP guidance, cryptography patterns, and security scanning tools. Use when the user asks about security reviews, threat analysis, vulnerability asses...
 
 **Cuándo usar:**
 
@@ -29012,6 +32027,17 @@ _source: `community` · risk: `safe`_
 ---
 ### `seo-audit`
 
+When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," or "SEO health check." For building pages at scale to target keywords, see programmati...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `seo-audit`
+
 When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," "SEO health check," "my traffic dropped," "lost rankings," "not showing up in Google,"...
 
 **Cuándo usar:**
@@ -29019,6 +32045,14 @@ When the user wants to audit, review, or diagnose SEO issues on their site. Also
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `seo-auditor`
+
+Scan and optimize documentation files for SEO. Audits README.md files and docs/ pages for
+meta tags, headings, keywords, readability, duplicate content, and broken links. Applies
+fixes, updates sitemap.xml, and generates a report. Usage: /seo-auditor [path]
+
 
 ---
 ### `seo-authority-builder`
@@ -29431,6 +32465,39 @@ Implement comprehensive observability for service meshes including distributed t
 _source: `community` · risk: `safe`_
 
 ---
+### `setup`
+
+Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, metric, direction, and evaluator.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `setup`
+
+Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, metric, direction, and evaluator.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `setup`
+
+Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, metric, direction, and evaluator.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `sexual-health-analyzer`
 
 Sexual Health Analyzer
@@ -29456,11 +32523,6 @@ Manages shadcn/ui components and projects, providing context, documentation, and
 - Use to retrieve component documentation, examples, and API references.
 
 _source: `https://github.com/shadcn-ui/ui/tree/main/skills/shadcn` · risk: `safe`_
-
----
-### `shader-dev`
-
-Comprehensive GLSL shader techniques for creating stunning visual effects — ray marching, SDF modeling, fluid simulation, particle systems, procedural generation, lighting, post-processing, and more.
 
 ---
 ### `shader-programming-glsl`
@@ -29515,6 +32577,12 @@ Master ShellCheck static analysis configuration and usage for shell script quali
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `ship-gate`
+
+Pre-production audit that scans a codebase for security, database, deployment, code quality, AI/LLM, dependency, frontend, and observability issues. Intercepts deploy commands and blocks until critical items pass. Stack-agnostic. Use for "run ship gate", "am I ready to ship", "pre-launch audit", "can I deploy", "push to production", "go live checklist", "preflight check". Not for CI/CD setup or infra provisioning.
+
 
 ---
 ### `shodan-reconnaissance`
@@ -29584,6 +32652,17 @@ When the user wants to optimize signup, registration, account creation, or trial
 ---
 ### `signup-flow-cro`
 
+When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "registration friction," "signup form optimization," "free trial signup," "reduce signup dropoff," or "account creation flow." For post-signup o...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `signup-flow-cro`
+
 When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "registration friction," "signup form optimization," "free trial signup," "reduce signup dropoff," "account creation flow," "people aren't signi...
 
 **Cuándo usar:**
@@ -29622,6 +32701,17 @@ Reduce complexity of over-engineered code. Identify unnecessary abstractions, re
 ---
 ### `site-architecture`
 
+When the user wants to audit, redesign, or plan their website's structure, URL hierarchy, navigation design, or internal linking strategy. Use when the user mentions 'site architecture,' 'URL structure,' 'internal links,' 'site navigation,' 'breadcrumbs,' 'topic clusters,' 'hub pages,' 'orphan pa...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `site-architecture`
+
 When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions "sitemap," "site map," "visual sitemap," "site structure," "page hierarchy," "information architecture," "IA," "navigation design," "URL...
 
 **Cuándo usar:**
@@ -29629,6 +32719,17 @@ When the user wants to plan, map, or restructure their website's page hierarchy,
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `skeuomorphism`
+
+Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `skeuomorphism`
@@ -29798,6 +32899,17 @@ Security audit and vulnerability scanner for AI agent skills before installation
 _source: `community` · risk: `offensive`_
 
 ---
+### `skill-security-auditor`
+
+Security audit and vulnerability scanner for AI agent skills before installation. Use when: (1) evaluating a skill from an untrusted source, (2) auditing a skill directory or git repo URL for malicious code, (3) pre-install security gate for Claude Code plugins, OpenClaw skills, or Codex skills, ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `skill-seekers`
 
 -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes.
@@ -29883,6 +32995,17 @@ Skill Tester
 _source: `community` · risk: `offensive`_
 
 ---
+### `skill-tester`
+
+Skill Tester
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `skill-writer`
 
 Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills.
@@ -29902,6 +33025,164 @@ Auto-create new skills from repetitive workflows. When you notice yourself doing
 
 ✅ Good for: [list]
 ❌ Not for: [list]
+
+---
+### `skills-chaos-engineering`
+
+Use when planning, running, or learning from chaos engineering experiments. Triggers on "chaos experiment", "fault injection", "gameday", "resilience test", "blast radius", "steady state", "abort criteria", "Chaos Toolkit", "Chaos Mesh", "Litmus", "Gremlin", "AWS FIS", or any deliberate failure-injection question. Ships experiment designer, blast-radius calculator, and postmortem generator (all stdlib Python), 4 references on chaos principles + experiment design + attack taxonomy + tooling landscape, and a /chaos-experiment slash command. Composes with feature-flags-architect (kill switches as abort triggers) and kubernetes-operator (common chaos targets).
+
+**Cuándo usar:**
+
+- Planning a chaos experiment (what to break, where, when, how to abort)
+- Calculating blast radius before running the experiment
+- Reviewing an existing experiment plan for safety
+- Choosing a chaos tool (Chaos Toolkit / Chaos Mesh / Litmus / Gremlin / AWS FIS)
+- Writing a chaos experiment postmortem
+- Running a Game Day exercise
+
+_tags: `chaos-engineering`, `resilience`, `fault-injection`, `gameday`, `sre`_
+
+---
+### `skills-chief-ai-officer-advisor`
+
+Chief AI Officer advisory for startups: model build-vs-buy decisions (API vs fine-tune vs in-house), AI risk classification under EU AI Act + US state patchwork, AI cost economics (API-to-self-hosted breakeven), and AI team org evolution. Use when deciding whether to call an API or fine-tune, classifying AI use cases for regulatory risk, calculating when self-hosting pays off, sequencing AI hires, or when user mentions CAIO, AI strategy, model selection, foundation model, fine-tuning, EU AI Act, NIST AI RMF, AI governance, model risk, or AI economics. Strategic only — does not duplicate engineering AI/ML skills.
+
+---
+### `skills-chief-customer-officer-advisor`
+
+Chief Customer Officer advisory for startups: retention decomposition (gross retention vs NRR honesty, churn root-cause taxonomy), customer segmentation strategy (differential investment across tiers + ICP fit scoring), CS team coverage model (pooled vs named CSM thresholds + ratio math), and CS team org evolution (CS vs Support vs AM distinctions). Use when designing retention strategy, segmenting customers for differential investment, sizing CS team, or sequencing CS hires. Strategic only — does not duplicate engineering/business-growth tactical skills.
+
+---
+### `skills-chief-data-officer-advisor`
+
+Chief Data Officer advisory for startups: AI training data rights and consent provenance, data product strategy (warehouse vs lakehouse vs mesh, build-vs-buy), B2B customer-data-as-asset valuation and M&A readiness, data team org evolution. Use when deciding whether to train models on customer data, choosing data architecture, valuing data for fundraising or M&A, sequencing data hires, or when user mentions CDO, chief data officer, data strategy, data mesh, lakehouse, training data, data product, data monetization, or customer data asset. NOT a tactical data engineering skill — strategic decisions only.
+
+---
+### `skills-eu-ai-act-specialist`
+
+EU AI Act (Regulation (EU) 2024/1689) operational compliance for compliance teams. Three Article-level decisions: (1) What's the risk tier of this AI system — prohibited (Art. 5), high-risk (Art. 6 + Annex III), limited-risk (Art. 50), or minimal-risk? (2) For high-risk systems, what's the Article 43 conformity assessment route (Module A internal control vs Module H full QMS + notified body) and what goes in the Annex IV technical documentation? (3) Per organizational role (provider / deployer / importer / distributor / authorized representative), what are the active obligations and deadlines? Use during AI system intake review, when planning conformity assessment, or when scoping deployer obligations. Cites Articles + Annexes for every output. NOT executive AI strategy (see chief-ai-officer-advisor). NOT a legal substitute.
+
+---
+### `skills-feature-flags-architect`
+
+Use when adding, retiring, or auditing feature flags. Triggers on "add a flag", "ship behind a flag", "rollout plan", "kill switch", "stale flags", "flag debt", "LaunchDarkly", "GrowthBook", "Statsig", "Unleash", "Flipt", or any progressive-delivery question. Ships flag debt scanner, rollout planner, and kill-switch auditor (all stdlib Python), 4 references on flag taxonomy + provider trade-offs + rollout strategies + lifecycle, plus a /flag-cleanup slash command.
+
+**Cuándo usar:**
+
+- Adding a new flag and need a rollout plan
+- Auditing a codebase for stale or orphaned flags
+- Choosing a flag provider (LaunchDarkly vs GrowthBook vs Statsig vs Unleash vs Flipt vs build-your-own)
+- Designing a kill-switch path for a risky launch
+- Cleaning up flag debt before a release freeze
+- Reviewing whether a feature should ship behind a flag at all
+
+_tags: `feature-flags`, `progressive-delivery`, `rollout`, `kill-switch`, `launchdarkly`_
+
+---
+### `skills-general-counsel-advisor`
+
+General Counsel advisory for startups: contract review (MSA, SaaS, NDA, DPA, employment), IP strategy, term sheet decoding, and regulatory landscape mapping. Use when reviewing any contract or term sheet, deciding when to engage outside counsel, defining IP strategy, evaluating regulatory exposure (HIPAA, GDPR, FDA, fintech), or when user mentions general counsel, GC, legal review, contract risk, term sheet, IP assignment, or regulatory exposure. NOT a substitute for licensed counsel — surfaces questions to bring to qualified attorneys.
+
+---
+### `skills-handoff`
+
+Compact the current conversation into a handoff document for another agent to pick up. References existing artifacts (PRDs, plans, ADRs, issues, commits, diffs) by path or URL instead of duplicating them. Use when user wants to hand off the conversation to a fresh agent or starts a new session that picks up prior work.
+
+---
+### `skills-init`
+
+Create a new AgentHub collaboration session with task, agent count, and evaluation criteria.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `skills-iso42001-specialist`
+
+ISO/IEC 42001:2023 AI Management System (AIMS) specialist for compliance teams running internal audits. Three decisions: (1) Where are the gaps against Clauses 4-10 and what do we close first? (2) What goes in the AI risk register and which Annex A controls treat each risk? (3) What's the 12-month internal audit plan that satisfies Clause 9.2? Use when preparing for certification, scoping internal audit cycles, or onboarding AI systems into an existing ISMS (27001) / QMS (13485) program. NOT an executive AI strategy skill (see chief-ai-officer-advisor). NOT EU AI Act compliance (see compliance-team-eu-ai-act).
+
+---
+### `skills-kubernetes-operator`
+
+Use when building a Kubernetes Operator — custom controllers that reconcile CRD state. Triggers on "build an operator", "CRD design", "reconcile loop", "controller-runtime", "kubebuilder", "operator-sdk", "metacontroller", "KOPF", "operator capability levels", or "custom resource". Ships CRD validator, reconcile-loop linter, and OperatorHub capability auditor (all stdlib Python), 4 references on the operator pattern + CRD design + reconcile patterns + tooling landscape, and a /operator-audit slash command. NOT a generic k8s skill — specifically the Operator pattern.
+
+**Cuándo usar:**
+
+- Building a new Kubernetes Operator (controller for a CRD)
+- Reviewing an existing operator for capability-level gaps
+- Auditing a CRD spec for status/conditions/finalizer correctness
+- Choosing a framework (controller-runtime / kubebuilder / operator-sdk / metacontroller / KOPF)
+- Designing the API surface of a Custom Resource
+- Hardening RBAC, leader election, or webhook validation
+
+_tags: `kubernetes`, `operator`, `crd`, `controller-runtime`, `kubebuilder`_
+
+---
+### `skills-review`
+
+Review Playwright tests for quality. Use when user says "review tests", "check test quality", "audit tests", "improve tests", "test code review", or "playwright best practices check".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `skills-run`
+
+Run a single experiment iteration. Edit the target file, evaluate, keep or discard.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `skills-slo-architect`
+
+Use when defining, reviewing, or operating SLOs/SLIs/error budgets. Triggers on "define an SLO", "what should our SLO be", "error budget", "burn rate", "SLI", "service level objective", "Google SRE workbook", "multi-window burn-rate alert", or any reliability-target question. Ships SLO designer, error-budget calculator with multi-window burn-rate thresholds, and SLO reviewer that catches the common bugs (target too aggressive, window too short, conflicting SLOs, no SLI definition). 4 references on SLO principles + SLI design + error budget math + composition with feature-flags-architect/chaos-engineering/kubernetes-operator. NOT a generic observability skill — specifically the SLO discipline.
+
+**Cuándo usar:**
+
+- Defining a new SLO for a service or feature
+- Reviewing existing SLOs for common bugs
+- Picking the right SLI (event-based vs time-window based vs request-based)
+- Computing error budgets and burn-rate alert thresholds
+- Tying SLOs to existing controls — feature flags abort, chaos blast radius, operator capability levels
+
+_tags: `slo`, `sli`, `sla`, `error-budget`, `burn-rate`_
+
+---
+### `skills-status`
+
+Show experiment dashboard with results, active loops, and progress.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `skills-status-2`
+
+Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `skills-vpe-advisor`
+
+VP of Engineering advisory for startups: delivery throughput (DORA 4 metrics + bottleneck identification), engineering hiring funnel (sourcing → screen → onsite → offer conversion + time-to-fill + pipeline gap), engineering team structure (squad/tribe/chapter design + tech-lead manager-trigger thresholds), and production discipline (on-call, deployment cadence, postmortem culture). Use when sprint velocity is dropping, eng hiring is broken, team structure is unclear, or deciding when to add a tech-lead manager. NOT a CTO skill (which owns architecture) — VPE owns delivery operations and how the team ships.
 
 ---
 ### `skin-health-analyzer`
@@ -29972,6 +33253,22 @@ Sub-skill of microsoft-365-agents-toolkit. Routed expert system with 100+ micro-
 - Making a Teams bot project compatible with Microsoft Agents Toolkit (m365agents.yml, env/, appPackage placeholders)
 
 ---
+### `slack-to-teams`
+
+Sub-skill of microsoft-365-agents-toolkit. Routed expert system with 100+ micro-expert files for migrating Slack bots to Teams, cross-platform bridging, and dual-platform bot development. USE FOR: migrating Slack bot to Teams, adding Teams support to Slack bot, building dual-platform bots, converting Block Kit to Adaptive Cards, identity/OAuth bridging, deploying bots to Azure or AWS, configuring AI model providers. DO NOT USE FOR: general web development, non-bot projects, standalone Teams development without Slack (use parent skill instead).
+
+**Cuándo usar:**
+
+- Building a new Slack bot, Teams bot, or dual-platform bot
+- Adding Teams support to an existing Slack bot (or vice versa)
+- Migrating a bot between platforms
+- Deploying a bot to Azure or AWS
+- Configuring AI model providers for a bot
+- Converting UI between Block Kit and Adaptive Cards
+- Bridging identity, events, files, or transport between platforms
+- Making a Teams bot project compatible with Microsoft Agents Toolkit (m365agents.yml, env/, appPackage placeholders)
+
+---
 ### `sleep-analyzer`
 
 分析睡眠数据、识别睡眠模式、评估睡眠质量，并提供个性化睡眠改善建议。支持与其他健康数据的关联分析。
@@ -29994,6 +33291,26 @@ Create and edit presentation slide decks (`.pptx`) with PptxGenJS, bundled layou
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `slo-architect`
+
+Use when defining, reviewing, or operating SLOs/SLIs/error budgets. Triggers on "define an SLO", "what should our SLO be", "error budget", "burn rate", "SLI", "service level objective", "Google SRE workbook", "multi-window burn-rate alert", or any reliability-target question. Ships SLO designer, error-budget calculator with multi-window burn-rate thresholds, and SLO reviewer that catches the common bugs (target too aggressive, window too short, conflicting SLOs, no SLI definition). 4 references on SLO principles + SLI design + error budget math + composition with feature-flags-architect/chaos-engineering/kubernetes-operator. NOT a generic observability skill — specifically the SLO discipline.
+
+**Cuándo usar:**
+
+- Defining a new SLO for a service or feature
+- Reviewing existing SLOs for common bugs
+- Picking the right SLI (event-based vs time-window based vs request-based)
+- Computing error budgets and burn-rate alert thresholds
+- Tying SLOs to existing controls — feature flags abort, chaos blast radius, operator capability levels
+
+_tags: `slo`, `sli`, `sla`, `error-budget`, `burn-rate`_
+
+---
+### `slo-design`
+
+Interactive wizard to design an SLO with SLI, target, error budget, and burn-rate alerts
 
 ---
 ### `slo-implementation`
@@ -30034,6 +33351,11 @@ This skill should be used when the user asks to "perform SMTP penetration testin
 _source: `community` · risk: `offensive`_
 
 ---
+### `snowflake-development`
+
+Use when writing Snowflake SQL, building data pipelines with Dynamic Tables or Streams/Tasks, using Cortex AI functions, creating Cortex Agents, writing Snowpark Python, configuring dbt for Snowflake, or troubleshooting Snowflake errors.
+
+---
 ### `soc2-audit-prep`
 
 /cs:soc2-audit-prep <scope> — SOC 2 Type II readiness 6-question forcing interrogation. Observation-period focused. Use before Type II observation begins, mid-period checkpoint, or pre-field-test month-10 readiness.
@@ -30053,6 +33375,17 @@ _source: `community` · risk: `offensive`_
 ### `social`
 
 When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,'...
+
+---
+### `social-content`
+
+When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `social-content`
@@ -30087,6 +33420,28 @@ Do not use this by itself when the user really wants:
 _source: `community` · risk: `safe`_
 
 ---
+### `social-media-analyzer`
+
+Social media campaign analysis and performance tracking. Calculates engagement rates, ROI, and benchmarks across platforms. Use for analyzing social media performance, calculating engagement rate, measuring campaign ROI, comparing platform metrics, or benchmarking against industry standards.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `social-media-analyzer`
+
+Social media campaign analysis and performance tracking. Calculates engagement rates, ROI, and benchmarks across platforms. Use for analyzing social media performance, calculating engagement rate, measuring campaign ROI, comparing platform metrics, or benchmarking against industry standards.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `social-media-carousel`
 
 Multi-slide carousel design for Instagram, LinkedIn, and Twitter/X with layout rules and hooks. Covers slide structure, text hierarchy, swipe psychology, and platform-specific specs. Use for: carousel posts, Instagram carousels, LinkedIn carousels, slide posts, educational content. Trigger...
@@ -30098,6 +33453,17 @@ Use this skill as needed to perform the specified automation task.
 Design high-engagement carousel posts via [inference.sh](https://inference.sh) CLI.
 
 _source: `community` · risk: `safe`_
+
+---
+### `social-media-manager`
+
+When the user wants to develop social media strategy, plan content calendars, manage community engagement, or grow their social presence across platforms. Also use when the user mentions 'social media strategy,' 'social calendar,' 'community management,' 'social media plan,' 'grow followers,' 'en...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `social-media-manager`
@@ -30150,6 +33516,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `soft-pastel`
+
+Web and App implementation guide for Soft Pastel Design. Trigger when user wants gentle colors, calming UI, baby/lifestyle branding, or low-contrast aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `software-architecture`
 
 Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development.
@@ -30170,6 +33547,11 @@ Master smart contract security best practices to prevent common vulnerabilities 
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `solo-founder`
+
+Your co-founder who doesn't exist yet. Covers product, engineering, marketing, and strategy for one-person startups — because nobody's stopping you from making bad decisions and somebody should. Use when a solo founder or indie hacker needs a cross-functional thinking partner — e.g., deciding what to cut from an MVP to ship this month, or choosing between building one more feature and talking to ten users.
 
 ---
 ### `sora`
@@ -30210,6 +33592,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `spatial-computing-ui`
+
+Web and App implementation guide for Spatial Computing UI. Trigger when user wants floating elements, environmental awareness, and Apple Vision Pro style.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `spatial-design`
 
 Web and App implementation guide for Spatial Design. Trigger when user wants environment-aware layouts, Apple Vision Pro inspiration, and mixed reality aesthetics.
@@ -30219,6 +33612,39 @@ Web and App implementation guide for Spatial Design. Trigger when user wants env
 Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
 
 _source: `self` · risk: `safe`_
+
+---
+### `spatial-design`
+
+Web and App implementation guide for Spatial Design. Trigger when user wants environment-aware layouts, Apple Vision Pro inspiration, and mixed reality aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `spawn`
+
+Launch N parallel subagents in isolated git worktrees to compete on the session task.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `spawn`
+
+Launch N parallel subagents in isolated git worktrees to compete on the session task.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `spawn`
@@ -30261,6 +33687,20 @@ Use this skill when you need to:
 _[...]_
 
 _source: `community` · risk: `offensive`_
+
+---
+### `spec-to-repo`
+
+Use when the user says 'build me an app', 'create a project from this spec', 'scaffold a new repo', 'generate a starter', 'turn this idea into code', 'bootstrap a project', 'I have requirements and need a codebase', or provides a natural-language project specification and expects a complete, runnable repository. Stack-agnostic: Next.js, FastAPI, Rails, Go, Rust, Flutter, and more.
+
+**Cuándo usar:**
+
+- User provides a text description of an app and wants code
+- User has a PRD, requirements doc, or feature list and needs a codebase
+- User says "build me an app that...", "scaffold this", "bootstrap a project"
+- User wants a working starter repo, not just a file tree
+
+**Not this skill** when the user wants a SaaS app with Stripe + Auth specifically — use `product-team/saas-scaffolder` instead.
 
 ---
 ### `speckit-updater`
@@ -30409,6 +33849,16 @@ Spring Boot项目验证循环：构建、静态分析、测试覆盖、安全扫
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `sprint-health`
+
+Sprint health scoring and velocity analysis for agile teams. Usage: /sprint-health <analyze|velocity> [options]
+
+---
+### `sprint-plan`
+
+Capacity-gated sprint planning — runs capacity math, carry-over check, and a definition-of-ready gate before committing scope. Usage: /sprint-plan <goal> [capacity]
 
 ---
 ### `sql-database-assistant`
@@ -30603,6 +34053,11 @@ Generate comprehensive market opportunity analysis with TAM/SAM/SOM calculations
 _source: `community` · risk: `safe`_
 
 ---
+### `startup-cto`
+
+Technical co-founder who's been through two startups and learned what actually matters. Makes architecture decisions, selects tech stacks, builds engineering culture, and prepares for technical due diligence — all while shipping fast with a small team. Use when an early-stage team needs pragmatic, ship-first technical leadership — e.g., picking a boring-but-fast stack for an MVP with two engineers, or prepping architecture answers for investor due diligence. (For company-scale CTO strategy, see cs-cto-advisor.)
+
+---
 ### `startup-financial-modeling`
 
 This skill should be used when the user asks to "create financial projections", "build a financial model", "forecast revenue", "calculate burn rate", "estimate runway", "model cash flow", or requests 3-5 year financial planning for a startup.
@@ -30625,6 +34080,11 @@ This skill should be used when the user asks about "key startup metrics", "SaaS 
 _source: `community` · risk: `safe`_
 
 ---
+### `statistical-analyst`
+
+Run hypothesis tests, analyze A/B experiment results, calculate sample sizes, and interpret statistical significance with effect sizes. Use when you need to validate whether observed differences are real, size an experiment correctly before launch, or interpret test results with confidence.
+
+---
 ### `statsmodels`
 
 Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diagnostics across a wide range of statistical methods.
@@ -30642,6 +34102,72 @@ This skill should be used when:
 - Comparing models (AIC/BIC, likelihood ratio tests)
 - Estimating causal effects
 _[...]_
+
+_source: `community` · risk: `safe`_
+
+---
+### `status`
+
+Show DAG state, agent progress, and branch status for an AgentHub session.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `status`
+
+Show experiment dashboard with results, active loops, and progress.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `status`
+
+Show DAG state, agent progress, and branch status for an AgentHub session.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `status`
+
+Show experiment dashboard with results, active loops, and progress.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `status`
+
+Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `status`
+
+Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -30705,6 +34231,17 @@ Cascades strategy from boardroom to individual contributor. Detects and fixes mi
 _source: `community` · risk: `offensive`_
 
 ---
+### `strategic-alignment`
+
+Cascades strategy from boardroom to individual contributor. Detects and fixes misalignment between company goals and team execution. Covers strategy articulation, cascade mapping, orphan goal detection, silo identification, communication gap analysis, and realignment protocols. Use when teams are...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
 ### `strategic-compact`
 
 建议在逻辑间隔处手动压缩上下文，以在任务阶段中保留上下文，而非任意的自动压缩。
@@ -30714,6 +34251,28 @@ _source: `community` · risk: `offensive`_
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `stress-test`
+
+/em -stress-test — Business Assumption Stress Testing
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `stress-test`
+
+/em -stress-test — Business Assumption Stress Testing
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `stride-analysis-patterns`
@@ -30747,6 +34306,23 @@ Implement Stripe payment processing for robust, PCI-compliant payment flows incl
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `stripe-integration-expert`
+
+Stripe Integration Expert
+
+**Cuándo usar:**
+
+- Adding subscription billing to any web app
+- Implementing plan upgrades/downgrades with proration
+- Building usage-based or seat-based billing
+- Debugging webhook delivery failures
+- Migrating from one billing model to another
+
+---
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `stripe-integration-expert`
@@ -30879,6 +34455,13 @@ Identifies dependencies at heightened risk of exploitation or takeover. Use when
 - Pre-engagement scoping for supply chain concerns
 
 _source: `community` · risk: `offensive`_
+
+---
+### `swift`
+
+Language-specific super-code guidelines for swift.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `swift`
@@ -31035,6 +34618,22 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `swiss-design`
+
+Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
+### `syllabus`
+
+Generates a curated supplementary reading list from any course syllabus using Consensus academic search. Grill-me intake (syllabus input format + course audience + year range) plus a grouping forcing-options checkpoint before any search runs — so the reading list matches the course's level and recency need. Parses the syllabus to extract topics and learning outcomes, searches Consensus for recent peer-reviewed papers per topic, and produces a professionally formatted .docx with clickable Consensus links, plain-language summaries calibrated to audience level, and Bloom-higher-order discussion questions tied to course learning goals. Use when the user uploads a syllabus, course outline, or curriculum document and wants supplementary readings (e.g., 'create a reading list from this syllabus', 'find recent papers for my course') — even casual mentions with a syllabus attached should trigger this skill.
+
+---
 ### `sympy`
 
 SymPy is a Python library for symbolic mathematics that enables exact computation using mathematical symbols rather than numerical approximations.
@@ -31053,6 +34652,17 @@ Use this skill when:
 _[...]_
 
 _source: `https://github.com/sympy/sympy` · risk: `safe`_
+
+---
+### `synthwave`
+
+Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `synthwave`
@@ -31211,6 +34821,16 @@ Web search, content extraction, crawling, and research capabilities using Tavily
 _source: `community` · risk: `safe`_
 
 ---
+### `tc`
+
+Track technical changes with structured records, a state machine, and session handoff. Usage: /tc <init|create|update|status|resume|close|export|dashboard> [args]
+
+---
+### `tc-tracker`
+
+Use when the user asks to track technical changes, create change records, manage TC lifecycles, or hand off work between AI sessions. Covers init/create/update/status/resume/close/export workflows for structured code change documentation.
+
+---
 ### `tcm-constitution-analyzer`
 
 分析中医体质数据、识别体质类型、评估体质特征,并提供个性化养生建议。支持与营养、运动、睡眠等健康数据的关联分析。
@@ -31222,6 +34842,33 @@ _source: `community` · risk: `safe`_
 - 你需要面向个体化调理的养生建议、趋势跟踪和相关性分析结果。
 
 _source: `community` · risk: `safe`_
+
+---
+### `tdd`
+
+Run a red-green-refactor TDD workflow — generate failing tests first, implement to green, then check coverage gaps. Usage: /tdd <generate|coverage|validate> [target]
+
+---
+### `tdd-guide`
+
+Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor workflows across Jest, Pytest, JUnit, Vitest, and Mocha. Use when the user asks to write tests, improve test coverage, practice TDD, generate mocks or ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
+
+---
+### `tdd-guide`
+
+Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor workflows across Jest, Pytest, JUnit, Vitest, and Mocha. Use when the user asks to write tests, improve test coverage, practice TDD, generate mocks or ...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `offensive`_
 
 ---
 ### `tdd-orchestrator`
@@ -31356,6 +35003,11 @@ Structured messaging protocols for agent team communication including message ty
 _source: `community` · risk: `safe`_
 
 ---
+### `team-communications`
+
+Write internal company communications — 3P updates (Progress/Plans/Problems), company-wide newsletters, FAQ roundups, incident reports, leadership updates, status reports, project updates, and general internal comms. Use this skill any time the user asks to draft, edit, or format something meant for internal audiences. Trigger on keywords like "3P", "weekly update", "newsletter", "FAQ", "internal comms", "status report", "company update", "team update", "incident report", or any request to summarize work for leadership, teammates, or the broader company. Even casual requests like "write my update" or "summarize what my team did this week" should trigger this skill.
+
+---
 ### `team-composition-analysis`
 
 This skill should be used when the user asks to "plan team structure", "determine hiring needs", "design org chart", "calculate compensation", "plan equity allocation", or requests organizational design and headcount planning for a startup.
@@ -31387,6 +35039,22 @@ _source: `community` · risk: `safe`_
 Builds, tests, and deploys Microsoft 365 apps and agents for Teams and Copilot. Includes sub-skills for project creation, local testing, cloud deployment, troubleshooting, and Slack-to-Teams migration. USE FOR: Teams agent, bot, tab, message extension, Declarative Agents, Custom Engine Agents, local testing, Agents Playground, Azure resource provision, remote deployment, Slack to Teams migration, cross-platform bot development, Block Kit to Adaptive Cards conversion. DO NOT USE FOR: general web development, non-bot/non-Teams projects.
 
 ---
+### `tech-debt`
+
+Scan, prioritize, and report technical debt. Usage: /tech-debt <scan|prioritize|report> [options]
+
+---
+### `tech-debt-tracker`
+
+Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code quality, refactoring priority, debt scoring, cleanup sprints, or code health assessment. Also use for legacy code modernization planning and maintena...
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `tech-debt-tracker`
 
 Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code quality, refactoring priority, debt scoring, cleanup sprints, or code health assessment. Also use for legacy code modernization planning and maintena...
@@ -31403,6 +35071,43 @@ _source: `community` · risk: `safe`_
 Reference document for monopoly tech-matrix.
 
 _risk: `safe`_
+
+---
+### `tech-matrix`
+
+Reference document for monopoly tech-matrix.
+
+_risk: `safe`_
+
+---
+### `tech-stack-evaluator`
+
+Technology stack evaluation and comparison with TCO analysis, security assessment, and ecosystem health scoring. Use when comparing frameworks, evaluating technology stacks, calculating total cost of ownership, assessing migration paths, or analyzing ecosystem viability.
+
+**Cuándo usar:**
+
+- Comparing frontend/backend frameworks for new projects
+- Evaluating cloud providers for specific workloads
+- Planning technology migrations with risk assessment
+- Calculating build vs. buy decisions with TCO
+- Assessing open-source library viability
+
+_source: `community` · risk: `safe`_
+
+---
+### `tech-stack-evaluator`
+
+Technology stack evaluation and comparison with TCO analysis, security assessment, and ecosystem health scoring. Use when comparing frameworks, evaluating technology stacks, calculating total cost of ownership, assessing migration paths, or analyzing ecosystem viability.
+
+**Cuándo usar:**
+
+- Comparing frontend/backend frameworks for new projects
+- Evaluating cloud providers for specific workloads
+- Planning technology migrations with risk assessment
+- Calculating build vs. buy decisions with TCO
+- Assessing open-source library viability
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `technical-blog-writing`
@@ -31508,6 +35213,17 @@ Project scaffolding templates for new applications. Use when creating new projec
 _source: `community` · risk: `safe`_
 
 ---
+### `templates`
+
+Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `temporal-golang-pro`
 
 Use when building durable distributed systems with Temporal Go SDK. Covers deterministic workflow rules, mTLS worker configs, and advanced patterns.
@@ -31589,6 +35305,17 @@ _source: `community` · risk: `safe`_
 ### `terraform-module-library`
 
 Build reusable Terraform modules for AWS, Azure, and GCP infrastructure following infrastructure-as-code best practices. Use when creating infrastructure modules, standardizing cloud provisioning, or implementing reusable IaC components.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `terraform-patterns`
+
+Terraform infrastructure-as-code agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Covers module design patterns, state management strategies, provider configuration, security hardening, policy-as-code with Sentinel/OPA, and CI/CD plan/apply workflows. Use when: user wa...
 
 **Cuándo usar:**
 
@@ -31741,6 +35468,28 @@ Sync tests with TestRail. Use when user mentions "testrail", "test management", 
 _source: `community` · risk: `safe`_
 
 ---
+### `testrail`
+
+Sync tests with TestRail. Use when user mentions "testrail", "test management", "test cases", "test run", "sync test cases", "push results to testrail", or "import from testrail".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `testrail`
+
+Sync tests with TestRail. Use when user mentions "testrail", "test management", "test cases", "test run", "sync test cases", "push results to testrail", or "import from testrail".
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `text-to-speech`
 
 Convert text to natural speech with DIA TTS, Kokoro, Chatterbox, and more via inference.sh CLI. Models: DIA TTS (conversational), Kokoro TTS, Chatterbox, Higgs Audio, VibeVoice (podcasts). Capabilities: text-to-speech, voice cloning, multi-speaker dialogue, podcast generation, expressive s...
@@ -31783,6 +35532,11 @@ Toolkit for styling artifacts with a theme. These artifacts can be slides, docs,
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `threat-detection`
+
+Use when hunting for threats in an environment, analyzing IOCs, or detecting behavioral anomalies in telemetry. Covers hypothesis-driven threat hunting, IOC sweep generation, z-score anomaly detection, and MITRE ATT&CK-mapped signal prioritization.
 
 ---
 ### `threat-mitigation-mapping`
@@ -31963,6 +35717,17 @@ Automate TikTok tasks via Rube MCP (Composio): upload/publish videos, post photo
 This skill is applicable to execute the workflow or actions described in the overview.
 
 _source: `community` · risk: `safe`_
+
+---
+### `tile-design`
+
+Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `tile-design`
@@ -32217,6 +35982,13 @@ _source: `community` · risk: `safe`_
 ---
 ### `typescript`
 
+Language-specific super-code guidelines for typescript.
+
+_source: `community` · risk: `safe`_
+
+---
+### `typescript`
+
 TypeScript strict patterns and best practices. Trigger: When writing TypeScript code - types, interfaces, generics.
 
 
@@ -32260,6 +36032,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `typography-first`
+
+Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `ui-demo`
 
 Record polished UI demo videos using Playwright. Use when the user asks to create a demo, walkthrough, screen recording, or tutorial video of a web application. Produces WebM videos with visible cursor, natural pacing, and professional feel.
@@ -32269,6 +36052,17 @@ Record polished UI demo videos using Playwright. Use when the user asks to creat
 - User asks for a "demo video", "screen recording", "walkthrough", or "tutorial"
 - User wants to showcase a feature or workflow visually
 - User needs a video for documentation, onboarding, or stakeholder presentation
+
+_source: `community` · risk: `safe`_
+
+---
+### `ui-design-system`
+
+UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and developer handoff tools. Use for creating design systems, maintaining visual consistency, and facilitating design-dev collaboration.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -32518,6 +36312,11 @@ You are an Upstash QStash expert who builds reliable serverless messaging withou
 _source: `vibeship-spawner-skills (Apache 2.0)` · risk: `offensive`_
 
 ---
+### `user-story`
+
+Generate user stories with acceptance criteria and sprint planning. Usage: /user-story <generate|sprint> [options]
+
+---
 ### `user-thoughts`
 
 Persist user decisions and project constraints to mdbase across sessions. Trigger on /user-thoughts or /ustht, or when the user discusses architecture, tech stack, rules, UI/UX, or project memory.
@@ -32610,6 +36409,28 @@ UX research and design toolkit for Senior UX Designer/Researcher including data-
 _source: `community` · risk: `safe`_
 
 ---
+### `ux-researcher-designer`
+
+UX research and design toolkit for Senior UX Designer/Researcher including data-driven persona generation, journey mapping, usability testing frameworks, and research synthesis. Use for user research, persona creation, journey mapping, and design validation.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
+### `vaporwave`
+
+Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `vaporwave`
 
 Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues.
@@ -32688,6 +36509,21 @@ Optimize vector index performance for latency, recall, and memory. Use when tuni
 _source: `community` · risk: `safe`_
 
 ---
+### `vendor-management`
+
+Use when reviewing, scoring, or auditing third-party SaaS / vendor relationships — running a vendor scorecard with industry tuning, tracking SLA compliance with credit-claim flags, classifying third-party risk across 4 risk vectors, preparing a tier-1 vendor review, or auditing the SaaS portfolio. Forks context so large vendor catalogs (50-500 line items) and SLA logs don't pollute the parent thread. Triggers on "vendor SLA", "vendor scorecard", "third-party risk", "TPRM", "vendor review", "supplier performance", "vendor health check", "renewal review".
+
+**Cuándo usar:**
+
+- The VMO or IT director needs to prepare a quarterly vendor scorecard for the leadership team
+- A tier-1 vendor (e.g., your identity provider, your data warehouse) has had recurring incidents and you need to quantify the SLA gap
+- The CISO needs a third-party risk classification of the SaaS portfolio for the next audit
+- A renewal is 60-90 days out and you need a defensible KEEP / REVIEW / REPLACE recommendation
+- Post-acquisition, you need to deduplicate vendor coverage across two organizations
+
+_tags: `bizops`, `vendor`, `sla`, `third-party-risk`, `vendor-management`_
+
+---
 ### `vercel-ai-sdk-expert`
 
 Expert in the Vercel AI SDK. Covers Core API (generateText, streamText), UI hooks (useChat, useCompletion), tool calling, and streaming UI components with React and Next.js.
@@ -32753,6 +36589,17 @@ Deploy applications and websites to Vercel. Use when the user requests deploymen
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `vercel-deploy-claimable`
+
+Vercel patterns for claimable deployments and ephemeral environments.
+
+**Cuándo usar:**
+
+Use this skill when managing ephemeral deployments or claimable resources in the Vercel ecosystem.
+
+_source: `community` · risk: `safe`_
 
 ---
 ### `vercel-deploy-claimable`
@@ -32947,6 +36794,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `vibrant-maximalism`
+
+Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and "more is more".
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `video`
 
 When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Runway,' 'Kling,' 'Pika,' 'video generation,' 'AI avatar,'...
@@ -32965,6 +36823,11 @@ Use this skill as needed to perform the specified automation task.
 Create platform-specific video ads via [inference.sh](https://inference.sh) CLI.
 
 _source: `community` · risk: `safe`_
+
+---
+### `video-content-strategist`
+
+Use when planning video content strategy, writing video scripts, optimizing YouTube channels, building short-form video pipelines (Reels, TikTok, Shorts), or repurposing long-form content into video. Triggers: 'start a YouTube channel', 'video content strategy', 'write a video script', 'repurpose into video', 'YouTube SEO', 'short-form video'. NOT for written blog content (use content-production). NOT for social captions without video (use social-media-manager).
 
 ---
 ### `video-downloader`
@@ -33057,12 +36920,6 @@ Translate visa application documents (images) to English and create a bilingual 
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
-
----
-### `vision-analysis`
-
-Analyze, describe, and extract information from images using the MiniMax vision MCP tool. Use when: user shares an image file path or URL (any message containing .jpg, .jpeg, .png, .gif, .webp, .bmp, or .svg file extension) or uses any of these words/phrases near an image: "analyze", "analyse", "describe", "explain", "understand", "look at", "review", "extract text", "OCR", "what is in", "what's in", "read this image", "see this image", "tell me about", "explain this", "interpret this", in connection with an image, screenshot, diagram, chart, mockup, wireframe, or photo. Also triggers for: UI mockup review, wireframe analysis, design critique, data extraction from charts, object detection, person/animal/activity identification. Triggers: any message with an image file extension (jpg, jpeg, png, gif, webp, bmp, svg), or any request to analyze/describ/understand/review/extract text from an image, screenshot, diagram, chart, photo, mockup, or wireframe.
-
 
 ---
 ### `visual-design-foundations`
@@ -33176,6 +37033,27 @@ Use this skill when:
 _source: `community` · risk: `offensive`_
 
 ---
+### `vpe-advisor`
+
+VP of Engineering advisory for startups: delivery throughput (DORA 4 metrics + bottleneck identification), engineering hiring funnel (sourcing → screen → onsite → offer conversion + time-to-fill + pipeline gap), engineering team structure (squad/tribe/chapter design + tech-lead manager-trigger thresholds), and production discipline (on-call, deployment cadence, postmortem culture). Use when sprint velocity is dropping, eng hiring is broken, team structure is unclear, or deciding when to add a tech-lead manager. NOT a CTO skill (which owns architecture) — VPE owns delivery operations and how the team ships.
+
+---
+### `vpe-review`
+
+/cs:vpe-review <plan> — Throughput-first VP of Engineering interrogation of any plan that touches delivery, eng hiring, team structure, or production discipline. Use when cycle time balloons, DORA metrics slide, or before committing to an eng hiring wave or a reorg.
+
+---
+### `vr-ar`
+
+VR/AR development principles. Comfort, interaction, performance requirements.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
+
+_source: `community` · risk: `safe`_
+
+---
 ### `vr-ar`
 
 VR/AR development principles. Comfort, interaction, performance requirements.
@@ -33277,6 +37155,17 @@ Build modern full-stack web applications with Next.js (App Router, Server Compon
 - Creating consistent UI with professional iconography
 - Managing workspace dependencies across multiple projects
 - Deploying production-ready applications with proper optimization
+
+_source: `community` · risk: `safe`_
+
+---
+### `web-games`
+
+Web browser game development principles. Framework selection, WebGPU, optimization, PWA.
+
+**Cuándo usar:**
+
+- Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
 
@@ -33474,6 +37363,17 @@ Use this sub-style when the user's request matches the aesthetic described above
 _source: `self` · risk: `safe`_
 
 ---
+### `widget-based-design`
+
+Web and App implementation guide for Widget-Based Design. Trigger when user wants modular blocks, iOS Home Screen aesthetics, and customizable mini-apps.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
+
+---
 ### `widget-generator`
 
 Generate customizable widget plugins for the prompts.chat feed system
@@ -33540,6 +37440,21 @@ Analyzes git commit history and generates structured changelogs categorized by c
 _source: `community` · risk: `safe`_
 
 ---
+### `wiki-ingest`
+
+Ingest a source file from raw/ into the LLM Wiki — read, discuss, write summary page, update cross-references across 5-15 pages, regenerate index, append to log. Usage /wiki-ingest <path-to-source>
+
+---
+### `wiki-init`
+
+Bootstrap a fresh LLM Wiki vault with the three-layer structure, schema files, and starter templates. Usage /wiki-init <path> --topic "<topic>" [--tool all|claude-code|codex|cursor|antigravity]
+
+---
+### `wiki-lint`
+
+Run a health check on the LLM Wiki vault — mechanical checks (orphans, broken links, stale pages, missing frontmatter, log gap, duplicates) plus semantic checks (contradictions, cross-reference gaps, concepts missing their own page). Outputs a markdown report with suggested actions. Usage /wiki-lint [--stale-days N] [--log-gap-days N]
+
+---
 ### `wiki-llms-txt`
 
 Generates llms.txt and llms-full.txt files for LLM-friendly project documentation following the llms.txt specification. Use when the user wants to create LLM-readable summaries, llms.txt files, or make their wiki accessible to language models.
@@ -33549,6 +37464,11 @@ Generates llms.txt and llms-full.txt files for LLM-friendly project documentatio
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `wiki-log`
+
+Show recent entries from the LLM Wiki log (wiki/log.md). Uses the standardized
 
 ---
 ### `wiki-onboarding`
@@ -33582,6 +37502,11 @@ Answers questions about a code repository using source file analysis. Use when t
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `wiki-query`
+
+Query the LLM Wiki — reads index.md first, drills into 3-10 relevant pages, synthesizes an answer with inline [[wikilink]] citations, and offers to file the answer back as a new comparison or synthesis page. Usage /wiki-query "<question>"
 
 ---
 ### `wiki-researcher`
@@ -33770,6 +37695,11 @@ This skill is applicable to execute the workflow or actions described in the ove
 _source: `community` · risk: `safe`_
 
 ---
+### `write-a-skill`
+
+Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, build, or author a new skill.
+
+---
 ### `write-concept`
 
 Write or review JavaScript concept documentation pages for the 33 JavaScript Concepts project, following strict structure and quality guidelines
@@ -33855,6 +37785,25 @@ X/Twitter growth engine for building audience, crafting viral content, and analy
 _source: `community` · risk: `safe`_
 
 ---
+### `x-twitter-growth`
+
+X/Twitter growth engine for building audience, crafting viral content, and analyzing engagement. Use when the user wants to grow on X/Twitter, write tweets or threads, analyze their X profile, research competitors on X, plan a posting strategy, or optimize engagement. Complements social-content (...
+
+**Cuándo usar:**
+
+| Need | Use |
+|------|-----|
+| Write a tweet or thread | **This skill** |
+| Plan content across LinkedIn + X + Instagram | social-content |
+| Analyze engagement metrics across platforms | social-media-analyzer |
+| Build overall social strategy | social-media-manager |
+| X-specific growth, algorithm, competitive intel | **This skill** |
+
+---
+
+_source: `community` · risk: `safe`_
+
+---
 ### `x402-express-wrapper`
 
 Wrapper oficial de M2MCent (Node.js) para inyectar muros de pago x402 en APIs o servidores Model Context Protocol (MCP). Usar al construir nuevos servicios que requieran monetización máquina a máquina.
@@ -33913,6 +37862,17 @@ Thesis-driven equity analysis from public SEC EDGAR and market data; /analyze, /
 - Use when comparing two tickers with `/compare` and need a structured differential, not a prose-only chat answer.
 
 _source: `community` · risk: `safe`_
+
+---
+### `y2k-design`
+
+Web and App implementation guide for Y2K Design. Trigger when user wants chrome effects, futuristic 2000s look, blob shapes, and tech optimism.
+
+**Cuándo usar:**
+
+Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
+
+_source: `self` · risk: `safe`_
 
 ---
 ### `y2k-design`
@@ -34230,7 +38190,7 @@ _source: `community` · risk: `safe` · tags: `pipecat`, `voice`, `gemini`, `ope
 
 ## Workflow
 
-_7 skills_
+_6 skills_
 
 ### `ai-loop`
 
@@ -34243,13 +38203,6 @@ Runs a bounded spec-build-review development loop with explicit scope, stop cond
 - Use when the user asks for a complete development pass but the work still has clear success criteria, a reasonable verification path, and no unresolved safety or product decisions.
 
 _source: `community` · risk: `safe` · tags: `agent-workflow`, `specification`, `implementation`, `review`, `verification`_
-
----
-### `coo-advisor`
-
-Operations leadership for scaling companies. Process design, OKR execution, operational cadence, and scaling playbooks. Use when designing operations, setting up OKRs, building processes, scaling teams, analyzing bottlenecks, planning operational cadence, or when user mentions COO, operations, pr...
-
-_source: `c-level-advisor` · tags: `c`, `level`, `advisor/coo`, `advisor` · _datos: catálogo__
 
 ---
 ### `crossframe`

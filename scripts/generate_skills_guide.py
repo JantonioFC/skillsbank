@@ -6,6 +6,7 @@ import os
 import re
 import json
 import yaml
+from datetime import date
 from pathlib import Path
 from collections import defaultdict
 
@@ -13,8 +14,7 @@ SKILLS_DIR = Path("/home/juan/Escritorio/antigravity-awesome-skills/skills")
 CATALOG_JSON = Path("/home/juan/Escritorio/antigravity-awesome-skills/data/catalog.json")
 OUTPUT = Path("/home/juan/Escritorio/antigravity-awesome-skills/SKILLS_GUIDE.md")
 
-META_DIRS = {'README', 'TEMPLATE', '__pycache__', 'SPDD', 'claude.ai',
-             'examples', 'libreoffice', 'references', 'security', 'sendblue'}
+META_DIRS = {'README', 'TEMPLATE', '__pycache__', 'SPDD', 'examples', 'references'}
 
 WHEN_PATTERN = re.compile(r'^##\s+When\s+to\s+Use.*?$', re.IGNORECASE | re.MULTILINE)
 NEXT_SECTION = re.compile(r'^##\s+', re.MULTILINE)
@@ -103,26 +103,34 @@ def read_catalog_fallback(skill_dir, catalog_index):
     }
 
 
+def iter_skill_dirs(root):
+    """Recursively yield every directory under root, depth-first, skipping META_DIRS subtrees.
+    Mirrors build-catalog.js: symlinked directories are not followed (they may point
+    outside the repo, e.g. to a plugin marketplace cache)."""
+    for child in sorted(root.iterdir()):
+        if child.is_symlink() or not child.is_dir() or child.name.startswith('.'):
+            continue
+        if child.name in META_DIRS:
+            continue
+        yield child
+        yield from iter_skill_dirs(child)
+
+
 def collect_skills():
     catalog_index = load_catalog_index()
     skills_by_category = defaultdict(list)
 
-    for skill_dir in sorted(SKILLS_DIR.iterdir()):
-        if not skill_dir.is_dir():
-            continue
-        if skill_dir.name in META_DIRS:
-            continue
-
+    for skill_dir in iter_skill_dirs(SKILLS_DIR):
         skill_md = skill_dir / 'SKILL.md'
 
         if skill_md.exists():
-            # Real SKILL.md (readable)
+            # Real SKILL.md, or a symlink that resolves to one (readable either way)
             entry = read_real_skill(skill_dir)
         elif skill_md.is_symlink():
             # Broken symlink → fall back to catalog or stub
             entry = read_catalog_fallback(skill_dir, catalog_index)
         else:
-            # No SKILL.md, not a symlink — skip or stub
+            # No SKILL.md, not a symlink — just an organizational folder
             continue
 
         cat = entry['category'] or 'uncategorized'
@@ -176,7 +184,7 @@ def main():
 
     lines = [
         "# Skills Guide",
-        f"\n> **{total} skills** documentadas · Actualizado: 2026-06-28\n",
+        f"\n> **{total} skills** documentadas · Actualizado: {date.today().isoformat()}\n",
         "> Fuentes por entrada: `SKILL.md` propio · `catalog.json` (repos externos) · stub (sin datos disponibles).\n",
         "## Índice de categorías\n",
     ]

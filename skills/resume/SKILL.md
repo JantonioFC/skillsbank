@@ -1,1 +1,1 @@
-../../../engineering/autoresearch-agent/skills/resume/SKILL.md
+../engineering/autoresearch-agent/skills/resume/SKILL.md

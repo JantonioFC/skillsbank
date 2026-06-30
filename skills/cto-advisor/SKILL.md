@@ -1,1 +1,1 @@
-../../../c-level-advisor/cto-advisor/SKILL.md
+../c-level-advisor/cto-advisor/SKILL.md

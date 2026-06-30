@@ -1,1 +1,1 @@
-../../../product-team/SKILL.md
+../product-team/SKILL.md
