@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T21:51:43.607Z",
+  "generatedAt": "2026-07-13T02:07:06.226Z",
   "aliases": {
     "20-andruia-intelligence": "20-andruia-niche-intelligence",
     "accessibility-compliance-audit": "accessibility-compliance-accessibility-audit",
@@ -155,6 +155,7 @@
     "moodle-external-development": "moodle-external-api-development",
     "multi-agent-orchestrator": "multi-agent-task-orchestrator",
     "multi-platform-apps": "multi-platform-apps-multi-platform",
+    "named-persona-review": "named-persona-adversarial-review",
     "notion-spec-implementation": "notion-spec-to-implementation",
     "observability-monitoring-setup": "observability-monitoring-monitor-setup",
     "observability-monitoring-implement": "observability-monitoring-slo-implement",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T21:51:43.607Z",
-  "total": 3153,
+  "generatedAt": "2026-07-13T02:07:06.226Z",
+  "total": 3174,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -989,6 +989,33 @@
       "path": "skills/agent-creator/SKILL.md"
     },
     {
+      "id": "agent-decision-receipts",
+      "name": "agent-decision-receipts",
+      "description": "Mint a tamper-evident, post-quantum-signed receipt for a consequential agent action (deploy, delete, pay, grant-access, model decision) so it can be verified later from the certificate alone. Use when an autonomous agent takes a side-effecting action that may need to be proven later, or when satisfying EU AI Act Article 12 record-keeping. Three decisions: whether an action needs a receipt, minting it, verifying it. Signing is delegated to the open-source OpenAgentOntology package. Not after-the-fact log analysis; not a hosted notary; not a legal opinion.",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "agent",
+        "decision",
+        "receipts"
+      ],
+      "triggers": [
+        "agent",
+        "decision",
+        "receipts",
+        "mint",
+        "tamper",
+        "evident",
+        "post",
+        "quantum",
+        "signed",
+        "receipt",
+        "consequential",
+        "action"
+      ],
+      "path": "skills/agent-decision-receipts/SKILL.md"
+    },
+    {
       "id": "agent-designer",
       "name": "agent-designer",
       "description": "Use when the user asks to design multi-agent systems, create agent architectures, define agent communication patterns, or build autonomous agent workflows.",
@@ -1144,6 +1171,32 @@
         "new"
       ],
       "path": "skills/agent-framework-ms/SKILL.md"
+    },
+    {
+      "id": "agent-harness",
+      "name": "agent-harness",
+      "description": "Turn any domain folder of skills into a bounded agentic loop: compile a goal into a verifiable task plan, execute tasks with the domain's own tools, verify every task with machine-run checks, retry with caps, escalate to a human when budgets exhaust, and refuse to close until everything is verified or explicitly waived. Use when you want an agent or subagent to pick up a goal and drive it to a verified close across one of this repo's 18 domains ('run this goal through the engineering harness', 'set up an agentic loop for marketing work', 'make the finance domain self-verifying'). NOT for authoring Claude Code Workflow-tool .js scripts (workflow-builder), N-agent tournaments on one task (agenthub), single-file metric optimization (autoresearch-agent), or discovering published loop recipes (loop-library).",
+      "category": "architecture",
+      "subcategory": null,
+      "tags": [
+        "agent",
+        "harness"
+      ],
+      "triggers": [
+        "agent",
+        "harness",
+        "turn",
+        "any",
+        "domain",
+        "folder",
+        "skills",
+        "bounded",
+        "agentic",
+        "loop",
+        "compile",
+        "goal"
+      ],
+      "path": "skills/agent-harness/SKILL.md"
     },
     {
       "id": "agent-harness-construction",
@@ -5340,6 +5393,33 @@
         "teensy"
       ],
       "path": "skills/arm-cortex-expert/SKILL.md"
+    },
+    {
+      "id": "arquiteto-de-empresa",
+      "name": "arquiteto-de-empresa",
+      "description": "Company Architect: builds a business from scratch as an OKF (Open Knowledge Format) bundle — a tree of version-controllable .md files with frontmatter type, links forming a graph, and reserved index.md/log.md, readable by humans and agents. Guides the founder through a 12-phase interview (foundation, strategy, market, financial, sales, marketing, product, operations, tech, people, legal, governance), one phase at a time, few questions per block, and generates the concepts as conformant markdown. Trigger when the user wants to create, structure, or document an entire company in folders and .md files; when they mention build my company from scratch, company as code, company knowledge base for AI to read, company wiki for agents, OKF, or knowledge bundle. In English.",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "arquiteto",
+        "de",
+        "empresa"
+      ],
+      "triggers": [
+        "arquiteto",
+        "de",
+        "empresa",
+        "company",
+        "architect",
+        "business",
+        "scratch",
+        "okf",
+        "open",
+        "knowledge",
+        "format",
+        "bundle"
+      ],
+      "path": "skills/arquiteto-de-empresa/SKILL.md"
     },
     {
       "id": "arrowspace",
@@ -46126,6 +46206,33 @@
       "path": "skills/local-llm-expert/SKILL.md"
     },
     {
+      "id": "local-seo-manager",
+      "name": "local-seo-manager",
+      "description": "Manage local SEO for service-area businesses — appliance repair, HVAC, plumbing, cleaning, and any business that serves customers at their location. Use when the user wants to: audit Google Business Profile, generate neighborhood service area pages, check NAP consistency across directories, create LocalBusiness schema, or write review responses. Triggers: 'local SEO', 'Google Business Profile', 'GBP', 'service area page', 'NAP consistency', 'local citations', 'LocalBusiness schema', 'review responses', 'Google Maps ranking'. NOT for national SEO (use seo-audit). NOT for general schema (use schema-markup). NOT for AI answer-engine visibility (use aeo).",
+      "category": "infrastructure",
+      "subcategory": "infra-general",
+      "tags": [
+        "local",
+        "seo",
+        "manager"
+      ],
+      "triggers": [
+        "local",
+        "seo",
+        "manager",
+        "area",
+        "businesses",
+        "appliance",
+        "repair",
+        "hvac",
+        "plumbing",
+        "cleaning",
+        "any",
+        "business"
+      ],
+      "path": "skills/local-seo-manager/SKILL.md"
+    },
+    {
       "id": "localization-toolkit",
       "name": "localization-toolkit",
       "description": "This skill should be used when setting up, auditing, or enforcing internationalization/localization in UI codebases (React/TS, i18next or similar, JSON locales), including installing/configuring the i18n framework, replacing hard-coded strings, ensuring en-US/zh-CN coverage, mapping error codes to localized messages, and validating key parity, pluralization, and formatting.",
@@ -46274,6 +46381,33 @@
         "sdk"
       ],
       "path": "skills/loki-mode/SKILL.md"
+    },
+    {
+      "id": "long-horizon-prompting",
+      "name": "long-horizon-prompting",
+      "description": "This skill should be used when writing, enhancing, or evaluating the launch prompt for a long-running autonomous agent or a parallel multi-agent orchestration attacking a hard problem: pseudo-formal task briefs that define terms and an exact success predicate linguistically, enumerate non-counting outcomes, set persistence rules with explicit stop and return conditions and effort floors, manage a diverse portfolio of parallel approaches with an approach registry and blocked-route bookkeeping, and gate the return on adversarial audit. Route agent topology and coordination protocols to multi-agent-patterns, runtime control surfaces and loop governance to harness-engineering, evaluator and quality-gate construction to evaluation, judge design to advanced-evaluation, and compaction or memory mechanics to context-compression and memory-systems.",
+      "category": "architecture",
+      "subcategory": null,
+      "tags": [
+        "long",
+        "horizon",
+        "prompting"
+      ],
+      "triggers": [
+        "long",
+        "horizon",
+        "prompting",
+        "skill",
+        "should",
+        "used",
+        "writing",
+        "enhancing",
+        "evaluating",
+        "launch",
+        "prompt",
+        "running"
+      ],
+      "path": "skills/long-horizon-prompting/SKILL.md"
     },
     {
       "id": "longbridge",
@@ -47596,6 +47730,32 @@
       "path": "skills/marketing-context/SKILL.md"
     },
     {
+      "id": "marketing-council",
+      "name": "marketing-council",
+      "description": "When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, and more). Also use when the user mentions 'marketing council,' 'board of advisors,' 'advisory board,' 'what would Seth Godin say,' 'what would Ogilvy think,' 'channel Hormozi,' 'get multiple perspectives,' 'debate this,' 'have the council review,' 'marketing mentors,' or asks how a famous marketer would approach their problem. The council gives each advisor's take through their documented frameworks, surfaces where they disagree, and synthesizes a recommendation. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill.",
+      "category": "business",
+      "subcategory": null,
+      "tags": [
+        "marketing",
+        "council"
+      ],
+      "triggers": [
+        "marketing",
+        "council",
+        "user",
+        "wants",
+        "multiple",
+        "perspectives",
+        "question",
+        "simulated",
+        "board",
+        "advisors",
+        "staffed",
+        "legendary"
+      ],
+      "path": "skills/marketing-council/SKILL.md"
+    },
+    {
       "id": "marketing-demand-acquisition",
       "name": "marketing-demand-acquisition",
       "description": "Creates demand generation campaigns, optimizes paid ad spend across LinkedIn, Google, and Meta, develops SEO strategies, and structures partnership programs for Series A+ startups scaling internationally. Use when planning marketing strategy, growth marketing, advertising campaigns, PPC optimizat...",
@@ -47647,6 +47807,32 @@
         "tactics"
       ],
       "path": "skills/marketing-ideas/SKILL.md"
+    },
+    {
+      "id": "marketing-loops",
+      "name": "marketing-loops",
+      "description": "When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the user mentions 'marketing loop,' 'recurring marketing workflow,' 'automate my marketing,' 'marketing on autopilot,' 'weekly marketing review,' 'ad fatigue check,' 'content refresh loop,' 'churn watch,' 'ranking drop alert,' 'always-on marketing,' 'marketing automation workflow,' or 'run this every week.' Use this to pick, adapt, and schedule an ongoing marketing loop that orchestrates the other marketing skills. For one-off marketing ideas, see marketing-ideas. For the experimentation loop specifically, see ab-testing.",
+      "category": "data-ai",
+      "subcategory": null,
+      "tags": [
+        "marketing",
+        "loops"
+      ],
+      "triggers": [
+        "marketing",
+        "loops",
+        "user",
+        "wants",
+        "set",
+        "up",
+        "recurring",
+        "self",
+        "running",
+        "repeatable",
+        "loop",
+        "ai"
+      ],
+      "path": "skills/marketing-loops/SKILL.md"
     },
     {
       "id": "marketing-ops",
@@ -49477,6 +49663,30 @@
       "path": "skills/media-processing/SKILL.md"
     },
     {
+      "id": "mediabunny",
+      "name": "mediabunny",
+      "description": "Multimedia handling with the Mediabunny library",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "remotion",
+        "mediabunny",
+        "multimedia",
+        "video",
+        "audio"
+      ],
+      "triggers": [
+        "remotion",
+        "mediabunny",
+        "multimedia",
+        "video",
+        "audio",
+        "handling",
+        "library"
+      ],
+      "path": "skills/mediabunny/SKILL.md"
+    },
+    {
       "id": "meeting-analyzer",
       "name": "meeting-analyzer",
       "description": "Analyzes meeting transcripts and recordings to surface behavioral patterns, communication anti-patterns, and actionable coaching feedback. Use this skill whenever the user uploads or points to meeting transcripts (.txt, .md, .vtt, .srt, .docx), asks about their communication habits, wants feedback on how they run meetings, requests speaking ratio analysis, mentions filler words or conflict avoidance, or wants to compare their communication across time periods. Also trigger when users mention tools like Granola, Otter, Fireflies, or Zoom transcripts. Even if the user just says \"look at my meetings\" or \"how do I come across in meetings\" — use this skill.",
@@ -50286,6 +50496,31 @@
         "few"
       ],
       "path": "skills/minimalism/SKILL.md"
+    },
+    {
+      "id": "minimalist",
+      "name": "minimalist",
+      "description": "Use when the user asks to write code efficiently, avoid over-engineering, reduce dependencies, or prevent unnecessary abstractions. Enforces a strict efficiency ladder: YAGNI, reuse, stdlib, native platform, existing deps — before writing any new code.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "minimalist"
+      ],
+      "triggers": [
+        "minimalist",
+        "user",
+        "asks",
+        "write",
+        "code",
+        "efficiently",
+        "avoid",
+        "engineering",
+        "reduce",
+        "dependencies",
+        "prevent",
+        "unnecessary"
+      ],
+      "path": "skills/minimalist/SKILL.md"
     },
     {
       "id": "minimalist-ui",
@@ -51764,6 +51999,33 @@
         "building"
       ],
       "path": "skills/n8n-workflow-patterns/SKILL.md"
+    },
+    {
+      "id": "named-persona-adversarial-review",
+      "name": "named-persona-adversarial-review",
+      "description": "Code review through the lens of real engineers' documented philosophies (Torvalds, Thompson, Carmack, Kent Beck, Jobs, Cagan). Complements abstract-role adversarial review with named, sourced perspectives. Use when automated review findings feel generic, when a PR has architectural or UX impact, or when the author wants pre-submit hardening beyond standard checks.",
+      "category": "general",
+      "subcategory": "code-quality",
+      "tags": [
+        "named",
+        "persona",
+        "adversarial"
+      ],
+      "triggers": [
+        "named",
+        "persona",
+        "adversarial",
+        "review",
+        "code",
+        "through",
+        "lens",
+        "real",
+        "engineers",
+        "documented",
+        "philosophies",
+        "torvalds"
+      ],
+      "path": "skills/named-persona-adversarial-review/SKILL.md"
     },
     {
       "id": "nanobanana-ppt-skills",
@@ -55963,6 +56225,32 @@
         "time"
       ],
       "path": "skills/plaid-fintech/SKILL.md"
+    },
+    {
+      "id": "plan-canvas",
+      "name": "plan-canvas",
+      "description": "Open plans and HTML artifacts in a local browser canvas where the human annotates elements, chats, and approves or requests changes without leaving the page. Use when presenting a plan for review, or when feedback like \"move this, change that\" is easier pointed at than typed.",
+      "category": "general",
+      "subcategory": "code-quality",
+      "tags": [
+        "plan",
+        "canvas"
+      ],
+      "triggers": [
+        "plan",
+        "canvas",
+        "open",
+        "plans",
+        "html",
+        "artifacts",
+        "local",
+        "browser",
+        "where",
+        "human",
+        "annotates",
+        "elements"
+      ],
+      "path": "skills/plan-canvas/SKILL.md"
     },
     {
       "id": "plan-orchestrate",
@@ -62598,6 +62886,138 @@
       "path": "skills/remotion-best-practices/SKILL.md"
     },
     {
+      "id": "remotion-captions",
+      "name": "remotion-captions",
+      "description": "Dealing with captions in Remotion",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "subtitles",
+        "captions",
+        "remotion",
+        "json"
+      ],
+      "triggers": [
+        "subtitles",
+        "captions",
+        "remotion",
+        "json",
+        "dealing"
+      ],
+      "path": "skills/remotion-captions/SKILL.md"
+    },
+    {
+      "id": "remotion-create",
+      "name": "remotion-create",
+      "description": "Creating a new Remotion video",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "remotion"
+      ],
+      "triggers": [
+        "remotion",
+        "creating",
+        "new",
+        "video"
+      ],
+      "path": "skills/remotion-create/SKILL.md"
+    },
+    {
+      "id": "remotion-interactivity",
+      "name": "remotion-interactivity",
+      "description": "Best practices for writing Remotion animations that stay intuitive for agents and editable in Remotion Studio Visual Mode.",
+      "category": "general",
+      "subcategory": "design-ux",
+      "tags": [
+        "remotion",
+        "interactivity",
+        "studio",
+        "visual mode"
+      ],
+      "triggers": [
+        "remotion",
+        "interactivity",
+        "studio",
+        "visual mode",
+        "writing",
+        "animations",
+        "stay",
+        "intuitive",
+        "agents",
+        "editable",
+        "visual",
+        "mode"
+      ],
+      "path": "skills/remotion-interactivity/SKILL.md"
+    },
+    {
+      "id": "remotion-markup",
+      "name": "remotion-markup",
+      "description": "Best practices for writing Remotion React Markup",
+      "category": "development",
+      "subcategory": "frontend",
+      "tags": [
+        "remotion",
+        "react",
+        "markup"
+      ],
+      "triggers": [
+        "remotion",
+        "react",
+        "markup",
+        "writing"
+      ],
+      "path": "skills/remotion-markup/SKILL.md"
+    },
+    {
+      "id": "remotion-render",
+      "name": "remotion-render",
+      "description": "Best practices for rendering videos",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "remotion",
+        "render"
+      ],
+      "triggers": [
+        "remotion",
+        "render",
+        "rendering",
+        "videos"
+      ],
+      "path": "skills/remotion-render/SKILL.md"
+    },
+    {
+      "id": "remotion-saas",
+      "name": "remotion-saas",
+      "description": "Building video apps with Remotion - framework, rendering and Player advice",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "remotion",
+        "saas",
+        "player",
+        "rendering",
+        "templates",
+        "lambda"
+      ],
+      "triggers": [
+        "remotion",
+        "saas",
+        "player",
+        "rendering",
+        "templates",
+        "lambda",
+        "building",
+        "video",
+        "apps",
+        "framework",
+        "advice"
+      ],
+      "path": "skills/remotion-saas/SKILL.md"
+    },
+    {
       "id": "remotion-video-creation",
       "name": "remotion-video-creation",
       "description": "Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more.",
@@ -63513,6 +63933,31 @@
         "engineering"
       ],
       "path": "skills/roadmap-communicator/SKILL.md"
+    },
+    {
+      "id": "roast",
+      "name": "roast",
+      "description": "Use when someone asks to roast an idea, pressure-test or stress-test an idea, validate a business idea, \"convene the panel\", get a brutal second opinion before building something, or says \"/roast\". Spins up a 5-angle panel (Critic, Champion, Analyst, Investigator, Customer) that attacks the idea from every angle, then a Judge returns one GO / RESHAPE / KILL verdict with the cheapest test to de-risk it.",
+      "category": "security",
+      "subcategory": null,
+      "tags": [
+        "roast"
+      ],
+      "triggers": [
+        "roast",
+        "someone",
+        "asks",
+        "idea",
+        "pressure",
+        "test",
+        "stress",
+        "validate",
+        "business",
+        "convene",
+        "panel",
+        "get"
+      ],
+      "path": "skills/roast/SKILL.md"
     },
     {
       "id": "robius-app-architecture",
@@ -66205,6 +66650,33 @@
         "completing"
       ],
       "path": "skills/self-eval/SKILL.md"
+    },
+    {
+      "id": "self-improvement-loops",
+      "name": "self-improvement-loops",
+      "description": "This skill should be used when the harness, scaffold, workflow, or optimizer itself is the optimization target: recursive self-improvement (RSI) loops, meta-harnesses, self-improving harnesses that mine their own failures and propose bounded edits, evolutionary or population-based search over agent scaffolds, acceptance gates for self-modifying systems, and agentic context evolution where the mechanism that produces context is versioned and evolved. Route governance of a single autonomous loop (locked surfaces, durable logs, rollback, novelty gates, approval boundaries) to harness-engineering, measurement and quality-gate design to evaluation, judge design to advanced-evaluation, and remote sandbox infrastructure to hosted-agents.",
+      "category": "workflow",
+      "subcategory": null,
+      "tags": [
+        "self",
+        "improvement",
+        "loops"
+      ],
+      "triggers": [
+        "self",
+        "improvement",
+        "loops",
+        "skill",
+        "should",
+        "used",
+        "harness",
+        "scaffold",
+        "optimizer",
+        "itself",
+        "optimization",
+        "target"
+      ],
+      "path": "skills/self-improvement-loops/SKILL.md"
     },
     {
       "id": "self-improving-agent",
@@ -71914,6 +72386,32 @@
         "testing"
       ],
       "path": "skills/stress-test/SKILL.md"
+    },
+    {
+      "id": "strict-api",
+      "name": "strict-api",
+      "description": "Use when the user says 'no hallucinations', 'verify APIs', 'reality check', or 'don't invent functions'. Prevents the agent from calling methods, imports, or variables that do not provably exist in the user's installed version.",
+      "category": "development",
+      "subcategory": "dev-general",
+      "tags": [
+        "strict",
+        "api"
+      ],
+      "triggers": [
+        "strict",
+        "api",
+        "user",
+        "says",
+        "no",
+        "hallucinations",
+        "verify",
+        "apis",
+        "reality",
+        "check",
+        "don",
+        "invent"
+      ],
+      "path": "skills/strict-api/SKILL.md"
     },
     {
       "id": "stride-analysis-patterns",
@@ -81084,6 +81582,33 @@
         "replies"
       ],
       "path": "skills/zendesk-automation/SKILL.md"
+    },
+    {
+      "id": "zero-hallucination-coder",
+      "name": "zero-hallucination-coder",
+      "description": "Runs a disciplined Discuss -> Map -> Decompose -> Execute -> Verify loop that grounds code in verified structure — no invented APIs, no assumed imports, no placeholder code — with a lazy-senior-dev YAGNI ladder that deletes unnecessary code before it is written. Use when a coding task is high-stakes, complex, or spans existing code (auth, databases, migrations, multi-file features), or when the user explicitly asks to plan carefully before coding, avoid hallucinated code, or work rigorously. Not for trivial edits, typos, or throwaway one-off scripts — those do not need the full loop.",
+      "category": "security",
+      "subcategory": null,
+      "tags": [
+        "zero",
+        "hallucination",
+        "coder"
+      ],
+      "triggers": [
+        "zero",
+        "hallucination",
+        "coder",
+        "runs",
+        "disciplined",
+        "discuss",
+        "map",
+        "decompose",
+        "execute",
+        "verify",
+        "loop",
+        "grounds"
+      ],
+      "path": "skills/zero-hallucination-coder/SKILL.md"
     },
     {
       "id": "zeroize-audit",

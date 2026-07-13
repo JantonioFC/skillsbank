@@ -1,6 +1,6 @@
 # Skills Guide
 
-> **3153 skills** documentadas · Actualizado: 2026-06-30
+> **3174 skills** documentadas · Actualizado: 2026-07-12
 
 > Fuentes por entrada: `SKILL.md` propio · `catalog.json` (repos externos) · stub (sin datos disponibles).
 
@@ -78,7 +78,7 @@
 - [Testing (4)](#testing)
 - [Tool-Quality (1)](#tool-quality)
 - [Tools (1)](#tools)
-- [Uncategorized (2892)](#uncategorized)
+- [Uncategorized (2913)](#uncategorized)
 - [Video (1)](#video)
 - [Voice-Agents (1)](#voice-agents)
 - [Workflow (6)](#workflow)
@@ -4118,7 +4118,7 @@ _source: `self` · risk: `critical` · tags: `android`, `cli`, `adb`, `mobile`, 
 
 ## Uncategorized
 
-_2892 skills_
+_2913 skills_
 
 ### `007`
 
@@ -4556,6 +4556,11 @@ Use this skill whenever you need a dedicated, isolated "brain" to handle a speci
 _source: `community` · risk: `critical`_
 
 ---
+### `agent-decision-receipts`
+
+Mint a tamper-evident, post-quantum-signed receipt for a consequential agent action (deploy, delete, pay, grant-access, model decision) so it can be verified later from the certificate alone. Use when an autonomous agent takes a side-effecting action that may need to be proven later, or when satisfying EU AI Act Article 12 record-keeping. Three decisions: whether an action needs a receipt, minting it, verifying it. Signing is delegated to the open-source OpenAgentOntology package. Not after-the-fact log analysis; not a hosted notary; not a legal opinion.
+
+---
 ### `agent-designer`
 
 Use when the user asks to design multi-agent systems, create agent architectures, define agent communication patterns, or build autonomous agent workflows.
@@ -4670,6 +4675,11 @@ Use when the user wants to:
 - **Configure** F5/debug support for VSCode
 
 _source: `community` · risk: `safe`_
+
+---
+### `agent-harness`
+
+Turn any domain folder of skills into a bounded agentic loop: compile a goal into a verifiable task plan, execute tasks with the domain's own tools, verify every task with machine-run checks, retry with caps, escalate to a human when budgets exhaust, and refuse to close until everything is verified or explicitly waived. Use when you want an agent or subagent to pick up a goal and drive it to a verified close across one of this repo's 18 domains ('run this goal through the engineering harness', 'set up an agentic loop for marketing work', 'make the finance domain self-verifying'). NOT for authoring Claude Code Workflow-tool .js scripts (workflow-builder), N-agent tournaments on one task (agenthub), single-file metric optimization (autoresearch-agent), or discovering published loop recipes (loop-library).
 
 ---
 ### `agent-harness-construction`
@@ -6491,6 +6501,11 @@ Senior embedded software engineer specializing in firmware and driver developmen
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `safe`_
+
+---
+### `arquiteto-de-empresa`
+
+Company Architect: builds a business from scratch as an OKF (Open Knowledge Format) bundle — a tree of version-controllable .md files with frontmatter type, links forming a graph, and reserved index.md/log.md, readable by humans and agents. Guides the founder through a 12-phase interview (foundation, strategy, market, financial, sales, marketing, product, operations, tech, people, legal, governance), one phase at a time, few questions per block, and generates the concepts as conformant markdown. Trigger when the user wants to create, structure, or document an entire company in folders and .md files; when they mention build my company from scratch, company as code, company knowledge base for AI to read, company wiki for agents, OKF, or knowledge bundle. In English.
 
 ---
 ### `article-writing`
@@ -23075,6 +23090,11 @@ Do **not** use this skill when:
 _source: `original` · risk: `safe`_
 
 ---
+### `local-seo-manager`
+
+Manage local SEO for service-area businesses — appliance repair, HVAC, plumbing, cleaning, and any business that serves customers at their location. Use when the user wants to: audit Google Business Profile, generate neighborhood service area pages, check NAP consistency across directories, create LocalBusiness schema, or write review responses. Triggers: 'local SEO', 'Google Business Profile', 'GBP', 'service area page', 'NAP consistency', 'local citations', 'LocalBusiness schema', 'review responses', 'Google Maps ranking'. NOT for national SEO (use seo-audit). NOT for general schema (use schema-markup). NOT for AI answer-engine visibility (use aeo).
+
+---
 ### `localization-toolkit`
 
 This skill should be used when setting up, auditing, or enforcing internationalization/localization in UI codebases (React/TS, i18next or similar, JSON locales), including installing/configuring the i18n framework, replacing hard-coded strings, ensuring en-US/zh-CN coverage, mapping error codes to localized messages, and validating key parity, pluralization, and formatting.
@@ -23120,6 +23140,11 @@ Version 2.35.0 | PRD to Production | Zero Human Intervention > Research-enhanced
 This skill is applicable to execute the workflow or actions described in the overview.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `long-horizon-prompting`
+
+This skill should be used when writing, enhancing, or evaluating the launch prompt for a long-running autonomous agent or a parallel multi-agent orchestration attacking a hard problem: pseudo-formal task briefs that define terms and an exact success predicate linguistically, enumerate non-counting outcomes, set persistence rules with explicit stop and return conditions and effort floors, manage a diverse portfolio of parallel approaches with an approach registry and blocked-route bookkeeping, and gate the return on adversarial audit. Route agent topology and coordination protocols to multi-agent-patterns, runtime control surfaces and loop governance to harness-engineering, evaluator and quality-gate construction to evaluation, judge design to advanced-evaluation, and compaction or memory mechanics to context-compression and memory-systems.
 
 ---
 ### `lookdev`
@@ -23777,6 +23802,11 @@ Create and maintain the marketing context document that all marketing skills rea
 _source: `community` · risk: `safe`_
 
 ---
+### `marketing-council`
+
+When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, and more). Also use when the user mentions 'marketing council,' 'board of advisors,' 'advisory board,' 'what would Seth Godin say,' 'what would Ogilvy think,' 'channel Hormozi,' 'get multiple perspectives,' 'debate this,' 'have the council review,' 'marketing mentors,' or asks how a famous marketer would approach their problem. The council gives each advisor's take through their documented frameworks, surfaces where they disagree, and synthesizes a recommendation. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill.
+
+---
 ### `marketing-demand-acquisition`
 
 Creates demand generation campaigns, optimizes paid ad spend across LinkedIn, Google, and Meta, develops SEO strategies, and structures partnership programs for Series A+ startups scaling internationally. Use when planning marketing strategy, growth marketing, advertising campaigns, PPC optimizat...
@@ -23819,6 +23849,11 @@ When the user needs marketing ideas, inspiration, or strategies for their SaaS o
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `marketing-loops`
+
+When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the user mentions 'marketing loop,' 'recurring marketing workflow,' 'automate my marketing,' 'marketing on autopilot,' 'weekly marketing review,' 'ad fatigue check,' 'content refresh loop,' 'churn watch,' 'ranking drop alert,' 'always-on marketing,' 'marketing automation workflow,' or 'run this every week.' Use this to pick, adapt, and schedule an ongoing marketing loop that orchestrates the other marketing skills. For one-off marketing ideas, see marketing-ideas. For the experimentation loop specifically, see ab-testing.
 
 ---
 ### `marketing-ops`
@@ -24198,6 +24233,11 @@ Use when:
 _source: `community` · risk: `safe`_
 
 ---
+### `mediabunny`
+
+Multimedia handling with the Mediabunny library
+
+---
 ### `meeting-analyzer`
 
 Analyzes meeting transcripts and recordings to surface behavioral patterns, communication anti-patterns, and actionable coaching feedback. Use this skill whenever the user uploads or points to meeting transcripts (.txt, .md, .vtt, .srt, .docx), asks about their communication habits, wants feedback on how they run meetings, requests speaking ratio analysis, mentions filler words or conflict avoidance, or wants to compare their communication across time periods. Also trigger when users mention tools like Granola, Otter, Fireflies, or Zoom transcripts. Even if the user just says "look at my meetings" or "how do I come across in meetings" — use this skill.
@@ -24571,6 +24611,11 @@ Web and App implementation guide for the Minimalism design style. Trigger when t
 Use this sub-style when the user's request matches the aesthetic described above. This is a child reference of the `design-it` skill and is not meant to be triggered directly.
 
 _source: `self` · risk: `safe`_
+
+---
+### `minimalist`
+
+Use when the user asks to write code efficiently, avoid over-engineering, reduce dependencies, or prevent unnecessary abstractions. Enforces a strict efficiency ladder: YAGNI, reuse, stdlib, native platform, existing deps — before writing any new code.
 
 ---
 ### `miro-automation`
@@ -25238,6 +25283,19 @@ Proven architectural patterns for building n8n workflows.
 ---
 
 _source: `community` · risk: `offensive`_
+
+---
+### `named-persona-adversarial-review`
+
+Code review through the lens of real engineers' documented philosophies (Torvalds, Thompson, Carmack, Kent Beck, Jobs, Cagan). Complements abstract-role adversarial review with named, sourced perspectives. Use when automated review findings feel generic, when a PR has architectural or UX impact, or when the author wants pre-submit hardening beyond standard checks.
+
+**Cuándo usar:**
+
+- You want deeper coverage than standard automated checks alone.
+- A self-authored PR needs pre-submit hardening.
+- `adversarial-reviewer` findings feel generic and you want sourced specificity.
+- Reviewing methodologies or docs (product personas excel here).
+- Auth, data, architecture, or public-API changes.
 
 ---
 ### `nanobanana-ppt-skills`
@@ -27159,6 +27217,23 @@ Create a linktoken for Plaid Link, exchange publictoken for accesstoken. Link to
 - User mentions or implies: identity verification banking
 
 _source: `vibeship-spawner-skills (Apache 2.0)` · risk: `safe`_
+
+---
+### `plan-canvas`
+
+Open plans and HTML artifacts in a local browser canvas where the human annotates elements, chats, and approves or requests changes without leaving the page. Use when presenting a plan for review, or when feedback like "move this, change that" is easier pointed at than typed.
+
+**Cuándo usar:**
+
+- You just wrote a plan artifact (`.claude/plans/*.plan.md` from `/plan`) and
+  need the CONFIRM/approve decision — the canvas verdict replaces a typed
+  "yes/proceed".
+- The user should *point at* what to change: reviewing designs, comparisons,
+  reports, or any local `.md` / `.html` artifact.
+- The user asks for `/plan-canvas`, a visual review, or "open it in the browser".
+
+Do NOT use for: code review of diffs (`/code-review`), running web apps, or
+remote URLs. The canvas serves local artifact files only.
 
 ---
 ### `plan-orchestrate`
@@ -29718,6 +29793,36 @@ Use this skills whenever you are dealing with Remotion code to obtain the domain
 _source: `community` · risk: `safe`_
 
 ---
+### `remotion-captions`
+
+Dealing with captions in Remotion
+
+---
+### `remotion-create`
+
+Creating a new Remotion video
+
+---
+### `remotion-interactivity`
+
+Best practices for writing Remotion animations that stay intuitive for agents and editable in Remotion Studio Visual Mode.
+
+---
+### `remotion-markup`
+
+Best practices for writing Remotion React Markup
+
+---
+### `remotion-render`
+
+Best practices for rendering videos
+
+---
+### `remotion-saas`
+
+Building video apps with Remotion - framework, rendering and Player advice
+
+---
 ### `remotion-video-creation`
 
 Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more.
@@ -30259,6 +30364,11 @@ Use this skill for:
 - Structuring feature announcements
 
 _source: `community` · risk: `safe`_
+
+---
+### `roast`
+
+Use when someone asks to roast an idea, pressure-test or stress-test an idea, validate a business idea, "convene the panel", get a brutal second opinion before building something, or says "/roast". Spins up a 5-angle panel (Critic, Champion, Analyst, Investigator, Customer) that attacks the idea from every angle, then a Judge returns one GO / RESHAPE / KILL verdict with the cheapest test to de-risk it.
 
 ---
 ### `robius-app-architecture`
@@ -31501,6 +31611,11 @@ _source: `vibeship-spawner-skills (Apache 2.0)` · risk: `safe`_
 ### `self-eval`
 
 Honestly evaluate AI work quality using a two-axis scoring system. Use after completing a task, code review, or work session to get an unbiased assessment. Detects score inflation, forces devil's advocate reasoning, and persists scores across sessions.
+
+---
+### `self-improvement-loops`
+
+This skill should be used when the harness, scaffold, workflow, or optimizer itself is the optimization target: recursive self-improvement (RSI) loops, meta-harnesses, self-improving harnesses that mine their own failures and propose bounded edits, evolutionary or population-based search over agent scaffolds, acceptance gates for self-modifying systems, and agentic context evolution where the mechanism that produces context is versioned and evolved. Route governance of a single autonomous loop (locked surfaces, durable logs, rollback, novelty gates, approval boundaries) to harness-engineering, measurement and quality-gate design to evaluation, judge design to advanced-evaluation, and remote sandbox infrastructure to hosted-agents.
 
 ---
 ### `self-improving-agent`
@@ -34273,6 +34388,11 @@ _source: `community` · risk: `offensive`_
 - Use this skill when you need for functional programming or specific domain tasks.
 
 _source: `community` · risk: `offensive`_
+
+---
+### `strict-api`
+
+Use when the user says 'no hallucinations', 'verify APIs', 'reality check', or 'don't invent functions'. Prevents the agent from calling methods, imports, or variables that do not provably exist in the user's installed version.
 
 ---
 ### `stride-analysis-patterns`
@@ -38047,6 +38167,11 @@ Automate Zendesk tasks via Rube MCP (Composio): tickets, users, organizations, r
 This skill is applicable to execute the workflow or actions described in the overview.
 
 _source: `community` · risk: `safe`_
+
+---
+### `zero-hallucination-coder`
+
+Runs a disciplined Discuss -> Map -> Decompose -> Execute -> Verify loop that grounds code in verified structure — no invented APIs, no assumed imports, no placeholder code — with a lazy-senior-dev YAGNI ladder that deletes unnecessary code before it is written. Use when a coding task is high-stakes, complex, or spans existing code (auth, databases, migrations, multi-file features), or when the user explicitly asks to plan carefully before coding, avoid hallucinated code, or work rigorously. Not for trivial edits, typos, or throwaway one-off scripts — those do not need the full loop.
 
 ---
 ### `zeroize-audit`
