@@ -291,6 +291,23 @@ def generate_html(skills):
         const allSkills = %ALL_SKILLS%;
         let navStack = []; // track navigation: [{view, title}]
 
+        function escapeHtml(str) {
+            return String(str)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        // For interpolating a value as a JS string-literal argument inside a
+        // double-quoted HTML attribute (e.g. onclick="fn(...)"). JSON.stringify
+        // produces a fully quoted and escaped JS string literal; escapeHtml then
+        // makes that literal safe to sit inside the surrounding HTML attribute.
+        function escapeForJsAttr(str) {
+            return escapeHtml(JSON.stringify(String(str)));
+        }
+
         function showView(viewId) {
             document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
             document.getElementById(viewId).classList.add('active');
@@ -308,9 +325,9 @@ def generate_html(skills):
             backBtn.style.display = 'block';
             const parts = navStack.map((item, i) => {
                 if (i < navStack.length - 1) {
-                    return `<a onclick="goTo(${i})">${item.title}</a>`;
+                    return `<a onclick="goTo(${i})">${escapeHtml(item.title)}</a>`;
                 }
-                return `<span style="color:var(--text-bright)">${item.title}</span>`;
+                return `<span style="color:var(--text-bright)">${escapeHtml(item.title)}</span>`;
             });
             bc.innerHTML = parts.join(' / ');
         }
@@ -346,8 +363,8 @@ def generate_html(skills):
                     ? `<div class="sub-hint">${c.subcategories.length} subcategorías</div>`
                     : '';
                 return `
-                    <div class="cat-card" onclick="openCat('${c.name}')">
-                        <h2>${c.name}</h2>
+                    <div class="cat-card" onclick="openCat(${escapeForJsAttr(c.name)})">
+                        <h2>${escapeHtml(c.name)}</h2>
                         <span class="badge">${c.count} habilidades</span>
                         ${subHint}
                     </div>
@@ -377,8 +394,8 @@ def generate_html(skills):
             showView('viewSubcategories');
             const grid = document.getElementById('subGrid');
             grid.innerHTML = cat.subcategories.map(sub => `
-                <div class="sub-card" onclick="openSub('${cat.name}', '${sub.name.replace(/'/g, "\\\\'")}')">
-                    <h3>${sub.name}</h3>
+                <div class="sub-card" onclick="openSub(${escapeForJsAttr(cat.name)}, ${escapeForJsAttr(sub.name)})">
+                    <h3>${escapeHtml(sub.name)}</h3>
                     <span class="badge">${sub.count} habilidades</span>
                 </div>
             `).join('');
