@@ -1,1 +1,1 @@
-../engineering/agenthub/skills/merge/SKILL.md
+../agenthub/skills/merge/SKILL.md

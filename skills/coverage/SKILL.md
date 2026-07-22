@@ -1,1 +1,1 @@
-../engineering-team/playwright-pro/skills/coverage/SKILL.md
+../playwright-pro/skills/coverage/SKILL.md

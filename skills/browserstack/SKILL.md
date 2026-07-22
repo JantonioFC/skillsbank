@@ -1,1 +1,1 @@
-../engineering-team/playwright-pro/skills/browserstack/SKILL.md
+../playwright-pro/skills/browserstack/SKILL.md
