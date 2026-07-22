@@ -286,28 +286,6 @@
     }
   },
   {
-    "id": "marketing-skill__ab-test-setup",
-    "path": "skills/marketing-skill/ab-test-setup",
-    "category": "marketing",
-    "name": "ab-test-setup",
-    "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"conversion experiment,\" \"statistical significance,\" or \"test this.\" For trac...",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "ab-testing",
     "path": "skills/ab-testing",
     "category": "testing",
@@ -976,28 +954,6 @@
     }
   },
   {
-    "id": "engineering__agent-designer",
-    "path": "skills/engineering/agent-designer",
-    "category": "engineering",
-    "name": "agent-designer",
-    "description": "Agent Designer - Multi-Agent System Architecture",
-    "risk": "offensive",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "agent-eval",
     "path": "skills/agent-eval",
     "category": "ai-ml",
@@ -1555,30 +1511,6 @@
     "id": "agenthub",
     "path": "skills/agenthub",
     "category": "ai-ml",
-    "name": "agenthub",
-    "description": "Multi-agent collaboration plugin that spawns N parallel subagents competing on the same task via git worktree isolation. Agents work independently, results are evaluated by metric or LLM judge, and the best branch is merged. Use when: user wants multiple approaches tried in parallel \u2014 code optimi...",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "target_specific_home_path"
-      ]
-    }
-  },
-  {
-    "id": "engineering__agenthub",
-    "path": "skills/engineering/agenthub",
-    "category": "engineering",
     "name": "agenthub",
     "description": "Multi-agent collaboration plugin that spawns N parallel subagents competing on the same task via git worktree isolation. Agents work independently, results are evaluated by metric or LLM judge, and the best branch is merged. Use when: user wants multiple approaches tried in parallel \u2014 code optimi...",
     "risk": "safe",
@@ -3806,28 +3738,6 @@
     }
   },
   {
-    "id": "engineering__api-test-suite-builder",
-    "path": "skills/engineering/api-test-suite-builder",
-    "category": "engineering",
-    "name": "api-test-suite-builder",
-    "description": "API Test Suite Builder",
-    "risk": "offensive",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "api-testing-observability-api-mock",
     "path": "skills/api-testing-observability-api-mock",
     "category": "backend",
@@ -5335,30 +5245,6 @@
     }
   },
   {
-    "id": "engineering__autoresearch-agent",
-    "path": "skills/engineering/autoresearch-agent",
-    "category": "engineering",
-    "name": "autoresearch-agent",
-    "description": "Autonomous experiment loop that optimizes any file by a measurable metric. Inspired by Karpathy's autoresearch. The agent edits a target file, runs a fixed evaluation, keeps improvements (git commit), discards failures (git reset), and loops indefinitely. Use when: user wants to optimize code spe...",
-    "risk": "offensive",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "target_specific_home_path"
-      ]
-    }
-  },
-  {
     "id": "avalonia-layout-zafiro",
     "path": "skills/avalonia-layout-zafiro",
     "category": "development",
@@ -5491,28 +5377,6 @@
     }
   },
   {
-    "id": "security__aws-compliance-checker",
-    "path": "skills/security/aws-compliance-checker",
-    "category": "security",
-    "name": "aws-compliance-checker",
-    "description": "Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks",
-    "risk": "safe",
-    "source": "community",
-    "date_added": "2026-02-27",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "aws-cost-cleanup",
     "path": "skills/aws-cost-cleanup",
     "category": "cloud",
@@ -5579,28 +5443,6 @@
     }
   },
   {
-    "id": "security__aws-iam-best-practices",
-    "path": "skills/security/aws-iam-best-practices",
-    "category": "security",
-    "name": "aws-iam-best-practices",
-    "description": "IAM policy review, hardening, and least privilege implementation",
-    "risk": "safe",
-    "source": "community",
-    "date_added": "2026-02-27",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "aws-penetration-testing",
     "path": "skills/aws-penetration-testing",
     "category": "cloud",
@@ -5645,52 +5487,8 @@
     }
   },
   {
-    "id": "security__aws-secrets-rotation",
-    "path": "skills/security/aws-secrets-rotation",
-    "category": "security",
-    "name": "aws-secrets-rotation",
-    "description": "Automate AWS secrets rotation for RDS, API keys, and credentials",
-    "risk": "safe",
-    "source": "community",
-    "date_added": "2026-02-27",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "aws-security-audit",
     "path": "skills/aws-security-audit",
-    "category": "security",
-    "name": "aws-security-audit",
-    "description": "Comprehensive AWS security posture assessment using AWS CLI and security best practices",
-    "risk": "safe",
-    "source": "community",
-    "date_added": "2026-02-27",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "security__aws-security-audit",
-    "path": "skills/security/aws-security-audit",
     "category": "security",
     "name": "aws-security-audit",
     "description": "Comprehensive AWS security posture assessment using AWS CLI and security best practices",
@@ -10173,28 +9971,6 @@
     }
   },
   {
-    "id": "libreoffice__base",
-    "path": "skills/libreoffice/base",
-    "category": "database-processing",
-    "name": "base",
-    "description": "Database management, forms, reports, and data operations with LibreOffice Base.",
-    "risk": "safe",
-    "source": "personal",
-    "date_added": "2026-02-27",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "basecamp-automation",
     "path": "skills/basecamp-automation",
     "category": "project-management",
@@ -12269,28 +12045,6 @@
   {
     "id": "calc",
     "path": "skills/calc",
-    "category": "spreadsheet-processing",
-    "name": "calc",
-    "description": "Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.",
-    "risk": "safe",
-    "source": "personal",
-    "date_added": "2026-02-27",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "libreoffice__calc",
-    "path": "skills/libreoffice/calc",
     "category": "spreadsheet-processing",
     "name": "calc",
     "description": "Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.",
@@ -15839,28 +15593,6 @@
     }
   },
   {
-    "id": "marketing-skill__competitor-alternatives",
-    "path": "skills/marketing-skill/competitor-alternatives",
-    "category": "marketing-skill",
-    "name": "competitor-alternatives",
-    "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'switch...",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "competitor-analysis",
     "path": "skills/competitor-analysis",
     "category": "marketing",
@@ -17380,52 +17112,8 @@
     }
   },
   {
-    "id": "marketing-skill__copy-editing",
-    "path": "skills/marketing-skill/copy-editing",
-    "category": "marketing",
-    "name": "copy-editing",
-    "description": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy throug...",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "copywriting",
     "path": "skills/copywriting",
-    "category": "marketing",
-    "name": "copywriting",
-    "description": "When the user wants to write, rewrite, or improve marketing copy for any page \u2014 including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,...",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "marketing-skill__copywriting",
-    "path": "skills/marketing-skill/copywriting",
     "category": "marketing",
     "name": "copywriting",
     "description": "When the user wants to write, rewrite, or improve marketing copy for any page \u2014 including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,...",
@@ -20318,28 +20006,6 @@
     }
   },
   {
-    "id": "engineering__database-schema-designer",
-    "path": "skills/engineering/database-schema-designer",
-    "category": "engineering",
-    "name": "database-schema-designer",
-    "description": "Database Schema Designer",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "database-scout",
     "path": "skills/database-scout",
     "category": "database",
@@ -23019,28 +22685,6 @@
   {
     "id": "draw",
     "path": "skills/draw",
-    "category": "graphics-processing",
-    "name": "draw",
-    "description": "Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.",
-    "risk": "safe",
-    "source": "personal",
-    "date_added": "2026-02-27",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "libreoffice__draw",
-    "path": "skills/libreoffice/draw",
     "category": "graphics-processing",
     "name": "draw",
     "description": "Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.",
@@ -32006,28 +31650,6 @@
     }
   },
   {
-    "id": "libreoffice__impress",
-    "path": "skills/libreoffice/impress",
-    "category": "presentation-processing",
-    "name": "impress",
-    "description": "Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.",
-    "risk": "safe",
-    "source": "personal",
-    "date_added": "2026-02-27",
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "improve-codebase-architecture",
     "path": "skills/improve-codebase-architecture",
     "category": "development",
@@ -32390,28 +32012,6 @@
   {
     "id": "agenthub__skills__init",
     "path": "skills/agenthub/skills/init",
-    "category": "uncategorized",
-    "name": "init",
-    "description": "Create a new AgentHub collaboration session with task, agent count, and evaluation criteria.",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "engineering__agenthub__skills__init",
-    "path": "skills/engineering/agenthub/skills/init",
     "category": "uncategorized",
     "name": "init",
     "description": "Create a new AgentHub collaboration session with task, agent count, and evaluation criteria.",
@@ -37486,28 +37086,6 @@
     }
   },
   {
-    "id": "marketing-skill__marketing-ideas",
-    "path": "skills/marketing-skill/marketing-ideas",
-    "category": "marketing",
-    "name": "marketing-ideas",
-    "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 139 prove...",
-    "risk": "offensive",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "marketing-loops",
     "path": "skills/marketing-loops",
     "category": "automation",
@@ -42055,30 +41633,6 @@
     }
   },
   {
-    "id": "marketing-skill__onboarding-cro",
-    "path": "skills/marketing-skill/onboarding-cro",
-    "category": "marketing",
-    "name": "onboarding-cro",
-    "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" or \"new user expe...",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "blocked"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "broken_local_reference"
-      ]
-    }
-  },
-  {
     "id": "onboarding-cro",
     "path": "skills/onboarding-cro",
     "category": "marketing",
@@ -42661,30 +42215,6 @@
     }
   },
   {
-    "id": "marketing-skill__page-cro",
-    "path": "skills/marketing-skill/page-cro",
-    "category": "marketing",
-    "name": "page-cro",
-    "description": "When the user wants to optimize, improve, or increase conversions on any marketing page \u2014 including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" or \"why...",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "blocked"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "broken_local_reference"
-      ]
-    }
-  },
-  {
     "id": "page-cro",
     "path": "skills/page-cro",
     "category": "marketing",
@@ -42748,30 +42278,6 @@
         "docs": null
       },
       "reasons": []
-    }
-  },
-  {
-    "id": "marketing-skill__paid-ads",
-    "path": "skills/marketing-skill/paid-ads",
-    "category": "marketing",
-    "name": "paid-ads",
-    "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This ...",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "blocked"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "escaped_local_reference"
-      ]
     }
   },
   {
@@ -43041,30 +42547,6 @@
         "docs": null
       },
       "reasons": []
-    }
-  },
-  {
-    "id": "marketing-skill__paywall-upgrade-cro",
-    "path": "skills/marketing-skill/paywall-upgrade-cro",
-    "category": "marketing",
-    "name": "paywall-upgrade-cro",
-    "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit rea...",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "blocked"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "broken_local_reference"
-      ]
     }
   },
   {
@@ -44687,28 +44169,6 @@
     }
   },
   {
-    "id": "engineering__pr-review-expert",
-    "path": "skills/engineering/pr-review-expert",
-    "category": "engineering",
-    "name": "pr-review-expert",
-    "description": "PR Review Expert",
-    "risk": "offensive",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "pr-review-expert",
     "path": "skills/pr-review-expert",
     "category": "uncategorized",
@@ -45615,30 +45075,6 @@
         "docs": null
       },
       "reasons": []
-    }
-  },
-  {
-    "id": "marketing-skill__programmatic-seo",
-    "path": "skills/marketing-skill/programmatic-seo",
-    "category": "marketing",
-    "name": "programmatic-seo",
-    "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" or \"building many pag...",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "blocked"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "broken_local_reference"
-      ]
     }
   },
   {
@@ -47484,28 +46920,6 @@
     }
   },
   {
-    "id": "engineering__rag-architect",
-    "path": "skills/engineering/rag-architect",
-    "category": "engineering",
-    "name": "rag-architect",
-    "description": "RAG Architect - POWERFUL",
-    "risk": "offensive",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "rag-architect",
     "path": "skills/rag-architect",
     "category": "ai-ml",
@@ -48542,28 +47956,6 @@
     "name": "related-skill",
     "description": "Discover and install related skills from inference.sh skill registry. Helps find complementary skills for your AI workflow. Use for: skill discovery, workflow expansion, capability exploration. Triggers: related skills, find skills, skill discovery, complementary skills, expand workflow, m...",
     "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "engineering__release-manager",
-    "path": "skills/engineering/release-manager",
-    "category": "engineering",
-    "name": "release-manager",
-    "description": "Release Manager",
-    "risk": "offensive",
     "source": "community",
     "date_added": null,
     "plugin": {
@@ -49972,50 +49364,6 @@
   {
     "id": "autoresearch-agent__skills__run",
     "path": "skills/autoresearch-agent/skills/run",
-    "category": "uncategorized",
-    "name": "run",
-    "description": "Run a single experiment iteration. Edit the target file, evaluate, keep or discard.",
-    "risk": "offensive",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "engineering__agenthub__skills__run",
-    "path": "skills/engineering/agenthub/skills/run",
-    "category": "uncategorized",
-    "name": "run",
-    "description": "One-shot lifecycle command that chains init \u2192 baseline \u2192 spawn \u2192 eval \u2192 merge in a single invocation.",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "engineering__autoresearch-agent__skills__run",
-    "path": "skills/engineering/autoresearch-agent/skills/run",
     "category": "uncategorized",
     "name": "run",
     "description": "Run a single experiment iteration. Edit the target file, evaluate, keep or discard.",
@@ -52287,28 +51635,6 @@
     "name": "senior-frontend",
     "description": "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.",
     "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "engineering-team__senior-fullstack",
-    "path": "skills/engineering-team/senior-fullstack",
-    "category": "development",
-    "name": "senior-fullstack",
-    "description": "Fullstack development toolkit with project scaffolding for Next.js, FastAPI, MERN, and Django stacks, code quality analysis with security and complexity scoring, and stack selection guidance. Use when the user asks to \"scaffold a new project\", \"create a Next.js app\", \"set up FastAPI with React\", ...",
-    "risk": "offensive",
     "source": "community",
     "date_added": null,
     "plugin": {
@@ -55053,28 +54379,6 @@
     }
   },
   {
-    "id": "marketing-skill__social-content",
-    "path": "skills/marketing-skill/social-content",
-    "category": "marketing",
-    "name": "social-content",
-    "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or ...",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "social-content",
     "path": "skills/social-content",
     "category": "marketing",
@@ -56422,50 +55726,6 @@
       "reasons": [
         "target_specific_home_path"
       ]
-    }
-  },
-  {
-    "id": "engineering__agenthub__skills__status",
-    "path": "skills/engineering/agenthub/skills/status",
-    "category": "uncategorized",
-    "name": "status",
-    "description": "Show DAG state, agent progress, and branch status for an AgentHub session.",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "engineering__autoresearch-agent__skills__status",
-    "path": "skills/engineering/autoresearch-agent/skills/status",
-    "category": "uncategorized",
-    "name": "status",
-    "description": "Show experiment dashboard with results, active loops, and progress.",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
     }
   },
   {
@@ -58505,30 +57765,6 @@
         "docs": null
       },
       "reasons": []
-    }
-  },
-  {
-    "id": "engineering__terraform-patterns",
-    "path": "skills/engineering/terraform-patterns",
-    "category": "engineering",
-    "name": "terraform-patterns",
-    "description": "Terraform infrastructure-as-code agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Covers module design patterns, state management strategies, provider configuration, security hardening, policy-as-code with Sentinel/OPA, and CI/CD plan/apply workflows. Use when: user wa...",
-    "risk": "safe",
-    "source": "community",
-    "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "target_specific_home_path"
-      ]
     }
   },
   {
@@ -63696,28 +62932,6 @@
     "risk": "safe",
     "source": "community",
     "date_added": null,
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "libreoffice__writer",
-    "path": "skills/libreoffice/writer",
-    "category": "document-processing",
-    "name": "writer",
-    "description": "Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer.",
-    "risk": "safe",
-    "source": "personal",
-    "date_added": "2026-02-27",
     "plugin": {
       "targets": {
         "codex": "supported",

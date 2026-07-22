@@ -1,1 +1,1 @@
-../engineering/autoresearch-agent/skills/status/SKILL.md
+../agenthub/skills/status/SKILL.md

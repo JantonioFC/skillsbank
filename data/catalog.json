@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T17:11:21.624Z",
-  "total": 2975,
+  "generatedAt": "2026-07-22T17:41:06.782Z",
+  "total": 2940,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -28535,33 +28535,6 @@
       "path": "skills/engineering-team/senior-devops/SKILL.md"
     },
     {
-      "id": "engineering-team/senior-fullstack",
-      "name": "senior-fullstack",
-      "description": "Fullstack development toolkit with project scaffolding for Next.js, FastAPI, MERN, and Django stacks, code quality analysis with security and complexity scoring, and stack selection guidance. Use when the user asks to \"scaffold a new project\", \"create a Next.js app\", \"set up FastAPI with React\", ...",
-      "category": "security",
-      "subcategory": null,
-      "tags": [
-        "engineering",
-        "team/senior",
-        "fullstack"
-      ],
-      "triggers": [
-        "engineering",
-        "team/senior",
-        "fullstack",
-        "senior",
-        "development",
-        "toolkit",
-        "scaffolding",
-        "next",
-        "js",
-        "fastapi",
-        "mern",
-        "django"
-      ],
-      "path": "skills/engineering-team/senior-fullstack/SKILL.md"
-    },
-    {
       "id": "engineering-team/senior-qa",
       "name": "senior-qa",
       "description": "Generates unit tests, integration tests, and E2E tests for React/Next.js applications. Scans components to create Jest + React Testing Library test stubs, analyzes Istanbul/LCOV coverage reports to surface gaps, scaffolds Playwright test files from Next.js routes, mocks API calls with MSW, create...",
@@ -28643,218 +28616,6 @@
       "path": "skills/engineering-team/tech-stack-evaluator/SKILL.md"
     },
     {
-      "id": "engineering/agent-designer",
-      "name": "agent-designer",
-      "description": "Agent Designer - Multi-Agent System Architecture",
-      "category": "architecture",
-      "subcategory": null,
-      "tags": [
-        "engineering/agent",
-        "designer"
-      ],
-      "triggers": [
-        "engineering/agent",
-        "designer",
-        "agent",
-        "multi",
-        "architecture"
-      ],
-      "path": "skills/engineering/agent-designer/SKILL.md"
-    },
-    {
-      "id": "engineering/agenthub",
-      "name": "agenthub",
-      "description": "Multi-agent collaboration plugin that spawns N parallel subagents competing on the same task via git worktree isolation. Agents work independently, results are evaluated by metric or LLM judge, and the best branch is merged. Use when: user wants multiple approaches tried in parallel — code optimi...",
-      "category": "data-ai",
-      "subcategory": null,
-      "tags": [
-        "engineering/agenthub"
-      ],
-      "triggers": [
-        "engineering/agenthub",
-        "agenthub",
-        "multi",
-        "agent",
-        "collaboration",
-        "plugin",
-        "spawns",
-        "parallel",
-        "subagents",
-        "competing",
-        "same",
-        "task"
-      ],
-      "path": "skills/engineering/agenthub/SKILL.md"
-    },
-    {
-      "id": "engineering/agenthub/skills/init",
-      "name": "init",
-      "description": "Create a new AgentHub collaboration session with task, agent count, and evaluation criteria.",
-      "category": "workflow",
-      "subcategory": null,
-      "tags": [
-        "engineering/agenthub/skills/init"
-      ],
-      "triggers": [
-        "engineering/agenthub/skills/init",
-        "init",
-        "new",
-        "agenthub",
-        "collaboration",
-        "session",
-        "task",
-        "agent",
-        "count",
-        "evaluation",
-        "criteria"
-      ],
-      "path": "skills/engineering/agenthub/skills/init/SKILL.md"
-    },
-    {
-      "id": "engineering/agenthub/skills/run",
-      "name": "run",
-      "description": "One-shot lifecycle command that chains init → baseline → spawn → eval → merge in a single invocation.",
-      "category": "general",
-      "subcategory": "agent-tools",
-      "tags": [
-        "engineering/agenthub/skills/run"
-      ],
-      "triggers": [
-        "engineering/agenthub/skills/run",
-        "run",
-        "one",
-        "shot",
-        "lifecycle",
-        "command",
-        "chains",
-        "init",
-        "baseline",
-        "spawn",
-        "eval",
-        "merge"
-      ],
-      "path": "skills/engineering/agenthub/skills/run/SKILL.md"
-    },
-    {
-      "id": "engineering/agenthub/skills/status",
-      "name": "status",
-      "description": "Show DAG state, agent progress, and branch status for an AgentHub session.",
-      "category": "general",
-      "subcategory": "general-misc",
-      "tags": [
-        "engineering/agenthub/skills/status"
-      ],
-      "triggers": [
-        "engineering/agenthub/skills/status",
-        "status",
-        "show",
-        "dag",
-        "state",
-        "agent",
-        "progress",
-        "branch",
-        "agenthub",
-        "session"
-      ],
-      "path": "skills/engineering/agenthub/skills/status/SKILL.md"
-    },
-    {
-      "id": "engineering/api-test-suite-builder",
-      "name": "api-test-suite-builder",
-      "description": "API Test Suite Builder",
-      "category": "development",
-      "subcategory": "dev-general",
-      "tags": [
-        "engineering/api",
-        "suite",
-        "builder"
-      ],
-      "triggers": [
-        "engineering/api",
-        "suite",
-        "builder",
-        "api",
-        "test"
-      ],
-      "path": "skills/engineering/api-test-suite-builder/SKILL.md"
-    },
-    {
-      "id": "engineering/autoresearch-agent",
-      "name": "autoresearch-agent",
-      "description": "Autonomous experiment loop that optimizes any file by a measurable metric. Inspired by Karpathy's autoresearch. The agent edits a target file, runs a fixed evaluation, keeps improvements (git commit), discards failures (git reset), and loops indefinitely. Use when: user wants to optimize code spe...",
-      "category": "general",
-      "subcategory": "general-misc",
-      "tags": [
-        "engineering/autoresearch",
-        "agent"
-      ],
-      "triggers": [
-        "engineering/autoresearch",
-        "agent",
-        "autoresearch",
-        "autonomous",
-        "experiment",
-        "loop",
-        "optimizes",
-        "any",
-        "file",
-        "measurable",
-        "metric",
-        "inspired"
-      ],
-      "path": "skills/engineering/autoresearch-agent/SKILL.md"
-    },
-    {
-      "id": "engineering/autoresearch-agent/skills/run",
-      "name": "run",
-      "description": "Run a single experiment iteration. Edit the target file, evaluate, keep or discard.",
-      "category": "general",
-      "subcategory": "general-misc",
-      "tags": [
-        "engineering/autoresearch",
-        "agent/skills/run"
-      ],
-      "triggers": [
-        "engineering/autoresearch",
-        "agent/skills/run",
-        "run",
-        "single",
-        "experiment",
-        "iteration",
-        "edit",
-        "target",
-        "file",
-        "evaluate",
-        "keep",
-        "discard"
-      ],
-      "path": "skills/engineering/autoresearch-agent/skills/run/SKILL.md"
-    },
-    {
-      "id": "engineering/autoresearch-agent/skills/status",
-      "name": "status",
-      "description": "Show experiment dashboard with results, active loops, and progress.",
-      "category": "general",
-      "subcategory": "general-misc",
-      "tags": [
-        "engineering/autoresearch",
-        "agent/skills/status"
-      ],
-      "triggers": [
-        "engineering/autoresearch",
-        "agent/skills/status",
-        "status",
-        "show",
-        "experiment",
-        "dashboard",
-        "results",
-        "active",
-        "loops",
-        "progress"
-      ],
-      "path": "skills/engineering/autoresearch-agent/skills/status/SKILL.md"
-    },
-    {
       "id": "engineering/database-designer",
       "name": "database-designer",
       "description": "Database Designer - POWERFUL Tier Skill",
@@ -28875,25 +28636,6 @@
       "path": "skills/engineering/database-designer/SKILL.md"
     },
     {
-      "id": "engineering/database-schema-designer",
-      "name": "database-schema-designer",
-      "description": "Database Schema Designer",
-      "category": "data-ai",
-      "subcategory": null,
-      "tags": [
-        "engineering/database",
-        "schema",
-        "designer"
-      ],
-      "triggers": [
-        "engineering/database",
-        "schema",
-        "designer",
-        "database"
-      ],
-      "path": "skills/engineering/database-schema-designer/SKILL.md"
-    },
-    {
       "id": "engineering/env-secrets-manager",
       "name": "env-secrets-manager",
       "description": "Env & Secrets Manager",
@@ -28911,81 +28653,6 @@
         "env"
       ],
       "path": "skills/engineering/env-secrets-manager/SKILL.md"
-    },
-    {
-      "id": "engineering/pr-review-expert",
-      "name": "pr-review-expert",
-      "description": "PR Review Expert",
-      "category": "general",
-      "subcategory": "code-quality",
-      "tags": [
-        "engineering/pr"
-      ],
-      "triggers": [
-        "engineering/pr",
-        "pr",
-        "review"
-      ],
-      "path": "skills/engineering/pr-review-expert/SKILL.md"
-    },
-    {
-      "id": "engineering/rag-architect",
-      "name": "rag-architect",
-      "description": "RAG Architect - POWERFUL",
-      "category": "data-ai",
-      "subcategory": null,
-      "tags": [
-        "engineering/rag"
-      ],
-      "triggers": [
-        "engineering/rag",
-        "rag",
-        "architect",
-        "powerful"
-      ],
-      "path": "skills/engineering/rag-architect/SKILL.md"
-    },
-    {
-      "id": "engineering/release-manager",
-      "name": "release-manager",
-      "description": "Release Manager",
-      "category": "general",
-      "subcategory": "general-misc",
-      "tags": [
-        "engineering/release",
-        "manager"
-      ],
-      "triggers": [
-        "engineering/release",
-        "manager",
-        "release"
-      ],
-      "path": "skills/engineering/release-manager/SKILL.md"
-    },
-    {
-      "id": "engineering/terraform-patterns",
-      "name": "terraform-patterns",
-      "description": "Terraform infrastructure-as-code agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Covers module design patterns, state management strategies, provider configuration, security hardening, policy-as-code with Sentinel/OPA, and CI/CD plan/apply workflows. Use when: user wa...",
-      "category": "security",
-      "subcategory": null,
-      "tags": [
-        "engineering/terraform"
-      ],
-      "triggers": [
-        "engineering/terraform",
-        "terraform",
-        "infrastructure",
-        "code",
-        "agent",
-        "skill",
-        "plugin",
-        "claude",
-        "codex",
-        "gemini",
-        "cli",
-        "cursor"
-      ],
-      "path": "skills/engineering/terraform-patterns/SKILL.md"
     },
     {
       "id": "enhance-prompt",
@@ -41791,127 +41458,6 @@
       "path": "skills/lex/SKILL.md"
     },
     {
-      "id": "libreoffice/base",
-      "name": "base",
-      "description": "Database management, forms, reports, and data operations with LibreOffice Base.",
-      "category": "data-ai",
-      "subcategory": null,
-      "tags": [
-        "libreoffice/base"
-      ],
-      "triggers": [
-        "libreoffice/base",
-        "base",
-        "database",
-        "forms",
-        "reports",
-        "data",
-        "operations",
-        "libreoffice"
-      ],
-      "path": "skills/libreoffice/base/SKILL.md"
-    },
-    {
-      "id": "libreoffice/calc",
-      "name": "calc",
-      "description": "Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.",
-      "category": "data-ai",
-      "subcategory": null,
-      "tags": [
-        "libreoffice/calc"
-      ],
-      "triggers": [
-        "libreoffice/calc",
-        "calc",
-        "spreadsheet",
-        "creation",
-        "format",
-        "conversion",
-        "ods",
-        "xlsx",
-        "csv",
-        "formulas",
-        "data",
-        "automation"
-      ],
-      "path": "skills/libreoffice/calc/SKILL.md"
-    },
-    {
-      "id": "libreoffice/draw",
-      "name": "draw",
-      "description": "Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.",
-      "category": "data-ai",
-      "subcategory": null,
-      "tags": [
-        "libreoffice/draw"
-      ],
-      "triggers": [
-        "libreoffice/draw",
-        "draw",
-        "vector",
-        "graphics",
-        "diagram",
-        "creation",
-        "format",
-        "conversion",
-        "odg",
-        "svg",
-        "pdf",
-        "libreoffice"
-      ],
-      "path": "skills/libreoffice/draw/SKILL.md"
-    },
-    {
-      "id": "libreoffice/impress",
-      "name": "impress",
-      "description": "Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.",
-      "category": "workflow",
-      "subcategory": null,
-      "tags": [
-        "libreoffice/impress"
-      ],
-      "triggers": [
-        "libreoffice/impress",
-        "impress",
-        "presentation",
-        "creation",
-        "format",
-        "conversion",
-        "odp",
-        "pptx",
-        "pdf",
-        "slide",
-        "automation",
-        "libreoffice"
-      ],
-      "path": "skills/libreoffice/impress/SKILL.md"
-    },
-    {
-      "id": "libreoffice/writer",
-      "name": "writer",
-      "description": "Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer.",
-      "category": "workflow",
-      "subcategory": null,
-      "tags": [
-        "libreoffice/writer"
-      ],
-      "triggers": [
-        "libreoffice/writer",
-        "writer",
-        "document",
-        "creation",
-        "format",
-        "conversion",
-        "odt",
-        "docx",
-        "pdf",
-        "mail",
-        "merge",
-        "automation"
-      ],
-      "path": "skills/libreoffice/writer/SKILL.md"
-    },
-    {
       "id": "lightning-architecture-review",
       "name": "lightning-architecture-review",
       "description": "Review Bitcoin Lightning Network protocol designs, compare channel factory approaches, and analyze Layer 2 scaling tradeoffs. Covers trust models, on-chain footprint, consensus requirements, HTLC/PTLC compatibility, liveness, and watchtower support.",
@@ -44553,33 +44099,6 @@
       "path": "skills/marketing-skill-bundle/SKILL.md"
     },
     {
-      "id": "marketing-skill/ab-test-setup",
-      "name": "ab-test-setup",
-      "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"conversion experiment,\" \"statistical significance,\" or \"test this.\" For trac...",
-      "category": "testing",
-      "subcategory": null,
-      "tags": [
-        "marketing",
-        "skill/ab",
-        "setup"
-      ],
-      "triggers": [
-        "marketing",
-        "skill/ab",
-        "setup",
-        "ab",
-        "test",
-        "user",
-        "wants",
-        "plan",
-        "experiment",
-        "mentions",
-        "split",
-        "change"
-      ],
-      "path": "skills/marketing-skill/ab-test-setup/SKILL.md"
-    },
-    {
       "id": "marketing-skill/ad-creative",
       "name": "ad-creative",
       "description": "When the user needs to generate, iterate, or scale ad creative for paid advertising. Use when they say 'write ad copy,' 'generate headlines,' 'create ad variations,' 'bulk creative,' 'iterate on ads,' 'ad copy validation,' 'RSA headlines,' 'Meta ad copy,' 'LinkedIn ad,' or 'creative testing.' Thi...",
@@ -44797,33 +44316,6 @@
       "path": "skills/marketing-skill/cold-email/SKILL.md"
     },
     {
-      "id": "marketing-skill/competitor-alternatives",
-      "name": "competitor-alternatives",
-      "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'switch...",
-      "category": "business",
-      "subcategory": null,
-      "tags": [
-        "marketing",
-        "skill/competitor",
-        "alternatives"
-      ],
-      "triggers": [
-        "marketing",
-        "skill/competitor",
-        "alternatives",
-        "competitor",
-        "user",
-        "wants",
-        "comparison",
-        "alternative",
-        "pages",
-        "seo",
-        "sales",
-        "enablement"
-      ],
-      "path": "skills/marketing-skill/competitor-alternatives/SKILL.md"
-    },
-    {
       "id": "marketing-skill/content-strategy",
       "name": "content-strategy",
       "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" or \"content planning.\" For writing individual pie...",
@@ -44848,59 +44340,6 @@
         "mentions"
       ],
       "path": "skills/marketing-skill/content-strategy/SKILL.md"
-    },
-    {
-      "id": "marketing-skill/copy-editing",
-      "name": "copy-editing",
-      "description": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy throug...",
-      "category": "business",
-      "subcategory": null,
-      "tags": [
-        "marketing",
-        "skill/copy",
-        "editing"
-      ],
-      "triggers": [
-        "marketing",
-        "skill/copy",
-        "editing",
-        "copy",
-        "user",
-        "wants",
-        "edit",
-        "review",
-        "improve",
-        "existing",
-        "mentions",
-        "my"
-      ],
-      "path": "skills/marketing-skill/copy-editing/SKILL.md"
-    },
-    {
-      "id": "marketing-skill/copywriting",
-      "name": "copywriting",
-      "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,...",
-      "category": "business",
-      "subcategory": null,
-      "tags": [
-        "marketing",
-        "skill/copywriting"
-      ],
-      "triggers": [
-        "marketing",
-        "skill/copywriting",
-        "copywriting",
-        "user",
-        "wants",
-        "write",
-        "rewrite",
-        "improve",
-        "copy",
-        "any",
-        "page",
-        "including"
-      ],
-      "path": "skills/marketing-skill/copywriting/SKILL.md"
     },
     {
       "id": "marketing-skill/email-sequence",
@@ -45009,33 +44448,6 @@
       "path": "skills/marketing-skill/launch-strategy/SKILL.md"
     },
     {
-      "id": "marketing-skill/marketing-ideas",
-      "name": "marketing-ideas",
-      "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 139 prove...",
-      "category": "business",
-      "subcategory": null,
-      "tags": [
-        "marketing",
-        "skill/marketing",
-        "ideas"
-      ],
-      "triggers": [
-        "marketing",
-        "skill/marketing",
-        "ideas",
-        "user",
-        "inspiration",
-        "saas",
-        "software",
-        "product",
-        "asks",
-        "growth",
-        "how",
-        "market"
-      ],
-      "path": "skills/marketing-skill/marketing-ideas/SKILL.md"
-    },
-    {
       "id": "marketing-skill/marketing-ops",
       "name": "marketing-ops",
       "description": "Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating across content, SEO, CRO, channels, and analytics. Also use when the user mentions 'marketing help,' 'campaign plan,' 'what should I do n...",
@@ -45090,115 +44502,6 @@
       "path": "skills/marketing-skill/marketing-psychology/SKILL.md"
     },
     {
-      "id": "marketing-skill/onboarding-cro",
-      "name": "onboarding-cro",
-      "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" or \"new user expe...",
-      "category": "business",
-      "subcategory": null,
-      "tags": [
-        "marketing",
-        "skill/onboarding",
-        "cro"
-      ],
-      "triggers": [
-        "marketing",
-        "skill/onboarding",
-        "cro",
-        "onboarding",
-        "user",
-        "wants",
-        "optimize",
-        "post",
-        "signup",
-        "activation",
-        "first",
-        "run"
-      ],
-      "path": "skills/marketing-skill/onboarding-cro/SKILL.md"
-    },
-    {
-      "id": "marketing-skill/page-cro",
-      "name": "page-cro",
-      "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" or \"why...",
-      "category": "business",
-      "subcategory": null,
-      "tags": [
-        "marketing",
-        "skill/page",
-        "cro"
-      ],
-      "triggers": [
-        "marketing",
-        "skill/page",
-        "cro",
-        "page",
-        "user",
-        "wants",
-        "optimize",
-        "improve",
-        "increase",
-        "conversions",
-        "any",
-        "including"
-      ],
-      "path": "skills/marketing-skill/page-cro/SKILL.md"
-    },
-    {
-      "id": "marketing-skill/paid-ads",
-      "name": "paid-ads",
-      "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This ...",
-      "category": "business",
-      "subcategory": null,
-      "tags": [
-        "marketing",
-        "skill/paid",
-        "ads"
-      ],
-      "triggers": [
-        "marketing",
-        "skill/paid",
-        "ads",
-        "paid",
-        "user",
-        "wants",
-        "advertising",
-        "campaigns",
-        "google",
-        "meta",
-        "facebook",
-        "instagram"
-      ],
-      "path": "skills/marketing-skill/paid-ads/SKILL.md"
-    },
-    {
-      "id": "marketing-skill/paywall-upgrade-cro",
-      "name": "paywall-upgrade-cro",
-      "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit rea...",
-      "category": "business",
-      "subcategory": null,
-      "tags": [
-        "marketing",
-        "skill/paywall",
-        "upgrade",
-        "cro"
-      ],
-      "triggers": [
-        "marketing",
-        "skill/paywall",
-        "upgrade",
-        "cro",
-        "paywall",
-        "user",
-        "wants",
-        "optimize",
-        "app",
-        "paywalls",
-        "screens",
-        "upsell"
-      ],
-      "path": "skills/marketing-skill/paywall-upgrade-cro/SKILL.md"
-    },
-    {
       "id": "marketing-skill/popup-cro",
       "name": "popup-cro",
       "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" or \"overlay.\" For forms outside ...",
@@ -45250,33 +44553,6 @@
         "price"
       ],
       "path": "skills/marketing-skill/pricing-strategy/SKILL.md"
-    },
-    {
-      "id": "marketing-skill/programmatic-seo",
-      "name": "programmatic-seo",
-      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" or \"building many pag...",
-      "category": "data-ai",
-      "subcategory": null,
-      "tags": [
-        "marketing",
-        "skill/programmatic",
-        "seo"
-      ],
-      "triggers": [
-        "marketing",
-        "skill/programmatic",
-        "seo",
-        "programmatic",
-        "user",
-        "wants",
-        "driven",
-        "pages",
-        "scale",
-        "data",
-        "mentions",
-        "directory"
-      ],
-      "path": "skills/marketing-skill/programmatic-seo/SKILL.md"
     },
     {
       "id": "marketing-skill/referral-program",
@@ -45413,33 +44689,6 @@
         "url"
       ],
       "path": "skills/marketing-skill/site-architecture/SKILL.md"
-    },
-    {
-      "id": "marketing-skill/social-content",
-      "name": "social-content",
-      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or ...",
-      "category": "business",
-      "subcategory": null,
-      "tags": [
-        "marketing",
-        "skill/social",
-        "content"
-      ],
-      "triggers": [
-        "marketing",
-        "skill/social",
-        "content",
-        "social",
-        "user",
-        "wants",
-        "creating",
-        "scheduling",
-        "optimizing",
-        "media",
-        "linkedin",
-        "twitter"
-      ],
-      "path": "skills/marketing-skill/social-content/SKILL.md"
     },
     {
       "id": "marketing-skill/social-media-analyzer",
@@ -61795,123 +61044,6 @@
       "path": "skills/security-threat-model/SKILL.md"
     },
     {
-      "id": "security/aws-compliance-checker",
-      "name": "aws-compliance-checker",
-      "description": "Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks",
-      "category": "security",
-      "subcategory": null,
-      "tags": [
-        "aws",
-        "compliance",
-        "audit",
-        "cis",
-        "pci-dss",
-        "hipaa",
-        "kiro-cli"
-      ],
-      "triggers": [
-        "aws",
-        "compliance",
-        "audit",
-        "cis",
-        "pci-dss",
-        "hipaa",
-        "kiro-cli",
-        "checker",
-        "automated",
-        "checking",
-        "against",
-        "pci"
-      ],
-      "path": "skills/security/aws-compliance-checker/SKILL.md"
-    },
-    {
-      "id": "security/aws-iam-best-practices",
-      "name": "aws-iam-best-practices",
-      "description": "IAM policy review, hardening, and least privilege implementation",
-      "category": "security",
-      "subcategory": null,
-      "tags": [
-        "aws",
-        "iam",
-        "security",
-        "access-control",
-        "kiro-cli",
-        "least-privilege"
-      ],
-      "triggers": [
-        "aws",
-        "iam",
-        "security",
-        "access-control",
-        "kiro-cli",
-        "least-privilege",
-        "policy",
-        "review",
-        "hardening",
-        "least",
-        "privilege"
-      ],
-      "path": "skills/security/aws-iam-best-practices/SKILL.md"
-    },
-    {
-      "id": "security/aws-secrets-rotation",
-      "name": "aws-secrets-rotation",
-      "description": "Automate AWS secrets rotation for RDS, API keys, and credentials",
-      "category": "security",
-      "subcategory": null,
-      "tags": [
-        "aws",
-        "secrets-manager",
-        "security",
-        "automation",
-        "kiro-cli",
-        "credentials"
-      ],
-      "triggers": [
-        "aws",
-        "secrets-manager",
-        "security",
-        "automation",
-        "kiro-cli",
-        "credentials",
-        "secrets",
-        "rotation",
-        "automate",
-        "rds",
-        "api",
-        "keys"
-      ],
-      "path": "skills/security/aws-secrets-rotation/SKILL.md"
-    },
-    {
-      "id": "security/aws-security-audit",
-      "name": "aws-security-audit",
-      "description": "Comprehensive AWS security posture assessment using AWS CLI and security best practices",
-      "category": "security",
-      "subcategory": null,
-      "tags": [
-        "aws",
-        "security",
-        "audit",
-        "compliance",
-        "kiro-cli",
-        "security-assessment"
-      ],
-      "triggers": [
-        "aws",
-        "security",
-        "audit",
-        "compliance",
-        "kiro-cli",
-        "security-assessment",
-        "posture",
-        "assessment",
-        "cli"
-      ],
-      "path": "skills/security/aws-security-audit/SKILL.md"
-    },
-    {
       "id": "seek-and-analyze-video",
       "name": "seek-and-analyze-video",
       "description": "Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence",
@@ -65207,8 +64339,8 @@
     {
       "id": "skills-init",
       "name": "init",
-      "description": "Create a new AgentHub collaboration session with task, agent count, and evaluation criteria.",
-      "category": "workflow",
+      "description": "Set up Playwright in a project. Use when user says \"set up playwright\", \"add e2e tests\", \"configure playwright\", \"testing setup\", \"init playwright\", or \"add test infrastructure\".",
+      "category": "testing",
       "subcategory": null,
       "tags": [
         "skills",
@@ -65217,15 +64349,16 @@
       "triggers": [
         "skills",
         "init",
-        "new",
-        "agenthub",
-        "collaboration",
-        "session",
-        "task",
-        "agent",
-        "count",
-        "evaluation",
-        "criteria"
+        "set",
+        "up",
+        "playwright",
+        "user",
+        "says",
+        "add",
+        "e2e",
+        "tests",
+        "configure",
+        "testing"
       ],
       "path": "skills/skills-init/SKILL.md"
     },
@@ -65317,9 +64450,9 @@
     {
       "id": "skills-run",
       "name": "run",
-      "description": "Run a single experiment iteration. Edit the target file, evaluate, keep or discard.",
+      "description": "One-shot lifecycle command that chains init → baseline → spawn → eval → merge in a single invocation.",
       "category": "general",
-      "subcategory": "general-misc",
+      "subcategory": "agent-tools",
       "tags": [
         "skills",
         "run"
@@ -65327,15 +64460,16 @@
       "triggers": [
         "skills",
         "run",
-        "single",
-        "experiment",
-        "iteration",
-        "edit",
-        "target",
-        "file",
-        "evaluate",
-        "keep",
-        "discard"
+        "one",
+        "shot",
+        "lifecycle",
+        "command",
+        "chains",
+        "init",
+        "baseline",
+        "spawn",
+        "eval",
+        "merge"
       ],
       "path": "skills/skills-run/SKILL.md"
     },
@@ -65375,7 +64509,7 @@
     {
       "id": "skills-status",
       "name": "status",
-      "description": "Show experiment dashboard with results, active loops, and progress.",
+      "description": "Show DAG state, agent progress, and branch status for an AgentHub session.",
       "category": "general",
       "subcategory": "general-misc",
       "tags": [
@@ -65386,12 +64520,13 @@
         "skills",
         "status",
         "show",
-        "experiment",
-        "dashboard",
-        "results",
-        "active",
-        "loops",
-        "progress"
+        "dag",
+        "state",
+        "agent",
+        "progress",
+        "branch",
+        "agenthub",
+        "session"
       ],
       "path": "skills/skills-status/SKILL.md"
     },

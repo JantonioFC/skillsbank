@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T17:11:21.624Z",
+  "generatedAt": "2026-07-22T17:41:06.782Z",
   "aliases": {
     "20-andruia-intelligence": "20-andruia-niche-intelligence",
     "accessibility-compliance-audit": "accessibility-compliance-accessibility-audit",
@@ -85,7 +85,6 @@
     "engineering-team/self-agent/skills/status": "engineering-team/self-improving-agent/skills/status",
     "engineering-team/senior-engineer": "engineering-team/senior-data-engineer",
     "engineering-team/tech-evaluator": "engineering-team/tech-stack-evaluator",
-    "engineering/api-test-builder": "engineering/api-test-suite-builder",
     "error-debugging-analysis": "error-debugging-error-analysis",
     "error-debugging-review": "error-debugging-multi-agent-review",
     "error-diagnostics-analysis": "error-diagnostics-error-analysis",
@@ -116,10 +115,8 @@
     "machine-learning-pipeline": "machine-learning-ops-ml-pipeline",
     "mailtrap-setting-domain": "mailtrap-setting-up-sending-domain",
     "mailtrap-testing-sandbox": "mailtrap-testing-with-sandbox",
-    "marketing-skill/ab-setup": "marketing-skill/ab-test-setup",
     "marketing-skill/app-optimization": "marketing-skill/app-store-optimization",
     "marketing-skill/free-strategy": "marketing-skill/free-tool-strategy",
-    "marketing-skill/paywall-cro": "marketing-skill/paywall-upgrade-cro",
     "marketing-skill/signup-cro": "marketing-skill/signup-flow-cro",
     "marketing-skill/social-analyzer": "marketing-skill/social-media-analyzer",
     "microsoft-azure-dotnet": "microsoft-azure-webjobs-extensions-authentication-events-dotnet",
@@ -157,7 +154,6 @@
     "security-scanning-dependencies": "security-scanning-security-dependencies",
     "security-scanning-hardening": "security-scanning-security-hardening",
     "security-scanning-sast": "security-scanning-security-sast",
-    "security/aws-iam-practices": "security/aws-iam-best-practices",
     "seo-aeo-auditor": "seo-aeo-content-quality-auditor",
     "seo-aeo-generator": "seo-aeo-meta-description-generator",
     "seo-forensic-response": "seo-forensic-incident-response",
