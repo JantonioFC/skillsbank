@@ -1,8 +1,8 @@
 # Skill Catalog
 
-Generated at: 2026-07-13T02:07:06.226Z
+Generated at: 2026-07-22T16:29:35.464Z
 
-Total skills: 3174
+Total skills: 3183
 
 ## architecture (205)
 
@@ -1373,7 +1373,7 @@ Total skills: 3174
 | `teach` | Teach the user a new skill or concept, within this workspace. | education, workflow, coding-agents | education, workflow, coding-agents, teach, user, new, skill, concept, within, workspace |
 | `yann-lecun-filosofia` | Sub-skill filosófica e pedagógica de Yann LeCun. | persona, ai-philosophy, open-source, education | persona, ai-philosophy, open-source, education, yann, lecun, filosofia, sub, skill, filos, fica, pedag |
 | `youtube-notetaker` | Turn YouTube talks into local study notes with slides, transcripts, editable annotations, and a markdown-backed viewer. | dair-academy, ai, workflow | dair-academy, ai, workflow, youtube, notetaker, turn, talks, local, study, notes, slides, transcripts |
-## general (881)
+## general (890)
 
 | `00-andruia-consultant` | Arquitecto de Soluciones Principal y Consultor Tecnológico de Andru.ia. Diagnostica y traza la hoja de ruta óptima para proyectos de IA en español. | 00, andruia, consultant | 00, andruia, consultant, arquitecto, de, soluciones, principal, consultor, tecnol, gico, andru, ia |
 | `10-andruia-skill-smith` | Ingeniero de Sistemas de Andru.ia. Diseña, redacta y despliega nuevas habilidades (skills) dentro del repositorio siguiendo el Estándar de Diamante. | 10, andruia, skill, smith | 10, andruia, skill, smith, ingeniero, de, sistemas, andru, ia, dise, redacta, despliega |
@@ -1621,6 +1621,7 @@ Total skills: 3174
 | `debugging-toolkit` | Use when working with debugging toolkit smart debug (Alias for debugging-toolkit-smart-debug) | debugging | debugging, toolkit, working, smart, debug, alias |
 | `debugging-toolkit-smart-debug` | Use when working with debugging toolkit smart debug | debugging, debug | debugging, debug, toolkit, smart, working |
 | `deep-research` | Multi-source deep research using firecrawl and exa MCPs. Searches the web, synthesizes findings, and delivers cited reports with source attribution. Use when... | deep, research | deep, research, multi, source, firecrawl, exa, mcps, searches, web, synthesizes, findings, delivers |
+| `deep-work` | Use when someone wants to plan a deep work day, time-block their calendar or task list, budget or cut shallow work, protect focus hours, track deep-work sess... | deep, work | deep, work, someone, wants, plan, day, time, block, calendar, task, list, budget |
 | `define-goal` | Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarif... | define, goal | define, goal, user, concrete, measurable, before, starting, work, especially, ask, set, objective |
 | `defuddle` | Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provi... | defuddle | defuddle, extract, clean, markdown, content, web, pages, cli, removing, clutter, navigation, save |
 | `dependency-auditor` | Dependency Auditor | dependency, auditor | dependency, auditor |
@@ -1747,6 +1748,7 @@ Total skills: 3174
 | `expo-ui-jetpack-compose` | expo-ui-jetpack-compose | expo, ui, jetpack, compose | expo, ui, jetpack, compose |
 | `expo-ui-swift-ui` | expo-ui-swift-ui | expo, ui, swift | expo, ui, swift |
 | `extract` | Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples. | extract | extract, turn, proven, debugging, solution, standalone, reusable, skill, md, reference, docs, examples |
+| `fable-goal` | Convert a rambling description of a desired outcome into one polished /goal prompt for a fresh session. Use when the user says '/fable-goal', 'turn this into... | fable, goal | fable, goal, convert, rambling, description, desired, outcome, one, polished, prompt, fresh, session |
 | `fal-platform` | Platform APIs for model management, pricing, and usage tracking | fal, platform | fal, platform, apis, model, pricing, usage, tracking |
 | `family-health-analyzer` | 分析家族病史、评估遗传风险、识别家庭健康模式、提供个性化预防建议 | family, health, analyzer | family, health, analyzer |
 | `favicon` | Generate favicons from a source image | favicon | favicon, generate, favicons, source, image |
@@ -1913,6 +1915,9 @@ Total skills: 3174
 | `md-review` | Converts a markdown PR writeup or code review (one with ```diff fenced blocks and severity-tagged > [!BLOCKER]/[!MAJOR]/[!MINOR]/[!NIT] callouts) into a sing... | markdown, html, code-review, diff, severity, annotations, single-file, design-system, wcag-1.4.1 | markdown, html, code-review, diff, severity, annotations, single-file, design-system, wcag-1.4.1, md, review, converts |
 | `md-slides` |  | md, slides | md, slides |
 | `mediabunny` | Multimedia handling with the Mediabunny library | remotion, mediabunny, multimedia, video, audio | remotion, mediabunny, multimedia, video, audio, handling, library |
+| `meetings` | Use when someone wants to decide whether a meeting is worth calling, price a meeting, build a timeboxed agenda, or turn messy notes into owned action items —... | meetings | meetings, someone, wants, decide, whether, meeting, worth, calling, price, timeboxed, agenda, turn |
+| `memory-review` | Analyze auto-memory for promotion candidates, stale entries, consolidation opportunities, and health metrics. Use when the user runs /si:memory-review or ask... | memory | memory, review, analyze, auto, promotion, candidates, stale, entries, consolidation, opportunities, health, metrics |
+| `memory-status` | Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations. Use when the user runs /si:memory-status or asks how ... | memory, status | memory, status, health, dashboard, showing, line, counts, topic, files, capacity, stale, entries |
 | `memory-system` | Persistent cross-session memory management. Enables agents to remember user preferences, project conventions, and past decisions across different sessions us... | memory | memory, persistent, cross, session, enables, agents, remember, user, preferences, conventions, past, decisions |
 | `memory-systems` | Guides implementation of agent memory systems, compares production frameworks (Mem0, Zep/Graphiti, Letta, LangMem, Cognee), and designs persistence architect... | memory | memory, guides, agent, compares, frameworks, mem0, zep, graphiti, letta, langmem, cognee, designs |
 | `mental-health-analyzer` | 分析心理健康数据、识别心理模式、评估心理健康状况、提供个性化心理健康建议。支持与睡眠、运动、营养等其他健康数据的关联分析。 | mental, health, analyzer | mental, health, analyzer |
@@ -2050,9 +2055,11 @@ Total skills: 3174
 | `remember` | Explicitly save important knowledge to auto-memory with timestamp and context. Use when a discovery is too important to rely on auto-capture. | remember | remember, explicitly, save, important, knowledge, auto, memory, timestamp, context, discovery, too, rely |
 | `remotion-captions` | Dealing with captions in Remotion | subtitles, captions, remotion, json | subtitles, captions, remotion, json, dealing |
 | `remotion-create` | Creating a new Remotion video | remotion | remotion, creating, new, video |
+| `remotion-docs` | Search and fetch Remotion documentation pages | remotion, docs, documentation, search | remotion, docs, documentation, search, fetch, pages |
 | `remotion-interactivity` | Best practices for writing Remotion animations that stay intuitive for agents and editable in Remotion Studio Visual Mode. | remotion, interactivity, studio, visual mode | remotion, interactivity, studio, visual mode, writing, animations, stay, intuitive, agents, editable, visual, mode |
 | `remotion-render` | Best practices for rendering videos | remotion, render | remotion, render, rendering, videos |
 | `remotion-saas` | Building video apps with Remotion - framework, rendering and Player advice | remotion, saas, player, rendering, templates, lambda | remotion, saas, player, rendering, templates, lambda, building, video, apps, framework, advice |
+| `remotion-upgrade` | Upgrade Remotion, its related packages, compatible Mediabunny packages, and installed Remotion Agent Skills. Use when asked to upgrade or update a Remotion p... | remotion, upgrade | remotion, upgrade, related, packages, compatible, mediabunny, installed, agent, skills, asked, update |
 | `repo-scan` | Cross-stack source code asset audit — classifies every file, detects embedded third-party libraries, and delivers actionable four-level verdicts per module w... | repo, scan | repo, scan, cross, stack, source, code, asset, audit, classifies, every, file, detects |
 | `requesting-code-review` | Use when completing tasks, implementing major features, or before merging to verify work meets requirements | requesting, code | requesting, code, review, completing, tasks, implementing, major, features, before, merging, verify, work |
 | `resume` | Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating. | resume | resume, paused, experiment, checkout, branch, read, results, history, continue, iterating |
@@ -2113,6 +2120,7 @@ Total skills: 3174
 | `skill-tester` | Skill Tester | skill, tester | skill, tester |
 | `skill-tester/assets/sample-skill` | Sample Skill | skill, tester/assets/sample | skill, tester/assets/sample, sample |
 | `skill-writer` | Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills. | skill, writer | skill, writer, improve, agent, skills, following, specification, asked, write, update |
+| `skillopt-sleep` | Use when the user wants their Claude agent to self-improve from past usage, or mentions a nightly/offline 'sleep' or 'dream' cycle, memory/skill consolidatio... | skillopt, sleep | skillopt, sleep, user, wants, claude, agent, self, improve, past, usage, mentions, nightly |
 | `skills-handoff` | Compact the current conversation into a handoff document for another agent to pick up. References existing artifacts (PRDs, plans, ADRs, issues, commits, dif... | skills, handoff | skills, handoff, compact, current, conversation, document, another, agent, pick, up, references, existing |
 | `skills-run` | Run a single experiment iteration. Edit the target file, evaluate, keep or discard. | skills, run | skills, run, single, experiment, iteration, edit, target, file, evaluate, keep, discard |
 | `skills-status` | Show experiment dashboard with results, active loops, and progress. | skills, status | skills, status, show, experiment, dashboard, results, active, loops, progress |
@@ -2236,6 +2244,7 @@ Total skills: 3174
 | `web-games` | Web browser game development principles. Framework selection, WebGPU, optimization, PWA. | web, games | web, games, browser, game, development, principles, framework, selection, webgpu, optimization, pwa |
 | `web-media-getter` | One query across free image / video / GIF APIs (stock + historical/archival + GIF engines), returning normalized, license-tagged results with optional top-K ... | media, images, video, gif, stock, archival, attribution | media, images, video, gif, stock, archival, attribution, web, getter, one, query, free |
 | `web-performance-optimization` | Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance | web, performance, optimization | web, performance, optimization, optimize, website, application, including, loading, speed, core, vitals, bundle |
+| `weekly-review` | Use when someone wants to run a weekly review, close open loops, audit stalled projects and commitments, restart a lapsed review habit, or says '/cs:weekly-r... | weekly | weekly, review, someone, wants, run, close, open, loops, audit, stalled, commitments, restart |
 | `weightloss-analyzer` | 分析减肥数据、计算代谢率、追踪能量缺口、管理减肥阶段 | weightloss, analyzer | weightloss, analyzer |
 | `when-stuck` | Dispatch to the right problem-solving technique based on how you're stuck | when, stuck | when, stuck, dispatch, right, problem, solving, technique, how, re |
 | `widget-generator` | Generate customizable widget plugins for the prompts.chat feed system | widget, generator | widget, generator, generate, customizable, plugins, prompts, chat, feed |

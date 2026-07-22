@@ -1,40 +1,23 @@
 {
-    "affaan-m": [
-        "plan-canvas"
-    ],
     "alirezarezvani": [
-        "zero-hallucination-coder",
-        "roast",
-        "strict-api",
-        "minimalist",
-        "local-seo-manager",
-        "agent-decision-receipts",
-        "named-persona-adversarial-review",
-        "arquiteto-de-empresa",
-        "agent-harness"
+        "memory-review",
+        "skillopt-sleep",
+        "weekly-review",
+        "memory-status",
+        "skills-arquiteto-de-empresa",
+        "deep-work",
+        "meetings",
+        "fable-goal"
     ],
-    "coreyhaines": [
-        "marketing-loops",
-        "marketing-council"
+    "diet103": [
+        "source-command-verify-setup"
     ],
     "guanyang": [
-        "long-horizon-prompting",
-        "self-improvement-loops",
-        "mediabunny",
-        "remotion-create",
-        "remotion-markup",
-        "remotion-captions",
-        "remotion-render",
-        "remotion-saas",
-        "remotion-interactivity"
+        "remotion-upgrade",
+        "remotion-docs"
     ],
     "remotion-skills": [
-        "remotion-render",
-        "remotion-create",
-        "remotion-markup",
-        "remotion-interactivity",
-        "remotion-saas",
-        "remotion-captions",
-        "mediabunny"
+        "remotion-upgrade",
+        "remotion-docs"
     ]
 }

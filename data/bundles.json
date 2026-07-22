@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T02:07:06.226Z",
+  "generatedAt": "2026-07-22T16:29:35.464Z",
   "bundles": {
     "core-dev": {
       "description": "Core development skills across languages, frameworks, and backend/frontend fundamentals.",
@@ -1803,6 +1803,7 @@
         "database-admin",
         "datadog-automation",
         "deep-module-refactor",
+        "deep-work",
         "defense-in-depth",
         "deployment-engineer",
         "developer-growth-analysis",

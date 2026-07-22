@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-13T02:07:06.226Z",
-  "total": 3174,
+  "generatedAt": "2026-07-22T16:29:35.464Z",
+  "total": 3183,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -25394,6 +25394,32 @@
       "path": "skills/deep-research/SKILL.md"
     },
     {
+      "id": "deep-work",
+      "name": "deep-work",
+      "description": "Use when someone wants to plan a deep work day, time-block their calendar or task list, budget or cut shallow work, protect focus hours, track deep-work sessions, or says '/deep-work' or '/time-block'. Classifies tasks deep vs shallow and builds an energy-first time-blocked schedule.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "deep",
+        "work"
+      ],
+      "triggers": [
+        "deep",
+        "work",
+        "someone",
+        "wants",
+        "plan",
+        "day",
+        "time",
+        "block",
+        "calendar",
+        "task",
+        "list",
+        "budget"
+      ],
+      "path": "skills/deep-work/SKILL.md"
+    },
+    {
       "id": "defense-in-depth",
       "name": "defense-in-depth",
       "description": "Validate at every layer data passes through to make bugs impossible",
@@ -33252,6 +33278,32 @@
         "examples"
       ],
       "path": "skills/extract/SKILL.md"
+    },
+    {
+      "id": "fable-goal",
+      "name": "fable-goal",
+      "description": "Convert a rambling description of a desired outcome into one polished /goal prompt for a fresh session. Use when the user says '/fable-goal', 'turn this into a goal prompt', or rambles about something they want made and asks for the prompt that builds it. Outputs the prompt, not the build.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "fable",
+        "goal"
+      ],
+      "triggers": [
+        "fable",
+        "goal",
+        "convert",
+        "rambling",
+        "description",
+        "desired",
+        "outcome",
+        "one",
+        "polished",
+        "prompt",
+        "fresh",
+        "session"
+      ],
+      "path": "skills/fable-goal/SKILL.md"
     },
     {
       "id": "fact-check",
@@ -49740,6 +49792,31 @@
       "path": "skills/meeting-insights-analyzer/SKILL.md"
     },
     {
+      "id": "meetings",
+      "name": "meetings",
+      "description": "Use when someone wants to decide whether a meeting is worth calling, price a meeting, build a timeboxed agenda, or turn messy notes into owned action items — or says 'should this be a meeting', '/cs:meeting-prep', or '/cs:meeting-actions'. Runs a cost gate and extracts an owner + due-date checklist.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "meetings"
+      ],
+      "triggers": [
+        "meetings",
+        "someone",
+        "wants",
+        "decide",
+        "whether",
+        "meeting",
+        "worth",
+        "calling",
+        "price",
+        "timeboxed",
+        "agenda",
+        "turn"
+      ],
+      "path": "skills/meetings/SKILL.md"
+    },
+    {
       "id": "memory-forensics",
       "name": "memory-forensics",
       "description": "Master memory forensics techniques including memory acquisition, process analysis, and artifact extraction using Volatility and related tools. Use when analyzing memory dumps, investigating incidents, or performing malware analysis from RAM captures.",
@@ -49766,6 +49843,31 @@
       "path": "skills/memory-forensics/SKILL.md"
     },
     {
+      "id": "memory-review",
+      "name": "memory-review",
+      "description": "Analyze auto-memory for promotion candidates, stale entries, consolidation opportunities, and health metrics. Use when the user runs /si:memory-review or asks what has been learned and what should be promoted or pruned.",
+      "category": "general",
+      "subcategory": "code-quality",
+      "tags": [
+        "memory"
+      ],
+      "triggers": [
+        "memory",
+        "review",
+        "analyze",
+        "auto",
+        "promotion",
+        "candidates",
+        "stale",
+        "entries",
+        "consolidation",
+        "opportunities",
+        "health",
+        "metrics"
+      ],
+      "path": "skills/memory-review/SKILL.md"
+    },
+    {
       "id": "memory-safety-patterns",
       "name": "memory-safety-patterns",
       "description": "Implement memory-safe programming with RAII, ownership, smart pointers, and resource management across Rust, C++, and C. Use when writing safe systems code, managing resources, or preventing memory bugs.",
@@ -49790,6 +49892,32 @@
         "code"
       ],
       "path": "skills/memory-safety-patterns/SKILL.md"
+    },
+    {
+      "id": "memory-status",
+      "name": "memory-status",
+      "description": "Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations. Use when the user runs /si:memory-status or asks how full or healthy the agent memory is.",
+      "category": "general",
+      "subcategory": "agent-tools",
+      "tags": [
+        "memory",
+        "status"
+      ],
+      "triggers": [
+        "memory",
+        "status",
+        "health",
+        "dashboard",
+        "showing",
+        "line",
+        "counts",
+        "topic",
+        "files",
+        "capacity",
+        "stale",
+        "entries"
+      ],
+      "path": "skills/memory-status/SKILL.md"
     },
     {
       "id": "memory-system",
@@ -62924,6 +63052,28 @@
       "path": "skills/remotion-create/SKILL.md"
     },
     {
+      "id": "remotion-docs",
+      "name": "remotion-docs",
+      "description": "Search and fetch Remotion documentation pages",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "remotion",
+        "docs",
+        "documentation",
+        "search"
+      ],
+      "triggers": [
+        "remotion",
+        "docs",
+        "documentation",
+        "search",
+        "fetch",
+        "pages"
+      ],
+      "path": "skills/remotion-docs/SKILL.md"
+    },
+    {
       "id": "remotion-interactivity",
       "name": "remotion-interactivity",
       "description": "Best practices for writing Remotion animations that stay intuitive for agents and editable in Remotion Studio Visual Mode.",
@@ -63016,6 +63166,31 @@
         "advice"
       ],
       "path": "skills/remotion-saas/SKILL.md"
+    },
+    {
+      "id": "remotion-upgrade",
+      "name": "remotion-upgrade",
+      "description": "Upgrade Remotion, its related packages, compatible Mediabunny packages, and installed Remotion Agent Skills. Use when asked to upgrade or update a Remotion project.",
+      "category": "general",
+      "subcategory": "general-misc",
+      "tags": [
+        "remotion",
+        "upgrade"
+      ],
+      "triggers": [
+        "remotion",
+        "upgrade",
+        "related",
+        "packages",
+        "compatible",
+        "mediabunny",
+        "installed",
+        "agent",
+        "skills",
+        "asked",
+        "update"
+      ],
+      "path": "skills/remotion-upgrade/SKILL.md"
     },
     {
       "id": "remotion-video-creation",
@@ -69712,6 +69887,32 @@
         "process"
       ],
       "path": "skills/skillify/SKILL.md"
+    },
+    {
+      "id": "skillopt-sleep",
+      "name": "skillopt-sleep",
+      "description": "Use when the user wants their Claude agent to self-improve from past usage, or mentions a nightly/offline 'sleep' or 'dream' cycle, memory/skill consolidation, reviewing past sessions, or scheduling offline self-optimization. Runs the skillopt_sleep harvest->replay->consolidate loop behind a gate.",
+      "category": "general",
+      "subcategory": "agent-tools",
+      "tags": [
+        "skillopt",
+        "sleep"
+      ],
+      "triggers": [
+        "skillopt",
+        "sleep",
+        "user",
+        "wants",
+        "claude",
+        "agent",
+        "self",
+        "improve",
+        "past",
+        "usage",
+        "mentions",
+        "nightly"
+      ],
+      "path": "skills/skillopt-sleep/SKILL.md"
     },
     {
       "id": "skills-chaos-engineering",
@@ -79605,6 +79806,31 @@
         "high"
       ],
       "path": "skills/wechat-official-account-strategist/SKILL.md"
+    },
+    {
+      "id": "weekly-review",
+      "name": "weekly-review",
+      "description": "Use when someone wants to run a weekly review, close open loops, audit stalled projects and commitments, restart a lapsed review habit, or says '/cs:weekly-review'. Walks GTD's GET CLEAR / GET CURRENT / GET CREATIVE loop with scripts that inventory open loops and score commitment health.",
+      "category": "general",
+      "subcategory": "code-quality",
+      "tags": [
+        "weekly"
+      ],
+      "triggers": [
+        "weekly",
+        "review",
+        "someone",
+        "wants",
+        "run",
+        "close",
+        "open",
+        "loops",
+        "audit",
+        "stalled",
+        "commitments",
+        "restart"
+      ],
+      "path": "skills/weekly-review/SKILL.md"
     },
     {
       "id": "weightloss-analyzer",
