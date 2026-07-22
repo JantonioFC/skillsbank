@@ -986,6 +986,22 @@ def generate_index(skills_dir, output_file, compatibility_report=None):
 
             skills.append(skill_info)
 
+    # Disambiguate colliding skill ids by path. Distinct skills that happen to share a
+    # basename (e.g. tool sub-commands like status/init/run, or super-code/rust vs a
+    # top-level rust) must coexist in the index. A flat top-level skill (skills/<name>)
+    # keeps its bare id; deeper duplicates get a path-scoped id (parent__name).
+    by_id: dict[str, list] = {}
+    for skill in skills:
+        by_id.setdefault(skill["id"], []).append(skill)
+    for _id, group in by_id.items():
+        if len(group) == 1:
+            continue
+        group.sort(key=lambda s: (s["path"].count("/"), s["path"]))
+        keep_bare = group[0]["path"].count("/") == 1  # shallowest is a flat top-level skill
+        for skill in group[(1 if keep_bare else 0):]:
+            skill["id"] = skill["path"].split("skills/", 1)[-1].replace("/", "__")
+
+    # Safety: ids must be unique after path-scoping
     seen_ids: dict[str, str] = {}
     duplicate_ids: list[tuple[str, str, str]] = []
     for skill in skills:
@@ -999,7 +1015,7 @@ def generate_index(skills_dir, output_file, compatibility_report=None):
             f"{skill_id}: {first_path} conflicts with {second_path}"
             for skill_id, first_path, second_path in duplicate_ids
         )
-        raise ValueError(f"Duplicate skill ids in generated index: {details}")
+        raise ValueError(f"Duplicate skill ids after path-scoping: {details}")
 
     # Sort validation: by name
     skills.sort(key=lambda x: (x["name"].lower(), x["id"].lower()))
