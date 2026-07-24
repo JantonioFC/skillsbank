@@ -32,7 +32,7 @@ function App(): React.ReactElement {
                   rel="noreferrer"
                   className="flex items-center text-slate-600 transition-colors hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-50"
                 >
-                  <Github className="h-5 w-5 mr-2" />
+                  <Icon name="github" className="h-5 w-5 mr-2" />
                   Repositorio GitHub
                 </a>
               </nav>
@@ -50,6 +50,7 @@ function App(): React.ReactElement {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/skill/:id" element={<SkillDetail />} />
+              <Route path="/plugins" element={<Plugins />} />
             </Routes>
           </Suspense>
         </main>

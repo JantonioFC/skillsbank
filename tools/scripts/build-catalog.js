@@ -1,15 +1,10 @@
 const fs = require("fs");
 const path = require("path");
-const {
-  listSkillIdsRecursive,
-  readSkill,
-  tokenize,
-  unique,
-} = require("../lib/skill-utils");
+const { tokenize, unique } = require("../lib/skill-utils");
 const { findProjectRoot } = require("../lib/project-root");
 
 const ROOT = findProjectRoot(__dirname);
-const SKILLS_DIR = path.join(ROOT, "skills");
+const SKILLS_INDEX_PATH = path.join(ROOT, "data", "skills_index.json");
 
 const STOPWORDS = new Set([
   "a",
@@ -154,314 +149,6 @@ const TAG_STOPWORDS = new Set([
   "testing",
   "workflow",
 ]);
-
-const CATEGORY_RULES = [
-  {
-    name: "security",
-    keywords: [
-      "security",
-      "sast",
-      "compliance",
-      "privacy",
-      "threat",
-      "vulnerability",
-      "owasp",
-      "pci",
-      "gdpr",
-      "secrets",
-      "risk",
-      "malware",
-      "forensics",
-      "attack",
-      "incident",
-      "auth",
-      "mtls",
-      "zero",
-      "trust",
-    ],
-  },
-  {
-    name: "infrastructure",
-    keywords: [
-      "kubernetes",
-      "k8s",
-      "helm",
-      "terraform",
-      "cloud",
-      "network",
-      "devops",
-      "gitops",
-      "prometheus",
-      "grafana",
-      "observability",
-      "monitoring",
-      "logging",
-      "tracing",
-      "deployment",
-      "istio",
-      "linkerd",
-      "service",
-      "mesh",
-      "slo",
-      "sre",
-      "oncall",
-      "incident",
-      "pipeline",
-      "cicd",
-      "ci",
-      "cd",
-      "kafka",
-    ],
-  },
-  {
-    name: "education",
-    keywords: [
-      "education",
-      "student",
-      "syllabus",
-      "exam",
-      "study",
-      "teacher",
-      "curriculum",
-      "classroom",
-      "school",
-      "examprep",
-      "roadmap",
-      "academic",
-      "university",
-    ],
-  },
-  {
-    name: "data-ai",
-    keywords: [
-      "data",
-      "database",
-      "db",
-      "sql",
-      "postgres",
-      "mysql",
-      "analytics",
-      "etl",
-      "warehouse",
-      "dbt",
-      "ml",
-      "ai",
-      "llm",
-      "rag",
-      "vector",
-      "embedding",
-      "spark",
-      "airflow",
-      "cdc",
-      "pipeline",
-    ],
-  },
-  {
-    name: "development",
-    keywords: [
-      "python",
-      "javascript",
-      "typescript",
-      "java",
-      "golang",
-      "go",
-      "rust",
-      "csharp",
-      "dotnet",
-      "php",
-      "ruby",
-      "node",
-      "react",
-      "frontend",
-      "backend",
-      "mobile",
-      "ios",
-      "android",
-      "flutter",
-      "fastapi",
-      "django",
-      "nextjs",
-      "vue",
-      "api",
-    ],
-  },
-  {
-    name: "architecture",
-    keywords: [
-      "architecture",
-      "c4",
-      "microservices",
-      "event",
-      "cqrs",
-      "saga",
-      "domain",
-      "ddd",
-      "patterns",
-      "decision",
-      "adr",
-    ],
-  },
-  {
-    name: "testing",
-    keywords: ["testing", "tdd", "unit", "e2e", "qa", "test"],
-  },
-  {
-    name: "business",
-    keywords: [
-      "business",
-      "market",
-      "sales",
-      "finance",
-      "startup",
-      "legal",
-      "hr",
-      "product",
-      "customer",
-      "seo",
-      "marketing",
-      "kpi",
-      "contract",
-      "employment",
-    ],
-  },
-  {
-    name: "workflow",
-    keywords: [
-      "workflow",
-      "orchestration",
-      "conductor",
-      "automation",
-      "process",
-      "collaboration",
-    ],
-  },
-];
-
-const SUBCATEGORY_RULES = {
-  infrastructure: [
-    {
-      name: "containers",
-      tokens: new Set(["kubernetes", "k8s", "helm", "docker", "container", "istio"]),
-      prefixes: [],
-    },
-    {
-      name: "observability",
-      tokens: new Set(["observability", "monitoring", "tracing", "prometheus", "grafana", "diagnostics"]),
-      prefixes: [],
-    },
-    {
-      name: "messaging",
-      tokens: new Set(["servicebus", "eventhub", "eventgrid", "kafka", "queue", "messaging"]),
-      prefixes: [],
-    },
-    {
-      name: "ci-cd",
-      tokens: new Set(["cicd", "pipeline", "deploy", "gitops"]),
-      prefixes: ["github-actions", "gitlab-ci"],
-    },
-    {
-      name: "cloud-services",
-      tokens: new Set(["aws", "gcp", "serverless", "azd"]),
-      prefixes: ["azure-mgmt", "azure-identity", "azure-resource"],
-    },
-    { name: "infra-general", tokens: new Set(), prefixes: [] },
-  ],
-  general: [
-    {
-      name: "game-dev",
-      tokens: new Set(["game", "games", "unity", "vr", "ar", "threejs"]),
-      prefixes: [],
-    },
-    {
-      name: "code-quality",
-      tokens: new Set(["review", "refactor", "lint", "debug", "standards", "tech-debt"]),
-      prefixes: ["clean-code"],
-    },
-    {
-      name: "docs-formats",
-      tokens: new Set(["docx", "pptx", "xlsx", "pdf", "wiki", "readme", "changelog"]),
-      prefixes: [],
-    },
-    {
-      name: "design-ux",
-      tokens: new Set(["design", "ux", "ui", "brand", "visual", "canvas", "carousel", "thumbnail"]),
-      prefixes: [],
-    },
-    {
-      name: "agent-tools",
-      tokens: new Set(["context", "memory", "planning", "skill", "eval", "superpowers", "dispatching"]),
-      prefixes: [],
-    },
-    { name: "general-misc", tokens: new Set(), prefixes: [] },
-  ],
-  development: [
-    {
-      name: "python",
-      tokens: new Set(["python", "django", "fastapi", "pydantic"]),
-      prefixes: [],
-    },
-    {
-      name: "frontend",
-      tokens: new Set(["react", "angular", "vue", "nextjs", "frontend", "responsive", "zustand"]),
-      prefixes: [],
-    },
-    {
-      name: "fp-ts",
-      tokens: new Set(["functional"]),
-      prefixes: ["fp-"],
-    },
-    {
-      name: "mobile",
-      tokens: new Set(["ios", "android", "flutter", "mobile", "expo", "swiftui", "swift"]),
-      prefixes: [],
-    },
-    {
-      name: "azure-sdk",
-      tokens: new Set(),
-      prefixes: [
-        "azure-communication", "azure-storage", "azure-keyvault",
-        "azure-ai", "azure-cosmos", "azure-monitor", "azure-servicebus",
-        "azure-eventhub", "azure-eventgrid", "azure-search",
-        "azure-appconfiguration", "azure-data", "azure-security",
-        "azure-postgres", "azure-containerregistry", "azure-messaging",
-        "azure-web",
-      ],
-    },
-    { name: "dev-general", tokens: new Set(), prefixes: [] },
-  ],
-};
-
-function detectSubcategory(skillId, name, description, category) {
-  const rules = SUBCATEGORY_RULES[category];
-  if (!rules) return null;
-
-  const haystack = new Set(
-    normalizeTokens([
-      ...tokenize(skillId),
-      ...tokenize(name),
-      ...tokenize(description),
-    ]),
-  );
-
-  for (const rule of rules) {
-    // prefix match on skill id
-    for (const prefix of rule.prefixes) {
-      if (skillId.startsWith(prefix)) return rule.name;
-    }
-    // token match
-    if (rule.tokens.size > 0) {
-      for (const token of rule.tokens) {
-        if (haystack.has(token)) return rule.name;
-      }
-    }
-    // fallback: entry with no tokens and no prefixes acts as catch-all
-    if (rule.tokens.size === 0 && rule.prefixes.length === 0) {
-      return rule.name;
-    }
-  }
-
-  return null;
-}
 
 const BUNDLE_RULES = {
   "core-dev": {
@@ -684,35 +371,6 @@ function deriveTags(skill) {
   return normalizeTokens(tags);
 }
 
-const CATEGORY_OVERRIDES = {
-  "ai-seo": "business",
-  "churn-prevention": "business",
-  "ad-creative": "business",
-};
-
-function detectCategory(skill, tags) {
-  if (CATEGORY_OVERRIDES[skill.id]) {
-    return CATEGORY_OVERRIDES[skill.id];
-  }
-
-  const haystack = normalizeTokens([
-    ...tags,
-    ...tokenize(skill.name),
-    ...tokenize(skill.description),
-  ]);
-  const haystackSet = new Set(haystack);
-
-  for (const rule of CATEGORY_RULES) {
-    for (const keyword of rule.keywords) {
-      if (haystackSet.has(keyword)) {
-        return rule.name;
-      }
-    }
-  }
-
-  return "general";
-}
-
 function buildTriggers(skill, tags) {
   const tokens = tokenize(`${skill.name} ${skill.description}`).filter(
     (token) => token.length >= 2 && !STOPWORDS.has(token),
@@ -838,13 +496,31 @@ function renderCatalogMarkdown(catalog) {
     lines.push(`## ${category} (${grouped.length})`);
     lines.push("");
 
-    for (const skill of grouped) {
-      const description = escapeMarkdownTableCell(truncate(skill.description, 160));
-      const tags = escapeMarkdownTableCell(skill.tags.join(", "));
-      const triggers = escapeMarkdownTableCell(skill.triggers.join(", "));
-      lines.push(
-        `| \`${skill.id}\` | ${description} | ${tags} | ${triggers} |`,
+    const subcategories = Array.from(
+      new Set(grouped.map((skill) => skill.subcategory || "General")),
+    ).sort();
+
+    for (const subcategory of subcategories) {
+      const subGrouped = grouped.filter(
+        (skill) => (skill.subcategory || "General") === subcategory,
       );
+      // Only render a subcategory sub-heading when the category actually
+      // splits into more than one bucket — a single "General" bucket would
+      // just add noise.
+      if (subcategories.length > 1) {
+        lines.push(`### ${subcategory} (${subGrouped.length})`);
+        lines.push("");
+      }
+
+      for (const skill of subGrouped) {
+        const description = escapeMarkdownTableCell(truncate(skill.description, 160));
+        const tags = escapeMarkdownTableCell(skill.tags.join(", "));
+        const triggers = escapeMarkdownTableCell(skill.triggers.join(", "));
+        lines.push(
+          `| \`${skill.id}\` | ${description} | ${tags} | ${triggers} |`,
+        );
+      }
+      lines.push("");
     }
   }
 
@@ -852,33 +528,59 @@ function renderCatalogMarkdown(catalog) {
 }
 
 // Scaffolding/docs dirs that happen to contain a SKILL.md but aren't real skills
-// (kept in sync with META_DIRS in scripts/generate_skills_guide.py).
+// (kept in sync with META_DIRS in scripts/generate_skills_guide.py). Filtered
+// out of data/skills_index.json's entries the same way this script always did
+// when it scanned skills/ directly, so the catalog keeps excluding them.
 const NON_SKILL_DIRS = new Set(["README", "TEMPLATE"]);
 
+/**
+ * Top-level directory name for a skill, taken from its `skills/<top>/...`
+ * path (relative to repo root) as stored in data/skills_index.json.
+ */
+function getTopLevelSkillDir(relPath) {
+  const marker = "skills/";
+  const idx = relPath.indexOf(marker);
+  const rest = idx >= 0 ? relPath.slice(idx + marker.length) : relPath;
+  return rest.split("/")[0];
+}
+
+/**
+ * data/skills_index.json is the single source of truth for the skill
+ * list, ids, and category/subcategory (see tools/scripts/generate_index.py).
+ * This script no longer re-scans skills/ or re-derives categories.
+ */
+function loadSkillsIndex() {
+  if (!fs.existsSync(SKILLS_INDEX_PATH)) {
+    throw new Error(
+      `Missing ${path.relative(ROOT, SKILLS_INDEX_PATH)}. Run \`npm run index\` ` +
+        "first (build-catalog.js reads skills_index.json as its source of " +
+        "truth instead of re-scanning skills/).",
+    );
+  }
+  return JSON.parse(fs.readFileSync(SKILLS_INDEX_PATH, "utf8"));
+}
+
 function buildCatalog() {
-  const skillRelPaths = listSkillIdsRecursive(SKILLS_DIR).filter(
-    (relPath) => !NON_SKILL_DIRS.has(relPath.split("/")[0]),
+  const skillsIndex = loadSkillsIndex().filter(
+    (skill) => !NON_SKILL_DIRS.has(getTopLevelSkillDir(skill.path)),
   );
-  const skills = skillRelPaths.map((relPath) => readSkill(SKILLS_DIR, relPath));
   const catalogSkills = [];
 
-  for (const skill of skills) {
+  for (const skill of skillsIndex) {
     const tags = deriveTags(skill);
-    const category = detectCategory(skill, tags);
     const triggers = buildTriggers(skill, tags);
-
-    const subcategory = detectSubcategory(skill.id, skill.name, skill.description, category);
 
     catalogSkills.push({
       id: skill.id,
       name: skill.name,
       description: skill.description,
-      category,
-      subcategory,
+      category: skill.category,
+      subcategory: skill.subcategory,
       tags,
       triggers,
-      // Normalize separators for deterministic cross-platform output.
-      path: path.relative(ROOT, skill.path).split(path.sep).join("/"),
+      // skills_index.json stores the skill directory; keep the historical
+      // catalog.json path shape (pointing at the SKILL.md file itself).
+      path: `${skill.path}/SKILL.md`,
     });
   }
 

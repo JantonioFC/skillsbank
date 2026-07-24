@@ -212,7 +212,7 @@ export function SkillDetail(): React.ReactElement {
   if (error || !skill) {
     return (
       <div className="max-w-2xl mx-auto text-center py-12">
-        <AlertTriangle className="h-12 w-12 text-red-500 mx-auto mb-4" />
+        <Icon name="alertTriangle" className="h-12 w-12 text-red-500 mx-auto mb-4" />
         <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">Error al cargar el contenido</h2>
         <p className="text-slate-500 mt-2">{error || 'No se pudo cargar la skill.'}</p>
         <button
@@ -222,7 +222,7 @@ export function SkillDetail(): React.ReactElement {
           Reintentar
         </button>
         <Link to="/" className="mt-8 inline-flex items-center text-indigo-600 font-medium hover:underline">
-          <ArrowLeft className="mr-2 h-4 w-4" /> Volver al catálogo
+          <Icon name="arrowLeft" className="mr-2 h-4 w-4" /> Volver al catálogo
         </Link>
       </div>
     );
@@ -232,7 +232,7 @@ export function SkillDetail(): React.ReactElement {
     <div className="max-w-4xl mx-auto">
       <div className="mb-8">
         <Link to="/" className="inline-flex items-center text-sm font-medium text-slate-500 hover:text-indigo-600 transition-colors mb-4 group">
-          <ArrowLeft className="mr-1 h-4 w-4 transform group-hover:-translate-x-1 transition-transform" />
+          <Icon name="arrowLeft" className="mr-1 h-4 w-4 transform group-hover:-translate-x-1 transition-transform" />
           Volver al catálogo
         </Link>
 
@@ -269,14 +269,14 @@ export function SkillDetail(): React.ReactElement {
               onClick={copyToClipboard}
               className="flex min-w-[148px] items-center justify-center space-x-2 rounded-full border border-slate-300 bg-white px-4 py-2.5 font-medium text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:border-slate-500 dark:hover:bg-slate-800"
             >
-              {copied ? <Check className="h-4 w-4 text-green-600 dark:text-green-400" /> : <Copy className="h-4 w-4" />}
+              {copied ? <Icon name="check" className="h-4 w-4 text-green-600 dark:text-green-400" /> : <Icon name="copy" className="h-4 w-4" />}
               <span>{copied ? '¡Copiado!' : 'Copiar @Skill'}</span>
             </button>
             <button
               onClick={copyFullToClipboard}
               className="flex min-w-[148px] items-center justify-center space-x-2 rounded-full bg-slate-900 px-4 py-2.5 font-medium text-white transition-colors hover:bg-slate-800 dark:bg-slate-50 dark:text-slate-900 dark:hover:bg-slate-200"
             >
-              {copiedFull ? <Check className="h-4 w-4 text-green-400" /> : <FileCode className="h-4 w-4" />}
+              {copiedFull ? <Icon name="check" className="h-4 w-4 text-green-400" /> : <Icon name="fileCode" className="h-4 w-4" />}
               <span>{copiedFull ? '¡Contenido copiado!' : 'Copiar contenido completo'}</span>
             </button>
           </div>

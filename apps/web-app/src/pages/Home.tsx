@@ -1,9 +1,8 @@
-import { useState, useEffect, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Search, Filter, AlertCircle, RefreshCw, ArrowUpDown, Tag, X } from 'lucide-react';
 import { VirtuosoGrid } from 'react-virtuoso';
 import { useSkills } from '../context/SkillContext';
 import { SkillCard } from '../components/SkillCard';
-import { Icon } from '../components/ui/Icon';
 import type { SyncMessage, CategoryStats } from '../types';
 import { usePageMeta } from '../hooks/usePageMeta';
 import { buildHomeMeta, getHomeFaqItems } from '../utils/seo';
@@ -55,59 +54,30 @@ const integrationGuides = [
   },
 ] as const;
 
+// `Sync Skills` is a maintainer/development affordance and must stay hidden
+// on the public catalog unless VITE_ENABLE_SKILLS_SYNC=true (see README.md).
 const syncFeatureEnabled = (
   (import.meta as ImportMeta & { env: Record<string, string | undefined> }).env.VITE_ENABLE_SKILLS_SYNC
   === 'true'
 );
 
+// 10-bucket taxonomy (confirmed 2026-07-23). skill.category now already
+// stores these exact display strings (see tools/scripts/generate_index.py,
+// TAXONOMY_MAP), so this is effectively an identity map — kept explicit so
+// the display taxonomy is documented in one place and any stray legacy
+// value still falls back gracefully via the default case below.
 const CATEGORY_ES: Record<string, string> = {
+  'AI & Agents': 'AI & Agents',
+  'Desarrollo de Software': 'Desarrollo de Software',
+  'Cloud, DevOps & Automatización': 'Cloud, DevOps & Automatización',
+  'Seguridad': 'Seguridad',
+  'Testing & Calidad': 'Testing & Calidad',
+  'Diseño & Contenido': 'Diseño & Contenido',
+  'Negocio & Marketing': 'Negocio & Marketing',
+  'Gestión de Proyectos & Equipos': 'Gestión de Proyectos & Equipos',
+  'Verticales Especializados': 'Verticales Especializados',
+  'Meta & Productividad Personal': 'Meta & Productividad Personal',
   'uncategorized': 'Sin categoría',
-  'cloud': 'Nube',
-  'ai-ml': 'IA / ML',
-  'development': 'Desarrollo',
-  'security': 'Seguridad',
-  'business': 'Negocios',
-  'web-development': 'Desarrollo web',
-  'marketing': 'Marketing',
-  'content': 'Contenido',
-  'workflow': 'Flujo de trabajo',
-  'automation': 'Automatización',
-  'testing': 'Testing',
-  'backend': 'Backend',
-  'meta': 'Meta',
-  'devops': 'DevOps',
-  'engineering': 'Ingeniería',
-  'architecture': 'Arquitectura',
-  'c-level-advisor': 'C-Level',
-  'mobile': 'Mobile',
-  'engineering-team': 'Equipo de ingeniería',
-  'project-management': 'Gestión de proyectos',
-  'api-integration': 'Integración API',
-  'database': 'Base de datos',
-  'marketing-skill': 'Marketing',
-  'game-development': 'Desarrollo de juegos',
-  'code': 'Código',
-  'health': 'Salud',
-  'data': 'Datos',
-  'design': 'Diseño',
-  'ai-agents': 'Agentes IA',
-  'front-end': 'Frontend',
-  'code-quality': 'Calidad de código',
-  'reliability': 'Confiabilidad',
-  'product-team': 'Producto',
-  'data-ai': 'Datos / IA',
-  'framework': 'Framework',
-  'productivity': 'Productividad',
-  'data-science': 'Ciencia de datos',
-  'science': 'Ciencia',
-  'test-automation': 'Automatización de tests',
-  'legal': 'Legal',
-  'blockchain': 'Blockchain',
-  'memory': 'Memoria',
-  'graphics-processing': 'Gráficos',
-  'frontend': 'Frontend',
-  'create': 'Crear',
-  'andruia': 'Andru.ia',
 };
 
 export function translateCategory(cat: string): string {
@@ -143,6 +113,7 @@ export function Home(): React.ReactElement {
   const [search, setSearch] = useState('');
   const [debouncedSearch, setDebouncedSearch] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('all');
+  const [subcategoryFilter, setSubcategoryFilter] = useState('all');
   const [activeTopics, setActiveTopics] = useState<Set<string>>(new Set());
   const [sortBy, setSortBy] = useState('default');
   const [syncing, setSyncing] = useState(false);
@@ -162,11 +133,6 @@ export function Home(): React.ReactElement {
     setCommandCopied(true);
     window.setTimeout(() => setCommandCopied(false), 2000);
   };
-
-  const debouncedSetSearch = useCallback(
-    debounce((value: string) => setDebouncedSearch(value), 300),
-    []
-  );
 
   useEffect(() => {
     const timeoutId = window.setTimeout(() => {
@@ -193,6 +159,10 @@ export function Home(): React.ReactElement {
       result = result.filter(skill => skill.category === categoryFilter);
     }
 
+    if (subcategoryFilter !== 'all') {
+      result = result.filter(skill => skill.subcategory === subcategoryFilter);
+    }
+
     if (activeTopics.size > 0) {
       result = result.filter(skill =>
         [...activeTopics].every(topic =>
@@ -211,7 +181,7 @@ export function Home(): React.ReactElement {
     }
 
     return result;
-  }, [debouncedSearch, categoryFilter, activeTopics, sortBy, skills, stars]);
+  }, [debouncedSearch, categoryFilter, subcategoryFilter, activeTopics, sortBy, skills, stars]);
 
   const { categories, categoryStats } = useMemo(() => {
     const stats: CategoryStats = {};
@@ -226,12 +196,35 @@ export function Home(): React.ReactElement {
     return { categories: cats, categoryStats: stats };
   }, [skills]);
 
+  const { subcategories, subcategoryStats } = useMemo(() => {
+    if (categoryFilter === 'all') {
+      return { subcategories: [] as string[], subcategoryStats: {} as CategoryStats };
+    }
+    const stats: CategoryStats = {};
+    skills
+      .filter(skill => skill.category === categoryFilter && skill.subcategory)
+      .forEach(skill => {
+        const sub = skill.subcategory as string;
+        stats[sub] = (stats[sub] || 0) + 1;
+      });
+    const subs = ['all', ...Object.keys(stats).sort((a, b) => stats[b] - stats[a])];
+    return { subcategories: subs, subcategoryStats: stats };
+  }, [skills, categoryFilter]);
+
+  useEffect(() => {
+    setSubcategoryFilter('all');
+  }, [categoryFilter]);
+
   const topics = useMemo(() => extractTopics(skills.map(s => s.name)), [skills]);
 
   const toggleTopic = (topic: string) => {
     setActiveTopics(prev => {
       const next = new Set(prev);
-      next.has(topic) ? next.delete(topic) : next.add(topic);
+      if (next.has(topic)) {
+        next.delete(topic);
+      } else {
+        next.add(topic);
+      }
       return next;
     });
   };
@@ -240,11 +233,12 @@ export function Home(): React.ReactElement {
     setSearch('');
     setDebouncedSearch('');
     setCategoryFilter('all');
+    setSubcategoryFilter('all');
     setActiveTopics(new Set());
     setSortBy('default');
   };
 
-  const hasActiveFilters = search || categoryFilter !== 'all' || activeTopics.size > 0;
+  const hasActiveFilters = search || categoryFilter !== 'all' || subcategoryFilter !== 'all' || activeTopics.size > 0;
 
   const handleSync = async () => {
     setSyncing(true);
@@ -344,7 +338,7 @@ export function Home(): React.ReactElement {
           <div>
             <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 mb-2">Explorar Skills</h1>
             <p className="text-slate-500 dark:text-slate-400">
-              Descubrí {Math.max(skills.length, APP_HOME_CATALOG_COUNT)}+ capacidades agénticas para tu asistente de IA.
+              Descubrí {catalogCountLabel} capacidades agénticas para tu asistente de IA.
             </p>
           </div>
           <div className="flex items-center gap-3">
@@ -358,16 +352,27 @@ export function Home(): React.ReactElement {
                 {syncMsg.text}
               </span>
             )}
-            <button
-              onClick={handleSync}
-              disabled={syncing}
-              className="flex items-center space-x-2 px-4 py-2.5 rounded-lg font-medium text-sm bg-indigo-600 hover:bg-indigo-700 text-white disabled:opacity-50 disabled:cursor-wait transition-colors shadow-sm"
-            >
-              <RefreshCw className={`h-4 w-4 ${syncing ? 'animate-spin' : ''}`} />
-              <span>{syncing ? 'Sincronizando...' : 'Sincronizar'}</span>
-            </button>
+            {syncFeatureEnabled ? (
+              <button
+                onClick={handleSync}
+                disabled={syncing}
+                className="flex items-center space-x-2 px-4 py-2.5 rounded-lg font-medium text-sm bg-indigo-600 hover:bg-indigo-700 text-white disabled:opacity-50 disabled:cursor-wait transition-colors shadow-sm"
+              >
+                <RefreshCw className={`h-4 w-4 ${syncing ? 'animate-spin' : ''}`} />
+                <span>{syncing ? 'Sincronizando...' : 'Sincronizar'}</span>
+              </button>
+            ) : (
+              <span className="rounded-full bg-slate-100 dark:bg-slate-800 px-3 py-1.5 text-sm font-medium text-slate-600 dark:text-slate-300">
+                Modo catálogo público
+              </span>
+            )}
           </div>
         </div>
+        {!syncFeatureEnabled && (
+          <p className="text-sm text-slate-500 dark:text-slate-400 -mt-2">
+            La sincronización del catálogo es un flujo de trabajo exclusivo del equipo mantenedor en builds locales, por eso el sitio público en Pages siempre muestra el último catálogo publicado.
+          </p>
+        )}
 
         {/* Barra de búsqueda y filtros */}
         <div className="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm sticky top-0 z-40 space-y-3">
@@ -402,6 +407,28 @@ export function Home(): React.ReactElement {
                     }
                   </option>
                 ))}
+              </select>
+
+              {/* Filtro por subcategoría */}
+              <select
+                aria-label="Filtrar por subcategoría"
+                className="h-9 rounded-md border border-slate-200 bg-slate-50 px-3 text-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50 min-w-[160px] disabled:cursor-not-allowed disabled:opacity-50"
+                value={subcategoryFilter}
+                onChange={(e) => setSubcategoryFilter(e.target.value)}
+                disabled={categoryFilter === 'all'}
+              >
+                {categoryFilter === 'all' ? (
+                  <option value="all">Elegí una categoría primero</option>
+                ) : (
+                  subcategories.map(sub => (
+                    <option key={sub} value={sub}>
+                      {sub === 'all'
+                        ? 'Todas las subcategorías'
+                        : `${sub} (${subcategoryStats[sub] || 0})`
+                      }
+                    </option>
+                  ))
+                )}
               </select>
 
               {/* Ordenar */}

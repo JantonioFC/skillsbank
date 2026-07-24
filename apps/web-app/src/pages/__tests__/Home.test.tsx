@@ -88,7 +88,7 @@ describe('Home', () => {
         expect(document.title).toContain('Antigravity Awesome Skills');
       });
 
-      expect(screen.getByRole('button', { name: /Copy install command/i })).toBeInTheDocument();
+      expect(screen.getByRole('button', { name: /Copiar comando de instalación/i })).toBeInTheDocument();
       expect(screen.getAllByText(/npx antigravity-awesome-skills/i).length).toBeGreaterThan(0);
       expect(screen.getByText(/What is the difference between skills and MCP tools/i)).toBeInTheDocument();
       expect(document.querySelector('meta[property="og:title"]')).toHaveAttribute(
@@ -108,13 +108,13 @@ describe('Home', () => {
       renderWithRouter(<Home />, { useProvider: false });
 
       await waitFor(() => {
-        expect(screen.getByRole('button', { name: /Copy install command/i })).toBeInTheDocument();
+        expect(screen.getByRole('button', { name: /Copiar comando de instalación/i })).toBeInTheDocument();
       });
 
       vi.useFakeTimers();
       try {
         await act(async () => {
-          fireEvent.click(screen.getByRole('button', { name: /Copy install command/i }));
+          fireEvent.click(screen.getByRole('button', { name: /Copiar comando de instalación/i }));
           await vi.runAllTimersAsync();
         });
       } finally {
@@ -141,7 +141,7 @@ describe('Home', () => {
 
       renderWithRouter(<Home />, { useProvider: false });
 
-      const searchInput = screen.getByLabelText(/Search skills/i);
+      const searchInput = screen.getByLabelText(/Buscar skills/i);
       fireEvent.change(searchInput, { target: { value: 'React' } });
 
       await waitFor(() => {
@@ -166,12 +166,48 @@ describe('Home', () => {
 
       renderWithRouter(<Home />, { useProvider: false });
 
-      const categorySelect = screen.getByLabelText(/Filter by category/i);
+      const categorySelect = screen.getByLabelText(/Filtrar por categoría/i);
       fireEvent.change(categorySelect, { target: { value: 'frontend' } });
 
       await waitFor(() => {
         expect(categorySelect).toHaveValue('frontend');
         expect(screen.getByText('@Frontend Skill')).toBeInTheDocument();
+        expect(screen.queryByText('@Backend Skill')).not.toBeInTheDocument();
+      });
+    });
+
+    it('should disable the subcategory filter until a category is selected, then filter by it', async () => {
+      const mockSkills = [
+        createMockSkill({ id: 's1', category: 'frontend', subcategory: 'React', name: 'React Skill' }),
+        createMockSkill({ id: 's2', category: 'frontend', subcategory: 'Vue', name: 'Vue Skill' }),
+        createMockSkill({ id: 's3', category: 'backend', subcategory: 'React', name: 'Backend Skill' }),
+      ];
+
+      (useSkills as Mock).mockReturnValue({
+        skills: mockSkills,
+        stars: {},
+        loading: false,
+        error: null,
+      });
+
+      renderWithRouter(<Home />, { useProvider: false });
+
+      const subcategorySelect = screen.getByLabelText(/Filtrar por subcategoría/i);
+      expect(subcategorySelect).toBeDisabled();
+
+      const categorySelect = screen.getByLabelText(/Filtrar por categoría/i);
+      fireEvent.change(categorySelect, { target: { value: 'frontend' } });
+
+      await waitFor(() => {
+        expect(subcategorySelect).not.toBeDisabled();
+      });
+
+      fireEvent.change(subcategorySelect, { target: { value: 'React' } });
+
+      await waitFor(() => {
+        expect(subcategorySelect).toHaveValue('React');
+        expect(screen.getByText('@React Skill')).toBeInTheDocument();
+        expect(screen.queryByText('@Vue Skill')).not.toBeInTheDocument();
         expect(screen.queryByText('@Backend Skill')).not.toBeInTheDocument();
       });
     });
@@ -192,9 +228,9 @@ describe('Home', () => {
       renderWithRouter(<Home />, { useProvider: false });
 
       await waitFor(() => {
-        expect(screen.queryByRole('button', { name: /Sync Skills/i })).not.toBeInTheDocument();
-        expect(screen.getByText(/Public catalog mode/i)).toBeInTheDocument();
-        expect(screen.getByText(/maintainer-only workflow/i)).toBeInTheDocument();
+        expect(screen.queryByRole('button', { name: /Sincronizar/i })).not.toBeInTheDocument();
+        expect(screen.getByText(/Modo catálogo público/i)).toBeInTheDocument();
+        expect(screen.getByText(/flujo de trabajo exclusivo del equipo mantenedor/i)).toBeInTheDocument();
       });
     });
   });
@@ -213,11 +249,11 @@ describe('Home', () => {
     renderWithRouter(<Home />, { useProvider: false });
 
     await waitFor(() => {
-      expect(screen.getByText(/Unable to load skills/i)).toBeInTheDocument();
+      expect(screen.getByText(/No se pudieron cargar las skills/i)).toBeInTheDocument();
       expect(screen.getByText(/Non-JSON response/i)).toBeInTheDocument();
     });
 
-    fireEvent.click(screen.getByRole('button', { name: /Retry loading catalog/i }));
+    fireEvent.click(screen.getByRole('button', { name: /Reintentar/i }));
 
     expect(refreshSkills).toHaveBeenCalled();
   });

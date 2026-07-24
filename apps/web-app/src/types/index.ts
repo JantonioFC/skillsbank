@@ -8,6 +8,7 @@ export interface Skill {
   name: string;
   description: string;
   category: string;
+  subcategory?: string;
   risk?: RiskLevel;
   source?: string;
   date_added?: string;

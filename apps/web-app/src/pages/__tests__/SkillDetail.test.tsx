@@ -201,10 +201,10 @@ describe('SkillDetail', () => {
       });
 
       await waitFor(() => {
-        expect(screen.getByText(/Failed to Load Content/i)).toBeInTheDocument();
+        expect(screen.getByText(/Error al cargar el contenido/i)).toBeInTheDocument();
       });
 
-      fireEvent.click(screen.getByRole('button', { name: /Retry loading content/i }));
+      fireEvent.click(screen.getByRole('button', { name: /Reintentar/i }));
 
       await waitFor(() => {
         expect(screen.getByTestId('markdown-content')).toHaveTextContent('Recovered content');
@@ -225,8 +225,8 @@ describe('SkillDetail', () => {
       });
 
       await waitFor(() => {
-        expect(screen.getByText(/Error Loading Skill/i)).toBeInTheDocument();
-        expect(screen.getByText(/Skill not found in registry/i)).toBeInTheDocument();
+        expect(screen.getByText(/Error al cargar la skill/i)).toBeInTheDocument();
+        expect(screen.getByText(/Skill no encontrada en el registro/i)).toBeInTheDocument();
         expect(document.title).toContain('nonexistent');
       });
     });
@@ -254,10 +254,10 @@ describe('SkillDetail', () => {
       });
 
       await waitFor(() => {
-        expect(screen.getByRole('button', { name: /Copy @Skill/i })).toBeInTheDocument();
+        expect(screen.getByRole('button', { name: /Copiar @Skill/i })).toBeInTheDocument();
       });
 
-      const copyButton = screen.getByRole('button', { name: /Copy @Skill/i });
+      const copyButton = screen.getByRole('button', { name: /Copiar @Skill/i });
       fireEvent.click(copyButton);
 
       expect(navigator.clipboard.writeText).toHaveBeenCalledWith('Use @click-test');
@@ -284,13 +284,13 @@ describe('SkillDetail', () => {
       });
 
       await waitFor(() => {
-        expect(screen.getByRole('button', { name: /Copy command/i })).toBeInTheDocument();
+        expect(screen.getByRole('button', { name: /Copiar comando/i })).toBeInTheDocument();
       });
 
       vi.useFakeTimers();
       try {
         await act(async () => {
-          fireEvent.click(screen.getByRole('button', { name: /Copy command/i }));
+          fireEvent.click(screen.getByRole('button', { name: /Copiar comando/i }));
           await vi.runAllTimersAsync();
         });
       } finally {
