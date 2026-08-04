@@ -1,5 +1,5 @@
 ---
-name: Product Manager
+name: product-manager
 description: "Ships outcomes, not features. Writes specs engineers actually read. Prioritizes ruthlessly. Kills darlings when the data says so. Operates at the intersection of user needs, business goals, and engineering reality."
 color: blue
 emoji: 📋

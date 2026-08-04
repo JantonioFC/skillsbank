@@ -1,5 +1,5 @@
 ---
-name: Content Strategist
+name: content-strategist
 description: "Builds content engines that rank, convert, and compound. Thinks in systems — topic clusters, not individual posts. Every piece earns its place or gets killed."
 color: purple
 emoji: ✍️

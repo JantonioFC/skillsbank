@@ -926,30 +926,6 @@
     }
   },
   {
-    "id": "TEMPLATE",
-    "path": "skills/TEMPLATE",
-    "category": "Meta & Productividad Personal",
-    "subcategory": "Meta-skills (sobre Claude/Agentes)",
-    "name": "Agent Name",
-    "description": "One paragraph describing what this agent does, who it's for, and when to activate it.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "agent-architecture-audit",
     "path": "skills/agent-architecture-audit",
     "category": "AI & Agents",
@@ -18425,30 +18401,6 @@
     }
   },
   {
-    "id": "content-strategist",
-    "path": "skills/content-strategist",
-    "category": "Dise\u00f1o & Contenido",
-    "subcategory": "Generaci\u00f3n de Contenido",
-    "name": "Content Strategist",
-    "description": "Builds content engines that rank, convert, and compound. Thinks in systems \u2014 topic clusters, not individual posts. Every piece earns its place or gets killed.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "content-creator",
     "path": "skills/content-creator",
     "category": "Negocio & Marketing",
@@ -18629,6 +18581,30 @@
     "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.",
     "risk": "safe",
     "source": "community",
+    "date_added": null,
+    "tags": [],
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "content-strategist",
+    "path": "skills/content-strategist",
+    "category": "Dise\u00f1o & Contenido",
+    "subcategory": "Generaci\u00f3n de Contenido",
+    "name": "content-strategist",
+    "description": "Builds content engines that rank, convert, and compound. Thinks in systems \u2014 topic clusters, not individual posts. Every piece earns its place or gets killed.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null,
     "tags": [],
     "plugin": {
@@ -24220,30 +24196,6 @@
     }
   },
   {
-    "id": "devops-engineer",
-    "path": "skills/devops-engineer",
-    "category": "Cloud, DevOps & Automatizaci\u00f3n",
-    "subcategory": "Observability & Reliability",
-    "name": "DevOps Engineer",
-    "description": "Builds infrastructure that scales without babysitting. Automates everything worth automating. Monitors before it breaks. Treats clicking in consoles as a production incident waiting to happen.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "devops-deploy",
     "path": "skills/devops-deploy",
     "category": "Cloud, DevOps & Automatizaci\u00f3n",
@@ -24261,6 +24213,30 @@
       "terraform",
       "github-actions"
     ],
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "devops-engineer",
+    "path": "skills/devops-engineer",
+    "category": "Cloud, DevOps & Automatizaci\u00f3n",
+    "subcategory": "Observability & Reliability",
+    "name": "devops-engineer",
+    "description": "Builds infrastructure that scales without babysitting. Automates everything worth automating. Monitors before it breaks. Treats clicking in consoles as a production incident waiting to happen.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null,
+    "tags": [],
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -28936,14 +28912,14 @@
     }
   },
   {
-    "id": "finance-lead",
-    "path": "skills/finance-lead",
+    "id": "finance-billing-ops",
+    "path": "skills/finance-billing-ops",
     "category": "Negocio & Marketing",
-    "subcategory": "Advisory Ejecutivo (C-level)",
-    "name": "Finance Lead",
-    "description": "Startup CFO who builds models that survive contact with reality. Handles fundraising, unit economics, pricing, burn rate, and board reporting. Speaks fluent spreadsheet but translates to English for founders who'd rather build product.",
-    "risk": "unknown",
-    "source": "unknown",
+    "subcategory": "Finanzas & Anal\u00edtica",
+    "name": "finance-billing-ops",
+    "description": "Evidence-first revenue, pricing, refunds, team-billing, and billing-model truth workflow for ECC. Use when the user wants a sales snapshot, pricing comparison, duplicate-charge diagnosis, or code-backed billing reality instead of generic payments advice.",
+    "risk": "safe",
+    "source": "community",
     "date_added": null,
     "tags": [],
     "plugin": {
@@ -28960,14 +28936,14 @@
     }
   },
   {
-    "id": "finance-billing-ops",
-    "path": "skills/finance-billing-ops",
+    "id": "finance-lead",
+    "path": "skills/finance-lead",
     "category": "Negocio & Marketing",
-    "subcategory": "Finanzas & Anal\u00edtica",
-    "name": "finance-billing-ops",
-    "description": "Evidence-first revenue, pricing, refunds, team-billing, and billing-model truth workflow for ECC. Use when the user wants a sales snapshot, pricing comparison, duplicate-charge diagnosis, or code-backed billing reality instead of generic payments advice.",
-    "risk": "safe",
-    "source": "community",
+    "subcategory": "Advisory Ejecutivo (C-level)",
+    "name": "finance-lead",
+    "description": "Startup CFO who builds models that survive contact with reality. Handles fundraising, unit economics, pricing, burn rate, and board reporting. Speaks fluent spreadsheet but translates to English for founders who'd rather build product.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null,
     "tags": [],
     "plugin": {
@@ -33697,30 +33673,6 @@
     }
   },
   {
-    "id": "growth-marketer",
-    "path": "skills/growth-marketer",
-    "category": "Negocio & Marketing",
-    "subcategory": "Marketing & Growth",
-    "name": "Growth Marketer",
-    "description": "Growth marketing specialist for bootstrapped startups and indie hackers. Builds content engines, optimizes funnels, runs launch sequences, and finds scalable acquisition channels \u2014 all on a budget that makes enterprise marketers cry.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "growth-engine",
     "path": "skills/growth-engine",
     "category": "Negocio & Marketing",
@@ -33774,6 +33726,30 @@
       "reasons": [
         "escaped_local_reference"
       ]
+    }
+  },
+  {
+    "id": "growth-marketer",
+    "path": "skills/growth-marketer",
+    "category": "Negocio & Marketing",
+    "subcategory": "Marketing & Growth",
+    "name": "growth-marketer",
+    "description": "Growth marketing specialist for bootstrapped startups and indie hackers. Builds content engines, optimizes funnels, runs launch sequences, and finds scalable acquisition channels \u2014 all on a budget that makes enterprise marketers cry.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null,
+    "tags": [],
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
     }
   },
   {
@@ -50750,30 +50726,6 @@
     }
   },
   {
-    "id": "product-manager",
-    "path": "skills/product-manager",
-    "category": "Negocio & Marketing",
-    "subcategory": "General",
-    "name": "Product Manager",
-    "description": "Ships outcomes, not features. Writes specs engineers actually read. Prioritizes ruthlessly. Kills darlings when the data says so. Operates at the intersection of user needs, business goals, and engineering reality.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "product-analytics",
     "path": "skills/product-analytics",
     "category": "Negocio & Marketing",
@@ -50963,6 +50915,30 @@
     "description": "- Before starting any feature \u2014 validate the \"why\"\n- Weekly product review \u2014 are we building the right thing?\n- When stuck choosing between features\n- Before a launch \u2014 sanity check the user journey\n- When converting a vague idea into a spec",
     "risk": "safe",
     "source": "community",
+    "date_added": null,
+    "tags": [],
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "product-manager",
+    "path": "skills/product-manager",
+    "category": "Negocio & Marketing",
+    "subcategory": "General",
+    "name": "product-manager",
+    "description": "Ships outcomes, not features. Writes specs engineers actually read. Prioritizes ruthlessly. Kills darlings when the data says so. Operates at the intersection of user needs, business goals, and engineering reality.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null,
     "tags": [],
     "plugin": {
@@ -62114,7 +62090,7 @@
     "path": "skills/solo-founder",
     "category": "Negocio & Marketing",
     "subcategory": "Marketing & Growth",
-    "name": "Solo Founder",
+    "name": "solo-founder",
     "description": "Your co-founder who doesn't exist yet. Covers product, engineering, marketing, and strategy for one-person startups \u2014 because nobody's stopping you from making bad decisions and somebody should.",
     "risk": "unknown",
     "source": "unknown",
@@ -62977,30 +62953,6 @@
     }
   },
   {
-    "id": "startup-cto",
-    "path": "skills/startup-cto",
-    "category": "Desarrollo de Software",
-    "subcategory": "Arquitectura & Patrones",
-    "name": "Startup CTO",
-    "description": "Technical co-founder who's been through two startups and learned what actually matters. Makes architecture decisions, selects tech stacks, builds engineering culture, and prepares for technical due diligence \u2014 all while shipping fast with a small team.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "startup-analyst",
     "path": "skills/startup-analyst",
     "category": "Negocio & Marketing",
@@ -63081,6 +63033,30 @@
     "description": "Generate comprehensive market opportunity analysis with TAM/SAM/SOM calculations",
     "risk": "safe",
     "source": "community",
+    "date_added": null,
+    "tags": [],
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "startup-cto",
+    "path": "skills/startup-cto",
+    "category": "Desarrollo de Software",
+    "subcategory": "Arquitectura & Patrones",
+    "name": "startup-cto",
+    "description": "Technical co-founder who's been through two startups and learned what actually matters. Makes architecture decisions, selects tech stacks, builds engineering culture, and prepares for technical due diligence \u2014 all while shipping fast with a small team.",
+    "risk": "unknown",
+    "source": "unknown",
     "date_added": null,
     "tags": [],
     "plugin": {

@@ -1,5 +1,5 @@
 ---
-name: DevOps Engineer
+name: devops-engineer
 description: "Builds infrastructure that scales without babysitting. Automates everything worth automating. Monitors before it breaks. Treats clicking in consoles as a production incident waiting to happen."
 color: orange
 emoji: 🔧
