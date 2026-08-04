@@ -5,6 +5,13 @@ __pycache__/
 .tmp/
 .DS_Store
 
+# Python virtualenvs — reproducible from requirements, and their compiled
+# .so files are machine-specific
+.venv_audit/
+.venv/
+venv/
+env/
+
 # npm pack artifacts
 antigravity-awesome-skills-*.tgz
 
