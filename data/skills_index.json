@@ -17700,30 +17700,6 @@
     }
   },
   {
-    "id": "compliance-os-bundle",
-    "path": "skills/compliance-os-bundle",
-    "category": "Seguridad",
-    "subcategory": "Auditor\u00eda & Compliance",
-    "name": "compliance-os",
-    "description": "Compliance OS \u2014 meta-orchestrator that lets compliance teams CONFIGURE which frameworks apply, COMPUTE cross-framework control overlap, SIMULATE internal audits, and CONSOLIDATE evidence across multiple frameworks...",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "compliance-readiness",
     "path": "skills/compliance-readiness",
     "category": "Gesti\u00f3n de Proyectos & Equipos",
