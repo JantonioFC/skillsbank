@@ -1,6 +1,6 @@
 ---
 name: sql-insight
-description: "Translate natural language to SQL, optimize query performance, and interpret EXPLAIN plans for SQLite and PostgreSQL. Triggered when users ask to convert questions into SQL, improve slow queries, tune indexes, analyze execution plans, or mention keywords like NL2SQL, query tuning, or full table scan."
+description: "Translate natural language to SQL, optimize query performance, and interpret EXPLAIN plans for SQLite and PostgreSQL."
 license: MIT
 ---
 
@@ -209,3 +209,7 @@ The `optimize` command detects the following 13 SQL anti-patterns:
 - Python 3.8+ (`sqlite3` is a built-in module)
 - PostgreSQL support requires: `pip install psycopg2-binary`
 - The `optimize` command requires no database connection and has zero external dependencies
+
+## Activation Triggers
+
+Triggered when users ask to convert questions into SQL, improve slow queries, tune indexes, analyze execution plans, or mention keywords like NL2SQL, query tuning, or full table scan.

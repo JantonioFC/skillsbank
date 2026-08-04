@@ -1,6 +1,6 @@
 ---
 name: timeline-builder
-description: "Generate beautiful interactive timeline HTML pages from JSON data, with vertical, horizontal, or dual-side layouts, collapsible details, and custom colors. Ideal for project milestones, company histories, or resumes. Triggered when a user mentions 'timeline', 'history of events', 'project milestones', 'release log', or asks to visualize a chronological sequence of data."
+description: "Generate beautiful interactive timeline HTML pages from JSON data, with vertical, horizontal, or dual-side layouts, collapsible details, and custom colors. Ideal for project milestones, company histories, or resumes."
 license: MIT
 type: tool
 tags: ["timeline", "html", "visualization", "interactive", "responsive"]
@@ -104,3 +104,7 @@ python3 scripts/generate_timeline.py --config data.json --layout horizontal --ou
 ## Dependencies
 
 - Python 3.6+ (standard library only — no extra packages required)
+
+## Activation Triggers
+
+Triggered when a user mentions 'timeline', 'history of events', 'project milestones', 'release log', or asks to visualize a chronological sequence of data.

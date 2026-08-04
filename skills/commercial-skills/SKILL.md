@@ -1,6 +1,6 @@
 ---
 name: commercial-skills
-description: Use when reviewing, approving, or designing commercial motion — pricing models, deal review, discount approval, partnership economics, channel mix, commercial policy, RFP/RFI response, bookings forecast. Triggers on "review this deal", "should we discount", "pricing model", "partner economics", "RFP response", "bookings forecast", "channel mix". Forks context to route to one of seven Commercial sub-skills (pricing-strategist, deal-desk, partnerships-architect, channel-economics, commercial-policy, rfp-responder, commercial-forecaster) and returns a digest. Distinct from business-growth (sales execution) and c-level-advisor/cro-advisor (strategic CRO judgment).
+description: "Use when reviewing, approving, or designing commercial motion — pricing models, deal review, discount approval, partnership economics, channel mix, commercial policy, RFP/RFI response, bookings forecast."
 context: fork
 version: 2.8.0
 author: claude-code-skills
@@ -143,3 +143,7 @@ Never run a sub-skill until the lane-defining decision is locked.
 - SaaS pricing canon: Tomasz Tunguz, David Skok, Bessemer Venture Partners
 - Deal desk: SaaStr playbooks, Winning by Design
 - Path-B build pattern: `documentation/implementation/bizops-commercial-expansion-plan.md`
+
+## Activation Triggers
+
+Triggers on "review this deal", "should we discount", "pricing model", "partner economics", "RFP response", "bookings forecast", "channel mix". Forks context to route to one of seven Commercial sub-skills (pricing-strategist, deal-desk, partnerships-architect, channel-economics, commercial-policy, rfp-responder, commercial-forecaster) and returns a digest. Distinct from business-growth (sales execution) and c-level-advisor/cro-advisor (strategic CRO judgment).

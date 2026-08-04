@@ -1,6 +1,6 @@
 ---
 name: http-load-profiler
-description: "Run stepped HTTP load tests with ab/wrk, ramping concurrency levels to collect p50/p90/p99 latency, detect performance inflection points, and recommend optimal concurrency. Triggered by requests like 'load test this URL', 'benchmark my API', 'find the max concurrency', or mentions of p99 latency, throughput saturation, or capacity planning."
+description: "Run stepped HTTP load tests with ab/wrk, ramping concurrency levels to collect p50/p90/p99 latency, detect performance inflection points, and recommend optimal concurrency."
 license: MIT
 type: tool
 tags: [http, benchmark, performance, latency, load-testing]
@@ -149,3 +149,7 @@ For each concurrency level, the following metrics are compared against the two p
 - wrk provides more accurate latency percentiles than ab (wrk uses HdrHistogram)
 - ab does not support a duration parameter; the script approximates timing via total request count
 - A minimum of 10 seconds per step is recommended for stable results
+
+## Activation Triggers
+
+Triggered by requests like 'load test this URL', 'benchmark my API', 'find the max concurrency', or mentions of p99 latency, throughput saturation, or capacity planning.

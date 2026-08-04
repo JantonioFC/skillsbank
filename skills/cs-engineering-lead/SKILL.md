@@ -1,6 +1,6 @@
 ---
 name: cs-engineering-lead
-description: Engineering Team Lead agent for coordinating QA, security, data engineering, ML, and frontend/backend teams. Orchestrates engineering-team skills for team-level technical decisions. Spawn when users need team coordination, tech stack evaluation, incident response, or cross-functional engineering work.
+description: "Engineering Team Lead agent for coordinating QA, security, data engineering, ML, and frontend/backend teams. Orchestrates engineering-team skills for team-level technical decisions."
 skills: engineering-team
 domain: engineering
 model: opus
@@ -84,3 +84,7 @@ Engineering team lead coordinating across specializations: frontend, backend, QA
 
 - [cs-senior-engineer](../engineering/cs-senior-engineer.md) -- Architecture decisions, code review, and CI/CD pipeline setup
 - [cs-product-manager](../product/cs-product-manager.md) -- Feature prioritization and requirements alignment
+
+## Activation Triggers
+
+Spawn when users need team coordination, tech stack evaluation, incident response, or cross-functional engineering work.

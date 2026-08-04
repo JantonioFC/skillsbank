@@ -1,11 +1,6 @@
 ---
 name: benchmark-methodology
-description: >-
-  Use after competitive-platform-analysis has produced a tiered competitor set.
-  Scores each competitor across nine weighted dimensions (positioning, voice,
-  visual craft, offer packaging, evidence, enterprise-readiness, thought
-  leadership, pricing, client's strategic tension) with explicit 1–5 rubrics
-  and a tension-plot. Precedes competitive-report-structure.
+description: ">- Use after competitive-platform-analysis has produced a tiered competitor set."
 ---
 
 # Benchmark Methodology
@@ -188,3 +183,7 @@ Hand the completed cards plus the tension plot to `competitive-report-structure`
 
 - `competitive-platform-analysis` — the prerequisite; produces the tiered competitor set this skill scores.
 - `competitive-report-structure` — the next step; assembles the scored profile cards into a client-deliverable report.
+
+## Activation Triggers
+
+Scores each competitor across nine weighted dimensions (positioning, voice, visual craft, offer packaging, evidence, enterprise-readiness, thought leadership, pricing, client's strategic tension) with explicit 1–5 rubrics and a tension-plot. Precedes competitive-report-structure.

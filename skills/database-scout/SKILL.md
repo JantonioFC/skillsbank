@@ -1,6 +1,6 @@
 ---
 name: database-scout
-description: "Explore SQLite and PostgreSQL databases: list tables, inspect schemas (columns/types/constraints), preview data, generate Mermaid ER diagrams, and run safe read-only queries. Triggered by requests to explore a database, view table structures, describe tables, generate diagrams, or query data, and by keywords like database exploration, schema, ER diagram, or SQL query."
+description: "Explore SQLite and PostgreSQL databases: list tables, inspect schemas (columns/types/constraints), preview data, generate Mermaid ER diagrams, and run safe read-only queries."
 license: MIT
 ---
 
@@ -130,3 +130,7 @@ erDiagram
 
 - Python 3.8+ (`sqlite3` is a built-in module)
 - PostgreSQL support requires: `pip install psycopg2-binary`
+
+## Activation Triggers
+
+Triggered by requests to explore a database, view table structures, describe tables, generate diagrams, or query data, and by keywords like database exploration, schema, ER diagram, or SQL query.

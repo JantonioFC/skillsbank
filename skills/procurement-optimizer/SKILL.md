@@ -1,6 +1,6 @@
 ---
 name: procurement-optimizer
-description: Use when running an annual SaaS audit, doing category-level spend review, or rationalizing the supplier base — when the user needs a spend audit, spend categorization (UNSPSC-aligned with Pareto breakdown and industry profiles), purchasing-cycle analysis (bottleneck categories per Goldratt's Theory of Constraints), or risk-balanced supplier consolidation that refuses single-source recommendations for tier-1 categories without a documented break-glass plan. Triggers on "spend audit", "SaaS audit", "spend categorization", "supplier rationalization", "supplier consolidation", "category strategy", "duplicate SaaS", "renewal cluster".
+description: "Use when running an annual SaaS audit, doing category-level spend review, or rationalizing the supplier base — when the user needs a spend audit, spend categorization (UNSPSC-aligned with Pareto breakdown and industry profiles)."
 version: 2.8.0
 author: claude-code-skills
 license: MIT
@@ -172,3 +172,7 @@ Walked one at a time by `/cs:grill-bizops` or the BizOps orchestrator. Recommend
    Canon: Productiv / Zylo / Vendr industry reports on SaaS sprawl.
 
 Walk depth-first. Lock 1-4 before opening 5-7. After all are answered, invoke `spend_categorizer.py` → `purchasing_cycle_analyzer.py` → `supplier_consolidation.py` in sequence.
+
+## Activation Triggers
+
+purchasing-cycle analysis (bottleneck categories per Goldratt's Theory of Constraints), or risk-balanced supplier consolidation that refuses single-source recommendations for tier-1 categories without a documented break-glass plan. Triggers on "spend audit", "SaaS audit", "spend categorization", "supplier rationalization", "supplier consolidation", "category strategy", "duplicate SaaS", "renewal cluster".

@@ -1,6 +1,6 @@
 ---
 name: code-to-diagram
-description: "Analyze codebases and automatically generate architecture diagrams, flowcharts, and org charts. Uses AST parsing to map import dependencies for Python, JS/TS, Go, and Java, outputting Mermaid or SVG files. Triggered when users ask to visualize code architecture, understand dependencies, draw a flowchart, or create a module diagram from source code."
+description: "Analyze codebases and automatically generate architecture diagrams, flowcharts, and org charts. Uses AST parsing to map import dependencies for Python, JS/TS, Go, and Java, outputting Mermaid or SVG files."
 license: MIT
 type: tool
 tags: ["visualization", "architecture", "mermaid", "ast", "diagram"]
@@ -102,3 +102,7 @@ python3 scripts/analyze_codebase.py /path/to/project --json
 - Only analyzes static import relationships; dynamic imports are not tracked
 - For large projects, use `--max-files` to limit the scan scope
 - Mermaid diagrams with too many nodes may be hard to render; use `--type` to generate diagrams separately
+
+## Activation Triggers
+
+Triggered when users ask to visualize code architecture, understand dependencies, draw a flowchart, or create a module diagram from source code.

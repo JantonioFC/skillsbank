@@ -1,6 +1,6 @@
 ---
 name: partnerships-architect
-description: "Use when a startup is approached by a prospective partner and someone has to decide should we sign this partner, at what partner tier (referral / reseller / OEM / SI-consulting / strategic alliance), with what joint GTM commitment, and at what revshare. Classifies partner tier from independent-demand evidence vs. preferential-terms hunting, designs a 90-day joint GTM plan, models revshare against direct-sale margin, and surfaces kill criteria for unwinding under-performing partnerships. For Head of Partnerships, Head of BD, and Founder-CEOs doing reseller agreement, OEM deal, or strategic alliance review — not technical sale enablement, not channel cost economics, not M&A."
+description: "Use when a startup is approached by a prospective partner and someone has to decide should we sign this partner, at what partner tier (referral / reseller / OEM / SI-consulting / strategic alliance), with what joint GTM commitment, and at what revshare."
 version: 2.8.0
 author: claude-code-skills
 license: MIT
@@ -207,3 +207,7 @@ canon citation per question. Never bundled. Lock 1-3 before opening 4-6.
 Walk depth-first. Lock 1-3 (is this a real partner?) before opening 4-7 (is the structure
 right?). After all 7 are answered, invoke `partner_tier_classifier.py` →
 `joint_gtm_planner.py` → `revshare_modeler.py` in sequence.
+
+## Activation Triggers
+
+Classifies partner tier from independent-demand evidence vs. preferential-terms hunting, designs a 90-day joint GTM plan, models revshare against direct-sale margin, and surfaces kill criteria for unwinding under-performing partnerships. For Head of Partnerships, Head of BD, and Founder-CEOs doing reseller agreement, OEM deal, or strategic alliance review — not technical sale enablement, not channel cost economics, not M&A.

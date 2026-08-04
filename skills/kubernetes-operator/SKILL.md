@@ -1,6 +1,6 @@
 ---
 name: kubernetes-operator
-description: Use when building a Kubernetes Operator — custom controllers that reconcile CRD state. Triggers on "build an operator", "CRD design", "reconcile loop", "controller-runtime", "kubebuilder", "operator-sdk", "metacontroller", "KOPF", "operator capability levels", or "custom resource". Ships CRD validator, reconcile-loop linter, and OperatorHub capability auditor (all stdlib Python), 4 references on the operator pattern + CRD design + reconcile patterns + tooling landscape, and a /operator-audit slash command. NOT a generic k8s skill — specifically the Operator pattern.
+description: "Use when building a Kubernetes Operator — custom controllers that reconcile CRD state. Triggers on \"build an operator\", \"CRD design\", \"reconcile loop\", \"controller-runtime\", \"kubebuilder\", \"operator-sdk\", \"metacontroller\", \"KOPF\", \"operator capability levels\", or \"custom resource\"."
 context: fork
 version: 2.9.0
 author: claude-code-skills
@@ -240,3 +240,7 @@ A team using this skill should achieve:
 - All reconcile functions pass `reconcile_lint.py` strict mode
 - Operators reach OperatorHub Capability Level 3 (Full Lifecycle) before public release
 - Mean time to fix a reconcile bug: <1 day (no infinite loops in production)
+
+## Activation Triggers
+
+Ships CRD validator, reconcile-loop linter, and OperatorHub capability auditor (all stdlib Python), 4 references on the operator pattern + CRD design + reconcile patterns + tooling landscape, and a /operator-audit slash command. NOT a generic k8s skill — specifically the Operator pattern.

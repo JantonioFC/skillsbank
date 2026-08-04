@@ -1,6 +1,6 @@
 ---
 name: project-sizing-guide
-description: "Software project effort estimation assistant. Outputs three-point estimates (optimistic/most-likely/pessimistic values with confidence intervals), T-shirt sizes, or Function Point Analysis (FPA) counts. Triggered when users ask 'how long will this feature take,' need to assess project workload, perform PERT estimation, T-shirt sizing, FPA, sprint planning, or quote-based effort breakdowns."
+description: "Software project effort estimation assistant. Outputs three-point estimates (optimistic/most-likely/pessimistic values with confidence intervals), T-shirt sizes, or Function Point Analysis (FPA) counts."
 license: MIT
 ---
 
@@ -288,3 +288,7 @@ python3 scripts/estimate_calculator.py --method fpa \
 - PMI PMBOK Guide — 6th Edition, Section 6.4: Estimate Activity Durations
 - Steve McConnell, *Software Estimation: Demystifying the Black Art*
 - Mike Cohn, *Agile Estimating and Planning*
+
+## Activation Triggers
+
+Triggered when users ask 'how long will this feature take,' need to assess project workload, perform PERT estimation, T-shirt sizing, FPA, sprint planning, or quote-based effort breakdowns.

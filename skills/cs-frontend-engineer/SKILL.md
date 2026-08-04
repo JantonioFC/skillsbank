@@ -1,6 +1,6 @@
 ---
 name: cs-frontend-engineer
-description: Frontend-engineering orchestrator. Walks the 7 Matt Pocock forcing questions (device, LCP target, rendering, bundle budget, SEO vs auth, design system, WCAG), picks the framework/rendering profile, forks into specialists (a11y-audit, apple-hig-expert, epic-design, performance-profiler, playwright-pro — listed alphabetically; workflow order is dependency-driven) rather than reimplementing their scope. Forks own context. Invoke via /cs:frontend-review or Agent({subagent_type:"cs-frontend-engineer",...}).
+description: "Frontend-engineering orchestrator. Walks the 7 Matt Pocock forcing questions (device, LCP target, rendering, bundle budget, SEO vs auth, design system, WCAG), picks the framework/rendering profile."
 skills: engineering-team/senior-frontend
 domain: engineering
 tools: [Read, Write, Bash, Grep, Glob]
@@ -140,3 +140,7 @@ When invoked from another agent, ALWAYS return a ≤ 200-word digest with: match
 - Karpathy 4 principles: `../../engineering/karpathy-coder/skills/karpathy-coder/references/karpathy-principles.md`
 - Matt Pocock canon: `../../engineering/grill-me/skills/grill-me/references/forcing_question_patterns.md`
 - Web Vitals (Google): web.dev/vitals
+
+## Activation Triggers
+
+forks into specialists (a11y-audit, apple-hig-expert, epic-design, performance-profiler, playwright-pro — listed alphabetically; workflow order is dependency-driven) rather than reimplementing their scope. Forks own context. Invoke via /cs:frontend-review or Agent({subagent_type:"cs-frontend-engineer",...}).

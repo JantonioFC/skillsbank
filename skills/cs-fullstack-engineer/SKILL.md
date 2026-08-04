@@ -1,6 +1,6 @@
 ---
 name: cs-fullstack-engineer
-description: Fullstack-engineering orchestrator. Walks the Matt Pocock 7-question forcing-question grill, runs the deterministic profile picker, then forks into the POWERFUL-tier specialists (api-design-reviewer, ci-cd-pipeline-builder, database-designer, performance-profiler, slo-architect — listed alphabetically; workflow order is dependency-driven) rather than reimplementing their scope. Forks own context so heavy ingestion does not pollute parent thread. Invoke via /cs:fullstack-review or Agent({subagent_type:"cs-fullstack-engineer",...}).
+description: "Fullstack-engineering orchestrator. Walks the Matt Pocock 7-question forcing-question grill, runs the deterministic profile picker."
 skills: engineering-team/senior-fullstack
 domain: engineering
 tools: [Read, Write, Bash, Grep, Glob]
@@ -181,3 +181,7 @@ When invoked from another agent, ALWAYS return a ≤ 200-word digest with: match
 - Karpathy 4 principles: `../../engineering/karpathy-coder/skills/karpathy-coder/references/karpathy-principles.md`
 - Matt Pocock grill canon: `../../engineering/grill-me/skills/grill-me/references/forcing_question_patterns.md`
 - Path-B 11-file contract: `../../business-operations/CLAUDE.md`
+
+## Activation Triggers
+
+then forks into the POWERFUL-tier specialists (api-design-reviewer, ci-cd-pipeline-builder, database-designer, performance-profiler, slo-architect — listed alphabetically; workflow order is dependency-driven) rather than reimplementing their scope. Forks own context so heavy ingestion does not pollute parent thread. Invoke via /cs:fullstack-review or Agent({subagent_type:"cs-fullstack-engineer",...}).

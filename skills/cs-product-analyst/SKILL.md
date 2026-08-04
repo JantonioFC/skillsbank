@@ -1,6 +1,6 @@
 ---
 name: cs-product-analyst
-description: Product analytics agent for KPI definition, dashboard setup, experiment design, and test result interpretation. Use when a product question needs numbers — e.g., defining activation/retention KPIs and a dashboard spec for a new feature, or sizing an A/B test and judging whether the result is significant enough to ship.
+description: "Product analytics agent for KPI definition, dashboard setup, experiment design, and test result interpretation."
 skills:
   - product-team/product-analytics
   - product-team/experiment-designer
@@ -85,3 +85,7 @@ Use this agent instead of cs-product-manager when the work is quantitative: the 
 
 - [Product Analytics Skill](../../product-team/skills/product-analytics/SKILL.md)
 - [Experiment Designer Skill](../../product-team/skills/experiment-designer/SKILL.md)
+
+## Activation Triggers
+
+Use when a product question needs numbers — e.g., defining activation/retention KPIs and a dashboard spec for a new feature, or sizing an A/B test and judging whether the result is significant enough to ship.

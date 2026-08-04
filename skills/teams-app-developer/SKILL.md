@@ -1,6 +1,6 @@
 ---
 name: teams-app-developer
-description: "Builds, tests, and deploys Microsoft 365 apps and agents for Teams and Copilot. Includes sub-skills for project creation, local testing, cloud deployment, troubleshooting, and Slack-to-Teams migration. USE FOR: Teams agent, bot, tab, message extension, Declarative Agents, Custom Engine Agents, local testing, Agents Playground, Azure resource provision, remote deployment, Slack to Teams migration, cross-platform bot development, Block Kit to Adaptive Cards conversion. DO NOT USE FOR: general web development, non-bot/non-Teams projects."
+description: "Builds, tests, and deploys Microsoft 365 apps and agents for Teams and Copilot. Includes sub-skills for project creation, local testing, cloud deployment, troubleshooting, and Slack-to-Teams migration."
 ---
 
 # Microsoft 365 Agents Toolkit Skill
@@ -113,3 +113,7 @@ AZURE_OPENAI_DEPLOYMENT_NAME
 If required values are missing, ask the user for only the missing ones.
 
 Refer to [manifest-and-yaml.md](toolkit/manifest-and-yaml.md) for full config-file details.
+
+## Activation Triggers
+
+USE FOR: Teams agent, bot, tab, message extension, Declarative Agents, Custom Engine Agents, local testing, Agents Playground, Azure resource provision, remote deployment, Slack to Teams migration, cross-platform bot development, Block Kit to Adaptive Cards conversion. DO NOT USE FOR: general web development, non-bot/non-Teams projects.

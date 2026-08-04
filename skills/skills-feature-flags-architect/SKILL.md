@@ -1,6 +1,6 @@
 ---
 name: feature-flags-architect
-description: Use when adding, retiring, or auditing feature flags. Triggers on "add a flag", "ship behind a flag", "rollout plan", "kill switch", "stale flags", "flag debt", "LaunchDarkly", "GrowthBook", "Statsig", "Unleash", "Flipt", or any progressive-delivery question. Ships flag debt scanner, rollout planner, and kill-switch auditor (all stdlib Python), 4 references on flag taxonomy + provider trade-offs + rollout strategies + lifecycle, plus a /flag-cleanup slash command.
+description: "Use when adding, retiring, or auditing feature flags. Triggers on \"add a flag\", \"ship behind a flag\", \"rollout plan\", \"kill switch\", \"stale flags\", \"flag debt\", \"LaunchDarkly\", \"GrowthBook\", \"Statsig\", \"Unleash\", \"Flipt\", or any progressive-delivery question."
 context: fork
 version: 2.9.0
 author: claude-code-skills
@@ -217,3 +217,7 @@ A team using this skill should achieve:
 - `flag_debt_scanner.py --max-age-days 90` returns ≤5 stale flags repo-wide
 - Every flag has a documented owner, type, and kill switch
 - Mean time to retire a Release flag: <60 days from 100% rollout
+
+## Activation Triggers
+
+Ships flag debt scanner, rollout planner, and kill-switch auditor (all stdlib Python), 4 references on flag taxonomy + provider trade-offs + rollout strategies + lifecycle, plus a /flag-cleanup slash command.

@@ -1,6 +1,6 @@
 ---
 name: "behuman"
-description: "Use when the user wants more human-like AI responses — less robotic, less listy, more authentic. Triggers: 'behuman', 'be real', 'like a human', 'more human', 'less AI', 'talk like a person', 'mirror mode', 'stop being so AI', or when conversations are emotionally charged (grief, job loss, relationship advice, fear). NOT for technical questions, code generation, or factual lookups."
+description: "Use when the user wants more human-like AI responses — less robotic, less listy, more authentic."
 ---
 
 # BeHuman — Self-Mirror Consciousness Loop
@@ -191,3 +191,7 @@ Quiet mode is cheaper because Mirror reflection can be shorter when not displaye
 - This is a **prompt-level technique** — no external API calls needed
 - Works with any LLM backend (the mirror is a thinking pattern, not a separate model)
 - For programmatic use, see `references/api-integration.md`
+
+## Activation Triggers
+
+Triggers: 'behuman', 'be real', 'like a human', 'more human', 'less AI', 'talk like a person', 'mirror mode', 'stop being so AI', or when conversations are emotionally charged (grief, job loss, relationship advice, fear). NOT for technical questions, code generation, or factual lookups.

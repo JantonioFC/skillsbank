@@ -1,6 +1,6 @@
 ---
 name: vendor-management
-description: Use when reviewing, scoring, or auditing third-party SaaS / vendor relationships — running a vendor scorecard with industry tuning, tracking SLA compliance with credit-claim flags, classifying third-party risk across 4 risk vectors, preparing a tier-1 vendor review, or auditing the SaaS portfolio. Forks context so large vendor catalogs (50-500 line items) and SLA logs don't pollute the parent thread. Triggers on "vendor SLA", "vendor scorecard", "third-party risk", "TPRM", "vendor review", "supplier performance", "vendor health check", "renewal review".
+description: "Use when reviewing, scoring, or auditing third-party SaaS / vendor relationships — running a vendor scorecard with industry tuning, tracking SLA compliance with credit-claim flags, classifying third-party risk across 4 risk vectors, preparing a tier-1 vendor review, or auditing the SaaS portfolio."
 context: fork
 version: 2.8.0
 author: claude-code-skills
@@ -175,3 +175,7 @@ Walked one at a time by `/cs:grill-bizops` or the BizOps orchestrator. Recommend
    Canon: ISO/IEC 27036 (supplier relationships security).
 
 Walk depth-first. Lock 1-3 before opening 4-6. After all are answered, invoke `vendor_scorer.py` → `sla_compliance_tracker.py` → `vendor_risk_classifier.py` in sequence.
+
+## Activation Triggers
+
+Forks context so large vendor catalogs (50-500 line items) and SLA logs don't pollute the parent thread. Triggers on "vendor SLA", "vendor scorecard", "third-party risk", "TPRM", "vendor review", "supplier performance", "vendor health check", "renewal review".

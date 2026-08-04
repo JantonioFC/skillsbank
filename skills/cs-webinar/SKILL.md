@@ -1,6 +1,6 @@
 ---
 name: "cs-webinar"
-description: "/cs:webinar — Webinar & virtual-event marketing workflow. Plan a webinar from scratch (sized backward from the business goal), rescue one whose numbers disappointed (score the funnel, fix the broken stage), or turn a past webinar into an evergreen on-demand lead engine. Covers the full funnel: registration, promotion runway, show-up, live engagement, live-to-close, and segmented follow-up. Treats a webinar as a funnel, not an event."
+description: "/cs:webinar — Webinar & virtual-event marketing workflow. Plan a webinar from scratch (sized backward from the business goal), rescue one whose numbers disappointed (score the funnel, fix the broken stage), or turn a past webinar into an evergreen on-demand lead engine."
 ---
 
 # /cs:webinar — Webinar & Virtual Event Marketing
@@ -145,3 +145,7 @@ The scorer calibrates per audience temperature (warmer audiences convert better 
 
 **Version:** 2.9.0
 **License:** MIT
+
+## Activation Triggers
+
+Covers the full funnel: registration, promotion runway, show-up, live engagement, live-to-close, and segmented follow-up. Treats a webinar as a funnel, not an event.

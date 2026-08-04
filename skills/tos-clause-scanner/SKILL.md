@@ -1,6 +1,6 @@
 ---
 name: tos-clause-scanner
-description: "Audit Terms of Service, user agreements, and privacy policies for consumer risks, producing a structured report that flags unfair clauses, data traps, and liability issues. Trigger when a user asks to review, audit, or analyze a ToS, privacy policy, or user agreement, or mentions specific concerns like auto-renewal or data authorization."
+description: "Audit Terms of Service, user agreements, and privacy policies for consumer risks, producing a structured report that flags unfair clauses, data traps, and liability issues."
 license: MIT
 ---
 
@@ -285,3 +285,7 @@ The audit references the following regulations (this does not constitute legal a
 - Do not directly advise users to take legal action (but may suggest consulting a lawyer)
 - If the terms text is incomplete or appears to have gaps, note this explicitly in the report
 - Do not over-interpret industry-standard reasonable clauses (e.g., reasonable disclaimers) as risks
+
+## Activation Triggers
+
+Trigger when a user asks to review, audit, or analyze a ToS, privacy policy, or user agreement, or mentions specific concerns like auto-renewal or data authorization.

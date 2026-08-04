@@ -1,6 +1,6 @@
 ---
 name: "webinar-marketing"
-description: "When the user wants to plan, promote, run, or improve a webinar or virtual event to generate and convert demand. Use when the user mentions 'webinar,' 'virtual event,' 'online event,' 'live demo,' 'virtual summit,' 'workshop,' 'masterclass,' 'fireside chat,' 'roundtable,' 'registration funnel,' 'show-up rate,' 'attendance rate,' 'webinar promotion,' 'webinar follow-up,' or 'on-demand webinar.' Also use when they have a webinar that isn't converting — low registrations, low show-up, or attendees who don't buy — and want to diagnose and fix it. Covers the full funnel: registration, promotion, show-up, live engagement, live-to-close, and post-event nurture. Distinct from launch-strategy (full product launches) and email-sequence (lifecycle nurture) — this is the end-to-end webinar/event motion. NOT for in-person field events logistics, and NOT for generic lifecycle email (use email-sequence)."
+description: "When the user wants to plan, promote, run, or improve a webinar or virtual event to generate and convert demand."
 license: MIT
 metadata:
   version: 1.0.0
@@ -214,3 +214,7 @@ For webinar numbers, always tag whether a conversion rate is measured from their
 - **content-creator**: For producing the on-demand assets, recap posts, and clips that extend a webinar's life. Good follow-up reuses webinar content.
 - **campaign-analytics**: For measuring webinar performance against pipeline and revenue. Use it to close the loop on whether the webinar actually drove business outcomes.
 - **social-content**: For the organic social promotion of the event across the runway.
+
+## Activation Triggers
+
+Use when the user mentions 'webinar,' 'virtual event,' 'online event,' 'live demo,' 'virtual summit,' 'workshop,' 'masterclass,' 'fireside chat,' 'roundtable,' 'registration funnel,' 'show-up rate,' 'attendance rate,' 'webinar promotion,' 'webinar follow-up,' or 'on-demand webinar.' Also use when they have a webinar that isn't converting — low registrations, low show-up, or attendees who don't buy — and want to diagnose and fix it. Covers the full funnel: registration, promotion, show-up, live engagement, live-to-close, and post-event nurture. Distinct from launch-strategy (full product launches) and email-sequence (lifecycle nurture) — this is the end-to-end webinar/event motion. NOT for in-person field events logistics, and NOT for generic lifecycle email (use email-sequence).

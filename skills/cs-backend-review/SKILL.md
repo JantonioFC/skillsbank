@@ -1,5 +1,5 @@
 ---
-description: Backend engineering review — walks the 7 Matt Pocock forcing questions (read/write ratio + QPS, tenancy, sync vs async, data sensitivity, pattern, RPO/RTO, SLO), picks the language + pattern profile, forks into specialists (api-design-reviewer, database-designer, migration-architect, slo-architect). Invokes the cs-backend-engineer agent with context fork.
+description: "Backend engineering review — walks the 7 Matt Pocock forcing questions (read/write ratio + QPS, tenancy, sync vs async, data sensitivity, pattern, RPO/RTO, SLO), picks the language + pattern profile, forks into specialists (api-design-reviewer, database-designer, migration-architect, slo-architect)."
 argument-hint: "<problem or service to review>"
 ---
 
@@ -74,3 +74,7 @@ Profiles live at `engineering-team/skills/senior-backend/profiles/`. Four built-
 - `/cs:engineer-grill` — cross-role 21-question grill
 - `/slo-design` — explicit SLO design via slo-architect
 - `/karpathy-check` — Karpathy 4-principle review
+
+## Activation Triggers
+
+Invokes the cs-backend-engineer agent with context fork.

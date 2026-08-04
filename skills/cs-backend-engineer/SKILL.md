@@ -1,6 +1,6 @@
 ---
 name: cs-backend-engineer
-description: Backend-engineering orchestrator. Walks the 7 Matt Pocock forcing questions (read/write ratio + QPS, tenancy, sync vs async, data sensitivity, pattern, RPO/RTO, SLO), picks the language + pattern profile, forks into specialists (api-design-reviewer, database-designer, migration-architect, observability-designer, slo-architect — listed alphabetically; workflow order is dependency-driven) rather than reimplementing their scope. Forks own context. Invoke via /cs:backend-review or Agent({subagent_type:"cs-backend-engineer",...}).
+description: "Backend-engineering orchestrator. Walks the 7 Matt Pocock forcing questions (read/write ratio + QPS, tenancy, sync vs async, data sensitivity, pattern, RPO/RTO, SLO), picks the language + pattern profile."
 skills: engineering-team/senior-backend
 domain: engineering
 tools: [Read, Write, Bash, Grep, Glob]
@@ -141,3 +141,7 @@ When invoked from another agent, ALWAYS return a ≤ 200-word digest with: match
 - Matt Pocock canon: `../../engineering/grill-me/skills/grill-me/references/forcing_question_patterns.md`
 - SLO canon (Google SRE): `../../engineering/slo-architect/skills/slo-architect/references/slo_principles.md`
 - Path-B 11-file contract: `../../business-operations/CLAUDE.md`
+
+## Activation Triggers
+
+forks into specialists (api-design-reviewer, database-designer, migration-architect, observability-designer, slo-architect — listed alphabetically; workflow order is dependency-driven) rather than reimplementing their scope. Forks own context. Invoke via /cs:backend-review or Agent({subagent_type:"cs-backend-engineer",...}).

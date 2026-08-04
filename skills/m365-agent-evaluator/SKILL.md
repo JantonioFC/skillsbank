@@ -1,7 +1,6 @@
 ---
 name: m365-agent-evaluator
-description: >
-  Use this skill when a user wants to create, run, or analyze evaluation suites for Microsoft 365 Copilot declarative agents with the public @microsoft/m365-copilot-eval CLI. Trigger on intents such as "evaluate my agent", "test my agent", "run my evals", "create eval prompts", "add multi-turn tests", "tune evaluator thresholds", "why is my agent failing", or "set up eval environment variables".
+description: "> Use this skill when a user wants to create, run, or analyze evaluation suites for Microsoft 365 Copilot declarative agents with the public @microsoft/m365-copilot-eval CLI."
 ---
 
 # M365 Agent Evaluator
@@ -156,3 +155,7 @@ Analyze only evaluator keys that are present. Missing score keys usually mean th
 Use current score keys when present: `relevance`, `coherence`, `groundedness`, `similarity`, `citations`, `exactMatch`, and `partialMatch`. Group failures into likely root causes: instruction issue, grounding issue, citation issue, expected-answer mismatch, capability gap, auth/environment issue, or eval-quality issue.
 
 Do not run real tenant-dependent evals unless the user has provided or approved the necessary tenant, agent, and Azure OpenAI configuration.
+
+## Activation Triggers
+
+Trigger on intents such as "evaluate my agent", "test my agent", "run my evals", "create eval prompts", "add multi-turn tests", "tune evaluator thresholds", "why is my agent failing", or "set up eval environment variables".

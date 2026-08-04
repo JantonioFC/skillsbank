@@ -1,6 +1,6 @@
 ---
 name: code-vuln-audit
-description: "Scan code for security issues: dependency vulnerabilities (npm/pip audit), secret leaks (regex and entropy analysis), and OWASP anti-patterns like SQL injection, XSS, or command injection. Use when the user mentions security scans, vulnerability detection, secret leaks, API keys, OWASP, npm audit, pip-audit, hardcoded passwords, or code security checks."
+description: "Scan code for security issues: dependency vulnerabilities (npm/pip audit), secret leaks (regex and entropy analysis), and OWASP anti-patterns like SQL injection, XSS, or command injection."
 license: MIT
 ---
 
@@ -150,3 +150,7 @@ Total findings: 2
 - Python 3.7+ (uses standard library only)
 - Dependency scanning requires the corresponding tools: `npm` (for Node.js projects), `pip-audit` (for Python projects)
 - If an audit tool is missing, that module will be skipped with a notice — other modules continue to run normally
+
+## Activation Triggers
+
+Use when the user mentions security scans, vulnerability detection, secret leaks, API keys, OWASP, npm audit, pip-audit, hardcoded passwords, or code security checks.

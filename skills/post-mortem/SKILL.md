@@ -1,6 +1,6 @@
 ---
 name: "post-mortem"
-description: "/cs:post-mortem <decision> — Honest retrospective on an executed decision, scored against original assumptions and dissent. Closes the strategic sprint loop. Use when a decision hits its 90-day review checkpoint or its kill criteria trigger — e.g. scoring last quarter's pricing change against its pre-committed success metrics."
+description: "/cs:post-mortem <decision> — Honest retrospective on an executed decision, scored against original assumptions and dissent. Closes the strategic sprint loop."
 ---
 
 # /cs:post-mortem — Honest Retrospective
@@ -113,3 +113,7 @@ The dissent column from `/cs:boardroom` is the single most useful piece of organ
 ---
 
 **Version:** 1.0.0
+
+## Activation Triggers
+
+Use when a decision hits its 90-day review checkpoint or its kill criteria trigger — e.g. scoring last quarter's pricing change against its pre-committed success metrics.

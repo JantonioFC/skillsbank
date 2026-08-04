@@ -1,6 +1,6 @@
 ---
 name: regulatory-audit-generator
-description: "Builds compliance checklists for business scenarios involving GDPR, PIPL, or advertising/data laws. Outputs a structured checklist with check items, legal basis, risk levels, and actionable recommendations. Triggered by requests like \"run a compliance check,\" \"GDPR/PIPL compliance,\" \"pre-launch review,\" \"privacy impact assessment (PIA/DPIA),\" or asking if a feature is compliant."
+description: "Builds compliance checklists for business scenarios involving GDPR, PIPL, or advertising/data laws. Outputs a structured checklist with check items, legal basis, risk levels, and actionable recommendations."
 license: MIT
 ---
 
@@ -225,3 +225,7 @@ The Agent should ultimately deliver the following to the user:
 - Measures for Standard Contracts for Personal Information Export (2023)
 - Measures for Security Assessment of Data Export (2022)
 - GB/T 35273-2020 Information Security Technology — Personal Information Security Specification
+
+## Activation Triggers
+
+Triggered by requests like "run a compliance check," "GDPR/PIPL compliance," "pre-launch review," "privacy impact assessment (PIA/DPIA)," or asking if a feature is compliant.

@@ -1,7 +1,7 @@
 ---
 name: chart-image
 version: 2.5.1
-description: "Generate publication-quality PNG chart images from data, supporting line, bar, area, candlestick, pie, and heatmap charts. Triggers when the user asks to visualize data, create a graph, plot a time series, or generate a chart for a report, alert, or dashboard. Runs as a lightweight, headless Node.js process without a browser."
+description: "Generate publication-quality PNG chart images from data, supporting line, bar, area, candlestick, pie, and heatmap charts. Triggers when the user asks to visualize data, create a graph, plot a time series, or generate a chart for a report, alert, or dashboard."
 provides:
   - capability: chart-generation
     methods: [lineChart, barChart, areaChart, pieChart, candlestickChart, heatmap]
@@ -320,3 +320,7 @@ node chart.mjs --type line --data '...' --output /data/clawd/tmp/my-chart.png
 
 ---
 *Updated: 2026-02-04 - Added --y-format (percent/dollar/compact/decimal4) and --subtitle*
+
+## Activation Triggers
+
+Runs as a lightweight, headless Node.js process without a browser.

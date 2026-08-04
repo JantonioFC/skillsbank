@@ -1,6 +1,6 @@
 ---
 name: cs-project-manager
-description: Project Manager agent for sprint planning, Jira/Confluence workflows, Scrum ceremonies, and stakeholder reporting. Orchestrates project-management skills. Use when running delivery operations — e.g., planning a sprint with capacity and carry-over math in Jira, or assembling a portfolio health report for stakeholders from ticket and velocity data.
+description: "Project Manager agent for sprint planning, Jira/Confluence workflows, Scrum ceremonies, and stakeholder reporting. Orchestrates project-management skills."
 skills: project-management
 domain: pm
 model: sonnet
@@ -513,3 +513,7 @@ echo "Template: ../../project-management/skills/senior-pm/assets/executive_repor
 **Last Updated:** March 9, 2026
 **Version:** 2.0
 **Status:** Production Ready
+
+## Activation Triggers
+
+Use when running delivery operations — e.g., planning a sprint with capacity and carry-over math in Jira, or assembling a portfolio health report for stakeholders from ticket and velocity data.

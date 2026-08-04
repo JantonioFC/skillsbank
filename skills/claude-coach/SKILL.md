@@ -1,7 +1,7 @@
 ---
 Name: claude-coach
 name: claude-coach
-description: Personal coach that teaches users to become Claude power users. Use this skill the FIRST time a user asks to "learn Claude", "be a power user", "coach me", "teach me Claude tricks", "what can Claude do", "make me better at prompting", or any variation. After activation, also use it on EVERY subsequent turn to detect missed optimization opportunities (vague prompts, ignored capabilities, manual work Claude could automate) and surface a single power-user tip. Trigger generously — most users do not know what they do not know, so err on the side of coaching.
+description: "Personal coach that teaches users to become Claude power users. Use this skill the FIRST time a user asks to \"learn Claude\", \"be a power user\", \"coach me\", \"teach me Claude tricks\", \"what can Claude do\", \"make me better at prompting\", or any variation."
 Tier: POWERFUL
 Category: meta
 Author: claude-skills
@@ -203,3 +203,7 @@ Personal Claude power-user coach. On first activation, delivers a ranked cheat-c
 - `scripts/cheat_code_filter.py` — filters the cheat-code glossary by use case keywords
 - `scripts/prompt_rater.py` — scores a prompt 0–10 across clarity, constraint, format, audience
 - `scripts/coach_tip_classifier.py` — classifies whether a turn is coachable per the 5-gate decision tree
+
+## Activation Triggers
+
+After activation, also use it on EVERY subsequent turn to detect missed optimization opportunities (vague prompts, ignored capabilities, manual work Claude could automate) and surface a single power-user tip. Trigger generously — most users do not know what they do not know, so err on the side of coaching.

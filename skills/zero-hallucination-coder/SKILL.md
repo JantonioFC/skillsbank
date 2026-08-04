@@ -1,6 +1,6 @@
 ---
 name: zero-hallucination-coder
-description: "Runs a disciplined Discuss -> Map -> Decompose -> Execute -> Verify loop that grounds code in verified structure — no invented APIs, no assumed imports, no placeholder code — with a lazy-senior-dev YAGNI ladder that deletes unnecessary code before it is written. Use when a coding task is high-stakes, complex, or spans existing code (auth, databases, migrations, multi-file features), or when the user explicitly asks to plan carefully before coding, avoid hallucinated code, or work rigorously. Not for trivial edits, typos, or throwaway one-off scripts — those do not need the full loop."
+description: "Runs a disciplined Discuss -> Map -> Decompose -> Execute -> Verify loop that grounds code in verified structure — no invented APIs, no assumed imports, no placeholder code — with a lazy-senior-dev YAGNI ladder that deletes unnecessary code before it is written."
 ---
 
 # Zero-Hallucination Coder
@@ -269,3 +269,7 @@ Surface these without being asked when noticed in context:
 - **`senior-architect`** — pure architecture decisions with no immediate implementation. NOT for tasks where code is written in the same session.
 - **`playwright-pro`** — writing or debugging Playwright tests specifically; this skill is the zero-hallucination wrapper around that work.
 - **`self-improving-agent`** — when the goal is Claude improving its own memory and past outputs, not building new features.
+
+## Activation Triggers
+
+Use when a coding task is high-stakes, complex, or spans existing code (auth, databases, migrations, multi-file features), or when the user explicitly asks to plan carefully before coding, avoid hallucinated code, or work rigorously. Not for trivial edits, typos, or throwaway one-off scripts — those do not need the full loop.

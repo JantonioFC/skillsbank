@@ -1,6 +1,6 @@
 ---
 name: cs-wiki-linter
-description: Dispatched sub-agent that runs a periodic health check on an LLM Wiki vault. Runs mechanical checks via scripts (orphans, broken links, stale pages, missing frontmatter, duplicate titles, log gaps), does semantic checks (contradictions, stale claims, cross-reference gaps, concepts missing their own page), and produces a markdown report with suggested actions. Spawn weekly, after batch ingests, or when the user says "check the wiki" / "lint my wiki" / "audit the vault".
+description: "Dispatched sub-agent that runs a periodic health check on an LLM Wiki vault."
 skills: engineering/llm-wiki
 domain: engineering
 model: opus
@@ -102,3 +102,7 @@ python <plugin>/scripts/append_log.py --vault . --op lint --title "<date> health
 - Skipping semantic pass because "the scripts look clean" → do the read-and-think pass anyway
 - Reporting without suggestions → add suggestions
 - Not updating `log.md` → always log
+
+## Activation Triggers
+
+Runs mechanical checks via scripts (orphans, broken links, stale pages, missing frontmatter, duplicate titles, log gaps), does semantic checks (contradictions, stale claims, cross-reference gaps, concepts missing their own page), and produces a markdown report with suggested actions. Spawn weekly, after batch ingests, or when the user says "check the wiki" / "lint my wiki" / "audit the vault".

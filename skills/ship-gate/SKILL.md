@@ -1,12 +1,6 @@
 ---
 name: ship-gate
-description: >
-  Pre-production audit that scans a codebase for security, database,
-  deployment, code quality, AI/LLM, dependency, frontend, and observability
-  issues. Intercepts deploy commands and blocks until critical items pass.
-  Stack-agnostic. Use for "run ship gate", "am I ready to ship",
-  "pre-launch audit", "can I deploy", "push to production", "go live
-  checklist", "preflight check". Not for CI/CD setup or infra provisioning.
+description: "> Pre-production audit that scans a codebase for security, database, deployment, code quality, AI/LLM, dependency, frontend, and observability issues. Intercepts deploy commands and blocks until critical items pass. Stack-agnostic."
 license: MIT
 metadata:
   author: Rajaraman Arumugam
@@ -188,3 +182,7 @@ This skill does not:
 - **adversarial-reviewer**: deep security review for items ship-gate flags as critical
 - **security-pen-testing**: penetration testing methodology for SEC-category findings
 - **code-reviewer**: general code quality review complements ship-gate's automated checks
+
+## Activation Triggers
+
+Use for "run ship gate", "am I ready to ship", "pre-launch audit", "can I deploy", "push to production", "go live checklist", "preflight check". Not for CI/CD setup or infra provisioning.

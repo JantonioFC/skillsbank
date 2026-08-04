@@ -1,6 +1,6 @@
 ---
 name: rfp-responder
-description: "Use when an RFP, RFI, RFQ, security questionnaire, vendor questionnaire, or proposal request arrives and the team needs a structured response — parsing multi-section buyer-dictated requirements (MANDATORY vs WEIGHTED vs NICE-TO-HAVE), building a Shipley-method proof-point matrix mapping each requirement to a verifiable proof point, articulating 3-5 win-themes that ladder up across requirements, and producing a Shipley-derived winrate estimate that informs a bid / no-bid / partner-bid recommendation. For Bid Managers, Proposal Leads, Directors of Sales, and Sales Engineers at the response-strategy moment. Surfaces GAP requirements explicitly — never invents claims. NOT free-form proposal narrative authoring, NOT contract redline, NOT marketing collateral."
+description: "Use when an RFP, RFI, RFQ, security questionnaire, vendor questionnaire, or proposal request arrives and the team needs a structured response — parsing multi-section buyer-dictated requirements (MANDATORY vs WEIGHTED vs NICE-TO-HAVE)."
 context: fork
 version: 2.8.0
 author: claude-code-skills
@@ -152,3 +152,7 @@ Walked one at a time before any script runs. Recommended answer + canon citation
    Canon: Strategic Proposals proposal-management research — evaluators score on the rubric they were given, not on your narrative.
 
 Walk depth-first. Lock 1-3 before opening 4-7. After all 7 are answered, invoke `rfp_parser.py` → `response_drafter.py` → `winrate_predictor.py` in sequence. If question 6 lands on "we don't have a threshold," set one now or no-bid.
+
+## Activation Triggers
+
+building a Shipley-method proof-point matrix mapping each requirement to a verifiable proof point, articulating 3-5 win-themes that ladder up across requirements, and producing a Shipley-derived winrate estimate that informs a bid / no-bid / partner-bid recommendation. For Bid Managers, Proposal Leads, Directors of Sales, and Sales Engineers at the response-strategy moment. Surfaces GAP requirements explicitly — never invents claims. NOT free-form proposal narrative authoring, NOT contract redline, NOT marketing collateral.

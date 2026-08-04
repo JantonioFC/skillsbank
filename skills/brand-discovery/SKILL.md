@@ -1,11 +1,6 @@
 ---
 name: brand-discovery
-description: >-
-  Use when a brand needs to discover or articulate its identity through
-  structured multi-session interviews. Covers purpose, positioning, audience,
-  personality, voice, narrative, and founder-brand tension across 8 modules
-  using laddering, 5 Whys, and projective techniques. Produces a resumable
-  session with disk-persisted state and a master brandbook (90_SYNTHESIS.md).
+description: ">- Use when a brand needs to discover or articulate its identity through structured multi-session interviews. Covers purpose, positioning, audience, personality, voice, narrative, and founder-brand tension across 8 modules using laddering, 5 Whys, and projective techniques."
 ---
 
 # Brand Discovery
@@ -143,3 +138,7 @@ the module file, flag "productive tensions" for the group alignment workshop.
 
 - `competitive-platform-analysis` — after brand-discovery establishes the positioning brief, use this to scope and categorise the competitor set.
 - `brand-voice` (ECC) — if the brand-discovery voice-and-tone module needs a separate, source-derived writing-style profile.
+
+## Activation Triggers
+
+Produces a resumable session with disk-persisted state and a master brandbook (90_SYNTHESIS.md).

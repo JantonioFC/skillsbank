@@ -1,6 +1,6 @@
 ---
 name: cs-product-manager
-description: Product management agent for feature prioritization, customer discovery, PRD development, and roadmap planning using RICE framework. Use when a product decision needs structure and evidence — e.g., RICE-scoring a backlog of 20 feature requests before quarterly planning, or drafting a PRD from raw customer-interview notes.
+description: "Product management agent for feature prioritization, customer discovery, PRD development, and roadmap planning using RICE framework."
 skills: product-team/product-manager-toolkit, product-team/agile-product-owner, product-team/product-strategist, product-team/ux-researcher-designer, product-team/ui-design-system, product-team/competitive-teardown, product-team/landing-page-generator, product-team/saas-scaffolder
 domain: product
 model: sonnet
@@ -682,3 +682,7 @@ echo "Report: $QUARTER-roadmap.txt"
 **Last Updated:** March 9, 2026
 **Status:** Production Ready
 **Version:** 2.0
+
+## Activation Triggers
+
+Use when a product decision needs structure and evidence — e.g., RICE-scoring a backlog of 20 feature requests before quarterly planning, or drafting a PRD from raw customer-interview notes.

@@ -1,6 +1,6 @@
 ---
 name: r2-upload
-description: "Upload files to Cloudflare R2, AWS S3, or any S3-compatible storage (like MinIO) and generate secure, time-limited presigned download links with configurable expiration, typically set to 5 minutes. Use when the user needs to upload a file to cloud storage and get a shareable link, or mentions R2, S3, presigned URLs, temporary links, or file uploads with expiration."
+description: "Upload files to Cloudflare R2, AWS S3, or any S3-compatible storage (like MinIO) and generate secure, time-limited presigned download links with configurable expiration, typically set to 5 minutes."
 summary: TypeScript-based MCP skill for uploading files to cloud storage (R2, S3, MinIO) with secure, temporary download links. Features multi-bucket support, interactive onboarding, and 5-minute default expiration.
 ---
 
@@ -119,3 +119,7 @@ r2-upload /path/to/file.pdf --public
 - Automatic UUID prefix added to prevent collisions (e.g., `abc123/file.pdf`)
 - Content-Type automatically detected from file extension
 - Presigned URLs expire after the configured duration
+
+## Activation Triggers
+
+Use when the user needs to upload a file to cloud storage and get a shareable link, or mentions R2, S3, presigned URLs, temporary links, or file uploads with expiration.

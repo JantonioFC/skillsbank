@@ -1,6 +1,6 @@
 ---
 name: cs-agile-product-owner
-description: Agile product owner agent for epic breakdown, sprint planning, backlog refinement, and INVEST-compliant user story generation. Use when preparing work for a development team — e.g., decomposing a large epic into INVEST-compliant stories with acceptance criteria, or refining a messy backlog ahead of sprint planning.
+description: "Agile product owner agent for epic breakdown, sprint planning, backlog refinement, and INVEST-compliant user story generation."
 skills: product-team/agile-product-owner, product-team/product-manager-toolkit
 domain: product
 model: sonnet
@@ -414,3 +414,7 @@ echo "Location: ../../product-team/agile-product-owner/skills/agile-product-owne
 **Last Updated:** March 9, 2026
 **Status:** Production Ready
 **Version:** 1.0
+
+## Activation Triggers
+
+Use when preparing work for a development team — e.g., decomposing a large epic into INVEST-compliant stories with acceptance criteria, or refining a messy backlog ahead of sprint planning.

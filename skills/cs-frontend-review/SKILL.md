@@ -1,5 +1,5 @@
 ---
-description: Frontend engineering review — walks the 7 Matt Pocock forcing questions (device, LCP target, rendering, bundle budget, SEO vs auth, design system, WCAG), picks the framework + rendering profile, forks into specialists (a11y-audit, performance-profiler, epic-design). Invokes the cs-frontend-engineer agent with context fork.
+description: "Frontend engineering review — walks the 7 Matt Pocock forcing questions (device, LCP target, rendering, bundle budget, SEO vs auth, design system, WCAG), picks the framework + rendering profile, forks into specialists (a11y-audit, performance-profiler, epic-design)."
 argument-hint: "<problem or surface to review>"
 ---
 
@@ -67,3 +67,7 @@ Profiles live at `engineering-team/skills/senior-frontend/profiles/`. Four built
 - `/cs:backend-review` — for API contract on the consumer side
 - `/cs:engineer-grill` — cross-role 21-question grill
 - `/karpathy-check` — Karpathy 4-principle review
+
+## Activation Triggers
+
+Invokes the cs-frontend-engineer agent with context fork.

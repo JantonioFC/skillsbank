@@ -1,6 +1,6 @@
 ---
 name: cv-tailor
-description: "Optimize resumes by matching keywords to the job description, rewriting experience with the quantified STAR method, and checking ATS compatibility. Triggered when users ask for resume help, review, or polishing, mention JD matching, STAR method, ATS, or want to tailor their resume for a specific role."
+description: "Optimize resumes by matching keywords to the job description, rewriting experience with the quantified STAR method, and checking ATS compatibility."
 license: MIT
 ---
 
@@ -278,3 +278,7 @@ If the user provides feedback on the optimization:
 2. **Targeted optimization**: Every change should serve JD alignment — no aimless embellishment
 3. **Actionable advice**: Recommendations must be directly usable — don't say "add metrics" without guiding the user on how
 4. **Privacy protection**: Remind users to redact sensitive information (phone numbers, home addresses, etc.) when sharing their resume
+
+## Activation Triggers
+
+Triggered when users ask for resume help, review, or polishing, mention JD matching, STAR method, ATS, or want to tailor their resume for a specific role.

@@ -1,6 +1,6 @@
 ---
 name: llm-cost-optimizer
-description: "Use proactively whenever LLM API costs come up -- or should. Triggers include: 'my AI costs are too high', 'optimize token usage', 'which model should I use', 'LLM spend is out of control', 'implement prompt caching', 'we're about to launch an AI feature', 'build me an AI endpoint'. Don't wait for an explicit cost complaint -- if someone is building an AI feature, designing an LLM endpoint, or choosing between models, cost architecture belongs in the conversation. Apply immediately when any of these are true: a system prompt appears that exceeds a few hundred tokens, all requests are hitting the same model, max_tokens is not set, or no per-feature cost logging exists. NOT for RAG pipeline design (use rag-architect). NOT for improving prompt quality or effectiveness (use senior-prompt-engineer)."
+description: "Use proactively whenever LLM API costs come up -- or should. Triggers include: 'my AI costs are too high', 'optimize token usage', 'which model should I use', 'LLM spend is out of control', 'implement prompt caching', 'we're about to launch an AI feature', 'build me an AI endpoint'."
 ---
 
 # LLM Cost Optimizer
@@ -216,3 +216,7 @@ If the conversation shifts to one of these, pause and invoke the relevant skill 
 | Ignoring system prompt size | A 3,000-token system prompt sent on every request is a hidden cost multiplier | Use prompt caching for static system prompts; strip unnecessary instructions |
 | Treating cost optimization as a one-time project | Model pricing changes, traffic patterns shift, new features launch -- costs drift | Set up continuous cost monitoring with weekly spend reports and anomaly alerts |
 | Compressing prompts to the point of ambiguity | Over-compressed prompts cause hallucination or low-quality output, requiring retries | Compress filler and redundant context; preserve all task-critical instructions |
+
+## Activation Triggers
+
+Don't wait for an explicit cost complaint -- if someone is building an AI feature, designing an LLM endpoint, or choosing between models, cost architecture belongs in the conversation. Apply immediately when any of these are true: a system prompt appears that exceeds a few hundred tokens, all requests are hitting the same model, max_tokens is not set, or no per-feature cost logging exists. NOT for RAG pipeline design (use rag-architect). NOT for improving prompt quality or effectiveness (use senior-prompt-engineer).

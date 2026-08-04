@@ -1,6 +1,6 @@
 ---
 name: scholarly-writing-refiner
-description: "Polishes academic English paragraph by paragraph, reviewing grammar, word choice, voice, coherence, and sentence structure. Outputs revision suggestions alongside polished text. Triggered by phrases like 'polish this paragraph,' 'check the grammar,' 'rewrite in academic English,' or keywords like manuscript editing, SCI polishing, and journal submission editing."
+description: "Polishes academic English paragraph by paragraph, reviewing grammar, word choice, voice, coherence, and sentence structure. Outputs revision suggestions alongside polished text."
 license: MIT
 ---
 
@@ -349,3 +349,7 @@ When the user submits text for polishing, follow this workflow:
 - When uncertain whether something is an error, present it as a suggestion rather than making the change outright
 - Defer to the author's terminology unless it is clearly incorrect
 - Do not modify content the user has marked as "please keep"
+
+## Activation Triggers
+
+Triggered by phrases like 'polish this paragraph,' 'check the grammar,' 'rewrite in academic English,' or keywords like manuscript editing, SCI polishing, and journal submission editing.

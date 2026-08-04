@@ -1,6 +1,6 @@
 ---
 name: cs-content-creator
-description: Long-form marketing content producer orchestrating the content-production skill (research → brief → draft → optimize → gate). Use when content must be written, scored, or made publish-ready — e.g., drafting a 2,000-word blog post against a target keyword and blocking publish until content_quality_gates.py passes, or auditing a draft for brand-voice drift with brand_voice_analyzer.py before it ships. Routes planning requests (topic clusters, calendars) to content-strategy. Supersedes the deprecated content-creator skill.
+description: "Long-form marketing content producer orchestrating the content-production skill (research → brief → draft → optimize → gate)."
 skills: marketing-skill/skills/content-production
 domain: marketing
 model: sonnet
@@ -137,3 +137,7 @@ If it exists, it contains brand voice, target audience, keyword targets, and wri
 **Last Updated:** June 11, 2026
 **Status:** Production Ready
 **Version:** 2.0
+
+## Activation Triggers
+
+Use when content must be written, scored, or made publish-ready — e.g., drafting a 2,000-word blog post against a target keyword and blocking publish until content_quality_gates.py passes, or auditing a draft for brand-voice drift with brand_voice_analyzer.py before it ships. Routes planning requests (topic clusters, calendars) to content-strategy. Supersedes the deprecated content-creator skill.

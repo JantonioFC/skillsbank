@@ -1,6 +1,6 @@
 ---
 name: "agent-decision-receipts"
-description: "Mint a tamper-evident, post-quantum-signed receipt for a consequential agent action (deploy, delete, pay, grant-access, model decision) so it can be verified later from the certificate alone. Use when an autonomous agent takes a side-effecting action that may need to be proven later, or when satisfying EU AI Act Article 12 record-keeping. Three decisions: whether an action needs a receipt, minting it, verifying it. Signing is delegated to the open-source OpenAgentOntology package. Not after-the-fact log analysis; not a hosted notary; not a legal opinion."
+description: "Mint a tamper-evident, post-quantum-signed receipt for a consequential agent action (deploy, delete, pay, grant-access, model decision) so it can be verified later from the certificate alone."
 ---
 
 # Agent Decision Receipts
@@ -100,3 +100,7 @@ This is the property that makes it evidence: a reviewer who distrusts the issuer
 - `ra-qm-team/skills/eu-ai-act-specialist/` — decide the AI system's risk tier and Article 12 obligations; this skill mints the per-action record those obligations require.
 - `ra-qm-team/skills/iso42001-specialist/` — the AI management-system controls; receipts are the per-decision evidence those controls call for.
 - OpenAgentOntology (Apache-2.0): the open receipt primitive this skill drives — `pip install "openagentontology[pq]"`.
+
+## Activation Triggers
+
+Use when an autonomous agent takes a side-effecting action that may need to be proven later, or when satisfying EU AI Act Article 12 record-keeping. Three decisions: whether an action needs a receipt, minting it, verifying it. Signing is delegated to the open-source OpenAgentOntology package. Not after-the-fact log analysis; not a hosted notary; not a legal opinion.

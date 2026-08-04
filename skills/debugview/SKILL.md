@@ -1,10 +1,6 @@
 ---
 name: debugview
-description: |
-  Sysinternals DebugView CLI (DbgViewCli) for capturing and analyzing usermode and kernel-mode Windows debug output from the command line.
-  USE FOR: capturing OutputDebugString output, kernel DbgPrint/KdPrint capture, boot-time debug logging, remote debug monitoring, filtering debug output by PID or process name, crash dump analysis, automated debug capture with bounded execution.
-  DO NOT USE FOR: non-Windows platforms, application-level logging frameworks (log4j, serilog), Azure Monitor or cloud telemetry, ETW tracing (use WPR/xperf instead), user-mode crash dumps (use WinDbg).
-  Triggers: "debug output", "DbgView", "DebugView", "kernel debug", "capture debug logs", "boot logging", "OutputDebugString", "DbgPrint", "KdPrint", "remote debug monitor", "debug capture CLI".
+description: "| Sysinternals DebugView CLI (DbgViewCli) for capturing and analyzing usermode and kernel-mode Windows debug output from the command line."
 ---
 
 # Sysinternals DebugView CLI (DbgViewCli)
@@ -289,3 +285,7 @@ dbgviewcli --accepteula --no-banner --duration 30
 | Another instance running | Use `--status` to check; use `--quit` to terminate existing GUI instance |
 | Boot logging not capturing | Ensure `--boot-enable` was run as admin; driver must be in System32\Drivers |
 | Remote connection fails | Verify target has DbgView running with remote enabled on ports 2020-2030 |
+
+## Activation Triggers
+
+USE FOR: capturing OutputDebugString output, kernel DbgPrint/KdPrint capture, boot-time debug logging, remote debug monitoring, filtering debug output by PID or process name, crash dump analysis, automated debug capture with bounded execution. DO NOT USE FOR: non-Windows platforms, application-level logging frameworks (log4j, serilog), Azure Monitor or cloud telemetry, ETW tracing (use WPR/xperf instead), user-mode crash dumps (use WinDbg). Triggers: "debug output", "DbgView", "DebugView", "kernel debug", "capture debug logs", "boot logging", "OutputDebugString", "DbgPrint", "KdPrint", "remote debug monitor", "debug capture CLI".

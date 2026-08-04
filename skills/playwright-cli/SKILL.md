@@ -1,6 +1,6 @@
 ---
 name: playwright-cli
-description: Automates browser interactions for web testing, form filling, screenshots, and data extraction using playwright-cli. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, extract information from web pages, mock network requests, manage browser sessions, or generate test code.
+description: "Automates browser interactions for web testing, form filling, screenshots, and data extraction using playwright-cli."
 allowed-tools: Bash(playwright-cli:*)
 ---
 
@@ -207,3 +207,7 @@ playwright-cli open --extension             # Connect via extension
 | ------------------------------ | ---------------------------------------------- |
 | Device & environment emulation | [device-emulation.md](device-emulation.md)     |
 | Complex multi-step workflows   | [advanced-workflows.md](advanced-workflows.md) |
+
+## Activation Triggers
+
+Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, extract information from web pages, mock network requests, manage browser sessions, or generate test code.

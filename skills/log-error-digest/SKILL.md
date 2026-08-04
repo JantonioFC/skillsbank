@@ -1,6 +1,6 @@
 ---
 name: log-error-digest
-description: "Analyze log files to troubleshoot errors, identify peak error periods, and produce error clustering, frequency statistics, and time distribution reports. Supports JSON, syslog, and Nginx formats with automatic detection. Use when a user uploads a .log file and asks to analyze errors, find patterns, debug issues, or get distribution stats."
+description: "Analyze log files to troubleshoot errors, identify peak error periods, and produce error clustering, frequency statistics, and time distribution reports. Supports JSON, syslog, and Nginx formats with automatic detection."
 license: MIT
 type: tool
 tags: [logs, analysis, devops, monitoring]
@@ -98,3 +98,7 @@ python scripts/analyze_logs.py app.log --since 2024-01-01T00:00:00 --until 2024-
 ### JSON Output
 
 Use the `--output` parameter to export a structured JSON report for further processing or integration with monitoring systems.
+
+## Activation Triggers
+
+Use when a user uploads a .log file and asks to analyze errors, find patterns, debug issues, or get distribution stats.

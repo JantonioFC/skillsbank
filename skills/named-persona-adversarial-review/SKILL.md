@@ -1,6 +1,6 @@
 ---
 name: "named-persona-adversarial-review"
-description: "Code review through the lens of real engineers' documented philosophies (Torvalds, Thompson, Carmack, Kent Beck, Jobs, Cagan). Complements abstract-role adversarial review with named, sourced perspectives. Use when automated review findings feel generic, when a PR has architectural or UX impact, or when the author wants pre-submit hardening beyond standard checks."
+description: "Code review through the lens of real engineers' documented philosophies (Torvalds, Thompson, Carmack, Kent Beck, Jobs, Cagan). Complements abstract-role adversarial review with named, sourced perspectives."
 ---
 
 # Named-Persona Adversarial Review
@@ -160,3 +160,7 @@ Inherits all from `adversarial-reviewer`. Plus:
 ---
 
 **Attribution:** Concept contributed by [@YuhaoLin2005](https://github.com/YuhaoLin2005) (PR #866). Hardened for this repo: consolidated to one location, anti-fabrication/confidence discipline added, principles sourced in `references/`.
+
+## Activation Triggers
+
+Use when automated review findings feel generic, when a PR has architectural or UX impact, or when the author wants pre-submit hardening beyond standard checks.

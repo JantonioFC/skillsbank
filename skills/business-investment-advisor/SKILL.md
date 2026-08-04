@@ -1,6 +1,6 @@
 ---
 name: business-investment-advisor
-description: "Business investment analysis and capital allocation advisor. Use when evaluating whether to invest in equipment, real estate, a new business, hiring, technology, or any capital expenditure. Also use for ROI calculations, IRR, NPV, payback period, build vs buy decisions, lease vs buy analysis, vendor evaluation, or deciding where to allocate limited budget for maximum return."
+description: "Business investment analysis and capital allocation advisor."
 ---
 
 # Business Investment Advisor
@@ -218,3 +218,7 @@ For every investment analysis:
 - **financial-analyst**: Use for DCF valuation of entire companies, ratio analysis of financial statements. NOT for single capital expenditure decisions.
 - **saas-metrics-coach**: Use for SaaS-specific unit economics (CAC, LTV, churn). NOT for equipment or real estate investments.
 - **ceo-advisor**: Use for strategic direction and capital allocation across the entire business. NOT for individual investment math.
+
+## Activation Triggers
+
+Use when evaluating whether to invest in equipment, real estate, a new business, hiring, technology, or any capital expenditure. Also use for ROI calculations, IRR, NPV, payback period, build vs buy decisions, lease vs buy analysis, vendor evaluation, or deciding where to allocate limited budget for maximum return.

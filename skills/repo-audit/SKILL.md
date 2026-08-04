@@ -1,6 +1,6 @@
 ---
 name: repo-audit
-description: "Deep analysis of Git history: identify frequently changed hotspot files, analyze code ownership by contributor, and scan for leaked secrets. Triggered when users ask about Git analysis, code hotspots, who owns what code, secret scanning, security audits of commit history, or optimizing code review assignments."
+description: "Deep analysis of Git history: identify frequently changed hotspot files, analyze code ownership by contributor, and scan for leaked secrets."
 type: tool
 license: MIT
 tags:
@@ -92,3 +92,7 @@ bash scripts/secret-scan.sh [options]
 - Standard Unix utilities: `awk`, `sort`, `head`, `grep`
 
 No additional dependencies or paid APIs required.
+
+## Activation Triggers
+
+Triggered when users ask about Git analysis, code hotspots, who owns what code, secret scanning, security audits of commit history, or optimizing code review assignments.

@@ -1,6 +1,6 @@
 ---
 name: react-native-patterns
-description: React Native and Expo app patterns — Expo Router navigation, state separation (server/client/route/form), TanStack Query data fetching with Zod, performant lists, NativeWind/StyleSheet styling, native APIs, and secure storage. Use when building or editing React Native / Expo screens, components, navigation, or data layers.
+description: "React Native and Expo app patterns — Expo Router navigation, state separation (server/client/route/form), TanStack Query data fetching with Zod, performant lists, NativeWind/StyleSheet styling, native APIs, and secure storage."
 origin: ECC
 ---
 
@@ -324,3 +324,7 @@ const STRIPE_SECRET = 'sk_live_...'
 - `coding-standards` — TypeScript/JavaScript idioms that apply to RN code.
 - `tdd-workflow`, `e2e-testing` — testing process (use Jest + React Native Testing Library, Maestro/Detox for RN).
 - `security-review` — general security checklist that complements the RN bundle/secret guidance above.
+
+## Activation Triggers
+
+Use when building or editing React Native / Expo screens, components, navigation, or data layers.

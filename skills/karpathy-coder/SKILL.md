@@ -1,6 +1,6 @@
 ---
 name: karpathy-coder
-description: Use when writing, reviewing, or committing code to enforce Karpathy's 4 coding principles — surface assumptions before coding, keep it simple, make surgical changes, define verifiable goals. Triggers on "review my diff", "check complexity", "am I overcomplicating this", "karpathy check", "before I commit", or any code quality concern where the LLM might be overcoding.
+description: "Use when writing, reviewing, or committing code to enforce Karpathy's 4 coding principles — surface assumptions before coding, keep it simple, make surgical changes, define verifiable goals."
 context: fork
 version: 2.3.0
 author: claude-code-skills
@@ -129,3 +129,7 @@ Installs via plugin for Claude Code. For other tools, copy the principles into y
 - **`self-eval`** — honest quality scoring after completing work
 - **`code-reviewer`** — broader code review; karpathy-coder focuses on the 4 LLM-specific pitfalls
 - **`llm-wiki`** — compound knowledge; karpathy-coder ensures you don't overcomplicate while building it
+
+## Activation Triggers
+
+Triggers on "review my diff", "check complexity", "am I overcomplicating this", "karpathy check", "before I commit", or any code quality concern where the LLM might be overcoding.

@@ -1,6 +1,6 @@
 ---
 name: cs-wiki-ingestor
-description: Dispatched sub-agent that ingests a new source into an LLM Wiki vault. Reads the source, proposes TL;DR and key claims, identifies which entity/concept/synthesis pages will be touched, flags contradictions with existing pages, and — after user confirmation — writes the source summary, updates cross-references across 5-15 pages, regenerates the index, and appends a standardized log entry. Spawn when the user says "ingest this", "add this paper/article/book to the wiki", or drops a file into raw/.
+description: "Dispatched sub-agent that ingests a new source into an LLM Wiki vault."
 skills: engineering/llm-wiki
 domain: engineering
 model: opus
@@ -87,3 +87,7 @@ Stop and ask the user before proceeding if:
 - The source appears to duplicate an existing source exactly
 - Ingesting would require deleting existing wiki pages (only the user decides)
 - You detect >5 contradictions in one ingest (likely a paradigm-shifting source — worth a conversation)
+
+## Activation Triggers
+
+Reads the source, proposes TL;DR and key claims, identifies which entity/concept/synthesis pages will be touched, flags contradictions with existing pages, and — after user confirmation — writes the source summary, updates cross-references across 5-15 pages, regenerates the index, and appends a standardized log entry. Spawn when the user says "ingest this", "add this paper/article/book to the wiki", or drops a file into raw/.

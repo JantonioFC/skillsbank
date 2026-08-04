@@ -1,6 +1,6 @@
 ---
 name: "c-level-agents"
-description: "Founder-mode executive team. 13 cs-* C-suite agents (CFO, CMO, CRO, CPO, COO, CHRO, CISO, GC, CDO, CAIO, CCO, VPE, Chief of Staff) and 21 /cs:* slash commands for forcing-question office hours, multi-role boardroom deliberation, strategic sprint pipeline, and meta routing. Use when the founder needs a virtual executive team, when invoking /cs:* commands, or when orchestrating multi-role decisions."
+description: "Founder-mode executive team. 13 cs-* C-suite agents (CFO, CMO, CRO, CPO, COO, CHRO, CISO, GC, CDO, CAIO, CCO, VPE, Chief of Staff) and 21 /cs:* slash commands for forcing-question office hours, multi-role boardroom deliberation, strategic sprint pipeline, and meta routing."
 license: MIT
 metadata:
   version: 1.0.0
@@ -117,3 +117,7 @@ User question
 **Version:** 1.0.0
 **Last Updated:** 2026-05-12
 **Status:** Production Ready
+
+## Activation Triggers
+
+Use when the founder needs a virtual executive team, when invoking /cs:* commands, or when orchestrating multi-role decisions.

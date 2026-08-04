@@ -1,6 +1,6 @@
 ---
 name: test-suite-architect
-description: This skill should be used when establishing comprehensive QA testing processes for any software project. Use when creating test strategies, writing test cases following Google Testing Standards, executing test plans, tracking bugs with P0-P4 classification, calculating quality metrics, or generating progress reports. Includes autonomous execution capability via master prompts and complete documentation templates for third-party QA team handoffs. Implements OWASP security testing and achieves 90% coverage targets.
+description: "This skill should be used when establishing comprehensive QA testing processes for any software project."
 keywords: [qa, testing, test-cases, bug-tracking, google-standards, owasp, security, automation, quality-gates, metrics]
 ---
 
@@ -287,3 +287,7 @@ This skill is effective when:
 - ✅ Progress visible in real-time (CSV tracking)
 - ✅ Autonomous execution enabled (LLM can execute full plan)
 - ✅ Third-party QA teams can start testing immediately
+
+## Activation Triggers
+
+Use when creating test strategies, writing test cases following Google Testing Standards, executing test plans, tracking bugs with P0-P4 classification, calculating quality metrics, or generating progress reports. Includes autonomous execution capability via master prompts and complete documentation templates for third-party QA team handoffs. Implements OWASP security testing and achieves 90% coverage targets.

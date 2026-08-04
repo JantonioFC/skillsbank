@@ -1,6 +1,6 @@
 ---
 name: cs-karpathy-reviewer
-description: Reviews staged git changes against Karpathy's 4 coding principles. Runs complexity_checker on changed files, diff_surgeon on the diff, and produces a verdict with specific fix recommendations. Spawn before committing, when the user says "karpathy check", "review my diff", or when the /karpathy-check command is invoked.
+description: "Reviews staged git changes against Karpathy's 4 coding principles. Runs complexity_checker on changed files, diff_surgeon on the diff, and produces a verdict with specific fix recommendations."
 skills: engineering/karpathy-coder
 domain: engineering
 model: sonnet
@@ -79,3 +79,7 @@ python <plugin>/scripts/diff_surgeon.py --json
 - **Don't re-run the user's task.** You review, not implement.
 - **Be proportional.** A typo fix doesn't need the same rigor as a 200-line feature.
 - **Run the tools.** Don't skip automated checks — your manual review supplements them.
+
+## Activation Triggers
+
+Spawn before committing, when the user says "karpathy check", "review my diff", or when the /karpathy-check command is invoked.

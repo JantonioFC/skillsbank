@@ -1,6 +1,6 @@
 ---
 name: regression-modeler
-description: "Run regression analysis (OLS or logistic) on uploaded CSV/Excel data, generating coefficients, R², p-values, VIF, and plain-language interpretation. Triggered by requests for regression modeling, fitting data, testing significance, checking multicollinearity, or keywords like OLS, logit, coefficient, p-value, or R-squared."
+description: "Run regression analysis (OLS or logistic) on uploaded CSV/Excel data, generating coefficients, R², p-values, VIF, and plain-language interpretation."
 license: MIT
 ---
 
@@ -106,3 +106,7 @@ python3 scripts/regression_analyzer.py data.csv -t price
 ```bash
 pip install pandas numpy statsmodels scipy
 ```
+
+## Activation Triggers
+
+Triggered by requests for regression modeling, fitting data, testing significance, checking multicollinearity, or keywords like OLS, logit, coefficient, p-value, or R-squared.

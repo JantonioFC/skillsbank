@@ -1,6 +1,6 @@
 ---
 name: cs-demand-gen-specialist
-description: Demand generation and acquisition-funnel specialist orchestrating the marketing-demand-acquisition, paid-ads, and email-sequence skills. Use when building or fixing the acquisition engine — e.g., comparing channel CAC against B2B SaaS benchmarks before reallocating a $40k/month budget, scoring paid-ads account health with ad_health_scorer.py before scaling spend, or designing a nurture sequence that must score 70+ on sequence_analyzer.py before launch. Covers channel mix, CAC/ROAS math, MQL→SQL workflows, attribution, and nurture design.
+description: "Demand generation and acquisition-funnel specialist orchestrating the marketing-demand-acquisition, paid-ads, and email-sequence skills."
 skills:
   - marketing-skill/skills/marketing-demand-acquisition
   - marketing-skill/skills/paid-ads
@@ -148,3 +148,7 @@ It holds ICP, positioning, personas, and competitive landscape — required befo
 **Last Updated:** June 11, 2026
 **Status:** Production Ready
 **Version:** 2.0
+
+## Activation Triggers
+
+Use when building or fixing the acquisition engine — e.g., comparing channel CAC against B2B SaaS benchmarks before reallocating a $40k/month budget, scoring paid-ads account health with ad_health_scorer.py before scaling spend, or designing a nurture sequence that must score 70+ on sequence_analyzer.py before launch. Covers channel mix, CAC/ROAS math, MQL→SQL workflows, attribution, and nurture design.

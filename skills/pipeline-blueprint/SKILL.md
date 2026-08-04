@@ -1,6 +1,6 @@
 ---
 name: pipeline-blueprint
-description: "Provide CI/CD best practices and pipeline templates for GitHub Actions and GitLab CI, recommending configurations based on project type (frontend, backend, fullstack, library, monorepo, mobile). Trigger when users ask about setting up CI/CD, automating builds, improving pipelines, or mention keywords like GitHub Actions, GitLab CI, pipeline templates, or deployment automation."
+description: "Provide CI/CD best practices and pipeline templates for GitHub Actions and GitLab CI, recommending configurations based on project type (frontend, backend, fullstack, library, monorepo, mobile)."
 license: MIT
 ---
 
@@ -649,3 +649,7 @@ include:
 | Frontend + backend in one repo                   | Fullstack            |
 | Multiple packages managed by Turborepo/Nx/Lerna  | Monorepo             |
 | React Native or Flutter app                      | Mobile               |
+
+## Activation Triggers
+
+Trigger when users ask about setting up CI/CD, automating builds, improving pipelines, or mention keywords like GitHub Actions, GitLab CI, pipeline templates, or deployment automation.

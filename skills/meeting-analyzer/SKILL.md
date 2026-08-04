@@ -1,6 +1,6 @@
 ---
 name: meeting-analyzer
-description: Analyzes meeting transcripts and recordings to surface behavioral patterns, communication anti-patterns, and actionable coaching feedback. Use this skill whenever the user uploads or points to meeting transcripts (.txt, .md, .vtt, .srt, .docx), asks about their communication habits, wants feedback on how they run meetings, requests speaking ratio analysis, mentions filler words or conflict avoidance, or wants to compare their communication across time periods. Also trigger when users mention tools like Granola, Otter, Fireflies, or Zoom transcripts. Even if the user just says "look at my meetings" or "how do I come across in meetings" — use this skill.
+description: "Analyzes meeting transcripts and recordings to surface behavioral patterns, communication anti-patterns, and actionable coaching feedback."
 ---
 
 # Meeting Insights Analyzer
@@ -253,3 +253,7 @@ Recommend `YYYY-MM-DD - Meeting Name.ext` naming convention for easy chronologic
 | `project-management/scrum-master` | Agile ceremonies — pairs with meeting-analyzer for retro quality |
 | `project-management/confluence-expert` | Store meeting analysis outputs as Confluence pages |
 | `c-level-advisor/executive-mentor` | Executive communication coaching — complementary perspective |
+
+## Activation Triggers
+
+Use this skill whenever the user uploads or points to meeting transcripts (.txt, .md, .vtt, .srt, .docx), asks about their communication habits, wants feedback on how they run meetings, requests speaking ratio analysis, mentions filler words or conflict avoidance, or wants to compare their communication across time periods. Also trigger when users mention tools like Granola, Otter, Fireflies, or Zoom transcripts. Even if the user just says "look at my meetings" or "how do I come across in meetings" — use this skill.

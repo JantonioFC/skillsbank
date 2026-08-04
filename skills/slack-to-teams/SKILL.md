@@ -1,6 +1,6 @@
 ---
 name: slack-to-teams
-description: "Sub-skill of microsoft-365-agents-toolkit. Routed expert system with 100+ micro-expert files for migrating Slack bots to Teams, cross-platform bridging, and dual-platform bot development. USE FOR: migrating Slack bot to Teams, adding Teams support to Slack bot, building dual-platform bots, converting Block Kit to Adaptive Cards, identity/OAuth bridging, deploying bots to Azure or AWS, configuring AI model providers. DO NOT USE FOR: general web development, non-bot projects, standalone Teams development without Slack (use parent skill instead)."
+description: "Sub-skill of microsoft-365-agents-toolkit. Routed expert system with 100+ micro-expert files for migrating Slack bots to Teams, cross-platform bridging, and dual-platform bot development."
 ---
 
 # Slack to Teams Expert System
@@ -166,3 +166,7 @@ Reference guides for side-by-side platform comparison:
 - [Advanced Features](../docs/advanced-features.md)
 - [Feature Gaps](../docs/feature-gaps.md)
 - [Workflow Scenarios](../docs/workflows.md) — Message-native workflow patterns (triggers, state, logic, AI, visibility) for Teams bots
+
+## Activation Triggers
+
+USE FOR: migrating Slack bot to Teams, adding Teams support to Slack bot, building dual-platform bots, converting Block Kit to Adaptive Cards, identity/OAuth bridging, deploying bots to Azure or AWS, configuring AI model providers. DO NOT USE FOR: general web development, non-bot projects, standalone Teams development without Slack (use parent skill instead).

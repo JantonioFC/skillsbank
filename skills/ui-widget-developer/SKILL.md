@@ -1,15 +1,6 @@
 ---
 name: ui-widget-developer
-description: |
-  Build MCP servers for Copilot Chat using the OpenAI Apps SDK or MCP Apps SDK widget rendering support (any language). Use this skill when:
-  - Creating MCP servers that integrate with M365 Copilot declarative agents
-  - Building rich interactive widgets (React + Fluent UI) that render in Copilot Chat
-  - Implementing tools that return structuredContent for widget rendering
-  - Adapting an existing MCP server to support Copilot widget rendering
-  - Setting up devtunnels for localhost MCP server exposure
-  - Configuring mcpPlugin.json manifests with RemoteMCPServer runtime
-  Do NOT use this skill for general agent development (scaffolding, manifests, deployment) — use declarative-agent-developer instead. This skill is ONLY for MCP server + widget development.
-  Triggers: "MCP server for Copilot", "OpenAI Apps SDK", "Copilot widget", "structuredContent", "MCP plugin", "devtunnels MCP", "OAI app", "widget rendering", "UI widget"
+description: "| Build MCP servers for Copilot Chat using the OpenAI Apps SDK or MCP Apps SDK widget rendering support (any language)."
 ---
 
 # Copilot MCP Server Development
@@ -425,3 +416,7 @@ Key points:
 5. **Partial data**: Handle missing fields with "Unknown" defaults
 6. **Action buttons**: Hide email/chat buttons when data is "Unknown"
 7. **Version bumping**: Bump manifest version when changes aren't reflected in Copilot
+
+## Activation Triggers
+
+Use this skill when: - Creating MCP servers that integrate with M365 Copilot declarative agents - Building rich interactive widgets (React + Fluent UI) that render in Copilot Chat - Implementing tools that return structuredContent for widget rendering - Adapting an existing MCP server to support Copilot widget rendering - Setting up devtunnels for localhost MCP server exposure - Configuring mcpPlugin.json manifests with RemoteMCPServer runtime Do NOT use this skill for general agent development (scaffolding, manifests, deployment) — use declarative-agent-developer instead. This skill is ONLY for MCP server + widget development. Triggers: "MCP server for Copilot", "OpenAI Apps SDK", "Copilot widget", "structuredContent", "MCP plugin", "devtunnels MCP", "OAI app", "widget rendering", "UI widget"

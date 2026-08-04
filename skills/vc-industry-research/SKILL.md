@@ -1,6 +1,6 @@
 ---
 name: vc-industry-research
-description: "Generate professional primary market / venture capital industry research reports, including sector deep-dives, investment memos, and market analysis. Produces detailed PDF reports covering TMT, consumer, healthcare, and industrials. Triggered by requests to analyze an industry, create a market report, write a sector deep-dive, or generate any PE/VC-style research document in Chinese or English."
+description: "Generate professional primary market / venture capital industry research reports, including sector deep-dives, investment memos, and market analysis. Produces detailed PDF reports covering TMT, consumer, healthcare, and industrials."
 ---
 
 # Primary Market Industry Research Report
@@ -138,3 +138,7 @@ Content Pages:
 - [ ] Tables have clean borders: no vertical rules, header row has top/bottom borders, table has top/bottom thick borders (Style B)
 - [ ] Institution/publisher identity present (logo area or header text)
 - [ ] No placeholder text left in document
+
+## Activation Triggers
+
+Triggered by requests to analyze an industry, create a market report, write a sector deep-dive, or generate any PE/VC-style research document in Chinese or English.

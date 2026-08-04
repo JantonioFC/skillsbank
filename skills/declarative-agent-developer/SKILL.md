@@ -1,16 +1,6 @@
 ---
 name: declarative-agent-developer
-description: >
-  Create, build, deploy, and localize declarative agents for M365 Copilot and Teams.
-  USE THIS SKILL for ANY task involving a declarative agent — including localization,
-  scaffolding, editing manifests, adding capabilities, and deploying.
-  Localization requires tokenized manifests and language files that only this skill knows how to produce.
-  Triggers: "create agent", "create a declarative agent", "new declarative agent",
-  "scaffold an agent", "new agent project", "add a capability", "add a plugin",
-  "configure my agent", "deploy my agent", "fix my agent manifest", "edit my agent",
-  "localize my agent", "add localization", "translate my agent", "multi-language agent",
-  "add an API plugin", "add an MCP plugin", "add OAuth to my plugin",
-  "review instructions", "improve instructions", "fix my instructions"
+description: "> Create, build, deploy, and localize declarative agents for M365 Copilot and Teams. USE THIS SKILL for ANY task involving a declarative agent — including localization, scaffolding, editing manifests, adding capabilities, and deploying."
 ---
 
 # M365 Agent Developer
@@ -191,3 +181,7 @@ Always update the app name and description to something meaningful. Never leave 
 - **[API Plugins](references/api-plugins.md)** — OpenAPI integration for JSON agents
 - **[MCP Plugin](references/mcp-plugin.md)** — MCP server integration with RemoteMCPServer, OAuth, response semantics, logo handling
 - **[Examples](references/examples.md)** — JSON manifest examples
+
+## Activation Triggers
+
+Localization requires tokenized manifests and language files that only this skill knows how to produce. Triggers: "create agent", "create a declarative agent", "new declarative agent", "scaffold an agent", "new agent project", "add a capability", "add a plugin", "configure my agent", "deploy my agent", "fix my agent manifest", "edit my agent", "localize my agent", "add localization", "translate my agent", "multi-language agent", "add an API plugin", "add an MCP plugin", "add OAuth to my plugin", "review instructions", "improve instructions", "fix my instructions"

@@ -1,6 +1,6 @@
 ---
 name: dataset-quality-audit
-description: "Run comprehensive quality checks on tabular data (CSV/Excel/TSV/JSON), detecting missing values, duplicates, outliers, format issues, and type inconsistencies to produce an overall score, grade, and actionable suggestions. Triggered when users ask to check data quality, find missing or duplicate values, detect outliers, validate formats, profile data, or clean data."
+description: "Run comprehensive quality checks on tabular data (CSV/Excel/TSV/JSON), detecting missing values, duplicates, outliers, format issues, and type inconsistencies to produce an overall score, grade, and actionable suggestions."
 license: MIT
 ---
 
@@ -108,3 +108,7 @@ python3 scripts/data_quality_checker.py <data-file> [options]
 ```bash
 pip install pandas numpy
 ```
+
+## Activation Triggers
+
+Triggered when users ask to check data quality, find missing or duplicate values, detect outliers, validate formats, profile data, or clean data.

@@ -1,6 +1,6 @@
 ---
 name: secure-code-review
-description: "Systematically reviews code for SQL injection, XSS, SSRF, broken access control, cryptographic failures, and other common OWASP Top 10 vulnerabilities, providing vulnerable code examples and ready-to-use remediation guidance. Trigger this skill when users ask for a security review, vulnerability scan, or penetration testing assistance, or mention keywords like OWASP, SQL injection, XSS, code audit, or security checklist."
+description: "Systematically reviews code for SQL injection, XSS, SSRF, broken access control, cryptographic failures, and other common OWASP Top 10 vulnerabilities, providing vulnerable code examples and ready-to-use remediation guidance."
 license: MIT
 ---
 
@@ -569,3 +569,7 @@ After completing the review, output a report in the following format. **All 10 i
 | `OWASP ZAP` | — | Web application dynamic scanning |
 
 > **Note:** This checklist is a supplementary review tool and does not replace professional penetration testing. For high-security systems, combine automated scanning + manual code audit + penetration testing.
+
+## Activation Triggers
+
+Trigger this skill when users ask for a security review, vulnerability scan, or penetration testing assistance, or mention keywords like OWASP, SQL injection, XSS, code audit, or security checklist.
