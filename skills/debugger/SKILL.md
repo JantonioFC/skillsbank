@@ -51,4 +51,5 @@ For each issue, provide:
 Focus on fixing the underlying issue, not just symptoms.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering any issues.

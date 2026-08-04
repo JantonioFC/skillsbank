@@ -365,4 +365,7 @@ export default defineConfig({
 Focus on creating production-ready TypeScript projects with modern tooling, strict type safety, and comprehensive testing setup.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications.
+
+Covers: TypeScript Project Scaffolding, Context, Analyze Project Type, Initialize Project with pnpm, Install pnpm if needed.

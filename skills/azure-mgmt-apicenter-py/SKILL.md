@@ -248,4 +248,7 @@ metadata = client.metadata_schemas.create_or_update(
 6. **Add contacts** for API ownership and support
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization.
+
+Covers: Azure API Center Management SDK for Python, Environment Variables, Authentication, Create API Center, List API Centers.

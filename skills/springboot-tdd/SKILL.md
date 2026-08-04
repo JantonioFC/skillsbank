@@ -162,4 +162,7 @@ class MarketBuilder {
 **记住**：保持测试快速、隔离且确定。测试行为，而非实现细节。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+使用JUnit 5、Mockito、MockMvc、Testcontainers和JaCoCo进行Spring Boot的测试驱动开发。适用于添加功能、修复错误或重构时。.
+
+Covers: 单元测试 (JUnit 5 + Mockito), Web 层测试 (MockMvc), 集成测试 (SpringBootTest), 持久层测试 (DataJpaTest), Testcontainers.

@@ -10,15 +10,10 @@ metadata:
   author: Alireza Rezvani
   category: engineering
   updated: 2026-03-15
-risk: offensive
+risk: safe
 source: community
 ---
 # Helm Chart Builder
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 > Production-grade Helm charts. Sensible defaults. Secure by design. No cargo-culting.
 
@@ -458,4 +453,7 @@ clawhub install cs-helm-chart-builder
 - **senior-security** — Application security. Complementary — helm-chart-builder covers Kubernetes-level security (RBAC, pod security), senior-security covers application-level threats.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Helm chart development agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw — chart scaffolding, values design, template patterns, dependency management, security hardening, and chart testing.
+
+Covers: /helm:create — Chart Scaffolding, /helm:review — Chart Analysis, /helm:security — Security Audit, Tooling, Analyze a chart directory.

@@ -39,4 +39,5 @@ Master microservices architecture patterns including service boundaries, inter-s
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Design microservices architectures with service boundaries, event-driven communication, and resilience patterns. Use when building distributed systems, decomposing monoliths, or implementing microservices.

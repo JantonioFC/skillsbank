@@ -1,170 +1,154 @@
 ---
 name: brainstorming
-description: Socratic questioning protocol + user communication. MANDATORY for complex
-  requests, new features, or unclear requirements. Includes progress reporting and
-  error handling.
-allowed-tools: Read, Glob, Grep
+description: "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
 risk: safe
 source: community
 license: MIT
 ---
-# Brainstorming & Communication Protocol
 
-> **MANDATORY:** Use for complex/vague requests, new features, updates.
+# Brainstorming Ideas Into Designs
 
----
+Help turn ideas into fully formed designs and specs through natural collaborative dialogue.
 
-## 🛑 SOCRATIC GATE (ENFORCEMENT)
+Start by understanding the current project context, then ask questions one at a time to refine the idea. Once you understand what you're building, present the design and get user approval.
 
-### When to Trigger
+<HARD-GATE>
+Do NOT invoke any implementation skill, write any code, scaffold any project, or take any implementation action until you have presented a design and the user has approved it. This applies to EVERY project regardless of perceived simplicity.
+</HARD-GATE>
 
-| Pattern | Action |
-|---------|--------|
-| "Build/Create/Make [thing]" without details | 🛑 ASK 3 questions |
-| Complex feature or architecture | 🛑 Clarify before implementing |
-| Update/change request | 🛑 Confirm scope |
-| Vague requirements | 🛑 Ask purpose, users, constraints |
+## Anti-Pattern: "This Is Too Simple To Need A Design"
 
-### 🚫 MANDATORY: 3 Questions Before Implementation
+Every project goes through this process. A todo list, a single-function utility, a config change — all of them. "Simple" projects are where unexamined assumptions cause the most wasted work. The design can be short (a few sentences for truly simple projects), but you MUST present it and get approval.
 
-1. **STOP** - Do NOT start coding
-2. **ASK** - Minimum 3 questions:
-   - 🎯 Purpose: What problem are you solving?
-   - 👥 Users: Who will use this?
-   - 📦 Scope: Must-have vs nice-to-have?
-3. **WAIT** - Get response before proceeding
+## Checklist
 
----
+You MUST create a task for each of these items and complete them in order:
 
-## 🧠 Dynamic Question Generation
+1. **Explore project context** — check files, docs, recent commits
+2. **Offer the visual companion just-in-time** — NOT upfront. The first time a question would genuinely be clearer shown than described, offer it then (its own message); on approval its browser tab opens for you. If no visual question ever arises, never offer it. See the Visual Companion section below.
+3. **Ask clarifying questions** — one at a time, understand purpose/constraints/success criteria
+4. **Propose 2-3 approaches** — with trade-offs and your recommendation
+5. **Present design** — in sections scaled to their complexity, get user approval after each section
+6. **Write design doc** — save to `docs/superpowers/specs/YYYY-MM-DD-<topic>-design.md` and commit
+7. **Spec self-review** — quick inline check for placeholders, contradictions, ambiguity, scope (see below)
+8. **User reviews written spec** — ask user to review the spec file before proceeding
+9. **Transition to implementation** — invoke writing-plans skill to create implementation plan
 
-**⛔ NEVER use static templates.** Read `dynamic-questioning.md` for principles.
+## Process Flow
 
-### Core Principles
+```dot
+digraph brainstorming {
+    "Explore project context" [shape=box];
+    "Ask clarifying questions" [shape=box];
+    "Propose 2-3 approaches" [shape=box];
+    "Present design sections" [shape=box];
+    "User approves design?" [shape=diamond];
+    "Write design doc" [shape=box];
+    "Spec self-review\n(fix inline)" [shape=box];
+    "User reviews spec?" [shape=diamond];
+    "Invoke writing-plans skill" [shape=doublecircle];
 
-| Principle | Meaning |
-|-----------|---------|
-| **Questions Reveal Consequences** | Each question connects to an architectural decision |
-| **Context Before Content** | Understand greenfield/feature/refactor/debug context first |
-| **Minimum Viable Questions** | Each question must eliminate implementation paths |
-| **Generate Data, Not Assumptions** | Don't guess—ask with trade-offs |
-
-### Question Generation Process
-
-```
-1. Parse request → Extract domain, features, scale indicators
-2. Identify decision points → Blocking vs. deferable
-3. Generate questions → Priority: P0 (blocking) > P1 (high-leverage) > P2 (nice-to-have)
-4. Format with trade-offs → What, Why, Options, Default
-```
-
-### Question Format (MANDATORY)
-
-```markdown
-### [PRIORITY] **[DECISION POINT]**
-
-**Question:** [Clear question]
-
-**Why This Matters:**
-- [Architectural consequence]
-- [Affects: cost/complexity/timeline/scale]
-
-**Options:**
-| Option | Pros | Cons | Best For |
-|--------|------|------|----------|
-| A | [+] | [-] | [Use case] |
-
-**If Not Specified:** [Default + rationale]
+    "Explore project context" -> "Ask clarifying questions";
+    "Ask clarifying questions" -> "Propose 2-3 approaches";
+    "Propose 2-3 approaches" -> "Present design sections";
+    "Present design sections" -> "User approves design?";
+    "User approves design?" -> "Present design sections" [label="no, revise"];
+    "User approves design?" -> "Write design doc" [label="yes"];
+    "Write design doc" -> "Spec self-review\n(fix inline)";
+    "Spec self-review\n(fix inline)" -> "User reviews spec?";
+    "User reviews spec?" -> "Write design doc" [label="changes requested"];
+    "User reviews spec?" -> "Invoke writing-plans skill" [label="approved"];
+}
 ```
 
-**For detailed domain-specific question banks and algorithms**, see: `dynamic-questioning.md`
+**The terminal state is invoking writing-plans.** Do NOT invoke frontend-design, mcp-builder, or any other implementation skill. The ONLY skill you invoke after brainstorming is writing-plans.
 
----
+## The Process
 
-## Progress Reporting (PRINCIPLE-BASED)
+**Understanding the idea:**
 
-**PRINCIPLE:** Transparency builds trust. Status must be visible and actionable.
+- Check out the current project state first (files, docs, recent commits)
+- Before asking detailed questions, assess scope: if the request describes multiple independent subsystems (e.g., "build a platform with chat, file storage, billing, and analytics"), flag this immediately. Don't spend questions refining details of a project that needs to be decomposed first.
+- If the project is too large for a single spec, help the user decompose into sub-projects: what are the independent pieces, how do they relate, what order should they be built? Then brainstorm the first sub-project through the normal design flow. Each sub-project gets its own spec → plan → implementation cycle.
+- For appropriately-scoped projects, ask questions one at a time to refine the idea
+- Prefer multiple choice questions when possible, but open-ended is fine too
+- Only one question per message - if a topic needs more exploration, break it into multiple questions
+- Focus on understanding: purpose, constraints, success criteria
 
-### Status Board Format
+**Exploring approaches:**
 
-| Agent | Status | Current Task | Progress |
-|-------|--------|--------------|----------|
-| [Agent Name] | ✅🔄⏳❌⚠️ | [Task description] | [% or count] |
+- Propose 2-3 different approaches with trade-offs
+- Present options conversationally with your recommendation and reasoning
+- Lead with your recommended option and explain why
+- YAGNI ruthlessly - remove unnecessary features from every approach and design
 
-### Status Icons
+**Presenting the design:**
 
-| Icon | Meaning | Usage |
-|------|---------|-------|
-| ✅ | Completed | Task finished successfully |
-| 🔄 | Running | Currently executing |
-| ⏳ | Waiting | Blocked, waiting for dependency |
-| ❌ | Error | Failed, needs attention |
-| ⚠️ | Warning | Potential issue, not blocking |
+- Once you believe you understand what you're building, present the design
+- Scale each section to its complexity: a few sentences if straightforward, up to 200-300 words if nuanced
+- Ask after each section whether it looks right so far
+- Cover: architecture, components, data flow, error handling, testing
+- Be ready to go back and clarify if something doesn't make sense
 
----
+**Design for isolation and clarity:**
 
-## Error Handling (PRINCIPLE-BASED)
+- Break the system into smaller units that each have one clear purpose, communicate through well-defined interfaces, and can be understood and tested independently
+- For each unit, you should be able to answer: what does it do, how do you use it, and what does it depend on?
+- Can someone understand what a unit does without reading its internals? Can you change the internals without breaking consumers? If not, the boundaries need work.
+- Smaller, well-bounded units are also easier for you to work with - you reason better about code you can hold in context at once, and your edits are more reliable when files are focused. When a file grows large, that's often a signal that it's doing too much.
 
-**PRINCIPLE:** Errors are opportunities for clear communication.
+**Working in existing codebases:**
 
-### Error Response Pattern
+- Explore the current structure before proposing changes. Follow existing patterns.
+- Where existing code has problems that affect the work (e.g., a file that's grown too large, unclear boundaries, tangled responsibilities), include targeted improvements as part of the design - the way a good developer improves code they're working in.
+- Don't propose unrelated refactoring. Stay focused on what serves the current goal.
 
-```
-1. Acknowledge the error
-2. Explain what happened (user-friendly)
-3. Offer specific solutions with trade-offs
-4. Ask user to choose or provide alternative
-```
+## After the Design
 
-### Error Categories
+**Documentation:**
 
-| Category | Response Strategy |
-|----------|-------------------|
-| **Port Conflict** | Offer alternative port or close existing |
-| **Dependency Missing** | Auto-install or ask permission |
-| **Build Failure** | Show specific error + suggested fix |
-| **Unclear Error** | Ask for specifics: screenshot, console output |
+- Write the validated design (spec) to `docs/superpowers/specs/YYYY-MM-DD-<topic>-design.md`
+  - (User preferences for spec location override this default)
+- Use elements-of-style:writing-clearly-and-concisely skill if available
+- Commit the design document to git
 
----
+**Spec Self-Review:**
+After writing the spec document, look at it with fresh eyes:
 
-## Completion Message (PRINCIPLE-BASED)
+1. **Placeholder scan:** Any "TBD", "TODO", incomplete sections, or vague requirements? Fix them.
+2. **Internal consistency:** Do any sections contradict each other? Does the architecture match the feature descriptions?
+3. **Scope check:** Is this focused enough for a single implementation plan, or does it need decomposition?
+4. **Ambiguity check:** Could any requirement be interpreted two different ways? If so, pick one and make it explicit.
 
-**PRINCIPLE:** Celebrate success, guide next steps.
+Fix any issues inline. No need to re-review — just fix and move on.
 
-### Completion Structure
+**User Review Gate:**
+After the spec review loop passes, ask the user to review the written spec before proceeding:
 
-```
-1. Success confirmation (celebrate briefly)
-2. Summary of what was done (concrete)
-3. How to verify/test (actionable)
-4. Next steps suggestion (proactive)
-```
+> "Spec written and committed to `<path>`. Please review it and let me know if you want to make any changes before we start writing out the implementation plan."
 
----
+Wait for the user's response. If they request changes, make them and re-run the spec review loop. Only proceed once the user approves.
 
-## Communication Principles
+**Implementation:**
 
-| Principle | Implementation |
-|-----------|----------------|
-| **Concise** | No unnecessary details, get to point |
-| **Visual** | Use emojis (✅🔄⏳❌) for quick scanning |
-| **Specific** | "~2 minutes" not "wait a bit" |
-| **Alternatives** | Offer multiple paths when stuck |
-| **Proactive** | Suggest next step after completion |
+- Invoke the writing-plans skill to create a detailed implementation plan
+- Do NOT invoke any other skill. writing-plans is the next step.
 
----
+## Visual Companion
 
-## Anti-Patterns (AVOID)
+A browser-based companion for showing mockups, diagrams, and visual options during brainstorming. Available as a tool — not a mode. Accepting the companion means it's available for questions that benefit from visual treatment; it does NOT mean every question goes through the browser.
 
-| Anti-Pattern | Why |
-|--------------|-----|
-| Jumping to solutions before understanding | Wastes time on wrong problem |
-| Assuming requirements without asking | Creates wrong output |
-| Over-engineering first version | Delays value delivery |
-| Ignoring constraints | Creates unusable solutions |
-| "I think" phrases | Uncertainty → Ask instead |
+**Offering the companion (just-in-time):** Do NOT offer it upfront. Wait until a question would genuinely be clearer shown than told — a real mockup / layout / diagram question, not merely a UI *topic*. The first time that happens, offer it then, as its own message:
+> "This next part might be easier if I show you — I can put together mockups, diagrams, and comparisons in a browser tab as we go. It's still new and can be token-intensive. Want me to? I'll open it for you."
 
----
+**This offer MUST be its own message.** Only the offer — no clarifying question, summary, or other content. Wait for the user's response. If they accept, start the server with `--open` so their browser opens to the first screen automatically. If they decline, continue text-only and don't offer again unless they raise it.
 
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+**Per-question decision:** Even after the user accepts, decide FOR EACH QUESTION whether to use the browser or the terminal. The test: **would the user understand this better by seeing it than reading it?**
+
+- **Use the browser** for content that IS visual — mockups, wireframes, layout comparisons, architecture diagrams, side-by-side visual designs
+- **Use the terminal** for content that is text — requirements questions, conceptual choices, tradeoff lists, A/B/C/D text options, scope decisions
+
+A question about a UI topic is not automatically a visual question. "What does personality mean in this context?" is a conceptual question — use the terminal. "Which wizard layout works better?" is a visual question — use the browser.
+
+If they agree to the companion, read the detailed guide before proceeding:
+`skills/brainstorming/visual-companion.md`

@@ -179,4 +179,7 @@ def compress_context(context, compression_level='standard'):
 - Predictive context recommendation systems
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when working with context management context save.
+
+Covers: Context Save Tool: Intelligent Context Management Specialist, Role and Purpose, Context Management Overview, Requirements and Argument Handling, Input Parameters.

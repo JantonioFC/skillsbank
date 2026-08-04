@@ -353,4 +353,7 @@ catch (RequestFailedException ex)
 | Samples | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/ai/Azure.AI.Agents.Persistent/samples |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.
+
+Covers: Azure.AI.Agents.Persistent (.NET), Environment Variables, Authentication, Client Hierarchy, Create Agent.

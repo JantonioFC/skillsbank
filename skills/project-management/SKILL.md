@@ -63,4 +63,7 @@ python3 scrum-master/scripts/velocity_analyzer.py --help
 - Use MCP tools for live Jira/Confluence operations when available
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+6 project management agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Senior PM, scrum master, Jira expert (JQL), Confluence expert, Atlassian admin, template creator.
+
+Covers: Project Management Skills, Claude Code, Codex CLI, Skills Overview, Python Tools.

@@ -60,4 +60,5 @@ You are a C++ programming expert specializing in modern C++ and high-performance
 Follow C++ Core Guidelines. Prefer compile-time errors over runtime errors.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization.

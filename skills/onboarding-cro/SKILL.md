@@ -225,4 +225,7 @@ When recommending experiments, consider tests for:
 - **ab-test-setup**: For testing onboarding changes
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value.
+
+Covers: Initial Assessment, Core Principles, Time-to-Value Is Everything, One Goal Per Session, Do, Don't Show.

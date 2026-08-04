@@ -431,4 +431,7 @@ jobs:
 10. **CI/CD**: Automate testing on every commit
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Test smart contracts comprehensively using Hardhat and Foundry with unit tests, integration tests, and mainnet forking. Use when testing Solidity contracts, setting up blockchain test suites, or validating DeFi protocols.
+
+Covers: Web3 Smart Contract Testing, Hardhat Testing Setup, Unit Testing Patterns, Foundry Testing (Forge), Advanced Testing Patterns.

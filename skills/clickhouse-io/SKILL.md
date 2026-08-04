@@ -2,16 +2,11 @@
 name: clickhouse-io
 description: ClickHouse database patterns, query optimization, analytics, and data
   engineering best practices for high-performance analytical workloads.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # ClickHouse 分析パターン
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 高性能分析とデータエンジニアリングのためのClickHouse固有のパターン。
 
@@ -437,4 +432,7 @@ pgClient.on('notification', async (msg) => {
 **注意**: ClickHouseは分析ワークロードに優れています。クエリパターンに合わせてテーブルを設計し、挿入をバッチ化し、リアルタイム集計にはマテリアライズドビューを活用します。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.
+
+Covers: MergeTreeエンジン（最も一般的）, ReplacingMergeTree（重複排除）, AggregatingMergeTree（事前集計）, ETLパターン, 変更データキャプチャ（CDC）.

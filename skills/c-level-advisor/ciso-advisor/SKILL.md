@@ -13,15 +13,10 @@ metadata:
   updated: 2026-03-05
   python-tools: risk_quantifier.py, compliance_tracker.py
   frameworks: risk-based-security, zero-trust, defense-in-depth
-risk: offensive
+risk: safe
 source: community
 ---
 # CISO Advisor
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Risk-based security frameworks for growth-stage companies. Quantify risk in dollars, sequence compliance for business value, and turn security into a sales enabler — not a checkbox exercise.
 
@@ -104,7 +99,6 @@ Tier vendors by data access: Tier 1 (PII/PHI) — full assessment annually; Tier
 - `references/compliance_roadmap.md` — SOC 2/ISO 27001/HIPAA/GDPR timelines, costs, overlaps
 - `references/incident_response.md` — executive IR playbook, communication templates, tabletop design
 
-
 ## Proactive Triggers
 
 Surface these without being asked when you detect them in company context:
@@ -144,4 +138,7 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Security leadership for growth-stage companies. Risk quantification in dollars, compliance roadmap (SOC 2/ISO 27001/HIPAA/GDPR), security architecture strategy, incident response leadership, and board-level security reporting.
+
+Covers: Keywords, Core Responsibilities, Risk Quantification, Compliance Roadmap, Security Architecture Strategy.

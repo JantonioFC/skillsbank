@@ -74,4 +74,7 @@ for event in stream:
 6. **Close transcription sessions** when complete
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Transcription SDK for Python. Use for real-time and batch speech-to-text transcription with timestamps and diarization.
+
+Covers: Azure AI Transcription SDK for Python, Environment Variables, Authentication, Transcription (Batch), Transcription (Real-time).

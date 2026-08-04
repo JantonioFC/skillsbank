@@ -3,16 +3,11 @@ name: run
 description: Run a single experiment iteration. Edit the target file, evaluate, keep
   or discard.
 command: /ar:run
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # /ar:run — Single Experiment Iteration
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Run exactly ONE experiment iteration: review history, decide a change, edit, commit, evaluate.
 
@@ -92,4 +87,7 @@ After every 10th experiment (check results.tsv line count), update the Strategy 
 - No new dependencies.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Run a single experiment iteration. Edit the target file, evaluate, keep or discard.
+
+Covers: /ar:run — Single Experiment Iteration, What It Does, Resolve experiment, Load context, Read experiment config.

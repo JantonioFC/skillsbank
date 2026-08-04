@@ -382,4 +382,7 @@ rm -rf /tmp/everything-claude-code
 * 对于 `continuous-learning-v2`，`~/.claude/homunculus/` 目录始终是用户级别的 — 这是预期的，不是错误。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Everything Claude Code 的交互式安装程序 — 引导用户选择并安装技能和规则到用户级或项目级目录，验证路径，并可选择优化已安装文件。.
+
+Covers: 配置 Everything Claude Code (ECC), 步骤 0：克隆 ECC 仓库, 步骤 1：选择安装级别, 步骤 2：选择并安装技能, 2a: 选择范围（核心 vs 细分领域）.

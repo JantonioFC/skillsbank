@@ -110,4 +110,5 @@ III. Main Section 2
 Focus on comprehensive coverage and logical content progression. Plan for topical authority.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Creates comprehensive content outlines and topic clusters for SEO. Plans content calendars and identifies topic gaps.

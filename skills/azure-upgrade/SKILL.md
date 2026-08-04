@@ -80,4 +80,7 @@ After upgrade is validated, hand off to:
 - `azure-deploy` — if the user wants to set up CI/CD for the new app
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Assess and upgrade Azure workloads between plans, tiers, or SKUs within Azure. Generates assessment reports and automates upgrade steps.
+
+Covers: Triggers, Upgrade Scenarios, MCP Tools, Next.

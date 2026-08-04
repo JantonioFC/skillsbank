@@ -146,6 +146,3 @@ Use these modules when the request is for a specific delivery style. They provid
 - **`references/ivr.md`**: templates + defaults for IVR/phone prompts.
 - **`references/accessibility.md`**: templates + defaults for accessibility reads.
 - **`references/codex-network.md`**: environment/sandbox/network-approval troubleshooting.
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

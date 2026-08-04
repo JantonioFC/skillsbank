@@ -469,4 +469,7 @@ Present ranges:
 - [Resonate (Nancy Duarte)](https://www.duarte.com/resonate/)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations.
+
+Covers: Core Concepts, Story Structure, Narrative Arc, Three Pillars, Story Frameworks.

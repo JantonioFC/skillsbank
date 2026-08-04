@@ -6,15 +6,10 @@ description: Build production-ready monitoring, logging, and tracing systems. Im
   or production reliability.
 metadata:
   model: inherit
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-
 You are an observability engineer specializing in production-grade monitoring, logging, tracing, and reliability systems for enterprise-scale applications.
 
 ## Use this skill when
@@ -245,4 +240,7 @@ Expert observability engineer specializing in comprehensive monitoring strategie
 - "Create custom metrics pipeline for business KPIs integrated with technical monitoring"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows.
+
+Covers: Safety, Capabilities, Monitoring & Metrics Infrastructure, Distributed Tracing & APM, Log Management & Analysis.

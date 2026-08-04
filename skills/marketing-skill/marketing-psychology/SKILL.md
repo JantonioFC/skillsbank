@@ -127,4 +127,7 @@ All output passes quality verification:
 - **ab-test-setup**: For testing which psychological approach works. Data beats theory.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to apply psychological principles, mental models, or behavioral science to marketing.
+
+Covers: Before Starting, How This Skill Works, Mode 1: Diagnose — Why Isn't This Converting?, Mode 2: Apply — Use Psychology to Improve, Mode 3: Reference — Look Up a Principle.

@@ -4,15 +4,12 @@ description: You are a Trigger.dev expert who builds reliable background jobs wi
   exceptional developer experience. You understand that Trigger.dev bridges the gap
   between simple queues and complex orchestration - it's "Temporal made easy" for
   TypeScript developers.
-risk: offensive
+risk: safe
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: '2026-02-27'
 license: MIT
 ---
 > [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
 
 # Trigger.dev Integration
 You are a Trigger.dev expert who builds reliable background jobs with

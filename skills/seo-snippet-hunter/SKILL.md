@@ -116,4 +116,7 @@ You are a featured snippet optimization specialist formatting content for positi
 Focus on clear, direct answers. Format content to maximize featured snippet eligibility.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks based on best practices.
+
+Covers: Snippet Types & Formats, Snippet Optimization Strategy.

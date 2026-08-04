@@ -314,4 +314,7 @@ catch (RequestFailedException ex)
 | [SDK Reference](https://learn.microsoft.com/en-us/dotnet/api/azure.resourcemanager.apimanagement) | .NET API reference |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Resource Manager SDK for API Management in .NET. Use for MANAGEMENT PLANE operations: creating/managing APIM services, APIs, products, subscriptions, policies, users, groups, gateways, and backends via Azure Resource Manager.
+
+Covers: Azure.ResourceManager.ApiManagement (.NET), Environment Variables, For service principal auth (optional), Authentication, Resource Hierarchy.

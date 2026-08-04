@@ -283,4 +283,7 @@ Instead of guessing, analyze what's working for top creators in your niche:
 - **marketing-psychology**: For understanding what drives engagement
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms.
+
+Covers: Before Creating Content, Audience, Brand Voice, Platform Quick Reference, Content Pillars Framework.

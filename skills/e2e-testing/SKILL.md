@@ -331,4 +331,7 @@ test('trade execution', async ({ page }) => {
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Playwright E2E 测试模式、页面对象模型、配置、CI/CD 集成、工件管理和不稳定测试策略。.
+
+Covers: 页面对象模型 (POM), Playwright 配置, test-name.

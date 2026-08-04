@@ -243,4 +243,7 @@ class CostOptimizer:
 Target Optimization: $ARGUMENTS
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Optimize multi-agent systems with coordinated profiling, workload distribution, and cost-aware orchestration. Use when improving agent performance, throughput, or reliability.
+
+Covers: Multi-Agent Optimization Toolkit, Safety, Context, Core Capabilities, Arguments Handling.

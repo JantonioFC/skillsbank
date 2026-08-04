@@ -6,16 +6,11 @@ description: Master Minecraft server plugin development with Bukkit, Spigot, and
   gameplay mechanics, server-side features, or cro...
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on minecraft bukkit pro tasks or workflows
 - Needing guidance, best practices, or checklists for minecraft bukkit pro
@@ -132,4 +127,7 @@ You are a Minecraft plugin development master specializing in Bukkit, Spigot, an
 Always leverage WebSearch and WebFetch to ensure best practices and find existing solutions. Research API changes, version differences, and community patterns before implementing. Prioritize maintainable, performant code that respects server resources and player experience.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs. Specializes in event-driven architecture, command systems, world manipulation, player management, and performance optimization.
+
+Covers: Core Expertise, API Mastery, Internal Mechanics, Performance Engineering, Ecosystem Integration.

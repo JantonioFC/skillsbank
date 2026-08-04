@@ -251,4 +251,7 @@ async def broadcast():
 7. **Close connections** gracefully with reasons
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.
+
+Covers: Azure Web PubSub Service SDK for Python, Service SDK (server-side), Client SDK (for Python WebSocket clients), Environment Variables, Service Client (Server-Side).

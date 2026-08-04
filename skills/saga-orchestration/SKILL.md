@@ -500,4 +500,7 @@ class TimeoutSagaOrchestrator(SagaOrchestrator):
 - [Designing Data-Intensive Applications](https://dataintensive.net/)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Implement saga patterns for distributed transactions and cross-aggregate workflows. Use when coordinating multi-step business processes, handling compensating transactions, or managing long-running workflows.
+
+Covers: Core Concepts, Saga Types, Saga Execution States, Templates, Template 1: Saga Orchestrator Base.

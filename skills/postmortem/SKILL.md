@@ -195,4 +195,7 @@ The first version fires or shames someone. The second version builds a more resi
 Both might be true simultaneously. The distinction is: which one actually prevents recurrence?
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+/em -postmortem — Honest Analysis of What Went Wrong.
+
+Covers: /em:postmortem — Honest Analysis of What Went Wrong, Why Most Post-Mortems Fail, The Framework, Define the Event Precisely, The 5 Whys — Done Properly.

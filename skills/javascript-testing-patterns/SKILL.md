@@ -40,4 +40,5 @@ Comprehensive guide for implementing robust testing strategies in JavaScript/Typ
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fixtures, and test-driven development.

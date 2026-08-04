@@ -358,4 +358,7 @@ Even small changelog updates remind customers your product is evolving. This bui
 - **sales-enablement**: For launch sales collateral and enablement materials
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to plan a product launch, feature announcement, or release strategy.
+
+Covers: Before Starting, Core Philosophy, The ORB Framework, Owned Channels, Rented Channels.

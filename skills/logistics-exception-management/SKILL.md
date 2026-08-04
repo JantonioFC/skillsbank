@@ -9,15 +9,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: 📦
-risk: offensive
+risk: safe
 source: community
 ---
 # 物流异常管理
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## 角色与背景
 
@@ -225,4 +220,5 @@ source: community
 * 将承运人特定的交货证明规则和OS\&D检查清单放在执行本手册的团队附近。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+针对货运异常、货物延误、损坏、丢失和承运商纠纷的编码化专业知识，由拥有15年以上运营经验的物流专业人士提供。包括升级协议、承运商特定行为、索赔程序和判断框架。在处理运输异常、货运索赔、交付问题或承运商纠纷时使用。.

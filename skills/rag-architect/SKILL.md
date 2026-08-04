@@ -2,16 +2,11 @@
 name: rag-architect
 description: Use when the user asks to design RAG pipelines, optimize retrieval strategies,
   choose embedding models, implement vector search, or build knowledge retrieval systems.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # RAG Architect - POWERFUL
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 
@@ -326,4 +321,7 @@ Building effective RAG systems requires careful consideration of each component 
 This skill provides the foundation for making informed decisions throughout the RAG development lifecycle, from initial design to production deployment and ongoing maintenance.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when the user asks to design RAG pipelines, optimize retrieval strategies, choose embedding models, implement vector search, or build knowledge retrieval systems.
+
+Covers: RAG Architect - POWERFUL, Core Competencies, Document Processing & Chunking Strategies, Embedding Model Selection, Vector Database Selection.

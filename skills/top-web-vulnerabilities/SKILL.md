@@ -553,4 +553,7 @@ Permissions-Policy: geolocation=(), microphone=()
 - Source: Kumar MS - Top 100 Web Vulnerabilities
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "identify web application vulnerabilities", "explain common security flaws", "understand vulnerability categories", "learn about injection attacks", "review access control weaknesses", "analyze API security issues", "assess security misconfiguration.
+
+Covers: Top 100 Web Vulnerabilities Reference, Outputs and Deliverables, Injection Vulnerabilities Assessment, Authentication and Session Security, Sensitive Data Exposure.

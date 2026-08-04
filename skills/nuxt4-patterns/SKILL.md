@@ -3,16 +3,11 @@ name: nuxt4-patterns
 description: Nuxt 4 app patterns for hydration safety, performance, route rules, lazy
   loading, and SSR-safe data fetching with useFetch and useAsyncData.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Nuxt 4 Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Use when building or debugging Nuxt 4 apps with SSR, hybrid rendering, route rules, or page-level data fetching.
 
@@ -108,4 +103,7 @@ Pick route rules per route group, not globally. Marketing pages, catalogs, dashb
 - Heavy interactive islands are lazy-loaded or lazily hydrated
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Nuxt 4 app patterns for hydration safety, performance, route rules, lazy loading, and SSR-safe data fetching with useFetch and useAsyncData.
+
+Covers: When to Activate, Hydration Safety, Data Fetching, Route Rules, Lazy Loading and Performance.

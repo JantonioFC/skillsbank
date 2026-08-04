@@ -186,4 +186,7 @@ Master context engineer specializing in building dynamic systems that provide th
 - "Optimize context window usage for complex reasoning tasks with limited tokens"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems. Orchestrates context across multi-agent workflows, enterprise AI systems, and long-running projects with 2024/2025 best practices.
+
+Covers: Expert Purpose, Capabilities, Context Engineering & Orchestration, Vector Database & Embeddings Management, Knowledge Graph & Semantic Systems.

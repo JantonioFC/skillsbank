@@ -354,4 +354,7 @@ llm = OpenAI(streaming=True, callbacks=[StreamingStdOutCallbackHandler()])
 - [ ] Version control prompts and configurations
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Design LLM applications using the LangChain framework with agents, memory, and tool integration patterns. Use when building LangChain applications, implementing AI agents, or creating complex LLM workflows.
+
+Covers: Core Concepts, Agents, Chains, Memory, Document Processing.

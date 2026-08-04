@@ -508,4 +508,7 @@ Server-side protections:
 | XSS not working (HTML only) | JS filtered but HTML allowed; leverage phishing forms, meta refresh redirects |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "test for HTML injection", "inject HTML into web pages", "perform HTML injection attacks", "deface web applications", or "test content injection vulnerabilities". It provides comprehensive HTML injection attack techniques and testing methodologies.
+
+Covers: Required Tools, Required Knowledge, Outputs and Deliverables, Understanding HTML Injection, Identifying Injection Points.

@@ -348,4 +348,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key RevOp
 - **sales-enablement**: For sales collateral, decks, and objection handling
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes.
+
+Covers: Before Starting, Core Principles, Single Source of Truth, Define Before Automate, Measure Every Handoff.

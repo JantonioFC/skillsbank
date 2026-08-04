@@ -380,4 +380,7 @@ Announce document completion. Provide a few final tips:
 - The goal is a document that actually works for readers
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content.
+
+Covers: Doc Co-Authoring Workflow, When to Offer This Workflow, Stage 1: Context Gathering, Initial Questions, Info Dumping.

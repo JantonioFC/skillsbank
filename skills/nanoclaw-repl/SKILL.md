@@ -36,4 +36,7 @@ Use this skill when running or extending `scripts/claw.js`.
 - keep command handlers deterministic and local
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Operate and extend NanoClaw v2, ECC's zero-dependency session-aware REPL built on claude -p.
+
+Covers: Capabilities, Operating Guidance, Extension Rules.

@@ -444,4 +444,7 @@ python scripts/dataset_pipeline_builder.py data/final/ \
 - **Scripts**: `scripts/` directory for automation tools
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Computer vision engineering skill for object detection, image segmentation, and visual AI systems. Covers CNN and Vision Transformer architectures, YOLO/Faster R-CNN/DETR detection, Mask R-CNN/SAM segmentation, and production deployment with ONNX/TensorRT.
+
+Covers: Senior Computer Vision Engineer, Generate training configuration for YOLO or Faster R-CNN, Build dataset pipeline with augmentations, Core Expertise, Tech Stack.

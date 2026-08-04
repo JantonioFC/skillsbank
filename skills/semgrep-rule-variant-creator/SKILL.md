@@ -4,16 +4,11 @@ description: Creates language variants of existing Semgrep rules. Use when porti
   a Semgrep rule to specified target languages. Takes an existing rule and target
   languages as input, produces independent rule+test directories for each language.
 allowed-tools: '...'
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Semgrep Rule Variant Creator
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Port existing Semgrep rules to new target languages with proper applicability analysis and test-driven validation.
 
@@ -177,7 +172,6 @@ See workflow.md for detailed workflow and troubleshooting.
 | Validate YAML | `semgrep --validate --config rule.yaml` |
 | Dump AST | `semgrep --dump-ast -l <lang> <file>` |
 | Debug taint flow | `semgrep --dataflow-traces -f rule.yaml file` |
-
 
 ## Key Differences from Rule Creation
 

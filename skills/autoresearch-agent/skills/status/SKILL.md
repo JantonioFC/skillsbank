@@ -73,4 +73,7 @@ prompts         support-tone         15     6   82/100       +46.4%    done     
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Show experiment dashboard with results, active loops, and progress.
+
+Covers: /ar:status — Experiment Dashboard, What It Does, Single experiment, Domain view, Full dashboard.

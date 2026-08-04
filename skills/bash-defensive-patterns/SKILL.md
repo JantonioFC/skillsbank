@@ -47,4 +47,5 @@ Refer to `resources/implementation-playbook.md` for detailed patterns, checklist
 - `resources/implementation-playbook.md` for detailed patterns, checklists, and templates.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety.

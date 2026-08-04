@@ -4,16 +4,11 @@ description: Fullstack development toolkit with project scaffolding for Next.js,
   MERN, and Django stacks, code quality analysis with security and complexity scoring,
   and stack selection guidance. Use when the user asks to "scaffold a new project",
   "create a Next.js app", "set up FastAPI with React", ...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Senior Fullstack
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Fullstack development skill with project scaffolding and code quality analysis tools.
 
@@ -295,4 +290,7 @@ See `references/tech_stack_guide.md` for detailed comparison.
 | CORS issues | Configure middleware properly |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Fullstack development toolkit with project scaffolding for Next.js, FastAPI, MERN, and Django stacks, code quality analysis with security and complexity scoring, and stack selection guidance.
+
+Covers: Trigger Phrases, Tools, Project Scaffolder, List available templates, Create Next.js project.

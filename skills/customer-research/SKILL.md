@@ -274,4 +274,7 @@ Don't ask all five at once — lead with #1 and #2, then follow up as needed.
 | Planning content based on discovered topics | `content-strategy` |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to conduct, analyze, or synthesize customer research.
+
+Covers: Before Starting, Two Modes of Research, Mode 1: Analyze Existing Assets, Mode 2: Go Find Research, Mode 1: Analyzing Existing Research Assets.

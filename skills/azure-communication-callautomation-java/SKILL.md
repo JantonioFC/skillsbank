@@ -258,4 +258,7 @@ CALLBACK_BASE_URL=https://your-app.com/api/callbacks
 - "Azure Communication Services call automation"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build call automation workflows with Azure Communication Services Call Automation Java SDK. Use when implementing IVR systems, call routing, call recording, DTMF recognition, text-to-speech, or AI-powered call flows.
+
+Covers: Client Creation, Key Concepts, Create Outbound Call, Answer Incoming Call, Play Audio (Text-to-Speech).

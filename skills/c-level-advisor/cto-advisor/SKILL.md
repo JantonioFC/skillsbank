@@ -261,4 +261,7 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - `references/architecture_decision_records.md` — ADR templates, decision governance, review process
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Technical leadership guidance for engineering teams, architecture decisions, and technology strategy.
+
+Covers: Keywords, Core Responsibilities, Technology Strategy, Engineering Team Leadership, Architecture Governance.

@@ -136,4 +136,7 @@ Ask user before deleting anything.
 - Before/after comparison of test run results
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Migrate from Cypress or Selenium to Playwright. Use when user mentions "cypress", "selenium", "migrate tests", "convert tests", "switch to playwright", "move from cypress", or "replace selenium".
+
+Covers: Migrate to Playwright, Detect Source Framework, Assess Migration Scope, Set Up Playwright (If Not Present), Convert Files.

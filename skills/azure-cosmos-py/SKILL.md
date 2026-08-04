@@ -8,16 +8,11 @@ description: 'Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD,
 
   '
 package: azure-cosmos
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Azure Cosmos DB SDK for Python
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Client library for Azure Cosmos DB NoSQL API — globally distributed, multi-model database.
 
@@ -291,4 +286,7 @@ except CosmosHttpResponseError as e:
 | [scripts/setup_cosmos_container.py](scripts/setup_cosmos_container.py) | CLI tool for creating containers with partitioning, throughput, and indexing |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.
+
+Covers: Azure Cosmos DB SDK for Python, Environment Variables, Authentication, Client Hierarchy, Setup Database and Container.

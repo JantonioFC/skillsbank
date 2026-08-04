@@ -509,4 +509,7 @@ Minute(0-59) Hour(0-23) Day(1-31) Month(1-12) Weekday(0-7, 0/7=Sun)
 - Use `bash -x script.sh` for debugging
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "create bash scripts", "automate Linux tasks", "monitor system resources", "backup files", "manage users", or "write production shell scripts". It provides ready-to-use shell script templates for system administration.
+
+Covers: Linux Production Shell Scripts, Required Environment, Required Knowledge, Outputs and Deliverables, File Backup Scripts.

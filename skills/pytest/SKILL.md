@@ -188,4 +188,7 @@ pytest --tb=short               # Short traceback
 pytest, python, testing, fixtures, mocking, parametrize, markers
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Pytest testing patterns for Python. Trigger: When writing Python tests - fixtures, mocking, markers.
+
+Covers: Basic Test Structure, Fixtures, Fixture with teardown, Fixture scopes, Mocking.

@@ -140,4 +140,7 @@ See [references/pattern-examples.md](references/pattern-examples.md) for good/ba
 Creative frontend principles inspired by [Anthropic's frontend-design skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design). Design review principles and quality pillar framework created by [@Quirinevwm](https://github.com/Quirinevwm) for systematic UI evaluation.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Review and create distinctive, production-grade frontend interfaces with high design quality and design system compliance. Evaluates using three pillars: frictionless insight-to-action, quality craft, and trustworthy building.
+
+Covers: Two Modes, Mode 1: Design Review, Mode 2: Creative Frontend Design, Creative Frontend Design, Aesthetics Guidelines.

@@ -8,16 +8,10 @@ description: 'Assess Kubernetes workloads and cluster configuration for AKS Auto
   compatibility. Identifies incompatibilities, generates fixes, and guides migration
   from AKS Standard to AKS Automatic. WHEN: migrate to AKS Automatic, check AKS Automatic
   readiness, validate manifests for Automatic...'
-risk: offensive
+risk: safe
 source: microsoft
 ---
-
 # AKS Automatic Readiness Assessment
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 > **AUTHORITATIVE GUIDANCE — MANDATORY COMPLIANCE**
 >

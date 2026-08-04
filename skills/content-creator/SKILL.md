@@ -59,4 +59,7 @@ This is a redirect skill. Route the user to the correct specialist — don't att
 - **marketing-context**: Foundation context that both successors read.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Deprecated redirect skill that routes legacy 'content creator' requests to the correct specialist.
+
+Covers: Content Creator → Redirected, Why the Change, Proactive Triggers, Output Artifacts, Communication.

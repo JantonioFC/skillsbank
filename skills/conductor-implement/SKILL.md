@@ -390,4 +390,7 @@ If implementation is paused and resumed:
 6. **Track all commits** - Record commit hashes in metadata.json for potential revert
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Execute tasks from a track's implementation plan following TDD workflow.
+
+Covers: Implement Track, Pre-flight Checks, Track Selection, Context Loading, Track Status Update.

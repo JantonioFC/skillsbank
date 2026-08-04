@@ -37,4 +37,5 @@ Systematic threat identification using the STRIDE methodology.
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Apply STRIDE methodology to systematically identify threats. Use when analyzing system security, conducting threat modeling sessions, or creating security documentation.

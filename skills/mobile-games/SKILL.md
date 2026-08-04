@@ -111,4 +111,7 @@ license: MIT
 > **Remember:** Mobile is the most constrained platform. Respect battery and attention.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Mobile game development principles. Touch input, battery, performance, app stores.
+
+Covers: Mobile Game Development, Platform Considerations, Key Constraints, Touch Input Principles, Touch vs Controller.

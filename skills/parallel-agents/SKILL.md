@@ -4,16 +4,11 @@ description: Multi-agent orchestration patterns. Use when multiple independent t
   can run with different domain expertise or when comprehensive analysis requires
   multiple perspectives.
 allowed-tools: Read, Glob, Grep
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Native Parallel Agents
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 > Orchestration through Antigravity's built-in Agent Tool
 

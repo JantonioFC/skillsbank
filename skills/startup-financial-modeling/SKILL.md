@@ -468,4 +468,7 @@ To create a startup financial model:
 For complete templates and formulas, reference the `references/` and `examples/` files.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "create financial projections", "build a financial model", "forecast revenue", "calculate burn rate", "estimate runway", "model cash flow", or requests 3-5 year financial planning for a startup.
+
+Covers: Core Components, Revenue Model, Cost Structure, Cash Flow Analysis, Headcount Planning.

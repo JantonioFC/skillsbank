@@ -194,4 +194,7 @@ AWS / Azure / GCP
 - `hybrid-cloud-networking` - For connectivity
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Design multi-cloud architectures using a decision framework to select and integrate services across AWS, Azure, and GCP. Use when building multi-cloud systems, avoiding vendor lock-in, or leveraging best-of-breed services from multiple providers.
+
+Covers: Cloud Service Comparison, Compute Services, Storage Services, Database Services, Multi-Cloud Patterns.

@@ -201,4 +201,7 @@ source: community
 * 在将此技能用于生产环境之前，请先记录您组织偏好的谈判立场、附加费护栏和升级触发条件。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+用于管理承运商组合、协商运费、跟踪承运商绩效、分配货运以及维护战略承运商关系的编码专业知识。基于拥有15年以上经验的运输经理提供的信息。包括记分卡框架、RFP流程、市场情报和合规性审查。适用于管理承运商、协商费率、评估承运商绩效或制定货运策略时使用。.
+
+Covers: RFP流程, FMCSA合规审查, 何时整合 vs. 多元化, 现货 vs. 合同决策.

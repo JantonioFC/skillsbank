@@ -428,4 +428,7 @@ If `--resume` argument or resuming from state:
 - If state file corrupted: Offer to start fresh or attempt recovery
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Initialize project with Conductor artifacts (product definition, tech stack, workflow, style guides).
+
+Covers: Pre-flight Checks, Interactive Q&A Protocol, Section 1: Product Definition (max 5 questions), Section 2: Product Guidelines (max 3 questions), Section 3: Tech Stack (max 5 questions).

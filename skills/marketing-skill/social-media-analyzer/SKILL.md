@@ -314,4 +314,7 @@ All output passes quality verification:
 - **marketing-context**: Provides audience context for better analysis.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Social media campaign analysis and performance tracking. Calculates engagement rates, ROI, and benchmarks across platforms.
+
+Covers: Analysis Workflow, Input Requirements, Data Validation Checks, Engagement Metrics, Engagement Rate Calculation.

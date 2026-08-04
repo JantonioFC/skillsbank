@@ -2,16 +2,11 @@
 name: pr-review-expert
 description: Use when the user asks to review pull requests, analyze code changes,
   check for security issues in PRs, or assess code quality of diffs.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # PR Review Expert
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 **Tier:** POWERFUL
 **Category:** Engineering

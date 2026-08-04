@@ -80,4 +80,7 @@ If some agents are still running:
 - Suggest waiting or checking again later
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Show DAG state, agent progress, and branch status for an AgentHub session.
+
+Covers: /hub:status — Session Status, What It Does, Output Format, After Status.

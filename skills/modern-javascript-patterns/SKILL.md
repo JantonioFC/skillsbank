@@ -40,4 +40,5 @@ Comprehensive guide for mastering modern JavaScript (ES6+) features, functional 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iterators, generators, and functional programming patterns for writing clean, efficient JavaScript code.

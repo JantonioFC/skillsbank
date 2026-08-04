@@ -278,4 +278,7 @@ Combine all three tools for a comprehensive QBR analysis.
 | [Expected Output](assets/expected_output.json) | Reference output from pipeline_analyzer.py |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization.
+
+Covers: Analyze pipeline health and coverage, Track forecast accuracy over multiple periods, Calculate GTM efficiency metrics, Tools Overview, Pipeline Analyzer.

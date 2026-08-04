@@ -290,4 +290,7 @@ resource "aws_cloudwatch_metric_alarm" "cpu_high" {
 - `multi-cloud-architecture` - For cloud selection
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Optimize cloud costs through resource rightsizing, tagging strategies, reserved instances, and spending analysis. Use when reducing cloud expenses, analyzing infrastructure costs, or implementing cost governance policies.
+
+Covers: Cloud Cost Optimization, Cost Optimization Framework, Visibility, Right-Sizing, Pricing Models.

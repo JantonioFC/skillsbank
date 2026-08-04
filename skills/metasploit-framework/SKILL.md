@@ -488,4 +488,7 @@ exploit/multi/http/jenkins_script_console
 | Payload detected by AV | Use encoding `-e x86/shikata_ga_nai -i 10`; use evasion modules; custom templates |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "use Metasploit for penetration testing", "exploit vulnerabilities with msfconsole", "create payloads with msfvenom", "perform post-exploitation", "use auxiliary modules for scanning", or "develop custom exploits".
+
+Covers: Required Tools, Metasploit comes pre-installed on Kali Linux, Start PostgreSQL for database support, Required Knowledge, Required Access.

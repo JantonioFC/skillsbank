@@ -454,4 +454,7 @@ For compliance framework requirements (OWASP ASVS, CIS Benchmarks, NIST CSF, PCI
 | [senior-architect](../senior-architect/) | Security architecture decisions |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Security engineering toolkit for threat modeling, vulnerability analysis, secure architecture, and penetration testing. Includes STRIDE analysis, OWASP guidance, cryptography patterns, and security scanning tools.
+
+Covers: Senior Security Engineer, Threat Modeling Workflow, Workflow: Conduct Threat Model, STRIDE Threat Categories, STRIDE per Element Matrix.

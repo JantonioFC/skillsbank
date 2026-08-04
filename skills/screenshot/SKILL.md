@@ -270,4 +270,7 @@ gnome-screenshot -w -f output/window.png
 - Always report the saved file path in the response.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.
+
+Covers: Screenshot Capture, Tool priority, macOS permission preflight (reduce repeated prompts), macOS and Linux (Python helper), Workflow examples.

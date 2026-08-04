@@ -46,4 +46,5 @@ Refer to `resources/implementation-playbook.md` for detailed patterns, checklist
 - `resources/implementation-playbook.md` for detailed patterns, checklists, and templates.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Optimize vector index performance for latency, recall, and memory. Use when tuning HNSW parameters, selecting quantization strategies, or scaling vector search infrastructure.

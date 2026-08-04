@@ -13,15 +13,10 @@ metadata:
   updated: 2026-03-05
   python-tools: health_scorer.py
   frameworks: health-benchmarks
-risk: offensive
+risk: safe
 source: community
 ---
 # Org Health Diagnostic
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Eight dimensions. Traffic lights. Real benchmarks. Surfaces the problems you don't know you have.
 
@@ -194,4 +189,7 @@ You don't need all metrics to run a diagnostic. The tool handles partial data:
 - `scripts/health_scorer.py` — CLI scoring tool with traffic light output
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down recommendations.
+
+Covers: Keywords, The 8 Dimensions, 💰 Financial Health (CFO), 📈 Revenue Health (CRO), 🚀 Product Health (CPO).

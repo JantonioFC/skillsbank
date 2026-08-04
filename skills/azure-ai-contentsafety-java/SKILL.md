@@ -286,4 +286,7 @@ CONTENT_SAFETY_KEY=<your-api-key>
 - "harmful content filter"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build content moderation applications with Azure AI Content Safety SDK for Java. Use when implementing text/image analysis, blocklist management, or harm detection for hate, violence, sexual content, and self-harm.
+
+Covers: Azure AI Content Safety SDK for Java, Client Creation, With API Key, With DefaultAzureCredential, Key Concepts.

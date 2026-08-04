@@ -3,16 +3,11 @@ name: spec-driven-workflow
 description: Use when the user asks to write specs before code, define acceptance
   criteria, plan features before implementation, generate tests from specifications,
   or follow spec-first development practices.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Spec-Driven Workflow — POWERFUL
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 
@@ -342,4 +337,7 @@ python test_extractor.py --file specs/auth.md --framework pytest --output tests/
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when the user asks to write specs before code, define acceptance criteria, plan features before implementation, generate tests from specifications, or follow spec-first development practices.
+
+Covers: Spec-Driven Workflow — POWERFUL, Why Spec-First Matters, The Iron Law, The Spec Format, Mandatory Sections.

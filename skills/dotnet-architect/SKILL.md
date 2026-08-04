@@ -6,16 +6,11 @@ description: Expert .NET backend architect specializing in C#, ASP.NET Core, Ent
   .NET API development, code review, or architecture decisi...
 metadata:
   model: sonnet
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on dotnet architect tasks or workflows
 - Needing guidance, best practices, or checklists for dotnet architect
@@ -203,4 +198,7 @@ var status = order.State switch
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns. Masters async/await, dependency injection, caching strategies, and performance optimization.
+
+Covers: Capabilities, C# Language Mastery, ASP.NET Core Expertise, Data Access Patterns, Caching Strategies.

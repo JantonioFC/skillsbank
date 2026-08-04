@@ -4,16 +4,11 @@ description: FDA regulatory consultant for medical device companies. Provides 51
   Novo pathway guidance, QSR (21 CFR 820) compliance, HIPAA assessments, and device
   cybersecurity. Use when user mentions FDA submission, 510(k), PMA, De Novo, QSR,
   premarket, predicate device, substantial equivalence, H...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # FDA Consultant Specialist
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 FDA regulatory consulting for medical device manufacturers covering submission pathways, Quality System Regulation (QSR), HIPAA compliance, and device cybersecurity requirements.
 
@@ -317,4 +312,7 @@ python scripts/hipaa_risk_assessment.py /path/to/project --category technical
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+FDA regulatory consultant for medical device companies. Provides 510(k)/PMA/De Novo pathway guidance, QSR (21 CFR 820) compliance, HIPAA assessments, and device cybersecurity.
+
+Covers: FDA Pathway Selection, Decision Framework, Pathway Comparison, Pre-Submission Strategy, 510(k) Submission Process.

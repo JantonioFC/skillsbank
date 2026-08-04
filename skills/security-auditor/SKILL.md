@@ -182,4 +182,7 @@ Expert security auditor with comprehensive knowledge of modern cybersecurity pra
 - "Create security automation with Policy as Code and continuous compliance monitoring"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. Masters vulnerability assessment, threat modeling, secure authentication (OAuth2/OIDC), OWASP standards, cloud security, and security automation.
+
+Covers: Safety, Capabilities, DevSecOps & Security Automation, Modern Authentication & Authorization, OWASP & Vulnerability Management.

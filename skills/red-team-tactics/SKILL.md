@@ -207,4 +207,7 @@ For each successful technique:
 > **Remember:** Red team simulates attackers to improve defenses, not to cause harm.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.
+
+Covers: MITRE ATT&CK Phases, Attack Lifecycle, Phase Objectives, Reconnaissance Principles, Passive vs Active.

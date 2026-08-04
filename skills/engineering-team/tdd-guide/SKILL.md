@@ -13,16 +13,11 @@ triggers:
 - Pytest tests
 - JUnit tests
 - coverage report
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # TDD Guide
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Test-driven development skill for generating tests, analyzing coverage, and guiding red-green-refactor workflows across Jest, Pytest, JUnit, and Vitest.
 
@@ -174,4 +169,7 @@ Additional scripts: `framework_adapter.py` (convert between frameworks), `metric
 - Security testing: OWASP ZAP, Burp Suite
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor workflows across Jest, Pytest, JUnit, Vitest, and Mocha.
+
+Covers: Workflows, Generate Tests from Code, Analyze Coverage Gaps, TDD New Feature, Test Generation — Input → Output (Pytest).

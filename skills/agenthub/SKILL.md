@@ -261,4 +261,7 @@ clawhub install agenthub
 - **git-worktree-manager** — Git worktree utilities (AgentHub uses worktrees internally)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Multi-agent collaboration plugin that spawns N parallel subagents competing on the same task via git worktree isolation. Agents work independently, results are evaluated by metric or LLM judge, and the best branch is merged.
+
+Covers: AgentHub — Multi-Agent Collaboration, Agent Templates, Coordinator Protocol, Init, Dispatch.

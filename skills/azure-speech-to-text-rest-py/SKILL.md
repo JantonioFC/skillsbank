@@ -377,4 +377,7 @@ Use the Speech SDK or Batch Transcription API instead when you need:
 | [references/pronunciation-assessment.md](references/pronunciation-assessment.md) | Pronunciation assessment parameters and scoring |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Speech to Text REST API for short audio (Python). Use for simple speech recognition of audio files up to 60 seconds without the Speech SDK.
+
+Covers: Azure Speech to Text REST API for Short Audio, Environment Variables, Required, Alternative: Use endpoint directly, Audio Requirements.

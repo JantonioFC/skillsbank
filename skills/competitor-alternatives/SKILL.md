@@ -261,4 +261,7 @@ Recommended pages to create with priority order based on search volume.
 - **sales-enablement**: For internal sales collateral, decks, and objection docs
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to create competitor comparison or alternative pages for SEO and sales enablement.
+
+Covers: Competitor & Alternative Pages, Initial Assessment, Core Principles, Honesty Builds Trust, Depth Over Surface.

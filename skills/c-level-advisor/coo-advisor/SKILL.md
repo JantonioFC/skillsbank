@@ -13,15 +13,10 @@ metadata:
   updated: 2026-03-05
   python-tools: ops_efficiency_analyzer.py, okr_tracker.py
   frameworks: scaling-playbook, ops-cadence, process-frameworks
-risk: offensive
+risk: safe
 source: community
 ---
 # COO Advisor
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Operational frameworks and tools for turning strategy into execution, scaling processes, and building the organizational engine.
 
@@ -106,7 +101,6 @@ RACI for key decisions. Escalation framework: Team lead → Dept head → COO �
 - `references/ops_cadence.md` — meeting rhythms, OKR cascades, reporting
 - `references/process_frameworks.md` — lean ops, TOC, automation decisions
 
-
 ## Proactive Triggers
 
 Surface these without being asked when you detect them in company context:
@@ -146,4 +140,7 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Operations leadership for scaling companies. Process design, OKR execution, operational cadence, and scaling playbooks.
+
+Covers: Keywords, Core Responsibilities, Strategy Execution, Process Design, Operational Cadence.

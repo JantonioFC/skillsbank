@@ -4,16 +4,11 @@ description: Design durable workflows with Temporal for distributed systems. Cov
   workflow vs activity separation, saga patterns, state management, and determinism
   constraints. Use when building long-running processes, distributed transactions,
   or microservice orchestration.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Workflow Orchestration Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliable distributed systems.
 

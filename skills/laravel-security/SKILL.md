@@ -3,16 +3,11 @@ name: laravel-security
 description: Laravel security best practices for authn/authz, validation, CSRF, mass
   assignment, file uploads, secrets, rate limiting, and secure deployment.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Laravel Security Best Practices
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Comprehensive security guidance for Laravel applications to protect against common vulnerabilities.
 
@@ -293,4 +288,7 @@ Route::get('/invoices/{invoice}/download', [InvoiceController::class, 'download'
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Laravel security best practices for authn/authz, validation, CSRF, mass assignment, file uploads, secrets, rate limiting, and secure deployment.
+
+Covers: Laravel Security Best Practices, When to Activate, Core Security Settings, Session and Cookie Hardening, Authentication and Tokens.

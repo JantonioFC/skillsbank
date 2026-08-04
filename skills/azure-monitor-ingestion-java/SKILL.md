@@ -236,4 +236,7 @@ String query = "MyTable_CL | where TimeGenerated > ago(1h) | limit 10";
 | Troubleshooting | https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/monitor/azure-monitor-ingestion/TROUBLESHOOTING.md |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).
+
+Covers: Azure Monitor Ingestion SDK for Java, Environment Variables, Client Creation, Synchronous Client, Asynchronous Client.

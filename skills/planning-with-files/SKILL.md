@@ -35,16 +35,11 @@ hooks:
         2>/dev/null || sh "$SD/check-complete.sh"
 metadata:
   version: 2.26.1
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Planning with Files
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Work like Manus: Use persistent markdown files as your "working memory on disk."
 

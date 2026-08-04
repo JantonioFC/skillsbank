@@ -5,16 +5,11 @@ description: EMR/EHR development patterns for healthcare applications. Clinical 
   and accessibility-first UI for medical data entry.
 origin: Health1 Super Speciality Hospitals — contributed by Dr. Keyur Patel
 version: 1.0.0
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Healthcare EMR Development Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Patterns for building Electronic Medical Record (EMR) and Electronic Health Record (EHR) systems. Prioritizes patient safety, clinical accuracy, and practitioner efficiency.
 

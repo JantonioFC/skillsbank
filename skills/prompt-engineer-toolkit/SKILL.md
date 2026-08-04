@@ -10,15 +10,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
-risk: offensive
+risk: safe
 source: community
 ---
 # Prompt Engineer Toolkit
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 
@@ -147,4 +142,7 @@ This enables deterministic grading across prompt variants.
 5. Track post-release feedback and feed new failure cases back into test suite.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyzes and rewrites prompts for better AI output, creates reusable prompt templates for marketing use cases (ad copy, email campaigns, social media), and structures end-to-end AI content workflows.
+
+Covers: Core Capabilities, Key Workflows, Choose Winner With Evidence, Version Prompts, Add version.

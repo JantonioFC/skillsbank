@@ -201,4 +201,7 @@ Required dependencies (install if not available):
 - **defusedxml**: `pip install defusedxml` (for secure XML parsing)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction.
+
+Covers: DOCX creation, editing, and analysis, Workflow Decision Tree, Creating New Document, Editing Existing Document, Reading and analyzing content.

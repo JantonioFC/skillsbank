@@ -77,4 +77,7 @@ To access Anthropic's official brand identity and style resources, use this skil
 - Maintains color fidelity across different systems
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.
+
+Covers: Anthropic Brand Styling, Colors, Typography, Features, Smart Font Application.

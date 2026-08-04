@@ -202,4 +202,7 @@ trap cleanup EXIT
 > **Remember:** Bash is text-based. Use `&&` for success chains, `set -e` for safety, and quote your variables!
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting.
+
+Covers: Bash Linux Patterns, Operator Syntax, Chaining Commands, File Operations, Essential Commands.

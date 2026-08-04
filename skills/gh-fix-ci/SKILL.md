@@ -73,4 +73,7 @@ Usage examples:
 - `python "<path-to-skill>/scripts/inspect_pr_checks.py" --repo "." --max-lines 200 --context 40`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use gh to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval.
+
+Covers: Gh Pr Checks Plan Fix, Bundled Resources.

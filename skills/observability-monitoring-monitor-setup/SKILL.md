@@ -52,4 +52,7 @@ Focus on creating a monitoring system that provides actionable insights, reduces
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a monitoring and observability expert specializing in implementing comprehensive monitoring solutions.
+
+Covers: Monitoring and Observability Setup, Context, Output Format.

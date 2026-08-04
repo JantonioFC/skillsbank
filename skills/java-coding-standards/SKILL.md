@@ -140,4 +140,7 @@ log.error("failed_fetch_market slug={}", slug, ex);
 **覚えておく**: コードを意図的、型付き、観察可能に保つ。必要性が証明されない限り、マイクロ最適化よりも保守性を最適化します。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Spring Bootサービス向けのJavaコーディング標準：命名、不変性、Optional使用、ストリーム、例外、ジェネリクス、プロジェクトレイアウト。.
+
+Covers: Optionalの使用, Null処理.

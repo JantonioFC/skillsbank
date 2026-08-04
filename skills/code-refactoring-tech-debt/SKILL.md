@@ -390,4 +390,7 @@ Track progress with clear KPIs:
 Focus on delivering measurable improvements that directly impact development velocity, system reliability, and team morale.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects.
+
+Covers: Technical Debt Analysis and Remediation, Context, Technical Debt Inventory, Impact Assessment, Debt Metrics Dashboard.

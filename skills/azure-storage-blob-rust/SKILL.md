@@ -138,4 +138,7 @@ For Entra ID auth, assign one of these roles:
 | crates.io | https://crates.io/crates/azure_storage_blob |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers.
+
+Covers: Azure Blob Storage SDK for Rust, Environment Variables, Authentication, Client Types, Core Operations.

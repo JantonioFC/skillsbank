@@ -19,15 +19,10 @@ agents:
 - claude-code
 - codex-cli
 - openclaw
-risk: offensive
+risk: safe
 source: community
 ---
 # Engineering Team Skills
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 23 production-ready engineering skills organized into core engineering, AI/ML/Data, and specialized tools.
 
@@ -100,4 +95,7 @@ No pip install needed. Scripts include embedded samples for demo mode.
 - Check CLAUDE.md for tool usage examples and workflows
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+23 engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more tools. Architecture, frontend, backend, QA, DevOps, security, AI/ML, data engineering, Playwright, Stripe, AWS, MS365. 30+ Python tools (stdlib-only).
+
+Covers: Engineering Team Skills, Claude Code, Codex CLI, Skills Overview, Core Engineering (13 skills).

@@ -231,4 +231,7 @@ session.receiveEvents()
 | Samples | https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/ai/azure-ai-voicelive/src/samples |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket.
+
+Covers: Azure AI VoiceLive SDK for Java, Environment Variables, Authentication, API Key, DefaultAzureCredential (Recommended).

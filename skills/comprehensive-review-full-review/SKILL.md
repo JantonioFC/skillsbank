@@ -1,16 +1,11 @@
 ---
 name: comprehensive-review-full-review
 description: Use when working with comprehensive review full review
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on comprehensive review full review tasks or workflows
 - Needing guidance, best practices, or checklists for comprehensive review full review
@@ -153,4 +148,7 @@ Review is considered successful when:
 Target: $ARGUMENTS
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when working with comprehensive review full review.
+
+Covers: Review Configuration Options, Code Quality & Architecture Review, 1A. Code Quality Analysis, 1B. Architecture & Design Review, Security & Performance Review.

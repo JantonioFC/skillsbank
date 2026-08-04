@@ -332,4 +332,7 @@ run.finish()
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/weightsandbiases |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace.
+
+Covers: Azure.ResourceManager.WeightsAndBiases (.NET), Environment Variables, Authentication, Resource Hierarchy, Core Workflows.

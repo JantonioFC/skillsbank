@@ -173,4 +173,7 @@ All output passes quality verification:
 - **cs-onboard** (C-Suite): For company-level context. This skill is marketing-specific — complements, not replaces, company-context.md.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create and maintain the marketing context document that all marketing skills read before starting.
+
+Covers: How This Skill Works, Mode 1: Auto-Draft from Codebase, Mode 2: Guided Interview, Mode 3: Update Existing, Sections to Capture.

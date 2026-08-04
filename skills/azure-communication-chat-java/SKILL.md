@@ -314,4 +314,7 @@ AZURE_COMMUNICATION_USER_TOKEN=<user-access-token>
 - "Azure Communication Services chat"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build real-time chat applications with Azure Communication Services Chat Java SDK. Use when implementing chat threads, messaging, participants, read receipts, typing notifications, or real-time chat features.
+
+Covers: Client Creation, Key Concepts, Create Chat Thread, Send Messages, Get Messages.

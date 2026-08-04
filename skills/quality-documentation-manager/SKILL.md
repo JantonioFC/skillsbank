@@ -442,4 +442,7 @@ Track document control system performance.
 | Inadequate audit trail | Validate DMS for Part 11 compliance |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Document control system management for medical device QMS. Covers document numbering, version control, change management, and 21 CFR Part 11 compliance.
+
+Covers: Document Control Workflow, Document Lifecycle Stages, Document Types and Prefixes, Required Reviewers by Document Type, Document Numbering System.

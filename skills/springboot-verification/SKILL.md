@@ -237,4 +237,7 @@ Issues to Fix:
 **记住**：快速反馈胜过意外惊喜。保持关卡严格——将警告视为生产系统中的缺陷。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Spring Boot项目验证循环：构建、静态分析、测试覆盖、安全扫描，以及发布或PR前的差异审查。.
+
+Covers: 阶段 1：构建, 阶段 2：静态分析, 阶段 3：测试 + 覆盖率, 使用 Testcontainers 进行集成测试, 使用 MockMvc 进行 API 测试.

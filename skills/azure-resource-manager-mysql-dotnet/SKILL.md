@@ -396,4 +396,7 @@ string connectionString = $"Server={server.Data.FullyQualifiedDomainName};" +
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/mysql/Azure.ResourceManager.MySql |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure MySQL Flexible Server SDK for .NET. Database management for MySQL Flexible Server deployments.
+
+Covers: Azure.ResourceManager.MySql (.NET), Environment Variables, Authentication, Resource Hierarchy, Core Workflows.

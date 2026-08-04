@@ -3,16 +3,11 @@ name: springboot-security
 description: Spring Security best practices for authn/authz, validation, CSRF, secrets,
   headers, rate limiting, and dependency security in Java Spring Boot services.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Spring Boot Security Review
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Use when adding auth, handling input, creating endpoints, or dealing with secrets.
 
@@ -280,4 +275,7 @@ public class RateLimitFilter extends OncePerRequestFilter {
 **Remember**: Deny by default, validate inputs, least privilege, and secure-by-configuration first.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services.
+
+Covers: Spring Boot Security Review, When to Activate, Authentication, Authorization, Input Validation.

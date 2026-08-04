@@ -119,4 +119,7 @@ The skill itself tells you which.
 Instructions say WHAT, not HOW. "Add X" or "Fix Y" doesn't mean skip workflows.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions.
+
+Covers: Instruction Priority, How to Access Skills, Platform Adaptation, Using Skills, The Rule.

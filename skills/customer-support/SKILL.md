@@ -6,16 +6,11 @@ description: Elite AI-powered customer support specialist mastering conversation
   best practices. Use PROACTIVELY for comprehensive customer...
 metadata:
   model: haiku
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on customer support tasks or workflows
 - Needing guidance, best practices, or checklists for customer support
@@ -176,4 +171,7 @@ Master customer support professional specializing in AI-driven support automatio
 - "Create customer satisfaction measurement and improvement framework"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences. Integrates modern support tools, chatbot platforms, and CX optimization with 2024/2025 best practices.
+
+Covers: Expert Purpose, Capabilities, AI-Powered Conversational Support, Automated Ticketing & Workflow Management, Knowledge Management & Self-Service.

@@ -167,4 +167,7 @@ describe('AuthService', () => {
 Test requirements: $ARGUMENTS
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generate failing tests for the TDD red phase to define expected behavior and edge cases.
+
+Covers: Safety, Role, Prompt Template, Core Requirements, Framework Patterns.

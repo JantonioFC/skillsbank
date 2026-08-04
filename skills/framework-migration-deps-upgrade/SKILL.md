@@ -52,4 +52,7 @@ Focus on safe, incremental upgrades that maintain system stability while keeping
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a dependency management expert specializing in safe, incremental upgrades of project dependencies.
+
+Covers: Dependency Upgrade Strategy, Context, Output Format.

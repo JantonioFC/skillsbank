@@ -116,4 +116,7 @@ After generation:
 4. Update CODEOWNERS with actual team handles
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generate comprehensive GitHub ecosystem configuration including CI/CD workflows, issue templates, PR templates, CODEOWNERS, dependabot, and Copilot instructions. Language-agnostic with Python, Go, and TypeScript support.
+
+Covers: GitHub Ecosystem Configuration Generator, Supported Languages, Components, GitHub Actions Workflows, Issue Templates.

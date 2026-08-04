@@ -112,4 +112,7 @@ import { createUser, type Config } from "./utils";
 typescript, ts, types, interfaces, generics, strict mode, utility types
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+TypeScript strict patterns and best practices. Trigger: When writing TypeScript code - types, interfaces, generics.
+
+Covers: Const Types Pattern (REQUIRED), Flat Interfaces (REQUIRED), Never Use any, Utility Types, Type Guards.

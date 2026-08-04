@@ -200,4 +200,7 @@ External resources:
 **Version**: 2.0.0
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "optimize context", "reduce token costs", "improve context efficiency", "implement KV-cache optimization", "partition context", or mentions context limits, observation masking, context budgeting, or extending effective context capacity.
+
+Covers: Context Optimization Techniques, When to Activate, Core Concepts, Detailed Topics, Compaction Strategies.

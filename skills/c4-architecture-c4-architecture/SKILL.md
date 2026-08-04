@@ -392,4 +392,7 @@ This will:
 All documentation written to: C4-Documentation/
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generate comprehensive C4 architecture documentation for an existing repository/codebase using a bottom-up analysis approach.
+
+Covers: C4 Architecture Documentation Workflow, Code-Level Documentation (Bottom-Up Analysis), 1 Discover All Subdirectories, 2 Process Each Directory (Bottom-Up), Component-Level Synthesis.

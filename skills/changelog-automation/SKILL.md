@@ -42,4 +42,5 @@ Patterns and tools for automating changelog generation, release notes, and versi
 - `resources/implementation-playbook.md` for detailed patterns, templates, and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions.

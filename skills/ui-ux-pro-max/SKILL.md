@@ -233,4 +233,7 @@ Before delivering UI code, verify these items:
 - [ ] `prefers-reduced-motion` respected
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 8 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code.
+
+Covers: How to Use This Skill, Analyze User Requirements, Search Relevant Domains, Stack Guidelines (Default: html-tailwind), Search Reference.

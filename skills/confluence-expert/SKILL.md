@@ -380,4 +380,7 @@ const example = "code here";
 - **Atlassian Templates** (`project-management/atlassian-templates/`) — Template patterns for Confluence content creation
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Atlassian Confluence expert for creating and managing spaces, knowledge bases, and documentation. Configures space permissions and hierarchies, creates page templates with macros, sets up documentation taxonomies, designs page layouts, and manages content governance.
+
+Covers: Atlassian Confluence Expert, Atlassian MCP Integration, Workflows, Space Creation, Page Architecture.

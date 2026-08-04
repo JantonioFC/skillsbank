@@ -115,6 +115,3 @@ const getUser = (id: string) => pipe(
 ```
 
 Use TaskEither when you need **typed errors** for async operations.
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

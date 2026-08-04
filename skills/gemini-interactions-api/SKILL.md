@@ -288,4 +288,7 @@ For detailed API documentation, fetch from the official docs:
 These pages cover function calling, built-in tools (Google Search, code execution, URL context, file search, computer use), remote MCP, structured output, thinking configuration, working with files, multimodal understanding and generation, streaming events, and more.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, streaming responses, background research tasks, function calling, structured output, or migrating from the old generateContent API.
+
+Covers: Gemini Interactions API Skill, Supported Models & Agents, SDKs, Interact with a Model, Stateful Conversation.

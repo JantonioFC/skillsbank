@@ -255,4 +255,7 @@ async def translate_documents():
 7. **Check supported formats** before submitting documents
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Document Translation SDK for batch translation of documents with format preservation. Use for translating Word, PDF, Excel, PowerPoint, and other document formats at scale.
+
+Covers: Azure AI Document Translation SDK for Python, Environment Variables, Storage for source and target documents, Authentication, API Key.

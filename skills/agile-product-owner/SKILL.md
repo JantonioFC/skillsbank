@@ -401,4 +401,7 @@ Story is complete when:
 - **Product Manager Toolkit** (`product-team/product-manager-toolkit/`) — RICE prioritization feeds backlog ordering
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Agile product ownership for backlog management and sprint execution. Covers user story writing, acceptance criteria, sprint planning, and velocity tracking.
+
+Covers: User Story Generation Workflow, User Story Template, Story Types, Persona Reference, Acceptance Criteria Patterns.

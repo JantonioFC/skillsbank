@@ -343,4 +343,7 @@ For detailed enumeration scripts, use:
 - **GTFOBins**: Unix binary exploitation reference
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "escalate privileges", "get root access", "become administrator", "privesc techniques", "abuse sudo", "exploit SUID binaries", "Kerberoasting", "pass-the-ticket", "token impersonation", or needs guidance on post-exploitation privilege escalation for.
+
+Covers: Core Techniques, Linux Privilege Escalation, Check sudo permissions, Exploit common binaries, Find writable cron scripts.

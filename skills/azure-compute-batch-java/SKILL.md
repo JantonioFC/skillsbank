@@ -383,4 +383,7 @@ try {
 | Samples | https://github.com/azure/azure-batch-samples |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes.
+
+Covers: Azure Batch SDK for Java, Environment Variables, Client Creation, With Microsoft Entra ID (Recommended), Async Client.

@@ -109,4 +109,7 @@ python3 marketing-skill/analytics-tracking/scripts/tracking_plan_generator.py
 - **Zero Dependencies** — All Python tools use stdlib only
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+42 marketing agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more coding agents. 7 pods: content, SEO, CRO, channels, growth, intelligence, sales. Foundation context + orchestration router. 27 Python tools (stdlib-only).
+
+Covers: Marketing Skills Division, Claude Code, Codex CLI, OpenClaw, Architecture.

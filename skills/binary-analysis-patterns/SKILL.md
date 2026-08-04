@@ -454,4 +454,7 @@ def auto_rename():
 - **Position-independent code**: RIP-relative addressing
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master binary analysis patterns including disassembly, decompilation, control flow analysis, and code pattern recognition. Use when analyzing executables, understanding compiled code, or performing static analysis on binaries.
+
+Covers: Disassembly Fundamentals, x86-64 Instruction Patterns, ARM Assembly Patterns, Control Flow Patterns, Conditional Branches.

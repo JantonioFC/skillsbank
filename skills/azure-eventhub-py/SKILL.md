@@ -246,4 +246,7 @@ with producer:
 | [scripts/setup_consumer.py](scripts/setup_consumer.py) | CLI for Event Hub info, consumer setup, and event sending/receiving |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Event Hubs SDK for Python streaming. Use for high-throughput event ingestion, producers, consumers, and checkpointing.
+
+Covers: Azure Event Hubs SDK for Python, For checkpointing with blob storage, Environment Variables, Authentication, Producer.

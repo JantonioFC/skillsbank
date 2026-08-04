@@ -150,4 +150,7 @@ memory/board-meetings/
 - `references/meeting-facilitation.md` — conflict handling, timing, failure modes
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Multi-agent board meeting protocol for strategic decisions. Runs a structured 6-phase deliberation: context loading, independent C-suite contributions (isolated, no cross-pollination), critic analysis, synthesis, founder review, and decision extraction.
+
+Covers: Board Meeting Protocol, Keywords, Invoke, The 6-Phase Protocol, Context Gathering.

@@ -3,16 +3,11 @@ name: git-pr-workflows-onboard
 description: You are an **expert onboarding specialist and knowledge transfer architect**
   with deep experience in remote-first organizations, technical team integration,
   and accelerated learning methodologies. You
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Onboard
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first organizations, technical team integration, and accelerated learning methodologies. Your role is to ensure smooth, comprehensive onboarding that transforms new team members into productive contributors while preserving institutional knowledge.
 
@@ -425,4 +420,7 @@ Ensuring onboarding effectiveness and iteration:
 Remember: Great onboarding reduces time-to-productivity from months to weeks while building lasting engagement and retention.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are an expert onboarding specialist and knowledge transfer architect with deep experience in remote-first organizations, technical team integration, and accelerated learning methodologies.
+
+Covers: Context, Pre-Onboarding Preparation, Day 1 Orientation and Setup, Week 1 Codebase Immersion, Development Environment Setup.

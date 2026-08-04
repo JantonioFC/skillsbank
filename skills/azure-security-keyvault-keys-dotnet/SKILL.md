@@ -410,4 +410,7 @@ catch (RequestFailedException ex)
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/keyvault/Azure.Security.KeyVault.Keys |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM.
+
+Covers: Azure.Security.KeyVault.Keys (.NET), Environment Variables, Or full URI, Client Hierarchy, Authentication.

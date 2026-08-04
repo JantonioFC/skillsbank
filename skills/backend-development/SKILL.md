@@ -6,15 +6,10 @@ description: Build robust backend systems with modern technologies (Node.js, Pyt
   security best practices (OWASP Top 10), performance opt...
 license: MIT
 version: 1.0.0
-risk: offensive
+risk: safe
 source: community
 ---
 # Backend Development Skill
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Production-ready backend development with modern technologies, best practices, and proven patterns.
 

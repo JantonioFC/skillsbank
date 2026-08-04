@@ -515,4 +515,7 @@ gcloud beta compute ssh instance-name --zone us-central1-a --project target-proj
 - [Advanced Cloud Scripts](references/advanced-cloud-scripts.md) - Azure Automation runbooks, Function Apps enumeration, AWS data exfiltration, GCP advanced exploitation
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "perform cloud penetration testing", "assess Azure or AWS or GCP security", "enumerate cloud resources", "exploit cloud misconfigurations", "test O365 security", "extract secrets from cloud environments", or "audit cloud infrastructure".
+
+Covers: Required Tools, Azure tools, AWS CLI, GCP CLI, Additional tools.

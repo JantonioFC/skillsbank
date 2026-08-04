@@ -19,15 +19,10 @@ description: 'Reverse-engineer any codebase into a complete Product Requirements
 license: MIT
 metadata:
   updated: 2026-03-17
-risk: offensive
+risk: safe
 source: community
 ---
 ## Name
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Code → PRD
 
@@ -512,4 +507,7 @@ Both scripts are **stdlib-only** — no pip install needed.
 This skill was inspired by [code-to-prd](https://github.com/lihanglogan/code-to-prd) by [@lihanglogan](https://github.com/lihanglogan), who proposed the original concept and methodology in [PR #368](https://github.com/alirezarezvani/claude-skills/pull/368). The core three-phase workflow (global scan → page-by-page analysis → structured document generation) originated from that work. This version was rebuilt from scratch in English with added tooling (analysis scripts, scaffolder, framework reference, quality checklist).
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Reverse-engineer any codebase into a complete Product Requirements Document (PRD).
+
+Covers: Name, Description, Features, Analyze a project and generate PRD skeleton, Or use the slash command.

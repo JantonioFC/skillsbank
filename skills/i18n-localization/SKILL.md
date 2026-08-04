@@ -157,4 +157,7 @@ Before shipping:
 | `scripts/i18n_checker.py` | Detect hardcoded strings & missing translations | `python scripts/i18n_checker.py <project_path>` |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support.
+
+Covers: Core Concepts, Implementation Patterns, React (react-i18next), Next.js (next-intl), Python (gettext).

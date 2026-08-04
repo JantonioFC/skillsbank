@@ -2,15 +2,12 @@
 name: api-security-best-practices
 description: Implement secure API design patterns including authentication, authorization,
   input validation, rate limiting, and protection against common API vulnerabilities
-risk: offensive
+risk: safe
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
 > [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
 
 # API Security Best Practices
 ## Overview
@@ -74,7 +71,6 @@ Verify security implementation:
 - Check for common vulnerabilities (OWASP API Top 10)
 - Validate input handling
 - Test rate limiting
-
 
 ## Examples
 
@@ -329,7 +325,6 @@ app.post('/api/auth/refresh', async (req, res) => {
 - ✅ Implement token blacklisting for logout
 ```
 
-
 ### Example 2: Input Validation and SQL Injection Prevention
 
 ```markdown
@@ -528,7 +523,6 @@ app.post('/api/comments', authenticateToken, async (req, res) => {
 - [ ] Validate file uploads (type, size, content)
 - [ ] Use allowlists, not blocklists
 ```
-
 
 ### Example 3: Rate Limiting and DDoS Protection
 

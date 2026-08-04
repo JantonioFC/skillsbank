@@ -1,16 +1,11 @@
 ---
 name: skill-tester
 description: Skill Tester
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Skill Tester
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ---
 
@@ -397,4 +392,7 @@ This meta-skill not only serves as a quality gate but also as a development tool
 The combination of structural validation, runtime testing, and multi-dimensional quality scoring provides unparalleled visibility into skill quality while maintaining the flexibility needed for diverse skill types and complexity levels. As the claude-skills repository continues to grow, the Skill Tester will remain the cornerstone of quality assurance and ecosystem integrity.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Skill Tester.
+
+Covers: Description, Core Features, Comprehensive Skill Validation, Advanced Script Testing, Multi-Dimensional Quality Scoring.

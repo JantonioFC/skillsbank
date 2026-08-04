@@ -348,4 +348,7 @@ python scripts/project_architect.py . --output json
 3. Use `--verbose` flag for detailed explanations and recommendations
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "design system architecture", "evaluate microservices vs monolith", "create architecture diagrams", "analyze dependencies", "choose a database", "plan for scalability", "make technical decisions", or "review system design".
+
+Covers: Generate architecture diagram from project, Analyze dependencies for issues, Get architecture assessment, Tools Overview, Architecture Diagram Generator.

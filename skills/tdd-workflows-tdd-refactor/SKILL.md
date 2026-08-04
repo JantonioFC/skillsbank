@@ -1,16 +1,11 @@
 ---
 name: tdd-workflows-tdd-refactor
 description: Use when working with tdd workflows tdd refactor
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on tdd workflows tdd refactor tasks or workflows
 - Needing guidance, best practices, or checklists for tdd workflows tdd refactor
@@ -194,4 +189,7 @@ class OrderProcessor {
 Code to refactor: $ARGUMENTS"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when working with tdd workflows tdd refactor.
+
+Covers: Core Process, Output Requirements, Safety Checklist, Recovery Protocol, Example: Extract Method Pattern.

@@ -55,4 +55,7 @@ Focus on production-ready SQL migrations with zero-downtime deployment strategie
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+SQL database migrations with zero-downtime strategies for PostgreSQL, MySQL, SQL Server.
+
+Covers: SQL Database Migration Strategy and Implementation, Context, Output Format.

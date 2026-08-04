@@ -293,4 +293,7 @@ import {
 5. **Filter deployments** - Use `modelPublisher` filter to find specific models
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build AI applications using Azure AI Projects SDK for JavaScript (@azure/ai-projects). Use when working with Foundry project clients, agents, connections, deployments, datasets, indexes, evaluations, or getting OpenAI clients.
+
+Covers: Azure AI Projects SDK for TypeScript, Environment Variables, Authentication, Operation Groups, Getting OpenAI Client.

@@ -346,4 +346,7 @@ Because this skill works incrementally (one section per call), errors are natura
 - **Match existing conventions.** If the file already has screens, match their naming, sizing, and layout patterns.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma.
+
+Covers: Skill Boundaries, Parallel Workflow with generatefigmadesign (Web Apps Only), Required Workflow, Understand the Screen, Discover Design System — Components, Variables, and Styles.

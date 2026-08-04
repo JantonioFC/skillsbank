@@ -101,4 +101,7 @@ See `references/integration-playbook.md` for the 100-day integration plan.
 - `references/due-diligence-checklist.md` — comprehensive DD checklist by domain
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+M&A strategy for acquiring companies or being acquired. Due diligence, valuation, integration, and deal structure.
+
+Covers: Keywords, When You're Acquiring, Strategic Rationale (answer before anything else), Due Diligence Checklist, Valuation Approaches.

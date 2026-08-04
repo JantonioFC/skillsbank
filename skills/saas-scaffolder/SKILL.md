@@ -298,4 +298,7 @@ For additional guidance, generate the following companion reference files alongs
 - **`BEST_PRACTICES.md`** — Stripe singleton pattern, server actions for form mutations, idempotent webhook handlers, `Suspense` boundaries for async dashboard data, server-side feature gating via `stripeCurrentPeriodEnd`, and rate limiting on auth routes with Upstash Redis + `@upstash/ratelimit`.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generates complete, production-ready SaaS project boilerplate including authentication, database schemas, billing integration, API routes, and a working dashboard using Next.js 14+ App Router, TypeScript, Tailwind CSS, shadcn/ui, Drizzle ORM, and Stripe.
+
+Covers: Input Format, File Tree Output, Key Component Patterns, Auth Config (NextAuth), Database Schema (Drizzle + NeonDB).

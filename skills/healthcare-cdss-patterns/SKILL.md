@@ -5,16 +5,11 @@ description: Clinical Decision Support System (CDSS) development patterns. Drug 
   and integration into EMR workflows.
 origin: Health1 Super Speciality Hospitals — contributed by Dr. Keyur Patel
 version: 1.0.0
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Healthcare CDSS Development Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Patterns for building Clinical Decision Support Systems that integrate into EMR workflows. CDSS modules are patient safety critical — zero tolerance for false negatives.
 

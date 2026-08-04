@@ -18,15 +18,10 @@ agents:
 - claude-code
 - codex-cli
 - openclaw
-risk: offensive
+risk: safe
 source: community
 ---
 # Engineering Advanced Skills (POWERFUL Tier)
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 25 advanced engineering skills for complex architecture, automation, and platform operations.
 
@@ -78,4 +73,7 @@ npx agent-skills-cli add alirezarezvani/claude-skills/engineering
 - These are advanced skills — combine with engineering-team/ core skills as needed
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+25 advanced engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Agent design, RAG, MCP servers, CI/CD, database design, observability, security auditing, release management, platform ops.
+
+Covers: Engineering Advanced Skills (POWERFUL Tier), Claude Code, Codex CLI, Skills Overview.

@@ -267,4 +267,7 @@ const Card = ({ padding = '$4', variant = 'elevated', children }: CardProps) => 
 - **storybook**: Document component variants
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.
+
+Covers: Design System Overview, Design Tokens, Spacing Tokens, Color Tokens, Typography Tokens.

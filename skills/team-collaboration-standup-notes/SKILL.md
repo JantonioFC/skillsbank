@@ -48,4 +48,7 @@ Modern remote-first teams rely on async standup notes to maintain visibility, co
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and effective remote team coordination patterns.
+
+Covers: Standup Notes Generator, Context.

@@ -4,16 +4,11 @@ description: Write JavaScript code in n8n Code nodes. Use when writing JavaScrip
   in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working
   with dates using DateTime, troubleshooting Code node errors, or choosing between
   Code node modes.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # JavaScript Code Node
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Expert guidance for writing JavaScript code in n8n Code nodes.
 

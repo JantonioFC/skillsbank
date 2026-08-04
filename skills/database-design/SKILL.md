@@ -55,4 +55,7 @@ Before designing schema:
 ❌ Ignore N+1 queries
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.
+
+Covers: 🎯 Selective Reading Rule, ⚠️ Core Principle, Decision Checklist, Anti-Patterns.

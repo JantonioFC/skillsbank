@@ -4,16 +4,11 @@ description: Comprehensive Perl security covering taint mode, input validation, 
   process execution, DBI parameterized queries, web security (XSS/SQLi/CSRF), and
   perlcritic security policies.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Perl Security Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Comprehensive security guidelines for Perl applications covering input validation, injection prevention, and secure coding practices.
 
@@ -512,4 +507,7 @@ print $cgi->redirect($user_url);         # Open redirect
 **Remember**: Perl's flexibility is powerful but requires discipline. Use taint mode for web-facing code, validate all input with allowlists, use DBI placeholders for every query, and encode all output for its context. Defense in depth — never rely on a single layer.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Comprehensive Perl security covering taint mode, input validation, safe process execution, DBI parameterized queries, web security (XSS/SQLi/CSRF), and perlcritic security policies.
+
+Covers: Perl Security Patterns, When to Activate, Taint Mode, Enabling Taint Mode, Tainted: anything from outside the program.

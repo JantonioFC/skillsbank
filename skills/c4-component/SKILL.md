@@ -154,4 +154,7 @@ When synthesizing components, provide:
 - Consistent documentation format across all components
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert C4 Component-level documentation specialist. Synthesizes C4 Code-level documentation into Component-level architecture, defining component boundaries, interfaces, and relationships.
+
+Covers: Software Features, Code Elements, Interfaces, Dependencies, Components Used.

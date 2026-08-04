@@ -306,4 +306,7 @@ WEB_PUBSUB_ACCESS_KEY=<your-access-key>
 - "live updates broadcasting"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.
+
+Covers: Azure Web PubSub SDK for Java, Client Creation, With Connection String, With Access Key, With DefaultAzureCredential.

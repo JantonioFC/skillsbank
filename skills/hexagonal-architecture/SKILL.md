@@ -4,16 +4,11 @@ description: Design, implement, and refactor Ports & Adapters systems with clear
   boundaries, dependency inversion, and testable use-case orchestration across TypeScript,
   Java, Kotlin, and Go services.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Hexagonal Architecture
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Hexagonal architecture (Ports and Adapters) keeps business logic independent from frameworks, transport, and persistence details. The core app depends on abstract ports, and adapters implement those ports at the edges.
 

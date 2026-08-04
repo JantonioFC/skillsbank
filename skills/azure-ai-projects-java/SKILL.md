@@ -158,4 +158,7 @@ try {
 | Samples | https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/ai/azure-ai-projects/src/samples |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations.
+
+Covers: Azure AI Projects SDK for Java, Environment Variables, Authentication, Client Hierarchy, Core Operations.

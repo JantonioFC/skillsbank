@@ -4,16 +4,11 @@ description: X/Twitter API integration for posting tweets, threads, reading time
   search, and analytics. Covers OAuth auth patterns, rate limits, and platform-native
   content posting. Use when the user wants to interact with X programmatically.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # X API
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Programmatic interaction with X (Twitter) for posting, reading, searching, and analytics.
 
@@ -217,4 +212,7 @@ Use `content-engine` skill to generate platform-native content, then post via X 
 - `crosspost` — Distribute content across X, LinkedIn, and other platforms
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. Covers OAuth auth patterns, rate limits, and platform-native content posting.
+
+Covers: When to Activate, Authentication, OAuth 2.0 Bearer Token (App-Only), Environment setup, Search recent tweets.

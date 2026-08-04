@@ -340,4 +340,7 @@ Analyzes device against MDR requirements, identifies compliance gaps, generates 
 - [ ] **Validation:** Internal gap assessment complete
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, clinical evidence, and post-market surveillance. Covers Annex VIII classification rules, Annex II/III technical files, Annex XIV clinical evaluation, and EUDAMED integration.
+
+Covers: Device Classification Workflow, Classification Matrix, Software Classification (MDCG 2019-11), Classification Examples, Technical Documentation.

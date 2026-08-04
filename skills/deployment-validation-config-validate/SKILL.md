@@ -500,4 +500,7 @@ class ConfigDocGenerator:
 Focus on preventing configuration errors, ensuring consistency, and maintaining security best practices.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a configuration management expert specializing in validating, testing, and ensuring the correctness of application configurations.
+
+Covers: Configuration Validation, Context, Configuration Analysis, Schema Validation, Environment-Specific Validation.

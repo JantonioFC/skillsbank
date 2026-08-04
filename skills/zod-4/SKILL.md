@@ -218,4 +218,7 @@ function Form() {
 zod, validation, schema, typescript, forms, parsing
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Zod 4 schema validation patterns. Trigger: When using Zod for validation - breaking changes from v3.
+
+Covers: Breaking Changes from Zod 3, Basic Schemas, Object Schemas, Arrays and Records, Unions and Discriminated Unions.

@@ -292,4 +292,7 @@ Before completing any UI component:
 - **formik-patterns**: Apply form submission patterns
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.
+
+Covers: Core Principles, Loading State Patterns, The Golden Rule, Loading State Decision Tree, Skeleton vs Spinner.

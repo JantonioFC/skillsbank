@@ -323,4 +323,7 @@ import {
 6. **Graceful shutdown** - Call `shutdownAzureMonitor()` to flush telemetry
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Instrument applications with Azure Monitor and OpenTelemetry for JavaScript (@azure/monitor-opentelemetry). Use when adding distributed tracing, metrics, and logs to Node.js applications with Application Insights.
+
+Covers: Azure Monitor OpenTelemetry SDK for TypeScript, Distro (recommended - auto-instrumentation), Low-level exporters (custom OpenTelemetry setup), Custom logs ingestion, Environment Variables.

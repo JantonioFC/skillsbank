@@ -361,4 +361,7 @@ Run any script with `--help` for detailed usage.
 - [Pricing](https://ai.google.dev/pricing)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Process and generate multimedia content using Google Gemini API.
+
+Covers: AI Multimodal Processing Skill, Core Capabilities, Audio Processing, Image Understanding, Video Analysis.

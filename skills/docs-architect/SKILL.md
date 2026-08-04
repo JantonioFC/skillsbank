@@ -100,4 +100,7 @@ Generate documentation in Markdown format with:
 Remember: Your goal is to create documentation that serves as the definitive technical reference for the system, suitable for onboarding new team members, architectural reviews, and long-term maintenance.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks.
+
+Covers: Core Competencies, Documentation Process, Output Characteristics, Key Sections to Include, Output Format.

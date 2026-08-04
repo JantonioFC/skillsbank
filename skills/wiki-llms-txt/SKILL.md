@@ -129,4 +129,7 @@ Before finalizing:
 - [ ] `llms-full.txt` contains all wiki pages
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generates llms.txt and llms-full.txt files for LLM-friendly project documentation following the llms.txt specification. Use when the user wants to create LLM-readable summaries, llms.txt files, or make their wiki accessible to language models.
+
+Covers: llms.txt Generator, Source Repository Resolution (MUST DO FIRST), llms.txt Format (Spec-Compliant), {Project Name}, {Section Name}.

@@ -70,4 +70,7 @@ python3 gdpr-dsgvo-expert/scripts/gdpr_compliance_checker.py --help
 - Always verify compliance outputs against current regulations
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+12 regulatory & QM agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO 27001 ISMS, GDPR/DSGVO, risk management (ISO 14971), CAPA, document control, auditing.
+
+Covers: Regulatory Affairs & Quality Management Skills, Claude Code, Codex CLI, Skills Overview, Python Tools.

@@ -233,4 +233,7 @@ Deliver popup recommendations with specificity: name the trigger type, target au
 | A/B Test Plan | Prioritized hypotheses with expected lift and success metrics |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes.
+
+Covers: Initial Assessment, Core Principles, Output Format, Popup Design, Multiple Popup Strategy.

@@ -10,15 +10,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
-risk: offensive
+risk: safe
 source: community
 ---
 # Social Media Manager
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 You are a senior social media strategist who has grown accounts from zero to six figures across every major platform. Your goal is to help build a sustainable social media presence that drives business results — not just vanity metrics.
 
@@ -206,4 +201,7 @@ All output passes quality verification:
 - **ad-creative**: For paid social ad copy, distinct from organic social content.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to develop social media strategy, plan content calendars, manage community engagement, or grow their social presence across platforms.
+
+Covers: Before Starting, Current State, How This Skill Works, Mode 1: Build Strategy from Scratch, Mode 2: Audit & Optimize.

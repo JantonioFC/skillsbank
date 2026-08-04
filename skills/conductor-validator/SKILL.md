@@ -64,4 +64,7 @@ Example: feature_user_auth_20250115
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Validates Conductor project artifacts for completeness, consistency, and correctness. Use after setup, when diagnosing issues, or before implementation to verify project context.
+
+Covers: Check if conductor directory exists, Find all track directories, Check for required files, Pattern Matching.

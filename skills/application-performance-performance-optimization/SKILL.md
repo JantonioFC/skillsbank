@@ -158,4 +158,7 @@ Optimize application performance end-to-end using specialized performance and op
 Performance optimization target: $ARGUMENTS
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Optimize end-to-end application performance with profiling, observability, and backend/frontend tuning. Use when coordinating performance optimization across the stack.
+
+Covers: Safety, Performance Profiling & Baseline, Comprehensive Performance Profiling, Observability Stack Assessment, User Experience Analysis.

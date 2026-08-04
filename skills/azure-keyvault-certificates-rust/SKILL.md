@@ -183,4 +183,7 @@ Assign these Key Vault roles:
 | crates.io | https://crates.io/crates/azure_security_keyvault_certificates |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates.
+
+Covers: Azure Key Vault Certificates SDK for Rust, Environment Variables, Authentication, Core Operations, Get Certificate.

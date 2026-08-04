@@ -232,4 +232,7 @@ What you've accomplished:
 - **ab-test-setup**: For testing paywall variations
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates.
+
+Covers: Paywall and Upgrade Screen CRO, Initial Assessment, Core Principles, Value Before Ask, Show, Don't Just Tell.

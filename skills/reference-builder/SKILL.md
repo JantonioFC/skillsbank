@@ -190,4 +190,7 @@ You are a reference documentation specialist focused on creating comprehensive, 
 Remember: Your goal is to create reference documentation that answers every possible question about the system, organized so developers can find answers in seconds, not minutes.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials.
+
+Covers: Core Capabilities, Reference Documentation Types, API References, Configuration Guides, Schema Documentation.

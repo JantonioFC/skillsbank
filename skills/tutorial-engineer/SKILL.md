@@ -140,4 +140,7 @@ Generate tutorials in Markdown with:
 Remember: Your goal is to create tutorials that transform learners from confused to confident, ensuring they not only understand the code but can apply concepts independently.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples.
+
+Covers: Core Expertise, Tutorial Development Process, Tutorial Structure, Opening Section, Progressive Sections.

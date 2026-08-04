@@ -189,4 +189,7 @@ Motion rules:
 - Would the design still feel premium if all decorative shadows were removed?
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when the task asks for a visually strong landing page, website, app, prototype, demo, or game UI. This skill enforces restrained composition, image-led hierarchy, cohesive content structure, and tasteful motion while avoiding generic cards, weak branding, and UI clutter.
+
+Covers: Working Model, Beautiful Defaults, Landing Pages, Apps, Imagery.

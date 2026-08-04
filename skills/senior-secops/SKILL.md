@@ -432,4 +432,7 @@ app.use((req, res, next) => {
 | `references/compliance_requirements.md` | SOC 2, PCI-DSS, HIPAA, GDPR full control mappings |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Senior SecOps engineer skill for application security, vulnerability management, compliance verification, and secure development practices.
+
+Covers: Senior SecOps Engineer, Core Capabilities, Security Scanner, Scan project for security issues, Filter by severity.

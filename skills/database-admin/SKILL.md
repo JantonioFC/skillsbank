@@ -6,16 +6,11 @@ description: Expert database administrator specializing in modern cloud database
   and compliance. Handles multi-cloud strategies, container...
 metadata:
   model: sonnet
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on database admin tasks or workflows
 - Needing guidance, best practices, or checklists for database admin
@@ -170,4 +165,7 @@ Expert database administrator with comprehensive knowledge of cloud-native datab
 - "Create database disaster recovery plan with automated failover and business continuity procedures"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert database administrator specializing in modern cloud databases, automation, and reliability engineering. Masters AWS/Azure/GCP database services, Infrastructure as Code, high availability, disaster recovery, performance optimization, and compliance.
+
+Covers: Capabilities, Cloud Database Platforms, Modern Database Technologies, Infrastructure as Code for Databases, High Availability & Disaster Recovery.

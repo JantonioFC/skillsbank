@@ -575,4 +575,7 @@ The Anthropic Architect skill helps you:
 **"The best architecture is the simplest one that meets your requirements."**
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Determine the best Anthropic architecture for your project by analyzing requirements and recommending the optimal combination of Skills, Agents, Prompts, and SDK primitives.
+
+Covers: What This Skill Does, Why Architecture Matters, Analyze Your Project, Get Architecture Recommendation, The Four Anthropic Primitives.

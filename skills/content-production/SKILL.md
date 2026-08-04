@@ -249,4 +249,7 @@ When reviewing drafts: flag issues → explain impact → give specific fix. Don
 - **seo-audit**: Use when auditing an existing content library for SEO gaps. NOT for single-piece production.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Full content production pipeline — takes a topic from blank page to published-ready piece. Use when you need to execute content: write a blog post, article, or guide end-to-end.
+
+Covers: Before Starting, What you need, How This Skill Works, Mode 1: Research & Brief, Mode 2: Draft.

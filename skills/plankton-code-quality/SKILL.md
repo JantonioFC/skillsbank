@@ -245,4 +245,7 @@ export ECC_QUALITY_GATE_STRICT=true
 * 因关卡失败导致的合并阻塞
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+使用Plankton进行编写时代码质量强制执行——通过钩子在每次文件编辑时自动格式化、代码检查和Claude驱动的修复。.
+
+Covers: Clone Plankton into your project (or a shared location), Note: Plankton is by @alxfazio, Install core dependencies, Install Python linters, Start Claude Code — hooks activate automatically.

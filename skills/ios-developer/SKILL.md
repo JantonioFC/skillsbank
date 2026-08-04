@@ -5,16 +5,11 @@ description: Develop native iOS applications with Swift/SwiftUI. Masters iOS 18,
   for iOS-specific features, App Store optimization, or native iOS development.
 metadata:
   model: inherit
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on ios developer tasks or workflows
 - Needing guidance, best practices, or checklists for ios developer
@@ -225,4 +220,7 @@ Expert iOS developer specializing in Swift 6, SwiftUI, and native iOS applicatio
 Focus on Swift-first solutions with modern iOS patterns. Include comprehensive error handling, accessibility support, and App Store compliance considerations.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization.
+
+Covers: Capabilities, Core iOS Development, SwiftUI Mastery, UIKit Integration & Legacy Support, Architecture Patterns.

@@ -58,4 +58,7 @@ python3 financial-analyst/scripts/forecast_builder.py --help
 - Always validate financial outputs against source data
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Financial analyst agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Ratio analysis, DCF valuation, budget variance, rolling forecasts. 4 Python tools (stdlib-only).
+
+Covers: Finance Skills, Claude Code, Codex CLI, Skills Overview, Python Tools.

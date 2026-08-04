@@ -386,4 +386,7 @@ Provide these details for architecture design:
 | `references/best_practices.md` | Serverless design, cost optimization, security hardening, scalability |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Design AWS architectures for startups using serverless patterns and IaC templates. Use when asked to design serverless architecture, create CloudFormation templates, optimize AWS costs, set up CI/CD pipelines, or migrate to AWS.
+
+Covers: Gather Requirements, Design Architecture, Generate IaC Templates, Serverless stack (CloudFormation), Review Costs.

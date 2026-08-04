@@ -270,4 +270,7 @@ import {
 6. **Monitor query performance** - Use `includeTotalCount: true` sparingly in production
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build search applications using Azure AI Search SDK for JavaScript (@azure/search-documents). Use when creating/managing indexes, implementing vector/hybrid search, semantic ranking, or building agentic retrieval with knowledge bases.
+
+Covers: Azure AI Search SDK for TypeScript, Environment Variables, Authentication, Create Index with Vector Field, Index Documents.

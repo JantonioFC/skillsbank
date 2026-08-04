@@ -470,4 +470,7 @@ contract FlashLoanReceiver is IFlashLoanReceiver {
 - **Timelocks**: Delay execution of governance decisions
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems. Use when building decentralized finance applications or smart contract protocols.
+
+Covers: Staking Contract, AMM (Automated Market Maker), Governance Token, Flash Loan, Common DeFi Patterns.

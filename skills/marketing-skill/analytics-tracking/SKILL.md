@@ -375,4 +375,7 @@ All output follows the structured communication standard:
 - **gdpr-dsgvo-expert**: Use for GDPR compliance posture. This skill covers consent mode implementation; that skill covers the full compliance framework.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Set up, audit, and debug analytics tracking implementation — GA4, Google Tag Manager, event taxonomy, conversion tracking, and data quality. Use when building a tracking plan from scratch, auditing existing analytics for gaps or errors, debugging missing events, or setting up GTM.
+
+Covers: Before Starting, Current State, Business Context, How This Skill Works, Mode 1: Set Up From Scratch.

@@ -169,4 +169,7 @@ For testing localhost or staging behind firewall:
 - Any browser-specific failures highlighted
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Run tests on BrowserStack. Use when user mentions "browserstack", "cross-browser", "cloud testing", "browser matrix", "test on safari", "test on firefox", or "browser compatibility".
+
+Covers: BrowserStack Integration, Capabilities, Configure for BrowserStack, Run Tests on BrowserStack, Get Build Results.

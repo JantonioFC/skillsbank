@@ -3,16 +3,11 @@ name: istio-traffic-management
 description: Configure Istio traffic management including routing, load balancing,
   circuit breakers, and canary deployments. Use when implementing service mesh traffic
   policies, progressive delivery, or resilience patterns.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Istio Traffic Management
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Comprehensive guide to Istio traffic management for production service mesh deployments.
 
@@ -346,4 +341,7 @@ istioctl proxy-config log deploy/my-app --level debug
 - [Destination Rule Reference](https://istio.io/latest/docs/reference/config/networking/destination-rule/)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Configure Istio traffic management including routing, load balancing, circuit breakers, and canary deployments. Use when implementing service mesh traffic policies, progressive delivery, or resilience patterns.
+
+Covers: Core Concepts, Traffic Management Resources, Traffic Flow, Templates, Template 1: Basic Routing.

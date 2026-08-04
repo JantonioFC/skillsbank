@@ -59,4 +59,7 @@ Invoke **azure-prepare** (skip its Step 0 routing — scaffolding is done) → *
 - Docker required (`docker info`)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build and deploy GitHub Copilot SDK apps to Azure.
+
+Covers: GitHub Copilot SDK on Azure, Route, Step 2A: Scaffold New (Greenfield), Step 2B: Add SDK Service to Existing Repo, Step 2C: Deploy Existing SDK App.

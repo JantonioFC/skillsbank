@@ -159,4 +159,7 @@ Every month you wait, the problem compounds. The co-founder who's not working ou
 Make the call. Make it clearly. Make it with dignity.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+/em -hard-call — Framework for Decisions With No Good Options.
+
+Covers: /em:hard-call — Framework for Decisions With No Good Options, Why These Decisions Are Hard, The Framework, The Reversibility Test, The Andy Grove Test.

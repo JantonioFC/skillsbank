@@ -236,4 +236,7 @@ Identifies which features customers value most:
 - **sales-enablement**: For proposal templates and pricing presentations
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants help with pricing decisions, packaging, or monetization strategy.
+
+Covers: Before Starting, Business Context, Value & Competition, Current Performance, Pricing Fundamentals.

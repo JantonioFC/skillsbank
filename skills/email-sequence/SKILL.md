@@ -315,4 +315,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key email
 - **revops**: For lifecycle stages that trigger email sequences
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program.
+
+Covers: Email Sequence Design, Initial Assessment, Core Principles, One Email, One Job, Value Before Ask.

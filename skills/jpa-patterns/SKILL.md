@@ -154,4 +154,7 @@ spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 **Remember**: Keep entities lean, queries intentional, and transactions short. Prevent N+1 with fetch strategies and projections, and index for your read/write paths.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditing, indexing, pagination, and pooling in Spring Boot.
+
+Covers: When to Activate, Entity Design, Relationships and N+1 Prevention, Repository Patterns, Transactions.

@@ -339,4 +339,7 @@ Day 7: Migration drops old status column
 | Dropping column before removing code | Application errors on missing column | Remove code first, drop column next deploy |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Database migration best practices for schema changes, data migrations, rollbacks, and zero-downtime deployments across PostgreSQL, MySQL, and common ORMs (Prisma, Drizzle, Django, TypeORM, golang-migrate).
+
+Covers: Database Migration Patterns, When to Activate, Core Principles, Migration Safety Checklist, PostgreSQL Patterns.

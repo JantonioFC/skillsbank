@@ -409,4 +409,7 @@ This skill includes helpful templates and documentation:
 - But DO keep the exact UI structure and Anthropic branding from the template
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems.
+
+Covers: ALGORITHMIC PHILOSOPHY CREATION, THE CRITICAL UNDERSTANDING, HOW TO GENERATE AN ALGORITHMIC PHILOSOPHY, PHILOSOPHY EXAMPLES, ESSENTIAL PRINCIPLES.

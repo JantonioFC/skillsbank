@@ -293,4 +293,7 @@ All output follows the structured communication standard:
 - **seo-audit**: For identifying technical issues. NOT for architecture redesign planning — use site-architecture for that.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to audit, redesign, or plan their website's structure, URL hierarchy, navigation design, or internal linking strategy.
+
+Covers: Site Architecture & Internal Linking, Before Starting, Current State, Constraints, How This Skill Works.

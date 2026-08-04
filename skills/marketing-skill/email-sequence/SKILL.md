@@ -139,4 +139,7 @@ Deliver email sequences as complete, ready-to-send drafts — include subject li
 | Subject Line Variations | 3 subject line alternatives per email for A/B testing |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program.
+
+Covers: Email Sequence Design, Initial Assessment, Core Principles, Output Format, Sequence Overview.

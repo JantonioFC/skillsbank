@@ -4,16 +4,11 @@ description: Automatic agent selection and intelligent task routing. Analyzes us
   requests and automatically selects the best specialist agent(s) without requiring
   explicit user mentions.
 version: 1.0.0
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Intelligent Agent Routing
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 **Purpose**: Automatically analyze user requests and route them to the most appropriate specialist agent(s) without requiring explicit user mentions.
 
@@ -344,4 +339,7 @@ Show selection reasoning:
 **Next Steps**: Integrate this skill into GEMINI.md TIER 0 rules.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Automatic agent selection and intelligent task routing. Analyzes user requests and automatically selects the best specialist agent(s) without requiring explicit user mentions.
+
+Covers: Intelligent Agent Routing, Core Principle, Request Analysis, Agent Selection Matrix, Automatic Routing Protocol.

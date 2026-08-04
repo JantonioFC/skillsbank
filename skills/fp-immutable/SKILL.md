@@ -483,4 +483,7 @@ const MyComponent = () => {
 | Prevent mutation | `readonly` types or `Object.freeze()` |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Practical immutability patterns in TypeScript - spread operators, nested updates, readonly types, and when mutation is actually fine.
+
+Covers: Practical Immutability in TypeScript, Why Immutability Helps, Spread Patterns, Arrays, Objects.

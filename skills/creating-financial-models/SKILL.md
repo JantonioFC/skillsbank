@@ -177,4 +177,7 @@ The model automatically performs:
 - Continuous improvement based on usage patterns
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill provides an advanced financial modeling suite with DCF analysis, sensitivity testing, Monte Carlo simulations, and scenario planning for investment decisions.
+
+Covers: Financial Modeling Suite, Core Capabilities, Discounted Cash Flow (DCF) Analysis, Sensitivity Analysis, Monte Carlo Simulation.

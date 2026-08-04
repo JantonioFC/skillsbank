@@ -204,4 +204,7 @@ ingester.save_dead_letter_queue('s3://lake/dlq/orders')
 - End-to-end data lineage tracked
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a data pipeline architecture expert specializing in scalable, reliable, and cost-effective data pipelines for batch and streaming data processing.
+
+Covers: Data Pipeline Architecture, Core Capabilities, Architecture Design, Ingestion Implementation, Orchestration.

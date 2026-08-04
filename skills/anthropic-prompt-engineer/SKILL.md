@@ -139,4 +139,7 @@ Apply Anthropic's proven techniques for best results.
 **Remember:** Good prompts are engineered, not guessed.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master Anthropic's prompt engineering techniques to generate new prompts or improve existing ones using best practices for Claude AI models.
+
+Covers: What This Skill Does, Why Prompt Engineering Matters, Generate a New Prompt, Improve an Existing Prompt, Core Techniques Summary.

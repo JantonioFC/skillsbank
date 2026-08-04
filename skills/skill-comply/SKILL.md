@@ -62,4 +62,7 @@ Reports are self-contained and include:
 For users familiar with hooks, reports also include hook promotion recommendations for steps with low compliance. This is informational — the main value is the compliance visibility itself.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Visualize whether skills, rules, and agent definitions are actually followed — auto-generates scenarios at 3 prompt strictness levels, runs agents, classifies behavioral sequences, and reports compliance rates with full tool call timelines.
+
+Covers: skill-comply: Automated Compliance Measurement, Supported Targets, When to Activate, Full run, Dry run (no cost, spec + scenarios only).

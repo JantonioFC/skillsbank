@@ -228,4 +228,7 @@ The deploy needs escalated network access to deploy to Cloudflare. I can rerun t
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.
+
+Covers: Authentication (Required Before Deploy), Quick Decision Trees, "I need to run code", "I need to store data", "I need security".

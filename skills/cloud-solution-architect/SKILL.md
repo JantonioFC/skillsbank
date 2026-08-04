@@ -4,16 +4,11 @@ description: Transform the agent into a Cloud Solution Architect following Azure
   Center best practices. Use when designing cloud architectures, reviewing system
   designs, selecting architecture styles, applying cloud design patterns, making technology
   choices, or conducting Well-Architected Framew...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Cloud Solution Architect
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 
@@ -324,4 +319,7 @@ Use Architecture Decision Records (ADRs):
 Content derived from the [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/) — Microsoft's official guidance for cloud solution architecture on Azure. Covers design principles, architecture styles, cloud design patterns, technology choices, best practices, performance antipatterns, mission-critical design, and the Well-Architected Framework.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Transform the agent into a Cloud Solution Architect following Azure Architecture Center best practices.
+
+Covers: Ten Design Principles for Azure Applications, Architecture Styles, Selection Criteria, Cloud Design Patterns, Messaging & Communication.

@@ -293,4 +293,7 @@ The script returns JSON with error details:
 - Include notes for key calculations and model sections
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization.
+
+Covers: Requirements for Outputs, All Excel files, Zero Formula Errors, Preserve Existing Templates (when updating templates), Financial models.

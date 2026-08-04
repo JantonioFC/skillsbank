@@ -1,7 +1,6 @@
 ---
 name: systematic-debugging
-description: Four-phase debugging framework that ensures root cause investigation
-  before attempting fixes. Never jump to solutions.
+description: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
 when_to_use: when encountering any bug, test failure, or unexpected behavior, before
   proposing fixes
 version: 2.1.0
@@ -10,11 +9,10 @@ risk: safe
 source: community
 license: MIT
 ---
+
 # Systematic Debugging
 
 ## Overview
-
-Random fixes waste time and create new bugs. Quick patches mask underlying issues.
 
 **Core principle:** ALWAYS find root cause before attempting fixes. Symptom fixes are failure.
 
@@ -118,7 +116,7 @@ You MUST complete each phase before proceeding to the next.
 
    **WHEN error is deep in call stack:**
 
-   See skills/root-cause-tracing for backward tracing technique
+   See `root-cause-tracing.md` in this directory for the complete backward tracing technique.
 
    **Quick version:**
    - Where does bad value originate?
@@ -183,7 +181,7 @@ You MUST complete each phase before proceeding to the next.
    - Automated test if possible
    - One-off test script if no framework
    - MUST have before fixing
-   - See skills/testing/test-driven-development for writing proper failing tests
+   - Use the `superpowers:test-driven-development` skill for writing proper failing tests
 
 2. **Implement Single Fix**
    - Address the root cause identified
@@ -195,6 +193,7 @@ You MUST complete each phase before proceeding to the next.
    - Test passes now?
    - No other tests broken?
    - Issue actually resolved?
+   - Use the `superpowers:verification-before-completion` skill before claiming success
 
 4. **If Fix Doesn't Work**
    - STOP
@@ -244,7 +243,7 @@ If you catch yourself thinking:
 - "Is that not happening?" - You assumed without verifying
 - "Will it show us...?" - You should have added evidence gathering
 - "Stop guessing" - You're proposing fixes without understanding
-- "Ultrathink this" - Question fundamentals, not just symptoms
+- "Ultra-think this" - Question fundamentals, not just symptoms
 - "We're stuck?" (frustrated) - Your approach isn't working
 
 **When you see these:** STOP. Return to Phase 1.
@@ -282,23 +281,10 @@ If systematic investigation reveals issue is truly environmental, timing-depende
 
 **But:** 95% of "no root cause" cases are incomplete investigation.
 
-## Integration with Other Skills
+## Supporting Techniques
 
-This skill works with:
-- skills/root-cause-tracing - How to trace back through call stack
-- skills/defense-in-depth - Add validation after finding root cause
-- skills/testing/condition-based-waiting - Replace timeouts identified in Phase 2
-- skills/verification-before-completion - Verify fix worked before claiming success
+These techniques are part of systematic debugging and available in this directory:
 
-## Real-World Impact
-
-From debugging sessions:
-- Systematic approach: 15-30 minutes to fix
-- Random fixes approach: 2-3 hours of thrashing
-- First-time fix rate: 95% vs 40%
-- New bugs introduced: Near zero vs common
-
-## Limitations
-- Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
-- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
+- **`root-cause-tracing.md`** - Trace bugs backward through call stack to find original trigger
+- **`defense-in-depth.md`** - Add validation at multiple layers after finding root cause
+- **`condition-based-waiting.md`** - Replace arbitrary timeouts with condition polling

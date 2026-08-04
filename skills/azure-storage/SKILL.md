@@ -104,4 +104,7 @@ For full package listing across all languages, see [SDK Usage Guide](references/
 For building applications that interact with Azure Storage programmatically, Azure provides SDK packages in multiple languages (.NET, Java, JavaScript, Python, Go, Rust). See [SDK Usage Guide](references/sdk-usage.md) for package names, installation commands, and quick start examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities.
+
+Covers: Azure Storage Services, Services, MCP Server (Preferred), CLI Fallback, List storage accounts.

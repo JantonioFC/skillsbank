@@ -441,4 +441,7 @@ module.exports = {
 - Migrating too much data at once
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databases, changing schemas, performing data transformations, or implementing zero-downtime deployment strategies.
+
+Covers: ORM Migrations, Sequelize Migrations, TypeORM Migrations, Prisma Migrations, Schema Transformations.

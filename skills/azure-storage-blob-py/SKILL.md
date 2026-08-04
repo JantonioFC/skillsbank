@@ -225,4 +225,7 @@ async def download_async():
 7. **Set appropriate content types** for web-served blobs
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifecycle.
+
+Covers: Azure Blob Storage SDK for Python, Environment Variables, Or use full URL, Authentication, Client Hierarchy.

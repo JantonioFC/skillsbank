@@ -6,16 +6,11 @@ description: Build production-ready Web3 applications, smart contracts, and dece
   blockchain infrastructure.
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on blockchain developer tasks or workflows
 - Needing guidance, best practices, or checklists for blockchain developer
@@ -215,4 +210,7 @@ Expert blockchain developer specializing in smart contract development, DeFi pro
 - "Implement a blockchain voting system with zero-knowledge privacy preservation"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations.
+
+Covers: Capabilities, Smart Contract Development & Security, Ethereum Ecosystem & Layer 2 Solutions, Alternative Blockchain Ecosystems, DeFi Protocol Development.

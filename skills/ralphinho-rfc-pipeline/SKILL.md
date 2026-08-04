@@ -70,4 +70,7 @@ If a unit stalls:
 - integration risk summary
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+RFC-driven multi-agent DAG execution pattern with quality gates, merge queues, and work unit orchestration.
+
+Covers: Pipeline Stages, Unit Spec Template, Complexity Tiers, Quality Pipeline per Unit, Merge Queue Rules.

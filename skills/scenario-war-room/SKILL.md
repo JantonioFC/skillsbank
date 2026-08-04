@@ -228,4 +228,7 @@ RECOMMENDED DECISION
 - `scripts/scenario_modeler.py` — CLI tool for structured scenario modeling
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike single-assumption stress testing, this models compound adversity across all business functions simultaneously.
+
+Covers: Keywords, What This Is Not, Framework: 6-Step Cascade Model, Define Scenario Variables (max 3), Domain Impact Mapping.

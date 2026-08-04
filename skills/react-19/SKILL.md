@@ -126,4 +126,7 @@ const Input = forwardRef((props, ref) => <input ref={ref} {...props} />);
 react, react 19, compiler, useMemo, useCallback, server components, use hook
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+React 19 patterns with React Compiler. Trigger: When writing React components - no useMemo/useCallback needed.
+
+Covers: No Manual Memoization (REQUIRED), Imports (REQUIRED), Server Components First, use() Hook, Actions & useActionState.

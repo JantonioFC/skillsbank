@@ -208,4 +208,7 @@ Automatically surface form-cro when:
 | A/B Test Hypotheses | Table | Hypothesis × variant × success metric × priority for top 3-5 test ideas |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms.
+
+Covers: Initial Assessment, Core Principles, Output Format, Form Audit, Recommended Form Design.

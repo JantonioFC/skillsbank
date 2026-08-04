@@ -158,4 +158,7 @@ Within 24 hours:
 The next board prep starts now.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+/em -board-prep — Board Meeting Preparation.
+
+Covers: /em:board-prep — Board Meeting Preparation, The Reality of Board Meetings, The Preparation Framework, Numbers Cold, Anticipate the Hard Questions.

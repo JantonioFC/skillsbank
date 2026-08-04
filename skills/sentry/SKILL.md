@@ -126,4 +126,7 @@ Example prompt: “List the top 10 open issues for prod in the last 24h.”
 Expected: ordered list with titles, short IDs, counts, last seen.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry API; perform read-only queries with the bundled script and require SENTRYAUTHTOKEN.
+
+Covers: Sentry (Read-only Observability), Core tasks (use bundled script), Skill path (set once), List issues (ordered by most recent), Resolve an issue short ID to issue ID.

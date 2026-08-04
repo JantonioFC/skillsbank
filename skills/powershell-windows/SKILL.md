@@ -170,4 +170,7 @@ catch {
 > **Remember:** PowerShell has unique syntax rules. Parentheses, ASCII-only, and null checks are non-negotiable.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.
+
+Covers: PowerShell Windows Patterns, Operator Syntax Rules, CRITICAL: Parentheses Required, CRITICAL: No Unicode in Scripts, Null Check Patterns.

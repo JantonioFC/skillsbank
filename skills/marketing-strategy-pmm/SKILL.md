@@ -403,4 +403,7 @@ All output passes quality verification:
 - **cmo-advisor** (C-Suite): For marketing budget and growth model decisions.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Product marketing skill for positioning, GTM strategy, competitive intelligence, and product launches. Use when the user asks about product positioning, go-to-market planning, competitive analysis, target audience definition, ICP definition, market research, launch plans, or sales enablement.
+
+Covers: ICP Definition Workflow, Firmographics Template, Buyer Personas, ICP Validation Checklist, Positioning Development.

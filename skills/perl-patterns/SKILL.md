@@ -3,16 +3,11 @@ name: perl-patterns
 description: Modern Perl 5.36+ idioms, best practices, and conventions for building
   robust, maintainable Perl applications.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Modern Perl Development Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Idiomatic Perl 5.36+ patterns and best practices for building robust, maintainable applications.
 
@@ -512,4 +507,7 @@ require_module($module);
 **Remember**: Modern Perl is clean, readable, and safe. Let `use v5.36` handle the boilerplate, use Moo for objects, and prefer CPAN's battle-tested modules over hand-rolled solutions.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications.
+
+Covers: Modern Perl Development Patterns, When to Activate, Core Principles, Use v5.36 Pragma, Good: Modern preamble.

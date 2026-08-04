@@ -41,4 +41,7 @@ Manage the complete track lifecycle including archiving, restoring, deleting, re
 - `resources/implementation-playbook.md` for detailed modes, prompts, and workflows.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Manage track lifecycle: archive, restore, delete, rename, and cleanup.
+
+Covers: Track Manager, Safety.

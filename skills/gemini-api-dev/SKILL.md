@@ -171,4 +171,7 @@ This index contains links to all documentation pages in `.md.txt` format. Use we
 For real-time, bidirectional audio/video/text streaming with the Gemini Live API, install the **`google-gemini/gemini-live-api-dev`** skill. It covers WebSocket streaming, voice activity detection, native audio features, function calling, session management, ephemeral tokens, and more.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications.
+
+Covers: Gemini API Development Skill, Current Gemini Models, SDKs, Python, Java.

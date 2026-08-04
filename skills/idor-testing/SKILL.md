@@ -452,4 +452,7 @@ def download_receipt(request, receipt_id):
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "test for insecure direct object references," "find IDOR vulnerabilities," "exploit broken access control," "enumerate user IDs or object references," or "bypass authorization to access other users' data." It provides comprehensive guidance for dete.
+
+Covers: IDOR Vulnerability Testing, Understand IDOR Vulnerability Types, Original URL (authenticated as User A), Manipulation attempt (accessing User B's data), Original URL (User A's receipt).

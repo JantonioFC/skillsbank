@@ -290,4 +290,7 @@ All output follows the structured communication standard:
 - **content-creator**: Use for creating affiliate partner content or referral-related blog posts. NOT for program mechanics.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to design, launch, or optimize a referral or affiliate program.
+
+Covers: Before Starting, Product & Customer, Program Goals, Current State (if optimizing), How This Skill Works.

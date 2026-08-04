@@ -185,4 +185,7 @@ monitoring:
 Feature to develop with data-driven approach: $ARGUMENTS
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build features guided by data insights, A/B testing, and continuous measurement using specialized agents for analysis, implementation, and experimentation.
+
+Covers: Data-Driven Feature Development, Data Analysis and Hypothesis Formation, Exploratory Data Analysis, Business Hypothesis Development, Statistical Experiment Design.

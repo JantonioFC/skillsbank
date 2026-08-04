@@ -70,4 +70,7 @@ export type MyNode = Node<MyNodeData, 'my-node'>;
 6. Add to AddBlockMenu and ConnectMenu
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create React Flow node components with TypeScript types, handles, and Zustand integration. Use when building custom nodes for React Flow canvas, creating visual workflow editors, or implementing node-based UI components.
+
+Covers: Templates, Node Component Pattern, Type Definition Pattern, Integration Steps.

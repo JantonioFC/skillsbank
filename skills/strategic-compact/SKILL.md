@@ -142,4 +142,5 @@ license: MIT
 * `continuous-learning` 技能 — 在会话结束前提取模式
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+建议在逻辑间隔处手动压缩上下文，以在任务阶段中保留上下文，而非任意的自动压缩。.

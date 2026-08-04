@@ -90,4 +90,7 @@ Before delivering:
 - check formatting for the intended platform
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance.
+
+Covers: When to Activate, Core Rules, Voice Capture Workflow, Banned Patterns, Writing Process.

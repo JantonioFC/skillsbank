@@ -328,4 +328,7 @@ Track audit program effectiveness:
 | Auditor utilization | 4 days/month | Audit days per qualified auditor |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+ISO 13485 internal audit expertise for medical device QMS. Covers audit planning, execution, nonconformity classification, and CAPA verification.
+
+Covers: Audit Planning Workflow, Risk-Based Audit Frequency, Audit Scope by Clause, Auditor Independence, Audit Execution.

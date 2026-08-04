@@ -258,4 +258,7 @@ AppExceptions
 7. **Filter by dimensions** to narrow metric results
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics.
+
+Covers: Azure Monitor Query SDK for Python, Environment Variables, Log Analytics, Metrics, Authentication.

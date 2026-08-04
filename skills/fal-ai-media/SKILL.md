@@ -289,4 +289,7 @@ models()
 - `content-engine` — Content creation for social platforms
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/image-to-video (Seedance, Kling, Veo 3), text-to-speech (CSM-1B), and video-to-audio (ThinkSound).
+
+Covers: fal.ai Media Generation, When to Activate, MCP Requirement, MCP Tools, Image Generation.

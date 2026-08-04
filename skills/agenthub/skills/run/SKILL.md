@@ -113,4 +113,7 @@ If confirmed, run `/hub:merge`. If declined, inform the user they can:
 - **Template is optional** — without `--template`, agents use the default dispatch prompt from `/hub:spawn`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+One-shot lifecycle command that chains init → baseline → spawn → eval → merge in a single invocation.
+
+Covers: /hub:run — One-Shot Lifecycle, What It Does, Initialize, Capture Baseline, Spawn Agents.

@@ -289,4 +289,7 @@ The `azure-monitor-opentelemetry-autoconfigure` package provides:
 | Application Insights | https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights.
+
+Covers: Azure Monitor OpenTelemetry Exporter for Java, Installation (Deprecated), Recommended: Use Autoconfigure Instead, Environment Variables, Basic Setup with Autoconfigure (Recommended).

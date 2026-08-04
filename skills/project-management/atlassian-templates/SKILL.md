@@ -257,4 +257,7 @@ See **HANDOFFS.md** for the full handoff matrix. Summary:
 | **Atlassian Admin** | Org-wide standards, global deployment requirements, compliance templates | Global templates for approval, usage reports, compliance status |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Atlassian Template and Files Creator/Modifier expert for creating, modifying, and managing Jira and Confluence templates, blueprints, custom layouts, reusable components, and standardized content structures.
+
+Covers: Atlassian Template & Files Creator Expert, Workflows, Template Creation Process, Template Modification Process, Blueprint Development.

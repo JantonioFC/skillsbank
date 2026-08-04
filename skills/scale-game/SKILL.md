@@ -67,4 +67,7 @@ Test your approach at extreme scales to find what breaks and what surprisingly s
 - Use insights to validate architecture early
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Test at extremes (1000x bigger/smaller, instant/year-long) to expose fundamental truths hidden at normal scales.
+
+Covers: Example 1: Error Handling, Example 2: Synchronous APIs, Example 3: In-Memory State, Red Flags You Need This, Remember.

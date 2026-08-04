@@ -180,6 +180,3 @@ Use these modules when the request is for a specific artifact. They provide targ
 - **`references/social-ads.md`**: templates for short social ad beats.
 - **`references/troubleshooting.md`**: common errors and fixes.
 - **`references/codex-network.md`**: network/approval troubleshooting.
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

@@ -3,16 +3,11 @@ name: github-actions-templates
 description: Create production-ready GitHub Actions workflows for automated testing,
   building, and deploying applications. Use when setting up CI/CD with GitHub Actions,
   automating development workflows, or creating reusable workflow templates.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # GitHub Actions Templates
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications.
 
@@ -354,4 +349,7 @@ jobs:
 - `secrets-management` - For secrets handling
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create production-ready GitHub Actions workflows for automated testing, building, and deploying applications. Use when setting up CI/CD with GitHub Actions, automating development workflows, or creating reusable workflow templates.
+
+Covers: Common Workflow Patterns, Pattern 1: Test Workflow, Pattern 2: Build and Push Docker Image, Pattern 3: Deploy to Kubernetes, Pattern 4: Matrix Build.

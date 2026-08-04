@@ -4,16 +4,11 @@ description: 'Use when the user asks to fix, debug, or make a specific feature/m
   work end-to-end. Triggers: ''make X work'', ''fix the Y feature'', ''the Z module
   is broken'', ''focus on [area]''. Not for quick single-bug fixes — this is for systematic
   deep-dive repair across all files and dependencies.'
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Focused Fix — Deep-Dive Feature Repair
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## When to Use
 

@@ -5,16 +5,11 @@ description: Expert in secure backend coding practices specializing in input val
   or security code reviews.
 metadata:
   model: sonnet
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on backend security coder tasks or workflows
 - Needing guidance, best practices, or checklists for backend security coder

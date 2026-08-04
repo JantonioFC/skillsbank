@@ -170,4 +170,7 @@ As a BASIC tier skill, some advanced features are intentionally omitted:
 This skill demonstrates the essential structure and quality standards required for BASIC tier skills in the claude-skills ecosystem while remaining simple and focused on core functionality.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Sample Skill.
+
+Covers: Sample Text Processor, Description, Features, Core Functionality, Technical Features.

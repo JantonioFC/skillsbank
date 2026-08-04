@@ -5,16 +5,11 @@ description: 'Azure Bot Service Management SDK for Python. Use for creating, man
 
   Triggers: "azure-mgmt-botservice", "AzureBotService", "bot management", "conversational
   AI", "bot channels".'
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Azure Bot Service Management SDK for Python
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Manage Azure Bot Service resources including bots, channels, and connections.
 
@@ -329,4 +324,7 @@ for conn in connections:
 7. **Configure proper CORS** for Web Chat channel
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Bot Service Management SDK for Python. Use for creating, managing, and configuring Azure Bot Service resources.
+
+Covers: Azure Bot Service Management SDK for Python, Environment Variables, Authentication, Create a Bot, Get Bot Details.

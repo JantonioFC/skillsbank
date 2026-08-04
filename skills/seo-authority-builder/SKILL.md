@@ -138,4 +138,5 @@ Priority Actions:
 Focus on demonstrable expertise and clear trust signals. Suggest concrete improvements for authority building.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust. Identifies missing credibility elements.

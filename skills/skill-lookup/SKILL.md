@@ -78,4 +78,7 @@ When the user asks to install a skill:
 - Explain what the skill does and when it activates
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Search, retrieve, and install Agent Skills from the prompts.chat registry using MCP tools. Use when the user asks to find skills, browse skill catalogs, install a skill for Claude, or extend Claude''s capabilities with reusable AI agent components.
+
+Covers: Available Tools, How to Search for Skills, How to Get a Skill, How to Install a Skill.

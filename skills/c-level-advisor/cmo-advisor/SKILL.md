@@ -173,4 +173,7 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Marketing leadership for scaling companies. Brand positioning, growth model design, marketing budget allocation, and marketing org design.
+
+Covers: Keywords, The Four CMO Questions, Core Responsibilities (Brief), Key Diagnostic Questions, CMO Metrics Dashboard.

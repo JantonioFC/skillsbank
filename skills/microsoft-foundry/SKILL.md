@@ -161,4 +161,7 @@ Use `agent_get` MCP tool to determine an agent's type when needed.
 - [Python](references/sdk/foundry-sdk-py.md)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Deploy, evaluate, and manage Foundry agents end-to-end: Docker build, ACR push, hosted/prompt agent create, container start, batch eval, prompt optimization, prompt optimizer workflows, agent.yaml, dataset curation from traces.
+
+Covers: Microsoft Foundry Skill, Sub-Skills, Agent Development Lifecycle, Agent: .foundry Workspace Standard, Agent: Setup References.

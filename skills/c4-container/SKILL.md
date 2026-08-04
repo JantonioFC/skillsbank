@@ -172,4 +172,7 @@ When synthesizing containers, provide:
 - Consistent documentation format across all containers
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert C4 Container-level documentation specialist. Synthesizes Component-level documentation into Container-level architecture, mapping components to deployment units, documenting container interfaces as APIs, and creating container diagrams.
+
+Covers: C4 Container Level: System Deployment, Containers, Components, Interfaces, Dependencies.

@@ -360,4 +360,7 @@ secretClient.setSecret(new KeyVaultSecret("cert-password", "CertP@ss!")
 - "Azure secrets", "vault secrets"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Key Vault Secrets Java SDK for secret management. Use when storing, retrieving, or managing passwords, API keys, connection strings, or other sensitive configuration data.
+
+Covers: Azure Key Vault Secrets (Java), Client Creation, Get Secret, Update Secret Properties, List Secrets.

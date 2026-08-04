@@ -5,16 +5,11 @@ description: Master modern GraphQL with federation, performance optimization, an
   real-time systems. Use PROACTIVELY for GraphQL architecture or performance optimization.
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on graphql architect tasks or workflows
 - Needing guidance, best practices, or checklists for graphql architect
@@ -188,4 +183,7 @@ Expert GraphQL architect focused on building scalable, performant, and secure Gr
 - "Create a schema evolution strategy that supports multiple client versions"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems.
+
+Covers: Capabilities, Modern GraphQL Federation and Architecture, Advanced Schema Design and Modeling, Performance Optimization and Caching, Security and Authorization.

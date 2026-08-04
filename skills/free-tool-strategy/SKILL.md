@@ -184,4 +184,7 @@ Rate each factor 1-5:
 - **email-sequence**: For nurturing leads from the tool
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness.
+
+Covers: Free Tool Strategy (Engineering as Marketing), Initial Assessment, Core Principles, Solve a Real Problem, Adjacent to Core Product.

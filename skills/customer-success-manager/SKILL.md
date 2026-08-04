@@ -13,15 +13,10 @@ metadata:
   updated: 2026-02-06
   python-tools: health_score_calculator.py, churn_risk_analyzer.py, expansion_opportunity_scorer.py
   tech-stack: customer-success, saas-metrics, health-scoring
-risk: offensive
+risk: safe
 source: community
 ---
 # Customer Success Manager
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Production-grade customer success analytics with multi-dimensional health scoring, churn risk prediction, and expansion opportunity identification. Three Python CLI tools provide deterministic, repeatable analysis using standard library only -- no external dependencies, no API calls, no ML models.
 
@@ -224,4 +219,7 @@ python scripts/expansion_opportunity_scorer.py customer_data.json --format json
 **Dependencies:** Python 3.7+ standard library only
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Monitors customer health, predicts churn risk, and identifies expansion opportunities using weighted scoring models for SaaS customer success.
+
+Covers: Input Requirements, Health Score Calculator, Churn Risk Analyzer, Expansion Opportunity Scorer, Output Formats.

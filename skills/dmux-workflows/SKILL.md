@@ -149,4 +149,7 @@ git merge feat/billing
 - **tmux not found:** Install with `brew install tmux` (macOS) or `apt install tmux` (Linux).
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Multi-agent orchestration using dmux (tmux pane manager for AI agents). Patterns for parallel agent workflows across Claude Code, Codex, OpenCode, and other harnesses.
+
+Covers: When to Activate, What is dmux, Start dmux session, Create agent panes (press 'n' in dmux, then type prompt), Pane 2: "Write tests for the user service".

@@ -284,4 +284,7 @@ user = client.user.create_or_update(
 6. **Version your APIs** using APIM's versioning features
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure API Management SDK for Python. Use for managing APIM services, APIs, products, subscriptions, and policies.
+
+Covers: Azure API Management SDK for Python, Environment Variables, Authentication, Create APIM Service, Import API from OpenAPI.

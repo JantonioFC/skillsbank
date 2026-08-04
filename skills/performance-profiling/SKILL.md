@@ -146,4 +146,7 @@ license: MIT
 > **Remember:** The fastest code is code that doesn't run. Remove before optimizing.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Performance profiling principles. Measurement, analysis, and optimization techniques.
+
+Covers: 🔧 Runtime Scripts, Core Web Vitals, Targets, When to Measure, Profiling Workflow.

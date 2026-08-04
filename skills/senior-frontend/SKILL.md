@@ -478,4 +478,7 @@ function List<T>({ items, renderItem }: ListProps<T>) {
 - Best Practices: `references/frontend_best_practices.md`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.
+
+Covers: Project Scaffolding, Workflow: Create New Frontend Project, Scaffolder Options, Generated Structure (Next.js), Component Generation.

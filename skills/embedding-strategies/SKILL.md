@@ -495,4 +495,7 @@ def compute_embedding_similarity(
 - [MTEB Benchmark](https://huggingface.co/spaces/mteb/leaderboard)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Select and optimize embedding models for semantic search and RAG applications. Use when choosing embedding models, implementing chunking strategies, or optimizing embedding quality for specific domains.
+
+Covers: Core Concepts, Embedding Model Comparison, Embedding Pipeline, Templates, Template 1: OpenAI Embeddings.

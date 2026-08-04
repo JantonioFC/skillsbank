@@ -313,4 +313,7 @@ identify the 5 most engaging 30-second clips for social media."
 - `content-engine` — Platform-native content distribution
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+AI-assisted video editing workflows for cutting, structuring, and augmenting real footage. Covers the full pipeline from raw capture through FFmpeg, Remotion, ElevenLabs, fal.ai, and final polish in Descript or CapCut.
+
+Covers: When to Activate, Core Thesis, The Pipeline, Layer 3: Deterministic Cuts (FFmpeg), Extract segment by timestamp.

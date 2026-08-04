@@ -366,4 +366,7 @@ AZURE_KEYVAULT_URL=https://<vault-name>.vault.azure.net
 - "key rotation", "wrap unwrap key"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys.
+
+Covers: Azure Key Vault Keys (Java), Client Creation, Key Types, Create Keys, Create RSA Key.

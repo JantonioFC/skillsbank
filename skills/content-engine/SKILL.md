@@ -93,4 +93,7 @@ Before delivering:
 - the CTA matches the content and audience
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threads, scripts, content calendars, or one source asset adapted cleanly across platforms.
+
+Covers: When to Activate, First Questions, Core Rules, Platform Guidance, LinkedIn.

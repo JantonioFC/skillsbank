@@ -314,4 +314,7 @@ except ConnectionError as e:
 - **All Models & Types**: See [references/models.md](references/models.md)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build real-time voice AI applications using Azure AI Voice Live SDK (azure-ai-voicelive).
+
+Covers: Azure AI Voice Live SDK, Environment Variables, For API key auth (not recommended for production), Authentication, Core Architecture.

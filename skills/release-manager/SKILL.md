@@ -2,16 +2,11 @@
 name: release-manager
 description: Use when the user asks to plan releases, manage changelogs, coordinate
   deployments, create release branches, or automate versioning.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Release Manager
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 **Tier:** POWERFUL  
 **Category:** Engineering  
@@ -498,4 +493,7 @@ def monitor_deployment():
 The Release Manager skill transforms chaotic deployments into predictable, reliable releases that build confidence across your entire organization.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when the user asks to plan releases, manage changelogs, coordinate deployments, create release branches, or automate versioning.
+
+Covers: Core Capabilities, Key Components, Scripts, Documentation, Release Management Methodology.

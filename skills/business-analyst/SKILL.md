@@ -184,4 +184,7 @@ Expert business analyst focused on transforming complex business data into actio
 - "Create a competitive intelligence framework with automated data collection"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations.
+
+Covers: Capabilities, Modern Analytics Platforms and Tools, AI-Powered Business Intelligence, Strategic KPI Framework Development, Financial Analysis and Modeling.

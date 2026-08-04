@@ -14,16 +14,11 @@ triggers:
 - surveillance audit
 - audit finding
 - nonconformity
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # ISMS Audit Expert
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Internal and external ISMS audit management for ISO 27001 compliance verification, security control assessment, and certification support.
 
@@ -244,4 +239,7 @@ python scripts/isms_audit_scheduler.py --controls controls.csv --format markdown
 | Audit effectiveness | Incidents prevented | Security improvements implemented |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Information Security Management System (ISMS) audit expert for ISO 27001 compliance verification, security control assessment, and certification support.
+
+Covers: Audit Program Management, Risk-Based Audit Schedule, Annual Audit Planning Workflow, Auditor Competency Requirements, Audit Execution.

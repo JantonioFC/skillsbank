@@ -314,4 +314,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key analy
 - **revops**: For pipeline metrics, CRM tracking, and revenue attribution
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to set up, improve, or audit analytics tracking and measurement.
+
+Covers: Initial Assessment, Core Principles, Track for Decisions, Not Data, Start with the Questions, Name Things Consistently.

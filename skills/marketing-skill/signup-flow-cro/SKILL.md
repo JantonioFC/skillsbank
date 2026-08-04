@@ -229,4 +229,7 @@ Automatically surface signup-flow-cro when:
 | A/B Test Hypotheses | Table | Hypothesis × variant description × success metric × priority for top 3-5 tests |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to optimize signup, registration, account creation, or trial activation flows.
+
+Covers: Initial Assessment, Core Principles, Output Format, Audit Findings, Recommended Changes.

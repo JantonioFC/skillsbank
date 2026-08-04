@@ -10,15 +10,10 @@ metadata:
   author: Alireza Rezvani
   category: engineering
   updated: 2026-03-16
-risk: offensive
+risk: safe
 source: community
 ---
 # Docker Development
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 > Smaller images. Faster builds. Secure containers. No guesswork.
 
@@ -375,4 +370,7 @@ clawhub install cs-docker-development
 - **ci-cd-pipeline-builder** — Pipeline construction. Complementary — docker-development builds the containers, ci-cd-pipeline-builder deploys them.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Docker and container development agent skill and plugin for Dockerfile optimization, docker-compose orchestration, multi-stage builds, and container security hardening.
+
+Covers: /docker:optimize — Dockerfile Optimization, /docker:compose — Docker Compose Configuration, /docker:security — Container Security Audit, Tooling, Analyze a Dockerfile.

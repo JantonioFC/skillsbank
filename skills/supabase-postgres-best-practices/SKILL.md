@@ -72,4 +72,7 @@ Each rule file contains:
 - https://supabase.com/docs/guides/auth/row-level-security
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.
+
+Covers: When to Apply, Rule Categories by Priority, How to Use.

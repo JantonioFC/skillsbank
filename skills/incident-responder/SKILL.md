@@ -6,16 +6,11 @@ description: Expert SRE incident responder specializing in rapid problem resolut
   Handles critical outages, communication strategies, and ...
 metadata:
   model: sonnet
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on incident responder tasks or workflows
 - Needing guidance, best practices, or checklists for incident responder
@@ -218,4 +213,7 @@ Expert incident responder with deep knowledge of SRE principles, modern observab
 Remember: Excellence in incident response comes from preparation, practice, and continuous improvement of both technical systems and human processes.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management. Masters incident command, blameless post-mortems, error budget management, and system reliability patterns.
+
+Covers: Immediate Actions (First 5 minutes), Assess Severity & Impact, Establish Incident Command, Immediate Stabilization, Modern Investigation Protocol.

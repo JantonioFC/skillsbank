@@ -81,4 +81,7 @@ Before delivering:
 - word count stays tight
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic investors, or accelerators and needs concise, personalized, investor-facing messaging.
+
+Covers: When to Activate, Core Rules, Cold Email Structure, Personalization Sources, Follow-Up Cadence.

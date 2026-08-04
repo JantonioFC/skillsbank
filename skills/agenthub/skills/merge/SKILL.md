@@ -97,4 +97,7 @@ Tell the user:
 - Session state: `merged`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Merge the winning agent's branch into base, archive losers, and clean up worktrees.
+
+Covers: /hub:merge — Merge Winner, What It Does, Identify Winner, Merge Winner, Archive Losers.

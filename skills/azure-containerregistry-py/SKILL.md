@@ -258,4 +258,7 @@ for manifest in client.list_manifest_properties("my-image"):
 7. **Check manifest.tags** before deleting to avoid removing tagged images
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Container Registry SDK for Python. Use for managing container images, artifacts, and repositories.
+
+Covers: Azure Container Registry SDK for Python, Environment Variables, Authentication, Entra ID (Recommended), Anonymous Access (Public Registry).

@@ -153,4 +153,7 @@ memory/board-meetings/
 - `scripts/decision_tracker.py` — CLI parser, overdue tracker, conflict detector
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Two-layer memory architecture for board meeting decisions. Manages raw transcripts (Layer 1) and approved decisions (Layer 2).
+
+Covers: Keywords, Two-Layer Architecture, Layer 1 — Raw Transcripts, Layer 2 — Approved Decisions, Decision Entry Format.

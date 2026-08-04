@@ -260,4 +260,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 - **analytics-tracking**: For tracking referral attribution
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy.
+
+Covers: Referral & Affiliate Programs, Before Starting, Program Type, Current State, Product Fit.

@@ -6,16 +6,11 @@ description: Build comprehensive ML pipelines, experiment tracking, and model re
   management, or pipeline automation.
 metadata:
   model: inherit
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on mlops engineer tasks or workflows
 - Needing guidance, best practices, or checklists for mlops engineer
@@ -226,4 +221,7 @@ Expert MLOps engineer specializing in building scalable ML infrastructure and au
 - "Create cost-optimized training infrastructure using spot instances and auto-scaling"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools. Implements automated training, deployment, and monitoring across cloud platforms.
+
+Covers: Capabilities, ML Pipeline Orchestration & Workflow Management, Experiment Tracking & Model Management, Model Registry & Versioning, Cloud-Specific MLOps Expertise.

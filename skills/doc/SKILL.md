@@ -81,6 +81,3 @@ python3 scripts/render_docx.py /path/to/file.docx --output_dir /tmp/docx_pages
 - Re-render and inspect every page at 100% zoom before final delivery.
 - Fix any spacing, alignment, or pagination issues and repeat the render loop.
 - Confirm there are no leftovers (temp files, duplicate renders) unless the user asks to keep them.
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

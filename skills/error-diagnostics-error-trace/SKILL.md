@@ -52,4 +52,7 @@ Focus on providing comprehensive error visibility, intelligent alerting, and qui
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are an error tracking and observability expert specializing in implementing comprehensive error monitoring solutions.
+
+Covers: Error Tracking and Monitoring, Context, Output Format.

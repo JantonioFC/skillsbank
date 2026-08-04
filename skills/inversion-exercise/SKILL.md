@@ -62,4 +62,7 @@ Flip every assumption and see what still works. Sometimes the opposite reveals t
 - Question "must be" statements
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Flip core assumptions to reveal hidden constraints and alternative approaches - "what if the opposite were true?
+
+Covers: Red Flags You Need This, Remember.

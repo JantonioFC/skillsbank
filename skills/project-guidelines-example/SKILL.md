@@ -352,4 +352,7 @@ SUPABASE_KEY=eyJ...
 - `tdd-workflow/` - テスト駆動開発の方法論
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Project Guidelines Example.
+
+Covers: APIレスポンス形式 (FastAPI), フロントエンドAPI呼び出し (TypeScript), Claude AI統合（構造化出力）, カスタムフック (React), バックエンド (pytest).

@@ -723,4 +723,7 @@ test:
 **기억하세요**: 테스트는 문서입니다. 코드가 어떻게 사용되어야 하는지를 보여줍니다. 명확하게 작성하고 최신 상태로 유지하세요.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+테이블 주도 테스트, 서브테스트, 벤치마크, 퍼징, 테스트 커버리지를 포함한 Go 테스팅 패턴. 관용적 Go 관행과 함께 TDD 방법론을 따릅니다.
+
+Covers: Go에서의 TDD 워크플로우, RED-GREEN-REFACTOR 사이클, Go에서의 단계별 TDD, 퍼징 (Go 1.18+), Basic coverage.

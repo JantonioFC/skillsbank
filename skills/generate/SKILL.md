@@ -145,4 +145,7 @@ If it fails:
 - Coverage note: what behaviors are now tested
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generate Playwright tests. Use when user says "write tests", "generate tests", "add tests for", "test this component", "e2e test", "create test for", "test this page", or "test this feature".
+
+Covers: Generate Playwright Tests, Understand the Target, Explore the Codebase, Select Templates, Generate the Test.

@@ -440,4 +440,7 @@ Nonconforming Product Identified
 | [risk-management-specialist](../risk-management-specialist/) | ISO 14971 integration |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+ISO 13485 Quality Management System implementation and maintenance for medical device organizations. Provides QMS design, documentation control, internal auditing, CAPA management, and certification support.
+
+Covers: Quality Manager - QMS ISO 13485 Specialist, QMS Implementation Workflow, Workflow: Initial QMS Implementation, QMS Structure, Document Control Workflow.

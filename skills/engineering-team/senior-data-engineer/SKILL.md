@@ -198,4 +198,7 @@ See `references/dataops_best_practices.md` for:
 → See references/troubleshooting.md for details
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Data engineering skill for building scalable data pipelines, ETL/ELT systems, and data infrastructure. Expertise in Python, SQL, Spark, Airflow, dbt, Kafka, and modern data stack.
+
+Covers: Trigger Phrases, Core Tools, Generate pipeline orchestration config, Validate data quality, Optimize ETL performance.

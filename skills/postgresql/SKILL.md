@@ -233,4 +233,7 @@ CREATE INDEX profiles_attrs_gin ON profiles USING GIN (attrs);
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Design a PostgreSQL-specific schema.
+
+Covers: PostgreSQL Table Design, Safety, Core Rules, PostgreSQL “Gotchas”, Data Types.

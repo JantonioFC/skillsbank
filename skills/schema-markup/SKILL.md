@@ -184,4 +184,7 @@ You can combine multiple schema types on one page using `@graph`:
 - **site-architecture**: For breadcrumb structure and navigation schema planning
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to add, fix, or optimize schema markup and structured data on their site.
+
+Covers: Initial Assessment, Core Principles, Accuracy First, Use JSON-LD, Follow Google's Guidelines.

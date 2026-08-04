@@ -115,6 +115,3 @@ CLI utility that:
 - emits prioritized test plan with suggested test types
 
 See `references/discovery-frameworks.md` for framework details.
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

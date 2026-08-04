@@ -4,16 +4,11 @@ description: Mobile-first design thinking and decision-making for iOS and Androi
   apps. Touch interaction, performance patterns, platform conventions. Teaches principles,
   not fixed values. Use when building React Native, Flutter, or native mobile apps.
 allowed-tools: Read, Glob, Grep, Bash
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Mobile Design System
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 > **Philosophy:** Touch-first. Battery-conscious. Platform-respectful. Offline-capable.
 > **Core Principle:** Mobile is NOT a small desktop. THINK mobile constraints, ASK platform choice.
@@ -403,4 +398,7 @@ For deeper guidance on specific areas:
 > **Remember:** Mobile users are impatient, interrupted, and using imprecise fingers on small screens. Design for the WORST conditions: bad network, one hand, bright sun, low battery. If it works there, it works everywhere.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Mobile-first design thinking and decision-making for iOS and Android apps. Touch interaction, performance patterns, platform conventions.
+
+Covers: Mobile Design System, 🔧 Runtime Scripts, 🔴 MANDATORY: Read Reference Files Before Working!, Universal (Always Read), Platform-Specific (Read Based on Target).

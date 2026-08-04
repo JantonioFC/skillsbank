@@ -370,4 +370,7 @@ AZURE_AUTHORITY_HOST=https://login.microsoftonline.com/
 - "AZURE_CLIENT_ID", "AZURE_TENANT_ID"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Identity Java SDK for authentication with Azure services. Use when implementing DefaultAzureCredential, managed identity, service principal, or any Azure authentication pattern in Java applications.
+
+Covers: Key Concepts, DefaultAzureCredential (Recommended), Configure DefaultAzureCredential, Managed Identity, Service Principal with Secret.

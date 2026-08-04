@@ -173,4 +173,7 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - `references/leadership_organizational_culture.md` — Culture development, CEO routines, succession planning
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Executive leadership guidance for strategic decision-making, organizational development, and stakeholder management.
+
+Covers: Keywords, Core Responsibilities, Vision & Strategy, Capital & Resource Management, Stakeholder Leadership.

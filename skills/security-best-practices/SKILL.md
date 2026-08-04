@@ -4,16 +4,11 @@ description: Perform language and framework specific security best-practice revi
   and suggest improvements. Trigger only when the user explicitly requests security
   best practices guidance, a security review/report, or secure-by-default coding help.
   Trigger only for supported languages (python, javascript/ty...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Security Best Practices
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 
@@ -96,4 +91,7 @@ When assigning an ID for some resource, which will then be used by exposed to th
 While TLS is important for production deployments, most development work will be with TLS disabled or provided by some out-of-scope TLS proxy. Due to this, be very careful about not reporting lack of TLS as a security issue. Also be very careful around use of "secure" cookies. They should only be set if the application will actually be over TLS. If they are set on non-TLS applications (such as when deployed for local dev or testing), it will break the application. You can provide a env or other flag to override setting secure as a way to keep it off until on a TLS production deployment. Additionally avoid recommending HSTS. It is dangerous to use without full understanding of the lasting impacts (can cause major outages and user lockout) and it is not generally recommended for the scope of projects being reviewed by codex.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help.
+
+Covers: Workflow Decision Tree, Overrides, Report Format, Fixes, General Security Advice.

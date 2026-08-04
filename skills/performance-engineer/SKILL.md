@@ -6,15 +6,10 @@ description: Expert performance engineer specializing in modern observability, a
   Handles end-to-end optimization, real user monito...
 metadata:
   model: inherit
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-
 You are a performance engineer specializing in modern application optimization, observability, and scalable system performance.
 
 ## Use this skill when
@@ -186,4 +181,7 @@ Expert performance engineer with comprehensive knowledge of modern observability
 - "Implement chaos engineering practices for distributed system resilience and performance validation"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert performance engineer specializing in modern observability, application optimization, and scalable system performance. Masters OpenTelemetry, distributed tracing, load testing, multi-tier caching, Core Web Vitals, and performance monitoring.
+
+Covers: Safety, Capabilities, Modern Observability & Monitoring, Advanced Application Profiling, Modern Load Testing & Performance Validation.

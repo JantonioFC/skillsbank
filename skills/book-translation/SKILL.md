@@ -216,4 +216,7 @@ The English (`en`) translation is complete and serves as the **base template** f
 - **Natural language**: Prioritize natural-sounding translations over literal ones
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Translate "The Interactive Book of Prompting" chapters and UI strings to a new language.
+
+Covers: Book Translation Skill, Copy Turkish Folder as Base, Translate MDX Content Files, Chapter List (in order), MDX Translation Guidelines.

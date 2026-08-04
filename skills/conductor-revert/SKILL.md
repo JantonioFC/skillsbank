@@ -374,4 +374,7 @@ Alternatively, if not yet pushed:
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Git-aware undo by logical work unit (track, phase, or task).
+
+Covers: Revert Track, Pre-flight Checks, Target Selection, Commit Discovery, For Task Revert.

@@ -195,4 +195,7 @@ MSAL is the recommended library for integrating Microsoft identity platform.
 - [Microsoft Graph API](https://learn.microsoft.com/graph/)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration.
+
+Covers: Key Concepts, Application Types, Register the Application, Configure Authentication, Configure API Permissions.

@@ -269,4 +269,7 @@ if (serverEvent is SessionUpdateError error)
 | Quickstart | https://learn.microsoft.com/azure/ai-services/speech-service/voice-live-quickstart |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Voice Live SDK for .NET. Build real-time voice AI applications with bidirectional WebSocket communication.
+
+Covers: Azure.AI.VoiceLive (.NET), Environment Variables, Optional: API key if not using Entra ID, Authentication, Microsoft Entra ID (Recommended).

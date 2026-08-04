@@ -51,4 +51,7 @@ The analysis scope may include specific error messages, stack traces, log files,
 - `resources/implementation-playbook.md` for detailed analysis frameworks and checklists.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions.
+
+Covers: Error Analysis and Resolution, Context, Safety.

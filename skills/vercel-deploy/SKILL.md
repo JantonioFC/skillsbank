@@ -3,16 +3,11 @@ name: vercel-deploy
 description: Deploy applications and websites to Vercel. Use when the user requests
   deployment actions like "deploy my app", "deploy and give me the link", "push this
   live", or "create a preview deployment".
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Vercel Deploy
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Deploy any project to Vercel instantly. **Always deploy as preview** (not production) unless the user explicitly asks for production.
 
@@ -86,4 +81,7 @@ The deploy needs escalated network access to deploy to Vercel. I can rerun the c
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "create a preview deployment".
+
+Covers: Fallback (No Auth), Deploy current directory, Deploy specific project, Deploy existing tarball, Production Deploys.

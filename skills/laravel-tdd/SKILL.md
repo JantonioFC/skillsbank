@@ -3,16 +3,11 @@ name: laravel-tdd
 description: Test-driven development for Laravel with PHPUnit and Pest, factories,
   database testing, fakes, and coverage targets.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Laravel TDD Workflow
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Test-driven development for Laravel applications using PHPUnit and Pest with 80%+ coverage (unit + feature).
 

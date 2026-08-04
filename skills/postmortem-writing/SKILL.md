@@ -390,4 +390,7 @@ Don't full-flush cache in production; use targeted invalidation.
 - [PagerDuty Postmortem Guide](https://postmortems.pagerduty.com/)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Write effective blameless postmortems with root cause analysis, timelines, and action items. Use when conducting incident reviews, writing postmortem documents, or improving incident response processes.
+
+Covers: Core Concepts, Blameless Culture, Postmortem Triggers, Postmortem Timeline, Templates.

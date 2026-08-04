@@ -5,16 +5,11 @@ description: Build a fully automated AI-powered data collection agent for any pu
   enriches data with a free LLM (Gemini Flash), stores results in Notion/Sheets/Supabase,
   and learns from user feedback. Runs 100% free on GitH...
 origin: community
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Data Scraper Agent
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Build a production-ready, AI-powered data collection agent for any public data source.
 Runs on a schedule, enriches results with a free LLM, stores to a database, and improves over time.
@@ -161,7 +156,6 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; research-bot/1.0)",
 }
 
-
 def fetch() -> list[dict]:
     """
     Returns a list of items with consistent schema.
@@ -178,7 +172,6 @@ def fetch() -> list[dict]:
             results.append(_normalise(item))
 
     return results
-
 
 def _normalise(raw: dict) -> dict:
     """Convert raw API/HTML data to the standard schema."""
@@ -227,7 +220,6 @@ MODEL_FALLBACK = [
     "gemini-flash-lite-latest",
 ]
 
-
 def generate(prompt: str, model: str = "", rate_limit: float = 7.0) -> dict:
     """Call Gemini with auto-fallback on 429. Returns parsed JSON or {}."""
     global _last_call
@@ -265,7 +257,6 @@ def generate(prompt: str, model: str = "", rate_limit: float = 7.0) -> dict:
             return {}
 
     return {}
-
 
 def _parse(resp) -> dict:
     try:
@@ -325,7 +316,6 @@ def analyse_batch(items: list[dict], context: str = "", preference_prompt: str =
 
     return enriched
 
-
 def _build_prompt(batch, context, preference_prompt, config):
     priorities = config.get("priorities", [])
     items_text = "\n\n".join(
@@ -363,7 +353,6 @@ from pathlib import Path
 
 FEEDBACK_PATH = Path(__file__).parent.parent / "data" / "feedback.json"
 
-
 def load_feedback() -> dict:
     if FEEDBACK_PATH.exists():
         try:
@@ -372,11 +361,9 @@ def load_feedback() -> dict:
             pass
     return {"positive": [], "negative": []}
 
-
 def save_feedback(fb: dict):
     FEEDBACK_PATH.parent.mkdir(parents=True, exist_ok=True)
     FEEDBACK_PATH.write_text(json.dumps(fb, indent=2))
-
 
 def build_preference_prompt(feedback: dict, max_examples: int = 15) -> str:
     """Convert feedback history into a prompt bias section."""
@@ -774,4 +761,7 @@ batch Gemini calls, learn from Applied/Rejected decisions stored in Notion, and 
 100% free on GitHub Actions. Follow Steps 1–9 above to build your own.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build a fully automated AI-powered data collection agent for any public source — job boards, prices, news, GitHub, sports, anything. Scrapes on a schedule, enriches data with a free LLM (Gemini Flash), stores results in Notion/Sheets/Supabase, and learns from user feedback.
+
+Covers: When to Activate, Core Concepts, The Three Layers, Free Stack, AI Model Fallback Chain.

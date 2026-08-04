@@ -242,4 +242,7 @@ async def upload_file():
 7. **Close async clients** explicitly
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud.
+
+Covers: Azure Storage File Share SDK for Python, Environment Variables, Authentication, Connection String, Entra ID.

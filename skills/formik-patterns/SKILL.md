@@ -365,4 +365,7 @@ onSubmit: async (values, { setSubmitting }) => {
 - **testing-patterns**: Test form validation and submission
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Formik form handling with validation patterns. Use when building forms, implementing validation, or handling form submission.
+
+Covers: Basic Form Setup, Validation Schemas, Common Patterns, Conditional Validation, Form Field Helpers.

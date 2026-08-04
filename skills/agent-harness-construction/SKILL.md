@@ -76,4 +76,7 @@ Track:
 - Context overloading with irrelevant references.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates.
+
+Covers: Core Model, Action Space Design, Granularity Rules, Observation Design, Error Recovery Contract.

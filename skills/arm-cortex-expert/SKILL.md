@@ -306,4 +306,7 @@ __set_BASEPRI(basepri);
 - **SAMD**: Configure SERCOM in SPI master mode with `SERCOM_SPI_MODE_MASTER`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD).
+
+Covers: 🎯 Role & Objectives, 🧠 Knowledge Base, ⚙️ Operating Principles, DMA and Cache Coherency, Address Validation Helper (Debug Builds).

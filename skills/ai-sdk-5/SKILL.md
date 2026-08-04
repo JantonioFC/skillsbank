@@ -238,4 +238,7 @@ const { error, messages, sendMessage } = useChat({
 ai sdk, vercel ai, chat, streaming, langchain, openai, llm
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Vercel AI SDK 5 patterns. Trigger: When building AI chat features - breaking changes from v4.
+
+Covers: Breaking Changes from AI SDK 4, Client Setup, UIMessage Structure (v5), Server-Side (Route Handler), With LangChain.

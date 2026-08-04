@@ -4,16 +4,11 @@ description: Library-agnostic Flutter/Dart code review checklist covering widget
   practices, state management patterns (BLoC, Riverpod, Provider, GetX, MobX, Signals),
   Dart idioms, performance, accessibility, security, and clean architecture.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Flutter/Dart Code Review Best Practices
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Comprehensive, library-agnostic checklist for reviewing Flutter/Dart applications. These principles apply regardless of which state management solution, routing library, or DI framework is used.
 
@@ -444,4 +439,7 @@ The table below maps universal principles to their implementation in popular sol
 - [Flutter State Management Options](https://docs.flutter.dev/data-and-backend/state-mgmt/options)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Library-agnostic Flutter/Dart code review checklist covering widget best practices, state management patterns (BLoC, Riverpod, Provider, GetX, MobX, Signals), Dart idioms, performance, accessibility, security, and clean architecture.
+
+Covers: General Project Health, Dart Language Pitfalls, Widget Best Practices, State Management (Library-Agnostic), Performance.

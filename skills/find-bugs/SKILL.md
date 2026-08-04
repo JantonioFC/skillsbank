@@ -3,16 +3,11 @@ name: find-bugs
 description: Find bugs, security vulnerabilities, and code quality issues in local
   branch changes. Use when asked to review changes, find bugs, security review, or
   audit code on the current branch.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Find Bugs
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Review changes on this branch for bugs, security vulnerabilities, and code quality issues.
 

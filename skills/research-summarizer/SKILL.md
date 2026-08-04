@@ -278,4 +278,7 @@ clawhub install cs-research-summarizer
 - **product-discovery** — Discovery frameworks. Complementary — research-summarizer for desk research, product-discovery for user research.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Structured research summarization agent skill for non-dev users. Handles academic papers, web articles, reports, and documentation.
+
+Covers: /research:summarize — Single Source Summary, /research:compare — Multi-Source Comparison, /research:cite — Citation Extraction, Tooling, Extract citations from a file (APA format, default).

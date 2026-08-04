@@ -8,4 +8,5 @@ license: MIT
 # Insert instructions below
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Replace with description of the skill and when Claude should use it.

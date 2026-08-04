@@ -125,4 +125,7 @@ license: MIT
 > **Remember:** Comfort is not optional. Sick players don't play.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+VR/AR development principles. Comfort, interaction, performance requirements.
+
+Covers: Platform Selection, VR Platforms, AR Platforms, Comfort Principles, Motion Sickness Prevention.

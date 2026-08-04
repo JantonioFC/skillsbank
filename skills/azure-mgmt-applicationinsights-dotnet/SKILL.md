@@ -490,4 +490,7 @@ builder.Services.AddApplicationInsightsTelemetry(options =>
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/applicationinsights/Azure.ResourceManager.ApplicationInsights |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Application Insights SDK for .NET. Application performance monitoring and observability resource management.
+
+Covers: Azure.ResourceManager.ApplicationInsights (.NET), Environment Variables, Authentication, Resource Hierarchy, Core Workflows.

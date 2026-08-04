@@ -14,16 +14,11 @@ tags:
 - option
 - task
 - reader
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Refactoring Imperative Code to fp-ts
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 This skill provides comprehensive patterns and strategies for migrating existing imperative TypeScript code to fp-ts functional programming patterns.
 
@@ -1792,6 +1787,3 @@ Migrating to fp-ts is a journey, not a destination. Key principles:
 6. **Review benefits**: Ensure the added complexity provides value
 
 The goal is more maintainable, type-safe code—not functional programming for its own sake.
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

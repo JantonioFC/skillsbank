@@ -10,15 +10,10 @@ metadata:
   author: Alireza Rezvani
   category: engineering
   updated: 2026-03-13
-risk: offensive
+risk: safe
 source: community
 ---
 # Autoresearch Agent
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 > You sleep. The agent experiments. You wake up to results.
 
@@ -317,4 +312,7 @@ clawhub install cs-autoresearch-agent
 - **skill-security-auditor** — audit skills before publishing. NOT for optimization loops.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Autonomous experiment loop that optimizes any file by a measurable metric. Inspired by Karpathy''s autoresearch.
+
+Covers: First Time — Create the Experiment, What Setup Creates, Domains, If program.md Already Exists, Agent Protocol.

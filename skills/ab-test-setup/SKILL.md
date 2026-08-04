@@ -271,4 +271,7 @@ Document every test with:
 - **copywriting**: For creating variant copy
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to plan, design, or implement an A/B test or experiment.
+
+Covers: Initial Assessment, Core Principles, Start with a Hypothesis, Test One Thing, Statistical Rigor.

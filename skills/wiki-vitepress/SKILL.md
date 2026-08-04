@@ -152,4 +152,7 @@ Output goes to `wiki-site/.vitepress/dist/`.
 - `enhanceApp()` runs during SSR where `document` doesn't exist — use `setup()` only
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Packages generated wiki Markdown into a VitePress static site with dark theme, dark-mode Mermaid diagrams with click-to-zoom, and production build output. Use when the user wants to create a browsable website from generated wiki pages.
+
+Covers: Wiki VitePress Packager, When to Activate, VitePress Scaffolding, Config Requirements (config.mts), Dark-Mode Mermaid: Three-Layer Fix.

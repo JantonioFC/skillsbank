@@ -367,4 +367,7 @@ node tools/clis/google-ads.js reports get --type ad_performance --date-range las
 - **copy-editing**: For polishing ad copy before launch
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform.
+
+Covers: Before Starting, Platform & Format, Product & Offer, Audience & Intent, Performance Data (if iterating).

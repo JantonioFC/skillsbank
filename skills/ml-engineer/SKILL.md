@@ -170,4 +170,7 @@ Expert ML engineer specializing in production-ready machine learning systems. Ma
 - "Create continuous training pipeline that automatically retrains models based on performance"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring.
+
+Covers: Capabilities, Core ML Frameworks & Libraries, Model Serving & Deployment, Feature Engineering & Data Processing, Model Training & Optimization.

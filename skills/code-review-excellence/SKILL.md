@@ -44,4 +44,5 @@ Transform code reviews from gatekeeping to knowledge sharing through constructiv
 - `resources/implementation-playbook.md` for detailed review patterns and templates.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master effective code review practices to provide constructive feedback, catch bugs early, and foster knowledge sharing while maintaining team morale. Use when reviewing pull requests, establishing review standards, or mentoring developers.

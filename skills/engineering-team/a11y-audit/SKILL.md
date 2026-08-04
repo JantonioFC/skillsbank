@@ -1378,4 +1378,7 @@ Authentication must not require cognitive function tests (e.g., remembering a pa
 **Version:** 2.1.2
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Accessibility audit skill for scanning, fixing, and verifying WCAG 2.2 Level A and AA compliance across React, Next.js, Vue, Angular, Svelte, and plain HTML codebases.
+
+Covers: Accessibility Audit, Name, Description, Features, Core Capabilities.

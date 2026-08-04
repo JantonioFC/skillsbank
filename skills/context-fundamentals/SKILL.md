@@ -206,4 +206,7 @@ External resources:
 **Version**: 2.0.0
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "understand context", "explain context windows", "design agent architecture", "debug context issues", "optimize context usage", or discusses context components, attention mechanics, progressive disclosure, or context budgeting.
+
+Covers: Context Engineering Fundamentals, When to Activate, Core Concepts, Detailed Topics, The Anatomy of Context.

@@ -6,16 +6,11 @@ description: Professional, ethical HR partner for hiring, onboarding/offboarding
   lawful templates.
 metadata:
   model: sonnet
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on hr pro tasks or workflows
 - Needing guidance, best practices, or checklists for hr pro
@@ -133,4 +128,7 @@ Output a single Markdown package with:
 - If jurisdiction-specific rules are unclear, ask before proceeding and provide a neutral draft plus a checklist of local checks.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations. Ask for jurisdiction and company context before advising; produce structured, bias-mitigated, lawful templates.
+
+Covers: IMPORTANT LEGAL DISCLAIMER, Scope & Mission, Operating Principles, Deliverable Format (always follow), Core Playbooks.

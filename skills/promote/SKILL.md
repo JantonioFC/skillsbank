@@ -148,4 +148,7 @@ The pattern is now an enforced instruction. Claude will follow it in all future 
 - Review promoted rules quarterly — remove what's no longer relevant
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/rules/ for permanent enforcement.
+
+Covers: /si:promote — Graduate Learnings to Rules, Understand the pattern, Find the pattern in auto-memory, Search MEMORY.md for related entries, Determine the right target.

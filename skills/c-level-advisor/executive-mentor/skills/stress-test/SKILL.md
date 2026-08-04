@@ -1,16 +1,11 @@
 ---
 name: stress-test
 description: /em -stress-test — Business Assumption Stress Testing
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # /em:stress-test — Business Assumption Stress Testing
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 **Command:** `/em:stress-test <assumption>`
 
@@ -211,4 +206,7 @@ HEDGE
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+/em -stress-test — Business Assumption Stress Testing.
+
+Covers: /em:stress-test — Business Assumption Stress Testing, Why Most Assumptions Are Wrong, The Stress-Test Methodology, Isolate the Assumption, Find the Counter-Evidence.

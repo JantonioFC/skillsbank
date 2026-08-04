@@ -92,4 +92,7 @@ Tell the user:
 - Or `/hub:spawn {session-id}` if multiple sessions exist
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create a new AgentHub collaboration session with task, agent count, and evaluation criteria.
+
+Covers: /hub:init — Create New Session, What It Does, If arguments provided, If no arguments (interactive mode), Baseline Capture.

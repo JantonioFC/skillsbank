@@ -817,4 +817,7 @@ pytest --pdb
 **覚えておいてください**: テストもコードです。それらをクリーンで、読みやすく、保守可能に保ちましょう。良いテストはバグをキャッチし、優れたテストはそれらを防ぎます。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+pytest、TDD手法、フィクスチャ、モック、パラメータ化、カバレッジ要件を使用したPythonテスト戦略。.
+
+Covers: テスト駆動開発（TDD）, Write failing test (RED), Write minimal implementation (GREEN), Refactor if needed (REFACTOR), pytestの基礎.

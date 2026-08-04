@@ -198,4 +198,7 @@ async def main():
 7. **Exclude unused credentials** to speed up authentication
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Identity SDK for Python authentication. Use for DefaultAzureCredential, managed identity, service principals, and token caching.
+
+Covers: Azure Identity SDK for Python, Environment Variables, User-assigned Managed Identity (optional), DefaultAzureCredential, Works in local dev AND production without code changes.

@@ -43,4 +43,7 @@ Build secure, scalable authentication and authorization systems using industry-s
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master authentication and authorization patterns including JWT, OAuth2, session management, and RBAC to build secure, scalable access control systems. Use when implementing auth systems, securing APIs, or debugging security issues.
+
+Covers: Authentication & Authorization Implementation Patterns, Safety.

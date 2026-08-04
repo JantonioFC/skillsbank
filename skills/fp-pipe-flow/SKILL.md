@@ -714,4 +714,7 @@ Remember:
 - Let TypeScript infer types when possible
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master function composition in fp-ts using pipe and flow for building elegant, type-safe data transformation pipelines.
+
+Covers: fp-ts Pipe and Flow Composition, Imports, Understanding Pipe vs Flow, pipe: Immediate Execution with a Starting Value, flow: Creating Reusable Pipelines.

@@ -3,15 +3,12 @@ name: cc-skill-security-review
 description: This skill ensures all code follows security best practices and identifies
   potential vulnerabilities. Use when implementing authentication or authorization,
   handling user input or file uploads, or creating new API endpoints.
-risk: offensive
+risk: safe
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
 > [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
 
 # Security Review Skill
 This skill ensures all code follows security best practices and identifies potential vulnerabilities.

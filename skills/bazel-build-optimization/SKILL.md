@@ -401,4 +401,7 @@ bazel build //... --notrack_incremental_state
 - [rules_js](https://github.com/aspect-build/rules_js)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases.
+
+Covers: Core Concepts, Bazel Architecture, Key Concepts, Templates, Template 1: WORKSPACE Configuration.

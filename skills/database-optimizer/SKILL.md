@@ -167,4 +167,7 @@ Expert database optimizer with comprehensive knowledge of modern database perfor
 - "Implement database sharding strategy for horizontally scaling write-heavy workload"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures. Masters advanced indexing, N+1 resolution, multi-tier caching, partitioning strategies, and cloud database optimization.
+
+Covers: Capabilities, Advanced Query Optimization, Modern Indexing Strategies, Performance Analysis & Monitoring, N+1 Query Resolution.

@@ -336,4 +336,7 @@ python scripts/coverage_analyzer.py coverage/coverage-final.json
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generates unit tests, integration tests, and E2E tests for React/Next.js applications.
+
+Covers: Senior QA Engineer, Generate Jest test stubs for React components, Scaffold Playwright E2E tests for Next.js routes, Tools Overview, Test Suite Generator.

@@ -272,4 +272,7 @@ try {
 6. **Browser not supported** - These SDKs are Node.js only
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets). Use when storing and retrieving application secrets or configuration values.
+
+Covers: Azure Key Vault Secrets SDK for TypeScript, Secrets SDK, Environment Variables, Authentication, Secrets Operations.

@@ -262,4 +262,7 @@ External resources:
 **Version**: 2.0.0
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "design multi-agent system", "implement supervisor pattern", "create swarm architecture", "coordinate multiple agents", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execution.
+
+Covers: Multi-Agent Architecture Patterns, When to Activate, Core Concepts, Detailed Topics, Why Multi-Agent Architectures.

@@ -1,16 +1,11 @@
 ---
 name: incident-response-incident-response
 description: Use when working with incident response incident response
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on incident response incident response tasks or workflows
 - Needing guidance, best practices, or checklists for incident response incident response
@@ -175,4 +170,7 @@ Orchestrate multi-agent incident response with modern SRE practices for rapid re
 Production incident requiring immediate response: $ARGUMENTS
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when working with incident response incident response.
+
+Covers: Severity Levels, Incident Types, Detection & Triage, Incident Detection and Classification, Observability Analysis.

@@ -402,4 +402,7 @@ If interrupted mid-task:
 10. **Keep it actionable**: Every context item should inform a decision or behavior
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use this skill when working with Conductor's context-driven development methodology, managing project context artifacts, or understanding the relationship between product.md, tech-stack.md, and workflow.md files.
+
+Covers: Core Philosophy, The Workflow, Artifact Relationships, product.md - Defines WHAT and WHY, product-guidelines.md - Defines HOW to Communicate.

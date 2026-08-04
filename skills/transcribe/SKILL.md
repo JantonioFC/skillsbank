@@ -84,4 +84,7 @@ python3 "$TRANSCRIBE_CLI" \
 - `references/api.md`: supported formats, limits, response formats, and known-speaker notes.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.
+
+Covers: Audio Transcribe, Decision rules, Output conventions, Dependencies (install if missing), Environment.

@@ -2,16 +2,11 @@
 name: golang-patterns
 description: 用于构建健壮、高效且可维护的Go应用程序的惯用Go模式、最佳实践和约定。
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Go 开发模式
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 用于构建健壮、高效和可维护应用程序的惯用 Go 模式与最佳实践。
 
@@ -681,4 +676,7 @@ func (c *Counter) Increment() { c.n++ }        // Pointer receiver
 **记住**：Go 代码应该以最好的方式显得“乏味”——可预测、一致且易于理解。如有疑问，保持简单。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+用于构建健壮、高效且可维护的Go应用程序的惯用Go模式、最佳实践和约定。.
+
+Covers: 使用 errors.Is 和 errors.As 检查错误, 用于取消和超时的 Context, 用于协调 Goroutine 的 errgroup, 避免 Goroutine 泄漏, Build and run.

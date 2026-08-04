@@ -304,4 +304,7 @@ Most founders are at Level 0. Level 2 is a reasonable target. Level 3 is a strat
 - `references/founder-toolkit.md` — Weekly reflection, energy audit, delegation matrix, 1:1 templates
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management, CEO calendar audits, leadership style evolution, blind spot identification, imposter syndrome, founder mental health, and succession planning.
+
+Covers: Founder Development Coach, Keywords, Core Truth, Founder Archetype Identification, Delegation Framework.

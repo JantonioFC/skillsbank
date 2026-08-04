@@ -414,4 +414,7 @@ To plan team composition:
 For detailed compensation benchmarks and hiring plan templates, see `references/` and `examples/`.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "plan team structure", "determine hiring needs", "design org chart", "calculate compensation", "plan equity allocation", or requests organizational design and headcount planning for a startup.
+
+Covers: Team Structure by Stage, Pre-Seed (0-$500K ARR), Seed ($500K-$2M ARR), Series A ($2M-$10M ARR), Role-by-Role Planning.

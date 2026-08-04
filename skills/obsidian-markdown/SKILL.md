@@ -201,4 +201,7 @@ Reviewed in [[Meeting Notes 2024-01-10#Decisions]].
 - [Properties](https://help.obsidian.md/properties)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.
+
+Covers: Obsidian Flavored Markdown Skill, Workflow: Creating an Obsidian Note, Internal Links (Wikilinks), Embeds, Callouts.

@@ -197,4 +197,7 @@ For RAG indexing:
 > **Remember:** Templates are starting points. Adapt to your project's needs.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.
+
+Covers: README Structure, Essential Sections (Priority Order), README Template, Project Name, Features.

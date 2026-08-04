@@ -12,15 +12,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: 🏭
-risk: offensive
+risk: safe
 source: community
 ---
 # Production Scheduling
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Role and Context
 

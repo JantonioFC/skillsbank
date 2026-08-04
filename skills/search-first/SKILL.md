@@ -164,4 +164,7 @@ Result: 1 package + 1 schema file, no custom validation logic
 - **Dependency bloat**: Installing a massive package for one small feature
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code.
+
+Covers: /search-first — Research Before You Code, Trigger, Decision Matrix, How to Use, Quick Mode (inline).

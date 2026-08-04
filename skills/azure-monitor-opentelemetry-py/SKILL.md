@@ -230,4 +230,7 @@ configure_azure_monitor(
 7. **Use AAD authentication** for production workloads
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Monitor OpenTelemetry Distro for Python. Use for one-line Application Insights setup with auto-instrumentation.
+
+Covers: Azure Monitor OpenTelemetry Distro for Python, Environment Variables, One-line setup - reads connection string from environment, Your application code..., Explicit Configuration.

@@ -869,4 +869,7 @@ pipe(operation(), TE.fold(handleError, handleSuccess))()
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Functional async patterns using TaskEither for type-safe error handling in TypeScript.
+
+Covers: fp-ts TaskEither Async Patterns, Core Concepts, Converting Promises to TaskEither, Using tryCatch, From existing Either.

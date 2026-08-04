@@ -314,4 +314,7 @@ import {
 6. **Use noEcho** - Prevent message echo back to sender when needed
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build real-time messaging applications using Azure Web PubSub SDKs for JavaScript (@azure/web-pubsub, @azure/web-pubsub-client). Use when implementing WebSocket-based real-time features, pub/sub messaging, group chat, or live notifications.
+
+Covers: Azure Web PubSub SDKs for TypeScript, Server-side management, Client-side real-time messaging, Express middleware for event handlers, Environment Variables.

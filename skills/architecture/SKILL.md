@@ -59,4 +59,7 @@ Before finalizing architecture:
 - [ ] Team expertise matches chosen patterns
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation.
+
+Covers: Architecture Decision Framework, 🎯 Selective Reading Rule, 🔗 Related Skills, Core Principle, Validation Checklist.

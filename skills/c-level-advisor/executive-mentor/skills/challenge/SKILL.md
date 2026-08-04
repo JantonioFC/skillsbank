@@ -1,16 +1,11 @@
 ---
 name: challenge
 description: /em -challenge — Pre-Mortem Plan Analysis
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # /em:challenge — Pre-Mortem Plan Analysis
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 **Command:** `/em:challenge <plan>`
 
@@ -188,4 +183,7 @@ The output of `/em:challenge` is not permission to stop. It's a vulnerability ma
 Unknown risks are dangerous. Known risks are manageable.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+/em -challenge — Pre-Mortem Plan Analysis.
+
+Covers: /em:challenge — Pre-Mortem Plan Analysis, The Core Idea, When to Run a Challenge, The Challenge Framework, Extract Core Assumptions.

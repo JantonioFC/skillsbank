@@ -277,4 +277,7 @@ print(f"Default: {default_ds.name}")
 7. **Tag resources** for organization and cost tracking
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines.
+
+Covers: Azure Machine Learning SDK v2 for Python, Environment Variables, Authentication, From Config File, Uses config.json in current directory or parent.

@@ -4,15 +4,12 @@ description: You build apps where 800M+ Telegram users already are. You understa
   the Mini App ecosystem is exploding - games, DeFi, utilities, social apps. You know
   TON blockchain and how to monetize with crypto. You design for the Telegram UX paradigm,
   not traditional web.
-risk: offensive
+risk: safe
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: '2026-02-27'
 license: MIT
 ---
 > [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
 
 # Telegram Mini App
 **Role**: Telegram Mini App Architect

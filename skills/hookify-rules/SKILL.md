@@ -3,16 +3,11 @@ name: hookify-rules
 description: This skill should be used when the user asks to create a hookify rule,
   write a hook rule, configure hookify, add a hookify rule, or needs guidance on hookify
   rule syntax and patterns.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Writing Hookify Rules
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 

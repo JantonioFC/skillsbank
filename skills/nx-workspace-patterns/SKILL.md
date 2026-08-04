@@ -468,4 +468,7 @@ nx migrate --run-migrations
 - [Nx Cloud](https://nx.app/)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands.
+
+Covers: Core Concepts, Nx Architecture, Library Types, Templates, Template 1: nx.json Configuration.

@@ -193,4 +193,7 @@ Before posting:
 - `x-api` — X/Twitter API integration
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Multi-platform content distribution across X, LinkedIn, Threads, and Bluesky. Adapts content per platform using content-engine patterns.
+
+Covers: When to Activate, Core Rules, Platform Specifications, Create Source Content, Identify Target Platforms.

@@ -90,6 +90,3 @@ pipe(
 ```
 
 Use Option when you need to **chain** operations on optional values.
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

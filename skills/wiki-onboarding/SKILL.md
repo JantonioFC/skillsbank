@@ -3,16 +3,11 @@ name: wiki-onboarding
 description: Generates four audience-tailored onboarding guides in an onboarding/
   folder — Contributor, Staff Engineer, Executive, and Product Manager. Use when the
   user wants onboarding documentation for a codebase.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Wiki Onboarding Guide Generator
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Generate four audience-tailored onboarding documents in an `onboarding/` folder, each giving a different stakeholder exactly the understanding they need.
 
@@ -229,4 +224,7 @@ After generating each guide, verify:
 - Each guide is appropriate for its audience — no code in Executive/PM guides
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generates four audience-tailored onboarding guides in an onboarding/ folder — Contributor, Staff Engineer, Executive, and Product Manager. Use when the user wants onboarding documentation for a codebase.
+
+Covers: Wiki Onboarding Guide Generator, Source Repository Resolution (MUST DO FIRST), When to Activate, Output Structure, index.md — Onboarding Hub.

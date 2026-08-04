@@ -133,4 +133,7 @@ cargo add azure_messaging_eventhubs_checkpointstore_blob
 | crates.io | https://crates.io/crates/azure_messaging_eventhubs |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion.
+
+Covers: Azure Event Hubs SDK for Rust, Environment Variables, Key Concepts, Producer Client, Create Producer.

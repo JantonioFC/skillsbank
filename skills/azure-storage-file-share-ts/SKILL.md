@@ -497,4 +497,7 @@ import {
 | Anonymous/SAS access | ✅ | ✅ |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB file share operations. Use for creating shares, managing directories, uploading/downloading files, and handling file metadata.
+
+Covers: Environment Variables, OR connection string, Authentication, Connection String (Simplest), StorageSharedKeyCredential (Node.js only).

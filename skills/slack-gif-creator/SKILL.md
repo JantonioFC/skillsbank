@@ -650,4 +650,7 @@ pip install pillow imageio numpy
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation primitives. This skill applies when users request animated GIFs or emoji animations for Slack from descriptions like "make me a GIF for Slack of X doing Y".
+
+Covers: Slack GIF Creator - Flexible Toolkit, Slack's Requirements, Toolkit Structure, Core Validators, After creating your GIF, check if it meets requirements.

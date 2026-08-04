@@ -357,4 +357,7 @@ python scripts/customer_interview_analyzer.py interview.txt json
 - `references/frameworks.md` - Detailed framework documentation (RICE, MoSCoW, Kano, JTBD, etc.)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use for feature prioritization, user research synthesis, requirement documentation, and product strategy development.
+
+Covers: For Feature Prioritization, Create sample data file, Run prioritization with team capacity, For Interview Analysis, For PRD Creation.

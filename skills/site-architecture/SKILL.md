@@ -362,4 +362,7 @@ Mermaid diagram showing page relationships and navigation zones. Use `graph TD` 
 - **competitor-alternatives**: For comparison page frameworks and URL patterns
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking.
+
+Covers: Before Planning, Business Context, Current State, Site Type, Content Inventory.

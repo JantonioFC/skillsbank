@@ -2,15 +2,12 @@
 name: loki-mode
 description: 'Version 2.35.0 | PRD to Production | Zero Human Intervention > Research-enhanced:
   OpenAI SDK, DeepMind, Anthropic, AWS Bedrock, Agent SDK, HN Production (2025)'
-risk: offensive
+risk: safe
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
 > [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
 
 # Loki Mode - Multi-Agent Autonomous Startup System
 > **Version 2.35.0** | PRD to Production | Zero Human Intervention

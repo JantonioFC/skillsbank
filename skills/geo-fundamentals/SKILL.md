@@ -158,4 +158,7 @@ How AI engines select content to cite:
 | `scripts/geo_checker.py` | GEO audit (AI citation readiness) | `python scripts/geo_checker.py <project_path>` |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).
+
+Covers: What is GEO?, SEO vs GEO, AI Engine Landscape, RAG Retrieval Factors, Content That Gets Cited.

@@ -335,4 +335,7 @@ clean:
 Focus on creating production-ready Python projects with modern tooling, type safety, and comprehensive testing setup.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a Python project architecture expert specializing in scaffolding production-ready Python applications.
+
+Covers: Python Project Scaffolding, Context, Analyze Project Type, Initialize Project with uv, Create new project with uv.

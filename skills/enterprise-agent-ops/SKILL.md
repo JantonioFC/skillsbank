@@ -54,4 +54,5 @@ license: MIT
 * CI/CD 门控
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+通过可观测性、安全边界和生命周期管理来操作长期运行的代理工作负载。.

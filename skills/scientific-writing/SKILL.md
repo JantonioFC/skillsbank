@@ -7,15 +7,10 @@ description: This is the core skill for the deep research and writing tool—com
 license: MIT license
 metadata:
   skill-author: K-Dense Inc.
-risk: offensive
+risk: safe
 source: community
 ---
 # Scientific Writing
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 

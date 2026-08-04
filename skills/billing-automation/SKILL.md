@@ -46,4 +46,5 @@ Master automated billing systems including recurring billing, invoice generation
 - `resources/implementation-playbook.md` for detailed patterns, checklists, and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build automated billing systems for recurring payments, invoicing, subscription lifecycle, and dunning management. Use when implementing subscription billing, automating invoicing, or managing recurring payment systems.

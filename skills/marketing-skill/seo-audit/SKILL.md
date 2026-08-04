@@ -156,4 +156,7 @@ Automatically surface seo-audit recommendations when:
 | Keyword Cannibalization Map | Table | Pages competing for same keyword with recommended canonical or redirect actions |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to audit, review, or diagnose SEO issues on their site.
+
+Covers: Initial Assessment, Audit Framework, Output Format, Audit Report Structure, Tools Referenced.

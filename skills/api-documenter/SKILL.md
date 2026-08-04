@@ -6,15 +6,10 @@ description: Master API documentation with OpenAPI 3.1, AI-powered tools, and mo
   portal creation.
 metadata:
   model: sonnet
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-
 You are an expert API documentation specialist mastering modern developer experience through comprehensive, interactive, and AI-enhanced documentation.
 
 ## Use this skill when
@@ -192,4 +187,7 @@ Expert API documentation specialist focusing on creating world-class developer e
 - "Create comprehensive error documentation with troubleshooting guides"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build comprehensive developer portals.
+
+Covers: Capabilities, Modern Documentation Standards, AI-Powered Documentation Tools, Interactive Documentation Platforms, Developer Portal Architecture.

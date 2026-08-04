@@ -62,4 +62,5 @@ Expert service mesh architect specializing in Istio, Linkerd, and cloud-native n
 - Use destination rules for consistent load balancing
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns.

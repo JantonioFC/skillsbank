@@ -4,16 +4,11 @@ description: Repository-grounded threat modeling that enumerates trust boundarie
   assets, attacker capabilities, abuse paths, and mitigations, and writes a concise
   Markdown threat model. Trigger only when the user explicitly asks to threat model
   a codebase or path, enumerate threats/abuse paths, or perform A...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Threat Model Source Code Repo
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Deliver an actionable AppSec-grade threat model that is specific to the repository or a project path, not a generic checklist. Anchor every architectural claim to evidence in the repo and keep assumptions explicit. Prioritizing realistic attacker goals and concrete impacts over generic checklists.
 
@@ -44,7 +39,6 @@ Deliver an actionable AppSec-grade threat model that is specific to the reposito
 - List the assets that drive risk (credentials, PII, integrity-critical state, availability-critical components, build artifacts).
 - Describe realistic attacker capabilities based on exposure and intended usage.
 - Explicitly note non-capabilities to avoid inflated severity.
-
 
 ### 4) Enumerate threats as abuse paths
 - Prefer attacker goals that map to assets and boundaries (exfiltration, privilege escalation, integrity compromise, denial of service).
@@ -77,7 +71,6 @@ Deliver an actionable AppSec-grade threat model that is specific to the reposito
 - Confirm that the format of the report matches closely the required output format defined in prompt template: `references/prompt-template.md`
 - Write the final Markdown to a file named `<repo-or-dir-name>-threat-model.md` (use the basename of the repo root, or the in-scope directory if you were asked to model a subpath).
 
-
 ## Risk prioritization guidance (illustrative, not exhaustive)
 - High: pre-auth RCE, auth bypass, cross-tenant access, sensitive data exfiltration, key or token theft, model or config integrity compromise, sandbox escape.
 - Medium: targeted DoS of critical components, partial data exposure, rate-limit bypass with measurable impact, log/metrics poisoning that affects detection.
@@ -91,4 +84,7 @@ Deliver an actionable AppSec-grade threat model that is specific to the reposito
 Only load the reference files you need. Keep the final result concise, grounded, and reviewable.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model.
+
+Covers: Threat Model Source Code Repo, Scope and extract the system model, Derive boundaries, assets, and entry points, Calibrate assets and attacker capabilities, Enumerate threats as abuse paths.

@@ -201,4 +201,7 @@ Run before any major external communication:
 - `templates/all-hands-template.md` — All-hands presentation template
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build and maintain one coherent company story across all audiences — employees, investors, customers, candidates, and partners. Detects narrative contradictions and ensures the same truth is framed for each audience's needs.
+
+Covers: Internal Narrative Builder, Keywords, Core Principle, Framework, Build the Core Narrative.

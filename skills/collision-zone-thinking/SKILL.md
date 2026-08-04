@@ -66,4 +66,7 @@ Revolutionary insights come from forcing unrelated concepts to collide. Treat X 
 - Best source domains: physics, biology, economics, psychology
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Force unrelated concepts together to discover emergent properties - "What if we treated X like Y?
+
+Covers: Example Collision, Red Flags You Need This, Remember.

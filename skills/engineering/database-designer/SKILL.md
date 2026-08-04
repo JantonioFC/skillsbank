@@ -1,16 +1,11 @@
 ---
 name: database-designer
 description: Database Designer - POWERFUL Tier Skill
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Database Designer - POWERFUL Tier Skill
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 
@@ -73,4 +68,7 @@ Effective database design requires balancing multiple competing concerns: perfor
 The included tools automate common analysis and optimization tasks, while the comprehensive guides provide the theoretical foundation for making sound architectural decisions. Whether building a new system or optimizing an existing one, these resources provide expert-level guidance for creating robust, scalable database solutions.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Database Designer - POWERFUL Tier Skill.
+
+Covers: Database Designer - POWERFUL Tier Skill, Core Competencies, Schema Design & Analysis, Index Optimization, Migration Management.

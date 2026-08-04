@@ -93,4 +93,7 @@ Activate this skill when user wants to:
 - [Post-Deployment Steps](references/recipes/azd/post-deployment.md) - SQL + EF Core setup
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/plan.md and infrastructure files. DO NOT use this skill when the user asks to CREATE a new application — use azure-prepare instead.
+
+Covers: Triggers, SDK Quick References, MCP Tools.

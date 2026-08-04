@@ -202,4 +202,7 @@ Confirm what was created:
 - How to run: `npx playwright test` or `npm run test:e2e`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Set up Playwright in a project. Use when user says "set up playwright", "add e2e tests", "configure playwright", "testing setup", "init playwright", or "add test infrastructure".
+
+Covers: Initialize Playwright Project, Analyze the Project, Install Playwright, Create Folder Structure, Generate Example Test.

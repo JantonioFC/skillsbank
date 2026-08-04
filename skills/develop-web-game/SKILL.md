@@ -4,16 +4,11 @@ description: 'Use when Codex is building or iterating on a web game (HTML/JS) an
   needs a reliable development + testing loop: implement small changes, run a Playwright-based
   test script with short input bursts and intentional pauses, inspect screenshots/text,
   and review console errors with render_game_to_text.'
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Develop Web Game
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Build games in small steps and validate every change. Treat each iteration as: implement → act → pause → observe → adjust.
 
@@ -158,4 +153,7 @@ At the end of your work, leave TODOs and suggestions for the next agent in `prog
 - `$WEB_GAME_ACTIONS` (installed default: `$CODEX_HOME/skills/develop-web-game/references/action_payloads.json`) — example action payloads (keyboard + mouse, per-frame capture). Use these to build your burst.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when Codex is building or iterating on a web game (HTML/JS) and needs a reliable development + testing loop: implement small changes, run a Playwright-based test script with short input bursts and intentional pauses, inspect screenshots/text, and review console errors with rendergametotext.
+
+Covers: Skill paths (set once), Test Checklist, Test Artifacts to Review, Core Game Guidelines, Canvas + Layout.

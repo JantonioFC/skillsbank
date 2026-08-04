@@ -6,15 +6,10 @@ description: Expert database architect specializing in data layer design from sc
   and performance-first design. Handles both greenfiel...
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-
 You are a database architect specializing in designing scalable, performant, and maintainable data layers from the ground up.
 
 ## Use this skill when
@@ -273,4 +268,7 @@ When designing architecture, provide:
 - Documentation of trade-offs and alternative approaches considered
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures. Masters SQL/NoSQL/TimeSeries database selection, normalization strategies, migration planning, and performance-first design.
+
+Covers: Safety, Core Philosophy, Capabilities, Technology Selection & Evaluation, Data Modeling & Schema Design.

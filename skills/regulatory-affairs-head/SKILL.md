@@ -17,16 +17,11 @@ triggers:
 - regulatory intelligence
 - submission planning
 - notified body
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Head of Regulatory Affairs
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Regulatory strategy development, submission management, and global market access for medical device organizations.
 
@@ -491,4 +486,7 @@ Submission Status Report — 2024-11-01
 | [risk-management-specialist](../risk-management-specialist/) | ISO 14971 risk management |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Senior Regulatory Affairs Manager for HealthTech and MedTech companies.
+
+Covers: Head of Regulatory Affairs, Regulatory Strategy Workflow, Workflow: New Product Regulatory Strategy, Regulatory Pathway Selection Matrix, Regulatory Strategy Document Template.

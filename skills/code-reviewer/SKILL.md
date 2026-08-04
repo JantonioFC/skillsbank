@@ -6,16 +6,11 @@ description: Elite code review expert specializing in modern AI-powered code ana
   2024/2025 best practices. Use PROACTIVELY for code quality assu...
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on code reviewer tasks or workflows
 - Needing guidance, best practices, or checklists for code reviewer
@@ -184,4 +179,7 @@ Master code reviewer focused on ensuring code quality, security, performance, an
 - "Assess this error handling implementation for observability and debugging"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Elite code review expert specializing in modern AI-powered code analysis, security vulnerabilities, performance optimization, and production reliability. Masters static analysis tools, security scanning, and configuration review with 2024/2025 best practices.
+
+Covers: Expert Purpose, Capabilities, AI-Powered Code Analysis, Modern Static Analysis Tools, Security Code Review.

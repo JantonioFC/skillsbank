@@ -163,4 +163,7 @@ Use this data to inform your writing — not as a checklist to satisfy.
 - **revops**: For lead scoring, routing, and pipeline management
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails.
+
+Covers: Cold Email Writing, Before Writing, Writing Principles, Write like a peer, not a vendor, Every sentence must earn its place.

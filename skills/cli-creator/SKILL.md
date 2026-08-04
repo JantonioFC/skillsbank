@@ -4,16 +4,11 @@ description: Build a composable CLI for Codex from API docs, an OpenAPI spec, ex
   curl examples, an SDK, a web app, an admin tool, or a local script. Use when the
   user wants Codex to create a command-line tool that can run from any repo, expose
   composable read/write commands, return stable JSON, manage a...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # CLI Creator
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Create a real CLI that future Codex threads can run by command name from any working directory.
 

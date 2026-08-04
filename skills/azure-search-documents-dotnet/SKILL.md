@@ -343,4 +343,7 @@ catch (RequestFailedException ex)
 | [references/semantic-search.md](references/semantic-search.md) | Semantic ranking, captions, answers |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search.
+
+Covers: Azure.Search.Documents (.NET), Environment Variables, For API key auth (not recommended for production), Authentication, Client Selection.

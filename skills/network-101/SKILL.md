@@ -352,4 +352,7 @@ smbclient //localhost/anonymous -N
 | Cannot connect remotely | Bind service to 0.0.0.0 instead of localhost |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "set up a web server", "configure HTTP or HTTPS", "perform SNMP enumeration", "configure SMB shares", "test network services", or needs guidance on configuring and testing network services for penetration testing labs.
+
+Covers: Configure HTTP Server (Port 80), Install Apache, Start service, Create test page, Verify service.

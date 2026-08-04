@@ -39,4 +39,7 @@ $ARGUMENTS
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications.
+
+Covers: AI Assistant Development, Context.

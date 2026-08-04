@@ -62,4 +62,7 @@ class MyInDB(MyResponse):
 3. Add corresponding TypeScript types
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create Pydantic models following the multi-model pattern with Base, Create, Update, Response, and InDB variants. Use when defining API request/response schemas, database models, or data validation in Python applications using Pydantic v2.
+
+Covers: Multi-Model Pattern, camelCase Aliases, Optional Update Fields, Database Document, Integration Steps.

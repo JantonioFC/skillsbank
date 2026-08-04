@@ -148,4 +148,7 @@ All deployment modes require:
 - **[capacity/SKILL.md](capacity/SKILL.md)** — Discover available capacity across regions and projects
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Unified Azure OpenAI model deployment skill with intelligent intent-based routing. Handles quick preset deployments, fully customized deployments (version/SKU/capacity/RAI policy), and capacity discovery across regions and projects.
+
+Covers: Intent Detection, Routing Rules, Multi-Mode Chaining, Project Selection (All Modes), Resolution Order.

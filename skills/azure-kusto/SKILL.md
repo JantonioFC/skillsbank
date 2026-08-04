@@ -235,4 +235,7 @@ Switch to Azure CLI when:
 - **Business Intelligence**: Clickstream analysis, user analytics, operational KPIs
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis. WHEN: KQL queries, Kusto database queries, Azure Data Explorer, ADX clusters, log analytics, time series data, IoT telemetry, anomaly detection.
+
+Covers: Azure Data Explorer (Kusto) Query & Analytics, Skill Activation Triggers, Query Patterns, Pattern 1: Basic Data Retrieval, Pattern 2: Aggregation Analysis.

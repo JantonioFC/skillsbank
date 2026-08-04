@@ -277,4 +277,7 @@ External resources:
 **Version**: 1.2.0
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "compress context", "summarize conversation history", "implement compaction", "reduce token usage", or mentions context compression, structured summarization, tokens-per-task optimization, or long-running agent sessions exceeding context limits.
+
+Covers: Context Compression Strategies, When to Activate, Core Concepts, Detailed Topics, Optimize for Tokens-Per-Task, Not Tokens-Per-Request.

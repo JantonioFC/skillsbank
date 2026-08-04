@@ -64,4 +64,7 @@ python3 scripts/interview_planner.py --role "Product Manager" --level mid --json
 4. Revisit loop design based on quality-of-hire outcomes.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "design interview processes", "create hiring pipelines", "calibrate interview loops", "generate interview questions", "design competency matrices", "analyze interviewer bias", "create scoring rubrics", "build question banks", or "optimize hiring sys.
+
+Covers: Core Capabilities, Generate a loop plan for a role and level, JSON output for integration with internal tooling, Recommended Workflow, Common Pitfalls.

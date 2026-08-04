@@ -623,4 +623,7 @@ Is the task a single focused change?
 | Verification Loop | ECC | 此仓库中的 `skills/verification-loop/` |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+自主Claude代码循环的模式与架构——从简单的顺序管道到基于RFC的多智能体有向无环图系统。.
+
+Covers: 顺序管道 (claude -p), daily-dev.sh — Sequential pipeline for a feature branch, Implement the feature, De-sloppify (cleanup pass), Verify.

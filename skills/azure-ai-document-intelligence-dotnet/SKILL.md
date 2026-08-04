@@ -341,4 +341,7 @@ catch (RequestFailedException ex)
 | Prebuilt Models | https://aka.ms/azsdk/formrecognizer/models |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Document Intelligence SDK for .NET. Extract text, tables, and structured data from documents using prebuilt and custom models.
+
+Covers: Azure.AI.DocumentIntelligence (.NET), Environment Variables, Authentication, Microsoft Entra ID (Recommended), API Key.

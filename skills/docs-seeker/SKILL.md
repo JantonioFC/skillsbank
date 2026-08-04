@@ -212,4 +212,7 @@ For comprehensive guides, examples, and best practices:
 - [Limitations](./references/limitations.md) — Boundaries and success criteria
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Searching internet for technical documentation using llms.txt standard, GitHub repositories via Repomix, and parallel exploration.
+
+Covers: Documentation Discovery & Analysis, Initial Discovery, llms.txt Processing, Repository Analysis, Fallback Research.

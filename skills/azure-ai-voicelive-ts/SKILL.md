@@ -469,4 +469,7 @@ const audioContext = new AudioContext({ sampleRate: 24000 });
 | API Reference | https://learn.microsoft.com/javascript/api/@azure/ai-voicelive |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice AI applications with bidirectional WebSocket communication.
+
+Covers: TypeScript users, Environment Variables, Optional: API key if not using Entra ID, Optional: Logging, Authentication.

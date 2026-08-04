@@ -403,4 +403,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 - **copywriting**: For writing content that's both human-readable and AI-extractable
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers.
+
+Covers: Before Starting, Current AI Visibility, Content & Domain, Competitive Landscape, How AI Search Works.

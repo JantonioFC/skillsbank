@@ -107,4 +107,7 @@ Output: `📊 Memory: {{n}}/200 lines | {{count}} rules | {{status_emoji}} {{sta
 - Topic files are fine — Claude creates them to keep MEMORY.md under 200 lines
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations.
+
+Covers: /si:status — Memory Health Dashboard, What It Reports, Locate all memory files, Auto-memory directory, List topic files.

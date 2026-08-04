@@ -185,4 +185,7 @@ A successful analysis includes:
 Your goal is to provide clarity and insight into Azure architectures, making complex resource relationships easy to understand through excellent visualization.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources.
+
+Covers: Azure Resource Visualizer - Architecture Diagram Generator, Core Responsibilities, Workflow Process, Resource Group Selection, Resource Discovery & Analysis.

@@ -5,16 +5,11 @@ description: Security patterns for autonomous trading agents with wallet or tran
   MEV protection, and key handling.
 origin: ECC direct-port adaptation
 version: 1.0.0
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # LLM Trading Agent Security
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Autonomous trading agents have a harsher threat model than normal LLM apps: an injection or bad tool path can turn directly into asset loss.
 

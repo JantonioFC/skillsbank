@@ -2,16 +2,11 @@
 name: kotlin-coroutines-flows
 description: Kotlin协程与Flow在Android和KMP中的模式——结构化并发、Flow操作符、StateFlow、错误处理和测试。
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Kotlin 协程与 Flow
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 适用于 Android 和 Kotlin 多平台项目的结构化并发模式、基于 Flow 的响应式流以及协程测试。
 
@@ -291,4 +286,7 @@ class FakeItemRepository : ItemRepository {
 关于协程在各层中的适用位置，请参阅技能：`android-clean-architecture`。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Kotlin协程与Flow在Android和KMP中的模式——结构化并发、Flow操作符、StateFlow、错误处理和测试。.
+
+Covers: Kotlin 协程与 Flow, SupervisorScope, Cold Flow —— 一次性操作到流的转换, 用于 UI 状态的 StateFlow, 用于一次性事件的 SharedFlow.

@@ -76,4 +76,7 @@ python3 scripts/detect_font.py deck.pptx --json
 Load `references/pptxgenjs-helpers.md` if you need the helper API summary or dependency details.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create and edit presentation slide decks (.pptx) with PptxGenJS, bundled layout helpers, and render/validation utilities.
+
+Covers: Bundled Resources, Authoring Rules, Recreate Or Edit Existing Slides, Validation Commands, Render slides to PNGs for review.

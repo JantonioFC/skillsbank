@@ -4,16 +4,11 @@ description: Use the Figma MCP server to fetch design context, screenshots, vari
   and assets from Figma, and to translate Figma nodes into production code. Trigger
   when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma
   MCP setup and troubleshooting.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Figma MCP
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Use the Figma MCP server for Figma-driven implementation. For setup and debugging details (env vars, config, verification), see `references/figma-mcp-config.md`.
 
@@ -52,4 +47,7 @@ These rules define how to translate Figma inputs into code for this project and 
 - `references/figma-tools-and-prompts.md` — tool catalog and prompt patterns for selecting frameworks/components and fetching metadata.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma MCP setup and troubleshooting.
+
+Covers: Figma MCP, Figma MCP Integration Rules, Required flow (do not skip), Implementation rules, Asset handling.

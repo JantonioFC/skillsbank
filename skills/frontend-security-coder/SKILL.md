@@ -5,16 +5,11 @@ description: Expert in secure frontend coding practices specializing in XSS prev
   security implementations or client-side security code reviews.
 metadata:
   model: sonnet
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on frontend security coder tasks or workflows
 - Needing guidance, best practices, or checklists for frontend security coder

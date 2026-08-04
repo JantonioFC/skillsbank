@@ -3,16 +3,11 @@ name: on-call-handoff-patterns
 description: Master on-call shift handoffs with context transfer, escalation procedures,
   and documentation. Use when transitioning on-call responsibilities, documenting
   shift summaries, or improving on-call processes.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # On-Call Handoff Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.
 
@@ -462,4 +457,7 @@ I'll be available on Slack until 17:00 today.
 - [Increment On-Call Issue](https://increment.com/on-call/)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master on-call shift handoffs with context transfer, escalation procedures, and documentation. Use when transitioning on-call responsibilities, documenting shift summaries, or improving on-call processes.
+
+Covers: Core Concepts, Handoff Components, Handoff Timing, Templates, Template 1: Shift Handoff Document.

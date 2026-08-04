@@ -223,4 +223,7 @@ Track and report:
 TDD implementation for: $ARGUMENTS
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when working with tdd workflows tdd cycle.
+
+Covers: Coverage Thresholds, Refactoring Triggers, Test Specification and Design, Requirements Analysis, Test Architecture Design.

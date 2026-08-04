@@ -496,4 +496,7 @@ def safe_file_access(base_dir, filename):
 | Cannot escalate to RCE | Check logs, PHP wrappers, file upload, session poisoning |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "test for directory traversal", "exploit path traversal vulnerabilities", "read arbitrary files through web applications", "find LFI vulnerabilities", or "access files outside web root".
+
+Covers: File Path Traversal Testing, Required Tools, Required Knowledge, Outputs and Deliverables, Understanding Path Traversal.

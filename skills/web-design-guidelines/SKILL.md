@@ -61,4 +61,7 @@ If no files specified, ask the user which files to review.
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".
+
+Covers: Web Interface Guidelines, Guidelines Source, Related Skills, Design Workflow.

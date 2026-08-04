@@ -6,16 +6,11 @@ description: Deploy applications and websites to Vercel. Use when the user reque
 metadata:
   author: vercel
   version: 3.0.0
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Deploy to Vercel
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Deploy any project to Vercel. **Always deploy as preview** (not production) unless the user explicitly asks for production.
 
@@ -305,4 +300,7 @@ the command with escalated permissions — want me to proceed?
 If `vercel login` or `vercel deploy` fails with authentication errors, fall back to the no-auth deploy script (claude.ai or Codex variant, depending on the environment).
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "create a preview deployment".
+
+Covers: Gather Project State, Check for a git remote, Check if the Vercel CLI is installed and authenticated, List available teams (if authenticated), Team selection.

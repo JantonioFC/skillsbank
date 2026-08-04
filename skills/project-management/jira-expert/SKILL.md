@@ -310,4 +310,7 @@ mcp jira create_filter --name "Open Blockers" --jql "priority = Blocker AND stat
 - **Atlassian Admin** (`project-management/atlassian-admin/`) — Permission and user management for Jira projects
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting, and all Jira features. Use for Jira project setup, configuration, advanced search, dashboard creation, workflow design, and technical Jira operations.
+
+Covers: Atlassian Jira Expert, Quick Start — Most Common Operations, Workflows, Project Creation, Workflow Design.

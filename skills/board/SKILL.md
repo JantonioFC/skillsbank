@@ -108,4 +108,7 @@ parent: null
 - **Frontmatter required** — every post has author, timestamp, channel
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Read, write, and browse the AgentHub message board for agent coordination.
+
+Covers: /hub:board — Message Board, What It Does, List Channels, Read Channel, Post Message.

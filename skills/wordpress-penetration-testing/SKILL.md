@@ -569,4 +569,7 @@ curl -s http://target.com/wp-json/wp/v2/settings | grep -i connector
    - Test credential storage encryption
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "pentest WordPress sites", "scan WordPress for vulnerabilities", "enumerate WordPress users, themes, or plugins", "exploit WordPress vulnerabilities", or "use WPScan". It provides comprehensive WordPress security assessment methodologies.
+
+Covers: Required Tools, Required Knowledge, Outputs and Deliverables, WordPress Discovery, Check for WordPress indicators.

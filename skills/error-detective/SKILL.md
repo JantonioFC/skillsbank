@@ -54,4 +54,5 @@ You are an error detective specializing in log analysis and pattern recognition.
 Focus on actionable findings. Include both immediate fixes and prevention strategies.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes.

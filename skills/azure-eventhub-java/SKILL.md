@@ -360,4 +360,7 @@ STORAGE_CONNECTION_STRING=<for-checkpointing>
 - "partition processing"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event streaming, high-throughput data ingestion, or building event-driven architectures.
+
+Covers: Azure Event Hubs SDK for Java, Client Creation, EventHubProducerClient, With DefaultAzureCredential, EventHubConsumerClient.

@@ -90,4 +90,7 @@ Documentation & Collaboration: `list_documents`, `get_document`, `search_documen
 - Performance: Remember Linear API rate limits; batch bulk operations, use specific filters, or cache frequent queries.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.
+
+Covers: Required Workflow, Set up Linear MCP (if not already configured), Step 1, Step 2, Step 3.

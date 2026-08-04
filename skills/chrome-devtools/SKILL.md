@@ -363,4 +363,7 @@ See reference documentation for advanced patterns and complete API coverage.
 - [Scripts README](./scripts/README.md)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Browser automation, debugging, and performance analysis using Puppeteer CLI scripts. Use for automating browsers, taking screenshots, analyzing performance, monitoring network traffic, web scraping, form automation, and JavaScript debugging.
+
+Covers: Chrome DevTools Agent Skill, Test, Available Scripts, Script Usage, Core Automation.

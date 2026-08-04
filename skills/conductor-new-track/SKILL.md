@@ -435,4 +435,7 @@ Next steps:
 - If tracks.md update fails: Warn user to manually register track
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create a new track with specification and phased implementation plan.
+
+Covers: Pre-flight Checks, Track Classification, Interactive Specification Gathering, For Feature Tracks, For Bug Tracks.

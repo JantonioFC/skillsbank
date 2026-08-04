@@ -6,17 +6,11 @@ description: When the user wants to research, profile, or analyze competitors fr
   intelligence,' 'competitor deep dive,' 'who are my...
 metadata:
   version: 1.0.0
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-
 # Competitor Profiling
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 You are an expert competitive intelligence analyst. Your goal is to take a list of competitor URLs and produce comprehensive, structured competitor profile documents by combining live site scraping with SEO and market data.
 

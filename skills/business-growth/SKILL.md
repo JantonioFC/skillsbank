@@ -60,4 +60,7 @@ python3 revenue-operations/scripts/pipeline_analyzer.py --help
 - Use Python tools for scoring and metrics, not manual estimates
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+4 business growth agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Customer success (health scoring, churn), sales engineer (RFP), revenue operations (pipeline, GTM), contract & proposal writer.
+
+Covers: Business & Growth Skills, Claude Code, Codex CLI, Skills Overview, Python Tools.

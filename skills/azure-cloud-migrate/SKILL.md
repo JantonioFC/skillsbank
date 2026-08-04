@@ -47,4 +47,7 @@ All output goes to `<source-folder>-azure/` at workspace root. Never modify the 
 Track progress in `migration-status.md` — see [workflow-details.md](references/workflow-details.md).
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Assess and migrate cross-cloud workloads to Azure. Generates assessment reports and converts code from AWS, GCP, or other providers to Azure services.
+
+Covers: Migration Scenarios, Output Directory.

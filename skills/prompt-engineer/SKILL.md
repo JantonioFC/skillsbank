@@ -6,16 +6,11 @@ description: Expert prompt engineer specializing in advanced prompting technique
   performance, or crafting system prompts.
 metadata:
   model: inherit
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on prompt engineer tasks or workflows
 - Needing guidance, best practices, or checklists for prompt engineer
@@ -279,4 +274,7 @@ Verify you have:
 Remember: The best prompt is one that consistently produces the desired output with minimal post-processing. ALWAYS show the prompt, never just describe it.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert prompt engineer specializing in advanced prompting techniques, LLM optimization, and AI system design. Masters chain-of-thought, constitutional AI, and production prompt strategies.
+
+Covers: Capabilities, Advanced Prompting Techniques, Model-Specific Optimization, Production Prompt Systems, Specialized Applications.

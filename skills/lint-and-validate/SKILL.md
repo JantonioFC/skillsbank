@@ -48,4 +48,7 @@ license: MIT
 | `scripts/type_coverage.py` | Type coverage analysis | `python scripts/type_coverage.py <project_path>` |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards.
+
+Covers: Lint and Validate Skill, Procedures by Ecosystem, The Quality Loop, Error Handling, Scripts.

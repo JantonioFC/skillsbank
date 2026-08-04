@@ -6,16 +6,11 @@ description: Build Unity games with optimized C# scripts, efficient rendering, a
   Use PROACTIVELY for Unity performance issues, game mechani...
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on unity developer tasks or workflows
 - Needing guidance, best practices, or checklists for unity developer
@@ -236,4 +231,7 @@ Expert Unity developer specializing in Unity 6 LTS, modern rendering pipelines, 
 Focus on performance-optimized, maintainable solutions using Unity 6 LTS features. Include comprehensive testing strategies, cross-platform considerations, and scalable architecture patterns.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build Unity games with optimized C# scripts, efficient rendering, and proper asset management. Masters Unity 6 LTS, URP/HDRP pipelines, and cross-platform deployment.
+
+Covers: Capabilities, Core Unity Mastery, Modern Rendering Pipelines, Performance Optimization Excellence, Advanced C# Game Programming.

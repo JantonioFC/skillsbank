@@ -3,16 +3,11 @@ name: rust-patterns
 description: Idiomatic Rust patterns, ownership, error handling, traits, concurrency,
   and best practices for building safe, performant applications.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Rust Development Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Idiomatic Rust patterns and best practices for building safe, performant, and maintainable applications.
 

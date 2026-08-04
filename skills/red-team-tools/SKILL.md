@@ -320,4 +320,7 @@ amass enum -d target.com | httpx | nuclei -t ~/nuclei-templates/
 | Tools not found | Install Go tools with `go install` |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "follow red team methodology", "perform bug bounty hunting", "automate reconnaissance", "hunt for XSS vulnerabilities", "enumerate subdomains", or needs security researcher techniques and tool configurations from top bug bounty hunters.
+
+Covers: Red Team Tools and Methodology, Project Tracking and Acquisitions, Create project structure, Find acquisitions using Crunchbase, Search manually for subsidiary companies.

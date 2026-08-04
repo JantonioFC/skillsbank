@@ -384,4 +384,7 @@ Detailed reference guides in `references/`:
 - [ ] Component documentation complete
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and developer handoff tools. Use for creating design systems, maintaining visual consistency, and facilitating design-dev collaboration.
+
+Covers: Trigger Terms, Workflows, Workflow 1: Generate Design Tokens, Workflow 2: Create Component System, Workflow 3: Responsive Design.

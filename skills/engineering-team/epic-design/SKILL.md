@@ -346,4 +346,7 @@ Checks: depth attributes, aria-hidden, reduced-motion, alt text, performance lim
 - **accessibility-auditor**: Use to verify full WCAG compliance after build. This skill includes basic reduced-motion handling.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build immersive, cinematic 2.5D interactive websites using scroll storytelling, parallax depth, text animations, and premium scroll effects — no WebGL required.
+
+Covers: Epic Design Skill, Before Starting, Your Mindset, How This Skill Works, Mode 1: Build from Scratch.

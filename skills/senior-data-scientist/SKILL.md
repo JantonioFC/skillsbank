@@ -228,4 +228,7 @@ python scripts/health_check.py
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+World-class senior data scientist skill specialising in statistical modeling, experiment design, causal inference, and predictive analytics.
+
+Covers: Core Workflows, --- Experiment checklist ---, Randomise at the user (not session) level to avoid leakage., Run for at least 1 full business cycle (typically 2 weeks)., Build a Feature Engineering Pipeline.

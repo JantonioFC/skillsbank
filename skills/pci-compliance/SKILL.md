@@ -3,16 +3,11 @@ name: pci-compliance
 description: Implement PCI DSS compliance requirements for secure handling of payment
   card data and payment systems. Use when securing payment processing, achieving PCI
   compliance, or implementing payment card security measures.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # PCI Compliance
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Master PCI DSS (Payment Card Industry Data Security Standard) compliance for secure payment processing and handling of cardholder data.
 
@@ -487,4 +482,7 @@ PCI_COMPLIANCE_CHECKLIST = {
 By minimizing systems that touch card data, you reduce compliance burden significantly.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Implement PCI DSS compliance requirements for secure handling of payment card data and payment systems. Use when securing payment processing, achieving PCI compliance, or implementing payment card security measures.
+
+Covers: PCI DSS Requirements (12 Core Requirements), Build and Maintain Secure Network, Protect Cardholder Data, Maintain Vulnerability Management, Implement Strong Access Control.

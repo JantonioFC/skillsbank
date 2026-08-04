@@ -1,16 +1,11 @@
 ---
 name: runbook-generator
 description: Runbook Generator
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Runbook Generator
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 **Tier:** POWERFUL  
 **Category:** Engineering  

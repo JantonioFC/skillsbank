@@ -84,4 +84,7 @@ Detect primary language from file extensions and build files, then select a comp
 JSON code block following the catalogue schema with `items[].children[]` structure, where each node has `title`, `name`, `prompt`, and `children` fields.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyzes code repositories and generates hierarchical documentation structures with onboarding guides. Use when the user wants to create a wiki, generate documentation, map a codebase structure, or understand a project's architecture at a high level.
+
+Covers: When to Activate, Source Repository Resolution (MUST DO FIRST), Procedure, Onboarding Guide Architecture, Language Detection.

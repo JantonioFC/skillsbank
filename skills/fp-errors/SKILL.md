@@ -863,6 +863,3 @@ All Either operations have TaskEither equivalents:
 5. **Match at the end** - Use `fold` to handle both cases when you're ready to act
 
 The payoff: TypeScript tracks your errors, no more forgotten try/catch, clear control flow, and composable error handling.
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

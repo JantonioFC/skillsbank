@@ -487,4 +487,7 @@ class BenchmarkRunner:
 - **Metric Mismatch**: Using metrics not aligned with business goals
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or establishing evaluation frameworks.
+
+Covers: Core Evaluation Types, Automated Metrics, Human Evaluation, LLM-as-Judge, Define evaluation suite.

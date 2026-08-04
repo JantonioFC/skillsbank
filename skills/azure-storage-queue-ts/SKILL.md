@@ -528,4 +528,7 @@ import {
 | All message operations | ✅ | ✅ |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues.
+
+Covers: Environment Variables, OR connection string, Authentication, DefaultAzureCredential (Recommended), Connection String.

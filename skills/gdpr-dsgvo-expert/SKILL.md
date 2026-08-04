@@ -271,4 +271,7 @@ All rights must be fulfilled within **30 days** (extendable to 90 for complex re
 | Scoring | § 31 | Explainable algorithms |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA documentation, tracks data subject rights requests.
+
+Covers: Tools, GDPR Compliance Checker, Scan a project directory, DPIA Generator, Get input template.

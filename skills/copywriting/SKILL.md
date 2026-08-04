@@ -257,4 +257,7 @@ For headlines and CTAs, provide 2-3 options:
 - **ab-test-setup**: To test copy variations
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages.
+
+Covers: Before Writing, Page Purpose, Audience, Context, Copywriting Principles.

@@ -157,4 +157,7 @@ Culture Architect, Company OS, Founder Coach, Strategic Alignment, Change Manage
 - `chief-of-staff/SKILL.md` — routing matrix for all 28 skills
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+10 C-level advisory agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, Executive Mentor.
+
+Covers: C-Level Advisory Ecosystem, Company Context, Chief of Staff Routing Matrix, Invoking a Specific Role Directly, Example: Strategic Question.

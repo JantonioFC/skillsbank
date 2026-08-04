@@ -121,4 +121,7 @@ license: MIT
 > **Remember:** 2D is about clarity. Every pixel should communicate.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+2D game development principles. Sprites, tilemaps, physics, camera.
+
+Covers: 2D Game Development, Sprite Systems, Sprite Organization, Animation Principles, Tilemap Design.

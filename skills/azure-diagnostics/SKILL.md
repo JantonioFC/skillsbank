@@ -150,4 +150,7 @@ az monitor activity-log list -g RG --max-events 20
 - [Function Apps Troubleshooting](references/functions/README.md)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Debug Azure production issues on Azure using AppLens, Azure Monitor, resource health, and safe triage.
+
+Covers: Triggers, Quick Diagnosis Flow, Troubleshooting Guides by Service, Routing, Common Diagnostic Commands.

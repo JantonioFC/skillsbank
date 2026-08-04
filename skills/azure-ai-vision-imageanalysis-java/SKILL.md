@@ -293,4 +293,7 @@ Caption and Dense Captions require GPU-supported regions. Check [supported regio
 - "detect people image"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build image analysis applications with Azure AI Vision SDK for Java. Use when implementing image captioning, OCR text extraction, object detection, tagging, or smart cropping.
+
+Covers: Azure AI Vision Image Analysis SDK for Java, Client Creation, With API Key, Async Client, With DefaultAzureCredential.

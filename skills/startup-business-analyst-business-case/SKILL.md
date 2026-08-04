@@ -489,4 +489,7 @@ What materials do you have?
 - Keep executive summary to 2 pages max
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generate comprehensive investor-ready business case document with market, solution, financials, and strategy.
+
+Covers: Business Case Generator, What This Command Does, Instructions for Claude, Gather Context, Activate Relevant Skills.

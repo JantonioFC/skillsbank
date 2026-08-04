@@ -95,4 +95,7 @@ See the `azure-communication-callautomation-java` skill for:
 - "migrate callingserver to callautomation"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Communication Services CallingServer (legacy) Java SDK. Note - This SDK is deprecated.
+
+Covers: Azure Communication CallingServer (Java) - DEPRECATED, Migration to Call Automation, Class Name Changes, Legacy Client Creation, Legacy Recording.

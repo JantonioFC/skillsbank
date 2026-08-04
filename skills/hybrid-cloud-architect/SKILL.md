@@ -168,4 +168,7 @@ Expert hybrid cloud architect with deep expertise in designing, implementing, an
 - "Create FinOps strategy for multi-cloud cost optimization and governance"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware). Masters hybrid connectivity, workload placement optimization, edge computing, and cross-cloud automation.
+
+Covers: Capabilities, Multi-Cloud Platform Expertise, OpenStack Deep Expertise, Hybrid Connectivity & Networking, Advanced Infrastructure as Code.

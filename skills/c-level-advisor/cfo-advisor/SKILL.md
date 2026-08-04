@@ -144,4 +144,7 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Financial leadership for startups and scaling companies. Financial modeling, unit economics, fundraising strategy, cash management, and board financial packages.
+
+Covers: Keywords, Per-cohort LTV, per-channel CAC, payback periods, Dilution modeling, cap table projections, round scenarios, Key Questions (ask these first), Core Responsibilities.

@@ -915,4 +915,7 @@ const validatePassword = all(
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Validation patterns using fp-ts with error accumulation, form validation, and API input validation.
+
+Covers: fp-ts Validation Patterns, Core Concepts, Either for Validation, Fail-Fast vs Error Accumulation, Error Accumulation Pattern.

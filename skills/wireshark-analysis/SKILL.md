@@ -7,16 +7,11 @@ description: This skill should be used when the user asks to "analyze network tr
 metadata:
   author: zebbern
   version: '1.1'
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Wireshark Network Traffic Analysis
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 
@@ -507,4 +502,7 @@ File > Export Packet Dissections   # Export as text/CSV
 - Some modern ciphers cannot be decrypted passively
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "analyze network traffic with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow TCP/UDP streams", "detect network anomalies", "investigate suspicious traffic", or "perform protocol analysis".
+
+Covers: Wireshark Network Traffic Analysis, Required Tools, Technical Requirements, Use Cases, Primary Outputs.

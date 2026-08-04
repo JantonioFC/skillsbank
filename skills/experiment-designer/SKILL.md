@@ -106,6 +106,3 @@ python3 scripts/sample_size_calculator.py \
   --alpha 0.05 \
   --power 0.8
 ```
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

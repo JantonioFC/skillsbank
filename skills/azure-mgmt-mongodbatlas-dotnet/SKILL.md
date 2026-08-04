@@ -359,4 +359,7 @@ var response = await orgResource.GetAsync();
 - [Azure SDK for .NET](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/mongodbatlas)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Manage MongoDB Atlas Organizations as Azure ARM resources using Azure.ResourceManager.MongoDBAtlas SDK. Use when creating, updating, listing, or deleting MongoDB Atlas organizations through Azure Marketplace integration.
+
+Covers: Azure.ResourceManager.MongoDBAtlas SDK, Package Information, Important Scope Limitation, Authentication, Core Types.

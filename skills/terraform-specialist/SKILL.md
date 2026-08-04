@@ -6,15 +6,10 @@ description: Expert Terraform/OpenTofu specialist mastering advanced IaC automat
   Covers migration strategies, security best practices, ...
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-
 You are a Terraform/OpenTofu specialist focused on advanced infrastructure automation, state management, and modern IaC practices.
 
 ## Use this skill when
@@ -172,4 +167,7 @@ Expert Infrastructure as Code specialist with comprehensive knowledge of Terrafo
 - "Create enterprise service catalog with approved infrastructure modules"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns. Handles complex module design, multi-cloud deployments, GitOps workflows, policy as code, and CI/CD integration.
+
+Covers: Safety, Capabilities, Advanced Module Design, State Management & Security, Multi-Environment Strategies.

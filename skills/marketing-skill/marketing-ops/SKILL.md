@@ -194,4 +194,7 @@ All output passes quality verification:
 - **campaign-analytics**: For measuring outcomes of orchestrated campaigns.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating across content, SEO, CRO, channels, and analytics.
+
+Covers: Before Starting, How This Skill Works, Mode 1: Route a Question, Mode 2: Campaign Orchestration, Mode 3: Marketing Audit.

@@ -76,4 +76,7 @@ app.post('/api/users',
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Implement the minimal code needed to make failing tests pass in the TDD green phase.
+
+Covers: Green Phase: Simple function, Refactor: Class-based view, Refactor: Generic view, Express Patterns, Safety.

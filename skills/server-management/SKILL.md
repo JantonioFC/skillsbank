@@ -164,4 +164,7 @@ When something's wrong:
 > **Remember:** A well-managed server is boring. That's the goal.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions.
+
+Covers: Process Management Principles, Tool Selection, Process Management Goals, Monitoring Principles, What to Monitor.

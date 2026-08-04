@@ -5,16 +5,11 @@ description: Security checklist for Solidity AMM contracts, liquidity pools, and
   slippage, admin controls, and integer math.
 origin: ECC direct-port adaptation
 version: 1.0.0
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # DeFi AMM Security
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Critical vulnerability patterns and hardened implementations for Solidity AMM contracts, LP vaults, and swap functions.
 

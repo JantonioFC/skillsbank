@@ -131,4 +131,7 @@ license: MIT
 > **Remember:** SEO is a long-term game. Quality content + technical excellence + patience = results.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+SEO fundamentals, E-E-A-T, Core Web Vitals, and Google algorithm principles.
+
+Covers: E-E-A-T Framework, Core Web Vitals, Technical SEO Principles, Site Structure, Performance.

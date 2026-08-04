@@ -224,4 +224,7 @@ const unsubscribe = useCounterStore.subscribe(
 zustand, state management, react, store, persist, middleware
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Zustand 5 state management patterns. Trigger: When managing React state with Zustand.
+
+Covers: Basic Store, Persist Middleware, Selectors (Zustand 5), Async Actions, Slices Pattern.

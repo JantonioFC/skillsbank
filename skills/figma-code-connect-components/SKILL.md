@@ -354,4 +354,7 @@ For more information about Code Connect:
 - [Figma MCP Server Tools and Prompts](https://developers.figma.com/docs/figma-mcp-server/tools-and-prompts/)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Connects Figma design components to code components using Code Connect mapping tools.
+
+Covers: Skill Boundaries, Required Workflow, Get Code Connect Suggestions, Scan Codebase for Matching Components, Present Matches to User.

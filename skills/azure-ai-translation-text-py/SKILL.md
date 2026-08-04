@@ -279,4 +279,7 @@ async def translate_text():
 7. **Include alignment** for applications needing word mapping
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Text Translation SDK for real-time text translation, transliteration, language detection, and dictionary lookup. Use for translating text content in applications.
+
+Covers: Azure AI Text Translation SDK for Python, Environment Variables, Or use custom endpoint, Authentication, API Key with Region.

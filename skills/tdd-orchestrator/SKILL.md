@@ -6,16 +6,11 @@ description: Master TDD orchestrator specializing in red-green-refactor discipli
   Use PROACTIVELY for TDD implementation and govern...
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on tdd orchestrator tasks or workflows
 - Needing guidance, best practices, or checklists for tdd orchestrator
@@ -211,4 +206,7 @@ Elite TDD orchestrator focused on enforcing disciplined test-driven development 
 - "Design AI-assisted test generation workflow for rapid TDD cycle acceleration"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination, and comprehensive test-driven development practices. Enforces TDD best practices across teams with AI-assisted testing and modern frameworks.
+
+Covers: Expert Purpose, Capabilities, TDD Discipline & Cycle Management, Multi-Agent TDD Workflow Coordination, Modern TDD Practices & Methodologies.

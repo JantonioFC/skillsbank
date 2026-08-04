@@ -332,4 +332,7 @@ npm install -g vercel
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. "deploy to vercel", "set up vercel", "add environment variables to vercel".
+
+Covers: Locate the Vercel Token, A) VERCELTOKEN is already set in the environment, B) Token is in a .env file under VERCELTOKEN, C) Token is in a .env file under a different name, D) No token found — ask the user.

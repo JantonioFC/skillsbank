@@ -83,4 +83,7 @@ python {skill_path}/scripts/session_manager.py --update {session-id} --state eva
    - Or `/hub:merge {session-id} --agent {winner}` to be explicit
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Evaluate and rank agent results by metric or LLM judge for an AgentHub session.
+
+Covers: /hub:eval — Evaluate Agent Results, What It Does, Metric Mode (eval command configured), LLM Judge Mode (no eval command, or --judge flag), Hybrid Mode.

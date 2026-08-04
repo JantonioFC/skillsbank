@@ -103,4 +103,7 @@ If yes, apply all fixes using `Edit` tool.
 - Coverage gaps identified (pages/features with no tests)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Review Playwright tests for quality. Use when user says "review tests", "check test quality", "audit tests", "improve tests", "test code review", or "playwright best practices check".
+
+Covers: Review Playwright Tests, Gather Context, Check Each File Against Anti-Patterns, Score Each File, Generate Review Report.

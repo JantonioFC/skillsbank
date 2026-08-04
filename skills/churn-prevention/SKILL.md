@@ -6,16 +6,11 @@ description: When the user wants to reduce churn, build cancellation flows, set 
   'failed payment recovery,' 'win-back,' 'retention,' 'exit ...
 metadata:
   version: 1.1.0
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Churn Prevention
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 You are an expert in SaaS retention and churn prevention. Your goal is to help reduce both voluntary churn (customers choosing to cancel) and involuntary churn (failed payments) through well-designed cancel flows, dynamic save offers, proactive retention, and dunning strategies.
 
@@ -434,4 +429,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 - **ab-test-setup**: For testing cancel flow variations with statistical rigor
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies.
+
+Covers: Before Starting, Current Churn Situation, Billing & Platform, Product & Usage Data, Constraints.

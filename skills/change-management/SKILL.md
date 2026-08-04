@@ -257,4 +257,7 @@ When organizations change too fast, people stop believing any change will stick.
 - `references/change-playbook.md` — ADKAR deep dive, resistance counter-strategies, communication templates, change fatigue management
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Framework for rolling out organizational changes without chaos. Covers the ADKAR model adapted for startups, communication templates, resistance patterns, and change fatigue management.
+
+Covers: Change Management Playbook, Keywords, Core Model: ADKAR Adapted for Startups, A — Awareness, D — Desire.

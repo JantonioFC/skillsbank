@@ -244,4 +244,7 @@ Before deploying:
 > **Remember:** Every deployment is a risk. Minimize risk through preparation, not speed.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification.
+
+Covers: ⚠️ How to Use This Skill, Platform Selection, Decision Tree, Each Platform Has Different Procedures, Pre-Deployment Principles.

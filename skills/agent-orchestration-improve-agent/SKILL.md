@@ -352,4 +352,7 @@ Establish regular improvement cadence:
 Remember: Agent optimization is an iterative process. Each cycle builds upon previous learnings, gradually improving performance while maintaining stability and safety.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration.
+
+Covers: Agent Performance Optimization Workflow, Safety, Performance Analysis and Baseline Metrics, 1 Gather Performance Data, 2 User Feedback Pattern Analysis.

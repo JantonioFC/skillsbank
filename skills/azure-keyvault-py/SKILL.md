@@ -253,4 +253,7 @@ except HttpResponseError as e:
 8. **Use async clients** for high-throughput scenarios
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage.
+
+Covers: Azure Key Vault SDK for Python, Secrets, Keys (cryptographic operations), Certificates, All.

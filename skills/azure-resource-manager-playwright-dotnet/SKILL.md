@@ -5,16 +5,11 @@ description: 'Azure Resource Manager SDK for Microsoft Playwright Testing in .NE
   checking name availability, and managing workspace quotas via Azure Resource Manager.
   NOT for running Playwright tests - use Azure.Developer.M...'
 package: Azure.ResourceManager.Playwright
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Azure.ResourceManager.Playwright (.NET)
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Management plane SDK for provisioning and managing Microsoft Playwright Testing workspaces via Azure Resource Manager.
 
@@ -306,4 +301,7 @@ Environment.SetEnvironmentVariable("PLAYWRIGHT_SERVICE_URL", serviceUrl.ToString
 - [Quickstart: Run Playwright Tests at Scale](https://learn.microsoft.com/en-us/azure/playwright-testing/quickstart-run-end-to-end-tests)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Resource Manager SDK for Microsoft Playwright Testing in .NET. Use for MANAGEMENT PLANE operations: creating/managing Playwright Testing workspaces, checking name availability, and managing workspace quotas via Azure Resource Manager.
+
+Covers: Azure.ResourceManager.Playwright (.NET), Environment Variables, For service principal auth (optional), Authentication, Resource Hierarchy.

@@ -353,4 +353,7 @@ import {
 7. **RBAC roles** - `App Configuration Data Reader` for read-only access
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build applications using Azure App Configuration SDK for JavaScript (@azure/app-configuration). Use when working with configuration settings, feature flags, Key Vault references, dynamic refresh, or centralized configuration management.
+
+Covers: Azure App Configuration SDK for TypeScript, Low-level CRUD SDK, High-level provider (recommended for apps), Feature flag management, Environment Variables.

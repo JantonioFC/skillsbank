@@ -111,4 +111,7 @@ obsidian dev:mobile on
 Run `obsidian help` to see additional developer commands including CDP and debugger controls.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. Also supports plugin and theme development with commands to reload plugins, run JavaScript, capture errors, take screenshots, and inspect the DOM.
+
+Covers: Command reference, Syntax, File targeting, Vault targeting, Common patterns.

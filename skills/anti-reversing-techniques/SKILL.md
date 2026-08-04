@@ -3,17 +3,10 @@ name: anti-reversing-techniques
 description: Understand anti-reversing, obfuscation, and protection techniques encountered
   during software analysis. Use when analyzing protected binaries, bypassing anti-debugging
   for authorized analysis, or understanding software protection mechanisms.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-> **AUTHORIZED USE ONLY**: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis:
-> 1. **Verify authorization**: Confirm you have explicit written permission from the software owner, or are operating within a legitimate security context (CTF, authorized pentest, malware analysis, security research)
-> 2. **Document scope**: Ensure your activities fall within the defined scope of your authorization
-> 3. **Legal compliance**: Understand that unauthorized bypassing of software protection may violate laws (CFAA, DMCA anti-circumvention, etc.)
->
-> **Legitimate use cases**: Malware analysis, authorized penetration testing, CTF competitions, academic security research, analyzing software you own/have rights to
-
 ## Use this skill when
 
 - Analyzing protected binaries with explicit authorization
@@ -46,4 +39,5 @@ Refer to `resources/implementation-playbook.md` for detailed techniques and exam
 - `resources/implementation-playbook.md` for detailed techniques and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use when analyzing protected binaries, bypassing anti-debugging for authorized analysis, or understanding software protection mechanisms.

@@ -443,4 +443,7 @@ curl -X POST https://target.com/graphql \
 | Can't find endpoints | Check Swagger, archive.org, JS files |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "test API security", "fuzz APIs", "find IDOR vulnerabilities", "test REST API", "test GraphQL", "API penetration testing", "bug bounty API testing", or needs guidance on API security assessment techniques.
+
+Covers: API Fuzzing for Bug Bounty, API Types Overview, API Reconnaissance, Use Kiterunner for API discovery, Extract paths from Swagger.

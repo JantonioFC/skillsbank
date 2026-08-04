@@ -291,4 +291,7 @@ import type {
 5. **Regional endpoints** - Use regional endpoints for lower latency
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build translation applications using Azure Translation SDKs for JavaScript (@azure-rest/ai-translation-text, @azure-rest/ai-translation-document). Use when implementing text translation, transliteration, language detection, or batch document translation.
+
+Covers: Azure Translation SDKs for TypeScript, Text translation, Document translation, Environment Variables, Text Translation Client.

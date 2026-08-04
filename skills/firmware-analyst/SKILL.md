@@ -326,4 +326,7 @@ sudo chroot squashfs-root /usr/bin/qemu-arm-static /bin/httpd
 6. **Document findings**: Clear reporting with remediation guidance
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering. Masters firmware extraction, analysis, and vulnerability research for routers, IoT devices, automotive systems, and industrial controllers.
+
+Covers: Download from vendor, Extract from device via debug interface, UART console access, Copy firmware partition, Extract via network protocols.

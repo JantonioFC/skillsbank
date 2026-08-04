@@ -62,4 +62,7 @@ After a preferred theme is selected:
 To handle cases where none of the existing themes work for an artifact, create a custom theme. Based on provided inputs, generate a new theme similar to the ones above. Give the theme a similar name describing what the font/color combinations represent. Use any basic description provided to choose appropriate colors/fonts. After generating the theme, show it for review and verification. Following that, apply the theme as described above.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc.
+
+Covers: Theme Factory Skill, Usage Instructions, Themes Available, Theme Details, Application Process.

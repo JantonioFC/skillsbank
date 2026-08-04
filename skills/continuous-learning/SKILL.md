@@ -122,4 +122,7 @@ Homunculus v2 takes a more sophisticated approach:
 See: `docs/continuous-learning-v2-spec.md` for full spec.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Automatically extract reusable patterns from Claude Code sessions and save them as learned skills for future use.
+
+Covers: Continuous Learning Skill, When to Activate, Pattern Types, Hook Setup, Why Stop Hook?.

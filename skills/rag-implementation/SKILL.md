@@ -425,4 +425,7 @@ def evaluate_rag_system(qa_chain, test_cases):
 - **Hallucinations**: Improve grounding prompt, add verification step
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases.
+
+Covers: Safety, Core Components, Vector Databases, Embeddings, Retrieval Strategies.

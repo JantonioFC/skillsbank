@@ -151,4 +151,7 @@ judge:
 - Repository: [github.com/joaquinhuigomez/agent-eval](https://github.com/joaquinhuigomez/agent-eval)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics.
+
+Covers: Agent Eval Skill, When to Activate, pinned to v0.1.0 — latest stable commit, Core Concepts, YAML Task Definitions.

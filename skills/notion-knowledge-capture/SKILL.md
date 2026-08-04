@@ -60,4 +60,7 @@ After successful login, the user will have to restart codex. You should finish y
 - `examples/` — capture patterns in practice (e.g., `decision-capture.md`, `how-to-guide.md`, `conversation-to-faq.md`).
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.
+
+Covers: Define the capture, Locate destination, Extract and structure, Link and surface, References and examples.

@@ -246,4 +246,7 @@ After gathering information, create `.agents/product-marketing-context.md` with 
 - **Skip what doesn't apply**: Not every product needs all sections (e.g., Personas for B2C)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to create or update their product marketing context document.
+
+Covers: Check for Existing Context, Gather Information, Sections to Capture, Product Overview, Target Audience.

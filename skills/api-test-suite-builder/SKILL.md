@@ -2,16 +2,11 @@
 name: api-test-suite-builder
 description: Use when the user asks to generate API tests, create integration test
   suites, test REST endpoints, or build contract tests.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # API Test Suite Builder
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 **Tier:** POWERFUL
 **Category:** Engineering

@@ -4,16 +4,11 @@ description: Google Workspace administration via the gws CLI. Install, authentic
   and automate Gmail, Drive, Sheets, Calendar, Docs, Chat, and Tasks. Run security
   audits, execute 43 built-in recipes, and use 10 persona bundles. Use for Google
   Workspace admin, gws CLI setup, Gmail automation, Drive manageme...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Google Workspace CLI
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Expert guidance and automation for Google Workspace administration using the open-source `gws` CLI. Covers installation, authentication, 18+ service APIs, 43 built-in recipes, and 10 persona bundles for role-based workflows.
 
@@ -383,4 +378,7 @@ python3 scripts/auth_setup_guide.py --scopes gmail,drive,calendar,sheets
 | Tasks | `tasks` |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Google Workspace administration via the gws CLI. Install, authenticate, and automate Gmail, Drive, Sheets, Calendar, Docs, Chat, and Tasks.
+
+Covers: Check Installation, Verify gws is installed and authenticated, Send an Email, List Drive Files, npm (recommended).

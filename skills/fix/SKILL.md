@@ -114,4 +114,7 @@ Suggest:
 - Prevention recommendation
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Fix failing or flaky Playwright tests. Use when user says "fix test", "flaky test", "test failing", "debug test", "test broken", "test passes sometimes", or "intermittent failure".
+
+Covers: Fix Failing or Flaky Tests, Reproduce the Failure, Capture Trace, Categorize the Failure, Apply Targeted Fix.

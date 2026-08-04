@@ -340,4 +340,7 @@ If invoked with `--json`:
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Display project status, active tracks, and next actions.
+
+Covers: Pre-flight Checks, Data Collection, Project Information, Tracks Overview, Detailed Track Analysis.

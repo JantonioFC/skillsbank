@@ -3,16 +3,11 @@ name: sql-database-assistant
 description: Use when the user asks to write SQL queries, optimize database performance,
   generate migrations, explore database schemas, or work with ORMs like Prisma, Drizzle,
   TypeORM, or SQLAlchemy.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # SQL Database Assistant - POWERFUL Tier Skill
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 
@@ -466,4 +461,7 @@ sqlite3 dbname ".backup backup.db"
 | **observability-platform** | Query performance monitoring, slow query alerts |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when the user asks to write SQL queries, optimize database performance, generate migrations, explore database schemas, or work with ORMs like Prisma, Drizzle, TypeORM, or SQLAlchemy.
+
+Covers: SQL Database Assistant - POWERFUL Tier Skill, Core Capabilities, Tools, Natural Language to SQL, Translation Patterns.

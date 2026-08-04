@@ -498,4 +498,7 @@ catch (RequestFailedException ex)
 | Pricing | https://azure.microsoft.com/pricing/details/azure-maps/ |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather.
+
+Covers: Azure Maps (.NET), Search (geocoding, reverse geocoding), Routing (directions, route matrix), Rendering (map tiles, static images), Geolocation (IP to location).

@@ -304,4 +304,7 @@ import ContentSafetyClient, {
 5. **Handle edge cases** - Empty text, very long text, unsupported image formats
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyze text and images for harmful content using Azure AI Content Safety (@azure-rest/ai-content-safety). Use when moderating user-generated content, detecting hate speech, violence, sexual content, or self-harm, or managing custom blocklists.
+
+Covers: Azure AI Content Safety REST SDK for TypeScript, Environment Variables, Authentication, API Key, DefaultAzureCredential.

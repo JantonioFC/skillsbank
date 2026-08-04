@@ -1,16 +1,11 @@
 ---
 name: full-stack-orchestration-full-stack-feature
 description: Use when working with full stack orchestration full stack feature
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on full stack orchestration full stack feature tasks or workflows
 - Needing guidance, best practices, or checklists for full stack orchestration full stack feature
@@ -142,4 +137,7 @@ Orchestrate full-stack feature development across backend, frontend, and infrast
 Feature to implement: $ARGUMENTS
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when working with full stack orchestration full stack feature.
+
+Covers: Architecture & Design Foundation, Database Architecture Design, Backend Service Architecture, Frontend Component Architecture, Parallel Implementation.

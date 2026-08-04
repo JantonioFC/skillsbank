@@ -320,4 +320,7 @@ For tracking, see also: [ga4.md](../../tools/integrations/ga4.md), [segment.md](
 - **page-cro**: For optimizing post-click conversion rates
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms.
+
+Covers: Before Starting, Campaign Goals, Product & Offer, Audience, Current State.

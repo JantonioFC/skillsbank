@@ -5,16 +5,11 @@ description: Build Azure Cosmos DB NoSQL services with Python/FastAPI following 
   + emulator), service layer classes with CRUD operations, partition key strategies,
   parameterized queries, or TDD pattern...
 package: azure-cosmos
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Cosmos DB Service Implementation
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles.
 
@@ -249,4 +244,7 @@ async def test_get_project_by_id_returns_project(mock_cosmos_container):
 - Minimal document conversion overhead
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build Azure Cosmos DB NoSQL services with Python/FastAPI following production-grade patterns.
+
+Covers: Cosmos DB Service Implementation, Environment Variables, For emulator only (not production), Authentication, Architecture Overview.

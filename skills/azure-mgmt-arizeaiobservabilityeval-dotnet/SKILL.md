@@ -232,4 +232,7 @@ var data = await org.GetAsync();
 - [Arize AI](https://arize.com/)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Resource Manager SDK for Arize AI Observability and Evaluation\ \ (.NET). Use when managing Arize AI organizations \non Azure via Azure Marketplace,\ \ creating/updating/deleting Arize resources, or integrating Arize ML observability\ \ \ninto .NET applications.
+
+Covers: Azure.ResourceManager.ArizeAIObservabilityEval, Package Info, Environment Variables, Authentication, Create an Arize AI Organization.

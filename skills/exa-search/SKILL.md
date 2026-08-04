@@ -188,4 +188,7 @@ deep_researcher_check(researchId: "<id>")
 * `market-research` — 带有决策框架的业务导向研究
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+通过Exa MCP进行神经搜索，适用于网络、代码和公司研究。当用户需要网络搜索、代码示例、公司情报、人员查找，或使用Exa神经搜索引擎进行AI驱动的深度研究时使用。.
+
+Covers: MCP 要求, web\search\exa, web\search\advanced\exa, get\code\context\exa, company\research\exa.

@@ -5,16 +5,11 @@ description: Pragmatic coding standards - concise, direct, no over-engineering, 
 allowed-tools: Read, Write, Edit
 version: 2.0
 priority: CRITICAL
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Clean Code - Pragmatic AI Coding Standards
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 > **CRITICAL SKILL** - Be **concise, direct, and solution-focused**.
 
@@ -208,4 +203,7 @@ File to edit: UserService.ts
 > 🔴 **Rule:** Always READ output → SUMMARIZE → ASK → then fix.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments.
+
+Covers: Clean Code - Pragmatic AI Coding Standards, Core Principles, Naming Rules, Function Rules, Code Structure.

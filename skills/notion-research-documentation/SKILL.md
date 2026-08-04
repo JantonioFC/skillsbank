@@ -63,4 +63,7 @@ After successful login, the user will have to restart codex. You should finish y
 - `examples/` — end-to-end walkthroughs (e.g., `competitor-analysis.md`, `technical-investigation.md`, `market-research.md`, `trip-planning.md`).
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.
+
+Covers: Gather sources, Select the format, Synthesize, Create the doc, Finalize & handoff.

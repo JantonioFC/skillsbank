@@ -166,4 +166,7 @@ curl -X POST https://api.nutrient.io/build \
 - [npm MCP サーバー](https://www.npmjs.com/package/@nutrient-sdk/dws-mcp-server)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Nutrient DWS API を使用してドキュメントの処理、変換、OCR、抽出、編集、署名、フォーム入力を行います。PDF、DOCX、XLSX、PPTX、HTML、画像に対応しています。.
+
+Covers: DOCX から PDF へ, PDF から DOCX へ, HTML から PDF へ, テーブルを Excel として抽出, スキャンされたドキュメントの OCR.

@@ -335,4 +335,7 @@ AI SEO is still a young field. Be honest about confidence levels. What gets cite
 - **content-strategy**: Use when deciding which topics and queries to target for AI visibility. Strategy first, then optimize.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Optimize content to get cited by AI search engines — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini, Copilot. Use when you want your content to appear in AI-generated answers, not just ranked in blue links.
+
+Covers: Before Starting, What you need, How This Skill Works, Mode 1: AI Visibility Audit, Mode 2: Content Optimization.

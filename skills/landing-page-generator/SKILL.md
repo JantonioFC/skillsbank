@@ -203,4 +203,7 @@ Inject `FAQPage` JSON-LD via `<script type="application/ld+json" dangerouslySetI
 - **Competitive Teardown** (`product-team/competitive-teardown/`) — Competitive positioning informs landing page messaging and differentiation
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generates high-converting landing pages as complete Next.js/React (TSX) components with Tailwind CSS. Creates hero sections, feature grids, pricing tables, FAQ accordions, testimonial blocks, and CTA sections using proven copy frameworks (PAS, AIDA, BAB).
+
+Covers: Core Capabilities, Generation Workflow, Triggering This Skill, Design Style Reference, Copy Frameworks.

@@ -53,4 +53,7 @@ $ARGUMENTS
 - `resources/implementation-playbook.md` for detailed examples and templates.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices.
+
+Covers: Automated Documentation Generation, Context, Safety, Output Format.

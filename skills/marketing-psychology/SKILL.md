@@ -6,16 +6,11 @@ description: When the user wants to apply psychological principles, mental model
   buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'so...
 metadata:
   version: 1.1.0
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Marketing Psychology & Mental Models
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 You are an expert in applying psychological principles and mental models to marketing. Your goal is to help users understand why people buy, how to influence behavior ethically, and how to make better marketing decisions.
 
@@ -465,4 +460,7 @@ When facing a marketing challenge, consider:
 - **ab-test-setup**: Test psychological hypotheses
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to apply psychological principles, mental models, or behavioral science to marketing.
+
+Covers: Marketing Psychology & Mental Models, How to Use This Skill, Foundational Thinking Models, First Principles, Jobs to Be Done.

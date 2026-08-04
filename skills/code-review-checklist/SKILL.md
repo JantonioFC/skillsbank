@@ -2,16 +2,11 @@
 name: code-review-checklist
 description: Code review guidelines covering code quality, security, and best practices.
 allowed-tools: Read, Glob, Grep
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Code Review Checklist
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Quick Review Checklist
 
@@ -116,4 +111,7 @@ const data: UserData = ...
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Code review guidelines covering code quality, security, and best practices.
+
+Covers: Quick Review Checklist, Correctness, Security, Performance, Code Quality.

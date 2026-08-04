@@ -97,4 +97,7 @@ Brand consistency is not a design preference — it's a trust signal. Every devi
 - **canvas-design** — USE when brand guidelines need to be applied to visual design artifacts (posters, PDFs, graphics); NOT for copy-only brand work.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to apply, document, or enforce brand guidelines for any product or company.
+
+Covers: How to Use This Skill, Anthropic Brand Identity, Quick Audit Checklist, Task-Specific Questions, Proactive Triggers.

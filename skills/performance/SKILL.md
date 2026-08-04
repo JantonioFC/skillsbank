@@ -137,4 +137,7 @@ bootstrapApplication(AppComponent, {
 - https://angular.dev/guide/ssr
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Angular performance: NgOptimizedImage, @defer, lazy loading, SSR. Trigger: When optimizing Angular app performance, images, or lazy loading.
+
+Covers: NgOptimizedImage (REQUIRED for images), @defer - Lazy Components, Triggers, Lazy Routes, SSR & Hydration.

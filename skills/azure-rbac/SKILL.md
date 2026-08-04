@@ -22,4 +22,5 @@ To assign RBAC roles to identities, you need a role that includes the `Microsoft
 - **Custom Role** with `Microsoft.Authorization/roleAssignments/write`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it. Also provides guidance on permissions required to grant roles.

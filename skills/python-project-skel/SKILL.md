@@ -112,4 +112,7 @@ The generated project is a starting point. Common modifications:
 - Extend Makefile with project-specific targets
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generate production-ready Python project skeletons with Astral UV package manager, Hatchling build backend with dynamic versioning, and modern tooling (ruff, mypy, pytest, bandit).
+
+Covers: Python Project Skeleton Generator, Configuration Options, Generated Structure, Included Tool Configurations, Output Modes.

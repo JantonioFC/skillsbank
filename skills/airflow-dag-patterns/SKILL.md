@@ -45,4 +45,7 @@ Refer to `resources/implementation-playbook.md` for detailed patterns, checklist
 - `resources/implementation-playbook.md` for detailed patterns, checklists, and templates.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating workflows, or scheduling batch jobs.
+
+Covers: Apache Airflow DAG Patterns, Safety.

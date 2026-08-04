@@ -151,4 +151,7 @@ Every test follows:
 > **Remember:** The test is the specification. If you can't write a test, you don't understand the requirement.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.
+
+Covers: The TDD Cycle, The Three Laws of TDD, RED Phase Principles, What to Write, RED Phase Rules.

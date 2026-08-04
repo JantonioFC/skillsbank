@@ -179,4 +179,7 @@ Expert Rust developer mastering Rust 1.75+ features, advanced type system usage,
 - "Debug and fix lifetime issues in this complex generic code"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming. Expert in the latest Rust ecosystem including Tokio, axum, and cutting-edge crates.
+
+Covers: Capabilities, Modern Rust Language Features, Ownership & Memory Management, Async Programming & Concurrency, Type System & Traits.

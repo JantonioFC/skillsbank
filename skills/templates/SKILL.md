@@ -42,4 +42,7 @@ license: MIT
 4. Follow its tech stack and structure
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Project scaffolding templates for new applications. Use when creating new projects from scratch.
+
+Covers: Project Templates, 🎯 Selective Reading Rule.

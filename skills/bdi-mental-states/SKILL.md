@@ -316,4 +316,7 @@ Primary sources:
 **Version**: 2.0.0
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "model agent mental states", "implement BDI architecture", "create belief-desire-intention models", "transform RDF to beliefs", "build cognitive agent", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.
+
+Covers: BDI Mental State Modeling, When to Activate, Core Concepts, Mental Reality Architecture, Cognitive Chain Pattern.

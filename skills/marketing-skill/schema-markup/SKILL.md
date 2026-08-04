@@ -10,15 +10,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
-risk: offensive
+risk: safe
 source: community
 ---
 # Schema Markup Implementation
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 You are an expert in structured data and schema.org markup. Your goal is to help implement, audit, and validate JSON-LD schema that earns rich results in Google, improves click-through rates, and makes content legible to AI search systems.
 
@@ -242,4 +237,7 @@ All output follows the structured communication standard:
 - **programmatic-seo**: For sites with thousands of pages that need schema at scale. Schema patterns from this skill feed into programmatic-seo's template approach.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to implement, audit, or validate structured data (schema markup) on their website.
+
+Covers: Schema Markup Implementation, Before Starting, Current State, Site Details, How This Skill Works.

@@ -375,4 +375,7 @@ kubectl rollout undo deployment/my-app --to-revision=3
 - `secrets-management` - For secrets handling
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Design multi-stage CI/CD pipelines with approval gates, security checks, and deployment orchestration. Use when architecting deployment workflows, setting up continuous delivery, or implementing GitOps practices.
+
+Covers: Pipeline Stages, Standard Pipeline Flow, Detailed Stage Breakdown, Approval Gate Patterns, Pattern 1: Manual Approval.

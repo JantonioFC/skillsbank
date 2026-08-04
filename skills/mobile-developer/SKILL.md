@@ -6,16 +6,11 @@ description: Develop React Native, Flutter, or native mobile apps with modern ar
   code, or app optimization.
 metadata:
   model: inherit
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on mobile developer tasks or workflows
 - Needing guidance, best practices, or checklists for mobile developer
@@ -212,4 +207,7 @@ Expert mobile developer specializing in React Native, Flutter, and native iOS/An
 - "Design offline-first data sync with conflict resolution"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync, and app store optimization.
+
+Covers: Capabilities, Cross-Platform Development, React Native Expertise, Flutter & Dart Mastery, Native Development Integration.

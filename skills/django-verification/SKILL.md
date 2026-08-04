@@ -477,4 +477,7 @@ jobs:
 请记住：自动化验证可以发现常见问题，但不能替代在预发布环境中的手动代码审查和测试。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Django项目的验证循环：迁移、代码检查、带覆盖率的测试、安全扫描，以及在发布或PR前的部署就绪检查。.
+
+Covers: 阶段 1: 环境检查, Verify Python version, Check virtual environment, Verify environment variables, 阶段 2: 代码质量与格式化.

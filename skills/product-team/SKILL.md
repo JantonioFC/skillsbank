@@ -65,4 +65,7 @@ python3 product-strategist/scripts/okr_cascade_generator.py --help
 - Use Python tools for scoring and analysis, not manual judgment
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+10 product agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. PM toolkit (RICE), agile PO, product strategist (OKR), UX researcher, UI design system, competitive teardown, landing page generator, SaaS scaffolder, research summarizer.
+
+Covers: Product Team Skills, Claude Code, Codex CLI, Skills Overview, Python Tools.

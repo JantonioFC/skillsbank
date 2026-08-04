@@ -431,4 +431,7 @@ spark_configs = {
 - [Databricks Optimization Guide](https://docs.databricks.com/en/optimizations/index.html)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines.
+
+Covers: Apache Spark Optimization, Core Concepts, Spark Execution Model, Key Performance Factors, Create optimized Spark session.

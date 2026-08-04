@@ -83,4 +83,7 @@ Before designing an API:
 | `scripts/api_validator.py` | API endpoint validation | `python scripts/api_validator.py <project_path>` |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.
+
+Covers: 🎯 Selective Reading Rule, 📑 Content Map, 🔗 Related Skills, ✅ Decision Checklist, ❌ Anti-Patterns.

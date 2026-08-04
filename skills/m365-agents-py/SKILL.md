@@ -350,4 +350,7 @@ asyncio.run(main())
 | Integrate with Copilot Studio | https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/integrate-with-mcs |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming responses, and MSAL-based auth.
+
+Covers: Microsoft 365 Agents SDK (Python), Before implementation, Important Notice - Import Changes, Environment Variables (.env), Optional: OAuth handlers for auto sign-in.

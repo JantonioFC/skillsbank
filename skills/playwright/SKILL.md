@@ -150,4 +150,7 @@ Open only what you need:
 - Default to CLI commands and workflows, not Playwright test specs.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via playwright-cli or the bundled wrapper script.
+
+Covers: Playwright CLI Skill, Prerequisite check (required), Skill path (set once), When to snapshot again, Recommended patterns.

@@ -7,16 +7,11 @@ description: See, Understand, Act on video and audio. See- ingest from local fil
 origin: ECC
 allowed-tools: Read Grep Glob Bash(python:*)
 argument-hint: '[task description]'
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # VideoDB Skill
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 **Perception + memory + actions for video, live streams, and desktop sessions.**
 
@@ -384,6 +379,3 @@ Reference material for this skill is vendored locally under `skills/videodb/refe
 Use the local copies above instead of following external repository links at runtime.
 
 **Maintained By:** [VideoDB](https://www.videodb.io/)
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

@@ -309,4 +309,7 @@ Sets up drift detection, alerting, and performance dashboards.
 | Databases | PostgreSQL, BigQuery, Pinecone, Redis |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+ML engineering skill for productionizing models, building MLOps pipelines, and integrating LLMs. Covers model deployment, feature stores, drift monitoring, RAG systems, and cost optimization.
+
+Covers: Model Deployment Workflow, Container Template, Serving Options, MLOps Pipeline Setup, Feature Store Pattern.

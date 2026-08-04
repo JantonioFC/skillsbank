@@ -366,4 +366,7 @@ processor.ProcessEventAsync += async args =>
 | `Microsoft.Azure.WebJobs.Extensions.EventHubs` | Azure Functions binding | `dotnet add package Microsoft.Azure.WebJobs.Extensions.EventHubs` |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Event Hubs SDK for .NET. Use for high-throughput event streaming: sending events (EventHubProducerClient, EventHubBufferedProducerClient), receiving events (EventProcessorClient with checkpointing), partition management, and real-time data ingestion.
+
+Covers: Azure.Messaging.EventHubs (.NET), Core package (sending and simple receiving), Processor package (production receiving with checkpointing), Authentication, For checkpointing (required by EventProcessorClient).

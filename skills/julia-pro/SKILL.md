@@ -210,4 +210,7 @@ Expert Julia developer mastering Julia 1.10+ features, modern tooling, and produ
 - **FOLLOW** PkgTemplates.jl standard project structure for new projects
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices. Expert in the Julia ecosystem including package management, scientific computing, and high-performance numerical code.
+
+Covers: Capabilities, Modern Julia Features, Modern Tooling & Development Environment, Testing & Quality Assurance, Performance & Optimization.

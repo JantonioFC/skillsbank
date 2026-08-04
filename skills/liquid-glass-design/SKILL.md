@@ -282,4 +282,7 @@ VStack { /* content */ }
 * 相关 UI 状态之间的变形过渡
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+iOS 26 液态玻璃设计系统 — 适用于 SwiftUI、UIKit 和 WidgetKit 的动态玻璃材质，具有模糊、反射和交互式变形效果。.
+
+Covers: Liquid Glass 设计系统 (iOS 26), 核心模式 — SwiftUI, 用于多个元素的 GlassEffectContainer, 核心模式 — UIKit, 基本 UIGlassEffect.

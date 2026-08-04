@@ -142,4 +142,7 @@ Was working yesterday - possible permission/config change or service regression
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Convert raw notes, error logs, voice dictation, or screenshots into crisp GitHub-flavored markdown issue reports. Use when the user pastes bug info, error messages, or informal descriptions and wants a structured GitHub issue.
+
+Covers: Output Template, Environment, Reproduction Steps, Expected Behavior, Actual Behavior.

@@ -68,4 +68,5 @@ license: MIT
 仅当较低层级的模型失败且存在清晰的推理差距时，才升级模型层级。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+作为代理工程师，采用评估优先执行、分解和成本感知模型路由进行操作。.

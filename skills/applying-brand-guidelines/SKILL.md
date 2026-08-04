@@ -174,4 +174,7 @@ When creating any document:
 - Brand guidelines updated quarterly - check for latest version
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill applies consistent corporate branding and styling to all generated documents including colors, fonts, layouts, and messaging.
+
+Covers: Corporate Brand Guidelines Skill, Brand Identity, Company: Acme Corporation, Visual Standards, Color Palette.

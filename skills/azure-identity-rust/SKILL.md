@@ -121,4 +121,7 @@ let credential = ClientSecretCredential::new(
 | crates.io | https://crates.io/crates/azure_identity |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Identity SDK for Rust authentication. Use for DeveloperToolsCredential, ManagedIdentityCredential, ClientSecretCredential, and token-based authentication.
+
+Covers: Azure Identity SDK for Rust, Environment Variables, User-assigned Managed Identity (optional), DeveloperToolsCredential, Credential Chain Order.

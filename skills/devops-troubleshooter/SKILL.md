@@ -6,16 +6,11 @@ description: Expert DevOps troubleshooter specializing in rapid incident respons
   Handles production outages, system reliability, and preventive mo...
 metadata:
   model: sonnet
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on devops troubleshooter tasks or workflows
 - Needing guidance, best practices, or checklists for devops troubleshooter
@@ -166,4 +161,7 @@ Expert DevOps troubleshooter with comprehensive knowledge of modern observabilit
 - "Troubleshoot GitOps deployment failures and implement automated rollback procedures"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. Masters log analysis, distributed tracing, Kubernetes debugging, performance optimization, and root cause analysis.
+
+Covers: Capabilities, Modern Observability & Monitoring, Container & Kubernetes Debugging, Network & DNS Troubleshooting, Performance & Resource Analysis.

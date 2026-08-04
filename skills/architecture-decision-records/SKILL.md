@@ -446,4 +446,7 @@ adr link 2 "Complements" 1 "Is complemented by"
 - [adr-tools](https://github.com/npryce/adr-tools)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Write and maintain Architecture Decision Records (ADRs) following best practices for technical decision documentation. Use when documenting significant technical decisions, reviewing past architectural choices, or establishing decision processes.
+
+Covers: Core Concepts, What is an ADR?, When to Write an ADR, ADR Lifecycle, Templates.

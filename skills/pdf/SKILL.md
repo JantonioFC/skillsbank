@@ -298,4 +298,7 @@ with open("encrypted.pdf", "wb") as output:
 - For troubleshooting guides, see reference.md
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.
+
+Covers: PDF Processing Guide, Read a PDF, Extract text, Python Libraries, pypdf - Basic Operations.

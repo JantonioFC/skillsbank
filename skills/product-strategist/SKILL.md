@@ -232,4 +232,7 @@ See `references/examples/sample_growth_okrs.json` for a complete example.
 - **Competitive Teardown** (`product-team/competitive-teardown/`) — Competitive intelligence feeds product strategy
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Strategic product leadership toolkit for Head of Product covering OKR cascade generation, quarterly planning, competitive landscape analysis, product vision documents, and team scaling proposals.
+
+Covers: Core Capabilities, Growth strategy with default teams, Retention strategy with custom teams, Revenue strategy with 40% product contribution, Export as JSON for integration.

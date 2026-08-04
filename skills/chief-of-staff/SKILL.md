@@ -183,4 +183,7 @@ See `references/routing-matrix.md` for complete trigger mapping.
 - `references/synthesis-framework.md` — full synthesis process, conflict types, output format
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+C-suite orchestration layer. Routes founder questions to the right advisor role(s), triggers multi-role board meetings for complex decisions, synthesizes outputs, and tracks decisions.
+
+Covers: Keywords, Session Protocol (Every Interaction), Invocation Syntax, Loop Prevention Rules (CRITICAL), Decision Complexity Scoring.

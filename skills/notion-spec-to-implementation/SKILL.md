@@ -63,4 +63,7 @@ After successful login, the user will have to restart codex. You should finish y
 - `examples/` — end-to-end walkthroughs (e.g., `ui-component.md`, `api-feature.md`, `database-migration.md`).
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.
+
+Covers: Locate and read the spec, Choose plan depth, Create tasks, Link artifacts, Track progress.

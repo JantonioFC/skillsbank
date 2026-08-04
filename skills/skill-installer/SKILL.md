@@ -5,16 +5,11 @@ description: Install Codex skills into $CODEX_HOME/skills from a curated list or
   skill, or install a skill from another repo (including private repos).
 metadata:
   short-description: Install curated skills from openai/skills or other repos
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Skill Installer
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Helps install skills. By default these are from https://github.com/openai/skills/tree/main/skills/.curated, but users can also provide other locations.
 
@@ -67,4 +62,7 @@ All of these scripts use network, so when running in the sandbox, request escala
 - Installed annotations come from `$CODEX_HOME/skills`.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Install Codex skills into $CODEXHOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).
+
+Covers: Communication, Scripts, Behavior and Options.

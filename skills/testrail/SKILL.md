@@ -130,4 +130,7 @@ This annotation is the bridge between Playwright and TestRail.
 - Link to TestRail run/results
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Sync tests with TestRail. Use when user mentions "testrail", "test management", "test cases", "test run", "sync test cases", "push results to testrail", or "import from testrail".
+
+Covers: TestRail Integration, Capabilities, Import Test Cases → Generate Playwright Tests, Push Test Results → TestRail, Create Test Run.

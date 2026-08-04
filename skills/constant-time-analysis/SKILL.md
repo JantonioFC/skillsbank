@@ -2,16 +2,11 @@
 name: constant-time-analysis
 description: Analyze cryptographic code to detect operations that leak secret data
   through execution timing variations.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Constant-Time Analysis
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Analyze cryptographic code to detect operations that leak secret data through execution timing variations.
 

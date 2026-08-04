@@ -196,4 +196,7 @@ Return JSON for each skill:
 * 不按技能来源进行判定分支
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+用于审计Claude技能和命令的质量。支持快速扫描（仅变更技能）和全面盘点模式，采用顺序子代理批量评估。.
+
+Covers: 第 1 阶段 — 清单, 第 2 阶段 — 质量评估, 第 3 阶段 — 摘要表, 第 4 阶段 — 整合.

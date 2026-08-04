@@ -444,4 +444,7 @@ cognitive-complexity-threshold = 30
 Focus on creating idiomatic Rust projects with strong type safety, proper error handling, and comprehensive testing setup.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a Rust project architecture expert specializing in scaffolding production-ready Rust applications.
+
+Covers: Rust Project Scaffolding, Context, Analyze Project Type, Initialize Project with Cargo, Create binary project.

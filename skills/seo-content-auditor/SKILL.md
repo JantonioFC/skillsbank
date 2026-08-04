@@ -85,4 +85,7 @@ You are an SEO content auditor analyzing provided content for optimization oppor
 Focus on actionable improvements based on SEO best practices and content quality standards.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines.
+
+Covers: What I Can Analyze, What I Cannot Do.

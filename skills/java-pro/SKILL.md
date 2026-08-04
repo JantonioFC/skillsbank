@@ -6,16 +6,11 @@ description: Master Java 21+ with modern features like virtual threads, pattern 
   architecture, or performance optimization.
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on java pro tasks or workflows
 - Needing guidance, best practices, or checklists for java pro
@@ -184,4 +179,7 @@ Expert Java developer mastering Java 21+ features including virtual threads, pat
 - "Implement distributed tracing and monitoring for a microservices system"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.
+
+Covers: Capabilities, Modern Java Language Features, Virtual Threads & Concurrency, Spring Framework Ecosystem, JVM Performance & Optimization.

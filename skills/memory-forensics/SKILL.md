@@ -500,4 +500,7 @@ floss pid.1234.dmp
 - **Encryption**: Some data may be encrypted in memory
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master memory forensics techniques including memory acquisition, process analysis, and artifact extraction using Volatility and related tools. Use when analyzing memory dumps, investigating incidents, or performing malware analysis from RAM captures.
+
+Covers: Memory Acquisition, Live Acquisition Tools, WinPmem (Recommended), DumpIt, Belkasoft RAM Capturer.

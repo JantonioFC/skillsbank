@@ -366,4 +366,7 @@ v2.1은 v2.0 및 v1과 완전히 호환됩니다:
 *본능 기반 학습: Claude에게 당신의 패턴을 가르치기, 한 번에 하나의 프로젝트씩.*
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+훅을 통해 세션을 관찰하고, 신뢰도 점수가 있는 원자적 본능을 생성하며, 이를 스킬/명령어/에이전트로 진화시키는 본능 기반 학습 시스템. v2.1에서는 프로젝트 간 오염을 방지하기 위한 프로젝트 범위 본능이 추가되었습니다.
+
+Covers: 지속적 학습 v2.1 - 본능 기반 아키텍처, v2.1의 새로운 기능, v2의 새로운 기능 (v1 대비), Prefer Functional Style, Action.

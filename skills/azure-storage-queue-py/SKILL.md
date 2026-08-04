@@ -219,4 +219,7 @@ queue_client.send_message(b"Binary content")
 7. **Consider Service Bus** for advanced features (sessions, topics)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing.
+
+Covers: Azure Queue Storage SDK for Python, Environment Variables, Authentication, Service client, Queue client.

@@ -3,16 +3,11 @@ name: openai-prompt-engineer
 description: Generate and improve prompts using best practices for OpenAI GPT-5 and
   other LLMs. Apply advanced techniques like chain-of-thought, few-shot prompting,
   and progressive disclosure.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # OpenAI Prompt Engineer
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 A comprehensive skill for crafting, analyzing, and improving prompts for OpenAI's GPT-5 and other modern Large Language Models (LLMs), with focus on GPT-5-specific optimizations and universal prompting techniques.
 

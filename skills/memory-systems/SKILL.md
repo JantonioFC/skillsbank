@@ -4,16 +4,11 @@ description: Guides implementation of agent memory systems, compares production 
   (Mem0, Zep/Graphiti, Letta, LangMem, Cognee), and designs persistence architectures
   for cross-session knowledge retention. Use when the user asks to "implement agent
   memory", "persist state across sessions", "build know...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Memory System Design
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Memory provides the persistence layer that allows agents to maintain continuity across sessions and reason over accumulated knowledge. Simple agents rely entirely on context for memory, losing all state when sessions end. Sophisticated agents implement layered memory architectures that balance immediate context needs with long-term knowledge retention. The evolution from vector stores to knowledge graphs to temporal knowledge graphs represents increasing investment in structured memory for improved retrieval and reasoning.
 
@@ -229,4 +224,7 @@ External resources:
 **Version**: 4.0.0
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Guides implementation of agent memory systems, compares production frameworks (Mem0, Zep/Graphiti, Letta, LangMem, Cognee), and designs persistence architectures for cross-session knowledge retention.
+
+Covers: Memory System Design, When to Activate, Core Concepts, Detailed Topics, Production Framework Landscape.

@@ -72,4 +72,7 @@ useMyStore.subscribe(
 3. Add tests in `src/frontend/src/store/*.test.ts`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creating global stores, or implementing reactive state patterns with Zustand.
+
+Covers: Always Use subscribeWithSelector, Separate State and Actions, Use Individual Selectors, Subscribe Outside React, Integration Steps.

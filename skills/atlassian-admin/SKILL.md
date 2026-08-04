@@ -239,4 +239,7 @@ license: MIT
 - Enable Scrum Master with team provisioning
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Atlassian Administrator for managing and organizing Atlassian products (Jira, Confluence, Bitbucket, Trello), users, permissions, security, integrations, system configuration, and org-wide governance.
+
+Covers: Atlassian Administrator Expert, Workflows, User Provisioning, User Deprovisioning, Group Management.

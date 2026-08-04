@@ -101,4 +101,7 @@ Before delivering:
 - the final asset is defensible in a partner meeting
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials.
+
+Covers: When to Activate, Golden Rule, Asset Guidance, Pitch Deck, Financial Model.

@@ -1,16 +1,11 @@
 ---
 name: widget-generator
 description: Generate customizable widget plugins for the prompts.chat feed system
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Widget Generator Skill
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 This skill guides creation of widget plugins for **prompts.chat**. Widgets are injected into prompt feeds to display promotional content, sponsor cards, or custom interactive components.
 
@@ -399,4 +394,7 @@ interface WidgetPlugin {
 | Position wrong | Remember positions are 0-indexed, check `repeatEvery` value |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generate customizable widget plugins for the prompts.chat feed system.
+
+Covers: Widget Generator Skill, Gather Widget Configuration, Basic Info, Content (for standard mode), Categorization.

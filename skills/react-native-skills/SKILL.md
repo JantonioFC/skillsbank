@@ -121,4 +121,7 @@ Each rule file contains:
 For the complete guide with all rules expanded: `AGENTS.md`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules.
+
+Covers: When to Apply, Rule Categories by Priority, List Performance (CRITICAL), Animation (HIGH), Navigation (HIGH).

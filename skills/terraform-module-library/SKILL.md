@@ -265,4 +265,7 @@ func TestVPCModule(t *testing.T) {
 - `cost-optimization` - For cost-effective designs
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build reusable Terraform modules for AWS, Azure, and GCP infrastructure following infrastructure-as-code best practices. Use when creating infrastructure modules, standardizing cloud provisioning, or implementing reusable IaC components.
+
+Covers: Module Structure, Standard Module Pattern, AWS VPC Module Example, Module Composition, Reference Files.

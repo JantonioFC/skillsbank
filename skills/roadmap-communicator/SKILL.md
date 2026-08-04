@@ -93,6 +93,3 @@ Features:
 - [ ] Terminology is consistent across artifacts.
 - [ ] Risks and dependencies are not hidden.
 - [ ] Next actions and owners are specified.
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

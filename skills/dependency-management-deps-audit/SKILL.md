@@ -4,16 +4,11 @@ description: You are a dependency security expert specializing in vulnerability 
   license compliance, and supply chain security. Analyze project dependencies for
   known vulnerabilities, licensing issues, outdated packages, and provide actionable
   remediation strategies.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Dependency Audit and Security Analysis
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.
 
@@ -54,4 +49,7 @@ $ARGUMENTS
 - `resources/implementation-playbook.md` for detailed tooling and templates.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.
+
+Covers: Dependency Audit and Security Analysis, Context, Safety.

@@ -243,4 +243,7 @@ Watch for: Thin content warnings, Ranking drops, Manual actions, Crawl errors
 - **competitor-alternatives**: For comparison page frameworks
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to create SEO-driven pages at scale using templates and data.
+
+Covers: Initial Assessment, Core Principles, Unique Value Per Page, Proprietary Data Wins, Clean URL Structure.

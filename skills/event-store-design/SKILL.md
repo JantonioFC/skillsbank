@@ -3,16 +3,11 @@ name: event-store-design
 description: Design and implement event stores for event-sourced systems. Use when
   building event sourcing infrastructure, choosing event store technologies, or implementing
   event persistence patterns.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Event Store Design
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Comprehensive guide to designing event stores for event-sourced applications.
 
@@ -148,7 +143,6 @@ class Event:
     version: Optional[int] = None
     global_position: Optional[int] = None
     created_at: datetime = field(default_factory=datetime.utcnow)
-
 
 class EventStore:
     def __init__(self, pool: asyncpg.Pool):
@@ -300,7 +294,6 @@ class EventStore:
             global_position=row['global_position'],
             created_at=row['created_at']
         )
-
 
 class ConcurrencyError(Exception):
     """Raised when optimistic concurrency check fails."""
@@ -458,4 +451,7 @@ Capacity: On-demand or provisioned based on throughput needs
 - [Event Sourcing Pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns.
+
+Covers: Core Concepts, Event Store Architecture, Event Store Requirements, Technology Comparison, Templates.

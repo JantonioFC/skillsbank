@@ -79,4 +79,7 @@ App Builder Process:
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Main application building orchestrator. Creates full-stack applications from natural language requests.
+
+Covers: App Builder - Application Building Orchestrator, 🎯 Selective Reading Rule, 📦 Templates (13), 🔗 Related Agents, Usage Example.

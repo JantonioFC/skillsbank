@@ -31,4 +31,5 @@ license: MIT
 - PR description (markdown) must be detailed prose covering the issue, the cause and effect on users, the root cause, the fix, and any tests or checks used to validate.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (gh).

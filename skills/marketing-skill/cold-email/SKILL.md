@@ -276,4 +276,7 @@ All output follows the structured communication standard:
 - **marketing-strategy-pmm**: For positioning and ICP definition. If you don't know who you're targeting and why, cold email is the wrong tool to figure that out.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to write, improve, or build a sequence of B2B cold outreach emails to prospects who haven't asked to hear from them.
+
+Covers: Cold Email Outreach, Before Starting, The Sender, The Prospect, The Ask.

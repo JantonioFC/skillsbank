@@ -5,16 +5,11 @@ description: Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and
   for FastAPI development, async optimization, or API architecture.
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on fastapi pro tasks or workflows
 - Needing guidance, best practices, or checklists for fastapi pro
@@ -198,4 +193,7 @@ Expert FastAPI developer specializing in high-performance, async-first API devel
 - "Build a file upload system with progress tracking"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns.
+
+Covers: Capabilities, Core FastAPI Expertise, Data Management & ORM, API Design & Architecture, Authentication & Security.

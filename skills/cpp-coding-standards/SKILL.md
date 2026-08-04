@@ -725,4 +725,7 @@ std::vector<std::unique_ptr<Point>> indirect_points; // BAD: pointer chasing
 * \[ ] 没有魔数 (ES.45)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+基于C++核心指南（isocpp.github.io）的C++编码标准。在编写、审查或重构C++代码时使用，以强制实施现代、安全和惯用的实践。.
+
+Covers: C++ 编码标准（C++ 核心准则）, 哲学与接口 (P.\, I.\), 函数 (F.\), 纯函数和 constexpr, RAII 模式.

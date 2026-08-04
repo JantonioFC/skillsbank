@@ -71,4 +71,5 @@ Always include disclaimer: "This is a template for informational purposes. Consu
 Focus on comprehensiveness, clarity, and regulatory compliance while maintaining readability.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements.

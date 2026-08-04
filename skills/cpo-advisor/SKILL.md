@@ -204,4 +204,7 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Product leadership for scaling companies. Product vision, portfolio strategy, product-market fit, and product org design.
+
+Covers: Keywords, Score Your Product-Market Fit, Analyze Your Product Portfolio, The CPO's Core Responsibilities, Diagnostic Questions.

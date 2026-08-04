@@ -6,16 +6,11 @@ description: Master Temporal workflow orchestration with Python SDK. Implements 
   orchestration, or long-running processes.
 metadata:
   model: inherit
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on temporal python pro tasks or workflows
 - Needing guidance, best practices, or checklists for temporal python pro

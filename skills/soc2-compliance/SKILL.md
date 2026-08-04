@@ -3,16 +3,11 @@ name: soc2-compliance
 description: Use when the user asks to prepare for SOC 2 audits, map Trust Service
   Criteria, build control matrices, collect audit evidence, perform gap analysis,
   or assess SOC 2 Type I vs Type II readiness.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # SOC 2 Compliance
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 SOC 2 Type I and Type II compliance preparation for SaaS companies. Covers Trust Service Criteria mapping, control matrix generation, evidence collection, gap analysis, and audit readiness assessment.
 
@@ -426,4 +421,7 @@ python scripts/gap_analyzer.py --controls current_controls.json --type type2 --j
 - **[isms-audit-expert](../isms-audit-expert/SKILL.md)** — Audit methodology and finding management patterns transfer directly to SOC 2 audit preparation
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when the user asks to prepare for SOC 2 audits, map Trust Service Criteria, build control matrices, collect audit evidence, perform gap analysis, or assess SOC 2 Type I vs Type II readiness.
+
+Covers: What Is SOC 2?, Type I vs Type II, Who Needs SOC 2?, Typical Journey, Trust Service Criteria.

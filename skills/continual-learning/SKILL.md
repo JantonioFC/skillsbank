@@ -83,4 +83,7 @@ This prevents unbounded growth while preserving what matters.
 4. **Let it compound** — small improvements per session create exponential gains over weeks
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Guide for implementing continual learning in AI coding agents — hooks, memory scoping, reflection patterns. Use when setting up learning infrastructure for agents.
+
+Covers: Continual Learning for AI Coding Agents, The Loop, Two-Tier Memory, How Learnings Get Stored, Automatic (via hooks).

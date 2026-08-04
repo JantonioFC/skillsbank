@@ -1,16 +1,11 @@
 ---
 name: dependency-auditor
 description: Dependency Auditor
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Dependency Auditor
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 > **Skill Type:** POWERFUL  
 > **Category:** Engineering  
@@ -345,4 +340,7 @@ For detailed usage instructions, see [README.md](README.md).
 *This skill provides comprehensive dependency management capabilities essential for maintaining secure, compliant, and efficient software projects. Regular use helps teams stay ahead of security threats, maintain legal compliance, and optimize their dependency ecosystems.*
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Dependency Auditor.
+
+Covers: Core Capabilities, Vulnerability Scanning & CVE Matching, License Compliance & Legal Risk Assessment, Outdated Dependency Detection, Dependency Bloat Analysis.

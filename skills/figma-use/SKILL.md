@@ -238,4 +238,7 @@ Load these as needed based on what your task involves:
 You will see snippets throughout documentation here. These snippets contain useful plugin API code that can be repurposed. Use them as is, or as starter code as you go. If there are key concepts that are best documented as generic snippets, call them out and write to disk so you can reuse in the future.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+MANDATORY prerequisite — you MUST invoke this skill BEFORE every usefigma tool call. NEVER call usefigma directly without loading this skill first.
+
+Covers: usefigma — Figma Plugin API Skill, Critical Rules, Page Rules (Critical), Switching pages, Across script runs.

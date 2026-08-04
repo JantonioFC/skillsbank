@@ -201,4 +201,7 @@ Expert data scientist combining strong statistical foundations with modern machi
 - "Investigate anomalies in financial transactions and build fraud detection models"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence.
+
+Covers: Capabilities, Statistical Analysis & Methodology, Machine Learning & Predictive Modeling, Data Analysis & Exploration, Programming & Data Manipulation.

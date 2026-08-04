@@ -4,16 +4,11 @@ description: Senior Project Manager for enterprise software, SaaS, and digital t
   projects. Specializes in portfolio management, quantitative risk analysis, resource
   optimization, stakeholder alignment, and executive reporting. Uses advanced methodologies
   including EMV analysis, Monte Carlo simula...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Senior Project Management Expert
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 
@@ -418,4 +413,7 @@ Reference: `references/portfolio-kpis.md` for full definitions and measurement g
 - **Scrum Master** (`project-management/scrum-master/`) — Sprint velocity data feeds project health dashboards
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Senior Project Manager for enterprise software, SaaS, and digital transformation projects. Specializes in portfolio management, quantitative risk analysis, resource optimization, stakeholder alignment, and executive reporting.
+
+Covers: Senior Project Management Expert, Core Expertise Areas, Methodology & Frameworks, Three-Tier Analysis Approach, EMV and risk-adjusted budget calculation.

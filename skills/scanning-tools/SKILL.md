@@ -599,4 +599,7 @@ gvm-cli socket --xml '<get_reports report_id="<id>" format_id="<pdf_format>"/>'
 5. Perform manual testing
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "perform vulnerability scanning", "scan networks for open ports", "assess web application security", "scan wireless networks", "detect malware", "check cloud security", or "evaluate system compliance".
+
+Covers: Security Scanning Tools, Required Environment, Required Knowledge, Outputs and Deliverables, Network Scanning Tools.

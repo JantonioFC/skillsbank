@@ -98,4 +98,5 @@ You are an SEO content writer creating comprehensive, engaging content optimized
 Focus on value-first content. Write for humans while optimizing for search engines.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices.

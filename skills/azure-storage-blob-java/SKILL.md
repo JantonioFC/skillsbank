@@ -392,4 +392,7 @@ AZURE_STORAGE_ACCOUNT_URL=https://<account>.blob.core.windows.net
 - "blob metadata properties"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build blob storage applications with Azure Storage Blob SDK for Java. Use when uploading, downloading, or managing files in Azure Blob Storage, working with containers, or implementing streaming data operations.
+
+Covers: Azure Storage Blob SDK for Java, Client Creation, BlobServiceClient, With DefaultAzureCredential, BlobContainerClient.

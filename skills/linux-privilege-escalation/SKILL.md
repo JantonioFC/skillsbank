@@ -517,4 +517,7 @@ uid=1000(user) gid=1000(user) euid=0(root)
 | Cron job not executing | Verify cron running: `service cron status`; check +x permissions; verify PATH in crontab |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "escalate privileges on Linux", "find privesc vectors on Linux systems", "exploit sudo misconfigurations", "abuse SUID binaries", "exploit cron jobs for root access", "enumerate Linux systems for privilege escalation", or "gain root access from low-.
+
+Covers: Required Access, Technical Requirements, Recommended Tools, Primary Outputs, Evidence Artifacts.

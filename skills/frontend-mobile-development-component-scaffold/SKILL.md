@@ -407,4 +407,7 @@ export const Interactive: Story = {
 Focus on creating production-ready, accessible, and maintainable components that follow modern React patterns and best practices.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components.
+
+Covers: Context, Analyze Component Requirements, Generate React Component, Generate React Native Component, Generate Component Tests.

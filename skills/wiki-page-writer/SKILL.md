@@ -107,4 +107,7 @@ description: "One-line description"
 - All hex colors must be 3 or 6 digits
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generates rich technical documentation pages with dark-mode Mermaid diagrams, source code citations, and first-principles depth. Use when writing documentation, generating wiki pages, creating technical deep-dives, or documenting specific components or systems.
+
+Covers: When to Activate, Source Repository Resolution (MUST DO FIRST), Depth Requirements (NON-NEGOTIABLE), Procedure, Mandatory Requirements.

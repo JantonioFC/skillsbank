@@ -3,16 +3,11 @@ name: kotlin-exposed-patterns
 description: JetBrains Exposed ORM patterns including DSL queries, DAO pattern, transactions,
   HikariCP connection pooling, Flyway migrations, and repository pattern.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Kotlin Exposed Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Comprehensive patterns for database access with JetBrains Exposed ORM, including DSL queries, DAO, transactions, and production-ready configuration.
 

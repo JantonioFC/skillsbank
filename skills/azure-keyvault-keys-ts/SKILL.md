@@ -273,4 +273,7 @@ try {
 6. **Browser not supported** - These SDKs are Node.js only
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Manage cryptographic keys using Azure Key Vault Keys SDK for JavaScript (@azure/keyvault-keys). Use when creating, encrypting/decrypting, signing, or rotating keys.
+
+Covers: Azure Key Vault Keys SDK for TypeScript, Keys SDK, Environment Variables, Authentication, Secrets Operations.

@@ -255,4 +255,7 @@ async def main():
 7. **Use feature flags** for gradual rollouts and A/B testing
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.
+
+Covers: Azure App Configuration SDK for Python, Environment Variables, Authentication, Connection String, Entra ID.

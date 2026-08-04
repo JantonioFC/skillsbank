@@ -2,16 +2,11 @@
 name: audit-context-building
 description: Enables ultra-granular, line-by-line code analysis to build deep architectural
   context before vulnerability or bug finding.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Deep Context Builder Skill (Ultra-Granular Pure Context Mode)
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## 1. Purpose
 

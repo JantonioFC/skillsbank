@@ -16,16 +16,11 @@ triggers:
 - regulatory oversight
 - quality culture
 - quality governance
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Senior Quality Manager Responsible Person (QMR)
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Quality system accountability, management review leadership, and regulatory compliance oversight per ISO 13485 Clause 5.5.2 requirements.
 
@@ -497,4 +492,7 @@ immediately    Yes─┴─No
 | [quality-documentation-manager](../quality-documentation-manager/) | Document control oversight |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech companies. Provides quality system governance, management review leadership, regulatory compliance oversight, and quality performance monitoring per ISO 13485 Clause 5.5.2.
+
+Covers: Senior Quality Manager Responsible Person (QMR), QMR Responsibilities, ISO 13485 Clause 5.5.2 Requirements, QMR Accountability Matrix, Authority Boundaries.

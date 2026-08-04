@@ -316,4 +316,7 @@ Upon completion, the orchestrated pipeline will provide:
 - Disaster recovery and rollback procedures
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Design and implement a complete ML pipeline for: $ARGUMENTS.
+
+Covers: Machine Learning Pipeline - Multi-Agent MLOps Orchestration, Thinking, Data & Requirements Analysis, Model Development & Training, Production Deployment & Serving.

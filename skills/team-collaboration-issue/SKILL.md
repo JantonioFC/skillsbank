@@ -41,4 +41,7 @@ GitHub Issue ID or URL: $ARGUMENTS
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a GitHub issue resolution expert specializing in systematic bug investigation, feature implementation, and collaborative development workflows.
+
+Covers: GitHub Issue Resolution Expert, Context.

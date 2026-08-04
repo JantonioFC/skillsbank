@@ -327,4 +327,7 @@ import DocumentIntelligence, {
 6. **Prefer neural mode** - For custom models, neural handles more variation than template
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Extract text, tables, and structured data from documents using Azure Document Intelligence (@azure-rest/ai-document-intelligence). Use when processing invoices, receipts, IDs, forms, or building custom document models.
+
+Covers: Azure Document Intelligence REST SDK for TypeScript, Environment Variables, Authentication, DefaultAzureCredential, API Key.

@@ -230,4 +230,7 @@ Depending on the specific user request, refer to the following reference files f
 - **Model Tuning**: Supervised Fine-Tuning and Preference Tuning. See [references/model_tuning.md](references/model_tuning.md)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Guides the usage of Gemini API on Google Cloud Vertex AI with the Gen AI SDK. Use when the user asks about using Gemini in an enterprise environment or explicitly mentions Vertex AI.
+
+Covers: Gemini API in Vertex AI, Core Directives, SDKs, Authentication & Configuration, Application Default Credentials (ADC).

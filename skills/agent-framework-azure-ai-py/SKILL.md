@@ -338,4 +338,7 @@ if __name__ == "__main__":
 - [references/advanced.md](references/advanced.md): OpenAPI, citations, structured outputs
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build Azure AI Foundry agents using the Microsoft Agent Framework Python SDK (agent-framework-azure-ai).
+
+Covers: Agent Framework Azure Hosted Agents, Architecture, Full framework (recommended), Or Azure-specific package only, Environment Variables.

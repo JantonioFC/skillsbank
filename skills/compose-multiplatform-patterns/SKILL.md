@@ -301,4 +301,7 @@ fun AppTheme(
 查看技能：`kotlin-coroutines-flows` 了解协程和 Flow 模式。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+KMP项目中的Compose Multiplatform和Jetpack Compose模式——状态管理、导航、主题化、性能优化和平台特定UI。.
+
+Covers: ViewModel + 单一状态对象, 类型安全导航（Compose Navigation 2.8+）, 基于槽位的 API, KMP 平台特定 UI, 正确使用 key() 和惰性列表.

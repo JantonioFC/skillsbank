@@ -125,4 +125,7 @@ Resolution Strategy:
 Focus on clear differentiation. Each page should serve a unique purpose with distinct targeting.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies.
+
+Covers: Cannibalization Types, Prevention Strategy.

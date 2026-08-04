@@ -210,4 +210,7 @@ Stream names follow patterns:
 8. **Use context manager** — Ensures proper client cleanup
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.
+
+Covers: Azure Monitor Ingestion SDK for Python, Environment Variables, Data Collection Endpoint (DCE), Data Collection Rule (DCR) immutable ID, Stream name from DCR.

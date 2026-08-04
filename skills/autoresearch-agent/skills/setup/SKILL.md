@@ -80,4 +80,7 @@ Report to the user:
 - Suggest: "Run `/ar:run {domain}/{name}` to start iterating, or `/ar:loop {domain}/{name}` for autonomous mode."
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, metric, direction, and evaluator.
+
+Covers: /ar:setup — Create New Experiment, What It Does, If arguments provided, If no arguments (interactive mode), Listing.

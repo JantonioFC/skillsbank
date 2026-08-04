@@ -237,4 +237,7 @@ For detailed patterns, see:
 - [Error Handling and Reliability](references/error-handling.md) - ServiceBusError codes, DLQ handling, lock renewal, graceful shutdown
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build messaging applications using Azure Service Bus SDK for JavaScript (@azure/service-bus). Use when implementing queues, topics/subscriptions, message sessions, dead-letter handling, or enterprise messaging patterns.
+
+Covers: Azure Service Bus SDK for TypeScript, Environment Variables, Authentication, Send Messages to Queue, Receive Messages from Queue.

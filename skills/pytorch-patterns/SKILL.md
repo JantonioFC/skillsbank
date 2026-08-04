@@ -399,4 +399,7 @@ torch.save(model.state_dict(), "model.pt")
 __Remember__: PyTorch code should be device-agnostic, reproducible, and memory-conscious. When in doubt, profile with `torch.profiler` and check GPU memory with `torch.cuda.memory_summary()`.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+PyTorch deep learning patterns and best practices for building robust, efficient, and reproducible training pipelines, model architectures, and data loading.
+
+Covers: PyTorch Development Patterns, When to Activate, Core Principles, Device-Agnostic Code, Good: Device-agnostic.

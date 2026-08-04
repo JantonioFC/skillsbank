@@ -315,4 +315,7 @@ When creating a lead magnet strategy, provide:
 - **social-content**: For social media promotion
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation.
+
+Covers: Before Planning, Business Context, Current Lead Generation, Content Assets, Lead Magnet Principles.

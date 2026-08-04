@@ -534,4 +534,7 @@ except HttpResponseError as e:
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets.
+
+Covers: Azure AI Search SDK for Python, Environment Variables, Authentication, API Key, Entra ID (Recommended).

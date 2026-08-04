@@ -3,16 +3,11 @@ name: loop
 description: Start an autonomous experiment loop with user-selected interval (10min,
   1h, daily, weekly, monthly). Uses CronCreate for scheduling.
 command: /ar:loop
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # /ar:loop — Autonomous Experiment Loop
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Start a recurring experiment loop that runs at a user-selected interval.
 
@@ -130,4 +125,7 @@ When user runs `/ar:loop stop {experiment}`:
 - **Concurrent experiments**: Multiple experiments can loop simultaneously ONLY if they're on different git branches (which they are by default — each experiment gets `autoresearch/{domain}/{name}`).
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Start an autonomous experiment loop with user-selected interval (10min, 1h, daily, weekly, monthly). Uses CronCreate for scheduling.
+
+Covers: /ar:loop — Autonomous Experiment Loop, What It Does, Resolve experiment, Select interval, Create the recurring job.

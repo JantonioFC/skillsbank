@@ -363,4 +363,7 @@ linkerd viz tap deploy/my-app --to deploy/my-backend
 - [Zero Trust Architecture (NIST)](https://www.nist.gov/publications/zero-trust-architecture)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication.
+
+Covers: Core Concepts, mTLS Flow, Certificate Hierarchy, Templates, Template 1: Istio mTLS (Strict Mode).

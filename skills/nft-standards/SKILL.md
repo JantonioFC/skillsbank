@@ -399,4 +399,7 @@ contract OptimizedNFT is ERC721A {
 - Blur: Gas-optimized trading
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Implement NFT standards (ERC-721, ERC-1155) with proper metadata handling, minting strategies, and marketplace integration. Use when creating NFT contracts, building NFT marketplaces, or implementing digital asset systems.
+
+Covers: ERC-721 (Non-Fungible Token Standard), ERC-1155 (Multi-Token Standard), Metadata Standards, Off-Chain Metadata (IPFS), On-Chain Metadata.

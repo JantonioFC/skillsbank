@@ -243,4 +243,7 @@ az network vpn-connection show-device-config-script
 - `terraform-module-library` - For IaC implementation
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Configure secure, high-performance connectivity between on-premises infrastructure and cloud platforms using VPN and dedicated connections. Use when building hybrid cloud architectures, connecting data centers to cloud, or implementing secure cross-premises networking.
+
+Covers: Connection Options, AWS Connectivity, Azure Connectivity, GCP Connectivity, Hybrid Network Patterns.

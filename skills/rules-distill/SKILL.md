@@ -3,16 +3,11 @@ name: rules-distill
 description: Scan skills to extract cross-cutting principles and distill them into
   rules — append, revise, or create new rule files
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Rules Distill
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Scan installed skills, extract cross-cutting principles that appear in multiple skills, and distill them into rules — appending to existing rule files, revising outdated content, or creating new rule files.
 

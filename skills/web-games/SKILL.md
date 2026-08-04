@@ -153,4 +153,7 @@ What type of game?
 > **Remember:** Browser is the most accessible platform. Respect its constraints.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Web browser game development principles. Framework selection, WebGPU, optimization, PWA.
+
+Covers: Web Browser Game Development, Framework Selection, Decision Tree, Comparison (2025), WebGPU Adoption.

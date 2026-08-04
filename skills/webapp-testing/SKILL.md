@@ -4,15 +4,10 @@ description: Toolkit for interacting with and testing local web applications usi
   Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing
   browser screenshots, and viewing browser logs.
 license: Complete terms in LICENSE.txt
-risk: offensive
+risk: safe
 source: community
 ---
 # Web Application Testing
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 To test local web applications, write native Python Playwright scripts.
 
@@ -104,4 +99,7 @@ with sync_playwright() as p:
   - `console_logging.py` - Capturing console logs during automation
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.
+
+Covers: Web Application Testing, Decision Tree: Choosing Your Approach, Reconnaissance-Then-Action Pattern, Common Pitfall, Reference Files.

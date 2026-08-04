@@ -83,4 +83,7 @@ Each iteration takes a different lens and builds on all prior findings:
 - Flag what you HAVEN'T explored — boundaries of your knowledge at all times
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Conducts multi-turn iterative deep research on specific topics within a codebase with zero tolerance for shallow analysis.
+
+Covers: When to Activate, Source Repository Resolution (MUST DO FIRST), Core Invariants (NON-NEGOTIABLE), Depth Before Breadth, Zero Tolerance for Shallow Research.

@@ -491,4 +491,7 @@ All output passes quality verification:
 - Results only. Every finding tagged: 🟢 verified, 🟡 medium, 🔴 assumed.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+App Store Optimization (ASO) toolkit for researching keywords, analyzing competitor rankings, generating metadata suggestions, and improving app visibility on Apple App Store and Google Play Store.
+
+Covers: App Store Optimization (ASO), Keyword Research Workflow, Workflow: Conduct Keyword Research, Keyword Evaluation Criteria, Keyword Placement Priority.

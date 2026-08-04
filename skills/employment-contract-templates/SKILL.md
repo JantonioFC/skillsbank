@@ -43,4 +43,5 @@ Templates and patterns for creating legally sound employment documentation inclu
 - `resources/implementation-playbook.md` for detailed templates and checklists.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create employment contracts, offer letters, and HR policy documents following legal best practices. Use when drafting employment agreements, creating HR policies, or standardizing employment documentation.

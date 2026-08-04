@@ -146,4 +146,7 @@ Execute the approved plan. Update `.azure/plan.md` status after each step.
 **→ Update plan status to `Ready for Validation`, then invoke azure-validate**
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Prepare Azure apps for deployment (infra Bicep/Terraform, azure.yaml, Dockerfiles). Use for create/modernize or create+deploy; not cross-cloud migration (use azure-cloud-migrate).
+
+Covers: Triggers, ❌ PLAN-FIRST WORKFLOW — MANDATORY, Planning (BLOCKING — Complete Before Any Execution), Execution (Only After Plan Approval), SDK Quick References.

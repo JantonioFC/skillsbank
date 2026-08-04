@@ -1,16 +1,11 @@
 ---
 name: differential-review
 description: Security-focused code review for PRs, commits, and diffs.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Differential Security Review
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Security-focused code review for PRs, commits, and diffs.
 

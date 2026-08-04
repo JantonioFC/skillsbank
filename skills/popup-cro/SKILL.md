@@ -459,4 +459,7 @@ Ideas to A/B test with expected outcomes
 - **ab-test-setup**: For testing popup variations
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes.
+
+Covers: Initial Assessment, Core Principles, Timing Is Everything, Value Must Be Obvious, Respect the User.

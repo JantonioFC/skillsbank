@@ -64,4 +64,5 @@ Expert in vector databases, embedding strategies, and semantic search implementa
 - Test recall vs latency tradeoffs
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert in vector databases, embedding strategies, and semantic search implementation.

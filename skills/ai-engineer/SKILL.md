@@ -6,15 +6,10 @@ description: Build production-ready LLM applications, advanced RAG systems, and 
   applications.
 metadata:
   model: inherit
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-
 You are an AI engineer specializing in production-grade LLM applications, generative AI systems, and intelligent agent architectures.
 
 ## Use this skill when
@@ -179,4 +174,7 @@ Expert AI engineer specializing in LLM application development, RAG systems, and
 - "Create a real-time AI content moderation system with custom classifiers"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.
+
+Covers: Safety, Capabilities, LLM Integration & Model Management, Advanced RAG Systems, Agent Frameworks & Orchestration.

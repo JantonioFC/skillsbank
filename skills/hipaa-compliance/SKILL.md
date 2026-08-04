@@ -5,16 +5,11 @@ description: HIPAA-specific entrypoint for healthcare privacy and security work.
   breach posture, or US healthcare compliance requirements.
 origin: ECC direct-port adaptation
 version: 1.0.0
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # HIPAA Compliance
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Use this as the HIPAA-specific entrypoint when a task is clearly about US healthcare compliance. This skill intentionally stays thin and canonical:
 

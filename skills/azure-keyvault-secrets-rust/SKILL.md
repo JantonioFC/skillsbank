@@ -148,4 +148,7 @@ Assign these Key Vault roles:
 | crates.io | https://crates.io/crates/azure_security_keyvault_secrets |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API keys.
+
+Covers: Azure Key Vault Secrets SDK for Rust, Environment Variables, Authentication, Core Operations, Get Secret.

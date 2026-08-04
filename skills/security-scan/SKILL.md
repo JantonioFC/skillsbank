@@ -174,4 +174,7 @@ npx ecc-agentshield init
 * **npm**: [npmjs.com/package/ecc-agentshield](https://www.npmjs.com/package/ecc-agentshield)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+使用AgentShield扫描您的Claude代码配置（.claude/目录），以发现安全漏洞、配置错误和注入风险。检查CLAUDE.md、settings.json、MCP服务器、钩子和代理定义。.
+
+Covers: Check if installed, Install globally (recommended), Or run directly via npx (no install needed), Scan current project, Scan a specific path.

@@ -217,4 +217,7 @@ Track these KPIs for your prompts:
 5. Document your prompt engineering decisions and learnings
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing production prompt templates.
+
+Covers: Core Capabilities, Few-Shot Learning, Chain-of-Thought Prompting, Prompt Optimization, Template Systems.

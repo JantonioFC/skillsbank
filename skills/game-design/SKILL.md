@@ -132,4 +132,7 @@ Just Right → Flow → Engagement
 > **Remember:** Fun is discovered through iteration, not designed on paper.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Game design principles. GDD structure, balancing, player psychology, progression.
+
+Covers: Game Design Principles, Core Loop Design, The 30-Second Test, Loop Examples, Game Design Document (GDD).

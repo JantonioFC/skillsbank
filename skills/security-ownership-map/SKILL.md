@@ -211,4 +211,7 @@ Use `references/neo4j-import.md` when you need to load the CSVs into Neo4j. It i
 - Compare `summary.json` against CODEOWNERS to highlight ownership drift.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization.
+
+Covers: Sensitivity rules, pattern,tag,weight, Output artifacts, LLM query helper, Basic security queries.

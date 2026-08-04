@@ -182,4 +182,7 @@ Creates `api-client-regen/SKILL.md` with:
 - Test the skill by reading it without the original context — does it make sense?
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples.
+
+Covers: /si:extract — Create Skills from Patterns, When to Extract, Identify the pattern, Determine skill scope, Generate skill name.

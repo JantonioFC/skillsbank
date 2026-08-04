@@ -217,4 +217,7 @@ Result: throttle.ts, middleware/index.ts, router-setup.ts
 * 与 ECC 捆绑的代理定义（手动安装路径：`agents/`）
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+逐步优化上下文检索以解决子代理上下文问题的模式.
+
+Covers: 阶段 1：调度, 阶段 2：评估, 阶段 3：优化, 阶段 4：循环, 示例 1：错误修复上下文.

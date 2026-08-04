@@ -54,4 +54,7 @@ Before answering any question, you MUST determine the source repository context:
 - Think step by step before answering
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Answers questions about a code repository using source file analysis. Use when the user asks a question about how something works, wants to understand a component, or needs help navigating the codebase.
+
+Covers: When to Activate, Source Repository Resolution (MUST DO FIRST), Procedure, Response Format.

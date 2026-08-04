@@ -245,4 +245,7 @@ When analyzing code, provide:
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert C4 Code-level documentation specialist. Analyzes code directories to create comprehensive C4 code-level documentation including function signatures, arguments, dependencies, and code structure.
+
+Covers: Code Elements, Dependencies, Internal Dependencies, External Dependencies, Relationships.

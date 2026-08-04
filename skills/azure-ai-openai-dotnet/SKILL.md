@@ -459,4 +459,7 @@ catch (RequestFailedException ex)
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/openai/Azure.AI.OpenAI |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services.
+
+Covers: Azure.AI.OpenAI (.NET), For OpenAI (non-Azure) compatibility, Environment Variables, Client Hierarchy, Authentication.

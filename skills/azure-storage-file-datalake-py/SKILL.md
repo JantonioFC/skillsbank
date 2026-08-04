@@ -217,4 +217,7 @@ asyncio.run(datalake_operations())
 7. **Consider Blob API** for simple object storage use cases
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical file systems, big data analytics, and file/directory operations.
+
+Covers: Azure Data Lake Storage Gen2 SDK for Python, Environment Variables, Authentication, Client Hierarchy, File System Operations.

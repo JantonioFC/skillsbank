@@ -4,16 +4,11 @@ description: Comprehensive backend development guide for Node.js/Express/TypeScr
   microservices. Use when creating routes, controllers, services, repositories, middleware,
   or working with Express APIs, Prisma database access, Sentry error tracking, Zod
   validation, unifiedConfig, dependency injection, or asy...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Backend Development Guidelines
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Purpose
 

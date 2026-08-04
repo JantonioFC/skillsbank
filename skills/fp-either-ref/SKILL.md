@@ -94,6 +94,3 @@ pipe(
 ```
 
 Use Either when **error type matters** and you want to chain operations.
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

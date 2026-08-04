@@ -80,4 +80,7 @@ Sometimes one insight eliminates 10 things. Look for the unifying principle that
 - Measure in "how many things can we delete?"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Find one insight that eliminates multiple components - "if this is true, we don't need X, Y, or Z.
+
+Covers: The Pattern, Cascade 1: Stream Abstraction, Cascade 2: Resource Governance, Cascade 3: Immutability, Red Flags You're Missing a Cascade.

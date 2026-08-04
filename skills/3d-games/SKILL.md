@@ -137,4 +137,7 @@ license: MIT
 > **Remember:** 3D is about illusion. Create the impression of detail, not the detail itself.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+3D game development principles. Rendering, shaders, physics, cameras.
+
+Covers: 3D Game Development, Rendering Pipeline, Stages, Optimization Principles, Shader Principles.

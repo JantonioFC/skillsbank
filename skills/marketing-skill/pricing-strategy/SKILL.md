@@ -327,4 +327,7 @@ All output follows the structured communication standard:
 - **competitor-alternatives**: Use for competitive comparison pages that complement pricing pages.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Design, optimize, and communicate SaaS pricing — tier structure, value metrics, pricing pages, and price increase strategy. Use when building a pricing model from scratch, redesigning existing pricing, planning a price increase, or improving a pricing page.
+
+Covers: Before Starting, Current State, Business Context, How This Skill Works, Mode 1: Design Pricing From Scratch.

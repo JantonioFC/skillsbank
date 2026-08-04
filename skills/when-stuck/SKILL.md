@@ -91,4 +91,7 @@ Some problems need multiple techniques:
 - Document what you tried
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Dispatch to the right problem-solving technique based on how you're stuck.
+
+Covers: When Stuck - Problem-Solving Dispatch, Quick Dispatch, Stuck-Type → Technique, Combining Techniques, Remember.

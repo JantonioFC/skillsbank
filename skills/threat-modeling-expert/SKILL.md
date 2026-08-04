@@ -4,16 +4,11 @@ description: Expert in threat modeling methodologies, security architecture revi
   and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement
   extraction. Use for security architecture reviews, threat identification, and secure-by-design
   planning.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Threat Modeling Expert
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use PROACTIVELY for security architecture reviews, threat identification, or building secure-by-design systems.
 
@@ -70,4 +65,7 @@ Expert in threat modeling methodologies, security architecture review, and risk 
 - Review regularly, not just at design time
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction.
+
+Covers: Capabilities, Safety.

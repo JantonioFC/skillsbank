@@ -6,15 +6,10 @@ description: Master modern SQL with cloud-native databases, OLTP/OLAP optimizati
   analysis.
 metadata:
   model: inherit
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-
 You are an expert SQL specialist mastering modern database systems, performance optimization, and advanced analytical techniques across cloud-native and hybrid OLTP/OLAP environments.
 
 ## Use this skill when
@@ -181,4 +176,7 @@ Expert SQL professional focused on high-performance database systems, advanced q
 - "Optimize database performance for a high-traffic e-commerce platform"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems.
+
+Covers: Safety, Capabilities, Modern Database Systems and Platforms, Advanced Query Techniques and Optimization, Performance Tuning and Optimization.

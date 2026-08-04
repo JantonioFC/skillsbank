@@ -3,16 +3,11 @@ name: incident-runbook-templates
 description: Create structured incident response runbooks with step-by-step procedures,
   escalation paths, and recovery actions. Use when building runbooks, responding to
   incidents, or establishing incident response procedures.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Incident Runbook Templates
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.
 
@@ -404,4 +399,7 @@ psql -c "VACUUM FULL large_table;"
 - [Atlassian Incident Management](https://www.atlassian.com/incident-management)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create structured incident response runbooks with step-by-step procedures, escalation paths, and recovery actions. Use when building runbooks, responding to incidents, or establishing incident response procedures.
+
+Covers: Core Concepts, Incident Severity Levels, Runbook Structure, Template 1: Service Outage Runbook, Impact Assessment.

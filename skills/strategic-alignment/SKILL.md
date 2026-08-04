@@ -13,15 +13,10 @@ metadata:
   updated: 2026-03-05
   python-tools: alignment_checker.py
   frameworks: alignment-playbook
-risk: offensive
+risk: safe
 source: community
 ---
 # Strategic Alignment Engine
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Strategy fails at the cascade, not the boardroom. This skill detects misalignment before it becomes dysfunction and builds systems that keep strategy connected from CEO to individual contributor.
 
@@ -203,4 +198,7 @@ A quick health check. Score each area 0–10:
 - `references/alignment-playbook.md` — Cascade techniques, quarterly alignment check, common patterns
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Cascades strategy from boardroom to individual contributor. Detects and fixes misalignment between company goals and team execution.
+
+Covers: Strategic Alignment Engine, Keywords, Core Framework, Strategy Articulation Test, Cascade Mapping.

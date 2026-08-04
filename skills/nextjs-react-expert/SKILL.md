@@ -298,4 +298,7 @@ Before shipping to production:
 **Total Rules:** 57 across 8 categories
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+React and Next.js performance optimization from Vercel Engineering. Use when building React components, optimizing performance, eliminating waterfalls, reducing bundle size, reviewing code for performance issues, or implementing server/client-side optimizations.
+
+Covers: Next.js & React Performance Expert, 🎯 Selective Reading Rule (MANDATORY), 📑 Content Map, 🚀 Quick Decision Tree, 📊 Impact Priority Guide.

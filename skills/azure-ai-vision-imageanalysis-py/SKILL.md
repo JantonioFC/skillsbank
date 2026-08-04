@@ -267,4 +267,7 @@ except HttpResponseError as e:
 7. **Cache results** when analyzing the same image multiple times
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks.
+
+Covers: Azure AI Vision Image Analysis SDK for Python, Environment Variables, Authentication, API Key, Entra ID (Recommended).

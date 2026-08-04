@@ -152,4 +152,7 @@ export async function getSecretData() {
 nextjs, next.js, app router, server components, server actions, streaming
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Next.js 15 App Router patterns. Trigger: When working with Next.js - routing, Server Actions, data fetching.
+
+Covers: App Router File Conventions, Server Components (Default), Server Actions, Data Fetching, Route Handlers (API).

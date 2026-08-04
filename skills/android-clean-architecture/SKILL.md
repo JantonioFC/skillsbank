@@ -341,4 +341,7 @@ plugins { id("kmp-library") }
 查看技能：`kotlin-coroutines-flows` 了解异步模式。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+适用于Android和Kotlin多平台项目的Clean Architecture模式——模块结构、依赖规则、用例、仓库以及数据层模式。.
+
+Covers: UseCase 模式, Room 数据库 (Android), SQLDelight (KMP), Ktor 网络客户端 (KMP), Koin (适用于 KMP).

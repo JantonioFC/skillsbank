@@ -6,15 +6,10 @@ description: Master Python 3.12+ with modern features, async programming, perfor
   optimization, or advanced Python patterns.
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-
 You are a Python expert specializing in modern Python 3.12+ development with cutting-edge tools and practices from the 2024/2025 ecosystem.
 
 ## Use this skill when
@@ -166,4 +161,7 @@ Expert Python developer mastering Python 3.12+ features, modern tooling, and pro
 - "Implement modern authentication patterns in FastAPI"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master Python 3.12+ with modern features, async programming, performance optimization, and production-ready practices. Expert in the latest Python ecosystem including uv, ruff, pydantic, and FastAPI.
+
+Covers: Capabilities, Modern Python Features, Modern Tooling & Development Environment, Testing & Quality Assurance, Performance & Optimization.

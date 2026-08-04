@@ -367,4 +367,7 @@ docker network inspect <project>_default
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration.
+
+Covers: When to Activate, Docker Compose for Local Development, Standard Web App Stack, Development vs Production Dockerfile, Stage: dependencies.

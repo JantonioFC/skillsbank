@@ -261,4 +261,7 @@ After setting up your pipeline:
 - **model-deployment-patterns**: Advanced deployment strategies
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build end-to-end MLOps pipelines from data preparation through model training, validation, and production deployment. Use when creating ML pipelines, implementing MLOps practices, or automating model training and deployment workflows.
+
+Covers: What This Skill Provides, Core Capabilities, Reference Documentation, Assets and Templates, Usage Patterns.

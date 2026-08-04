@@ -3,15 +3,12 @@ name: production-code-audit
 description: Autonomously deep-scan entire codebase line-by-line, understand architecture
   and patterns, then systematically transform it to production-grade, corporate-level
   professional quality with optimizations
-risk: offensive
+risk: safe
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
 > [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
 
 # Production Code Audit
 ## Overview

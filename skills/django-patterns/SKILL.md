@@ -736,4 +736,7 @@ Product.objects.filter(stock=0).delete()
 **覚えておいてください**: Djangoは多くのショートカットを提供しますが、本番アプリケーションでは、構造と組織が簡潔なコードよりも重要です。保守性を重視して構築してください。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps.
+
+Covers: QuerySetのベストプラクティス, Django REST Frameworkパターン, ViewSetパターン, QuerySetのキャッシング, N+1クエリの防止.

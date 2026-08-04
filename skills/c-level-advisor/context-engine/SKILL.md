@@ -138,4 +138,7 @@ Missing required fields: note gaps, work around in session, ask in-session only 
 - `references/anonymization-protocol.md` — detailed rules for stripping sensitive data before external calls
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Loads and manages company context for all C-suite advisor skills. Reads /.claude/company-context.md, detects stale context (>90 days), enriches context during conversations, and enforces privacy/anonymization rules before external API calls.
+
+Covers: Company Context Engine, Keywords, Load Protocol (Run at Start of Every C-Suite Session), Context Quality Signals, Context Enrichment.

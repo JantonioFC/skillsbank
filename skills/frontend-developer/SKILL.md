@@ -174,4 +174,7 @@ Expert frontend developer specializing in React 19+, Next.js 15+, and modern web
 - "Build a PWA with offline capabilities and push notifications"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture.
+
+Covers: Capabilities, Core React Expertise, Next.js & Full-Stack Integration, Modern Frontend Architecture, State Management & Data Fetching.

@@ -78,4 +78,7 @@ Launch plans should be concrete, time-bound, and channel-specific — no vague "
 - **marketing-context** — USE as foundation to align launch messaging with ICP and brand voice; always load first.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to plan a product launch, feature announcement, or release strategy.
+
+Covers: Before Starting, Core Philosophy, Task-Specific Questions, Proactive Triggers, Output Artifacts.

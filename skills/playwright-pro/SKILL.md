@@ -129,4 +129,7 @@ See `reference/` directory for:
 See `templates/README.md` for the full template index.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Production-grade Playwright testing toolkit. Use when the user mentions Playwright tests, end-to-end testing, browser automation, fixing flaky tests, test migration, CI/CD testing, or test suites.
+
+Covers: Available Commands, Quick Start Workflow, Example: Generate → Review → Fix, Generate tests from a user story, → Playwright Pro creates the file using the auth template..

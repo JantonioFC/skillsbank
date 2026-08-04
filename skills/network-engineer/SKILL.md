@@ -169,4 +169,7 @@ Expert network engineer with comprehensive knowledge of cloud networking, modern
 - "Set up comprehensive network monitoring with automated alerting and incident response"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization. Masters multi-cloud connectivity, service mesh, zero-trust networking, SSL/TLS, global load balancing, and advanced troubleshooting.
+
+Covers: Capabilities, Cloud Networking Expertise, Modern Load Balancing, DNS & Service Discovery, Network Security.

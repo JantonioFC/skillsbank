@@ -470,4 +470,7 @@ shellcheck --format=quiet script.sh
 - **Error Code Reference**: https://www.shellcheck.net/
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master ShellCheck static analysis configuration and usage for shell script quality. Use when setting up linting infrastructure, fixing code issues, or ensuring script portability.
+
+Covers: ShellCheck Configuration and Static Analysis, ShellCheck Fundamentals, What is ShellCheck?, macOS with Homebrew, From source.

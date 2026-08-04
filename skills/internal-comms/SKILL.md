@@ -36,4 +36,7 @@ If the communication type doesn't match any existing guideline, ask for clarific
 3P updates, company newsletter, company comms, weekly update, faqs, common questions, updates, internal comms
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use.
+
+Covers: How to use this skill, Keywords.

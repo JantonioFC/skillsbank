@@ -56,4 +56,7 @@ async def list_items() -> list[Item]:
 5. Add frontend API functions
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create FastAPI routers with CRUD operations, authentication dependencies, and proper response models. Use when building REST API endpoints, creating new routes, implementing CRUD operations, or adding authenticated endpoints in FastAPI applications.
+
+Covers: Authentication Patterns, Optional auth - returns None if not authenticated, Required auth - raises 401 if not authenticated, Response Models, HTTP Status Codes.

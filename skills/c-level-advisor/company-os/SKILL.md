@@ -240,4 +240,7 @@ The company OS is the connective tissue. Every other role depends on it:
 - `references/implementation-guide.md` — 90-day implementation plan
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+The meta-framework for how a company runs — the connective tissue between all C-suite roles. Covers operating system selection (EOS, Scaling Up, OKR-native, hybrid), accountability charts, scorecards, meeting pulse, issue resolution, and 90-day rocks.
+
+Covers: Company Operating System, Keywords, Why This Matters, The Six Core Components, Accountability Chart.

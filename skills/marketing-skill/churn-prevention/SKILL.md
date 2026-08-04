@@ -244,4 +244,7 @@ All output follows the structured communication standard:
 - **signup-flow-cro**: Use for reducing drop-off at signup. NOT for post-signup retention.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Reduce voluntary and involuntary churn through cancel flow design, save offers, exit surveys, and dunning sequences. Use when designing or optimizing a cancel flow, building save offers, setting up dunning emails, or reducing failed-payment churn.
+
+Covers: Before Starting, Current State, Business Context, How This Skill Works, Mode 1: Build Cancel Flow.

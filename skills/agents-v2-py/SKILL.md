@@ -330,4 +330,7 @@ async def create_hosted_agent_async():
 - [Azure Container Registry](https://learn.microsoft.com/azure/container-registry/)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build container-based Foundry Agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition. Use when creating hosted agents that run custom code in Azure AI Foundry with your own container images.
+
+Covers: Azure AI Hosted Agents (Python), Environment Variables, Authentication, Imports, Create Hosted Agent.

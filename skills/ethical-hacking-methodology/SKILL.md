@@ -476,4 +476,7 @@ umount /mnt/usb
 4. Try alternative exploits
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "learn ethical hacking", "understand penetration testing lifecycle", "perform reconnaissance", "conduct security scanning", "exploit vulnerabilities", or "write penetration test reports".
+
+Covers: Required Environment, Required Knowledge, Outputs and Deliverables, Understanding Hacker Types, Reconnaissance.

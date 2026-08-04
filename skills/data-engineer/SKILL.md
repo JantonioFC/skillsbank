@@ -227,4 +227,7 @@ Expert data engineer specializing in building robust, scalable data pipelines an
 - "Create a scalable ETL pipeline that handles late-arriving and out-of-order data"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms.
+
+Covers: Safety, Capabilities, Modern Data Stack & Architecture, Real-Time Streaming & Event Processing, Workflow Orchestration & Pipeline Management.

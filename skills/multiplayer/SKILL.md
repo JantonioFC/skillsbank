@@ -134,4 +134,7 @@ Server: Validate → did projectile actually hit?
 > **Remember:** Never trust the client. The server is the source of truth.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Multiplayer game development principles. Architecture, networking, synchronization.
+
+Covers: Multiplayer Game Development, Architecture Selection, Decision Tree, Comparison, Synchronization Principles.

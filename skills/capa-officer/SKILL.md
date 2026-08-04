@@ -439,4 +439,7 @@ Required CAPA elements:
 | Actions do not address root cause | Symptom treatment vs. cause elimination |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+CAPA system management for medical device QMS. Covers root cause analysis, corrective action planning, effectiveness verification, and CAPA metrics.
+
+Covers: CAPA Investigation Workflow, CAPA Necessity Determination, Investigation Team Composition, Evidence Collection Checklist, Root Cause Analysis.

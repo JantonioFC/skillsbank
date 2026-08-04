@@ -326,4 +326,7 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size) {
 * **doctest**：轻量级，编译开销最小
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+仅用于编写/更新/修复C++测试、配置GoogleTest/CTest、诊断失败或不稳定的测试，或添加覆盖率/消毒器时使用。.
+
+Covers: TDD 工作流, 基础单元测试 (gtest), 夹具 (gtest), Mock (gmock), CMakeLists.txt (excerpt).

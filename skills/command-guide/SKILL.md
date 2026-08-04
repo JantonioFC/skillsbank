@@ -4,17 +4,11 @@ description: 'Claude Code Command Selection Guide - Automatically recommend and 
   the right commands, agents, and skills in Claude Code. Use when: (1) user is unsure
   which command or tool to use, (2) needs to decide which agent/skill best fits the
   current task, (3) querying usage scenarios for /plan...'
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-
 # Claude Code Command Selection Guide
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 This skill helps you choose the most appropriate command, agent, or skill for different scenarios.
 

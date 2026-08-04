@@ -147,6 +147,3 @@ If the spreadsheet is an IB-style model (LBO, DCF, 3-statement, valuation):
 - Section headers should be merged cells with dark fill and white text.
 - Column labels for numeric data should be right-aligned; row labels should be left-aligned.
 - Indent submetrics under their parent line items.
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

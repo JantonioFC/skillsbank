@@ -141,4 +141,7 @@ cargo add azure_data_cosmos --features key_auth
 | crates.io | https://crates.io/crates/azure_data_cosmos |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.
+
+Covers: Azure Cosmos DB SDK for Rust, Environment Variables, Authentication, Client Hierarchy, Get Database and Container Clients.

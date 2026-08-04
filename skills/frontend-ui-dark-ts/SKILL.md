@@ -592,4 +592,7 @@ export function PageTransition({ children }: PageTransitionProps) {
 - [Patterns](./references/patterns.md) — Page layouts, navigation, lists, forms
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build dark-themed React applications using Tailwind CSS with custom theming, glassmorphism effects, and Framer Motion animations. Use when creating dashboards, admin panels, or data-rich interfaces with a refined dark aesthetic.
+
+Covers: Frontend UI Dark Theme (TypeScript), Stack, Project Structure, Animation Patterns, Framer Motion Variants.

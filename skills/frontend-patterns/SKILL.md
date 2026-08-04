@@ -1,16 +1,11 @@
 ---
 name: frontend-patterns
 description: React、Next.js、状態管理、パフォーマンス最適化、UIベストプラクティスのためのフロントエンド開発パターン。
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # フロントエンド開発パターン
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 React、Next.js、高性能ユーザーインターフェースのためのモダンなフロントエンドパターン。
 
@@ -638,4 +633,7 @@ export function Modal({ isOpen, onClose, children }: ModalProps) {
 **覚えておいてください**: モダンなフロントエンドパターンにより、保守可能で高性能なユーザーインターフェースを実装できます。プロジェクトの複雑さに適したパターンを選択してください。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+React、Next.js、状態管理、パフォーマンス最適化、UIベストプラクティスのためのフロントエンド開発パターン。.
+
+Covers: Context + Reducerパターン, Framer Motionアニメーション.

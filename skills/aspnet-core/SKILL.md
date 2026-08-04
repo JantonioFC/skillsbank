@@ -4,16 +4,11 @@ description: Build, review, refactor, or architect ASP.NET Core web applications
   current official guidance for .NET web development. Use when working on Blazor Web
   Apps, Razor Pages, MVC, Minimal APIs, controller-based Web APIs, SignalR, gRPC,
   middleware, dependency injection, configuration, authenticat...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # ASP.NET Core
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 
@@ -71,4 +66,7 @@ Load the smallest set of references that fits the task. Do not load every refere
 - When a task mentions "latest", verify the feature on Microsoft Learn or the ASP.NET Core docs repo before relying on memory.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development.
+
+Covers: Default Operating Assumptions, Reference Guide, Execution Notes.

@@ -4,16 +4,11 @@ description: Operate notifications as one ECC-native workflow across GitHub, Lin
   desktop alerts, hooks, and connected communication surfaces. Use when the real problem
   is alert routing, deduplication, escalation, or inbox collapse.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Unified Notifications Ops
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Use this skill when the real problem is not a missing ping. The real problem is a fragmented notification system.
 

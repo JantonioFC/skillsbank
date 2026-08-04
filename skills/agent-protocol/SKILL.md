@@ -12,15 +12,10 @@ metadata:
   domain: agent-orchestration
   updated: 2026-03-05
   frameworks: invocation-patterns
-risk: offensive
+risk: safe
 source: community
 ---
 # Inter-Agent Protocol
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 How C-suite agents talk to each other. Rules that prevent chaos, loops, and circular reasoning.
 
@@ -427,4 +422,7 @@ ACTION ITEMS
 - `references/invocation-patterns.md` — common cross-functional patterns with examples
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Inter-agent communication protocol for C-suite agent teams. Defines invocation syntax, loop prevention, isolation rules, and response formats.
+
+Covers: Inter-Agent Protocol, Keywords, Invocation Syntax, Response Format, Loop Prevention (Hard Rules).

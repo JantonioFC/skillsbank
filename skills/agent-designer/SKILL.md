@@ -2,16 +2,11 @@
 name: agent-designer
 description: Use when the user asks to design multi-agent systems, create agent architectures,
   define agent communication patterns, or build autonomous agent workflows.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Agent Designer - Multi-Agent System Architecture
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 **Tier:** POWERFUL  
 **Category:** Engineering  
@@ -287,4 +282,7 @@ Agent Designer is a comprehensive toolkit for designing, architecting, and evalu
 This skill provides the foundation for designing robust, scalable multi-agent systems that can handle complex tasks while maintaining safety, reliability, and performance at scale.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when the user asks to design multi-agent systems, create agent architectures, define agent communication patterns, or build autonomous agent workflows.
+
+Covers: Agent Designer - Multi-Agent System Architecture, Core Capabilities, Agent Architecture Patterns, Agent Role Definition, Tool Design Principles.

@@ -370,4 +370,7 @@ Visual or structured representation of how content interconnects.
 - **social-content**: For social media content
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover.
+
+Covers: Before Planning, Business Context, Customer Research, Current State, Competitive Landscape.

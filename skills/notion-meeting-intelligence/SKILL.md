@@ -63,4 +63,7 @@ After successful login, the user will have to restart codex. You should finish y
 - `examples/` — end-to-end meeting preps (e.g., `executive-review.md`, `project-decision.md`, `sprint-planning.md`, `customer-meeting.md`).
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.
+
+Covers: Gather inputs, Choose format, Enrich with research, Finalize and share, References and examples.

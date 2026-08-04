@@ -159,4 +159,7 @@ Each agent searches, reads sources, and returns findings. The main session synth
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Multi-source deep research using firecrawl and exa MCPs. Searches the web, synthesizes findings, and delivers cited reports with source attribution.
+
+Covers: When to Activate, MCP Requirements, Understand the Goal, Plan the Research, Execute Multi-Source Search.

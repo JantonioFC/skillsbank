@@ -3,16 +3,11 @@ name: k8s-security-policies
 description: Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolicy,
   and RBAC for production-grade security. Use when securing Kubernetes clusters, implementing
   network isolation, or enforcing pod security standards.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Kubernetes Security Policies
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Comprehensive guide for implementing NetworkPolicy, PodSecurityPolicy, RBAC, and Pod Security Standards in Kubernetes.
 
@@ -355,4 +350,7 @@ kubectl auth can-i '*' '*' --as system:serviceaccount:default:my-sa
 - `gitops-workflow` - For automated policy deployment
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolicy, and RBAC for production-grade security. Use when securing Kubernetes clusters, implementing network isolation, or enforcing pod security standards.
+
+Covers: Kubernetes Security Policies, Pod Security Standards, Privileged (Unrestricted), Baseline (Minimally restrictive), Restricted (Most restrictive).

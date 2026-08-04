@@ -731,4 +731,7 @@ open htmlcov/index.html
 **覚えておいてください**: テストはドキュメントです。良いテストはコードがどのように動作すべきかを説明します。シンプルで、読みやすく、保守可能に保ってください。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Django testing strategies with pytest-django, TDD methodology, factoryboy, mocking, coverage, and testing Django REST Framework APIs.
+
+Covers: Red-Green-Refactorサイクル, ステップ1: RED - 失敗するテストを書く, ステップ2: GREEN - テストを通す, Userモデルまたはファクトリーを作成, ステップ3: REFACTOR - テストをグリーンに保ちながら改善.

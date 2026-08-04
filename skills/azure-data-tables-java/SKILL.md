@@ -338,4 +338,7 @@ COSMOS_TABLE_ENDPOINT=https://<account>.table.cosmosdb.azure.com
 - "table entity CRUD"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build table storage applications with Azure Tables SDK for Java. Use when working with Azure Table Storage or Cosmos DB Table API for NoSQL key-value data, schemaless storage, or structured data at scale.
+
+Covers: Azure Tables SDK for Java, Client Creation, With Connection String, With Shared Key, With SAS Token.

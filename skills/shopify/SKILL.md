@@ -324,4 +324,7 @@ python scripts/shopify_init.py
 **Note:** This skill covers Shopify platform as of January 2025. Refer to official documentation for latest updates.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build Shopify applications, extensions, and themes using GraphQL/REST APIs, Shopify CLI, Polaris UI components, and Liquid templating.
+
+Covers: Shopify Development, Platform Overview, Install Shopify CLI, Verify installation, Create New App.

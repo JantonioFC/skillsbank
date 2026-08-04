@@ -148,4 +148,7 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+People leadership for scaling companies. Hiring strategy, compensation design, org structure, culture, and retention.
+
+Covers: Keywords, Core Responsibilities, People Strategy & Headcount Planning, Compensation Design, Org Design.

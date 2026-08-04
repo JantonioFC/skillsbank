@@ -436,4 +436,7 @@ string connectionString = $"Host={server.Data.FullyQualifiedDomainName};" +
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/postgresql/Azure.ResourceManager.PostgreSql |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure PostgreSQL Flexible Server SDK for .NET. Database management for PostgreSQL Flexible Server deployments.
+
+Covers: Azure.ResourceManager.PostgreSql (.NET), Environment Variables, Authentication, Resource Hierarchy, Core Workflows.

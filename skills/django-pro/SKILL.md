@@ -5,16 +5,11 @@ description: Master Django 5.x with async views, DRF, Celery, and Django Channel
   Use PROACTIVELY for Django development, ORM optimization, or complex Django patterns.
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on django pro tasks or workflows
 - Needing guidance, best practices, or checklists for django pro
@@ -186,4 +181,7 @@ Expert Django developer specializing in Django 5.x best practices, scalable arch
 - "Create a robust background task system with Celery"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.
+
+Covers: Capabilities, Core Django Expertise, Architecture & Project Structure, Modern Django Features, Testing & Quality.

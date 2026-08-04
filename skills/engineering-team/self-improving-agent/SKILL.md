@@ -167,4 +167,7 @@ Monitors command output for errors. When detected, appends a structured entry to
 - [playwright-pro](../playwright-pro/) — sister plugin in this repo
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Curate Claude Code''s auto-memory into durable project knowledge. Analyze MEMORY.md for patterns, promote proven learnings to CLAUDE.md and .claude/rules/, extract recurring solutions into reusable skills.
+
+Covers: How It Fits Together, Claude Code (Plugin), OpenClaw, Codex CLI, Memory Architecture.

@@ -144,4 +144,7 @@ In case of issues after merge:
 - **Sign-Off**: Require at least 2 approvals for main branch changes
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Orchestrate a comprehensive git workflow from code review through PR creation, leveraging specialized agents for quality assurance, testing, and deployment readiness.
+
+Covers: Complete Git Workflow with Multi-Agent Orchestration, Pre-Commit Review and Analysis, Code Quality Assessment, Dependency and Breaking Change Analysis, Testing and Validation.

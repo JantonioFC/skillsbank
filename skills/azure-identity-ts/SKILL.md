@@ -307,4 +307,7 @@ AzureLogger.log = (...args) => {
 6. **Use ChainedTokenCredential** - For custom fallback scenarios
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Authenticate to Azure services using Azure Identity SDK for JavaScript (@azure/identity). Use when configuring authentication with DefaultAzureCredential, managed identity, service principals, or interactive browser login.
+
+Covers: Azure Identity SDK for TypeScript, Environment Variables, Service Principal (Secret), Service Principal (Certificate), Workload Identity (Kubernetes).

@@ -338,4 +338,7 @@ catch (RequestFailedException ex)
 | Azure Bot Service Docs | https://learn.microsoft.com/azure/bot-service/ |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Resource Manager SDK for Bot Service in .NET. Management plane operations for creating and managing Azure Bot resources, channels (Teams, DirectLine, Slack), and connection settings.
+
+Covers: Azure.ResourceManager.BotService (.NET), Environment Variables, For service principal auth (optional), Authentication, Resource Hierarchy.

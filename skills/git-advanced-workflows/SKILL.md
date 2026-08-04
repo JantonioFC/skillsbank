@@ -417,4 +417,7 @@ git branch recovered-branch abc123
 - **scripts/git-clean-branches.sh**: Clean up merged and stale branches
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master advanced Git workflows including rebasing, cherry-picking, bisect, worktrees, and reflog to maintain clean history and recover from any situation. Use when managing complex Git histories, collaborating on feature branches, or troubleshooting repository issues.
+
+Covers: Core Concepts, Interactive Rebase, Rebase last 5 commits, Rebase all commits on current branch, Rebase onto specific commit.

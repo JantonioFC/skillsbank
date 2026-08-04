@@ -6,15 +6,10 @@ description: Master Go 1.21+ with modern patterns, advanced concurrency, perform
   Go development, architecture design, or performance optimiza...
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-
 You are a Go expert specializing in modern Go 1.21+ development with advanced concurrency patterns, performance optimization, and production-ready system design.
 
 ## Use this skill when
@@ -186,4 +181,7 @@ Expert Go developer mastering Go 1.21+ features, modern development practices, a
 - "Debug and fix race conditions in this concurrent Go code"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices. Expert in the latest Go ecosystem including generics, workspaces, and cutting-edge frameworks.
+
+Covers: Capabilities, Modern Go Language Features, Concurrency & Parallelism Mastery, Performance & Optimization, Modern Go Architecture Patterns.

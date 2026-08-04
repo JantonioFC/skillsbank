@@ -232,4 +232,7 @@ async def analyze():
 6. **Use context manager** or close client explicitly
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phrases, language detection, PII, and healthcare NLP. Use for natural language processing on text.
+
+Covers: Azure AI Text Analytics SDK for Python, Environment Variables, Authentication, API Key, Entra ID (Recommended).

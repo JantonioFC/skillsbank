@@ -308,4 +308,7 @@ private String refreshToken() {
 - "Azure Communication Services authentication"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.
+
+Covers: Key Concepts, CommunicationTokenCredential, Static Token (Short-lived Clients), Proactive Token Refresh (Long-lived Clients), Async Token Refresh.

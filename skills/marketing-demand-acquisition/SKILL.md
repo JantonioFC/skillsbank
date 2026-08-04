@@ -317,4 +317,7 @@ Required:
 - **campaign-analytics**: For measuring demand gen effectiveness.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Creates demand generation campaigns, optimizes paid ad spend across LinkedIn, Google, and Meta, develops SEO strategies, and structures partnership programs for Series A+ startups scaling internationally.
+
+Covers: Core KPIs, Demand Generation Framework, Funnel Stages, Campaign Planning Workflow, UTM Structure.

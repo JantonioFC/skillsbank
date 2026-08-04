@@ -70,4 +70,5 @@ source: community
 > If any validation failed, fix the issues and re-run azure-validate before proceeding.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), permissions, and prerequisites before deploying.

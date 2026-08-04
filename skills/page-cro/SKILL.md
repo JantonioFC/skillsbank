@@ -187,4 +187,7 @@ When recommending experiments, consider tests for:
 - **ab-test-setup**: To properly test recommended changes
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts.
+
+Covers: Page Conversion Rate Optimization (CRO), Initial Assessment, CRO Analysis Framework, Value Proposition Clarity (Highest Impact), Headline Effectiveness.

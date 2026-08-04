@@ -249,4 +249,7 @@ async def call_with_retry():
 Build production-ready, scalable, and observable LangChain agents following these patterns.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are an expert LangChain agent developer specializing in production-grade AI systems using LangChain 0.1+ and LangGraph.
+
+Covers: Context, Core Requirements, Essential Architecture, LangGraph State Management, Model & Embeddings.

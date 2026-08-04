@@ -54,4 +54,7 @@ Raise testing bar for generated code:
 - integration checks for interface boundaries
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Engineering operating model for teams where AI agents generate a large share of implementation output.
+
+Covers: Process Shifts, Architecture Requirements, Code Review in AI-First Teams, Hiring and Evaluation Signals, Testing Standard.

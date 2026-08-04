@@ -8,15 +8,10 @@ license: MIT
 metadata:
   author: vercel
   version: 1.0.0
-risk: offensive
+risk: safe
 source: community
 ---
 # React Composition Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Composition patterns for building flexible, maintainable React components. Avoid
 boolean prop proliferation by using compound components, lifting state, and
@@ -93,4 +88,7 @@ Each rule file contains:
 For the complete guide with all rules expanded: `AGENTS.md`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs.
+
+Covers: React Composition Patterns, When to Apply, Rule Categories by Priority, Component Architecture (HIGH), State Management (MEDIUM).

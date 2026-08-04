@@ -280,4 +280,7 @@ curl -sf https://app.example.com/healthz || echo "ROLLBACK FAILED — escalate"
 Check the comprehensive troubleshooting section in `references/deployment_strategies.md`.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring.
+
+Covers: Main Capabilities, Core Capabilities, Pipeline Generator, Terraform Scaffolder, Deployment Manager.

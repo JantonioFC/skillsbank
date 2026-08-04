@@ -389,4 +389,7 @@ No bug in /api/user/notifications  → Don't write test (yet)
 - Aim for coverage percentage — aim for regression prevention
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Regression testing strategies for AI-assisted development. Sandbox-mode API testing without database dependencies, automated bug-check workflows, and patterns to catch AI blind spots where the same model writes and reviews code.
+
+Covers: When to Activate, The Core Problem, Sandbox-Mode API Testing, Setup (Vitest + Next.js App Router), Test Helper for Next.js API Routes.

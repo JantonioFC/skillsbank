@@ -63,4 +63,7 @@ Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters 
 - Plan for projection rebuilding
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual consistency patterns.
+
+Covers: Capabilities, Safety.

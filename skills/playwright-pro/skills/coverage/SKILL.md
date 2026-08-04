@@ -99,4 +99,7 @@ If yes, invoke `/pw:generate` for each gap with the recommended template.
 - Option to auto-generate missing tests
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyze test coverage gaps. Use when user says "test coverage", "what's not tested", "coverage gaps", "missing tests", "coverage report", or "what needs testing".
+
+Covers: Analyze Test Coverage Gaps, Map Application Surface, Map Existing Tests, Generate Coverage Matrix, Coverage Matrix.

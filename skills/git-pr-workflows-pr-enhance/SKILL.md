@@ -52,4 +52,7 @@ Focus on creating PRs that are a pleasure to review, with all necessary context 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews.
+
+Covers: Pull Request Enhancement, Context, Output Format.

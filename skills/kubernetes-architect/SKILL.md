@@ -6,15 +6,10 @@ description: Expert Kubernetes architect specializing in cloud-native infrastruc
   and platform engineering. Handles security, observabili...
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-
 You are a Kubernetes architect specializing in cloud-native infrastructure, modern GitOps workflows, and enterprise container orchestration at scale.
 
 ## Use this skill when
@@ -175,4 +170,7 @@ Expert Kubernetes architect with comprehensive knowledge of container orchestrat
 - "Design Kubernetes operator for custom application lifecycle management"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration. Masters EKS/AKS/GKE, service mesh (Istio/Linkerd), progressive delivery, multi-tenancy, and platform engineering.
+
+Covers: Safety, Capabilities, Kubernetes Platform Expertise, GitOps & Continuous Deployment, Modern Infrastructure as Code.

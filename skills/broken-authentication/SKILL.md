@@ -486,4 +486,7 @@ https://target.com/reset?token=a1b2c3d4e5f6&email=admin@example.com
 | Account lockout prevents testing | Request multiple test accounts; test threshold first; use slower timing |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "test for broken authentication vulnerabilities", "assess session management security", "perform credential stuffing tests", "evaluate password policies", "test for session fixation", or "identify authentication bypass flaws".
+
+Covers: Broken Authentication Testing, Required Knowledge, Required Tools, Required Access, Outputs and Deliverables.

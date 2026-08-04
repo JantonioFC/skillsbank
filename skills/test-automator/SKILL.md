@@ -6,16 +6,11 @@ description: Master AI-powered test automation with modern frameworks, self-heal
   assurance.
 metadata:
   model: sonnet
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on test automator tasks or workflows
 - Needing guidance, best practices, or checklists for test automator
@@ -231,4 +226,7 @@ Expert test automation engineer focused on building robust, maintainable, and in
 - "Set up continuous TDD verification in CI/CD pipeline"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master AI-powered test automation with modern frameworks, self-healing tests, and comprehensive quality engineering. Build scalable testing strategies with advanced CI/CD integration.
+
+Covers: Capabilities, Test-Driven Development (TDD) Excellence, AI-Powered Testing Frameworks, Modern Test Automation Frameworks, Performance and Load Testing.

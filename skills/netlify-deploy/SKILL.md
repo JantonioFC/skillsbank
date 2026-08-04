@@ -251,4 +251,7 @@ For secrets and configuration:
 - [netlify.toml guide](references/netlify-toml.md)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Deploy web projects to Netlify using the Netlify CLI (npx netlify). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.
+
+Covers: Netlify Deployment Skill, Authentication Pattern, Verify Netlify CLI Authentication, Detect Site Link Status, Link to Existing Site or Create New.

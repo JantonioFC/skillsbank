@@ -73,4 +73,7 @@ Use the `file_key` for subsequent tool calls like `use_figma`.
 - If `use_figma` is your next step, load the `figma-use` skill before calling it.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling usefigma.
+
+Covers: createnewfile — Create a New Figma File, Skill Arguments, Resolve the planKey, Call createnewfile, Use the result.

@@ -98,4 +98,7 @@ Together, these tools enable engineering teams to make data-driven decisions abo
 Technical debt management is not just about writing better code - it's about creating sustainable development practices that balance short-term delivery pressure with long-term system health. Use these tools and frameworks to make informed decisions about when and how to invest in debt reduction.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code quality, refactoring priority, debt scoring, cleanup sprints, or code health assessment.
+
+Covers: What This Skill Provides, Technical Debt Classification Framework, Implementation Roadmap, Foundation (Weeks 1-2), Process Integration (Weeks 3-4).

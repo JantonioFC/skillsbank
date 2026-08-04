@@ -264,4 +264,7 @@ try {
 | Troubleshooting | https://learn.microsoft.com/azure/cosmos-db/troubleshoot-java-sdk-v4-sql |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.
+
+Covers: Azure Cosmos DB SDK for Java, Environment Variables, Authentication, Key-based Authentication, Async Client.

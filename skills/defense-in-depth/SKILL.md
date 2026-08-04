@@ -133,4 +133,7 @@ All four layers were necessary. During testing, each layer caught bugs the other
 **Don't stop at one validation point.** Add checks at every layer.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Validate at every layer data passes through to make bugs impossible.
+
+Covers: Defense-in-Depth Validation, Why Multiple Layers, The Four Layers, Layer 1: Entry Point Validation, Layer 2: Business Logic Validation.

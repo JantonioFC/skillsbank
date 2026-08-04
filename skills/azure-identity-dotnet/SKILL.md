@@ -5,16 +5,11 @@ description: 'Azure Identity SDK for .NET. Authentication library for Azure SDK 
   principals, and developer credentials. Triggers: "Azure Identity", "DefaultAzureCredential",
   "ManagedIdentityCredential", "ClientSecretCred...'
 package: Azure.Identity
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Azure.Identity (.NET)
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Authentication library for Azure SDK clients using Microsoft Entra ID (formerly Azure AD).
 
@@ -348,4 +343,7 @@ All credential implementations are thread-safe. A single credential instance can
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/identity/Azure.Identity |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Identity SDK for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID.
+
+Covers: Azure.Identity (.NET), For ASP.NET Core, For brokered authentication (Windows), Environment Variables, Service Principal with Secret.

@@ -13,16 +13,11 @@ tags:
 - deno
 - dependency-injection
 - reader-task-either
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # fp-ts Backend Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Functional programming patterns for building type-safe, testable backend services using fp-ts.
 
@@ -1346,6 +1341,3 @@ export const myOperation = (
     )
   )
 ```
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

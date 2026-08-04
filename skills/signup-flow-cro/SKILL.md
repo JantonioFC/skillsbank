@@ -364,4 +364,7 @@ Organized by:
 - **ab-test-setup**: For testing signup flow changes
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to optimize signup, registration, account creation, or trial activation flows.
+
+Covers: Initial Assessment, Core Principles, Minimize Required Fields, Show Value Before Asking for Commitment, Reduce Perceived Effort.

@@ -4,16 +4,11 @@ description: Master C#/.NET backend development patterns for building robust API
   MCP servers, and enterprise applications. Covers async/await, dependency injection,
   Entity Framework Core, Dapper, configuration, caching, and testing with xUnit. Use
   when developing .NET backends, reviewing C# code, or designi...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # .NET Backend Development Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best practices (2024/2025).
 
@@ -47,4 +42,5 @@ Master C#/.NET patterns for building production-grade APIs, MCP servers, and ent
 - `resources/implementation-playbook.md` for detailed .NET patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise applications. Covers async/await, dependency injection, Entity Framework Core, Dapper, configuration, caching, and testing with xUnit.

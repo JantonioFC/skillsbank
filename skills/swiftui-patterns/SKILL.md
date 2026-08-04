@@ -261,4 +261,7 @@ struct ExpensiveChartView: View, Equatable {
 查看技能：`swift-protocol-di-testing` 以了解基于协议的 DI 和使用 Swift Testing 进行测试。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+SwiftUI 架构模式，使用 @Observable 进行状态管理，视图组合，导航，性能优化，以及现代 iOS/macOS UI 最佳实践。.
+
+Covers: @Observable ViewModel, 消费 ViewModel 的视图, 用于可复用样式的 ViewModifier, 类型安全的 NavigationStack, 避免在 body 中进行昂贵操作.

@@ -319,4 +319,7 @@ Reusable Plugin API helper functions. Embed in `use_figma` calls:
 | [rehydrateState.js](scripts/rehydrateState.js) | Scan file for all pages, components, variables by name; returns full `{key → nodeId}` map for state reconstruction |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes), document foundations, or reconcile gaps between code and Figma.
+
+Covers: Design System Builder — Figma MCP Skill, The One Rule That Matters Most, Mandatory Workflow, Critical Rules, State Management (Required for Long Workflows).

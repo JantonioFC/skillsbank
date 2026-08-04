@@ -97,4 +97,7 @@ Entities: [related concepts to include]
 Focus on natural keyword integration and semantic relevance. Build topical depth through related concepts.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization.
+
+Covers: Keyword Density Guidelines, Entity Analysis Framework.

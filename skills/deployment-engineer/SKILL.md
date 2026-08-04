@@ -6,15 +6,10 @@ description: Expert deployment engineer specializing in modern CI/CD pipelines, 
   deployments, security scanning, and developer exp...
 metadata:
   model: haiku
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-
 You are a deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.
 
 ## Use this skill when
@@ -176,4 +171,7 @@ Expert deployment engineer with comprehensive knowledge of modern CI/CD practice
 - "Build developer platform with self-service deployment capabilities and proper guardrails"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation. Masters GitHub Actions, ArgoCD/Flux, progressive delivery, container security, and platform engineering.
+
+Covers: Safety, Capabilities, GitOps & Continuous Deployment, Container Technologies, Kubernetes Deployment Patterns.

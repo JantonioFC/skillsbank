@@ -488,4 +488,7 @@ Required dependencies (should already be installed):
 - **defusedxml**: `pip install defusedxml` (for secure XML parsing)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Presentation creation, editing, and analysis.
+
+Covers: PPTX creation, editing, and analysis, Reading and analyzing content, Text extraction, Convert document to markdown, Raw XML access.

@@ -29,4 +29,7 @@ Notes:
 - If gh hits auth/rate issues mid-run, prompt the user to re-authenticate with `gh auth login`, then retry.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.
+
+Covers: PR Comment Handler, Inspect comments needing attention, Ask the user for clarification, If user chooses comments.

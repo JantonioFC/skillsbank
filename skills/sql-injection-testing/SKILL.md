@@ -458,4 +458,7 @@ SELECT * FROM users WHERE username='administrator'--' AND password='anything'
 - Consider server-side caching effects
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "test for SQL injection vulnerabilities", "perform SQLi attacks", "bypass authentication using SQL injection", "extract database information through injection", "detect SQL injection flaws", or "exploit database query vulnerabilities".
+
+Covers: Required Access, Technical Requirements, Legal Prerequisites, Primary Outputs, Evidence Artifacts.

@@ -3,22 +3,11 @@ name: spec-to-code-compliance
 description: Verifies code implements exactly what documentation specifies for blockchain
   audits. Use when comparing code against whitepapers, finding gaps between specs
   and implementation, or performing compliance checks for protocol implementations.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## When to Use
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-Use this skill when you need to:
-- Verify code implements exactly what documentation specifies
-- Audit smart contracts against whitepapers or design documents
-- Find gaps between intended behavior and actual implementation
-- Identify undocumented code behavior or unimplemented spec claims
-- Perform compliance checks for blockchain protocol implementations
 
 **Concrete triggers:**
 - User provides both specification documents AND codebase

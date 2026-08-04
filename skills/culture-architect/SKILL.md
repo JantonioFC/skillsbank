@@ -171,4 +171,7 @@ Rituals are the delivery mechanism for culture. What works at 10 people breaks a
 - `templates/culture-code-template.md` — Culture code document template
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build, measure, and evolve company culture as operational behavior — not wall posters. Covers mission/vision/values workshops, values-to-behaviors translation, culture code creation, culture health assessment, and cultural rituals by stage.
+
+Covers: Keywords, Core Principle, Frameworks, Values → Behaviors Translation, Culture Code Creation.

@@ -40,4 +40,5 @@ Comprehensive guidance for mastering TypeScript's advanced type system including
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications.

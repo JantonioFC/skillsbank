@@ -232,4 +232,7 @@ Calculates comprehensive ROI metrics with industry benchmarking:
 - **paid-ads**: For optimizing ad spend based on analytics findings.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization.
+
+Covers: Input Requirements, Attribution Analyzer, Funnel Analyzer, Campaign ROI Calculator, Input Validation.

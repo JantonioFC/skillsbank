@@ -4,16 +4,11 @@ description: Generates custom design system rules for the user's codebase. Use w
   user says "create design system rules", "generate rules for my project", "set up
   design rules", "customize design system guidelines", or wants to establish project-specific
   conventions for Figma-to-code workflows. Requires Fig...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Create Design System Rules
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 

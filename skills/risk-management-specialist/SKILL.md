@@ -456,4 +456,7 @@ What is the risk level?
 | [quality-documentation-manager](../quality-documentation-manager/) | Risk file management |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Medical device risk management specialist implementing ISO 14971 throughout product lifecycle. Provides risk analysis, risk evaluation, risk control, and post-production information analysis.
+
+Covers: Risk Management Planning Workflow, Workflow: Create Risk Management Plan, Risk Management Plan Content, Risk Acceptability Matrix (5x5), Risk Level Actions.

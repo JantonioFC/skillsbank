@@ -211,4 +211,7 @@ Expert UI/UX designer specializing in design systems, accessibility-first design
 Focus on user-centered, accessible design solutions with comprehensive documentation and systematic thinking. Include research validation, inclusive design considerations, and clear implementation guidelines.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools.
+
+Covers: Capabilities, Design Systems Mastery, Modern Design Tools & Workflows, User Research & Analysis, Accessibility & Inclusive Design.

@@ -3,17 +3,12 @@ name: cal-com-automation
 description: 'Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check
   availability, configure webhooks, and handle teams. Always search tools first for
   current schemas.'
-risk: offensive
+risk: safe
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
 # Cal.com Automation via Rube MCP
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Automate Cal.com scheduling operations through Composio's Cal toolkit via Rube MCP.
 
@@ -26,7 +21,6 @@ Automate Cal.com scheduling operations through Composio's Cal toolkit via Rube M
 ## Setup
 
 **Get Rube MCP**: Add `https://rube.app/mcp` as an MCP server in your client configuration. No API keys needed — just add the endpoint and it works.
-
 
 1. Verify Rube MCP is available by confirming `RUBE_SEARCH_TOOLS` responds
 2. Call `RUBE_MANAGE_CONNECTIONS` with toolkit `cal`

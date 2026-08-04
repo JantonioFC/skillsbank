@@ -110,4 +110,7 @@ H1: Primary Keyword Focus
 Focus on logical flow and scannable content. Create clear information hierarchy for users and search engines.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization.
+
+Covers: Header Tag Best Practices, Siloing Strategy, Schema Markup Priority.

@@ -2,16 +2,11 @@
 name: backend-patterns
 description: 后端架构模式、API设计、数据库优化以及适用于Node.js、Express和Next.js API路由的服务器端最佳实践。
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # 后端开发模式
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 用于可扩展服务器端应用程序的后端架构模式和最佳实践。
 
@@ -605,4 +600,7 @@ export async function GET(request: Request) {
 **记住**：后端模式支持可扩展、可维护的服务器端应用程序。选择适合你复杂程度的模式。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+后端架构模式、API设计、数据库优化以及适用于Node.js、Express和Next.js API路由的服务器端最佳实践。.
+
+Covers: API 设计模式, RESTful API 结构, N+1 查询预防, Redis 缓存层, JWT 令牌验证.

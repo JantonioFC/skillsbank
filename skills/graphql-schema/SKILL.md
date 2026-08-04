@@ -295,4 +295,7 @@ npm run sync-types
 - **formik-patterns**: Mutation submission patterns
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+GraphQL queries, mutations, and code generation patterns. Use when creating GraphQL operations, working with Apollo Client, or generating types.
+
+Covers: GraphQL Schema Patterns, Core Rules, File Structure, Creating a Query, Create .gql file.

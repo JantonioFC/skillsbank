@@ -425,4 +425,7 @@ Post-Upgrade:
 - Not having rollback plan
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Manage major dependency version upgrades with compatibility analysis, staged rollout, and comprehensive testing. Use when upgrading framework versions, updating major dependencies, or managing breaking changes in libraries.
+
+Covers: Semantic Versioning Review, Dependency Analysis, Audit Dependencies, npm, yarn.

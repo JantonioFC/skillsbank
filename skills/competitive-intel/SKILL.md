@@ -207,4 +207,7 @@ This is the highest-signal competitive data you have. Most companies do it too r
 - `templates/battlecard-template.md` — sales battlecard template
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Systematic competitor tracking that feeds CMO positioning, CRO battlecards, and CPO roadmap decisions.
+
+Covers: Competitive Intelligence, Keywords, Framework: 5-Layer Intelligence System, Layer 1: Competitor Identification, Layer 2: Tracking Dimensions.

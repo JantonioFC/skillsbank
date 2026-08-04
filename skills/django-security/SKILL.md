@@ -2,16 +2,11 @@
 name: django-security
 description: Django security best practices, authentication, authorization, CSRF protection,
   SQL injection prevention, XSS prevention, and secure deployment configurations.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Django セキュリティベストプラクティス
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 一般的な脆弱性から保護するためのDjangoアプリケーションの包括的なセキュリティガイドライン。
 
@@ -600,4 +595,7 @@ LOGGING = {
 **覚えておいてください**: セキュリティは製品ではなく、プロセスです。定期的にセキュリティプラクティスをレビューし、更新してください。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Django security best practices, authentication, authorization, CSRF protection, SQL injection prevention, XSS prevention, and secure deployment configurations.
+
+Covers: HTTPSとクッキー, ロールベースアクセス制御(RBAC), Mixin, SQLインジェクション防止, Django ORM保護.

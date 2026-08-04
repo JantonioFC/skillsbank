@@ -4,16 +4,11 @@ description: Master of defensive Bash scripting for production automation, CI/CD
   and system utilities. Expert in safe, portable, and testable shell scripts.
 metadata:
   model: sonnet
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Writing or reviewing Bash scripts for automation, CI/CD, or ops
 - Hardening shell scripts for safety and portability
@@ -317,4 +312,7 @@ license: MIT
 - [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) - Collection of pure bash alternatives to external commands
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master of defensive Bash scripting for production automation, CI/CD pipelines, and system utilities. Expert in safe, portable, and testable shell scripts.
+
+Covers: Safety, Compatibility & Portability, Readability & Maintainability, Safety & Security Patterns, Performance Optimization.

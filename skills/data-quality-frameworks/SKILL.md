@@ -44,4 +44,5 @@ Production patterns for implementing data quality with Great Expectations, dbt t
 - `resources/implementation-playbook.md` for detailed frameworks, templates, and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts.

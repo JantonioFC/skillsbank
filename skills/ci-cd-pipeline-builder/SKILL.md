@@ -1,16 +1,11 @@
 ---
 name: ci-cd-pipeline-builder
 description: CI/CD Pipeline Builder
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # CI/CD Pipeline Builder
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 **Tier:** POWERFUL  
 **Category:** Engineering  

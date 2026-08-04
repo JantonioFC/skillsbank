@@ -4,16 +4,11 @@ description: Deployment workflows, CI/CD pipeline patterns, Docker containerizat
   health checks, rollback strategies, and production readiness checklists for web
   applications.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Deployment Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Production deployment workflows and CI/CD best practices.
 
@@ -436,4 +431,7 @@ Before any production deployment:
 - [ ] On-call rotation and escalation path defined
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications.
+
+Covers: When to Activate, Deployment Strategies, Rolling Deployment (Default), Blue-Green Deployment, Canary Deployment.

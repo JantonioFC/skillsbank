@@ -241,4 +241,7 @@ This command pairs well with:
 - Conservative estimates build credibility with investors
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generate comprehensive market opportunity analysis with TAM/SAM/SOM calculations.
+
+Covers: Market Opportunity Analysis, What This Command Does, Instructions for Claude, Gather Context, Activate market-sizing-analysis Skill.

@@ -300,4 +300,7 @@ agent = client.agents.create_agent(
 - [scripts/run_batch_evaluation.py](scripts/run_batch_evaluation.py): CLI tool for batch evaluations
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build AI applications using the Azure AI Projects Python SDK (azure-ai-projects). Use when working with Foundry project clients, creating versioned agents with PromptAgentDefinition, running evaluations, managing connections/deployments/datasets/indexes, or using OpenAI-compatible clients.
+
+Covers: Azure AI Projects Python SDK (Foundry SDK), Environment Variables, Authentication, Client Operations Overview, Two Client Approaches.

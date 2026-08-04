@@ -315,4 +315,7 @@ argocd app sync my-app --force
 - `helm-chart-scaffolding` - For packaging applications
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Implement GitOps workflows with ArgoCD and Flux for automated, declarative Kubernetes deployments with continuous reconciliation. Use when implementing GitOps practices, automating Kubernetes deployments, or setting up declarative infrastructure management.
+
+Covers: Safety, OpenGitOps Principles, ArgoCD Setup, Create namespace, Install ArgoCD.

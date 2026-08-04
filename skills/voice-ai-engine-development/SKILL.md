@@ -3,15 +3,12 @@ name: voice-ai-engine-development
 description: Build real-time conversational AI voice engines using async worker pipelines,
   streaming transcription, LLM agents, and TTS synthesis with interrupt handling and
   multi-provider support
-risk: offensive
+risk: safe
 source: community
 date_added: '2026-02-27'
 license: MIT
 ---
 > [!IMPORTANT]
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only. 
-> Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
 
 # Voice AI Engine Development
 ## Overview

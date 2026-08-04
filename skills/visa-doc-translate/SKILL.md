@@ -120,4 +120,7 @@ The skill will:
 Perfect for visa applications to Australia, USA, Canada, UK, and other countries requiring translated documents.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Translate visa application documents (images) to English and create a bilingual PDF with original and translation.
+
+Covers: Supported Documents, Technical Implementation, OCR Methods (tried in order), Required Python Libraries, Important Guidelines.

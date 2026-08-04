@@ -61,4 +61,5 @@ gitGraph, journey, quadrantChart, timeline
 Always provide both basic and styled versions. Include comments explaining complex syntax.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling.

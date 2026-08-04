@@ -187,4 +187,7 @@ Never bury it. Boards find out eventually. Finding out late makes it worse.
 - `templates/board-deck-template.md` — fill-in template for complete board decks
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use when preparing board meetings, investor updates, quarterly business reviews, or fundraising narratives.
+
+Covers: Keywords, Deck Structure (Standard Order), Executive Summary (CEO), Key Metrics Dashboard (COO), Financial Update (CFO).

@@ -120,4 +120,7 @@ Refresh Actions:
 Focus on meaningful updates that add value. Identify specific elements that need refreshing.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating.
+
+Covers: Content Freshness Guidelines, Refresh Priority Matrix.

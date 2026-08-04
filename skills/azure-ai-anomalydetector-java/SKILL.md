@@ -260,4 +260,7 @@ AZURE_ANOMALY_DETECTOR_API_KEY=<your-api-key>
 - "Azure AI Anomaly Detector"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build anomaly detection applications with Azure AI Anomaly Detector SDK for Java. Use when implementing univariate/multivariate anomaly detection, time-series analysis, or AI-powered monitoring.
+
+Covers: Azure AI Anomaly Detector SDK for Java, Client Creation, Sync and Async Clients, With DefaultAzureCredential, Key Concepts.

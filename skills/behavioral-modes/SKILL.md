@@ -245,4 +245,7 @@ Users can explicitly request a mode:
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type.
+
+Covers: Behavioral Modes - Adaptive AI Operating Modes, Available Modes, 🧠 BRAINSTORM Mode, ⚡ IMPLEMENT Mode, 🔍 DEBUG Mode.

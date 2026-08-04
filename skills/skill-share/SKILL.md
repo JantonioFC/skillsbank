@@ -82,4 +82,7 @@ This skill leverages Rube for:
 - Target Slack channel for skill notifications
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+A skill that creates new Claude skills and automatically shares them on Slack using Rube for seamless team collaboration and skill discovery.
+
+Covers: Key Features, Skill Creation, Skill Validation, Skill Packaging, Slack Integration via Rube.

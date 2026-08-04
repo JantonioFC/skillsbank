@@ -248,4 +248,7 @@ See [references/EXAMPLES.md](references/EXAMPLES.md) for full canvas examples in
 - [JSON Canvas GitHub](https://github.com/obsidianmd/jsoncanvas)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.
+
+Covers: JSON Canvas Skill, File Structure, Common Workflows, Create a New Canvas, Add a Node to an Existing Canvas.

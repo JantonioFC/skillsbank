@@ -78,4 +78,7 @@ To test/visualize the artifact, use available tools (including other Skills or b
 - **shadcn/ui components**: https://ui.shadcn.com/docs/components
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.
+
+Covers: Design & Style Guidelines, Initialize Project, Develop Your Artifact, Bundle to Single HTML File, Share Artifact with User.

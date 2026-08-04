@@ -229,4 +229,7 @@ Status: SHIP IT
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Claude Codeセッションの正式な評価フレームワークで、評価駆動開発（EDD）の原則を実装します.
+
+Covers: pass@k, pass^k, EVAL DEFINITION: feature-xyz, Capability Evals, Regression Evals.

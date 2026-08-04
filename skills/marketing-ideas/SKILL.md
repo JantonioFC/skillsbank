@@ -172,4 +172,7 @@ When recommending ideas, provide for each:
 - **referral-program**: For viral growth (#93)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product.
+
+Covers: Marketing Ideas for SaaS, How to Use This Skill, Ideas by Category (Quick Reference), Implementation Tips, By Stage.

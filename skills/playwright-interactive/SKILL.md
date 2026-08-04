@@ -2,16 +2,11 @@
 name: playwright-interactive
 description: Persistent browser and Electron interaction through `js_repl` for fast
   iterative UI debugging.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Playwright Interactive Skill
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Use a persistent `js_repl` Playwright session to debug local web or Electron apps, keep the same handles alive across iterations, and run functional plus visual QA without restarting the whole toolchain unless the process ownership changed.
 
@@ -701,4 +696,7 @@ If you plan to exit Codex immediately after debugging, run the cleanup cell firs
 - Browser launch or network operations fail immediately: confirm the session was started with `--sandbox danger-full-access` and restart that way if needed.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Persistent browser and Electron interaction through jsrepl for fast iterative UI debugging.
+
+Covers: Playwright Interactive Skill, Preconditions, One-time setup, npx playwright install chromium, npm install --save-dev electron.

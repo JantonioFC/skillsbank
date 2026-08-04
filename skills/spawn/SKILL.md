@@ -86,4 +86,7 @@ Tell the user:
 - Evaluate when done with `/hub:eval`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Launch N parallel subagents in isolated git worktrees to compete on the session task.
+
+Covers: /hub:spawn — Launch Parallel Agents, Templates, What It Does, Critical Rules, After Spawn.

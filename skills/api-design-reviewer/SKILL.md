@@ -423,4 +423,7 @@ The API Design Reviewer skill provides a comprehensive framework for building, r
 Regular use of the linting, breaking change detection, and scoring tools ensures continuous improvement and helps maintain API quality throughout the development lifecycle.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+API Design Reviewer.
+
+Covers: Core Capabilities, API Linting and Convention Analysis, Breaking Change Detection, API Design Scoring and Assessment, REST Design Principles.

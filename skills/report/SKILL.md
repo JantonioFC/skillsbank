@@ -127,4 +127,7 @@ If previous reports exist in `test-reports/`:
 - Next action recommendation (fix failures or celebrate green)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generate test report. Use when user says "test report", "results summary", "test status", "show results", "test dashboard", or "how did tests go".
+
+Covers: Smart Test Reporting, Run Tests (If Not Already Run), Parse Results, Detect Report Destination, Generate Report.

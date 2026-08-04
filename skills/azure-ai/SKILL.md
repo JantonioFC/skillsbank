@@ -75,4 +75,7 @@ For deep documentation on specific services:
 - Speech transcription patterns -> [Azure AI Speech documentation](https://learn.microsoft.com/azure/ai-services/speech-service/overview)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR.
+
+Covers: Azure AI Services, Services, MCP Server (Preferred), AI Search, Speech.

@@ -147,4 +147,7 @@ Each rule file contains:
 For the complete guide with all rules expanded: `AGENTS.md`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns.
+
+Covers: Vercel React Best Practices, When to Apply, Rule Categories by Priority, Eliminating Waterfalls (CRITICAL), Bundle Size Optimization (CRITICAL).

@@ -417,4 +417,7 @@ Same format as above
 - **analytics-tracking**: For measuring SEO performance
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to audit, review, or diagnose SEO issues on their site.
+
+Covers: Initial Assessment, Audit Framework, Schema Markup Detection Limitation, Priority Order, Technical SEO Audit.

@@ -80,4 +80,7 @@ If the user picks loop, hand off to `/ar:loop` with the experiment pre-selected.
 If single, hand off to `/ar:run`.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating.
+
+Covers: /ar:resume — Resume Experiment, What It Does, List experiments if needed, Load full context, Checkout the experiment branch.

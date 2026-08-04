@@ -476,4 +476,7 @@ try {
 | Troubleshooting | https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/appconfiguration/azure-data-appconfiguration/TROUBLESHOOTING.md |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots.
+
+Covers: Azure App Configuration SDK for Java, Environment Variables, Client Creation, With Connection String, Async Client.

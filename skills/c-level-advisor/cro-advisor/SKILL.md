@@ -187,4 +187,7 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling.
+
+Covers: Keywords, Revenue Forecasting, Churn & Retention Analysis, Diagnostic Questions, Core Responsibilities (Overview).

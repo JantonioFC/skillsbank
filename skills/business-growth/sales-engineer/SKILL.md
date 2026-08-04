@@ -230,4 +230,7 @@ python scripts/poc_planner.py poc_data.json --format json  # JSON output
 **Templates:** 5 asset files
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-of-concept (POC) engagements for pre-sales engineering.
+
+Covers: Sales Engineer Skill, 5-Phase Workflow, Discovery & Research, Solution Design, Demo Preparation & Delivery.

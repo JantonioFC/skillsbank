@@ -4,16 +4,11 @@ description: Code review automation for TypeScript, JavaScript, Python, Go, Swif
   Kotlin. Analyzes PRs for complexity and risk, checks code quality for SOLID violations
   and code smells, generates review reports. Use when reviewing pull requests, analyzing
   code quality, identifying issues, generating review c...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Code Reviewer
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Automated code review tools for analyzing pull requests, detecting code quality issues, and generating review reports.
 
@@ -187,4 +182,7 @@ Antipattern catalog with examples and fixes:
 | Kotlin | `.kt`, `.kts` |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Code review automation for TypeScript, JavaScript, Python, Go, Swift, Kotlin. Analyzes PRs for complexity and risk, checks code quality for SOLID violations and code smells, generates review reports.
+
+Covers: Tools, PR Analyzer, Analyze current branch against main, Compare specific branches, JSON output for integration.

@@ -72,4 +72,7 @@ Results include:
 - Historical data doesn't guarantee future performance
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill calculates key financial ratios and metrics from financial statement data for investment analysis.
+
+Covers: Financial Ratio Calculator Skill, Capabilities, How to Use, Input Format, Output Format.

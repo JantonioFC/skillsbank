@@ -1,16 +1,11 @@
 ---
 name: observability-designer
 description: Observability Designer (POWERFUL)
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Observability Designer (POWERFUL)
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 **Category:** Engineering  
 **Tier:** POWERFUL  
@@ -276,4 +271,7 @@ Creates comprehensive dashboard specifications:
 This comprehensive observability design skill enables organizations to build robust, scalable monitoring and alerting systems that provide actionable insights while maintaining cost efficiency and operational excellence.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Observability Designer (POWERFUL).
+
+Covers: Observability Designer (POWERFUL), Core Competencies, Three Pillars of Observability, Dashboard Design Principles, Alert Design and Optimization.

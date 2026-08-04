@@ -352,4 +352,7 @@ catch (RequestFailedException ex)
 | Samples | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/ai/Azure.AI.Projects/samples |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections, datasets, deployments, evaluations, and indexes.
+
+Covers: Azure.AI.Projects (.NET), Optional: For versioned agents with OpenAI extensions, Optional: For low-level agent operations, Environment Variables, Authentication.

@@ -423,4 +423,7 @@ TURBO_LOG_VERBOSITY=debug turbo build --filter=@myorg/web
 - [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Configure Turborepo for efficient monorepo builds with local and remote caching. Use when setting up Turborepo, optimizing build pipelines, or implementing distributed caching.
+
+Covers: Core Concepts, Turborepo Architecture, Pipeline Concepts, Templates, Template 1: turbo.json Configuration.

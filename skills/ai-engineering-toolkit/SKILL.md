@@ -4,7 +4,7 @@ description: '6 production-ready AI engineering workflows: prompt evaluation (8-
   scoring), context budget planning, RAG pipeline design, agent security audit (65-point
   checklist), eval harness building, and product sense coaching.'
 category: data-ai
-risk: offensive
+risk: safe
 source: community
 date_added: '2026-03-15'
 author: viliawang-pm
@@ -54,11 +54,6 @@ Analyzes token distribution across 5 context zones (System, Few-shot, User input
 Walks through a complete architecture decision tree: document format → parsing strategy → chunking approach (fixed/semantic/recursive) → embedding model selection → retrieval method (vector/keyword/hybrid) → evaluation metrics (Faithfulness, Relevancy, Context Precision). Covers Naive RAG, Advanced RAG, and Modular RAG patterns.
 
 ### Skill 4: Agent Safety Guard
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Executes a 65-point red-team audit across 5 attack categories: direct prompt injection, indirect prompt injection (via RAG documents), information extraction (system prompt / API key leakage), tool abuse (SQL injection, path traversal, command injection), and goal hijacking. The AI constructs adversarial test prompts for evaluation purposes, asks the user for confirmation before each test phase, judges pass/fail, and generates fix recommendations. All tests are contained within the evaluation context and do not interact with external systems. It is recommended to run audits in a sandboxed environment (Docker/VM).
 

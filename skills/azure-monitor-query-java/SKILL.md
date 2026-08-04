@@ -422,4 +422,7 @@ try {
 | Troubleshooting | https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/monitor/azure-monitor-query/TROUBLESHOOTING.md |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources.
+
+Covers: Azure Monitor Query SDK for Java, Environment Variables, Client Creation, LogsQueryClient (Sync), LogsQueryAsyncClient.

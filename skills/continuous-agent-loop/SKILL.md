@@ -48,4 +48,5 @@ Start
 * 使用明确的验收标准重放
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+具有质量门、评估和恢复控制的连续自主代理循环模式。.

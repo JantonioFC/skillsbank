@@ -486,4 +486,7 @@ import {
 | Anonymous/SAS access | ✅ | ✅ |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers.
+
+Covers: Environment Variables, OR connection string, Authentication, DefaultAzureCredential (Recommended), Connection String.

@@ -270,4 +270,7 @@ All scripts are stdlib-only. Run `python3 <script> --help` for full usage.
 - **env-secrets-manager** — For securely managing credentials used in authenticated automation workflows.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when the user asks to automate browser tasks, scrape websites, fill forms, capture screenshots, extract structured data from web pages, or build web automation workflows. NOT for testing — use playwright-pro for that.
+
+Covers: Browser Automation - POWERFUL, Core Competencies, Web Scraping Patterns, Form Filling & Multi-Step Workflows, Screenshot & PDF Capture.

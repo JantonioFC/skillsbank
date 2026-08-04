@@ -315,4 +315,7 @@ public class RateLimitFilter extends OncePerRequestFilter {
 **记住**：保持控制器精简、服务专注、仓库简单，并集中处理错误。为可维护性和可测试性进行优化。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Spring Boot架构模式、REST API设计、分层服务、数据访问、缓存、异步处理和日志记录。用于Java Spring Boot后端工作。.
+
+Covers: REST API 结构, 仓库模式 (Spring Data JPA), DTO 和验证, 日志记录 (SLF4J), 速率限制 (过滤器 + Bucket4j).

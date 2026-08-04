@@ -399,4 +399,7 @@ spec:
 - [Kiali](https://kiali.io/)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Implement comprehensive observability for service meshes including distributed tracing, metrics, and visualization. Use when setting up mesh monitoring, debugging latency issues, or implementing SLOs for service communication.
+
+Covers: Core Concepts, Three Pillars of Observability, Golden Signals for Mesh, Templates, Template 1: Istio with Prometheus & Grafana.

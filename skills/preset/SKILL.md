@@ -107,4 +107,7 @@ az cognitiveservices account deployment delete --name <acct> --resource-group <r
 - **azure-validate** - Validate Azure infrastructure before deployment
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Intelligently deploys Azure OpenAI models to optimal regions by analyzing capacity across all available regions. Automatically checks current region first and shows alternatives if needed.
+
+Covers: Deploy Model to Optimal Region, What This Skill Does, Quick Workflow, Fast Path (Current Region Has Capacity), Alternative Region Path (No Capacity).

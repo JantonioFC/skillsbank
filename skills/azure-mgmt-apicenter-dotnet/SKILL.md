@@ -415,4 +415,7 @@ catch (RequestFailedException ex)
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/apicenter/Azure.ResourceManager.ApiCenter |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery.
+
+Covers: Azure.ResourceManager.ApiCenter (.NET), Environment Variables, Authentication, Resource Hierarchy, Core Workflows.

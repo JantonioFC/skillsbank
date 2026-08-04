@@ -6,16 +6,11 @@ description: Master Flutter development with Dart 3, advanced widgets, and multi
   UI implementation, or cross-platform fea...
 metadata:
   model: inherit
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on flutter expert tasks or workflows
 - Needing guidance, best practices, or checklists for flutter expert
@@ -206,4 +201,7 @@ Expert Flutter developer specializing in Flutter 3.x+, Dart 3.x, and comprehensi
 Always use null safety with Dart 3 features. Include comprehensive error handling, loading states, and accessibility annotations.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment. Handles state management, animations, testing, and performance optimization for mobile, web, desktop, and embedded platforms.
+
+Covers: Capabilities, Core Flutter Mastery, Dart Language Expertise, State Management Excellence, Architecture Patterns.

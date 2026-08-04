@@ -226,4 +226,7 @@ Apply stage-specific facilitation (details in `references/team-dynamics-framewor
 *For deep framework references see `references/velocity-forecasting-guide.md` and `references/team-dynamics-framework.md`. For template assets see `assets/sprint_report_template.md` and `assets/team_health_check_template.md`.*
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Advanced Scrum Master skill for data-driven agile team analysis and coaching. Use when the user asks about sprint planning, velocity tracking, retrospectives, standup facilitation, backlog grooming, story points, burndown charts, blocker resolution, or agile team health.
+
+Covers: Scrum Master Expert, Analysis Tools & Usage, Text report, JSON output for downstream processing, Input Requirements.

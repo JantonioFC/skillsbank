@@ -355,4 +355,7 @@ Growth assumptions?
 - Basis for budget and hiring decisions
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create detailed 3-5 year financial model with revenue, costs, cash flow, and scenarios.
+
+Covers: What This Command Does, Instructions for Claude, Gather Model Inputs, Activate startup-financial-modeling Skill, Build Revenue Model.

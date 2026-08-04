@@ -1,16 +1,11 @@
 ---
 name: incident-commander
 description: Incident Commander Skill
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Incident Commander Skill
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 **Category:** Engineering Team  
 **Tier:** POWERFUL  
@@ -483,4 +478,7 @@ The key to successful incident management is preparation, practice, and continuo
 Remember: The goal isn't to prevent all incidents (which is impossible), but to detect them quickly, respond effectively, communicate clearly, and learn continuously.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Incident Commander Skill.
+
+Covers: Incident Commander Skill, Key Features, Skills Included, Core Tools, Incident Response Framework.

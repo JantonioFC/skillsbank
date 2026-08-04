@@ -150,4 +150,7 @@ When creating context documentation, provide:
 - Consistent documentation format
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies.
+
+Covers: C4 Context Level: System Context, System Overview, Short Description, Long Description, Personas.

@@ -155,4 +155,7 @@ Implement comprehensive security hardening with defense-in-depth strategy throug
 Security hardening target: $ARGUMENTS
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Coordinate multi-layer security scanning and hardening across application, infrastructure, and compliance controls.
+
+Covers: Safety, Comprehensive Security Assessment, Initial Vulnerability Scanning, Threat Modeling and Risk Analysis, Architecture Security Review.

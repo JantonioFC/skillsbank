@@ -4,16 +4,11 @@ description: Translate Figma nodes into production-ready code with 1:1 visual fi
   using the Figma MCP workflow (design context, screenshots, assets, and project-convention
   translation). Trigger when the user provides Figma URLs or node IDs, or asks to
   implement designs or components that must match Figma...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Implement Design
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 
@@ -273,4 +268,7 @@ By following this workflow, you ensure that every Figma design is implemented wi
 - [Figma Variables and Design Tokens](https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Translate Figma nodes into production-ready code with 1:1 visual fidelity using the Figma MCP workflow (design context, screenshots, assets, and project-convention translation).
+
+Covers: Required Workflow, Set up Figma MCP (if not already configured), Get Node ID, Fetch Design Context, Capture Visual Reference.

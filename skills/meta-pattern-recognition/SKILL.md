@@ -57,4 +57,7 @@ When the same pattern appears in 3+ domains, it's probably a universal principle
 - Universal patterns are battle-tested
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Spot patterns appearing in 3+ domains to find universal principles.
+
+Covers: Red Flags You're Missing Meta-Patterns, Remember.

@@ -171,4 +171,7 @@ Master content marketer focused on creating high-converting, SEO-optimized conte
 - "Create a content calendar for Black Friday and holiday marketing"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing. Masters modern content tools, social media automation, and conversion optimization with 2024/2025 best practices.
+
+Covers: Expert Purpose, Capabilities, AI-Powered Content Creation, SEO & Search Optimization, Social Media Content Strategy.

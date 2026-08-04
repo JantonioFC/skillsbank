@@ -181,4 +181,7 @@ context-restore project:ml-pipeline --query "model training strategy"
 - Adaptive learning context strategies
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when working with code refactoring context restore.
+
+Covers: Context Restoration: Advanced Semantic Memory Rehydration, Role Statement, Context Overview, Core Requirements and Arguments, Input Parameters.

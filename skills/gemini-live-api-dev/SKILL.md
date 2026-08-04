@@ -257,4 +257,7 @@ This index contains links to all documentation pages in `.md.txt` format. Use we
 The Live API supports 70 languages including: English, Spanish, French, German, Italian, Portuguese, Chinese, Japanese, Korean, Hindi, Arabic, Russian, and many more. Native audio models automatically detect and switch languages.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API.
+
+Covers: Gemini Live API Development Skill, Models, SDKs, Partner Integrations, Audio Formats.

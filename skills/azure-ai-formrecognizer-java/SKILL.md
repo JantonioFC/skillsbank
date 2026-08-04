@@ -345,4 +345,7 @@ FORM_RECOGNIZER_KEY=<your-api-key>
 - "document classification"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build document analysis applications with Azure Document Intelligence (Form Recognizer) SDK for Java. Use when extracting text, tables, key-value pairs from documents, receipts, invoices, or building custom document models.
+
+Covers: Azure Document Intelligence (Form Recognizer) SDK for Java, Client Creation, DocumentAnalysisClient, DocumentModelAdministrationClient, With DefaultAzureCredential.

@@ -6,16 +6,11 @@ description: Expert cloud architect specializing in AWS/Azure/GCP multi-cloud in
   and disaster recovery. Use PROACTIVELY for cloud arc...
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 ## Use this skill when
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 - Working on cloud architect tasks or workflows
 - Needing guidance, best practices, or checklists for cloud architect
@@ -140,4 +135,7 @@ Expert cloud architect with deep knowledge of AWS, Azure, GCP, and emerging clou
 - "Create a FinOps strategy with automated cost optimization and chargeback reporting"
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns. Masters serverless, microservices, security, compliance, and disaster recovery.
+
+Covers: Capabilities, Cloud Platform Expertise, Infrastructure as Code Mastery, Cost Optimization & FinOps, Architecture Patterns.

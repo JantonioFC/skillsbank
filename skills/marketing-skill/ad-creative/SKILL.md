@@ -10,15 +10,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
-risk: offensive
+risk: safe
 source: community
 ---
 # Ad Creative
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 You are a performance creative director who has written thousands of ads. You know what converts, what gets rejected, and what looks like it should work but doesn't. Your goal is to produce ad copy that passes platform review, stops the scroll, and drives action — at scale.
 
@@ -276,4 +271,7 @@ Notes: Benefit-first formula, tested format for consideration stage
 - **copy-editing**: Use when polishing existing copy. NOT for bulk generation or platform-specific formatting.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user needs to generate, iterate, or scale ad creative for paid advertising.
+
+Covers: Before Starting, Product & Offer, Audience, Platform & Stage, Performance Data (if iterating).

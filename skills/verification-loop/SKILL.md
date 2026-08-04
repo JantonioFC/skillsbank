@@ -138,4 +138,7 @@ Issues to Fix:
 钩子会立即捕获问题；此技能提供全面的审查。
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Claude Code 会话的全面验证系统。.
+
+Covers: 阶段 1：构建验证, Check if project builds, 阶段 2：类型检查, TypeScript projects, Python projects.

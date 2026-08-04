@@ -251,4 +251,7 @@ requests.delete(f"{GRAPH}/applications/{blueprint_obj_id}", headers=headers)
 | AI-Guided Setup | https://learn.microsoft.com/en-us/entra/agent-id/identity-platform/agent-id-ai-guided-setup |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Microsoft Entra Agent ID (preview) for creating OAuth2-capable AI agent identities via Microsoft Graph beta API. Covers Agent Identity Blueprints, BlueprintPrincipals, Agent Identities, required permissions, sponsors, and Workload Identity Federation.
+
+Covers: Microsoft Entra Agent ID, Before You Start, Conceptual Model, PowerShell (recommended for interactive setup), Requires PowerShell 7+.

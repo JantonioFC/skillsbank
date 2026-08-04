@@ -345,4 +345,7 @@ rules:
 - `grafana-dashboards` - For SLO visualization
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Define and implement Service Level Indicators (SLIs) and Service Level Objectives (SLOs) with error budgets and alerting. Use when establishing reliability targets, implementing SRE practices, or measuring service performance.
+
+Covers: Defining SLIs, Common SLI Types, Setting SLO Targets, Availability SLO Examples, Choose Appropriate SLOs.

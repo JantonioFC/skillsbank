@@ -5,16 +5,11 @@ description: 'Azure Event Grid SDK for .NET. Client library for publishing and c
   CloudEvents, and EventGridEvents. Triggers: "Event Grid", "EventGridPublisherClient",
   "CloudEvent", "EventGridEvent", "publish events .NE...'
 package: Azure.Messaging.EventGrid
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Azure.Messaging.EventGrid (.NET)
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Client library for publishing events to Azure Event Grid topics, domains, and namespaces.
 
@@ -497,4 +492,7 @@ catch (RequestFailedException)
 | GitHub Source | https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/eventgrid/Azure.Messaging.EventGrid |
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid.
+
+Covers: Azure.Messaging.EventGrid (.NET), For topics and domains (push delivery), For namespaces (pull delivery), For CloudNative CloudEvents interop, Environment Variables.

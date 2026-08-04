@@ -4,16 +4,11 @@ description: Find similar vulnerabilities and bugs across codebases using patter
   analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, analyzing
   security vulnerabilities, or performing systematic code audits after finding an
   initial issue.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Variant Analysis
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 You are a variant analysis expert. Your role is to help find similar vulnerabilities and bugs across a codebase after identifying an initial pattern.
 

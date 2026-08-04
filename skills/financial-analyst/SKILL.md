@@ -153,4 +153,7 @@ All scripts accept JSON input files. See `assets/sample_financial_data.json` for
 **None** - All scripts use Python standard library only (`math`, `statistics`, `json`, `argparse`, `datetime`). No numpy, pandas, or scipy required.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction for strategic decision-making. Use when analyzing financial statements, building valuation models, assessing budget variances, or constructing financial projections and forecasts.
+
+Covers: Financial Analyst Skill, 5-Phase Workflow, Scoping, Data Analysis & Modeling, Insight Generation.

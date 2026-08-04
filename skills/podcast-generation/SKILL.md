@@ -126,4 +126,7 @@ new Audio(audioUrl).play();
 - **PCM conversion**: Use [scripts/pcm_to_wav.py](scripts/pcm_to_wav.py) for audio format conversion
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generate AI-powered podcast-style audio narratives using Azure OpenAI's GPT Realtime Mini model via WebSocket. Use when building text-to-speech features, audio narrative generation, podcast creation from content, or integrating with Azure OpenAI Realtime API for real audio output.
+
+Covers: Podcast Generation with GPT Realtime Mini, Environment Configuration, Backend Audio Generation, Convert HTTPS endpoint to WebSocket URL, Frontend Audio Playback.

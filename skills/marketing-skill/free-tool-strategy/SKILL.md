@@ -276,4 +276,7 @@ All output follows the structured communication standard:
 - **form-cro**: Use when optimizing the lead capture form in the tool. NOT for the tool design or launch strategy.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+When the user wants to build a free tool for marketing — lead generation, SEO value, or brand awareness.
+
+Covers: Before Starting, Product & Audience, How This Skill Works, Mode 1: Evaluate Tool Ideas, Mode 2: Design the Tool.

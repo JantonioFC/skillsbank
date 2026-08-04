@@ -109,4 +109,7 @@ international expansion, market entry, localization, go-to-market, GTM, regional
 - `references/regional-guide.md` — specific considerations for key regions (EU, US, APAC, LATAM)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region.
+
+Covers: International Expansion, Keywords, Market Selection Framework, Scoring Matrix, Entry Modes.

@@ -42,4 +42,7 @@ Before generating any changelog, you MUST determine the source repository contex
 - When `REPO_URL` is available, link commit hashes: `[abc1234](REPO_URL/commit/abc1234)` and changed files: `[file_path](REPO_URL/blob/BRANCH/file_path)`
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Analyzes git commit history and generates structured changelogs categorized by change type. Use when the user asks about recent changes, wants a changelog, or needs to understand what changed in the repository.
+
+Covers: Source Repository Resolution (MUST DO FIRST), When to Activate, Procedure, Constraints.

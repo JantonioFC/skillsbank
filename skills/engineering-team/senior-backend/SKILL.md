@@ -4,16 +4,11 @@ description: Designs and implements backend systems including REST APIs, microse
   database architectures, authentication flows, and security hardening. Use when the
   user asks to "design REST APIs", "optimize database queries", "implement authentication",
   "build microservices", "review backend code", "se...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Senior Backend Engineer
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Backend development patterns, API design, database optimization, and security practices.
 
@@ -375,4 +370,7 @@ python scripts/api_load_tester.py https://api.example.com/endpoint --compare bas
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening.
+
+Covers: Senior Backend Engineer, Generate API routes from OpenAPI spec, Analyze database schema and generate migrations, Load test an API endpoint, Tools Overview.

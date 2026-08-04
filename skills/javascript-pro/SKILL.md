@@ -59,4 +59,5 @@ You are a JavaScript expert specializing in modern JS and async programming.
 Support both Node.js and browser environments. Include JSDoc comments.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.

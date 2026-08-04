@@ -65,4 +65,5 @@ Expert in monorepo architecture, build systems, and dependency management at sca
 - Set up code ownership rules
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development.

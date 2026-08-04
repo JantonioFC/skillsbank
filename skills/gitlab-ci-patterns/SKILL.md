@@ -287,4 +287,7 @@ trigger-child:
 - `secrets-management` - For secrets handling
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build GitLab CI/CD pipelines with multi-stage workflows, caching, and distributed runners for scalable automation. Use when implementing GitLab CI/CD, optimizing pipeline performance, or setting up automated testing and deployment.
+
+Covers: Basic Pipeline Structure, Docker Build and Push, Multi-Environment Deployment, Terraform Pipeline, Security Scanning.

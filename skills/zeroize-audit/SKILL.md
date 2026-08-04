@@ -16,16 +16,11 @@ allowed-tools:
 - mcp__serena__find_symbol
 - mcp__serena__find_referencing_symbols
 - mcp__serena__get_symbols_overview
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # zeroize-audit — Claude Skill
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## When to Use
 - Auditing cryptographic implementations (keys, seeds, nonces, secrets)
@@ -250,7 +245,6 @@ Analysis runs in two phases. For complete step-by-step guidance, see `{baseDir}/
 ‡ requires `enable_cfg=true`
 
 ---
-
 
 ## Output Format
 

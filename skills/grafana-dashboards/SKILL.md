@@ -385,4 +385,7 @@ resource "grafana_folder" "monitoring" {
 - `slo-implementation` - For SLO dashboards
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create and manage production Grafana dashboards for real-time visualization of system and application metrics. Use when building monitoring dashboards, visualizing metrics, or creating operational observability interfaces.
+
+Covers: Dashboard Design Principles, Hierarchy of Information, RED Method (Services), USE Method (Resources), Dashboard Structure.

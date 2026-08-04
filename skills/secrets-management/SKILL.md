@@ -368,4 +368,7 @@ secret-scan:
 - `deployment-pipeline-design` - For pipeline architecture
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions. Use when handling sensitive credentials, rotating secrets, or securing CI/CD environments.
+
+Covers: Safety, Secrets Management Tools, HashiCorp Vault, AWS Secrets Manager, Azure Key Vault.

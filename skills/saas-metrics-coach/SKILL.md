@@ -161,4 +161,7 @@ python scripts/unit_economics_simulator.py --mrr 50000 --growth 10 --churn 3 --c
 - **business-growth/customer-success**: Use for retention strategies and customer health scoring. Complements this skill when churn is flagged as CRITICAL.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+SaaS financial health advisor. Use when a user shares revenue or customer numbers, or mentions ARR, MRR, churn, LTV, CAC, NRR, or asks how their SaaS business is doing.
+
+Covers: Collect Inputs, Calculate Metrics, Benchmark Each Metric, Prioritize and Recommend, Output Format.

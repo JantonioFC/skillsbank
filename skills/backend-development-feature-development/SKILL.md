@@ -3,15 +3,10 @@ name: backend-development-feature-development
 description: Orchestrate end-to-end backend feature development from requirements
   to deployment. Use when coordinating multi-phase feature delivery across teams and
   services.
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-
 Orchestrate end-to-end feature development from requirements to production deployment:
 
 [Extended thinking: This workflow orchestrates specialized agents through comprehensive feature development phases - from discovery and planning through implementation, testing, and deployment. Each phase builds on previous outputs, ensuring coherent feature delivery. The workflow supports multiple development methodologies (traditional, TDD/BDD, DDD), feature complexity levels, and modern deployment strategies including feature flags, gradual rollouts, and observability-first development. Agents receive detailed context from previous phases to maintain consistency and quality throughout the development lifecycle.]
@@ -189,4 +184,7 @@ If issues arise during or after deployment:
 Feature description: $ARGUMENTS
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services.
+
+Covers: Safety, Configuration Options, Development Methodology, Feature Complexity, Deployment Strategy.

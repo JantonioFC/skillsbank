@@ -322,4 +322,7 @@ def generate_mock_objects(self, dependencies: List[str]) -> str:
 Focus on generating maintainable, comprehensive tests that catch bugs early and provide confidence in code changes.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus.
+
+Covers: Automated Unit Test Generation, Context, Analyze Code for Test Generation, Generate Python Tests with pytest, Generate React Component Tests.

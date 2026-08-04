@@ -78,6 +78,3 @@ pipe(result, E.match(
   (val) => `success: ${val}`
 ))
 ```
-
-## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.

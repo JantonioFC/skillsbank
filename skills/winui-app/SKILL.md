@@ -99,4 +99,7 @@ dotnet new list winui
 - Put detailed control, theming, shell, scrolling, responsiveness, packaging, and recovery guidance in the matching reference files instead of duplicating those rules here.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Windows App SDK samples, and CommunityToolkit components.
+
+Covers: Required Flow, Common Routes, Environment Rules, Reference Rules.

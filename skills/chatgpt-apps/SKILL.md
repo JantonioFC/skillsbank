@@ -4,16 +4,11 @@ description: Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applic
   that combine an MCP server and widget UI. Use when Codex needs to design tools,
   register UI resources, wire the MCP Apps bridge or ChatGPT compatibility APIs, apply
   Apps SDK metadata or CSP or domain settings, or produce a ...
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # ChatGPT Apps
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 ## Overview
 
@@ -330,4 +325,7 @@ When using this skill to scaffold code, produce output in this order unless the 
 - `scripts/scaffold_node_ext_apps.mjs` for a minimal Node + `@modelcontextprotocol/ext-apps` fallback starter scaffold
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI.
+
+Covers: Mandatory Docs-First Workflow, Prompt Guidance, Classify The App Before Choosing Code, Default Starting-Point Order, Build Workflow.

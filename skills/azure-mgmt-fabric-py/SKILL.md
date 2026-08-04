@@ -262,4 +262,7 @@ capacity = poller.result()
 8. **Monitor capacity usage** via Azure Monitor metrics
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure Fabric Management SDK for Python. Use for managing Microsoft Fabric capacities and resources.
+
+Covers: Azure Fabric Management SDK for Python, Environment Variables, Authentication, Create Fabric Capacity, Get Capacity Details.

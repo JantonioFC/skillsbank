@@ -3,16 +3,11 @@ name: kotlin-ktor-patterns
 description: Ktor server patterns including routing DSL, plugins, authentication,
   Koin DI, kotlinx.serialization, WebSockets, and testApplication testing.
 origin: ECC
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Ktor Server Patterns
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
 
 Comprehensive Ktor patterns for building robust, maintainable HTTP servers with Kotlin coroutines.
 
@@ -697,4 +692,7 @@ fun Application.configureDI() {
 **Remember**: Ktor is designed around Kotlin coroutines and DSLs. Keep routes thin, push logic to services, and use Koin for dependency injection. Test with `testApplication` for full integration coverage.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Ktor server patterns including routing DSL, plugins, authentication, Koin DI, kotlinx.serialization, WebSockets, and testApplication testing.
+
+Covers: Ktor Server Patterns, When to Activate, Application Structure, Standard Ktor Project Layout, Application Entry Point.

@@ -52,4 +52,7 @@ Focus on minimizing disruption, maintaining functionality, and providing clear p
 - `resources/implementation-playbook.md` for detailed patterns and examples.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+You are a code migration expert specializing in transitioning codebases between frameworks, languages, versions, and platforms.
+
+Covers: Code Migration Assistant, Context, Output Format.

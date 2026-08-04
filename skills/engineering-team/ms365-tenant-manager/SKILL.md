@@ -278,4 +278,7 @@ Install-Module MicrosoftTeams -Scope CurrentUser
 - **Exchange Administrator** — Mailbox management
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Microsoft 365 tenant administration for Global Administrators. Automate M365 tenant setup, Office 365 admin tasks, Azure AD user management, Exchange Online configuration, Teams administration, and security policies.
+
+Covers: Microsoft 365 Tenant Manager, Run a Security Audit, Bulk Provision Users from CSV, Create a Conditional Access Policy (MFA for Admins), Workflows.

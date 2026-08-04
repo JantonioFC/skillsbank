@@ -279,4 +279,7 @@ from azure.ai.contentunderstanding.models import (
 7. **Use URL sources** when possible to avoid upload overhead
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Azure AI Content Understanding SDK for Python. Use for multimodal content extraction from documents, images, audio, and video.
+
+Covers: Azure AI Content Understanding SDK for Python, Environment Variables, Authentication, Prebuilt Analyzers, Analyze Document.

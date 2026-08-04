@@ -111,4 +111,7 @@ Update the context file, refresh timestamp, reset to `fresh`.
 - `references/interview-guide.md` — deep interview craft: probes, red flags, handling reluctant founders
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:setup for initial interview or /cs:update for quarterly refresh.
+
+Covers: C-Suite Onboarding, Keywords, Conversation Principles, 7 Interview Dimensions, Company Identity.

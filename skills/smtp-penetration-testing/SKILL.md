@@ -510,4 +510,7 @@ nmap -p 25 --script smtp-open-relay --script-args smtp-open-relay.from=test@atta
 10. **Access Controls** - Restrict SMTP to authorized IPs
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "perform SMTP penetration testing", "enumerate email users", "test for open mail relays", "grab SMTP banners", "brute force email credentials", or "assess mail server security". It provides comprehensive techniques for testing SMTP server security.
+
+Covers: Required Tools, Nmap with SMTP scripts, Netcat, Hydra for brute force, SMTP user enumeration tool.

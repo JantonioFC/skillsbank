@@ -360,4 +360,7 @@ python scripts/agent_orchestrator.py agent.yaml --estimate-cost  # Token estimat
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "optimize prompts", "design prompt templates", "evaluate LLM outputs", "build agentic systems", "implement RAG", "create few-shot examples", "analyze token usage", or "design AI workflows".
+
+Covers: Analyze and optimize a prompt file, Evaluate RAG retrieval quality, Visualize agent workflow from definition, Tools Overview, Prompt Optimizer.

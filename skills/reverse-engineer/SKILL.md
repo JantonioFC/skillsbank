@@ -6,26 +6,11 @@ description: Expert reverse engineer specializing in binary analysis, disassembl
   extraction, and vulnerability research. Use PROACTIVELY for bin...
 metadata:
   model: opus
-risk: offensive
+risk: safe
 source: community
 license: MIT
 ---
 # Common RE scripting environments
-
-> **⚠️ AUTHORIZED USE ONLY**
-> This skill is for educational purposes or authorized security assessments only.
-> You must have explicit, written permission from the system owner before using this tool.
-> Misuse of this tool is illegal and strictly prohibited.
-- IDAPython (IDA Pro scripting)
-- Ghidra scripting (Java/Python via Jython)
-- r2pipe (radare2 Python API)
-- pwntools (CTF/exploitation toolkit)
-- capstone (disassembly framework)
-- keystone (assembly framework)
-- unicorn (CPU emulator framework)
-- angr (symbolic execution)
-- Triton (dynamic binary analysis)
-```
 
 ## Use this skill when
 
@@ -178,4 +163,7 @@ Response: For authorized analysis of the DLL:
 ```
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains.
+
+Covers: Common RE scripting environments, Analysis Methodology, Reconnaissance, Static Analysis, Dynamic Analysis.

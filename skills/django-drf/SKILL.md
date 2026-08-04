@@ -188,4 +188,7 @@ python manage.py shell
 django, drf, rest framework, viewset, serializer, api, rest api
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Django REST Framework patterns. Trigger: When building REST APIs with Django - ViewSets, Serializers, Filters.
+
+Covers: ViewSet Pattern, Serializer Patterns, Read Serializer, Create Serializer, Update Serializer.

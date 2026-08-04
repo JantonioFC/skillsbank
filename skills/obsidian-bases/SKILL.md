@@ -502,4 +502,7 @@ formulas:
 - [Complete Functions Reference](references/FUNCTIONS_REFERENCE.md)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.
+
+Covers: Obsidian Bases Skill, Schema, Global filters apply to ALL views in the base, Define formula properties that can be used across all views, Configure display names and settings for properties.

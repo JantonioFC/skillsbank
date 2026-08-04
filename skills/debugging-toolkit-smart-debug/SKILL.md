@@ -199,4 +199,7 @@ Focus on actionable insights. Use AI assistance throughout for pattern recogniti
 Issue to debug: $ARGUMENTS
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Use when working with debugging toolkit smart debug.
+
+Covers: Context, Initial Triage, Observability Data Collection, Hypothesis Generation, Strategy Selection.

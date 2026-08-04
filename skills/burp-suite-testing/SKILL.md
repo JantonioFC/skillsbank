@@ -390,4 +390,7 @@ javascript:alert(1)
 - Verify target isn't using unsupported protocol
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "intercept HTTP traffic", "modify web requests", "use Burp Suite for testing", "perform web vulnerability scanning", "test with Burp Repeater", "analyze HTTP history", or "configure proxy for web testing".
+
+Covers: Burp Suite Web Application Testing, Required Tools, Environment Setup, Editions Comparison, Primary Outputs.

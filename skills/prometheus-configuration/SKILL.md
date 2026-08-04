@@ -408,4 +408,7 @@ curl 'http://localhost:9090/api/v1/query?query=up'
 - `distributed-tracing` - For request tracing
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Set up Prometheus for comprehensive metric collection, storage, and monitoring of infrastructure and applications. Use when implementing metrics collection, setting up monitoring infrastructure, or configuring alerting systems.
+
+Covers: Prometheus Architecture, Kubernetes with Helm, Docker Compose, Configuration File, Alertmanager configuration.

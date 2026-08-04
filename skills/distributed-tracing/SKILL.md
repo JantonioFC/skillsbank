@@ -454,4 +454,7 @@ def process_request():
 - `slo-implementation` - For latency SLOs
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Implement distributed tracing with Jaeger and Tempo to track requests across microservices and identify performance bottlenecks. Use when debugging microservices, analyzing request flows, or implementing observability for distributed systems.
+
+Covers: Distributed Tracing Concepts, Trace Structure, Key Components, Jaeger Setup, Kubernetes Deployment.

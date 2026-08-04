@@ -478,4 +478,7 @@ Use `my` variables inside subtests — never `our` — to prevent state leaking 
 **Remember**: Tests are your safety net. Keep them fast, focused, and independent. Use Test2::V0 for new projects, prove for running, and Devel::Cover for accountability.
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover, and TDD methodology.
+
+Covers: Perl Testing Patterns, When to Activate, TDD Workflow, RED — Write a failing test, GREEN — Write minimal implementation.

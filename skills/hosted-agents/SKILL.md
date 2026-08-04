@@ -265,4 +265,7 @@ External resources:
 **Version**: 1.1.0
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+This skill should be used when the user asks to "build background agent", "create hosted coding agent", "set up sandboxed execution", "implement multiplayer agent", or mentions background agents, sandboxed VMs, agent infrastructure, Modal sandboxes, self-spawning agents, or remote coding environm.
+
+Covers: Hosted Agent Infrastructure, When to Activate, Core Concepts, Detailed Topics, Sandbox Infrastructure.

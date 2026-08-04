@@ -444,4 +444,7 @@ for alert in alerts:
 - [Google Data Studio Gallery](https://datastudio.google.com/gallery)
 
 ## When to Use
-- Use this skill when you need for functional programming or specific domain tasks.
+
+Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use when building business dashboards, selecting metrics, or designing data visualization layouts.
+
+Covers: Core Concepts, KPI Framework, SMART KPIs, Dashboard Hierarchy, Common KPIs by Department.
