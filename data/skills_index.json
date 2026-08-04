@@ -14568,42 +14568,6 @@
     }
   },
   {
-    "id": "skills-chaos-engineering",
-    "path": "skills/skills-chaos-engineering",
-    "category": "Gesti\u00f3n de Proyectos & Equipos",
-    "subcategory": "Agile/Scrum & Backlog",
-    "name": "chaos-engineering",
-    "description": "Use when planning, running, or learning from chaos engineering experiments.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [
-      "chaos-engineering",
-      "resilience",
-      "fault-injection",
-      "gameday",
-      "sre",
-      "reliability",
-      "chaos-toolkit",
-      "chaos-mesh",
-      "litmus",
-      "gremlin",
-      "aws-fis"
-    ],
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "chaos-experiment",
     "path": "skills/chaos-experiment",
     "category": "Testing & Calidad",
@@ -14774,32 +14738,6 @@
     }
   },
   {
-    "id": "skills-chief-ai-officer-advisor",
-    "path": "skills/skills-chief-ai-officer-advisor",
-    "category": "AI & Agents",
-    "subcategory": "Modelos & RAG",
-    "name": "chief-ai-officer-advisor",
-    "description": "Chief AI Officer advisory for startups: model build-vs-buy decisions (API vs fine-tune vs in-house), AI risk classification under EU AI Act + US state patchwork, AI cost economics (API-to-self-hosted breakeven), and AI team org evolution.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "blocked"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "broken_local_reference"
-      ]
-    }
-  },
-  {
     "id": "chief-customer-officer-advisor",
     "path": "skills/chief-customer-officer-advisor",
     "category": "Negocio & Marketing",
@@ -14826,60 +14764,8 @@
     }
   },
   {
-    "id": "skills-chief-customer-officer-advisor",
-    "path": "skills/skills-chief-customer-officer-advisor",
-    "category": "Negocio & Marketing",
-    "subcategory": "Finanzas & Anal\u00edtica",
-    "name": "chief-customer-officer-advisor",
-    "description": "Chief Customer Officer advisory for startups: retention decomposition (gross retention vs NRR honesty, churn root-cause taxonomy), customer segmentation strategy (differential investment across tiers + ICP fit scoring), CS team coverage model (pooled vs named CSM thresholds + ratio math).",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "blocked"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "broken_local_reference"
-      ]
-    }
-  },
-  {
     "id": "chief-data-officer-advisor",
     "path": "skills/chief-data-officer-advisor",
-    "category": "AI & Agents",
-    "subcategory": "MLOps & Datos",
-    "name": "chief-data-officer-advisor",
-    "description": "Chief Data Officer advisory for startups: AI training data rights and consent provenance, data product strategy (warehouse vs lakehouse vs mesh, build-vs-buy), B2B customer-data-as-asset valuation and M&A readiness, data team org evolution.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "blocked"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "broken_local_reference"
-      ]
-    }
-  },
-  {
-    "id": "skills-chief-data-officer-advisor",
-    "path": "skills/skills-chief-data-officer-advisor",
     "category": "AI & Agents",
     "subcategory": "MLOps & Datos",
     "name": "chief-data-officer-advisor",
@@ -27206,32 +27092,6 @@
     }
   },
   {
-    "id": "skills-eu-ai-act-specialist",
-    "path": "skills/skills-eu-ai-act-specialist",
-    "category": "AI & Agents",
-    "subcategory": "General",
-    "name": "eu-ai-act-specialist",
-    "description": "EU AI Act (Regulation (EU) 2024/1689) operational compliance for compliance teams. Three Article-level decisions: (1) What's the risk tier of this AI system \u2014 prohibited (Art. 5), high-risk (Art. 6 + Annex III), limited-risk (Art. 50), or minimal-risk?",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "blocked"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "broken_local_reference"
-      ]
-    }
-  },
-  {
     "id": "eval",
     "path": "skills/agenthub/skills/eval",
     "category": "AI & Agents",
@@ -28418,41 +28278,6 @@
   {
     "id": "feature-flags-architect",
     "path": "skills/feature-flags-architect",
-    "category": "Gesti\u00f3n de Proyectos & Equipos",
-    "subcategory": "Agile/Scrum & Backlog",
-    "name": "feature-flags-architect",
-    "description": "Use when adding, retiring, or auditing feature flags. Triggers on \"add a flag\", \"ship behind a flag\", \"rollout plan\", \"kill switch\", \"stale flags\", \"flag debt\", \"LaunchDarkly\", \"GrowthBook\", \"Statsig\", \"Unleash\", \"Flipt\", or any progressive-delivery question.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [
-      "feature-flags",
-      "progressive-delivery",
-      "rollout",
-      "kill-switch",
-      "launchdarkly",
-      "growthbook",
-      "statsig",
-      "unleash",
-      "flipt",
-      "release-engineering"
-    ],
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "skills-feature-flags-architect",
-    "path": "skills/skills-feature-flags-architect",
     "category": "Gesti\u00f3n de Proyectos & Equipos",
     "subcategory": "Agile/Scrum & Backlog",
     "name": "feature-flags-architect",
@@ -31881,32 +31706,6 @@
   {
     "id": "general-counsel-advisor",
     "path": "skills/general-counsel-advisor",
-    "category": "Verticales Especializados",
-    "subcategory": "Legal & Regulatorio",
-    "name": "general-counsel-advisor",
-    "description": "General Counsel advisory for startups: contract review (MSA, SaaS, NDA, DPA, employment), IP strategy, term sheet decoding, and regulatory landscape mapping.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "blocked"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "broken_local_reference"
-      ]
-    }
-  },
-  {
-    "id": "skills-general-counsel-advisor",
-    "path": "skills/skills-general-counsel-advisor",
     "category": "Verticales Especializados",
     "subcategory": "Legal & Regulatorio",
     "name": "general-counsel-advisor",
@@ -37193,32 +36992,6 @@
     }
   },
   {
-    "id": "skills-iso42001-specialist",
-    "path": "skills/skills-iso42001-specialist",
-    "category": "AI & Agents",
-    "subcategory": "General",
-    "name": "iso42001-specialist",
-    "description": "ISO/IEC 42001:2023 AI Management System (AIMS) specialist for compliance teams running internal audits. Three decisions: (1) Where are the gaps against Clauses 4-10 and what do we close first? (2) What goes in the AI risk register and which Annex A controls treat each risk?",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "blocked"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "broken_local_reference"
-      ]
-    }
-  },
-  {
     "id": "isometric-design",
     "path": "skills/isometric-design",
     "category": "Dise\u00f1o & Contenido",
@@ -38673,41 +38446,6 @@
   {
     "id": "kubernetes-operator",
     "path": "skills/kubernetes-operator",
-    "category": "Desarrollo de Software",
-    "subcategory": "APIs & Integraciones",
-    "name": "kubernetes-operator",
-    "description": "Use when building a Kubernetes Operator \u2014 custom controllers that reconcile CRD state. Triggers on \"build an operator\", \"CRD design\", \"reconcile loop\", \"controller-runtime\", \"kubebuilder\", \"operator-sdk\", \"metacontroller\", \"KOPF\", \"operator capability levels\", or \"custom resource\".",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [
-      "kubernetes",
-      "operator",
-      "crd",
-      "controller-runtime",
-      "kubebuilder",
-      "operator-sdk",
-      "metacontroller",
-      "kopf",
-      "reconcile",
-      "devops"
-    ],
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
-    "id": "skills-kubernetes-operator",
-    "path": "skills/skills-kubernetes-operator",
     "category": "Desarrollo de Software",
     "subcategory": "APIs & Integraciones",
     "name": "kubernetes-operator",
@@ -61424,40 +61162,6 @@
     }
   },
   {
-    "id": "skills-slo-architect",
-    "path": "skills/skills-slo-architect",
-    "category": "Cloud, DevOps & Automatizaci\u00f3n",
-    "subcategory": "Observability & Reliability",
-    "name": "slo-architect",
-    "description": "Use when defining, reviewing, or operating SLOs/SLIs/error budgets. Triggers on \"define an SLO\", \"what should our SLO be\", \"error budget\", \"burn rate\", \"SLI\", \"service level objective\", \"Google SRE workbook\", \"multi-window burn-rate alert\", or any reliability-target question.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [
-      "slo",
-      "sli",
-      "sla",
-      "error-budget",
-      "burn-rate",
-      "sre",
-      "reliability",
-      "google-sre-workbook",
-      "observability"
-    ],
-    "plugin": {
-      "targets": {
-        "codex": "supported",
-        "claude": "supported"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": []
-    }
-  },
-  {
     "id": "slo-architect",
     "path": "skills/slo-architect",
     "category": "Cloud, DevOps & Automatizaci\u00f3n",
@@ -69782,32 +69486,6 @@
         "docs": null
       },
       "reasons": []
-    }
-  },
-  {
-    "id": "skills-vpe-advisor",
-    "path": "skills/skills-vpe-advisor",
-    "category": "Negocio & Marketing",
-    "subcategory": "Finanzas & Anal\u00edtica",
-    "name": "vpe-advisor",
-    "description": "VP of Engineering advisory for startups: delivery throughput (DORA 4 metrics + bottleneck identification), engineering hiring funnel (sourcing \u2192 screen \u2192 onsite \u2192 offer conversion + time-to-fill + pipeline gap).",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
-    "tags": [],
-    "plugin": {
-      "targets": {
-        "codex": "blocked",
-        "claude": "blocked"
-      },
-      "setup": {
-        "type": "none",
-        "summary": "",
-        "docs": null
-      },
-      "reasons": [
-        "broken_local_reference"
-      ]
     }
   },
   {
