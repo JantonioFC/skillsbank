@@ -1,13 +1,13 @@
 ---
 name: remotion-maps
 description: Remotion Map animation knowledge
-version: 4.0.505
+version: 4.0.543
 risk: safe
 source: https://github.com/remotion-dev/skills
 source_repo: remotion-dev/skills
 source_type: official
 license: unspecified
-date_added: "2026-08-03"
+date_added: '2026-08-03'
 ---
 
 # Remotion Maps
@@ -40,3 +40,11 @@ Every technique directory is self-contained and may be removed without breaking 
 
 - Flythroughs through terrain and mountains
 - "Flight simulator" perspective
+
+## When to Use
+
+- Remotion Map animation knowledge
+- Working with **[Static map](techniques/static-map/TECHNIQUE.md)**
+- Working with **[Mapbox](techniques/mapbox/TECHNIQUE.md)**
+- Working with **[MapLibre](techniques/maplibre/TECHNIQUE.md)**
+- Working with **[MapTiler](techniques/maptiler/TECHNIQUE.md)**

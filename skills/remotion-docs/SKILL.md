@@ -1,20 +1,19 @@
 ---
 name: remotion-docs
-description: Search and fetch Remotion documentation pages
+description: Search Remotion documentation
+version: 4.0.543
 metadata:
   tags: remotion, docs, documentation, search
 risk: safe
 source: official
 source_repo: remotion-dev/skills
 source_type: official
+date_added: '2026-11-15'
+license: unspecified
 ---
 
-## When to Use
-
-Use this skill when you need to search or fetch official Remotion documentation pages while working on a Remotion project.
-
 This skill teaches you how to discover and read current Remotion documentation.
-If this is not relevant, load [Remotion Best Practices](../remotion-best-practices/SKILL.md) instead.
+If this is not relevant, load Remotion Best Practices (`remotion-best-practices` skill) instead.
 
 ## Searching the docs
 
@@ -53,3 +52,10 @@ https://www.remotion.dev/docs/lambda/rendermediaonlambda.md
 2. Pick the most relevant URL(s) from the results.
 3. Fetch each URL with the `.md` suffix.
 4. Implement using the current documentation rather than memorized API knowledge.
+
+## When to Use
+
+- Search Remotion documentation
+- Working with **Searching the docs**
+- Working with **Fetching a page as Markdown**
+- Working with **Workflow**

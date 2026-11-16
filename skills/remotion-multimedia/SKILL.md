@@ -1,13 +1,13 @@
 ---
 name: remotion-multimedia
 description: Interacting with Mediabunny
-version: 4.0.504
+version: 4.0.543
 risk: safe
 source: https://github.com/guanyang/antigravity-skills
 source_repo: guanyang/antigravity-skills
 source_type: community
 license: MIT
-date_added: "2026-08-03"
+date_added: '2026-08-03'
 ---
 
 Mediabunny is a multimedia library for dealing with audio and video in the browser.
@@ -24,3 +24,10 @@ See [get-video-dimensions.md](get-video-dimensions.md) for getting the width and
 ## Getting video duration
 
 See [get-video-duration.md](get-video-duration.md) for getting the duration of a video file in seconds with Mediabunny.
+
+## When to Use
+
+- Interacting with Mediabunny
+- Working with **Getting audio duration**
+- Working with **Getting video dimensions**
+- Working with **Getting video duration**

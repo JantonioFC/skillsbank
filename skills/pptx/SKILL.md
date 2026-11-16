@@ -1,494 +1,288 @@
 ---
 name: pptx
-description: 'Presentation creation, editing, and analysis. When Claude needs to work
-  with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying
-  or editing content, (3) Working with layouts, (4) Adding comments or speaker notes,
-  or any other presentation tasks'
+description: Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both.
 license: Proprietary. LICENSE.txt has complete terms
 risk: safe
 source: community
+source_repo: anthropics/skills
+source_type: official
+date_added: '2026-11-15'
 ---
+
 # PPTX creation, editing, and analysis
 
-## Overview
+A `.pptx` is a ZIP archive of XML files. Choose your approach by task:
 
-A user may ask you to create, edit, or analyze the contents of a .pptx file. A .pptx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.
+| Task | Approach |
+|---|---|
+| **Create** a new deck | Write a `pptxgenjs` script — see gotchas below — and build it as a [structured deck](#structured-decks) unless the user asks for a quick throwaway |
+| **Edit** an existing deck, or build from a template | unzip → edit `ppt/slides/slideN.xml` → zip |
+| **Read** content | `python scripts/slide_text.py deck.pptx` (one block per slide under `<!-- Slide number: N -->` markers); visual grid: `python scripts/thumbnail.py deck.pptx` |
 
-## Reading and analyzing content
+## Scripts
 
-### Text extraction
-If you just need to read the text contents of a presentation, you should convert the document to markdown:
+Paths are relative to this skill's directory. Everything else is plain Python, `node`, or shell.
 
-```bash
-# Convert document to markdown
-python -m markitdown path-to-file.pptx
-```
+| Script | What it does |
+|---|---|
+| `scripts/slide_text.py deck.pptx` | Every slide's title, text, tables, chart data (scatter and bubble charts: series names only), picture alt text and speaker notes, as markdown. Reads `.potx` too |
+| `scripts/thumbnail.py deck.pptx [prefix]` | Labeled grid of every slide, for picking template layouts. `.pptx` only. Pass `prefix` — it defaults to `thumbnails`, which overwrites the grids of any other deck done in the same directory |
+| `scripts/add_slide.py unpacked/ slide2.xml [--after slideN.xml]` | Duplicate a slide (or a `slideLayoutN.xml`) with all the package bookkeeping. Also takes a `.pptx` directly with `-o out.pptx` |
+| `scripts/clean.py unpacked/` | Delete slides, media, and rels no longer referenced. Run **after** `<p:sldIdLst>` is final |
+| `scripts/apply_theme.js` | Node module: `const { applyTheme } = require("<this skill's directory>/scripts/apply_theme.js")`. `await applyTheme("deck.pptx", THEME)` after `pres.writeFile()` writes `THEME`'s colors and name (escaped for XML) into the deck's theme, for [structured decks](#structured-decks). Also a CLI: `node scripts/apply_theme.js deck.pptx theme.json` |
+| `scripts/office/validate.py deck.pptx [--original src.pptx]` | Schema, relationship, content-type, chart and slide checks; each failure names its fix. Pass `--original` for any template-derived deck — it baselines the schema checks against the template, so the template's own XSD errors don't read as yours |
+| `scripts/office/soffice.py --headless --convert-to pdf deck.pptx` | LibreOffice wrapper — bare `soffice` hangs in this sandbox |
 
-### Raw XML access
-You need raw XML access for: comments, speaker notes, slide layouts, animations, design elements, and complex formatting. For any of these features, you'll need to unpack a presentation and read its raw XML contents.
+## Creating with pptxgenjs — gotchas
 
-#### Unpacking a file
-`python ooxml/scripts/unpack.py <office_file> <output_dir>`
+`pptxgenjs` is preinstalled — do not run `npm install` first; write the script and `require('pptxgenjs')` directly. Only if that require fails: `npm install pptxgenjs`. The model knows the API; these are the footguns:
 
-**Note**: The unpack.py script is located at `skills/pptx/ooxml/scripts/unpack.py` relative to the project root. If the script doesn't exist at this path, use `find . -name "unpack.py"` to locate it.
+- **Set `pres.layout` before adding slides.** The default canvas is `LAYOUT_16x9` = **10" × 5.625"**, not 13.3" wide. Coordinates past the edge are written, not clamped — the shape just isn't on the slide. (`LAYOUT_WIDE` is 13.3" × 7.5".)
+- **Hex colors: never `#`, never 8 digits.** `color: "FF0000"`. Both `"#FF0000"` and alpha baked into the hex (`"00000020"`) **corrupt the file**. For translucency: `transparency: 0-100` on fills and images, `opacity: 0.0-1.0` on shadows — each is silently ignored on the other.
+- **pptxgenjs mutates option objects in place** (converts values to EMU on first use). Never share one `shadow`/options object across two `add*` calls — build a fresh object each time.
+- **Shadow `offset` must be ≥ 0** — a negative offset corrupts the file. To cast a shadow upward, use `angle: 270` with a positive offset.
+- **`letterSpacing` is silently ignored** — the real option is `charSpacing`.
+- **Lists:** `bullet: true` on each item, never a literal `•` (renders double bullets). Set `breakLine: true` on every array item except the last. Space bulleted paragraphs with `paraSpaceAfter`, not `lineSpacing` (huge gaps).
+- **One `new pptxgen()` per output file** — never reuse an instance.
+- **`rectRadius` only works on `ROUNDED_RECTANGLE`**, not `RECTANGLE`.
+- **Gradient fills aren't supported** — use a gradient image as the background instead.
+- **Every `addText` call without a `placeholder` needs `isTextBox: true`** — without it the shape lacks `txBox="1"`, so screen readers announce the text as a "graphic" instead of a text box. No visual change.
+- **Text boxes have built-in internal padding** — set `margin: 0` whenever text must align with a shape, line, or icon at the same x.
+- **Speaker notes go in `slide.addNotes("...")`** (plain text, once per slide), never in a text box on the slide.
+- **Keep charts native.** Use `addChart()` for everything PowerPoint can chart (pass an array of `{type, data, options}` for combos). For PowerPoint-native features the library doesn't expose (trendlines, error bars), compute the extra series yourself or post-process the generated OOXML — do not fall back to a rendered image. Only chart types PowerPoint has no native form for (Sankey, network, chord) go in as images.
+- **Default charts render bare** — no title, no data labels, dated palette. Set `showTitle` + `title`, `showValue: true` + `dataLabelPosition`, `chartColors: [...]` from your palette, and quiet the frame (`catAxisLabelColor`/`valAxisLabelColor`, `valGridLine: { color, size }`, `catGridLine: { style: "none" }`, `showLegend: false` for a single series).
+- **On a stacked bar or column chart, `dataLabelPosition` must be `ctr`, `inEnd`, or `inBase`.** `outEnd` **corrupts the file**.
+- **A combo series using `secondaryValAxis`/`secondaryCatAxis` needs both `valAxes` and `catAxes` on the chart options, two entries each.** Without them pptxgenjs writes axis *ids* it never declares, and PowerPoint **discards that chart** and reports the file as corrupt. Supplying only `valAxes` is not enough.
+- **After `writeFile()`, run `python scripts/office/validate.py deck.pptx`.** It reports many of the chart and slide-XML faults PowerPoint refuses or repairs, the two above among them, and names the fix for each. Fix them in your generator, not by hand-editing the packed XML.
+- **Never reorder the children of `<p:presentation>`.** pptxgenjs writes `<p:notesMasterIdLst>` right after `<p:sldIdLst>` and points both masters at one theme part. PowerPoint reads that happily — move the element and the same deck becomes unopenable.
+- **Icons:** render `react-icons` to SVG (`ReactDOMServer.renderToStaticMarkup`), rasterize with `sharp` at ≥256px, and insert via `addImage({ data: "image/png;base64," + buf.toString("base64") })` — the `image/png;base64,` prefix is required (`react-icons`, `react`, `react-dom`, and `sharp` are preinstalled — `npm install react-icons react react-dom sharp` only if a require fails).
+- **`defineSlideMaster()` creates a slide *layout*, not a master** — one `slideLayoutN.xml` per call, under a single master you cannot change. Call them layouts when talking to the user.
+- **`pres.company` and a `defineSlideMaster()` `title` are written into the XML unescaped** — an `&` in either (`"Harrow & Sons"`) leaves `docProps/app.xml` or the layout unparseable, and `validate.py` fails. Write `&amp;` there, and in the matching `masterName`. `title`, `subject`, `author`, section titles, `objectName`, notes and slide text are escaped for you.
 
-#### Key file structures
-* `ppt/presentation.xml` - Main presentation metadata and slide references
-* `ppt/slides/slide{N}.xml` - Individual slide contents (slide1.xml, slide2.xml, etc.)
-* `ppt/notesSlides/notesSlide{N}.xml` - Speaker notes for each slide
-* `ppt/comments/modernComment_*.xml` - Comments for specific slides
-* `ppt/slideLayouts/` - Layout templates for slides
-* `ppt/slideMasters/` - Master slide templates
-* `ppt/theme/` - Theme and styling information
-* `ppt/media/` - Images and other media files
+### Structured decks
 
-#### Typography and color extraction
-**When given an example design to emulate**: Always analyze the presentation's typography and colors first using the methods below:
-1. **Read theme file**: Check `ppt/theme/theme1.xml` for colors (`<a:clrScheme>`) and fonts (`<a:fontScheme>`)
-2. **Sample slide content**: Examine `ppt/slides/slide1.xml` for actual font usage (`<a:rPr>`) and colors
-3. **Search for patterns**: Use grep to find color (`<a:solidFill>`, `<a:srgbClr>`) and font references across all XML files
+A deck built on a theme, layouts, placeholders and sections can be restyled in one place and edited in PowerPoint without fighting it. Build every new deck this way unless the user asks for a quick throwaway.
 
-## Creating a new PowerPoint presentation **without a template**
+1. **Theme first:** `const THEME = { name, headFontFace, bodyFontFace, colors: { dk1, lt1, dk2, lt2, accent1 … accent6, hlink, folHlink } }`, colors in hex. `pres.theme` takes the two fonts and nothing else. Name no font after that — titles get the heading font, other text the body font — except on chart text, which is hard-coded Arial: give its `*FontFace` options `"+mn-lt"` (theme body font; `"+mj-lt"` is the heading font).
+2. **`const C = pres.SchemeColor` for every color** — `C.text1`/`C.text2` are `dk1`/`dk2`, `C.background1`/`C.background2` are `lt1`/`lt2`. These take hex only, read from `THEME`: `valGridLine.color`, `catGridLine.color`, `shadow.color`, and on a one-series bar chart `invertedColors` or more than one `chartColors`. A scheme color there is written as `<a:srgbClr val="bg2"/>` without complaint, and being hex, these will not follow a later change of theme.
+3. **Sections:** `pres.addSection({ title })` just before that section's first slide, then `sectionTitle` on every `addSlide`. A slide without one — or, when sections are all declared up front, a table's auto-paged continuation slides — lands in a stray "Default-N" section.
+4. **One layout per slide frame** (`defineSlideMaster()`): title, section divider, title only, chart + commentary, table; dark and light variants if the design alternates. Text regions are named placeholders carrying position, size, weight and `color` — chart, image and table placeholders need a `color` too, or prompt text and arrays of runs come out hard-coded `000000`. Footer text, logo and `slideNumber` go on the layout, never on a slide.
+5. **Fill by name:** `addSlide({ masterName, sectionTitle })`, then `addText("…", { placeholder: "title" })` with no position, size or color — the placeholder's own options win, and anything it doesn't set (italic, `align`, `fontFace`) still applies; style one run with `[{ text, options }]`. A misspelt `placeholder` or `masterName` fails silently (a stray text box at 0,0; the blank layout). Only `title`, `body` and `chart` placeholders fill by name alone: `addImage({ placeholder })` takes the placeholder's x and y but not its size (a 1" × 1" picture) — pass `w`/`h` too. `addTable({ placeholder })` takes its x and y only — always pass `w`; when it auto-pages it ignores the placeholder and runs off the slide, so also pass `x`, `y` and `autoPageSlideStartY` (same as `y`, or continuation pages are laid out from the top margin), give the layout a `margin` whose bottom clears the footer, and fill the continuation slides' titles through `slide.newAutoPagedSlides`.
+6. **A layout is the frame, not the "layout" Design Ideas means.** Cards, icons, stat callouts and images are still composed slide by slide on top of it, in scheme colors, each with an `objectName` — every Design Idea applies, and most content slides sit on the title-only layout.
+7. **Write, then apply the theme:** `await pres.writeFile({ fileName: "deck.pptx" })`, then `await applyTheme("deck.pptx", THEME)`. pptxgenjs cannot write theme colors: until this runs, scheme colors resolve to Office's stock palette. It throws, changing nothing, on a scheme color in a hex-only option — fix what it names and rebuild.
 
-When creating a new PowerPoint presentation from scratch, use the **html2pptx** workflow to convert HTML slides to PowerPoint with accurate positioning.
+## Editing existing decks and templates
 
-### Design Principles
-
-**CRITICAL**: Before creating any presentation, analyze the content and choose appropriate design elements:
-1. **Consider the subject matter**: What is this presentation about? What tone, industry, or mood does it suggest?
-2. **Check for branding**: If the user mentions a company/organization, consider their brand colors and identity
-3. **Match palette to content**: Select colors that reflect the subject
-4. **State your approach**: Explain your design choices before writing code
-
-**Requirements**:
-- ✅ State your content-informed design approach BEFORE writing code
-- ✅ Use web-safe fonts only: Arial, Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Impact
-- ✅ Create clear visual hierarchy through size, weight, and color
-- ✅ Ensure readability: strong contrast, appropriately sized text, clean alignment
-- ✅ Be consistent: repeat patterns, spacing, and visual language across slides
-
-#### Color Palette Selection
-
-**Choosing colors creatively**:
-- **Think beyond defaults**: What colors genuinely match this specific topic? Avoid autopilot choices.
-- **Consider multiple angles**: Topic, industry, mood, energy level, target audience, brand identity (if mentioned)
-- **Be adventurous**: Try unexpected combinations - a healthcare presentation doesn't have to be green, finance doesn't have to be navy
-- **Build your palette**: Pick 3-5 colors that work together (dominant colors + supporting tones + accent)
-- **Ensure contrast**: Text must be clearly readable on backgrounds
-
-**Example color palettes** (use these to spark creativity - choose one, adapt it, or create your own):
-
-1. **Classic Blue**: Deep navy (#1C2833), slate gray (#2E4053), silver (#AAB7B8), off-white (#F4F6F6)
-2. **Teal & Coral**: Teal (#5EA8A7), deep teal (#277884), coral (#FE4447), white (#FFFFFF)
-3. **Bold Red**: Red (#C0392B), bright red (#E74C3C), orange (#F39C12), yellow (#F1C40F), green (#2ECC71)
-4. **Warm Blush**: Mauve (#A49393), blush (#EED6D3), rose (#E8B4B8), cream (#FAF7F2)
-5. **Burgundy Luxury**: Burgundy (#5D1D2E), crimson (#951233), rust (#C15937), gold (#997929)
-6. **Deep Purple & Emerald**: Purple (#B165FB), dark blue (#181B24), emerald (#40695B), white (#FFFFFF)
-7. **Cream & Forest Green**: Cream (#FFE1C7), forest green (#40695B), white (#FCFCFC)
-8. **Pink & Purple**: Pink (#F8275B), coral (#FF574A), rose (#FF737D), purple (#3D2F68)
-9. **Lime & Plum**: Lime (#C5DE82), plum (#7C3A5F), coral (#FD8C6E), blue-gray (#98ACB5)
-10. **Black & Gold**: Gold (#BF9A4A), black (#000000), cream (#F4F6F6)
-11. **Sage & Terracotta**: Sage (#87A96B), terracotta (#E07A5F), cream (#F4F1DE), charcoal (#2C2C2C)
-12. **Charcoal & Red**: Charcoal (#292929), red (#E33737), light gray (#CCCBCB)
-13. **Vibrant Orange**: Orange (#F96D00), light gray (#F2F2F2), charcoal (#222831)
-14. **Forest Green**: Black (#191A19), green (#4E9F3D), dark green (#1E5128), white (#FFFFFF)
-15. **Retro Rainbow**: Purple (#722880), pink (#D72D51), orange (#EB5C18), amber (#F08800), gold (#DEB600)
-16. **Vintage Earthy**: Mustard (#E3B448), sage (#CBD18F), forest green (#3A6B35), cream (#F4F1DE)
-17. **Coastal Rose**: Old rose (#AD7670), beaver (#B49886), eggshell (#F3ECDC), ash gray (#BFD5BE)
-18. **Orange & Turquoise**: Light orange (#FC993E), grayish turquoise (#667C6F), white (#FCFCFC)
-
-#### Visual Details Options
-
-**Geometric Patterns**:
-- Diagonal section dividers instead of horizontal
-- Asymmetric column widths (30/70, 40/60, 25/75)
-- Rotated text headers at 90° or 270°
-- Circular/hexagonal frames for images
-- Triangular accent shapes in corners
-- Overlapping shapes for depth
-
-**Border & Frame Treatments**:
-- Thick single-color borders (10-20pt) on one side only
-- Double-line borders with contrasting colors
-- Corner brackets instead of full frames
-- L-shaped borders (top+left or bottom+right)
-- Underline accents beneath headers (3-5pt thick)
-
-**Typography Treatments**:
-- Extreme size contrast (72pt headlines vs 11pt body)
-- All-caps headers with wide letter spacing
-- Numbered sections in oversized display type
-- Monospace (Courier New) for data/stats/technical content
-- Condensed fonts (Arial Narrow) for dense information
-- Outlined text for emphasis
-
-**Chart & Data Styling**:
-- Monochrome charts with single accent color for key data
-- Horizontal bar charts instead of vertical
-- Dot plots instead of bar charts
-- Minimal gridlines or none at all
-- Data labels directly on elements (no legends)
-- Oversized numbers for key metrics
-
-**Layout Innovations**:
-- Full-bleed images with text overlays
-- Sidebar column (20-30% width) for navigation/context
-- Modular grid systems (3×3, 4×4 blocks)
-- Z-pattern or F-pattern content flow
-- Floating text boxes over colored shapes
-- Magazine-style multi-column layouts
-
-**Background Treatments**:
-- Solid color blocks occupying 40-60% of slide
-- Gradient fills (vertical or diagonal only)
-- Split backgrounds (two colors, diagonal or vertical)
-- Edge-to-edge color bands
-- Negative space as a design element
-
-### Layout Tips
-**When creating slides with charts or tables:**
-- **Two-column layout (PREFERRED)**: Use a header spanning the full width, then two columns below - text/bullets in one column and the featured content in the other. This provides better balance and makes charts/tables more readable. Use flexbox with unequal column widths (e.g., 40%/60% split) to optimize space for each content type.
-- **Full-slide layout**: Let the featured content (chart/table) take up the entire slide for maximum impact and readability
-- **NEVER vertically stack**: Do not place charts/tables below text in a single column - this causes poor readability and layout issues
-
-### Workflow
-1. **MANDATORY - READ ENTIRE FILE**: Read [`html2pptx.md`](html2pptx.md) completely from start to finish. **NEVER set any range limits when reading this file.** Read the full file content for detailed syntax, critical formatting rules, and best practices before proceeding with presentation creation.
-2. Create an HTML file for each slide with proper dimensions (e.g., 720pt × 405pt for 16:9)
-   - Use `<p>`, `<h1>`-`<h6>`, `<ul>`, `<ol>` for all text content
-   - Use `class="placeholder"` for areas where charts/tables will be added (render with gray background for visibility)
-   - **CRITICAL**: Rasterize gradients and icons as PNG images FIRST using Sharp, then reference in HTML
-   - **LAYOUT**: For slides with charts/tables/images, use either full-slide layout or two-column layout for better readability
-3. Create and run a JavaScript file using the [`html2pptx.js`](scripts/html2pptx.js) library to convert HTML slides to PowerPoint and save the presentation
-   - Use the `html2pptx()` function to process each HTML file
-   - Add charts and tables to placeholder areas using PptxGenJS API
-   - Save the presentation using `pptx.writeFile()`
-4. **Visual validation**: Generate thumbnails and inspect for layout issues
-   - Create thumbnail grid: `python scripts/thumbnail.py output.pptx workspace/thumbnails --cols 4`
-   - Read and carefully examine the thumbnail image for:
-     - **Text cutoff**: Text being cut off by header bars, shapes, or slide edges
-     - **Text overlap**: Text overlapping with other text or shapes
-     - **Positioning issues**: Content too close to slide boundaries or other elements
-     - **Contrast issues**: Insufficient contrast between text and backgrounds
-   - If issues found, adjust HTML margins/spacing/colors and regenerate the presentation
-   - Repeat until all slides are visually correct
-
-## Editing an existing PowerPoint presentation
-
-When edit slides in an existing PowerPoint presentation, you need to work with the raw Office Open XML (OOXML) format. This involves unpacking the .pptx file, editing the XML content, and repacking it.
-
-### Workflow
-1. **MANDATORY - READ ENTIRE FILE**: Read [`ooxml.md`](ooxml.md) (~500 lines) completely from start to finish.  **NEVER set any range limits when reading this file.**  Read the full file content for detailed guidance on OOXML structure and editing workflows before any presentation editing.
-2. Unpack the presentation: `python ooxml/scripts/unpack.py <office_file> <output_dir>`
-3. Edit the XML files (primarily `ppt/slides/slide{N}.xml` and related files)
-4. **CRITICAL**: Validate immediately after each edit and fix any validation errors before proceeding: `python ooxml/scripts/validate.py <dir> --original <file>`
-5. Pack the final presentation: `python ooxml/scripts/pack.py <input_directory> <office_file>`
-
-## Creating a new PowerPoint presentation **using a template**
-
-When you need to create a presentation that follows an existing template's design, you'll need to duplicate and re-arrange template slides before then replacing placeholder context.
-
-### Workflow
-1. **Extract template text AND create visual thumbnail grid**:
-   * Extract text: `python -m markitdown template.pptx > template-content.md`
-   * Read `template-content.md`: Read the entire file to understand the contents of the template presentation. **NEVER set any range limits when reading this file.**
-   * Create thumbnail grids: `python scripts/thumbnail.py template.pptx`
-   * See [Creating Thumbnail Grids](#creating-thumbnail-grids) section for more details
-
-2. **Analyze template and save inventory to a file**:
-   * **Visual Analysis**: Review thumbnail grid(s) to understand slide layouts, design patterns, and visual structure
-   * Create and save a template inventory file at `template-inventory.md` containing:
-     ```markdown
-     # Template Inventory Analysis
-     **Total Slides: [count]**
-     **IMPORTANT: Slides are 0-indexed (first slide = 0, last slide = count-1)**
-
-     ## [Category Name]
-     - Slide 0: [Layout code if available] - Description/purpose
-     - Slide 1: [Layout code] - Description/purpose
-     - Slide 2: [Layout code] - Description/purpose
-     [... EVERY slide must be listed individually with its index ...]
-     ```
-   * **Using the thumbnail grid**: Reference the visual thumbnails to identify:
-     - Layout patterns (title slides, content layouts, section dividers)
-     - Image placeholder locations and counts
-     - Design consistency across slide groups
-     - Visual hierarchy and structure
-   * This inventory file is REQUIRED for selecting appropriate templates in the next step
-
-3. **Create presentation outline based on template inventory**:
-   * Review available templates from step 2.
-   * Choose an intro or title template for the first slide. This should be one of the first templates.
-   * Choose safe, text-based layouts for the other slides.
-   * **CRITICAL: Match layout structure to actual content**:
-     - Single-column layouts: Use for unified narrative or single topic
-     - Two-column layouts: Use ONLY when you have exactly 2 distinct items/concepts
-     - Three-column layouts: Use ONLY when you have exactly 3 distinct items/concepts
-     - Image + text layouts: Use ONLY when you have actual images to insert
-     - Quote layouts: Use ONLY for actual quotes from people (with attribution), never for emphasis
-     - Never use layouts with more placeholders than you have content
-     - If you have 2 items, don't force them into a 3-column layout
-     - If you have 4+ items, consider breaking into multiple slides or using a list format
-   * Count your actual content pieces BEFORE selecting the layout
-   * Verify each placeholder in the chosen layout will be filled with meaningful content
-   * Select one option representing the **best** layout for each content section.
-   * Save `outline.md` with content AND template mapping that leverages available designs
-   * Example template mapping:
-      ```
-      # Template slides to use (0-based indexing)
-      # WARNING: Verify indices are within range! Template with 73 slides has indices 0-72
-      # Mapping: slide numbers from outline -> template slide indices
-      template_mapping = [
-          0,   # Use slide 0 (Title/Cover)
-          34,  # Use slide 34 (B1: Title and body)
-          34,  # Use slide 34 again (duplicate for second B1)
-          50,  # Use slide 50 (E1: Quote)
-          54,  # Use slide 54 (F2: Closing + Text)
-      ]
-      ```
-
-4. **Duplicate, reorder, and delete slides using `rearrange.py`**:
-   * Use the `scripts/rearrange.py` script to create a new presentation with slides in the desired order:
-     ```bash
-     python scripts/rearrange.py template.pptx working.pptx 0,34,34,50,52
-     ```
-   * The script handles duplicating repeated slides, deleting unused slides, and reordering automatically
-   * Slide indices are 0-based (first slide is 0, second is 1, etc.)
-   * The same slide index can appear multiple times to duplicate that slide
-
-5. **Extract ALL text using the `inventory.py` script**:
-   * **Run inventory extraction**:
-     ```bash
-     python scripts/inventory.py working.pptx text-inventory.json
-     ```
-   * **Read text-inventory.json**: Read the entire text-inventory.json file to understand all shapes and their properties. **NEVER set any range limits when reading this file.**
-
-   * The inventory JSON structure:
-      ```json
-        {
-          "slide-0": {
-            "shape-0": {
-              "placeholder_type": "TITLE",  // or null for non-placeholders
-              "left": 1.5,                  // position in inches
-              "top": 2.0,
-              "width": 7.5,
-              "height": 1.2,
-              "paragraphs": [
-                {
-                  "text": "Paragraph text",
-                  // Optional properties (only included when non-default):
-                  "bullet": true,           // explicit bullet detected
-                  "level": 0,               // only included when bullet is true
-                  "alignment": "CENTER",    // CENTER, RIGHT (not LEFT)
-                  "space_before": 10.0,     // space before paragraph in points
-                  "space_after": 6.0,       // space after paragraph in points
-                  "line_spacing": 22.4,     // line spacing in points
-                  "font_name": "Arial",     // from first run
-                  "font_size": 14.0,        // in points
-                  "bold": true,
-                  "italic": false,
-                  "underline": false,
-                  "color": "FF0000"         // RGB color
-                }
-              ]
-            }
-          }
-        }
-      ```
-
-   * Key features:
-     - **Slides**: Named as "slide-0", "slide-1", etc.
-     - **Shapes**: Ordered by visual position (top-to-bottom, left-to-right) as "shape-0", "shape-1", etc.
-     - **Placeholder types**: TITLE, CENTER_TITLE, SUBTITLE, BODY, OBJECT, or null
-     - **Default font size**: `default_font_size` in points extracted from layout placeholders (when available)
-     - **Slide numbers are filtered**: Shapes with SLIDE_NUMBER placeholder type are automatically excluded from inventory
-     - **Bullets**: When `bullet: true`, `level` is always included (even if 0)
-     - **Spacing**: `space_before`, `space_after`, and `line_spacing` in points (only included when set)
-     - **Colors**: `color` for RGB (e.g., "FF0000"), `theme_color` for theme colors (e.g., "DARK_1")
-     - **Properties**: Only non-default values are included in the output
-
-6. **Generate replacement text and save the data to a JSON file**
-   Based on the text inventory from the previous step:
-   - **CRITICAL**: First verify which shapes exist in the inventory - only reference shapes that are actually present
-   - **VALIDATION**: The replace.py script will validate that all shapes in your replacement JSON exist in the inventory
-     - If you reference a non-existent shape, you'll get an error showing available shapes
-     - If you reference a non-existent slide, you'll get an error indicating the slide doesn't exist
-     - All validation errors are shown at once before the script exits
-   - **IMPORTANT**: The replace.py script uses inventory.py internally to identify ALL text shapes
-   - **AUTOMATIC CLEARING**: ALL text shapes from the inventory will be cleared unless you provide "paragraphs" for them
-   - Add a "paragraphs" field to shapes that need content (not "replacement_paragraphs")
-   - Shapes without "paragraphs" in the replacement JSON will have their text cleared automatically
-   - Paragraphs with bullets will be automatically left aligned. Don't set the `alignment` property on when `"bullet": true`
-   - Generate appropriate replacement content for placeholder text
-   - Use shape size to determine appropriate content length
-   - **CRITICAL**: Include paragraph properties from the original inventory - don't just provide text
-   - **IMPORTANT**: When bullet: true, do NOT include bullet symbols (•, -, *) in text - they're added automatically
-   - **ESSENTIAL FORMATTING RULES**:
-     - Headers/titles should typically have `"bold": true`
-     - List items should have `"bullet": true, "level": 0` (level is required when bullet is true)
-     - Preserve any alignment properties (e.g., `"alignment": "CENTER"` for centered text)
-     - Include font properties when different from default (e.g., `"font_size": 14.0`, `"font_name": "Lora"`)
-     - Colors: Use `"color": "FF0000"` for RGB or `"theme_color": "DARK_1"` for theme colors
-     - The replacement script expects **properly formatted paragraphs**, not just text strings
-     - **Overlapping shapes**: Prefer shapes with larger default_font_size or more appropriate placeholder_type
-   - Save the updated inventory with replacements to `replacement-text.json`
-   - **WARNING**: Different template layouts have different shape counts - always check the actual inventory before creating replacements
-
-   Example paragraphs field showing proper formatting:
-   ```json
-   "paragraphs": [
-     {
-       "text": "New presentation title text",
-       "alignment": "CENTER",
-       "bold": true
-     },
-     {
-       "text": "Section Header",
-       "bold": true
-     },
-     {
-       "text": "First bullet point without bullet symbol",
-       "bullet": true,
-       "level": 0
-     },
-     {
-       "text": "Red colored text",
-       "color": "FF0000"
-     },
-     {
-       "text": "Theme colored text",
-       "theme_color": "DARK_1"
-     },
-     {
-       "text": "Regular paragraph text without special formatting"
-     }
-   ]
-   ```
-
-   **Shapes not listed in the replacement JSON are automatically cleared**:
-   ```json
-   {
-     "slide-0": {
-       "shape-0": {
-         "paragraphs": [...] // This shape gets new text
-       }
-       // shape-1 and shape-2 from inventory will be cleared automatically
-     }
-   }
-   ```
-
-   **Common formatting patterns for presentations**:
-   - Title slides: Bold text, sometimes centered
-   - Section headers within slides: Bold text
-   - Bullet lists: Each item needs `"bullet": true, "level": 0`
-   - Body text: Usually no special properties needed
-   - Quotes: May have special alignment or font properties
-
-7. **Apply replacements using the `replace.py` script**
-   ```bash
-   python scripts/replace.py working.pptx replacement-text.json output.pptx
-   ```
-
-   The script will:
-   - First extract the inventory of ALL text shapes using functions from inventory.py
-   - Validate that all shapes in the replacement JSON exist in the inventory
-   - Clear text from ALL shapes identified in the inventory
-   - Apply new text only to shapes with "paragraphs" defined in the replacement JSON
-   - Preserve formatting by applying paragraph properties from the JSON
-   - Handle bullets, alignment, font properties, and colors automatically
-   - Save the updated presentation
-
-   Example validation errors:
-   ```
-   ERROR: Invalid shapes in replacement JSON:
-     - Shape 'shape-99' not found on 'slide-0'. Available shapes: shape-0, shape-1, shape-4
-     - Slide 'slide-999' not found in inventory
-   ```
-
-   ```
-   ERROR: Replacement text made overflow worse in these shapes:
-     - slide-0/shape-2: overflow worsened by 1.25" (was 0.00", now 1.25")
-   ```
-
-## Creating Thumbnail Grids
-
-To create visual thumbnail grids of PowerPoint slides for quick analysis and reference:
+Pick layouts first: `python scripts/thumbnail.py template.pptx template-thumbs` writes a labeled grid of every slide and prints the file(s) it created — `template-thumbs.jpg`, split into `template-thumbs-N.jpg` past 12 slides. **Always pass that second argument, named after the deck.** It defaults to `thumbnails`, so two decks thumbnailed in one directory silently overwrite each other's grids — the first deck's are simply gone (template analysis only — visual QA needs the full-resolution renders from [Converting to Images](#converting-to-images); it only accepts `.pptx`, so copy a `.potx` to a `.pptx` name first). Use it with `slide_text.py` to map each content section onto a template slide, and vary the layouts — don't put every section on the same title-and-bullets slide.
 
 ```bash
-python scripts/thumbnail.py template.pptx [output_prefix]
+python3 -c "import sys,zipfile; zipfile.ZipFile(sys.argv[1]).extractall('unpacked')" deck.pptx
+python scripts/add_slide.py unpacked/ slide2.xml --after slide2.xml   # duplicate a slide (or slideLayoutN.xml); prints the new slide's path
+# reorder / delete slides = edit <p:sldIdLst> in ppt/presentation.xml
+python scripts/clean.py unpacked/                                     # after deletions: removes orphaned slides, media, rels
+# edit slide content in ppt/slides/slideN.xml
+(cd unpacked && rm -f ../out.pptx && zip -XrD ../out.pptx .)          # zip from INSIDE the dir; rm first or deleted parts survive
+python scripts/office/validate.py out.pptx --original deck.pptx
 ```
 
-**Features**:
-- Creates: `thumbnails.jpg` (or `thumbnails-1.jpg`, `thumbnails-2.jpg`, etc. for large decks)
-- Default: 5 columns, max 30 slides per grid (5×6)
-- Custom prefix: `python scripts/thumbnail.py template.pptx my-grid`
-  - Note: The output prefix should include the path if you want output in a specific directory (e.g., `workspace/my-grid`)
-- Adjust columns: `--cols 4` (range: 3-6, affects slides per grid)
-- Grid limits: 3 cols = 12 slides/grid, 4 cols = 20, 5 cols = 30, 6 cols = 42
-- Slides are zero-indexed (Slide 0, Slide 1, etc.)
+- **Do all structural work — add, delete, reorder — before editing any slide's content.** `add_slide.py` copies a slide file verbatim, so duplicating after you edit clones the edited content; and `clean.py` deletes any slide missing from `<p:sldIdLst>`, including one you just wrote.
+- **Never copy a slide file by hand** — `add_slide.py` does every registration a new slide needs and reports what it made (`Created ppt/slides/slide17.xml from slide2.xml`). It also works directly on a file: `add_slide.py deck.pptx slide2.xml -o out.pptx` — **pass `-o`, or it rewrites the input deck in place.** A duplicated slide still *references* its source's chart/SmartArt/embedded-object parts rather than cloning them, so editing one slide's chart changes the other's.
+- **If you use `python-pptx`**, three things it won't do: duplicate a slide (its only entry point is `add_slide(layout)`), preserve formatting through `text_frame.text = "..."` (that collapses the paragraph to a single unstyled run — assign `run.text` instead), or read the SVG/EMF most template art uses (`add_picture` raises `UnidentifiedImageError`).
+- Legacy `.ppt` must be converted first: `python scripts/office/soffice.py --headless --convert-to pptx file.ppt`. `.potx` templates unpack and pack identically — keep the `.potx` extension on the output.
+- To reuse a template icon or image, duplicate a slide or layout that already contains it.
 
-**Use cases**:
-- Template analysis: Quickly understand slide layouts and design patterns
-- Content review: Visual overview of entire presentation
-- Navigation reference: Find specific slides by their visual appearance
-- Quality check: Verify all slides are properly formatted
+When filling in a template:
 
-**Examples**:
+- If you script an XML transform, parse with `defusedxml.minidom` — round-tripping OOXML through `xml.etree.ElementTree` rewrites namespace prefixes and corrupts the deck.
+- **Template slots ≠ source items.** If the template shows 4 team members and you have 3, delete the 4th member's entire group (image + text boxes), not just its text — then check for orphaned visuals in QA.
+- One `<a:p>` per list item — never concatenate items into a single paragraph. Copy the sibling `<a:pPr>` to preserve spacing, and put `b="1"` on the `<a:rPr>` of titles, section headers, and inline labels (`Status:`, `Owner:`).
+- Let bullets inherit from the layout; only add `<a:buChar>`, `<a:buAutoNum>` (numbered), or `<a:buNone>` to override — never a literal `•` in the text.
+- Text with leading or trailing spaces needs `xml:space="preserve"` on its `<a:t>`.
+
+## Deck content and flow
+
+- **One message per slide.** A deck goes theme by theme, message by message.
+- **A common structure is the pyramid:** the main message up front, an executive summary that previews the sections, the sections themselves, then a conclusion, usually with next steps that act on the findings.
+- **Match the structure to the size of the deck.** A short deck might not need an introduction and a conclusion; a long deck might need dividers between topics.
+- **Build toward what the deck is for:** a decision, consensus, a celebration, resolving a disagreement, or opening a discussion.
+- **Build for how it will be used.** A live deck gets narration and possibly discussion; a pre-read has to carry the whole narrative itself. An executive audience in a live meeting needs few words and highly visual slides. Detailed, word-heavy slides are sometimes right for subject-matter experts or for a deck read offline. Analytical reports lean on charts and tables.
+- **Size a live deck to the talk:** about 1.5 to 2 minutes per slide, with time left for questions if there will be any.
+
+## Design Ideas
+
+**Don't create boring slides.** Plain bullets on a white background won't impress anyone. Consider ideas from this list for each slide.
+
+### Before Starting
+
+- **Pick a bold, content-informed color palette**: The palette should feel designed for THIS topic. If swapping your colors into a completely different presentation would still "work," you haven't made specific enough choices.
+- **Dominance over equality**: One color should dominate (60-70% visual weight), with 1-2 supporting tones and one sharp accent. Never give all colors equal weight.
+- **Dark/light contrast**: Dark backgrounds for title + conclusion slides, light for content ("sandwich" structure). Or commit to dark throughout for a premium feel.
+- **Commit to a visual motif**: Pick ONE distinctive element and repeat it — rounded image frames, icons in colored circles. Carry it across every slide. **Do not use a color bar or accent stripe as your motif** (see Avoid list).
+
+### Color Palettes
+
+Choose colors that match your topic — don't default to generic blue. Use these palettes as inspiration:
+
+| Theme | Primary | Secondary | Accent |
+|-------|---------|-----------|--------|
+| **Midnight Executive** | `1E2761` (navy) | `CADCFC` (ice blue) | `FFFFFF` (white) |
+| **Forest & Moss** | `2C5F2D` (forest) | `97BC62` (moss) | `F5F5F5` (cream) |
+| **Coral Energy** | `F96167` (coral) | `F9E795` (gold) | `2F3C7E` (navy) |
+| **Warm Terracotta** | `B85042` (terracotta) | `E7E8D1` (sand) | `A7BEAE` (sage) |
+| **Ocean Gradient** | `065A82` (deep blue) | `1C7293` (teal) | `21295C` (midnight) |
+| **Charcoal Minimal** | `36454F` (charcoal) | `F2F2F2` (off-white) | `212121` (black) |
+| **Teal Trust** | `028090` (teal) | `00A896` (seafoam) | `02C39A` (mint) |
+| **Berry & Cream** | `6D2E46` (berry) | `A26769` (dusty rose) | `ECE2D0` (cream) |
+| **Sage Calm** | `84B59F` (sage) | `69A297` (eucalyptus) | `50808E` (slate) |
+| **Cherry Bold** | `990011` (cherry) | `FCF6F5` (off-white) | `2F3C7E` (navy) |
+
+### For Each Slide
+
+**Every slide needs a visual element** — image, chart, icon, or shape. Text-only slides are forgettable.
+
+**Layout options:**
+- Two-column (text left, illustration on right)
+- Icon + text rows (icon in colored circle, bold header, description below)
+- 2x2 or 2x3 grid (image on one side, grid of content blocks on other)
+- Half-bleed image (full left or right side) with content overlay
+
+**Data display:**
+- Large stat callouts (big numbers 60-72pt with small labels below)
+- Comparison columns (before/after, pros/cons, side-by-side options)
+- Timeline or process flow (numbered steps, arrows)
+
+**Visual polish:**
+- Icons in small colored circles next to section headers
+- Italic accent text for key stats or taglines
+
+### Typography
+
+**Font names you write into the .pptx are rendered by the user's PowerPoint, not by this environment.** Your visual QA renders via LibreOffice, which substitutes fonts it doesn't have — and for some fonts the substitute has different widths, so your QA preview can show text overflow (or fit) that the real deck won't have. To keep your QA trustworthy:
+
+- **Safe fonts** (render true-to-width in QA *and* ship with Office): **Arial, Calibri, Cambria, Times New Roman, Courier New, Bookman Old Style, Century Schoolbook**. Use these for body text and anything where fit matters.
+- **Headers with personality at zero QA risk**: pair a safe-list serif header (Cambria, Bookman Old Style, Century Schoolbook) with a safe-list sans body (Calibri or Arial). You get visual contrast without giving up reliable overflow checks.
+- **If the user asks for a font outside the safe list** (e.g. Georgia or Trebuchet MS): use it where the user asked, but size those containers with extra slack (~10%) and don't trust QA text-fit on those elements — the preview of that font is approximate. If the user hasn't specified, prefer safe-list fonts for body text.
+- **QA-unreliable fonts** (substitute has different widths — overflow checks can be wrong): Georgia, Trebuchet MS, Impact, Arial Black, Garamond, Consolas, Palatino Linotype. Calibri Light substitution varies by environment; treat as QA-unreliable. Fine for titles/accents with slack; don't trust QA text-fit on these.
+- **Never default to Aptos** — Office's post-2023 default has no metric-compatible substitute here *and* is missing from older Office installs, so it's unreliable on both ends.
+
+| Element | Size |
+|---------|------|
+| Slide title | 36-44pt bold |
+| Section header | 20-24pt bold |
+| Body text | 14-16pt |
+| Captions | 10-12pt muted |
+
+### Spacing
+
+- 0.5" minimum margins
+- 0.3-0.5" between content blocks
+- Leave breathing room—don't fill every inch
+
+### Avoid (Common Mistakes)
+
+- **Don't repeat the same layout** — vary columns, cards, and callouts across slides
+- **Don't end a slide title with a period**
+- **Don't let titles drift between slides of the same type** — content slides with the title at the top put it at the same position, font, size, and alignment on every slide; a different slide type (a section divider with the title mid-slide) can place it differently
+- **Don't change how chart labels look from chart to chart** — axis and data labels use the same color, font, and size on every chart in the deck; vary one only where a chart needs it (a second axis, a highlighted series, a label sitting on a dark bar)
+- **Don't center body text** — left-align paragraphs and lists; center only titles
+- **Don't skimp on size contrast** — titles need 36pt+ to stand out from 14-16pt body
+- **Don't default to blue** — pick colors that reflect the specific topic
+- **Don't mix spacing randomly** — choose 0.3" or 0.5" gaps and use consistently
+- **Don't style one slide and leave the rest plain** — commit fully or keep it simple throughout
+- **Don't create text-only slides** — add images, icons, charts, or visual elements; avoid plain title + bullets
+- **Don't forget text box padding** — when aligning lines or shapes with text edges, set `margin: 0` on the text box or offset the shape to account for padding
+- **Don't use low-contrast elements** — icons AND text need strong contrast against the background; avoid light text on light backgrounds or dark text on dark backgrounds
+- **NEVER use accent lines under titles** — these are a hallmark of AI-generated slides; use whitespace or background color instead
+- **NEVER add decorative color bars or accent stripes** — this includes: header/footer bars spanning the slide width, vertical sidebar stripes down one edge of the slide, thin accent stripes along one edge of a card or content block, and "single-side borders" on rectangles. These read as AI-generated filler. If you want to set a card apart, use a subtle background tint, a drop shadow, or an icon — not an edge stripe.
+- **Don't default to cream/beige backgrounds** — when no background is specified, use white (`FFFFFF`) or the user's brand palette; avoid warm-neutral defaults like `F5F5DC`, `FAF0E6`, `FAEBD7`, `FFF8E1`
+- **Don't ship text that overflows its shape** — if text doesn't fit, reduce font size, split across slides, or enlarge the container; never leave content cut off or spilling past bounds. **Don't shrink below the sizes in the Typography table** (body text 14pt, captions 10pt) in a deck you create — once you reach that floor, cut words, enlarge the container, or split the slide instead; when editing an existing deck or template, match its sizes
+
+## QA (Required)
+
+Your first render usually has a few real issues — overlaps, overflow, misalignment. Find and fix those, re-render only the slides you changed, and stop.
+
+### Content QA (required)
+
 ```bash
-# Basic usage
-python scripts/thumbnail.py presentation.pptx
-
-# Combine options: custom name, columns
-python scripts/thumbnail.py template.pptx analysis --cols 4
+python scripts/slide_text.py output.pptx
 ```
 
-## Converting Slides to Images
+Check for missing content, typos, wrong order.
 
-To visually analyze PowerPoint slides, convert them to images using a two-step process:
+**When using templates, check for leftover placeholder text:**
 
-1. **Convert PPTX to PDF**:
-   ```bash
-   soffice --headless --convert-to pdf template.pptx
-   ```
-
-2. **Convert PDF pages to JPEG images**:
-   ```bash
-   pdftoppm -jpeg -r 150 template.pdf slide
-   ```
-   This creates files like `slide-1.jpg`, `slide-2.jpg`, etc.
-
-Options:
-- `-r 150`: Sets resolution to 150 DPI (adjust for quality/size balance)
-- `-jpeg`: Output JPEG format (use `-png` for PNG if preferred)
-- `-f N`: First page to convert (e.g., `-f 2` starts from page 2)
-- `-l N`: Last page to convert (e.g., `-l 5` stops at page 5)
-- `slide`: Prefix for output files
-
-Example for specific range:
 ```bash
-pdftoppm -jpeg -r 150 -f 2 -l 5 template.pdf slide  # Converts only pages 2-5
+python scripts/slide_text.py output.pptx | grep -iE "\bx{3,}\b|lorem|ipsum|\bTODO|\[insert|this.*(page|slide).*layout"
 ```
 
-## Code Style Guidelines
-**IMPORTANT**: When generating code for PPTX operations:
-- Write concise code
-- Avoid verbose variable names and redundant operations
-- Avoid unnecessary print statements
+If grep returns results, fix them before declaring success.
+
+### File QA (required)
+
+```bash
+python scripts/office/validate.py output.pptx                      # built from scratch
+python scripts/office/validate.py output.pptx --original src.pptx  # built from a template
+```
+
+**If the deck came from a template, always pass `--original`.** A template may itself
+contain parts the XSD rejects, so a bare run can report failures you never caused — and
+a genuine regression can hide among them. `--original` baselines
+the schema and slide checks against the template, suppressing errors it already had.
+The structural checks — relationships, content types, charts — ignore `--original` and
+report template-inherited problems either way, so read those on their own merits.
+
+pptxgenjs emits chart XML PowerPoint refuses to open, and every other tool
+accepts: python-pptx opens those decks, LibreOffice renders them, the XSD
+passes them. Every failure names its fix. Fix it in the generator and rebuild.
+
+**A pass is not proof of a valid file:** `validate.py` does not catch everything PowerPoint repairs (a chart element repeated past its limit passes); when you delete an animated shape from a template slide, delete the slide's `<p:timing>` element too (its animations go with it), or PowerPoint offers to repair the deck.
+
+### Visual QA (required)
+
+Convert the slides to images (see [Converting to Images](#converting-to-images)) and inspect every one. After staring at the generating code you tend to see what you expect rather than what rendered, so look at the images fresh (a subagent works well for this if you have one). User-visible defects to look for:
+
+- **Text overflow or text cut off at a box or slide boundary — check this first.** It is the most common defect and always user-visible. (For a font the previewer renders unreliably per Typography, the preview is approximate: trust the ~10% slack you left, not its apparent fit.)
+- Overlapping elements (text through shapes, lines through words, stacked elements)
+- Source citations or footers colliding with content above
+- Elements too close (< 0.3" gaps) or cards/sections nearly touching
+- Uneven gaps (large empty area in one place, cramped in another)
+- Insufficient margin from slide edges (< 0.5")
+- Columns or similar elements not aligned consistently
+- Low-contrast text (e.g., light gray text on cream-colored background)
+- Template decoration mispositioned after text replacement — e.g., a title underline positioned for one line, but the replaced title wrapped to two
+- Low-contrast icons (e.g., dark icons on dark backgrounds without a contrasting circle)
+- Text boxes too narrow causing excessive wrapping
+- Titles at different heights, or chart labels that look different from chart to chart, across slides of the same type — compare slides with each other, not only each slide with itself
+- A word or number broken across two lines — a word split mid-word, or a figure separated from its unit ("26" on one line, "M" on the next)
+- Leftover placeholder content
+
+## Converting to Images
+
+Convert presentations to individual slide images for visual inspection:
+
+```bash
+python scripts/office/soffice.py --headless --convert-to pdf output.pptx
+rm -f slide-*.jpg
+pdftoppm -jpeg -r 150 output.pdf slide
+ls -1 "$PWD"/slide-*.jpg
+```
+
+**Pass the absolute paths printed above directly to the view tool.** The `rm` clears stale images from prior runs. `pdftoppm` zero-pads based on page count: `slide-1.jpg` for decks under 10 pages, `slide-01.jpg` for 10-99, `slide-001.jpg` for 100+.
+
+**After fixes, rerun all four commands above** — the PDF must be regenerated from the edited `.pptx` before `pdftoppm` can reflect your changes.
 
 ## Dependencies
 
-Required dependencies (should already be installed):
+`pptxgenjs` (npm, preinstalled — install only if `require('pptxgenjs')` fails) · `python-pptx`, `Pillow`, `defusedxml`, `lxml` (pip — slide_text, thumbnail, clean, validate) · LibreOffice (`soffice`, auto-configured for sandboxed environments via `scripts/office/soffice.py`) · `pdftoppm` (Poppler)
 
-- **markitdown**: `pip install "markitdown[pptx]"` (for text extraction from presentations)
-- **pptxgenjs**: `npm install -g pptxgenjs` (for creating presentations via html2pptx)
-- **playwright**: `npm install -g playwright` (for HTML rendering in html2pptx)
-- **react-icons**: `npm install -g react-icons react react-dom` (for icons)
-- **sharp**: `npm install -g sharp` (for SVG rasterization and image processing)
-- **LibreOffice**: `sudo apt-get install libreoffice` (for PDF conversion)
-- **Poppler**: `sudo apt-get install poppler-utils` (for pdftoppm to convert PDF to images)
-- **defusedxml**: `pip install defusedxml` (for secure XML parsing)
+## Activation Triggers
+
+This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions "deck," "slides," "presentation," or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.
 
 ## When to Use
 
-Presentation creation, editing, and analysis.
-
-Covers: PPTX creation, editing, and analysis, Reading and analyzing content, Text extraction, Convert document to markdown, Raw XML access.
+- Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both.
+- Working with **Scripts**
+- Working with **Creating with pptxgenjs — gotchas**
+- Working with **Editing existing decks and templates**
+- Working with **Deck content and flow**
